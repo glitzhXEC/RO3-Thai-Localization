@@ -44,7 +44,16 @@ jobs:
         with:
           dotnet-version: '8.0.x'
       - name: Build data-only updater and offline payload
-        run: python scripts/build_partial_payload.py
+        shell: pwsh
+        run: |
+          python scripts/build_partial_payload.py *> build-payload.log
+          $code = $LASTEXITCODE
+          Get-Content build-payload.log | Select-Object -Last 70
+          if ($code -ne 0) {
+            $detail = ((Get-Content build-payload.log | Select-Object -Last 40) -join "`n").Replace('%','%25').Replace("`r",'%0D').Replace("`n",'%0A')
+            Write-Output "::error::$detail"
+            exit $code
+          }
       - name: Verify install and uninstall on Windows
         run: dotnet run --project tests/Installer.Core.Tests -c Release -- .
       - name: Publish single-file Windows Alpha
