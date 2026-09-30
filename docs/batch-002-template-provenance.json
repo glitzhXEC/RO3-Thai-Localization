@@ -1,0 +1,1852 @@
+[
+  {
+    "ID": "10220300000",
+    "English": "Strength +${1}, Dexterity +${2}, Intelligence +${3}.",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300002",
+    "English": "Agility +${1}, Attack Speed +${2}%, Movement Speed +${3}%.",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300003",
+    "English": "Physical DEF +${1} and Max Life +${2}.",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300004",
+    "English": "Agility -${1} and Movement Speed -${2}%.",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300008",
+    "English": "MP Recovery Speed +${1}% and Magic ATK +${2}.",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300009",
+    "English": "LUK increases by ${1}.",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300014",
+    "English": "Increases Cast Speed by ${1}.",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300017",
+    "English": "Holy damage +${1}%.",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300019",
+    "English": "Attack Speed +${1}%.",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300031",
+    "English": "Gain ${1}% Holy damage.",
+    "rule": "Gain ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?) Holy damage\\."
+  },
+  {
+    "ID": "10220300032",
+    "English": "Gain ${1}% Holy damage.",
+    "rule": "Gain ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?) Holy damage\\."
+  },
+  {
+    "ID": "10220300037",
+    "English": "Strength +@{1}, Physical ATK +@{2}",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300038",
+    "English": "Vitality +@{1}, Luck +@{2}",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300039",
+    "English": "Strength +@{1}",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300040",
+    "English": "Attack Speed +@{1}%.",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300041",
+    "English": "Physical ATK +@{1}",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300042",
+    "English": "Physical Damage +@{1}%",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300043",
+    "English": "Movement Speed increases by ${1}%",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300047",
+    "English": "Physical ATK +${1}",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300048",
+    "English": "Crit Chance +@{1}%",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300052",
+    "English": "STR increases by ${1}.",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300053",
+    "English": "VIT increases by ${1}.",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300077",
+    "English": "Movement Speed -@{1}%",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300078",
+    "English": "Gain a shield equal to ${1}% of your Life.",
+    "rule": "Gain (?:a |a Shield |a shield )?(?:shield |Shield )?equal to ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?) (?:of )?(?:your Life|of max HP|Max Life|Max HP)\\."
+  },
+  {
+    "ID": "10220300084",
+    "English": "Movement Speed +@{1}%",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300101",
+    "English": "Changes armor property to Earth.",
+    "rule": "(?:Changes armor property to|Change Armor to|Convert Armor to) (Earth|Water|Wind|Poison|Fire|Ghost|Holy)(?: Property)?\\.?"
+  },
+  {
+    "ID": "10220300102",
+    "English": "Changes armor property to Water.",
+    "rule": "(?:Changes armor property to|Change Armor to|Convert Armor to) (Earth|Water|Wind|Poison|Fire|Ghost|Holy)(?: Property)?\\.?"
+  },
+  {
+    "ID": "10220300103",
+    "English": "Changes armor property to Wind.",
+    "rule": "(?:Changes armor property to|Change Armor to|Convert Armor to) (Earth|Water|Wind|Poison|Fire|Ghost|Holy)(?: Property)?\\.?"
+  },
+  {
+    "ID": "10220300104",
+    "English": "Changes armor property to Poison.",
+    "rule": "(?:Changes armor property to|Change Armor to|Convert Armor to) (Earth|Water|Wind|Poison|Fire|Ghost|Holy)(?: Property)?\\.?"
+  },
+  {
+    "ID": "10220300105",
+    "English": "Changes armor property to Fire.",
+    "rule": "(?:Changes armor property to|Change Armor to|Convert Armor to) (Earth|Water|Wind|Poison|Fire|Ghost|Holy)(?: Property)?\\.?"
+  },
+  {
+    "ID": "10220300106",
+    "English": "Changes armor property to Ghost.",
+    "rule": "(?:Changes armor property to|Change Armor to|Convert Armor to) (Earth|Water|Wind|Poison|Fire|Ghost|Holy)(?: Property)?\\.?"
+  },
+  {
+    "ID": "10220300114",
+    "English": "Damage against all Kobolds +@{1}%.",
+    "rule": "Damage against (.+) \\+((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\."
+  },
+  {
+    "ID": "10220300121",
+    "English": "Damage against Kara Crabs +@{1}%.",
+    "rule": "Damage against (.+) \\+((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\."
+  },
+  {
+    "ID": "10220300122",
+    "English": "Damage against Shellfish +@{1}%.",
+    "rule": "Damage against (.+) \\+((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\."
+  },
+  {
+    "ID": "10220300123",
+    "English": "Damage against Starfish +@{1}%.",
+    "rule": "Damage against (.+) \\+((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\."
+  },
+  {
+    "ID": "10220300129",
+    "English": "Attack Speed +@{1}%, Crit +@{2}, Crit DMG +@{3}%.",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300149",
+    "English": "Immune to 【Slow】.",
+    "rule": "Immune to 【(.+)】\\.?"
+  },
+  {
+    "ID": "10220300150",
+    "English": "Stun Resistance +@{1}.",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300151",
+    "English": "Immune to 【Stun】.",
+    "rule": "Immune to 【(.+)】\\.?"
+  },
+  {
+    "ID": "10220300152",
+    "English": "MP Cost -@{1}%, Magic DMG +@{2}%.",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300154",
+    "English": "MP Cost -@{1}%, Healing +@{2}%.",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300160",
+    "English": "Damage Reduction +@{1}%",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300169",
+    "English": "Physical DEF and Magic DEF increased by @{1}",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300178",
+    "English": "Normal Attack damage +@{1}%",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300179",
+    "English": "Physical ATK and Magic ATK reduced by @{1}",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300180",
+    "English": "Physical DEF and Magic DEF increased by @{1}",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300187",
+    "English": "Movement Speed -@{1}%",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300190",
+    "English": "Shield equal to @{1}% Max Life",
+    "rule": "Shield equal to ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?) (?:of )?(Max Life|Max HP|of Max Life)\\.?"
+  },
+  {
+    "ID": "10220300194",
+    "English": "Reduces damage taken by @{1}%",
+    "rule": "Reduces ((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300206",
+    "English": "Increases Movement Speed by @{1}%",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300236",
+    "English": "Increases Crit Chance by @{1}% for @{2} sec.",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?) for ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?) (seconds|sec\\.)\\.?"
+  },
+  {
+    "ID": "10220300243",
+    "English": "Increases healing received by @{1}% for @{2} sec.",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?) for ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?) (seconds|sec\\.)\\.?"
+  },
+  {
+    "ID": "10220300245",
+    "English": "Increases damage by @{1}% for @{2} sec.",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?) for ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?) (seconds|sec\\.)\\.?"
+  },
+  {
+    "ID": "10220300250",
+    "English": "Reduces Movement Speed by @{1}%",
+    "rule": "Reduces ((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300255",
+    "English": "Movement Speed +@{1}%, FLEE +@{2}",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300263",
+    "English": "Reduces skill cooldowns by @{1}%.",
+    "rule": "Reduces skill cooldowns by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\."
+  },
+  {
+    "ID": "10220300265",
+    "English": "Increases Movement Speed by @{1}%.",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300266",
+    "English": "Increases CRIT by @{1}%.",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300267",
+    "English": "Reduces skill cooldowns by @{1}% for @{2} sec.",
+    "rule": "Reduces skill cooldowns by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?) for ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?) sec\\."
+  },
+  {
+    "ID": "10220300271",
+    "English": "Transform: Poring",
+    "rule": "Transform(?: into|:) (Poring|Drops|Poporing|Bombring|Angeling|Deviling|Lava Poring|Red|Blue)"
+  },
+  {
+    "ID": "10220300272",
+    "English": "Transform: Drops",
+    "rule": "Transform(?: into|:) (Poring|Drops|Poporing|Bombring|Angeling|Deviling|Lava Poring|Red|Blue)"
+  },
+  {
+    "ID": "10220300273",
+    "English": "Transform: Poporing",
+    "rule": "Transform(?: into|:) (Poring|Drops|Poporing|Bombring|Angeling|Deviling|Lava Poring|Red|Blue)"
+  },
+  {
+    "ID": "10220300274",
+    "English": "Transform: Bombring",
+    "rule": "Transform(?: into|:) (Poring|Drops|Poporing|Bombring|Angeling|Deviling|Lava Poring|Red|Blue)"
+  },
+  {
+    "ID": "10220300275",
+    "English": "Transform: Angeling",
+    "rule": "Transform(?: into|:) (Poring|Drops|Poporing|Bombring|Angeling|Deviling|Lava Poring|Red|Blue)"
+  },
+  {
+    "ID": "10220300276",
+    "English": "Transform: Deviling",
+    "rule": "Transform(?: into|:) (Poring|Drops|Poporing|Bombring|Angeling|Deviling|Lava Poring|Red|Blue)"
+  },
+  {
+    "ID": "10220300277",
+    "English": "Transform into Lava Poring",
+    "rule": "Transform(?: into|:) (Poring|Drops|Poporing|Bombring|Angeling|Deviling|Lava Poring|Red|Blue)"
+  },
+  {
+    "ID": "10220300303",
+    "English": "Reduces healing received by @{1}%.",
+    "rule": "Reduces ((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300304",
+    "English": "Change Armor to Earth Property",
+    "rule": "(?:Changes armor property to|Change Armor to|Convert Armor to) (Earth|Water|Wind|Poison|Fire|Ghost|Holy)(?: Property)?\\.?"
+  },
+  {
+    "ID": "10220300305",
+    "English": "Change Armor to Water Property",
+    "rule": "(?:Changes armor property to|Change Armor to|Convert Armor to) (Earth|Water|Wind|Poison|Fire|Ghost|Holy)(?: Property)?\\.?"
+  },
+  {
+    "ID": "10220300306",
+    "English": "Change Armor to Wind Property",
+    "rule": "(?:Changes armor property to|Change Armor to|Convert Armor to) (Earth|Water|Wind|Poison|Fire|Ghost|Holy)(?: Property)?\\.?"
+  },
+  {
+    "ID": "10220300307",
+    "English": "Convert Armor to Poison",
+    "rule": "(?:Changes armor property to|Change Armor to|Convert Armor to) (Earth|Water|Wind|Poison|Fire|Ghost|Holy)(?: Property)?\\.?"
+  },
+  {
+    "ID": "10220300308",
+    "English": "Convert Armor to Fire Property",
+    "rule": "(?:Changes armor property to|Change Armor to|Convert Armor to) (Earth|Water|Wind|Poison|Fire|Ghost|Holy)(?: Property)?\\.?"
+  },
+  {
+    "ID": "10220300309",
+    "English": "Change Armor to Ghost Property",
+    "rule": "(?:Changes armor property to|Change Armor to|Convert Armor to) (Earth|Water|Wind|Poison|Fire|Ghost|Holy)(?: Property)?\\.?"
+  },
+  {
+    "ID": "10220300310",
+    "English": "Convert Armor to Holy Property",
+    "rule": "(?:Changes armor property to|Change Armor to|Convert Armor to) (Earth|Water|Wind|Poison|Fire|Ghost|Holy)(?: Property)?\\.?"
+  },
+  {
+    "ID": "10220300311",
+    "English": "Reduces Physical Attack and Magic Attack by @{1}%.",
+    "rule": "Reduces ((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300335",
+    "English": "Increases Physical Attack and Magic Attack by @{1}%.",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300376",
+    "English": "Increases PATK and MATK by @{1}%.",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300377",
+    "English": "Increases damage reduction by @{1}%.",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300380",
+    "English": "Increases MSPD by @{1}%.",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300390",
+    "English": "Transform: Red",
+    "rule": "Transform(?: into|:) (Poring|Drops|Poporing|Bombring|Angeling|Deviling|Lava Poring|Red|Blue)"
+  },
+  {
+    "ID": "10220300392",
+    "English": "Transform: Blue",
+    "rule": "Transform(?: into|:) (Poring|Drops|Poporing|Bombring|Angeling|Deviling|Lava Poring|Red|Blue)"
+  },
+  {
+    "ID": "10220300402",
+    "English": "Damage Increase +@{1}%.",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300403",
+    "English": "Gain a Shield equal to @{1}% of max HP.",
+    "rule": "Gain (?:a |a Shield |a shield )?(?:shield |Shield )?equal to ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?) (?:of )?(?:your Life|of max HP|Max Life|Max HP)\\."
+  },
+  {
+    "ID": "10220300405",
+    "English": "Increases MSPD by @{1}%.",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300409",
+    "English": "Movement Speed reduced by @{1}%.",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300416",
+    "English": "Movement Speed increased by @{1}%.",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300443",
+    "English": "FLEE +@{1}",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300460",
+    "English": "Attack Speed +@{1}%",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300461",
+    "English": "Physical ATK +${1}.",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300465",
+    "English": "DEX +${1}.",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300476",
+    "English": "LUK +${1}.",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10800100013",
+    "English": "^{1}^{2}[Magnus Exorcismus]^{3}^{4} Variable CT -${1} seconds.",
+    "rule": "((?:\\^\\{\\d+\\})*(?:【[^】]+】|\\[[^\\]]+\\])(?:\\^\\{\\d+\\})*) Variable CT -((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?) seconds\\."
+  },
+  {
+    "ID": "10800100015",
+    "English": "When a mace is equipped, AGI +${1}.",
+    "rule": "When a (mace|dagger|katar|one-handed or two-handed staff) is equipped, ((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|PDEF/MDEF|MDEF/PDEF|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|MDEF|PDEF|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) \\+((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\."
+  },
+  {
+    "ID": "10800100016",
+    "English": "When ^{1}^{2}[Impositio Manus]^{3}^{4} reaches Lv. ${1}, Physical/Magic ATK +${2}.",
+    "rule": "When ((?:\\^\\{\\d+\\})*(?:【[^】]+】|\\[[^\\]]+\\])(?:\\^\\{\\d+\\})*) reaches Lv\\. ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?), ((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|PDEF/MDEF|MDEF/PDEF|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|MDEF|PDEF|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) \\+((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\."
+  },
+  {
+    "ID": "10800100017",
+    "English": "When ^{1}^{2}[Sanctuary]^{3}^{4} or ^{5}^{6}[Magnus Exorcismus]^{7}^{8} reaches Lv. ${1}, INT +${2}.",
+    "rule": "When ((?:\\^\\{\\d+\\})*(?:【[^】]+】|\\[[^\\]]+\\])(?:\\^\\{\\d+\\})*) or ((?:\\^\\{\\d+\\})*(?:【[^】]+】|\\[[^\\]]+\\])(?:\\^\\{\\d+\\})*) reaches Lv\\. ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?), ((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|PDEF/MDEF|MDEF/PDEF|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|MDEF|PDEF|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) \\+((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\."
+  },
+  {
+    "ID": "10800100018",
+    "English": "When ^{1}^{2}[Impositio Manus]^{3}^{4} reaches Lv. ${1}, MATK +${2}.",
+    "rule": "When ((?:\\^\\{\\d+\\})*(?:【[^】]+】|\\[[^\\]]+\\])(?:\\^\\{\\d+\\})*) reaches Lv\\. ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?), ((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|PDEF/MDEF|MDEF/PDEF|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|MDEF|PDEF|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) \\+((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\."
+  },
+  {
+    "ID": "10800100019",
+    "English": "^{1}^{2}[Basic Attack]^{3}^{4}'s percentage damage multiplier increases by ${1}% and its fixed damage increases by ${2}.",
+    "rule": "((?:\\^\\{\\d+\\})*(?:【[^】]+】|\\[[^\\]]+\\])(?:\\^\\{\\d+\\})*)'s percentage(?:-based)? damage multiplier increases by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?) and (?:its )?fixed damage increases by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\."
+  },
+  {
+    "ID": "10800100022",
+    "English": "When equipped with a ^{1}【Mace】^{2} weapon, gain ^{3}${1}^{4} Physical ATK and ^{5}${2}%^{6} Normal Attack Crit Chance.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "10800100023",
+    "English": "When ^{1}^{2}[Arcane Mastery]^{3}^{4} reaches Lv. ${1}, MATK +${2}.",
+    "rule": "When ((?:\\^\\{\\d+\\})*(?:【[^】]+】|\\[[^\\]]+\\])(?:\\^\\{\\d+\\})*) reaches Lv\\. ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?), ((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|PDEF/MDEF|MDEF/PDEF|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|MDEF|PDEF|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) \\+((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\."
+  },
+  {
+    "ID": "10800100024",
+    "English": "^{1}^{2}[Magnus Exorcismus]^{3}^{4} target count +${1}",
+    "rule": "((?:\\^\\{\\d+\\})*(?:【[^】]+】|\\[[^\\]]+\\])(?:\\^\\{\\d+\\})*) target count \\+((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10800100026",
+    "English": "^{1}^{2}[Sanctuary]^{3}^{4}'s percentage Healing multiplier increases by ${1}% and its fixed Healing increases by ${2}.",
+    "rule": "((?:\\^\\{\\d+\\})*(?:【[^】]+】|\\[[^\\]]+\\])(?:\\^\\{\\d+\\})*)'s percentage Healing multiplier increases by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?) and its fixed Healing increases by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\."
+  },
+  {
+    "ID": "10800100027",
+    "English": "Allies within ^{1}^{2}[Sanctuary]^{3}^{4}'s area gain PDEF/MDEF +${1}%.",
+    "rule": "Allies within ((?:\\^\\{\\d+\\})*(?:【[^】]+】|\\[[^\\]]+\\])(?:\\^\\{\\d+\\})*)'s area gain ((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|PDEF/MDEF|MDEF/PDEF|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|MDEF|PDEF|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) \\+((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\."
+  },
+  {
+    "ID": "10800100028",
+    "English": "^{1}^{2}[Sanctuary]^{3}^{4} target count +${1}",
+    "rule": "((?:\\^\\{\\d+\\})*(?:【[^】]+】|\\[[^\\]]+\\])(?:\\^\\{\\d+\\})*) target count \\+((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10800100029",
+    "English": "When ^{1}^{2}[Basilica]^{3}^{4} reaches Lv. ${1}, MDEF/PDEF +${2}.",
+    "rule": "When ((?:\\^\\{\\d+\\})*(?:【[^】]+】|\\[[^\\]]+\\])(?:\\^\\{\\d+\\})*) reaches Lv\\. ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?), ((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|PDEF/MDEF|MDEF/PDEF|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|MDEF|PDEF|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) \\+((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\."
+  },
+  {
+    "ID": "10800100032",
+    "English": "When ^{1}^{2}[Assumptio]^{3}^{4} reaches Lv. ${1}, VIT +${2}.",
+    "rule": "When ((?:\\^\\{\\d+\\})*(?:【[^】]+】|\\[[^\\]]+\\])(?:\\^\\{\\d+\\})*) reaches Lv\\. ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?), ((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|PDEF/MDEF|MDEF/PDEF|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|MDEF|PDEF|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) \\+((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\."
+  },
+  {
+    "ID": "10800100035",
+    "English": "^{1}^{2}[Cart Revolution]^{3}^{4}'s percentage damage multiplier increases by ${1}%.",
+    "rule": "((?:\\^\\{\\d+\\})*(?:【[^】]+】|\\[[^\\]]+\\])(?:\\^\\{\\d+\\})*)'s percentage damage multiplier increases by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\."
+  },
+  {
+    "ID": "10800100038",
+    "English": "STR increases by ${1}.",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10800100039",
+    "English": "LUK increases by ${1}.",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10800100040",
+    "English": "VIT increases by ${1}.",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10800100041",
+    "English": "^{1}^{2}[Hammer Fall]^{3}^{4}'s percentage damage multiplier increases by ${1}% and its fixed damage increases by ${2}.",
+    "rule": "((?:\\^\\{\\d+\\})*(?:【[^】]+】|\\[[^\\]]+\\])(?:\\^\\{\\d+\\})*)'s percentage(?:-based)? damage multiplier increases by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?) and (?:its )?fixed damage increases by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\."
+  },
+  {
+    "ID": "10800100053",
+    "English": "^{1}^{2}[High Speed Cart Ram]^{3}^{4}'s percentage damage multiplier increases by ${1}% and its fixed damage increases by ${2}.",
+    "rule": "((?:\\^\\{\\d+\\})*(?:【[^】]+】|\\[[^\\]]+\\])(?:\\^\\{\\d+\\})*)'s percentage(?:-based)? damage multiplier increases by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?) and (?:its )?fixed damage increases by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\."
+  },
+  {
+    "ID": "10800100068",
+    "English": "^{1}^{2}[Smite]^{3}^{4}'s percentage damage multiplier increases by ${1}% and its fixed damage increases by ${2}.",
+    "rule": "((?:\\^\\{\\d+\\})*(?:【[^】]+】|\\[[^\\]]+\\])(?:\\^\\{\\d+\\})*)'s percentage(?:-based)? damage multiplier increases by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?) and (?:its )?fixed damage increases by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\."
+  },
+  {
+    "ID": "10800100071",
+    "English": "^{1}^{2}[Grand Cross]^{3}^{4}'s percentage damage multiplier increases by ${1}% and its fixed damage increases by ${2}.",
+    "rule": "((?:\\^\\{\\d+\\})*(?:【[^】]+】|\\[[^\\]]+\\])(?:\\^\\{\\d+\\})*)'s percentage(?:-based)? damage multiplier increases by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?) and (?:its )?fixed damage increases by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\."
+  },
+  {
+    "ID": "10800100074",
+    "English": "^{1}^{2}[Shield Boomerang]^{3}^{4}'s percentage damage multiplier increases by ${1}% and its fixed damage increases by ${2}.",
+    "rule": "((?:\\^\\{\\d+\\})*(?:【[^】]+】|\\[[^\\]]+\\])(?:\\^\\{\\d+\\})*)'s percentage(?:-based)? damage multiplier increases by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?) and (?:its )?fixed damage increases by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\."
+  },
+  {
+    "ID": "10800100125",
+    "English": "AGI +${1}",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10800100199",
+    "English": "Reduces Water damage taken by ${1}%.",
+    "rule": "Reduces ((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10800100230",
+    "English": "STR +${1}",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10800100231",
+    "English": "AGI +${1}",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10800100232",
+    "English": "VIT +${1}",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10800100233",
+    "English": "INT +${1}",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10800100234",
+    "English": "DEX +${1}",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10800100249",
+    "English": "Physical ATK +${1}.",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10800100276",
+    "English": "Magic ATK increases by ${1}.",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10800100277",
+    "English": "Cast Speed increases by ${1}.",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10800100278",
+    "English": "Crit increases by ${1}.",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "12390100933",
+    "English": "Permanently unlock the Kitty Set Costume appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100932",
+    "English": "Permanently unlock the GM Set Costume appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100931",
+    "English": "Permanently unlock the Academy Set Costume appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100911",
+    "English": "Activate the Strawberry Macaron Hairstyle (Permanent).",
+    "rule": "Activate the (.+) (Costume Appearance|Appearance|Hairstyle|Character Effects) \\(Permanent\\)\\."
+  },
+  {
+    "ID": "12390100910",
+    "English": "Activate the Kitty Tail Appearance (Permanent).",
+    "rule": "Activate the (.+) (Costume Appearance|Appearance|Hairstyle|Character Effects) \\(Permanent\\)\\."
+  },
+  {
+    "ID": "12390100903",
+    "English": "Activate the Worldscorch Feather matching Headwear Appearance (Permanent).",
+    "rule": "Activate the (.+) matching (Theme )?(Headwear|Facewear|Mouthwear|Backwear|Hairstyle|Character Effects) Appearance \\(Permanent\\)\\."
+  },
+  {
+    "ID": "12390100902",
+    "English": "Permanently unlocks the Giant Bow Scarf appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100901",
+    "English": "Permanently unlocks the Crazy Bunny Family Balloon appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100900",
+    "English": "Permanently unlocks the Crazy Bunny appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100899",
+    "English": "Permanently unlocks the Grim Reaper's Scythe appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100898",
+    "English": "Permanently unlocks the Wheel of Space-Time appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100897",
+    "English": "Permanently unlocks the Blossom Fairy appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100896",
+    "English": "Permanently unlocks the Fish In Mouth appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100895",
+    "English": "Permanently unlocks the Pipe appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100894",
+    "English": "Permanently unlocks the Angry Snarl appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100893",
+    "English": "Permanently unlocks the Angel Wing Earrings appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100892",
+    "English": "Permanently unlocks the Evil Wing Ears appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100891",
+    "English": "Permanently unlocks the Goblin Leader Mask appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100890",
+    "English": "Permanently unlocks the Prankster Mask appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100889",
+    "English": "Permanently unlocks the Rune Crown appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100888",
+    "English": "Permanently unlocks the Midnight Thorn appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100887",
+    "English": "Permanently unlocks the Fox Mask appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100886",
+    "English": "Permanently unlocks the Poo Poo Hat appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100885",
+    "English": "Permanently unlocks the Sun God Helmet appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100884",
+    "English": "Permanently unlocks the Starfish Hairpin appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100883",
+    "English": "Permanently unlocks the Vampire Hairpin appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100882",
+    "English": "Permanently unlocks the Moonlight Flower Hat appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100881",
+    "English": "Permanently unlocks the Majestic Goat appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100880",
+    "English": "Permanently unlocks the Jewel Crown appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100879",
+    "English": "Permanently unlocks the Horned Headband appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100878",
+    "English": "Permanently unlocks the Sphinx Hat appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100877",
+    "English": "Permanently unlocks the Crown appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100876",
+    "English": "Permanently unlocks the Golden Coronet appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100875",
+    "English": "Permanently unlocks the Pirate Captain's Hat appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100874",
+    "English": "Permanently unlocks the Grand Circlet appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100873",
+    "English": "Permanently unlocks the Tiara appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100872",
+    "English": "Permanently unlocks the Helmet of Orc Hero appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100871",
+    "English": "Permanently unlocks the Evil Wing appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100870",
+    "English": "Permanently unlocks the Golden Headwear appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100869",
+    "English": "Permanently unlocks the Angel Headband appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100868",
+    "English": "Permanently unlocks the School Backpack appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100867",
+    "English": "Permanently unlocks the Grand Voyage appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100866",
+    "English": "Permanently unlocks the Old Television appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100865",
+    "English": "Permanently unlocks the Furry Tail appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100864",
+    "English": "Permanently unlocks the Flame Scarf appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100863",
+    "English": "Permanently unlocks the Child Pacifier appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100862",
+    "English": "Permanently unlocks the Toast appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100861",
+    "English": "Permanently unlocks the Lucky Clover appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100860",
+    "English": "Permanently unlocks the Romantic Leaf appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100859",
+    "English": "Permanently unlocks the Sweet Candy appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100858",
+    "English": "Permanently unlocks the Clown Nose appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100857",
+    "English": "Permanently unlocks the Lovely Sleep Mask appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100856",
+    "English": "Permanently unlocks the Small Ribbons appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100855",
+    "English": "Permanently unlocks the Blush appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100854",
+    "English": "Permanently unlocks the Smiling Mask appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100853",
+    "English": "Permanently unlocks the Spinning Glasses appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100852",
+    "English": "Permanently unlocks the One-Eyed Blinker appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100851",
+    "English": "Permanently unlocks the Urgent Care appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100850",
+    "English": "Permanently unlocks the Black Cat Ears appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100849",
+    "English": "Permanently unlocks the Sage's Stone Helm appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100848",
+    "English": "Permanently unlocks the Banana Hat appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100847",
+    "English": "Permanently unlocks the Drama Hat appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100846",
+    "English": "Permanently unlocks the Apple Headwear appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100845",
+    "English": "Permanently unlocks the Deviruchi Hat appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100844",
+    "English": "Permanently unlocks the Nurse Cap appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100843",
+    "English": "Permanently unlocks the Drooping Cat appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100842",
+    "English": "Permanently unlocks the Playful Lace Kitty Headband appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100841",
+    "English": "Permanently unlocks the Goggles appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100840",
+    "English": "Permanently unlocks the Feather Bonnet appearance.",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100839",
+    "English": "Permanently unlocks the Bunny Hair Band appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100838",
+    "English": "Permanently unlocks the Grand Peco Hair Accessory appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100837",
+    "English": " permanently unlocks the Chicken Beak appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100836",
+    "English": "Permanently unlocks the White Beard appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100835",
+    "English": "Permanently unlocks the Blinker appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100834",
+    "English": "Permanently unlocks the Sunglasses appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100833",
+    "English": "Permanently unlocks the Student Hat appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100832",
+    "English": "Permanently unlocks the Mage's Hat appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100831",
+    "English": "Permanently unlocks the Army Cap appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100830",
+    "English": "Permanently unlocks the Egg Shell appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100829",
+    "English": "Permanently unlocks the Bread Bag Hat appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100828",
+    "English": "Permanently unlocks the Fruit Peel Hat appearance",
+    "rule": "\\s*[Pp]ermanently unlocks? the (.+) appearance\\.?"
+  },
+  {
+    "ID": "12390100822",
+    "English": "Use to unlock Chapter 2 of a book",
+    "rule": "Use to unlock Chapter (\\d+) of a book"
+  },
+  {
+    "ID": "12390100821",
+    "English": "Use to unlock Chapter 1 of a book",
+    "rule": "Use to unlock Chapter (\\d+) of a book"
+  },
+  {
+    "ID": "12390100820",
+    "English": "Mount · Magic Carpet can be unlocked upon use.",
+    "rule": "Mount · (.+) can be unlocked upon use\\."
+  },
+  {
+    "ID": "12390100819",
+    "English": "Mount · Baby Kun can be unlocked upon use.",
+    "rule": "Mount · (.+) can be unlocked upon use\\."
+  },
+  {
+    "ID": "12390100818",
+    "English": "Mount · Fish of the Northern Deep can be unlocked upon use.",
+    "rule": "Mount · (.+) can be unlocked upon use\\."
+  },
+  {
+    "ID": "12390100817",
+    "English": "Mount · Crab You Very Much can be unlocked upon use.",
+    "rule": "Mount · (.+) can be unlocked upon use\\."
+  },
+  {
+    "ID": "12390100815",
+    "English": "Mount · Savage can be unlocked upon use.",
+    "rule": "Mount · (.+) can be unlocked upon use\\."
+  },
+  {
+    "ID": "12390100814",
+    "English": "Mount · Ostrich can be unlocked upon use.",
+    "rule": "Mount · (.+) can be unlocked upon use\\."
+  },
+  {
+    "ID": "12390100813",
+    "English": "Mount · Fox can be unlocked upon use.",
+    "rule": "Mount · (.+) can be unlocked upon use\\."
+  },
+  {
+    "ID": "12390100812",
+    "English": "Mount · Hyena can be unlocked upon use.",
+    "rule": "Mount · (.+) can be unlocked upon use\\."
+  },
+  {
+    "ID": "12390100811",
+    "English": "Mount · Alpaca can be unlocked upon use.",
+    "rule": "Mount · (.+) can be unlocked upon use\\."
+  },
+  {
+    "ID": "12390100810",
+    "English": "Mount · Lion can be unlocked upon use.",
+    "rule": "Mount · (.+) can be unlocked upon use\\."
+  },
+  {
+    "ID": "12390100809",
+    "English": "Mount · Big Poring can be unlocked upon use.",
+    "rule": "Mount · (.+) can be unlocked upon use\\."
+  },
+  {
+    "ID": "12390100808",
+    "English": "Mount · Dream Steed can be unlocked upon use.",
+    "rule": "Mount · (.+) can be unlocked upon use\\."
+  },
+  {
+    "ID": "12390100807",
+    "English": "Mount · Eggshell Chubby Chick can be unlocked upon use.",
+    "rule": "Mount · (.+) can be unlocked upon use\\."
+  },
+  {
+    "ID": "12390100806",
+    "English": "Mount · Wind-Up Rocking Chair can be unlocked upon use.",
+    "rule": "Mount · (.+) can be unlocked upon use\\."
+  },
+  {
+    "ID": "12390100805",
+    "English": "Mount · Goblin Balloon can be unlocked upon use.",
+    "rule": "Mount · (.+) can be unlocked upon use\\."
+  },
+  {
+    "ID": "12390100804",
+    "English": "Mount · Pompadour can be unlocked upon use.",
+    "rule": "Mount · (.+) can be unlocked upon use\\."
+  },
+  {
+    "ID": "12390100803",
+    "English": "Mount · Fluffy Bunny can be unlocked upon use.",
+    "rule": "Mount · (.+) can be unlocked upon use\\."
+  },
+  {
+    "ID": "12390100802",
+    "English": "Mount · Orchid Waterside Pavilion can be unlocked upon use.",
+    "rule": "Mount · (.+) can be unlocked upon use\\."
+  },
+  {
+    "ID": "12390100801",
+    "English": "Mount · Solar Chariot can be unlocked upon use.",
+    "rule": "Mount · (.+) can be unlocked upon use\\."
+  },
+  {
+    "ID": "12390100800",
+    "English": "Mount · Starshatter Dragon can be unlocked upon use.",
+    "rule": "Mount · (.+) can be unlocked upon use\\."
+  },
+  {
+    "ID": "12390100799",
+    "English": "Use to Activate the Set Sail Name Card Theme.",
+    "rule": "Use to Activate the (.+) Name Card (Theme|Location)\\."
+  },
+  {
+    "ID": "12390100798",
+    "English": "Use to Activate the Meow Name Card Theme.",
+    "rule": "Use to Activate the (.+) Name Card (Theme|Location)\\."
+  },
+  {
+    "ID": "12390100797",
+    "English": "Use to Activate the Bouquet Name Card Theme.",
+    "rule": "Use to Activate the (.+) Name Card (Theme|Location)\\."
+  },
+  {
+    "ID": "12390100796",
+    "English": "Use to Activate the Land of Lilies of the Valley Name Card Location.",
+    "rule": "Use to Activate the (.+) Name Card (Theme|Location)\\."
+  },
+  {
+    "ID": "12390100795",
+    "English": "Use to Activate the Path of Adventure Name Card Location.",
+    "rule": "Use to Activate the (.+) Name Card (Theme|Location)\\."
+  },
+  {
+    "ID": "12390100792",
+    "English": "Use to Activate the Fashion Gala title for @{1} hours.",
+    "rule": "Use to Activate the (.+) title for ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?) hours\\."
+  },
+  {
+    "ID": "12390100791",
+    "English": "Use to Activate the Hero Registry title for @{1} hours.",
+    "rule": "Use to Activate the (.+) title for ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?) hours\\."
+  },
+  {
+    "ID": "12390100790",
+    "English": "Use to Activate the Spirit Conqueror title for @{1} hours.",
+    "rule": "Use to Activate the (.+) title for ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?) hours\\."
+  },
+  {
+    "ID": "12390100789",
+    "English": "Use to Activate the Star of Rekenber title (Permanent).",
+    "rule": "Use to Activate the (.+) (title|Bubble|Portrait Frame|Portrait) \\(Permanent\\)\\."
+  },
+  {
+    "ID": "12390100788",
+    "English": "Use to Activate the Novice's Pride title (Permanent).",
+    "rule": "Use to Activate the (.+) (title|Bubble|Portrait Frame|Portrait) \\(Permanent\\)\\."
+  },
+  {
+    "ID": "12390100787",
+    "English": "Use to Activate the Ten Great Heroes title for @{1} hours.",
+    "rule": "Use to Activate the (.+) title for ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?) hours\\."
+  },
+  {
+    "ID": "12390100786",
+    "English": "Use to Activate the Victory of the Covenant Bubble (Permanent).",
+    "rule": "Use to Activate the (.+) (title|Bubble|Portrait Frame|Portrait) \\(Permanent\\)\\."
+  },
+  {
+    "ID": "12390100785",
+    "English": "Use to Activate the Rift in the Sky Bubble (Permanent).",
+    "rule": "Use to Activate the (.+) (title|Bubble|Portrait Frame|Portrait) \\(Permanent\\)\\."
+  },
+  {
+    "ID": "12390100784",
+    "English": "Use to Activate the Victory of the Covenant Portrait Frame (Permanent).",
+    "rule": "Use to Activate the (.+) (title|Bubble|Portrait Frame|Portrait) \\(Permanent\\)\\."
+  },
+  {
+    "ID": "12390100783",
+    "English": "Use to Activate the Genesis Canticle Portrait Frame (Permanent).",
+    "rule": "Use to Activate the (.+) (title|Bubble|Portrait Frame|Portrait) \\(Permanent\\)\\."
+  },
+  {
+    "ID": "12390100781",
+    "English": "Use to Activate the Star of Rekenber Portrait (Permanent).",
+    "rule": "Use to Activate the (.+) (title|Bubble|Portrait Frame|Portrait) \\(Permanent\\)\\."
+  },
+  {
+    "ID": "12390100240",
+    "English": "Freshly squeezed Grape and Lemon juices blended into a bright, sweet-and-tart drink. Increases Magic DEF by @{1}~@{2} for @{3} hours.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "12390100239",
+    "English": "Grape powder dissolved in sparkling water, topped with persistent purple-red foam. Increases Physical DEF by @{1}~@{2} for @{3} hours.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "12390100238",
+    "English": "Lemon and herbs infused in Alcohol until as clear as Crystal. Increases Life by @{1}~@{2} for @{3} hours.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "12390100237",
+    "English": "A deep purple cocktail of Grape juice, Lemon juice, and Alcohol, shaken well. Increases Magic ATK by @{1}~@{2} for @{3} hours.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "12390100236",
+    "English": "Slow-fermented Grape wine with a deep purple hue and herbal finish. Increases Physical ATK by @{1}~@{2} for @{3} hours.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "12390100235",
+    "English": "Strawberry and cocoa melted into warm Milk, creating a rich pinkish-brown drink. Increases Magic DEF by @{1}~@{2} for @{3} hours.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "12390100234",
+    "English": "A thick pink milkshake blended from strawberries and Milk. Increases Physical DEF by @{1}~@{2} for @{3} hours.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "12390100233",
+    "English": "Thick hot cocoa flavored with vanilla and topped with fine Milk foam. Increases Life by @{1}~@{2} for @{3} hours.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "12390100232",
+    "English": "Round strawberry-and-cocoa-filled candies coated in a hard sugar shell. Increases Magic ATK by @{1}~@{2} for @{3} hours.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "12390100231",
+    "English": "Strawberry juice boiled into amber hard candy and broken into shards. Increases Physical ATK by @{1}~@{2} for @{3} hours.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "12390100230",
+    "English": "A coarse, thick flatbread baked from Grains flour mixed with monster meat and chili peppers. Increases Magic DEF by @{1}~@{2} for @{3} hours.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "12390100229",
+    "English": "Monster meat marinated in chili sauce and seared on a griddle until crisp outside and tender within. Increases Physical DEF by @{1}~@{2} for @{3} hours.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "12390100228",
+    "English": "Fresh mushrooms skewered and charcoal-grilled until browned outside and plump within. Increases Life by @{1}~@{2} for @{3} hours.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "12390100227",
+    "English": "Mushrooms and tomatoes simmered together into a fragrant amber broth. Increases Magic ATK by @{1}~@{2} for @{3} hours.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "12390100226",
+    "English": "Slow-simmered tomatoes reduced into a rich orange-red broth with a robust tangy aroma. Increases Physical ATK by @{1}~@{2} for @{3} hours.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "12390100215",
+    "English": "A Fountain of Life surging with boundless vitality that instantly restores @{1} HP. Cooldown: @{2} sec.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "12390100214",
+    "English": "A Healing Potion imbued with the power of Blessing that instantly restores @{1} HP. Cooldown: @{2} sec.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "12390100213",
+    "English": "A vibrant Green Healing Potion brimming with Life that instantly restores @{1} HP. Cooldown: @{2} sec.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "12390100212",
+    "English": "A deep crimson Healing Potion that instantly restores @{1} HP. Cooldown: @{2} sec.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "12390100211",
+    "English": "A golden Yellow Healing Potion that instantly restores @{1} HP. Cooldown: @{2} sec.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "12390100210",
+    "English": "A bright Red Healing Potion that instantly restores @{1} HP. Cooldown: @{2} sec.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "12390100209",
+    "English": "A vibrant Green Healing Potion that instantly restores @{1} HP. Cooldown: @{2} sec.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "12390100241",
+    "English": "Marinated Beast Meat wrapped in dough made from Grains, then steamed and baked to form a dark red crust. Grants @{1}%~@{2}% Increased Damage to Medium Monsters for @{3} hours.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "12390100242",
+    "English": "Herbs simmered into soft rice porridge, leaving a lingering bittersweet aroma. Reduces damage taken from Medium monsters by @{1}%~@{2}% for @{3} hours.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "12390100243",
+    "English": "Beast hide marinated with herbs and chili peppers, rolled into a tube, and charcoal-grilled. Grants @{1}%~@{2}% DMG vs Demi-Human for @{3} hours.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "12390100244",
+    "English": "Grains, monster meat, and chili peppers stir-fried over high heat until every grain gleams with oil. Reduces damage taken from Demi-Human monsters by @{1}%~@{2}% for @{3} hours.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "12390100245",
+    "English": "A smooth brown pudding made by setting cocoa bean juice with Milk. Grants @{1}%-@{2}% Increased Damage to Medium Monsters for @{3} hours.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "12390100246",
+    "English": "A Stem coated in colorful layers of syrup for a dazzling finish. Reduces damage taken from Medium monsters by @{1}%-@{2}% for @{3} hours.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "12390100247",
+    "English": "Dried Strawberry and herb leaves slow-simmered into a light red soup with a delicate sweetness. Grants @{1}%-@{2}% DMG vs Demi-Human for @{3} hours.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "12390100248",
+    "English": "Dried strawberries coated in cocoa syrup and set on a Stem. Reduces damage taken from Demi-Human monsters by @{1}%-@{2}% for @{3} hours.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "12390100249",
+    "English": "Lemon slices steeped in orangewood sap, creating a clear, light drink with a citrus aroma. Grants @{1}%~@{2}% Increased Damage to Medium Monsters for @{3} hours.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "12390100250",
+    "English": "Herbs and Lemon gently infused in orangewood sap at a low temperature. Reduces damage taken from Medium monsters by @{1}%~@{2}% for @{3} hours.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "12390100251",
+    "English": "Grape and herbs slow-simmered in orangewood sap for a rich, woody aroma. Increases damage to Demi-Human monsters by @{1}%~@{2}% for @{3} hours.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "12390100252",
+    "English": "Grape and Lemon simmered in bitter orange juice for a lingering woody sweetness. Use to increase Demi-Human damage reduction by @{1}%~@{2}% for @{3} hours.",
+    "rule": "exact-English-match-to-new-batch"
+  },
+  {
+    "ID": "10110300070",
+    "English": "Increases your Physical ATK by ^{1}${1}^{2} for ${2} sec.",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?) for ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?) (seconds|sec\\.)\\.?"
+  },
+  {
+    "ID": "10110300141",
+    "English": "Increases Max Life by ^{1}${1}^{2}.",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300953",
+    "English": "Physical DEF and Magic DEF increased by @{1}%.",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300952",
+    "English": "Physical ATK increased by @{1}%.",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300930",
+    "English": "Damage taken reduced by @{1}%.",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300899",
+    "English": "Increases 【Meteor Assault】 damage by ${1}%.",
+    "rule": "Increases 【(.+)】 damage by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\."
+  },
+  {
+    "ID": "10220300890",
+    "English": "Increases 【Virus Spread】 damage by ${1}%.",
+    "rule": "Increases 【(.+)】 damage by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\."
+  },
+  {
+    "ID": "10220300884",
+    "English": "Physical ATK +${1}.",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300881",
+    "English": "Increases 【Grimtooth】 damage by ${1}%.",
+    "rule": "Increases 【(.+)】 damage by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\."
+  },
+  {
+    "ID": "10220300878",
+    "English": "Increases 【Envenomed Blade】 damage by ${1}%.",
+    "rule": "Increases 【(.+)】 damage by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\."
+  },
+  {
+    "ID": "10220300875",
+    "English": "Increases 【Sonic Blow】 damage by ${1}%.",
+    "rule": "Increases 【(.+)】 damage by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\."
+  },
+  {
+    "ID": "10220300869",
+    "English": "Increases your damage dealt by @{1}%",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300867",
+    "English": "Increases your Poison damage by @{1}%",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300863",
+    "English": "Increases 【Grimtooth】 damage by @{1}%.",
+    "rule": "Increases 【(.+)】 damage by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\."
+  },
+  {
+    "ID": "10220300858",
+    "English": "Immune to 【Poisoned】",
+    "rule": "Immune to 【(.+)】\\.?"
+  },
+  {
+    "ID": "10220300857",
+    "English": "Movement Speed -@{1}%, AGI -@{2}",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300853",
+    "English": "Reduces Healing Volume by @{1}%",
+    "rule": "Reduces ((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300852",
+    "English": "Increases Healing Volume by @{1}%",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300851",
+    "English": "ATK +@{1}",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300840",
+    "English": "Increases DEF by @{1}%.",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300836",
+    "English": "Damage taken increased by @{1}%.",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300835",
+    "English": "Physical DEF reduced by @{1}.",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300834",
+    "English": "Attack Speed reduced by @{1}%.",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300833",
+    "English": "Movement Speed reduced by @{1}%.",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300826",
+    "English": "Increases Basic Attack damage by @{1}%.",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300822",
+    "English": "Attack Speed increased by ${1}%.",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300818",
+    "English": "Physical DEF increased by ${1}.",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300817",
+    "English": "【Bash】 damage increased by @{1}%.",
+    "rule": "【(.+)】 damage increased by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\."
+  },
+  {
+    "ID": "10220300816",
+    "English": "Increases Physical and Magic DEF by ${1}.",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300810",
+    "English": "Movement Speed reduced by @{1}%.",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300809",
+    "English": "Movement Speed increased by @{1}%.",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300788",
+    "English": "Movement Speed increased by @{1}%.",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300777",
+    "English": "Movement Speed reduced by @{1}%.",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300766",
+    "English": "Stacks up to ${1} times.",
+    "rule": "Stacks up to ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?) times\\."
+  },
+  {
+    "ID": "10220300721",
+    "English": "Movement Speed -@{1}%",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300718",
+    "English": "Attack Speed +@{1}%.",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300717",
+    "English": "Damage Reduction +^{1}${6}%^{2}.",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300716",
+    "English": "Damage Reduction +^{1}${5}%^{2}.",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300715",
+    "English": "Damage Reduction +^{1}${4}%^{2}.",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300714",
+    "English": "Damage Reduction +^{1}${3}%^{2}.",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300713",
+    "English": "Damage Reduction +^{1}${2}%^{2}.",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300712",
+    "English": "Damage taken -^{1}${1}%^{2}.",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300711",
+    "English": "Water damage taken -^{1}${1}%^{2}.",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300706",
+    "English": "Damage Reduction +^{1}${1}%^{2}.",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300705",
+    "English": "Physical/Magic ATK -^{1}${1}%^{2}.",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300703",
+    "English": "Physical/Magic ATK +^{1}${1}%^{2}.",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300700",
+    "English": "Physical/Magic DEF +^{1}${1}%^{2}.",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300696",
+    "English": "Movement Speed -^{1}${1}%^{2}",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300694",
+    "English": "Physical/Magic DEF -^{1}${1}%^{2}",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300693",
+    "English": "Physical/Magic DEF +^{1}${1}%^{2}",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300692",
+    "English": "Shield equal to ^{1}${1}%^{2} of Max Life",
+    "rule": "Shield equal to ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?) (?:of )?(Max Life|Max HP|of Max Life)\\.?"
+  },
+  {
+    "ID": "10220300690",
+    "English": "Magic ATK +^{1}${1}%^{2}",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300689",
+    "English": "Damage Taken -^{1}${1}%^{2}",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300684",
+    "English": "Shield equal to ^{1}${1}%^{2} of Max Life",
+    "rule": "Shield equal to ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?) (?:of )?(Max Life|Max HP|of Max Life)\\.?"
+  },
+  {
+    "ID": "10220300683",
+    "English": "Ranged Damage +^{1}${1}%^{2}",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300682",
+    "English": "Ranged Damage Taken +^{1}${1}%^{2}",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300681",
+    "English": "Damage increased by ^{1}${1}%^{2}",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300677",
+    "English": "Movement Speed increases by ^{1}${1}%^{2}",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300675",
+    "English": "Reduces Move Speed by ${1}%.",
+    "rule": "Reduces ((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300673",
+    "English": "Restores ${1} Life per second.",
+    "rule": "Restores ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?) Life per second\\."
+  },
+  {
+    "ID": "10220300664",
+    "English": "Movement Speed decreases by ${1}%.",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300661",
+    "English": "Physical/Magic DEF decreases by @{1}%.",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300659",
+    "English": "Cast Speed decreases by @{1}.",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300654",
+    "English": "Physical DEF decreases by ${1}%.",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300651",
+    "English": "Crit Chance increases by ${1}.",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300649",
+    "English": "Physical and Magic DEF reduced by ${1}%.",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300648",
+    "English": "Physical ATK and Magic ATK reduced by ${1}%.",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300644",
+    "English": "Movement Speed is reduced by @{1}%.",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300640",
+    "English": "Attack Speed +${1}%",
+    "rule": "full-whitelist-stat-expression"
+  },
+  {
+    "ID": "10220300632",
+    "English": "Physical/Magic DEF decreases by @{1}%",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300627",
+    "English": "Increases damage dealt by ${1}%.",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300626",
+    "English": "Increases damage taken by @{1}%",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300625",
+    "English": "Increases damage dealt by ^{1}${1}%^{2}.",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300624",
+    "English": "Increases melee damage dealt by ^{1}${1}%^{2}.",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300623",
+    "English": "Increases damage dealt by ${1}% for ${2} seconds.",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?) for ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?) (seconds|sec\\.)\\.?"
+  },
+  {
+    "ID": "10220300614",
+    "English": "Increases Cast Speed by @{1}",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300613",
+    "English": "Increases Movement Speed by @{1}%.",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300592",
+    "English": "Reduces Attack Speed by @{1}%",
+    "rule": "Reduces ((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300580",
+    "English": "ATK Speed reduced by @{1}%",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300561",
+    "English": "Increases Magic ATK by ^{1}${1}^{2}.",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300556",
+    "English": "Increases magic damage dealt by ^{1}${1}%^{2}.",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300537",
+    "English": "Increases Crit Chance by ^{1}${1}%^{2}.",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300536",
+    "English": "Increases Cast Speed by ^{1}${1}^{2}.",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300535",
+    "English": "Increases Magic ATK by ^{1}${1}^{2}.",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300521",
+    "English": "Increases Ghost damage dealt by @{1}%",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300520",
+    "English": "Increases damage taken by @{1}%",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300508",
+    "English": "Reduces damage taken by ${1}%",
+    "rule": "Reduces ((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300497",
+    "English": "Life increased by ${1}",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300486",
+    "English": "Physical Damage increased by ${1}%.",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300485",
+    "English": "Movement Speed increased by ${1}%.",
+    "rule": "((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) (increases|increased|decreases|decreased|reduced|is reduced) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300483",
+    "English": "Increases Physical ATK by @{1}%",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  },
+  {
+    "ID": "10220300481",
+    "English": "Increases Movement Speed by @{1}%",
+    "rule": "Increases (?:your )?((?:Physical\\ Attack\\ and\\ Magic\\ Attack|Physical\\ ATK\\ and\\ Magic\\ ATK|Physical\\ DEF\\ and\\ Magic\\ DEF|Physical\\ and\\ Magic\\ DEF|Normal\\ Attack\\ damage|Basic\\ Attack\\ damage|Ranged\\ Damage\\ Taken|Physical/Magic\\ DEF|Physical/Magic\\ ATK|Ghost\\ damage\\ dealt|Water\\ damage\\ taken|magic\\ damage\\ dealt|melee\\ damage\\ dealt|Cooldown\\ Reduction|MP\\ Recovery\\ Speed|Damage\\ Reduction|damage\\ reduction|Healing\\ Received|healing\\ received|Physical\\ Attack|Physical\\ Damage|Physical\\ damage|Damage\\ Increase|Stun\\ Resistance|Movement\\ Speed|Healing\\ Volume|PATK\\ and\\ MATK|Critical\\ Rate|Poison\\ damage|Ranged\\ Damage|Intelligence|Physical\\ ATK|Magic\\ Attack|Physical\\ DEF|Attack\\ Speed|Physical\\ DMG|Magic\\ damage|damage\\ dealt|damage\\ taken|Damage\\ taken|Damage\\ Taken|Crit\\ Chance|Holy\\ damage|Fire\\ damage|Move\\ Speed|Cast\\ Speed|Dexterity|Magic\\ ATK|Magic\\ DEF|ATK\\ Speed|CRIT\\ Rate|Magic\\ DMG|Strength|Vitality|Max\\ Life|MP\\ Regen|Crit\\ DMG|CRIT\\ DMG|Agility|Healing|MP\\ Cost|Attack|Max\\ HP|Max\\ MP|Damage|damage|Luck|PATK|MATK|MSPD|Life|Crit|CRIT|FLEE|Flee|STR|DEX|INT|AGI|VIT|LUK|ATK|DEF|HIT|HP)) by ((?:\\^\\{\\d+\\})?(?:[$@]\\{\\d+\\}|\\d+)(?:%)?(?:\\^\\{\\d+\\})?)\\.?"
+  }
+]

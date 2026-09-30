@@ -1,0 +1,19 @@
+PASS explicit folder
+PASS explicit exe
+PASS parent not searched
+PASS wrong exe rejected
+PASS traversal rejected
+PASS game exe cannot be overwritten
+PASS unready payload rejected
+PASS unready payload writes nothing
+PASS hash mismatch rejected
+PASS bad hash writes nothing
+PASS late failure rolls back
+PASS original file restored
+PASS failure has no success marker
+PASS valid copy
+PASS success ownership record
+PASS duplicate install blocked in development
+PASS existing mods protected
+PASS symlink target rejected
+18 tests passed; dummy files only, no game or Windows UI executed.

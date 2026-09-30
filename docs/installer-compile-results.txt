@@ -1,0 +1,11 @@
+  Determining projects to restore...
+  Restored /data/ro3-work/localization/src/Installer/Installer.csproj (in 2.84 sec).
+  1 of 2 projects are up-to-date for restore.
+  Installer.Core -> /data/ro3-work/localization/src/Installer.Core/bin/Release/net8.0/Installer.Core.dll
+  Installer -> /data/ro3-work/localization/src/Installer/bin/Release/net8.0-windows/win-x64/RO3-Thai-Patch-Installer.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:05.05

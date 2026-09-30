@@ -1,0 +1,184 @@
+{
+  "translated_rows": 691,
+  "errors": [],
+  "warnings": [
+    {
+      "ID": "10220300000",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300002",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300003",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300004",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300019",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300037",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300038",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300039",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300040",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300041",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300042",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300047",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300048",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300077",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300084",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300129",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300187",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300255",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300443",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300460",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300461",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300465",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300476",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10800100125",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10800100230",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10800100231",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10800100232",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10800100233",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10800100234",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10800100249",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300884",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300857",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300851",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300721",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300718",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300705",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300703",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300700",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300696",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300694",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300693",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300690",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10220300640",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10110300042",
+      "check": "no_thai"
+    }
+  ],
+  "in_game_tested": false,
+  "semantic_review": "Draft translations; further review required."
+}

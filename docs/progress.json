@@ -1,0 +1,23 @@
+{
+  "translated_rows": 691,
+  "priority_candidates": 3417,
+  "pending_rows": 2726,
+  "categories": {
+    "food-potion-description": 34,
+    "skill-effect": 212,
+    "skill-enhancement": 46,
+    "item-description": 307,
+    "skill-description": 92
+  },
+  "structural_errors": 0,
+  "installer_core_tests": 18,
+  "installer_build": "passed",
+  "windows_ui_tested": false,
+  "game_tested": false,
+  "github_pushed": false,
+  "release_created": false,
+  "complete": false,
+  "use_subagents": false,
+  "intentional_English_label_warnings": 44,
+  "warning_explanation": "43 canonical-stat expressions and 1 preserved proper-name label (Tree Spirit/Respawn)."
+}
