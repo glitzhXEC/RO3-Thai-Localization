@@ -6,6 +6,10 @@ on:
       - '.github/workflows/translation-feed.yml'
       - 'translations/RO3.LocalizationOverrides.tsv'
       - 'translations/semantic-review.json'
+      - 'translations/source/live-English-delta.json'
+      - 'translations/source/language-origins-part-*.json'
+      - 'scripts/prepare_split_tables.py'
+      - 'scripts/live_language_source.py'
       - 'scripts/prepare_live_translations.py'
       - 'scripts/prepare_skill_runtime.py'
   workflow_dispatch:
@@ -34,7 +38,7 @@ jobs:
           dotnet run --project tests/TranslationUpdater.Tests -c Release -- .
       - name: Commit verified data bundle atomically
         run: |
-          git add -- translations/live docs/translation-update-feed.json docs/partial-skill-payload.json
+          git add -- translations/live docs/translation-update-feed.json docs/partial-skill-payload.json translations/RO3.LocalizationUntranslated.tsv translations/RO3.LocalizationMerged.tsv docs/split-localization-tables.json
           if git diff --cached --quiet; then exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
