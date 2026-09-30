@@ -1,0 +1,77 @@
+name: Build Windows UI preview prerelease
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/windows-preview-release.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: windows-ui-preview-release
+  cancel-in-progress: false
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+      - run: python scripts/validate_translations.py > translation-qa.log
+      - run: python scripts/test_validation.py
+      - run: dotnet run --project tests/Installer.Core.Tests
+  windows-preview:
+    if: github.ref == 'refs/heads/main'
+    needs: checks
+    runs-on: windows-latest
+    permissions:
+      contents: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      TAG: v0.1.0-windows-preview.1
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+      - name: Refuse an accidentally embedded installable payload
+        shell: pwsh
+        run: |
+          if ((Test-Path src/Installer/payload.zip) -or (Test-Path src/Installer/payload-manifest.json)) { throw 'UI preview must not contain installable payload' }
+      - name: Publish self-contained Windows x64 UI
+        shell: pwsh
+        run: |
+          dotnet publish src/Installer/Installer.csproj -c Release -r win-x64 --self-contained true -o dist/windows-preview /p:PublishSingleFile=true /p:DebugType=None /p:DebugSymbols=false
+          if ($LASTEXITCODE -ne 0) { throw 'Publish failed' }
+          if (-not (Test-Path dist/windows-preview/RO3-Thai-Patch-Installer.exe)) { throw 'EXE missing' }
+      - name: Package and hash
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Path dist/release -Force | Out-Null
+          Copy-Item dist/windows-preview/RO3-Thai-Patch-Installer.exe dist/release/
+          Copy-Item docs/WINDOWS-PREVIEW-README.txt dist/windows-preview/README.txt
+          Compress-Archive -Path dist/windows-preview/RO3-Thai-Patch-Installer.exe,dist/windows-preview/README.txt -DestinationPath dist/release/RO3-Thai-Patch-Windows-x64-Preview.zip
+          git archive --format=zip -o dist/release/RO3-Thai-Localization-Source-Preview.zip HEAD
+          if ($LASTEXITCODE -ne 0) { throw 'Source archive failed' }
+          $lines = Get-ChildItem dist/release -File | Sort-Object Name | ForEach-Object { "$((Get-FileHash $_.FullName -Algorithm SHA256).Hash.ToLowerInvariant())  $($_.Name)" }
+          $lines | Set-Content dist/release/SHA256SUMS.txt -Encoding ascii
+      - uses: actions/upload-artifact@v4
+        with:
+          name: windows-ui-preview
+          path: dist/release/*
+      - name: Create draft, upload assets, then publish as prerelease
+        shell: pwsh
+        run: |
+          gh release view $env:TAG --repo $env:GITHUB_REPOSITORY *> $null
+          if ($LASTEXITCODE -ne 0) {
+            gh release create $env:TAG --repo $env:GITHUB_REPOSITORY --target $env:GITHUB_SHA --draft --prerelease --latest=false --title 'Windows x64 UI Preview — ยังติดตั้งแพตช์ไม่ได้' --notes-file docs/WINDOWS-PREVIEW-RELEASE.md
+            if ($LASTEXITCODE -ne 0) { throw 'Release creation failed' }
+          }
+          $assets = Get-ChildItem dist/release -File | ForEach-Object { $_.FullName }
+          gh release upload $env:TAG $assets --repo $env:GITHUB_REPOSITORY --clobber
+          if ($LASTEXITCODE -ne 0) { throw 'Asset upload failed' }
+          gh release edit $env:TAG --repo $env:GITHUB_REPOSITORY --draft=false --prerelease --latest=false --title 'Windows x64 UI Preview — ยังติดตั้งแพตช์ไม่ได้' --notes-file docs/WINDOWS-PREVIEW-RELEASE.md
+          if ($LASTEXITCODE -ne 0) { throw 'Prerelease publication failed' }
