@@ -41,35 +41,6 @@ ID	English	Category
 10800100136	When HP is below @{1}%, Physical DEF +【Your Level*@{2}】	skill-enhancement
 10800100139	For buffs with the @{1} tag, maximum buff Floors +@{2}	skill-enhancement
 10800100247	After casting ^{1}^{2}[Grimtooth]^{3}^{4}, there is a ${1}% Chance to Deals DMG equal to PATK * ${4}% + ${5} as Neutral Melee Physical damage to up to ${3} enemies within a ${2}-meter radius of the target. Cooldown: ${6} seconds. ^{5}^{6}[Grimtooth]^{7}^{8}'s percentage damage multiplier increases by ${7}%, and its fixed damage increases by ${8}.	skill-enhancement
-10800100270	When equipped with a katar, Crit Modifier increases by ^{1}${4}%^{2}.	skill-enhancement
-10800100271	When equipped with a dagger, increases Attack Speed by ^{1}${1}^{2} and AGI by ^{3}${2}^{4}.	skill-enhancement
-10800100272	【Fire Bolt】, 【Cold Bolt】, 【Lightning Bolt】, and 【Earth Spike】 deal ${1}% more damage.	skill-enhancement
-10800100273	【Fire Bolt】, 【Cold Bolt】, 【Lightning Bolt】, and 【Earth Spike】 are no longer affected by Cast Speed, and their CT is fixed at ${1} sec.	skill-enhancement
-10800100274	When 【Fire Bolt】, 【Cold Bolt】, 【Lightning Bolt】, or 【Earth Spike】 hits, there is a ${1}% Chance to trigger @{1} 【Elemental Pursuit】, dealing Neutral ranged magic damage equal to Magic ATK * ${2}% to the target. This effect has a ${3}-sec. Cooldown.	skill-enhancement
-10800100275	When 【Fire Bolt】, 【Cold Bolt】, 【Lightning Bolt】, or 【Earth Spike】 hits, there is a ${1}% Chance to trigger @{1} 【Elemental Shock】, dealing Neutral ranged magic damage equal to Magic ATK * ${4}% to up to ${3} enemies within a ${2}m radius. This effect has a ${5}-sec. Cooldown.	skill-enhancement
-10800100279	【Fire Ball】 and 【Sightrasher】 deal ${1}% more damage.	skill-enhancement
-10800100280	When 【Fire Ball】 hits the primary target, triggers @{1} Lv${1} 【Fire Bolt】.	skill-enhancement
-10800100281	When 【Fire Ball】 hits the primary target, deals Splash damage to up to ${2} enemies within a ${1}m radius.	skill-enhancement
-10800100282	【Frost Diver】 and 【Jupitel Thunder】's maximum Cooldown decreases by ${1} sec.	skill-enhancement
-10800100283	【Frost Diver】's area of effect increases to ${1}m and triggers @{1} 【Ice Spike】 on every target hit, dealing Water ranged magic damage equal to Magic ATK * ${2}%. Hitting 【Frozen】 enemies does not remove 【Frozen】.	skill-enhancement
-10800100284	When 【Jupitel Thunder】 hits, triggers 【Thunderbolt】, dealing Wind ranged magic damage equal to Magic ATK * ${1}% to the target.	skill-enhancement
-10800100285	【Meteor Storm】 and 【Heaven's Drive】 deal ${1}% more damage.	skill-enhancement
-10800100286	After casting 【Meteor Storm】, immediately triggers @{1} 【Flame Explosion】, dealing Fire ranged magic damage equal to Magic ATK * ${3}% to up to ${2} enemies within ${1}m.	skill-enhancement
-10800100287	After casting 【Heaven's Drive】, the next 【Meteor Storm】 cast within ${1} sec. creates an 【Ember Zone】 lasting ${2} sec. Every ${3} sec., it deals Fire ranged magic damage equal to Magic ATK * ${5}% to up to ${4} enemies in the area.	skill-enhancement
-10800100288	【Storm Gust】 and 【Lord of Vermilion】 deal ${1}% more damage.	skill-enhancement
-10800100289	After casting 【Storm Gust】, immediately triggers @{1} 【Frost Explosion】, dealing Water ranged magic damage equal to Magic ATK * ${3}% to up to ${2} enemies within ${1}m, with a ${4}% Chance to inflict ^{1}^{2}【Frozen】^{3}^{4} for ${5} sec.	skill-enhancement
-10800100290	For every @{1} enemy hit by 【Lord of Vermilion】, its damage increases by ${1}%, up to ${2}%.	skill-enhancement
-10800100291	【Magic Crasher】 and 【Napalm Vulcan】 deal ${1}% more damage.	skill-enhancement
-10800100292	After every ^{1}${1}^{2} casts of 【Magic Crasher】, the skill multiplier of the next @{1} casts of 【Magic Crasher】 increases by ^{3}${2}%^{4}, and their fixed damage increases by ^{5}${3}^{6}.	skill-enhancement
-10800100293	For every @{1} enemy hit by 【Napalm Vulcan】, its damage increases by ${1}%, up to ${2}%.	skill-enhancement
-10800100294	Wind/Earth/Water/Fire/Neutral/Ghost damage increases by ${1}%.	skill-enhancement
-10800100295	When 【Soul Drain】 scores a Kill, gain ${1} Magic ATK, up to ${2}. The amount gained is doubled when killing a player. Resets upon death, changing areas, or logging out.	skill-enhancement
-10800100296	Magic damage dealt increases by ${1}%.	skill-enhancement
-10800100297	【Gravitation Field】 deals ${1}% more damage.	skill-enhancement
-10800100298	After casting 【Gravitation Field】, triggers @{1} 【Spatial Distortion】, dealing Ghost ranged magic damage equal to Magic ATK * ${3}% to up to ${2} enemies within ${1}m, with a ${4}% Chance to inflict 【Slow】 for ${5} sec., reducing the target's Move Speed by ${6}%.	skill-enhancement
-10800100299	When 【Gravitation Field】 ends, inflicts 【Immobilize】 on enemies in the area for ${1} sec.	skill-enhancement
-10800100300	【Mystical Amplification】 grants an Extra {1} Cast Speed.	skill-enhancement
-10800100301	【Mystical Amplification】 grants an Extra ${1} Magic ATK.	skill-enhancement
 12390100824	Deprecated. If you see this text, please report the issue to the pet system lead.	item-description
 12390100816	No Translation Required	item-description
 12390100793	Test Name Card@{1}-Permanent	item-description
@@ -993,7 +964,6 @@ ID	English	Category
 10110300904	When casting 【Cross Ripper Slasher】, the blade transforms into a disc of light, and 【Cross Ripper Slasher】's percentage damage multiplier increases by ^{1}${1}%^{2}.	skill-description
 10110300905	After using [Rolling Cutter], MSPD increases by ^{1}${1}%^{2} for ${2} seconds. [Rolling Cutter]'s percentage damage multiplier increases by ^{3}${3}%^{4}, and its effect radius increases by ^{5}${4} m. ^{6}	skill-description
 10110300906	When the 【Enhance Camouflage】 status is removed by dealing or taking damage, unleash a ring of discs around yourself, dealing Neutral melee Physical damage equal to Physical ATK * ^{1}${3}%^{2} to up to ${2} enemies within a ${1}-meter radius and reducing their Movement Speed by ^{3}${4}%^{4} for ${5} seconds.	skill-description
-10110300907	Using 【Shadow Command】, 【Thousand Shadows】, or 【Circling Shadow】 grants 【Shadow Chain】 for @{1} sec, stacking up to @{2} times. While 【Shadow Chain】 is active, damage dealt increases by @{3}% per stack.	skill-description
 10110300908	The shadow left by 【Move back Shadow Echo】 mimics your 【Piercing Shadow】, dealing @{1}% of the original damage.	skill-description
 10110300909	【Shadow Pierce】 also grants you a stack of 【Delusion】 for @{1} sec. 【Delusion】: Kill an enemy while this effect is active to immediately reduce 【Shadow Pierce】's cooldown by @{2}%.	skill-description
 10110300910	Increases the effect radius of 【Shadow Guard】, 【Thousand Shadows】, and 【Circling Shadow】 by @{1} m and their percentage damage multipliers by @{2}%.	skill-description
@@ -1027,14 +997,9 @@ ID	English	Category
 10110300938	Draw a holy light magic circle with an Exorciser spell, dealing Holy ranged magic damage equal to Magic ATK*^{1}${4}%^{2} to up to ${3} enemies within a ${2}-meter radius within ${1} meters of you. This skill gains one ^{3}Uses:^{4} every ${5} seconds and can stack up to two times.	skill-description
 10110300939	Channels healing around the target	skill-description
 10110300940	Dual-Layer Stigma Skill	skill-description
-10110300941	When Highness Heal HITs an allied target, it triggers 【Equal Blessing】, chaining to @{2} targets within @{1} meters of the target. If a chained target is a party Member, they receive Extra healing.	skill-description
-10110300942	Every @{1} casts, Highness Heal will Level-up into 【Manifestation】. When cast, it manifests a shattered Orbit and chains once to up to @{3} allies within @{2} meters of the target. If a chained target is a party Member, they receive Extra healing.	skill-description
-10110300943	For @{1}s after casting [Radiant Holy Light], Manifestation shatters Orbit. During this time, the next @{2} casts of Highness Heal summon translucent petals, restoring Life to allies within @{3}m of you.	skill-description
-10110300944	【Brilliant Holy Light】can be Enhanced into 【Angel Incarnate】, reducing its Cooldown. Upon casting, transform into an Angel of Divine Light and convert Highness Heal into 【Manifestation】 for @{1}s. During this time, gain damage reduction and bonus Move SPD, float, and cast while moving.	skill-description
 10110300945	【Judex】transforms into 【Enlightenment】, gaining enhanced visuals and increased damage. When cast, it deals one instance of Extra ST damage to up to @{2} enemies within @{1} meters of the target.\n【Second Holy Light】transforms into 【Interwoven Light and Shadow】 and has a Chance to be triggered by the initial hit of 【Enlightenment】, dealing Physical or Magic damage. While in 【Divine Stance】, the trigger Chance becomes @{3}%.	skill-description
 10110300946	Every @{1} casts of 【Enlightenment】 causes all targets HIT to take damage again and increases your Move Speed.\nThe Extra damage sends a wisp of 【Will】 back to you, restoring a charge of 【Stigma】.	skill-description
 10110300947	@{1}. 【Stigma】transforms into 【Blackwing Burst】, gaining improved effects and increased damage.\n@{2}. When 【Blackwing Burst】 has two charges, it gains Enhance. Casting it consumes both charges at once, dealing skill damage twice, with a larger area on the second hit.\n@{3}. 【Divine Retribution】 transforms into 【Demonic Judgment】. After casting, automatically casts 【Blackwing Burst】 at the target location.	skill-description
-10110300948	【Holy Spirit Surge】 becomes 【Evil Spirit Possession】. When activated, you enter the 【Embrace of Sin】 state, raising a cross behind you that launches a coordinated attack whenever you deal damage. (Cooldown: @{1}s)\nWhen the coordinated attack scores a HIT, a wisp of 【Will】 flies back and restores charge to 【Stigmata】.	skill-description
 10110300949	You spin your battle axe to create a hurricane filled with axe trails. Targets hit are inflicted with ${1} stacks of ${2}% Slow (cannot stack) for ${3} seconds. The hurricane deals ${6} instances of ${7}% Physical damage to up to ${5} enemies within a ${4}-meter radius. Each instance that hits ${8} targets grants you ${9} stacks of 【Blade Mark】.	skill-description
 10110300950	Can only be used while riding a Madogear Pilot. Mount ${1} cannons on its shoulders and Launch ${6} shells at ${3} designated enemies within ${2} meters and up to ${5} other enemies within ${4} meters of them, dealing total Neutral ranged Physical damage equal to Physical ATK*^{1}${7}%^{2}.	skill-description
 10110300951	Bombards a ${1} m * ${2} m area in the designated direction, continuously dealing Physical ATK * ^{1}${4}%^{2} Neutral ranged Physical DMG to up to ${3} enemies along the path and increasing Movement Speed by ^{3}${5}%^{4} for the skill's duration.	skill-description
@@ -1141,7 +1106,6 @@ ID	English	Category
 10110301052	Cast in a selected direction to perform Movement ${1} meters away from the target and enter the ^{1}^{2}【Hiding】^{3}^{4} state for ${2} seconds.\nDealing or taking damage a total of ^{5}${3}^{6} times immediately ends the ^{7}【Hiding】 state^{8}.	skill-description
 10110301053	Dagger-exclusive skill. Throws a poisoned blade, dealing Poison Ranged Physical damage equal to PATK * ^{1}${2}%+${3}^{2} to the designated ST enemy within ${1} meters. Then Launches a poisoned blade at a random enemy within ${4} meters of the target, dealing Poison Ranged Physical damage equal to PATK * ^{3}${5}%+${6}^{4}, up to ^{5}${7}^{6} times.	skill-description
 10110301054	Deals Physical ATK*^{1}${4}%+${5}^{2} ranged Poison Physical damage to up to ${3} enemies within a ${2}-meter radius around a target within ${1} meters of you, and inflicts ^{3}^{4}【Poisoned】^{5}^{6} damage on the target.	skill-description
-10110301055	When equipped with a dagger, increases Attack Speed by ^{1}${1}^{2} and AGI by ^{3}${2}^{4}.	skill-description
 10110301056	This is Left-Hand Mastery.	skill-description
 10110301057	Deals Physical ATK*^{1}${4}%+${5}^{2} Neutral melee Physical damage to the selected ST enemy within ${1} meters and up to ${3} other enemies within ${2} meters of it, and slows them by ^{3}【Slow】^{4}${6}% for ${7} seconds.	skill-description
 10110301058	Plants timed Dynamite on a designated ST enemy within ${1} meters. Each player can have up to @{1} timed Dynamite planted on them. After ${2} seconds, deals Physical ATK*^{1}${5}%+${6}^{2} Poison-element ranged Physical damage that ignores FLEE to the designated enemy and up to ${4} other enemies within a ${3}-meter radius, and inflicts ^{3}^{4}【Poisoned】^{5}^{6} damage on the targets.	skill-description
@@ -1241,242 +1205,37 @@ ID	English	Category
 10110301175	Deals Earth ranged magic damage equal to Magic ATK * ^{1}${1}%^{2} to the target.	skill-description
 10220300962	Purple Chance Buff	skill-effect
 10220300961	Orange Chance Buff	skill-effect
-10220300919	Unique Effect: Casting a skill or using a Normal Attack grants maximum Floors of the 【Icebound Protection】 defensive buff. Initial limit: @{1} Floors. Duration: @{2} sec. Each Floor increases your DEF by @{3}% and has a @{4}% Chance to Slow enemies that hit you by @{5}% for @{6} sec. (Cooldown: @{7} sec.)	skill-effect
-10220300896	Increases 【Soul Destroyer】 damage by ${1}% and reduces variable CT by ${2}%.	skill-effect
-10220300895	Increases the Chance of triggering 【Venom】 with 【Deadly Poison】 by ${1}%.	skill-effect
-10220300894	Increases the 【Venom】 damage triggered by 【Deadly Poison】 by ${1}%.	skill-effect
-10220300893	Increases the Physical ATK granted by 【Deadly Poison】 by ${1}.	skill-effect
-10220300892	After using 【Virus Spread】, deals Poison melee Physical damage equal to Physical ATK × ${3}% to up to ${2} enemies within a ${1}-meter radius of the target.	skill-effect
-10220300891	After using 【Virus Spread】, deals ${1} Extra hit(s) of Neutral melee Physical damage equal to Physical ATK × ${2}% to one enemy.	skill-effect
-10220300889	When 【Double Attack】 triggers, it also deals Neutral melee Physical damage equal to Physical ATK × ${4}% to up to ${3} enemies within a ${2}-meter radius. Built-in Cooldown: ${1} seconds.	skill-effect
-10220300888	For ${1} seconds after using 【Cloaking】, your next attack deals ${2} Extra hits of Neutral melee Physical damage equal to Physical ATK × ${3}% to the enemy.	skill-effect
-10220300886	Learning 【Katar Mastery】 and 【Dual-Wield Mastery】 grants ${1} Extra AGI.	skill-effect
-10220300885	Reduces the Cooldown of 【Hiding】, 【Back Slide】, and 【Cloaking】 by ${1} seconds.	skill-effect
-10220300883	For ${1} seconds after using 【Grimtooth】, 【Basic Attack】, 【Sonic Blow】, and 【Envenomed Blade】 damage increases by ${2}%.	skill-effect
-10220300882	After using 【Grimtooth】, there is a ${1}% Chance to deal Neutral melee Physical damage equal to Physical ATK × ${4}% to up to ${3} enemies within a ${2}-meter radius of the target. Built-in Cooldown: ${5} seconds.	skill-effect
-10220300880	Grants 【Envenomed Blade】 ${1} Extra ricochet(s).	skill-effect
-10220300879	After casting 【Envenomed Blade】 ${1} times, triggers 【Venom】 damage ${2} times on the target.	skill-effect
-10220300877	Increases 【Sonic Blow】 damage by ${1}%. Raises the target HP threshold for 【Sonic Blow】's damage increase by ${2}%.	skill-effect
-10220300876	After using 【Sonic Blow】, there is a ${1}% Chance to deal Neutral melee Physical damage equal to Physical ATK × ${4}% to up to ${3} enemies within a ${2}-meter radius. Built-in Cooldown: ${5} seconds.	skill-effect
-10220300874	After using 【Basic Attack】, there is a ${1}% Chance to deal ${2} Extra hits of Neutral melee Physical damage equal to Physical ATK × ${3}% to the enemy. Built-in Cooldown: ${4} seconds.	skill-effect
-10220300873	After using 【Basic Attack】, there is a ${1}% Chance to deal Neutral melee Physical damage equal to Physical ATK × ${4}% to up to ${3} enemies within a ${2}-meter radius. Built-in Cooldown: ${5} seconds.	skill-effect
-10220300872	Increases 【Basic Attack】 skill damage by ${1}%.	skill-effect
-10220300871	Increases your Crit by @{1} for @{2} seconds, up to @{3} stacks.	skill-effect
 10220300870	Hidden from players; for designers only	skill-effect
-10220300868	After casting Soul Destroyer @{1} times, increases your damage dealt by @{2}% for @{3} seconds	skill-effect
-10220300866	Increases your Physical ATK by @{1}. After attacking, there is a @{2}% Chance to inflict 【Venom】 damage on the target, dealing Poison melee Physical damage equal to Physical ATK × @{3}%.	skill-effect
-10220300865	After your Basic Attack deals damage, there is a ${1}% Chance to inflict 【Poisoned】 damage on the target, dealing Poison melee Physical damage equal to ${2}% of Physical ATK.	skill-effect
-10220300864	When the effect ends, deals Poison melee Physical damage equal to @{3}% of Magic ATK that ignores FLEE to the target and up to @{2} enemies within a @{1}-meter radius, inflicting Poisoned.	skill-effect
-10220300862	When a dagger is equipped, Attack Speed +@{1}% and AGI +@{2}.	skill-effect
-10220300861	When a dagger is equipped, Attack Speed +@{1} and AGI +@{2}.	skill-effect
-10220300860	Allows 【Sonic Blow】 to trigger its damage increase when the target has less than @{1}% HP, and changes the damage increase to @{2}%.	skill-effect
-10220300859	When a katar-type weapon is equipped, Physical ATK +@{1}	skill-effect
-10220300856	While 【Cloaking】 is active, you cannot be seen or targeted. You are revealed after taking damage @{1} times or dealing damage.	skill-effect
-10220300855	When dual-wielding daggers, Basic Attacks have a @{1}% Chance to deal damage twice (additional skill effect).\nWhen a katar is equipped, gain an Extra @{2}% Crit.	skill-effect
 10220300854	Ten Kills in One Step (Indiscriminate Attack)	skill-effect
 10220300850	System Buff@{1}	skill-effect
-10220300849	Immune to Knockback, Launch, Stun, Freeze, Petrify, Silence, Immobilize, and Blind effects	skill-effect
-10220300848	Reduces field of vision	skill-effect
-10220300847	Movement Speed -@{1}, up to @{2} stacks	skill-effect
-10220300846	Movement Speed +@{1}, up to @{2} stacks	skill-effect
-10220300845	Increases Movement Speed by @{1}% and 【Dragon Breath】 damage by @{2}%.	skill-effect
-10220300844	After dealing damage, increases your DEF by @{1}%.	skill-effect
-10220300843	Draw power from Rune Runes to increase PATK by @{1}% and ASPD by @{2}%, plus an Extra @{3}% HP recover efficiency based on Max HP.	skill-effect
-10220300842	Draws power from Rune Runes, increasing Physical ATK by @{1}% and Attack Speed by @{2}%.	skill-effect
-10220300841	When you take melee damage, reflects the damage to nearby enemies, dealing Neutral melee Physical damage equal to @{3}% of the damage taken to up to @{2} enemies within a @{1}-meter radius. Built-in Cooldown: @{4} seconds.	skill-effect
-10220300839	When 【Slashing Strike】 hits a target, gain @{1}% Haste.	skill-effect
-10220300838	Slowed by @{1}% by 【Sky-Splitting Impact】.	skill-effect
 10220300837	Add a sound effect at maximum stacks.	skill-effect
-10220300832	First floor: Movement Speed reduced by @{1}%;\nSecond floor: Attack Speed reduced by @{2}%;\nThird floor: Physical DEF reduced by @{3}%;\nFourth floor: Damage taken increased by @{4}%.	skill-effect
-10220300831	Immune to Slow. Increases ST Normal Attack damage by @{1}% and Spiral Pierce damage by @{2}%.	skill-effect
-10220300830	Parries enemy attacks, increasing Physical and Magic DEF by @{1}. Auto Counters when taking melee Physical damage.	skill-effect
-10220300829	Endure. Increases HIT by @{1} and Physical ATK by @{2}, but reduces Physical DEF by @{3}.	skill-effect
-10220300828	Restores a total of @{2} Life over @{1} seconds.	skill-effect
-10220300827	Head Crush Slow.	skill-effect
-10220300825	Sword familiarity increases HIT by @{1} and Attack Speed by @{2}% when using sword-type weapons.	skill-effect
-10220300824	Spear specialization increases Physical damage by @{1}% and Crit Chance by @{2}% when using Spear-type weapons.	skill-effect
-10220300823	Spear proficiency increases Physical ATK by @{1} when using Spear-type weapons.	skill-effect
-10220300821	Mastery of riding increases Movement Speed by @{1}%.	skill-effect
-10220300820	When hit by a melee Physical Attack, unleash a spectacular Auto Counter!	skill-effect
-10220300819	Sword proficiency increases Physical ATK by @{1} when using sword-type weapons.	skill-effect
-10220300815	Ghost damage dealt increased by ^{1}@{1}%^{2}, 【Soul Burst】 Cooldown reduced by ^{3}@{2}%^{4}, and 【Psychokinetic Orb】 gains an Extra ^{5}@{3}^{6} floors per second.	skill-effect
-10220300814	Void Rift	skill-effect
-10220300813	Healing Reduction	skill-effect
-10220300812	Magic Release	skill-effect
-10220300811	Flowing Shadow Floors	skill-effect
-10220300808	Movement Speed increased by @{1}% and Slow Resistance increased by @{2}.	skill-effect
-10220300807	Each floor grants a ^{1}【Shield】^{2} equal to @{1}% of Max Life.	skill-effect
-10220300806	【Dark Night】 floors	skill-effect
-10220300805	Damage taken from monsters reduced by @{1}% and damage taken from players reduced by @{2}%.	skill-effect
-10220300804	【Holy Spirit Surge】 becomes 【Evil Spirit Possession】. When activated, you enter the 【Embrace of Sin】 state, raising a cross behind you that launches a coordinated attack whenever you deal damage. (Cooldown: @{1}s)\nWhen the coordinated attack scores a HIT, a wisp of 【Will】 flies back and restores charge to 【Stigmata】.	skill-effect
 10220300803	【Stigma】 becomes 【Black Feather Burst】, with enhanced visuals and damage. When 【Black Feather Burst】 has two charges, it becomes Enhanced. Casting it consumes both charges at once and deals skill damage twice, with the second hit covering a larger area. 【Divine Retribution】 becomes 【Demonic Judgment】. After it is cast, 【Black Feather Burst】 is automatically cast at the target's location.	skill-effect
-10220300802	After casting 【Enlightenment】, gain one floor. Upon reaching @{1} floors, the next 【Enlightenment】 causes all targets hit to take damage again and increases your Movement Speed.\nThe Extra damage sends a wisp of 【Will】 flying back, restoring one charge of 【Stigma】.	skill-effect
 10220300801	【Judex】transforms into 【Enlightenment】, gaining enhanced visuals and increased damage. When cast, it deals one instance of Extra ST damage to up to @{2} enemies within @{1} meters of the target.\n【Second Holy Light】transforms into 【Interwoven Light and Shadow】 and has a Chance to be triggered by the initial hit of 【Enlightenment】, dealing Physical or Magic damage. While in 【Divine Stance】, the trigger Chance becomes @{3}%.	skill-effect
-10220300800	【Brilliant Holy Light】can be Enhanced into 【Angel Incarnate】, reducing its Cooldown. Upon casting, transform into an Angel of Divine Light and convert Highness Heal into 【Manifestation】 for @{1}s. During this time, gain damage reduction and bonus Move SPD, float, and cast while moving.	skill-effect
-10220300799	For @{1}s after casting [Radiant Holy Light], Manifestation shatters Orbit. During this time, the next @{2} casts of Highness Heal summon translucent petals, restoring Life to allies within @{3}m of you.	skill-effect
-10220300798	Every @{1} casts, Highness Heal will Level-up into 【Manifestation】. When cast, it manifests a shattered Orbit and chains once to up to @{3} allies within @{2} meters of the target. If a chained target is a party Member, they receive Extra healing.	skill-effect
-10220300797	When Highness Heal HITs an allied target, it triggers 【Equal Blessing】, chaining to @{2} targets within @{1} meters of the target. If a chained target is a party Member, they receive Extra healing.	skill-effect
-10220300796	DMG taken from the caster +${1}%. When taking damage from 【Soul Expansion】 or 【Voice of the Soul】, triggers @{1} instances of Ghost Ranged Magic damage equal to MATK * ^{1}${3}%^{2} within a ${2}-meter radius. Can trigger up to @{2} times every ${4} seconds.	skill-effect
-10220300795	Enhance the next 【Crimson Rock】, 【Jack Frost】, 【Thunderclap】, or 【Earth Strain】, adding Ranged Magic damage equal to MATK * ^{1}${1}%^{2} of the corresponding Element. The Chance to trigger ^{3}^{4}Meteor^{5}^{6}, ^{7}^{8}Frozen^{9}^{10}, ^{11}^{12}Petrify^{13}^{14}, or ^{15}^{16}Stun^{17}^{18} increases to ^{19}${2}%^{20}.	skill-effect
-10220300794	Kill an enemy to refresh the Cooldown.	skill-effect
-10220300793	Damage dealt increased by @{1}%.	skill-effect
-10220300792	【Shadow Pierce】 also grants one floor of 【Delusion】 for @{1} seconds. 【Delusion】: Killing an enemy in this state immediately refreshes @{2}% of 【Shadow Pierce】's Cooldown.	skill-effect
-10220300791	The shadow left behind by 【Move Back Afterimage】 mimics your 【Shadow Pierce】.	skill-effect
-10220300790	Using 【Shadow Command】, 【Thousand Shadows】, or 【Circling Shadow】 grants 【Shadow Chain】 for @{1} sec, stacking up to @{2} times. While 【Shadow Chain】 is active, damage dealt increases by @{3}% per stack.	skill-effect
-10220300789	Increases the effect radius of 【Shadow Ward】, 【Myriad Shadows】, and 【Circling Shadow】 by @{1} meters and their skill damage multiplier by @{2}%.	skill-effect
 10220300787	Checks the target's status before damage is dealt and increases the damage.	skill-effect
 10220300786	For designers	skill-effect
-10220300785	Movement Speed increased by @{1}% and Slow Resistance increased by @{2}.	skill-effect
 10220300784	Checks the target's status before damage is dealt and increases the damage.	skill-effect
-10220300783	While in 【Frenzy】, immediately gains @{1} floors of Enhance Hundred Spear charge.	skill-effect
-10220300782	Using skills or Normal Attacks deals Extra damage to nearby enemies.	skill-effect
-10220300781	While active, 【Warg Strike】, 【Warg Bite】, and 【Warg Hunt】 Summon Extra warg companions that deal ${1}% more Physical damage to non-player enemies.	skill-effect
-10220300780	Physical ATK increased by @{1}%, and 【Aimed Shot】 skill damage multiplier increased by @{2}%.	skill-effect
-10220300779	Number of skill casts	skill-effect
-10220300778	Damage taken from monsters reduced by @{1}%, and Physical and Magic DEF increased by @{2}%.	skill-effect
-10220300776	Grants a shield equal to @{1}% of damage taken during King's Grace.	skill-effect
-10220300775	Shield equal to Max HP * @{1}%	skill-effect
-10220300774	Each floor reduces Movement Speed by @{1}%.	skill-effect
-10220300773	Each stack increases MSPD by ${1}%.	skill-effect
-10220300772	Each stack increases ATK by ${2}%.	skill-effect
-10220300771	A vocal part gained from the Song of Suffering. Lasts ${1} seconds and stacks up to ${2} floors. Each floor adds one phrase launched by a Sacrament.	skill-effect
-10220300770	Increases Holy damage dealt by @{1}%.	skill-effect
-10220300769	A faint hum produced by the Song of Suffering. Lasts @{1} seconds and stacks up to @{2} floors.	skill-effect
-10220300768	Enveloped by Sacred Chorus Musical Notes, gaining a damage-absorbing Shield.	skill-effect
-10220300767	Surrounded by Psalms, granting a universal damage absorption shield.	skill-effect
-10220300765	Marked by Harmony. Triggers healing when the source casts Highness Heal.	skill-effect
-10220300764	Green Marker	skill-effect
-10220300763	Locks Life at @{1}%	skill-effect
-10220300762	Immune to damage from Beat Cage.	skill-effect
-10220300761	Cannot obtain notes right now	skill-effect
-10220300760	Carry the aura of a green note to dissolve the matching note	skill-effect
-10220300759	Carry the aura of a yellow note to dissolve the matching note	skill-effect
-10220300758	Carry the aura of a blue note to dissolve the matching note	skill-effect
-10220300757	Carry the aura of a red note to dissolve the matching note	skill-effect
-10220300756	Tap for Interaction with the rhythm circle	skill-effect
-10220300755	Gain a @{1}% Movement Speed and damage bonus	skill-effect
-10220300754	Dance Move Left	skill-effect
-10220300753	Dance Move Right	skill-effect
-10220300752	Dance Move Backward	skill-effect
-10220300751	Dance Move Forward	skill-effect
-10220300750	When you are at least @{1} meters from the Link target, you are afflicted with a Curse that Deals DMG to allies within a @{2}-meter radius.	skill-effect
-10220300749	Movement Speed +@{1}%. Touch a green bubble to gain a damage bonus.	skill-effect
-10220300748	Movement Speed +@{1}%. Touch a blue bubble to gain a damage bonus.	skill-effect
-10220300747	Movement Speed +@{1}%. Touch a yellow bubble to gain a damage bonus.	skill-effect
 10220300746	Damage +@{1}%. Stacks.	skill-effect
-10220300745	Movement Speed +@{1}%. Touch a red bubble to gain a damage bonus.	skill-effect
 10220300743	Pharaoh AoE marker	skill-effect
-10220300742	Interrupt current skill and enter the enraged phase	skill-effect
 10220300741	Coffin uses skill @{1}	skill-effect
 10220300740	Detect ally—add derived skill	skill-effect
-10220300739	Entangled in the Pharaoh's burial shroud and Cannot move	skill-effect
 10220300738	Coffin uses skill	skill-effect
 10220300737	Coffin Summoned marker	skill-effect
-10220300736	Overconcentration increases damage taken by @{1}%.	skill-effect
-10220300735	At @{1} stacks, inflicts Petrify	skill-effect
-10220300734	Use a dungeon Revive attempt to cancel Transform	skill-effect
 10220300733	(No Translation Required)	skill-effect
 10220300731	Determine whether it is protected by a shield; hide later	skill-effect
 10220300730	Looping VFX for the stone blade left on the ground	skill-effect
-10220300729	AOE released when the shield ends	skill-effect
-10220300728	The boss's shield, used to block the flying blades launched by the boss	skill-effect
-10220300727	Blocks @{1}% of the damage from Giant Blade Slash.	skill-effect
 10220300726	Greatsword effect on the ground	skill-effect
-10220300725	You picked up the Orc's prized blade. Face the boss and use the skill.	skill-effect
 10220300724	Full-screen Shield AoE	skill-effect
-10220300723	Check for teammates within 5 meters, then Launch your Kunai at them to deal damage.	skill-effect
-10220300722	Dungeon matchmaking decline penalty I: Cannot join dungeon matchmaking for @{1} sec.	skill-effect
-10220300720	Enchant Carapace Shield, Damage Reduction	skill-effect
-10220300719	Burrows underground, becoming immune to damage and Debuffs.	skill-effect
-10220300710	Duration of control Protector skills +^{1}${1}^{2} sec.	skill-effect
-10220300709	Damage dealt by the Prismatic Earth Dragon -^{1}${1}%^{2}.	skill-effect
-10220300708	When a damage/control Protector skill deals damage, adds ${2} hit(s) of ^{1}${3}%^{2} Fire melee Physical damage.	skill-effect
-10220300707	When a damage/control Protector skill deals damage, adds ${1} hit(s) of ^{1}${2}%^{2} Fire melee Physical damage.	skill-effect
-10220300704	Increases the maximum number of targets for Debuff/control Protector skills by ^{1}${1}^{2} and increases their Cooldown by ^{3}${2}^{4} sec.	skill-effect
-10220300702	When a shield or control-immunity Protector skill is used, grants [Endure] to up to ${2} allies within a ${1}-meter radius of the master for ${3} sec.	skill-effect
-10220300701	HP Lock effect's internal Cooldown.	skill-effect
 10220300699	When any Protector skill is used, grants the master [Divine Hope] (Physical/Magic DEF +^{1}${1}%^{2}) for ${2}% sec.	skill-effect
-10220300698	Life cannot fall below ^{1}${1}%^{2}.	skill-effect
-10220300697	Physical/Magic ATK and DEF -^{1}${1}%^{2}, Attack Speed -^{3}${2}%^{4}, and Movement Speed -^{5}${3}%^{6}	skill-effect
-10220300695	On HIT, ^{1}${1}%^{2} Chance to reduce the enemy target's Movement Speed by ^{3}${2}%^{4}	skill-effect
 10220300691	Debuff Immunity	skill-effect
-10220300688	Grants a shield to allies within the area every second	skill-effect
-10220300687	All-attribute damage taken reduced by ^{1}${1}%^{2}	skill-effect
-10220300686	Damage taken from all elements is reduced by ^{1}${1}%^{2}. When hit, deals ^{3}${2}%^{4} ATK damage to enemies within @{1} meters.	skill-effect
-10220300685	Damage taken from all attributes is reduced by ^{1}${3}%^{2}. Every ${2} sec, deals ^{3}${1}%^{4} ATK damage to enemies within @{1} meters.	skill-effect
-10220300680	P.ATK and M.ATK reduced by ^{1}${1}%^{2}	skill-effect
-10220300679	Offensive/Recovery Master Protection skills can be used while under crowd control.	skill-effect
-10220300678	Cannot be seen or targeted. Revealed after taking damage @{1} times or dealing damage.	skill-effect
 10220300676	Reduces Attack Speed by XX%	skill-effect
 10220300674	When a shield/buff-type protection skill is cast, the master recovers *value description* Life upon taking damage (internal cooldown: @{1} seconds) for x seconds.	skill-effect
-10220300672	Detects nearby invisible enemies.	skill-effect
-10220300671	Reveals hidden enemies within a ${1}-meter radius.	skill-effect
-10220300670	Increases Physical DEF by ${1}% and Magic DEF by ${2}%.	skill-effect
-10220300669	Each time you take damage, Physical DEF increases by ${1}% and Magic DEF by ${2}%. Stacks up to ${3} times and lasts ${4} seconds.	skill-effect
-10220300668	Physical ATK increases by ${1}% for ${2} seconds.	skill-effect
 10220300667	PATK increased	skill-effect
 10220300666	When a Debuff/Control-type protection skill scores a HIT, the enemy takes Extra *specified* damage when hit for @{1} sec. (internal CD: @{2} sec.)	skill-effect
-10220300665	When dealing damage, deals ${1}% of the higher of Physical ATK and Magic ATK as Extra Neutral melee damage, with a ${2}% Chance to inflict Stun for ${3} sec. (internal cooldown: ${4} sec.).	skill-effect
-10220300663	The shield granted by the Ancient Tree absorbs damage equal to ${1}% of Max Life.	skill-effect
-10220300662	For every @{1}% Life lost, damage dealt increases by ${1}%.	skill-effect
-10220300660	Cast Time increased by @{1}, MP Cost increased by @{2}%.	skill-effect
 10220300658	Fire damage taken +@{1}%.	skill-effect
-10220300657	Triggers Fire Damage when dealing damage.	skill-effect
-10220300656	Healing and healing received decrease by @{1}%, and Crit Resistance decreases by @{2}%.	skill-effect
-10220300655	Healing and healing received are reduced by @{1}%.	skill-effect
-10220300653	Movement Speed decreases by ${1}%, and Physical and Magic ATK decrease by ${2}%.	skill-effect
-10220300652	Movement Speed increases by ${1}%, and Physical and Magic ATK increase by ${2}%.	skill-effect
-10220300650	Physical and Magic DEF decreased.	skill-effect
-10220300647	Reduces damage taken from players' Normal Attack skills by ${1}%.	skill-effect
-10220300646	Shield: Absorbs total damage equal to ${1}% of your Magic ATK.	skill-effect
-10220300645	A shield granted by Sohee absorbs damage equal to ${1}% of Max Life. While the shield is active, damage taken is reduced by ${2}%.	skill-effect
-10220300643	Physical and Magic DEF increase by @{1}%.	skill-effect
-10220300642	When you Kill an enemy, cast [Curse of Malice] at the target's location.	skill-effect
-10220300641	Gain ${1}% Lifesteal; Normal Attacks trigger Extra damage, dealing damage equal to a Normal Attack to up to @{2} enemies within @{1} meters of the target.	skill-effect
-10220300639	Buff duration extended by ${1} sec.	skill-effect
-10220300638	Physical ATK and Magic ATK +${6}%	skill-effect
-10220300637	Physical ATK and Magic ATK increase by ${5}%	skill-effect
-10220300636	Physical ATK and Magic ATK +${4}%	skill-effect
-10220300635	Physical ATK and Magic ATK +${3}%	skill-effect
-10220300634	Physical ATK and Magic ATK increase by ${2}%	skill-effect
-10220300633	Physical ATK and Magic ATK +${1}%	skill-effect
-10220300631	Shield duration is extended by ${1} sec.	skill-effect
-10220300630	Reduces Ranged Physical damage taken by ${2}% for ${3} seconds.	skill-effect
-10220300629	Grants a shield equal to ${1}% of the user's Life, reducing ranged Physical damage taken by ${2}% for ${3} seconds.	skill-effect
-10220300628	Increases the CRIT of offensive pet active skills by ${1}%.	skill-effect
 10220300622	Triggers Call Thunder Lv. @{1}	skill-effect
-10220300621	For @{1}s, hitting a marked enemy grants @{2} stacks of increased damage	skill-effect
-10220300620	Grants Call Thunder buff Lv. @{1}	skill-effect
-10220300619	Increases the next instance of damage taken by ${1}%.	skill-effect
-10220300618	Increases the next instance of damage dealt by ${1}%.	skill-effect
 10220300617	Popo's Bubble Shield.	skill-effect
-10220300616	Granted by Popo. Increases this unit's DEF.	skill-effect
-10220300615	Popo's Bubble Shield for its master.	skill-effect
-10220300612	If Physical ATK is higher than Magic ATK, attacks deal Physical damage. If Magic ATK is higher, attacks deal Magic damage.	skill-effect
-10220300611	Uses the higher of Physical ATK and Magic ATK when calculating ATK.	skill-effect
-10220300610	Increases Attack Speed. Normal Attacks have a Chance to trigger Cursed Slash.	skill-effect
-10220300609	Inflicted by Baphomet Jr. Reduces this unit's Movement Speed.	skill-effect
-10220300608	Inflicted by the Fox Fairy. Reduces this unit's Wind damage dealt by ^{1}${1}%^{2}.	skill-effect
-10220300607	Granted by the Fox Fairy. Increases damage dealt by ^{1}${1}%^{2}.	skill-effect
-10220300606	Granted by Angel Popo. Increases this unit's healing received.	skill-effect
-10220300605	Nearby allies recover continuously.	skill-effect
-10220300604	Inflicted by Evilheart Hunter Eve. Reduces Physical DEF and Magic DEF by ^{1}${1}%^{2}.	skill-effect
-10220300603	A shield granted by Little Isis. Increases DEF while the shield is active.	skill-effect
-10220300602	Increases the target's Physical DEF and Magic DEF by ^{1}${1}%^{2}.	skill-effect
-10220300601	Reduces Movement Speed by @{1}% and increases damage taken from all elements by @{2}%.	skill-effect
-10220300600	Reduces Movement Speed by @{1}% and damage dealt by @{2}%.	skill-effect
-10220300599	Increases damage taken from all elements by @{1}%.	skill-effect
-10220300598	Increases damage dealt with all elements by @{1}%.	skill-effect
-10220300597	Granted by Alio. This unit's attacks gain the Surgical Mark effect.	skill-effect
-10220300596	Inflicted by the Death Witch. Reduces this unit's Magic DEF and healing received.	skill-effect
-10220300595	Damages all allies within a @{2}-meter radius every @{1} seconds for @{3} seconds	skill-effect
 10220300594	Enters Blind status	skill-effect
-10220300593	Orc Lord's Basic Attack deals area damage	skill-effect
-10220300591	Locks HP at the fixed value @{1}	skill-effect
-10220300590	Movement Speed Increase When Out of Combat	skill-effect
 10220300589	Hitstun	skill-effect
-10220300588	Vines created by Mandragora attacks destroy themselves	skill-effect
-10220300587	Resets all skills upon leaving combat	skill-effect
 10220300586	Take damage once every @{1} seconds.	skill-effect
 10220300585	Creates a Dark Field underfoot after @{1} seconds	skill-effect
 10220300584	Takes damage every @{1} seconds. Each stack reduces Healing Volume received by @{2}%	skill-effect
