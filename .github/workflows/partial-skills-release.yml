@@ -1,0 +1,76 @@
+name: Build partial skills Alpha
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/partial-skills-release.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: partial-skills-alpha
+  cancel-in-progress: false
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+      - run: python scripts/build_partial_payload.py > partial-build.log
+      - run: python scripts/test_validation.py
+      - run: dotnet run --project tests/Installer.Core.Tests -c Release -- .
+  windows-alpha:
+    needs: checks
+    if: github.ref == 'refs/heads/main'
+    runs-on: windows-latest
+    permissions:
+      contents: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      TAG: v0.2.0-skills-alpha.1
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+      - name: Build fresh skills-only payload and plugin
+        run: python scripts/build_partial_payload.py > partial-build.log
+      - name: Publish single-file Windows Alpha
+        shell: pwsh
+        run: |
+          dotnet publish src/Installer/Installer.csproj -c Release -r win-x64 --self-contained true -o dist/skills-alpha /p:PublishSingleFile=true /p:DebugType=None /p:DebugSymbols=false
+          if ($LASTEXITCODE -ne 0) { throw 'Publish failed' }
+      - name: Package Alpha and hashes
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Path dist/release -Force | Out-Null
+          Copy-Item dist/skills-alpha/RO3-Thai-Patch-Installer.exe dist/release/
+          Copy-Item docs/PARTIAL-SKILLS-ALPHA.md dist/skills-alpha/README.md
+          Compress-Archive -Path dist/skills-alpha/RO3-Thai-Patch-Installer.exe,dist/skills-alpha/README.md -DestinationPath dist/release/RO3-Thai-Patch-Windows-x64-Skills-Alpha.zip
+          git archive --format=zip -o dist/release/RO3-Thai-Localization-Source-Skills-Alpha.zip HEAD
+          if ($LASTEXITCODE -ne 0) { throw 'Source archive failed' }
+          Get-ChildItem dist/release -File | Sort-Object Name | ForEach-Object { "$((Get-FileHash $_.FullName -Algorithm SHA256).Hash.ToLowerInvariant())  $($_.Name)" } | Set-Content dist/release/SHA256SUMS.txt -Encoding ascii
+      - uses: actions/upload-artifact@v4
+        with:
+          name: partial-skills-alpha
+          path: dist/release/*
+      - name: Publish as prerelease, never stable
+        shell: pwsh
+        run: |
+          gh release view $env:TAG --repo $env:GITHUB_REPOSITORY *> $null
+          if ($LASTEXITCODE -ne 0) {
+            gh release create $env:TAG --repo $env:GITHUB_REPOSITORY --target $env:GITHUB_SHA --draft --prerelease --latest=false --title 'RO3 Thai Skills — Partial Alpha (ยังไม่ทดสอบในเกม)' --notes-file docs/PARTIAL-SKILLS-RELEASE.md
+            if ($LASTEXITCODE -ne 0) { throw 'Create failed' }
+          }
+          $assets = Get-ChildItem dist/release -File | ForEach-Object { $_.FullName }
+          gh release upload $env:TAG $assets --repo $env:GITHUB_REPOSITORY --clobber
+          if ($LASTEXITCODE -ne 0) { throw 'Upload failed' }
+          gh release edit $env:TAG --repo $env:GITHUB_REPOSITORY --draft=false --prerelease --latest=false --title 'RO3 Thai Skills — Partial Alpha (ยังไม่ทดสอบในเกม)' --notes-file docs/PARTIAL-SKILLS-RELEASE.md
+          if ($LASTEXITCODE -ne 0) { throw 'Publish failed' }
