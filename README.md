@@ -140,3 +140,7 @@ RO3-Thai-Patch-Installer.exe
 ### ดาวน์โหลด Skills Alpha ที่เผยแพร่แล้ว
 
 [Windows x64 Skills Alpha v0.2.0-skills-alpha.1](https://github.com/glitzhXEC/RO3-Thai-Localization/releases/tag/v0.2.0-skills-alpha.1) — ติดตั้งผ่าน BepInEx ได้สำหรับทดสอบ ต้องเป็น Client Unity Mono x64 ที่ไม่มี BepInEx/winhttp.dll เดิม ยังไม่ทดสอบในเกมจริง
+
+### คำแปลชุด 011 (ซอร์สใหม่ ยังไม่รวม EXE Alpha เดิม)
+
+เพิ่ม 55 รายการ: ธนูในภาพ, Falcon, กับดัก, Demonic Wolf และสกิลบอส คำแปลรวม 816 รายการ ชุดสกิลจากซอร์สพร้อมตรวจได้ 471 IDs ดู [รายละเอียดและสถานะ](docs/SKILLS-BATCH-011.md) รุ่น `v0.2.0-skills-alpha.1` ยังบรรจุ 416 IDs ไม่เปลี่ยนตามไฟล์ใน repo อัตโนมัติ
