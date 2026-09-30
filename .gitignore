@@ -6,3 +6,5 @@ __pycache__/
 dist/
 src/Installer/payload.zip
 src/Installer/payload-manifest.json
+
+runtime-build/

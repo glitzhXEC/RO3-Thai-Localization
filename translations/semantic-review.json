@@ -14,5 +14,9 @@
   {
     "ID": "10800100011",
     "reason": "Source says Base without Lv.; kept Base rather than adding an inferred unit."
+  },
+  {
+    "ID": "10110300134",
+    "reason": "English formula contains + * before the fixed term. Preserved literally; exclude from partial payload until verified."
   }
 ]

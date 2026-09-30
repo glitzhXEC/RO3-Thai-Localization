@@ -1,0 +1,10 @@
+{
+  "version": "0.2.0-skills-alpha.1",
+  "payload_files": 35,
+  "payload_zip_sha256": "d7238b030e727cd5972dc8629410b580c127999cea19e21b1be505e1d36f5f92",
+  "runtime_source": "pinned compatibility runtime; fresh new plugin/dictionaries",
+  "installable_for_testing": true,
+  "existing_BepInEx_supported": false,
+  "windows_ui_tested": false,
+  "game_tested": false
+}

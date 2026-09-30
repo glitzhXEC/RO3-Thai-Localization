@@ -1,0 +1,110 @@
+{
+  "bundle_url": "https://github.com/glitzhXEC/RO3_Asia_Thai_Patch/releases/download/v2026.09.30.17/RO3_Asia_Thai_Patch_2026.09.30.17.zip",
+  "bundle_sha256": "994a11a08985676c806d5679c0ab95bee75a4f6d5ad82d7dc45a6ff82b872f01",
+  "components": [
+    {
+      "path": ".doorstop_version",
+      "sha256": "75a2f501000d4fe28f74bc7ee66dae5581959d28b6c44f0c1b0c05cd5ba261e6"
+    },
+    {
+      "path": "arialuni_sdf_u2022",
+      "sha256": "de18a759d475e01f90cffee16bdc861bf3aa09bc501f3c622e5822622b5e1606"
+    },
+    {
+      "path": "doorstop_config.ini",
+      "sha256": "345e2a6aa8fa40fa95c0f763f360ff75a20566a74fdc33d0621ea5271b1cdd9e"
+    },
+    {
+      "path": "winhttp.dll",
+      "sha256": "8c6cdbc38836dee87e3368f5de1994d7c0ccebf29e4ce7aba3c0981f9375412c"
+    },
+    {
+      "path": "BepInEx/config/BepInEx.cfg",
+      "sha256": "c902bb9ae25c8277cc1f20f8555610ce19164a7c81279ccc3a1a1eb042c9a035"
+    },
+    {
+      "path": "BepInEx/config/gravydevsupreme.xunity.resourceredirector.cfg",
+      "sha256": "9a89919f8b680e13db9f92a156a09151dbe8c14981c2bb795d92bda1c6fd75e6"
+    },
+    {
+      "path": "BepInEx/core/0Harmony.dll",
+      "sha256": "b1f242e37e87367b7bfae13f3f862ac852bcdbd0ed4c0ceaeeddeee204cb8a9d"
+    },
+    {
+      "path": "BepInEx/core/0Harmony20.dll",
+      "sha256": "c755a5ab2712915a32f9a850d580a8c1b70ff1653bc76600f2767aa8ffccc663"
+    },
+    {
+      "path": "BepInEx/core/BepInEx.dll",
+      "sha256": "8e6053fe6d79385baf84e6aad9430d7096fba3284653377651d54841f900a9f1"
+    },
+    {
+      "path": "BepInEx/core/BepInEx.Harmony.dll",
+      "sha256": "00c8f2ac48593e4d45ce4eb26ce4e68b18113c5c489b38b8bf0850f65830d601"
+    },
+    {
+      "path": "BepInEx/core/BepInEx.Preloader.dll",
+      "sha256": "8434ee7f44b84e95916658b21e0815496ee938e0b9ccfd0b003bc2842e8430a0"
+    },
+    {
+      "path": "BepInEx/core/HarmonyXInterop.dll",
+      "sha256": "7ce1342d3afa0334b59a3e38c0aed15e162b9abe9d46f95f34be44af47f3b493"
+    },
+    {
+      "path": "BepInEx/core/Mono.Cecil.dll",
+      "sha256": "747f2d407a7bac402d8fe07608f4b805dc1d5399445c6d70e7b49fe6ba56c33a"
+    },
+    {
+      "path": "BepInEx/core/Mono.Cecil.Mdb.dll",
+      "sha256": "5896d1898f616701fff18f3b2c71e6b844d2390ef9f41e1c5fccce8cb27c698e"
+    },
+    {
+      "path": "BepInEx/core/Mono.Cecil.Pdb.dll",
+      "sha256": "174db44a067f58561510af746f3caeb032037762c57a31c8d9ee32db25174984"
+    },
+    {
+      "path": "BepInEx/core/Mono.Cecil.Rocks.dll",
+      "sha256": "54ac539fb5ddc8b44c0e9acd0fcb7324f89d1a072edf8ebc1b06dd691e3d3927"
+    },
+    {
+      "path": "BepInEx/core/MonoMod.RuntimeDetour.dll",
+      "sha256": "8176bd7385ed9341bf68e1876c0ff7c500af6195c3ca04ab2e2de078a87cfbb8"
+    },
+    {
+      "path": "BepInEx/core/MonoMod.Utils.dll",
+      "sha256": "33b5432cfd72c49d26ba2c32c9e57264e2d979c6ca6cde09a8f372f8c5ff5f5e"
+    },
+    {
+      "path": "BepInEx/core/XUnity.Common.dll",
+      "sha256": "02dac9f744edc656d97ed42aeec8c697081dc5969bbc7ae52433413ce356b170"
+    },
+    {
+      "path": "BepInEx/plugins/XUnity.AutoTranslator/ExIni.dll",
+      "sha256": "c073db2220667e6bbbfff64e13ed4f7e744af4b554c408f13ea80bfdffd859d0"
+    },
+    {
+      "path": "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.BepInEx.dll",
+      "sha256": "8d54de55fb6c1284d3f381cdfb2be37c9f60f8d5b9cd4e9051f36ff9b024a722"
+    },
+    {
+      "path": "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.Core.dll",
+      "sha256": "71b825615b631bf55ee93358f35a835f48d9c61abc8814c57b762698a2a9f477"
+    },
+    {
+      "path": "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.ExtProtocol.dll",
+      "sha256": "e502c355f34de51e3fa3d3b08c95cbbda4a2ac044bf8aebf5c4b6ecf81efff8f"
+    },
+    {
+      "path": "BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.BepInEx.dll",
+      "sha256": "6a6bce64d736c8d45205d56242c99f7af79edcb173aa7568a83cf23313948d1c"
+    },
+    {
+      "path": "BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.dll",
+      "sha256": "9986a5a7959f86fc99ae27bbcefa7f0ef924ef4979f68b32ec4e2903b5f4d64c"
+    }
+  ],
+  "legacy_translation_files_read": false,
+  "legacy_plugin_included": false,
+  "compatibility_runtime_reused": true,
+  "game_tested": false
+}

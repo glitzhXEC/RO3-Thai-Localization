@@ -1,16 +1,16 @@
 {
-  "translated_rows": 691,
+  "translated_rows": 761,
   "priority_candidates": 3417,
-  "pending_rows": 2726,
+  "pending_rows": 2656,
   "categories": {
     "food-potion-description": 34,
     "skill-effect": 212,
     "skill-enhancement": 46,
     "item-description": 307,
-    "skill-description": 92
+    "skill-description": 162
   },
   "structural_errors": 0,
-  "installer_core_tests": 18,
+  "installer_core_tests": 34,
   "installer_build": "passed",
   "windows_ui_tested": false,
   "game_tested": false,
@@ -25,5 +25,11 @@
   "release_url": "https://github.com/glitzhXEC/RO3-Thai-Localization/releases/tag/v0.1.0-windows-preview.1",
   "release_source_commit": "3007ca583e7194a79464b630ce2fdb24ee551ea3",
   "windows_ci_publish": "success",
-  "ci_run_url": "https://github.com/glitzhXEC/RO3-Thai-Localization/actions/runs/36735353491"
+  "ci_run_url": "https://github.com/glitzhXEC/RO3-Thai-Localization/actions/runs/36735353491",
+  "partial_skill_payload_ids": 416,
+  "runtime_rule_tests": 1636,
+  "partial_installer_files": 35,
+  "installable_for_testing": true,
+  "existing_BepInEx_supported": false,
+  "partial_release_published": false
 }

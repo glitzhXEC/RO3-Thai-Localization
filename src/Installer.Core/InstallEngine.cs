@@ -4,7 +4,7 @@ using System.Text.Json;
 namespace RO3.Installer;
 
 public sealed record PayloadFile(string Path, string Sha256);
-public sealed record PayloadManifest(string Version, bool ReadyForInstallation, PayloadFile[] Files);
+public sealed record PayloadManifest(string Version, bool ReadyForInstallation, PayloadFile[] Files, string? TargetProfile = null);
 public sealed record InstallProgress(int Completed, int Total, string Path);
 
 public static class GameSelection
@@ -26,7 +26,7 @@ public static class GameSelection
     }
 }
 
-public static class InstallEngine
+public static partial class InstallEngine
 {
     public static string ResolveSafe(string root, string relative)
     {
@@ -35,7 +35,7 @@ public static class InstallEngine
             throw new InvalidDataException("Invalid payload path: " + relative);
         // Do not let a patch replace the game EXE or arbitrary user files.
         bool allowed = relative.StartsWith("BepInEx/", StringComparison.Ordinal) ||
-            relative is "winhttp.dll" or "doorstop_config.ini" or ".doorstop_version";
+            relative is "winhttp.dll" or "doorstop_config.ini" or ".doorstop_version" or "arialuni_sdf_u2022";
         if (!allowed) throw new InvalidDataException("Payload path is not permitted: " + relative);
         string fullRoot = System.IO.Path.GetFullPath(root);
         string full = System.IO.Path.GetFullPath(System.IO.Path.Combine(fullRoot, relative.Replace('/', System.IO.Path.DirectorySeparatorChar)));
@@ -59,6 +59,12 @@ public static class InstallEngine
         if (!manifest.ReadyForInstallation || manifest.Files.Length == 0)
             throw new InvalidDataException("แพตช์รุ่นนี้ยังไม่พร้อมติดตั้ง: ยังไม่มี runtime และ payload ที่ผ่านการตรวจครบ");
         if (manifest.Files.Length > 5000) throw new InvalidDataException("Payload too large");
+        if (manifest.TargetProfile != null && manifest.TargetProfile != "ro3-mono-x64") throw new InvalidDataException("Unsupported target profile");
+        if (manifest.TargetProfile == "ro3-mono-x64")
+        {
+            string[] required = { "winhttp.dll", "doorstop_config.ini", "arialuni_sdf_u2022", "BepInEx/core/BepInEx.dll", "BepInEx/core/BepInEx.Preloader.dll", "BepInEx/core/0Harmony.dll", "BepInEx/plugins/RO3.ThaiLocalization.Skills.dll", "BepInEx/plugins/SkillRuntime.Engine.dll", "BepInEx/config/RO3.SkillTranslations.tsv", "BepInEx/config/RO3.SkillRules.tsv", "BepInEx/config/AutoTranslatorConfig.ini" };
+            foreach (string path in required) if (!manifest.Files.Any(f => f.Path == path)) throw new InvalidDataException("Incomplete skills payload: " + path);
+        }
         var names = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
         foreach (var entry in manifest.Files)
         {
@@ -74,6 +80,12 @@ public static class InstallEngine
     {
         string target = GameSelection.ValidateDirectory(selected);
         ValidatePayload(payloadRoot, manifest); // Must pass before ANY game writes.
+        if (manifest.TargetProfile == "ro3-mono-x64")
+        {
+            ValidateMonoX64(target);
+            if (File.Exists(System.IO.Path.Combine(target, "winhttp.dll")))
+                throw new InvalidOperationException("พบ winhttp.dll เดิม: ไม่ทับ proxy หรือม็อดเดิมในรุ่น Alpha");
+        }
         if (Directory.Exists(System.IO.Path.Combine(target, "BepInEx")))
             throw new InvalidOperationException("พบ BepInEx เดิม: รุ่นพัฒนานี้ไม่ทับไฟล์หรือม็อดเดิม กรุณารอระบบอัปเดตที่ผ่านการทดสอบ");
         var paths = manifest.Files.Select(e => (Entry: e, Source: ResolveSafe(payloadRoot, e.Path), Target: ResolveSafe(target, e.Path))).ToArray();
@@ -111,7 +123,7 @@ public static class InstallEngine
                 if (!Sha(p.Target).Equals(p.Entry.Sha256, StringComparison.OrdinalIgnoreCase)) throw new IOException("Post-copy hash failed");
                 progress?.Report(new InstallProgress(++completed, paths.Length, p.Entry.Path));
             }
-            File.WriteAllText(marker, JsonSerializer.Serialize(new { manifest.Version, manifest.Files, BackupDirectory = backup }));
+            File.WriteAllText(marker, JsonSerializer.Serialize(new { manifest.Version, manifest.Files, BackupDirectory = backup, manifest.TargetProfile }));
         }
         catch (Exception installError)
         {
@@ -129,7 +141,7 @@ public static class InstallEngine
             // Retain backups and report their path when rollback is incomplete.
             if (rollbackErrors.Count != 0)
                 throw new AggregateException("ติดตั้งล้มเหลวและ rollback ไม่ครบ เก็บ backup ไว้ที่ " + backup, new[] { installError }.Concat(rollbackErrors));
-            Directory.Delete(backup, true);
+            if (Directory.Exists(backup)) Directory.Delete(backup, true);
             throw;
         }
     }

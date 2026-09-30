@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+<PropertyGroup><TargetFramework>net472</TargetFramework><LangVersion>latest</LangVersion><Nullable>enable</Nullable><AssemblyName>RO3.ThaiLocalization.Skills</AssemblyName></PropertyGroup>
+<ItemGroup><PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies.net472" Version="1.0.3" PrivateAssets="all" /><PackageReference Include="UnityEngine.Modules" Version="2021.3.33" PrivateAssets="all" /></ItemGroup>
+<ItemGroup><ProjectReference Include="../SkillRuntime.Engine/SkillRuntime.Engine.csproj" /><Reference Include="BepInEx"><HintPath>../../runtime-build/payload/BepInEx/core/BepInEx.dll</HintPath><Private>false</Private></Reference><Reference Include="0Harmony"><HintPath>../../runtime-build/payload/BepInEx/core/0Harmony.dll</HintPath><Private>false</Private></Reference></ItemGroup>
+</Project>
