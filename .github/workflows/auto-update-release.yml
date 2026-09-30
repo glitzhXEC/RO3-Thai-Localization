@@ -1,0 +1,81 @@
+# UTF-8-safe Windows skills Alpha build.
+name: Build auto-update Alpha
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/auto-update-release.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+env:
+  PYTHONUTF8: '1'
+concurrency:
+  group: auto-update-alpha
+  cancel-in-progress: false
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+      - run: python scripts/build_partial_payload.py
+      - run: python scripts/test_validation.py
+      - run: dotnet run --project tests/Installer.Core.Tests -c Release -- .
+  windows-alpha:
+    needs: checks
+    if: github.ref == 'refs/heads/main'
+    runs-on: windows-latest
+    permissions:
+      contents: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      TAG: v0.3.0-auto-update-alpha.1
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+      - name: Build data-only updater and offline payload
+        run: python scripts/build_partial_payload.py
+      - name: Verify install and uninstall on Windows
+        run: dotnet run --project tests/Installer.Core.Tests -c Release -- .
+      - name: Publish single-file Windows Alpha
+        shell: pwsh
+        run: |
+          dotnet publish src/Installer/Installer.csproj -c Release -r win-x64 --self-contained true -o dist/skills-alpha /p:PublishSingleFile=true /p:DebugType=None /p:DebugSymbols=false
+          if ($LASTEXITCODE -ne 0) { throw 'Publish failed' }
+      - name: Package Alpha and hashes
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Path dist/release -Force | Out-Null
+          Copy-Item dist/skills-alpha/RO3-Thai-Patch-Installer.exe dist/release/
+          Copy-Item docs/AUTO-UPDATE-RELEASE.md dist/skills-alpha/README.md
+          Compress-Archive -Path dist/skills-alpha/RO3-Thai-Patch-Installer.exe,dist/skills-alpha/README.md -DestinationPath dist/release/RO3-Thai-Patch-Windows-x64-Auto-Update-Alpha.zip
+          git archive --format=zip -o dist/release/RO3-Thai-Localization-Source-Auto-Update-Alpha.zip HEAD
+          if ($LASTEXITCODE -ne 0) { throw 'Source archive failed' }
+          Get-ChildItem dist/release -File | Sort-Object Name | ForEach-Object { "$((Get-FileHash $_.FullName -Algorithm SHA256).Hash.ToLowerInvariant())  $($_.Name)" } | Set-Content dist/release/SHA256SUMS.txt -Encoding ascii
+      - uses: actions/upload-artifact@v4
+        with:
+          name: auto-update-alpha
+          path: dist/release/*
+      - name: Publish as prerelease, never stable
+        shell: pwsh
+        run: |
+          gh release view $env:TAG --repo $env:GITHUB_REPOSITORY *> $null
+          if ($LASTEXITCODE -ne 0) {
+            gh release create $env:TAG --repo $env:GITHUB_REPOSITORY --target $env:GITHUB_SHA --draft --prerelease --latest=false --title 'RO3 Thai — Auto-update Alpha (ยังไม่ทดสอบในเกม)' --notes-file docs/AUTO-UPDATE-RELEASE.md
+            if ($LASTEXITCODE -ne 0) { throw 'Create failed' }
+          }
+          $assets = Get-ChildItem dist/release -File | ForEach-Object { $_.FullName }
+          gh release upload $env:TAG $assets --repo $env:GITHUB_REPOSITORY --clobber
+          if ($LASTEXITCODE -ne 0) { throw 'Upload failed' }
+          gh release edit $env:TAG --repo $env:GITHUB_REPOSITORY --draft=false --prerelease --latest=false --title 'RO3 Thai — Auto-update Alpha (ยังไม่ทดสอบในเกม)' --notes-file docs/AUTO-UPDATE-RELEASE.md
+          if ($LASTEXITCODE -ne 0) { throw 'Publish failed' }
