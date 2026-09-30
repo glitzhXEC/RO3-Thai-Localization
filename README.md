@@ -2,20 +2,19 @@
 
 แพตช์ภาษาไทย RO3 Asia PC แปลคำอธิบายสกิลและไอเทมใหม่จาก **English เท่านั้น** ยังใช้ BepInEx โดยไม่ใช้ BAT หรือ Translation-Editor
 
-## Windows Auto-update / UI Hotfix Alpha
+## Windows English-base + Full Uninstall Alpha
 
-**อย่าใช้ updater alpha.1 เดิมต่อโดยไม่แก้ DLL:** พบจาก log ว่า serialization attributes/API ที่ runtime เกมไม่มี ทำให้ SoftMask สแกน types ล้มเหลว รุ่น Hotfix นำ dependency นี้ออก คืนฟอนต์ Arial และยังใช้คำแปล English-only เดิม [รายละเอียด](docs/UI-COMPATIBILITY-HOTFIX.md) · [อัปเดตเฉพาะ plugin](docs/PLUGIN-HOTFIX.md)
+[ดาวน์โหลด v0.4.0-english-base-alpha.1](https://github.com/glitzhXEC/RO3-Thai-Localization/releases/tag/v0.4.0-english-base-alpha.1)
 
+ฐาน English จากข้อมูลเกมจริง 33,513 IDs พร้อมคำแปลใหม่ตาม ID คืน English/Thai เมื่อเกมส่งต้นฉบับจีนของ ID เดียวกัน ป้องกันข้อความกลับเป็นจีนหลังรีเซ็ตภาษา ไม่แปลจีน/ชื่อผู้เล่นทั่วระบบ ไม่ใช้คำแปลไทยเก่า
 
-[ดาวน์โหลด v0.3.1-ui-hotfix-alpha.1](https://github.com/glitzhXEC/RO3-Thai-Localization/releases/tag/v0.3.1-ui-hotfix-alpha.1) — EXE เดียว เลือก Client/ro3.exe เอง ไม่ค้นหาเกมอัตโนมัติ **ยังไม่ทดสอบ GUI/เกมจริง ไม่ใช่ Stable**
+ตัวติดตั้งมี **ถอนแพตช์นี้** และ **ถอน BepInEx ทั้งหมด** แยกกัน โหมดทั้งหมดรวมม็อดอื่นและย้ายไปสำรองก่อน ไม่แตะ ro3.exe/ro3_Data ไม่สแกนหาเกม และไม่ลบ DLL root ที่ยืนยัน provenance ไม่ได้
 
-มีฐานออฟไลน์ 3,375 IDs (สกิล 2,414 IDs รวมไอเทม/อาหาร) และ 1,848 rules ตอนเริ่มเกมตรวจข้อมูลคำแปลใหม่จาก main หนึ่งครั้ง ถ้าเน็ตล่มหรือข้อมูลไม่ผ่านตรวจใช้ข้อมูลเดิมต่อ ไม่ดาวน์โหลด executable
+[คู่มือและขอบเขต](docs/ENGLISH-BASE-AND-FULL-UNINSTALL.md) · [อัปเดต BepInEx เดิม](docs/ENGLISH-BASE-UPDATE.md)
 
-[คู่มือ การย้ายจากรุ่นเดิม และข้อจำกัด](docs/AUTO-UPDATE-RELEASE.md) · [ตารางต้นทาง](translations/RO3.LocalizationOverrides.tsv) · [feed](translations/live/manifest.json)
+[คำแปลไทย](translations/RO3.LocalizationOverrides.tsv) · [ยังไม่แปล / English](translations/RO3.LocalizationUntranslated.tsv) · [ตารางรวม generated](translations/RO3.LocalizationMerged.tsv)
 
-แก้ TSV บน main แล้วรอ workflow **Translation data feed** สำเร็จ ไม่ต้องสร้าง Release ซ้ำเพื่อแก้คำแปล หากแก้ batch ให้ใช้ workflow **Refresh translation tables** ซึ่งสร้าง TSV และ feed พร้อมกัน รุ่น v0.2 เดิมไม่มี updater ต้องเปลี่ยน installer ครั้งเดียวก่อน
-
-ซอร์สมี 3,380 รายการ; runtime เว้น 5 รายการรอตรวจความหมาย ต้นฉบับค้างตรวจอีก 37 รายการไม่รวม ไม่ใช่คำแปลทั้งเกม [รายละเอียด](docs/FINISH-REVIEW-STATUS.md)
+แก้คำแปล main แล้ว workflow รวมกับฐาน English และเผยแพร่ data-only feed ให้ ไม่ต้องออก Release ซ้ำเมื่อแก้คำแปล แต่การเปลี่ยน runtime schema ครั้งนี้ต้องอัปเดตโปรแกรม/ข้อมูลครั้งเดียว **ยังเป็น Alpha ต้องทดสอบ UI บนเกมจริงอีกครั้ง**
 
 ## รุ่นก่อนหน้า (ข้อมูลย้อนหลัง)
 

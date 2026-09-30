@@ -28,6 +28,7 @@ namespace RO3.ThaiLocalization
         public TranslationManifest Manifest = null!;
         public string Table = "";
         public string Rules = "";
+        public string Origins = "";
     }
     public static class TranslationUpdater
     {
@@ -40,18 +41,18 @@ namespace RO3.ThaiLocalization
         private static bool IsHash(string s) { return s != null && Regex.IsMatch(s, @"\A[0-9a-f]{64}\z"); }
         public static void ValidateManifest(TranslationManifest m)
         {
-            if (m == null || m.Schema != 1 || m.RuntimeSchema != 1 || !IsHash(m.Version) || !IsHash(m.SourceSha256) ||
-                m.TranslationIds <= 0 || m.TranslationIds > 50000 || m.RuntimeRules < 0 || m.RuntimeRules > 50000 || m.Files == null || m.Files.Length != 2)
+            if (m == null || m.Schema != 1 || m.RuntimeSchema != 2 || !IsHash(m.Version) || !IsHash(m.SourceSha256) ||
+                m.TranslationIds <= 0 || m.TranslationIds > 50000 || m.RuntimeRules < 0 || m.RuntimeRules > 50000 || m.Files == null || m.Files.Length != 3)
                 throw new InvalidDataException("Unsupported translation manifest/schema");
-            string[] names = { "RO3.LocalizationOverrides.tsv", "RO3.LocalizationRules.tsv" };
-            for (int i = 0; i < 2; i++)
+            string[] names = { "RO3.LocalizationOverrides.tsv", "RO3.LocalizationRules.tsv", "RO3.LanguageOrigins.tsv" };
+            for (int i = 0; i < 3; i++)
                 if (m.Files[i] == null || m.Files[i].Name != names[i] || !IsHash(m.Files[i].Sha256) || m.Files[i].Bytes < 0 || m.Files[i].Bytes > MaxFileBytes || (i == 0 && m.Files[i].Bytes == 0))
                     throw new InvalidDataException("Unapproved translation data file");
-            string version = Hash(Utf8.GetBytes(m.Files[0].Sha256 + "|" + m.Files[1].Sha256));
+            string version = Hash(Utf8.GetBytes(m.Files[0].Sha256 + "|" + m.Files[1].Sha256 + "|" + m.Files[2].Sha256));
             if (version != m.Version) throw new InvalidDataException("Manifest version/hash mismatch");
         }
         public static string FilePath(TranslationManifest m, int index)
-        { ValidateManifest(m); if (index < 0 || index > 1) throw new ArgumentOutOfRangeException(nameof(index)); return "main/translations/live/versions/" + m.Version + "/" + m.Files[index].Name; }
+        { ValidateManifest(m); if (index < 0 || index > 2) throw new ArgumentOutOfRangeException(nameof(index)); return "main/translations/live/versions/" + m.Version + "/" + m.Files[index].Name; }
         private static T Parse<T>(byte[] bytes, int maximum)
         {
             if (bytes.Length > maximum) throw new InvalidDataException("JSON size limit exceeded");
@@ -61,13 +62,13 @@ namespace RO3.ThaiLocalization
         }
         private static byte[] Serialize(TranslationCache value)
         { return Utf8.GetBytes(TranslationJson.WriteCache(value)); }
-        public static SkillDictionary ValidateBundle(TranslationManifest m, byte[] table, byte[] rules)
+        public static SkillDictionary ValidateBundle(TranslationManifest m, byte[] table, byte[] rules, byte[] origins)
         {
             ValidateManifest(m);
-            byte[][] files = { table, rules };
-            for (int i = 0; i < 2; i++)
+            byte[][] files = { table, rules, origins };
+            for (int i = 0; i < 3; i++)
                 if (files[i].Length != m.Files[i].Bytes || Hash(files[i]) != m.Files[i].Sha256) throw new InvalidDataException("Translation integrity check failed");
-            SkillDictionary dictionary = SkillDictionary.LoadText(Utf8.GetString(table), Utf8.GetString(rules));
+            SkillDictionary dictionary = SkillDictionary.LoadText(Utf8.GetString(table), Utf8.GetString(rules), Utf8.GetString(origins));
             if (dictionary.Count != m.TranslationIds || dictionary.RuleCount != m.RuntimeRules) throw new InvalidDataException("Translation counts mismatch");
             return dictionary;
         }
@@ -89,16 +90,16 @@ namespace RO3.ThaiLocalization
             if (!File.Exists(path)) return null;
             if (new FileInfo(path).Length > MaxCacheBytes) throw new InvalidDataException("Cache too large");
             TranslationCache c = Parse<TranslationCache>(File.ReadAllBytes(path), MaxCacheBytes);
-            var dictionary = ValidateBundle(c.Manifest, Utf8.GetBytes(c.Table), Utf8.GetBytes(c.Rules));
+            var dictionary = ValidateBundle(c.Manifest, Utf8.GetBytes(c.Table), Utf8.GetBytes(c.Rules), Utf8.GetBytes(c.Origins));
             version = c.Manifest.Version;
             return dictionary;
         }
-        public static void SaveCache(string config, TranslationManifest manifest, byte[] table, byte[] rules)
+        public static void SaveCache(string config, TranslationManifest manifest, byte[] table, byte[] rules, byte[] origins)
         {
-            ValidateBundle(manifest, table, rules);
+            ValidateBundle(manifest, table, rules, origins);
             string path = SafeCachePath(config);
             Directory.CreateDirectory(Path.GetDirectoryName(path)!);
-            byte[] contents = Serialize(new TranslationCache { Manifest = manifest, Table = Utf8.GetString(table), Rules = Utf8.GetString(rules) });
+            byte[] contents = Serialize(new TranslationCache { Manifest = manifest, Table = Utf8.GetString(table), Rules = Utf8.GetString(rules), Origins = Utf8.GetString(origins) });
             if (contents.Length > MaxCacheBytes) throw new InvalidDataException("Cache too large");
             string temp = path + ".download-" + Guid.NewGuid().ToString("N") + ".tmp";
             try
@@ -111,12 +112,11 @@ namespace RO3.ThaiLocalization
         }
         public static byte[] FetchTrusted(string relative, int maximum)
         {
-            if (relative != ManifestPath && !Regex.IsMatch(relative, @"\Amain/translations/live/versions/[0-9a-f]{64}/RO3\.Localization(?:Overrides|Rules)\.tsv\z")) throw new InvalidDataException("Untrusted update path");
+            if (relative != ManifestPath && !Regex.IsMatch(relative, @"\Amain/translations/live/versions/[0-9a-f]{64}/(?:RO3\.Localization(?:Overrides|Rules)|RO3\.LanguageOrigins)\.tsv\z")) throw new InvalidDataException("Untrusted update path");
 #pragma warning disable SYSLIB0014
             var request = (HttpWebRequest)WebRequest.Create(TrustedOrigin + relative);
 #pragma warning restore SYSLIB0014
             request.AllowAutoRedirect = false; request.Timeout = 15000;
-            request.UserAgent = "RO3-Thai-Localization/0.3.1 (translation-data-only)";
             using (var watchdog = new System.Threading.Timer(_ => { try { request.Abort(); } catch { } }, null, 30000, System.Threading.Timeout.Infinite))
             using (var response = (HttpWebResponse)request.GetResponse())
             {
@@ -141,8 +141,9 @@ namespace RO3.ThaiLocalization
                 if (manifest.Version == currentVersion) { report("Translations already current: " + currentVersion); return null; }
                 byte[] table = download(FilePath(manifest, 0), manifest.Files[0].Bytes);
                 byte[] rules = download(FilePath(manifest, 1), manifest.Files[1].Bytes);
-                SkillDictionary dictionary = ValidateBundle(manifest, table, rules);
-                SaveCache(config, manifest, table, rules);
+                byte[] origins = download(FilePath(manifest, 2), manifest.Files[2].Bytes);
+                SkillDictionary dictionary = ValidateBundle(manifest, table, rules, origins);
+                SaveCache(config, manifest, table, rules, origins);
                 report("Translation data updated: " + manifest.Version + "; " + dictionary.Count + " IDs / " + dictionary.RuleCount + " rules. No DLL/EXE download.");
                 return dictionary;
             }

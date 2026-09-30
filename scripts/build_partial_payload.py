@@ -19,7 +19,7 @@ for source in [root/'src/SkillRuntime/bin/Release/net472/RO3.ThaiLocalization.Sk
  shutil.copyfile(source,plugin/source.name)
 # Do not reintroduce attributes/API calls that the stripped game runtime cannot resolve.
 engine=(plugin/'SkillRuntime.Engine.dll').read_bytes()
-assert all(token not in engine for token in (b'System.Runtime.Serialization',b'DataContractAttribute',b'DataContractJsonSerializer',b'set_ReadWriteTimeout')), 'Stripped-runtime incompatibility in plugin metadata'
+assert all(token not in engine for token in (b'System.Runtime.Serialization',b'DataContractAttribute',b'DataContractJsonSerializer',b'set_ReadWriteTimeout',b'set_UserAgent')), 'Stripped-runtime incompatibility in plugin metadata'
 files=[]
 for file in sorted(stage.rglob('*')):
  if not file.is_file():continue
@@ -27,9 +27,9 @@ for file in sorted(stage.rglob('*')):
  assert not relative.lower().endswith('.bat') and '/Translation/ja/' not in relative
  assert 'RO3.LocalizationTablePatcher' not in relative and 'LocalizationAliases' not in relative
  files.append({'Path':relative,'Sha256':hashlib.sha256(file.read_bytes()).hexdigest()})
-required=['BepInEx/config/RO3.TranslationCache/cache.json','winhttp.dll','doorstop_config.ini','arialuni_sdf_u2022','BepInEx/core/BepInEx.dll','BepInEx/core/BepInEx.Preloader.dll','BepInEx/core/0Harmony.dll','BepInEx/plugins/RO3.ThaiLocalization.Skills.dll','BepInEx/plugins/SkillRuntime.Engine.dll','BepInEx/config/RO3.SkillTranslations.tsv','BepInEx/config/RO3.SkillRules.tsv','BepInEx/config/AutoTranslatorConfig.ini']
+required=['BepInEx/config/RO3.LanguageOrigins.tsv','BepInEx/config/RO3.TranslationCache/cache.json','winhttp.dll','doorstop_config.ini','arialuni_sdf_u2022','BepInEx/core/BepInEx.dll','BepInEx/core/BepInEx.Preloader.dll','BepInEx/core/0Harmony.dll','BepInEx/plugins/RO3.ThaiLocalization.Skills.dll','BepInEx/plugins/SkillRuntime.Engine.dll','BepInEx/config/RO3.SkillTranslations.tsv','BepInEx/config/RO3.SkillRules.tsv','BepInEx/config/AutoTranslatorConfig.ini']
 assert set(required).issubset({f['Path'] for f in files})
-manifest={'Version':'0.3.1-ui-hotfix-alpha.1','ReadyForInstallation':True,'TargetProfile':'ro3-mono-x64','Files':files}
+manifest={'Version':'0.4.0-english-base-alpha.1','ReadyForInstallation':True,'TargetProfile':'ro3-mono-x64','Files':files}
 installer=root/'src/Installer'
 (installer/'payload-manifest.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')
 with zipfile.ZipFile(installer/'payload.zip','w',zipfile.ZIP_DEFLATED) as z:

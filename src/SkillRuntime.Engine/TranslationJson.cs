@@ -16,8 +16,8 @@ namespace RO3.ThaiLocalization
             if (typeof(T) == typeof(TranslationManifest)) result = Manifest(Object(value, "manifest"));
             else if (typeof(T) == typeof(TranslationCache))
             {
-                var c = Object(value, "cache"); Keys(c, "Manifest", "Table", "Rules");
-                result = new TranslationCache { Manifest = Manifest(Object(Get(c, "Manifest"), "Manifest")), Table = Text(c, "Table"), Rules = Text(c, "Rules") };
+                var c = Object(value, "cache"); Keys(c, "Manifest", "Table", "Rules", "Origins");
+                result = new TranslationCache { Manifest = Manifest(Object(Get(c, "Manifest"), "Manifest")), Table = Text(c, "Table"), Rules = Text(c, "Rules"), Origins = Text(c, "Origins") };
             }
             else throw new InvalidDataException("Unsupported wire type");
             return (T)result;
@@ -36,9 +36,9 @@ namespace RO3.ThaiLocalization
         {
             Keys(o, "Schema", "RuntimeSchema", "Version", "SourceSha256", "TranslationIds", "RuntimeRules", "Files");
             var values = Get(o, "Files") as List<object?> ?? throw new InvalidDataException("Expected files array");
-            if (values.Count != 2) throw new InvalidDataException("Expected two data files");
-            var files = new TranslationFile[2];
-            for (int i = 0; i < 2; i++)
+            if (values.Count != 3) throw new InvalidDataException("Expected three data files");
+            var files = new TranslationFile[3];
+            for (int i = 0; i < 3; i++)
             {
                 var f = Object(values[i], "file"); Keys(f, "Name", "Sha256", "Bytes");
                 files[i] = new TranslationFile { Name = Text(f, "Name"), Sha256 = Text(f, "Sha256"), Bytes = Number(f, "Bytes") };
@@ -75,7 +75,7 @@ namespace RO3.ThaiLocalization
                 if (i > 0) b.Append(','); var f = m.Files[i];
                 b.Append("{\"Name\":").Append(Quote(f.Name)).Append(",\"Sha256\":").Append(Quote(f.Sha256)).Append(",\"Bytes\":").Append(f.Bytes.ToString(CultureInfo.InvariantCulture)).Append('}');
             }
-            b.Append("]},\"Table\":").Append(Quote(c.Table)).Append(",\"Rules\":").Append(Quote(c.Rules)).Append('}');
+            b.Append("]},\"Table\":").Append(Quote(c.Table)).Append(",\"Rules\":").Append(Quote(c.Rules)).Append(",\"Origins\":").Append(Quote(c.Origins)).Append('}');
             return b.ToString();
         }
         private sealed class Reader

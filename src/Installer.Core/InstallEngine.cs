@@ -62,7 +62,7 @@ public static partial class InstallEngine
         if (manifest.TargetProfile != null && manifest.TargetProfile != "ro3-mono-x64") throw new InvalidDataException("Unsupported target profile");
         if (manifest.TargetProfile == "ro3-mono-x64")
         {
-            string[] required = { "winhttp.dll", "doorstop_config.ini", "arialuni_sdf_u2022", "BepInEx/core/BepInEx.dll", "BepInEx/core/BepInEx.Preloader.dll", "BepInEx/core/0Harmony.dll", "BepInEx/plugins/RO3.ThaiLocalization.Skills.dll", "BepInEx/plugins/SkillRuntime.Engine.dll", "BepInEx/config/RO3.SkillTranslations.tsv", "BepInEx/config/RO3.SkillRules.tsv", "BepInEx/config/AutoTranslatorConfig.ini" };
+            string[] required = { "BepInEx/config/RO3.LanguageOrigins.tsv", "winhttp.dll", "doorstop_config.ini", "arialuni_sdf_u2022", "BepInEx/core/BepInEx.dll", "BepInEx/core/BepInEx.Preloader.dll", "BepInEx/core/0Harmony.dll", "BepInEx/plugins/RO3.ThaiLocalization.Skills.dll", "BepInEx/plugins/SkillRuntime.Engine.dll", "BepInEx/config/RO3.SkillTranslations.tsv", "BepInEx/config/RO3.SkillRules.tsv", "BepInEx/config/AutoTranslatorConfig.ini" };
             foreach (string path in required) if (!manifest.Files.Any(f => f.Path == path)) throw new InvalidDataException("Incomplete skills payload: " + path);
         }
         var names = new HashSet<string>(StringComparer.OrdinalIgnoreCase);

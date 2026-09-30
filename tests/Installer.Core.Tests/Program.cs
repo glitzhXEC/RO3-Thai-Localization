@@ -51,6 +51,25 @@ try
  pe[132]=0x64;pe[133]=0x86;File.WriteAllBytes(Path.Combine(mono,"ro3.exe"),pe);File.Delete(Path.Combine(mono,"ro3_Data/Managed/UnityEngine.CoreModule.dll"));Reject(()=>InstallEngine.ValidateMonoX64(mono),"non-Mono client rejected without searching");
  Reject(()=>InstallEngine.ValidatePayload(payload,new PayloadManifest("skills",true,[entry],"ro3-mono-x64")),"incomplete skill runtime rejected");
 
+
+ string all=Path.Combine(temporary,"remove all ไทย");Directory.CreateDirectory(Path.Combine(all,"BepInEx/plugins"));Directory.CreateDirectory(Path.Combine(all,"BepInEx/core"));Directory.CreateDirectory(Path.Combine(all,"ro3_Data"));
+ File.WriteAllText(Path.Combine(all,"ro3.exe"),"game unchanged");File.WriteAllText(Path.Combine(all,"ro3_Data/game.dat"),"game data unchanged");
+ File.WriteAllText(Path.Combine(all,"BepInEx/plugins/OtherMod.dll"),"third party mod snapshot");File.WriteAllText(Path.Combine(all,"BepInEx/core/BepInEx.dll"),"dummy core");File.WriteAllText(Path.Combine(all,"BepInEx/LogOutput.log"),"user log");
+ File.WriteAllText(Path.Combine(all,"winhttp.dll"),"loader");File.WriteAllText(Path.Combine(all,"doorstop_config.ini"),"target_assembly=BepInEx/core/BepInEx.Preloader.dll");File.WriteAllText(Path.Combine(all,"version.dll"),"unrelated root DLL");File.WriteAllText(Path.Combine(all,".ro3-thai-localization.json"),"damaged ownership marker");
+ Reject(()=>InstallEngine.RemoveBepInExAll(all,new ThrowOnBepFolder()),"full removal rolls back after folder move failure");
+ Check(Directory.Exists(Path.Combine(all,"BepInEx"))&&File.ReadAllText(Path.Combine(all,"winhttp.dll"))=="loader","full rollback restores folder and proxy");
+ var removed=InstallEngine.RemoveBepInExAll(all);
+ Check(!Directory.Exists(Path.Combine(all,"BepInEx"))&&!File.Exists(Path.Combine(all,"winhttp.dll")),"all active BepInEx and confirmed loader removed");
+ Check(!File.Exists(Path.Combine(all,".ro3-thai-localization.json")),"damaged old marker moved safely");
+ Check(File.ReadAllText(Path.Combine(removed.BackupDirectory,"BepInEx/plugins/OtherMod.dll"))=="third party mod snapshot","full removal backs up third-party mods");
+ Check(File.ReadAllText(Path.Combine(removed.BackupDirectory,"BepInEx/LogOutput.log"))=="user log","full removal backs up logs");
+ Check(File.ReadAllText(Path.Combine(all,"ro3.exe"))=="game unchanged"&&File.ReadAllText(Path.Combine(all,"ro3_Data/game.dat"))=="game data unchanged","full removal never modifies game files");
+ Check(File.ReadAllText(Path.Combine(all,"version.dll"))=="unrelated root DLL","unrelated root DLL retained");
+ string unknown=Path.Combine(temporary,"unknown proxy");Directory.CreateDirectory(Path.Combine(unknown,"BepInEx/plugins"));File.WriteAllText(Path.Combine(unknown,"ro3.exe"),"game");File.WriteAllText(Path.Combine(unknown,"winhttp.dll"),"unknown proxy");
+ var retained=InstallEngine.RemoveBepInExAll(unknown);Check(File.ReadAllText(Path.Combine(unknown,"winhttp.dll"))=="unknown proxy"&&retained.PreservedRootPaths.Contains("winhttp.dll"),"unproven proxy retained and reported");
+ string unsafeRoot=Path.Combine(temporary,"unsafe tree");Directory.CreateDirectory(Path.Combine(unsafeRoot,"BepInEx"));File.WriteAllText(Path.Combine(unsafeRoot,"ro3.exe"),"game");Directory.CreateSymbolicLink(Path.Combine(unsafeRoot,"BepInEx/outside"),all);
+ Reject(()=>InstallEngine.RemoveBepInExAll(unsafeRoot),"linked mod tree rejected before removal");Check(Directory.Exists(Path.Combine(unsafeRoot,"BepInEx"))&&File.ReadAllText(Path.Combine(all,"ro3.exe"))=="game unchanged","outside target untouched by removal");
+ Reject(()=>InstallEngine.RemoveBepInExAll(temporary),"full uninstall does not search parent folder for Client");
  if (args.Length>0)
  {
   string repo=Path.GetFullPath(args[0]);
@@ -73,7 +92,16 @@ try
   Check(Directory.Exists(saved),"mutable settings retained in uninstall snapshot");
   Check(File.ReadAllText(Path.Combine(saved,Array.FindIndex(full.Files,f=>f.Path=="BepInEx/config/RO3.TranslationCache/cache.json").ToString()))=="updated translation cache; data only","updated owned cache preserved in uninstall snapshot");
   Check(InstallEngine.Sha(Path.Combine(whole,"ro3.exe"))==gameBefore,"game executable unchanged after uninstall");
+  var fullClean=InstallEngine.RemoveBepInExAll(whole);Check(!Directory.Exists(Path.Combine(whole,"BepInEx")),"full menu removes leftovers preserved by scoped uninstall");
+  Check(File.ReadAllText(Path.Combine(fullClean.BackupDirectory,"BepInEx/plugins/UserExtra.dll"))=="user-added mod; not executed","leftover mod moved to full backup");
+  InstallEngine.Install(whole,stage,full);Check(File.Exists(Path.Combine(whole,".ro3-thai-localization.json")),"clean reinstall succeeds after full removal");
+  InstallEngine.Uninstall(whole);
  }
  Console.WriteLine($"{passed} tests passed; dummy files only, no game or Windows UI executed.");
 }
 finally { Directory.Delete(temporary,true); }
+
+sealed class ThrowOnBepFolder : IProgress<InstallProgress>
+{
+ public void Report(InstallProgress p){if(p.Path=="BepInEx")throw new IOException("Simulated failure after BepInEx move");}
+}

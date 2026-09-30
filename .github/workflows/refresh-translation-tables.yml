@@ -36,7 +36,7 @@ jobs:
           dotnet run --project tests/TranslationUpdater.Tests -c Release -- .
       - name: Commit generated tables only
         run: |
-          git add -- translations/RO3.LocalizationOverrides.tsv translations/retranslated.tsv docs/qa-translations.json docs/partial-skill-payload.json translations/live docs/translation-update-feed.json
+          git add -- translations/RO3.LocalizationOverrides.tsv translations/retranslated.tsv docs/qa-translations.json docs/partial-skill-payload.json translations/RO3.LocalizationUntranslated.tsv translations/RO3.LocalizationMerged.tsv docs/split-localization-tables.json translations/live docs/translation-update-feed.json
           if git diff --cached --quiet; then
             echo "Tables already current"
             exit 0

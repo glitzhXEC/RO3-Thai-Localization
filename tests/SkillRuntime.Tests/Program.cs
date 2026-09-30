@@ -2,18 +2,27 @@ using RO3.ThaiLocalization;
 using System.Text.RegularExpressions;
 string root=Path.GetFullPath(args.Length>0?args[0]:".");
 string config=Path.Combine(root,"runtime-build/payload/BepInEx/config");
-var dict=SkillDictionary.Load(Path.Combine(config,"RO3.SkillTranslations.tsv"),Path.Combine(config,"RO3.SkillRules.tsv"));
+var dict=SkillDictionary.Load(Path.Combine(config,"RO3.SkillTranslations.tsv"),Path.Combine(config,"RO3.SkillRules.tsv"),Path.Combine(config,"RO3.LanguageOrigins.tsv"));
 var token=new Regex(@"[$@^]\{\d+\}");
 int checks=0;
 void Check(bool yes,string context) { if(!yes)throw new Exception(context);checks++; }
 var rows=File.ReadAllLines(Path.Combine(config,"RO3.SkillTranslations.tsv")).Select(s=>s.Split('\t',3)).ToDictionary(r=>r[0]);
 Check(dict.Count==rows.Count,"Dictionary count");
+var englishOnly=rows.Values.Where(r=>r[1]==r[2]).Select(r=>r[1]).ToHashSet();
 foreach(var row in rows.Values)
 {
  Check(dict.TryId(row[0],row[1],out var thai)&&thai==row[2],"Fresh ID "+row[0]);
- Check(dict.Translate(row[1])==(row[1].Length>=45?row[2]:row[1]),"Scoped exact English "+row[0]);
+ if(row[1]!=row[2]) Check(dict.Translate(row[1])==(row[1].Length>=45&&!englishOnly.Contains(row[1])?row[2]:row[1]),"Scoped Thai exact English "+row[0]);
  Check(!dict.TryId(row[0],"Different new game English text",out _),"Mismatched ID refused "+row[0]);
 }
+string Unwire(string s){var b=new System.Text.StringBuilder();for(int i=0;i<s.Length;i++){if(s[i]=='\\'&&i+1<s.Length&&"nrt\\".Contains(s[i+1])){char c=s[++i];b.Append(c=='n'?'\n':c=='r'?'\r':c=='t'?'\t':'\\');}else b.Append(s[i]);}return b.ToString();}
+var originals=File.ReadAllLines(Path.Combine(config,"RO3.LanguageOrigins.tsv")).Select(s=>s.Split('\t',3)).ToDictionary(r=>r[0]);
+foreach(var pair in originals)
+ foreach(string chinese in pair.Value.Skip(1))
+ {
+  if(string.IsNullOrEmpty(chinese)||chinese=="None")continue;
+  Check(dict.TryId(pair.Key,chinese,out var restored)&&restored==(Unwire(chinese)==chinese?Unwire(rows[pair.Key][2]):rows[pair.Key][2]),"Verified Chinese by ID "+pair.Key);
+ }
 foreach(var line in File.ReadAllLines(Path.Combine(config,"RO3.SkillRules.tsv")))
 {
  var rule=line.Split('\t',3);var row=rows[rule[0]];
@@ -32,5 +41,16 @@ Check(dict.Translate("PATK")=="PATK","No global word substitutions");
 Check(dict.Translate("Hello from my party!")=="Hello from my party!","Unmatched chat unchanged");
 Check(dict.Translate("ข้อความภาษาไทยเดิม")=="ข้อความภาษาไทยเดิม","Thai text not retranslated");
 Check(!dict.TryId("99999999999","Hello",out _),"Unknown ID refused");
-Check(!dict.TryId("10110300015","unknown",out _),"Ambiguous skill excluded");
-Console.WriteLine($"PASS: {checks} checks; {dict.Count} fresh skill IDs, {dict.RuleCount} runtime rules. No game executed.");
+Check(!dict.TryId("10110300015","unknown",out _),"Ambiguous skill does not override mismatched text");
+foreach(var sample in new[]{("1002","确定","Confirm"),("1003","取消","Cancel"),("1008","背包","Backpack")})
+ Check(dict.TryId(sample.Item1,sample.Item2,out var restored)&&restored==sample.Item3,"UI restored English "+sample.Item1);
+Check(dict.Translate("确定")=="确定" && dict.Translate("你好")=="你好","No global arbitrary Chinese translations");
+Check(!dict.TryId("1002","另一个玩家",out _),"Wrong Chinese for same ID preserved");
+var native=new Dictionary<long,string>{{1002,"确定"},{1003,"取消"},{999999,"user-owned"}};
+dict.SeedCache(native);Check(native[1002]=="Confirm" && native[1003]=="Cancel","Native Chinese cache restored");
+for(int i=0;i<5;i++){native.Clear();native[1002]="确定";dict.SeedCache(native);Check(native[1002]=="Confirm","Repeated language cache reset "+i);}
+native[1002]="Changed newer English";dict.SeedCache(native);Check(native[1002]=="Changed newer English","Unknown/new English not forcibly overwritten");
+var collision=SkillDictionary.LoadText("1002\tThis is a sufficiently long duplicated original English description.\tThis is a sufficiently long duplicated original English description.\n10110300001\tThis is a sufficiently long duplicated original English description.\tนี่เป็นคำแปลทดสอบที่มีต้นฉบับเดียวกัน\n","");
+Check(collision.Translate("This is a sufficiently long duplicated original English description.")=="This is a sufficiently long duplicated original English description.","Shared text cannot change English-only UI IDs");
+Check(collision.TryId("10110300001","This is a sufficiently long duplicated original English description.",out var special)&&special=="นี่เป็นคำแปลทดสอบที่มีต้นฉบับเดียวกัน","Shared text still translates by exact approved ID");
+Console.WriteLine($"PASS: {checks} checks; {dict.Count} merged localization IDs, {dict.RuleCount} runtime rules. No game executed.");

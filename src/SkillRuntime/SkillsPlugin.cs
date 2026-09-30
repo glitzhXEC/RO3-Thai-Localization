@@ -10,10 +10,12 @@ using System.Threading;
 
 namespace RO3.ThaiLocalization
 {
-    [BepInPlugin("com.ro3.thailocalization.skills", "RO3 Thai Localization + Translation Updates", "0.3.1")]
+    [BepInPlugin("com.ro3.thailocalization.skills", "RO3 Thai Localization + Translation Updates", "0.4.0")]
     public sealed class SkillsPlugin : BaseUnityPlugin
     {
         private static SkillDictionary? dictionary;
+        private static SkillDictionary? previousDictionary;
+        private static int seedPending = 1, fallbackLogs;
         private static Harmony? harmony;
         private static ManualLogSource? log;
         private static readonly HashSet<MethodBase> patched = new HashSet<MethodBase>();
@@ -25,7 +27,7 @@ namespace RO3.ThaiLocalization
             try
             {
                 log = Logger;
-                dictionary = SkillDictionary.Load(Path.Combine(Paths.ConfigPath, "RO3.SkillTranslations.tsv"), Path.Combine(Paths.ConfigPath, "RO3.SkillRules.tsv"));
+                dictionary = SkillDictionary.Load(Path.Combine(Paths.ConfigPath, "RO3.SkillTranslations.tsv"), Path.Combine(Paths.ConfigPath, "RO3.SkillRules.tsv"), Path.Combine(Paths.ConfigPath, "RO3.LanguageOrigins.tsv"));
                 string cachedVersion = "";
                 try
                 {
@@ -34,8 +36,9 @@ namespace RO3.ThaiLocalization
                 }
                 catch (Exception error) { log.LogWarning("Translation cache rejected; using embedded/offline files: " + error.Message); }
                 harmony = new Harmony("com.ro3.thailocalization.skills.hooks");
-                log.LogInfo("English-only translation dictionary loaded: " + dictionary.Count + " IDs, " + dictionary.RuleCount + " rules. No legacy dictionaries or online machine translation.");
+                log.LogInfo("English-base localization dictionary loaded: " + dictionary.Count + " IDs (Thai differences=" + dictionary.ThaiCount + "), " + dictionary.RuleCount + " rules. No legacy dictionaries or online machine translation.");
                 InstallHooks();
+                foreach (Type type in FindTypes("LanguageMain")) SeedLanguageCache(type, "startup");
                 bool autoUpdate = Config.Bind("Translations", "AutoUpdateOnStartup", true, "Check trusted GitHub main once on startup; downloads translation data only. Offline cache remains available.").Value;
                 if (autoUpdate)
                 {
@@ -44,7 +47,11 @@ namespace RO3.ThaiLocalization
                     ThreadPool.QueueUserWorkItem(_ =>
                     {
                         var updated = TranslationUpdater.Refresh(configPath, version, message => log?.LogInfo(message));
-                        if (updated != null) Volatile.Write(ref dictionary, updated);
+                        if (updated != null)
+                        {
+                            Volatile.Write(ref previousDictionary, Volatile.Read(ref dictionary));
+                            Volatile.Write(ref dictionary, updated); Interlocked.Exchange(ref seedPending, 1);
+                        }
                     });
                 }
                 AppDomain.CurrentDomain.AssemblyLoad += (_, __) => ThreadPool.QueueUserWorkItem(_ => InstallHooks());
@@ -78,6 +85,8 @@ namespace RO3.ThaiLocalization
                 {
                     MethodInfo? method = type.GetMethod("Obf_gO", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static, null, new[] { typeof(long) }, null);
                     if (method != null && method.ReturnType == typeof(string)) Patch(method, "LanguagePostfix", true, true);
+                    var reset = type.GetMethod("Obf_FO", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static, null, Type.EmptyTypes, null);
+                    if (reset != null) Patch(reset, "LanguageCacheResetPostfix", true, true);
                 }
                 foreach (string name in new[] { "TMPro.TMP_Text", "UnityEngine.UI.Text", "HUDUber.Text", "HUDUber.Graphic", "MTextData", "TextMeshBuilder" })
                     foreach (Type type in FindTypes(name))
@@ -106,13 +115,40 @@ namespace RO3.ThaiLocalization
             }
             catch (Exception error) { log?.LogWarning("Cannot hook " + method.Name + ": " + error.Message); }
         }
-        private static void LanguagePostfix(long __0, ref string __result)
+        private static void SeedLanguageCache(Type type, string reason)
+        {
+            var current = Volatile.Read(ref dictionary); if (current == null) return;
+            try
+            {
+                var field = type.GetField("Obf_Pk", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static);
+                var native = field?.GetValue(null) as Dictionary<long, string>;
+                if (native == null) return;
+                int changed = current.SeedCache(native, Volatile.Read(ref previousDictionary));
+                Interlocked.Exchange(ref seedPending, 0);
+                log?.LogInfo("English-base cache seeded after " + reason + ": changed=" + changed + ", source IDs=" + current.Count);
+            }
+            catch (Exception e) { log?.LogWarning("Cache seed skipped; verified ID hook stays active: " + e.Message); }
+        }
+        private static void LanguageCacheResetPostfix(MethodBase __originalMethod)
+        {
+            if (__originalMethod.DeclaringType != null) SeedLanguageCache(__originalMethod.DeclaringType, "language cache reset");
+        }
+        private static void LanguagePostfix(long __0, ref string __result, MethodBase __originalMethod)
         {
             if (dictionary == null || __result == null) return;
             try
             {
+                if (Volatile.Read(ref seedPending) != 0 && __originalMethod.DeclaringType != null) SeedLanguageCache(__originalMethod.DeclaringType, "ID lookup (game thread)");
+                var current = Volatile.Read(ref dictionary); if (current == null) return;
                 string translated;
-                if (dictionary.TryId(__0.ToString(CultureInfo.InvariantCulture), __result, out translated)) __result = translated;
+                if (current.TryId(__0.ToString(CultureInfo.InvariantCulture), __result, out translated))
+                {
+                    if (__result != translated && System.Text.RegularExpressions.Regex.IsMatch(__result, @"[\u3400-\u4DBF\u4E00-\u9FFF]") && Interlocked.Increment(ref fallbackLogs) <= 16)
+                        log?.LogInfo("Verified language fallback restored by ID=" + __0.ToString(CultureInfo.InvariantCulture));
+                    __result = translated;
+                }
+                else if (System.Text.RegularExpressions.Regex.IsMatch(__result, @"[\u3400-\u4DBF\u4E00-\u9FFF]") && Interlocked.Increment(ref fallbackLogs) <= 16)
+                    log?.LogWarning("Unmatched Chinese lookup kept unchanged (not guessed), ID=" + __0.ToString(CultureInfo.InvariantCulture));
             }
             catch { /* No lookup failure is allowed to break a game method. */ }
         }
