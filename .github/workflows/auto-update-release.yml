@@ -1,4 +1,4 @@
-# UTF-8-safe Windows skills Alpha build.
+# UTF-8-safe Windows updater Alpha; immutable feed TSVs use byte-exact checkout.
 name: Build auto-update Alpha
 on:
   push:
