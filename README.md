@@ -136,3 +136,7 @@ RO3-Thai-Patch-Installer.exe
 คำแปลใหม่ 691 รายการจาก English เท่านั้น คิวที่ตรวจตระกูลแล้วเหลือ 2726 รายการ (ยังไม่ถือว่าครอบคลุมทุกหมวด) รายละเอียดอยู่ใน [สถานะงาน](docs/RETRANSLATION-PROGRESS.md)
 
 ซอร์สตัวติดตั้ง compile ผ่านและแกนติดตั้งผ่าน 18 checks ด้วยไฟล์จำลอง แต่ยังไม่มี runtime payload พร้อมติดตั้ง ไม่ใช่ Release และยังไม่ผ่าน Windows/เกมจริง ดู [สถานะตัวติดตั้ง](docs/INSTALLER-DEVELOPMENT.md)
+
+### ดาวน์โหลด Skills Alpha ที่เผยแพร่แล้ว
+
+[Windows x64 Skills Alpha v0.2.0-skills-alpha.1](https://github.com/glitzhXEC/RO3-Thai-Localization/releases/tag/v0.2.0-skills-alpha.1) — ติดตั้งผ่าน BepInEx ได้สำหรับทดสอบ ต้องเป็น Client Unity Mono x64 ที่ไม่มี BepInEx/winhttp.dll เดิม ยังไม่ทดสอบในเกมจริง

@@ -31,5 +31,9 @@
   "partial_installer_files": 35,
   "installable_for_testing": true,
   "existing_BepInEx_supported": false,
-  "partial_release_published": false
+  "partial_release_published": true,
+  "partial_release_url": "https://github.com/glitzhXEC/RO3-Thai-Localization/releases/tag/v0.2.0-skills-alpha.1",
+  "partial_release_tag": "v0.2.0-skills-alpha.1",
+  "windows_alpha_build_verified": true,
+  "partial_release_game_tested": false
 }
