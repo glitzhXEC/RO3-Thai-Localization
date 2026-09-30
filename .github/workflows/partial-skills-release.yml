@@ -1,3 +1,4 @@
+# UTF-8-safe Windows skills Alpha build.
 name: Build partial skills Alpha
 on:
   push:
