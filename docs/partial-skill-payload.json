@@ -1,9 +1,11 @@
 {
-  "fresh_skill_ids": 2414,
-  "translation_ids": 3375,
-  "scope": "skills-items-food",
-  "unique_English_descriptions": 3273,
-  "numeric_runtime_rules": 1848,
+  "fresh_skill_ids": 2407,
+  "translation_ids": 33513,
+  "runtime_thai_ids": 3368,
+  "runtime_english_ids": 30145,
+  "scope": "english-base-all-ids",
+  "unique_English_descriptions": 3143,
+  "numeric_runtime_rules": 1822,
   "excluded_semantic_review_ids": [
     "10110300015",
     "10110300017",

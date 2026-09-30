@@ -1,9 +1,12 @@
 {
   "schema": 1,
-  "data_version": "4ee76f04f3af861f1fbbe6035efd36efc844fd82b51864dae84a321a48e2a0b5",
-  "source_overrides_sha256": "3fffededbeda2f9006ce50c86843134d85c6095451780006b4ffd023d84fe3eb",
-  "translation_ids": 3375,
-  "runtime_rules": 1848,
+  "data_version": "de182ec2925002f1edfdd599323f43e28695390e9476b018a19d8e5cc7da25ee",
+  "source_overrides_sha256": "8da949cbe3f50108b1a95d52263d7af57ac1b2b51153d66fe41fd08b099bf045",
+  "translation_ids": 33513,
+  "runtime_rules": 1822,
+  "runtime_schema": 2,
+  "runtime_thai_ids": 3368,
+  "runtime_english_ids": 30145,
   "data_only": true,
   "game_tested": false
 }

@@ -1,0 +1,16 @@
+{
+  "source_ids": 33513,
+  "translated_source_ids": 3380,
+  "untranslated_source_ids": 30133,
+  "runtime_thai_ids": 3368,
+  "runtime_english_ids": 30145,
+  "english_due_to_semantic_review": [
+    "10110300015",
+    "10110300017",
+    "10110300134",
+    "10800100011",
+    "12390100679"
+  ],
+  "legacy_thai_used": false,
+  "live_english_sha256": "119da26cbb80f2b2eb49c644fd8b84fa8f820da65d8a215bded2849e08df16f3"
+}
