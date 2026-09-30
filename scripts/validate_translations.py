@@ -35,7 +35,7 @@ for path in sorted((root/'translations').glob('batch-*.th.json')):
         if re.search(r'สแต็ก|สแตค',thai):errors.append({'ID':key,'check':'stacks_transliterated'})
         if re.search(r'\b(PATK|MATK|PDEF|MDEF|MDMG|PDMG)\b',thai):errors.append({'ID':key,'check':'noncanonical_stat'})
         if not re.search(r'[\u0e00-\u0e7f]',thai):warnings.append({'ID':key,'check':'no_thai'})
-report={'translated_rows':len(translations),'errors':errors,'warnings':warnings,'in_game_tested':False,'semantic_review':'Draft translations; further review required.'}
+report={'translated_rows':len(translations),'errors':errors,'warnings':warnings,'in_game_tested':False,'semantic_review':'English-only fresh translations; eligible priority drafts reviewed/rewritten. Withheld source rows remain excluded. Independent linguistic and in-game QA pending.'}
 (root/'docs/qa-translations.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print(json.dumps(report,ensure_ascii=False,indent=2))
 if errors:sys.exit(1)

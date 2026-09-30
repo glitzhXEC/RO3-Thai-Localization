@@ -184,5 +184,41 @@
     "English": "Bobo deals Physical ATK*^{1} to the designated ST enemy within ${1} meters.",
     "Category": "skill-description",
     "reason": "English damage formula is incomplete: Physical ATK*^{1}."
+  },
+  {
+    "ID": "10110300967",
+    "English": "Can only be used while riding a Demonic Wolf. Command the Demonic Wolf to bite @{2} designated targets within @{1} meters, dealing x% Neutral Physical damage and reducing their healing received by @{3}% for @{4} seconds. Damage dealt to controlled targets is increased by @{5}%.",
+    "Category": "skill-description",
+    "reason": "English damage is x%; no numeric value supplied."
+  },
+  {
+    "ID": "10110300975",
+    "English": "Stores ^{3}@{2}^{4} stacks every ^{1}@{1}^{2} sec, up to ^{5}@{3}^{6} stacks. Locks onto an enemy within @{4} m and teleports to a position @{5} m in front of the target, ^{7}slowing^{8} them by @{6}% for @{7} sec and dealing ^{9}@{8}%^{10} * Physical ATK as Neutral Physical damage. Immediately gains @{9} Blade stacks, and increases the blade count * and damage of the next Cross Ripper Slasher by ^{11}@{10}%^{12}",
+    "Category": "skill-description",
+    "reason": "English blade-count multiplier is incomplete (blade count *) and unclear."
+  },
+  {
+    "ID": "10110301061",
+    "English": "Plant timed Dynamite on a designated ST enemy within ${1} meters. After ${2} seconds, deal Physical ATK * ^{1}${5}%^{2} Poison ranged Physical damage that ignores FLEE to the designated enemy and up to ${4} other enemies within a ${3}-meter radius, and inflict 【^{3}^{4}【Poisoned】^{5}^{6} damage on the target.",
+    "Category": "skill-description",
+    "reason": "Nested unmatched 【Poisoned status formatting in English; do not invent missing formatting."
+  },
+  {
+    "ID": "10110300332",
+    "English": "After a @{1}-second warning, deals damage in a @{2} by @{3} rectangular area toward the current target and applies 【Stomach Acid Corrosion】. Players with 【Stomach Acid Corrosion】 take x damage every second for @{4} seconds",
+    "Category": "skill-description",
+    "reason": "English damage is x; no numeric value supplied."
+  },
+  {
+    "ID": "10110300330",
+    "English": "Creates several circular clouds of mist with a @{1}-meter radius at random locations. Players who enter gain 【Stonecoat】 and take A damage every second. This effect can stack.",
+    "Category": "skill-description",
+    "reason": "English damage is A; no numeric value supplied."
+  },
+  {
+    "ID": "10110300327",
+    "English": "After charging for @{1} seconds, deals A damage to targets in @{5} cone-shaped areas measuring @{2}° by @{3} meters and spaced @{4}° apart. Then turns @{6}° and casts again, for a total of three casts",
+    "Category": "skill-description",
+    "reason": "English damage is A; no numeric value supplied."
   }
 ]

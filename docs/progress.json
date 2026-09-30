@@ -1,11 +1,11 @@
 {
-  "translated_rows": 2265,
+  "translated_rows": 3380,
   "priority_candidates": 3417,
-  "pending_rows": 1152,
+  "pending_rows": 37,
   "categories": {
-    "skill-description": 549,
+    "skill-description": 1163,
     "skill-effect": 954,
-    "item-description": 427,
+    "item-description": 928,
     "skill-enhancement": 301,
     "food-potion-description": 34
   },
@@ -36,15 +36,19 @@
   "partial_release_tag": "v0.2.0-skills-alpha.1",
   "windows_alpha_build_verified": true,
   "partial_release_game_tested": false,
-  "latest_translation_batch": "bulk-027-033",
-  "latest_batch_new_skills": 391,
-  "source_ready_skill_payload_ids": 1800,
-  "source_ready_runtime_checks": 7650,
+  "latest_translation_batch": "bulk-034-045",
+  "latest_batch_new_skills": 614,
+  "source_ready_skill_payload_ids": 2414,
+  "source_ready_runtime_checks": 10492,
   "source_changes_in_current_release": false,
-  "source_ready_runtime_rules": 1121,
-  "unreviewed_draft_rows": 1121,
-  "withheld_source_rows": 31,
+  "source_ready_runtime_rules": 1621,
+  "unreviewed_draft_rows": 0,
+  "withheld_source_rows": 37,
   "semantic_review_complete": false,
   "draft_coverage_complete": true,
-  "drafts_in_runtime": false
+  "drafts_in_runtime": false,
+  "latest_batch_new_rows": 1115,
+  "eligible_priority_queue_complete": true,
+  "full_game_translation_complete": false,
+  "independent_linguistic_QA_complete": false
 }

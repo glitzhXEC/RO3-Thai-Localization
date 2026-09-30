@@ -1,35 +1,47 @@
 {
   "priority_candidates": 3417,
-  "translated_source_rows": 2265,
-  "new_reviewed_rows": 391,
-  "unreviewed_draft_rows": 1121,
-  "withheld_source_rows": 31,
-  "pending_priority_rows": 1152,
-  "source_skill_ids": 1800,
-  "source_runtime_rules": 1121,
-  "runtime_checks": 7650,
+  "translated_source_rows": 3380,
+  "new_reviewed_rows": 1115,
+  "unreviewed_draft_rows": 0,
+  "withheld_source_rows": 37,
+  "pending_priority_rows": 37,
+  "eligible_priority_queue_complete": true,
+  "translation_complete_including_withheld": false,
+  "full_game_translation_complete": false,
+  "source_skill_ids": 2414,
+  "source_runtime_rules": 1621,
+  "runtime_checks": 10492,
   "structural_errors": 0,
   "broken_unicode_count": 0,
-  "draft_coverage_complete": true,
-  "semantic_review_complete": false,
-  "translation_complete": false,
+  "reviewed_against_English": true,
+  "independent_linguistic_QA_complete": false,
   "game_tested": false,
   "legacy_Thai_used": false,
   "runtime_online_translation_enabled": false,
-  "drafting_method": "English-only machine-assisted drafts; approved new batches rewritten/reviewed against English; exact-English duplicate reuse in batch033.",
   "current_exe_skill_ids": 416,
   "current_exe_tag": "v0.2.0-skills-alpha.1",
   "new_translations_in_current_exe": false,
   "new_categories": {
-    "skill-enhancement": 7,
-    "skill-effect": 140,
-    "item-description": 120,
-    "skill-description": 124
+    "item-description": 501,
+    "skill-description": 614
   },
   "remaining_categories": {
     "skill-effect": 17,
     "skill-enhancement": 1,
-    "item-description": 507,
-    "skill-description": 627
-  }
+    "item-description": 6,
+    "skill-description": 13
+  },
+  "existing_semantic_review_exclusions": [
+    "10110300015",
+    "10110300017",
+    "10110300134",
+    "10800100011",
+    "12390100679"
+  ],
+  "notes": [
+    "Coverage is the 3,417-row priority queue, not the 33,512-row complete English snapshot.",
+    "1115 new rows rewritten/reviewed from English; no unchecked machine draft included.",
+    "5 earlier semantic-review exclusions remain out of the skills payload.",
+    "A color-token boundary issue in 10110300630 was fixed and all runtime rule tests rerun."
+  ]
 }

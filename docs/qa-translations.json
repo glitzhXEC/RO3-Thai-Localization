@@ -1,5 +1,5 @@
 {
-  "translated_rows": 2265,
+  "translated_rows": 3380,
   "errors": [],
   "warnings": [
     {
@@ -184,5 +184,5 @@
     }
   ],
   "in_game_tested": false,
-  "semantic_review": "Draft translations; further review required."
+  "semantic_review": "English-only fresh translations; eligible priority drafts reviewed/rewritten. Withheld source rows remain excluded. Independent linguistic and in-game QA pending."
 }
