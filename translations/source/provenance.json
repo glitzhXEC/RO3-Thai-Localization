@@ -1,0 +1,16 @@
+{
+  "source_repository": "https://github.com/glitzhXEC/RO3_Asia_Thai_Patch",
+  "source_commit": "58f87d531e3315f8351579e1b3c6a7b575d54381",
+  "source_file_sha256": "d8882acf94d7a3a61113039577bc83a6c7b95c6124828351072000838f40783d",
+  "valid_source_rows": 33512,
+  "candidate_priority_rows": 3417,
+  "anomalies_excluded": [
+    {
+      "line": 20979,
+      "id": "53001",
+      "columns": 8
+    }
+  ],
+  "legacy_thai_used": false,
+  "scope_note": "ID-family candidates require further classification; not exhaustive."
+}
