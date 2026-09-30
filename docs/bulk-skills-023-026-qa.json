@@ -1,0 +1,35 @@
+{
+  "batches": [
+    "batch-023.th.json",
+    "batch-024.th.json",
+    "batch-025.th.json",
+    "batch-026.th.json"
+  ],
+  "new_rows": 241,
+  "categories": {
+    "skill-enhancement": 29,
+    "skill-description": 7,
+    "skill-effect": 205
+  },
+  "total_translated_rows": 1874,
+  "pending_priority_rows": 1543,
+  "source_skill_payload_ids": 1529,
+  "source_runtime_rules": 989,
+  "runtime_checks": 6573,
+  "structural_errors": 0,
+  "new_batch_in_game_tested": false,
+  "legacy_Thai_used": false,
+  "current_release_skill_ids": 416,
+  "included_in_current_release": false,
+  "ambiguous_source_rows_left_pending": [
+    "10220300699",
+    "10220300674",
+    "10220300666"
+  ],
+  "semantic_notes": [
+    "Dual-wielding daggers is translated as holding a pair of daggers, not a two-handed dagger.",
+    "Physical damage scaled by Magic ATK remains as the English source states.",
+    "Max HP and current HP are not substituted for each other.",
+    "User-facing effect descriptions are prioritized; designer-only and incomplete prototype strings stay pending."
+  ]
+}

@@ -1632,3 +1632,244 @@ ID	English	Thai_Translation
 10220300898	Increases the casting Distance of 【Soul Destroyer】 by ${1} meters. After casting, deals Neutral melee Physical damage equal to Physical ATK × ${4}% to up to ${3} enemies within a ${2}-meter radius of the target.	เพิ่มระยะใช้ [ Soul Destroyer ] อีก ${1} เมตร หลังใช้ สร้างดาเมจกายภาพระยะประชิดไร้ธาตุเท่ากับ P.ATK × ${4}% แก่ศัตรูสูงสุด ${3} ตัว ในรัศมี ${2} เมตรรอบเป้าหมาย
 10220300897	Every third cast of 【Soul Destroyer】 becomes 【Advanced Soul Destroyer】, increasing its damage by ${1}%.	ทุกการใช้ [ Soul Destroyer ] ครั้งที่สาม จะเปลี่ยนเป็น [ Advanced Soul Destroyer ] เพิ่มดาเมจขึ้น ${1}%
 10220300887	When a dagger or katar is equipped, Physical ATK +${1}.	เมื่อสวมมีดหรือกาตาร์ P.ATK +${1}
+10800100270	When equipped with a katar, Crit Modifier increases by ^{1}${4}%^{2}.	เมื่อสวมกาตาร์ Crit Modifier เพิ่มขึ้น ^{1}${4}%^{2}
+10800100271	When equipped with a dagger, increases Attack Speed by ^{1}${1}^{2} and AGI by ^{3}${2}^{4}.	เมื่อสวมมีด เพิ่ม ASPD ขึ้น ^{1}${1}^{2} และ AGI ขึ้น ^{3}${2}^{4}
+10800100272	【Fire Bolt】, 【Cold Bolt】, 【Lightning Bolt】, and 【Earth Spike】 deal ${1}% more damage.	[ Fire Bolt ], [ Cold Bolt ], [ Lightning Bolt ] และ [ Earth Spike ] สร้างดาเมจเพิ่มขึ้น ${1}%
+10800100273	【Fire Bolt】, 【Cold Bolt】, 【Lightning Bolt】, and 【Earth Spike】 are no longer affected by Cast Speed, and their CT is fixed at ${1} sec.	[ Fire Bolt ], [ Cold Bolt ], [ Lightning Bolt ] และ [ Earth Spike ] ไม่ได้รับผลจาก Cast Speed อีกต่อไป และ CT คงที่ที่ ${1} วินาที
+10800100274	When 【Fire Bolt】, 【Cold Bolt】, 【Lightning Bolt】, or 【Earth Spike】 hits, there is a ${1}% Chance to trigger @{1} 【Elemental Pursuit】, dealing Neutral ranged magic damage equal to Magic ATK * ${2}% to the target. This effect has a ${3}-sec. Cooldown.	เมื่อ [ Fire Bolt ], [ Cold Bolt ], [ Lightning Bolt ] หรือ [ Earth Spike ] โจมตีโดน มีโอกาส ${1}% ใช้ @{1} ครั้งของ [ Elemental Pursuit ] สร้างดาเมจเวทระยะไกลไร้ธาตุเท่ากับ M.ATK * ${2}% แก่เป้าหมาย ผลนี้มี Cooldown ${3} วินาที
+10800100275	When 【Fire Bolt】, 【Cold Bolt】, 【Lightning Bolt】, or 【Earth Spike】 hits, there is a ${1}% Chance to trigger @{1} 【Elemental Shock】, dealing Neutral ranged magic damage equal to Magic ATK * ${4}% to up to ${3} enemies within a ${2}m radius. This effect has a ${5}-sec. Cooldown.	เมื่อ [ Fire Bolt ], [ Cold Bolt ], [ Lightning Bolt ] หรือ [ Earth Spike ] โจมตีโดน มีโอกาส ${1}% ใช้ @{1} ครั้งของ [ Elemental Shock ] สร้างดาเมจเวทระยะไกลไร้ธาตุเท่ากับ M.ATK * ${4}% แก่ศัตรูสูงสุด ${3} ตัว ในรัศมี ${2} เมตร ผลนี้มี Cooldown ${5} วินาที
+10800100279	【Fire Ball】 and 【Sightrasher】 deal ${1}% more damage.	[ Fire Ball ] และ [ Sightrasher ] สร้างดาเมจเพิ่มขึ้น ${1}%
+10800100280	When 【Fire Ball】 hits the primary target, triggers @{1} Lv${1} 【Fire Bolt】.	เมื่อ [ Fire Ball ] โจมตีโดนเป้าหมายหลัก ใช้ @{1} ครั้งของ Lv${1} [ Fire Bolt ]
+10800100281	When 【Fire Ball】 hits the primary target, deals Splash damage to up to ${2} enemies within a ${1}m radius.	เมื่อ [ Fire Ball ] โจมตีโดนเป้าหมายหลัก สร้างดาเมจกระจายแก่ศัตรูสูงสุด ${2} ตัว ในรัศมี ${1} เมตร
+10800100282	【Frost Diver】 and 【Jupitel Thunder】's maximum Cooldown decreases by ${1} sec.	Cooldown สูงสุดของ [ Frost Diver ] และ [ Jupitel Thunder ] ลดลง ${1} วินาที
+10800100283	【Frost Diver】's area of effect increases to ${1}m and triggers @{1} 【Ice Spike】 on every target hit, dealing Water ranged magic damage equal to Magic ATK * ${2}%. Hitting 【Frozen】 enemies does not remove 【Frozen】.	พื้นที่ผลของ [ Frost Diver ] เพิ่มเป็น ${1} เมตร และใช้ @{1} ครั้งของ [ Ice Spike ] ใส่ทุกเป้าหมายที่ถูกโจมตี สร้างดาเมจเวทระยะไกลธาตุ Water เท่ากับ M.ATK * ${2}% การโจมตีศัตรูที่ติด [ Frozen ] ไม่ยกเลิก [ Frozen ]
+10800100284	When 【Jupitel Thunder】 hits, triggers 【Thunderbolt】, dealing Wind ranged magic damage equal to Magic ATK * ${1}% to the target.	เมื่อ [ Jupitel Thunder ] โจมตีโดน ใช้ [ Thunderbolt ] สร้างดาเมจเวทระยะไกลธาตุ Wind เท่ากับ M.ATK * ${1}% แก่เป้าหมาย
+10800100285	【Meteor Storm】 and 【Heaven's Drive】 deal ${1}% more damage.	[ Meteor Storm ] และ [ Heaven's Drive ] สร้างดาเมจเพิ่มขึ้น ${1}%
+10800100286	After casting 【Meteor Storm】, immediately triggers @{1} 【Flame Explosion】, dealing Fire ranged magic damage equal to Magic ATK * ${3}% to up to ${2} enemies within ${1}m.	หลังใช้ [ Meteor Storm ] ใช้ @{1} ครั้งของ [ Flame Explosion ] ทันที สร้างดาเมจเวทระยะไกลธาตุ Fire เท่ากับ M.ATK * ${3}% แก่ศัตรูสูงสุด ${2} ตัว ในระยะ ${1} เมตร
+10800100287	After casting 【Heaven's Drive】, the next 【Meteor Storm】 cast within ${1} sec. creates an 【Ember Zone】 lasting ${2} sec. Every ${3} sec., it deals Fire ranged magic damage equal to Magic ATK * ${5}% to up to ${4} enemies in the area.	หลังใช้ [ Heaven's Drive ] การใช้ [ Meteor Storm ] ครั้งถัดไปภายใน ${1} วินาทีจะสร้าง [ Ember Zone ] คงอยู่ ${2} วินาที ทุก ${3} วินาที สร้างดาเมจเวทระยะไกลธาตุ Fire เท่ากับ M.ATK * ${5}% แก่ศัตรูสูงสุด ${4} ตัวในพื้นที่
+10800100288	【Storm Gust】 and 【Lord of Vermilion】 deal ${1}% more damage.	[ Storm Gust ] และ [ Lord of Vermilion ] สร้างดาเมจเพิ่มขึ้น ${1}%
+10800100289	After casting 【Storm Gust】, immediately triggers @{1} 【Frost Explosion】, dealing Water ranged magic damage equal to Magic ATK * ${3}% to up to ${2} enemies within ${1}m, with a ${4}% Chance to inflict ^{1}^{2}【Frozen】^{3}^{4} for ${5} sec.	หลังใช้ [ Storm Gust ] ใช้ @{1} ครั้งของ [ Frost Explosion ] ทันที สร้างดาเมจเวทระยะไกลธาตุ Water เท่ากับ M.ATK * ${3}% แก่ศัตรูสูงสุด ${2} ตัว ในระยะ ${1} เมตร มีโอกาส ${4}% ทำให้ติดสถานะ ^{1}^{2}[ Frozen ]^{3}^{4} เป็นเวลา ${5} วินาที
+10800100290	For every @{1} enemy hit by 【Lord of Vermilion】, its damage increases by ${1}%, up to ${2}%.	ทุกศัตรู @{1} ตัวที่ถูก [ Lord of Vermilion ] โจมตี ดาเมจเพิ่มขึ้น ${1}% สูงสุด ${2}%
+10800100291	【Magic Crasher】 and 【Napalm Vulcan】 deal ${1}% more damage.	[ Magic Crasher ] และ [ Napalm Vulcan ] สร้างดาเมจเพิ่มขึ้น ${1}%
+10800100292	After every ^{1}${1}^{2} casts of 【Magic Crasher】, the skill multiplier of the next @{1} casts of 【Magic Crasher】 increases by ^{3}${2}%^{4}, and their fixed damage increases by ^{5}${3}^{6}.	ทุกการใช้ ^{1}${1}^{2} ครั้งของ [ Magic Crasher ] ตัวคูณสกิลของการใช้ @{1} ครั้งถัดไปของ [ Magic Crasher ] เพิ่มขึ้น ^{3}${2}%^{4} และดาเมจส่วนค่าคงที่เพิ่มขึ้น ^{5}${3}^{6}
+10800100293	For every @{1} enemy hit by 【Napalm Vulcan】, its damage increases by ${1}%, up to ${2}%.	ทุกศัตรู @{1} ตัวที่ถูก [ Napalm Vulcan ] โจมตี ดาเมจเพิ่มขึ้น ${1}% สูงสุด ${2}%
+10800100294	Wind/Earth/Water/Fire/Neutral/Ghost damage increases by ${1}%.	ดาเมจธาตุ Wind/Earth/Water/Fire/Neutral/Ghost เพิ่มขึ้น ${1}%
+10800100295	When 【Soul Drain】 scores a Kill, gain ${1} Magic ATK, up to ${2}. The amount gained is doubled when killing a player. Resets upon death, changing areas, or logging out.	เมื่อ [ Soul Drain ] สังหารเป้าหมายได้ ได้รับ M.ATK ${1} สูงสุด ${2} ค่าที่ได้รับเพิ่มเป็นสองเท่าเมื่อสังหารผู้เล่น รีเซ็ตเมื่อตาย เปลี่ยนพื้นที่ หรือออกจากระบบ
+10800100296	Magic damage dealt increases by ${1}%.	M.DMG ที่ทำได้เพิ่มขึ้น ${1}%
+10800100297	【Gravitation Field】 deals ${1}% more damage.	[ Gravitation Field ] สร้างดาเมจเพิ่มขึ้น ${1}%
+10800100298	After casting 【Gravitation Field】, triggers @{1} 【Spatial Distortion】, dealing Ghost ranged magic damage equal to Magic ATK * ${3}% to up to ${2} enemies within ${1}m, with a ${4}% Chance to inflict 【Slow】 for ${5} sec., reducing the target's Move Speed by ${6}%.	หลังใช้ [ Gravitation Field ] ใช้ @{1} ครั้งของ [ Spatial Distortion ] สร้างดาเมจเวทระยะไกลธาตุ Ghost เท่ากับ M.ATK * ${3}% แก่ศัตรูสูงสุด ${2} ตัว ในระยะ ${1} เมตร มีโอกาส ${4}% ทำให้ติด [ Slow ] เป็นเวลา ${5} วินาที ลด MSPD ของเป้าหมายลง ${6}%
+10800100299	When 【Gravitation Field】 ends, inflicts 【Immobilize】 on enemies in the area for ${1} sec.	เมื่อ [ Gravitation Field ] สิ้นสุด ทำให้ศัตรูในพื้นที่ติด [ Immobilize ] เป็นเวลา ${1} วินาที
+10800100300	【Mystical Amplification】 grants an Extra {1} Cast Speed.	[ Mystical Amplification ] มอบ Cast Speed เพิ่มอีก {1}
+10800100301	【Mystical Amplification】 grants an Extra ${1} Magic ATK.	[ Mystical Amplification ] มอบ M.ATK เพิ่มอีก ${1}
+10220300919	Unique Effect: Casting a skill or using a Normal Attack grants maximum Floors of the 【Icebound Protection】 defensive buff. Initial limit: @{1} Floors. Duration: @{2} sec. Each Floor increases your DEF by @{3}% and has a @{4}% Chance to Slow enemies that hit you by @{5}% for @{6} sec. (Cooldown: @{7} sec.)	ผลเฉพาะ: การใช้สกิลหรือโจมตีปกติมอบบัฟป้องกัน [ Icebound Protection ] จำนวนชั้นสูงสุด ขีดจำกัดเริ่มต้น: @{1} ชั้น ระยะเวลา: @{2} วินาที แต่ละชั้นเพิ่ม DEF ของคุณขึ้น @{3}% และมีโอกาส @{4}% ลดความเร็วของศัตรูที่โจมตีคุณลง @{5}% เป็นเวลา @{6} วินาที (Cooldown: @{7} วินาที)
+10220300896	Increases 【Soul Destroyer】 damage by ${1}% and reduces variable CT by ${2}%.	เพิ่มดาเมจของ [ Soul Destroyer ] ขึ้น ${1}% และลด VCT ลง ${2}%
+10220300895	Increases the Chance of triggering 【Venom】 with 【Deadly Poison】 by ${1}%.	เพิ่มโอกาสเกิด [ Venom ] จาก [ Deadly Poison ] ขึ้น ${1}%
+10220300894	Increases the 【Venom】 damage triggered by 【Deadly Poison】 by ${1}%.	เพิ่มดาเมจของ [ Venom ] ที่เกิดจาก [ Deadly Poison ] ขึ้น ${1}%
+10220300893	Increases the Physical ATK granted by 【Deadly Poison】 by ${1}.	เพิ่ม P.ATK ที่ [ Deadly Poison ] มอบให้ขึ้น ${1}
+10220300892	After using 【Virus Spread】, deals Poison melee Physical damage equal to Physical ATK × ${3}% to up to ${2} enemies within a ${1}-meter radius of the target.	หลังใช้ [ Virus Spread ] สร้างดาเมจกายภาพระยะประชิดธาตุ Poison เท่ากับ P.ATK × ${3}% แก่ศัตรูสูงสุด ${2} ตัว ในรัศมี ${1} เมตรรอบเป้าหมาย
+10220300891	After using 【Virus Spread】, deals ${1} Extra hit(s) of Neutral melee Physical damage equal to Physical ATK × ${2}% to one enemy.	หลังใช้ [ Virus Spread ] โจมตีศัตรูหนึ่งตัวเพิ่มอีก ${1} ครั้ง ด้วยดาเมจกายภาพระยะประชิดไร้ธาตุเท่ากับ P.ATK × ${2}%
+10220300889	When 【Double Attack】 triggers, it also deals Neutral melee Physical damage equal to Physical ATK × ${4}% to up to ${3} enemies within a ${2}-meter radius. Built-in Cooldown: ${1} seconds.	เมื่อ [ Double Attack ] เกิดผล สร้างดาเมจกายภาพระยะประชิดไร้ธาตุเพิ่มเติมเท่ากับ P.ATK × ${4}% แก่ศัตรูสูงสุด ${3} ตัว ในรัศมี ${2} เมตร CD ภายใน: ${1} วินาที
+10220300888	For ${1} seconds after using 【Cloaking】, your next attack deals ${2} Extra hits of Neutral melee Physical damage equal to Physical ATK × ${3}% to the enemy.	ภายใน ${1} วินาทีหลังใช้ [ Cloaking ] การโจมตีครั้งถัดไปสร้างดาเมจกายภาพระยะประชิดไร้ธาตุแก่ศัตรูเพิ่มอีก ${2} ครั้ง เท่ากับ P.ATK × ${3}%
+10220300886	Learning 【Katar Mastery】 and 【Dual-Wield Mastery】 grants ${1} Extra AGI.	เมื่อเรียน [ Katar Mastery ] และ [ Dual-Wield Mastery ] ได้รับ AGI เพิ่มอีก ${1}
+10220300885	Reduces the Cooldown of 【Hiding】, 【Back Slide】, and 【Cloaking】 by ${1} seconds.	ลด Cooldown ของ [ Hiding ], [ Back Slide ] และ [ Cloaking ] ลง ${1} วินาที
+10220300883	For ${1} seconds after using 【Grimtooth】, 【Basic Attack】, 【Sonic Blow】, and 【Envenomed Blade】 damage increases by ${2}%.	ภายใน ${1} วินาทีหลังใช้ [ Grimtooth ] ดาเมจของ [ Basic Attack ], [ Sonic Blow ] และ [ Envenomed Blade ] เพิ่มขึ้น ${2}%
+10220300882	After using 【Grimtooth】, there is a ${1}% Chance to deal Neutral melee Physical damage equal to Physical ATK × ${4}% to up to ${3} enemies within a ${2}-meter radius of the target. Built-in Cooldown: ${5} seconds.	หลังใช้ [ Grimtooth ] มีโอกาส ${1}% สร้างดาเมจกายภาพระยะประชิดไร้ธาตุเท่ากับ P.ATK × ${4}% แก่ศัตรูสูงสุด ${3} ตัว ในรัศมี ${2} เมตรรอบเป้าหมาย CD ภายใน: ${5} วินาที
+10220300880	Grants 【Envenomed Blade】 ${1} Extra ricochet(s).	[ Envenomed Blade ] ชิ่งเพิ่มอีก ${1} ครั้ง
+10220300879	After casting 【Envenomed Blade】 ${1} times, triggers 【Venom】 damage ${2} times on the target.	หลังใช้ [ Envenomed Blade ] ${1} ครั้ง ทำให้เกิดดาเมจของ [ Venom ] ใส่เป้าหมาย ${2} ครั้ง
+10220300877	Increases 【Sonic Blow】 damage by ${1}%. Raises the target HP threshold for 【Sonic Blow】's damage increase by ${2}%.	เพิ่มดาเมจของ [ Sonic Blow ] ขึ้น ${1}% และเพิ่มเกณฑ์ HP ของเป้าหมายสำหรับการเพิ่มดาเมจของ [ Sonic Blow ] ขึ้น ${2}%
+10220300876	After using 【Sonic Blow】, there is a ${1}% Chance to deal Neutral melee Physical damage equal to Physical ATK × ${4}% to up to ${3} enemies within a ${2}-meter radius. Built-in Cooldown: ${5} seconds.	หลังใช้ [ Sonic Blow ] มีโอกาส ${1}% สร้างดาเมจกายภาพระยะประชิดไร้ธาตุเท่ากับ P.ATK × ${4}% แก่ศัตรูสูงสุด ${3} ตัว ในรัศมี ${2} เมตร CD ภายใน: ${5} วินาที
+10220300874	After using 【Basic Attack】, there is a ${1}% Chance to deal ${2} Extra hits of Neutral melee Physical damage equal to Physical ATK × ${3}% to the enemy. Built-in Cooldown: ${4} seconds.	หลังใช้ [ Basic Attack ] มีโอกาส ${1}% โจมตีศัตรูเพิ่มอีก ${2} ครั้ง ด้วยดาเมจกายภาพระยะประชิดไร้ธาตุเท่ากับ P.ATK × ${3}% CD ภายใน: ${4} วินาที
+10220300873	After using 【Basic Attack】, there is a ${1}% Chance to deal Neutral melee Physical damage equal to Physical ATK × ${4}% to up to ${3} enemies within a ${2}-meter radius. Built-in Cooldown: ${5} seconds.	หลังใช้ [ Basic Attack ] มีโอกาส ${1}% สร้างดาเมจกายภาพระยะประชิดไร้ธาตุเท่ากับ P.ATK × ${4}% แก่ศัตรูสูงสุด ${3} ตัว ในรัศมี ${2} เมตร CD ภายใน: ${5} วินาที
+10220300872	Increases 【Basic Attack】 skill damage by ${1}%.	เพิ่มดาเมจสกิล [ Basic Attack ] ขึ้น ${1}%
+10220300871	Increases your Crit by @{1} for @{2} seconds, up to @{3} stacks.	เพิ่ม CRIT ของคุณขึ้น @{1} เป็นเวลา @{2} วินาที สูงสุด @{3} stacks
+10220300868	After casting Soul Destroyer @{1} times, increases your damage dealt by @{2}% for @{3} seconds	หลังใช้ Soul Destroyer @{1} ครั้ง เพิ่มดาเมจที่คุณทำได้ขึ้น @{2}% เป็นเวลา @{3} วินาที
+10220300866	Increases your Physical ATK by @{1}. After attacking, there is a @{2}% Chance to inflict 【Venom】 damage on the target, dealing Poison melee Physical damage equal to Physical ATK × @{3}%.	เพิ่ม P.ATK ของคุณขึ้น @{1} หลังโจมตี มีโอกาส @{2}% ทำให้เกิดดาเมจ [ Venom ] ใส่เป้าหมาย สร้างดาเมจกายภาพระยะประชิดธาตุ Poison เท่ากับ P.ATK × @{3}%
+10220300865	After your Basic Attack deals damage, there is a ${1}% Chance to inflict 【Poisoned】 damage on the target, dealing Poison melee Physical damage equal to ${2}% of Physical ATK.	หลังการโจมตีปกติของคุณสร้างดาเมจ มีโอกาส ${1}% ทำให้เกิดดาเมจ [ Poisoned ] ใส่เป้าหมาย สร้างดาเมจกายภาพระยะประชิดธาตุ Poison เท่ากับ ${2}% ของ P.ATK
+10220300864	When the effect ends, deals Poison melee Physical damage equal to @{3}% of Magic ATK that ignores FLEE to the target and up to @{2} enemies within a @{1}-meter radius, inflicting Poisoned.	เมื่อผลสิ้นสุด สร้างดาเมจกายภาพระยะประชิดธาตุ Poison เท่ากับ @{3}% ของ M.ATK ซึ่ง Ignore Flee แก่เป้าหมายและศัตรูสูงสุด @{2} ตัว ในรัศมี @{1} เมตร พร้อมทำให้ติด Poisoned
+10220300862	When a dagger is equipped, Attack Speed +@{1}% and AGI +@{2}.	เมื่อสวมมีด ASPD +@{1}% และ AGI +@{2}
+10220300861	When a dagger is equipped, Attack Speed +@{1} and AGI +@{2}.	เมื่อสวมมีด ASPD +@{1} และ AGI +@{2}
+10220300860	Allows 【Sonic Blow】 to trigger its damage increase when the target has less than @{1}% HP, and changes the damage increase to @{2}%.	ทำให้ [ Sonic Blow ] ได้รับผลเพิ่มดาเมจเมื่อเป้าหมายมี HP ต่ำกว่า @{1}% และเปลี่ยนการเพิ่มดาเมจเป็น @{2}%
+10220300859	When a katar-type weapon is equipped, Physical ATK +@{1}	เมื่อสวมอาวุธประเภทกาตาร์ P.ATK +@{1}
+10220300856	While 【Cloaking】 is active, you cannot be seen or targeted. You are revealed after taking damage @{1} times or dealing damage.	ขณะ [ Cloaking ] ทำงาน คุณไม่สามารถถูกมองเห็นหรือเลือกเป็นเป้าหมายได้ เปิดเผยตัวหลังได้รับดาเมจ @{1} ครั้งหรือสร้างดาเมจ
+10220300855	When dual-wielding daggers, Basic Attacks have a @{1}% Chance to deal damage twice (additional skill effect).\nWhen a katar is equipped, gain an Extra @{2}% Crit.	เมื่อถือมีดคู่ การโจมตีปกติมีโอกาส @{1}% สร้างดาเมจสองครั้ง (ผลสกิลเพิ่มเติม)\nเมื่อสวมกาตาร์ ได้รับ CRIT เพิ่มอีก @{2}%
+10220300849	Immune to Knockback, Launch, Stun, Freeze, Petrify, Silence, Immobilize, and Blind effects	ป้องกันผล Knockback, Launch, Stun, Freeze, Petrify, Silence, Immobilize และ Blind
+10220300848	Reduces field of vision	ลดขอบเขตการมองเห็น
+10220300847	Movement Speed -@{1}, up to @{2} stacks	MSPD -@{1} สูงสุด @{2} stacks
+10220300846	Movement Speed +@{1}, up to @{2} stacks	MSPD +@{1} สูงสุด @{2} stacks
+10220300845	Increases Movement Speed by @{1}% and 【Dragon Breath】 damage by @{2}%.	เพิ่ม MSPD ขึ้น @{1}% และดาเมจของ [ Dragon Breath ] ขึ้น @{2}%
+10220300844	After dealing damage, increases your DEF by @{1}%.	หลังสร้างดาเมจ เพิ่ม DEF ของคุณขึ้น @{1}%
+10220300843	Draw power from Rune Runes to increase PATK by @{1}% and ASPD by @{2}%, plus an Extra @{3}% HP recover efficiency based on Max HP.	ดึงพลังจาก Rune Runes เพื่อเพิ่ม P.ATK ขึ้น @{1}% และ ASPD ขึ้น @{2}% พร้อมเพิ่มประสิทธิภาพการฟื้นฟู HP อีก @{3}% โดยอิง Max HP
+10220300842	Draws power from Rune Runes, increasing Physical ATK by @{1}% and Attack Speed by @{2}%.	ดึงพลังจาก Rune Runes เพิ่ม P.ATK ขึ้น @{1}% และ ASPD ขึ้น @{2}%
+10220300841	When you take melee damage, reflects the damage to nearby enemies, dealing Neutral melee Physical damage equal to @{3}% of the damage taken to up to @{2} enemies within a @{1}-meter radius. Built-in Cooldown: @{4} seconds.	เมื่อได้รับดาเมจระยะประชิด สะท้อนดาเมจแก่ศัตรูใกล้เคียง สร้างดาเมจกายภาพระยะประชิดไร้ธาตุเท่ากับ @{3}% ของดาเมจที่ได้รับ แก่ศัตรูสูงสุด @{2} ตัว ในรัศมี @{1} เมตร CD ภายใน: @{4} วินาที
+10220300839	When 【Slashing Strike】 hits a target, gain @{1}% Haste.	เมื่อ [ Slashing Strike ] โจมตีโดนเป้าหมาย ได้รับ Haste @{1}%
+10220300838	Slowed by @{1}% by 【Sky-Splitting Impact】.	ถูก [ Sky-Splitting Impact ] ลดความเร็วลง @{1}%
+10220300832	First floor: Movement Speed reduced by @{1}%;\nSecond floor: Attack Speed reduced by @{2}%;\nThird floor: Physical DEF reduced by @{3}%;\nFourth floor: Damage taken increased by @{4}%.	ชั้นแรก: MSPD ลดลง @{1}%;\nชั้นที่สอง: ASPD ลดลง @{2}%;\nชั้นที่สาม: P.DEF ลดลง @{3}%;\nชั้นที่สี่: ดาเมจที่ได้รับเพิ่มขึ้น @{4}%
+10220300831	Immune to Slow. Increases ST Normal Attack damage by @{1}% and Spiral Pierce damage by @{2}%.	ป้องกัน Slow เพิ่มดาเมจการโจมตีปกติแบบ Single Target ขึ้น @{1}% และดาเมจของ Spiral Pierce ขึ้น @{2}%
+10220300830	Parries enemy attacks, increasing Physical and Magic DEF by @{1}. Auto Counters when taking melee Physical damage.	ปัดป้องการโจมตีของศัตรู เพิ่ม P.DEF และ M.DEF ขึ้น @{1} ใช้ Auto Counter เมื่อได้รับดาเมจกายภาพระยะประชิด
+10220300829	Endure. Increases HIT by @{1} and Physical ATK by @{2}, but reduces Physical DEF by @{3}.	Endure เพิ่ม Hit ขึ้น @{1} และ P.ATK ขึ้น @{2} แต่ลด P.DEF ลง @{3}
+10220300828	Restores a total of @{2} Life over @{1} seconds.	ฟื้นฟู HP รวม @{2} ภายใน @{1} วินาที
+10220300827	Head Crush Slow.	ผลลดความเร็วของ Head Crush
+10220300825	Sword familiarity increases HIT by @{1} and Attack Speed by @{2}% when using sword-type weapons.	ความคุ้นเคยกับดาบเพิ่ม Hit ขึ้น @{1} และ ASPD ขึ้น @{2}% เมื่อใช้อาวุธประเภทดาบ
+10220300824	Spear specialization increases Physical damage by @{1}% and Crit Chance by @{2}% when using Spear-type weapons.	ความเชี่ยวชาญหอกเพิ่ม P.DMG ขึ้น @{1}% และ CRIT ขึ้น @{2}% เมื่อใช้อาวุธประเภทหอก
+10220300823	Spear proficiency increases Physical ATK by @{1} when using Spear-type weapons.	ความชำนาญหอกเพิ่ม P.ATK ขึ้น @{1} เมื่อใช้อาวุธประเภทหอก
+10220300821	Mastery of riding increases Movement Speed by @{1}%.	ความชำนาญการขี่เพิ่ม MSPD ขึ้น @{1}%
+10220300820	When hit by a melee Physical Attack, unleash a spectacular Auto Counter!	เมื่อถูกโจมตีกายภาพระยะประชิด ใช้ Auto Counter อันทรงพลัง!
+10220300819	Sword proficiency increases Physical ATK by @{1} when using sword-type weapons.	ความชำนาญดาบเพิ่ม P.ATK ขึ้น @{1} เมื่อใช้อาวุธประเภทดาบ
+10220300815	Ghost damage dealt increased by ^{1}@{1}%^{2}, 【Soul Burst】 Cooldown reduced by ^{3}@{2}%^{4}, and 【Psychokinetic Orb】 gains an Extra ^{5}@{3}^{6} floors per second.	ดาเมจธาตุ Ghost ที่ทำได้เพิ่มขึ้น ^{1}@{1}%^{2} ลด Cooldown ของ [ Soul Burst ] ลง ^{3}@{2}%^{4} และ [ Psychokinetic Orb ] ได้รับเพิ่มอีก ^{5}@{3}^{6} ชั้นต่อวินาที
+10220300814	Void Rift	รอยแยกแห่งความว่างเปล่า
+10220300813	Healing Reduction	การลดการฮีล
+10220300812	Magic Release	ปลดปล่อยเวท
+10220300811	Flowing Shadow Floors	จำนวนชั้นของ Flowing Shadow
+10220300808	Movement Speed increased by @{1}% and Slow Resistance increased by @{2}.	MSPD เพิ่มขึ้น @{1}% และความต้านทาน Slow เพิ่มขึ้น @{2}
+10220300807	Each floor grants a ^{1}【Shield】^{2} equal to @{1}% of Max Life.	แต่ละชั้นมอบ ^{1}[ Shield ]^{2} เท่ากับ @{1}% ของ Max HP
+10220300806	【Dark Night】 floors	จำนวนชั้นของ [ Dark Night ]
+10220300805	Damage taken from monsters reduced by @{1}% and damage taken from players reduced by @{2}%.	ดาเมจที่ได้รับจากมอนสเตอร์ลดลง @{1}% และดาเมจที่ได้รับจากผู้เล่นลดลง @{2}%
+10220300804	【Holy Spirit Surge】 becomes 【Evil Spirit Possession】. When activated, you enter the 【Embrace of Sin】 state, raising a cross behind you that launches a coordinated attack whenever you deal damage. (Cooldown: @{1}s)\nWhen the coordinated attack scores a HIT, a wisp of 【Will】 flies back and restores charge to 【Stigmata】.	[ Holy Spirit Surge ] เปลี่ยนเป็น [ Evil Spirit Possession ] เมื่อเปิดใช้ เข้าสู่สถานะ [ Embrace of Sin ] ยกกางเขนขึ้นด้านหลังเพื่อโจมตีประสานทุกครั้งที่คุณสร้างดาเมจ (Cooldown: @{1} วินาที)\nเมื่อการโจมตีประสานโจมตีโดน เศษเสี้ยว [ Will ] จะบินกลับมาเติมชาร์จให้ [ Stigmata ]
+10220300802	After casting 【Enlightenment】, gain one floor. Upon reaching @{1} floors, the next 【Enlightenment】 causes all targets hit to take damage again and increases your Movement Speed.\nThe Extra damage sends a wisp of 【Will】 flying back, restoring one charge of 【Stigma】.	หลังใช้ [ Enlightenment ] ได้รับหนึ่งชั้น เมื่อครบ @{1} ชั้น [ Enlightenment ] ครั้งถัดไปจะทำให้ทุกเป้าหมายที่ถูกโจมตีได้รับดาเมจอีกครั้งและเพิ่ม MSPD ของคุณ\nดาเมจเพิ่มเติมส่งเศษเสี้ยว [ Will ] บินกลับมาเติมหนึ่งชาร์จให้ [ Stigma ]
+10220300800	【Brilliant Holy Light】can be Enhanced into 【Angel Incarnate】, reducing its Cooldown. Upon casting, transform into an Angel of Divine Light and convert Highness Heal into 【Manifestation】 for @{1}s. During this time, gain damage reduction and bonus Move SPD, float, and cast while moving.	[ Brilliant Holy Light ] สามารถเสริมพลังเป็น [ Angel Incarnate ] ลด Cooldown เมื่อใช้ แปลงร่างเป็น Angel of Divine Light และเปลี่ยน Highness Heal เป็น [ Manifestation ] เป็นเวลา @{1} วินาที ระหว่างนี้ ได้รับการลดดาเมจและโบนัส MSPD ลอยตัว และร่ายขณะเคลื่อนที่ได้
+10220300799	For @{1}s after casting [Radiant Holy Light], Manifestation shatters Orbit. During this time, the next @{2} casts of Highness Heal summon translucent petals, restoring Life to allies within @{3}m of you.	ภายใน @{1} วินาทีหลังใช้ [ Radiant Holy Light ] Manifestation ทำลายวงโคจร ระหว่างนี้ การใช้ Highness Heal @{2} ครั้งถัดไปจะเรียกกลีบดอกไม้โปร่งแสง ฟื้นฟู HP ให้พันธมิตรในระยะ @{3} เมตรรอบตัวคุณ
+10220300798	Every @{1} casts, Highness Heal will Level-up into 【Manifestation】. When cast, it manifests a shattered Orbit and chains once to up to @{3} allies within @{2} meters of the target. If a chained target is a party Member, they receive Extra healing.	ทุกการใช้ @{1} ครั้ง Highness Heal จะยกระดับเป็น [ Manifestation ] เมื่อใช้ สร้างวงโคจรแตกสลายและเชื่อมต่อหนึ่งครั้งถึงพันธมิตรสูงสุด @{3} คน ในระยะ @{2} เมตรรอบเป้าหมาย หากเป้าหมายที่เชื่อมเป็นสมาชิกปาร์ตี้ จะได้รับฮีลเพิ่มเติม
+10220300797	When Highness Heal HITs an allied target, it triggers 【Equal Blessing】, chaining to @{2} targets within @{1} meters of the target. If a chained target is a party Member, they receive Extra healing.	เมื่อ Highness Heal โจมตีโดนเป้าหมายพันธมิตร ทำให้เกิด [ Equal Blessing ] เชื่อมต่อถึงเป้าหมาย @{2} คน ในระยะ @{1} เมตรรอบเป้าหมาย หากเป้าหมายที่เชื่อมเป็นสมาชิกปาร์ตี้ จะได้รับฮีลเพิ่มเติม
+10220300796	DMG taken from the caster +${1}%. When taking damage from 【Soul Expansion】 or 【Voice of the Soul】, triggers @{1} instances of Ghost Ranged Magic damage equal to MATK * ^{1}${3}%^{2} within a ${2}-meter radius. Can trigger up to @{2} times every ${4} seconds.	ดาเมจที่ได้รับจากผู้ใช้สกิล +${1}% เมื่อได้รับดาเมจจาก [ Soul Expansion ] หรือ [ Voice of the Soul ] ทำให้เกิดดาเมจเวทระยะไกลธาตุ Ghost @{1} ครั้ง เท่ากับ M.ATK * ^{1}${3}%^{2} ในรัศมี ${2} เมตร เกิดได้สูงสุด @{2} ครั้งทุก ${4} วินาที
+10220300795	Enhance the next 【Crimson Rock】, 【Jack Frost】, 【Thunderclap】, or 【Earth Strain】, adding Ranged Magic damage equal to MATK * ^{1}${1}%^{2} of the corresponding Element. The Chance to trigger ^{3}^{4}Meteor^{5}^{6}, ^{7}^{8}Frozen^{9}^{10}, ^{11}^{12}Petrify^{13}^{14}, or ^{15}^{16}Stun^{17}^{18} increases to ^{19}${2}%^{20}.	เสริมพลัง [ Crimson Rock ], [ Jack Frost ], [ Thunderclap ] หรือ [ Earth Strain ] ครั้งถัดไป เพิ่มดาเมจเวทระยะไกลเท่ากับ M.ATK * ^{1}${1}%^{2} ของธาตุที่ตรงกัน โอกาสเกิด ^{3}^{4}Meteor^{5}^{6}, ^{7}^{8}Frozen^{9}^{10}, ^{11}^{12}Petrify^{13}^{14} หรือ ^{15}^{16}Stun^{17}^{18} เพิ่มเป็น ^{19}${2}%^{20}
+10220300794	Kill an enemy to refresh the Cooldown.	สังหารศัตรูเพื่อรีเฟรช Cooldown
+10220300793	Damage dealt increased by @{1}%.	ดาเมจที่ทำได้เพิ่มขึ้น @{1}%
+10220300792	【Shadow Pierce】 also grants one floor of 【Delusion】 for @{1} seconds. 【Delusion】: Killing an enemy in this state immediately refreshes @{2}% of 【Shadow Pierce】's Cooldown.	[ Shadow Pierce ] มอบ [ Delusion ] เพิ่มอีกหนึ่งชั้นเป็นเวลา @{1} วินาที [ Delusion ]: การสังหารศัตรูในสถานะนี้รีเฟรชทันที @{2}% ของ Cooldown ของ [ Shadow Pierce ]
+10220300791	The shadow left behind by 【Move Back Afterimage】 mimics your 【Shadow Pierce】.	เงาที่ [ Move Back Afterimage ] ทิ้งไว้จะเลียนแบบ [ Shadow Pierce ] ของคุณ
+10220300790	Using 【Shadow Command】, 【Thousand Shadows】, or 【Circling Shadow】 grants 【Shadow Chain】 for @{1} sec, stacking up to @{2} times. While 【Shadow Chain】 is active, damage dealt increases by @{3}% per stack.	การใช้ [ Shadow Command ], [ Thousand Shadows ] หรือ [ Circling Shadow ] มอบ [ Shadow Chain ] เป็นเวลา @{1} วินาที สะสมได้สูงสุด @{2} ครั้ง ขณะ [ Shadow Chain ] คงอยู่ ดาเมจที่ทำได้เพิ่มขึ้น @{3}% ต่อแต่ละ stacks
+10220300789	Increases the effect radius of 【Shadow Ward】, 【Myriad Shadows】, and 【Circling Shadow】 by @{1} meters and their skill damage multiplier by @{2}%.	เพิ่มรัศมีผลของ [ Shadow Ward ], [ Myriad Shadows ] และ [ Circling Shadow ] อีก @{1} เมตร และเพิ่มตัวคูณดาเมจสกิลขึ้น @{2}%
+10220300785	Movement Speed increased by @{1}% and Slow Resistance increased by @{2}.	MSPD เพิ่มขึ้น @{1}% และความต้านทาน Slow เพิ่มขึ้น @{2}
+10220300783	While in 【Frenzy】, immediately gains @{1} floors of Enhance Hundred Spear charge.	ขณะอยู่ใน [ Frenzy ] ได้รับชาร์จ Enhance Hundred Spear @{1} ชั้นทันที
+10220300782	Using skills or Normal Attacks deals Extra damage to nearby enemies.	การใช้สกิลหรือโจมตีปกติสร้างดาเมจเพิ่มเติมแก่ศัตรูใกล้เคียง
+10220300781	While active, 【Warg Strike】, 【Warg Bite】, and 【Warg Hunt】 Summon Extra warg companions that deal ${1}% more Physical damage to non-player enemies.	ขณะทำงาน [ Warg Strike ], [ Warg Bite ] และ [ Warg Hunt ] เรียกหมาป่าบริวารเพิ่มเติมที่สร้างดาเมจกายภาพต่อศัตรูที่ไม่ใช่ผู้เล่นเพิ่มขึ้น ${1}%
+10220300780	Physical ATK increased by @{1}%, and 【Aimed Shot】 skill damage multiplier increased by @{2}%.	P.ATK เพิ่มขึ้น @{1}% และตัวคูณดาเมจสกิล [ Aimed Shot ] เพิ่มขึ้น @{2}%
+10220300779	Number of skill casts	จำนวนครั้งที่ใช้สกิล
+10220300778	Damage taken from monsters reduced by @{1}%, and Physical and Magic DEF increased by @{2}%.	ดาเมจที่ได้รับจากมอนสเตอร์ลดลง @{1}% และ P.DEF กับ M.DEF เพิ่มขึ้น @{2}%
+10220300776	Grants a shield equal to @{1}% of damage taken during King's Grace.	ได้รับโล่เท่ากับ @{1}% ของดาเมจที่ได้รับระหว่าง King's Grace
+10220300775	Shield equal to Max HP * @{1}%	โล่เท่ากับ Max HP * @{1}%
+10220300774	Each floor reduces Movement Speed by @{1}%.	แต่ละชั้นลด MSPD ลง @{1}%
+10220300773	Each stack increases MSPD by ${1}%.	แต่ละ stacks เพิ่ม MSPD ขึ้น ${1}%
+10220300772	Each stack increases ATK by ${2}%.	แต่ละ stacks เพิ่ม ATK ขึ้น ${2}%
+10220300771	A vocal part gained from the Song of Suffering. Lasts ${1} seconds and stacks up to ${2} floors. Each floor adds one phrase launched by a Sacrament.	ท่อนเสียงที่ได้รับจาก Song of Suffering คงอยู่ ${1} วินาที และสะสมได้สูงสุด ${2} ชั้น แต่ละชั้นเพิ่มหนึ่งวลีที่ Sacrament ปล่อยออกมา
+10220300770	Increases Holy damage dealt by @{1}%.	เพิ่มดาเมจธาตุ Holy ที่ทำได้ขึ้น @{1}%
+10220300769	A faint hum produced by the Song of Suffering. Lasts @{1} seconds and stacks up to @{2} floors.	เสียงฮัมแผ่วเบาจาก Song of Suffering คงอยู่ @{1} วินาที และสะสมได้สูงสุด @{2} ชั้น
+10220300768	Enveloped by Sacred Chorus Musical Notes, gaining a damage-absorbing Shield.	ถูกห้อมล้อมด้วย Sacred Chorus Musical Notes ได้รับโล่ดูดซับดาเมจ
+10220300767	Surrounded by Psalms, granting a universal damage absorption shield.	ถูกห้อมล้อมด้วย Psalms ได้รับโล่ดูดซับดาเมจทุกประเภท
+10220300765	Marked by Harmony. Triggers healing when the source casts Highness Heal.	ถูก Harmony ทำเครื่องหมาย ทำให้เกิดการฮีลเมื่อผู้สร้างสถานะใช้ Highness Heal
+10220300764	Green Marker	เครื่องหมายสีเขียว
+10220300763	Locks Life at @{1}%	ล็อก HP ไว้ที่ @{1}%
+10220300762	Immune to damage from Beat Cage.	ป้องกันดาเมจจาก Beat Cage
+10220300761	Cannot obtain notes right now	ขณะนี้ไม่สามารถรับโน้ตได้
+10220300760	Carry the aura of a green note to dissolve the matching note	นำออร่าของโน้ตสีเขียวไปสลายโน้ตสีเดียวกัน
+10220300759	Carry the aura of a yellow note to dissolve the matching note	นำออร่าของโน้ตสีเหลืองไปสลายโน้ตสีเดียวกัน
+10220300758	Carry the aura of a blue note to dissolve the matching note	นำออร่าของโน้ตสีน้ำเงินไปสลายโน้ตสีเดียวกัน
+10220300757	Carry the aura of a red note to dissolve the matching note	นำออร่าของโน้ตสีแดงไปสลายโน้ตสีเดียวกัน
+10220300756	Tap for Interaction with the rhythm circle	แตะเพื่อโต้ตอบกับวงจังหวะ
+10220300755	Gain a @{1}% Movement Speed and damage bonus	ได้รับโบนัส MSPD และดาเมจ @{1}%
+10220300754	Dance Move Left	ท่าเต้นไปทางซ้าย
+10220300753	Dance Move Right	ท่าเต้นไปทางขวา
+10220300752	Dance Move Backward	ท่าเต้นถอยหลัง
+10220300751	Dance Move Forward	ท่าเต้นไปข้างหน้า
+10220300750	When you are at least @{1} meters from the Link target, you are afflicted with a Curse that Deals DMG to allies within a @{2}-meter radius.	เมื่อคุณอยู่ห่างจากเป้าหมาย Link อย่างน้อย @{1} เมตร จะติดคำสาปที่สร้างดาเมจแก่พันธมิตรในรัศมี @{2} เมตร
+10220300749	Movement Speed +@{1}%. Touch a green bubble to gain a damage bonus.	MSPD +@{1}% สัมผัสฟองสบู่สีเขียวเพื่อรับโบนัสดาเมจ
+10220300748	Movement Speed +@{1}%. Touch a blue bubble to gain a damage bonus.	MSPD +@{1}% สัมผัสฟองสบู่สีน้ำเงินเพื่อรับโบนัสดาเมจ
+10220300747	Movement Speed +@{1}%. Touch a yellow bubble to gain a damage bonus.	MSPD +@{1}% สัมผัสฟองสบู่สีเหลืองเพื่อรับโบนัสดาเมจ
+10220300745	Movement Speed +@{1}%. Touch a red bubble to gain a damage bonus.	MSPD +@{1}% สัมผัสฟองสบู่สีแดงเพื่อรับโบนัสดาเมจ
+10220300742	Interrupt current skill and enter the enraged phase	ขัดจังหวะสกิลปัจจุบันและเข้าสู่ช่วงคลุ้มคลั่ง
+10220300739	Entangled in the Pharaoh's burial shroud and Cannot move	ถูกพันด้วยผ้าห่อศพของ Pharaoh และไม่สามารถเคลื่อนที่ได้
+10220300736	Overconcentration increases damage taken by @{1}%.	การจดจ่อมากเกินไปเพิ่มดาเมจที่ได้รับขึ้น @{1}%
+10220300735	At @{1} stacks, inflicts Petrify	เมื่อครบ @{1} stacks ทำให้ติด Petrify
+10220300734	Use a dungeon Revive attempt to cancel Transform	ใช้สิทธิ์ชุบชีวิตในดันเจี้ยนหนึ่งครั้งเพื่อยกเลิกการแปลงร่าง
+10220300729	AOE released when the shield ends	ปล่อยการโจมตีแบบพื้นที่เมื่อโล่สิ้นสุด
+10220300728	The boss's shield, used to block the flying blades launched by the boss	โล่ของบอสที่ใช้ป้องกันคมดาบบินซึ่งบอสปล่อยออกมา
+10220300727	Blocks @{1}% of the damage from Giant Blade Slash.	ป้องกันดาเมจจาก Giant Blade Slash @{1}%
+10220300725	You picked up the Orc's prized blade. Face the boss and use the skill.	คุณเก็บคมดาบล้ำค่าของ Orc มาแล้ว หันหน้าเข้าหาบอสแล้วใช้สกิล
+10220300723	Check for teammates within 5 meters, then Launch your Kunai at them to deal damage.	ตรวจหาเพื่อนร่วมทีมในระยะ 5 เมตร แล้วขว้าง Kunai ใส่เพื่อสร้างดาเมจ
+10220300722	Dungeon matchmaking decline penalty I: Cannot join dungeon matchmaking for @{1} sec.	โทษจากการปฏิเสธจับคู่ดันเจี้ยน I: ไม่สามารถเข้าร่วมจับคู่ดันเจี้ยนได้เป็นเวลา @{1} วินาที
+10220300720	Enchant Carapace Shield, Damage Reduction	Enchant Carapace Shield มอบการลดดาเมจ
+10220300719	Burrows underground, becoming immune to damage and Debuffs.	มุดลงใต้ดิน ป้องกันดาเมจและดีบัฟ
+10220300710	Duration of control Protector skills +^{1}${1}^{2} sec.	ระยะเวลาของสกิล Protector แบบควบคุม +^{1}${1}^{2} วินาที
+10220300709	Damage dealt by the Prismatic Earth Dragon -^{1}${1}%^{2}.	ดาเมจที่ Prismatic Earth Dragon ทำได้ -^{1}${1}%^{2}
+10220300708	When a damage/control Protector skill deals damage, adds ${2} hit(s) of ^{1}${3}%^{2} Fire melee Physical damage.	เมื่อสกิล Protector แบบสร้างดาเมจ/ควบคุมสร้างดาเมจ เพิ่มการโจมตี ${2} ครั้งด้วยดาเมจกายภาพระยะประชิดธาตุ Fire ^{1}${3}%^{2}
+10220300707	When a damage/control Protector skill deals damage, adds ${1} hit(s) of ^{1}${2}%^{2} Fire melee Physical damage.	เมื่อสกิล Protector แบบสร้างดาเมจ/ควบคุมสร้างดาเมจ เพิ่มการโจมตี ${1} ครั้งด้วยดาเมจกายภาพระยะประชิดธาตุ Fire ^{1}${2}%^{2}
+10220300704	Increases the maximum number of targets for Debuff/control Protector skills by ^{1}${1}^{2} and increases their Cooldown by ^{3}${2}^{4} sec.	เพิ่มจำนวนเป้าหมายสูงสุดของสกิล Protector แบบดีบัฟ/ควบคุมอีก ^{1}${1}^{2} และเพิ่ม Cooldown อีก ^{3}${2}^{4} วินาที
+10220300702	When a shield or control-immunity Protector skill is used, grants [Endure] to up to ${2} allies within a ${1}-meter radius of the master for ${3} sec.	เมื่อใช้สกิล Protector แบบโล่หรือป้องกันผลควบคุม มอบ [ Endure ] ให้พันธมิตรสูงสุด ${2} คน ในรัศมี ${1} เมตรรอบเจ้าของ เป็นเวลา ${3} วินาที
+10220300701	HP Lock effect's internal Cooldown.	CD ภายในของผล HP Lock
+10220300698	Life cannot fall below ^{1}${1}%^{2}.	HP ไม่สามารถลดต่ำกว่า ^{1}${1}%^{2}
+10220300697	Physical/Magic ATK and DEF -^{1}${1}%^{2}, Attack Speed -^{3}${2}%^{4}, and Movement Speed -^{5}${3}%^{6}	P.ATK/M.ATK และ P.DEF/M.DEF -^{1}${1}%^{2}, ASPD -^{3}${2}%^{4} และ MSPD -^{5}${3}%^{6}
+10220300695	On HIT, ^{1}${1}%^{2} Chance to reduce the enemy target's Movement Speed by ^{3}${2}%^{4}	เมื่อโจมตีโดน มีโอกาส ^{1}${1}%^{2} ลด MSPD ของเป้าหมายศัตรูลง ^{3}${2}%^{4}
+10220300688	Grants a shield to allies within the area every second	มอบโล่ให้พันธมิตรในพื้นที่ทุกวินาที
+10220300687	All-attribute damage taken reduced by ^{1}${1}%^{2}	ดาเมจที่ได้รับจากทุกธาตุลดลง ^{1}${1}%^{2}
+10220300686	Damage taken from all elements is reduced by ^{1}${1}%^{2}. When hit, deals ^{3}${2}%^{4} ATK damage to enemies within @{1} meters.	ดาเมจที่ได้รับจากทุกธาตุลดลง ^{1}${1}%^{2} เมื่อถูกโจมตี สร้างดาเมจ ^{3}${2}%^{4} ของ ATK แก่ศัตรูในระยะ @{1} เมตร
+10220300685	Damage taken from all attributes is reduced by ^{1}${3}%^{2}. Every ${2} sec, deals ^{3}${1}%^{4} ATK damage to enemies within @{1} meters.	ดาเมจที่ได้รับจากทุกธาตุลดลง ^{1}${3}%^{2} ทุก ${2} วินาที สร้างดาเมจ ^{3}${1}%^{4} ของ ATK แก่ศัตรูในระยะ @{1} เมตร
+10220300680	P.ATK and M.ATK reduced by ^{1}${1}%^{2}	P.ATK และ M.ATK ลดลง ^{1}${1}%^{2}
+10220300679	Offensive/Recovery Master Protection skills can be used while under crowd control.	สกิล Master Protection แบบ Offensive/Recovery ใช้ได้ขณะถูกควบคุม
+10220300678	Cannot be seen or targeted. Revealed after taking damage @{1} times or dealing damage.	ไม่สามารถถูกมองเห็นหรือเลือกเป็นเป้าหมายได้ เปิดเผยตัวหลังได้รับดาเมจ @{1} ครั้งหรือสร้างดาเมจ
+10220300672	Detects nearby invisible enemies.	ตรวจจับศัตรูล่องหนใกล้เคียง
+10220300671	Reveals hidden enemies within a ${1}-meter radius.	เปิดเผยศัตรูที่ซ่อนตัวในรัศมี ${1} เมตร
+10220300670	Increases Physical DEF by ${1}% and Magic DEF by ${2}%.	เพิ่ม P.DEF ขึ้น ${1}% และ M.DEF ขึ้น ${2}%
+10220300669	Each time you take damage, Physical DEF increases by ${1}% and Magic DEF by ${2}%. Stacks up to ${3} times and lasts ${4} seconds.	ทุกครั้งที่ได้รับดาเมจ เพิ่ม P.DEF ขึ้น ${1}% และ M.DEF ขึ้น ${2}% สะสมได้สูงสุด ${3} ครั้ง และคงอยู่ ${4} วินาที
+10220300668	Physical ATK increases by ${1}% for ${2} seconds.	P.ATK เพิ่มขึ้น ${1}% เป็นเวลา ${2} วินาที
+10220300665	When dealing damage, deals ${1}% of the higher of Physical ATK and Magic ATK as Extra Neutral melee damage, with a ${2}% Chance to inflict Stun for ${3} sec. (internal cooldown: ${4} sec.).	เมื่อสร้างดาเมจ สร้างดาเมจระยะประชิดไร้ธาตุเพิ่มเติมเท่ากับ ${1}% ของค่าที่สูงกว่าระหว่าง P.ATK และ M.ATK มีโอกาส ${2}% ทำให้ติด Stun เป็นเวลา ${3} วินาที (CD ภายใน: ${4} วินาที)
+10220300663	The shield granted by the Ancient Tree absorbs damage equal to ${1}% of Max Life.	โล่ที่ Ancient Tree มอบให้ดูดซับดาเมจเท่ากับ ${1}% ของ Max HP
+10220300662	For every @{1}% Life lost, damage dealt increases by ${1}%.	ทุก @{1}% HP ที่เสียไป เพิ่มดาเมจที่ทำได้ขึ้น ${1}%
+10220300660	Cast Time increased by @{1}, MP Cost increased by @{2}%.	Cast Time เพิ่มขึ้น @{1} และ MP ที่ใช้เพิ่มขึ้น @{2}%
+10220300657	Triggers Fire Damage when dealing damage.	ทำให้เกิดดาเมจธาตุ Fire เมื่อสร้างดาเมจ
+10220300656	Healing and healing received decrease by @{1}%, and Crit Resistance decreases by @{2}%.	การฮีลที่ทำได้และได้รับลดลง @{1}% และ CRIT RES ลดลง @{2}%
+10220300655	Healing and healing received are reduced by @{1}%.	การฮีลที่ทำได้และได้รับลดลง @{1}%
+10220300653	Movement Speed decreases by ${1}%, and Physical and Magic ATK decrease by ${2}%.	MSPD ลดลง ${1}% และ P.ATK กับ M.ATK ลดลง ${2}%
+10220300652	Movement Speed increases by ${1}%, and Physical and Magic ATK increase by ${2}%.	MSPD เพิ่มขึ้น ${1}% และ P.ATK กับ M.ATK เพิ่มขึ้น ${2}%
+10220300650	Physical and Magic DEF decreased.	P.DEF และ M.DEF ลดลง
+10220300647	Reduces damage taken from players' Normal Attack skills by ${1}%.	ลดดาเมจที่ได้รับจากสกิลโจมตีปกติของผู้เล่นลง ${1}%
+10220300646	Shield: Absorbs total damage equal to ${1}% of your Magic ATK.	โล่: ดูดซับดาเมจรวมเท่ากับ ${1}% ของ M.ATK ของคุณ
+10220300645	A shield granted by Sohee absorbs damage equal to ${1}% of Max Life. While the shield is active, damage taken is reduced by ${2}%.	โล่ที่ Sohee มอบให้ดูดซับดาเมจเท่ากับ ${1}% ของ Max HP ขณะโล่คงอยู่ ลดดาเมจที่ได้รับลง ${2}%
+10220300643	Physical and Magic DEF increase by @{1}%.	P.DEF และ M.DEF เพิ่มขึ้น @{1}%
+10220300642	When you Kill an enemy, cast [Curse of Malice] at the target's location.	เมื่อสังหารศัตรู ใช้ [ Curse of Malice ] ณ ตำแหน่งเป้าหมาย
+10220300641	Gain ${1}% Lifesteal; Normal Attacks trigger Extra damage, dealing damage equal to a Normal Attack to up to @{2} enemies within @{1} meters of the target.	ได้รับ Lifesteal ${1}% การโจมตีปกติทำให้เกิดดาเมจเพิ่มเติมเท่ากับการโจมตีปกติ แก่ศัตรูสูงสุด @{2} ตัว ในระยะ @{1} เมตรรอบเป้าหมาย
+10220300639	Buff duration extended by ${1} sec.	ระยะเวลาบัฟเพิ่มขึ้น ${1} วินาที
+10220300638	Physical ATK and Magic ATK +${6}%	P.ATK และ M.ATK +${6}%
+10220300637	Physical ATK and Magic ATK increase by ${5}%	P.ATK และ M.ATK เพิ่มขึ้น ${5}%
+10220300636	Physical ATK and Magic ATK +${4}%	P.ATK และ M.ATK +${4}%
+10220300635	Physical ATK and Magic ATK +${3}%	P.ATK และ M.ATK +${3}%
+10220300634	Physical ATK and Magic ATK increase by ${2}%	P.ATK และ M.ATK เพิ่มขึ้น ${2}%
+10220300633	Physical ATK and Magic ATK +${1}%	P.ATK และ M.ATK +${1}%
+10220300631	Shield duration is extended by ${1} sec.	ระยะเวลาโล่เพิ่มขึ้น ${1} วินาที
+10220300630	Reduces Ranged Physical damage taken by ${2}% for ${3} seconds.	ลดดาเมจกายภาพระยะไกลที่ได้รับลง ${2}% เป็นเวลา ${3} วินาที
+10220300629	Grants a shield equal to ${1}% of the user's Life, reducing ranged Physical damage taken by ${2}% for ${3} seconds.	ได้รับโล่เท่ากับ ${1}% ของ HP ของผู้ใช้ ลดดาเมจกายภาพระยะไกลที่ได้รับลง ${2}% เป็นเวลา ${3} วินาที
+10220300628	Increases the CRIT of offensive pet active skills by ${1}%.	เพิ่ม CRIT ของสกิล Active สัตว์เลี้ยงประเภทโจมตีขึ้น ${1}%
+10220300621	For @{1}s, hitting a marked enemy grants @{2} stacks of increased damage	ภายใน @{1} วินาที การโจมตีโดนศัตรูที่ถูกทำเครื่องหมายมอบการเพิ่มดาเมจ @{2} stacks
+10220300620	Grants Call Thunder buff Lv. @{1}	ได้รับบัฟ Call Thunder Lv. @{1}
+10220300619	Increases the next instance of damage taken by ${1}%.	เพิ่มดาเมจครั้งถัดไปที่ได้รับขึ้น ${1}%
+10220300618	Increases the next instance of damage dealt by ${1}%.	เพิ่มดาเมจครั้งถัดไปที่ทำได้ขึ้น ${1}%
+10220300616	Granted by Popo. Increases this unit's DEF.	Popo มอบให้ เพิ่ม DEF ของยูนิตนี้
+10220300615	Popo's Bubble Shield for its master.	Bubble Shield ที่ Popo มอบให้เจ้าของ
+10220300612	If Physical ATK is higher than Magic ATK, attacks deal Physical damage. If Magic ATK is higher, attacks deal Magic damage.	หาก P.ATK สูงกว่า M.ATK การโจมตีจะสร้างดาเมจกายภาพ หาก M.ATK สูงกว่า การโจมตีจะสร้างดาเมจเวท
+10220300611	Uses the higher of Physical ATK and Magic ATK when calculating ATK.	ใช้ค่าที่สูงกว่าระหว่าง P.ATK และ M.ATK ในการคำนวณ ATK
+10220300610	Increases Attack Speed. Normal Attacks have a Chance to trigger Cursed Slash.	เพิ่ม ASPD การโจมตีปกติมีโอกาสใช้ Cursed Slash
+10220300609	Inflicted by Baphomet Jr. Reduces this unit's Movement Speed.	ผลจาก Baphomet Jr. ลด MSPD ของยูนิตนี้
+10220300608	Inflicted by the Fox Fairy. Reduces this unit's Wind damage dealt by ^{1}${1}%^{2}.	ผลจาก Fox Fairy ลดดาเมจธาตุ Wind ที่ยูนิตนี้ทำได้ลง ^{1}${1}%^{2}
+10220300607	Granted by the Fox Fairy. Increases damage dealt by ^{1}${1}%^{2}.	Fox Fairy มอบให้ เพิ่มดาเมจที่ทำได้ขึ้น ^{1}${1}%^{2}
+10220300606	Granted by Angel Popo. Increases this unit's healing received.	Angel Popo มอบให้ เพิ่มการฮีลที่ยูนิตนี้ได้รับ
+10220300605	Nearby allies recover continuously.	พันธมิตรใกล้เคียงฟื้นฟูอย่างต่อเนื่อง
+10220300604	Inflicted by Evilheart Hunter Eve. Reduces Physical DEF and Magic DEF by ^{1}${1}%^{2}.	ผลจาก Evilheart Hunter Eve ลด P.DEF และ M.DEF ลง ^{1}${1}%^{2}
+10220300603	A shield granted by Little Isis. Increases DEF while the shield is active.	โล่ที่ Little Isis มอบให้ เพิ่ม DEF ขณะโล่คงอยู่
+10220300602	Increases the target's Physical DEF and Magic DEF by ^{1}${1}%^{2}.	เพิ่ม P.DEF และ M.DEF ของเป้าหมายขึ้น ^{1}${1}%^{2}
+10220300601	Reduces Movement Speed by @{1}% and increases damage taken from all elements by @{2}%.	ลด MSPD ลง @{1}% และเพิ่มดาเมจที่ได้รับจากทุกธาตุขึ้น @{2}%
+10220300600	Reduces Movement Speed by @{1}% and damage dealt by @{2}%.	ลด MSPD ลง @{1}% และดาเมจที่ทำได้ลง @{2}%
+10220300599	Increases damage taken from all elements by @{1}%.	เพิ่มดาเมจที่ได้รับจากทุกธาตุขึ้น @{1}%
+10220300598	Increases damage dealt with all elements by @{1}%.	เพิ่มดาเมจที่ทำได้ด้วยทุกธาตุขึ้น @{1}%
+10220300597	Granted by Alio. This unit's attacks gain the Surgical Mark effect.	Alio มอบให้ การโจมตีของยูนิตนี้ได้รับผล Surgical Mark
+10220300596	Inflicted by the Death Witch. Reduces this unit's Magic DEF and healing received.	ผลจาก Death Witch ลด M.DEF และการฮีลที่ยูนิตนี้ได้รับ
+10220300595	Damages all allies within a @{2}-meter radius every @{1} seconds for @{3} seconds	สร้างดาเมจแก่พันธมิตรทั้งหมดในรัศมี @{2} เมตร ทุก @{1} วินาที เป็นเวลา @{3} วินาที
+10220300593	Orc Lord's Basic Attack deals area damage	การโจมตีปกติของ Orc Lord สร้างดาเมจแบบพื้นที่
+10220300591	Locks HP at the fixed value @{1}	ล็อก HP ที่ค่าคงที่ @{1}
+10220300590	Movement Speed Increase When Out of Combat	MSPD เพิ่มขึ้นขณะอยู่นอกการต่อสู้
+10220300588	Vines created by Mandragora attacks destroy themselves	เถาวัลย์ที่สร้างจากการโจมตีของ Mandragora ทำลายตัวเอง
+10220300587	Resets all skills upon leaving combat	รีเซ็ตสกิลทั้งหมดเมื่อออกจากการต่อสู้
+10110300907	Using 【Shadow Command】, 【Thousand Shadows】, or 【Circling Shadow】 grants 【Shadow Chain】 for @{1} sec, stacking up to @{2} times. While 【Shadow Chain】 is active, damage dealt increases by @{3}% per stack.	การใช้ [ Shadow Command ], [ Thousand Shadows ] หรือ [ Circling Shadow ] มอบ [ Shadow Chain ] เป็นเวลา @{1} วินาที สะสมได้สูงสุด @{2} ครั้ง ขณะ [ Shadow Chain ] คงอยู่ ดาเมจที่ทำได้เพิ่มขึ้น @{3}% ต่อแต่ละ stacks
+10110300941	When Highness Heal HITs an allied target, it triggers 【Equal Blessing】, chaining to @{2} targets within @{1} meters of the target. If a chained target is a party Member, they receive Extra healing.	เมื่อ Highness Heal โจมตีโดนเป้าหมายพันธมิตร ทำให้เกิด [ Equal Blessing ] เชื่อมต่อถึงเป้าหมาย @{2} คน ในระยะ @{1} เมตรรอบเป้าหมาย หากเป้าหมายที่เชื่อมเป็นสมาชิกปาร์ตี้ จะได้รับฮีลเพิ่มเติม
+10110300942	Every @{1} casts, Highness Heal will Level-up into 【Manifestation】. When cast, it manifests a shattered Orbit and chains once to up to @{3} allies within @{2} meters of the target. If a chained target is a party Member, they receive Extra healing.	ทุกการใช้ @{1} ครั้ง Highness Heal จะยกระดับเป็น [ Manifestation ] เมื่อใช้ สร้างวงโคจรแตกสลายและเชื่อมต่อหนึ่งครั้งถึงพันธมิตรสูงสุด @{3} คน ในระยะ @{2} เมตรรอบเป้าหมาย หากเป้าหมายที่เชื่อมเป็นสมาชิกปาร์ตี้ จะได้รับฮีลเพิ่มเติม
+10110300943	For @{1}s after casting [Radiant Holy Light], Manifestation shatters Orbit. During this time, the next @{2} casts of Highness Heal summon translucent petals, restoring Life to allies within @{3}m of you.	ภายใน @{1} วินาทีหลังใช้ [ Radiant Holy Light ] Manifestation ทำลายวงโคจร ระหว่างนี้ การใช้ Highness Heal @{2} ครั้งถัดไปจะเรียกกลีบดอกไม้โปร่งแสง ฟื้นฟู HP ให้พันธมิตรในระยะ @{3} เมตรรอบตัวคุณ
+10110300944	【Brilliant Holy Light】can be Enhanced into 【Angel Incarnate】, reducing its Cooldown. Upon casting, transform into an Angel of Divine Light and convert Highness Heal into 【Manifestation】 for @{1}s. During this time, gain damage reduction and bonus Move SPD, float, and cast while moving.	[ Brilliant Holy Light ] สามารถเสริมพลังเป็น [ Angel Incarnate ] ลด Cooldown เมื่อใช้ แปลงร่างเป็น Angel of Divine Light และเปลี่ยน Highness Heal เป็น [ Manifestation ] เป็นเวลา @{1} วินาที ระหว่างนี้ ได้รับการลดดาเมจและโบนัส MSPD ลอยตัว และร่ายขณะเคลื่อนที่ได้
+10110300948	【Holy Spirit Surge】 becomes 【Evil Spirit Possession】. When activated, you enter the 【Embrace of Sin】 state, raising a cross behind you that launches a coordinated attack whenever you deal damage. (Cooldown: @{1}s)\nWhen the coordinated attack scores a HIT, a wisp of 【Will】 flies back and restores charge to 【Stigmata】.	[ Holy Spirit Surge ] เปลี่ยนเป็น [ Evil Spirit Possession ] เมื่อเปิดใช้ เข้าสู่สถานะ [ Embrace of Sin ] ยกกางเขนขึ้นด้านหลังเพื่อโจมตีประสานทุกครั้งที่คุณสร้างดาเมจ (Cooldown: @{1} วินาที)\nเมื่อการโจมตีประสานโจมตีโดน เศษเสี้ยว [ Will ] จะบินกลับมาเติมชาร์จให้ [ Stigmata ]
+10110301055	When equipped with a dagger, increases Attack Speed by ^{1}${1}^{2} and AGI by ^{3}${2}^{4}.	เมื่อสวมมีด เพิ่ม ASPD ขึ้น ^{1}${1}^{2} และ AGI ขึ้น ^{3}${2}^{4}

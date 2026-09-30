@@ -1,0 +1,37 @@
+[
+  {
+    "ID": "10110300907",
+    "English": "Using 【Shadow Command】, 【Thousand Shadows】, or 【Circling Shadow】 grants 【Shadow Chain】 for @{1} sec, stacking up to @{2} times. While 【Shadow Chain】 is active, damage dealt increases by @{3}% per stack.",
+    "method": "Exact whole-English match to fresh English-only batches 001-025; no old Thai or normalization"
+  },
+  {
+    "ID": "10110300941",
+    "English": "When Highness Heal HITs an allied target, it triggers 【Equal Blessing】, chaining to @{2} targets within @{1} meters of the target. If a chained target is a party Member, they receive Extra healing.",
+    "method": "Exact whole-English match to fresh English-only batches 001-025; no old Thai or normalization"
+  },
+  {
+    "ID": "10110300942",
+    "English": "Every @{1} casts, Highness Heal will Level-up into 【Manifestation】. When cast, it manifests a shattered Orbit and chains once to up to @{3} allies within @{2} meters of the target. If a chained target is a party Member, they receive Extra healing.",
+    "method": "Exact whole-English match to fresh English-only batches 001-025; no old Thai or normalization"
+  },
+  {
+    "ID": "10110300943",
+    "English": "For @{1}s after casting [Radiant Holy Light], Manifestation shatters Orbit. During this time, the next @{2} casts of Highness Heal summon translucent petals, restoring Life to allies within @{3}m of you.",
+    "method": "Exact whole-English match to fresh English-only batches 001-025; no old Thai or normalization"
+  },
+  {
+    "ID": "10110300944",
+    "English": "【Brilliant Holy Light】can be Enhanced into 【Angel Incarnate】, reducing its Cooldown. Upon casting, transform into an Angel of Divine Light and convert Highness Heal into 【Manifestation】 for @{1}s. During this time, gain damage reduction and bonus Move SPD, float, and cast while moving.",
+    "method": "Exact whole-English match to fresh English-only batches 001-025; no old Thai or normalization"
+  },
+  {
+    "ID": "10110300948",
+    "English": "【Holy Spirit Surge】 becomes 【Evil Spirit Possession】. When activated, you enter the 【Embrace of Sin】 state, raising a cross behind you that launches a coordinated attack whenever you deal damage. (Cooldown: @{1}s)\\nWhen the coordinated attack scores a HIT, a wisp of 【Will】 flies back and restores charge to 【Stigmata】.",
+    "method": "Exact whole-English match to fresh English-only batches 001-025; no old Thai or normalization"
+  },
+  {
+    "ID": "10110301055",
+    "English": "When equipped with a dagger, increases Attack Speed by ^{1}${1}^{2} and AGI by ^{3}${2}^{4}.",
+    "method": "Exact whole-English match to fresh English-only batches 001-025; no old Thai or normalization"
+  }
+]
