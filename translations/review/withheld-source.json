@@ -1,0 +1,188 @@
+[
+  {
+    "ID": "10220300020",
+    "English": "Physical/Physical DEF +${1}%.",
+    "Category": "skill-effect",
+    "reason": "Duplicated ambiguous stat in English"
+  },
+  {
+    "ID": "10220300159",
+    "English": "@{1}~@{2} Do Not Use—buff used to implement the card's Function",
+    "Category": "skill-effect",
+    "reason": "Internal/test/deprecated or untranslated-by-design source"
+  },
+  {
+    "ID": "10220300246",
+    "English": "No derived skill",
+    "Category": "skill-effect",
+    "reason": "Internal/test/deprecated or untranslated-by-design source"
+  },
+  {
+    "ID": "10220300247",
+    "English": "Not currently used",
+    "Category": "skill-effect",
+    "reason": "Internal/test/deprecated or untranslated-by-design source"
+  },
+  {
+    "ID": "10220300260",
+    "English": "Equipment Drop Test",
+    "Category": "skill-effect",
+    "reason": "Internal/test/deprecated or untranslated-by-design source"
+  },
+  {
+    "ID": "10220300432",
+    "English": "You feel fatigued, impairing your ability to explore. (Broadcast required)",
+    "Category": "skill-effect",
+    "reason": "Internal/test/deprecated or untranslated-by-design source"
+  },
+  {
+    "ID": "10800100036",
+    "English": "After ^{1}^{2}[Cart Revolution]^{3}^{4} hits the primary target, it triggers [Money Throw] an Extra @{1} times, dealing PATK*${1}%+${2} Neutral melee Physical damage. This effect has a ${3-second Cooldown.",
+    "Category": "skill-enhancement",
+    "reason": "Malformed placeholder"
+  },
+  {
+    "ID": "12390100824",
+    "English": "Deprecated. If you see this text, please report the issue to the pet system lead.",
+    "Category": "item-description",
+    "reason": "Internal/test/deprecated or untranslated-by-design source"
+  },
+  {
+    "ID": "12390100816",
+    "English": "No Translation Required",
+    "Category": "item-description",
+    "reason": "Internal/test/deprecated or untranslated-by-design source"
+  },
+  {
+    "ID": "12390100793",
+    "English": "Test Name Card@{1}-Permanent",
+    "Category": "item-description",
+    "reason": "Internal/test/deprecated or untranslated-by-design source"
+  },
+  {
+    "ID": "12390100738",
+    "English": "A test gift pack. Open it to receive a large number of potions.",
+    "Category": "item-description",
+    "reason": "Internal/test/deprecated or untranslated-by-design source"
+  },
+  {
+    "ID": "12390100011",
+    "English": "Season Settlement Placeholder",
+    "Category": "item-description",
+    "reason": "Internal/test/deprecated or untranslated-by-design source"
+  },
+  {
+    "ID": "12390100341",
+    "English": "Proof of participation in this Ignition Test. Players who receive this invitation will gain Eligibility for the next test and may also invite one Extra player to join them on an adventure before the next test begins",
+    "Category": "item-description",
+    "reason": "Internal/test/deprecated or untranslated-by-design source"
+  },
+  {
+    "ID": "10110300333",
+    "English": "Spits upward, then after a @{1}-second warning, 【Unidentified Digestive Matter】 falls from the sky at several random locations, dealing A damage within a circular area with a @{2}-meter radius. 【Unidentified Digestive Matter】 lasts @{3}s and slows players and monsters within it",
+    "Category": "skill-description",
+    "reason": "Unresolved or invalid source formula/unit"
+  },
+  {
+    "ID": "10110300357",
+    "English": "(No translation required)",
+    "Category": "skill-description",
+    "reason": "Internal/test/deprecated or untranslated-by-design source"
+  },
+  {
+    "ID": "10220300870",
+    "English": "Hidden from players; for designers only",
+    "Category": "skill-effect",
+    "reason": "Internal/test/deprecated or untranslated-by-design source"
+  },
+  {
+    "ID": "10220300850",
+    "English": "System Buff@{1}",
+    "Category": "skill-effect",
+    "reason": "Internal/test/deprecated or untranslated-by-design source"
+  },
+  {
+    "ID": "10220300837",
+    "English": "Add a sound effect at maximum stacks.",
+    "Category": "skill-effect",
+    "reason": "Internal/test/deprecated or untranslated-by-design source"
+  },
+  {
+    "ID": "10220300786",
+    "English": "For designers",
+    "Category": "skill-effect",
+    "reason": "Internal/test/deprecated or untranslated-by-design source"
+  },
+  {
+    "ID": "10220300733",
+    "English": "(No Translation Required)",
+    "Category": "skill-effect",
+    "reason": "Internal/test/deprecated or untranslated-by-design source"
+  },
+  {
+    "ID": "10220300731",
+    "English": "Determine whether it is protected by a shield; hide later",
+    "Category": "skill-effect",
+    "reason": "Internal/test/deprecated or untranslated-by-design source"
+  },
+  {
+    "ID": "10220300699",
+    "English": "When any Protector skill is used, grants the master [Divine Hope] (Physical/Magic DEF +^{1}${1}%^{2}) for ${2}% sec.",
+    "Category": "skill-effect",
+    "reason": "Unresolved or invalid source formula/unit"
+  },
+  {
+    "ID": "10220300674",
+    "English": "When a shield/buff-type protection skill is cast, the master recovers *value description* Life upon taking damage (internal cooldown: @{1} seconds) for x seconds.",
+    "Category": "skill-effect",
+    "reason": "Unresolved or invalid source formula/unit"
+  },
+  {
+    "ID": "10220300666",
+    "English": "When a Debuff/Control-type protection skill scores a HIT, the enemy takes Extra *specified* damage when hit for @{1} sec. (internal CD: @{2} sec.)",
+    "Category": "skill-effect",
+    "reason": "Unresolved or invalid source formula/unit"
+  },
+  {
+    "ID": "10110300809",
+    "English": "[No Translation Required]",
+    "Category": "skill-description",
+    "reason": "Internal/test/deprecated or untranslated-by-design source"
+  },
+  {
+    "ID": "10110300761",
+    "English": "(No Translation Required)",
+    "Category": "skill-description",
+    "reason": "Internal/test/deprecated or untranslated-by-design source"
+  },
+  {
+    "ID": "10110300325",
+    "English": "Quickly slashes the ground with a blade. After a warning, cleavers fall from the sky at several random locations, dealing A damage within a circular area with a @{1}-foot radius",
+    "Category": "skill-description",
+    "reason": "Unresolved or invalid source formula/unit"
+  },
+  {
+    "ID": "10110300161",
+    "English": "No Translation Required",
+    "Category": "skill-description",
+    "reason": "Internal/test/deprecated or untranslated-by-design source"
+  },
+  {
+    "ID": "10220300381",
+    "English": "Reply @{1}% HP.",
+    "Category": "skill-effect",
+    "reason": "English says Reply HP; intended operation is ambiguous; do not assume Restore."
+  },
+  {
+    "ID": "10220300404",
+    "English": "Every @{1} sec., Reply @{2}% of max HP.",
+    "Category": "skill-effect",
+    "reason": "English says Reply max HP; intended operation is ambiguous; do not assume Restore."
+  },
+  {
+    "ID": "10110300508",
+    "English": "Bobo deals Physical ATK*^{1} to the designated ST enemy within ${1} meters.",
+    "Category": "skill-description",
+    "reason": "English damage formula is incomplete: Physical ATK*^{1}."
+  }
+]
