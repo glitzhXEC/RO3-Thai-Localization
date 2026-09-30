@@ -1,0 +1,4 @@
+# Tables must have consistent bytes across Linux and Windows checkouts.
+*.tsv text eol=lf
+# Content-addressed update files are byte-exact; never normalize their contents.
+translations/live/versions/** -text
