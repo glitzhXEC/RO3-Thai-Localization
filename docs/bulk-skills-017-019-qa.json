@@ -1,0 +1,32 @@
+{
+  "batches": [
+    "batch-017.th.json",
+    "batch-018.th.json",
+    "batch-019.th.json"
+  ],
+  "new_rows": 209,
+  "categories": {
+    "skill-effect": 110,
+    "skill-description": 99
+  },
+  "total_translated_rows": 1415,
+  "pending_priority_rows": 2002,
+  "source_skill_payload_ids": 1070,
+  "source_runtime_rules": 662,
+  "runtime_checks": 4542,
+  "structural_errors": 0,
+  "new_batch_in_game_tested": false,
+  "legacy_Thai_used": false,
+  "current_release_skill_ids": 416,
+  "included_in_current_release": false,
+  "source_anomalies_left_pending": [
+    "10110300508",
+    "10220300381",
+    "10220300404"
+  ],
+  "semantic_notes": [
+    "ATK-scaled healing is a number of HP restored, not a percentage of Max HP.",
+    "10110300499 preserves English MATK scaling with Physical damage; no correction was invented.",
+    "Adaptive Damage and skill/status names remain English; protected marker order retained."
+  ]
+}

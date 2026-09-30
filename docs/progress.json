@@ -1,13 +1,13 @@
 {
-  "translated_rows": 1206,
+  "translated_rows": 1415,
   "priority_candidates": 3417,
-  "pending_rows": 2211,
+  "pending_rows": 2002,
   "categories": {
     "food-potion-description": 34,
-    "skill-effect": 381,
+    "skill-effect": 491,
     "skill-enhancement": 165,
     "item-description": 307,
-    "skill-description": 319
+    "skill-description": 418
   },
   "structural_errors": 0,
   "installer_core_tests": 34,
@@ -36,10 +36,10 @@
   "partial_release_tag": "v0.2.0-skills-alpha.1",
   "windows_alpha_build_verified": true,
   "partial_release_game_tested": false,
-  "latest_translation_batch": "bulk-012-016",
-  "latest_batch_new_skills": 390,
-  "source_ready_skill_payload_ids": 861,
-  "source_ready_runtime_checks": 3653,
+  "latest_translation_batch": "bulk-017-019",
+  "latest_batch_new_skills": 209,
+  "source_ready_skill_payload_ids": 1070,
+  "source_ready_runtime_checks": 4542,
   "source_changes_in_current_release": false,
-  "source_ready_runtime_rules": 531
+  "source_ready_runtime_rules": 662
 }

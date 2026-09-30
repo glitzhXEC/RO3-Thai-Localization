@@ -1,0 +1,12 @@
+[
+  {
+    "ID": "10220300428",
+    "English": "Immune to damage and debuffs.",
+    "method": "Exact whole-English match to fresh English-only batches 001-018; no old Thai and no normalization"
+  },
+  {
+    "ID": "10220300482",
+    "English": "Cannot move",
+    "method": "Exact whole-English match to fresh English-only batches 001-018; no old Thai and no normalization"
+  }
+]
