@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "en": {
+      "source_file": "Localization_en.lua.bytes",
+      "source_size_bytes": 2841179,
+      "source_sha256": "5ea8f468a675efe64a71eef887e485266d58edf6ce69e52a3d12abbe087340c7",
+      "decoder": "game xlua.dll (isolated Lua state)",
+      "language_code": "en"
+    },
+    "zh_CN": {
+      "source_file": "Localization_zh_CN.lua.bytes",
+      "source_size_bytes": 2663514,
+      "source_sha256": "636dcffddcc9cf654bee5a55f5ee89430a4947acb595428be510afa821075867",
+      "decoder": "game xlua.dll (isolated Lua state)",
+      "language_code": "zh_CN"
+    },
+    "zh_TW": {
+      "source_file": "Localization_zh_TW.lua.bytes",
+      "source_size_bytes": 2595343,
+      "source_sha256": "2068f3a3a2d3d288aba1193998a9f8512110460cfddb4addda093424ca953551",
+      "decoder": "game xlua.dll (isolated Lua state)",
+      "language_code": "zh_TW"
+    }
+  },
+  "archive_sha256": "c032b77ad78b68695bf8f4e7fc7b9f381de176abda2dc7c8e991501026cc3a62",
+  "english_rows": 33513,
+  "english_canonical_sha256": "119da26cbb80f2b2eb49c644fd8b84fa8f820da65d8a215bded2849e08df16f3",
+  "rows": {
+    "44010": "\rIn the waters surrounding the continent of Midgard lies a little-known island. It appears on no sea chart, and only ships that have lost their way occasionally stumble upon it. Yet no crew dares linger there, for terrifying, thunderous roars have echoed from the island's depths for as long as anyone can remember.\n \n\rLegend holds that the dragon Fafnir is sealed deep within the island. Once a descendant of the giants, he was slain by a descendant of Odin for his insatiable greed for treasure. After Ragnarök, he returned from the underworld to Midgard, transformed into a decaying dragon driven by nothing but greed. To stop Fafnir's plunder and slaughter, people built fortresses, Turrets, and magic formations across the nameless island. Using gold as bait, they ultimately sealed him away through tremendous Devotion. Thus, the island came to be known as Dragon Sarcophagus Isle.\n\n\rCenturies have since passed, and the seal's power has begun to wane. The roars from the island grow more deafening by the day, while monsters drawn by the dragon's call gather nearby and relentlessly attack the seal.\n\n\rFafnir, the dragon once thought safely sealed away, has lost none of his greed. His power stirs deep within Dragon Sarcophagus Isle, threatening the Peace of the continent.\n\n\rFaced with this threat, the Guild has issued a call to arms. To protect the continent of Midgard and prevent Fafnir from unleashing another catastrophe, brave Adventurers must be assembled. These heroes will form a dragon-slaying force, travel to Dragon Sarcophagus Isle, and challenge Fafnir once more for the sake of the continent's future.\nTo restore the seal, keep the greedy dragon contained, and protect the Peace of the continent of Midgard, the Guild must gather the bravest Adventurers into a dragon-slaying force and send them to Dragon Sarcophagus Isle to challenge the dragon once more.",
+    "53001": "\t1. This is a role-playing game suitable for users age 12 and older. Minors are advised to play under parental supervision.\n\t2. This game features a cartoon art style with detailed visuals, vibrant colors, and lighthearted, lively music. Set against a fictional story and fantasy world, players take on the role of an adventurer embarking on a journey to protect this beautiful world. The game includes competitive gameplay and story-related conflict, but these confrontations are depicted in a cartoon style and cannot be confused with real life. The game includes a text- and voice-based Connect System for interacting with strangers. The Connect System is managed in accordance with applicable laws and regulations.\n\t3. The game includes a real-name user verification System. Users verified as minors are subject to the following restrictions:\n\tSome gameplay features and items require payment. Users under age 8 may not make payments. Users age 8 or older but under age 16 may spend no more than 50 RMB per transaction and no more than 200 RMB per month. Users age 16 or older who are minors may spend no more than 100 RMB per transaction and no more than 400 RMB per month.\n\tAccounts without real-name verification cannot log in to play. Verified minors may play for 1 hour each day from 20:00 to 21:00 on Fridays, Saturdays, Sundays, and statutory holidays, and may not play at any other time.\n\t4. The game includes a party mode, large-scale team missions, and competitions that require players to work together. These activities help Train players' communication and teamwork skills while fostering a sense of group belonging.",
+    "10320000172": "\"The White Dove's an old friend of mine. She may sail steady now, but she once saved my life in a storm.\"",
+    "10540000158": "\"Soul Echo\" is unlocked! It's incredibly powerful. Follow me!",
+    "10540000162": "\"Soul Echo\" can also get a Level-up. Click here!",
+    "10960000071": "\r\n@{1}.MVP monsters share HP across all channels. When an MVP appears, it can be found and fought on any channel, and all battle contributions count toward the rankings.",
+    "10960000072": "\r\n@{1}.There are 4 types of MVP rewards: Ranking Rewards, Participation Rewards, First Strike Rewards, and Final Blow Rewards. Each has an independent Reward Count and does not affect the others. Tap Reward Count for details.\r\n@{2}.Participation Rewards and Ranking Rewards have a Chance to include Rare rewards such as Cards. The higher the team's rank, the greater the Chance.\r\n@{3}.Ranking Rewards are distributed by party. After Killing the MVP, members of the top @{4} parties with Remaining Reward Counts can obtain Ranking Rewards.\r\n@{5}.The first Character to attack the MVP receives the First Strike mark. Going Offline or changing maps, except when switching channels, Clears the First Strike mark. The first Character to attack the MVP afterward receives the First Strike mark.",
+    "10960000073": "\r\n@{1}.After the MVP is Defeated, Points are calculated for all participating parties based on Damage dealt, Damage taken, Healing Volume, and death count Data. Deaths deduct a small number of Points. All participating parties are then ranked by Points.\r\n@{2}.If a party includes Members with no Remaining Ranking Reward or Participation Reward Counts, the total score is Decayed by a certain percentage. The more such Members there are, the greater the Decay.",
+    "12410000008": "\"Emergency Call\" is an exclusive skill for the Vice Guild Master.",
+    "12410000026": "\"Poporing\" (Fat Poring) is best known for being incredibly fast.",
+    "12410000027": "\"Metal Poring\" strikes fear into players with its extremely high ATK.",
+    "12410000032": "\"Losing Dumby\" means dying after receiving Dumby's buff, causing it to disappear.",
+    "12410000040": "\"SP Battery\" is a nickname for Sages/Sorcerers, as their Soul Change skill can restore party members' SP.",
+    "12410000043": "\"The Red One's Flammable Web\" not only Immobilizes the target, but also causes them to take ×@{1} damage from the next Ice-property attack.",
+    "12410000044": "\"Divine Light\" (Heal) not only restores HP, but can also be used to damage Undead monsters.",
+    "12410000045": "\"Zombie\" and \"Bongun\" have a master-disciple relationship in the world of RO.",
+    "12410000049": "\"Megingjard\" grants STR +@{1}.",
+    "12410000052": "\"Main Gauche\" is RO's iconic @{1}-slot weapon, famous for its maximum card capacity.",
+    "12410000055": "\"Costume Enchant\" only costs a fixed amount of Zeny and grants special effects.",
+    "12410000058": "\"Direct Fire\" refers to casting fire skills directly at a target without switching targets.",
+    "12410000059": "\"Shadow Lock\" is an advanced movement technique developed using the Fire Wall skill.",
+    "12410000060": "\"Shadow Equipment\" is a purely cosmetic system and provides no stat bonuses.",
+    "12410000061": "\"Berserk Potion\" can be used by all classes and provides the highest Attack Speed boost of any potion.",
+    "12410000070": "\"Super Novice\" cannot equip any weapons or armor.",
+    "12410000071": "\"Salamander\" has been a classic RO pet since the very beginning.",
+    "13230000000": "\"Harmony at Dawn\"",
+    "13230000001": "\"Afternoon Variations\"",
+    "13230000002": "\"Twilight Rhapsody\"",
+    "13230100000": "\"The faithful of Eden cheered for the dawn, their songs becoming strings and their faith the harp's pillar. When God played the harp, even He nearly believed—that hope truly existed.\"",
+    "13230100001": "\"When the Klein Cube was swallowed by the Eternal Land, the first gears engaged—the void split into golden patterns, only to collapse into darkness in an instant. Yet the music played on, performing the eternal struggle between order and chaos.\"",
+    "13230100002": "\"When the Fishmen chanted, every storm fell silent. God forged that silence into a blade and carved through the will of seven thousand worlds to resist.\""
+  }
+}
