@@ -10,7 +10,7 @@ numbers=re.compile(r'(?<![A-Za-z])\d+(?:\.\d+)?')
 brackets=re.compile(r'【([^】]+)】|\[([^\]]+)\]')
 errors=[];warnings=[];translations={}
 for path in sorted((root/'translations').glob('batch-*.th.json')):
-    for key,thai in json.loads(path.read_text()).items():
+    for key,thai in json.loads(path.read_text(encoding='utf-8')).items():
         if key in translations:errors.append({'ID':key,'check':'duplicate_translation'})
         translations[key]=thai
         if key not in source:errors.append({'ID':key,'check':'unknown_source'});continue
@@ -34,7 +34,7 @@ for path in sorted((root/'translations').glob('batch-*.th.json')):
         if re.search(r'\b(PATK|MATK|PDEF|MDEF|MDMG|PDMG)\b',thai):errors.append({'ID':key,'check':'noncanonical_stat'})
         if not re.search(r'[\u0e00-\u0e7f]',thai):warnings.append({'ID':key,'check':'no_thai'})
 report={'translated_rows':len(translations),'errors':errors,'warnings':warnings,'in_game_tested':False,'semantic_review':'Draft translations; further review required.'}
-(root/'docs/qa-translations.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+(root/'docs/qa-translations.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print(json.dumps(report,ensure_ascii=False,indent=2))
 if errors:sys.exit(1)
 with (root/'translations/retranslated.tsv').open('w',encoding='utf-8',newline='') as f:
