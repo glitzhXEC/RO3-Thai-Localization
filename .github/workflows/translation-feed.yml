@@ -1,0 +1,42 @@
+name: Translation data feed
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/translation-feed.yml'
+      - 'translations/RO3.LocalizationOverrides.tsv'
+      - 'translations/semantic-review.json'
+      - 'scripts/prepare_live_translations.py'
+      - 'scripts/prepare_skill_runtime.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: translation-data-feed
+  cancel-in-progress: false
+jobs:
+  publish-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+      - name: Generate and verify main TSV without overwriting it from batches
+        run: |
+          python scripts/prepare_live_translations.py
+          dotnet run --project tests/SkillRuntime.Tests -c Release -- .
+          dotnet run --project tests/TranslationUpdater.Tests -c Release -- .
+      - name: Commit verified data bundle atomically
+        run: |
+          git add -- translations/live docs/translation-update-feed.json docs/partial-skill-payload.json
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Publish validated content-versioned translation feed from main TSV"
+          git push origin HEAD:main
