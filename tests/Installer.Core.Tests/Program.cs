@@ -65,10 +65,13 @@ try
   Check(InstallEngine.Sha(Path.Combine(whole,"ro3.exe"))==gameBefore,"game executable unchanged");
   string userMod=Path.Combine(whole,"BepInEx/plugins/UserExtra.dll");File.WriteAllText(userMod,"user-added mod; not executed");
   File.AppendAllText(Path.Combine(whole,"BepInEx/config/AutoTranslatorConfig.ini"),"\n# user setting\n");
+  string cacheFile=Path.Combine(whole,"BepInEx/config/RO3.TranslationCache/cache.json");
+  File.WriteAllText(cacheFile,"updated translation cache; data only");
   string saved=InstallEngine.Uninstall(whole);
   Check(!full.Files.Any(f=>File.Exists(InstallEngine.ResolveSafe(whole,f.Path))),"only full owned payload removed");
   Check(File.ReadAllText(userMod)=="user-added mod; not executed","later user mod retained");
   Check(Directory.Exists(saved),"mutable settings retained in uninstall snapshot");
+  Check(File.ReadAllText(Path.Combine(saved,Array.FindIndex(full.Files,f=>f.Path=="BepInEx/config/RO3.TranslationCache/cache.json").ToString()))=="updated translation cache; data only","updated owned cache preserved in uninstall snapshot");
   Check(InstallEngine.Sha(Path.Combine(whole,"ro3.exe"))==gameBefore,"game executable unchanged after uninstall");
  }
  Console.WriteLine($"{passed} tests passed; dummy files only, no game or Windows UI executed.");

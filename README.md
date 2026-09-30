@@ -1,29 +1,22 @@
 # RO3 Thai Localization
 
-> **สถานะคำแปลล่าสุด:** ตารางซอร์ส 3,380 รายการ (เพิ่ม 1,115 รายการในชุด 034–045) คิวร่างที่แปลได้ตรวจและแปลครบแล้ว เหลือต้นฉบับไม่ครบ/กำกวม/ไม่ใช้ 37 รายการ ไม่รวมในตารางใช้งาน ดู [ขอบเขตและข้อจำกัด](docs/FINISH-REVIEW-STATUS.md)
-> **EXE เดิมยังมี 416 IDs** ไม่ได้รับคำแปลจาก main อัตโนมัติ และคำแปลชุดล่าสุดยังไม่ทดสอบในเกม
+แพตช์ภาษาไทย RO3 Asia PC แปลคำอธิบายสกิลและไอเทมใหม่จาก **English เท่านั้น** ยังใช้ BepInEx โดยไม่ใช้ BAT หรือ Translation-Editor
 
-แพตช์ภาษาไทยสำหรับ **RO3 Asia เวอร์ชัน PC**
-ที่มุ่งปรับปรุงคำอธิบายสกิล ไอเทม เอฟเฟกต์ และข้อความที่เกี่ยวข้องให้อ่านง่าย
-เป็นธรรมชาติ และรักษาความหมายเชิงกลไกของเกม
+## Windows Auto-update Alpha
 
-> [!IMPORTANT]
-> โปรเจกต์นี้อยู่ระหว่างการพัฒนาและทดสอบ
-> มี Skills Alpha ที่ติดตั้งไฟล์สกิลบางส่วนได้สำหรับทดสอบ แต่ยังไม่มี Stable Release และยังไม่ผ่านการทดสอบเกมจริง รุ่น UI Preview เดิมยังไม่ติดตั้งแพตช์
+[ดาวน์โหลด v0.3.0-auto-update-alpha.1](https://github.com/glitzhXEC/RO3-Thai-Localization/releases/tag/v0.3.0-auto-update-alpha.1) — EXE เดียว เลือก Client/ro3.exe เอง ไม่ค้นหาเกมอัตโนมัติ **ยังไม่ทดสอบ GUI/เกมจริง ไม่ใช่ Stable**
 
-## แพตช์สกิลบางส่วน — Alpha
+มีฐานออฟไลน์ 3,375 IDs (สกิล 2,414 IDs รวมไอเทม/อาหาร) และ 1,848 rules ตอนเริ่มเกมตรวจข้อมูลคำแปลใหม่จาก main หนึ่งครั้ง ถ้าเน็ตล่มหรือข้อมูลไม่ผ่านตรวจใช้ข้อมูลเดิมต่อ ไม่ดาวน์โหลด executable
 
-เตรียมรุ่น `v0.2.0-skills-alpha.1` ที่บรรจุ BepInEx/runtime และคำแปลสกิลใหม่ 416 รหัส ติดตั้งไฟล์ได้สำหรับทดสอบ **แต่ยังไม่ผ่านการทดสอบเกมจริง** รองรับ Client Windows x64 Mono ที่ไม่มี BepInEx/winhttp.dll เดิมเท่านั้น ไม่ติดตั้งทับม็อดเก่า
+[คู่มือ การย้ายจากรุ่นเดิม และข้อจำกัด](docs/AUTO-UPDATE-RELEASE.md) · [ตารางต้นทาง](translations/RO3.LocalizationOverrides.tsv) · [feed](translations/live/manifest.json)
 
-[รายละเอียดและข้อจำกัด Alpha](docs/PARTIAL-SKILLS-ALPHA.md) — ซอร์สคำแปลรวม 761 รายการ คิวที่พบเหลือ 2,656 รายการ
+แก้ TSV บน main แล้วรอ workflow **Translation data feed** สำเร็จ ไม่ต้องสร้าง Release ซ้ำเพื่อแก้คำแปล หากแก้ batch ให้ใช้ workflow **Refresh translation tables** ซึ่งสร้าง TSV และ feed พร้อมกัน รุ่น v0.2 เดิมไม่มี updater ต้องเปลี่ยน installer ครั้งเดียวก่อน
 
-## ดาวน์โหลด Windows UI Preview
+ซอร์สมี 3,380 รายการ; runtime เว้น 5 รายการรอตรวจความหมาย ต้นฉบับค้างตรวจอีก 37 รายการไม่รวม ไม่ใช่คำแปลทั้งเกม [รายละเอียด](docs/FINISH-REVIEW-STATUS.md)
 
-[หน้า prerelease v0.1.0-windows-preview.1](https://github.com/glitzhXEC/RO3-Thai-Localization/releases/tag/v0.1.0-windows-preview.1)
+## รุ่นก่อนหน้า (ข้อมูลย้อนหลัง)
 
-เลือก `RO3-Thai-Patch-Windows-x64-Preview.zip` แล้วแตกไฟล์ เปิด `RO3-Thai-Patch-Installer.exe` เพื่อทดสอบเลือกโฟลเดอร์/ไฟล์เกมเท่านั้น **รุ่นนี้ยังติดตั้งภาษาไทยหรือ BepInEx ไม่ได้** มี SHA256SUMS ให้ตรวจไฟล์
-
-GitHub Actions build/publish บน Windows สำเร็จ แต่ยังไม่ได้ทดสอบ GUI หรือเกมจริง [ผล build](https://github.com/glitzhXEC/RO3-Thai-Localization/actions/runs/36735353491)
+[v0.2.0 Skills Alpha](docs/PARTIAL-SKILLS-ALPHA.md) มี 416 IDs และไม่อัปเดตจาก main อัตโนมัติ; v0.1 UI Preview ไม่ติดตั้งภาษาไทย ไม่มี Stable Release
 
 ## เป้าหมายของโปรเจกต์
 
@@ -40,9 +33,9 @@ GitHub Actions build/publish บน Windows สำเร็จ แต่ยั�
 | --- | --- |
 | แปลคำอธิบายสกิลและไอเทมใหม่ | กำลังดำเนินการ |
 | ตรวจ placeholder และคำศัพท์ | กำลังดำเนินการ |
-| ตัวติดตั้ง Windows แบบไฟล์เดียว | อยู่ระหว่างพัฒนา |
+| ตัวติดตั้ง Windows แบบไฟล์เดียว | Auto-update Alpha |
 | ทดสอบภายในเกม | ยังไม่เริ่ม |
-| Windows prerelease | UI Preview เท่านั้น — ยังติดตั้งแพตช์ไม่ได้ |
+| Windows prerelease | Auto-update Alpha — ติดตั้งสำหรับทดสอบ ยังไม่ทดสอบเกม |
 
 Release ของแพตช์ที่พร้อมใช้จริงยังต้องรอคำแปล ตัวติดตั้ง การอัปเดต การซ่อมแซม และการถอนการติดตั้งผ่านการทดสอบ ส่วน UI Preview ใช้ทดสอบหน้าจอเท่านั้น
 

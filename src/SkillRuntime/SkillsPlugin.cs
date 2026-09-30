@@ -10,7 +10,7 @@ using System.Threading;
 
 namespace RO3.ThaiLocalization
 {
-    [BepInPlugin("com.ro3.thailocalization.skills", "RO3 Thai Skills Partial", "0.2.0")]
+    [BepInPlugin("com.ro3.thailocalization.skills", "RO3 Thai Localization + Translation Updates", "0.3.0")]
     public sealed class SkillsPlugin : BaseUnityPlugin
     {
         private static SkillDictionary? dictionary;
@@ -26,9 +26,27 @@ namespace RO3.ThaiLocalization
             {
                 log = Logger;
                 dictionary = SkillDictionary.Load(Path.Combine(Paths.ConfigPath, "RO3.SkillTranslations.tsv"), Path.Combine(Paths.ConfigPath, "RO3.SkillRules.tsv"));
+                string cachedVersion = "";
+                try
+                {
+                    var cached = TranslationUpdater.LoadCache(Paths.ConfigPath, out cachedVersion);
+                    if (cached != null) dictionary = cached;
+                }
+                catch (Exception error) { log.LogWarning("Translation cache rejected; using embedded/offline files: " + error.Message); }
                 harmony = new Harmony("com.ro3.thailocalization.skills.hooks");
-                log.LogInfo("Fresh English-only skill dictionary loaded: " + dictionary.Count + " IDs, " + dictionary.RuleCount + " rules. No old dictionaries or online lookup.");
+                log.LogInfo("English-only translation dictionary loaded: " + dictionary.Count + " IDs, " + dictionary.RuleCount + " rules. No legacy dictionaries or online machine translation.");
                 InstallHooks();
+                bool autoUpdate = Config.Bind("Translations", "AutoUpdateOnStartup", true, "Check trusted GitHub main once on startup; downloads translation data only. Offline cache remains available.").Value;
+                if (autoUpdate)
+                {
+                    string version = cachedVersion;
+                    string configPath = Paths.ConfigPath;
+                    ThreadPool.QueueUserWorkItem(_ =>
+                    {
+                        var updated = TranslationUpdater.Refresh(configPath, version, message => log?.LogInfo(message));
+                        if (updated != null) Volatile.Write(ref dictionary, updated);
+                    });
+                }
                 AppDomain.CurrentDomain.AssemblyLoad += (_, __) => ThreadPool.QueueUserWorkItem(_ => InstallHooks());
                 // Keep hooks alive when the game destroys bootstrap Unity components.
                 retry = new Timer(_ => { if (++attempts > 60) { retry?.Dispose(); log?.LogInfo("Hook discovery ended: ID hooks=" + idHooks + ", text hooks=" + textHooks); return; } InstallHooks(); }, null, 2000, 2000);

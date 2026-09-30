@@ -23,8 +23,8 @@ sealed class MainForm : Form
     public MainForm()
     {
         bool ready = false; try { ready = Manifest().ReadyForInstallation; } catch { }
-        Text = ready ? "RO3 Thai Skills — Partial Alpha (ยังไม่ทดสอบในเกม)" : "RO3 Thai Patch — UI Preview";
-        if (ready) status.Text = "แพตช์สกิลบางส่วน รุ่น Alpha สำหรับ RO3 Mono x64 ต้องปิดเกมและ Launcher ก่อนติดตั้ง ไม่มีการค้นหาเกมอัตโนมัติ";
+        Text = ready ? "RO3 Thai Localization — Auto-update Alpha (ยังไม่ทดสอบในเกม)" : "RO3 Thai Patch — UI Preview";
+        if (ready) status.Text = "แพตช์สกิลและไอเทม พร้อมตรวจคำแปลใหม่จาก GitHub ตอนเปิดเกม รุ่น Alpha สำหรับ Mono x64 ปิดเกมและ Launcher ก่อนติดตั้ง ไม่มีการค้นหาเกมอัตโนมัติ";
         Width = 590; Height = 350;
         FormBorderStyle = FormBorderStyle.FixedDialog; MaximizeBox = false;
         StartPosition = FormStartPosition.CenterScreen;
@@ -69,7 +69,7 @@ sealed class MainForm : Form
             if (!manifest.ReadyForInstallation || manifest.Files.Length == 0) throw new InvalidDataException("คำแปลและ runtime ยังไม่พร้อมติดตั้ง");
             using var payload = Resource("payload.zip") ?? throw new InvalidDataException("ไม่มี payload");
             if (manifest.TargetProfile == "ro3-mono-x64") InstallEngine.ValidateMonoX64(valid);
-            if (uninstall.Enabled) { status.Text = "พบแพตช์นี้ที่ติดตั้งไว้แล้ว ถอนด้วยปุ่มด้านล่างได้ ยังไม่รองรับอัปเดตทับในรุ่น Alpha"; return; }
+            if (uninstall.Enabled) { status.Text = "พบแพตช์ที่ติดตั้งไว้แล้ว ปิดเกมแล้วกดถอนแพตช์นี้ จากนั้นเลือก Client อีกครั้งเพื่อติดตั้งรุ่นใหม่ คำแปลหลังติดตั้งจะอัปเดตแยกจาก EXE"; return; }
             if (Directory.Exists(Path.Combine(valid, "BepInEx")) || File.Exists(Path.Combine(valid,"winhttp.dll"))) throw new InvalidDataException("พบ BepInEx/proxy เดิม: รุ่น Alpha ไม่ทับม็อดเดิม กรุณาใช้ Client สำหรับทดสอบที่ยังไม่มีแพตช์");
             install.Enabled = true; status.Text = "โฟลเดอร์ถูกต้อง กรุณาปิดเกมและ Launcher ก่อนติดตั้ง";
         }
@@ -103,7 +103,7 @@ sealed class MainForm : Form
                 }
                 InstallEngine.Install(explicitSelection, staging, manifest, progress);
             });
-            status.Text = "ติดตั้งไฟล์แพตช์สกิลบางส่วนสำเร็จ: ยังต้องเปิดเกมทดสอบการแสดงผล ใช้ปุ่มถอนแพตช์นี้เพื่อย้อนกลับได้";
+            status.Text = "ติดตั้งแพตช์พร้อมอัปเดตคำแปลสำเร็จ: ตรวจ GitHub ตอนเปิดเกมและใช้แคชเมื่อเน็ตไม่ได้ ยังต้องทดสอบเกมจริง ใช้ปุ่มถอนแพตช์นี้เพื่อย้อนกลับ";
             uninstall.Enabled = true;
         }
         catch (Exception error) { status.Text = "ติดตั้งไม่สำเร็จ: " + error.Message; MessageBox.Show(this, error.Message, "ข้อผิดพลาด", MessageBoxButtons.OK, MessageBoxIcon.Error); }
