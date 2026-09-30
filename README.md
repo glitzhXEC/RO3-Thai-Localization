@@ -2,9 +2,12 @@
 
 แพตช์ภาษาไทย RO3 Asia PC แปลคำอธิบายสกิลและไอเทมใหม่จาก **English เท่านั้น** ยังใช้ BepInEx โดยไม่ใช้ BAT หรือ Translation-Editor
 
-## Windows Auto-update Alpha
+## Windows Auto-update / UI Hotfix Alpha
 
-[ดาวน์โหลด v0.3.0-auto-update-alpha.1](https://github.com/glitzhXEC/RO3-Thai-Localization/releases/tag/v0.3.0-auto-update-alpha.1) — EXE เดียว เลือก Client/ro3.exe เอง ไม่ค้นหาเกมอัตโนมัติ **ยังไม่ทดสอบ GUI/เกมจริง ไม่ใช่ Stable**
+**อย่าใช้ updater alpha.1 เดิมต่อโดยไม่แก้ DLL:** พบจาก log ว่า serialization attributes/API ที่ runtime เกมไม่มี ทำให้ SoftMask สแกน types ล้มเหลว รุ่น Hotfix นำ dependency นี้ออก คืนฟอนต์ Arial และยังใช้คำแปล English-only เดิม [รายละเอียด](docs/UI-COMPATIBILITY-HOTFIX.md) · [อัปเดตเฉพาะ plugin](docs/PLUGIN-HOTFIX.md)
+
+
+[ดาวน์โหลด v0.3.1-ui-hotfix-alpha.1](https://github.com/glitzhXEC/RO3-Thai-Localization/releases/tag/v0.3.1-ui-hotfix-alpha.1) — EXE เดียว เลือก Client/ro3.exe เอง ไม่ค้นหาเกมอัตโนมัติ **ยังไม่ทดสอบ GUI/เกมจริง ไม่ใช่ Stable**
 
 มีฐานออฟไลน์ 3,375 IDs (สกิล 2,414 IDs รวมไอเทม/อาหาร) และ 1,848 rules ตอนเริ่มเกมตรวจข้อมูลคำแปลใหม่จาก main หนึ่งครั้ง ถ้าเน็ตล่มหรือข้อมูลไม่ผ่านตรวจใช้ข้อมูลเดิมต่อ ไม่ดาวน์โหลด executable
 

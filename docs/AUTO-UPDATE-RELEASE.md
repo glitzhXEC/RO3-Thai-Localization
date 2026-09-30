@@ -1,6 +1,12 @@
 # RO3 Thai Localization — Auto-update Alpha
 
-รุ่น `v0.3.0-auto-update-alpha.1` สำหรับ Windows x64 / Unity Mono — **ยังไม่ทดสอบ GUI หรือเกมจริง ไม่ใช่ Stable**
+รุ่น `v0.3.1-ui-hotfix-alpha.1` สำหรับ Windows x64 / Unity Mono — **ยังไม่ทดสอบ GUI หรือเกมจริง ไม่ใช่ Stable**
+
+## Hotfix จาก log เกมจริง
+
+แก้ dependency/attributes ของตัวอัปเดตที่ทำให้การสแกน types ของ SoftMask ล้มเหลว และเลิกเรียก ReadWriteTimeout ที่ runtime ไม่มี คืนฟอนต์ Arial ให้เหมือน repo เดิม ไม่เปลี่ยนคำแปลเก่าเข้ามาแทน [ผลตรวจ ID และหลักฐาน](UI-COMPATIBILITY-HOTFIX.md)
+
+ผู้ใช้ v0.3.0-auto-update-alpha.1 สามารถใช้ `RO3-Thai-Plugin-UI-Hotfix.zip` เพื่อเปลี่ยนสอง DLL เท่านั้น โดยไม่ต้องถอน BepInEx อ่าน [คู่มือและผลต่อ ownership](PLUGIN-HOTFIX.md) ก่อนทำ รุ่นนี้ยังต้องทดสอบ UI ในเกมจริงอีกครั้ง
 
 ## ดาวน์โหลดและติดตั้ง
 

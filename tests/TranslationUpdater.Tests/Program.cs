@@ -9,6 +9,9 @@ var options=new JsonSerializerOptions{IncludeFields=true};
 byte[] Json(TranslationManifest m)=>JsonSerializer.SerializeToUtf8Bytes(m,options);
 TranslationManifest Clone(TranslationManifest m)=>JsonSerializer.Deserialize<TranslationManifest>(Json(m),options)!;
 try{
+ var engine=typeof(TranslationManifest).Assembly;
+ Check(!engine.GetReferencedAssemblies().Any(a=>a.Name=="System.Runtime.Serialization"),"engine has no stripped serialization dependency");
+ Check(engine.GetTypes().All(t=>!t.GetCustomAttributesData().Any(a=>a.AttributeType.Namespace=="System.Runtime.Serialization")),"game type scans do not see unsupported serializer attributes");
  var m=JsonSerializer.Deserialize<TranslationManifest>(File.ReadAllBytes(Path.Combine(root,"translations/live/manifest.json")),options)!;
  var dir=Path.Combine(root,"translations/live/versions",m.Version);
  byte[] table=File.ReadAllBytes(Path.Combine(dir,m.Files[0].Name)),rules=File.ReadAllBytes(Path.Combine(dir,m.Files[1].Name));
@@ -25,6 +28,7 @@ try{
  Check(TranslationUpdater.Refresh(config,"",_=>{},(_,_)=>throw new IOException("offline"))==null,"offline retains dictionary");
  Check(before.SequenceEqual(File.ReadAllBytes(cache)),"offline cache unchanged");
  Check(TranslationUpdater.Refresh(config,"",_=>{},(_,_)=>Encoding.UTF8.GetBytes("not json"))==null,"malformed manifest rejected");
+ foreach(var malformed in new[]{"{\"Schema\":1,\"Schema\":1}","[]","{\"Schema\":01}","{}garbage","{\"Schema\":1.0}","{\"Version\":\"\\ud800\"}"}) Check(TranslationUpdater.Refresh(config,"",_=>{},(_,_)=>Encoding.UTF8.GetBytes(malformed))==null,"strict JSON rejects duplicate/type/trailing/unicode faults");
  foreach(var kind in new[]{"schema","name","hash","count","size","version","source"}){
   var bad=Clone(m);switch(kind){case "schema":bad.RuntimeSchema=99;break;case "name":bad.Files[0].Name="../../plugin.dll";break;case "hash":bad.Files[0].Sha256=new string('0',64);break;case "count":bad.TranslationIds++;break;case "size":bad.Files[0].Bytes=9*1024*1024;break;case "version":bad.Version=new string('0',64);break;case "source":bad.SourceSha256="invalid";break;}
   Check(TranslationUpdater.Refresh(config,"",_=>{},(p,l)=>p==TranslationUpdater.ManifestPath?Json(bad):Fetch(p,l))==null,"reject "+kind);

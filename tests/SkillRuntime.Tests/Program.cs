@@ -11,7 +11,7 @@ Check(dict.Count==rows.Count,"Dictionary count");
 foreach(var row in rows.Values)
 {
  Check(dict.TryId(row[0],row[1],out var thai)&&thai==row[2],"Fresh ID "+row[0]);
- Check(dict.Translate(row[1])==row[2],"Exact English "+row[0]);
+ Check(dict.Translate(row[1])==(row[1].Length>=45?row[2]:row[1]),"Scoped exact English "+row[0]);
  Check(!dict.TryId(row[0],"Different new game English text",out _),"Mismatched ID refused "+row[0]);
 }
 foreach(var line in File.ReadAllLines(Path.Combine(config,"RO3.SkillRules.tsv")))
@@ -25,6 +25,7 @@ foreach(var line in File.ReadAllLines(Path.Combine(config,"RO3.SkillRules.tsv"))
   Check(actual==expected,"Rendered skill rule "+rule[0]+" styled="+styled+"\nEXPECTED:"+expected+"\nACTUAL:"+actual);
  }
 }
+foreach(string label in new[]{"None","Stun","Burn","Slow","Blind","Endure","Lope","Mining","Logging","Collect"}) Check(dict.Translate(label)==label,"Short UI labels not replaced globally: "+label);
 Check(dict.Translate("Orc Hero")=="Orc Hero","Monster names unchanged");
 Check(dict.Translate("Player123")=="Player123","Player names unchanged");
 Check(dict.Translate("PATK")=="PATK","No global word substitutions");

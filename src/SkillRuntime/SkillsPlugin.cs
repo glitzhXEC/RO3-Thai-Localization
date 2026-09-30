@@ -10,7 +10,7 @@ using System.Threading;
 
 namespace RO3.ThaiLocalization
 {
-    [BepInPlugin("com.ro3.thailocalization.skills", "RO3 Thai Localization + Translation Updates", "0.3.0")]
+    [BepInPlugin("com.ro3.thailocalization.skills", "RO3 Thai Localization + Translation Updates", "0.3.1")]
     public sealed class SkillsPlugin : BaseUnityPlugin
     {
         private static SkillDictionary? dictionary;

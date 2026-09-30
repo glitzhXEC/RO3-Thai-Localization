@@ -4,32 +4,30 @@ using System.Net;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Security.Cryptography;
-using System.Runtime.Serialization;
-using System.Runtime.Serialization.Json;
 
 namespace RO3.ThaiLocalization
 {
-    [DataContract] public sealed class TranslationFile
+    public sealed class TranslationFile
     {
-        [DataMember(IsRequired = true)] public string Name = "";
-        [DataMember(IsRequired = true)] public string Sha256 = "";
-        [DataMember(IsRequired = true)] public int Bytes;
+        public string Name = "";
+        public string Sha256 = "";
+        public int Bytes;
     }
-    [DataContract] public sealed class TranslationManifest
+    public sealed class TranslationManifest
     {
-        [DataMember(IsRequired = true)] public int Schema;
-        [DataMember(IsRequired = true)] public int RuntimeSchema;
-        [DataMember(IsRequired = true)] public string Version = "";
-        [DataMember(IsRequired = true)] public string SourceSha256 = "";
-        [DataMember(IsRequired = true)] public int TranslationIds;
-        [DataMember(IsRequired = true)] public int RuntimeRules;
-        [DataMember(IsRequired = true)] public TranslationFile[] Files = Array.Empty<TranslationFile>();
+        public int Schema;
+        public int RuntimeSchema;
+        public string Version = "";
+        public string SourceSha256 = "";
+        public int TranslationIds;
+        public int RuntimeRules;
+        public TranslationFile[] Files = Array.Empty<TranslationFile>();
     }
-    [DataContract] public sealed class TranslationCache
+    public sealed class TranslationCache
     {
-        [DataMember(IsRequired = true)] public TranslationManifest Manifest = null!;
-        [DataMember(IsRequired = true)] public string Table = "";
-        [DataMember(IsRequired = true)] public string Rules = "";
+        public TranslationManifest Manifest = null!;
+        public string Table = "";
+        public string Rules = "";
     }
     public static class TranslationUpdater
     {
@@ -59,10 +57,10 @@ namespace RO3.ThaiLocalization
             if (bytes.Length > maximum) throw new InvalidDataException("JSON size limit exceeded");
             // Reject malformed UTF-8 even when the serializer would replace it.
             Utf8.GetString(bytes);
-            using (var stream = new MemoryStream(bytes)) return (T)(new DataContractJsonSerializer(typeof(T)).ReadObject(stream) ?? throw new InvalidDataException("Empty JSON"));
+            return TranslationJson.Parse<T>(Utf8.GetString(bytes));
         }
-        private static byte[] Serialize<T>(T value)
-        { using (var stream = new MemoryStream()) { new DataContractJsonSerializer(typeof(T)).WriteObject(stream, value); return stream.ToArray(); } }
+        private static byte[] Serialize(TranslationCache value)
+        { return Utf8.GetBytes(TranslationJson.WriteCache(value)); }
         public static SkillDictionary ValidateBundle(TranslationManifest m, byte[] table, byte[] rules)
         {
             ValidateManifest(m);
@@ -105,7 +103,7 @@ namespace RO3.ThaiLocalization
             string temp = path + ".download-" + Guid.NewGuid().ToString("N") + ".tmp";
             try
             {
-                using (var file = new FileStream(temp, FileMode.CreateNew, FileAccess.Write, FileShare.None)) { file.Write(contents, 0, contents.Length); file.Flush(true); }
+                using (var file = new FileStream(temp, FileMode.CreateNew, FileAccess.Write, FileShare.None)) { file.Write(contents, 0, contents.Length); file.Flush(); }
                 SafeCachePath(config); // Recheck immediately before replacing data.
                 if (File.Exists(path)) File.Replace(temp, path, null); else File.Move(temp, path);
             }
@@ -117,8 +115,9 @@ namespace RO3.ThaiLocalization
 #pragma warning disable SYSLIB0014
             var request = (HttpWebRequest)WebRequest.Create(TrustedOrigin + relative);
 #pragma warning restore SYSLIB0014
-            request.AllowAutoRedirect = false; request.Timeout = 15000; request.ReadWriteTimeout = 15000;
-            request.UserAgent = "RO3-Thai-Localization/0.3 (translation-data-only)";
+            request.AllowAutoRedirect = false; request.Timeout = 15000;
+            request.UserAgent = "RO3-Thai-Localization/0.3.1 (translation-data-only)";
+            using (var watchdog = new System.Threading.Timer(_ => { try { request.Abort(); } catch { } }, null, 30000, System.Threading.Timeout.Infinite))
             using (var response = (HttpWebResponse)request.GetResponse())
             {
                 if (response.StatusCode != HttpStatusCode.OK || response.ContentLength > maximum) throw new InvalidDataException("Unexpected translation download response");

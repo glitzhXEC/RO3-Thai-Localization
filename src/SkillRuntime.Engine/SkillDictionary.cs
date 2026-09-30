@@ -90,7 +90,9 @@ namespace RO3.ThaiLocalization
             lock (sync)
             {
                 string output;
-                if (exact.TryGetValue(input, out output!)) return output;
+                // Global setters must not replace short UI labels/status names by coincidence.
+                // Short descriptions remain available through the exact ID+English hook.
+                if (input.Length >= 45 && exact.TryGetValue(input, out output!)) return output;
                 if (cache.TryGetValue(input, out output!)) return output;
                 // Do not apply numeric template rules to names, small UI labels or Thai text.
                 if (input.Length < 8 || Regex.IsMatch(input, @"[\u0E00-\u0E7F]")) return input;
