@@ -14,6 +14,8 @@ for path in sorted((root/'translations').glob('batch-*.th.json')):
         if key in translations:errors.append({'ID':key,'check':'duplicate_translation'})
         translations[key]=thai
         if key not in source:errors.append({'ID':key,'check':'unknown_source'});continue
+        if '\ufffd' in thai:errors.append({'ID':key,'check':'replacement_character'})
+        if re.search(r'ZX[QR]\d{4}[QR]XZ',thai):errors.append({'ID':key,'check':'draft_marker_residue'})
         en=source[key]
         a,b=protected.findall(en),protected.findall(thai)
         if a!=b:errors.append({'ID':key,'check':'protected_token_order','english':a,'thai':b})

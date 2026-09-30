@@ -1,5 +1,5 @@
 {
-  "translated_rows": 1874,
+  "translated_rows": 2265,
   "errors": [],
   "warnings": [
     {
@@ -176,6 +176,10 @@
     },
     {
       "ID": "10110300042",
+      "check": "no_thai"
+    },
+    {
+      "ID": "10800100135",
       "check": "no_thai"
     }
   ],

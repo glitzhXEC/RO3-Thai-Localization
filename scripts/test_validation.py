@@ -20,7 +20,15 @@ try:
     data['10220300542']=data['10220300542'].replace('[ Frozen ]','[ Ice ]')
     batch.write_text(json.dumps(data,ensure_ascii=False))
     assert run().returncode!=0, 'Changed bracket name not rejected'
+    data=json.loads(original)
+    data['10110300000']+='\ufffd'
+    batch.write_text(json.dumps(data,ensure_ascii=False))
+    assert run().returncode!=0, 'Broken Unicode not rejected'
+    data=json.loads(original)
+    data['10110300000']+='ZXQ0000QXZ'
+    batch.write_text(json.dumps(data,ensure_ascii=False))
+    assert run().returncode!=0, 'Draft marker not rejected'
 finally:
     batch.write_bytes(original)
 assert run().returncode==0, 'Restored baseline failed'
-print('PASS: baseline, corrupt placeholder, missing multiplication, changed bracket name, restored baseline')
+print('PASS: baseline, corrupt placeholder, missing multiplication, changed bracket name, broken Unicode, draft marker, restored baseline')
