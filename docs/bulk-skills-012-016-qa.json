@@ -1,0 +1,35 @@
+{
+  "batches": [
+    "batch-012.th.json",
+    "batch-013.th.json",
+    "batch-014.th.json",
+    "batch-015.th.json",
+    "batch-016.th.json"
+  ],
+  "new_rows": 390,
+  "new_rows_by_category": {
+    "skill-effect": 169,
+    "skill-enhancement": 119,
+    "skill-description": 102
+  },
+  "total_translated_rows": 1206,
+  "remaining_priority_rows": 2211,
+  "source_candidate_skill_ids": 861,
+  "source_numeric_runtime_rules": 531,
+  "source_runtime_checks_passed": 3653,
+  "structural_errors": 0,
+  "mutation_tests": "baseline + altered-placeholder + missing-multiplication + changed-bracket-name + restored baseline passed",
+  "source_language": "English only",
+  "legacy_Thai_used": false,
+  "new_batch_in_game_tested": false,
+  "current_release_tag": "v0.2.0-skills-alpha.1",
+  "current_release_skill_ids": 416,
+  "new_batch_in_current_release": false,
+  "pending_source_ambiguities_not_guessed": [
+    "10220300020",
+    "10800100036",
+    "10800100139",
+    "10110300333"
+  ],
+  "new_rows_English_sha256": "59f834b1346260188bdba446bac2711eb4f81f4c925026e1dd63775da3c33b28"
+}

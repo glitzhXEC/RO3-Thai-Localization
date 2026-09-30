@@ -1,0 +1,27 @@
+[
+  {
+    "ID": "10800100237",
+    "English": "^{1}^{2}[Basic Attack]^{3}^{4}'s percentage damage multiplier increases by ${1}%, and its fixed damage increases by ${2}.",
+    "method": "skill-percent-and-flat-damage"
+  },
+  {
+    "ID": "10800100240",
+    "English": "^{1}^{2}[Sonic Blow]^{3}^{4}'s percentage damage multiplier increases by ${1}%, and its fixed damage increases by ${2}.",
+    "method": "skill-percent-and-flat-damage"
+  },
+  {
+    "ID": "10800100243",
+    "English": "^{1}^{2}[Envenomed Blade]^{3}^{4}'s percentage damage multiplier increases by ${1}%, and its fixed damage increases by ${2}.",
+    "method": "skill-percent-and-flat-damage"
+  },
+  {
+    "ID": "10800100246",
+    "English": "^{1}^{2}[Grimtooth]^{3}^{4}'s percentage damage multiplier increases by ${1}%, and its fixed damage increases by ${2}.",
+    "method": "skill-percent-and-flat-damage"
+  },
+  {
+    "ID": "10110300220",
+    "English": "Summons a @{2} × @{3} m rectangular magic field within @{1} m, restoring ^{1}@{5}%^{2} Life per sec. to up to @{4} allies within the area for @{6} sec.",
+    "method": "Exact-whole-English-match-to-new-batches-only"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "ID": "10220300385",
+    "English": "Damage taken is reduced.",
+    "method": "Exact whole-English match to fresh English-only batches 001-013; ambiguous/new-Thai conflicts skipped"
+  },
+  {
+    "ID": "10800100044",
+    "English": "^{1}^{2}【Crazy Uproar】^{3}^{4}Extra PATK +${1}.",
+    "method": "Exact whole-English match to fresh English-only batches 001-013; ambiguous/new-Thai conflicts skipped"
+  },
+  {
+    "ID": "10800100045",
+    "English": "^{1}^{2}【Crazy Uproar】^{3}^{4}Extra VIT +${1} and LUK +${2}.",
+    "method": "Exact whole-English match to fresh English-only batches 001-013; ambiguous/new-Thai conflicts skipped"
+  },
+  {
+    "ID": "10800100046",
+    "English": "^{1}^{2}【Crazy Uproar】^{3}^{4}grants an Extra ${1} STR.",
+    "method": "Exact whole-English match to fresh English-only batches 001-013; ambiguous/new-Thai conflicts skipped"
+  },
+  {
+    "ID": "10800100048",
+    "English": "^{1}^{2}[Weaponry Research]^{3}^{4} At Lv. @{1}, increases PATK by ${1}.",
+    "method": "Exact whole-English match to fresh English-only batches 001-013; ambiguous/new-Thai conflicts skipped"
+  },
+  {
+    "ID": "10800100049",
+    "English": "^{1}^{2}【Cart Revolution】^{3}^{4}CRIT Chance increases by ${1}%.",
+    "method": "Exact whole-English match to fresh English-only batches 001-013; ambiguous/new-Thai conflicts skipped"
+  },
+  {
+    "ID": "10800100050",
+    "English": "^{1}^{2}Adrenaline Rush^{3}^{4} Lv. ${1} increases your STR by ${1}.",
+    "method": "Exact whole-English match to fresh English-only batches 001-013; ambiguous/new-Thai conflicts skipped"
+  },
+  {
+    "ID": "10800100052",
+    "English": "^{1}^{2}【Adrenaline Rush】^{3}^{4} ignores Job Restriction.",
+    "method": "Exact whole-English match to fresh English-only batches 001-013; ambiguous/new-Thai conflicts skipped"
+  },
+  {
+    "ID": "10800100056",
+    "English": "^{1}^{2}【Maximize Power】^{3}^{4}is Active for up to ${2} allies within ${1} meters.",
+    "method": "Exact whole-English match to fresh English-only batches 001-013; ambiguous/new-Thai conflicts skipped"
+  },
+  {
+    "ID": "10800100057",
+    "English": "^{1}^{2}[Maximize Power]^{3}^{4} Increases your PATK by ${1}.",
+    "method": "Exact whole-English match to fresh English-only batches 001-013; ambiguous/new-Thai conflicts skipped"
+  },
+  {
+    "ID": "10800100058",
+    "English": "^{1}^{2}【Maximize Power】^{3}^{4} increases nearby allies' PATK by ${1}.",
+    "method": "Exact whole-English match to fresh English-only batches 001-013; ambiguous/new-Thai conflicts skipped"
+  },
+  {
+    "ID": "10800100060",
+    "English": "^{1}^{2}【Cart Boost】^{3}^{4} maximum Cooldown is reduced by ${1} sec. Gain ^{9}^{10}【Immunity】^{11}^{12} for ${2} sec. after casting ^{5}^{6}【Cart Boost】^{7}^{8}.",
+    "method": "Exact whole-English match to fresh English-only batches 001-013; ambiguous/new-Thai conflicts skipped"
+  },
+  {
+    "ID": "10800100061",
+    "English": "^{1}^{2}【Cart Boost】^{3}^{4} duration is extended by ${1} sec.",
+    "method": "Exact whole-English match to fresh English-only batches 001-013; ambiguous/new-Thai conflicts skipped"
+  },
+  {
+    "ID": "10800100062",
+    "English": "^{1}^{2}【Maximum Over Thrust】^{3}^{4} is Active for up to ${2} allies within ${1} meters.",
+    "method": "Exact whole-English match to fresh English-only batches 001-013; ambiguous/new-Thai conflicts skipped"
+  },
+  {
+    "ID": "10800100063",
+    "English": "^{1}^{2}【Maximum Over Thrust】^{3}^{4}increases Physical damage dealt by ${1}%.",
+    "method": "Exact whole-English match to fresh English-only batches 001-013; ambiguous/new-Thai conflicts skipped"
+  },
+  {
+    "ID": "10800100064",
+    "English": "^{1}^{2}【Maximum Over Thrust】^{3}^{4}grants an Extra ${1}% Crit Chance.",
+    "method": "Exact whole-English match to fresh English-only batches 001-013; ambiguous/new-Thai conflicts skipped"
+  },
+  {
+    "ID": "10110300426",
+    "English": "Golden Thief Bug marks multiple players and Launches fireballs at them after @{1} sec, damaging the targets and nearby players.",
+    "method": "Exact whole-English match to fresh English-only batches 001-013; ambiguous/new-Thai conflicts skipped"
+  },
+  {
+    "ID": "10110300427",
+    "English": "Golden Thief Bug harnesses the power of lava and Launches magma at multiple nearby players, damaging players hit.",
+    "method": "Exact whole-English match to fresh English-only batches 001-013; ambiguous/new-Thai conflicts skipped"
+  }
+]
