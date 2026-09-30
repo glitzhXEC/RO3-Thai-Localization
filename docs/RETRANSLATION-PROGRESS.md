@@ -10,7 +10,7 @@
 - ข้อความกำกวมแยกไว้ใน translations/semantic-review.json ต้องตรวจในเกมก่อนอนุมัติ
 - ไม่รวม BAT, Translation-Editor, คำแปลเก่า, plugin binaries เก่า หรือ auto-translation fallback
 - src/Installer compile ผ่าน; แกนตัวติดตั้งผ่าน 18 checks ด้วยไฟล์จำลอง ไม่ใช่ Windows/game testing
-- ยังไม่มี runtime/payload พร้อมใช้ ยังไม่ได้ push GitHub หรือ Release
+- ยังไม่มี runtime/payload พร้อมใช้ อัปซอร์สขึ้น GitHub แล้ว และมี [Windows UI-only prerelease](https://github.com/glitzhXEC/RO3-Thai-Localization/releases/tag/v0.1.0-windows-preview.1) ซึ่งยังติดตั้งแพตช์ไม่ได้
 - ไม่ใช้เอเจนต์ย่อย ตามที่ผู้ใช้ระบุ
 
 ## ลำดับงานต่อ

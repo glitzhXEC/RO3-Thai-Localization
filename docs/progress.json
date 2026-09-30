@@ -14,10 +14,16 @@
   "installer_build": "passed",
   "windows_ui_tested": false,
   "game_tested": false,
-  "github_pushed": false,
-  "release_created": false,
+  "github_pushed": true,
+  "release_created": true,
   "complete": false,
   "use_subagents": false,
   "intentional_English_label_warnings": 44,
-  "warning_explanation": "43 canonical-stat expressions and 1 preserved proper-name label (Tree Spirit/Respawn)."
+  "warning_explanation": "43 canonical-stat expressions and 1 preserved proper-name label (Tree Spirit/Respawn).",
+  "release_kind": "UI-only prerelease; no installable BepInEx/runtime payload",
+  "release_tag": "v0.1.0-windows-preview.1",
+  "release_url": "https://github.com/glitzhXEC/RO3-Thai-Localization/releases/tag/v0.1.0-windows-preview.1",
+  "release_source_commit": "3007ca583e7194a79464b630ce2fdb24ee551ea3",
+  "windows_ci_publish": "success",
+  "ci_run_url": "https://github.com/glitzhXEC/RO3-Thai-Localization/actions/runs/36735353491"
 }

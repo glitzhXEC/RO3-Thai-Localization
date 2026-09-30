@@ -8,6 +8,14 @@
 > โปรเจกต์นี้อยู่ระหว่างการพัฒนาและทดสอบ
 > ยังไม่มีแพตช์พร้อมติดตั้งจริง รุ่น Windows UI Preview เป็นเพียง prerelease สำหรับทดสอบหน้าจอและการเลือกตำแหน่งเกม ไม่ติดตั้ง BepInEx หรือคำแปล
 
+## ดาวน์โหลด Windows UI Preview
+
+[หน้า prerelease v0.1.0-windows-preview.1](https://github.com/glitzhXEC/RO3-Thai-Localization/releases/tag/v0.1.0-windows-preview.1)
+
+เลือก `RO3-Thai-Patch-Windows-x64-Preview.zip` แล้วแตกไฟล์ เปิด `RO3-Thai-Patch-Installer.exe` เพื่อทดสอบเลือกโฟลเดอร์/ไฟล์เกมเท่านั้น **รุ่นนี้ยังติดตั้งภาษาไทยหรือ BepInEx ไม่ได้** มี SHA256SUMS ให้ตรวจไฟล์
+
+GitHub Actions build/publish บน Windows สำเร็จ แต่ยังไม่ได้ทดสอบ GUI หรือเกมจริง [ผล build](https://github.com/glitzhXEC/RO3-Thai-Localization/actions/runs/36735353491)
+
 ## เป้าหมายของโปรเจกต์
 
 - แปลคำอธิบายสกิลและเอฟเฟกต์ใหม่จากต้นฉบับภาษาอังกฤษ
