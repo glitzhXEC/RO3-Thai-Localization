@@ -20,132 +20,23 @@ ID	English	Category
 10220300247	Not currently used	skill-effect
 10220300260	Equipment Drop Test	skill-effect
 10220300261	Equipment Drop	skill-effect
-10220300281	Poring Counterattack	skill-effect
-10220300282	Ball Catch Buff	skill-effect
-10220300283	The vehicle restores a total of ${2}% HP over ${1} sec. Destroyed sections cannot be restored.	skill-effect
 10220300284	Cart Damage Lv. @{1} visual effect buff	skill-effect
-10220300285	The player moves at @{1} m/sec while transporting valuable Military Supplies. Be sure to move slowly.	skill-effect
-10220300286	Immune to damage and debuffs.	skill-effect
-10220300287	Reduces damage taken by @{1}% after entering a relay station.	skill-effect
-10220300288	【Camouflage】 status. Cannot be seen or targeted.	skill-effect
-10220300289	Vehicle shield activated, granting a shield equal to ${1}% of the vehicle's HP for ${2} sec.	skill-effect
-10220300290	Cannot use skill or move, and Physical and Magic DEF are reduced by ${1}. Removed when hit, then inflicts ^{1}Freeze^{2}.	skill-effect
-10220300291	Cannot use skill or move, and Physical and Magic DEF are reduced by ${1}. Removed when hit, then inflicts ^{1}Slow^{2}.	skill-effect
-10220300292	Cannot use skill or move. Removed when hit.	skill-effect
-10220300293	Cannot use skill	skill-effect
-10220300294	Cannot move	skill-effect
-10220300295	Reduces field of view.	skill-effect
-10220300296	Reduces Movement Speed by @{1}% and CRIT, Attack Speed, and Cast Speed by @{2}%.	skill-effect
-10220300297	Reduces Movement Speed by @{1}% and Physical DEF, Magic DEF, and CRIT RES by @{2}%.	skill-effect
-10220300298	Every @{1} sec, loses HP equal to @{2}% of the applier's Neutral Physical Damage.	skill-effect
-10220300299	Every @{1} sec, loses HP equal to @{2}% of the applier's Poison Physical Damage.	skill-effect
-10220300300	Immune to Knockback, Launch, Stun, Freeze, Petrify, Silence, Immobilize, and Blind.	skill-effect
-10220300301	Immune to all debuffs.	skill-effect
-10220300302	Immune to Knockback, Launch, Stun, Freeze, Petrify, Silence, Immobilize, Blind, and Slow.	skill-effect
-10220300312	Loses HP equal to @{1}% of the applier's Fire Magic Damage.	skill-effect
-10220300313	Cannot use skill or move, and Physical and Magic DEF are reduced by @{1}%. Removed when hit, then inflicts Freeze.	skill-effect
-10220300314	Cannot use skill or move, and Physical and Magic DEF are reduced by @{1}%. Removed when hit, then inflicts Slow.	skill-effect
-10220300315	Immune to Knockback and Launch.	skill-effect
-10220300316	Dispels Lv. @{1} control effects.	skill-effect
-10220300317	Life will not fall to @{1}.	skill-effect
-10220300318	Items cannot be used while in this state.	skill-effect
-10220300319	Healing from items has no effect while in this state.	skill-effect
-10220300320	Element advantages and disadvantages do not affect you.	skill-effect
-10220300321	Each Member gains a different Class Resonance effect: damage dealt to Bosses +@{1}%, damage taken from Bosses -@{2}%.	skill-effect
-10220300322	The party gains the Class Resonance effect.	skill-effect
-10220300323	Both sides gain a same-Guild Member bonus: damage dealt to Bosses +@{1}%, damage taken from Bosses -@{2}%.	skill-effect
-10220300324	Gain Divine Blessing: Increases Damage Increase by @{1}% and DMG Reduction by @{2}%.	skill-effect
-10220300325	Gain Divine Blessing: Increases Damage Increase by @{1}% and DMG Reduction by @{2}%, and increases the number of party Revives available in the Dungeon by @{3}.	skill-effect
-10220300326	A close friend is in the party. Life +@{1}%, Physical Attack +@{2}%, Magic Attack +@{3}%.	skill-effect
-10220300327	Immune to damage.	skill-effect
-10220300328	Immune to damage for up to @{1} sec. Ends upon using a skill.	skill-effect
-10220300329	Morale is high, granting Increase Attack and DEF by @{1}%.	skill-effect
-10220300330	Blessed by the power of wind, increasing Attack Speed and Movement Speed by @{1}% for @{2} sec.	skill-effect
-10220300331	Protected by the power of light, granting Endure and immunity to control effects and Knockback for @{1} sec.	skill-effect
-10220300332	Afflicted by the Curse of darkness, reducing Movement Speed by @{1}% and inflicting Silence and Disarm for @{2} sec.	skill-effect
-10220300333	Continually weakens, causing damage taken to increase over time.	skill-effect
-10220300334	Takes Damage over Time.	skill-effect
-10220300336	Protected by the Revive point and immune to damage.	skill-effect
-10220300337	Immune to control effects, knock-up, and knockback	skill-effect
-10220300338	Carrying a cannonball that can be loaded into a repaired Turret	skill-effect
-10220300339	Fafnir takes flight and becomes immune to Basic Attacks	skill-effect
-10220300340	Awakens the power of dragonblood, becoming immune to targeting and damage	skill-effect
-10220300341	Carrying one of Fafnir's scales, which can be used to build a Dragon Scale Shield Wall	skill-effect
-10220300342	Fafnir's damage increases by @{1}%	skill-effect
-10220300343	Cannot attack and takes increased damage	skill-effect
-10220300344	Physical Damage Reduction, Magic Vulnerability	skill-effect
-10220300345	Magic Damage Reduction, Physical Vulnerability	skill-effect
-10220300346	Movement Speed Increase	skill-effect
-10220300347	Defense Increase	skill-effect
-10220300349	Become a Madogear Pilot, greatly increasing Movement Speed and continuously spraying flames in a circular area to deal damage	skill-effect
-10220300350	Skills cost no SP, skill cooldowns and CT are reduced, and Attack Speed is increased	skill-effect
-10220300351	Deals damage to nearby enemies every @{1} sec. and Freezes them for @{2} sec.	skill-effect
-10220300352	Surrounded by lightning, shocking up to @{1} nearby enemies every second to deal damage.	skill-effect
-10220300353	Frozen in ice. Cannot move or attack	skill-effect
-10220300354	Greatly increases Movement Speed for @{1} sec.	skill-effect
-10220300355	Greatly increases Defense for @{1} sec.	skill-effect
-10220300356	Periodically takes AoE lightning damage	skill-effect
-10220300357	Carrying explosives that damage all nearby allies, enemies, and the carrier when the countdown ends	skill-effect
-10220300358	Extremely high Physical Defense, but highly vulnerable to Magic attacks	skill-effect
-10220300359	Extremely high Magic Defense, but highly vulnerable to Physical attacks	skill-effect
-10220300360	Does not actively attack players. Prioritizes charging toward the center of the island to attack the seal	skill-effect
-10220300361	Upon death, Splits into @{1} monsters	skill-effect
-10220300362	Periodically restores the Life of nearby monsters	skill-effect
-10220300363	Targets and attacks the nearest player within range	skill-effect
-10220300364	Upon death, explodes and deals damage to nearby enemies	skill-effect
-10220300365	A rare and powerful monster	skill-effect
-10220300366	Immune to crowd control and knockback	skill-effect
 10220300367	Blessing Angel Overhead Arrow	skill-effect
 10220300368	Blessing Angel Persistent Magic Circle	skill-effect
 10220300369	Blessing Angel Surrounding Effect	skill-effect
 10220300370	Blessing Angel Large-Area Surrounding Effect	skill-effect
 10220300371	Inner-Arena Player-Exclusive Buff	skill-effect
 10220300372	Dragon's Highest-Aggro Target Effect	skill-effect
-10220300373	Periodically takes damage	skill-effect
-10220300374	Enters a frenzy and gains extremely high ATK	skill-effect
-10220300375	You are continuously being pulled inward!	skill-effect
-10220300378	Decreases Cooldown Reduction by @{1}%.	skill-effect
-10220300379	Increases CRIT Rate by @{1}% and CRIT DMG by @{2}%.	skill-effect
 10220300381	Reply @{1}% HP.	skill-effect
-10220300382	Cannot move while affected by Chain Bind.	skill-effect
-10220300383	Cannot use skill while under the Nightmare effect.	skill-effect
-10220300384	Your vision is currently impaired by squid ink.	skill-effect
-10220300386	Currently Berserk. Deals DMG is increased.	skill-effect
-10220300387	Currently affected by Sticky Mucus, reducing MSPD.	skill-effect
-10220300388	While Brass Blessing is active, gain Endure.	skill-effect
 10220300389	Lope	skill-effect
 10220300391	Lope-related	skill-effect
 10220300393	Double Lope	skill-effect
-10220300394	Cannot move or use skills	skill-effect
-10220300395	You are within the Sonic Barrier and will not take damage from Jellyfish Requiem.	skill-effect
-10220300396	You are continuously being pushed outward!	skill-effect
-10220300397	Gain Accelerate and continuously deal DMG to nearby characters, inflicting Slow.	skill-effect
-10220300398	Gains DMG Reduction and continuously Deals DMG to nearby targets, inflicting Burn	skill-effect
-10220300399	Continuously restores HP to nearby allies	skill-effect
-10220300400	Defense slightly increased	skill-effect
-10220300401	Attack slightly increased	skill-effect
 10220300404	Every @{1} sec., Reply @{2}% of max HP.	skill-effect
-10220300406	When taking fatal damage, inflicts Knockback on nearby players and restores @{1}% HP. This effect is removed after triggering @{2} times.	skill-effect
-10220300407	Damage Increase: @{1}%. Damage taken increases by @{2}% every second.	skill-effect
-10220300408	Each stack increases damage taken by @{1}%, up to @{2} stacks.	skill-effect
-10220300410	Protects nearby allies, continuously restoring their Life.	skill-effect
-10220300411	Fight near an allied Madogear Pilot to gain its protection and continuously restore Life.	skill-effect
-10220300412	Being hit by an allied Holy Bullet continuously restores Life.	skill-effect
-10220300413	Inflicts Stun for @{2} sec. every @{1} sec.	skill-effect
-10220300414	Loses HP equal to a certain amount of Fire Magic damage every @{1} seconds.	skill-effect
-10220300415	Immune to damage and debuffs. This effect ends upon attacking another target.	skill-effect
-10220300417	The Madogear Pilot is being repaired.	skill-effect
-10220300418	Damage Reduction.	skill-effect
-10220300419	Damage Reduction and Damage Increase.	skill-effect
-10220300420	Immune to damage and debuffs	skill-effect
-10220300421	Movement Speed increased by @{1}%. Stacks up to @{2} times.	skill-effect
-10220300422	Damage increased by @{1}%. Stacks up to @{2} times.	skill-effect
 10220300423	An Archer has their sights set on you.	skill-effect
 10220300424	Emperium takes @{1}% less damage for @{2} sec.	skill-effect
 10220300425	Stunned by the Emperium's shockwave for @{1} sec.	skill-effect
 10220300426	While the Orbit persists, allies within a radius of @{1} meters gain increased Movement Speed, while the Madogear Pilot gains @{2}% Damage Reduction.	skill-effect
 10220300427	Immune to knockback, knock-up, Stun, Freeze, Petrify, Silence, Immobilize, and Blind.	skill-effect
-10220300428	Immune to damage and debuffs.	skill-effect
 10220300429	Protected by the power of light, granting Endure and immunity to control effects and knockback for @{1} sec.	skill-effect
 10220300430	STR, INT, and DEX each increase by @{1} points for @{2} sec.	skill-effect
 10220300431	Gradually restores Life while out of combat.	skill-effect
@@ -1055,121 +946,22 @@ ID	English	Category
 10110300439	Try to Ride the Deniro	skill-description
 10110300440	Use the Turret	skill-description
 10110300466	Deals PATK * ^{1}${2}%^{2} Neutral melee Physical DMG to the designated ST enemy within ${1} meters. If you are more than ${6} meters from the target, you also Charge directly in front of it. This skill's cast speed is unaffected by ASPD, but every ${3}% ASPD grants an Extra ^{3}${4}%^{4} Skill Damage Multiplier, up to ${5}% ASPD.	skill-description
-10110300467	A powerful strike unique to Swordsman classes that deals Physical ATK*^{1}${2}%+${3}^{2} Neutral melee Physical DMG to a designated ST enemy within ${1} meters.	skill-description
-10110300468	You can place certain buff skills on the Skill Bar. When you use the Skill Bar, all available skills in the Lineup will be cast.	skill-description
-10110300469	A Mage-exclusive heavy strike that deals Physical ATK * ^{1}${2}% + ${3}^{2} Neutral ranged Physical damage to the designated ST enemy within ${1} meters.	skill-description
-10110300470	Deals PATK * ^{1}${2}%^{2} Neutral Ranged Physical DMG to the designated ST enemy within ${1} meters.	skill-description
-10110300471	A powerful strike unique to Archer classes that deals Physical ATK*^{1}${2}%+${3}^{2} Neutral ranged Physical damage to a target enemy (ST) within ${1} meters.	skill-description
-10110300472	A signature heavy strike unique to Acolyte classes that deals Physical ATK *^{1}${2}%+${3}^{2} Neutral ranged Physical damage to a designated ST enemy within ${1} meters.	skill-description
-10110300473	A powerful strike unique to Thief classes that deals Physical ATK*^{1}${2}%+${3}^{2} Neutral melee Physical damage to the specified ST enemy within ${1} meters.	skill-description
-10110300474	A powerful strike unique to Merchants that deals Physical ATK*^{1}${2}%+${3}^{2} Neutral melee Physical damage to the selected ST enemy within ${1} meters.	skill-description
-10110300475	Can only be cast while riding the Madogear Pilot. Pilot the Madogear and swing its iron fist, dealing PATK * ^{1}${2}%^{2} Neutral Ranged Physical DMG to the designated ST enemy within ${1} meters.	skill-description
 10110300476	When cast, removes the master's ^{1}^{2}【Debuffs】^{3}^{4} and grants ^{5}^{6}【Crowd Control Immunity】^{7}^{8} for ${1} sec. The Death Witch then tears open a ${2}m-long void rift ahead, dealing @{1} hits of ^{9}Adaptive ATK^{10}*^{11}${4}%^{12} Neutral ranged ^{13}Adaptive Damage^{14} to up to ${3} enemies. Each enemy hit restores ^{15}Adaptive ATK^{16}*^{17}${5}%^{18} ^{19}Life^{20}.	skill-description
-10110300477	When a ^{1}Dispel-type^{2} Primary Battle Skill is cast, restores ^{3}${1}% of the owner's Max HP^{4}.	skill-description
 10110300478	The Death Witch summons a giant scythe to crash down, dealing her Magic ATK*^{1}${4}%^{2} Neutral ranged Magic damage to the designated ST enemy within ${1}m and up to ${3} enemies within ${2}m of the target. Enemies hit receive ^{3}${5}%^{4} less healing and have their Magic DEF reduced by ^{5}${6}%^{6} for ${7} sec.	skill-description
-10110300479	Death Witch deals Physical ATK*^{1}{2}%^{2} Neutral melee Physical damage to the designated ST enemy within ${1} meters.	skill-description
-10110300481	For ${1} seconds after casting a ^{1}Healing-type^{2} or ^{3}Dispel-type^{4} Primary Battle Skill, when the owner Deals DMG, restores ^{5}Adaptive Attack^{6} * ^{7}${4}%^{8} ^{9}HP^{10} to this unit and up to ${3} allies within a ${2}-meter radius. (This effect has a ${5}-second Cooldown.)	skill-description
-10110300482	Aliot ^{1}pulls in^{2} up to ${2} enemies within ${1} meters and continuously Deals DMG, dealing a total of Aliot's PATK * ^{3}${3}%^{4} Neutral melee Physical DMG and converting the damage coefficient * ^{5}${4}%^{6} into ^{7}Healing^{8} for Aliot.	skill-description
-10110300483	Elio deals Physical ATK*^{1}${2}%^{2} Neutral melee Physical damage to the designated ST enemy within ${1} meters.	skill-description
-10110300484	Is restores ^{1}Adaptive ATK^{2}*^{3}${3}%^{4} ^{5}Life^{6} to self and up to ${2} allies within ${1} meters, and applies ^{7}^{8}[Serpent's Protection]^{9}^{10} for ${4} seconds.	skill-description
-10110300485	For ${1} seconds after casting a ^{1}Buff-type^{2} Primary Battle Skill, increases the DMG Reduction of the owner and up to ${3} allies within a ${2}-meter radius by ^{3}${4}%^{4}.	skill-description
-10110300486	Is summons intertwining, agile serpent shadows, granting self and up to ${2} allies within ${1} meters a shield equal to each target's Max Life*^{1}${3}%^{2} for ${4} seconds. While the shield is active, Physical and Magic DEF increase by ^{3}${5}%^{4}.	skill-description
-10110300487	Is deals Physical ATK*^{1}${2}%^{2} Neutral ranged Physical damage to the designated ST enemy within ${1} meters.	skill-description
 10110300488	Eve slashes the designated ST enemy within ${1} meters with her giant scythe @{1} times, then throws it, dealing @{3} hits to up to @{2} targets in a ^{1}${2}^{2}*^{3}${3}^{4}-meter rectangular area ahead. Deals a total of ^{5}Adaptive ATK^{6}*^{7}${4}%^{8} Neutral melee ^{9}Adaptive Damage^{10} and reduces Physical and Magic DEF by ^{11}${5}%^{12} for ${6} seconds.	skill-description
-10110300489	Extends the Buff duration of ^{1}Debuff-type^{2} Primary Battle Skills by ${1} seconds.	skill-description
-10110300490	Eve spins her scythe, dealing a total of Physical ATK*^{1}${3}%^{2} Neutral melee damage to up to ${2} enemies within ${1} meters. Hit enemies' Physical and Magic DEF decrease by ^{3}${4}%^{4} for ${5} seconds.	skill-description
-10110300491	Eve deals Physical ATK*^{1}${2}%^{2} Neutral melee Physical damage to the designated ST enemy within ${1} meters.	skill-description
 10110300492	Angeling summons a radiant halo, restoring ^{1}Adaptive ATK^{2}*^{3}${3}%^{4} ^{5}Life^{6} to up to ${2} allies within ${1} meters and granting the master a ${4}-meter-radius ^{7}[Radiant Ring]^{8}. Allies within the area receive ^{9}${5}%^{10} more healing and periodically recover ^{11}Adaptive ATK^{12}*^{13}${6}%^{14} ^{15}Life^{16} for ${7} seconds.	skill-description
-10110300493	Reduces the Cooldown of ^{1}Healing-type^{2} Primary Battle Skills by ${1} seconds.	skill-description
-10110300494	Angeling restores ^{1}${3}%^{2} ^{3}Life^{4} to self and up to ${2} allies within ${1} meters.	skill-description
-10110300495	Angeling deals Physical ATK*^{1}${2}%^{2} Neutral melee Physical damage to the designated ST enemy within ${1} meters.	skill-description
 10110300496	Fox Immortal summons a refreshing breeze in a ${1}-meter-by-${2}-meter rectangular area ahead, dealing a total of ^{1}Adaptive ATK^{2}*^{3}${4}%^{4} Neutral ranged ^{5}Adaptive Damage^{6} to up to ${3} enemies. Hit enemies deal ^{7}${5}%^{8} less Wind damage, while the master's damage increases by ^{9}${6}%^{10} for ${7} seconds.	skill-description
-10110300497	Increases the Maximum Number of Targets for ^{1}Debuff-type^{2} or ^{3}Control-type^{4} Primary Battle Skills by ${1} (the number of designated targets for ST skills remains unchanged), but reduces the Skill Damage Multiplier by ^{5}${2}%^{6}.	skill-description
-10110300498	Fox Immortal summons a refreshing breeze in a ${1}-meter-by-${2}-meter rectangular area ahead, dealing Magic ATK*^{1}${4}%^{2} Neutral ranged Magic damage to up to ${3} enemies. Hit enemies deal ^{3}${5}%^{4} less Wind damage for ${6} seconds.	skill-description
-10110300499	Fox Immortal deals Magic ATK*^{1}${2}%^{2} Neutral melee Physical damage to the designated ST enemy within ${1} meters.	skill-description
 10110300500	Summons Baphomet Jr. to a designated location within ${1} meters, dealing ^{1}Adaptive ATK^{2}*^{3}${4}%^{4} Neutral ranged ^{5}Adaptive Damage^{6} to up to ${3} enemies within ${2} meters and applying a ^{7}${5}%^{8} ^{9}[Slow]^{10} for ${6} seconds. If a target is already ^{11}[Slowed]^{12}, there is a ^{13}${7}%^{14} Chance to apply the Extra ^{15}[Immobilize]^{16} effect for ${8} seconds.	skill-description
-10110300501	Extends the Debuff duration of ^{1}Debuff-type^{2} Primary Battle Skills by ${1} seconds.	skill-description
-10110300502	For the next ${1} seconds, increases own Attack Speed by ${2}% and grants Basic Attacks a ${3}% Chance to trigger ^{1}^{2}[Cursed Slash]^{3}^{4}.	skill-description
-10110300503	Deals Physical ATK*^{1}${3}%^{2} Neutral melee Physical damage to up to ${2} enemies within a ${1}-meter radius and applies ^{3}^{4}[Curse]^{5}^{6} to hit enemies for ${4} seconds.	skill-description
-10110300504	Baphomet Jr. deals Physical ATK*^{1}${2}%^{2} Neutral melee Physical damage to the designated ST enemy within ${1} meters.	skill-description
-10110300505	Bobo blows a bubble, granting the master a ^{5}Bubble Shield^{6} equal to ^{1}Adaptive ATK^{2}*^{3}${1}%^{4} for ${2} seconds.	skill-description
-10110300506	After casting a ^{1}Shield-type^{2} Primary Battle Skill, if the owner's ^{3}HP^{4} is below ^{5}${1}%^{6}, increases the owner's PDEF and MDEF by ^{7}${2}%^{8} for ${3} seconds.	skill-description
-10110300507	Bobo grants up to @{1} allies within ${1} meters a ^{3}Bubble Shield^{4} equal to Bobo's Max HP * ^{1}${2}%^{2} for ${3} seconds.	skill-description
 10110300508	Bobo deals Physical ATK*^{1} to the designated ST enemy within ${1} meters.	skill-description
-10110300509	Cat o' Nine-Tail swings its Bell down on the enemy, dealing ^{1}${1}%^{2} Neutral melee Physical damage.	skill-description
-10110300510	Cat o' Nine-Tail spins continuously, dealing @{1} hits for a total of Pet Physical ATK*^{1}${3}%^{2} Neutral melee Physical damage to up to ${2} enemies within ${1} meters. Dealing damage applies ^{3}^{4}[Curse]^{5}^{6} to the target for ${4} seconds.	skill-description
-10110300511	When casting a ^{1}Buff-type^{2} Primary Battle Skill, the next hit received by up to ${2} enemies within ${1} meters of the owner Deals ^{3}${3}%^{4} more DMG. Lasts ${4} seconds.	skill-description
-10110300512	After charging up, Cat o' Nine-Tail slams the designated ST enemy within ${1} meters, dealing a total of the master's ^{1}Adaptive ATK^{2}*^{3}${2}%^{4} Neutral melee ^{5}Adaptive Damage^{6}. For ${3} seconds, the master's next ${4} instances of damage deal ^{7}${5}%^{8} more damage.	skill-description
-10110300513	After charging up, Cat o' Nine-Tail slams the designated ST enemy within ${1} meters, dealing a total of ^{1}${2}%^{2} Neutral melee ^{3}Adaptive Damage^{4}. For ${3} seconds, the master's next ${4} instances of damage deal ^{5}${5}%^{6} more damage.	skill-description
-10110300514	Zherlthsh attacks, dealing a total of the master's ^{1}Adaptive ATK^{2}*^{3}${3}%^{4} Neutral melee ^{5}Adaptive Damage^{6} to up to ${2} enemies within ${1} meters of the target area, and grants the master ^{7}^{8}[Zherlthsh's Execution]^{9}^{10}, increasing damage dealt by ^{11}${4}%^{12} for ${5} seconds.	skill-description
-10110300515	Zherlthsh attacks, dealing a total of ^{1}${3}%^{2} Neutral melee ^{3}Adaptive Damage^{4} to up to ${2} enemies within ${1} meters of the target area, and grants the master ^{5}^{6}[Zherlthsh's Execution]^{7}^{8}, increasing damage dealt by ^{9}${4}%^{10} for ${5} seconds.	skill-description
 10110300516	Zherlthsh attacks with her Whip, dealing a total of PATK * ^{1}${5}%^{2} Neutral melee Physical DMG to ${2} designated enemies within ${1} meters of the target area and up to ${4} targets within a ${3}-meter radius of them. Grants her a ^{3}${6}%^{4} DMG Bonus for ${7} seconds, and the final hit inflicts ^{5}${8}^{6} meters of Knockback.	skill-description
-10110300517	When any ^{1}type of^{2} Primary Battle Skill is cast, the owner gains ^{3}^{4}【Esen's Execution】^{5}^{6}, granting a ${1}% DMG Bonus for ${2} seconds.	skill-description
-10110300518	When any ^{1}type of^{2} Primary Battle Skill is cast, the owner gains ^{3}^{4}【Esen's Slaughter】^{5}^{6}, granting a ${1}% DMG Bonus for ${2} seconds. Also Deals @{1} instances of Extra DMG to the target equal to the Primary Battle Skill's Total DMG * @{2}%.	skill-description
-10110300519	High Orc slashes the enemy, dealing ^{1}${1}%^{2} Neutral melee Physical damage.	skill-description
-10110300520	High Orc roars, dealing a total of Pet Physical ATK*^{1}${3}%^{2} Neutral melee Physical damage to up to ${2} enemies within ${1} meters and increasing the melee damage dealt by up to ${5} allies within ${4} meters by ^{3}${6}%^{4} for ${7} seconds.	skill-description
-10110300521	Increases the Skill Damage Multiplier of ^{1}Offensive-type^{2} Primary Battle Skills by ^{3}${1}%^{4}.	skill-description
-10110300524	Miguel Initiates an attack, dealing a total of the owner's ^{1}Adaptive Attack^{2} * ^{3}${3}%^{4} Neutral melee ^{5}Adaptive Damage^{6} to ${2} designated enemies within ${1} meters. Also grants the owner ^{7}^{8}【Raging Gale】^{9}^{10}, providing an ^{11}${4}%^{12} DMG Bonus for ${5} seconds.	skill-description
-10110300525	Miguel attacks, dealing a total of ^{1}${3}%^{2} Neutral melee ^{3}Adaptive Damage^{4} to ${2} designated enemies within ${1} meters and increasing the master's damage dealt by ^{5}${4}%^{6} for ${5} seconds.	skill-description
-10110300526	Miguel attacks, dealing Pet Physical ATK*^{1}${3}%^{2} Neutral melee Physical damage to ${2} designated enemies within ${1} meters and ^{3}^{4}[Stunning]^{5}^{6} them for ${4} seconds, while dispelling their [Shield] effects.	skill-description
-10110300527	When casting an ^{1}Offensive-type^{2} Primary Battle Skill, increases that skill's Crit Chance by ^{3}${1}%^{4}. If the target's HP is below ${2}%, the skill is guaranteed to CRIT.	skill-description
-10110300528	Goat grants the owner ^{1}【Savage Shield】^{2}^{3} equal to the owner's Max HP * ^{4}${2}%^{5}. While the Shield is Active, reduces Ranged Physical DMG taken by ^{6}${3}%^{7}. Lasts ${4} seconds.	skill-description
-10110300529	Goat grants the master ^{1}^{2}[Savage Shield]^{3}^{4} within a ${1}-meter radius. The shield equals the master's Max Life*^{5}${2}%^{6} and reduces ranged Physical damage taken by ^{7}${3}%^{8} while active. Lasts ${4} seconds.	skill-description
-10110300530	Goat grants ^{1}[Barbarian Protection]^{2} to up to ${2} allies within a ${1}-meter radius. The shield equals Goat's Max Life*^{3}${3}%^{4} and reduces ranged Physical damage taken by ^{5}${4}%^{6} while active. Lasts ${5} seconds.	skill-description
-10110300531	Extends the duration of Shields granted by ^{1}Shield-type^{2} Primary Battle Skills by ${1} seconds.	skill-description
-10110300532	Geographer spins rapidly, dealing ^{1}${1}%^{2} Neutral melee Magic damage to the enemy.	skill-description
-10110300533	Geographer calls upon the power of the earth, raising the surrounding ground and dealing a total of Pet Magic ATK*^{1}${3}%^{2} Neutral melee Magic damage to up to ${2} enemies within ${1} meters.	skill-description
-10110300534	When an ^{1}Offensive-type^{2} Primary Battle Skill Deals DMG, it has a ^{3}${1}%^{4} Chance to inflict ^{5}^{6}【Stun】^{7}^{8} on the enemy for ${2} seconds.	skill-description
-10110300535	Geographer spins rapidly, dealing the master's ^{1}Adaptive ATK^{2}*^{3}${3}%^{4} Neutral melee ^{5}Adaptive Damage^{6} to up to ${2} enemies within ${1} meters of the master and knocking them back ${4} meters.	skill-description
-10110300536	Geographer spins rapidly, dealing ^{1}${3}%^{2} Neutral melee ^{3}Adaptive Damage^{4} to up to ${2} enemies within ${1} meters of the master and knocking them back ${4} meters.	skill-description
-10110300537	After briefly charging, Bongun strikes forward, dealing ^{1}${1}%^{2} Neutral melee Physical damage to the enemy.	skill-description
-10110300538	Bongun claps both hands together to unleash demonic energy, dealing Pet Physical ATK*^{1}${3}%^{2} Neutral melee Physical damage to up to ${2} enemies within ${1} meters, plus a total of Pet Physical ATK*^{3}${4}%^{4} Poison melee Physical damage.	skill-description
-10110300539	When an ^{1}Offensive-type^{2} or ^{3}Control-type^{4} Primary Battle Skill scores a Kill, restores the owner's HP by ^{5}Adaptive Attack^{6} * ^{7}${1}%^{8}.	skill-description
 10110300540	Bongun claps its hands together to unleash demonic energy, dealing Neutral melee ^{5}adaptive damage^{6} equal to the master's ^{1}Adaptive ATK^{2}*^{3}${3}%^{4} to up to ${2} enemies within ${1} meters of the master, plus Poison melee ^{11}adaptive damage^{12} totaling the master's ^{7}Adaptive ATK^{8}*^{9}${4}%^{10}.	skill-description
-10110300541	Bongun claps its hands together to unleash demonic energy, dealing ^{1}${3}%^{2} Neutral melee ^{3}adaptive damage^{4} to up to ${2} enemies within ${1} meters of the master, plus ^{5}${4}%^{6} Poison melee ^{7}adaptive damage^{8} in total.	skill-description
-10110300542	Choco leaps up and scratches an enemy, dealing ^{1}${1}%^{2} Neutral Physical damage to an ST target.	skill-description
-10110300543	Choco lets out an encouraging cheer, increasing the Physical ATK and Magic ATK of up to ${2} allies within ${1} meters by ^{1}${3}%^{2} for ${4} seconds.	skill-description
-10110300544	Extends the Buff duration of ^{1}Buff-type^{2} Primary Battle Skills by ^{3}${1}^{4} sec.	skill-description
-10110300545	Choco lets out an encouraging cheer, increasing the master's Attack Speed by ^{1}${1}%^{2} for ${2} seconds.	skill-description
-10110300546	Unleashes blades from its body, dealing Neutral melee ^{5}adaptive damage^{6} equal to the master's ^{1}Adaptive ATK^{2}*^{3}${2}%^{4} to up to @{1} enemies within a ${1}-meter radius, and grants the master ^{7}^{8}Control Immunity^{9} ^{10} for ${3} seconds.	skill-description
-10110300547	When casting a ^{1}Buff-type^{2} or ^{3}Shield-type^{4} Primary Battle Skill, grants the owner ^{5}^{6}Immunity^{7} ^{8} for ${1} sec.	skill-description
 10110300548	The Mutant roars loudly, dealing Neutral melee Physical damage equal to Pet Physical ATK*^{1}${3}%^{2} to up to ${2} enemies within a ${1}-meter radius, then increasing its Life Steal by ${4}%. Its Normal Attacks also trigger Extra area damage, dealing the same damage as the Normal Attack to the target and up to @{2} enemies within @{1} meters of it for ${5} seconds.	skill-description
 10110300549	Mummy uses Cursed Attack, dealing Neutral ranged ^{5}adaptive damage^{6} equal to the master's ^{1}Adaptive ATK^{2}*^{3}${4}%^{4} to up to ${3} enemies in a targeted area with a ${2}-meter radius within ${1} meters, and granting the master 【Evil Curse】 for ${5} seconds. When the master Kills an enemy, casts ^{7}^{8}【Malicious Curse】^{9}^{10} at that enemy's location. Can trigger up to ${6} times.	skill-description
-10110300550	When an ^{1}Offensive-type^{2} Primary Battle Skill Deals DMG, casts ^{3}^{4}【Mummy's Curse】^{5}^{6} on the target. This effect can only trigger once per Primary Battle Skill.	skill-description
-10110300551	Summons cursed spirits all around, dealing @{1} hits of Neutral ranged magic damage totaling Pet Magic ATK*^{1}${3}%^{2} to up to ${2} enemies within a ${1}-meter radius and inflicting ${5}% ^{3}【Slow】^{4} for ${4} seconds. Increases the caster's Physical and Magic DEF by ^{5}${6}%^{6} for ${7} seconds.	skill-description
-10110300552	Deals Neutral ranged ^{5}adaptive damage^{6} equal to ^{1}Adaptive ATK^{2}*^{3}${3}%^{4} to up to ${2} enemies within a ${1}-meter radius of the target location.	skill-description
-10110300553	When casting a ^{1}Shield-type^{2} or ^{3}Dispel-type^{4} Primary Battle Skill, reduces the DMG the owner takes from players' Normal Attack-type skills by ^{5}${2}%^{6} for the next ${1} sec.	skill-description
-10110300554	Sohee unleashes spectral power, dealing Neutral ranged magic damage equal to Pet Magic ATK*^{1}${3}%^{2} every @{1} seconds to up to ${2} enemies within a ${1}-meter radius, and gains a shield equal to Pet Magic ATK*^{3}${4}%^{4} and ^{5}^{6}【Control Immunity】^{7} ^{8} for ${5} seconds.	skill-description
-10110300555	Sohee grants the master a shield equal to the master's Max HP*^{1}${1}%^{2}. While the shield persists, damage taken is reduced by ^{3}${2}%^{4}. Lasts ${3} seconds.	skill-description
 10110300556	Corrupted Wander Man slashes, dealing ranged Neutral ^{5}adaptive damage^{6} equal to the master's ^{1}Adaptive ATK^{2}*^{3}${4}%^{4} to up to ${3} enemies in a targeted area with a ${2}-meter radius within ${1} meters, and inflicts 【Turbid Soul Impact】: reduces Physical and Magic DEF by ^{7}${5}%^{8} for ${6} seconds.	skill-description
 10110300557	When casting ^{1}any type^{2} of Primary Battle Skill, triggers 【Slash】: Deals Neutral melee ^{7}Adaptive Damage^{8} equal to the owner's ^{3}Adaptive Attack^{4}*^{5}${3}%^{6} to up to ${2} enemies within a ${1}-meter radius, and inflicts 【Corrupted Soul Impact】: reduces Physical and Magic DEF by ${4}% for ${5} sec.	skill-description
-10110300558	Deals Neutral melee Physical damage equal to Pet Physical ATK*^{1}${4}%^{2} to up to ${3} enemies in a ${1}-meter-by-${2}-meter rectangular area ahead, and increases nearby allies' Crit Chance by ^{3}${5}%^{4} for ${6} seconds.	skill-description
-10110300559	Multiplies 【Turbid Soul Impact】's DEF reduction by ^{1}${1}^{2} and additionally inflicts ^{3}^{4}【Stun】^{5}^{6} for @{2} seconds on enemies above @{1}% HP. If the target's HP is no higher than @{3}% or the target was not Stunned, reduces its Physical and Magic ATK by ^{7}${2}%^{8} for ${3} seconds.	skill-description
-10110300560	Grants 【Shadow Hoofprint】 to up to ${2} allies within a ${1}-meter radius of the master, increasing Movement Speed by ^{1}${3}%^{2} and Physical and Magic ATK by ^{3}${4}%^{4} for ${5} seconds.	skill-description
-10110300561	When casting a ^{1}Recovery-type^{2} or ^{3}Buff-type^{4} Primary Battle Skill, reduces the Physical and Magic ATK of up to ${2} enemies within a ${1}-meter radius of the owner by ^{5}${3}%^{6} and inflicts ^{7}【Sluggish】^{8} ${4}% for ${5} sec.	skill-description
-10110300562	Deals Neutral melee Physical damage equal to Pet Physical ATK*^{1}${3}%^{2} to up to ${2} enemies within a ${1}-meter radius and reduces their Physical DEF by ^{3}${4}%^{4} for ${5} seconds.	skill-description
 10110300563	Bokba unleashes a barrage, dealing @{2} hits of Neutral ranged ^{5}adaptive damage^{6} totaling the master's ^{1}Adaptive ATK^{2}*^{3}${4}%^{4} every @{1} seconds to up to ${3} enemies in a targeted area with a ${2}-meter radius within ${1} meters. Each hit reduces the target's healing dealt and received by ^{7}${5}%^{8} for ${6} seconds.	skill-description
-10110300564	When casting a ^{1}Shield-type^{2} Primary Battle Skill, Deals Neutral Ranged ^{7}Adaptive Damage^{8} equal to the owner's ^{3}Adaptive Attack^{4}*^{5}${3}%^{6} to up to ${2} enemies within ${1} meters of the owner and reduces their Healing Done and Healing Taken by ^{9}${4}%^{10} for ${5} sec.	skill-description
-10110300565	Fires repeatedly, dealing Neutral ranged Physical damage totaling Pet Physical ATK*^{1}${4}%^{2} to up to ${3} enemies in a ${1}-meter-by-${2}-meter rectangular area ahead, reducing their healing dealt and received by ^{3}${5}%^{4} and Crit Resistance by ^{5}${6}^{6} for ${7} seconds.	skill-description
-10110300566	Nightmare appears, dealing Neutral ranged ^{5}adaptive damage^{6} equal to the master's ^{1}Adaptive ATK^{2}*^{3}${4}%^{4} to up to ${3} enemies in a targeted area with a ${2}-meter radius within ${1} meters, and inflicts ^{7}^{8}【Immobilize】^{9}^{10} and ^{11}^{12}【Blind】^{13}^{14} for ${5} seconds.	skill-description
-10110300567	When an ^{1}Offensive-type^{2} or ^{3}Control-type^{4} Primary Battle Skill Deals DMG, inflicts ^{5}^{6}【Immobilize】^{7}^{8} and ^{9}^{10}【Blind】^{11}^{12} on enemies hit for ${1} sec.	skill-description
-10110300568	Nightmare stomps the ground, dealing Neutral melee Physical damage equal to Pet Physical ATK*^{1}${3}%^{2} to up to ${2} enemies within a ${1}-meter radius ahead, and inflicts ^{3}^{4}【Immobilize】^{5}^{6} and ^{7}^{8}【Silence】^{9}^{10} for ${4} seconds.	skill-description
 10110300569	Sarah Irene unleashes a Multi-hit Flame Fist, dealing @{1} hits of Neutral Ranged ^{5}Adaptive Damage^{6} totaling the owner's ^{1}Adaptive Attack^{2}*^{3}${2}%^{4} to the selected ST enemy within ${1} meters and increasing the Fire Damage they take by ${4}% for ${3} sec. The owner gains 【Flame Fist】 for ${5} sec: when Deals DMG, deals @{2} hits of Fire Ranged ^{11}Adaptive Damage^{12} totaling the owner's ^{7}Adaptive Attack^{8}*^{9}${6}%^{10} to the enemy. Internal Cooldown: ${7} sec.	skill-description
-10110300570	When an ^{1}Offensive-type^{2} or ^{3}Debuff-type^{4} Primary Battle Skill Deals DMG to an enemy, it deals an Extra @{1} hits of Fire Ranged ^{9}Adaptive Damage^{10} totaling the owner's ^{5}Adaptive Attack^{6}*^{7}${1}%^{8} to the target.	skill-description
-10110300571	Deals Neutral ranged magic damage equal to Pet Magic ATK*^{1}${4}%^{2} to up to ${3} enemies in a ${1}-meter-by-${2}-meter rectangular area ahead, with a ${5}% Chance to additionally deal @{1} hits of Fire ranged magic damage totaling Pet Magic ATK*^{3}${6}%^{4}.	skill-description
-10110300572	Curses up to ${2} enemies within ${1} meters of the master, reducing their Cast Speed by ^{1}${3}^{2} for ${4} seconds.	skill-description
-10110300573	When an ^{1}Offensive-type^{2} or ^{3}Control-type^{4} Primary Battle Skill Deals DMG, reduces the Cast Speed of enemies hit by ^{5}${1}^{6} and increases their MP Cost by ^{7}${2}%^{8} for ${3} sec.	skill-description
-10110300574	Consumes ${1}% of current HP to Curse nearby enemies, reducing the Physical and Magic DEF of up to ${3} enemies within a ${2}-meter radius by ^{1}${4}%^{2} for ${5} seconds. For the next ${6} seconds, damage dealt increases by ^{3}${7}%^{4} for every @{1}% HP lost, up to ${8}%, for ${9} seconds.	skill-description
-10110300575	Ancient Tree Entanglement pulls up to ${2} enemies within a ${1}-meter radius toward the caster and deals Neutral melee ^{5}adaptive damage^{6} equal to the master's ^{1}Adaptive ATK^{2}*^{3}${3}%^{4}.	skill-description
-10110300609	For ${1} sec after casting an ^{1}Offensive-type^{2} or ^{3}Recovery-type^{4} Primary Battle Skill, the owner gains ^{5}${2}^{6} Cast Speed.	skill-description
-10110300610	Restores ^{1}${3}%^{2} of Max ^{3}Life^{4} to you and up to ${2} allies within ${1}m, and increases all targets' ^{5}Movement Speed by ${4}%^{6} for ^{7}${5} sec.	skill-description
-10110300611	Milly deals Neutral ranged Physical damage equal to Physical ATK *^{1}${2}%^{2} to the designated ST enemy within ${1} meters.	skill-description
-10110300612	Clock turns the dial, dealing Neutral ranged magic damage equal to Magic ATK *^{1}${3}%^{2} to up to ${2} enemies within ${1} meters, with a ${4}% Chance to inflict the^{3} ^{4}【Silence】^{5} ^{6}status for ${5} seconds.	skill-description
-10110300613	When casting an ^{1}Immunity-type^{2} Primary Battle Skill, extends the duration of its Immunity Buff by ^{3}${1}^{4} sec.	skill-description
-10110300614	When the bell tolls, Clock removes all control effects from its master and grants ${1} sec. of ^{1}^{2}【Control Immunity】^{3}^{4}. It also has a ^{5}${2}%^{6} Chance to inflict ^{9}^{10}【Silence】^{11}^{12} for ^{7}${5}^{8} sec. on up to ${4} enemies within ${3} meters of its master.	skill-description
-10110300615	When the bell tolls, Clock removes all control effects from its master and, for ${1} seconds, becomes ^{1}immune to all control effects^{2}. It also has a ^{3}${2}%^{4} Chance to inflict ^{5}${5}^{6} seconds of ^{7}^{8}【Silence】^{9}^{10} on up to ${4} enemies within ${3} meters of its master.	skill-description
 10110300616	Fire Ninja Shinobi appears beside its master and uses a ninja art, removing control effects from its master and granting them ^{1}^{2}【Control Immunity】^{3}^{4} for ${1} seconds. It also moves its master ${2} meters in the designated direction, then increases their Movement Speed by ^{5}${4}%^{6} and grants Stealth for ${3} seconds (dealing damage or taking damage ${5} times during Stealth ends the effect).	skill-description
-10110300617	^{1}Offensive-type^{2} and ^{3}Recovery-type^{4} Primary Battle Skills can be cast while under Control. They Dispel Control from the owner and grant ^{5}^{6}【Immunity】^{7}^{8} for ${1} sec.	skill-description
 10110300618	Fire Ninja Shinobi hurls a series of Dynamite blasts around itself, sequentially dealing Neutral ranged Physical damage equal to Pet Physical ATK * ^{1}${2}%^{2} to up to ${3} enemies within ${1}, ${4}, and ${5} meters and ^{3}knocking them back^{4}. The final hit also reduces the targets' Physical and Magic ATK by ^{5}${6}%^{6} for ${7} seconds.	skill-description
 10110300619	Silver Moon Witch Summons Moonlight to strike the selected location, dealing Neutral Ranged ^{5}Adaptive Damage^{6} equal to the owner's ^{1}Adaptive Attack^{2}*^{3}${4}%^{4} to up to ${3} enemies within the designated ${2}-meter-radius area within ${1} meters of the owner. For the next ${5} sec, hitting an enemy has a ^{7}${6}%^{8} Chance to grant the owner ^{9}^{10}【Moonlight】^{11}^{12}, increasing damage by ^{13}${7}%^{14} for ${8} sec. This DMG Bonus is guaranteed if the target hit is more than ${9} meters away from You.	skill-description
 10110300620	When an ^{1}Offensive-type^{2} Primary Battle Skill hits, increases the Ranged Damage the target takes by ^{3}${2}%^{4} for ${1} sec.	skill-description
@@ -1992,7 +1784,6 @@ ID	English	Category
 10220300488	For every @{1} STR, this skill's percentage damage multiplier gains an Extra increase equal to this Resonance's percentage. This effect is Active for up to @{2} STR; STR beyond @{3} grants no further Extra increase to the percentage damage multiplier.	skill-effect
 10220300487	Healing received reduced by ${1}%.	skill-effect
 10220300484	While active, [Warg Strike], [Warg Bite], and [Warg Hunt] summon Extra Warg companions.	skill-effect
-10220300482	Cannot move	skill-effect
 10220300480	Detects hidden enemies within @{1} meters of the Ranger.	skill-effect
 10110301167	Increases your Neutral, Ghost, Fire, Water, Wind, and Earth Element DMG Bonus by ^{1}${1}%^{2}. When a Boss target resists your ^{3}^{4}【Frozen】^{5}^{6}, ^{7}^{8}【Petrify】^{9}^{10}, or ^{11}^{12}【Stun】^{13}^{14}, respectively deals Water/Earth/Wind Ranged Magic damage equal to your MATK * ^{15}${2}%^{16} to the target.	skill-description
 10110301166	Deals ranged Ghost magic damage equal to Magic ATK * ^{1}${3}%^{2} to up to ${2} enemies within a ${1}-meter radius and inflicts ^{3}^{4}【Silence】^{5}^{6} for ${4} sec.	skill-description
