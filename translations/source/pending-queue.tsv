@@ -1,171 +1,19 @@
 ID	English	Category
 10220300020	Physical/Physical DEF +${1}%.	skill-effect
-10220300051	After using ^{1}^{2}【Cart Revolution】^{3}^{4}, immediately trigger @{1} instances of 【Gunpowder Throw】, dealing Fire melee Physical damage equal to PATK * ${3}% + ${4} to up to ${2} enemies within ${1} meters. This effect has a ${5}-second Cooldown.	skill-effect
-10220300055	^{1}^{2}【Hammer Fall】^{3}^{4} strikes ${1} enemies within range with 【Earth Spike】, dealing Neutral melee Physical damage equal to PATK * ${2}% + ${3}, with a ${4}% Chance to inflict ^{5}^{6}【Stun】^{7}^{8} for ${5} seconds. This effect has a ${6}-second Cooldown.	skill-effect
-10220300066	^{1}^{2}[High Speed Cart Ram]^{3}^{4}performs @{1} Extra [Cart Clash] attacks against targets below ${1}% HP, dealing PATK*${2}%+${3} Neutral melee Physical damage and inflicting ^{5}^{6}[Stun]^{7}^{8} for @{2} seconds. This effect has a ${4}-second Cooldown.	skill-effect
-10220300067	^{1}^{2}【High Speed Cart Ram】^{3}^{4} triggers 【Explosive Strike】 an Extra @{1} times when cast, dealing Neutral melee Physical damage equal to PATK * ${3}% + ${4} to up to ${2} enemies within ${1} meters. This effect has a ${5}-second Cooldown.	skill-effect
-10220300087	Dance Move Check	skill-effect
-10220300124	Skills @{1}–@{2} have already been used. Don't use them again.	skill-effect
-10220300131	Melee Basic Attacks have a @{1}% Chance to trigger a Splash effect within a @{2}-meter radius. (This Splash does not count as a Normal Attack effect.) Affects up to @{3} Extra targets, with damage reduced to @{4}% of the original. Internal Cooldown: @{5} seconds.	skill-effect
-10220300132	Melee Basic Attacks trigger a Splash effect within a @{1}-meter radius. (This Splash does not count as a Normal Attack effect.) Affects up to @{2} Extra targets, with damage reduced to @{3}% of the original. Internal Cooldown: @{4} seconds.	skill-effect
-10220300143	After taking lethal skill damage, you may choose whether to Revive. After Revive, Life becomes @{1}. You are Invincible and Cannot move or Cannot use skill for @{2} seconds. After @{3} seconds, Life/MP is restored to @{4}%. Internal Cooldown: @{5} minutes.	skill-effect
-10220300145	After taking lethal skill damage, you may choose whether to Revive. After Revive, Life/MP is immediately restored to @{1}%. Internal Cooldown: @{2} minutes. After the death-prevention effect triggers, Physical/Magic damage taken is reduced by @{3}% for @{4} seconds.	skill-effect
 10220300159	@{1}~@{2} Do Not Use—buff used to implement the card's Function	skill-effect
-10220300171	Endure	skill-effect
-10220300175	Stun	skill-effect
-10220300199	Permanent Joint Passive	skill-effect
-10220300213	Become Ultimate Giant for @{1} sec., recovering @{2}% Max Life per sec., increasing Movement Speed by @{3}%, and increasing damage by @{4}%. (Triggers immediately while both Giant and Super Giant are active. Gaining this effect removes Giant and Super Giant.)	skill-effect
-10220300230	Check whether this is needed; currently, it doesn't appear to be	skill-effect
 10220300246	No derived skill	skill-effect
 10220300247	Not currently used	skill-effect
 10220300260	Equipment Drop Test	skill-effect
-10220300261	Equipment Drop	skill-effect
-10220300284	Cart Damage Lv. @{1} visual effect buff	skill-effect
-10220300367	Blessing Angel Overhead Arrow	skill-effect
-10220300368	Blessing Angel Persistent Magic Circle	skill-effect
-10220300369	Blessing Angel Surrounding Effect	skill-effect
-10220300370	Blessing Angel Large-Area Surrounding Effect	skill-effect
-10220300371	Inner-Arena Player-Exclusive Buff	skill-effect
-10220300372	Dragon's Highest-Aggro Target Effect	skill-effect
 10220300381	Reply @{1}% HP.	skill-effect
-10220300389	Lope	skill-effect
-10220300391	Lope-related	skill-effect
-10220300393	Double Lope	skill-effect
 10220300404	Every @{1} sec., Reply @{2}% of max HP.	skill-effect
 10220300432	You feel fatigued, impairing your ability to explore. (Broadcast required)	skill-effect
 10800100036	After ^{1}^{2}[Cart Revolution]^{3}^{4} hits the primary target, it triggers [Money Throw] an Extra @{1} times, dealing PATK*${1}%+${2} Neutral melee Physical damage. This effect has a ${3-second Cooldown.	skill-enhancement
-10800100073	^{1}^{2}[Grand Cross]^{3}^{4} and ^{5}^{6}[Holy Cross]^{7}^{8} additionally cast [Absolute Judex] on the target, dealing PATK*${3}%+${4} Neutral melee Physical damage to the target and a total of ${2} enemies within ${1} meters. Internal Cooldown: ${5} seconds.	skill-enhancement
-10800100118	While ^{1}^{2}[Aura Blade]^{3}^{4} is active, ^{5}^{6}[Bash]^{7}^{8}'s percentage damage multiplier increases by ${1}% and its fixed damage increases by ${2}; ^{9}^{10}[Magnum Break]^{11}^{12}'s percentage damage multiplier increases by ${3}% and its fixed damage increases by ${4}; and ^{13}^{14}[Bowling Bash]^{15}^{16}'s percentage damage multiplier increases by ${5}% and its fixed damage increases by ${6}.	skill-enhancement
-10800100131	Hodgepodge	skill-enhancement
-10800100135	Magic ATK +【Your Level*@{1}】	skill-enhancement
-10800100136	When HP is below @{1}%, Physical DEF +【Your Level*@{2}】	skill-enhancement
-10800100139	For buffs with the @{1} tag, maximum buff Floors +@{2}	skill-enhancement
-10800100247	After casting ^{1}^{2}[Grimtooth]^{3}^{4}, there is a ${1}% Chance to Deals DMG equal to PATK * ${4}% + ${5} as Neutral Melee Physical damage to up to ${3} enemies within a ${2}-meter radius of the target. Cooldown: ${6} seconds. ^{5}^{6}[Grimtooth]^{7}^{8}'s percentage damage multiplier increases by ${7}%, and its fixed damage increases by ${8}.	skill-enhancement
 12390100824	Deprecated. If you see this text, please report the issue to the pet system lead.	item-description
 12390100816	No Translation Required	item-description
 12390100793	Test Name Card@{1}-Permanent	item-description
 12390100738	A test gift pack. Open it to receive a large number of potions.	item-description
-12390100737	Commemorative Medal E Description	item-description
-12390100736	Commemorative Medal D Description	item-description
-12390100735	Commemorative Medal C Description	item-description
-12390100734	Commemorative Medal B Description	item-description
-12390100733	Commemorative Medal A Description	item-description
-12390100727	Ore from the dwarven realm of Vartalheim, blessed by a legendary armorsmith.\n^{1}Use: Used to refine armor. On failure, the Refine Level will not decrease^{2}	item-description
-12390100726	Secret ore from the dwarven realm of Vartalheim, said in Legend to share the same origin as the world itself. It is every craftsperson's lifelong pursuit.\n^{1}Use: Used to refine weapons and accessories. Increases the refinement success rate; on failure, the Refine Level will not decrease and the equipment will not be damaged^{2}	item-description
-12390100725	Ore from the dwarven realm of Vartalheim, blessed by a legendary weaponsmith.\n^{1}Use: Used to refine weapons and accessories. On failure, the Refine Level will not decrease^{2}	item-description
-12390100724	A lightweight, nontoxic Metal that makes any armor refined with it stronger.\n^{1}Use: Can be used to refine armor and accessories from +@{1} to +@{2}^{2}	item-description
-12390100723	High-density Oridecon formed over many years deep underground. It can refine weapons and accessories with a higher Refine Level.\n^{1}Use: Can be used to refine weapons and accessories from +@{1} to +@{2}^{2}	item-description
-12390100722	A mysterious Metal known as Oridecon. Harder than anything else, it was discovered by the Enhance Association to be useful for refining weapons and accessories.\n^{1} Use: Can be used to refine weapons and accessories from +@{1} to +@{2} ^{2}	item-description
-12390100708	Open this gift box for a chance to obtain a large amount of Diamonds, Equipment Refining Materials, and Rare Cards.	item-description
-12390100707	Open this Pack to obtain a Tier @{1} Weapon Crafting Blueprint, an Armor Crafting Blueprint, and the corresponding Crafting Materials.	item-description
-12390100706	Normal Gift Box	item-description
-12390100705	Deluxe Gift Box	item-description
-12390100704	Advanced Treasure Chest	item-description
-12390100703	Mysterious Treasure Chest	item-description
-12390100702	Surprise Pack	item-description
-12390100701	A large carnivorous fish that requires high-quality water. Its meat is delicious and said to be good for your health.	item-description
-12390100694	Also known as mandarin fish. An aggressive predator that feeds on other fish. It stops feeding in winter, making that a poor time to catch it.	item-description
-12390100693	Also known as blackfish, snakehead, or fortune fish. Its wide distribution, high yield, and rapid reproduction make it valuable for aquaculture.	item-description
-12390100689	A versatile carp raised for food, medicine, and decoration. In some regions, it is considered a sign of good fortune.	item-description
-12390100680	A semi-finished sacred cloth material for footwear, offering both a blessing bonus and comfortable protection.	item-description
-12390100678	A semi-finished material processed from sacred cloth rolls. Used to craft advanced clothing or armor with blessing effects.	item-description
-12390100673	A semi-finished silk material designed for shoulder armor. Used to craft fine shoulder equipment or armor.	item-description
-12390100663	Liquid extracted from a sacred plant. Its Divine Light and purification properties make it useful for crafting advanced equipment.	item-description
-12390100662	A bundle of high-quality fibers refined through multiple processes for a smooth, durable finish. Used to make advanced fabric or light armor.	item-description
-12390100661	Spirit-infused thread used to sew robes or craft Enchant equipment, enhancing the equipment's magical responsiveness.	item-description
-12390100649	Core Wood taken from within a Sacred Wood Chunk. Its spiritual energy is pure, and it is used to craft advanced equipment.	item-description
-12390100648	A partially finished piece processed from a Sacred Wood block, retaining the wood's resilience and sacred properties.	item-description
-12390100644	Core material extracted from an Ironwood block. Hard and resistant to breaking, it is ideal for crafting fine equipment.	item-description
-12390100643	A high-strength coating applied in multiple layers, providing excellent protection and corrosion resistance.	item-description
-12390100642	A partially finished piece made from an Ironwood block. It can be further polished into a fine equipment component.	item-description
-12390100640	An accessory mold carefully carved from solid wood. Every detail has been meticulously refined to ensure a flawless finished product.	item-description
-12390100637	A juicy, bright Red Strawberry used to decorate desserts and flavor dishes.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	item-description
-12390100635	A Yellow, oval-shaped fruit used to season dishes and enhance their aroma.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	item-description
-12390100632	An umbrella-shaped mushroom with thick, savory flesh, often used in stews and stir-fries.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	item-description
-12390100631	A juicy, bright Red fruit with a sweet-and-sour flavor, perfect for stews or soup bases.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	item-description
-12390100630	Dark brown beans that can be ground into Cacao powder for making desserts.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	item-description
-12390100629	A round Purple fruit that can be made into fine wine or desserts.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	item-description
-12390100628	Bright Red and spicy, it adds heat and aroma to Cooking.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	item-description
-12390100627	Golden Grains that can be ground into flour for noodles, pastries, and other dishes.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	item-description
-12390100626	Tender Green leaves from a Basic herb that adds aroma and flavor to Cooking.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	item-description
-12390100625	White Herb: Its pure White leaves add a subtle herbal aroma to Cooking.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	item-description
-12390100624	Yellow Herb: Golden in color, it enhances the aroma and flavor of Cooking.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	item-description
-12390100623	A bright Red Herb that adds a unique flavor and medicinal properties to Cooking.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	item-description
-12390100622	Legendary sharpening Material imbued with the power of a meteorite. It grants Weapons devastating power.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	item-description
-12390100621	Premium sharpening Material infused with the essence of luminous gold. It gives Weapons astonishing sharpness.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	item-description
-12390100619	A whetstone made using a special process. It improves a Weapon's sharpness.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	item-description
-12390100618	A hilt forged from Meteor Metal and imbued with the power of a falling star. It greatly improves weapon performance and handling.	item-description
-12390100617	A dense Meteor Metal block compressed using a special process. Its energy purity and strength have reached their peak, making it ideal for crafting advanced weapons.	item-description
-12390100616	A sharp blade forged from Meteor Metal. Its potential to pierce anything makes it a vital component of advanced weapons.	item-description
-12390100615	A Metal block taken from the core of a meteorite. Its exceptional purity and energy make it a precious material for crafting advanced equipment.	item-description
-12390100614	A high-grade grinding wheel made with precision techniques, capable of ultra-fine polishing when crafting advanced weapons.	item-description
-12390100613	A hilt forged from a dense Radiant Gold block. Its smooth, sturdy finish makes it ideal for crafting fine weapons.	item-description
-12390100612	A Radiant Gold block refined under extreme heat and pressure for optimal Metal purity and strength, ideal for crafting fine weapon parts.	item-description
-12390100609	A grip forged from mithril that improves a weapon's handling and durability. Suitable for crafting standard weapons.	item-description
-12390100608	Made from rough stone, it grinds efficiently but provides only an average polish. Suitable for sharpening standard weapons.	item-description
-12390100606	Soaking iron several times in a special solution increases its strength, producing harder weapons and armor.	item-description
-12390100605	High-quality compressed coal that burns at extremely high temperatures. Combining it with iron produces stronger steel.	item-description
-12390100603	Ore containing meteorite that can be refined into a Meteorite Chunk.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	item-description
-12390100602	A precious gemstone that gleams like a cat's eye and radiates a beautiful light.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	item-description
-12390100601	An extremely sturdy stone with exceptional hardness, used to make Weapons.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	item-description
-12390100600	Ore containing luminous gold that can be refined into a Luminous Gold Ingot.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	item-description
-12390100599	Ore containing mithril that can be refined into a Mithril Ingot.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	item-description
-12390100598	As night falls, the stars resemble carefully Collected gemstones. Awed by their light rippling like water, people named this stone Sobbing Starlight.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	item-description
-12390100597	A Normal stone found almost anywhere. It may look unremarkable, but it still has its uses.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	item-description
-12390100596	Ore rich in carbon. The coal extracted from it can be refined with iron to produce Steel.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	item-description
-12390100595	Ore containing iron that can be refined into an Iron Ingot.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	item-description
-12390100593	An official certificate issued by the workshop, signifying that the holder has passed the Job Advance assessment and is qualified to independently pursue a Life Skill.	item-description
-12390100588	A shell from a turtle's back. Once dried, it becomes extremely hard and can be processed into many useful items. Available from the Collector.	item-description
-12390100587	A geometrically shaped fragment of Sobbing Starlight. It might be restored if the pieces are carefully reassembled.	item-description
-12390100586	A fragment of a star cluster suspended in the sky. It can increase a weapon's strength when used in crafting.	item-description
-12390100583	A piece of a star that can be refined into Star Crumbs.	item-description
-12390100582	A canine tooth obtained from a creature called an Orc. Available from the Collector.	item-description
-12390100581	A toenail clipped from a wolf's paw. Available from the Collector.	item-description
-12390100580	Rare mane taken from a monster. Tough and magical, it can be used to make high-grade fabric or in alchemical formulas.	item-description
-12390100579	Mysterious powder infused with magical energy. An essential material for Enchant and alchemy.	item-description
-12390100578	A shattered black Sobbing Starlight. Though it has lost its full power, it still has special uses.	item-description
-12390100577	Crude mineral powder commonly used in basic alchemy or Easy Enchant, though its effects are limited.	item-description
-12390100576	Damaged Metal fragments of low purity. They can be smelted down for Reforge or used in alchemical experiments.	item-description
-12390100575	Supplies used in Territory War.	item-description
-12390100574	Item used to Level-up a Soul Echo. Grants @{1} EXP.	item-description
-12390100573	Obtained by Dismantling Divine Arts Totems. Used to exchange for items in the Divine Arts Totem Shop.	item-description
-12390100572	Divine Arts Totem Reset Materials.	item-description
-12390100571	Item used to Level-up a Divine Arts Totem. Grants @{1} EXP.	item-description
-12390100570	Reset Materials for a Divine Arts Totem.	item-description
-12390100569	Grants a chance to obtain Tier @{1} Equipment of varying Rarity.	item-description
-12390100568	The finest Tier @{1} Red Equipment.	item-description
-12390100567	The finest Red Equipment.	item-description
-12390100566	Brilliant Tier @{1} Orange Equipment with impressive offensive and defensive capabilities.	item-description
-12390100565	Brilliant Orange Equipment with impressive offensive and defensive capabilities.	item-description
-12390100564	Magnificent Purple Equipment, clearly crafted by a Moonlit Challenger.	item-description
-12390100563	Fine Blue Equipment with impressive offensive and defensive capabilities.	item-description
-12390100562	Fine Tier @{1} Green Equipment with impressive ATK and DEF.	item-description
-12390100561	Fine Green Equipment with impressive ATK and DEF.	item-description
-12390100560	Obtain a full set of Tier @{1} Equipment Crafting Blueprints and Crafting Materials.	item-description
-12390100559	Randomly obtain either Oridecon or Elunium.	item-description
-12390100558	Chance to obtain Orange Quality Headwear.	item-description
-12390100557	Chance to obtain Purple Quality Headwear.	item-description
-12390100556	Chance to obtain Blue Quality Headwear.	item-description
-12390100555	Obtain the specified Soul Echo.	item-description
-12390100554	Grants one of the following mounts based on your class.	item-description
-12390100553	Orange material used to craft headgear.	item-description
-12390100552	Purple material used to craft headgear.	item-description
-12390100551	Blue material used to craft headgear.	item-description
-12390100550	Green material used to craft headgear.	item-description
-12390100549	Grants forging blueprints for a Tier @{1} equipment set.	item-description
-12390100548	Grants Equipment Forging materials.	item-description
-12390100547	Grants a Tier @{1} blue weapon for your class.	item-description
-12390100546	Grants various types of Equipment Forging blueprints.	item-description
-12390100545	Grants a Job Advance Weapon.	item-description
-12390100544	Randomly grants a card of varying quality.	item-description
 12390100543	Grants a chance to obtain a green-quality Card.	item-description
 12390100542	Grants a chance to obtain a Red Quality Card.	item-description
-12390100541	Grants a chance to obtain an Orange Quality Card.	item-description
-12390100540	Grants a chance to obtain a Purple Quality Card.	item-description
-12390100539	Grants a chance to obtain a Blue Quality Card.	item-description
-12390100538	A radiant Soul Echo.	item-description
-12390100537	An ornate Soul Echo.	item-description
-12390100536	A fine Soul Echo.	item-description
 12390100535	Grants a chance to obtain the following items.	item-description
 12390100534	Ornate Tier @{1} Purple Equipment, clearly crafted by the Moonlit Challenger.	item-description
 12390100533	Fine Tier @{1} Blue Equipment with impressive ATK and DEF.	item-description
@@ -646,7 +494,6 @@ ID	English	Category
 12390100253	A razor-sharp blade with an icy gleam. Use to permanently increase Physical ATK by @{1}.	item-description
 12390100254	A heavy bronze shield. Use to permanently increase Physical DEF by @{1}.	item-description
 12390100255	A radiant magic orb. Use to permanently increase Magic ATK by @{1}.	item-description
-12390100330	On the ^{3}oldest stone bridge^{4} in ^{1}Geffen^{2}, examine the joint in the central support beam. A gift lies within a carefully crafted hidden recess.	item-description
 12390100331	Beside the bench near the ^{1}Izlude shop^{2}, watch the ^{3}butterflies^{4} that refuse to leave. They seem drawn to an old man's unfinished gift and still flutter there, showing the way.	item-description
 12390100332	"In ^{1}Izlude^{2}, the ^{5}small tree^{6} ^{3}outside the Blacksmith shop^{4} has listened to the ringing of hammers for years. They say a master craftsman buried one of his precious ""failures"" beneath the root closest to the shop."	item-description
 12390100333	In ^{1}Izlude's^{2} bustling ^{3}market^{4}, search the most inconspicuous corner of a fruit stall. The shrewd merchant likes to hide his most valuable earnings in the gaps between a pile of Lemons and potatoes.	item-description
@@ -668,114 +515,15 @@ ID	English	Category
 12390100349	An extremely precious ore from the dwarven realm of Wat Alheim, coveted by every craftsman.\n^{1}Effect: Used to Refine a Weapon or Accessory. Increases the Success Rate and prevents level loss or damage if Refinement Failed.^{2}	item-description
 12390100350	An ore from the dwarven realm of Wat Alheim, said to have received the Blessing of a legendary dwarven craftsman.\n^{1}Effect: Used to Refine Armor. Prevents level loss if Refinement Failed.^{2}	item-description
 12390100351	An extremely precious ore from the dwarven realm of Wat Alheim, coveted by every craftsman.\n^{1}Effect: Used to Refine Armor. Increases the Success Rate and prevents level loss or damage if Refinement Failed.^{2}	item-description
-10110300188	Deals ATK * ^{1}@{2}%^{2} damage to the designated ST enemy within @{1} m.	skill-description
-10110300194	Deals ATK * ^{1}@{3}%^{2} damage to up to @{2} enemies within a @{1} m radius.	skill-description
-10110300205	Raise your Shield for @{1} seconds to Fortify yourself, reducing DMG taken by ^{1}@{2}%^{2}. During this time, your MSPD is ^{3}【reduced】^{4} by @{3}%, but you have ^{5}Immunity^{6}. Every @{6} seconds, inflict a @{7}-meter ^{7}【Knockback】^{8} in the direction you are Facing on up to @{5} members of the Enemy Team within @{4} meters in front of you and Deals DMG equal to your ATK * ^{9}@{8}%^{10}.	skill-description
-10110300254	Cross-shaped AoE, vertical first, then horizontal	skill-description
-10110300255	Summon a storm, sending it Flying in the designated direction. It deals ^{1}@{2}%^{2} damage to enemies within a @{1}-meter radius along its path and inflicts ^{3}【Knockback】^{4}. After ^{5}【Knockback】^{6}, four equipped items are selected at random, each with a @{3}% Chance to ^{7}【drop】^{8}, with a guaranteed ^{9}【drop】^{10} of ^{11}@{4}^{12} items.	skill-description
-10110300262	Temporarily play a BGM track	skill-description
-10110300264	Revive the ID tag's owner	skill-description
-10110300271	Randomly transform into one of @{1} Porings, with @{2} possible forms	skill-description
-10110300272	End Transform: Poring	skill-description
-10110300273	Throw the supply cart forward, inflicting Stun on enemies in its path.	skill-description
-10110300274	Provides the player and the Supply Cart with an exceptional speed boost.	skill-description
-10110300279	Outpost Area Detection Skill	skill-description
-10110300280	Outpost's Group Warp Skill	skill-description
-10110300283	Allies within ${1} meters of the supply cart gain ${2}% ATK for ${3} seconds.	skill-description
-10110300285	Fireworks launched after delivering the supply cart	skill-description
-10110300286	Strike the target with soul power, Launching ${2} bursts of soul energy at the designated ST enemy within ${1} meters and dealing @{1} instances of Ghost-property ranged magic damage equal to Magic ATK *^{1}${3}%^{2}; while in the ^{3}^{4}【Reading】^{5}^{6} state, consume @{2} stacks of ^{7}【Book Page】^{8} to cast this skill 1 Extra time.	skill-description
-10110300287	Use telekinesis to Summon White Imprison around ${1} enemies within ${2} meters of you, dealing Ghost Ranged Magic DMG equal to MATK * ^{1}${3}%^{2}, inflicting ^{3}^{4}【Immobilize】^{5}^{6} for ${4} seconds, and applying ^{7}^{8}【Prison】^{9}^{10} for ${5} seconds. Targets with 【Prison】 take ${6}% increased DMG from the caster.	skill-description
-10110300290	Concentrate your Soul Buster to distort space, dealing @{1} hits of Ghost Ranged Magic DMG equal to MATK * ^{1}${4}%^{2} (^{3}^{4}Dexterity Resonance ${8}%^{5}^{6}) to a selected ST enemy within a ${1}-meter radius of you and up to ${3} enemies in total within ${2} meters of that enemy, continuously ^{7}【pulling them in】^{8}. Then Terminate the distortion with a Burst, dealing @{2} hits of Ghost Ranged Magic DMG equal to MATK * ^{9}${5}%^{10} (^{11}^{12}Dexterity Resonance ${8}%^{13}^{14}). While ^{15}^{16}【Reading】^{17}^{18} is Active, consumes ${6} stacks of ^{19}【Book Page】^{20} to cast this skill ${7} Extra times.	skill-description
-10110300291	The Warlock periodically gathers energy, Auto-generating ${2} ^{1}^{2}【Psychokinetic Astral Bodies】^{3}^{4} every ${1} seconds, up to ${3}. If you already have ${4} ^{5}^{6}【Psychokinetic Astral Bodies】^{7}^{8}, hitting with Soul Expansion Launches all ^{9}^{10}【Psychokinetic Astral Bodies】^{11}^{12}. Each Deals Ghost Ranged Magic DMG equal to MATK * ^{13}${5}%^{14} to the target enemy.	skill-description
-10110300301	Knocks back all enemies within ${1}m of you when used.	skill-description
-10110300306	Charges a full-screen attack for @{1}s. Deals no damage.	skill-description
-10110300307	The dragon flies low, continuously breathing fireballs.	skill-description
-10110300308	Pick up the Dragon Scales dropped by the fire dragon	skill-description
-10110300309	Discard the Dragon Scales dropped by the fire dragon	skill-description
-10110300310	Build a shield wall with Dragon Scales	skill-description
-10110300311	Carry a fire shell from the ammunition crate	skill-description
-10110300312	Repair the damaged Turret	skill-description
-10110300313	Board the prepared Turret	skill-description
-10110300314	Launch a shell at the target!	skill-description
-10110300315	Leave the Turret	skill-description
-10110300316	Load the shell into the Turret	skill-description
-10110300317	Discard the shell being carried	skill-description
-10110300318	Switch to launching ice shells	skill-description
-10110300319	Switch to launching fire shells	skill-description
 10110300333	Spits upward, then after a @{1}-second warning, 【Unidentified Digestive Matter】 falls from the sky at several random locations, dealing A damage within a circular area with a @{2}-meter radius. 【Unidentified Digestive Matter】 lasts @{3}s and slows players and monsters within it	skill-description
-10110300337	After a brief cast, summons several Thief Bugs to follow and attack	skill-description
-10110300339	Delivers a heavy blow to the currently targeted player within the grid	skill-description
-10110300340	Drops a meteor at the locations of the @{1} farthest players	skill-description
-10110300341	Use Lope to clear the obstacle	skill-description
-10110300342	After use, increases PATK and MATK by @{1}%.	skill-description
-10110300343	After use, increases DMG Reduction by @{1}% and grants Endure.	skill-description
-10110300344	After use, reduces Cooldown reduction by @{1}%.	skill-description
-10110300345	After use, increases CRIT Chance by @{1}% and CRIT DMG by @{2}%.	skill-description
-10110300346	After use, increases MSPD by @{1}%.	skill-description
-10110300347	After use, restores @{1}% HP.	skill-description
-10110300352	After use, increases the selected Guild Battlefield Boss's DEF.	skill-description
-10110300353	After use, causes the selected Guild Battlefield Boss to Enter Berserk.	skill-description
 10110300357	(No translation required)	skill-description
-10110300358	Board this vehicle.	skill-description
-10110300359	Deals extremely High Damage in a rectangular area ahead.	skill-description
-10110300360	Lope to the target area, dealing High Damage.	skill-description
-10110300361	Deals 2 hits of High Damage to the target area, with a Chance to inflict Frozen.	skill-description
-10110300362	Controls the Madogear Pilot to swing its weapon at enemies ahead in a three-hit combo. The first hit deals ^{1}@{3}%^{2} damage to up to @{2} enemies within @{1} meters, the second deals ^{3}@{6}%^{4} damage to up to @{5} enemies within @{4} meters, and the third deals ^{5}@{9}%^{6} damage to up to @{8} enemies within @{7} meters and inflicts ^{7}Slow^{8}.	skill-description
-10110300363	Controls the Madogear Pilot to charge @{1} meters, ^{1}knocking back^{2} enemies in its path and dealing ^{3}@{3}%^{4} damage to up to @{2} enemies within range.	skill-description
-10110300364	Controls the Madogear Pilot to slam the ground, dealing ^{1}@{3}%^{2} damage to up to @{2} enemies within @{1} meters and inflicting ^{3}Slow^{4} for @{4} seconds.	skill-description
-10110300365	Controls the Madogear Pilot to spin its weapon, dealing ^{1}@{3}%^{2} damage to up to @{2} enemies within @{1} meters.	skill-description
-10110300366	Grants the Madogear Pilot an Orbit for @{1} seconds, granting allies within @{2} meters ^{1}Increased Movement Speed^{2} while the Madogear Pilot gains @{3}% ^{3}Damage Reduction^{4}.	skill-description
-10110300367	Controls the Madogear Pilot to leap into the air and slam the ground, dealing ^{1}@{3}%^{2} damage to up to @{2} enemies within @{1} meters and ^{3}knocking them back^{4}.	skill-description
-10110300368	Gains DMG Reduction, periodically Deals DMG to nearby enemies and inflicts Burn.	skill-description
-10110300369	Gains Accelerate, periodically Deals low DMG to nearby enemies and inflicts Slow.	skill-description
-10110300370	Provides continuous Healing to allies in a large area.	skill-description
-10110300371	Gains DMG Reduction	skill-description
-10110300372	Gains ATK.	skill-description
-10110300373	Summon Madogear Pilot	skill-description
-10110300374	Operate the Turret to attack with shells.	skill-description
-10110300375	Use to leap back onto the city wall.	skill-description
-10110300376	Use to leap down from the city wall.	skill-description
-10110300377	Grants Endure to yourself and all allies within a @{1}-meter radius, making them immune to crowd control, knock-up, and knockback effects for @{2} seconds.	skill-description
-10110300378	Increases the STR, INT, and DEX of yourself and allies within a @{1}-meter radius by @{2} for @{3} seconds.	skill-description
-10110300379	Revive up to @{2} fallen allies within a @{1}-meter radius with @{3}% HP and MP.	skill-description
-10110300380	Summons up to @{1} guild members on the same map to the caster.	skill-description
-10110300381	Phreeoni spits upward, causing multiple masses of Unidentified Digestive Matter to fall around itself and damage players on HIT. Players within the Unidentified Digestive Matter are slowed by @{1}% and gain one stack of 【Stomach Acid Corrosion】 every second.	skill-description
-10110300382	Phreeoni detonates the acid around itself, damaging players on HIT and applying 【Stomach Acid Corrosion】.	skill-description
-10110300383	Phreeoni sprays its stomach acid, applying 【Stomach Acid Corrosion】 to players within a large area around itself.	skill-description
-10110300384	Phreeoni releases acid forward, damaging players on HIT.	skill-description
-10110300385	Permanently increases Physical ATK by ^{1}${1}^{2} and DEX by ^{3}${2}^{4}.	skill-description
-10110300386	Permanently increases Physical ATK by ^{1}${1}^{2}, AGI by ^{3}${2}^{4}, and Attack Speed by ^{5}${3}%^{6}.	skill-description
-10110300387	Bow-exclusive skill. Fires 2 Arrows simultaneously, dealing ${2} hits of PATK * ^{1}${3}% + ${4}^{2} Neutral Ranged Physical DMG to the designated ST enemy within ${1} meters.	skill-description
-10110300388	Bow-exclusive skill. Fires a dense volley of Arrows, dealing PATK * ^{1}${4}% + ${5}^{2} Neutral Ranged Physical DMG to up to ${3} enemies in a target area with a radius of ${2} meters within ${1} meters of you.	skill-description
-10110300389	Bow-exclusive skill. Launch a Charge Arrow at the designated ST enemy within ${1} meters, dealing PATK * ^{1}${2}% + ${3}^{2} Neutral Ranged Physical DMG and inflicting ^{3}【Knockback】^{4} for ${4} meters.	skill-description
-10110300421	The Starshatter Dragon spreads its wings and soars toward a glorious future!	skill-description
-10110300422	Treasure Hunting	skill-description
-10110300423	Mining	skill-description
-10110300424	Logging	skill-description
-10110300425	Normal Attack @{1}	skill-description
-10110300428	Earthquake	skill-description
-10110300429	Break Free from Maya's Bind	skill-description
-10110300430	Jump into the Cave to Rescue Bobo	skill-description
-10110300431	Check on Bobo	skill-description
-10110300432	Free the Shaking Ant Egg	skill-description
-10110300433	Help the fallen Professor to their feet.	skill-description
-10110300434	Open the Treasure in Maya's Nest	skill-description
-10110300435	Ride the Deniro	skill-description
-10110300436	Dismount the Deniro	skill-description
-10110300437	Feed the Deniro Fluorescent Supplies	skill-description
-10110300438	Collect the fluorescent substance	skill-description
 10110300439	Try to Ride the Deniro	skill-description
 10110300440	Use the Turret	skill-description
 10110300466	Deals PATK * ^{1}${2}%^{2} Neutral melee Physical DMG to the designated ST enemy within ${1} meters. If you are more than ${6} meters from the target, you also Charge directly in front of it. This skill's cast speed is unaffected by ASPD, but every ${3}% ASPD grants an Extra ^{3}${4}%^{4} Skill Damage Multiplier, up to ${5}% ASPD.	skill-description
 10110300476	When cast, removes the master's ^{1}^{2}【Debuffs】^{3}^{4} and grants ^{5}^{6}【Crowd Control Immunity】^{7}^{8} for ${1} sec. The Death Witch then tears open a ${2}m-long void rift ahead, dealing @{1} hits of ^{9}Adaptive ATK^{10}*^{11}${4}%^{12} Neutral ranged ^{13}Adaptive Damage^{14} to up to ${3} enemies. Each enemy hit restores ^{15}Adaptive ATK^{16}*^{17}${5}%^{18} ^{19}Life^{20}.	skill-description
 10110300478	The Death Witch summons a giant scythe to crash down, dealing her Magic ATK*^{1}${4}%^{2} Neutral ranged Magic damage to the designated ST enemy within ${1}m and up to ${3} enemies within ${2}m of the target. Enemies hit receive ^{3}${5}%^{4} less healing and have their Magic DEF reduced by ^{5}${6}%^{6} for ${7} sec.	skill-description
 10110300488	Eve slashes the designated ST enemy within ${1} meters with her giant scythe @{1} times, then throws it, dealing @{3} hits to up to @{2} targets in a ^{1}${2}^{2}*^{3}${3}^{4}-meter rectangular area ahead. Deals a total of ^{5}Adaptive ATK^{6}*^{7}${4}%^{8} Neutral melee ^{9}Adaptive Damage^{10} and reduces Physical and Magic DEF by ^{11}${5}%^{12} for ${6} seconds.	skill-description
-10110300492	Angeling summons a radiant halo, restoring ^{1}Adaptive ATK^{2}*^{3}${3}%^{4} ^{5}Life^{6} to up to ${2} allies within ${1} meters and granting the master a ${4}-meter-radius ^{7}[Radiant Ring]^{8}. Allies within the area receive ^{9}${5}%^{10} more healing and periodically recover ^{11}Adaptive ATK^{12}*^{13}${6}%^{14} ^{15}Life^{16} for ${7} seconds.	skill-description
-10110300496	Fox Immortal summons a refreshing breeze in a ${1}-meter-by-${2}-meter rectangular area ahead, dealing a total of ^{1}Adaptive ATK^{2}*^{3}${4}%^{4} Neutral ranged ^{5}Adaptive Damage^{6} to up to ${3} enemies. Hit enemies deal ^{7}${5}%^{8} less Wind damage, while the master's damage increases by ^{9}${6}%^{10} for ${7} seconds.	skill-description
-10110300500	Summons Baphomet Jr. to a designated location within ${1} meters, dealing ^{1}Adaptive ATK^{2}*^{3}${4}%^{4} Neutral ranged ^{5}Adaptive Damage^{6} to up to ${3} enemies within ${2} meters and applying a ^{7}${5}%^{8} ^{9}[Slow]^{10} for ${6} seconds. If a target is already ^{11}[Slowed]^{12}, there is a ^{13}${7}%^{14} Chance to apply the Extra ^{15}[Immobilize]^{16} effect for ${8} seconds.	skill-description
 10110300508	Bobo deals Physical ATK*^{1} to the designated ST enemy within ${1} meters.	skill-description
-10110300516	Zherlthsh attacks with her Whip, dealing a total of PATK * ^{1}${5}%^{2} Neutral melee Physical DMG to ${2} designated enemies within ${1} meters of the target area and up to ${4} targets within a ${3}-meter radius of them. Grants her a ^{3}${6}%^{4} DMG Bonus for ${7} seconds, and the final hit inflicts ^{5}${8}^{6} meters of Knockback.	skill-description
-10110300540	Bongun claps its hands together to unleash demonic energy, dealing Neutral melee ^{5}adaptive damage^{6} equal to the master's ^{1}Adaptive ATK^{2}*^{3}${3}%^{4} to up to ${2} enemies within ${1} meters of the master, plus Poison melee ^{11}adaptive damage^{12} totaling the master's ^{7}Adaptive ATK^{8}*^{9}${4}%^{10}.	skill-description
 10110300548	The Mutant roars loudly, dealing Neutral melee Physical damage equal to Pet Physical ATK*^{1}${3}%^{2} to up to ${2} enemies within a ${1}-meter radius, then increasing its Life Steal by ${4}%. Its Normal Attacks also trigger Extra area damage, dealing the same damage as the Normal Attack to the target and up to @{2} enemies within @{1} meters of it for ${5} seconds.	skill-description
 10110300549	Mummy uses Cursed Attack, dealing Neutral ranged ^{5}adaptive damage^{6} equal to the master's ^{1}Adaptive ATK^{2}*^{3}${4}%^{4} to up to ${3} enemies in a targeted area with a ${2}-meter radius within ${1} meters, and granting the master 【Evil Curse】 for ${5} seconds. When the master Kills an enemy, casts ^{7}^{8}【Malicious Curse】^{9}^{10} at that enemy's location. Can trigger up to ${6} times.	skill-description
 10110300556	Corrupted Wander Man slashes, dealing ranged Neutral ^{5}adaptive damage^{6} equal to the master's ^{1}Adaptive ATK^{2}*^{3}${4}%^{4} to up to ${3} enemies in a targeted area with a ${2}-meter radius within ${1} meters, and inflicts 【Turbid Soul Impact】: reduces Physical and Magic DEF by ^{7}${5}%^{8} for ${6} seconds.	skill-description
@@ -784,11 +532,8 @@ ID	English	Category
 10110300569	Sarah Irene unleashes a Multi-hit Flame Fist, dealing @{1} hits of Neutral Ranged ^{5}Adaptive Damage^{6} totaling the owner's ^{1}Adaptive Attack^{2}*^{3}${2}%^{4} to the selected ST enemy within ${1} meters and increasing the Fire Damage they take by ${4}% for ${3} sec. The owner gains 【Flame Fist】 for ${5} sec: when Deals DMG, deals @{2} hits of Fire Ranged ^{11}Adaptive Damage^{12} totaling the owner's ^{7}Adaptive Attack^{8}*^{9}${6}%^{10} to the enemy. Internal Cooldown: ${7} sec.	skill-description
 10110300616	Fire Ninja Shinobi appears beside its master and uses a ninja art, removing control effects from its master and granting them ^{1}^{2}【Control Immunity】^{3}^{4} for ${1} seconds. It also moves its master ${2} meters in the designated direction, then increases their Movement Speed by ^{5}${4}%^{6} and grants Stealth for ${3} seconds (dealing damage or taking damage ${5} times during Stealth ends the effect).	skill-description
 10110300618	Fire Ninja Shinobi hurls a series of Dynamite blasts around itself, sequentially dealing Neutral ranged Physical damage equal to Pet Physical ATK * ^{1}${2}%^{2} to up to ${3} enemies within ${1}, ${4}, and ${5} meters and ^{3}knocking them back^{4}. The final hit also reduces the targets' Physical and Magic ATK by ^{5}${6}%^{6} for ${7} seconds.	skill-description
-10110300619	Silver Moon Witch Summons Moonlight to strike the selected location, dealing Neutral Ranged ^{5}Adaptive Damage^{6} equal to the owner's ^{1}Adaptive Attack^{2}*^{3}${4}%^{4} to up to ${3} enemies within the designated ${2}-meter-radius area within ${1} meters of the owner. For the next ${5} sec, hitting an enemy has a ^{7}${6}%^{8} Chance to grant the owner ^{9}^{10}【Moonlight】^{11}^{12}, increasing damage by ^{13}${7}%^{14} for ${8} sec. This DMG Bonus is guaranteed if the target hit is more than ${9} meters away from You.	skill-description
 10110300620	When an ^{1}Offensive-type^{2} Primary Battle Skill hits, increases the Ranged Damage the target takes by ^{3}${2}%^{4} for ${1} sec.	skill-description
 10110300621	The Silver Moon Witch summons moonlight to strike enemies, increasing the ranged damage of up to ${3} allies within ${7} meters by ^{1}${5}%^{2} for ${6} seconds and dealing Neutral ranged magic damage equal to Pet Magic ATK * ^{3}${4}%^{4} to up to ${3} enemies within a ${1}-meter by ${2}-meter area in front of her.	skill-description
-10110300622	The Silver Moon Witch summons moonlight to strike enemies, increasing the ranged damage of up to ${3} allies within ${2} meters by ^{1}${5}%^{2} for ${6} seconds and dealing Neutral ranged magic damage equal to Pet Magic ATK * ^{3}${4}%^{4} to up to ${3} enemies in a ${1}-meter-by-${2}-meter area in front of her.	skill-description
-10110300623	Demon Maid appears beside the master, removing their control effects and granting them ^{1}^{2}[Control Immunity]^{3}^{4} for ${1} seconds. She deals Neutral melee ^{9}Adaptive Damage^{10} equal to the master's ^{5}Adaptive ATK^{6}*^{7}${4}%^{8} to up to ${3} enemies within a ${2}-meter radius and inflicts ^{11}^{12}[Silence]^{13}^{14} on enemies hit for ${6} seconds.	skill-description
 10110300624	When casting a ^{1}Dispel-type^{2} or ^{3}Immunity-type^{4} Primary Battle Skill, inflicts ^{5}^{6}【Silence】^{7}^{8} on up to ${2} enemies within ${1} meters of the owner for ${3} sec.	skill-description
 10110300625	The Demon Maid uses Launch to fire “Charming Sweetheart” at an ST enemy within ${2} meters and up to ${4} enemies within ${3} meters of the target, dealing Neutral ranged magic damage equal to Pet Magic ATK*^{1}${1}%^{2} and inflicting ${5} sec of ^{3}^{4}【Stun】^{5}^{6}.	skill-description
 10110300626	After the Wildcat Knight takes to the air, it dives at the target area, dealing the Master's^{1} Adaptive ATK^{2} * ^{3}${4}%^{4} Neutral melee ^{5}Adaptive DMG^{6} to up to ${3} enemies within a ${2}-meter radius inside a designated area within ${1} meters of the Master, and grants the Master a 【Vanguard Shield】 equal to the Master's Max Life * ^{7}${5}%^{8}. Each enemy HIT grants the Master an Extra 【Vanguard Shield】 equal to the Master's Max Life * ^{9}${5}%^{10} for ${6} sec., stacking up to ${7} times.	skill-description
@@ -823,7 +568,6 @@ ID	English	Category
 10110300655	Medusa releases a silver snake that ricochets between enemies, dealing Magic ATK*^{1}${2}%^{2} Neutral ranged magic damage to the first enemy within ${1}m and Magic ATK*^{3}${3}%^{4} Neutral ranged magic damage to subsequent targets. Ricochets up to ${4} times. Each HIT has a ^{5}${5}%^{6} Chance to inflict ^{7}^{8}【Petrify】^{9}^{10} for ${6} seconds.	skill-description
 10110300656	Medusa deals Neutral ranged Physical damage equal to Physical ATK * ^{1}${2}%^{2} to a single target within ${1} meters.	skill-description
 10110300657	The Goddess of Hope swings her spear, dealing ^{1}${1}%^{2} Neutral melee Physical damage to the enemy.	skill-description
-10110300658	Goddess of Hope briefly gathers flames before charging forward, dealing Neutral melee Physical damage equal to PATK*^{1}${4}%^{2} to up to ${3} enemies in a ${1}-meter-by-${2}-meter area in the designated direction. Grants the owner ^{3}【Divine Hope】^{4} for ${5} sec: increases Physical DEF and MDEF by ^{5}${6}%^{6}. While Active, the owner's HP cannot fall below ^{7}${7}%^{8}.	skill-description
 10110300659	When casting ^{1}any type^{2} of Primary Battle Skill, grants the owner ^{3}【Divine Hope】^{4}, increasing Physical DEF and MDEF by ^{5}${1}%^{6} for ${2} sec.	skill-description
 10110300660	The Goddess of Hope slashes through the air with a dark blade, dealing Neutral melee ^{5}Adaptive Damage^{6} equal to the master's ^{1}Adaptive ATK^{2}*^{3}${3}%^{4} to up to ${2} enemies within a ${1}-meter radius of the target area, and grants the master ^{7}【Divine Hope】^{8}, increasing Physical and Magic DEF by ^{9}${4}%^{10} for ${5} seconds.	skill-description
 10110300661	^{1}【Divine Hope】^{2} has an area effect and applies to up to ${2} allies within a ${1}-meter radius of the owner. Only the owner additionally gains HP Lock while ^{3}【Divine Hope】^{4} is Active, preventing their HP from falling below ^{5}${3}%^{6}. Cooldown: ${4} sec.	skill-description
@@ -900,8 +644,6 @@ ID	English	Category
 10110300840	Can only be used while piloting Madogear Pilot. Activates the Madogear Pilot's ignition system to rise into the air and gain a Shield equal to ${1}% of max HP for ${2} seconds. You can Move and have 【Immunity】 during this time. Tap the skill again or wait until the Flying duration ends to attack Below, dealing Neutral melee Physical damage equal to PATK *^{1}${5}%^{2} to up to ${4} enemies within a ${3}-meter radius, pulling them toward the center of the attack, inflicting Stun for ${6} seconds, and applying 【Severe Wound】 for @{1} seconds. For every ${7} enemies HIT by this attack, gain @{2} stacks of Shield, each equal to ${8}% of max HP. Stacks up to ${9} times and lasts ${10} seconds. Also applies Enhance to the next Axe Tornado, releasing 【High-Energy Pulse】 a number of times based on the number of enemies HIT by this attack. Also applies Enhance to the next Axe Tornado, releasing 【High-Energy Pulse】 a number of times based on the number of enemies HIT by this attack. During the skill, for every ${11} enemies HIT, damage and MSPD increase by ${12}% and ${13}%, respectively. Stacks up to ${14} times and lasts ${15} seconds.\n【Severe Wound】: Healing Done received is reduced by @{3}%.\n【High-Energy Pulse】: Deals Neutral melee Physical damage equal to PATK *^{3}@{6}%^{4} to up to @{5} enemies within a @{4}-meter radius around you.	skill-description
 10110300841	Can only be used while in Madogear Pilot Ride mode. The Madogear Pilot equips ${1} Arm Cannons on its shoulders and Launches ${6} Cannon shots at ${3} designated enemies within ${2} meters and up to ${5} Other enemies within ${4} meters of them, Deals DMG equal to a total of PATK*^{1}${7}%^{2} as Neutral Ranged Physical DMG and applies 【Melody Bubble】 for ${8} seconds. 【Melody Bubble】: Each time an enemy carrying 【Melody Bubble】 takes damage, the Bubble gradually expands. At ${9} stacks, the Bubble explodes, Deals DMG ${10} times, each equal to PATK*^{3}${11}%^{4} as Neutral Ranged Physical DMG. If 【Melody Bubble】 does not fully expand and explode, it will explode and Deals DMG when its duration ends.	skill-description
 10110300842	Can only be used while in Ride mode on the Madogear Pilot. With ${1} Arm Cannons mounted on its shoulders, Launch ${6} Cannon rounds at ${3} designated enemies within ${2} meters and up to ${5} Other enemies within ${4} meters around them, dealing total Neutral Ranged Physical damage equal to PATK*^{1}${7}%^{2}^{3}^{4}Luck Resonance ${8}%^{5}^{6}).	skill-description
-10110300843	Can only be used during Madogear Pilot Ride. In a Two-Handed setup, equips ${1} Vulcan Arm in each hand and Launches attacks at ${3} designated enemies within ${2} meters, dealing ${4} hits of Neutral Ranged Physical damage equal to PATK * ^{1}${5}%^{2}. Damage dealt to enemies carrying 【Melody Bubble】 is increased by an Extra ^{3}${6}%^{4}. Every ${7} Launches of 【Vulcan Arm】 triggers @{1} stack of 【Firepower Loaded】.\n【Firepower Loaded】: Each Launch from 【Melody Cannon】 fires ${8} Cannon rounds for ${9} activations.	skill-description
-10110300844	"Can only be used in Madogear Pilot Ride mode. With a Two-Handed setup, equip ${1} Vulcan Arm in each hand, then Launch at ${3} designated enemies within ${2} meters, dealing ${4} hits of Neutral Ranged Physical damage equal to PATK *^{1}${5}%^{2}. Damage dealt to enemies carrying 【Melody Bubble】 is increased by an Extra ^{3}${6}%^{4}. Every ${7} Launches of 【Vulcan Arm】 trigger 【Firepower Loaded】 @{1} time.\n【Firepower Loaded】: Each Launch of 【Melody Cannon】 increases the number of Cannons fired to ${8} for ${9} Launches and increases Crit Chance by ^{5}${10}%^{6}."""	skill-description
 10110300845	Release a pulse in a ${1}-meter radius around you, dealing ${2} hits of Neutral melee Physical damage equal to PATK *^{1}${3}%^{2}.	skill-description
 10110300846	Enhance 【Cannon】 into 【Melody Cannon】. After a successful HIT, applies 【Melody Bubble】 to the target for @{1} sec. 【Melody Bubble】: Each time an enemy carrying 【Melody Bubble】 takes damage, the bubble expands. Upon reaching ^{1}@{2}^{2} stacks, it explodes, dealing @{3} instances of Neutral Ranged Physical DMG equal to Physical ATK*^{3}@{4}%^{4}. If 【Melody Bubble】 does not fully expand and explode, it explodes and deals damage when its duration ends.	skill-description
 10110300847	【Arm Cannon - Enhance】becomes【Melody Cannon - Enhance】, increasing the Cannon Launch count against the target to ^{1}@{1}^{2} and increasing Total DMG by ^{3}@{2}%^{4}.	skill-description
@@ -979,7 +721,6 @@ ID	English	Category
 10110300920	Throws a bolt of chain lightning, dealing Wind Ranged Magic damage equal to MATK * ^{1}${4}%^{2} to the designated ST enemy within ${1} meters and up to ${3} Other enemies within ${2} meters of the target.	skill-description
 10110300921	Unleashes the power of thunder, dealing Wind Ranged Magic damage equal to MATK * ^{1}${4}%^{2} to up to ${3} enemies within a ${2}-meter radius of the target within ${1} meters of You (^{3}^{4}Dexterity Resonance ${8}%^{5}^{6}), with a ${5}% Chance to inflict ^{7}^{8}【Stun】^{9}^{10} for ${6} seconds. While in the ^{11}^{12}【Reading】^{13}^{14} state, consumes ${7} stacks of ^{15}【Book Page】^{16} to cast this skill 1 Extra time.	skill-description
 10110300922	Summons a massive Comet from space, dealing Neutral Ranged Magic damage equal to MATK * ^{1}${4}%^{2} to up to ${3} enemies within a ${2}-meter radius of the target within ${1} meters of You (^{3}^{4}Dexterity Resonance ${6}%^{5}^{6}). While in the ^{7}^{8}【Reading】^{9}^{10} state, consumes ${5} stacks of ^{11}【Book Page】^{12} to cast this skill 1 Extra time.	skill-description
-10110300923	Sequentially deals Water, Fire, Earth, and Wind Ranged Magic damage totaling MATK * ^{1}${4}%^{2} over @{1} hits to up to ${3} enemies within a ${2}-meter radius of the target within ${1} meters of You, while applying ^{3}【Pull】^{4}. Each attack has a ${5}% Chance to inflict ^{5}^{6}【Frozen】^{7}^{8}, ^{9}^{10}【Meteorite】^{11}^{12}, ^{13}^{14}【Petrify】^{15}^{16}, or ^{17} ^{18}【Stun】^{19} ^{20}. This skill is guaranteed to inflict at least 1 of these Status Effects. While in the ^{21}^{22}【Reading】^{23}^{24} state, consumes ${6} stacks of ^{25}【Book Page】^{26} to cast this skill 1 Extra time.	skill-description
 10110300924	Deals Neutral Magic damage equal to MATK * ^{1}${4}%^{2} to up to ${3} Enemy Team targets within a ${2}-meter radius of the target within ${1} meters of You.	skill-description
 10110300925	Uses Soul Buster to gather all Musical Notes, dealing Ghost Ranged Magic damage equal to MATK * ^{1}${4}%^{2} over @{1} hits to the designated ST enemy within a ${1}-meter radius of You and up to ${3} enemies within ${2} meters of the target (^{3}^{4}Dexterity Resonance ${8}%^{5}^{6}), while continuously applying ^{7}【Pull】^{8}. It then Terminate with an explosion, dealing Ghost Ranged Magic damage equal to MATK * ^{9}${5}%^{10} over @{2} hits (^{11}^{12}Dexterity Resonance ${8}%^{13}^{14}). While in the ^{15}^{16}【Reading】^{17}^{18} state, consumes ${6} stacks of ^{19}【Book Page】^{20} to cast this skill ${7} Extra times.	skill-description
 10110300926	The Warlock periodically gathers musical energy, automatically generating ${2} ^{1}^{2}【Psychokinetic Astral Body】^{3}^{4} every ${1} seconds, up to ${3}. If ${4} ^{5}^{6}【Psychokinetic Astral Body】^{7}^{8} are Owned when 【Soul Expansion】 hits, all ^{9}^{10}【Psychokinetic Astral Body】^{11}^{12} will Launch. Each deals Ghost Ranged Magic damage equal to MATK * ^{13}${5}%^{14} to the target enemy.	skill-description
@@ -997,7 +738,6 @@ ID	English	Category
 10110300938	Draw a holy light magic circle with an Exorciser spell, dealing Holy ranged magic damage equal to Magic ATK*^{1}${4}%^{2} to up to ${3} enemies within a ${2}-meter radius within ${1} meters of you. This skill gains one ^{3}Uses:^{4} every ${5} seconds and can stack up to two times.	skill-description
 10110300939	Channels healing around the target	skill-description
 10110300940	Dual-Layer Stigma Skill	skill-description
-10110300945	【Judex】transforms into 【Enlightenment】, gaining enhanced visuals and increased damage. When cast, it deals one instance of Extra ST damage to up to @{2} enemies within @{1} meters of the target.\n【Second Holy Light】transforms into 【Interwoven Light and Shadow】 and has a Chance to be triggered by the initial hit of 【Enlightenment】, dealing Physical or Magic damage. While in 【Divine Stance】, the trigger Chance becomes @{3}%.	skill-description
 10110300946	Every @{1} casts of 【Enlightenment】 causes all targets HIT to take damage again and increases your Move Speed.\nThe Extra damage sends a wisp of 【Will】 back to you, restoring a charge of 【Stigma】.	skill-description
 10110300947	@{1}. 【Stigma】transforms into 【Blackwing Burst】, gaining improved effects and increased damage.\n@{2}. When 【Blackwing Burst】 has two charges, it gains Enhance. Casting it consumes both charges at once, dealing skill damage twice, with a larger area on the second hit.\n@{3}. 【Divine Retribution】 transforms into 【Demonic Judgment】. After casting, automatically casts 【Blackwing Burst】 at the target location.	skill-description
 10110300949	You spin your battle axe to create a hurricane filled with axe trails. Targets hit are inflicted with ${1} stacks of ${2}% Slow (cannot stack) for ${3} seconds. The hurricane deals ${6} instances of ${7}% Physical damage to up to ${5} enemies within a ${4}-meter radius. Each instance that hits ${8} targets grants you ${9} stacks of 【Blade Mark】.	skill-description
@@ -1021,7 +761,6 @@ ID	English	Category
 10110300967	Can only be used while riding a Demonic Wolf. Command the Demonic Wolf to bite @{2} designated targets within @{1} meters, dealing x% Neutral Physical damage and reducing their healing received by @{3}% for @{4} seconds. Damage dealt to controlled targets is increased by @{5}%.	skill-description
 10110300968	Bombards a ${1}m * ${2}m area in the specified direction, continuously dealing Physical ATK *^{1}${4}%^{2} as Neutral ranged Physical damage to up to ${3} enemies in its path.	skill-description
 10110300969	Dive toward a designated location within ${1} meters. Upon impact, deal Neutral Melee Physical DMG equal to ^{3}${6}%^{4} of Physical ATK to up to ${3} enemies within a ${2}-meter radius and inflict ^{1}${5}%【Slow】^{2} for ${4} seconds, plus ^{5}【Stun】^{6} for ${7} seconds. Each enemy hit grants a ^{9}【Shield】^{10} equal to ^{7}${7}%^{8} of your Max Life for ${8} seconds, up to ^{11}${9}%^{12}.	skill-description
-10110300970	Swing your weapon to unleash a blade of energy, dealing ${3} hits of Neutral melee Physical damage equal to Physical ATK * ^{1}${4}%^{2} to up to ${2} enemies within a ${1}-meter radius. Increases your Movement Speed by ^{3}${5}%^{4} for ${6} seconds. This skill is treated as a Normal Attack and is affected by ^{5}${7}%^{6} of your Attack Speed.	skill-description
 10110300971	Two-handed Spear skill. Charge up spiral energy and hurl your Spear at a target enemy within ${1} meters, dealing Neutral ranged Physical damage equal to Physical ATK * ^{1}${2}%^{2}, pulling the enemy in front of you, and inflicting ^{3}【Immobilize】^{4} for ${3} seconds.	skill-description
 10110300972	Two-Handed Spear skill. Summons a barrage of Spears toward the locked target, dealing ${4} hits of Neutral ranged Physical damage equal to Physical ATK * ^{1}${5}%^{2} to up to ${3} enemies within a ${1}m * ${2}m area in front of you.	skill-description
 10110300973	Drive your weapon into the ground with tremendous force, unleashing a massive shockwave that deals ${4} hits of Neutral ranged Physical damage totaling Physical ATK *^{1}${5}%^{2} to up to ${3} enemies within a ${1}m * ${2}m area in front of you, knocking them airborne and inflicting ^{3}【Immobilize】^{4} for ${6} seconds. You enter ^{5}【Fury】^{6}. ^{7}【Fury】^{8}: Immediately gain @{1} charge of 【Enhance Hundred Spear】.	skill-description
@@ -1040,11 +779,9 @@ ID	English	Category
 10110300986	Command shadows to stomp down from above, dealing a total of Physical ATK*^{1}${3}%*(@{1}+Attack Speed*@{2}）^{2} as Neutral melee Physical damage to up to ${2} enemies within a ${1}-meter radius. Gain ^{3}Endure^{4} while using this skill.	skill-description
 10110300987	Unleashes several shadow slashes, dealing Neutral melee Physical damage equal to Physical ATK*^{1}${3}%*(@{1}+Attack Speed*@{2})^{2} to up to ${2} enemies within a ${1}-meter radius. You are ^{3}Invincible^{4} during this time. Immediately ^{5}refreshes 【Shadow Command】^{6}.	skill-description
 10110300988	When 【Enhance Camouflage】 ends, unleash a ring of discs that deals a total of ^{1}@{3}%^{2} Physical damage to up to @{2} enemies within @{1} meters (the more targets within range, the less damage each target takes) and reduces their Movement Speed by ^{3}@{4}%^{4} for @{5} seconds	skill-description
-10110300989	Within ${1} meters of yourself, sequentially deal @{1}% Wind, Earth, Fire, Water, and Ghost magic damage ${4} times each to enemies within a circular ${2}-meter radius	skill-description
 10110300990	Strike the target with the power of the soul, dealing ranged Ghost magic damage equal to Magic ATK*^{1}${2}%^{2} to the designated ST enemy within ${1} meters. While in 【Reading】, consume @{1} stacks of 【Pages】 to cast this skill 1 Extra time.	skill-description
 10110300991	Use psychic power to summon White Imprison, trapping ${1} enemies within ${2} meters and dealing Ghost-property ranged magic damage equal to Magic ATK*^{1}${3}%^{2}. Inflicts ^{3}【Immobilize】^{4} for ${4} seconds and 【Prison】 for ${5} seconds. 【Prison】: Physical and magic damage taken increases by ${6}%. 【Immobilize】: Interrupts movement. Cannot move.	skill-description
 10110300992	Unleash psychic power, entering 【Intense Telekinesis】 for ${1} sec. While active, Ghost property damage increases by ^{1}${2}%^{2} and Movement Speed increases by ${3}%.	skill-description
-10110300993	Summons a meteor, dealing Magic ATK * ^{1}${3}%^{2} Fire-element ranged magic damage to up to ${8} enemies within a ${2}-meter radius around the target within ${1} meters of you, with a ${4}% Chance to trigger ^{3}【Falling Star】^{4}. While you are in the ^{5}【Reading】^{6} state, if the ^{7}【Pages】^{8} Floors reach ${9} or higher, this skill is cast one Extra time, then consumes ${9} Floors of ^{9}【Pages】^{10}. ^{11}【Falling Star】^{12}: Deals Fire-element ranged magic damage equal to the caster's Magic ATK * ^{13}${7}%^{14}.	skill-description
 10110300994	Focuses psychic power to distort space, dealing Magic ATK * ^{1}${4}%^{2} Ghost-property ranged magic damage to a designated ST enemy within ${1}m and up to ${3} other enemies within ${2}m of the target. While in ^{3}【Reading】^{4}, consumes ${5} stacks of ^{5}【Pages】^{6} to cast this skill ${6} Extra times.	skill-description
 10110300995	The Warlock periodically gathers energy, automatically generating ${2} ^{1}【Psychic Astral Body】^{2} every ${1} seconds, up to ${3}. If ${4} ^{3}【Psychic Astral Body】^{4} are Owned, the next ${5} times You deal Ghost Damage, all ^{5}【Psychic Astral Body】^{6} will Launch. Each deals Ghost Ranged Magic damage equal to MATK * ^{7}${8}%^{8} to the target enemy and up to ${7} Other enemies within ${6} meters, and applies a ${10}% Slow for ${9} seconds.	skill-description
 10110300996	Deals Physical ATK*^{1}${3}%+${4}^{2} Fire-property melee Physical damage to up to ${2} enemies within a ${1}-meter radius, increases your Fire-property damage by ^{3}${5}%^{4}, and changes ^{5}^{6}【Basic Attack】^{7}^{8} to Fire property for ${6} sec.	skill-description
@@ -1133,18 +870,7 @@ ID	English	Category
 10110301080	Increases Poison damage dealt by ^{1}${4}%^{2}	skill-description
 10110301081	Increases Poison damage dealt by ^{1}${5}%^{2}	skill-description
 10110301082	After using 【Soul Destroyer】 ${1} times, damage dealt increases by ${2}% for ${3} sec.	skill-description
-10110301083	When 【Basic Attack】 lands a critical hit, casts 【Cross Impact】 on the target, dealing melee Physical damage equal to 【${1}% Physical ATK】	skill-description
-10110301084	After a critical hit with 【Basic Attack】, casts 【Cross Impact】 on the target, dealing melee Physical DMG equal to 【${2}% Physical ATK】	skill-description
-10110301085	When 【Basic Attack】 lands a critical hit, casts 【Cross Impact】 on the target, dealing 【${3}% Physical ATK】 melee Physical damage	skill-description
-10110301086	When a 【Basic Attack】 lands a critical hit, casts 【Cross Impact】 on the target, dealing 【${4}% Physical ATK】 as melee Physical damage	skill-description
-10110301087	After a 【Basic Attack】 critically hits, casts 【Cross Impact】 on the target, dealing 【${5}% Physical ATK】 as melee Physical damage	skill-description
-10110301088	After 【Basic Attack】 lands a critical hit, cast 【Cross Impact】 on the target, dealing 【${6}% Physical ATK】 melee Physical damage	skill-description
-10110301089	After 【Basic Attack】 lands a critical hit, unleash 【Cross Impact】 on the target, dealing 【${7}% Physical ATK】 as melee Physical damage	skill-description
-10110301090	When 【Basic Attack】 lands a critical hit, casts 【Cross Impact】 on the target, dealing melee Physical damage equal to 【${8}% Physical ATK】	skill-description
-10110301091	When 【Basic Attack】 lands a critical hit, casts 【Cross Impact】 on the target, dealing 【${9}% Physical ATK】 melee Physical damage	skill-description
-10110301092	After 【Basic Attack】 lands a critical hit, cast 【Cross Impact】 on the target, dealing melee Physical damage equal to 【${10}% Physical ATK】	skill-description
 10110301093	When a Basic Attack crits (internal cooldown: ${1}s), your ^{1}${2}^{2} Crit increases for ${3}s, stacking up to ${4} times. Your 【Assassin Normal Attack】 Crit Chance increases by ^{3}${5}%^{4}, but its damage is reduced by ^{5}${6}%^{6}.	skill-description
-10110301094	Deals 【${1}%*Physical ATK】 Physical damage. Each time 【Shadow Strike】 triggers, you gain 1 stack of 【Shadow Strike】, granting ${2}% Attack Speed/${3} CRIT for @{1} sec, up to @{2} stacks	skill-description
 10110301095	Lock on to an enemy at a Distance of ${1} cells and deal ${2}% melee Physical damage	skill-description
 10110301096	Target an enemy within a Distance of ${1} cells and deal ${3}% melee Physical damage	skill-description
 10110301097	Target an enemy at a Distance of ${1} cells, dealing ${4}% melee Physical damage	skill-description
@@ -1158,7 +884,6 @@ ID	English	Category
 10110301105	After casting, deals Physical ATK*^{1}${3}%+${4}^{2} Neutral melee Physical damage to up to ${2} enemies within a ${1}-meter radius, with a ^{3}${5}%^{4} Chance to inflict ^{5}^{6}【Stun】^{7}^{8} for ${6} sec. or ^{9}^{10}【Blind】^{11}^{12} for ${7} sec.	skill-description
 10110301106	Chance for Normal Attack to trigger AOE damage (internal CD: @{1}s), hitting up to @{2} targets	skill-description
 10110301107	Normal Attacks have a Chance to trigger an Extra ST Normal Attack (internal cooldown: @{1} sec.)	skill-description
-10110301108	When using Sonic Blow, unleashes an Extra mini “Sonic Blow” on up to two targets within @{1} meters (internal cooldown: @{2} sec.)	skill-description
 10110301109	Increases Shadowless Fang's base damage. On HIT, deals Extra AoE damage to up to @{2} enemies within a @{1}-meter radius of the target.\n(Triggers an AoE; its radius and maximum number of targets should be lower than the third job version.)	skill-description
 10110301110	"While Camouflaged, your first attack deals Extra damage to the target called ""Sneak Attack"" (single target, high fixed damage Percentage; Description continues after the next Camouflage)."	skill-description
 10110301111	When Double Attack triggers, trigger an Extra 【Double Attack - AoE】 within @{1} meters of yourself (internal CD: @{2} sec.)\n(Changed to trigger due to performance issues)	skill-description
@@ -1203,130 +928,15 @@ ID	English	Category
 10110301173	Deals Water ranged magic damage equal to Magic ATK * ^{1}${1}%^{2} to the target.	skill-description
 10110301174	Deals ranged Wind magic damage equal to your MATK * ^{1}${1}%^{2} to the target.	skill-description
 10110301175	Deals Earth ranged magic damage equal to Magic ATK * ^{1}${1}%^{2} to the target.	skill-description
-10220300962	Purple Chance Buff	skill-effect
-10220300961	Orange Chance Buff	skill-effect
 10220300870	Hidden from players; for designers only	skill-effect
-10220300854	Ten Kills in One Step (Indiscriminate Attack)	skill-effect
 10220300850	System Buff@{1}	skill-effect
 10220300837	Add a sound effect at maximum stacks.	skill-effect
-10220300803	【Stigma】 becomes 【Black Feather Burst】, with enhanced visuals and damage. When 【Black Feather Burst】 has two charges, it becomes Enhanced. Casting it consumes both charges at once and deals skill damage twice, with the second hit covering a larger area. 【Divine Retribution】 becomes 【Demonic Judgment】. After it is cast, 【Black Feather Burst】 is automatically cast at the target's location.	skill-effect
-10220300801	【Judex】transforms into 【Enlightenment】, gaining enhanced visuals and increased damage. When cast, it deals one instance of Extra ST damage to up to @{2} enemies within @{1} meters of the target.\n【Second Holy Light】transforms into 【Interwoven Light and Shadow】 and has a Chance to be triggered by the initial hit of 【Enlightenment】, dealing Physical or Magic damage. While in 【Divine Stance】, the trigger Chance becomes @{3}%.	skill-effect
-10220300787	Checks the target's status before damage is dealt and increases the damage.	skill-effect
 10220300786	For designers	skill-effect
-10220300784	Checks the target's status before damage is dealt and increases the damage.	skill-effect
-10220300746	Damage +@{1}%. Stacks.	skill-effect
-10220300743	Pharaoh AoE marker	skill-effect
-10220300741	Coffin uses skill @{1}	skill-effect
-10220300740	Detect ally—add derived skill	skill-effect
-10220300738	Coffin uses skill	skill-effect
-10220300737	Coffin Summoned marker	skill-effect
 10220300733	(No Translation Required)	skill-effect
 10220300731	Determine whether it is protected by a shield; hide later	skill-effect
-10220300730	Looping VFX for the stone blade left on the ground	skill-effect
-10220300726	Greatsword effect on the ground	skill-effect
-10220300724	Full-screen Shield AoE	skill-effect
 10220300699	When any Protector skill is used, grants the master [Divine Hope] (Physical/Magic DEF +^{1}${1}%^{2}) for ${2}% sec.	skill-effect
-10220300691	Debuff Immunity	skill-effect
-10220300676	Reduces Attack Speed by XX%	skill-effect
 10220300674	When a shield/buff-type protection skill is cast, the master recovers *value description* Life upon taking damage (internal cooldown: @{1} seconds) for x seconds.	skill-effect
-10220300667	PATK increased	skill-effect
 10220300666	When a Debuff/Control-type protection skill scores a HIT, the enemy takes Extra *specified* damage when hit for @{1} sec. (internal CD: @{2} sec.)	skill-effect
-10220300658	Fire damage taken +@{1}%.	skill-effect
-10220300622	Triggers Call Thunder Lv. @{1}	skill-effect
-10220300617	Popo's Bubble Shield.	skill-effect
-10220300594	Enters Blind status	skill-effect
-10220300589	Hitstun	skill-effect
-10220300586	Take damage once every @{1} seconds.	skill-effect
-10220300585	Creates a Dark Field underfoot after @{1} seconds	skill-effect
-10220300584	Takes damage every @{1} seconds. Each stack reduces Healing Volume received by @{2}%	skill-effect
-10220300583	Cannot move or attack	skill-effect
-10220300582	Applies Petrify at @{1} stacks	skill-effect
-10220300581	Reduces Movement Speed by @{1}% and continuously damages nearby enemies	skill-effect
-10220300579	Enters Delusion, greatly increasing ATK and Attack Speed, but also increasing damage taken	skill-effect
-10220300578	Hidden and cannot be seen or targeted\nRevealed after taking damage @{1} times	skill-effect
-10220300577	Creates a Light Field underfoot after @{1} seconds	skill-effect
-10220300576	Takes damage every @{1} seconds. Each stack reduces damage dealt by @{2}%	skill-effect
-10220300575	Knockback Immunity	skill-effect
-10220300574	Training Dummy Auto-Recovery	skill-effect
-10220300573	Increases damage reduction from Demi-Human monsters by ${1}%~${2}%	skill-effect
-10220300572	Increases damage to Demi-Human monsters by ${1}%~${2}%	skill-effect
-10220300571	Increases damage reduction from Medium Monsters by ${1}%~${2}%	skill-effect
-10220300570	Increases Increased Damage to Medium Monsters by ${1}%~${2}%	skill-effect
-10220300569	Increases Magic DEF by ${1}~${2}	skill-effect
-10220300568	Increases Physical DEF by ${1}~${2}	skill-effect
-10220300567	Increases Life by ${1}~${2} when used	skill-effect
-10220300566	Increases Magic ATK by ${1}~${2}	skill-effect
-10220300565	Increases Physical ATK by ${1}~${2}	skill-effect
-10220300564	Restores @{1} HP to self per second.	skill-effect
-10220300563	Poring's bubble shield for its master.	skill-effect
-10220300562	^{1}^{2}【Mystical Amplification】^{3}^{4} grants ^{5}${1}^{6} Extra MATK.	skill-effect
-10220300560	When ^{1}^{2}【Gravitation Field】^{3}^{4} ends, inflicts ^{7}^{8}【Immobilize】^{9}^{10} on enemies in the area for ^{5}${1}^{6} seconds.	skill-effect
-10220300559	After using ^{1}^{2}【Gravitation Field】^{3}^{4}, trigger 【Spatial Distortion】 @{1} times, dealing Ghost Ranged Magic damage equal to MATK * ^{9}${3}% + ${4}^{10} to up to ^{7}${2}^{8} enemies within a ^{5}${1}^{6}-meter radius. Has a ^{11}${5}%^{12} Chance to inflict 【Slow】 for ^{13}${6}^{14} seconds, reducing the target's MSPD by ^{15}${7}%^{16}.	skill-effect
-10220300558	^{1}^{2}【Gravitation Field】^{3}^{4} DMG multiplier +^{5}${1}%^{6} and fixed skill damage +^{7}${2}^{8}.	skill-effect
-10220300557	Each stack grants ^{1}${1}^{2} MATK, up to ^{3}${2}^{4} stacks.	skill-effect
-10220300555	When ^{1}^{2}【Soul Drain】^{3}^{4} scores a Kill, gain ^{5}${1}^{6} MATK, up to ^{7}${2}^{8}. The amount gained is doubled when you Kill Players. Resets upon death, switching Locations, or going offline.	skill-effect
-10220300554	Increases Wind/Earth/Water/Fire/Neutral/Ghost damage dealt by ^{1}${1}%^{2}.	skill-effect
-10220300553	^{1}^{2}【Mystical Amplification】^{3}^{4} grants ^{5}${1}^{6} Extra Cast Speed.	skill-effect
-10220300552	For each enemy hit by ^{1}^{2}【Napalm Vulcan】^{3}^{4}, its DMG Bonus increases by ^{5}${1}%^{6}, up to ^{7}${2}%^{8}, for every @{1} enemy hit.	skill-effect
-10220300551	After casting ^{3}^{4}【Magic Crasher】^{5}^{6} ^{1}${1}^{2} times, the next @{1} casts of ^{7}^{8}【Magic Crasher】^{9}^{10} gain a ^{11}${2}%^{12} skill damage multiplier and ^{13}${3}^{14} fixed damage.	skill-effect
-10220300550	^{1}^{2}【Magic Crasher】^{3}^{4} and ^{5}^{6}【Napalm Vulcan】^{7}^{8} gain a ^{9}${1}%^{10} skill damage multiplier and ^{11}${2}^{12} fixed damage.	skill-effect
-10220300549	For each enemy hit by ^{1}^{2}【Lord of Vermilion】^{3}^{4}, its DMG Bonus increases by ^{5}${1}%^{6}, up to ^{7}${2}%^{8}, for every @{1} enemy hit.	skill-effect
-10220300548	After using ^{1}^{2}【Storm Gust】^{3}^{4}, immediately triggers 【Frost Explosion】 @{1} times, dealing Water Ranged Magic damage equal to MATK*^{9}${3}%+${4}^{10} to up to ^{7}${2}^{8} enemies within a ^{5}${1}^{6}-meter radius, with a ^{11}${5}%^{12} Chance to inflict ^{13}^{14}【Frozen】^{15}^{16} for ^{17}${6}^{18} seconds.	skill-effect
-10220300547	^{1}^{2}【Storm Gust】^{3}^{4} gains a ^{5}${1}%^{6} skill damage multiplier and ^{7}${2}^{8} fixed damage; ^{9}^{10}【Lord of Vermilion】^{11}^{12} gains a ^{13}${3}%^{14} skill damage multiplier and ^{15}${4}^{16} fixed damage.	skill-effect
-10220300546	After using ^{1}^{2}【Heaven's Drive】^{3}^{4}, the next ^{5}^{6}【Meteor Storm】^{7}^{8} used within ${1} seconds creates an 【Ember Zone】 lasting ^{9}${2}^{10} seconds. Every ^{11}${3}^{12} seconds, it deals Fire Ranged Magic damage equal to MATK*^{15}${5}%+${6}^{16} to up to ^{13}${4}^{14} enemies within the area.	skill-effect
-10220300545	After using ^{1}^{2}【Meteor Storm】^{3}^{4}, immediately triggers 【Fire Explosion】 @{1} times, dealing Fire Ranged Magic damage equal to MATK*^{9}${3}%+${4}^{10} to up to ^{7}${2}^{8} enemies within a ^{5}${1}^{6}-meter radius.	skill-effect
-10220300544	^{1}^{2}【Meteor Storm】^{3}^{4} gains a ^{5}${1}%^{6} skill damage multiplier and ^{7}${2}^{8} fixed damage; ^{9}^{10}【Heaven's Drive】^{11}^{12} gains a ^{13}${3}%^{14} skill damage multiplier and ^{15}${4}^{16} fixed damage.	skill-effect
-10220300543	When ^{1}^{2}【Jupitel Thunder】^{3}^{4} hits, it triggers 【Thunderbolt】, dealing Wind Ranged Magic damage equal to MATK*^{5}${1}%+${2}^{6} to the target.	skill-effect
-10220300540	After ^{1}^{2}【Fire Ball】^{3}^{4} hits the primary target, it deals Fire Ranged Magic damage equal to MATK*^{9}${3}%+${4}^{10} to up to ^{7}${2}^{8} enemies within a ^{5}${1}^{6}-meter radius.	skill-effect
-10220300539	After ^{1}^{2}【Fire Ball】^{3}^{4} hits the primary target, it has a ^{5}${1}%^{6} Chance to trigger ^{7}^{8}【Fire Bolt】^{9}^{10} Lv. ^{11}${2}^{12} @{1} times.	skill-effect
-10220300538	^{1}^{2}【Fire Ball】^{3}^{4} and ^{5}^{6}【Sightrasher】^{7}^{8} gain a ^{9}${1}%^{10} skill damage multiplier and ^{11}${2}^{12} fixed damage.	skill-effect
-10220300534	After ^{1}^{2}【Fire Bolt】^{3}^{4}, ^{5}^{6}【Cold Bolt】^{7}^{8}, ^{9}^{10}【Lightning Bolt】^{11}^{12}, or ^{13}^{14}【Earth Spike】^{15}^{16} hits, it triggers 【Elemental Shock】 @{1} times, dealing Neutral Ranged Magic damage equal to MATK*^{21}${3}%+${4}^{22} to up to ^{19}${2}^{20} enemies within a ^{17}${1}^{18}-meter radius. Cooldown: ^{23}${5}^{24} seconds.	skill-effect
-10220300533	After ^{1}^{2}【Fire Bolt】^{3}^{4}, ^{5}^{6}【Cold Bolt】^{7}^{8}, ^{9}^{10}【Lightning Bolt】^{11}^{12}, or ^{13}^{14}【Earth Spike】^{15}^{16} hits, it triggers 【Elemental Pursuit】 @{1} times, dealing Neutral Ranged Magic damage equal to MATK*^{17}${1}%+${2}^{18} to the target. Cooldown: ^{19}${3}^{20} seconds.	skill-effect
-10220300532	^{1}^{2}【Fire Bolt】^{3}^{4}, ^{5}^{6}【Cold Bolt】^{7}^{8}, ^{9}^{10}【Lightning Bolt】^{11}^{12}, and ^{13}^{14}【Earth Spike】^{15}^{16} are no longer affected by Cast Speed, and their CT is fixed at ^{17}${1}^{18} seconds.	skill-effect
-10220300531	^{1}^{2}【Fire Bolt】^{3}^{4}, ^{5}^{6}【Cold Bolt】^{7}^{8}, ^{9}^{10}【Lightning Bolt】^{11}^{12}, and ^{13}^{14}【Earth Spike】^{15}^{16} have their damage multipliers increased by ^{17}${1}%^{18} and their fixed skill damage increased by ^{19}${2}^{20} points.	skill-effect
-10220300530	Increases Ghost damage dealt by ^{1}${1}%^{2}, reduces Soul Burst Cooldown by ${2}%, and increases the acquisition rate of Psychic Astral Bodies by ${3}%.	skill-effect
-10220300529	After gaining @{1} Floors, the next 【Soul Burst】 triggers @{2} astral bodies to attack the target.	skill-effect
-10220300528	When using certain Job Talents, consumes corresponding ^{1}【Pages】^{2} Floors to cast them an Extra @{1} time(s).	skill-effect
-10220300527	Reduces MSPD.	skill-effect
-10220300526	Deals damage and inflicts Paralyze	skill-effect
-10220300525	Burn	skill-effect
-10220300524	Reduces Physical DEF and Magic DEF	skill-effect
-10220300523	Silence	skill-effect
-10220300522	Increases Ghost damage dealt by @{1}% and Cast Speed by @{2}.	skill-effect
-10220300519	Damage taken from the caster increases by ${1}%.	skill-effect
-10220300518	Reduces Movement Speed by @{1}% and increases Ghost magic damage taken by @{2}%	skill-effect
-10220300517	SP restored	skill-effect
-10220300516	Restores a certain amount of SP upon Killing an enemy unit	skill-effect
-10220300515	Increases Magic ATK by ${1} and Cast Speed by ${2}	skill-effect
-10220300514	Immobilize effect	skill-effect
-10220300513	Inflicts Blind, reducing Physical/Magic DEF by @{1}%	skill-effect
-10220300512	Reduces Attack Speed by ${1}% and Movement Speed by ${2}%	skill-effect
-10220300511	Blind effect	skill-effect
-10220300510	Stun effect	skill-effect
-10220300509	Blocks melee Physical damage	skill-effect
-10220300507	Reveals hidden targets within a @{1}-meter radius	skill-effect
-10220300506	Changes armor property to Water. Active only for the caster	skill-effect
-10220300505	Changes armor property to Earth. Active only for the caster	skill-effect
-10220300504	Increases Wind damage taken by @{1}%	skill-effect
-10220300503	Increases Fire damage taken by @{1}%	skill-effect
-10220300502	Blind	skill-effect
-10220300501	Slow	skill-effect
-10220300500	Immobilize	skill-effect
-10220300499	Frozen	skill-effect
-10220300498	Physical DEF increased by ${1} and Magic DEF by ${2}	skill-effect
-10220300496	Magic ATK increased by ${1} and Physical ATK by ${2}	skill-effect
-10220300495	Brief Revive and recovery from a Yggdrasil Leaf Revive	skill-effect
-10220300494	Restores @{1} Life per sec. for @{2} sec.	skill-effect
-10220300493	For every @{1} LUK, this skill's percentage damage multiplier gains an Extra increase equal to this Resonance's percentage. This effect is Active for up to @{2} LUK; LUK beyond @{3} grants no further Extra increase to the percentage damage multiplier.	skill-effect
-10220300492	For every @{1} VIT, this skill's percentage damage multiplier gains an Extra increase equal to this Resonance's percentage. This effect is Active for up to @{2} VIT; VIT beyond @{3} grants no further Extra increase to the percentage damage multiplier.	skill-effect
-10220300491	For every @{1} DEX, this skill's percentage damage multiplier gains an Extra increase equal to this Resonance's percentage. This effect is Active for up to @{2} DEX; DEX beyond @{3} grants no further Extra increase to the percentage damage multiplier.	skill-effect
-10220300490	For every @{1} INT, this skill's percentage damage multiplier gains an Extra increase equal to this Resonance's percentage. This effect is Active for up to @{2} INT; INT beyond @{3} grants no further Extra increase to the percentage damage multiplier.	skill-effect
-10220300489	For every @{1} AGI, this skill's percentage damage multiplier gains an Extra increase equal to this Resonance's percentage. This effect is Active for up to @{2} AGI; AGI beyond @{3} grants no further Extra increase to the percentage damage multiplier.	skill-effect
-10220300488	For every @{1} STR, this skill's percentage damage multiplier gains an Extra increase equal to this Resonance's percentage. This effect is Active for up to @{2} STR; STR beyond @{3} grants no further Extra increase to the percentage damage multiplier.	skill-effect
-10220300487	Healing received reduced by ${1}%.	skill-effect
-10220300484	While active, [Warg Strike], [Warg Bite], and [Warg Hunt] summon Extra Warg companions.	skill-effect
-10220300480	Detects hidden enemies within @{1} meters of the Ranger.	skill-effect
-10110301167	Increases your Neutral, Ghost, Fire, Water, Wind, and Earth Element DMG Bonus by ^{1}${1}%^{2}. When a Boss target resists your ^{3}^{4}【Frozen】^{5}^{6}, ^{7}^{8}【Petrify】^{9}^{10}, or ^{11}^{12}【Stun】^{13}^{14}, respectively deals Water/Earth/Wind Ranged Magic damage equal to your MATK * ^{15}${2}%^{16} to the target.	skill-description
 10110301166	Deals ranged Ghost magic damage equal to Magic ATK * ^{1}${3}%^{2} to up to ${2} enemies within a ${1}-meter radius and inflicts ^{3}^{4}【Silence】^{5}^{6} for ${4} sec.	skill-description
 10110301165	Deals Ghost ranged magic damage equal to Magic ATK*^{5}${3}%+${4}^{6} to up to ^{3}${2}^{4} enemies within a ^{1}${1}^{2}-meter radius, with a ^{7}${5}%^{8} Chance to inflict ^{9}${6}^{10} sec. of 【Slow】, reducing the targets' Movement Speed by ^{11}${7}%^{12}.	skill-description
 10110301164	Deals Water ranged magic damage equal to Magic ATK * ^{5}${3}% + ${4}^{6} to up to ^{3}${2}^{4} enemies within a ^{1}${1}^{2}-meter radius, with a ^{7}${5}%^{8} Chance to inflict ^{9}^{10}【Freeze】^{11}^{12} for ^{13}${6}^{14} sec.	skill-description
@@ -1464,7 +1074,6 @@ ID	English	Category
 10110300604	All pets and their master gain ^{1}^{2}Anti-Stealth^{3}^{4} for ${1} sec., allowing them to detect hidden enemies within ^{5}${2} meters^{6}. They also gain ^{7}【Alert Recon】^{8} for ${3} sec. While active, each hit taken increases ^{9}Physical DEF by ${4}%^{10} and ^{11}Magic DEF by ${5}%^{12}, stacking up to ^{13}${6}^{14} times. Each stack lasts ^{15}${7}^{16} sec.	skill-description
 10110300603	When casting an ^{1}Offensive-type^{2} or ^{3}Buff-type^{4} Primary Battle Skill, the owner gains ^{5}^{6}Detect Stealth^{7}^{8} within a ${1}-meter radius for ${2} sec.	skill-description
 10110300602	The Scout Basilisk goes on alert, granting its master ^{1}[Vigilant Recon]^{2} for ${1} sec. Each time the master takes damage, Physical DEF increases by ^{3}${2}%^{4} and Magic DEF by ^{5}${3}%^{6}, stacking up to ^{7}${4}^{8} times and lasting ^{9}${5}^{10} sec.	skill-description
-10110300601	Alicel uses Launch to send blades outward from herself, dealing Neutral melee ^{5}Adaptive Damage^{6} equal to the master's ^{1}Adaptive ATK^{2}*^{3}${3}%^{4} to up to ${2} enemies within a ${1}-meter radius.	skill-description
 10110300600	Aliza launches blades, dealing Neutral ranged Physical damage equal to Physical ATK * ^{1}${4}%^{2} to up to ${3} enemies in a ${1} × ${2} m rectangular area ahead. She also increases the Physical ATK of up to ${3} allies within a ${5} m radius of herself by ^{3}${6}%^{4} for ${7} seconds.	skill-description
 10110300599	Alicel will Launch blades around herself, dealing melee Neutral adaptive damage equal to ^{1}${3}%^{2} of Physical ATK to up to ${2} enemies within a ${1}-meter radius.	skill-description
 10110300598	After casting an ^{1}Offensive-type^{2} or ^{3}Debuff-type^{4} Primary Battle Skill, increases the owner's ^{5}PATK by ${1}%^{6} for ${2} sec.	skill-description
