@@ -34,7 +34,7 @@ jobs:
       contents: write
     env:
       GH_TOKEN: ${{ github.token }}
-      TAG: v0.3.1-ui-hotfix-alpha.1
+      TAG: v0.4.0-english-base-alpha.1
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -66,13 +66,18 @@ jobs:
         run: |
           New-Item -ItemType Directory -Path dist/release -Force | Out-Null
           Copy-Item dist/skills-alpha/RO3-Thai-Patch-Installer.exe dist/release/
-          Copy-Item docs/AUTO-UPDATE-RELEASE.md dist/skills-alpha/README.md
+          Copy-Item docs/ENGLISH-BASE-AND-FULL-UNINSTALL.md dist/skills-alpha/README.md
           Compress-Archive -Path dist/skills-alpha/RO3-Thai-Patch-Installer.exe,dist/skills-alpha/README.md -DestinationPath dist/release/RO3-Thai-Patch-Windows-x64-Auto-Update-Alpha.zip
           New-Item -ItemType Directory -Path dist/plugin-hotfix/BepInEx/plugins -Force | Out-Null
           Copy-Item runtime-build/payload/BepInEx/plugins/RO3.ThaiLocalization.Skills.dll dist/plugin-hotfix/BepInEx/plugins/
           Copy-Item runtime-build/payload/BepInEx/plugins/SkillRuntime.Engine.dll dist/plugin-hotfix/BepInEx/plugins/
-          Copy-Item docs/PLUGIN-HOTFIX.md dist/plugin-hotfix/README.md
-          Compress-Archive -Path dist/plugin-hotfix/BepInEx,dist/plugin-hotfix/README.md -DestinationPath dist/release/RO3-Thai-Plugin-UI-Hotfix.zip
+          New-Item -ItemType Directory -Path dist/plugin-hotfix/BepInEx/config/RO3.TranslationCache -Force | Out-Null
+          Copy-Item runtime-build/payload/BepInEx/config/RO3.SkillTranslations.tsv dist/plugin-hotfix/BepInEx/config/
+          Copy-Item runtime-build/payload/BepInEx/config/RO3.SkillRules.tsv dist/plugin-hotfix/BepInEx/config/
+          Copy-Item runtime-build/payload/BepInEx/config/RO3.LanguageOrigins.tsv dist/plugin-hotfix/BepInEx/config/
+          Copy-Item runtime-build/payload/BepInEx/config/RO3.TranslationCache/cache.json dist/plugin-hotfix/BepInEx/config/RO3.TranslationCache/
+          Copy-Item docs/ENGLISH-BASE-UPDATE.md dist/plugin-hotfix/README.md
+          Compress-Archive -Path dist/plugin-hotfix/BepInEx,dist/plugin-hotfix/README.md -DestinationPath dist/release/RO3-Thai-English-Base-Update.zip
           git archive --format=zip -o dist/release/RO3-Thai-Localization-Source-Auto-Update-Alpha.zip HEAD
           if ($LASTEXITCODE -ne 0) { throw 'Source archive failed' }
           Get-ChildItem dist/release -File | Sort-Object Name | ForEach-Object { "$((Get-FileHash $_.FullName -Algorithm SHA256).Hash.ToLowerInvariant())  $($_.Name)" } | Set-Content dist/release/SHA256SUMS.txt -Encoding ascii
@@ -85,23 +90,11 @@ jobs:
         run: |
           gh release view $env:TAG --repo $env:GITHUB_REPOSITORY *> $null
           if ($LASTEXITCODE -ne 0) {
-            gh release create $env:TAG --repo $env:GITHUB_REPOSITORY --target $env:GITHUB_SHA --draft --prerelease --latest=false --title 'RO3 Thai — UI Compatibility Hotfix Alpha (ยังไม่ทดสอบในเกม)' --notes-file docs/AUTO-UPDATE-RELEASE.md
+            gh release create $env:TAG --repo $env:GITHUB_REPOSITORY --target $env:GITHUB_SHA --draft --prerelease --latest=false --title 'RO3 Thai — English Base + Full Uninstall Alpha (ยังไม่ทดสอบในเกม)' --notes-file docs/ENGLISH-BASE-AND-FULL-UNINSTALL.md
             if ($LASTEXITCODE -ne 0) { throw 'Create failed' }
           }
           $assets = Get-ChildItem dist/release -File | ForEach-Object { $_.FullName }
           gh release upload $env:TAG $assets --repo $env:GITHUB_REPOSITORY --clobber
           if ($LASTEXITCODE -ne 0) { throw 'Upload failed' }
-          gh release edit $env:TAG --repo $env:GITHUB_REPOSITORY --draft=false --prerelease --latest=false --title 'RO3 Thai — UI Compatibility Hotfix Alpha (ยังไม่ทดสอบในเกม)' --notes-file docs/AUTO-UPDATE-RELEASE.md
+          gh release edit $env:TAG --repo $env:GITHUB_REPOSITORY --draft=false --prerelease --latest=false --title 'RO3 Thai — English Base + Full Uninstall Alpha (ยังไม่ทดสอบในเกม)' --notes-file docs/ENGLISH-BASE-AND-FULL-UNINSTALL.md
           if ($LASTEXITCODE -ne 0) { throw 'Publish failed' }
-      - name: Mark previous updater Alpha as superseded without replacing its assets
-        shell: pwsh
-        run: |
-          $oldBody = gh release view v0.3.0-auto-update-alpha.1 --repo $env:GITHUB_REPOSITORY --json body --jq .body
-          if ($LASTEXITCODE -eq 0) {
-            $link = "https://github.com/$env:GITHUB_REPOSITORY/releases/tag/$env:TAG"
-            if (($oldBody -join "`n") -notlike "*$link*") {
-              $warning = "WARNING: Superseded due to stripped-runtime compatibility errors affecting SoftMask/UI and the updater. Use the targeted hotfix instead: $link`n`n---`n`n"
-              gh release edit v0.3.0-auto-update-alpha.1 --repo $env:GITHUB_REPOSITORY --title 'RO3 Thai Auto-update Alpha — Superseded: UI compatibility defect' --notes ($warning + ($oldBody -join "`n"))
-              if ($LASTEXITCODE -ne 0) { throw 'Failed to mark old Alpha superseded' }
-            }
-          }
