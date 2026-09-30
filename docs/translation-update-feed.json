@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "data_version": "4ee76f04f3af861f1fbbe6035efd36efc844fd82b51864dae84a321a48e2a0b5",
+  "source_overrides_sha256": "3fffededbeda2f9006ce50c86843134d85c6095451780006b4ffd023d84fe3eb",
+  "translation_ids": 3375,
+  "runtime_rules": 1848,
+  "data_only": true,
+  "game_tested": false
+}

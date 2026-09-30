@@ -1,7 +1,9 @@
 {
   "fresh_skill_ids": 2414,
-  "unique_English_descriptions": 2351,
-  "numeric_runtime_rules": 1621,
+  "translation_ids": 3375,
+  "scope": "skills-items-food",
+  "unique_English_descriptions": 3273,
+  "numeric_runtime_rules": 1848,
   "excluded_semantic_review_ids": [
     "10110300015",
     "10110300017",

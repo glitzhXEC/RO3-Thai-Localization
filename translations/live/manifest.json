@@ -1,0 +1,20 @@
+{
+  "Schema": 1,
+  "RuntimeSchema": 1,
+  "Version": "4ee76f04f3af861f1fbbe6035efd36efc844fd82b51864dae84a321a48e2a0b5",
+  "SourceSha256": "3fffededbeda2f9006ce50c86843134d85c6095451780006b4ffd023d84fe3eb",
+  "TranslationIds": 3375,
+  "RuntimeRules": 1848,
+  "Files": [
+    {
+      "Name": "RO3.LocalizationOverrides.tsv",
+      "Sha256": "bda6568c094b79562541fd06d4fec85961f7aed984255eac12bf75a2d7b5b585",
+      "Bytes": 1229630
+    },
+    {
+      "Name": "RO3.LocalizationRules.tsv",
+      "Sha256": "0567358333acd80db220f7f1f3dd85289ad08131dcd0c0114dc7cfb67d79d6b5",
+      "Bytes": 1502356
+    }
+  ]
+}
