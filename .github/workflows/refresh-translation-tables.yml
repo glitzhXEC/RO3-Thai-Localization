@@ -1,0 +1,46 @@
+name: Refresh translation tables
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/refresh-translation-tables.yml'
+      - 'translations/batch-*.th.json'
+      - 'scripts/validate_translations.py'
+      - 'scripts/prepare_skill_runtime.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: refresh-translation-tables
+  cancel-in-progress: false
+jobs:
+  refresh:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+      - name: Validate fresh translations and reject deliberate corruption
+        run: python scripts/test_validation.py
+      - name: Verify skills runtime and styled numeric rules
+        run: |
+          python scripts/prepare_skill_runtime.py
+          dotnet run --project tests/SkillRuntime.Tests -c Release -- .
+      - name: Commit generated tables only
+        run: |
+          git add -- translations/RO3.LocalizationOverrides.tsv translations/retranslated.tsv docs/qa-translations.json docs/partial-skill-payload.json
+          if git diff --cached --quiet; then
+            echo "Tables already current"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Refresh English-only translation tables after validated batches"
+          git push origin HEAD:main
