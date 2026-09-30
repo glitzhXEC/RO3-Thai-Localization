@@ -1,193 +1,25 @@
 ID	English	Category
-10220300016	Physical DEF and Magic DEF +${1}%, Healing Received +${2}%.	skill-effect
 10220300020	Physical/Physical DEF +${1}%.	skill-effect
-10220300035	City Fallen Debuff	skill-effect
-10220300036	Guild Battle Prep Buff	skill-effect
-10220300050	^{1}^{2}【Cart Revolution】^{3}^{4} hits its primary target, triggering 【Money Throw】 @{1} Extra times and dealing PATK * ${1}% + ${2} Neutral melee Physical damage. This effect has a ${3}-second Cooldown.	skill-effect
 10220300051	After using ^{1}^{2}【Cart Revolution】^{3}^{4}, immediately trigger @{1} instances of 【Gunpowder Throw】, dealing Fire melee Physical damage equal to PATK * ${3}% + ${4} to up to ${2} enemies within ${1} meters. This effect has a ${5}-second Cooldown.	skill-effect
-10220300054	^{1}^{2}【Hammer Fall】^{3}^{4}'s percentage damage multiplier increases by ${1}%, and its fixed Damage Increase increases by ${2}.	skill-effect
 10220300055	^{1}^{2}【Hammer Fall】^{3}^{4} strikes ${1} enemies within range with 【Earth Spike】, dealing Neutral melee Physical damage equal to PATK * ${2}% + ${3}, with a ${4}% Chance to inflict ^{5}^{6}【Stun】^{7}^{8} for ${5} seconds. This effect has a ${6}-second Cooldown.	skill-effect
-10220300056	^{1}^{2}【Hammer Fall】^{3}^{4}For every @{1} enemies hit, the percentage damage multiplier increases by ${1}%, up to ${2}%.	skill-effect
-10220300057	^{1}^{2}【Crazy Uproar】^{3}^{4}Extra PATK +${1}.	skill-effect
-10220300058	^{1}^{2}【Crazy Uproar】^{3}^{4}Extra VIT +${1} and LUK +${2}.	skill-effect
-10220300059	^{1}^{2}【Crazy Uproar】^{3}^{4}grants an Extra ${1} STR.	skill-effect
-10220300060	^{1}^{2}[Weaponry Research]^{3}^{4} At Lv. @{1}, increases PATK by ${1}.	skill-effect
-10220300061	^{1}^{2}【Cart Revolution】^{3}^{4}CRIT Chance increases by ${1}%.	skill-effect
-10220300062	^{1}^{2}Adrenaline Rush^{3}^{4} Lv. ${1} increases your STR by ${1}.	skill-effect
-10220300063	^{1}^{2}[Adrenaline Rush]^{3}^{4} grants the Blacksmith Class an Extra ${1}% ASPD.	skill-effect
-10220300064	^{1}^{2}【Adrenaline Rush】^{3}^{4} ignores Job Restriction.	skill-effect
-10220300065	^{1}^{2}【High Speed Cart Ram】^{3}^{4} percentage damage multiplier +${1}%; Fixed Damage Increase +${2}.	skill-effect
 10220300066	^{1}^{2}[High Speed Cart Ram]^{3}^{4}performs @{1} Extra [Cart Clash] attacks against targets below ${1}% HP, dealing PATK*${2}%+${3} Neutral melee Physical damage and inflicting ^{5}^{6}[Stun]^{7}^{8} for @{2} seconds. This effect has a ${4}-second Cooldown.	skill-effect
 10220300067	^{1}^{2}【High Speed Cart Ram】^{3}^{4} triggers 【Explosive Strike】 an Extra @{1} times when cast, dealing Neutral melee Physical damage equal to PATK * ${3}% + ${4} to up to ${2} enemies within ${1} meters. This effect has a ${5}-second Cooldown.	skill-effect
-10220300068	^{1}^{2}【Maximize Power】^{3}^{4}is Active for up to ${2} allies within ${1} meters.	skill-effect
-10220300069	^{1}^{2}[Maximize Power]^{3}^{4} Increases your PATK by ${1}.	skill-effect
-10220300070	^{1}^{2}【Maximize Power】^{3}^{4} increases nearby allies' PATK by ${1}.	skill-effect
-10220300071	^{1}^{2}【Cart Boost】^{3}^{4} increases the damage bonus of ^{5}^{6}【High Speed Cart Ram】^{7}^{8} by ${1}% while active.	skill-effect
-10220300072	^{1}^{2}【Cart Boost】^{3}^{4} maximum Cooldown is reduced by ${1} sec. Gain ^{9}^{10}【Immunity】^{11}^{12} for ${2} sec. after casting ^{5}^{6}【Cart Boost】^{7}^{8}.	skill-effect
-10220300073	^{1}^{2}【Cart Boost】^{3}^{4} duration is extended by ${1} sec.	skill-effect
-10220300074	^{1}^{2}【Maximum Over Thrust】^{3}^{4} is Active for up to ${2} allies within ${1} meters.	skill-effect
-10220300075	^{1}^{2}【Maximum Over Thrust】^{3}^{4}increases Physical damage dealt by ${1}%.	skill-effect
-10220300076	^{1}^{2}【Maximum Over Thrust】^{3}^{4}grants an Extra ${1}% Crit Chance.	skill-effect
-10220300079	Restore ${1}% of your Life.	skill-effect
-10220300080	Using 【Axe Smash】 or 【Axe Tornado】 grants stacks of 【Blade Mark】. At @{1} stacks, triggers 【Axe Boomerang - Enhance】.	skill-effect
-10220300081	At @{1} stacks, triggers 【Firepower Loading】.	skill-effect
-10220300082	Cannon Enhance lasts for @{1} uses.	skill-effect
-10220300083	When attacked, the Melody Bubble gradually expands and explodes, dealing damage.	skill-effect
-10220300085	Gain a shield.	skill-effect
-10220300086	Releases energy when the countdown ends.	skill-effect
 10220300087	Dance Move Check	skill-effect
-10220300088	Obtain a Giant Transformation item.	skill-effect
-10220300089	Enlarged	skill-effect
-10220300090	Obtain a Dwarf Transformation item.	skill-effect
-10220300091	Obtain a Red Thread item.	skill-effect
-10220300092	A red thread now connects you and them.	skill-effect
-10220300093	When dealing damage, has a @{1}% Chance to inflict 【Stun】 on the enemy for @{2} sec. Internal Cooldown: @{3} sec. Chance stacks with multiple cards.	skill-effect
-10220300094	When dealing damage, has a @{1}% Chance to inflict 【Blind】 on the enemy for @{2} sec. Internal Cooldown: @{3} sec. Chance stacks with multiple cards.	skill-effect
-10220300095	When dealing damage, has a @{1}% Chance to inflict 【Curse】 on the enemy for @{2} sec. Internal Cooldown: @{3} sec. Chance stacks with multiple cards.	skill-effect
-10220300096	When dealing damage, has a @{1}% Chance to inflict 【Immobilize】 on the enemy for @{2} sec. Internal Cooldown: @{3} sec. Chance stacks with multiple cards.	skill-effect
-10220300097	When dealing damage, has a @{1}% Chance to inflict 【Sleep】 on the enemy for @{2} sec. Internal Cooldown: @{3} sec. Chance stacks with multiple cards.	skill-effect
-10220300098	When dealing damage, has a @{1}% Chance to inflict 【Freeze】 on the enemy for @{2} sec. Internal Cooldown: @{3} sec. Chance stacks with multiple cards.	skill-effect
-10220300099	When dealing damage, has a @{1}% Chance to inflict 【Silence】 on the enemy for @{2} sec. Internal Cooldown: @{3} sec. Chance stacks with multiple cards.	skill-effect
-10220300100	When dealing damage, has a @{1}% Chance to inflict 【Fear】 on the enemy for @{2} sec. Internal Cooldown: @{3} sec. Chance stacks with multiple cards.	skill-effect
-10220300107	Damage against all Orcs +@{1}% (excluding Orc Lord and Orc Hero).	skill-effect
-10220300108	Weapon cannot be destroyed.	skill-effect
-10220300109	When dealing damage, has a @{1}% Chance to restore Life equal to @{2}% of the damage dealt to the enemy, up to @{3}. Internal Cooldown: @{4} sec. Chance stacks with multiple cards.	skill-effect
-10220300110	Armor cannot be destroyed.	skill-effect
-10220300111	When making a Physical attack, has a ${1}% Chance to autocast ^{1}^{2}【Bash】 Lv.@{1}^{3}^{4}. Internal Cooldown: ${2} sec. Chance stacks with multiple cards.	skill-effect
-10220300112	When making a Physical attack, has a ${1}% Chance to autocast ^{1}^{2}【Jupitel Thunder】 Lv.@{1}^{3}^{4}. Internal Cooldown: ${2} sec. Chance stacks with multiple cards.	skill-effect
-10220300113	Basic Attack has a @{1}% Chance to trigger 【Double Attack】, dealing Extra Neutral melee Physical damage equal to @{2}%. Internal Cooldown: @{3} sec. Chance stacks with multiple cards.	skill-effect
-10220300115	When dealing DMG, there is a @{1}% Chance to reduce the target's current SP by @{2}%, up to @{3}. Internal Cooldown: @{4} sec. The trigger Chance stacks with multiple Cards.	skill-effect
-10220300116	Control effects cannot interrupt casting. Variable CT +@{1}%.	skill-effect
-10220300117	Control effects cannot interrupt casting. Variable CT +@{1}%	skill-effect
-10220300118	Control effects cannot interrupt casting. Variable CT +@{1}%.	skill-effect
-10220300119	Reveals hidden or cloaked monsters within @{1} meters.	skill-effect
-10220300120	Damage taken while Silenced -@{1}%.	skill-effect
 10220300124	Skills @{1}–@{2} have already been used. Don't use them again.	skill-effect
-10220300125	Ignores monster Size. When attacking, has a @{1}% Chance to increase damage against Small, Medium, and Large monsters by @{2}%.	skill-effect
-10220300126	Ignores monster Size. Damage against Small, Medium, and Large monsters +@{1}%.	skill-effect
-10220300127	Every @{1} HIT increases Physical damage by @{2}%, up to @{3}%.	skill-effect
-10220300128	When dealing damage, has a @{1}% Chance to absorb @{2}% of the damage dealt to the enemy as SP.	skill-effect
-10220300130	When you land a critical hit, your next instance of damage is increased by @{1}%.	skill-effect
 10220300131	Melee Basic Attacks have a @{1}% Chance to trigger a Splash effect within a @{2}-meter radius. (This Splash does not count as a Normal Attack effect.) Affects up to @{3} Extra targets, with damage reduced to @{4}% of the original. Internal Cooldown: @{5} seconds.	skill-effect
 10220300132	Melee Basic Attacks trigger a Splash effect within a @{1}-meter radius. (This Splash does not count as a Normal Attack effect.) Affects up to @{2} Extra targets, with damage reduced to @{3}% of the original. Internal Cooldown: @{4} seconds.	skill-effect
-10220300133	When hit by a magic attack, has a @{1}% Chance to nullify its damage. Internal Cooldown: @{2} seconds. (Boss instant-kill skills can bypass this card's effect.)	skill-effect
-10220300134	When hit by a player's ST magic skill, reflects @{1}% of the damage taken, up to @{2}% of the attacker's Max Life. Internal Cooldown: @{3} seconds.	skill-effect
-10220300135	When hit by a player's ST magic skill, reflects @{1}% of the damage taken, up to @{2}% of the attacker's Max Life. For every @{3} VIT, reflects an Extra @{4}% of the damage taken, up to @{5}%. Internal Cooldown: @{6} seconds.	skill-effect
-10220300136	When taking damage, has a @{1}% Chance to change your armor's element to Holy for @{2} seconds. Internal Cooldown: @{3} seconds.	skill-effect
-10220300137	When taking damage, changes your armor's element to Holy for @{1} seconds. Internal Cooldown: @{2} seconds.	skill-effect
-10220300138	Changes your armor's element to Holy.	skill-effect
-10220300139	When hit by a player's ST Physical skill, reflects @{1}% of the damage taken, up to @{2}% of the attacker's Max Life. Internal Cooldown: @{3} seconds.	skill-effect
-10220300140	When hit by a player's ST Physical skill, reflects @{1}% of the damage taken, up to @{2}% of the attacker's Max Life. For every @{3} VIT, reflects an Extra @{4}% of the damage taken, up to @{5}%. Internal Cooldown: @{6} seconds.	skill-effect
-10220300141	Neutral damage taken -@{1}%. Damage taken from other elements +@{2}%.	skill-effect
-10220300142	Neutral damage taken -@{1}%.	skill-effect
 10220300143	After taking lethal skill damage, you may choose whether to Revive. After Revive, Life becomes @{1}. You are Invincible and Cannot move or Cannot use skill for @{2} seconds. After @{3} seconds, Life/MP is restored to @{4}%. Internal Cooldown: @{5} minutes.	skill-effect
-10220300144	After taking lethal skill damage, you may choose whether to Revive. After Revive, Life/MP is immediately restored to @{1}%. Internal Cooldown: @{2} minutes.	skill-effect
 10220300145	After taking lethal skill damage, you may choose whether to Revive. After Revive, Life/MP is immediately restored to @{1}%. Internal Cooldown: @{2} minutes. After the death-prevention effect triggers, Physical/Magic damage taken is reduced by @{3}% for @{4} seconds.	skill-effect
-10220300146	Control debuff resistance increased by +@{1}.	skill-effect
-10220300147	Grants permanent 【Endure】 (immune to knockback, knock-up, and hitstun effects).	skill-effect
-10220300148	Movement Speed +@{1}% (unique effect), Max Life +@{2}%.	skill-effect
-10220300153	After using a skill, has a @{1}% Chance to reset that skill's Cooldown. Its Cooldown cannot be reset again for a period of time. The internal Cooldown is @{2} times that skill's Cooldown. (Does not reset the global Cooldown.)	skill-effect
-10220300155	When applying a healing skill effect, has a ${1}% Chance to trigger ^{1}^{2}【Divine Light】 Lv@{1}^{3}^{4}. Internal Cooldown: ${2} seconds.	skill-effect
-10220300156	Damage dealt to Goblins +@{1}%.	skill-effect
-10220300157	Allows use of Hiding Lv@{1} and Sightless Mind Lv@{2}.	skill-effect
-10220300158	Allows use of Hiding Lv@{1} and Sightless Mind Lv@{2}. Sightless Mind always inflicts 【Stun】 and has a Chance to inflict Bleeding on the enemy.	skill-effect
 10220300159	@{1}~@{2} Do Not Use—buff used to implement the card's Function	skill-effect
-10220300161	When Life is below @{1}%, damage taken from sources other than status effects is reduced by @{2}%. Internal Cooldown: @{3}S.	skill-effect
-10220300162	Kill Fish and Shellfish monsters to restore @{1} MP. No internal Cooldown.	skill-effect
-10220300163	Kill Dragon monsters to restore @{1} MP. No internal Cooldown.	skill-effect
-10220300164	Internal Cooldown	skill-effect
-10220300165	Cannot use skill or move	skill-effect
-10220300166	Fire damage +@{1}%. Basic Attacks become Fire.	skill-effect
-10220300167	Immune to knockback, knock-up, and hitstun effects	skill-effect
-10220300168	Spear mastery increases Crit by @{1}, Crit Resistance by @{2}, and Attack Speed by @{3}%.	skill-effect
-10220300170	When taking melee Physical damage, deals damage to the attacker based on your Physical ATK	skill-effect
 10220300171	Endure	skill-effect
-10220300172	Demon Resistance and Holy Resistance +@{1}%	skill-effect
-10220300173	Ranged Physical damage taken -@{1}%	skill-effect
-10220300174	When hit during Auto Guard, has a @{1}% Chance to Stun the attacker for @{2} seconds	skill-effect
 10220300175	Stun	skill-effect
-10220300176	Max Life and Holy Resistance +@{1}%	skill-effect
-10220300177	Shield mastery reduces damage taken from monsters by @{1}%.	skill-effect
-10220300181	The Crusader takes @{1}% of the damage you receive	skill-effect
-10220300182	Reduces the Physical and Magic ATK of nearby enemies while increasing the Physical and Magic DEF of nearby allies	skill-effect
-10220300183	Damage taken is reduced.	skill-effect
-10220300184	【Spear Formation - Blood Cross】 damage +@{1}%	skill-effect
-10220300185	Permanently triggers Charge-Up	skill-effect
-10220300186	Movement Speed +@{1}%. Your next attack deals Extra damage	skill-effect
-10220300188	Each stack grants a shield equal to @{1}% of Max Life	skill-effect
-10220300189	When hit, Deals Physical damage. Nearby enemies are affected.	skill-effect
-10220300191	Shield Triggers Damage	skill-effect
-10220300192	Reduces Attack Speed and Movement Speed by @{1}%	skill-effect
-10220300193	The Crusader takes @{1}% of the damage you receive	skill-effect
-10220300195	Each stack reduces Movement Speed by @{1}%. At @{2} stacks, inflicts Stun for @{3} sec.	skill-effect
-10220300196	Changes your armor to Holy property	skill-effect
-10220300197	Increases Max Life by @{1}% and Physical ATK by @{2}%	skill-effect
-10220300198	Each stack increases your Physical ATK, Physical DEF, and Magic DEF by @{1}	skill-effect
 10220300199	Permanent Joint Passive	skill-effect
-10220300200	Shield Stance	skill-effect
-10220300201	Smite damage is increased.	skill-effect
-10220300202	Gain 【Charge Up】 when the countdown ends	skill-effect
-10220300203	Reduces damage taken from monsters by @{1}% and increases Physical and Magic DEF by @{2}%	skill-effect
-10220300204	Temporarily increases DEX by @{1} and AGI by @{2}, and detects hidden enemies within a @{3}-meter radius.	skill-effect
-10220300205	Grant All Players Full Mini Map Vision	skill-effect
-10220300207	Enter 【Camouflage】, becoming invisible and untargetable. Revealed after taking damage @{1} times	skill-effect
-10220300208	Trail effect	skill-effect
-10220300209	Become invisible, but taking damage @{1} times or dealing damage removes 【Enhanced Camouflage】.	skill-effect
-10220300210	Inflicts Blind	skill-effect
-10220300211	Caused by Rift Impact. Reduces Movement Speed by @{1}%.	skill-effect
-10220300212	Become Giant for @{1} sec., recovering @{3}% Max Life every @{2} sec.	skill-effect
 10220300213	Become Ultimate Giant for @{1} sec., recovering @{2}% Max Life per sec., increasing Movement Speed by @{3}%, and increasing damage by @{4}%. (Triggers immediately while both Giant and Super Giant are active. Gaining this effect removes Giant and Super Giant.)	skill-effect
-10220300214	Instantly recovers @{1}% Max Life	skill-effect
-10220300215	Increases your and your allies' DEF	skill-effect
-10220300216	Increases DEF	skill-effect
-10220300217	Increases your and your allies' Movement Speed and Attack Speed	skill-effect
-10220300218	Increases Movement Speed and Attack Speed	skill-effect
-10220300219	Increases your and your allies' Movement Speed and HP recover	skill-effect
-10220300220	Increases Movement Speed and HP recover	skill-effect
-10220300221	Increases your and your allies' ATK	skill-effect
-10220300222	Increase Attack	skill-effect
-10220300223	Increases your and your allies' damage reflection	skill-effect
-10220300224	Increases damage reflection	skill-effect
-10220300225	Increases each of your and your allies' stats by @{1}	skill-effect
-10220300226	Increases each stat by @{1} points	skill-effect
-10220300227	Attacks have a @{1}% Chance to recover @{2} HP. No cooldown	skill-effect
-10220300228	Attacks have a @{1}% Chance to recover @{2} HP	skill-effect
-10220300229	Increases allies' MP recovery by @{1}	skill-effect
 10220300230	Check whether this is needed; currently, it doesn't appear to be	skill-effect
-10220300231	Reduces the DEF of nearby enemies	skill-effect
-10220300232	Reduces DEF	skill-effect
-10220300233	Reduces the Movement Speed of nearby enemies	skill-effect
-10220300234	Reduces Movement Speed	skill-effect
-10220300235	Gain @{1} match Currency	skill-effect
-10220300237	Reflects @{1}% of damage taken for @{2} sec. Reflection cooldown: @{3} sec. (Each reflected hit cannot exceed @{4}W)	skill-effect
-10220300238	Raises the quality of all equipped gear by one tier	skill-effect
-10220300239	Become Super Giant for @{1} sec. During this time, damage dealt increases by @{2}%, damage taken increases by @{3}%, and you recover @{5}% Max Life every @{4} sec.	skill-effect
-10220300240	Become immune to all debuffs and control effects for @{1} sec.	skill-effect
-10220300241	Self-heal, recovering @{1}% Max Life per sec. for @{2} sec.	skill-effect
-10220300242	Increases Movement Speed by @{1}% and grants immunity to slows for @{2} sec.	skill-effect
-10220300244	Gain a slowing Orbit that reduces the Movement Speed of enemies within a @{1}-meter radius by @{2}% for @{3} sec.	skill-effect
 10220300246	No derived skill	skill-effect
 10220300247	Not currently used	skill-effect
-10220300248	Gain damage reduction and survive one fatal blow.	skill-effect
-10220300249	Continuously recover Life.	skill-effect
-10220300251	Gain Falcon's Eye, revealing hidden targets within a @{1}-meter radius	skill-effect
-10220300252	Recover @{1}% Max Life per sec. for @{2} sec.	skill-effect
-10220300253	Gain Endure, reducing damage taken by @{1}%.	skill-effect
-10220300254	Freeze effect	skill-effect
-10220300256	Reveals enemies in ^{1}【Hiding】^{2} within a @{1}-meter radius.	skill-effect
-10220300257	Hide-and-Seek status. Revealed after taking damage @{1} times.	skill-effect
-10220300258	Every @{1} sec, loses HP equal to @{2}% of the applier's Fire Magic Damage.	skill-effect
-10220300259	Searching for enemies in Hiding within range.	skill-effect
 10220300260	Equipment Drop Test	skill-effect
 10220300261	Equipment Drop	skill-effect
-10220300262	Unlocks @{1} Extra skills.	skill-effect
-10220300264	Raises the quality of all players' currently equipped gear by one tier.	skill-effect
-10220300268	Removes all status effects.	skill-effect
-10220300269	Restores @{1}% Max HP per sec for @{2} sec.	skill-effect
-10220300270	Grants a @{1}% Movement Speed bonus for @{2} sec.	skill-effect
-10220300278	Flying Magic	skill-effect
-10220300279	Teleportation Magic	skill-effect
-10220300280	Ping-Pong Poring	skill-effect
 10220300281	Poring Counterattack	skill-effect
 10220300282	Ball Catch Buff	skill-effect
 10220300283	The vehicle restores a total of ${2}% HP over ${1} sec. Destroyed sections cannot be restored.	skill-effect
@@ -278,7 +110,6 @@ ID	English	Category
 10220300382	Cannot move while affected by Chain Bind.	skill-effect
 10220300383	Cannot use skill while under the Nightmare effect.	skill-effect
 10220300384	Your vision is currently impaired by squid ink.	skill-effect
-10220300385	Damage taken is reduced.	skill-effect
 10220300386	Currently Berserk. Deals DMG is increased.	skill-effect
 10220300387	Currently affected by Sticky Mucus, reducing MSPD.	skill-effect
 10220300388	While Brass Blessing is active, gain Endure.	skill-effect
@@ -361,128 +192,13 @@ ID	English	Category
 10220300477	While ^{1}^{2}【True Sight】^{3}^{4} is Active, STR, AGI, VIT, INT, DEX, and LUK +${1}.	skill-effect
 10220300478	While the effect is active, hitting a target with a Bow skill has a @{1}% Chance to strike it with an Arrow Spike, dealing @{2} hit(s) of @{3}% Neutral Physical Damage.	skill-effect
 10220300479	Increases Physical Damage by @{1}% and the percentage damage multiplier bonus of 【Aimed Bolt】 by @{2}%	skill-effect
-10800100012	When ^{1}^{2}[Sanctuary]^{3}^{4} is cast, it restores MATK*${2}%+${3} HP to up to ${1} allies within the area.	skill-enhancement
-10800100014	After casting ^{1}^{2}[Turn Undead]^{3}^{4}, there is a ${1}% Chance to trigger Turn Undead one Extra time. Internal Cooldown: ${2} seconds.	skill-enhancement
-10800100020	When using ^{1}^{2}[Basic Attack]^{3}^{4} with a Mace, inflicts ^{5}^{6}[Stun]^{7}^{8} on the target for ${1} seconds. Internal Cooldown: ${2} seconds.	skill-enhancement
-10800100021	When using ^{1}^{2}[Basic Attack]^{3}^{4} with a Mace, unleashes the power of holy light, dealing MATK*${3}%+${4} Neutral Ranged Magic damage to the enemy and up to ${2} enemies within a ${1}-meter radius. Internal Cooldown: ${5} seconds.	skill-enhancement
-10800100025	Holy Light Baptism blesses you, reducing ^{1}^{2}[Magnus Exorcismus]^{3}^{4} Cooldown by ${1} seconds.	skill-enhancement
-10800100030	While ^{1}^{2}[Basilica]^{3}^{4} is active, ^{5}^{6}[Holy Light]^{7}^{8} and ^{9}^{10}[Turn Undead]^{11}^{12}'s percentage damage multipliers increase by ${1}% and their fixed damage increases by ${2}.	skill-enhancement
-10800100031	While ^{1}^{2}[Basilica]^{3}^{4} is active, ^{5}^{6}[Magnus Exorcismus]^{7}^{8}'s percentage damage multiplier increases by ${1}% and its fixed damage increases by ${2}.	skill-enhancement
-10800100033	^{1}^{2}[Heal]^{3}^{4} has a ${1}% Chance to Splash to ${3} Other allies within ${2} meters of the target, restoring the same Healing Volume as the skill itself. Internal Cooldown: ${4} seconds.	skill-enhancement
-10800100034	After ^{1}^{2}[Sanctuary]^{3}^{4} has been active for a time, it restores MATK*${3}%+${4} HP to up to ${2} allies within ${1} meters of you.	skill-enhancement
 10800100036	After ^{1}^{2}[Cart Revolution]^{3}^{4} hits the primary target, it triggers [Money Throw] an Extra @{1} times, dealing PATK*${1}%+${2} Neutral melee Physical damage. This effect has a ${3-second Cooldown.	skill-enhancement
-10800100037	Immediately after using ^{1}^{2}[Cart Revolution]^{3}^{4}, triggers [Gunpowder Throw] @{1} times, dealing PATK*${3}% Fire melee Physical damage to up to ${2} enemies within ${1} meters. This effect has a ${4}-second Cooldown.	skill-enhancement
-10800100042	When ^{1}^{2}[Hammer Fall]^{3}^{4} is cast, it unleashes [Earth Spike] against ${1} enemies within the area, dealing PATK*${2}%+${3} Neutral melee Physical damage and gaining a ${4}% Chance to inflict ^{5}^{6}[Stun]^{7}^{8} for ${5} seconds.	skill-enhancement
-10800100043	For every @{1} enemies hit by ^{1}^{2}[Hammer Fall]^{3}^{4}, DMG Bonus +${1}%, up to ${2}%.	skill-enhancement
-10800100044	^{1}^{2}【Crazy Uproar】^{3}^{4}Extra PATK +${1}.	skill-enhancement
-10800100045	^{1}^{2}【Crazy Uproar】^{3}^{4}Extra VIT +${1} and LUK +${2}.	skill-enhancement
-10800100046	^{1}^{2}【Crazy Uproar】^{3}^{4}grants an Extra ${1} STR.	skill-enhancement
-10800100047	^{1}^{2}[Cart Revolution]^{3}^{4} fixed damage +${1}%.	skill-enhancement
-10800100048	^{1}^{2}[Weaponry Research]^{3}^{4} At Lv. @{1}, increases PATK by ${1}.	skill-enhancement
-10800100049	^{1}^{2}【Cart Revolution】^{3}^{4}CRIT Chance increases by ${1}%.	skill-enhancement
-10800100050	^{1}^{2}Adrenaline Rush^{3}^{4} Lv. ${1} increases your STR by ${1}.	skill-enhancement
-10800100051	^{1}^{2}[Adrenaline Rush]^{3}^{4} grants an Extra ${1}% ASPD.	skill-enhancement
-10800100052	^{1}^{2}【Adrenaline Rush】^{3}^{4} ignores Job Restriction.	skill-enhancement
-10800100054	^{1}^{2}[High Speed Cart Ram]^{3}^{4} gains ${2}% DMG Bonus against targets below ${1}% HP, and its Chance to inflict ^{5}^{6}[Stun]^{7}^{8} increases by ${3}%.	skill-enhancement
-10800100055	^{1}^{2}[High Speed Cart Ram]^{3}^{4} additionally deals PATK*${3}%+${4} Neutral melee Physical damage to up to ${2} enemies within ${1} meters. This effect has a ${5}-second Cooldown.	skill-enhancement
-10800100056	^{1}^{2}【Maximize Power】^{3}^{4}is Active for up to ${2} allies within ${1} meters.	skill-enhancement
-10800100057	^{1}^{2}[Maximize Power]^{3}^{4} Increases your PATK by ${1}.	skill-enhancement
-10800100058	^{1}^{2}【Maximize Power】^{3}^{4} increases nearby allies' PATK by ${1}.	skill-enhancement
-10800100059	While ^{1}^{2}[Cart Boost]^{3}^{4} is active, [High Speed Cart Ram]'s damage bonus increases by ${1}%.	skill-enhancement
-10800100060	^{1}^{2}【Cart Boost】^{3}^{4} maximum Cooldown is reduced by ${1} sec. Gain ^{9}^{10}【Immunity】^{11}^{12} for ${2} sec. after casting ^{5}^{6}【Cart Boost】^{7}^{8}.	skill-enhancement
-10800100061	^{1}^{2}【Cart Boost】^{3}^{4} duration is extended by ${1} sec.	skill-enhancement
-10800100062	^{1}^{2}【Maximum Over Thrust】^{3}^{4} is Active for up to ${2} allies within ${1} meters.	skill-enhancement
-10800100063	^{1}^{2}【Maximum Over Thrust】^{3}^{4}increases Physical damage dealt by ${1}%.	skill-enhancement
-10800100064	^{1}^{2}【Maximum Over Thrust】^{3}^{4}grants an Extra ${1}% Crit Chance.	skill-enhancement
-10800100065	When equipped with a Two-Handed Spear, ^{1}^{2}[Holy Cross]^{3}^{4}'s percentage damage multiplier increases by ${1}%.	skill-enhancement
-10800100066	When ^{1}^{2}[Holy Cross]^{3}^{4} hits an enemy, it additionally casts [Cross Blast] on them, dealing PATK*${3}%+${4} Neutral melee Physical damage to up to ${2} enemies within ${1} meters of the target. Internal Cooldown: ${5} seconds.	skill-enhancement
-10800100067	^{1}^{2}[Holy Cross]^{3}^{4} casts ${1}% faster, but is no longer affected by ASPD.	skill-enhancement
-10800100069	After every ${1} casts of ^{1}^{2}[Smite]^{3}^{4}, the next ^{5}^{6}[Smite]^{7}^{8}'s percentage damage multiplier and fixed damage increase by ${2}%.	skill-enhancement
-10800100070	When ^{1}^{2}[Smite]^{3}^{4} is cast, it additionally deals PATK*${3}%+${4} Neutral melee Physical damage to a total of ${2} Other enemies within ${1} meters of the target. Internal Cooldown: ${5} seconds.	skill-enhancement
-10800100072	When ^{1}^{2}[Grand Cross]^{3}^{4} is cast, triggers [Cross Thrust] on @{1} random targets within the area, dealing PATK*${1}%+${2} Neutral melee Physical damage.	skill-enhancement
 10800100073	^{1}^{2}[Grand Cross]^{3}^{4} and ^{5}^{6}[Holy Cross]^{7}^{8} additionally cast [Absolute Judex] on the target, dealing PATK*${3}%+${4} Neutral melee Physical damage to the target and a total of ${2} enemies within ${1} meters. Internal Cooldown: ${5} seconds.	skill-enhancement
-10800100075	^{1}^{2}[Shield Boomerang]^{3}^{4} ricochets an Extra ${1} times.	skill-enhancement
-10800100076	^{1}^{2}[Shield Boomerang]^{3}^{4} deals an Extra @{1} hits of PATK*${1}%+${2} Neutral melee Physical damage to the locked-on target.	skill-enhancement
-10800100077	Learning ^{1}^{2}[Spear Mastery]^{3}^{4} grants ${1} PATK.	skill-enhancement
-10800100078	Gain ${1} PATK for each learned level of ^{1}^{2}[Spear Mastery]^{3}^{4}.	skill-enhancement
-10800100079	Learning ^{1}^{2}[Spear Mastery]^{3}^{4} grants ${1}% Holy Damage.	skill-enhancement
-10800100080	While ^{1}^{2}[Auto Guard]^{3}^{4} is active, PATK +${1} and Max HP +${2}.	skill-enhancement
-10800100081	While ^{1}^{2}[Auto Guard]^{3}^{4} is active, taking damage increases your DMG Reduction by ${1}% for ${2} seconds. Internal Cooldown: ${3} seconds.	skill-enhancement
-10800100082	While ^{1}^{2}[Auto Guard]^{3}^{4} is active, Smite and Rapid Smiting's percentage damage multipliers and fixed damage increase by ${1}%.	skill-enhancement
-10800100083	^{1}^{2}[Gloria Domini]^{3}^{4}'s percentage damage multiplier increases by ${1}%, and its fixed damage increases by ${2}.	skill-enhancement
-10800100084	When casting ^{1}^{2}[Gloria Domini]^{3}^{4}, Deals DMG equal to PATK * ${3}% + ${4} as Neutral Melee Physical damage to the target and up to ${2} enemies within ${1} meters of the target.	skill-enhancement
-10800100085	^{1}^{2}[Gloria Domini]^{3}^{4} Deals DMG to the locked target an Extra @{1} times, each dealing PATK * ${1}% + ${2} as Neutral Melee Physical damage.	skill-enhancement
-10800100086	^{1}^{2}[Rapid Smiting]^{3}^{4}'s percentage damage multiplier increases by ${1}%, and its fixed damage increases by ${2}.	skill-enhancement
-10800100087	^{1}^{2}[Rapid Smiting]^{3}^{4} has a ${1}% Chance to Deals DMG to the target an Extra @{1} times, each dealing PATK * ${2}% + ${3} as Neutral Melee Physical damage.	skill-enhancement
-10800100088	When casting ^{1}^{2}[Rapid Smiting]^{3}^{4}, there is a ${1}% Chance to change the Cooldown of your next Shield Boomerang to @{1} seconds. This effect cannot stack and can trigger up to @{2} times every ${2} seconds.	skill-enhancement
-10800100089	PATK +@{1}, and ^{1}^{2}[Sacrifice]^{3}^{4} no longer consumes HP.	skill-enhancement
-10800100090	^{1}^{2}[Sacrifice]^{3}^{4}'s duration increases to ${1} seconds. During ^{5}^{6}[Sacrifice]^{7}^{8}, ^{9}^{10}[Holy Cross]^{11}^{12}'s percentage damage multiplier and fixed Damage Increase by ${2}%.	skill-enhancement
-10800100091	While ^{1}^{2}[Sacrifice]^{3}^{4} is active, ^{5}^{6}[Basic Attack]^{7}^{8}'s percentage damage multiplier increases by ${1}%.	skill-enhancement
-10800100092	^{1}^{2}[Battle Chant]^{3}^{4} grants allies an Extra ${1} PDEF and MDEF and reduces enemies' PATK and MATK by an Extra ${2}.	skill-enhancement
-10800100093	While ^{1}^{2}[Battle Chant]^{3}^{4} is active, your ^{5}^{6}[Shield Boomerang]^{7}^{8}'s percentage damage multiplier increases by ${1}%, and its fixed damage increases by ${2}.	skill-enhancement
-10800100094	While ^{1}^{2}[Battle Chant]^{3}^{4} is active, your Max HP increases by ${1}.	skill-enhancement
-10800100095	^{1}^{2}[Pierce]^{3}^{4}'s percentage damage multiplier increases by ${1}%, and its fixed damage increases by ${2}.	skill-enhancement
-10800100096	When casting ^{1}^{2}[Pierce]^{3}^{4}, there is a ${1}% Chance to Deals DMG to the target an Extra @{1} times, dealing a total of PATK * ${2}% + ${3} as Neutral Ranged Physical damage. Cooldown: ${4} seconds.	skill-enhancement
-10800100097	When casting ^{1}^{2}[Pierce]^{3}^{4}, there is a ${1}% Chance to trigger an Extra Shatter, which Deals DMG equal to PATK * ${4}% + ${5} as Neutral Ranged Physical damage to the target and ${3} Other enemies within ${2} meters. Cooldown: ${6} seconds.	skill-enhancement
-10800100098	^{1}^{2}[Bowling Bash]^{3}^{4}'s Cooldown is changed to ${1} seconds.	skill-enhancement
-10800100099	When ^{1}^{2}[Bowling Bash]^{3}^{4} hits only @{1} enemy, it Deals DMG to that enemy equal to an Extra PATK * ${1}% + ${2} as Neutral Melee Physical damage.	skill-enhancement
-10800100100	When casting ^{1}^{2}[Bowling Bash]^{3}^{4}, there is a ${1}% Chance to cast it one Extra time.	skill-enhancement
-10800100101	^{1}^{2}[Spear Throw]^{3}^{4}'s percentage damage multiplier increases by ${1}%, and its fixed damage increases by ${2}.	skill-enhancement
-10800100102	When casting ^{1}^{2}[Spear Throw]^{3}^{4}, you throw one Extra Spear that Deals DMG equal to PATK * ${1}% + ${2} as Extra Neutral Ranged Physical damage.	skill-enhancement
-10800100103	^{1}^{2}[Spear Throw]^{3}^{4} now throws an Explosive Spear that explodes upon hitting the target, also Deals DMG to ${2} Other enemies within ${1} meters of the target.	skill-enhancement
-10800100104	When a sword-type Weapon is equipped, PATK increases by ${1} for each Learn Lv. of ^{1}^{2}[Sword Quicken]^{3}^{4}.	skill-enhancement
-10800100105	When a Two-Handed Sword is equipped, casting ^{1}^{2}[Basic Attack]^{3}^{4} has a ${1}% Chance to increase ASPD by ${2}% for ${3} seconds. Cooldown: ${4} seconds.	skill-enhancement
-10800100106	When a Sword is equipped, STR +${1}.	skill-enhancement
-10800100107	^{1}^{2}[Brandish Spear]^{3}^{4} gains an Extra ${1}% Crit Chance.	skill-enhancement
-10800100108	^{1}^{2}[Brandish Spear]^{3}^{4}'s percentage damage multiplier increases by ${1}%, and its fixed damage increases by ${2}.	skill-enhancement
-10800100109	^{1}^{2}[Brandish Spear]^{3}^{4} can also Deals DMG to ${2} Other enemies within ${1} meters of the target.	skill-enhancement
-10800100110	Increases ^{1}^{2}【Basic Attack】^{3}^{4}'s percentage damage multiplier by ${1}% and fixed damage by ${2}, and extends the duration of Magnum Break's buff to ${3} sec.	skill-enhancement
-10800100111	Casting ^{1}^{2}[Basic Attack]^{3}^{4} triggers Slash, which Deals DMG equal to PATK * ${1}% + ${2} as Neutral Melee Physical damage to the target. Internal Cooldown: ${3} seconds.	skill-enhancement
-10800100112	Reduces Attack Speed by ${1}%. Using ^{1}^{2}【Basic Attack】^{3}^{4} triggers Splash damage, dealing Physical ATK*${4}% Neutral melee Physical damage to ${3} other enemies within ${2} meters of the target.	skill-enhancement
-10800100113	^{1}^{2}[Spiral Pierce]^{3}^{4}'s percentage damage multiplier increases by ${1}%, and its fixed damage increases by ${2}.	skill-enhancement
-10800100114	After casting ^{1}^{2}[Spiral Pierce]^{3}^{4} @{1} times, your next ^{5}^{6}[Spiral Pierce]^{7}^{8} is guaranteed to CRIT.	skill-enhancement
-10800100115	^{1}^{2}[Spiral Pierce]^{3}^{4} can also Deals DMG to ${2} Other enemies within ${1} meters of the target.	skill-enhancement
-10800100116	While ^{1}^{2}[Aura Blade]^{3}^{4} is active, the percentage damage multiplier of Normal Attack-type skills increases by ${1}%, and their fixed damage increases by ${2}.	skill-enhancement
-10800100117	While ^{1}^{2}[Aura Blade]^{3}^{4} is active, ASPD increases by ${1}%, and Normal Attack-type skills gain an Extra ${2}% Crit Chance.	skill-enhancement
 10800100118	While ^{1}^{2}[Aura Blade]^{3}^{4} is active, ^{5}^{6}[Bash]^{7}^{8}'s percentage damage multiplier increases by ${1}% and its fixed damage increases by ${2}; ^{9}^{10}[Magnum Break]^{11}^{12}'s percentage damage multiplier increases by ${3}% and its fixed damage increases by ${4}; and ^{13}^{14}[Bowling Bash]^{15}^{16}'s percentage damage multiplier increases by ${5}% and its fixed damage increases by ${6}.	skill-enhancement
-10800100119	^{1}^{2}[Joint Beat]^{3}^{4}'s percentage damage multiplier increases by ${1}%, and its fixed damage increases by ${2}.	skill-enhancement
-10800100120	^{1}^{2}[Joint Beat]^{3}^{4} simultaneously inflicts [Break Ankle], [Break Wrist], [Break Waist], and [Break Neck] on the target.	skill-enhancement
-10800100121	^{1}^{2}[Joint Beat]^{3}^{4} can also Deals DMG to ${2} Other enemies within ${1} meters of the target and break their body parts.	skill-enhancement
-10800100122	While ^{1}^{2}[Parry]^{3}^{4} is active, gain an Extra ${1} PDEF and MDEF.	skill-enhancement
-10800100123	While ^{1}^{2}[Parry]^{3}^{4} is active, casting ^{5}^{6}[Basic Attack]^{7}^{8} triggers Triple Slash, which Deals DMG to the target over @{1} hits for a total of PATK * ${1}% + ${2} as Neutral Melee Physical damage. Cooldown: ${3} seconds.	skill-enhancement
-10800100124	While ^{1}^{2}[Parry]^{3}^{4} is active, casting ^{5}^{6}[Basic Attack]^{7}^{8} triggers Sweep, which Deals DMG equal to PATK * ${3}% + ${4} as Neutral Melee Physical damage to up to ${2} enemies within ${1} meters of you. Cooldown: ${5} seconds.	skill-enhancement
-10800100126	Six Stats +${1}	skill-enhancement
-10800100127	Physical damage dealt to Brute and Insect monsters +${1}%	skill-enhancement
-10800100128	Physical damage dealt to Brute and Insect monsters +${1}%; Movement Speed ${2}%	skill-enhancement
-10800100129	For every @{1} additional Stunt on all equipped gear, VIT +${1}	skill-enhancement
-10800100130	For every @{1} refine levels on the Current Equipment slot, INT +${1}	skill-enhancement
 10800100131	Hodgepodge	skill-enhancement
-10800100132	Deals (@{3}+VIT/@{4})*${1}%+${2} Neutral Physical damage to up to @{2} targets within a @{1}-meter radius and reduces their Movement Speed by @{5}% for @{6} sec. If the target is a monster, it is forced to attack you for @{7} sec. Your Physical DEF +@{8}%	skill-enhancement
-10800100133	For every ${1} additional skills on this Divine Arts Totem, Life +${2}	skill-enhancement
-10800100134	For every ${1} additional skills on this Divine Arts Totem, Physical ATK +${2}	skill-enhancement
 10800100135	Magic ATK +【Your Level*@{1}】	skill-enhancement
 10800100136	When HP is below @{1}%, Physical DEF +【Your Level*@{2}】	skill-enhancement
-10800100137	Each Soul Echo Element ^{1} grants @{1} DMG vs All Job	skill-enhancement
-10800100138	When using an instant recovery item, there is a @{1}% Chance its effect increases by @{2}%	skill-enhancement
 10800100139	For buffs with the @{1} tag, maximum buff Floors +@{2}	skill-enhancement
-10800100140	Converts @{1}% of the sum of Physical ATK and Magic ATK into Life	skill-enhancement
-10800100141	For the Arch Mage job, every @{1} INT increases Magic ATK by @{2}, up to a maximum of @{3}	skill-enhancement
-10800100142	For every +${1} Refine, Physical ATK +${2}	skill-enhancement
-10800100143	For every +${1} Refine, Magic ATK +${2}	skill-enhancement
-10800100144	For every +${1} Refine, Max Life +${2}	skill-enhancement
-10800100145	For every ${1} Stunts on equipped gear, Physical ATK +${2} (up to ${3} Stunts)	skill-enhancement
-10800100146	For every ${1} Stunts on equipped gear, Magic ATK +${2} (up to ${3} Stunts)	skill-enhancement
-10800100147	For every ${1} Stunts on equipped gear, Max Life +${2} (up to ${3} Stunts)	skill-enhancement
-10800100148	For every +${1} Refine, CRIT +${2}	skill-enhancement
-10800100149	For every +${1} Refine, CRIT DMG +${2}%	skill-enhancement
-10800100150	For every ${1} Stunts on equipped gear, CRIT +${2} (up to ${3} Stunts)	skill-enhancement
-10800100151	For every ${1} Stunts on equipped gear, CRIT DMG +${2}% (up to ${3} Stunts)	skill-enhancement
-10800100152	When using an instant recovery item, there is a ${1}% Chance to increase its effect by ${2}%	skill-enhancement
-10800100153	Increases PATK by ${1}% of MATK, up to ${2}.	skill-enhancement
-10800100154	Increases MATK by ${1}% of PATK, up to ${2}.	skill-enhancement
-10800100155	Increases Max HP by ${1}% of the total PATK and MATK, up to ${2}.	skill-enhancement
-10800100156	Ignores ${1}% of the target's Physical DEF	skill-enhancement
-10800100157	Ignores ${1}% of the target's Magic DEF	skill-enhancement
 10800100158	${1}% Chance to evade ${2}% of incoming damage. Built-in cooldown: ${3} sec.	skill-enhancement
 10800100159	Life Regen +${1}%	skill-enhancement
 10800100160	When receiving a fatal attack from a player, there is a ${1}% Chance to Revive with ${2}% Life (Unique Effect)	skill-enhancement
@@ -556,16 +272,12 @@ ID	English	Category
 10800100229	Increases Physical damage dealt to Brute and Insect monsters by ${1}%, and Movement Speed by ${2}%.	skill-enhancement
 10800100235	Each Soul Echo element^{1} grants ${1} Extra ATK (up to ${2} elements).	skill-enhancement
 10800100236	Each Soul Echo element^{1} grants ${1} Extra DEF (up to ${2} elements).	skill-enhancement
-10800100237	^{1}^{2}[Basic Attack]^{3}^{4}'s percentage damage multiplier increases by ${1}%, and its fixed damage increases by ${2}.	skill-enhancement
 10800100238	After casting ^{1}^{2}[Basic Attack]^{3}^{4}, there is a ${1}% Chance to Deals DMG equal to PATK * ${4}% + ${5} as Neutral Melee Physical damage to up to ${3} enemies within a ${2}-meter radius of you. Cooldown: ${6} seconds.	skill-enhancement
 10800100239	After casting ^{1}^{2}[Basic Attack]^{3}^{4}, there is a ${1}% Chance to Deals DMG to the enemy an Extra ${2} times, each dealing PATK * ${3}% + ${4} as Neutral Melee Physical damage. Cooldown: ${5} seconds.	skill-enhancement
-10800100240	^{1}^{2}[Sonic Blow]^{3}^{4}'s percentage damage multiplier increases by ${1}%, and its fixed damage increases by ${2}.	skill-enhancement
 10800100241	After casting ^{1}^{2}[Sonic Blow]^{3}^{4}, there is a ${1}% Chance to Deals DMG equal to PATK * ${4}% + ${5} as Neutral Melee Physical damage to up to ${3} enemies within a ${2}-meter radius of you. Cooldown: ${6} seconds.	skill-enhancement
 10800100242	^{1}^{2}[Sonic Blow]^{3}^{4}'s percentage damage multiplier increases by ${1}%, and its fixed damage increases by ${2}. The upper HP percentage threshold for ^{5}^{6}[Sonic Blow]^{7}^{8}'s DMG Bonus increases by ${3}%.	skill-enhancement
-10800100243	^{1}^{2}[Envenomed Blade]^{3}^{4}'s percentage damage multiplier increases by ${1}%, and its fixed damage increases by ${2}.	skill-enhancement
 10800100244	After casting ^{1}^{2}[Envenomed Blade]^{3}^{4} ${1} times, triggers ^{5}^{6}[Venom Sting]^{7}^{8} damage ${2} times on the target.	skill-enhancement
 10800100245	^{1}^{2}[Envenomed Blade]^{3}^{4}'s ricochet effect gains an Extra ${1} bounce.	skill-enhancement
-10800100246	^{1}^{2}[Grimtooth]^{3}^{4}'s percentage damage multiplier increases by ${1}%, and its fixed damage increases by ${2}.	skill-enhancement
 10800100247	After casting ^{1}^{2}[Grimtooth]^{3}^{4}, there is a ${1}% Chance to Deals DMG equal to PATK * ${4}% + ${5} as Neutral Melee Physical damage to up to ${3} enemies within a ${2}-meter radius of the target. Cooldown: ${6} seconds. ^{5}^{6}[Grimtooth]^{7}^{8}'s percentage damage multiplier increases by ${7}%, and its fixed damage increases by ${8}.	skill-enhancement
 10800100248	For ${1} seconds after casting ^{1}^{2}[Grimtooth]^{3}^{4}, the percentage damage multiplier of your next ${2} casts of ^{5}^{6}[Basic Attack]^{7}^{8}, ^{9}^{10}[Sonic Blow]^{11}^{12}, or ^{13}^{14}[Envenomed Blade]^{15}^{16} increases by ${3}%, and their fixed damage increases by ${4}.	skill-enhancement
 10800100250	Reduces the Cooldown of ^{1}^{2}[Hiding]^{3}^{4}, ^{5}^{6}[Back Slide]^{7}^{8}, and ^{9}^{10}[Disguise]^{11}^{12} by ${1} seconds.	skill-enhancement
@@ -1244,114 +956,26 @@ ID	English	Category
 12390100349	An extremely precious ore from the dwarven realm of Wat Alheim, coveted by every craftsman.\n^{1}Effect: Used to Refine a Weapon or Accessory. Increases the Success Rate and prevents level loss or damage if Refinement Failed.^{2}	item-description
 12390100350	An ore from the dwarven realm of Wat Alheim, said to have received the Blessing of a legendary dwarven craftsman.\n^{1}Effect: Used to Refine Armor. Prevents level loss if Refinement Failed.^{2}	item-description
 12390100351	An extremely precious ore from the dwarven realm of Wat Alheim, coveted by every craftsman.\n^{1}Effect: Used to Refine Armor. Increases the Success Rate and prevents level loss or damage if Refinement Failed.^{2}	item-description
-10110300180	Dive toward a target location within @{1} meters. Upon impact, deal damage equal to ATK * ^{3}@{5}%^{4} to up to @{3} enemies within a @{2}-meter radius and inflict ^{1}【Blind】^{2} for @{4} seconds.	skill-description
-10110300181	Creates a Trap Hunter at the current location. When an enemy enters within @{1}m of it, it explodes, dealing ATK * ^{1}@{4}%^{2} damage to up to @{3} enemies within a @{2}m radius and inflicting ^{3}【Immobilize】^{4} for @{5}^{5} sec. The Trap Hunter lasts @{6} sec.	skill-description
-10110300182	Dive toward a designated location within @{1} meters. After landing, create a circular burning area @{2} meters wide that inflicts Burn on up to @{3} enemies for @{4} seconds.	skill-description
-10110300183	Dive at a target location within @{1} meters. Upon impact, inflict ^{1}【Slow】^{2} for @{4} seconds and deal damage equal to ATK * ^{3}@{5}%^{4} to up to @{3} enemies within a @{2}-meter radius.	skill-description
-10110300184	Have the Falcon scan the area, revealing all enemies on the Mini Map to you and your teammates for @{1} sec.	skill-description
-10110300185	Summons a vending cart nearby where you can purchase Battle Royale items. The vending cart lasts ^{1} @{1}^{2} sec.	skill-description
-10110300186	Summon an ambulance nearby that can be used to Revive teammates. The ambulance lasts ^{1} @{1}^{2} sec.	skill-description
-10110300187	Creates a circular camouflage field spanning @{1} meters at your location, granting Stealth to up to @{2} allies for @{3} seconds	skill-description
 10110300188	Deals ATK * ^{1}@{2}%^{2} damage to the designated ST enemy within @{1} m.	skill-description
-10110300189	Immediately enters the ^{1}【Camouflage】【Hiding】^{2} states upon use, becoming invisible and untargetable and increasing Movement Speed by ^{3}@{1}%^{4} for @{2} sec.\nThe ^{5}【Camouflage】【Hiding】^{6} states end immediately after dealing or taking damage a total of @{3} times. Skill Cooldown: ^{7}@{4}^{8} sec.	skill-description
-10110300190	Locks on to an enemy within @{1} m and quickly dashes @{2} m toward the target, dealing ATK * ^{1}@{5}%^{2} damage to up to @{4} enemies within a @{3} m radius of the target and ^{3}slowing them by @{6}%^{4} for @{7} sec.	skill-description
-10110300191	Launches a shockwave, dealing ATK * ^{1}@{2}%^{2} damage to the designated ST enemy within @{1} m.	skill-description
-10110300192	An upgraded Camouflage. Enters the ^{1}【Enhanced Camouflage】^{2} state for @{1} sec. upon use, increasing Movement Speed by ^{3}@{2}%^{4}. ^{5}【Enhanced Camouflage】^{6} ends after taking damage @{3} times or dealing damage. Skill Cooldown: ^{7}@{4}^{8} sec.	skill-description
-10110300193	Deals ATK * ^{1}@{3}%^{2} damage to up to @{2} enemies within a @{1} m radius and inflicts ^{3}@{4} sec. of ^{4}【Blind】^{5}.	skill-description
 10110300194	Deals ATK * ^{1}@{3}%^{2} damage to up to @{2} enemies within a @{1} m radius.	skill-description
-10110300195	Charges to a point @{2} m in front of the designated ST enemy within @{1} m, dealing ATK * ^{1}@{3}%^{2} damage.	skill-description
-10110300196	Unleashes an evil spirit, dealing ATK * ^{1}@{3}%^{2} damage to up to @{2} enemies within a @{1} m radius.	skill-description
-10110300197	Rapidly attacks the target, dealing ATK * ^{1}@{2}%^{2} damage to the designated ST enemy within @{1} m.	skill-description
-10110300198	Dives toward a designated location within @{1} m. Upon landing, deals ATK * ^{3}@{6}%^{4} damage to up to @{3} enemies within a @{2} m radius and ^{1}slows them by @{5}%^{2} for @{4} sec.	skill-description
-10110300199	Swings the weapon to unleash an energy blade, dealing a total of ATK * ^{1}@{4}%^{2} damage over @{3} hits to up to @{2} enemies within a @{1} m radius.	skill-description
-10110300200	Charge Up a spiraling mass of energy, then hurl your Spear toward a locked target within @{1} meters. Charge to the Spear's location and Deals DMG equal to ^{1}@{4}%^{2} once to up to @{3} enemies along the @{2}-meter-wide throwing path.	skill-description
-10110300201	Summons a barrage of thrusting Spears, dealing ^{1}@{4}%^{2} damage to up to @{3} enemies in a @{1} m x @{2} m area in the designated direction.	skill-description
-10110300202	Deals ATK * ^{3}@{4}%^{4} damage and ^{1}【Knockback】^{2} to up to @{3} enemies in a @{1} m * @{2} m area ahead, then moves @{5} m in that direction and deals ATK * ^{7}@{6}%^{8} damage and ^{5}【Knock-up】^{6} to the targets. Gains ^{9}【Control Immunity】^{10} while using the skill.	skill-description
-10110300203	Deals ATK * ^{1}@{4}%^{2} damage @{3} times to up to @{2} enemies within a @{1} m radius and ^{3}pulls them closer^{4}.	skill-description
-10110300204	Leaps high into the air and lands in a designated area within @{1} m, dealing a total of ATK * ^{1}@{4}%^{2} damage to up to @{3} enemies within @{2} m of the target area and inflicting ^{3}【Immobilize】^{4} for @{5} sec. Gains ^{5}【Control Immunity】^{6} while using the skill.	skill-description
 10110300205	Raise your Shield for @{1} seconds to Fortify yourself, reducing DMG taken by ^{1}@{2}%^{2}. During this time, your MSPD is ^{3}【reduced】^{4} by @{3}%, but you have ^{5}Immunity^{6}. Every @{6} seconds, inflict a @{7}-meter ^{7}【Knockback】^{8} in the direction you are Facing on up to @{5} members of the Enemy Team within @{4} meters in front of you and Deals DMG equal to your ATK * ^{9}@{8}%^{10}.	skill-description
-10110300206	Deals ATK * ^{1}@{4}%^{2} damage to up to @{3} enemies in a @{1} m * @{2} m area ahead.	skill-description
-10110300207	Deals ATK * ^{1}@{5}%^{2} damage @{4} times to up to @{3} enemies in a target area with a @{2} m radius within @{1} m and inflicts ^{3}【Pull】^{4} once. Each hit has a @{6}% Chance to inflict ^{5}【Freeze】^{6}.	skill-description
-10110300208	Summons a massive comet from space, dealing ATK * ^{1}@{4}%^{2} damage to up to @{3} enemies in a target area with a @{2} m radius within @{1} m.	skill-description
-10110300209	Unleashes the power of thunder, dealing ATK * ^{1}@{4}%^{2} damage to up to @{3} enemies in a target area with a @{2} m radius within @{1} m, with a @{5}% Chance to inflict ^{3}【Stun】^{4} for @{6} sec. ^{5}【Stun】^{6}: Interrupts movement, casting, and skills. Cannot move or use skills.	skill-description
-10110300210	Summons a meteor, dealing ATK * ^{1}@{4}%^{2} damage to up to @{3} enemies in a target area with a @{2} m radius within @{1} m, with a @{5}% Chance to inflict ^{3}【Burn】^{4}.	skill-description
-10110300211	Unleashes flames to incinerate enemies, dealing ATK * ^{1}@{4}%^{2} damage to up to @{3} enemies in a target area with a @{2} m radius within @{1} m.	skill-description
-10110300212	Focuses earth-elemental energy, dealing ATK * ^{1}@{4}%^{2} damage to up to @{3} enemies in a target area with a @{2} m radius within @{1} m.	skill-description
-10110300213	Unleashes a Burst of frost, dealing ATK * ^{1}@{4}%^{2} damage to up to @{3} enemies in a target area with a @{2} m radius within @{1} m, with a @{5}% Chance to inflict ^{3}【Freeze】^{4} for @{6} sec.	skill-description
-10110300214	Condenses ice and unleashes a freezing mist, dealing ATK * ^{1}@{4}%^{2} damage to up to @{3} enemies in a designated area with a @{2} m radius within @{1} m.	skill-description
-10110300215	Causes the earth to erupt, dealing ATK * ^{1}@{4}%^{2} damage to up to @{3} enemies in a @{1} m * @{2} m area ahead, with a @{5}% Chance to inflict ^{3}【Petrify】^{4} for @{6} sec.	skill-description
-10110300216	Intensifies gravity in a designated area with a @{2} m radius within @{1} m, dealing ATK * ^{1}@{4}%^{2} damage per wave to up to @{3} enemies. The gravity field lasts @{5} sec. and strikes a total of @{6} waves.	skill-description
-10110300217	Attacks with psychic power, dealing ranged Magic Damage equal to Magic ATK * ^{1}@{3}%^{2} to an ST enemy within @{1} m and up to @{2} nearby enemies.	skill-description
-10110300218	Instantly calls down Divine Light, restoring ^{3}Life^{4} equal to own ATK * ^{1}@{3}%^{2} for self and up to @{2} allies within a @{1} m radius, prioritizing party Members.	skill-description
-10110300219	Summons a @{2} × @{3} m rectangular magic field within @{1} m, restoring ^{1}@{5}%^{2} Life per sec. to up to @{4} allies within the area for @{6} sec.	skill-description
-10110300235	Places a Flasher at the caster's location. When an enemy enters within @{1} m of the Trap Hunter, it explodes, dealing ATK * ^{1}@{4}%^{2} damage to up to @{3} enemies within a @{2} m radius and inflicting ^{3}【Blind】^{4} for @{5} sec. The Trap Hunter lasts @{6} sec.	skill-description
-10110300236	Unleashes a powerful attack against the designated ST enemy within @{1} m, dealing Neutral ranged Physical damage equal to Physical ATK * ^{1}@{3}%^{2} to the target and up to @{2} enemies in a line within range.	skill-description
-10110300237	Launches @{5} cannon rounds at @{2} designated enemies within @{1} m and up to @{4} other enemies within @{3} m of them, dealing a total of ATK * ^{1}@{6}%^{2} damage.	skill-description
-10110300238	Launches an impact cone at @{2} designated enemies within @{1} m and up to @{4} enemies within @{3} m of them, dealing ATK * ^{1}@{5}%^{2} damage, inflicting @{6} m of ^{3}【Knockback】^{4}, and inflicting ^{5}【Stun】^{6} for @{7} sec.	skill-description
-10110300239	Uses a flamethrower on @{2} designated enemies within @{1} m, dealing a total of ATK * ^{1}@{7}%^{2} damage over @{6} hits to up to @{5} targets in a @{3} * @{4} m rectangular area ahead.	skill-description
-10110300240	Launches a rocket punch, dealing ATK * ^{1}@{2}%^{2} damage to the designated ST enemy within @{1} m.	skill-description
-10110300241	Can only be used while riding Madogear Pilot. Equips @{1} Vulcan cannons on each hand and fires at @{3} designated enemies up to @{2} m away, dealing ATK * ^{1}@{5}%^{2} damage @{4} times.	skill-description
-10110300242	Rapidly restores Life, recovering a total of ^{1}@{2}% of Max Life^{2} over @{1} sec.	skill-description
-10110300243	Grants allies within a @{1} m radius ^{1}【Endure】^{2} and reduces their damage taken by @{2}% for @{3} sec.	skill-description
-10110300244	Summons lightning within @{1} m, dealing ^{1}@{4}%^{2} damage per hit to up to @{3} enemies within a circular area with a @{2} m radius. Lasts @{5} sec. and attacks @{6} times per sec. Each hit has a @{7}% Chance to inflict ^{3}【Blind】^{4} for @{8} sec.	skill-description
-10110300245	Summons Storm Gust within @{1} m, dealing ^{1}@{4}%^{2} damage per hit to up to @{3} enemies within a circular area with a @{2} m radius. The magic field lasts @{5} sec. and attacks @{6} times per sec. Each hit has a @{7}% Chance to inflict ^{3}【Freeze】^{4} for @{8} sec.	skill-description
-10110300246	Temporarily increases Movement Speed by ^{1}@{3}%^{2} and FLEE by ^{3}@{4}^{4} for self and up to @{2} allies within @{1} m for @{5} sec.	skill-description
-10110300247	Grants Falcon's Eye to allies within @{1} m. Players with Falcon's Eye can see enemies in the ^{1}【Hiding】^{2} state within a @{2} m radius for @{3} sec.	skill-description
-10110300248	Lock onto an allied target within @{1} meters, restoring Life equal to ^{1}@{2}%^{2} of ATK for you and the target	skill-description
-10110300249	Cast in a selected direction to perform Movement @{1} m away from the target and enter the ^{1}【Camouflage】【Hiding】^{2} states for @{2} sec.\nThe ^{3}【Camouflage】【Hiding】^{4} states end immediately after dealing or taking damage a total of @{3} times.	skill-description
-10110300251	Within @{1} meters of yourself, unleash a rain of arrows that deals ^{1}@{4}%^{2} damage to up to @{3} enemies within a @{2}-meter radius and ^{3}【Knocks Back】^{4} targets hit	skill-description
-10110300252	Spend Zeny to launch a powerful attack at a target within @{1} m, dealing ATK * ^{1}@{4}%^{2} damage to up to @{3} enemies within a @{2} m radius of the target.	skill-description
-10110300253	Summons a Holy Spirit to Discover a single enemy in ^{1}【Hiding】^{2} within a @{1}-meter radius, removes their ^{3}【Hiding】^{4}, and deals damage equal to ATK * ^{5}@{2}%^{6}. The Holy Spirit lasts @{3} seconds and disappears after detecting a target.	skill-description
 10110300254	Cross-shaped AoE, vertical first, then horizontal	skill-description
 10110300255	Summon a storm, sending it Flying in the designated direction. It deals ^{1}@{2}%^{2} damage to enemies within a @{1}-meter radius along its path and inflicts ^{3}【Knockback】^{4}. After ^{5}【Knockback】^{6}, four equipped items are selected at random, each with a @{3}% Chance to ^{7}【drop】^{8}, with a guaranteed ^{9}【drop】^{10} of ^{11}@{4}^{12} items.	skill-description
-10110300256	Summons a storm that goes Flying in the designated direction, dealing ^{1}@{2}%^{2} damage to enemies within a @{1}-meter radius along its path and ^{3}【knocking them airborne】^{4}. After being ^{5}【knocked airborne】^{6}, four equipped items are randomly selected, each with a @{3}% Chance to ^{7}【drop】^{8}.	skill-description
-10110300257	Burrow in the specified direction, moving up to @{1} m. Skill cooldown: ^{1}@{2}^{2} sec.	skill-description
-10110300258	After use, Enlarge to @{1} times your size. During Magnification, restores ^{1}@{3}% ^{2} of your Max HP every @{2} seconds for @{4} seconds. Cooldown: ^{3}@{5}^{4} seconds.	skill-description
-10110300259	Use Fire Release to deal Damage over Time to enemies in a @{1}° cone with a radius of @{2} m directly in front of you, dealing ^{1}@{3}%^{2} damage each time for @{4} sec.	skill-description
-10110300260	Deals Damage over Time to enemies within a @{1}-meter radius, dealing ^{1}@{2}%^{2} damage per tick for @{3} seconds.	skill-description
-10110300261	Summon a monsoon, dealing ^{1}@{2}%^{2} damage to enemies within a @{1}-meter radius and inflicting ^{3}【Knockback】^{4}.	skill-description
 10110300262	Temporarily play a BGM track	skill-description
-10110300263	Deals a total of ^{1}@{3}%^{2} damage to up to @{2} targets within a @{1}m radius over @{4} sec.	skill-description
 10110300264	Revive the ID tag's owner	skill-description
-10110300265	Creates a spherical area with a radius of @{1} meters at your location. Players within the area are immune to poison zone damage for @{2} seconds.	skill-description
-10110300266	Creates a repulsion field with a radius of @{1} meters at your location. Enemies who enter the field are ejected. Lasts @{2} seconds.	skill-description
-10110300267	Dive to a target location within @{1} meters, inflicting ^{1}【Knock Up】^{2} and dealing damage equal to ATK * ^{3}@{4}%^{4} to up to @{3} enemies within a @{2}-meter radius upon landing.	skill-description
-10110300268	Commands the Falcon to scan the area, revealing all enemies' locations on the Mini Map to you and your teammates for @{1} sec. Skill cooldown: ^{1}@{2}^{2} sec.	skill-description
-10110300269	Summon a vending cart nearby where you can purchase Battle Royale items. The vending cart lasts for @{1} sec.	skill-description
-10110300270	Summons an ambulance nearby that can be used to Revive teammates. The ambulance lasts for @{1} sec.	skill-description
 10110300271	Randomly transform into one of @{1} Porings, with @{2} possible forms	skill-description
 10110300272	End Transform: Poring	skill-description
 10110300273	Throw the supply cart forward, inflicting Stun on enemies in its path.	skill-description
 10110300274	Provides the player and the Supply Cart with an exceptional speed boost.	skill-description
-10110300275	Detach the Supply Cart. While detached, it continuously restores HP to allies within @{1} meters.	skill-description
-10110300276	Camouflages the Supply Cart for ${1} sec. Taking damage while camouflaged will not reveal it.	skill-description
-10110300277	After use, the Supply Cart gains a shield equal to ${1}% of its maximum Life for ${2} seconds.	skill-description
-10110300278	Causes the Supply Cart to explode after ${1} seconds, dealing damage equal to up to ${3}% of each target's Life within a ${2}-meter radius.	skill-description
 10110300279	Outpost Area Detection Skill	skill-description
 10110300280	Outpost's Group Warp Skill	skill-description
-10110300281	Unload the Supply Cart. While unloaded, it increases the DEF of allies within @{1} meters.	skill-description
-10110300282	Charge forward with the supply cart, knocking back and Stunning enemies along the way.	skill-description
 10110300283	Allies within ${1} meters of the supply cart gain ${2}% ATK for ${3} seconds.	skill-description
-10110300284	Causes the Supply Cart to explode after ${1} seconds, dealing damage equal to ${3}% of Life to enemies within a ${2}-meter radius.	skill-description
 10110300285	Fireworks launched after delivering the supply cart	skill-description
 10110300286	Strike the target with soul power, Launching ${2} bursts of soul energy at the designated ST enemy within ${1} meters and dealing @{1} instances of Ghost-property ranged magic damage equal to Magic ATK *^{1}${3}%^{2}; while in the ^{3}^{4}【Reading】^{5}^{6} state, consume @{2} stacks of ^{7}【Book Page】^{8} to cast this skill 1 Extra time.	skill-description
 10110300287	Use telekinesis to Summon White Imprison around ${1} enemies within ${2} meters of you, dealing Ghost Ranged Magic DMG equal to MATK * ^{1}${3}%^{2}, inflicting ^{3}^{4}【Immobilize】^{5}^{6} for ${4} seconds, and applying ^{7}^{8}【Prison】^{9}^{10} for ${5} seconds. Targets with 【Prison】 take ${6}% increased DMG from the caster.	skill-description
-10110300288	Unleash Soul Buster and Enter the ^{1}^{2}【Intense Telekinesis】^{3}^{4} state for ${1} seconds. During this time, your Ghost Damage increases by ^{5}${2}%^{6}, Soul Expansion's Cooldown is reduced by ${3}%, and Psychokinetic Astral Body acquisition efficiency increases by ${4}%.	skill-description
-10110300289	Increases Ghost Damage by ^{1}${1}%^{2}. Ghost Damage dealt to targets with Neutral armor is no longer reduced due to elemental disadvantage.	skill-description
 10110300290	Concentrate your Soul Buster to distort space, dealing @{1} hits of Ghost Ranged Magic DMG equal to MATK * ^{1}${4}%^{2} (^{3}^{4}Dexterity Resonance ${8}%^{5}^{6}) to a selected ST enemy within a ${1}-meter radius of you and up to ${3} enemies in total within ${2} meters of that enemy, continuously ^{7}【pulling them in】^{8}. Then Terminate the distortion with a Burst, dealing @{2} hits of Ghost Ranged Magic DMG equal to MATK * ^{9}${5}%^{10} (^{11}^{12}Dexterity Resonance ${8}%^{13}^{14}). While ^{15}^{16}【Reading】^{17}^{18} is Active, consumes ${6} stacks of ^{19}【Book Page】^{20} to cast this skill ${7} Extra times.	skill-description
 10110300291	The Warlock periodically gathers energy, Auto-generating ${2} ^{1}^{2}【Psychokinetic Astral Bodies】^{3}^{4} every ${1} seconds, up to ${3}. If you already have ${4} ^{5}^{6}【Psychokinetic Astral Bodies】^{7}^{8}, hitting with Soul Expansion Launches all ^{9}^{10}【Psychokinetic Astral Bodies】^{11}^{12}. Each Deals Ghost Ranged Magic DMG equal to MATK * ^{13}${5}%^{14} to the target enemy.	skill-description
-10110300292	Summons a radiant magic circle, granting allied units within ${1} meters Endure and immunity to crowd control, knock-up, and knockback effects for ${2} seconds.	skill-description
-10110300293	Summon a dark magic circle that inflicts ${2}% Slow, Silence, and Disarm on enemies within ${1} meters for ${3} seconds.	skill-description
-10110300294	Summons a Gale Magic Circle, granting allied units within ${1}m increased Move Speed and Attack Speed and reduced cooldowns for ${2} sec.	skill-description
-10110300295	Summon an Earthshatter Formation, inflicting Stun on enemies within ${1}m for ${2}s.	skill-description
-10110300298	Controls the target for ${1}s, dealing damage equal to ${2}% of its Max Life each second. If the target dies during this time, restores ${3}% of the caster's Max Life.	skill-description
-10110300299	Deals damage equal to ${2}% of Max Life to targets above ${1}% Life; instantly kills targets below ${3}% Life and increases the caster's Physical ATK and Magic ATK by ${4}% for ${5}s	skill-description
-10110300300	Grants Endure, making you immune to crowd control, knock-up, and knockback for ${1} seconds.	skill-description
 10110300301	Knocks back all enemies within ${1}m of you when used.	skill-description
-10110300302	The dragon summons drakes in the outer area and drakes carrying energy orbs toward the boss in the inner area. If an inner-area drake reaches its destination, the boss gains a stack of a damage-increasing buff.	skill-description
-10110300303	The dragon takes flight and prepares to bombard both sides of the arena with fiery breath.	skill-description
-10110300304	The dragon leaps to the edge of the arena and summons a wall of fire that moves forward.	skill-description
-10110300305	The dragon breathes fire across the full-screen. Players who aren't behind an intact shield will be killed instantly.	skill-description
 10110300306	Charges a full-screen attack for @{1}s. Deals no damage.	skill-description
 10110300307	The dragon flies low, continuously breathing fireballs.	skill-description
 10110300308	Pick up the Dragon Scales dropped by the fire dragon	skill-description
@@ -1367,11 +991,7 @@ ID	English	Category
 10110300318	Switch to launching ice shells	skill-description
 10110300319	Switch to launching fire shells	skill-description
 10110300333	Spits upward, then after a @{1}-second warning, 【Unidentified Digestive Matter】 falls from the sky at several random locations, dealing A damage within a circular area with a @{2}-meter radius. 【Unidentified Digestive Matter】 lasts @{3}s and slows players and monsters within it	skill-description
-10110300334	After a @{1}-second warning, damages players within a circular area with a five-meter radius around itself and applies 【Stomach Acid Corrosion】	skill-description
-10110300335	Sprays its stomach acid, applying a high-damage DoT to all players within @{1} meters for @{2}s. Contact with 【Unidentified Digestive Matter】 removes this buff	skill-description
-10110300336	Creates @{1} rectangular AoEs measuring @{2} by @{3}, centered on itself, damaging enemies within and applying 【Stomach Acid Corrosion】	skill-description
 10110300337	After a brief cast, summons several Thief Bugs to follow and attack	skill-description
-10110300338	Enrages itself and all Thief Bugs, increasing their Attack Speed and Movement Speed	skill-description
 10110300339	Delivers a heavy blow to the currently targeted player within the grid	skill-description
 10110300340	Drops a meteor at the locations of the @{1} farthest players	skill-description
 10110300341	Use Lope to clear the obstacle	skill-description
@@ -1381,15 +1001,8 @@ ID	English	Category
 10110300345	After use, increases CRIT Chance by @{1}% and CRIT DMG by @{2}%.	skill-description
 10110300346	After use, increases MSPD by @{1}%.	skill-description
 10110300347	After use, restores @{1}% HP.	skill-description
-10110300348	After use, creates a magnetic field in the selected Guild Battlefield that continuously affects every player's Move.	skill-description
-10110300349	After use, creates a Chain in the selected Guild Battlefield, inflicting Movement Disabled on all players.	skill-description
-10110300350	After use, creates a Nightmare Mystery Box in the selected Guild Battlefield. All players Cannot use skill.	skill-description
-10110300351	After use, creates squid ink in the selected Guild Battlefield, obstructing every player's vision.	skill-description
 10110300352	After use, increases the selected Guild Battlefield Boss's DEF.	skill-description
 10110300353	After use, causes the selected Guild Battlefield Boss to Enter Berserk.	skill-description
-10110300354	After use, creates Sticky Mucus in the selected Guild Battlefield. Reduces MSPD. for all players.	skill-description
-10110300355	After use, generates multiple compressed shockwaves in the selected Guild Battlefield, inflicting Knock-Up on all players multiple times.	skill-description
-10110300356	After use, creates a talisman in the current Guild Battlefield, granting Endure to all players.	skill-description
 10110300357	(No translation required)	skill-description
 10110300358	Board this vehicle.	skill-description
 10110300359	Deals extremely High Damage in a rectangular area ahead.	skill-description
@@ -1428,8 +1041,6 @@ ID	English	Category
 10110300423	Mining	skill-description
 10110300424	Logging	skill-description
 10110300425	Normal Attack @{1}	skill-description
-10110300426	Golden Thief Bug marks multiple players and Launches fireballs at them after @{1} sec, damaging the targets and nearby players.	skill-description
-10110300427	Golden Thief Bug harnesses the power of lava and Launches magma at multiple nearby players, damaging players hit.	skill-description
 10110300428	Earthquake	skill-description
 10110300429	Break Free from Maya's Bind	skill-description
 10110300430	Jump into the Cave to Rescue Bobo	skill-description
@@ -2573,7 +2184,6 @@ ID	English	Category
 10110300223	Strengthens holy power through a prayer of devotion, granting ^{1}continuous recovery^{2} to self and party Members within a @{1} m radius. Restores ^{5}Life^{6} equal to own ATK * ^{3}@{2}%^{4} to each target every sec. for @{3} sec.	skill-description
 10110300222	Summons a golden Sacred Tree of Life at the caster's location, increasing damage reduction by ^{1}@{2}%^{2} for self and party Members within a @{1} m radius for @{3} sec. If self or a party Member takes ^{3}fatal damage^{4} while the effect is active, triggers ^{5}【Death Immunity】^{6} once and sets Life to ^{7}@{4}% of Max Life^{8}.	skill-description
 10110300221	Invokes Divine Light, restoring ^{3}Life^{4} equal to own ATK * ^{1}@{2}%^{2} for self and the designated ST ally within @{1} m.	skill-description
-10110300220	Summons a @{2} × @{3} m rectangular magic field within @{1} m, restoring ^{1}@{5}%^{2} Life per sec. to up to @{4} allies within the area for @{6} sec.	skill-description
 10110300170	Shield skill. Deals Neutral Melee Physical DMG equal to PATK * ^{1}${7}%^{2} to up to ${6} enemies within a ${4}-degree, ${5}-meter area in front of you. Against Monster targets, the percentage DMG multiplier increases by ^{3}${12}%^{4}. During this time, you have Debuff Immunity, Monster DMG Reduction increases by ^{5}${2}%^{6}, and you gain ^{7}${3}%^{8} DEF and MDEF Increase.	skill-description
 10110300169	Shield skill. Raise your Shield to block for ${1} seconds. During this time, you have Debuff Immunity, Monster DMG Reduction increases by ^{1}${2}%^{2}, and you gain ^{3}${3}%^{4} DEF and MDEF Increase. Tap this skill again while blocking or wait until the block ends to use ^{5}^{6}【Shield Auto Counter】^{7}^{8}. If you are attacked while blocking, ^{9}^{10}【Shield Auto Counter】^{11}^{12} is Enhanced into ^{13}^{14}【Powerful Auto Counter】^{15}^{16}.	skill-description
 10110300168	Shield skill. Deals Neutral Melee Physical DMG equal to PATK * ^{1}${2}%^{2} to the selected ST enemy within ${1} meters. Against Monster targets, the percentage DMG multiplier increases by ^{3}${3}%^{4}.	skill-description
