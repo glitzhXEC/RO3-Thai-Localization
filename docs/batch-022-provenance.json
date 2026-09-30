@@ -1,0 +1,7 @@
+[
+  {
+    "ID": "10220300887",
+    "English": "When a dagger or katar is equipped, Physical ATK +${1}.",
+    "method": "Exact whole-English match to fresh English-only batches 001-021; no old Thai or normalization"
+  }
+]

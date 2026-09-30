@@ -1,0 +1,29 @@
+{
+  "batches": [
+    "batch-020.th.json",
+    "batch-021.th.json",
+    "batch-022.th.json"
+  ],
+  "new_rows": 218,
+  "categories": {
+    "skill-effect": 118,
+    "skill-enhancement": 100
+  },
+  "total_translated_rows": 1633,
+  "pending_priority_rows": 1784,
+  "source_skill_payload_ids": 1288,
+  "source_runtime_rules": 835,
+  "runtime_checks": 5542,
+  "structural_errors": 0,
+  "new_batch_in_game_tested": false,
+  "legacy_Thai_used": false,
+  "current_release_skill_ids": 416,
+  "included_in_current_release": false,
+  "semantic_notes": [
+    "Character Lv and your Lv formulas inside brackets are preserved literally, not replaced by guessed values.",
+    "Damage coefficient strings lacking an explicit ATK term remain as written in English; no ATK term was invented.",
+    "Flat additive damage is not rewritten as defense-ignoring damage.",
+    "Unique Effect is preserved without inventing stacking restrictions.",
+    "Floors are translated as layers; original stacks stays English."
+  ]
+}
