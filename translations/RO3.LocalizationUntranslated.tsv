@@ -2,41 +2,6 @@
 13540000001	Daily Login	Daily Login
 13540000002	Card Objective - Insert Card	Card Objective - Insert Card
 13540000003	Card Objective - Rank Up	Card Objective - Rank Up
-66001	Invite ${1} to use the ${2} action?	Invite ${1} to use the ${2} action?
-66002	Interaction Invitation	Interaction Invitation
-66003	Player ${1} has invited you to use the ${2} action	Player ${1} has invited you to use the ${2} action
-66006	Waiting for Acceptance	Waiting for Acceptance
-66007	Waiting for player ${1} to accept the invitation	Waiting for player ${1} to accept the invitation
-66008	${1} accepted your invitation	${1} accepted your invitation
-66009	${1} declined your invitation	${1} declined your invitation
-66010	Failed to add to favorites	Failed to add to favorites
-66011	Failed to set idle action	Failed to set idle action
-66012	Failed to play action	Failed to play action
-66013	Please select a player	Please select a player
-66014	The Distance between you is too great to perform a Duo Action	The Distance between you is too great to perform a Duo Action
-66015	The other player is currently busy and cannot use Interaction	The other player is currently busy and cannot use Interaction
-66016	Action ${1} Unlock Requirement: ${2}	Action ${1} Unlock Requirement: ${2}
-66017	Collect	Collect
-66018	Solo	Solo
-66019	Duo	Duo
-66021	Idle Settings	Idle Settings
-66024	You have no favorite actions. Tap Edit to enter Edit Mode and add actions to your favorites	You have no favorite actions. Tap Edit to enter Edit Mode and add actions to your favorites
-66025	Select an action to set as your idle action	Select an action to set as your idle action
-66026	Your favorite actions have not been saved. Close this screen?	Your favorite actions have not been saved. Close this screen?
-66028	Close	Close
-66029	Actions cannot be played in your current state or location	Actions cannot be played in your current state or location
-66030	Confirm Save	Confirm Save
-66031	Idle actions cannot be added to favorites	Idle actions cannot be added to favorites
-66032	You are currently editing. Tap an action on another tab to save	You are currently editing. Tap an action on another tab to save
-66033	Your favorite actions have not been saved. Save and close this screen?	Your favorite actions have not been saved. Save and close this screen?
-66034	Save and Exit	Save and Exit
-66035	Exit Without Saving	Exit Without Saving
-66037	You're performing actions too frequently. Please try again later	You're performing actions too frequently. Please try again later
-66038	Resting in meditation	Resting in meditation
-66039	Stopped meditating	Stopped meditating
-66040	Cannot be used in combat	Cannot be used in combat
-66041	Check an action to add it to your favorites. Press and hold to preview	Check an action to add it to your favorites. Press and hold to preview
-66042	Actions cannot be performed in your current state	Actions cannot be performed in your current state
 11720000000	Meditate	Meditate
 11720000001	Nine-Tone Mantra: Moon Dance	Nine-Tone Mantra: Moon Dance
 11720000002	Nine-Tone Mantra: Moon Chase	Nine-Tone Mantra: Moon Chase
@@ -60,7 +25,6 @@
 1034	<color=#b4a797>${1}</color>	<color=#b4a797>${1}</color>
 1043	<color=#DD563F>%s</color>/%s	<color=#DD563F>%s</color>/%s
 1044	<color=#DD563F>%s</color>	<color=#DD563F>%s</color>
-1050	Protocol mismatch. Please use the corresponding server version, or update both the client and server to the latest version!\nClient protocol:${1} \nServer protocol:${2}\n\n Click Go to continue playing	Protocol mismatch. Please use the corresponding server version, or update both the client and server to the latest version!\nClient protocol:${1} \nServer protocol:${2}\n\n Click Go to continue playing
 1065	：	：
 1070	<sprite name="common_arrow_07_03">	<sprite name="common_arrow_07_03">
 1071	X${1}	X${1}
@@ -75,8 +39,6 @@
 11380000007	Normal	Normal
 11380000008	Hard	Hard
 11380000009	Final Trial	Final Trial
-67001	Feature Preview	Feature Preview
-67002	Growth Support	Growth Support
 16320001	Hunting Challenge	Hunting Challenge
 16320002	Skills refresh in ${1} seconds	Skills refresh in ${1} seconds
 16320003	Ranks 4-10	Ranks 4-10
@@ -299,12 +261,6 @@
 11040000001	Type	Type
 11040000002	Number of Affixes	Number of Affixes
 11040000003	Stunt	Stunt
-2061	Stage reward does not exist	Stage reward does not exist
-2062	Stage reward claimed	Stage reward claimed
-2063	Insufficient Power	Insufficient Power
-2067	Current server time: ${1}	Current server time: ${1}
-2068	Enter your account	Enter your account
-2069	Enter password	Enter password
 2070	BASE	BASE
 2071	JOB	JOB
 2072	HP	HP
@@ -312,11 +268,9 @@
 2074	K	K
 2075	M	M
 2076	B	B
-2077	Auto	Auto
 2078	Lv.	Lv.
 2079	MVP	MVP
 2080	s	s
-2081	None	None
 2082	S	S
 2083	STR	STR
 2084	AGI	AGI
@@ -324,61 +278,28 @@
 2086	INT	INT
 2087	DEX	DEX
 2088	LUK	LUK
-2089	Base EXP Increase	Base EXP Increase
-2090	Job EXP Increase	Job EXP Increase
 2091	EXP	EXP
-2092	New	New
-2093	Network request timed out	Network request timed out
 2094	${1}!!	${1}!!
 2095	UTC+${1}	UTC+${1}
 2096	${1}FPS	${1}FPS
 2097	BASE:${1}%	BASE:${1}%
 2098	${1}%:JOB	${1}%:JOB
-2099	Tap to close (${1})	Tap to close (${1})
 12400200000	Every @{1} seconds, Live Coals will appear in the territory. Gather them and add them to the Bonfire to earn rewards.	Every @{1} seconds, Live Coals will appear in the territory. Gather them and add them to the Bonfire to earn rewards.
 12400200001	Every @{1} seconds, Monsters will cause trouble. Defeat them to earn rewards. Draw Third Prize during the final @{2} minutes.	Every @{1} seconds, Monsters will cause trouble. Defeat them to earn rewards. Draw Third Prize during the final @{2} minutes.
 12400200002	Every @{1} seconds, Monsters will cause trouble. Defeat them to earn rewards. Draw Second Prize during the final @{2} minutes.	Every @{1} seconds, Monsters will cause trouble. Defeat them to earn rewards. Draw Second Prize during the final @{2} minutes.
 12400200003	Every @{1} seconds, Monsters will cause trouble. Defeat them to earn rewards. Draw First Prize during the final @{2} minutes.	Every @{1} seconds, Monsters will cause trouble. Defeat them to earn rewards. Draw First Prize during the final @{2} minutes.
 12400200004	The Bonfire Party has come to a wonderful close. Thank You all for spending the evening with us!	The Bonfire Party has come to a wonderful close. Thank You all for spending the evening with us!
-68000	This event is Not Available yet. Stay tuned!	This event is Not Available yet. Stay tuned!
-68001	Every day from 10:00-22:00, Rift Gates randomly appear on various maps every two hours. Watch for Eden Group System announcements	Every day from 10:00-22:00, Rift Gates randomly appear on various maps every two hours. Watch for Eden Group System announcements
-68002	Your Reward Count has been used up. You will not receive Additional rewards from this challenge	Your Reward Count has been used up. You will not receive Additional rewards from this challenge
 68003	Hidden Trove 68003	Hidden Trove 68003
 68004	Hidden Trove 68004	Hidden Trove 68004
 68005	Hidden Trove 68005	Hidden Trove 68005
 68006	Eden Group: Commendation Vault	Eden Group: Commendation Vault
-68007	Additional rewards	Additional rewards
-68008	Statistics	Statistics
-68009	Reward Count Used Up	Reward Count Used Up
-68010	Difficulty	Difficulty
-68011	Clear Time	Clear Time
-68012	Level Req	Level Req
-68013	Server Level	Server Level
-68014	Format	Format
-68015	Reward Count	Reward Count
 68016	[Rift Crisis] Special Commendation	[Rift Crisis] Special Commendation
 68017	[Rift Crisis] Commendation Gift Box	[Rift Crisis] Commendation Gift Box
-68018	Reward Preview for This Week	Reward Preview for This Week
-68019	Standard Compensation Chest	Standard Compensation Chest
-68020	Acquisition Progress This Week	Acquisition Progress This Week
-68021	Event Time Remaining	Event Time Remaining
-68022	Wave Refresh Time	Wave Refresh Time
-68023	Next Event Opening	Next Event Opening
-68024	Unavailable	Unavailable
-68025	${1} monsters remaining	${1} monsters remaining
-68026	Space is stable. No rifts have appeared	Space is stable. No rifts have appeared
-68027	Rift successfully repaired	Rift successfully repaired
 68028	Rift Stone	Rift Stone
-68029	Reward Count	Reward Count
 68030	Hidden Trove 68030	Hidden Trove 68030
 68031	<size=24><color=#97E553>${1}</color></size>/${2}	<size=24><color=#97E553>${1}</color></size>/${2}
 68032	<size=24><color=#F3865E>${1}</color></size>/${2}	<size=24><color=#F3865E>${1}</color></size>/${2}
 68033	<size=26>${1}</size><color=#C3BAA8>/${2}</color>	<size=26>${1}</size><color=#C3BAA8>/${2}</color>
-68034	[Rift Crisis] Special Commendation has reached This Week's Limit	[Rift Crisis] Special Commendation has reached This Week's Limit
-68035	[Rift Crisis] Commendation Gift Box has reached This Week's Limit	[Rift Crisis] Commendation Gift Box has reached This Week's Limit
-68036	Space has stabilized, and this rift has been quelled.	Space has stabilized, and this rift has been quelled.
-68037	Seconds Until Berserk	Seconds Until Berserk
-68038	New Record	New Record
 12520000000	Call all Guild Members to assemble!	Call all Guild Members to assemble!
 12520000001	Head to the center of the territory, Collect Live Coals, and add them to the bonfire	Head to the center of the territory, Collect Live Coals, and add them to the bonfire
 12520000002	Enjoy the Bonfire EXP blessing while waiting for the raffle to begin	Enjoy the Bonfire EXP blessing while waiting for the raffle to begin
@@ -386,40 +307,15 @@
 12350000000	Defense Build	Defense Build
 12350000001	Defense Boost	Defense Boost
 12350000002	Defense Fortification	Defense Fortification
-3000	Identical buffs stack	Identical buffs stack
 3001	Lv.${1}	Lv.${1}
 3002	K	K
 3003	M	M
 3004	G	G
 3005	T	T
-3006	HOT	HOT
-3007	OK	OK
-3008	Simplified Chinese	Simplified Chinese
-3009	Traditional Chinese	Traditional Chinese
-3010	English	English
-3011	Korean	Korean
-3012	Thai	Thai
-3013	Indonesian	Indonesian
-3014	Unlock New Function	Unlock New Function
-3015	Changing the language requires a restart. Continue?	Changing the language requires a restart. Continue?
-3019	No more Notifications	No more Notifications
-3020	Vietnamese	Vietnamese
-3021	Failed to switch scenes. Please log in again!	Failed to switch scenes. Please log in again!
-3022	Attack	Attack
-3023	Mobility	Mobility
-3025	Support	Support
-3027	Survival	Survival
 3028	Knight	Knight
 3029	Crusader	Crusader
-3030	Hundred Million	Hundred Million
-3031	Ten Thousand	Ten Thousand
-3032	Owned:	Owned:
 3033	BASE <color=#FFEF95>${1}</color>	BASE <color=#FFEF95>${1}</color>
 3034	JOB <color=#FFEF95>${1}</color>	JOB <color=#FFEF95>${1}</color>
-3035	Job Advance requirements not met. Base Lv. ${1} and Job Lv. ${2} required.	Job Advance requirements not met. Base Lv. ${1} and Job Lv. ${2} required.
-3036	Rare Items	Rare Items
-3037	Redeem	Redeem
-3038	Redemption Rate	Redemption Rate
 10470100000	@{1}	@{1}
 10470100001	Head Above the Sea of Clouds	Head Above the Sea of Clouds
 10470100002	Head to the Chaos Ruins	Head to the Chaos Ruins
@@ -638,62 +534,7 @@
 200048	Exit	Exit
 200049	Get <sprite name="${3}">${4} with help from other players	Get <sprite name="${3}">${4} with help from other players
 200050	Assistance request sent to the <color=#F4F2E9>${1}</color> Channel	Assistance request sent to the <color=#F4F2E9>${1}</color> Channel
-69000	Novice Challenge	Novice Challenge
-69001	Discipline	Discipline
-69002	Happiness	Happiness
-69003	Renown	Renown
-69004	Free Spirit	Free Spirit
-69005	Charm	Charm
-69006	Not enough ${1}	Not enough ${1}
-69007	Event Period: ${1}-${2}	Event Period: ${1}-${2}
-69008	Zeny Shop	Zeny Shop
-69009	Purchase Period: ${1}-${2}	Purchase Period: ${1}-${2}
-69010	End the Day	End the Day
-69011	You haven't finished today's journey. End the day early?	You haven't finished today's journey. End the day early?
-69012	Clear ${1} Misc (${2}/${3})	Clear ${1} Misc (${2}/${3})
 69013	Reversi	Reversi
-69014	Cargo Placement	Cargo Placement
-69016	Clear the Boss Challenge	Clear the Boss Challenge
-69018	Beautiful sights always lie ahead. On to the next stop!	Beautiful sights always lie ahead. On to the next stop!
-69020	Welcome back! Let's continue the adventure.	Welcome back! Let's continue the adventure.
-69021	Continue Journey	Continue Journey
-69022	This chapter's journey is complete. Chapter ${1} unlocks at ${2}05:00.	This chapter's journey is complete. Chapter ${1} unlocks at ${2}05:00.
-69023	This chapter's journey is complete. Head to the next chapter to continue your adventure~	This chapter's journey is complete. Head to the next chapter to continue your adventure~
-69024	You passed through a lush forest.|You passed through a lush forest.|You passed through a lush forest.|You passed through a lush forest.|You passed through a lush forest.|You passed through a lush forest.|You passed through a lush forest.	You passed through a lush forest.|You passed through a lush forest.|You passed through a lush forest.|You passed through a lush forest.|You passed through a lush forest.|You passed through a lush forest.|You passed through a lush forest.
-69025	Every journey has an end, but yours has only just begun.	Every journey has an end, but yours has only just begun.
-69026	Review Journey	Review Journey
-69027	Tap anywhere to leave.	Tap anywhere to leave.
-69028	Are you sure you want to Leave the dungeon?	Are you sure you want to Leave the dungeon?
-69029	Try Again	Try Again
-69030	My Journey	My Journey
-69031	Title Acquired	Title Acquired
-69032	Share to Guild Channel	Share to Guild Channel
-69033	Share to World Channel	Share to World Channel
-69034	You're sharing too frequently. Please try again later.	You're sharing too frequently. Please try again later.
-69035	Adventurers whose <color=#987f53>${1}</color> attribute exceeds <color=#63a22b>50%</color>	Adventurers whose <color=#987f53>${1}</color> attribute exceeds <color=#63a22b>50%</color>
-69036	Today	Today
-69037	Tomorrow	Tomorrow
-69038	Day ${1}	Day ${1}
-69040	Complete the current node to preview areas in other chapters.	Complete the current node to preview areas in other chapters.
-69041	Complete the current node to preview rewards from other nodes.	Complete the current node to preview rewards from other nodes.
-69042	Deep in the forest lived a girl named Ella, who wove winter nests for small animals from fallen leaves each day. One snowy night, she rescued a frozen bluebird. When the bird awoke, it repaid her by spitting out a glowing seed. Ella buried the seed in the moss, and by the next day, it had grown into a Crystal tree. Silver fruit hung among its branches like dewdrops, each reflecting what people desired most in their hearts.	Deep in the forest lived a girl named Ella, who wove winter nests for small animals from fallen leaves each day. One snowy night, she rescued a frozen bluebird. When the bird awoke, it repaid her by spitting out a glowing seed. Ella buried the seed in the moss, and by the next day, it had grown into a Crystal tree. Silver fruit hung among its branches like dewdrops, each reflecting what people desired most in their hearts.
-69043	When the greedy lord heard about it, he stormed into the forest with an axe. But as he struck the trunk, all the fruit suddenly shattered at once, reflecting thousands of disappointed eyes—the eyes of every impoverished person in his domain. The Crystal tree dissolved into mist, leaving only the plainest fruit to roll into Ella's hand. Within it was a vision of the entire forest flourishing.	When the greedy lord heard about it, he stormed into the forest with an axe. But as he struck the trunk, all the fruit suddenly shattered at once, reflecting thousands of disappointed eyes—the eyes of every impoverished person in his domain. The Crystal tree dissolved into mist, leaving only the plainest fruit to roll into Ella's hand. Within it was a vision of the entire forest flourishing.
-69044	Ella finally understood. She gently buried the fruit beside the stream. In the morning light, glowing flowers bloomed all along the bank. They bore no fruit, but allowed everyone who passed to see their heart's true desire. From then on, no one in the forest fought over treasure, because everyone Discovered that the most precious magic had already quietly taken root within their hearts.	Ella finally understood. She gently buried the fruit beside the stream. In the morning light, glowing flowers bloomed all along the bank. They bore no fruit, but allowed everyone who passed to see their heart's true desire. From then on, no one in the forest fought over treasure, because everyone Discovered that the most precious magic had already quietly taken root within their hearts.
-69045	Adventurers whose <color=#987f53>${1}</color> attribute is below 50%	Adventurers whose <color=#987f53>${1}</color> attribute is below 50%
-69046	I completed the Beginner Challenge ${1}	I completed the Beginner Challenge ${1}
-69047	View My Journey	View My Journey
-69048	Shared to World Channel and Guild Channel	Shared to World Channel and Guild Channel
-69049	Shared to World Channel	Shared to World Channel
-69050	There are no matching points available, so placement is not possible.	There are no matching points available, so placement is not possible.
-69051	Clear all items from the board?	Clear all items from the board?
-69052	Trophy Showcase	Trophy Showcase
-69053	Leave the dungeon in ${1} sec.	Leave the dungeon in ${1} sec.
-69054	Stage ${1}/${2}	Stage ${1}/${2}
-69055	You haven't cleared this round yet. Are you sure you want to quit?	You haven't cleared this round yet. Are you sure you want to quit?
-69058	Placement Objective	Placement Objective
-69059	Challenge the Next Stage	Challenge the Next Stage
-69060	Challenge Success	Challenge Success
-69061	All stages cleared	All stages cleared
 10360000000	Guild Master	Guild Master
 10360000001	Leader	Leader
 10360000002	Vice Guild Master	Vice Guild Master
@@ -1023,102 +864,15 @@
 11080700052	^{1}Novice Challenge^{2}	^{1}Novice Challenge^{2}
 11080700053	^{1}Mock Battle^{2}	^{1}Mock Battle^{2}
 11080700054	^{1}Battle of Dragon Coffin Island^{2}	^{1}Battle of Dragon Coffin Island^{2}
-70001	Season Overview	Season Overview
-70004	Season Theme	Season Theme
-70005	Current Season Rank	Current Season Rank
-70006	Time Until Season Ends	Time Until Season Ends
-70007	This Season has ended. Time until matchmaking begins for the new Season:	This Season has ended. Time until matchmaking begins for the new Season:
-70008	Queuing for the new Season. Waiting for results.	Queuing for the new Season. Waiting for results.
-70009	Match successful. Time until entering the new Season:	Match successful. Time until entering the new Season:
-70010	Waiting for the new Season to begin.	Waiting for the new Season to begin.
-70011	Yet to start	Yet to start
-70013	Waiting for the new Season to begin.	Waiting for the new Season to begin.
-70014	Season Rank	Season Rank
-70015	Season Rank Details Season Rank Details	Season Rank Details Season Rank Details
 70016	Feel free to participate in the following Misc activities. Your top 【three Misc activities】 during the Dragon Boat Festival will automatically be selected for rewards.	Feel free to participate in the following Misc activities. Your top 【three Misc activities】 during the Dragon Boat Festival will automatically be selected for rewards.
-70018	${1} modes have reached this tier.	${1} modes have reached this tier.
-70019	Next Tier Rewards	Next Tier Rewards
-70020	No rewards for this tier.	No rewards for this tier.
-70021	Opens in <color=#97E553>${1}</color> days	Opens in <color=#97E553>${1}</color> days
-70022	Opens in <color=#97E553>${1}</color> hours	Opens in <color=#97E553>${1}</color> hours
-70023	Opens in <color=#97E553>${1}</color> minutes	Opens in <color=#97E553>${1}</color> minutes
-70024	Ends in <color=#97E553>${1}</color> days	Ends in <color=#97E553>${1}</color> days
-70025	Ends in <color=#97E553>${1}</color> hours	Ends in <color=#97E553>${1}</color> hours
-70026	Ends in <color=#97E553>${1}</color> minutes	Ends in <color=#97E553>${1}</color> minutes
-70027	Unlocks at Lv. <color=#97E553>${1}</color>	Unlocks at Lv. <color=#97E553>${1}</color>
-70028	This Function is not yet available	This Function is not yet available
-70029	This event has not opened yet.	This event has not opened yet.
-70030	This event has ended.	This event has ended.
-70031	You have yet to Join a guild.	You have yet to Join a guild.
-70032	<color=#ec543a>Ended</color>	<color=#ec543a>Ended</color>
-70033	In progress	In progress
-70036	Opens in ${1} days	Opens in ${1} days
-70037	Opens in ${1} hours	Opens in ${1} hours
-70038	Not yet available	Not yet available
-70039	The Season has not started yet.	The Season has not started yet.
-70040	${1} remaining in this chapter	${1} remaining in this chapter
-70041	Season Events	Season Events
 13260100000	...The Nail of Order is by no means a natural creation. Ancient records from Juno state that the ancient civilization of Juperos possessed technology capable of converting Life Emotions (thought forms) into physical energy. I theorize that activating the Nail requires some Ultra form of "conviction" as the key.	...The Nail of Order is by no means a natural creation. Ancient records from Juno state that the ancient civilization of Juperos possessed technology capable of converting Life Emotions (thought forms) into physical energy. I theorize that activating the Nail requires some Ultra form of "conviction" as the key.
 13260100001	The Legend of the Ant Hell... "The Mimic Girl's Obsession." If the Legend is true, high-purity thought particles born from an intense "unwillingness to give up" should remain here. This is the perfect sample for testing my theory.	The Legend of the Ant Hell... "The Mimic Girl's Obsession." If the Legend is true, high-purity thought particles born from an intense "unwillingness to give up" should remain here. This is the perfect sample for testing my theory.
 13260100002	Objective: Use the improved "Particle Resonator" to capture and analyze the free-floating thought particles here. If their energy spectrum resonates with the Nail of Order, it will prove that... human conviction and powerful Emotions can drive the Nail of Order.	Objective: Use the improved "Particle Resonator" to capture and analyze the free-floating thought particles here. If their energy spectrum resonates with the Nail of Order, it will prove that... human conviction and powerful Emotions can drive the Nail of Order.
 13260100003	The resonator is reacting violently. The rumors were true... The sample's purity is beyond anything I imagined! I must... I must go deeper... to the source of the energy...	The resonator is reacting violently. The rumors were true... The sample's purity is beyond anything I imagined! I must... I must go deeper... to the source of the energy...
-70101	Season Settlement	Season Settlement
-70102	Distance to Season End	Distance to Season End
-70103	Territory War	Territory War
-70104	Season Trophies	Season Trophies
-70105	Shop closes in ${1}	Shop closes in ${1}
-70106	Preview only. Purchases will be available next Season.	Preview only. Purchases will be available next Season.
-70109	Can be purchased after activating the corresponding Kafra Support Perk.	Can be purchased after activating the corresponding Kafra Support Perk.
-70110	Sold out	Sold out
-70111	Cannot exchange items during preview.	Cannot exchange items during preview.
 70112	Conqueror	Conqueror
-70113	Royal Capital	Royal Capital
-70114	No. ${1} Guild	No. ${1} Guild
-70115	<color=#fdab5b>${1}</color> Conqueror slots	<color=#fdab5b>${1}</color> Conqueror slots
-70116	Ultimately occupy the Royal City	Ultimately occupy the Royal City
-70117	Ultimately occupy a Regional City	Ultimately occupy a Regional City
-70118	Conqueror Settlement	Conqueror Settlement
-70119	Royal City Settlement	Royal City Settlement
-70120	Battle Merit Settlement	Battle Merit Settlement
-70121	Conqueror Rewards	Conqueror Rewards
-70122	Veteran Rewards	Veteran Rewards
-70123	<color=#fdab5b>Conqueror</color> Settlement takes place first, with slots allocated to each guild.	<color=#fdab5b>Conqueror</color> Settlement takes place first, with slots allocated to each guild.
-70124	The guild that ultimately occupies the Royal City and its Members will receive 1 <color=#fdab5b>Realm Starlight</color>.	The guild that ultimately occupies the Royal City and its Members will receive 1 <color=#fdab5b>Realm Starlight</color>.
-70125	Individual rewards are distributed based on rankings on the <color=#fdab5b>Battle Merit Leaderboard</color>.	Individual rewards are distributed based on rankings on the <color=#fdab5b>Battle Merit Leaderboard</color>.
-70126	${1}'s Spacetime Emblem	${1}'s Spacetime Emblem
-70127	Emblems: ${1}	Emblems: ${1}
-70128	Equipped: ${1}/${2}	Equipped: ${1}/${2}
 70129	【Equipped】	【Equipped】
-70130	Obtained from: ${1}  【${2}】	Obtained from: ${1}  【${2}】
-70131	Season Settlement	Season Settlement
-70132	Season Shop\n${1}	Season Shop\n${1}
-70133	Ranks ${1}-${2}	Ranks ${1}-${2}
-70134	Shop Preview	Shop Preview
-70135	Closes in ${1}	Closes in ${1}
-70136	<color=#fdab5b>Guild Emblem</color> Starlight	<color=#fdab5b>Guild Emblem</color> Starlight
-70137	<color=#fdab5b>Personal Portrait</color> Starlight	<color=#fdab5b>Personal Portrait</color> Starlight
-70138	Current Season	Current Season
-70139	Past Seasons	Past Seasons
-70140	Fight in the Territory War and earn bountiful rewards for victory.	Fight in the Territory War and earn bountiful rewards for victory.
-70141	Complete Season Trophies to earn exclusive Season collectibles.	Complete Season Trophies to earn exclusive Season collectibles.
-70142	Conqueror Slot Allocation Rules	Conqueror Slot Allocation Rules
-70143	Conqueror slots within a guild are automatically allocated based on its Guild Merit Leaderboard rankings;\nOfficers from the top three guilds in the Territory War rankings automatically receive Conqueror Rewards without using a slot.	Conqueror slots within a guild are automatically allocated based on its Guild Merit Leaderboard rankings;\nOfficers from the top three guilds in the Territory War rankings automatically receive Conqueror Rewards without using a slot.
-70144	Guild Merit Leaderboard	Guild Merit Leaderboard
-70145	Territory Points Leaderboard	Territory Points Leaderboard
-70147	Battle Merit Leaderboard	Battle Merit Leaderboard
-70148	My Ranking:	My Ranking:
-70150	Not Yet Ranked	Not Yet Ranked
-70151	Non-Conquerors receive <color=#fdab5b>Veteran Rewards</color> based on their guild's ranking.	Non-Conquerors receive <color=#fdab5b>Veteran Rewards</color> based on their guild's ranking.
-70152	Rewards for all completed Trophies can be claimed after Season Settlement.	Rewards for all completed Trophies can be claimed after Season Settlement.
 70153	<color=#fdab5b> X${1}</color>	<color=#fdab5b> X${1}</color>
 70154	<color=#fdab5b> X${1}</color>	<color=#fdab5b> X${1}</color>
-70155	Conqueror's Proof	Conqueror's Proof
-70157	Guild Rankings and Rewards	Guild Rankings and Rewards
-70158	Estimated Rewards	Estimated Rewards
-70159	Guild Banner Emblem	Guild Banner Emblem
-70160	Personal Portrait Emblem	Personal Portrait Emblem
-70162	Guilds that excel in the Territory War receive a certain number of <color=#fdab5b>Conqueror</color> reward slots.	Guilds that excel in the Territory War receive a certain number of <color=#fdab5b>Conqueror</color> reward slots.
-70163	Mid-Season Event Rewards	Mid-Season Event Rewards
 13150000000	The Party Leader selects a sapling and hangs the declaration	The Party Leader selects a sapling and hangs the declaration
 13150000001	All Members of the party water the sapling	All Members of the party water the sapling
 13150000002	Talk to the younger sister and enter the Adventure Group declaration	Talk to the younger sister and enter the Adventure Group declaration
@@ -1592,14 +1346,6 @@
 13150000470	Defeat the MVP Deviling in a party	Defeat the MVP Deviling in a party
 13150000471	Defeat MVP Orc Hero in a party	Defeat MVP Orc Hero in a party
 13150000472	Defeat MVP Phreeoni in a party	Defeat MVP Phreeoni in a party
-71001	Adventure	Adventure
-71002	Please select ${1}/${2} Encounters	Please select ${1}/${2} Encounters
-71003	Current Deck	Current Deck
-71005	Selection Countdown: ${1}	Selection Countdown: ${1}
-71007	Current Encounter	Current Encounter
-71008	No Current Encounter	No Current Encounter
-71009	Encounter Cards: ${1}	Encounter Cards: ${1}
-71011	Effect Details	Effect Details
 71012	Lv.${1}	Lv.${1}
 13150000485	Defeat MVP Kraken in a party	Defeat MVP Kraken in a party
 13150000486	Defeat MVP Producer Yu in a party	Defeat MVP Producer Yu in a party
@@ -1836,11 +1582,6 @@
 12520200001	Collect Live Coal in the territory and add it to the bonfire to trigger a Level-up and unlock bonfire abilities.	Collect Live Coal in the territory and add it to the bonfire to trigger a Level-up and unlock bonfire abilities.
 12520200002	Join the party activities, Transform, and enter the raffle\n^{1}The larger your transformed Size, the better the prize^{2}	Join the party activities, Transform, and enter the raffle\n^{1}The larger your transformed Size, the better the prize^{2}
 12520200003	Work together to defeat the mysterious enemy and earn a participation reward!\n^{1}Land the final blow for a special reward!^{2}	Work together to defeat the mysterious enemy and earn a participation reward!\n^{1}Land the final blow for a special reward!^{2}
-71501	You have selected ${1} cards and cannot select any more.	You have selected ${1} cards and cannot select any more.
-71502	Please select ${1} Encounters first.	Please select ${1} Encounters first.
-71503	Cannot refresh again.	Cannot refresh again.
-71504	Refresh (${1}/${2})	Refresh (${1}/${2})
-71505	Current Encounter Group	Current Encounter Group
 10760100000	Trainee	Trainee
 10760100001	Regular	Regular
 10760100002	Advanced	Advanced
@@ -1861,21 +1602,6 @@
 10820000011	Card	Card
 10820000012	Pet	Pet
 10820000013	Material	Material
-72001	Portrait	Portrait
-72002	Portrait Frame	Portrait Frame
-72003	Chat	Chat
-72006	Profile Card	Profile Card
-72007	Outfit Not Yet Unlocked	Outfit Not Yet Unlocked
-72008	Permanently Owned	Permanently Owned
-72009	Outfit Details	Outfit Details
-72011	Appearance Settings	Appearance Settings
-72012	Chat Settings Saved	Chat Settings Saved
-72013	Titleless	Titleless
-72014	No Title	No Title
-72015	Successfully activated ${1}: ${2}	Successfully activated ${1}: ${2}
-72016	Popularity	Popularity
-72017	Star Points	Star Points
-72018	Profile Card	Profile Card
 12470000000	Basic Attack	Basic Attack
 12470000001	Basic Defense	Basic Defense
 12470000002	Intermediate Attack	Intermediate Attack
@@ -2126,7 +1852,6 @@
 10010500238	Increases the Shield effect of Shield skills you cast by ${1}	Increases the Shield effect of Shield skills you cast by ${1}
 10010500239	Increases the Shield effect by ${1} when affected by a Shield skill	Increases the Shield effect by ${1} when affected by a Shield skill
 13720100000	Unlocked after using the item "Netherworld - Shattered Tower"	Unlocked after using the item "Netherworld - Shattered Tower"
-73003	Reach 800 Total Points	Reach 800 Total Points
 10310000000	Simple and durable. A must-have for rookie merchants.	Simple and durable. A must-have for rookie merchants.
 10310000001	Made from birch carefully selected and shaped by a master carpenter, this is the perfect choice for efficiency-minded Merchants. (Requires the Cart Remodeling skill to switch.)	Made from birch carefully selected and shaped by a master carpenter, this is the perfect choice for efficiency-minded Merchants. (Requires the Cart Remodeling skill to switch.)
 10310000002	Adorned with fresh flowers and brimming with the spirit of spring. (Requires the Cart Remodeling skill to switch.)	Adorned with fresh flowers and brimming with the spirit of spring. (Requires the Cart Remodeling skill to switch.)
@@ -2442,22 +2167,7 @@
 13150200078	The Eden Group has received a request from the Professor.	The Eden Group has received a request from the Professor.
 13150200079	The Professor is your client this time. Ask him what happened.	The Professor is your client this time. Ask him what happened.
 13150200080	The professor's supplies were seized at the North Gate. Head there and recover them.	The professor's supplies were seized at the North Gate. Head there and recover them.
-74001	Monster Hunt	Monster Hunt
-74002	Go to Map	Go to Map
-74003	Show Caves	Show Caves
-74005	Each Kill of <color=#c27b47>1 monster</color> on this map grants <color=#c27b47>1 point</color> and has a Chance to drop a <color=#c27b47>Hunt Medal</color>.	Each Kill of <color=#c27b47>1 monster</color> on this map grants <color=#c27b47>1 point</color> and has a Chance to drop a <color=#c27b47>Hunt Medal</color>.
-74006	Current Points: <color=#63A22B>${1}</color>	Current Points: <color=#63A22B>${1}</color>
-74007	Monster List	Monster List
 74009	Base ${1}	Base ${1}
-74010	Monster Shop	Monster Shop
-74012	Complete Collection Reward	Complete Collection Reward
-74013	Kill Monsters to Earn Rewards	Kill Monsters to Earn Rewards
-74014	Collection Progress: ${1}	Collection Progress: ${1}
-74015	Kill Rewards	Kill Rewards
-74016	Kill Monsters to Earn Rewards	Kill Monsters to Earn Rewards
-74018	${1} Rewards	${1} Rewards
-74019	Collection Progress: <color=#63a22b>${1}</color>	Collection Progress: <color=#63a22b>${1}</color>
-74020	(Kills: ${1})	(Kills: ${1})
 13150200101	The Professor has already reached the Relic.	The Professor has already reached the Relic.
 13150200102	A Pharaoh suddenly leaps out of the Relic. Find a way to defeat him.	A Pharaoh suddenly leaps out of the Relic. Find a way to defeat him.
 13150200103	At the moment of danger, the necklace around your neck suddenly begins to glow, drawing you into that mysterious space once again.	At the moment of danger, the necklace around your neck suddenly begins to glow, drawing you into that mysterious space once again.
@@ -2913,14 +2623,6 @@
 12930000003	Undead Rapid-Fire Cannon	Undead Rapid-Fire Cannon
 12930000004	Alliance Ballista	Alliance Ballista
 12930000005	World's Best Lute	World's Best Lute
-75001	Dumby's Request (${1}/${2})	Dumby's Request (${1}/${2})
-75002	You still have daily commissions left to complete. Go accept one now?	You still have daily commissions left to complete. Go accept one now?
-75003	Dumby's Request Wheel	Dumby's Request Wheel
-75004	Start ${1} Times	Start ${1} Times
-75005	Skip Animation	Skip Animation
-75006	<color=#97e533>${1}</color> Remaining	<color=#97e533>${1}</color> Remaining
-75007	You cannot accept any more requests today. Please come back Tomorrow.	You cannot accept any more requests today. Please come back Tomorrow.
-75008	Not enough required items. Unable to activate the wheel.	Not enough required items. Unable to activate the wheel.
 11110000000	Novice Shop	Novice Shop
 11110000001	Fantasy Shop	Fantasy Shop
 11110000002	RO Shop	RO Shop
@@ -3047,11 +2749,6 @@
 12007	N/A	N/A
 12017	Stunt	Stunt
 12031	Stunt	Stunt
-12035	Randomly grants <color=#cc762a>${1}-${2}</color> Stunts	Randomly grants <color=#cc762a>${1}-${2}</color> Stunts
-12043	Vivify Cost: <#896B4D>Free</color>	Vivify Cost: <#896B4D>Free</color>
-12044	Vivify Cost: ${1}/${2}	Vivify Cost: ${1}/${2}
-12071	Randomly grants <color=#cc762a>${1}</color> Stunts	Randomly grants <color=#cc762a>${1}</color> Stunts
-12074	No Stunt	No Stunt
 12075	[Current <color=#c27b47>+${1}</color>]	[Current <color=#c27b47>+${1}</color>]
 13160100000	Suggested	Suggested
 13160100001	New Items	New Items
@@ -3146,39 +2843,9 @@
 10720000001	Monster Boom Boom Boom	Monster Boom Boom Boom
 10720000002	Monster Split Show	Monster Split Show
 12370000000	Novice	Novice
-80001	The Arcane Crystal is fully charged. The unknown beyond will arrive after ${1}…	The Arcane Crystal is fully charged. The unknown beyond will arrive after ${1}…
-80002	Donate Arcane Crystals during the event. When the progress bar reaches ${1}, the gateway to an unknown realm will open…	Donate Arcane Crystals during the event. When the progress bar reaches ${1}, the gateway to an unknown realm will open…
-80003	The Divine Realm is now open. Rewards can be exchanged at the Donor Shop for ${1}.	The Divine Realm is now open. Rewards can be exchanged at the Donor Shop for ${1}.
-80004	You must Join a guild to participate in this event.\nWould you like to go Join a guild?	You must Join a guild to participate in this event.\nWould you like to go Join a guild?
-80005	Donate Crystals	Donate Crystals
-80006	Please complete Activity Misc first to obtain Arcane Crystals.	Please complete Activity Misc first to obtain Arcane Crystals.
-80007	You've contributed <color=#CC762A>${1}</color> Crystal Energy to the Entire Server!	You've contributed <color=#CC762A>${1}</color> Crystal Energy to the Entire Server!
-80009	Event Not Yet Available.	Event Not Yet Available.
-80010	Failed to load event data.	Failed to load event data.
-80011	Join a guild to participate in this event.	Join a guild to participate in this event.
-80012	You don't have any Mana Crystals yet. Go collect some more.	You don't have any Mana Crystals yet. Go collect some more.
-80013	The guild has reached today's donor limit. Further donations will not increase Guild Contribution.	The guild has reached today's donor limit. Further donations will not increase Guild Contribution.
-80014	The donation period has ended.	The donation period has ended.
-80015	Guild rewards can only be claimed once Personal Activity reaches ${1}.	Guild rewards can only be claimed once Personal Activity reaches ${1}.
-80016	Ranking Reward Settlement after the event ends	Ranking Reward Settlement after the event ends
-80017	You have yet to Join a guild	You have yet to Join a guild
-80018	A crystal infused with magical energy. It powers magic equipment and is used to prepare for the New World.\n <color=#B45C4F>Can be recycled after expiration</color><sprite name="item_2"> Copper Coins*100	A crystal infused with magical energy. It powers magic equipment and is used to prepare for the New World.\n <color=#B45C4F>Can be recycled after expiration</color><sprite name="item_2"> Copper Coins*100
-80019	Today's guild donor limit has been reached. Further donations will not grant Guild Contribution.\nWe recommend coming back Tomorrow. Continue donating?	Today's guild donor limit has been reached. Further donations will not grant Guild Contribution.\nWe recommend coming back Tomorrow. Continue donating?
 80020	${1}0K	${1}0K
-80021	Rank ${1}: ${2}, Final Score: ${3}\n	Rank ${1}: ${2}, Final Score: ${3}\n
-80022	Come Back Tomorrow	Come Back Tomorrow
 80023	${1} ${2}	${1} ${2}
-80024	Ranking Reward Settlement after ${1} Ends	Ranking Reward Settlement after ${1} Ends
-80025	Guild Points are the sum of all Members' personal Contribution Points. After ranking Settlement, only Members with 100,000 personal Activity Points can claim Guild Rewards.	Guild Points are the sum of all Members' personal Contribution Points. After ranking Settlement, only Members with 100,000 personal Activity Points can claim Guild Rewards.
-80026	Your Contribution Points are proportional to the number of Crystals you contribute. Claim Activity Chests from the Event Calendar and participate in MVP, Mini, and Guild Caravan events to earn more Contribution Points.	Your Contribution Points are proportional to the number of Crystals you contribute. Claim Activity Chests from the Event Calendar and participate in MVP, Mini, and Guild Caravan events to earn more Contribution Points.
-80027	Donor Shop	Donor Shop
-80028	Obtain Crystals	Obtain Crystals
-80029	Guild Contribution Rankings	Guild Contribution Rankings
-80030	Click to View	Click to View
-80031	Arrival Countdown: ${1} Days	Arrival Countdown: ${1} Days
 80032	<sprite name="season_num_${1}">	<sprite name="season_num_${1}">
-80033	Cumulative Charge for Entire Server: <size=#32><color=#d385f5>${1}%</color></size>	Cumulative Charge for Entire Server: <size=#32><color=#d385f5>${1}%</color></size>
-80034	A New World Has Arrived	A New World Has Arrived
 10550000000	Profile	Profile
 10550000001	Message	Message
 10550000002	Add Friend	Add Friend
@@ -3557,11 +3224,9 @@
 13150600332	Rent a Madogear Pilot (available after you Learn the Madogear Pilot License skill)	Rent a Madogear Pilot (available after you Learn the Madogear Pilot License skill)
 13150600333	Rent a Demonic Wolf (available after you Learn Wolf Taming)	Rent a Demonic Wolf (available after you Learn Wolf Taming)
 16017	UID：	UID：
-16020	None	None
 16025	BASE	BASE
 16026	JOB	JOB
 16030	Quasi-Stats	Quasi-Stats
-16042	None	None
 16085	PATRON	PATRON
 16101	MAX	MAX
 16112	EXP	EXP
@@ -3626,7 +3291,6 @@
 13110100019	Slow	Slow
 13110100020	Damage	Damage
 13110100021	Revive	Revive
-17000	The current skill cannot be used without a locked target.	The current skill cannot be used without a locked target.
 10890200000	@{1}~@{2}	@{1}~@{2}
 12660000000	Congratulations! Hope some of that luck rubs off on me!	Congratulations! Hope some of that luck rubs off on me!
 12660000001	So lucky! I'll be next!	So lucky! I'll be next!
@@ -4187,11 +3851,8 @@
 21067	N/A	N/A
 21077	Stunt	Stunt
 21083	≥	≥
-21086	Free after ${1}	Free after ${1}
-21106	Early Release Rules:\nThe release date for all currently frozen Diamonds will be extended to the latest release time.\nRecharge an additional <color=#cc762a>${1}</color> to release the recharge immediately.	Early Release Rules:\nThe release date for all currently frozen Diamonds will be extended to the latest release time.\nRecharge an additional <color=#cc762a>${1}</color> to release the recharge immediately.
 21131	${1}【Identified】	${1}【Identified】
 21133	Divine Totem	Divine Totem
-21191	Expired	Expired
 21219	${1}【Collection】	${1}【Collection】
 10960000000	@{1}.Consume Equipment Blueprints and other specified materials to perform Equipment Forging.\n@{2}.Forged equipment has random attributes.\n@{3}.Equipment Forging always produces equipment of Purple Quality or higher. Orange and red equipment will be unidentified.	@{1}.Consume Equipment Blueprints and other specified materials to perform Equipment Forging.\n@{2}.Forged equipment has random attributes.\n@{3}.Equipment Forging always produces equipment of Purple Quality or higher. Orange and red equipment will be unidentified.
 10960000001	@{1}.Equipment Forging, defeating monsters, and other activities may yield unidentified equipment.\n@{2}.Identifying equipment does not consume any materials. Its attributes are randomized upon identification. Tap the ^{1}Equipment Forging Info^{2} button to view the possible attributes for the equipment.	@{1}.Equipment Forging, defeating monsters, and other activities may yield unidentified equipment.\n@{2}.Identifying equipment does not consume any materials. Its attributes are randomized upon identification. Tap the ^{1}Equipment Forging Info^{2} button to view the possible attributes for the equipment.
@@ -4647,39 +4308,6 @@
 12380100054	When Vigor drops to @{1}, there is a @{2}% Chance to restore @{3}% Vigor	When Vigor drops to @{1}, there is a @{2}% Chance to restore @{3}% Vigor
 12380100055	Vigor Potion effectiveness increases by @{1}%	Vigor Potion effectiveness increases by @{1}%
 12380100056	Gain @{1} Extra skill slots	Gain @{1} Extra skill slots
-22000	Internal server error	Internal server error
-22001	Insufficient Currency	Insufficient Currency
-22002	Player is dead.	Player is dead.
-22003	Client Parameter error	Client Parameter error
-22004	Watchlist limit reached.	Watchlist limit reached.
-22005	The target you're watching no longer exists. Please refresh and retry.	The target you're watching no longer exists. Please refresh and retry.
-22006	Abnormal Trade price	Abnormal Trade price
-22007	Not enough Stall space. Please unlock more slots.	Not enough Stall space. Please unlock more slots.
-22008	Invalid sale quantity. Please refresh and try again.	Invalid sale quantity. Please refresh and try again.
-22009	Too late! The item has already been delisted or purchased.	Too late! The item has already been delisted or purchased.
-22010	Items cannot be purchased during the listing period.	Items cannot be purchased during the listing period.
-22011	Unknown error	Unknown error
-22012	Not enough Credit Points	Not enough Credit Points
-22013	The item has been delisted or there is insufficient stock.	The item has been delisted or there is insufficient stock.
-22014	You are the seller.	You are the seller.
-22015	No matching items are currently available.	No matching items are currently available.
-22016	No items available.	No items available.
-22017	You cannot purchase your own listed item.	You cannot purchase your own listed item.
-22018	This is already the highest price.	This is already the highest price.
-22019	This is already the lowest price.	This is already the lowest price.
-22020	Spawned	Spawned
-22021	Item listed successfully.	Item listed successfully.
-22022	Insufficient Currency (Deprecated	Insufficient Currency (Deprecated
-22023	This item is temporarily unavailable for purchase.	This item is temporarily unavailable for purchase.
-22024	My Watchlist ${1}/${2}	My Watchlist ${1}/${2}
-22025	You can refresh again in ${1} seconds!	You can refresh again in ${1} seconds!
-22026	Please select an entry to filter by.	Please select an entry to filter by.
-22027	Please select a Stunt to filter by.	Please select a Stunt to filter by.
-22028	Please select an attribute to filter by.	Please select an attribute to filter by.
-22029	The maximum value cannot be lower than the minimum value!	The maximum value cannot be lower than the minimum value!
-22030	This exceeds the maximum quantity per purchase. Please select again.	This exceeds the maximum quantity per purchase. Please select again.
-22031	This exceeds the maximum quantity per listing. Please select again.	This exceeds the maximum quantity per listing. Please select again.
-22032	Only rare equipment can be listed!	Only rare equipment can be listed!
 10620000000	Dear PlayerName	Dear PlayerName
 10620000001	To the Lucky Investigator:	To the Lucky Investigator:
 10620000002	To the heroic PlayerName who rescued me from the Ant Hell:	To the heroic PlayerName who rescued me from the Ant Hell:
@@ -4803,11 +4431,8 @@
 13350100000	Active in Guild Stronghold Battles, Escort Battles, and Siege Battles	Active in Guild Stronghold Battles, Escort Battles, and Siege Battles
 23636	Lv. ${1}	Lv. ${1}
 23709	-/-	-/-
-23725	Power Rankings Help Text	Power Rankings Help Text
 23727	(No Translation Required)	(No Translation Required)
 23728	(No Translation Required)	(No Translation Required)
-23729	The Journey Begins	The Journey Begins
-23730	Hero Registry	Hero Registry
 11530100000	Load cargo for your guild and dispatch the Guild Caravan's freight wagon to earn abundant Personal Rewards and provide your guild with plenty of Guild Funds!	Load cargo for your guild and dispatch the Guild Caravan's freight wagon to earn abundant Personal Rewards and provide your guild with plenty of Guild Funds!
 11530100001	Fight alongside your Pet to Challenge a tower teeming with Monsters and push your Floors to the limit!	Fight alongside your Pet to Challenge a tower teeming with Monsters and push your Floors to the limit!
 11530100002	Find powerful MVP Monsters in the Field and participate in an MVP Kill to earn Rare rewards!	Find powerful MVP Monsters in the Field and participate in an MVP Kill to earn Rare rewards!
@@ -4890,8 +4515,6 @@
 90163	Western Desert	Western Desert
 90166	In the orange and black zones of the 【Realm Map】, the longer you stay and the more players you Kill, the more 【Fatigue】 Floors you accumulate.\nFatigue 【reduces damage dealt】 and 【increases damage taken】. These effects become stronger at higher Floors.\nUpon reaching the Fatigue limit (20 Floors), you will be 【forcibly warped back to Prontera】 and lose 1 Floor of Fatigue.\nAfter leaving an orange or black zone, Fatigue will 【gradually decrease】 over time, even while offline.	In the orange and black zones of the 【Realm Map】, the longer you stay and the more players you Kill, the more 【Fatigue】 Floors you accumulate.\nFatigue 【reduces damage dealt】 and 【increases damage taken】. These effects become stronger at higher Floors.\nUpon reaching the Fatigue limit (20 Floors), you will be 【forcibly warped back to Prontera】 and lose 1 Floor of Fatigue.\nAfter leaving an orange or black zone, Fatigue will 【gradually decrease】 over time, even while offline.
 90244	${1}+	${1}+
-90245	No.${1}	No.${1}
-90246	No.${1}+	No.${1}+
 11190100105	Reach ${1} personal points in Siege War ${2} times	Reach ${1} personal points in Siege War ${2} times
 11190100106	Use Play While Downloading ${1} times	Use Play While Downloading ${1} times
 11190100107	Log in ${1} times	Log in ${1} times
@@ -4977,17 +4600,11 @@
 11250000094	CRIT DMG	CRIT DMG
 11250000095	CRIT RES	CRIT RES
 11250000096	CRIT DMG Reduction	CRIT DMG Reduction
-25075	[Guild Response] I created a new guild, 【${1}】! All Adventurers are invited to respond (${2}/${3}) 【Respond Now】	[Guild Response] I created a new guild, 【${1}】! All Adventurers are invited to respond (${2}/${3}) 【Respond Now】
 25135	ID	ID
-25223	Log	Log
-25262	[Guild Recruitment]【${1}】 is recruiting: ${2}【Request to Join】	[Guild Recruitment]【${1}】 is recruiting: ${2}【Request to Join】
 25277	Charisma Baby	Charisma Baby
 25344	<color=#ff0000>${1}</color>/${2}	<color=#ff0000>${1}</color>/${2}
-25394	[Caravan Help] ${1} posted a request for ${2}X${3} [Tap to Help]	[Caravan Help] ${1} posted a request for ${2}X${3} [Tap to Help]
-25413	Please do it first	Please do it first
 25445	Royal Caravan	Royal Caravan
 25446	Wandering Caravan	Wandering Caravan
-25470	Sell	Sell
 25512	<color=${1}><sprite name="${2}">${3}</color>	<color=${1}><sprite name="${2}">${3}</color>
 10620200000	The Academy has witnessed the growth and potential you have shown throughout your journey. Now, you have reached a pivotal point on your path to power—the time has come for your second class advancement.\nWe cordially invite you to return to Kratu Academy and choose your specialized path. This advancement will determine your future development and shape your combat style and calling.\nI will await your arrival at the Academy so that we may embark on this new journey together.	The Academy has witnessed the growth and potential you have shown throughout your journey. Now, you have reached a pivotal point on your path to power—the time has come for your second class advancement.\nWe cordially invite you to return to Kratu Academy and choose your specialized path. This advancement will determine your future development and shape your combat style and calling.\nI will await your arrival at the Academy so that we may embark on this new journey together.
 10620200001	This is a test note	This is a test note
@@ -5168,52 +4785,6 @@
 12390000014	Card: Thief Bug Egg	Card: Thief Bug Egg
 12390000015	Card: Ant Egg	Card: Ant Egg
 26000	MVP	MVP
-26001	Drops	Drops
-26002	Reward Count	Reward Count
-26003	Last Battle Report	Last Battle Report
-26005	Refresh Time:	Refresh Time:
-26006	Today's Remaining Reward Count	Today's Remaining Reward Count
-26008	Participation Rewards	Participation Rewards
-26009	First Strike Reward	First Strike Reward
-26010	Final Blow Reward	Final Blow Reward
-26011	All MVPs share the same Reward Count\nReward Count resets daily at 5	All MVPs share the same Reward Count\nReward Count resets daily at 5
-26012	Best Attacker	Best Attacker
-26013	Best Healing	Best Healing
-26014	Most Damage Taken	Most Damage Taken
-26016	First Strike Owner	First Strike Owner
-26017	Final blow	Final blow
-26018	Score Ranking	Score Ranking
-26019	Damage Ranking	Damage Ranking
-26020	Damage Taken Ranking	Damage Taken Ranking
-26021	Healing Ranking	Healing Ranking
-26022	Death Ranking	Death Ranking
-26024	Team Name	Team Name
-26028	TIPS: Only the top 100 teams are shown. All participating teams receive rewards, and higher rankings grant better rewards	TIPS: Only the top 100 teams are shown. All participating teams receive rewards, and higher rankings grant better rewards
-26029	Decay	Decay
-26030	If a team has a Member with no Reward Count remaining, its score will be reduced by a certain percentage	If a team has a Member with no Reward Count remaining, its score will be reduced by a certain percentage
-26031	Team	Team
-26032	First Strike	First Strike
-26033	Final Blow	Final Blow
-26037	Death	Death
-26038	Spawned	Spawned
-26039	Map Appeared: ${1}	Map Appeared: ${1}
-26040	Unranked	Unranked
-26041	No Adventurer has defeated this MVP yet!	No Adventurer has defeated this MVP yet!
-26042	${1}'s Party	${1}'s Party
-26043	Respawns after ${1}	Respawns after ${1}
-26044	MVP Rules	MVP Rules
-26045	Basic Rules:\n1. MVPs share HP across multiple channels. When an MVP appears, it can be found and fought on every channel, and all battle contributions count toward the rankings.\nReward Rules:\n1. MVP rewards are divided into four types: Team Rewards, Participation Rewards, First Strike Rewards, and Final Blow Rewards. Each type has an independent Reward Count and does not affect the others. Click the Reward Count for details.\n2. Participation Rewards and Team Rewards have a Chance to contain Rare rewards such as cards. The higher the team's ranking, the greater the Chance of receiving them.\nRanking Rules:\n1. After an MVP is defeated, scores are calculated for all participating teams based on damage dealt, damage taken, Healing Volume, and death count. Deaths deduct a small number of points. All participating teams are then ranked by score.\n2. If a team has a Member who has reached the Team Reward limit, its total score will be reduced by a certain percentage. The more Members who have reached the limit, the greater the reduction.	Basic Rules:\n1. MVPs share HP across multiple channels. When an MVP appears, it can be found and fought on every channel, and all battle contributions count toward the rankings.\nReward Rules:\n1. MVP rewards are divided into four types: Team Rewards, Participation Rewards, First Strike Rewards, and Final Blow Rewards. Each type has an independent Reward Count and does not affect the others. Click the Reward Count for details.\n2. Participation Rewards and Team Rewards have a Chance to contain Rare rewards such as cards. The higher the team's ranking, the greater the Chance of receiving them.\nRanking Rules:\n1. After an MVP is defeated, scores are calculated for all participating teams based on damage dealt, damage taken, Healing Volume, and death count. Deaths deduct a small number of points. All participating teams are then ranked by score.\n2. If a team has a Member who has reached the Team Reward limit, its total score will be reduced by a certain percentage. The more Members who have reached the limit, the greater the reduction.
-26046	Please select a direction	Please select a direction
-26047	Contact Guild Master	Contact Guild Master
-26048	MVP status updated	MVP status updated
-26049	Show updated only	Show updated only
-26050	Rare	Rare
-26051	Today's Reward Count has been exhausted. You cannot receive any more rewards	Today's Reward Count has been exhausted. You cannot receive any more rewards
-26052	Congrats on Obtaining the following rewards	Congrats on Obtaining the following rewards
-26053	Today's Remaining Claim Count:	Today's Remaining Claim Count:
-26054	You are already on the Map Appeared for this MVP. Find it yourself!	You are already on the Map Appeared for this MVP. Find it yourself!
-26056	MVP Kill	MVP Kill
-26057	No Records	No Records
 12390000074	Card: Anubis	Card: Anubis
 12390000075	Card: Savage	Card: Savage
 12390000076	Card: Steel Chonchon	Card: Steel Chonchon
@@ -5687,9 +5258,6 @@
 27003	Log	Log
 27070	Nearby Targets with Both High Priorities	Nearby Targets with Both High Priorities
 27097	Farthest Edge of Nearby Unit	Farthest Edge of Nearby Unit
-27133	Hard Lock	Hard Lock
-27134	Semi-Soft Lock	Semi-Soft Lock
-27135	Full Soft Lock	Full Soft Lock
 27143	Stationary Skill Follow-Up	Stationary Skill Follow-Up
 10110200368	Pick Up Scale	Pick Up Scale
 10110200369	Discard Scale	Discard Scale
@@ -6476,126 +6044,7 @@
 10110201181	Silver Moon Descends	Silver Moon Descends
 10110201182	Radiant Moon	Radiant Moon
 10110201183	Silver Moon Strike	Silver Moon Strike
-28000	Loading	Loading
-28001	Preparing to load the game. Please wait.	Preparing to load the game. Please wait.
-28004	Failed to load the game. Please check your network connection. (Error Code: ${1})	Failed to load the game. Please check your network connection. (Error Code: ${1})
-28005	A new version is available. Please update the game to continue.	A new version is available. Please update the game to continue.
-28006	A new version is available. Please update for a better gameplay experience.	A new version is available. Please update for a better gameplay experience.
-28007	News	News
-28008	Update	Update
-28009	A new version is available! Update before entering the game to receive an <color=#F2A35D>Update Reward</color>! We recommend updating over Wi-Fi.	A new version is available! Update before entering the game to receive an <color=#F2A35D>Update Reward</color>! We recommend updating over Wi-Fi.
-28010	The game resource pack has been updated. Approximately <color=#F2A35D>${1} MB</color> of data must be downloaded. Please update before entering the game. We recommend updating over Wi-Fi.	The game resource pack has been updated. Approximately <color=#F2A35D>${1} MB</color> of data must be downloaded. Please update before entering the game. We recommend updating over Wi-Fi.
-28011	You are not connected to Wi-Fi. Download the resources anyway?	You are not connected to Wi-Fi. Download the resources anyway?
-28012	Downloading:	Downloading:
-28013	Updating the game. Please wait.	Updating the game. Please wait.
-28014	Update complete. Please restart the game.	Update complete. Please restart the game.
-28015	Restart Now	Restart Now
-28016	Account Login	Account Login
-28017	I have read and agree to the Service Agreement and Privacy Policy.	I have read and agree to the Service Agreement and Privacy Policy.
-28018	Client Repair	Client Repair
-28019	If the game client encounters an error, you can use this Function to attempt a repair.\n Repairing will close the game. Please reopen it manually.	If the game client encounters an error, you can use this Function to attempt a repair.\n Repairing will close the game. Please reopen it manually.
-28020	Repair Now	Repair Now
-28021	Too many attempts. Please try again later.	Too many attempts. Please try again later.
-28022	Account	Account
-28023	News	News
-28024	Agreements	Agreements
-28025	Animation	Animation
-28026	Support	Support
-28027	Repair	Repair
-28028	Server	Server
-28030	Existing Characters	Existing Characters
-28031	Last Login: ${1}	Last Login: ${1}
-28032	New Server	New Server
-28034	Good	Good
-28035	Crowded	Crowded
-28036	Hot	Hot
-28037	Full	Full
-28039	Wait	Wait
-28040	Traveling to ${1} ${2}	Traveling to ${1} ${2}
-28041	Estimated Wait: <color=#63a22b>${1}</color>	Estimated Wait: <color=#63a22b>${1}</color>
-28042	<color=#BFC8D5>If you exit, you will need to rejoin the queue. Please choose carefully.</color>	<color=#BFC8D5>If you exit, you will need to rejoin the queue. Please choose carefully.</color>
-28043	Account Management	Account Management
-28044	Last Login	Last Login
-28045	Choose another login method	Choose another login method
-28046	Select character	Select character
-28047	Create Character	Create Character
-28048	Start Game	Start Game
-28049	Delete Character	Delete Character
-28050	Deleting a character has a ${1}-day waiting period. Once permanently deleted, the data cannot be recovered. If you are sure you want to Delete Character, enter “YES” in the field below.	Deleting a character has a ${1}-day waiting period. Once permanently deleted, the data cannot be recovered. If you are sure you want to Delete Character, enter “YES” in the field below.
-28051	Pending Deletion	Pending Deletion
-28052	Countdown:	Countdown:
-28054	Banned	Banned
-28055	Character banned. Unseal time:	Character banned. Unseal time:
-28056	Sign in with Google	Sign in with Google
-28057	Sign in with Facebook	Sign in with Facebook
-28058	Sign in with Apple	Sign in with Apple
-28059	Sign in with Twitter	Sign in with Twitter
-28060	Visitor Login	Visitor Login
-28061	To enter the game, check the box to agree to the terms below.	To enter the game, check the box to agree to the terms below.
-28062	Enter Character name	Enter Character name
-28063	Password:	Password:
-28064	Hairstyle	Hairstyle
-28065	Select Gender	Select Gender
-28066	Recent	Recent
-28067	Internal server error	Internal server error
-28068	Color	Color
-28069	Enter password	Enter password
-28070	Account:	Account:
-28071	Initialization failed. Please try again.	Initialization failed. Please try again.
-28072	Beginner Season	Beginner Season
-28073	Cross-Server Season	Cross-Server Season
 28074	Scenario:	Scenario:
-28075	Resource Download	Resource Download
-28076	Download Pause because you are using mobile data.	Download Pause because you are using mobile data.
-28077	You are not connected to Wi-Fi. Download the resources anyway?	You are not connected to Wi-Fi. Download the resources anyway?
-28078	You can enter the game once the resource download is complete.	You can enter the game once the resource download is complete.
-28079	Required	Required
-28080	${1} resources have not finished downloading. Approximately ${2}MB of data must be downloaded. Tap Confirm to download.	${1} resources have not finished downloading. Approximately ${2}MB of data must be downloaded. Tap Confirm to download.
-28081	${1} resources have not finished downloading. Approximately ${2}MB of data must be downloaded. Use mobile data to download?	${1} resources have not finished downloading. Approximately ${2}MB of data must be downloaded. Use mobile data to download?
-28082	Leave Queue	Leave Queue
-28084	The queue timed out. Please try again.	The queue timed out. Please try again.
-28085	Missing Resources	Missing Resources
-28086	${1} Resources	${1} Resources
-28087	Your position in the queue is <color=#fdab5b><size=50>${1}</size></color>.	Your position in the queue is <color=#fdab5b><size=50>${1}</size></color>.
-28088	Version:	Version:
-28089	Auto-Download	Auto-Download
-28090	Allow Downloads Using Mobile Data	Allow Downloads Using Mobile Data
-28091	Download everything to claim	Download everything to claim
-28092	No announcements	No announcements
-28093	Asia Server	Asia Server
-28094	Europe/Russia Server	Europe/Russia Server
-28095	Americas Server	Americas Server
-28096	Select Server	Select Server
-28097	The ${1} region you selected currently has high latency (${2}ms), which may cause:\nDelayed character controls\nDelayed skill activation\nLag in multiplayer battles\n\nDo you still want to select this region?	The ${1} region you selected currently has high latency (${2}ms), which may cause:\nDelayed character controls\nDelayed skill activation\nLag in multiplayer battles\n\nDo you still want to select this region?
-28098	Failed to connect to the region. Please select another.	Failed to connect to the region. Please select another.
-28099	Sign in with Joymaker	Sign in with Joymaker
-28100	Sign in with Google	Sign in with Google
-28101	Sign in with Apple	Sign in with Apple
-28102	Visitor Login	Visitor Login
-28103	Account linked successfully	Account linked successfully
-28104	Link Guest Account	Link Guest Account
-28105	Service Agreement	Service Agreement
-28106	Privacy Policy	Privacy Policy
-28107	I have carefully read and agree to ${1} and ${2}	I have carefully read and agree to ${1} and ${2}
-28108	The server is under maintenance. Please check the official announcements.	The server is under maintenance. Please check the official announcements.
-28109	Invitation Code	Invitation Code
-28110	Tap to enter an invitation code	Tap to enter an invitation code
-28111	Activation successful	Activation successful
-28112	Activation failed	Activation failed
-28113	Please enter a valid invitation code	Please enter a valid invitation code
-28114	Failed to load the area. Retrying…	Failed to load the area. Retrying…
-28115	Failed to enter the area	Failed to enter the area
-28116	Failed to enter the area. You have been transported to Prontera.	Failed to enter the area. You have been transported to Prontera.
-28117	Novice, select a statue to confirm your gender.	Novice, select a statue to confirm your gender.
-28118	Scenario Base Pack	Scenario Base Pack
-28119	The current server is running the ${1} scenario. You must download the base scenario pack to play. The scenario pack is ${2} MB. Download it now?	The current server is running the ${1} scenario. You must download the base scenario pack to play. The scenario pack is ${2} MB. Download it now?
-28120	Download	Download
-28121	<color=#63A22B>Download Speed: ${1}</color>  File Size: ${2}/${3}	<color=#63A22B>Download Speed: ${1}</color>  File Size: ${2}/${3}
-28122	A new version of the game is available. Please update it through the app store.	A new version of the game is available. Please update it through the app store.
-28123	A new game version is available. To prevent loading errors or lag, please return to the launcher and update the game before launching it again.	A new game version is available. To prevent loading errors or lag, please return to the launcher and update the game before launching it again.
-28124	A new game version is available. Please launch the game to update.	A new game version is available. Please launch the game to update.
-28125	Test version. Does not represent final quality. UID:${1}	Test version. Does not represent final quality. UID:${1}
-28126	Network	Network
 10110201311	Stone Blades - Inner Ring	Stone Blades - Inner Ring
 10110201312	Heavy Shield Defense - Raise Shield Start	Heavy Shield Defense - Raise Shield Start
 10110201313	Heavy Shield Defense - Shield Raised	Heavy Shield Defense - Shield Raised
@@ -7326,7 +6775,6 @@
 30066	MVP	MVP
 30136	${1}/3	${1}/3
 30137	${1}/${2}	${1}/${2}
-30164	None	None
 10520000000	Abandon	Abandon
 10520000001	S@{1} Large Card Pool@{2}	S@{1} Large Card Pool@{2}
 10520000002	S@{1} Small Card Pool@{2}	S@{1} Small Card Pool@{2}
@@ -7612,7 +7060,6 @@
 11770100057	Teammate's ID Tag	Teammate's ID Tag
 31104	${1}/${2}	${1}/${2}
 31129	${1}/${2}/${3} ${4}:${5}\n~${6}/${7}/${8} ${9}:${10}	${1}/${2}/${3} ${4}:${5}\n~${6}/${7}/${8} ${9}:${10}
-31130	Expired	Expired
 31155	???	???
 13250100000	Based on an analysis of the strange fluctuations in the Ant Hell	Based on an analysis of the strange fluctuations in the Ant Hell
 13310000000	Basic	Basic
@@ -7646,7 +7093,6 @@
 33014	Novice	Novice
 33022	CT	CT
 33030	<u><color=#62af5e><link="jumpskillpos/${1}">[Go to Prerequisite Skill]</link></color></u>	<u><color=#62af5e><link="jumpskillpos/${1}">[Go to Prerequisite Skill]</link></color></u>
-33040	Master Effects	Master Effects
 33071	CT: ${1}	CT: ${1}
 33072	（<#63A22B>${1}</color>+<#6E8bC8>${2}</color>）	（<#63A22B>${1}</color>+<#6E8bC8>${2}</color>）
 33076	【Special Cooldown Notes】	【Special Cooldown Notes】
@@ -7702,9 +7148,7 @@
 12290000005	Gameplay Map	Gameplay Map
 12290000006	Rhythm of Music Scenario	Rhythm of Music Scenario
 12290000007	Animal World Script	Animal World Script
-34006	Build	Build
 34022	Golden Orchid	Golden Orchid
-34041	Tree Hollow Chat Channel	Tree Hollow Chat Channel
 34043	Tree Hollow	Tree Hollow
 34074	[@${1}]	[@${1}]
 34076	${1}[Members: ${2}/${3}]\n${4}	${1}[Members: ${2}/${3}]\n${4}
@@ -9630,11 +9074,6 @@
 170069	Automatically Approve Support	Automatically Approve Support
 170070	Minimum Application Level	Minimum Application Level
 170071	Frame	Frame
-39000	Dungeon Adventure	Dungeon Adventure
-39001	Unlocks at Lv. ${1}	Unlocks at Lv. ${1}
-39002	Current Floors: ${1}	Current Floors: ${1}
-39003	Daily Sweeps (${1}/${2})	Daily Sweeps (${1}/${2})
-39005	${1} unlocks at Lv. ${2}	${1} unlocks at Lv. ${2}
 170078	Artillery Privileges	Artillery Privileges
 170079	Vehicle Privileges	Vehicle Privileges
 170080	Welcome to the guild, everyone!	Welcome to the guild, everyone!
@@ -10481,7 +9920,6 @@
 40012	S	S
 40013	A	A
 40014	B	B
-40117	NEW	NEW
 40147	Get ${1} Off Summons	Get ${1} Off Summons
 40159	Lv. ${1}	Lv. ${1}
 40172	${1}★	${1}★
@@ -10493,12 +9931,6 @@
 11050000004	Soul Echo	Soul Echo
 11050000005	Pet	Pet
 40992	Mining Star Treasure Hunt	Mining Star Treasure Hunt
-41000	Congrats on Obtaining	Congrats on Obtaining
-41001	Slot: ${1}	Slot: ${1}
-41002	Bonus:	Bonus:
-41004	Closes automatically in ${1} seconds	Closes automatically in ${1} seconds
-41005	(${1} seconds)	(${1} seconds)
-41006	Core Rewards	Core Rewards
 12530000000	Apprentice Tier @{1}	Apprentice Tier @{1}
 12530000001	Rookie@{1} Rank	Rookie@{1} Rank
 12530000002	Warrior@{1} Rank	Warrior@{1} Rank
@@ -10864,22 +10296,6 @@
 10540000265	Drag each note onto the matching pattern in the measure to fill it in.	Drag each note onto the matching pattern in the measure to fill it in.
 10540000266	Fill them all in to unlock a story quest. Don't forget to complete it, bo!	Fill them all in to unlock a story quest. Don't forget to complete it, bo!
 10540000267	Tap here to view the detailed rules.	Tap here to view the detailed rules.
-42001	Confirm Class	Confirm Class
-42002	Completing the Job Advance unlocks brand-new Job Advance skills. Advance to ${1}${2}?	Completing the Job Advance unlocks brand-new Job Advance skills. Advance to ${1}${2}?
-42003	Think again	Think again
-42005	Job Advance Preview	Job Advance Preview
-42006	Choosing a Job	Choosing a Job
-42007	Available Advanced Classes	Available Advanced Classes
-42008	Class Role	Class Role
-42009	Job Preview	Job Preview
-42010	Choosing a Job	Choosing a Job
-42011	Class Unavailable	Class Unavailable
-42012	Coming soon!	Coming soon!
-42013	Basic Info	Basic Info
-42014	Priority Skills	Priority Skills
-42015	Skill Preview	Skill Preview
-42016	Loading Video…	Loading Video…
-42018	Job Advance	Job Advance
 10310100003	Traveler's Plush Cart	Traveler's Plush Cart
 10310100004	Canopied Merchant Cart	Canopied Merchant Cart
 10310100005	Falcon	Falcon
@@ -11843,38 +11259,6 @@
 10370000885	People couldn't even afford burials for the dead, so some bodies were secretly left in the caves.	People couldn't even afford burials for the dead, so some bodies were secretly left in the caves.
 10370000886	They say the bodies in the nearby caves couldn't pass on to the afterlife, so they still wander this world. Ahh, how terrifying...	They say the bodies in the nearby caves couldn't pass on to the afterlife, so they still wander this world. Ahh, how terrifying...
 10370000887	Ciphers are works of art! Do you know the thrill of unraveling every layer until the secret is finally revealed?	Ciphers are works of art! Do you know the thrill of unraveling every layer until the secret is finally revealed?
-43000	My Power	My Power
-43001	Recommended Power:	Recommended Power:
-43003	Obtain Resources	Obtain Resources
-43004	Go to Upgrade	Go to Upgrade
-43005	Too Weak	Too Weak
-43006	Getting Better	Getting Better
-43007	Achieved perfectly	Achieved perfectly
-43008	Peak Power	Peak Power
-43009	Power Up	Power Up
-43010	Unlocks at Lv. ${1}	Unlocks at Lv. ${1}
-43011	Daily: ${1}/${2}	Daily: ${1}/${2}
-43012	Weekly: ${1}/${2}	Weekly: ${1}/${2}
-43013	I Need Resources	I Need Resources
-43015	Power Up	Power Up
-43016	Growth	Growth
-43017	Growth Curriculum	Growth Curriculum
-43018	Growth Rewards	Growth Rewards
-43019	Title Overview	Title Overview
-43020	Overall Completion: ${1}	Overall Completion: ${1}
-43021	Complete ${1} more tasks to advance	Complete ${1} more tasks to advance
-43022	Objectives Completed: ${1}/${2}	Objectives Completed: ${1}/${2}
-43023	Growth Curriculum	Growth Curriculum
-43026	Current Title	Current Title
-43028	You have not yet reached ${1}. Advance further to view this.	You have not yet reached ${1}. Advance further to view this.
-43029	Currently Owned: ${1}	Currently Owned: ${1}
-43030	Resource List	Resource List
-43031	All titles obtained	All titles obtained
-43032	Growth Class Title	Growth Class Title
-43033	Advanced to ${1}!	Advanced to ${1}!
-43034	Advanced to the highest title	Advanced to the highest title
-43035	Complete all objectives in the ${1} stage first	Complete all objectives in the ${1} stage first
-43036	Objectives Completed: ${1}	Objectives Completed: ${1}
 10370000925	Please be safe.	Please be safe.
 10370000926	Hm? You mean the cave in the mountain behind us? What's happening there has everyone worried.	Hm? You mean the cave in the mountain behind us? What's happening there has everyone worried.
 10370000927	Welcome to the Producer's Lair! The Kafra Corporation is here to provide you with the finest service.	Welcome to the Producer's Lair! The Kafra Corporation is here to provide you with the finest service.
@@ -12673,7 +12057,6 @@
 12990000003	Purchase Standard + Premium Together	Purchase Standard + Premium Together
 12990000004	Pass	Pass
 12990000005	Pass Gift	Pass Gift
-44010	\rIn the waters surrounding the continent of Midgard lies a little-known island. It appears on no sea chart, and only ships that have lost their way occasionally stumble upon it. Yet no crew dares linger there, for terrifying, thunderous roars have echoed from the island's depths for as long as anyone can remember.\n \n\rLegend holds that the dragon Fafnir is sealed deep within the island. Once a descendant of the giants, he was slain by a descendant of Odin for his insatiable greed for treasure. After Ragnarök, he returned from the underworld to Midgard, transformed into a decaying dragon driven by nothing but greed. To stop Fafnir's plunder and slaughter, people built fortresses, Turrets, and magic formations across the nameless island. Using gold as bait, they ultimately sealed him away through tremendous Devotion. Thus, the island came to be known as Dragon Sarcophagus Isle.\n\n\rCenturies have since passed, and the seal's power has begun to wane. The roars from the island grow more deafening by the day, while monsters drawn by the dragon's call gather nearby and relentlessly attack the seal.\n\n\rFafnir, the dragon once thought safely sealed away, has lost none of his greed. His power stirs deep within Dragon Sarcophagus Isle, threatening the Peace of the continent.\n\n\rFaced with this threat, the Guild has issued a call to arms. To protect the continent of Midgard and prevent Fafnir from unleashing another catastrophe, brave Adventurers must be assembled. These heroes will form a dragon-slaying force, travel to Dragon Sarcophagus Isle, and challenge Fafnir once more for the sake of the continent's future.\nTo restore the seal, keep the greedy dragon contained, and protect the Peace of the continent of Midgard, the Guild must gather the bravest Adventurers into a dragon-slaying force and send them to Dragon Sarcophagus Isle to challenge the dragon once more.	\rIn the waters surrounding the continent of Midgard lies a little-known island. It appears on no sea chart, and only ships that have lost their way occasionally stumble upon it. Yet no crew dares linger there, for terrifying, thunderous roars have echoed from the island's depths for as long as anyone can remember.\n \n\rLegend holds that the dragon Fafnir is sealed deep within the island. Once a descendant of the giants, he was slain by a descendant of Odin for his insatiable greed for treasure. After Ragnarök, he returned from the underworld to Midgard, transformed into a decaying dragon driven by nothing but greed. To stop Fafnir's plunder and slaughter, people built fortresses, Turrets, and magic formations across the nameless island. Using gold as bait, they ultimately sealed him away through tremendous Devotion. Thus, the island came to be known as Dragon Sarcophagus Isle.\n\n\rCenturies have since passed, and the seal's power has begun to wane. The roars from the island grow more deafening by the day, while monsters drawn by the dragon's call gather nearby and relentlessly attack the seal.\n\n\rFafnir, the dragon once thought safely sealed away, has lost none of his greed. His power stirs deep within Dragon Sarcophagus Isle, threatening the Peace of the continent.\n\n\rFaced with this threat, the Guild has issued a call to arms. To protect the continent of Midgard and prevent Fafnir from unleashing another catastrophe, brave Adventurers must be assembled. These heroes will form a dragon-slaying force, travel to Dragon Sarcophagus Isle, and challenge Fafnir once more for the sake of the continent's future.\nTo restore the seal, keep the greedy dragon contained, and protect the Peace of the continent of Midgard, the Guild must gather the bravest Adventurers into a dragon-slaying force and send them to Dragon Sarcophagus Isle to challenge the dragon once more.
 44018	${1} ${2}-${3}	${1} ${2}-${3}
 44021	${1}	${1}
 44041	${1}	${1}
@@ -12803,24 +12186,16 @@
 110186	Core Rewards	Core Rewards
 110187	<color=#FA983A>${1} Class</color> Not Learned	<color=#FA983A>${1} Class</color> Not Learned
 44801	Karazhan Harp	Karazhan Harp
-44802	Content Description Content Description Content Description Content Description Content Description	Content Description Content Description Content Description Content Description Content Description
 44803	Sylvanas Statue	Sylvanas Statue
-44804	Content Description Content Description Content Description Content Description Content Description	Content Description Content Description Content Description Content Description Content Description
 44805	Dwarven Bone Flute	Dwarven Bone Flute
-44806	Content Description Content Description Content Description Content Description Content Description	Content Description Content Description Content Description Content Description Content Description
 44807	Undead Rapid-Fire Cannon	Undead Rapid-Fire Cannon
-44808	Content Description Content Description Content Description Content Description Content Description	Content Description Content Description Content Description Content Description Content Description
 44809	Alliance Ballista	Alliance Ballista
-44810	Content Description Content Description Content Description Content Description Content Description	Content Description Content Description Content Description Content Description Content Description
 44811	World's Best Lute	World's Best Lute
-44812	Content Description Content Description Content Description Content Description Content Description	Content Description Content Description Content Description Content Description Content Description
 10830000000	Personal Rewards	Personal Rewards
 10830000001	Auction Rewards	Auction Rewards
 12420100000	Serve as the party's frontline\nPlayers who select this role have exceptional damage-taking capabilities and must stand ahead of their teammates to hold off enemy attacks.	Serve as the party's frontline\nPlayers who select this role have exceptional damage-taking capabilities and must stand ahead of their teammates to hold off enemy attacks.
 12420100001	Serve as the party's healer\nPlayers who select this role have powerful Life recovery abilities and must keep their teammates healthy and provide Revive when needed.	Serve as the party's healer\nPlayers who select this role have powerful Life recovery abilities and must keep their teammates healthy and provide Revive when needed.
 12420100002	Serve as the party's damage dealer\nPlayers who select this role have exceptional damage-dealing capabilities and must focus on damaging enemies.	Serve as the party's damage dealer\nPlayers who select this role have exceptional damage-dealing capabilities and must focus on damaging enemies.
-45000	Complete Seven-Day Missions to Get	Complete Seven-Day Missions to Get
-45003	Tap to Enter Information	Tap to Enter Information
 12480000000	Collection	Collection
 10600100000	Reach Floor @{1} with a pet	Reach Floor @{1} with a pet
 10600100001	Melody of the God of Nature	Melody of the God of Nature
@@ -13795,77 +13170,6 @@
 10320000895	Baphomet has become Weak! Focus your attacks!	Baphomet has become Weak! Focus your attacks!
 10320000896	The Hunting Challenge will begin in @{1} minutes.	The Hunting Challenge will begin in @{1} minutes.
 10320000897	The Hunting Challenge has begun. Go now?	The Hunting Challenge has begun. Go now?
-47000	Job Advance successful.	Job Advance successful.
-47001	Unused Skill Points	Unused Skill Points
-47002	Downloading:	Downloading:
-47003	Growth Emblem	Growth Emblem
-47004	Begin Your Journey	Begin Your Journey
-47007	Quest not unlocked. Unable to claim.	Quest not unlocked. Unable to claim.
-47008	Quest incomplete. Unable to claim.	Quest incomplete. Unable to claim.
-47009	Complete this chapter's quests first.	Complete this chapter's quests first.
-47010	Complete this chapter's quests first.	Complete this chapter's quests first.
-47011	Reward claimed	Reward claimed
-47012	Advance	Advance
-47013	None	None
-47014	Advancement Quest	Advancement Quest
-47015	Next Stage	Next Stage
-47016	seconds until skippable	seconds until skippable
-47017	seconds until this story can no longer be skipped	seconds until this story can no longer be skipped
-47018	Try Again	Try Again
-47019	Skip	Skip
-47020	Congratulations! You've completed your entire growth journey. Tap Finish to permanently close the Growth Emblem.	Congratulations! You've completed your entire growth journey. Tap Finish to permanently close the Growth Emblem.
-47021	Finish	Finish
-47022	Title Preview	Title Preview
-47026	Growth Journey complete.	Growth Journey complete.
-47027	Job Advance quests unlock after Level Increased. Complete the quest to Job Advance.	Job Advance quests unlock after Level Increased. Complete the quest to Job Advance.
-47028	Quest unlocks at Lv. ${1}.	Quest unlocks at Lv. ${1}.
-47029	Complete Reward	Complete Reward
-47030	Emblem Reward Preview	Emblem Reward Preview
-47031	Emblem	Emblem
-47100	Give the collected herbs to Rhine.	Give the collected herbs to Rhine.
-47101	Place your hand on the boy's.	Place your hand on the boy's.
-47102	Touch the Book of Job Advancement.	Touch the Book of Job Advancement.
-47103	Gather Hard Shells.	Gather Hard Shells.
-47104	Gather high-quality Sticky Mucus.	Gather high-quality Sticky Mucus.
-47105	Pick up the Research Notebook.	Pick up the Research Notebook.
-47106	Approach the strange girl.	Approach the strange girl.
-47107	Release the pathfinder ant.	Release the pathfinder ant.
-47108	Enter the mysterious cave entrance.	Enter the mysterious cave entrance.
-47109	Inspect the goods by the roadside.	Inspect the goods by the roadside.
-47110	Inspect the goods by the roadside.	Inspect the goods by the roadside.
-47111	Pick up the goods.	Pick up the goods.
-47112	Place the part in the machine.	Place the part in the machine.
-47113	Take Out the part.	Take Out the part.
-47114	Touch the stone pillar.	Touch the stone pillar.
-47115	Relax.	Relax.
-47116	Gather Whispering Flowers.	Gather Whispering Flowers.
-47117	Place the Whispering Flowers.	Place the Whispering Flowers.
-47118	Spray the pheromones.	Spray the pheromones.
-47119	Approach the giant ant.	Approach the giant ant.
-47120	Check the wanted poster.	Check the wanted poster.
-47121	Caress the Stray Cat	Caress the Stray Cat
-47122	Help the Man	Help the Man
-47123	, and learn Luna's dance moves	, and learn Luna's dance moves
-47125	Suggested: Challenge Hall of Valor (Misc)	Suggested: Challenge Hall of Valor (Misc)
-47126	Suggested: Monster Conquest (Misc)	Suggested: Monster Conquest (Misc)
-47127	Conquer the Munak Cave Area	Conquer the Munak Cave Area
-47128	Reach Base Lv. ${1}	Reach Base Lv. ${1}
-47129	Complete the Golden Thief Bug Dungeon	Complete the Golden Thief Bug Dungeon
-47130	Complete the Orc Hero Dungeon	Complete the Orc Hero Dungeon
-47131	Complete the Drake Dungeon	Complete the Drake Dungeon
-47200	Choose How to Begin	Choose How to Begin
-47201	Only affects the story experience. <color=#ff993f>Does not affect progression rewards</color>	Only affects the story experience. <color=#ff993f>Does not affect progression rewards</color>
-47202	Story Quest Path	Story Quest Path
-47203	Experience the new version's smooth, seamless storytelling	Experience the new version's smooth, seamless storytelling
-47204	Monster-Grinding Path	Monster-Grinding Path
-47205	Relive the classic RO PC game's thrilling monster-grinding and Level-up experience	Relive the classic RO PC game's thrilling monster-grinding and Level-up experience
-47206	Are you sure you want to begin this journey via  ${1}?\n<color=#cc762a>${2}</color>	Are you sure you want to begin this journey via  ${1}?\n<color=#cc762a>${2}</color>
-47207	Enjoy spectacular, immersive story quests and a smooth, polished introduction for new adventurers	Enjoy spectacular, immersive story quests and a smooth, polished introduction for new adventurers
-47208	Return to the classic monster-grinding experience of the original RO PC game and relive the thrill of growing stronger through battle	Return to the classic monster-grinding experience of the original RO PC game and relive the thrill of growing stronger through battle
-47209	All-New Story	All-New Story
-47210	Spectacular Presentation	Spectacular Presentation
-47211	Classic PC Experience	Classic PC Experience
-47212	Grind and Level-up	Grind and Level-up
 11460000000	Default Theme	Default Theme
 11460000001	Bouquet	Bouquet
 11460000002	Meow	Meow
@@ -13995,17 +13299,12 @@
 50006	Silver	Silver
 50007	Brass	Brass
 50008	Black Iron	Black Iron
-50012	Local Server League Screen Help Text	Local Server League Screen Help Text
-50013	Guild Schedule Help Text	Guild Schedule Help Text
-50080	Point Rules Help Text	Point Rules Help Text
 50102	1-2	1-2
 50103	3-4	3-4
 50104	5-6	5-6
 50137	Water	Water
 50138	Mountain	Mountain
 50139	Fire	Fire
-50186	Locate Match	Locate Match
-50191	Season points and rankings can be viewed after the Locate Matches end.	Season points and rankings can be viewed after the Locate Matches end.
 10100000000	Cumulative quest	Cumulative quest
 10100000001	Daily Quest	Daily Quest
 10100000002	Challenge Quests	Challenge Quests
@@ -14860,28 +14159,8 @@
 13640000000	First Movement · Majestic Hymn	First Movement · Majestic Hymn
 13620000010	Prontera S@{1}	Prontera S@{1}
 13620000009	Izlude	Izlude
-52001	Damage per Second	Damage per Second
-52003	Damage Taken	Damage Taken
-52005	Reset Data	Reset Data
-52006	Elapsed Time	Elapsed Time
 52007	${1}:${2}:${3}	${1}:${2}:${3}
-52008	Total DMG	Total DMG
-52009	Total Healing	Total Healing
-52010	Total DMG Taken	Total DMG Taken
 52011	${1}/s	${1}/s
-52012	 damage	 damage
-52013	 Damage Taken	 Damage Taken
-52015	Crit Chance	Crit Chance
-52016	Name	Name
-52017	Damage per Second	Damage per Second
-52019	Percentage	Percentage
-52020	Count	Count
-52021	Healing per Second	Healing per Second
-52025	Back	Back
-52026	Current Battle	Current Battle
-52027	Total Data	Total Data
-52028	Battle Record ${1}	Battle Record ${1}
-52029	Statistics	Statistics
 13620000008	Sunken Ship	Sunken Ship
 13620000007	Byalan Island	Byalan Island
 13620000006	Mt. Mjolnir	Mt. Mjolnir
@@ -15656,27 +14935,6 @@
 12380000005	Expert Forager	Expert Forager
 12380000006	Gathering Expert - Mining	Gathering Expert - Mining
 12380000007	Gathering Expert - Logging	Gathering Expert - Logging
-53000	Age-appropriate tips	Age-appropriate tips
-53003	Real-Name Registration	Real-Name Registration
-53004	Dear player, in accordance with the National Press and Publication Administration’s “Notification on Preventing Minors from Becoming Addicted to Online Games” and “Notification on Further Strengthening Regulations to Effectively Prevent Minors from Becoming Addicted to Online Games,” accounts without verified real-name registration cannot access the game. Please complete real-name registration as soon as possible.	Dear player, in accordance with the National Press and Publication Administration’s “Notification on Preventing Minors from Becoming Addicted to Online Games” and “Notification on Further Strengthening Regulations to Effectively Prevent Minors from Becoming Addicted to Online Games,” accounts without verified real-name registration cannot access the game. Please complete real-name registration as soon as possible.
-53005	Real-Name Registration	Real-Name Registration
-53006	Exit Game	Exit Game
-53007	Underage players may only Login ROO <color=#cc762a>from 20:00 to 21:00 on Fridays, Saturdays, Sundays, and legal holidays</color>. You have been verified as an underage player and <color=#cc762a>cannot enter the game at this time</color>. For details, please see the official Anti-Addiction System announcement.	Underage players may only Login ROO <color=#cc762a>from 20:00 to 21:00 on Fridays, Saturdays, Sundays, and legal holidays</color>. You have been verified as an underage player and <color=#cc762a>cannot enter the game at this time</color>. For details, please see the official Anti-Addiction System announcement.
-53008	For underage players, Login ROO is available <color=#cc762a>only from 20:00 to 21:00 on Fridays, Saturdays, Sundays, and public holidays</color>. You cannot play outside these hours. Please remember to take breaks.	For underage players, Login ROO is available <color=#cc762a>only from 20:00 to 21:00 on Fridays, Saturdays, Sundays, and public holidays</color>. You cannot play outside these hours. Please remember to take breaks.
-53009	In accordance with the Notification on Preventing Online Gaming Addiction Among Minors issued by the National Press and Publication Administration, paid game services are unavailable to users under the age of 8.	In accordance with the Notification on Preventing Online Gaming Addiction Among Minors issued by the National Press and Publication Administration, paid game services are unavailable to users under the age of 8.
-53010	Your spending this month has reached <color=#cc762a>${1} RMB</color>. This transaction would exceed the monthly top-up limit. Please spend responsibly and top up in moderation.\n\nAccording to the Notification on Preventing Minors from Becoming Addicted to Online Games issued by the National Press and Publication Administration, users aged 8 to under 16 may top up no more than RMB 50 per transaction and RMB 200 per month.	Your spending this month has reached <color=#cc762a>${1} RMB</color>. This transaction would exceed the monthly top-up limit. Please spend responsibly and top up in moderation.\n\nAccording to the Notification on Preventing Minors from Becoming Addicted to Online Games issued by the National Press and Publication Administration, users aged 8 to under 16 may top up no more than RMB 50 per transaction and RMB 200 per month.
-53011	Your spending this month has reached <color=#cc762a>${1} RMB</color>. This purchase would exceed the monthly top-up limit. Please spend responsibly and top up in moderation.\n\nUnder the National Press and Publication Administration's "Notification on Preventing Minors from Becoming Addicted to Online Games," users ages 16 to under 18 may not top up more than RMB 100 per transaction or RMB 400 per month.	Your spending this month has reached <color=#cc762a>${1} RMB</color>. This purchase would exceed the monthly top-up limit. Please spend responsibly and top up in moderation.\n\nUnder the National Press and Publication Administration's "Notification on Preventing Minors from Becoming Addicted to Online Games," users ages 16 to under 18 may not top up more than RMB 100 per transaction or RMB 400 per month.
-53012	This purchase exceeds <color=#cc762a>RMB 50</color>, so the top-up failed. Please spend responsibly and top up in moderation.\n\nAccording to the "Notification on Preventing Minors from Becoming Addicted to Online Games" issued by the National Press and Publication Administration, players aged 8 to under 16 may top up no more than RMB 50 per transaction and RMB 200 per month.	This purchase exceeds <color=#cc762a>RMB 50</color>, so the top-up failed. Please spend responsibly and top up in moderation.\n\nAccording to the "Notification on Preventing Minors from Becoming Addicted to Online Games" issued by the National Press and Publication Administration, players aged 8 to under 16 may top up no more than RMB 50 per transaction and RMB 200 per month.
-53013	This transaction exceeds <color=#cc762a>RMB 100</color>, so the top-up failed. Please spend responsibly and top up in moderation.\n\nAccording to the Notification on Preventing Minors from Becoming Addicted to Online Games issued by the National Press and Publication Administration, players aged 16 to under 18 may not top up more than RMB 100 per transaction or RMB 400 per month.	This transaction exceeds <color=#cc762a>RMB 100</color>, so the top-up failed. Please spend responsibly and top up in moderation.\n\nAccording to the Notification on Preventing Minors from Becoming Addicted to Online Games issued by the National Press and Publication Administration, players aged 16 to under 18 may not top up more than RMB 100 per transaction or RMB 400 per month.
-53014	Anti-Addiction Information	Anti-Addiction Information
-53015	Less than ${1} minutes of playtime remain today.	Less than ${1} minutes of playtime remain today.
-53016	Request successful	Request successful
-53017	Parameter error	Parameter error
-53018	Invalid request. Invalid signature.	Invalid request. Invalid signature.
-53019	You cannot make purchases because your identity has not been verified.	You cannot make purchases because your identity has not been verified.
-53020	Failed to verify player identity information	Failed to verify player identity information
-53021	Guest accounts cannot make purchases.	Guest accounts cannot make purchases.
-53022	This game is suitable for users aged 12 and older. Minors should play under parental supervision. For your health, please limit your playtime appropriately. Our company actively abides by the Online Game Industry Self-Regulation Convention on Preventing Gaming Addiction. According to the National Press and Publication Administration's Notification on Preventing Minors from Becoming Addicted to Online Games, all online game users must complete real-name account registration using valid identification information. Minors are subject to anti-addiction Function restrictions.	This game is suitable for users aged 12 and older. Minors should play under parental supervision. For your health, please limit your playtime appropriately. Our company actively abides by the Online Game Industry Self-Regulation Convention on Preventing Gaming Addiction. According to the National Press and Publication Administration's Notification on Preventing Minors from Becoming Addicted to Online Games, all online game users must complete real-name account registration using valid identification information. Minors are subject to anti-addiction Function restrictions.
 12380000031	Enhanced Crafting - Tailoring	Enhanced Crafting - Tailoring
 12380000032	Crafting Moonlit Challenger - Forging	Crafting Moonlit Challenger - Forging
 12380000033	Crafting Moonlit Challenger - Carving	Crafting Moonlit Challenger - Carving
@@ -15958,17 +15216,9 @@
 12390001697	Sun-Devouring Wolf	Sun-Devouring Wolf
 12390001696	Wandering Elder	Wandering Elder
 12390001695	Disguise Trick	Disguise Trick
-54000	This skill is already in the Divine Arts Totem. Save your Skill Book.	This skill is already in the Divine Arts Totem. Save your Skill Book.
-54001	The Divine Arts Totem already has a skill with a stronger unique effect. Do you want to continue using the Skill Book?	The Divine Arts Totem already has a skill with a stronger unique effect. Do you want to continue using the Skill Book?
-54002	Innate Skill	Innate Skill
-54003	Can add skills to Divine Art Totems	Can add skills to Divine Art Totems
-54004	Inactive: A higher-level skill is already active.	Inactive: A higher-level skill is already active.
-54005	No Divine Art Totems available	No Divine Art Totems available
 12390001694	War God's Raiment	War God's Raiment
 12390001693	Gungnir	Gungnir
 12390001692	Divine Goat's Milk	Divine Goat's Milk
-54009	Select a Divine Art Totem to equip	Select a Divine Art Totem to equip
-54014	Upgrade Cost	Upgrade Cost
 12390001691	All-Seeing Raven	All-Seeing Raven
 12390001690	Ouroboros	Ouroboros
 12390001689	Boar's Feast	Boar's Feast
@@ -15981,88 +15231,19 @@
 12390001682	CRIT DMG	CRIT DMG
 12390001681	CRIT	CRIT
 12390001680	Hunting Protection	Hunting Protection
-54027	Filter Divine Art Totems	Filter Divine Art Totems
-54028	Divine Arts Totem Skill Count	Divine Arts Totem Skill Count
-54029	Divine Arts Totem Appearance	Divine Arts Totem Appearance
-54032	Search by Skill Name	Search by Skill Name
 12390001679	Hunting Mastery	Hunting Mastery
-54034	No matching Divine Totem skills.	No matching Divine Totem skills.
-54035	Select Skill Book	Select Skill Book
-54036	Learning Skills will <color=#c26b47>randomly replace an existing skill</color>	Learning Skills will <color=#c26b47>randomly replace an existing skill</color>
-54037	Learn	Learn
-54038	Select	Select
-54039	No Skill Books for now	No Skill Books for now
-54040	No Divine Art Totems available to reforge.	No Divine Art Totems available to reforge.
-54042	Not Enough Reset Materials	Not Enough Reset Materials
-54043	Select the Divine Art Totem to combine (click or drag)	Select the Divine Art Totem to combine (click or drag)
-54044	Two Divine Art Totems have been added.	Two Divine Art Totems have been added.
-54045	Only Divine Art Totems of the same quality can be combined.	Only Divine Art Totems of the same quality can be combined.
-54046	Only Divine Art Totems of the same class tier can be combined.	Only Divine Art Totems of the same class tier can be combined.
 12390001678	DMG Reduction vs All Job	DMG Reduction vs All Job
 54048	${1}%	${1}%
-54049	Maximum Number of Skills	Maximum Number of Skills
-54050	Select Divine Art Totems of the same quality from the list on the left to combine them.	Select Divine Art Totems of the same quality from the list on the left to combine them.
-54051	Please select two Divine Art Totems to combine.	Please select two Divine Art Totems to combine.
-54052	After combining, stats and skills are randomized. Please play responsibly.	After combining, stats and skills are randomized. Please play responsibly.
-54053	Combine is successful	Combine is successful
 54054	Divine Totem	Divine Totem
-54057	Reveal All	Reveal All
-54058	Take off	Take off
 12390001677	DMG vs All Job	DMG vs All Job
 12390001676	Undead Property Resistance	Undead Property Resistance
-54061	Class Tier	Class Tier
-54062	Reset Materials	Reset Materials
-54063	Level-up Divine Art Totem	Level-up Divine Art Totem
-54064	Combine	Combine
-54065	Refining will <color=#C26B47>randomly increase or decrease stats</color>	Refining will <color=#C26B47>randomly increase or decrease stats</color>
-54066	No skills available to learn	No skills available to learn
-54067	Enter the Divine Totem skill name.	Enter the Divine Totem skill name.
-54068	Not applied: This skill already exists.	Not applied: This skill already exists.
 54069	MAX	MAX
-54070	Tap a totem on the left to replace it.	Tap a totem on the left to replace it.
-54071	Repeat	Repeat
-54072	Repeat: Skill already exists	Repeat: Skill already exists
-54073	<color=#C26B47>All attributes are maxed out</color>	<color=#C26B47>All attributes are maxed out</color>
-54074	Equipped Divine Art Totems cannot be combined.	Equipped Divine Art Totems cannot be combined.
-54075	Attribute Range	Attribute Range
-54076	Learning Skills will <color=#c26b47>replace the original skill or add 1 skill</color>	Learning Skills will <color=#c26b47>replace the original skill or add 1 skill</color>
-54077	Maximum Number of Skills	Maximum Number of Skills
-54078	Scratch	Scratch
-54080	No Totems Available	No Totems Available
 12390001675	Ghost Property Resistance	Ghost Property Resistance
 12390001674	Shadow Resistance	Shadow Resistance
 12390001673	Holy Resistance	Holy Resistance
 12390001672	Poison Resistance	Poison Resistance
-54085	Unique Effect	Unique Effect
 12390001671	Water Resistance	Water Resistance
-54087	<color=#C26B47>This stat has reached its maximum value.</color>	<color=#C26B47>This stat has reached its maximum value.</color>
-54088	Different attributes require different Reset Materials.	Different attributes require different Reset Materials.
-54089	Can be refined <color=#c27b47>${1}</color> times	Can be refined <color=#c27b47>${1}</color> times
-54090	Can be refined <color=#b75949>0</color> times	Can be refined <color=#b75949>0</color> times
-54091	0 reforge attempts remaining. Unable to reforge.	0 reforge attempts remaining. Unable to reforge.
-54092	Chance to obtain the following skills	Chance to obtain the following skills
-54093	Please select the attribute to reroll.	Please select the attribute to reroll.
-54094	Unlocks when Base Level reaches ${1}	Unlocks when Base Level reaches ${1}
-54095	Divine Words: Wipe the inscription clean to decipher the Totem attributes.	Divine Words: Wipe the inscription clean to decipher the Totem attributes.
-54096	Totem List	Totem List
-54097	Appraise?	Appraise?
-54098	Appraise ${1} Item(s)	Appraise ${1} Item(s)
-54099	Train	Train
-54100	Identify	Identify
-54101	Innate	Innate
-54102	Initial Preview	Initial Preview
-54103	Divine Art Totem Preview	Divine Art Totem Preview
-54104	Initial Divine Art Totem	Initial Divine Art Totem
-54105	Maximum Skills:	Maximum Skills:
-54106	Totem Skill	Totem Skill
-54107	Innate Skill	Innate Skill
 54108	Novice	Novice
-54109	The synthesis slots are full.	The synthesis slots are full.
-54110	Effect Overview	Effect Overview
-54113	Reset Stats	Reset Stats
-54114	Learn Skills	Learn Skills
-54115	Grade	Grade
-54116	No effect yet	No effect yet
 12390001670	Fire Resistance	Fire Resistance
 12390001669	Earth Property Resistance	Earth Property Resistance
 12390001668	Wind Resistance	Wind Resistance
@@ -16946,8 +16127,6 @@
 12390000977	Starlight Silk VI	Starlight Silk VI
 12390000976	Starlight Silk V	Starlight Silk V
 12390000975	Starlight Silk IV	Starlight Silk IV
-55000	Faction 3	Faction 3
-55001	Faction 4	Faction 4
 12390000974	Starlight Silk III	Starlight Silk III
 12390000973	Starlight Silk II	Starlight Silk II
 12390000972	Starlight Silk I	Starlight Silk I
@@ -18749,99 +17928,18 @@
 11950000002	Tier 2 Cart	Tier 2 Cart
 11950000001	Cart Merchant	Cart Merchant
 11950000000	Blade	Blade
-57001	Monster	Monster
-57003	Book Collection	Book Collection
 57004	${1}%	${1}%
-57005	Not Available	Not Available
-57006	Use Theme	Use Theme
-57008	NEW	NEW
-57009	Research Progress Lv.${1}	Research Progress Lv.${1}
-57010	AFK Recommendations	AFK Recommendations
-57011	Drop Rewards	Drop Rewards
-57012	Habitat	Habitat
 57013	Lv.${1}	Lv.${1}
-57016	Area	Area
-57017	No Matching Monsters	No Matching Monsters
 57018	Lv.1-20	Lv.1-20
 57019	Lv.21-40	Lv.21-40
 57020	Lv.41-60	Lv.41-60
 57021	Lv.61-80	Lv.61-80
 57022	Lv.81-100	Lv.81-100
 57023	Lv.${1}-${2}	Lv.${1}-${2}
-57026	Adventure Handbook Reward Preview	Adventure Handbook Reward Preview
 57027	Scholar Lv.	Scholar Lv.
-57028	Collection Points	Collection Points
-57030	Monster Reward Preview	Monster Reward Preview
-57031	Kill ${1} to automatically obtain this reward (${2}/${1})	Kill ${1} to automatically obtain this reward (${2}/${1})
-57032	Card Album Reward Preview	Card Album Reward Preview
-57033	Book Reward Preview	Book Reward Preview
-57034	Card Album Collection	Card Album Collection
 57035	${1}/${2}	${1}/${2}
-57036	Level Stats	Level Stats
-57037	Initial Effect	Initial Effect
-57038	Max level Effect	Max level Effect
-57039	Collection Benefits	Collection Benefits
-57040	Unlock Rewards	Unlock Rewards
-57041	How to Obtain	How to Obtain
-57042	Promotion Preview	Promotion Preview
-57043	Advanced Rewards	Advanced Rewards
-57044	Book Collection	Book Collection
-57045	Reading Bonus	Reading Bonus
-57046	Reading Rewards	Reading Rewards
-57047	First Reading	First Reading
-57048	Obtain Book Pages	Obtain Book Pages
-57049	Complete Collection Reward	Complete Collection Reward
-57050	Unlocks when Knowledge reaches ${1}	Unlocks when Knowledge reaches ${1}
 57051	${1} Lv.${2}	${1} Lv.${2}
-57052	Go to ${1} habitat ${2}?	Go to ${1} habitat ${2}?
-57053	Do Not Show Again During This Login	Do Not Show Again During This Login
-57054	Go to Monster Habitat	Go to Monster Habitat
-57056	Tap to Search for Monsters	Tap to Search for Monsters
-57057	Tap to Search for Cards	Tap to Search for Cards
-57058	Tap to Search the Book Collection	Tap to Search the Book Collection
-57059	Tap to activate	Tap to activate
-57064	Primary Attributes	Primary Attributes
-57065	Special	Special
-57066	No Matching Cards	No Matching Cards
-57067	No Matching Books	No Matching Books
-57068	Function Not Available	Function Not Available
-57069	Adventure Handbook Theme	Adventure Handbook Theme
-57070	No Matching Results	No Matching Results
-57071	Theme Unlocked: ${1}	Theme Unlocked: ${1}
-57072	Theme Style	Theme Style
-57073	Theme	Theme
-57075	Race	Race
-57077	Size	Size
-57079	Filtering	Filtering
-57080	Progress Reward	Progress Reward
-57081	Standard Card	Standard Card
-57082	Collector Card	Collector Card
-57083	Monsters Unlocked: ${1}/${2}	Monsters Unlocked: ${1}/${2}
-57084	Standard Cards Collected: ${1}/${2}	Standard Cards Collected: ${1}/${2}
-57085	Collector Cards Collected: ${1}/${2}	Collector Cards Collected: ${1}/${2}
-57086	Books Collected: ${1}/${2}	Books Collected: ${1}/${2}
-57087	Chapter Reading Reward	Chapter Reading Reward
-57088	Chapter Reading Reward Not Unlocked	Chapter Reading Reward Not Unlocked
-57089	Chapter Reading Reward claimed	Chapter Reading Reward claimed
-57090	This chapter can only be obtained in the scenario [${1}]	This chapter can only be obtained in the scenario [${1}]
-57091	Codex Unlocked	Codex Unlocked
-57093	Monster [${1}] unlocked	Monster [${1}] unlocked
-57094	Monster [${1}] research task [${2}] completed!	Monster [${1}] research task [${2}] completed!
-57095	Card [${1}] unlocked	Card [${1}] unlocked
-57096	Advanced Rewards obtained for Card [${1}] at [${2} Stars]!	Advanced Rewards obtained for Card [${1}] at [${2} Stars]!
-57097	Finished reading Chapter [${2}] of Book [${1}]	Finished reading Chapter [${2}] of Book [${1}]
-57098	Chapter [${2}] of Book [${1}] unlocked	Chapter [${2}] of Book [${1}] unlocked
-57099	Familiar	Familiar
-57100	Knowledgeable	Knowledgeable
-57101	Expert	Expert
-57103	Monster Research	Monster Research
-57104	Unlock monsters to obtain <sprite name="${1}">${2} and unlock research tasks	Unlock monsters to obtain <sprite name="${1}">${2} and unlock research tasks
-57105	All Research Completed	All Research Completed
 57106	MAX	MAX
-57107	Kills: ${1}/${2}	Kills: ${1}/${2}
-57108	Read the Book	Read the Book
-57109	How to Obtain	How to Obtain
-57111	Increase Affinity	Increase Affinity
 11930100004	Genesis Movement	Genesis Movement
 11930100003	Divine Realm Speedrun	Divine Realm Speedrun
 11930100002	Ilma Tower: Extreme Speedrun	Ilma Tower: Extreme Speedrun
@@ -19730,8 +18828,6 @@
 10220200589	Small Note Clockwise Skill@{1}	Small Note Clockwise Skill@{1}
 10220200590	Battle Royale Transition Pull	Battle Royale Transition Pull
 10220200591	Battle Royale Transition Player Effect	Battle Royale Transition Player Effect
-58061	Connect Function	Connect Function
-58062	Connect Function Menu	Connect Function Menu
 58067	Buff	Buff
 58069	Debuff	Debuff
 58147	Divine Totem	Divine Totem
@@ -21410,49 +20506,6 @@
 10630001190	Because you are under @{1}, the anti-addiction System prevents you from making purchases	Because you are under @{1}, the anti-addiction System prevents you from making purchases
 10630001189	You cannot make purchases because your identity has not been verified.	You cannot make purchases because your identity has not been verified.
 60000	LV.${1}	LV.${1}
-60001	Random Affix	Random Affix
-60002	Resonance	Resonance
-60003	Deployment Effects	Deployment Effects
-60005	Soul Echo Resonance Preview	Soul Echo Resonance Preview
-60006	Click a slot on the left to equip	Click a slot on the left to equip
-60007	All Echoes	All Echoes
-60008	No Soul Echoes available.	No Soul Echoes available.
-60009	Select a Soul Echo (click or drag)	Select a Soul Echo (click or drag)
-60010	Filter Soul Echoes	Filter Soul Echoes
-60011	Element	Element
-60012	Affix Selection	Affix Selection
-60013	Any 1 Affix	Any 1 Affix
-60014	Any 2 Affixes	Any 2 Affixes
-60015	Any 3 Affixes	Any 3 Affixes
-60016	Any 4 Affixes	Any 4 Affixes
-60021	No Soul Echoes are currently deployed	No Soul Echoes are currently deployed
-60024	Select a Soul Echo on the left to deploy	Select a Soul Echo on the left to deploy
-60026	All Echoes	All Echoes
-60027	Select a Soul Echo on the left	Select a Soul Echo on the left
-60028	Max level reached	Max level reached
-60029	Dismantle	Dismantle
-60030	Select Upgrade Cost	Select Upgrade Cost
-60031	Maximum level reached	Maximum level reached
-60032	Are you sure you want to consume Soul Echoes of Orange Quality or higher for Level-up?	Are you sure you want to consume Soul Echoes of Orange Quality or higher for Level-up?
-60033	No Level-up materials available	No Level-up materials available
-60034	All materials of Purple Quality or lower have been selected	All materials of Purple Quality or lower have been selected
-60035	No materials of Purple Quality or lower	No materials of Purple Quality or lower
-60036	Adds a random affix	Adds a random affix
-60037	Select Level-up materials	Select Level-up materials
-60038	Material Refund	Material Refund
-60039	Overflow EXP has been converted into items	Overflow EXP has been converted into items
-60040	Includes the affixes above	Includes the affixes above
-60041	Soul Echo Resonance Info	Soul Echo Resonance Info
-60042	Bulk Dismantle	Bulk Dismantle
-60044	Quick Select	Quick Select
-60046	Affix	Affix
-60047	None	None
-60048	Are you sure you want to consume upgraded Soul Echoes for Level-up?	Are you sure you want to consume upgraded Soul Echoes for Level-up?
-60049	Are you sure you want to consume Soul Echoes of Orange Quality or higher and upgraded Soul Echoes for Level-up?	Are you sure you want to consume Soul Echoes of Orange Quality or higher and upgraded Soul Echoes for Level-up?
-60050	Soul Echo Resonance only activates for classes ${1} and above	Soul Echo Resonance only activates for classes ${1} and above
-60051	Not in the current scenario	Not in the current scenario
-60053	Compare	Compare
-60054	Show less Compare	Show less Compare
 10630001188	You have already claimed today's daily Monthly Pass reward	You have already claimed today's daily Monthly Pass reward
 10630001187	The Monthly Pass has expired	The Monthly Pass has expired
 10630001186	You do not have this Monthly Pass	You do not have this Monthly Pass
@@ -23473,9 +22526,6 @@
 10220300731	Determine whether it is protected by a shield; hide later	Determine whether it is protected by a shield; hide later
 10220300699	When any Protector skill is used, grants the master [Divine Hope] (Physical/Magic DEF +^{1}${1}%^{2}) for ${2}% sec.	When any Protector skill is used, grants the master [Divine Hope] (Physical/Magic DEF +^{1}${1}%^{2}) for ${2}% sec.
 64025	Novice	Novice
-64029	Recommended Stunts	Recommended Stunts
-64038	Expired	Expired
-64039	Expired	Expired
 64130	${1}/<color=#e5dcc1>${2}</color>	${1}/<color=#e5dcc1>${2}</color>
 64138	DPS	DPS
 10220300674	When a shield/buff-type protection skill is cast, the master recovers *value description* Life upon taking damage (internal cooldown: @{1} seconds) for x seconds.	When a shield/buff-type protection skill is cast, the master recovers *value description* Life upon taking damage (internal cooldown: @{1} seconds) for x seconds.
@@ -23876,8 +22926,6 @@
 10110201088	Curse Slash	Curse Slash
 10110201087	Harvesting Scythe	Harvesting Scythe
 10110201086	Taunting Tease	Taunting Tease
-65001	Meter	Meter
-65002	Target: <#ffffff>${1}</color>	Target: <#ffffff>${1}</color>
 10110201085	Raging Gale	Raging Gale
 10110201084	Fox Fury	Fox Fury
 10110201083	Clear Breeze	Clear Breeze
@@ -24367,4 +23415,3 @@
 91028	${1}	${1}
 91027	${1}	${1}
 91009	（${1}/${2}）	（${1}/${2}）
-53001	\t1. This is a role-playing game suitable for users age 12 and older. Minors are advised to play under parental supervision.\n\t2. This game features a cartoon art style with detailed visuals, vibrant colors, and lighthearted, lively music. Set against a fictional story and fantasy world, players take on the role of an adventurer embarking on a journey to protect this beautiful world. The game includes competitive gameplay and story-related conflict, but these confrontations are depicted in a cartoon style and cannot be confused with real life. The game includes a text- and voice-based Connect System for interacting with strangers. The Connect System is managed in accordance with applicable laws and regulations.\n\t3. The game includes a real-name user verification System. Users verified as minors are subject to the following restrictions:\n\tSome gameplay features and items require payment. Users under age 8 may not make payments. Users age 8 or older but under age 16 may spend no more than 50 RMB per transaction and no more than 200 RMB per month. Users age 16 or older who are minors may spend no more than 100 RMB per transaction and no more than 400 RMB per month.\n\tAccounts without real-name verification cannot log in to play. Verified minors may play for 1 hour each day from 20:00 to 21:00 on Fridays, Saturdays, Sundays, and statutory holidays, and may not play at any other time.\n\t4. The game includes a party mode, large-scale team missions, and competitions that require players to work together. These activities help Train players' communication and teamwork skills while fostering a sense of group belonging.	\t1. This is a role-playing game suitable for users age 12 and older. Minors are advised to play under parental supervision.\n\t2. This game features a cartoon art style with detailed visuals, vibrant colors, and lighthearted, lively music. Set against a fictional story and fantasy world, players take on the role of an adventurer embarking on a journey to protect this beautiful world. The game includes competitive gameplay and story-related conflict, but these confrontations are depicted in a cartoon style and cannot be confused with real life. The game includes a text- and voice-based Connect System for interacting with strangers. The Connect System is managed in accordance with applicable laws and regulations.\n\t3. The game includes a real-name user verification System. Users verified as minors are subject to the following restrictions:\n\tSome gameplay features and items require payment. Users under age 8 may not make payments. Users age 8 or older but under age 16 may spend no more than 50 RMB per transaction and no more than 200 RMB per month. Users age 16 or older who are minors may spend no more than 100 RMB per transaction and no more than 400 RMB per month.\n\tAccounts without real-name verification cannot log in to play. Verified minors may play for 1 hour each day from 20:00 to 21:00 on Fridays, Saturdays, Sundays, and statutory holidays, and may not play at any other time.\n\t4. The game includes a party mode, large-scale team missions, and competitions that require players to work together. These activities help Train players' communication and teamwork skills while fostering a sense of group belonging.

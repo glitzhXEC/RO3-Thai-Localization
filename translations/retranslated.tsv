@@ -9142,3 +9142,956 @@ ID	English	Thai_Translation
 63602	You've already reminded this teammate	คุณเตือนเพื่อนร่วมทีมคนนี้แล้ว
 63603	A participant did not confirm. Matchmaking has been Initiated again.	มีผู้เข้าร่วมไม่ยืนยัน เริ่มจับคู่อีกครั้งแล้ว
 63611	${1} invited you to Follow	${1} เชิญคุณติดตาม
+41000	Congrats on Obtaining	ยินดีด้วยที่ได้รับ
+41001	Slot: ${1}	ช่อง: ${1}
+41002	Bonus:	โบนัส:
+41004	Closes automatically in ${1} seconds	ปิดอัตโนมัติใน ${1} วินาที
+41005	(${1} seconds)	(${1} วินาที)
+41006	Core Rewards	รางวัลหลัก
+42001	Confirm Class	ยืนยันคลาส
+42002	Completing the Job Advance unlocks brand-new Job Advance skills. Advance to ${1}${2}?	การเปลี่ยนอาชีพจะปลดล็อกสกิลเปลี่ยนอาชีพใหม่ เปลี่ยนเป็น ${1}${2} หรือไม่?
+42003	Think again	คิดอีกครั้ง
+42005	Job Advance Preview	ตัวอย่างเปลี่ยนอาชีพ
+42006	Choosing a Job	เลือกอาชีพ
+42007	Available Advanced Classes	คลาสขั้นสูงที่เปิดใช้
+42008	Class Role	บทบาทคลาส
+42009	Job Preview	ตัวอย่างอาชีพ
+42010	Choosing a Job	เลือกอาชีพ
+42011	Class Unavailable	คลาสยังไม่เปิดใช้
+42012	Coming soon!	เร็ว ๆ นี้!
+42013	Basic Info	ข้อมูลพื้นฐาน
+42014	Priority Skills	สกิลหลัก
+42015	Skill Preview	ตัวอย่างสกิล
+42016	Loading Video…	กำลังโหลดวิดีโอ…
+42018	Job Advance	เปลี่ยนอาชีพ
+43000	My Power	พลังของฉัน
+43001	Recommended Power:	พลังที่แนะนำ:
+43003	Obtain Resources	รับทรัพยากร
+43004	Go to Upgrade	ไปอัปเกรด
+43005	Too Weak	อ่อนแอเกินไป
+43006	Getting Better	กำลังดีขึ้น
+43007	Achieved perfectly	บรรลุอย่างสมบูรณ์
+43008	Peak Power	พลังสูงสุด
+43009	Power Up	เพิ่มพลัง
+43010	Unlocks at Lv. ${1}	ปลดล็อกที่ Lv. ${1}
+43011	Daily: ${1}/${2}	รายวัน: ${1}/${2}
+43012	Weekly: ${1}/${2}	รายสัปดาห์: ${1}/${2}
+43013	I Need Resources	ฉันต้องการทรัพยากร
+43015	Power Up	เพิ่มพลัง
+43016	Growth	การเติบโต
+43017	Growth Curriculum	หลักสูตรเติบโต
+43018	Growth Rewards	รางวัลเติบโต
+43019	Title Overview	ภาพรวมฉายา
+43020	Overall Completion: ${1}	ความสำเร็จโดยรวม: ${1}
+43021	Complete ${1} more tasks to advance	ทำภารกิจอีก ${1} ภารกิจเพื่อเลื่อนขั้น
+43022	Objectives Completed: ${1}/${2}	เป้าหมายที่สำเร็จ: ${1}/${2}
+43023	Growth Curriculum	หลักสูตรเติบโต
+43026	Current Title	ฉายาปัจจุบัน
+43028	You have not yet reached ${1}. Advance further to view this.	คุณยังไม่ถึง ${1} เลื่อนขั้นต่อเพื่อดูข้อมูลนี้
+43029	Currently Owned: ${1}	มีอยู่ในปัจจุบัน: ${1}
+43030	Resource List	รายการทรัพยากร
+43031	All titles obtained	ได้รับฉายาทั้งหมดแล้ว
+43032	Growth Class Title	ฉายาคลาสเติบโต
+43033	Advanced to ${1}!	เลื่อนขั้นเป็น ${1} แล้ว!
+43034	Advanced to the highest title	เลื่อนถึงฉายาสูงสุดแล้ว
+43035	Complete all objectives in the ${1} stage first	ทำเป้าหมายทั้งหมดในขั้น ${1} ให้สำเร็จก่อน
+43036	Objectives Completed: ${1}	เป้าหมายที่สำเร็จ: ${1}
+47000	Job Advance successful.	เปลี่ยนอาชีพสำเร็จ
+47001	Unused Skill Points	แต้มสกิลที่ยังไม่ใช้
+47002	Downloading:	กำลังดาวน์โหลด:
+47003	Growth Emblem	ตราเติบโต
+47004	Begin Your Journey	เริ่มการเดินทางของคุณ
+47007	Quest not unlocked. Unable to claim.	ยังไม่ปลดล็อกเควสต์ รับไม่ได้
+47008	Quest incomplete. Unable to claim.	เควสต์ยังไม่สำเร็จ รับไม่ได้
+47009	Complete this chapter's quests first.	ทำเควสต์ของบทนี้ให้สำเร็จก่อน
+47010	Complete this chapter's quests first.	ทำเควสต์ของบทนี้ให้สำเร็จก่อน
+47011	Reward claimed	รับรางวัลแล้ว
+47012	Advance	เลื่อนขั้น
+47013	None	ไม่มี
+47014	Advancement Quest	เควสต์เลื่อนขั้น
+47015	Next Stage	ขั้นถัดไป
+47016	seconds until skippable	วินาทีจนกว่าจะข้ามได้
+47017	seconds until this story can no longer be skipped	วินาทีจนกว่าเนื้อเรื่องนี้จะข้ามไม่ได้อีก
+47018	Try Again	ลองอีกครั้ง
+47019	Skip	ข้าม
+47020	Congratulations! You've completed your entire growth journey. Tap Finish to permanently close the Growth Emblem.	ยินดีด้วย! คุณผ่านเส้นทางเติบโตทั้งหมดแล้ว แตะเสร็จสิ้นเพื่อปิดตราเติบโตอย่างถาวร
+47021	Finish	เสร็จสิ้น
+47022	Title Preview	ตัวอย่างฉายา
+47026	Growth Journey complete.	เส้นทางเติบโตสำเร็จแล้ว
+47027	Job Advance quests unlock after Level Increased. Complete the quest to Job Advance.	เควสต์เปลี่ยนอาชีพปลดล็อกหลังเพิ่มระดับ ทำเควสต์เพื่อเปลี่ยนอาชีพ
+47028	Quest unlocks at Lv. ${1}.	ปลดล็อกเควสต์เมื่อถึง Lv. ${1}
+47029	Complete Reward	รางวัลสำเร็จ
+47030	Emblem Reward Preview	ตัวอย่างรางวัลตรา
+47031	Emblem	ตรา
+47100	Give the collected herbs to Rhine.	นำสมุนไพรที่เก็บได้ให้ Rhine
+47101	Place your hand on the boy's.	วางมือของคุณบนมือของเด็กชาย
+47102	Touch the Book of Job Advancement.	สัมผัส Book of Job Advancement
+47103	Gather Hard Shells.	เก็บ Hard Shells
+47104	Gather high-quality Sticky Mucus.	เก็บ Sticky Mucus คุณภาพสูง
+47105	Pick up the Research Notebook.	เก็บ Research Notebook
+47106	Approach the strange girl.	เข้าใกล้เด็กหญิงแปลกหน้า
+47107	Release the pathfinder ant.	ปล่อยมดนำทาง
+47108	Enter the mysterious cave entrance.	เข้าสู่ปากถ้ำลึกลับ
+47109	Inspect the goods by the roadside.	ตรวจสินค้าข้างทาง
+47110	Inspect the goods by the roadside.	ตรวจสินค้าข้างทาง
+47111	Pick up the goods.	เก็บสินค้า
+47112	Place the part in the machine.	ใส่ชิ้นส่วนในเครื่องจักร
+47113	Take Out the part.	นำชิ้นส่วนออก
+47114	Touch the stone pillar.	สัมผัสเสาหิน
+47115	Relax.	ผ่อนคลาย
+47116	Gather Whispering Flowers.	เก็บ Whispering Flowers
+47117	Place the Whispering Flowers.	วาง Whispering Flowers
+47118	Spray the pheromones.	ฉีดฟีโรโมน
+47119	Approach the giant ant.	เข้าใกล้มดยักษ์
+47120	Check the wanted poster.	ตรวจประกาศจับ
+47121	Caress the Stray Cat	ลูบแมวจรจัด
+47122	Help the Man	ช่วยชายคนนั้น
+47123	, and learn Luna's dance moves	 และเรียนรู้ท่าเต้นของ Luna
+47125	Suggested: Challenge Hall of Valor (Misc)	แนะนำ: ท้าทาย Hall of Valor (Misc)
+47126	Suggested: Monster Conquest (Misc)	แนะนำ: Monster Conquest (Misc)
+47127	Conquer the Munak Cave Area	พิชิตพื้นที่ Munak Cave
+47128	Reach Base Lv. ${1}	ถึง Base Lv. ${1}
+47129	Complete the Golden Thief Bug Dungeon	ผ่านดันเจียน Golden Thief Bug
+47130	Complete the Orc Hero Dungeon	ผ่านดันเจียน Orc Hero
+47131	Complete the Drake Dungeon	ผ่านดันเจียน Drake
+47200	Choose How to Begin	เลือกวิธีเริ่มต้น
+47201	Only affects the story experience. <color=#ff993f>Does not affect progression rewards</color>	มีผลต่อประสบการณ์เนื้อเรื่องเท่านั้น <color=#ff993f>ไม่มีผลต่อรางวัลความคืบหน้า</color>
+47202	Story Quest Path	เส้นทางเควสต์เนื้อเรื่อง
+47203	Experience the new version's smooth, seamless storytelling	สัมผัสการเล่าเรื่องที่ราบรื่นและต่อเนื่องของเวอร์ชันใหม่
+47204	Monster-Grinding Path	เส้นทางฟาร์มมอนสเตอร์
+47205	Relive the classic RO PC game's thrilling monster-grinding and Level-up experience	ย้อนสัมผัสประสบการณ์ฟาร์มมอนสเตอร์และเพิ่มระดับสุดตื่นเต้นของ RO PC แบบคลาสสิก
+47206	Are you sure you want to begin this journey via  ${1}?\n<color=#cc762a>${2}</color>	ยืนยันเริ่มการเดินทางนี้ผ่าน ${1} หรือไม่?\n<color=#cc762a>${2}</color>
+47207	Enjoy spectacular, immersive story quests and a smooth, polished introduction for new adventurers	เพลิดเพลินกับเควสต์เนื้อเรื่องสุดตระการตา ชวนดื่มด่ำ และช่วงแนะนำที่ราบรื่นสำหรับนักผจญภัยใหม่
+47208	Return to the classic monster-grinding experience of the original RO PC game and relive the thrill of growing stronger through battle	กลับไปสัมผัสการฟาร์มมอนสเตอร์แบบคลาสสิกของ RO PC ดั้งเดิม และความตื่นเต้นของการแข็งแกร่งขึ้นจากการต่อสู้
+47209	All-New Story	เนื้อเรื่องใหม่ทั้งหมด
+47210	Spectacular Presentation	การนำเสนอสุดตระการตา
+47211	Classic PC Experience	ประสบการณ์ PC แบบคลาสสิก
+47212	Grind and Level-up	ฟาร์มและเพิ่มระดับ
+52001	Damage per Second	ความเสียหายต่อวินาที
+52003	Damage Taken	ความเสียหายที่ได้รับ
+52005	Reset Data	รีเซ็ตข้อมูล
+52006	Elapsed Time	เวลาที่ผ่านไป
+52008	Total DMG	ความเสียหายรวม
+52009	Total Healing	การฟื้นฟูรวม
+52010	Total DMG Taken	DMG ที่ได้รับรวม
+52012	 damage	 ความเสียหาย
+52013	 Damage Taken	 ความเสียหายที่ได้รับ
+52015	Crit Chance	โอกาสคริติคอล
+52016	Name	ชื่อ
+52017	Damage per Second	ความเสียหายต่อวินาที
+52019	Percentage	เปอร์เซ็นต์
+52020	Count	จำนวน
+52021	Healing per Second	การฟื้นฟูต่อวินาที
+52025	Back	กลับ
+52026	Current Battle	การต่อสู้ปัจจุบัน
+52027	Total Data	ข้อมูลรวม
+52028	Battle Record ${1}	บันทึกการต่อสู้ ${1}
+52029	Statistics	สถิติ
+54000	This skill is already in the Divine Arts Totem. Save your Skill Book.	สกิลนี้อยู่ใน Divine Arts Totem แล้ว เก็บหนังสือสกิลไว้ก่อน
+54001	The Divine Arts Totem already has a skill with a stronger unique effect. Do you want to continue using the Skill Book?	Divine Arts Totem มีสกิลที่เอฟเฟกต์เฉพาะแข็งแกร่งกว่าอยู่แล้ว ต้องการใช้หนังสือสกิลต่อหรือไม่?
+54002	Innate Skill	สกิลติดตัว
+54003	Can add skills to Divine Art Totems	เพิ่มสกิลให้ Divine Art Totems ได้
+54004	Inactive: A higher-level skill is already active.	ยังไม่ทำงาน: มีสกิลระดับสูงกว่าทำงานอยู่แล้ว
+54005	No Divine Art Totems available	ไม่มี Divine Art Totems
+54009	Select a Divine Art Totem to equip	เลือก Divine Art Totem เพื่อติดตั้ง
+54014	Upgrade Cost	ค่าอัปเกรด
+54027	Filter Divine Art Totems	กรอง Divine Art Totems
+54028	Divine Arts Totem Skill Count	จำนวนสกิล Divine Arts Totem
+54029	Divine Arts Totem Appearance	รูปลักษณ์ Divine Arts Totem
+54032	Search by Skill Name	ค้นหาตามชื่อสกิล
+54034	No matching Divine Totem skills.	ไม่พบสกิล Divine Totem ที่ตรงกัน
+54035	Select Skill Book	เลือกหนังสือสกิล
+54036	Learning Skills will <color=#c26b47>randomly replace an existing skill</color>	การเรียนสกิลจะ <color=#c26b47>สุ่มแทนที่สกิลที่มีอยู่</color>
+54037	Learn	เรียน
+54038	Select	เลือก
+54039	No Skill Books for now	ขณะนี้ไม่มีหนังสือสกิล
+54040	No Divine Art Totems available to reforge.	ไม่มี Divine Art Totems ให้หลอมใหม่
+54042	Not Enough Reset Materials	วัสดุรีเซ็ตไม่เพียงพอ
+54043	Select the Divine Art Totem to combine (click or drag)	เลือก Divine Art Totem ที่จะรวม (คลิกหรือลาก)
+54044	Two Divine Art Totems have been added.	เพิ่ม Divine Art Totems สองชิ้นแล้ว
+54045	Only Divine Art Totems of the same quality can be combined.	รวมได้เฉพาะ Divine Art Totems คุณภาพเดียวกัน
+54046	Only Divine Art Totems of the same class tier can be combined.	รวมได้เฉพาะ Divine Art Totems ขั้นคลาสเดียวกัน
+54049	Maximum Number of Skills	จำนวนสกิลสูงสุด
+54050	Select Divine Art Totems of the same quality from the list on the left to combine them.	เลือก Divine Art Totems คุณภาพเดียวกันจากรายการทางซ้ายเพื่อรวม
+54051	Please select two Divine Art Totems to combine.	โปรดเลือก Divine Art Totems สองชิ้นเพื่อรวม
+54052	After combining, stats and skills are randomized. Please play responsibly.	หลังรวม ค่าสถานะและสกิลจะถูกสุ่ม โปรดเล่นอย่างมีความรับผิดชอบ
+54053	Combine is successful	รวมสำเร็จ
+54057	Reveal All	แสดงทั้งหมด
+54058	Take off	ถอด
+54061	Class Tier	ขั้นคลาส
+54062	Reset Materials	วัสดุรีเซ็ต
+54063	Level-up Divine Art Totem	เพิ่มระดับ Divine Art Totem
+54064	Combine	ผสม
+54065	Refining will <color=#C26B47>randomly increase or decrease stats</color>	การปรับแต่งจะ <color=#C26B47>สุ่มเพิ่มหรือลดค่าสถานะ</color>
+54066	No skills available to learn	ไม่มีสกิลให้เรียน
+54067	Enter the Divine Totem skill name.	ใส่ชื่อสกิล Divine Totem
+54068	Not applied: This skill already exists.	ไม่ถูกนำไปใช้: มีสกิลนี้อยู่แล้ว
+54070	Tap a totem on the left to replace it.	แตะ Totem ทางซ้ายเพื่อเปลี่ยนแทน
+54071	Repeat	ซ้ำ
+54072	Repeat: Skill already exists	ซ้ำ: มีสกิลอยู่แล้ว
+54073	<color=#C26B47>All attributes are maxed out</color>	<color=#C26B47>คุณลักษณะทั้งหมดเต็มแล้ว</color>
+54074	Equipped Divine Art Totems cannot be combined.	รวม Divine Art Totems ที่ติดตั้งอยู่ไม่ได้
+54075	Attribute Range	ช่วงค่าสถานะ
+54076	Learning Skills will <color=#c26b47>replace the original skill or add 1 skill</color>	การเรียนสกิลจะ <color=#c26b47>แทนที่สกิลเดิมหรือเพิ่ม 1 สกิล</color>
+54077	Maximum Number of Skills	จำนวนสกิลสูงสุด
+54078	Scratch	ขูด
+54080	No Totems Available	ไม่มี Totems
+54085	Unique Effect	เอฟเฟกต์เฉพาะ
+54087	<color=#C26B47>This stat has reached its maximum value.</color>	<color=#C26B47>ค่าสถานะนี้ถึงค่าสูงสุดแล้ว</color>
+54088	Different attributes require different Reset Materials.	คุณลักษณะต่างกันใช้วัสดุรีเซ็ตต่างกัน
+54089	Can be refined <color=#c27b47>${1}</color> times	ปรับแต่งได้ <color=#c27b47>${1}</color> ครั้ง
+54090	Can be refined <color=#b75949>0</color> times	ปรับแต่งได้ <color=#b75949>0</color> ครั้ง
+54091	0 reforge attempts remaining. Unable to reforge.	เหลือจำนวนครั้งหลอมใหม่ 0 ครั้ง หลอมใหม่ไม่ได้
+54092	Chance to obtain the following skills	โอกาสได้รับสกิลต่อไปนี้
+54093	Please select the attribute to reroll.	โปรดเลือกคุณลักษณะที่จะสุ่มใหม่
+54094	Unlocks when Base Level reaches ${1}	ปลดล็อกเมื่อ Base Level ถึง ${1}
+54095	Divine Words: Wipe the inscription clean to decipher the Totem attributes.	Divine Words: เช็ดจารึกให้สะอาดเพื่อถอดความคุณลักษณะ Totem
+54096	Totem List	รายการ Totem
+54097	Appraise?	ประเมินหรือไม่?
+54098	Appraise ${1} Item(s)	ประเมินไอเทม ${1} ชิ้น
+54099	Train	ฝึก
+54100	Identify	ประเมิน
+54101	Innate	ติดตัว
+54102	Initial Preview	ตัวอย่างเริ่มต้น
+54103	Divine Art Totem Preview	ตัวอย่าง Divine Art Totem
+54104	Initial Divine Art Totem	Divine Art Totem เริ่มต้น
+54105	Maximum Skills:	สกิลสูงสุด:
+54106	Totem Skill	สกิล Totem
+54107	Innate Skill	สกิลติดตัว
+54109	The synthesis slots are full.	ช่องรวมเต็มแล้ว
+54110	Effect Overview	ภาพรวมเอฟเฟกต์
+54113	Reset Stats	รีเซ็ตค่าสถานะ
+54114	Learn Skills	เรียนสกิล
+54115	Grade	เกรด
+54116	No effect yet	ยังไม่มีเอฟเฟกต์
+66001	Invite ${1} to use the ${2} action?	เชิญ ${1} ใช้ท่าทาง ${2} หรือไม่?
+66002	Interaction Invitation	คำเชิญปฏิสัมพันธ์
+66003	Player ${1} has invited you to use the ${2} action	ผู้เล่น ${1} เชิญคุณใช้ท่าทาง ${2}
+66006	Waiting for Acceptance	รอการยอมรับ
+66007	Waiting for player ${1} to accept the invitation	รอผู้เล่น ${1} ยอมรับคำเชิญ
+66008	${1} accepted your invitation	${1} ยอมรับคำเชิญของคุณ
+66009	${1} declined your invitation	${1} ปฏิเสธคำเชิญของคุณ
+66010	Failed to add to favorites	เพิ่มรายการโปรดไม่สำเร็จ
+66011	Failed to set idle action	ตั้งท่าทางขณะอยู่นิ่งไม่สำเร็จ
+66012	Failed to play action	เล่นท่าทางไม่สำเร็จ
+66013	Please select a player	โปรดเลือกผู้เล่น
+66014	The Distance between you is too great to perform a Duo Action	ระยะระหว่างคุณทั้งสองไกลเกินไปสำหรับท่าทางคู่
+66015	The other player is currently busy and cannot use Interaction	ผู้เล่นอีกฝ่ายไม่ว่างและใช้ปฏิสัมพันธ์ไม่ได้
+66016	Action ${1} Unlock Requirement: ${2}	เงื่อนไขปลดล็อกท่าทาง ${1}: ${2}
+66017	Collect	เก็บ
+66018	Solo	เดี่ยว
+66019	Duo	คู่
+66021	Idle Settings	ตั้งค่าขณะอยู่นิ่ง
+66024	You have no favorite actions. Tap Edit to enter Edit Mode and add actions to your favorites	คุณยังไม่มีท่าทางโปรด แตะแก้ไขเพื่อเข้าสู่โหมดแก้ไขและเพิ่มท่าทางในรายการโปรด
+66025	Select an action to set as your idle action	เลือกท่าทางเพื่อตั้งเป็นท่าทางขณะอยู่นิ่ง
+66026	Your favorite actions have not been saved. Close this screen?	ยังไม่ได้บันทึกท่าทางโปรด ปิดหน้าจอนี้หรือไม่?
+66028	Close	ปิด
+66029	Actions cannot be played in your current state or location	เล่นท่าทางในสถานะหรือตำแหน่งปัจจุบันไม่ได้
+66030	Confirm Save	ยืนยันการบันทึก
+66031	Idle actions cannot be added to favorites	เพิ่มท่าทางขณะอยู่นิ่งในรายการโปรดไม่ได้
+66032	You are currently editing. Tap an action on another tab to save	คุณกำลังแก้ไข แตะท่าทางบนแท็บอื่นเพื่อบันทึก
+66033	Your favorite actions have not been saved. Save and close this screen?	ยังไม่ได้บันทึกท่าทางโปรด บันทึกและปิดหน้าจอนี้หรือไม่?
+66034	Save and Exit	บันทึกและออก
+66035	Exit Without Saving	ออกโดยไม่บันทึก
+66037	You're performing actions too frequently. Please try again later	คุณใช้ท่าทางถี่เกินไป โปรดลองภายหลัง
+66038	Resting in meditation	กำลังพักด้วยการทำสมาธิ
+66039	Stopped meditating	หยุดทำสมาธิแล้ว
+66040	Cannot be used in combat	ใช้ระหว่างต่อสู้ไม่ได้
+66041	Check an action to add it to your favorites. Press and hold to preview	เลือกท่าทางเพื่อเพิ่มในรายการโปรด กดค้างเพื่อดูตัวอย่าง
+66042	Actions cannot be performed in your current state	ใช้ท่าทางในสถานะปัจจุบันไม่ได้
+67001	Feature Preview	ตัวอย่างฟีเจอร์
+67002	Growth Support	สนับสนุนการเติบโต
+68000	This event is Not Available yet. Stay tuned!	กิจกรรมนี้ยังไม่เปิด โปรดติดตาม!
+68001	Every day from 10:00-22:00, Rift Gates randomly appear on various maps every two hours. Watch for Eden Group System announcements	ทุกวันเวลา 10:00-22:00 ประตู Rift จะสุ่มปรากฏในแผนที่ต่าง ๆ ทุกสองชั่วโมง ติดตามประกาศระบบ Eden Group
+68002	Your Reward Count has been used up. You will not receive Additional rewards from this challenge	จำนวนครั้งรับรางวัลของคุณหมดแล้ว จะไม่ได้รับรางวัลเพิ่มเติมจากการท้าทายครั้งนี้
+68007	Additional rewards	รางวัลเพิ่มเติม
+68008	Statistics	สถิติ
+68009	Reward Count Used Up	จำนวนครั้งรับรางวัลหมดแล้ว
+68010	Difficulty	ความยาก
+68011	Clear Time	เวลาผ่านด่าน
+68012	Level Req	ระดับที่ต้องการ
+68013	Server Level	ระดับเซิร์ฟเวอร์
+68014	Format	รูปแบบ
+68015	Reward Count	จำนวนครั้งรับรางวัล
+68018	Reward Preview for This Week	ตัวอย่างรางวัลสัปดาห์นี้
+68019	Standard Compensation Chest	หีบชดเชยมาตรฐาน
+68020	Acquisition Progress This Week	ความคืบหน้าการรับสัปดาห์นี้
+68021	Event Time Remaining	เวลากิจกรรมที่เหลือ
+68022	Wave Refresh Time	เวลารีเฟรชระลอก
+68023	Next Event Opening	เปิดกิจกรรมครั้งถัดไป
+68024	Unavailable	ใช้ไม่ได้
+68025	${1} monsters remaining	มอนสเตอร์เหลือ ${1} ตัว
+68026	Space is stable. No rifts have appeared	มิติเสถียรแล้ว ยังไม่มีรอยแยกปรากฏ
+68027	Rift successfully repaired	ซ่อมรอยแยกสำเร็จ
+68029	Reward Count	จำนวนครั้งรับรางวัล
+68034	[Rift Crisis] Special Commendation has reached This Week's Limit	[ Rift Crisis ] Special Commendation ถึงขีดจำกัดสัปดาห์นี้แล้ว
+68035	[Rift Crisis] Commendation Gift Box has reached This Week's Limit	[ Rift Crisis ] Commendation Gift Box ถึงขีดจำกัดสัปดาห์นี้แล้ว
+68036	Space has stabilized, and this rift has been quelled.	มิติเสถียรแล้ว และรอยแยกนี้ถูกระงับแล้ว
+68037	Seconds Until Berserk	วินาทีจนกว่าจะคลุ้มคลั่ง
+68038	New Record	สถิติใหม่
+69000	Novice Challenge	ท้าทายมือใหม่
+69001	Discipline	วินัย
+69002	Happiness	ความสุข
+69003	Renown	ชื่อเสียง
+69004	Free Spirit	รักอิสระ
+69005	Charm	เสน่ห์
+69006	Not enough ${1}	${1} ไม่เพียงพอ
+69007	Event Period: ${1}-${2}	ช่วงกิจกรรม: ${1}-${2}
+69008	Zeny Shop	ร้าน Zeny
+69009	Purchase Period: ${1}-${2}	ช่วงซื้อ: ${1}-${2}
+69010	End the Day	จบวัน
+69011	You haven't finished today's journey. End the day early?	คุณยังเดินทางของวันนี้ไม่เสร็จ จบวันก่อนหรือไม่?
+69012	Clear ${1} Misc (${2}/${3})	ผ่าน Misc ${1} (${2}/${3})
+69014	Cargo Placement	จัดวางสินค้า
+69016	Clear the Boss Challenge	ผ่านการท้าทายบอส
+69018	Beautiful sights always lie ahead. On to the next stop!	ทิวทัศน์งดงามรออยู่ข้างหน้าเสมอ ไปจุดต่อไปกัน!
+69020	Welcome back! Let's continue the adventure.	ยินดีต้อนรับกลับ! มาผจญภัยต่อกัน
+69021	Continue Journey	เดินทางต่อ
+69022	This chapter's journey is complete. Chapter ${1} unlocks at ${2}05:00.	การเดินทางของบทนี้จบแล้ว บท ${1} ปลดล็อกเมื่อ ${2}05:00
+69023	This chapter's journey is complete. Head to the next chapter to continue your adventure~	การเดินทางของบทนี้จบแล้ว ไปบทถัดไปเพื่อผจญภัยต่อ~
+69025	Every journey has an end, but yours has only just begun.	ทุกการเดินทางมีจุดจบ แต่การเดินทางของคุณเพิ่งเริ่มต้น
+69026	Review Journey	ทบทวนการเดินทาง
+69027	Tap anywhere to leave.	แตะที่ใดก็ได้เพื่อออก
+69028	Are you sure you want to Leave the dungeon?	ยืนยันออกจากดันเจียนหรือไม่?
+69029	Try Again	ลองอีกครั้ง
+69030	My Journey	การเดินทางของฉัน
+69031	Title Acquired	ได้รับฉายาแล้ว
+69032	Share to Guild Channel	แชร์ไปช่องกิลด์
+69033	Share to World Channel	แชร์ไปช่องโลก
+69034	You're sharing too frequently. Please try again later.	คุณแชร์ถี่เกินไป โปรดลองภายหลัง
+69035	Adventurers whose <color=#987f53>${1}</color> attribute exceeds <color=#63a22b>50%</color>	นักผจญภัยที่มีคุณลักษณะ <color=#987f53>${1}</color> เกิน <color=#63a22b>50%</color>
+69036	Today	วันนี้
+69037	Tomorrow	พรุ่งนี้
+69038	Day ${1}	วันที่ ${1}
+69040	Complete the current node to preview areas in other chapters.	ผ่านจุดปัจจุบันเพื่อดูตัวอย่างพื้นที่ในบทอื่น
+69041	Complete the current node to preview rewards from other nodes.	ผ่านจุดปัจจุบันเพื่อดูตัวอย่างรางวัลจากจุดอื่น
+69042	Deep in the forest lived a girl named Ella, who wove winter nests for small animals from fallen leaves each day. One snowy night, she rescued a frozen bluebird. When the bird awoke, it repaid her by spitting out a glowing seed. Ella buried the seed in the moss, and by the next day, it had grown into a Crystal tree. Silver fruit hung among its branches like dewdrops, each reflecting what people desired most in their hearts.	ลึกเข้าไปในป่ามีเด็กหญิงชื่อ Ella เธอสานรังฤดูหนาวให้สัตว์ตัวเล็กจากใบไม้ร่วงทุกวัน คืนหนึ่งที่หิมะตก เธอช่วยนกสีฟ้าที่แข็งเพราะความหนาว เมื่อนกฟื้น มันตอบแทนด้วยการคายเมล็ดเรืองแสงออกมา Ella ฝังเมล็ดไว้ในมอส และในวันถัดมา มันงอกเป็นต้นไม้คริสตัล ผลสีเงินห้อยตามกิ่งราวหยดน้ำค้าง แต่ละผลสะท้อนสิ่งที่ผู้คนปรารถนาที่สุดในใจ
+69043	When the greedy lord heard about it, he stormed into the forest with an axe. But as he struck the trunk, all the fruit suddenly shattered at once, reflecting thousands of disappointed eyes—the eyes of every impoverished person in his domain. The Crystal tree dissolved into mist, leaving only the plainest fruit to roll into Ella's hand. Within it was a vision of the entire forest flourishing.	เมื่อขุนนางโลภได้ยินเรื่องนี้ เขาบุกเข้าป่าพร้อมขวาน แต่ขณะที่ฟันลำต้น ผลทั้งหมดพลันแตกพร้อมกัน สะท้อนดวงตาผิดหวังนับพันคู่ ดวงตาของผู้ยากไร้ทุกคนในดินแดนของเขา ต้นไม้คริสตัลสลายเป็นหมอก เหลือเพียงผลที่ธรรมดาที่สุดกลิ้งมาสู่มือ Ella ภายในผลมีภาพของป่าทั้งผืนที่เจริญงอกงาม
+69044	Ella finally understood. She gently buried the fruit beside the stream. In the morning light, glowing flowers bloomed all along the bank. They bore no fruit, but allowed everyone who passed to see their heart's true desire. From then on, no one in the forest fought over treasure, because everyone Discovered that the most precious magic had already quietly taken root within their hearts.	ในที่สุด Ella ก็เข้าใจ เธอฝังผลอย่างอ่อนโยนข้างลำธาร ท่ามกลางแสงยามเช้า ดอกไม้เรืองแสงบานตลอดริมฝั่ง พวกมันไม่มีผล แต่ให้ทุกคนที่ผ่านเห็นความปรารถนาที่แท้จริงในใจ จากนั้นไม่มีใครในป่าต่อสู้แย่งสมบัติอีก เพราะทุกคนค้นพบว่าเวทมนตร์ที่ล้ำค่าที่สุดได้หยั่งรากเงียบ ๆ ในใจพวกเขาแล้ว
+69045	Adventurers whose <color=#987f53>${1}</color> attribute is below 50%	นักผจญภัยที่มีคุณลักษณะ <color=#987f53>${1}</color> ต่ำกว่า 50%
+69046	I completed the Beginner Challenge ${1}	ฉันผ่าน Beginner Challenge ${1} แล้ว
+69047	View My Journey	ดูการเดินทางของฉัน
+69048	Shared to World Channel and Guild Channel	แชร์ไปช่องโลกและช่องกิลด์แล้ว
+69049	Shared to World Channel	แชร์ไปช่องโลกแล้ว
+69050	There are no matching points available, so placement is not possible.	ไม่มีจุดที่ตรงกัน จึงจัดวางไม่ได้
+69051	Clear all items from the board?	นำไอเทมทั้งหมดออกจากกระดานหรือไม่?
+69052	Trophy Showcase	ตู้แสดงถ้วยรางวัล
+69053	Leave the dungeon in ${1} sec.	ออกจากดันเจียนใน ${1} วินาที
+69054	Stage ${1}/${2}	ด่าน ${1}/${2}
+69055	You haven't cleared this round yet. Are you sure you want to quit?	คุณยังไม่ผ่านรอบนี้ ยืนยันออกหรือไม่?
+69058	Placement Objective	เป้าหมายการจัดวาง
+69059	Challenge the Next Stage	ท้าทายด่านถัดไป
+69060	Challenge Success	ท้าทายสำเร็จ
+69061	All stages cleared	ผ่านทุกด่านแล้ว
+70001	Season Overview	ภาพรวมฤดูกาล
+70004	Season Theme	ธีมฤดูกาล
+70005	Current Season Rank	อันดับฤดูกาลปัจจุบัน
+70006	Time Until Season Ends	เวลาที่เหลือจนฤดูกาลจบ
+70007	This Season has ended. Time until matchmaking begins for the new Season:	ฤดูกาลนี้จบแล้ว เวลาที่เหลือจนเริ่มจับคู่ฤดูกาลใหม่:
+70008	Queuing for the new Season. Waiting for results.	กำลังเข้าคิวฤดูกาลใหม่ รอผล
+70009	Match successful. Time until entering the new Season:	จับคู่สำเร็จ เวลาที่เหลือจนเข้าสู่ฤดูกาลใหม่:
+70010	Waiting for the new Season to begin.	รอฤดูกาลใหม่เริ่ม
+70011	Yet to start	ยังไม่เริ่ม
+70013	Waiting for the new Season to begin.	รอฤดูกาลใหม่เริ่ม
+70014	Season Rank	อันดับฤดูกาล
+70018	${1} modes have reached this tier.	โหมด ${1} โหมดถึงขั้นนี้แล้ว
+70019	Next Tier Rewards	รางวัลขั้นถัดไป
+70020	No rewards for this tier.	ไม่มีรางวัลสำหรับขั้นนี้
+70021	Opens in <color=#97E553>${1}</color> days	เปิดใน <color=#97E553>${1}</color> วัน
+70022	Opens in <color=#97E553>${1}</color> hours	เปิดใน <color=#97E553>${1}</color> ชั่วโมง
+70023	Opens in <color=#97E553>${1}</color> minutes	เปิดใน <color=#97E553>${1}</color> นาที
+70024	Ends in <color=#97E553>${1}</color> days	สิ้นสุดใน <color=#97E553>${1}</color> วัน
+70025	Ends in <color=#97E553>${1}</color> hours	สิ้นสุดใน <color=#97E553>${1}</color> ชั่วโมง
+70026	Ends in <color=#97E553>${1}</color> minutes	สิ้นสุดใน <color=#97E553>${1}</color> นาที
+70027	Unlocks at Lv. <color=#97E553>${1}</color>	ปลดล็อกที่ Lv. <color=#97E553>${1}</color>
+70028	This Function is not yet available	ฟังก์ชันนี้ยังไม่เปิดใช้งาน
+70029	This event has not opened yet.	กิจกรรมนี้ยังไม่เปิด
+70030	This event has ended.	กิจกรรมนี้จบแล้ว
+70031	You have yet to Join a guild.	คุณยังไม่ได้เข้าร่วมกิลด์
+70032	<color=#ec543a>Ended</color>	<color=#ec543a>สิ้นสุดแล้ว</color>
+70033	In progress	กำลังดำเนินการ
+70036	Opens in ${1} days	เปิดใน ${1} วัน
+70037	Opens in ${1} hours	เปิดในอีก ${1} ชั่วโมง
+70038	Not yet available	ยังไม่เปิดใช้งาน
+70039	The Season has not started yet.	ฤดูกาลยังไม่เริ่ม
+70040	${1} remaining in this chapter	บทนี้เหลือ ${1}
+70041	Season Events	กิจกรรมฤดูกาล
+70101	Season Settlement	สรุปผลฤดูกาล
+70102	Distance to Season End	เวลาที่เหลือจนฤดูกาลจบ
+70103	Territory War	สงครามอาณาเขต
+70104	Season Trophies	ถ้วยรางวัลฤดูกาล
+70105	Shop closes in ${1}	ร้านปิดใน ${1}
+70106	Preview only. Purchases will be available next Season.	ดูตัวอย่างเท่านั้น ซื้อได้ในฤดูกาลถัดไป
+70109	Can be purchased after activating the corresponding Kafra Support Perk.	ซื้อได้หลังเปิดใช้งานสิทธิพิเศษ Kafra Support ที่ตรงกัน
+70110	Sold out	ขายหมดแล้ว
+70111	Cannot exchange items during preview.	แลกไอเทมระหว่างดูตัวอย่างไม่ได้
+70113	Royal Capital	เมืองหลวง
+70114	No. ${1} Guild	กิลด์อันดับ ${1}
+70115	<color=#fdab5b>${1}</color> Conqueror slots	จำนวนสิทธิ์ Conqueror <color=#fdab5b>${1}</color> ที่
+70116	Ultimately occupy the Royal City	ครอบครอง Royal City ในท้ายที่สุด
+70117	Ultimately occupy a Regional City	ครอบครอง Regional City ในท้ายที่สุด
+70118	Conqueror Settlement	สรุปผล Conqueror
+70119	Royal City Settlement	สรุปผล Royal City
+70120	Battle Merit Settlement	สรุปผลผลงานรบ
+70121	Conqueror Rewards	รางวัล Conqueror
+70122	Veteran Rewards	รางวัล Veteran
+70123	<color=#fdab5b>Conqueror</color> Settlement takes place first, with slots allocated to each guild.	สรุปผล <color=#fdab5b>Conqueror</color> ก่อน แล้วจัดสรรสิทธิ์ให้แต่ละกิลด์
+70124	The guild that ultimately occupies the Royal City and its Members will receive 1 <color=#fdab5b>Realm Starlight</color>.	กิลด์ที่ครอบครอง Royal City ในท้ายที่สุดและสมาชิกจะได้รับ <color=#fdab5b>Realm Starlight</color> 1 ชิ้น
+70125	Individual rewards are distributed based on rankings on the <color=#fdab5b>Battle Merit Leaderboard</color>.	แจกจ่ายรางวัลรายบุคคลตามอันดับบน <color=#fdab5b>อันดับผลงานรบ</color>
+70126	${1}'s Spacetime Emblem	Spacetime Emblem ของ ${1}
+70127	Emblems: ${1}	ตรา: ${1}
+70128	Equipped: ${1}/${2}	ติดตั้ง: ${1}/${2}
+70130	Obtained from: ${1}  【${2}】	ได้รับจาก: ${1} [ ${2} ]
+70131	Season Settlement	สรุปผลฤดูกาล
+70132	Season Shop\n${1}	ร้านฤดูกาล\n${1}
+70133	Ranks ${1}-${2}	อันดับ ${1}-${2}
+70134	Shop Preview	ตัวอย่างร้าน
+70135	Closes in ${1}	ปิดใน ${1}
+70136	<color=#fdab5b>Guild Emblem</color> Starlight	Starlight <color=#fdab5b>ตรากิลด์</color>
+70137	<color=#fdab5b>Personal Portrait</color> Starlight	Starlight <color=#fdab5b>รูปโปรไฟล์ส่วนตัว</color>
+70138	Current Season	ฤดูกาลปัจจุบัน
+70139	Past Seasons	ฤดูกาลที่ผ่านมา
+70140	Fight in the Territory War and earn bountiful rewards for victory.	สู้ในสงครามอาณาเขตและรับรางวัลมากมายเมื่อชนะ
+70141	Complete Season Trophies to earn exclusive Season collectibles.	ทำถ้วยรางวัลฤดูกาลเพื่อรับของสะสมเฉพาะฤดูกาล
+70142	Conqueror Slot Allocation Rules	กฎจัดสรรสิทธิ์ Conqueror
+70143	Conqueror slots within a guild are automatically allocated based on its Guild Merit Leaderboard rankings;\nOfficers from the top three guilds in the Territory War rankings automatically receive Conqueror Rewards without using a slot.	สิทธิ์ Conqueror ภายในกิลด์จัดสรรโดยอัตโนมัติตามอันดับผลงานกิลด์\nผู้ดูแลจากสามกิลด์อันดับแรกในสงครามอาณาเขตได้รับรางวัล Conqueror โดยอัตโนมัติโดยไม่ใช้สิทธิ์
+70144	Guild Merit Leaderboard	อันดับผลงานกิลด์
+70145	Territory Points Leaderboard	อันดับแต้มอาณาเขต
+70147	Battle Merit Leaderboard	อันดับผลงานรบ
+70148	My Ranking:	อันดับของฉัน:
+70150	Not Yet Ranked	ยังไม่มีอันดับ
+70151	Non-Conquerors receive <color=#fdab5b>Veteran Rewards</color> based on their guild's ranking.	ผู้ที่ไม่ใช่ Conqueror ได้รับ <color=#fdab5b>รางวัล Veteran</color> ตามอันดับกิลด์
+70152	Rewards for all completed Trophies can be claimed after Season Settlement.	รับรางวัลถ้วยรางวัลที่สำเร็จทั้งหมดได้หลังสรุปผลฤดูกาล
+70155	Conqueror's Proof	หลักฐาน Conqueror
+70157	Guild Rankings and Rewards	อันดับและรางวัลกิลด์
+70158	Estimated Rewards	รางวัลที่คาดว่าจะได้รับ
+70159	Guild Banner Emblem	ตราธงกิลด์
+70160	Personal Portrait Emblem	ตรารูปโปรไฟล์ส่วนตัว
+70162	Guilds that excel in the Territory War receive a certain number of <color=#fdab5b>Conqueror</color> reward slots.	กิลด์ที่ทำผลงานดีในสงครามอาณาเขตได้รับสิทธิ์รางวัล <color=#fdab5b>Conqueror</color> จำนวนหนึ่ง
+70163	Mid-Season Event Rewards	รางวัลกิจกรรมกลางฤดูกาล
+69024	You passed through a lush forest.|You passed through a lush forest.|You passed through a lush forest.|You passed through a lush forest.|You passed through a lush forest.|You passed through a lush forest.|You passed through a lush forest.	คุณเดินผ่านป่าเขียวชอุ่ม|คุณเดินผ่านป่าเขียวชอุ่ม|คุณเดินผ่านป่าเขียวชอุ่ม|คุณเดินผ่านป่าเขียวชอุ่ม|คุณเดินผ่านป่าเขียวชอุ่ม|คุณเดินผ่านป่าเขียวชอุ่ม|คุณเดินผ่านป่าเขียวชอุ่ม
+71001	Adventure	ผจญภัย
+71002	Please select ${1}/${2} Encounters	โปรดเลือกเหตุการณ์ ${1}/${2}
+71003	Current Deck	เด็คปัจจุบัน
+71005	Selection Countdown: ${1}	นับถอยหลังเลือก: ${1}
+71007	Current Encounter	เหตุการณ์ปัจจุบัน
+71008	No Current Encounter	ไม่มีเหตุการณ์ปัจจุบัน
+71009	Encounter Cards: ${1}	การ์ดเหตุการณ์: ${1}
+71011	Effect Details	รายละเอียดเอฟเฟกต์
+71501	You have selected ${1} cards and cannot select any more.	คุณเลือกการ์ด ${1} ใบแล้ว เลือกเพิ่มไม่ได้
+71502	Please select ${1} Encounters first.	โปรดเลือกเหตุการณ์ ${1} เหตุการณ์ก่อน
+71503	Cannot refresh again.	รีเฟรชอีกไม่ได้
+71504	Refresh (${1}/${2})	รีเฟรช (${1}/${2})
+71505	Current Encounter Group	กลุ่มเหตุการณ์ปัจจุบัน
+72001	Portrait	รูปโปรไฟล์
+72002	Portrait Frame	กรอบรูปโปรไฟล์
+72003	Chat	แชต
+72006	Profile Card	การ์ดโปรไฟล์
+72007	Outfit Not Yet Unlocked	ยังไม่ปลดล็อกชุด
+72008	Permanently Owned	เป็นเจ้าของถาวร
+72009	Outfit Details	รายละเอียดชุด
+72011	Appearance Settings	ตั้งค่ารูปลักษณ์
+72012	Chat Settings Saved	บันทึกตั้งค่าแชตแล้ว
+72013	Titleless	ไม่มีฉายา
+72014	No Title	ไม่มีฉายา
+72015	Successfully activated ${1}: ${2}	เปิดใช้งาน ${1} สำเร็จ: ${2}
+72016	Popularity	ความนิยม
+72017	Star Points	แต้มดาว
+72018	Profile Card	การ์ดโปรไฟล์
+73003	Reach 800 Total Points	มีแต้มรวมถึง 800
+74001	Monster Hunt	ล่ามอนสเตอร์
+74002	Go to Map	ไปแผนที่
+74003	Show Caves	แสดงถ้ำ
+74005	Each Kill of <color=#c27b47>1 monster</color> on this map grants <color=#c27b47>1 point</color> and has a Chance to drop a <color=#c27b47>Hunt Medal</color>.	กำจัด <color=#c27b47>มอนสเตอร์ 1 ตัว</color> บนแผนที่นี้จะได้รับ <color=#c27b47>1 แต้ม</color> และมีโอกาสดรอป <color=#c27b47>Hunt Medal</color>
+74006	Current Points: <color=#63A22B>${1}</color>	แต้มปัจจุบัน: <color=#63A22B>${1}</color>
+74007	Monster List	รายการมอนสเตอร์
+74010	Monster Shop	ร้านมอนสเตอร์
+74012	Complete Collection Reward	รางวัลสะสมครบ
+74013	Kill Monsters to Earn Rewards	กำจัดมอนสเตอร์เพื่อรับรางวัล
+74014	Collection Progress: ${1}	ความคืบหน้าสะสม: ${1}
+74015	Kill Rewards	รางวัลกำจัด
+74016	Kill Monsters to Earn Rewards	กำจัดมอนสเตอร์เพื่อรับรางวัล
+74018	${1} Rewards	รางวัล ${1}
+74019	Collection Progress: <color=#63a22b>${1}</color>	ความคืบหน้าสะสม: <color=#63a22b>${1}</color>
+74020	(Kills: ${1})	(กำจัด: ${1})
+75001	Dumby's Request (${1}/${2})	คำขอของ Dumby (${1}/${2})
+75002	You still have daily commissions left to complete. Go accept one now?	คุณยังมีงานรายวันที่ทำไม่เสร็จ ไปรับงานตอนนี้หรือไม่?
+75003	Dumby's Request Wheel	วงล้อคำขอของ Dumby
+75004	Start ${1} Times	เริ่ม ${1} ครั้ง
+75005	Skip Animation	ข้ามแอนิเมชัน
+75006	<color=#97e533>${1}</color> Remaining	เหลือ <color=#97e533>${1}</color>
+75007	You cannot accept any more requests today. Please come back Tomorrow.	วันนี้รับคำขอเพิ่มไม่ได้แล้ว โปรดกลับมาพรุ่งนี้
+75008	Not enough required items. Unable to activate the wheel.	ไอเทมที่ต้องใช้ไม่เพียงพอ เปิดวงล้อไม่ได้
+80001	The Arcane Crystal is fully charged. The unknown beyond will arrive after ${1}…	Arcane Crystal ชาร์จเต็มแล้ว สิ่งลึกลับที่อยู่อีกฟากจะมาถึงหลัง ${1}…
+80002	Donate Arcane Crystals during the event. When the progress bar reaches ${1}, the gateway to an unknown realm will open…	บริจาค Arcane Crystals ระหว่างกิจกรรม เมื่อแถบความคืบหน้าถึง ${1} ประตูสู่ดินแดนลึกลับจะเปิด…
+80003	The Divine Realm is now open. Rewards can be exchanged at the Donor Shop for ${1}.	Divine Realm เปิดแล้ว แลกรางวัลที่ร้านผู้บริจาคได้เป็นเวลา ${1}
+80004	You must Join a guild to participate in this event.\nWould you like to go Join a guild?	ต้องเข้าร่วมกิลด์เพื่อเข้าร่วมกิจกรรมนี้\nต้องการไปเข้าร่วมกิลด์หรือไม่?
+80005	Donate Crystals	บริจาคคริสตัล
+80006	Please complete Activity Misc first to obtain Arcane Crystals.	โปรดทำ Activity Misc ก่อนเพื่อรับ Arcane Crystals
+80007	You've contributed <color=#CC762A>${1}</color> Crystal Energy to the Entire Server!	คุณมอบพลังคริสตัล <color=#CC762A>${1}</color> ให้ทั้งเซิร์ฟเวอร์แล้ว!
+80009	Event Not Yet Available.	กิจกรรมยังไม่เปิด
+80010	Failed to load event data.	โหลดข้อมูลกิจกรรมไม่สำเร็จ
+80011	Join a guild to participate in this event.	เข้าร่วมกิลด์เพื่อเข้าร่วมกิจกรรมนี้
+80012	You don't have any Mana Crystals yet. Go collect some more.	คุณยังไม่มี Mana Crystals ไปเก็บเพิ่ม
+80013	The guild has reached today's donor limit. Further donations will not increase Guild Contribution.	กิลด์ถึงขีดจำกัดบริจาคของวันนี้แล้ว บริจาคเพิ่มจะไม่เพิ่มคะแนนช่วยเหลือกิลด์
+80014	The donation period has ended.	ช่วงบริจาคสิ้นสุดแล้ว
+80015	Guild rewards can only be claimed once Personal Activity reaches ${1}.	รับรางวัลกิลด์ได้เมื่อคะแนนกิจกรรมส่วนตัวถึง ${1} เท่านั้น
+80016	Ranking Reward Settlement after the event ends	สรุปผลรางวัลอันดับหลังจบกิจกรรม
+80017	You have yet to Join a guild	คุณยังไม่ได้เข้าร่วมกิลด์
+80018	"A crystal infused with magical energy. It powers magic equipment and is used to prepare for the New World.\n <color=#B45C4F>Can be recycled after expiration</color><sprite name=""item_2""> Copper Coins*100"	"คริสตัลที่อัดแน่นด้วยพลังเวท ใช้จ่ายพลังให้อุปกรณ์เวทและเตรียมพร้อมสำหรับ New World\n <color=#B45C4F>รีไซเคิลได้หลังหมดอายุ</color><sprite name=""item_2""> Copper Coins*100"
+80019	Today's guild donor limit has been reached. Further donations will not grant Guild Contribution.\nWe recommend coming back Tomorrow. Continue donating?	ถึงขีดจำกัดบริจาคกิลด์ของวันนี้แล้ว บริจาคเพิ่มจะไม่ได้รับคะแนนช่วยเหลือกิลด์\nแนะนำให้กลับมาพรุ่งนี้ บริจาคต่อหรือไม่?
+80021	Rank ${1}: ${2}, Final Score: ${3}\n	อันดับ ${1}: ${2}, คะแนนสุดท้าย: ${3}\n
+80022	Come Back Tomorrow	กลับมาพรุ่งนี้
+80024	Ranking Reward Settlement after ${1} Ends	สรุปผลรางวัลอันดับหลัง ${1} สิ้นสุด
+80025	Guild Points are the sum of all Members' personal Contribution Points. After ranking Settlement, only Members with 100,000 personal Activity Points can claim Guild Rewards.	แต้มกิลด์เป็นผลรวมแต้มช่วยเหลือส่วนตัวของสมาชิกทุกคน หลังสรุปอันดับ เฉพาะสมาชิกที่มีแต้มกิจกรรมส่วนตัว 100,000 แต้มเท่านั้นที่รับรางวัลกิลด์ได้
+80026	Your Contribution Points are proportional to the number of Crystals you contribute. Claim Activity Chests from the Event Calendar and participate in MVP, Mini, and Guild Caravan events to earn more Contribution Points.	แต้มช่วยเหลือของคุณแปรผันตามจำนวนคริสตัลที่บริจาค รับหีบกิจกรรมจากปฏิทินกิจกรรมและเข้าร่วมกิจกรรม MVP, Mini และ Guild Caravan เพื่อรับแต้มช่วยเหลือเพิ่ม
+80027	Donor Shop	ร้านผู้บริจาค
+80028	Obtain Crystals	รับคริสตัล
+80029	Guild Contribution Rankings	อันดับคะแนนช่วยเหลือกิลด์
+80030	Click to View	คลิกเพื่อดู
+80031	Arrival Countdown: ${1} Days	นับถอยหลังมาถึง: ${1} วัน
+80033	Cumulative Charge for Entire Server: <size=#32><color=#d385f5>${1}%</color></size>	ยอดชาร์จสะสมทั้งเซิร์ฟเวอร์: <size=#32><color=#d385f5>${1}%</color></size>
+80034	A New World Has Arrived	โลกใหม่มาถึงแล้ว
+28000	Loading	กำลังโหลด
+28001	Preparing to load the game. Please wait.	กำลังเตรียมโหลดเกม โปรดรอ
+28004	Failed to load the game. Please check your network connection. (Error Code: ${1})	โหลดเกมไม่สำเร็จ โปรดตรวจการเชื่อมต่อเครือข่าย (รหัสข้อผิดพลาด: ${1})
+28005	A new version is available. Please update the game to continue.	มีเวอร์ชันใหม่ โปรดอัปเดตเกมเพื่อเล่นต่อ
+28006	A new version is available. Please update for a better gameplay experience.	มีเวอร์ชันใหม่ โปรดอัปเดตเพื่อประสบการณ์เล่นที่ดียิ่งขึ้น
+28007	News	ข่าวสาร
+28008	Update	อัปเดต
+28009	A new version is available! Update before entering the game to receive an <color=#F2A35D>Update Reward</color>! We recommend updating over Wi-Fi.	มีเวอร์ชันใหม่! อัปเดตก่อนเข้าเกมเพื่อรับ <color=#F2A35D>รางวัลอัปเดต</color>! แนะนำให้อัปเดตผ่าน Wi-Fi
+28010	The game resource pack has been updated. Approximately <color=#F2A35D>${1} MB</color> of data must be downloaded. Please update before entering the game. We recommend updating over Wi-Fi.	ชุดทรัพยากรเกมอัปเดตแล้ว ต้องดาวน์โหลดข้อมูลประมาณ <color=#F2A35D>${1} MB</color> โปรดอัปเดตก่อนเข้าเกม แนะนำให้อัปเดตผ่าน Wi-Fi
+28011	You are not connected to Wi-Fi. Download the resources anyway?	คุณไม่ได้เชื่อมต่อ Wi-Fi ดาวน์โหลดทรัพยากรต่อหรือไม่?
+28012	Downloading:	กำลังดาวน์โหลด:
+28013	Updating the game. Please wait.	กำลังอัปเดตเกม โปรดรอ
+28014	Update complete. Please restart the game.	อัปเดตเสร็จแล้ว โปรดรีสตาร์ตเกม
+28015	Restart Now	รีสตาร์ตทันที
+28016	Account Login	เข้าสู่ระบบบัญชี
+28017	I have read and agree to the Service Agreement and Privacy Policy.	ฉันได้อ่านและยอมรับข้อตกลงบริการและนโยบายความเป็นส่วนตัว
+28018	Client Repair	ซ่อมไคลเอนต์
+28019	If the game client encounters an error, you can use this Function to attempt a repair.\n Repairing will close the game. Please reopen it manually.	หากไคลเอนต์เกมเกิดข้อผิดพลาด คุณใช้ฟังก์ชันนี้เพื่อลองซ่อมได้\n การซ่อมจะปิดเกม โปรดเปิดใหม่ด้วยตนเอง
+28020	Repair Now	ซ่อมทันที
+28021	Too many attempts. Please try again later.	ลองบ่อยเกินไป โปรดลองภายหลัง
+28022	Account	บัญชี
+28023	News	ข่าวสาร
+28024	Agreements	ข้อตกลง
+28025	Animation	แอนิเมชัน
+28026	Support	สนับสนุน
+28027	Repair	ซ่อม
+28028	Server	เซิร์ฟเวอร์
+28030	Existing Characters	ตัวละครที่มีอยู่
+28031	Last Login: ${1}	เข้าสู่ระบบล่าสุด: ${1}
+28032	New Server	เซิร์ฟเวอร์ใหม่
+28034	Good	ดี
+28035	Crowded	หนาแน่น
+28036	Hot	ยอดนิยม
+28037	Full	เต็ม
+28039	Wait	รอ
+28040	Traveling to ${1} ${2}	กำลังเดินทางไป ${1} ${2}
+28041	Estimated Wait: <color=#63a22b>${1}</color>	เวลารอโดยประมาณ: <color=#63a22b>${1}</color>
+28042	<color=#BFC8D5>If you exit, you will need to rejoin the queue. Please choose carefully.</color>	<color=#BFC8D5>หากออก คุณต้องเข้าคิวใหม่ โปรดเลือกอย่างรอบคอบ</color>
+28043	Account Management	จัดการบัญชี
+28044	Last Login	เข้าสู่ระบบล่าสุด
+28045	Choose another login method	เลือกวิธีเข้าสู่ระบบอื่น
+28046	Select character	เลือกตัวละคร
+28047	Create Character	สร้างตัวละคร
+28048	Start Game	เริ่มเกม
+28049	Delete Character	ลบตัวละคร
+28050	Deleting a character has a ${1}-day waiting period. Once permanently deleted, the data cannot be recovered. If you are sure you want to Delete Character, enter “YES” in the field below.	การลบตัวละครมีระยะรอ ${1} วัน เมื่อลบถาวรแล้วจะกู้ข้อมูลไม่ได้ หากยืนยันลบตัวละคร ให้ใส่ “YES” ในช่องด้านล่าง
+28051	Pending Deletion	รอลบ
+28052	Countdown:	นับถอยหลัง:
+28054	Banned	ถูกแบน
+28055	Character banned. Unseal time:	ตัวละครถูกแบน เวลาปลดแบน:
+28056	Sign in with Google	เข้าสู่ระบบด้วย Google
+28057	Sign in with Facebook	เข้าสู่ระบบด้วย Facebook
+28058	Sign in with Apple	เข้าสู่ระบบด้วย Apple
+28059	Sign in with Twitter	เข้าสู่ระบบด้วย Twitter
+28060	Visitor Login	เข้าสู่ระบบแบบผู้เยี่ยมชม
+28061	To enter the game, check the box to agree to the terms below.	เพื่อเข้าเกม ให้ทำเครื่องหมายในช่องเพื่อยอมรับข้อกำหนดด้านล่าง
+28062	Enter Character name	ใส่ชื่อตัวละคร
+28063	Password:	รหัสผ่าน:
+28064	Hairstyle	ทรงผม
+28065	Select Gender	เลือกเพศ
+28066	Recent	ล่าสุด
+28067	Internal server error	ข้อผิดพลาดภายในเซิร์ฟเวอร์
+28068	Color	สี
+28069	Enter password	ใส่รหัสผ่าน
+28070	Account:	บัญชี:
+28071	Initialization failed. Please try again.	เริ่มต้นไม่สำเร็จ โปรดลองอีกครั้ง
+28072	Beginner Season	ฤดูกาลมือใหม่
+28073	Cross-Server Season	ฤดูกาลข้ามเซิร์ฟเวอร์
+28075	Resource Download	ดาวน์โหลดทรัพยากร
+28076	Download Pause because you are using mobile data.	หยุดดาวน์โหลดชั่วคราวเนื่องจากคุณใช้ข้อมูลมือถือ
+28077	You are not connected to Wi-Fi. Download the resources anyway?	คุณไม่ได้เชื่อมต่อ Wi-Fi ดาวน์โหลดทรัพยากรต่อหรือไม่?
+28078	You can enter the game once the resource download is complete.	เข้าเกมได้เมื่อดาวน์โหลดทรัพยากรเสร็จ
+28079	Required	จำเป็น
+28080	${1} resources have not finished downloading. Approximately ${2}MB of data must be downloaded. Tap Confirm to download.	ทรัพยากร ${1} ยังดาวน์โหลดไม่เสร็จ ต้องดาวน์โหลดข้อมูลประมาณ ${2}MB แตะยืนยันเพื่อดาวน์โหลด
+28081	${1} resources have not finished downloading. Approximately ${2}MB of data must be downloaded. Use mobile data to download?	ทรัพยากร ${1} ยังดาวน์โหลดไม่เสร็จ ต้องดาวน์โหลดข้อมูลประมาณ ${2}MB ใช้ข้อมูลมือถือดาวน์โหลดหรือไม่?
+28082	Leave Queue	ออกจากคิว
+28084	The queue timed out. Please try again.	การเข้าคิวหมดเวลา โปรดลองอีกครั้ง
+28085	Missing Resources	ทรัพยากรที่ขาด
+28086	${1} Resources	ทรัพยากร ${1}
+28087	Your position in the queue is <color=#fdab5b><size=50>${1}</size></color>.	คุณอยู่ลำดับ <color=#fdab5b><size=50>${1}</size></color> ในคิว
+28088	Version:	เวอร์ชัน:
+28089	Auto-Download	ดาวน์โหลดอัตโนมัติ
+28090	Allow Downloads Using Mobile Data	อนุญาตดาวน์โหลดผ่านข้อมูลมือถือ
+28091	Download everything to claim	ดาวน์โหลดทั้งหมดเพื่อรับ
+28092	No announcements	ไม่มีประกาศ
+28093	Asia Server	เซิร์ฟเวอร์เอเชีย
+28094	Europe/Russia Server	เซิร์ฟเวอร์ยุโรป/รัสเซีย
+28095	Americas Server	เซิร์ฟเวอร์อเมริกา
+28096	Select Server	เลือกเซิร์ฟเวอร์
+28097	The ${1} region you selected currently has high latency (${2}ms), which may cause:\nDelayed character controls\nDelayed skill activation\nLag in multiplayer battles\n\nDo you still want to select this region?	ภูมิภาค ${1} ที่เลือกมีค่าความหน่วงสูงในขณะนี้ (${2}ms) ซึ่งอาจทำให้:\nควบคุมตัวละครล่าช้า\nใช้สกิลล่าช้า\nการต่อสู้หลายผู้เล่นกระตุก\n\nยังต้องการเลือกภูมิภาคนี้หรือไม่?
+28098	Failed to connect to the region. Please select another.	เชื่อมต่อภูมิภาคไม่สำเร็จ โปรดเลือกภูมิภาคอื่น
+28099	Sign in with Joymaker	เข้าสู่ระบบด้วย Joymaker
+28100	Sign in with Google	เข้าสู่ระบบด้วย Google
+28101	Sign in with Apple	เข้าสู่ระบบด้วย Apple
+28102	Visitor Login	เข้าสู่ระบบแบบผู้เยี่ยมชม
+28103	Account linked successfully	เชื่อมบัญชีสำเร็จ
+28104	Link Guest Account	เชื่อมบัญชีผู้เยี่ยมชม
+28105	Service Agreement	ข้อตกลงบริการ
+28106	Privacy Policy	นโยบายความเป็นส่วนตัว
+28107	I have carefully read and agree to ${1} and ${2}	ฉันได้อ่านอย่างละเอียดและยอมรับ ${1} และ ${2}
+28108	The server is under maintenance. Please check the official announcements.	เซิร์ฟเวอร์อยู่ระหว่างบำรุงรักษา โปรดตรวจประกาศอย่างเป็นทางการ
+28109	Invitation Code	รหัสเชิญ
+28110	Tap to enter an invitation code	แตะเพื่อใส่รหัสเชิญ
+28111	Activation successful	เปิดใช้งานสำเร็จ
+28112	Activation failed	เปิดใช้งานไม่สำเร็จ
+28113	Please enter a valid invitation code	โปรดใส่รหัสเชิญที่ถูกต้อง
+28114	Failed to load the area. Retrying…	โหลดพื้นที่ไม่สำเร็จ กำลังลองใหม่…
+28115	Failed to enter the area	เข้าสู่พื้นที่ไม่สำเร็จ
+28116	Failed to enter the area. You have been transported to Prontera.	เข้าสู่พื้นที่ไม่สำเร็จ คุณถูกส่งไป Prontera แล้ว
+28117	Novice, select a statue to confirm your gender.	Novice เลือกรูปปั้นเพื่อยืนยันเพศของคุณ
+28118	Scenario Base Pack	ชุดข้อมูลพื้นฐาน Scenario
+28119	The current server is running the ${1} scenario. You must download the base scenario pack to play. The scenario pack is ${2} MB. Download it now?	เซิร์ฟเวอร์ปัจจุบันใช้ Scenario ${1} คุณต้องดาวน์โหลดชุดข้อมูลพื้นฐาน Scenario เพื่อเล่น ชุดข้อมูลมีขนาด ${2} MB ดาวน์โหลดตอนนี้หรือไม่?
+28120	Download	ดาวน์โหลด
+28121	<color=#63A22B>Download Speed: ${1}</color>  File Size: ${2}/${3}	<color=#63A22B>ความเร็วดาวน์โหลด: ${1}</color>  ขนาดไฟล์: ${2}/${3}
+28122	A new version of the game is available. Please update it through the app store.	มีเกมเวอร์ชันใหม่ โปรดอัปเดตผ่านร้านแอป
+28123	A new game version is available. To prevent loading errors or lag, please return to the launcher and update the game before launching it again.	มีเกมเวอร์ชันใหม่ เพื่อป้องกันข้อผิดพลาดในการโหลดหรืออาการกระตุก โปรดกลับไปตัวเปิดเกมแล้วอัปเดตก่อนเปิดเกมอีกครั้ง
+28124	A new game version is available. Please launch the game to update.	มีเกมเวอร์ชันใหม่ โปรดเปิดเกมเพื่ออัปเดต
+28125	Test version. Does not represent final quality. UID:${1}	เวอร์ชันทดสอบ ไม่ใช่คุณภาพขั้นสุดท้าย UID:${1}
+28126	Network	เครือข่าย
+57001	Monster	มอนสเตอร์
+57003	Book Collection	สะสมหนังสือ
+57005	Not Available	ไม่พร้อมใช้งาน
+57006	Use Theme	ใช้ธีม
+57008	NEW	ใหม่
+57009	Research Progress Lv.${1}	ความคืบหน้าวิจัย Lv.${1}
+57010	AFK Recommendations	คำแนะนำ AFK
+57011	Drop Rewards	รางวัลดรอป
+57012	Habitat	ถิ่นอาศัย
+57016	Area	พื้นที่
+57017	No Matching Monsters	ไม่พบมอนสเตอร์ที่ตรงกัน
+57026	Adventure Handbook Reward Preview	ตัวอย่างรางวัลคู่มือผจญภัย
+57028	Collection Points	แต้มสะสม
+57030	Monster Reward Preview	ตัวอย่างรางวัลมอนสเตอร์
+57031	Kill ${1} to automatically obtain this reward (${2}/${1})	กำจัด ${1} เพื่อรับรางวัลนี้โดยอัตโนมัติ (${2}/${1})
+57032	Card Album Reward Preview	ตัวอย่างรางวัลอัลบั้มการ์ด
+57033	Book Reward Preview	ตัวอย่างรางวัลหนังสือ
+57034	Card Album Collection	สะสมอัลบั้มการ์ด
+57036	Level Stats	ค่าสถานะระดับ
+57037	Initial Effect	เอฟเฟกต์เริ่มต้น
+57038	Max level Effect	ผลเมื่อถึงระดับสูงสุด
+57039	Collection Benefits	สิทธิประโยชน์สะสม
+57040	Unlock Rewards	รางวัลปลดล็อก
+57041	How to Obtain	วิธีได้รับ
+57042	Promotion Preview	ตัวอย่างเลื่อนขั้น
+57043	Advanced Rewards	รางวัลขั้นสูง
+57044	Book Collection	สะสมหนังสือ
+57045	Reading Bonus	โบนัสอ่าน
+57046	Reading Rewards	รางวัลอ่าน
+57047	First Reading	อ่านครั้งแรก
+57048	Obtain Book Pages	รับหน้าหนังสือ
+57049	Complete Collection Reward	รางวัลสะสมครบ
+57050	Unlocks when Knowledge reaches ${1}	ปลดล็อกเมื่อความรู้ถึง ${1}
+57052	Go to ${1} habitat ${2}?	ไปถิ่นอาศัยของ ${1} ที่ ${2} หรือไม่?
+57053	Do Not Show Again During This Login	ไม่ต้องแสดงอีกระหว่างเข้าสู่ระบบครั้งนี้
+57054	Go to Monster Habitat	ไปถิ่นอาศัยมอนสเตอร์
+57056	Tap to Search for Monsters	แตะเพื่อค้นหามอนสเตอร์
+57057	Tap to Search for Cards	แตะเพื่อค้นหาการ์ด
+57058	Tap to Search the Book Collection	แตะเพื่อค้นหาหนังสือสะสม
+57059	Tap to activate	แตะเพื่อเปิดใช้งาน
+57064	Primary Attributes	คุณลักษณะหลัก
+57065	Special	พิเศษ
+57066	No Matching Cards	ไม่พบการ์ดที่ตรงกัน
+57067	No Matching Books	ไม่พบหนังสือที่ตรงกัน
+57068	Function Not Available	ฟังก์ชันยังไม่เปิดใช้
+57069	Adventure Handbook Theme	ธีมคู่มือผจญภัย
+57070	No Matching Results	ไม่พบผลลัพธ์ที่ตรงกัน
+57071	Theme Unlocked: ${1}	ปลดล็อกธีมแล้ว: ${1}
+57072	Theme Style	สไตล์ธีม
+57073	Theme	ธีม
+57075	Race	เผ่าพันธุ์
+57077	Size	ขนาด
+57079	Filtering	กำลังกรอง
+57080	Progress Reward	รางวัลความคืบหน้า
+57081	Standard Card	การ์ดมาตรฐาน
+57082	Collector Card	การ์ดสะสม
+57083	Monsters Unlocked: ${1}/${2}	มอนสเตอร์ที่ปลดล็อก: ${1}/${2}
+57084	Standard Cards Collected: ${1}/${2}	การ์ดมาตรฐานที่สะสม: ${1}/${2}
+57085	Collector Cards Collected: ${1}/${2}	การ์ดสะสมที่สะสม: ${1}/${2}
+57086	Books Collected: ${1}/${2}	หนังสือที่สะสม: ${1}/${2}
+57087	Chapter Reading Reward	รางวัลอ่านบท
+57088	Chapter Reading Reward Not Unlocked	ยังไม่ปลดล็อกรางวัลอ่านบท
+57089	Chapter Reading Reward claimed	รับรางวัลอ่านบทแล้ว
+57090	This chapter can only be obtained in the scenario [${1}]	บทนี้รับได้เฉพาะใน Scenario [ ${1} ]
+57091	Codex Unlocked	ปลดล็อก Codex แล้ว
+57093	Monster [${1}] unlocked	ปลดล็อกมอนสเตอร์ [ ${1} ] แล้ว
+57094	Monster [${1}] research task [${2}] completed!	ทำภารกิจวิจัยของมอนสเตอร์ [ ${1} ] รายการ [ ${2} ] สำเร็จ!
+57095	Card [${1}] unlocked	ปลดล็อกการ์ด [ ${1} ] แล้ว
+57096	Advanced Rewards obtained for Card [${1}] at [${2} Stars]!	รับรางวัลขั้นสูงของการ์ด [ ${1} ] ที่ [ ${2} Stars ] แล้ว!
+57097	Finished reading Chapter [${2}] of Book [${1}]	อ่านบท [ ${2} ] ของหนังสือ [ ${1} ] จบแล้ว
+57098	Chapter [${2}] of Book [${1}] unlocked	ปลดล็อกบท [ ${2} ] ของหนังสือ [ ${1} ] แล้ว
+57099	Familiar	คุ้นเคย
+57100	Knowledgeable	รอบรู้
+57101	Expert	เชี่ยวชาญ
+57103	Monster Research	วิจัยมอนสเตอร์
+57104	"Unlock monsters to obtain <sprite name=""${1}"">${2} and unlock research tasks"	"ปลดล็อกมอนสเตอร์เพื่อรับ <sprite name=""${1}"">${2} และปลดล็อกภารกิจวิจัย"
+57105	All Research Completed	วิจัยทั้งหมดแล้ว
+57107	Kills: ${1}/${2}	กำจัด: ${1}/${2}
+57108	Read the Book	อ่านหนังสือ
+57109	How to Obtain	วิธีได้รับ
+57111	Increase Affinity	เพิ่มความสนิท
+60001	Random Affix	คุณสมบัติเสริมสุ่ม
+60002	Resonance	ประสานพลัง
+60003	Deployment Effects	เอฟเฟกต์ลงสนาม
+60005	Soul Echo Resonance Preview	ตัวอย่างประสานพลัง Soul Echo
+60006	Click a slot on the left to equip	คลิกช่องทางซ้ายเพื่อติดตั้ง
+60007	All Echoes	Echoes ทั้งหมด
+60008	No Soul Echoes available.	ไม่มี Soul Echoes
+60009	Select a Soul Echo (click or drag)	เลือก Soul Echo (คลิกหรือลาก)
+60010	Filter Soul Echoes	กรอง Soul Echoes
+60011	Element	ธาตุ
+60012	Affix Selection	เลือกคุณสมบัติเสริม
+60013	Any 1 Affix	คุณสมบัติเสริมใดก็ได้ 1 ข้อ
+60014	Any 2 Affixes	คุณสมบัติเสริมใดก็ได้ 2 ข้อ
+60015	Any 3 Affixes	คุณสมบัติเสริมใดก็ได้ 3 ข้อ
+60016	Any 4 Affixes	คุณสมบัติเสริมใดก็ได้ 4 ข้อ
+60021	No Soul Echoes are currently deployed	ขณะนี้ไม่มี Soul Echoes ลงสนาม
+60024	Select a Soul Echo on the left to deploy	เลือก Soul Echo ทางซ้ายเพื่อลงสนาม
+60026	All Echoes	Echoes ทั้งหมด
+60027	Select a Soul Echo on the left	เลือก Soul Echo ทางซ้าย
+60028	Max level reached	ถึงระดับสูงสุดแล้ว
+60029	Dismantle	แยกชิ้นส่วน
+60030	Select Upgrade Cost	เลือกค่าอัปเกรด
+60031	Maximum level reached	ถึงระดับสูงสุดแล้ว
+60032	Are you sure you want to consume Soul Echoes of Orange Quality or higher for Level-up?	ยืนยันใช้ Soul Echoes คุณภาพสีส้มหรือสูงกว่าเพื่อเพิ่มระดับหรือไม่?
+60033	No Level-up materials available	ไม่มีวัสดุเพิ่มระดับ
+60034	All materials of Purple Quality or lower have been selected	เลือกวัสดุคุณภาพสีม่วงหรือต่ำกว่าทั้งหมดแล้ว
+60035	No materials of Purple Quality or lower	ไม่มีวัสดุคุณภาพสีม่วงหรือต่ำกว่า
+60036	Adds a random affix	เพิ่มคุณสมบัติเสริมสุ่ม
+60037	Select Level-up materials	เลือกวัสดุเพิ่มระดับ
+60038	Material Refund	คืนวัสดุ
+60039	Overflow EXP has been converted into items	แปลง EXP ส่วนเกินเป็นไอเทมแล้ว
+60040	Includes the affixes above	มีคุณสมบัติเสริมข้างต้น
+60041	Soul Echo Resonance Info	ข้อมูลประสานพลัง Soul Echo
+60042	Bulk Dismantle	แยกชิ้นส่วนเป็นชุด
+60044	Quick Select	เลือกอย่างรวดเร็ว
+60046	Affix	คุณสมบัติเสริม
+60047	None	ไม่มี
+60048	Are you sure you want to consume upgraded Soul Echoes for Level-up?	ยืนยันใช้ Soul Echoes ที่อัปเกรดแล้วเพื่อเพิ่มระดับหรือไม่?
+60049	Are you sure you want to consume Soul Echoes of Orange Quality or higher and upgraded Soul Echoes for Level-up?	ยืนยันใช้ Soul Echoes คุณภาพสีส้มหรือสูงกว่าและ Soul Echoes ที่อัปเกรดแล้วเพื่อเพิ่มระดับหรือไม่?
+60050	Soul Echo Resonance only activates for classes ${1} and above	การประสานพลัง Soul Echo ทำงานเฉพาะคลาส ${1} และสูงกว่า
+60051	Not in the current scenario	ไม่อยู่ใน Scenario ปัจจุบัน
+60053	Compare	เปรียบเทียบ
+60054	Show less Compare	แสดงการเปรียบเทียบน้อยลง
+53000	Age-appropriate tips	คำแนะนำความเหมาะสมตามวัย
+53001	\t1. This is a role-playing game suitable for users age 12 and older. Minors are advised to play under parental supervision.\n\t2. This game features a cartoon art style with detailed visuals, vibrant colors, and lighthearted, lively music. Set against a fictional story and fantasy world, players take on the role of an adventurer embarking on a journey to protect this beautiful world. The game includes competitive gameplay and story-related conflict, but these confrontations are depicted in a cartoon style and cannot be confused with real life. The game includes a text- and voice-based Connect System for interacting with strangers. The Connect System is managed in accordance with applicable laws and regulations.\n\t3. The game includes a real-name user verification System. Users verified as minors are subject to the following restrictions:\n\tSome gameplay features and items require payment. Users under age 8 may not make payments. Users age 8 or older but under age 16 may spend no more than 50 RMB per transaction and no more than 200 RMB per month. Users age 16 or older who are minors may spend no more than 100 RMB per transaction and no more than 400 RMB per month.\n\tAccounts without real-name verification cannot log in to play. Verified minors may play for 1 hour each day from 20:00 to 21:00 on Fridays, Saturdays, Sundays, and statutory holidays, and may not play at any other time.\n\t4. The game includes a party mode, large-scale team missions, and competitions that require players to work together. These activities help Train players' communication and teamwork skills while fostering a sense of group belonging.	\t1. เกมนี้เป็นเกมสวมบทบาทที่เหมาะสำหรับผู้ใช้วัย 12 ปีขึ้นไป แนะนำให้ผู้เยาว์เล่นภายใต้การดูแลของผู้ปกครอง\n\t2. เกมนี้ใช้ภาพสไตล์การ์ตูนที่มีรายละเอียด สีสันสดใส และดนตรีเบาสบายมีชีวิตชีวา เรื่องราวและโลกแฟนตาซีเป็นสิ่งสมมติ ผู้เล่นรับบทนักผจญภัยที่ออกเดินทางเพื่อปกป้องโลกอันงดงามนี้ เกมมีการแข่งขันและความขัดแย้งตามเนื้อเรื่อง แต่แสดงในรูปแบบการ์ตูนและไม่อาจสับสนกับชีวิตจริง เกมมีระบบ Connect แบบข้อความและเสียงเพื่อปฏิสัมพันธ์กับคนแปลกหน้า ระบบ Connect จัดการตามกฎหมายและข้อบังคับที่เกี่ยวข้อง\n\t3. เกมมีระบบยืนยันชื่อจริงของผู้ใช้ ผู้ใช้ที่ได้รับการยืนยันว่าเป็นผู้เยาว์มีข้อจำกัดดังต่อไปนี้:\n\tฟีเจอร์การเล่นและไอเทมบางอย่างต้องชำระเงิน ผู้ใช้อายุต่ำกว่า 8 ปีชำระเงินไม่ได้ ผู้ใช้อายุ 8 ปีขึ้นไปแต่ต่ำกว่า 16 ปีใช้จ่ายได้ไม่เกิน 50 RMB ต่อรายการ และไม่เกิน 200 RMB ต่อเดือน ผู้ใช้อายุ 16 ปีขึ้นไปที่ยังเป็นผู้เยาว์ใช้จ่ายได้ไม่เกิน 100 RMB ต่อรายการ และไม่เกิน 400 RMB ต่อเดือน\n\tบัญชีที่ยังไม่ยืนยันชื่อจริงเข้าสู่ระบบเพื่อเล่นไม่ได้ ผู้เยาว์ที่ยืนยันแล้วเล่นได้วันละ 1 ชั่วโมง เวลา 20:00 ถึง 21:00 ในวันศุกร์ วันเสาร์ วันอาทิตย์ และวันหยุดตามกฎหมาย และเล่นในเวลาอื่นไม่ได้\n\t4. เกมมีโหมดปาร์ตี้ ภารกิจทีมขนาดใหญ่ และการแข่งขันที่ต้องร่วมมือกัน กิจกรรมเหล่านี้ช่วยฝึกทักษะการสื่อสารและการทำงานเป็นทีม พร้อมสร้างความรู้สึกเป็นส่วนหนึ่งของกลุ่ม
+53003	Real-Name Registration	ลงทะเบียนชื่อจริง
+53004	Dear player, in accordance with the National Press and Publication Administration’s “Notification on Preventing Minors from Becoming Addicted to Online Games” and “Notification on Further Strengthening Regulations to Effectively Prevent Minors from Becoming Addicted to Online Games,” accounts without verified real-name registration cannot access the game. Please complete real-name registration as soon as possible.	เรียนผู้เล่น ตามประกาศ “Notification on Preventing Minors from Becoming Addicted to Online Games” และ “Notification on Further Strengthening Regulations to Effectively Prevent Minors from Becoming Addicted to Online Games” ของ National Press and Publication Administration บัญชีที่ยังไม่ยืนยันการลงทะเบียนชื่อจริงจะเข้าเกมไม่ได้ โปรดลงทะเบียนชื่อจริงโดยเร็วที่สุด
+53005	Real-Name Registration	ลงทะเบียนชื่อจริง
+53006	Exit Game	ออกจากเกม
+53007	Underage players may only Login ROO <color=#cc762a>from 20:00 to 21:00 on Fridays, Saturdays, Sundays, and legal holidays</color>. You have been verified as an underage player and <color=#cc762a>cannot enter the game at this time</color>. For details, please see the official Anti-Addiction System announcement.	ผู้เล่นที่เป็นผู้เยาว์เข้าสู่ระบบ ROO ได้เฉพาะ <color=#cc762a>เวลา 20:00 ถึง 21:00 ในวันศุกร์ วันเสาร์ วันอาทิตย์ และวันหยุดตามกฎหมาย</color> คุณได้รับการยืนยันว่าเป็นผู้เยาว์และ <color=#cc762a>เข้าเกมในเวลานี้ไม่ได้</color> ดูรายละเอียดในประกาศระบบป้องกันการติดเกมทางการ
+53008	For underage players, Login ROO is available <color=#cc762a>only from 20:00 to 21:00 on Fridays, Saturdays, Sundays, and public holidays</color>. You cannot play outside these hours. Please remember to take breaks.	ผู้เล่นที่เป็นผู้เยาว์เข้าสู่ระบบ ROO ได้ <color=#cc762a>เฉพาะเวลา 20:00 ถึง 21:00 ในวันศุกร์ วันเสาร์ วันอาทิตย์ และวันหยุดราชการ</color> เล่นนอกช่วงเวลานี้ไม่ได้ อย่าลืมพักเป็นระยะ
+53009	In accordance with the Notification on Preventing Online Gaming Addiction Among Minors issued by the National Press and Publication Administration, paid game services are unavailable to users under the age of 8.	ตามประกาศป้องกันผู้เยาว์ติดเกมออนไลน์ที่ออกโดย National Press and Publication Administration ผู้ใช้อายุต่ำกว่า 8 ปีใช้บริการเกมที่ต้องชำระเงินไม่ได้
+53010	Your spending this month has reached <color=#cc762a>${1} RMB</color>. This transaction would exceed the monthly top-up limit. Please spend responsibly and top up in moderation.\n\nAccording to the Notification on Preventing Minors from Becoming Addicted to Online Games issued by the National Press and Publication Administration, users aged 8 to under 16 may top up no more than RMB 50 per transaction and RMB 200 per month.	ยอดใช้จ่ายของคุณเดือนนี้ถึง <color=#cc762a>${1} RMB</color> แล้ว รายการนี้จะเกินขีดจำกัดเติมเงินรายเดือน โปรดใช้จ่ายอย่างมีความรับผิดชอบและเติมเงินอย่างพอเหมาะ\n\nตามประกาศป้องกันผู้เยาว์ติดเกมออนไลน์ที่ออกโดย National Press and Publication Administration ผู้ใช้อายุ 8 ปีถึงต่ำกว่า 16 ปีเติมเงินได้ไม่เกิน RMB 50 ต่อรายการ และ RMB 200 ต่อเดือน
+53011	"Your spending this month has reached <color=#cc762a>${1} RMB</color>. This purchase would exceed the monthly top-up limit. Please spend responsibly and top up in moderation.\n\nUnder the National Press and Publication Administration's ""Notification on Preventing Minors from Becoming Addicted to Online Games,"" users ages 16 to under 18 may not top up more than RMB 100 per transaction or RMB 400 per month."	ยอดใช้จ่ายของคุณเดือนนี้ถึง <color=#cc762a>${1} RMB</color> แล้ว การซื้อนี้จะเกินขีดจำกัดเติมเงินรายเดือน โปรดใช้จ่ายอย่างมีความรับผิดชอบและเติมเงินอย่างพอเหมาะ\n\nตามประกาศ “Notification on Preventing Minors from Becoming Addicted to Online Games” ของ National Press and Publication Administration ผู้ใช้อายุ 16 ปีถึงต่ำกว่า 18 ปีเติมเงินได้ไม่เกิน RMB 100 ต่อรายการ หรือ RMB 400 ต่อเดือน
+53012	"This purchase exceeds <color=#cc762a>RMB 50</color>, so the top-up failed. Please spend responsibly and top up in moderation.\n\nAccording to the ""Notification on Preventing Minors from Becoming Addicted to Online Games"" issued by the National Press and Publication Administration, players aged 8 to under 16 may top up no more than RMB 50 per transaction and RMB 200 per month."	การซื้อนี้เกิน <color=#cc762a>RMB 50</color> จึงเติมเงินไม่สำเร็จ โปรดใช้จ่ายอย่างมีความรับผิดชอบและเติมเงินอย่างพอเหมาะ\n\nตามประกาศ “Notification on Preventing Minors from Becoming Addicted to Online Games” ของ National Press and Publication Administration ผู้เล่นอายุ 8 ปีถึงต่ำกว่า 16 ปีเติมเงินได้ไม่เกิน RMB 50 ต่อรายการ และ RMB 200 ต่อเดือน
+53013	This transaction exceeds <color=#cc762a>RMB 100</color>, so the top-up failed. Please spend responsibly and top up in moderation.\n\nAccording to the Notification on Preventing Minors from Becoming Addicted to Online Games issued by the National Press and Publication Administration, players aged 16 to under 18 may not top up more than RMB 100 per transaction or RMB 400 per month.	รายการนี้เกิน <color=#cc762a>RMB 100</color> จึงเติมเงินไม่สำเร็จ โปรดใช้จ่ายอย่างมีความรับผิดชอบและเติมเงินอย่างพอเหมาะ\n\nตามประกาศป้องกันผู้เยาว์ติดเกมออนไลน์ที่ออกโดย National Press and Publication Administration ผู้เล่นอายุ 16 ปีถึงต่ำกว่า 18 ปีเติมเงินได้ไม่เกิน RMB 100 ต่อรายการ และ RMB 400 ต่อเดือน
+53014	Anti-Addiction Information	ข้อมูลป้องกันการติดเกม
+53015	Less than ${1} minutes of playtime remain today.	วันนี้เหลือเวลาเล่นน้อยกว่า ${1} นาที
+53016	Request successful	คำขอสำเร็จ
+53017	Parameter error	พารามิเตอร์ผิดพลาด
+53018	Invalid request. Invalid signature.	คำขอไม่ถูกต้อง ลายเซ็นไม่ถูกต้อง
+53019	You cannot make purchases because your identity has not been verified.	ซื้อไม่ได้เนื่องจากยังไม่ยืนยันตัวตน
+53020	Failed to verify player identity information	ยืนยันข้อมูลตัวตนผู้เล่นไม่สำเร็จ
+53021	Guest accounts cannot make purchases.	บัญชีผู้เยี่ยมชมซื้อไม่ได้
+53022	This game is suitable for users aged 12 and older. Minors should play under parental supervision. For your health, please limit your playtime appropriately. Our company actively abides by the Online Game Industry Self-Regulation Convention on Preventing Gaming Addiction. According to the National Press and Publication Administration's Notification on Preventing Minors from Becoming Addicted to Online Games, all online game users must complete real-name account registration using valid identification information. Minors are subject to anti-addiction Function restrictions.	เกมนี้เหมาะสำหรับผู้ใช้วัย 12 ปีขึ้นไป ผู้เยาว์ควรเล่นภายใต้การดูแลของผู้ปกครอง เพื่อสุขภาพของคุณ โปรดจำกัดเวลาเล่นอย่างเหมาะสม บริษัทของเราปฏิบัติตามข้อตกลงกำกับดูแลตนเองของอุตสาหกรรมเกมออนไลน์เพื่อป้องกันการติดเกมอย่างเคร่งครัด ตามประกาศป้องกันผู้เยาว์ติดเกมออนไลน์ของ National Press and Publication Administration ผู้ใช้เกมออนไลน์ทุกคนต้องลงทะเบียนบัญชีด้วยชื่อจริงโดยใช้ข้อมูลระบุตัวตนที่ถูกต้อง ผู้เยาว์มีข้อจำกัดฟังก์ชันป้องกันการติดเกม
+44010	\rIn the waters surrounding the continent of Midgard lies a little-known island. It appears on no sea chart, and only ships that have lost their way occasionally stumble upon it. Yet no crew dares linger there, for terrifying, thunderous roars have echoed from the island's depths for as long as anyone can remember.\n \n\rLegend holds that the dragon Fafnir is sealed deep within the island. Once a descendant of the giants, he was slain by a descendant of Odin for his insatiable greed for treasure. After Ragnarök, he returned from the underworld to Midgard, transformed into a decaying dragon driven by nothing but greed. To stop Fafnir's plunder and slaughter, people built fortresses, Turrets, and magic formations across the nameless island. Using gold as bait, they ultimately sealed him away through tremendous Devotion. Thus, the island came to be known as Dragon Sarcophagus Isle.\n\n\rCenturies have since passed, and the seal's power has begun to wane. The roars from the island grow more deafening by the day, while monsters drawn by the dragon's call gather nearby and relentlessly attack the seal.\n\n\rFafnir, the dragon once thought safely sealed away, has lost none of his greed. His power stirs deep within Dragon Sarcophagus Isle, threatening the Peace of the continent.\n\n\rFaced with this threat, the Guild has issued a call to arms. To protect the continent of Midgard and prevent Fafnir from unleashing another catastrophe, brave Adventurers must be assembled. These heroes will form a dragon-slaying force, travel to Dragon Sarcophagus Isle, and challenge Fafnir once more for the sake of the continent's future.\nTo restore the seal, keep the greedy dragon contained, and protect the Peace of the continent of Midgard, the Guild must gather the bravest Adventurers into a dragon-slaying force and send them to Dragon Sarcophagus Isle to challenge the dragon once more.	\rในน่านน้ำรอบทวีป Midgard มีเกาะที่น้อยคนรู้จัก เกาะนี้ไม่ปรากฏบนแผนที่เดินเรือใด มีเพียงเรือที่หลงทางเท่านั้นที่บังเอิญมาพบเป็นครั้งคราว แต่ไม่มีลูกเรือคนใดกล้าอยู่นาน เพราะเสียงคำรามอันน่าสะพรึงกลัวดังกึกก้องจากส่วนลึกของเกาะมาเนิ่นนานจนไม่มีใครจำได้\n \n\rตำนานเล่าว่ามังกร Fafnir ถูกผนึกอยู่ลึกภายในเกาะ เขาเคยเป็นผู้สืบเชื้อสายจากเหล่ายักษ์ แต่ถูกผู้สืบเชื้อสายจาก Odin สังหารเพราะความโลภในสมบัติที่ไม่มีวันสิ้นสุด หลัง Ragnarök เขากลับจากโลกใต้พิภพมายัง Midgard ในร่างมังกรผุพังที่ขับเคลื่อนด้วยความโลภเพียงอย่างเดียว เพื่อหยุดการปล้นและสังหารของ Fafnir ผู้คนสร้างป้อมปราการ ป้อมปืน และวงเวททั่วเกาะไร้นามแห่งนี้ โดยใช้ทองคำเป็นเหยื่อล่อ ในที่สุดพวกเขาก็ผนึกเขาไว้ด้วยความเสียสละอย่างมหาศาล เกาะนี้จึงได้ชื่อว่า Dragon Sarcophagus Isle\n\n\rหลายศตวรรษผ่านไป พลังของผนึกเริ่มเสื่อมลง เสียงคำรามจากเกาะดังขึ้นทุกวัน ขณะที่มอนสเตอร์ซึ่งถูกเสียงเรียกของมังกรดึงดูดมารวมตัวอยู่ใกล้เคียงและโจมตีผนึกอย่างไม่หยุดยั้ง\n\n\rFafnir มังกรที่ครั้งหนึ่งเชื่อกันว่าถูกผนึกไว้อย่างปลอดภัย ไม่เคยสูญเสียความโลภ พลังของเขาเริ่มเคลื่อนไหวในส่วนลึกของ Dragon Sarcophagus Isle และคุกคามความสงบสุขของทวีป\n\n\rเมื่อเผชิญภัยนี้ กิลด์จึงประกาศระดมพล เพื่อปกป้องทวีป Midgard และป้องกันไม่ให้ Fafnir ก่อหายนะอีกครั้ง ต้องรวบรวมนักผจญภัยผู้กล้าหาญ วีรบุรุษเหล่านี้จะรวมเป็นกองกำลังปราบมังกร เดินทางไปยัง Dragon Sarcophagus Isle และท้าทาย Fafnir อีกครั้งเพื่ออนาคตของทวีป\nเพื่อฟื้นฟูผนึก กักมังกรโลภเอาไว้ และปกป้องความสงบสุขของทวีป Midgard กิลด์ต้องรวบรวมนักผจญภัยที่กล้าหาญที่สุดเป็นกองกำลังปราบมังกร แล้วส่งไปยัง Dragon Sarcophagus Isle เพื่อท้าทายมังกรอีกครั้ง
+1050	Protocol mismatch. Please use the corresponding server version, or update both the client and server to the latest version!\nClient protocol:${1} \nServer protocol:${2}\n\n Click Go to continue playing	โปรโตคอลไม่ตรงกัน โปรดใช้เวอร์ชันเซิร์ฟเวอร์ที่ตรงกัน หรืออัปเดตทั้งไคลเอนต์และเซิร์ฟเวอร์เป็นเวอร์ชันล่าสุด!\nโปรโตคอลไคลเอนต์:${1} \nโปรโตคอลเซิร์ฟเวอร์:${2}\n\n คลิกไปเพื่อเล่นต่อ
+2061	Stage reward does not exist	ไม่มีรางวัลด่าน
+2062	Stage reward claimed	รับรางวัลด่านแล้ว
+2063	Insufficient Power	พลังไม่เพียงพอ
+2067	Current server time: ${1}	เวลาเซิร์ฟเวอร์ปัจจุบัน: ${1}
+2068	Enter your account	ใส่บัญชีของคุณ
+2069	Enter password	ใส่รหัสผ่าน
+2077	Auto	อัตโนมัติ
+2081	None	ไม่มี
+2089	Base EXP Increase	เพิ่ม Base EXP
+2090	Job EXP Increase	เพิ่ม Job EXP
+2092	New	ใหม่
+2093	Network request timed out	คำขอเครือข่ายหมดเวลา
+2099	Tap to close (${1})	แตะเพื่อปิด (${1})
+3000	Identical buffs stack	Buff เหมือนกันซ้อนกันได้
+3006	HOT	ยอดนิยม
+3007	OK	ตกลง
+3008	Simplified Chinese	จีนตัวย่อ
+3009	Traditional Chinese	จีนตัวเต็ม
+3010	English	อังกฤษ
+3011	Korean	เกาหลี
+3012	Thai	ไทย
+3013	Indonesian	อินโดนีเซีย
+3014	Unlock New Function	ปลดล็อกฟังก์ชันใหม่
+3015	Changing the language requires a restart. Continue?	เปลี่ยนภาษาต้องรีสตาร์ต ดำเนินการต่อหรือไม่?
+3019	No more Notifications	ไม่มีการแจ้งเตือนเพิ่มเติม
+3020	Vietnamese	เวียดนาม
+3021	Failed to switch scenes. Please log in again!	เปลี่ยนฉากไม่สำเร็จ โปรดเข้าสู่ระบบอีกครั้ง!
+3022	Attack	โจมตี
+3023	Mobility	ความคล่องตัว
+3025	Support	สนับสนุน
+3027	Survival	การอยู่รอด
+3030	Hundred Million	ร้อยล้าน
+3031	Ten Thousand	หมื่น
+3032	Owned:	มีอยู่:
+3035	Job Advance requirements not met. Base Lv. ${1} and Job Lv. ${2} required.	ยังไม่ตรงตามเงื่อนไขเปลี่ยนอาชีพ ต้องมี Base Lv. ${1} และ Job Lv. ${2}
+3036	Rare Items	ไอเทมหายาก
+3037	Redeem	แลก
+3038	Redemption Rate	อัตราแลก
+12035	Randomly grants <color=#cc762a>${1}-${2}</color> Stunts	สุ่มมอบ Stunts <color=#cc762a>${1}-${2}</color> ข้อ
+12043	Vivify Cost: <#896B4D>Free</color>	ค่า Vivify: <#896B4D>ฟรี</color>
+12044	Vivify Cost: ${1}/${2}	ค่า Vivify: ${1}/${2}
+12071	Randomly grants <color=#cc762a>${1}</color> Stunts	สุ่มมอบ Stunts <color=#cc762a>${1}</color> ข้อ
+12074	No Stunt	ไม่มี Stunt
+16020	None	ไม่มี
+16042	None	ไม่มี
+17000	The current skill cannot be used without a locked target.	สกิลปัจจุบันใช้ไม่ได้หากไม่มีเป้าหมายที่ล็อกไว้
+21086	Free after ${1}	ฟรีหลัง ${1}
+21106	Early Release Rules:\nThe release date for all currently frozen Diamonds will be extended to the latest release time.\nRecharge an additional <color=#cc762a>${1}</color> to release the recharge immediately.	กฎปลดล็อกก่อนกำหนด:\nวันปลดล็อกของ Diamonds ที่ถูกแช่แข็งอยู่ทั้งหมดจะเลื่อนไปเป็นเวลาปลดล็อกล่าสุด\nเติมเงินเพิ่ม <color=#cc762a>${1}</color> เพื่อปลดล็อกยอดเติมเงินทันที
+21191	Expired	หมดอายุแล้ว
+22000	Internal server error	ข้อผิดพลาดภายในเซิร์ฟเวอร์
+22001	Insufficient Currency	สกุลเงินไม่เพียงพอ
+22002	Player is dead.	ผู้เล่นเสียชีวิต
+22003	Client Parameter error	พารามิเตอร์ไคลเอนต์ผิดพลาด
+22004	Watchlist limit reached.	รายการติดตามถึงขีดจำกัดแล้ว
+22005	The target you're watching no longer exists. Please refresh and retry.	เป้าหมายที่ติดตามไม่มีแล้ว โปรดรีเฟรชและลองใหม่
+22006	Abnormal Trade price	ราคาซื้อขายผิดปกติ
+22007	Not enough Stall space. Please unlock more slots.	พื้นที่ร้านค้าไม่เพียงพอ โปรดปลดล็อกช่องเพิ่ม
+22008	Invalid sale quantity. Please refresh and try again.	จำนวนขายไม่ถูกต้อง โปรดรีเฟรชและลองอีกครั้ง
+22009	Too late! The item has already been delisted or purchased.	ช้าไปแล้ว! ไอเทมถูกนำออกจากรายการหรือซื้อไปแล้ว
+22010	Items cannot be purchased during the listing period.	ซื้อไอเทมระหว่างช่วงลงรายการไม่ได้
+22011	Unknown error	ข้อผิดพลาดไม่ทราบสาเหตุ
+22012	Not enough Credit Points	Credit Points ไม่เพียงพอ
+22013	The item has been delisted or there is insufficient stock.	ไอเทมถูกนำออกจากรายการหรือมีสินค้าไม่เพียงพอ
+22014	You are the seller.	คุณเป็นผู้ขาย
+22015	No matching items are currently available.	ขณะนี้ไม่มีไอเทมที่ตรงกัน
+22016	No items available.	ไม่มีไอเทม
+22017	You cannot purchase your own listed item.	ซื้อไอเทมที่ตัวเองลงขายไม่ได้
+22018	This is already the highest price.	นี่คือราคาสูงสุดแล้ว
+22019	This is already the lowest price.	นี่คือราคาต่ำสุดแล้ว
+22020	Spawned	เกิดแล้ว
+22021	Item listed successfully.	ลงขายไอเทมสำเร็จ
+22022	Insufficient Currency (Deprecated	สกุลเงินไม่เพียงพอ (เลิกใช้แล้ว
+22023	This item is temporarily unavailable for purchase.	ขณะนี้ซื้อไอเทมนี้ไม่ได้ชั่วคราว
+22024	My Watchlist ${1}/${2}	รายการติดตามของฉัน ${1}/${2}
+22025	You can refresh again in ${1} seconds!	รีเฟรชได้อีกใน ${1} วินาที!
+22026	Please select an entry to filter by.	โปรดเลือกรายการเพื่อกรอง
+22027	Please select a Stunt to filter by.	โปรดเลือก Stunt เพื่อกรอง
+22028	Please select an attribute to filter by.	โปรดเลือกคุณลักษณะเพื่อกรอง
+22029	The maximum value cannot be lower than the minimum value!	ค่าสูงสุดต้องไม่ต่ำกว่าค่าต่ำสุด!
+22030	This exceeds the maximum quantity per purchase. Please select again.	เกินจำนวนสูงสุดต่อการซื้อ โปรดเลือกอีกครั้ง
+22031	This exceeds the maximum quantity per listing. Please select again.	เกินจำนวนสูงสุดต่อการลงรายการ โปรดเลือกอีกครั้ง
+22032	Only rare equipment can be listed!	ลงรายการได้เฉพาะอุปกรณ์หายาก!
+25223	Log	บันทึก
+25394	[Caravan Help] ${1} posted a request for ${2}X${3} [Tap to Help]	[ Caravan Help ] ${1} ขอ ${2}X${3} [ Tap to Help ]
+25413	Please do it first	โปรดทำก่อน
+25470	Sell	ขาย
+26001	Drops	ไอเทมดรอป
+26002	Reward Count	จำนวนครั้งรับรางวัล
+26003	Last Battle Report	รายงานการต่อสู้ล่าสุด
+26005	Refresh Time:	เวลารีเฟรช:
+26006	Today's Remaining Reward Count	จำนวนครั้งรับรางวัลที่เหลือวันนี้
+26008	Participation Rewards	รางวัลเข้าร่วม
+26009	First Strike Reward	รางวัลโจมตีแรก
+26010	Final Blow Reward	รางวัลโจมตีสุดท้าย
+26011	All MVPs share the same Reward Count\nReward Count resets daily at 5	MVP ทั้งหมดใช้จำนวนครั้งรับรางวัลร่วมกัน\nรีเซ็ตจำนวนครั้งรับรางวัลทุกวันเวลา 5
+26012	Best Attacker	ผู้โจมตีดีที่สุด
+26013	Best Healing	ฟื้นฟูได้ดีที่สุด
+26014	Most Damage Taken	รับความเสียหายมากที่สุด
+26016	First Strike Owner	ผู้ได้โจมตีแรก
+26017	Final blow	โจมตีสุดท้าย
+26018	Score Ranking	อันดับคะแนน
+26019	Damage Ranking	อันดับความเสียหาย
+26020	Damage Taken Ranking	อันดับความเสียหายที่ได้รับ
+26021	Healing Ranking	อันดับการฟื้นฟู
+26022	Death Ranking	อันดับการตาย
+26024	Team Name	ชื่อทีม
+26028	TIPS: Only the top 100 teams are shown. All participating teams receive rewards, and higher rankings grant better rewards	คำแนะนำ: แสดงเฉพาะ 100 ทีมอันดับแรก ทุกทีมที่เข้าร่วมได้รับรางวัล และอันดับสูงยิ่งให้รางวัลดีขึ้น
+26029	Decay	ลดลง
+26030	If a team has a Member with no Reward Count remaining, its score will be reduced by a certain percentage	หากทีมมีสมาชิกที่ไม่มีจำนวนครั้งรับรางวัลเหลือ คะแนนทีมจะลดลงตามเปอร์เซ็นต์ที่กำหนด
+26031	Team	ทีม
+26032	First Strike	โจมตีแรก
+26033	Final Blow	โจมตีสุดท้าย
+26037	Death	การตาย
+26038	Spawned	เกิดแล้ว
+26039	Map Appeared: ${1}	แผนที่ที่ปรากฏ: ${1}
+26040	Unranked	ไม่มีอันดับ
+26041	No Adventurer has defeated this MVP yet!	ยังไม่มีนักผจญภัยกำจัด MVP นี้!
+26042	${1}'s Party	ปาร์ตี้ของ ${1}
+26043	Respawns after ${1}	เกิดใหม่หลัง ${1}
+26044	MVP Rules	กฎ MVP
+26045	Basic Rules:\n1. MVPs share HP across multiple channels. When an MVP appears, it can be found and fought on every channel, and all battle contributions count toward the rankings.\nReward Rules:\n1. MVP rewards are divided into four types: Team Rewards, Participation Rewards, First Strike Rewards, and Final Blow Rewards. Each type has an independent Reward Count and does not affect the others. Click the Reward Count for details.\n2. Participation Rewards and Team Rewards have a Chance to contain Rare rewards such as cards. The higher the team's ranking, the greater the Chance of receiving them.\nRanking Rules:\n1. After an MVP is defeated, scores are calculated for all participating teams based on damage dealt, damage taken, Healing Volume, and death count. Deaths deduct a small number of points. All participating teams are then ranked by score.\n2. If a team has a Member who has reached the Team Reward limit, its total score will be reduced by a certain percentage. The more Members who have reached the limit, the greater the reduction.	กฎพื้นฐาน:\n1. MVP ใช้ HP ร่วมกันระหว่างหลายแชนเนล เมื่อ MVP ปรากฏ จะพบและต่อสู้ได้ในทุกแชนเนล และผลงานการต่อสู้ทั้งหมดนับรวมในอันดับ\nกฎรางวัล:\n1. รางวัล MVP แบ่งเป็นสี่ประเภท: รางวัลทีม รางวัลเข้าร่วม รางวัลโจมตีแรก และรางวัลโจมตีสุดท้าย แต่ละประเภทมีจำนวนครั้งรับรางวัลแยกกันและไม่ส่งผลต่อประเภทอื่น คลิกจำนวนครั้งรับรางวัลเพื่อดูรายละเอียด\n2. รางวัลเข้าร่วมและรางวัลทีมมีโอกาสได้รางวัลหายาก เช่น การ์ด ยิ่งทีมมีอันดับสูง โอกาสได้รับยิ่งมาก\nกฎอันดับ:\n1. หลัง MVP ถูกกำจัด จะคำนวณคะแนนของทุกทีมที่เข้าร่วมจากความเสียหายที่สร้าง ความเสียหายที่ได้รับ ปริมาณการฟื้นฟู และจำนวนครั้งตาย การตายหักคะแนนเล็กน้อย จากนั้นจัดอันดับทุกทีมตามคะแนน\n2. หากทีมมีสมาชิกที่ถึงขีดจำกัดรางวัลทีมแล้ว คะแนนรวมจะลดลงตามเปอร์เซ็นต์ที่กำหนด ยิ่งมีสมาชิกถึงขีดจำกัดมาก คะแนนยิ่งลดลงมาก
+26046	Please select a direction	โปรดเลือกทิศทาง
+26047	Contact Guild Master	ติดต่อหัวหน้ากิลด์
+26048	MVP status updated	อัปเดตสถานะ MVP แล้ว
+26049	Show updated only	แสดงเฉพาะที่อัปเดต
+26050	Rare	หายาก
+26051	Today's Reward Count has been exhausted. You cannot receive any more rewards	จำนวนครั้งรับรางวัลวันนี้หมดแล้ว รับรางวัลเพิ่มไม่ได้
+26052	Congrats on Obtaining the following rewards	ยินดีด้วยที่ได้รับรางวัลต่อไปนี้
+26053	Today's Remaining Claim Count:	จำนวนครั้งรับที่เหลือวันนี้:
+26054	You are already on the Map Appeared for this MVP. Find it yourself!	คุณอยู่บนแผนที่ที่ MVP นี้ปรากฏแล้ว ค้นหาด้วยตัวเอง!
+26056	MVP Kill	กำจัด MVP
+26057	No Records	ไม่มีบันทึก
+27133	Hard Lock	ล็อกเป้าหมายแบบตายตัว
+27134	Semi-Soft Lock	ล็อกเป้าหมายแบบกึ่งยืดหยุ่น
+27135	Full Soft Lock	ล็อกเป้าหมายแบบยืดหยุ่นเต็มรูปแบบ
+30164	None	ไม่มี
+31130	Expired	หมดอายุแล้ว
+39000	Dungeon Adventure	ผจญภัยดันเจียน
+39001	Unlocks at Lv. ${1}	ปลดล็อกที่ Lv. ${1}
+39002	Current Floors: ${1}	ชั้นปัจจุบัน: ${1}
+39003	Daily Sweeps (${1}/${2})	กวาดล้างรายวัน (${1}/${2})
+39005	${1} unlocks at Lv. ${2}	${1} ปลดล็อกที่ Lv. ${2}
+40117	NEW	ใหม่
+45000	Complete Seven-Day Missions to Get	ทำภารกิจเจ็ดวันเพื่อรับ
+45003	Tap to Enter Information	แตะเพื่อใส่ข้อมูล
+55000	Faction 3	ฝ่าย 3
+55001	Faction 4	ฝ่าย 4
+64038	Expired	หมดอายุแล้ว
+64039	Expired	หมดอายุแล้ว
+64029	Recommended Stunts	Stunts ที่แนะนำ
+65001	Meter	เมตร
+65002	Target: <#ffffff>${1}</color>	เป้าหมาย: <#ffffff>${1}</color>
+23725	Power Rankings Help Text	ข้อความช่วยเหลืออันดับพลัง
+23729	The Journey Begins	การเดินทางเริ่มต้น
+23730	Hero Registry	ทะเบียนวีรบุรุษ
+25075	[Guild Response] I created a new guild, 【${1}】! All Adventurers are invited to respond (${2}/${3}) 【Respond Now】	[ Guild Response ] ฉันสร้างกิลด์ใหม่ [ ${1} ] แล้ว! เชิญนักผจญภัยทุกคนตอบรับ (${2}/${3}) [ Respond Now ]
+25262	[Guild Recruitment]【${1}】 is recruiting: ${2}【Request to Join】	[ Guild Recruitment ][ ${1} ] กำลังรับสมัคร: ${2}[ Request to Join ]
+33040	Master Effects	เอฟเฟกต์ Master
+34006	Build	บิลด์
+34041	Tree Hollow Chat Channel	ช่องแชต Tree Hollow
+44802	Content Description Content Description Content Description Content Description Content Description	คำอธิบายเนื้อหา คำอธิบายเนื้อหา คำอธิบายเนื้อหา คำอธิบายเนื้อหา คำอธิบายเนื้อหา
+44804	Content Description Content Description Content Description Content Description Content Description	คำอธิบายเนื้อหา คำอธิบายเนื้อหา คำอธิบายเนื้อหา คำอธิบายเนื้อหา คำอธิบายเนื้อหา
+44806	Content Description Content Description Content Description Content Description Content Description	คำอธิบายเนื้อหา คำอธิบายเนื้อหา คำอธิบายเนื้อหา คำอธิบายเนื้อหา คำอธิบายเนื้อหา
+44808	Content Description Content Description Content Description Content Description Content Description	คำอธิบายเนื้อหา คำอธิบายเนื้อหา คำอธิบายเนื้อหา คำอธิบายเนื้อหา คำอธิบายเนื้อหา
+44810	Content Description Content Description Content Description Content Description Content Description	คำอธิบายเนื้อหา คำอธิบายเนื้อหา คำอธิบายเนื้อหา คำอธิบายเนื้อหา คำอธิบายเนื้อหา
+44812	Content Description Content Description Content Description Content Description Content Description	คำอธิบายเนื้อหา คำอธิบายเนื้อหา คำอธิบายเนื้อหา คำอธิบายเนื้อหา คำอธิบายเนื้อหา
+50012	Local Server League Screen Help Text	ข้อความช่วยเหลือหน้าลีกภายในเซิร์ฟเวอร์
+50013	Guild Schedule Help Text	ข้อความช่วยเหลือตารางกิลด์
+50080	Point Rules Help Text	ข้อความช่วยเหลือกฎแต้ม
+50186	Locate Match	การแข่งขัน Locate
+50191	Season points and rankings can be viewed after the Locate Matches end.	ดูแต้มและอันดับฤดูกาลได้หลังการแข่งขัน Locate จบ
+58061	Connect Function	ฟังก์ชัน Connect
+58062	Connect Function Menu	เมนูฟังก์ชัน Connect
+70015	Season Rank Details Season Rank Details	รายละเอียดอันดับฤดูกาล รายละเอียดอันดับฤดูกาล
+90245	No.${1}	หมายเลข ${1}
+90246	No.${1}+	อันดับ ${1}+
