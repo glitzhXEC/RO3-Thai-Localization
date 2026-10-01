@@ -1,32 +1,39 @@
-# Menu translation batches 046–047
+# Menu translation progress — batches 046–053
 
-These batches add 531 manually reviewed, ID-scoped Thai UI translations (264 in batch 046 and 267 in batch 047). English from the game export is the source of truth. The Thai export is a terminology reference only: literal `None`, ID-only values, and translations that contradict English are not imported.
+English from the actual game export is the source of truth. Native Thai from the supplied ZIP is a terminology reference only; literal `None`, ID-only values and translations that contradict English are not copied. Existing approved fresh translations are reused for identical English labels to maintain consistent terminology.
 
-## Coverage
+## Delivered menu batches
 
-- Common UI: confirm/cancel, backpack, weapons/armor, back/exit, filters, notifications, naming, obtain/use, weekdays and time units.
-- Settings: basic controls, targeting, skill bars, keyboard/mouse controls, account/logout, sound, language, display, graphics, HP/name colors, UI layout/scale, item bars and camera controls.
-- Batch 047 adds backpack sorting/selling/unlocking, mail and attachments, map/channel/teleport controls, quest acceptance/tracking/completion, chat/reporting/voice-channel controls and associated messages.
-- 531 new menu source IDs across these two batches; 3,911 authored translation rows in total. Runtime retains English for five held semantic-review IDs and seven authored rows whose value is English; 3,899 runtime IDs therefore differ from English.
-- This is not a complete translation of all menus or all game text. Party/guild/trading and other dedicated menu groups need further batches.
+| Batch | Added IDs | Scope |
+|---|---:|---|
+| 046 | 264 | Common controls and settings |
+| 047 | 267 | Backpack, mail, maps, quests and chat |
+| 048 | 839 | Exact common UI labels repeated across menu IDs |
+| 049 | 190 | Party/raid invitations, leadership, follow, recruitment and messages |
+| 050 | 406 | Guild creation, impeachment, management, buildings, caravan and trade |
+| 051 | 220 | Feature unlocks, auto-battle, navigation, login/network, revive and skill builds |
+| 052 | 234 | Trade market, reservations, penalties, search, combine/dismantle |
+| 053 | 220 | Equipment appraisal, crafting, smelting, refine/enhance and character stats |
 
-## Reference corrections
+- 2,109 new IDs in the latest update; 2,640 authored menu IDs across batches 046–053.
+- 6,020 authored translation IDs across all batches. Runtime retains English for five held semantic-review IDs and seven authored rows whose target equals English: 6,008 runtime IDs differ from English.
+- **This is not a completed translation of every menu or every game text.** Dedicated pet, appearance, events, achievements, presets, newer gameplay systems and other groups still need review. The exact unreviewed UI-candidate inventory is in `menu-translation-coverage.json`; these candidates also contain proper names, technical labels and format-only rows, so their count is not the count of menus requiring Thai.
 
-- ID 1066 `${1}m`: minutes (`${1} นาที`), not points as in the supplied Thai export.
-- ID 27009 `Chase Distance`: `ระยะไล่ตาม`, not attack range.
-- ID 27081 `Modern Mode`: `โหมดสมัยใหม่`, not Fashion.
-- ID 27110: the player continuously normal-attacks the selected target; the subject is not reversed.
-- Key labels inside brackets remain English. Placeholder order, numbers, math symbols and escaped line breaks are preserved.
+## Reference corrections and held context
 
-- ID 34075 `Tap to Join Party`: join an existing party, not create a party as in the supplied Thai reference.
-- ID 34108 `Leave Channel`: leaving a channel; removing another player is a separate confirmation at ID 34109.
+- 1066 `${1}m` means minutes, not points.
+- 27009 `Chase Distance` means chase distance, not attack range.
+- 27081 `Modern Mode` is not Fashion.
+- 27110: the player continuously normal-attacks the selected target, not the reverse.
+- 34075: join a party, not create one.
+- 34108: leave a channel; removing another player is a separate action/confirmation.
+- `Mount` is translated as a noun for mount categories only. The mount/dismount action (49023) and artillery label (61046) remain English pending context. `Deploy` uses the reviewed unit/card/pet/formation context.
+- `Call Mio!!`, isolated `Placement confirmation`, `Misc`-specific party restrictions, `Charisma Baby`, `Stunt`, `Vivify`, `Quasi-Stats` and `Locate` are not guessed.
+- Some bracket-only UI labels remain English because the current runtime protects bracket contents as names. Proper item/location/class names, technical labels, frame rates and format-only strings remain unchanged.
+- Party source data contains inconsistent bonus descriptions: 24043 differs from 24112–24116; 24115 and 24116 both say 4 players with different values. Translations preserve the English values exactly; no gameplay values were invented or corrected.
 
-## Intentionally left English in these groups
+## Delivery and validation
 
-Format-only strings, sprite/color/link markup, frame-rate values, Hard/Semi-Soft/Full Soft Lock labels, and ambiguous labels such as IDs 27003, 27070, 27097 and 27143 were not guessed. ID 1050 protocol diagnostic is not part of these menu batches. Location/item proper names, `TBD`, ambiguous `Build`/`Connect` labels, and the bracketed dynamic label rows 20034 and 34076 remain English.
+This is a text/data-only update. No installer or runtime DLL change is required, and no new executable release is required. Runtime v0.4.0 or later checks the verified schema-2 data feed on game startup. Restart the game with internet access to check for updates; offline/invalid downloads retain the verified cache or bundled fallback.
 
-## Delivery and testing
-
-The existing data-feed workflow regenerates the root override table and the schema-2 English-base runtime feed. No installer or runtime code change is required, and no new executable release is required for this text-only update. Use runtime v0.4.0 or later and restart the game with internet access to check for updated data; if offline, the runtime uses its existing verified cache/bundled data.
-
-Automated validation covers placeholder/tag order, numeric values, mathematical symbols, bracket names, line breaks, Unicode, runtime ID matching and updater integrity. Native Windows UI layout, text clipping, and real-game behavior have not been tested for these batches.
+Validation checks placeholder/tag order, numbers, math symbols, bracket names, escaped controls, Unicode, exact ID/original matching, runtime rules and updater integrity. Additional menu QA decodes escaped control boundaries before counting numbers (so a number immediately after `\n` is still checked). Windows game UI layout, text clipping and in-game behavior have not been tested for these batches.

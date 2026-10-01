@@ -1,3 +1,4 @@
+# Refresh includes batches 048–053: 2,109 additional menu IDs.
 # Refresh includes batches 046–047: 531 new menu IDs.
 # Refresh includes batch 046: common menus and settings (264 new IDs).
 name: Refresh translation tables
@@ -8,6 +9,7 @@ on:
       - '.github/workflows/refresh-translation-tables.yml'
       - 'translations/batch-*.th.json'
       - 'scripts/validate_translations.py'
+      - 'scripts/validate_menu_batches.py'
       - 'scripts/prepare_skill_runtime.py'
   workflow_dispatch:
 permissions:
@@ -30,7 +32,9 @@ jobs:
         with:
           dotnet-version: '8.0.x'
       - name: Validate fresh translations and reject deliberate corruption
-        run: python scripts/test_validation.py
+        run: |
+          python scripts/test_validation.py
+          python scripts/validate_menu_batches.py
       - name: Verify skills runtime and styled numeric rules
         run: |
           python scripts/prepare_live_translations.py
