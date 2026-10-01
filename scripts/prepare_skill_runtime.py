@@ -11,7 +11,7 @@ for path in sorted((root/'translations').glob('batch-*.th.json')):translations.u
 if '--from-overrides' in sys.argv or '--merged' in sys.argv:
  source={};translations={}
  with (root/'translations'/('RO3.LocalizationMerged.tsv' if '--merged' in sys.argv else 'RO3.LocalizationOverrides.tsv')).open(encoding='utf-8',newline='') as file:
-  for cells in csv.reader(file,delimiter='\t'):
+  for cells in csv.reader(file,delimiter='\t',quoting=csv.QUOTE_NONE):
    if len(cells)!=3 or not re.fullmatch(r'\d{4,11}',cells[0]) or cells[0] in translations:raise ValueError('Invalid or duplicate Overrides row')
    if any(c in cells[1]+cells[2] for c in '\r\n\t'):raise ValueError('Control characters must be escaped')
    source[cells[0]]=cells[1];translations[cells[0]]=cells[2]

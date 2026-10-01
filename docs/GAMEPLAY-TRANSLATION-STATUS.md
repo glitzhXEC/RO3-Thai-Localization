@@ -27,6 +27,10 @@ This is a text/data-only update using runtime schema 2. No DLL, EXE, game script
 
 The numeric-rule test renderer now uses the existing single-pass wire decoder for CR, LF, tabs and escaped backslashes; a regression check rejects double-decoding literal backslash-n. No production/runtime code was changed for this test correction.
 
-Authoring QA and decoded-control number QA, corruption rejection, complete English-base audit, runtime rules, language-hook harness and updater tests must pass before publication. Public feed verification checks all three file hashes and all 361 new ID/target pairs through the actual HTTPS updater. These are automated data/mock-runtime checks, not Windows/game UI tests.
+Authoring QA and decoded-control number QA, corruption rejection, complete English-base audit, runtime rules, language-hook harness and updater tests must pass before publication. Public feed verification checks all three file hashes and all 361 new ID/target pairs through the actual HTTPS updater. The generated runtime English/Thai fields are also checked against the canonical merged table for all 33,513 IDs. These are automated data/mock-runtime checks, not Windows/game UI tests.
 
 **This is not a completed translation of every game text.** Other guide, event and quest/dialogue families remain; proper names and technical formats are intentionally retained. In-game wording, layout and clipping have not been verified.
+
+## Quoted TSV field correction
+
+The actual HTTPS smoke test exposed a generator parsing error for 10320000172: ordinary CSV quoting removed its enclosing literal quotation marks, so the source English no longer matched the actual game string. The generator now reads raw runtime TSV with `csv.QUOTE_NONE`, preserving literal quotes rather than treating them as CSV field delimiters. This repairs 26 runtime rows (including English-base-only rows) without changing translation IDs, source text, DLLs or executables. A regression compares every generated English/Thai field byte-for-byte with the canonical merged TSV before publication. Source snapshot TSV parts retain their existing proper CSV reader; only the raw generated TSV reader was corrected.

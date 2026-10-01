@@ -8,6 +8,10 @@ int checks=0;
 void Check(bool yes,string context) { if(!yes)throw new Exception(context);checks++; }
 var rows=File.ReadAllLines(Path.Combine(config,"RO3.SkillTranslations.tsv")).Select(s=>s.Split('\t',3)).ToDictionary(r=>r[0]);
 Check(dict.Count==rows.Count,"Dictionary count");
+var mergedSource=File.ReadAllLines(Path.Combine(root,"translations/RO3.LocalizationMerged.tsv")).Select(s=>s.Split('\t',3)).ToDictionary(r=>r[0]);
+Check(mergedSource.Count==rows.Count,"Runtime source count matches canonical merged table");
+foreach(var row in rows.Values)
+ Check(mergedSource.TryGetValue(row[0],out var faithful)&&row[1]==faithful[1]&&row[2]==faithful[2],"Byte-faithful English/Thai from merged source "+row[0]);
 var englishOnly=rows.Values.Where(r=>r[1]==r[2]).Select(r=>r[1]).ToHashSet();
 foreach(var row in rows.Values)
 {
