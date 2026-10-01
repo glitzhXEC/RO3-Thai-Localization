@@ -30,3 +30,9 @@ def unwire(text):
    out.append(esc[text[i+1]]);i+=2
   else:out.append(text[i]);i+=1
  return ''.join(out)
+
+def read_authoring_source(root):
+ # Author from the verified current English export, including newly exported IDs.
+ # Keep the historical batch wire convention (escape controls, not literal slashes).
+ en,_,_=read_languages(root)
+ return {key:text.replace('\t','\\t').replace('\r','\\r').replace('\n','\\n') for key,text in en.items()}

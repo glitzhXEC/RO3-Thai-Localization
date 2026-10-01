@@ -1,0 +1,1734 @@
+{
+  "scope": "Un-authored source IDs below 100000; not the complete game backlog. Classifications are conservative and unresolved context is not guessed.",
+  "remaining_ids": 344,
+  "counts_by_reason": {
+    "technical_stat_or_format_string": 177,
+    "bracket_content_protected_by_current_runtime": 21,
+    "requires_context_or_terminology_review": 51,
+    "retained_source_name_or_named_game_term": 95
+  },
+  "complete_game_translation": false,
+  "game_tested": false,
+  "rows": [
+    {
+      "id": "1000",
+      "english": "${1}${2} X ${3}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "1001",
+      "english": "${1} X ${2}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "1011",
+      "english": "_",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "1013",
+      "english": "<sprite name=\"common_arrow_07_02\">",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "1018",
+      "english": "<color=#cc762a>${1}</color>",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "1019",
+      "english": "<u>${1}</u>",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "1022",
+      "english": "[${1}]",
+      "reason": "bracket_content_protected_by_current_runtime"
+    },
+    {
+      "id": "1027",
+      "english": "[<color=${1}><u><link=\"${2}\">${3}</link></u></color>]",
+      "reason": "bracket_content_protected_by_current_runtime"
+    },
+    {
+      "id": "1032",
+      "english": "、",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "1033",
+      "english": "；",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "1034",
+      "english": "<color=#b4a797>${1}</color>",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "1043",
+      "english": "<color=#DD563F>%s</color>/%s",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "1044",
+      "english": "<color=#DD563F>%s</color>",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "1065",
+      "english": "：",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "1070",
+      "english": "<sprite name=\"common_arrow_07_03\">",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "1071",
+      "english": "X${1}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "1072",
+      "english": "-",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "2070",
+      "english": "BASE",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "2071",
+      "english": "JOB",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "2072",
+      "english": "HP",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "2073",
+      "english": "SP",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "2074",
+      "english": "K",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "2075",
+      "english": "M",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "2076",
+      "english": "B",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "2078",
+      "english": "Lv.",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "2079",
+      "english": "MVP",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "2080",
+      "english": "s",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "2082",
+      "english": "S",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "2083",
+      "english": "STR",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "2084",
+      "english": "AGI",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "2085",
+      "english": "VIT",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "2086",
+      "english": "INT",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "2087",
+      "english": "DEX",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "2088",
+      "english": "LUK",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "2091",
+      "english": "EXP",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "2094",
+      "english": "${1}!!",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "2095",
+      "english": "UTC+${1}",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "2096",
+      "english": "${1}FPS",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "2097",
+      "english": "BASE:${1}%",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "2098",
+      "english": "${1}%:JOB",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "3001",
+      "english": "Lv.${1}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "3002",
+      "english": "K",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "3003",
+      "english": "M",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "3004",
+      "english": "G",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "3005",
+      "english": "T",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "3028",
+      "english": "Knight",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "3029",
+      "english": "Crusader",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "3033",
+      "english": "BASE <color=#FFEF95>${1}</color>",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "3034",
+      "english": "JOB <color=#FFEF95>${1}</color>",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "11037",
+      "english": "Divine Totem",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "11038",
+      "english": "Soul Echo",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "12007",
+      "english": "N/A",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "12017",
+      "english": "Stunt",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "12031",
+      "english": "Stunt",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "12075",
+      "english": "[Current <color=#c27b47>+${1}</color>]",
+      "reason": "bracket_content_protected_by_current_runtime"
+    },
+    {
+      "id": "13007",
+      "english": "MAX",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "16017",
+      "english": "UID：",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "16025",
+      "english": "BASE",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "16026",
+      "english": "JOB",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "16030",
+      "english": "Quasi-Stats",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "16085",
+      "english": "PATRON",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "16101",
+      "english": "MAX",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "16112",
+      "english": "EXP",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "20016",
+      "english": "Connect",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "20034",
+      "english": "[Mail ${1}]",
+      "reason": "bracket_content_protected_by_current_runtime"
+    },
+    {
+      "id": "21067",
+      "english": "N/A",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "21077",
+      "english": "Stunt",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "21083",
+      "english": "≥",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "21131",
+      "english": "${1}【Identified】",
+      "reason": "bracket_content_protected_by_current_runtime"
+    },
+    {
+      "id": "21133",
+      "english": "Divine Totem",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "21219",
+      "english": "${1}【Collection】",
+      "reason": "bracket_content_protected_by_current_runtime"
+    },
+    {
+      "id": "23000",
+      "english": "Base Lv.: ${1}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "23016",
+      "english": "Cart Merchant",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "23214",
+      "english": "-${1}%",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "23218",
+      "english": "${1}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "23256",
+      "english": "${1}/${2}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "23404",
+      "english": "Lv.${1}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "23409",
+      "english": "Locate",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "23471",
+      "english": "${1}/${2}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "23473",
+      "english": "MAX",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "23518",
+      "english": "Lv. ${1}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "23636",
+      "english": "Lv. ${1}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "23709",
+      "english": "-/-",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "23727",
+      "english": "(No Translation Required)",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "23728",
+      "english": "(No Translation Required)",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "24021",
+      "english": "Call Mio!!",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "24036",
+      "english": "Are you sure you want to Call Mio!! this party member?",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "24063",
+      "english": "AFK",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "24110",
+      "english": "Placement confirmation",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "24117",
+      "english": "0%",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "24118",
+      "english": "25%",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "24119",
+      "english": "50%",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "24120",
+      "english": "75%",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "24121",
+      "english": "100%",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "24125",
+      "english": "N/A",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "24163",
+      "english": "LV.",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "24200",
+      "english": "Lv.${1}~Lv.${2}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "24204",
+      "english": "Start a raid Placement confirmation?",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "24205",
+      "english": "Start Raid Placement confirmation",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "24231",
+      "english": "Parties cannot Request to Join during Misc.",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "24232",
+      "english": "The Party Leader role cannot be transferred during Misc.",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "24233",
+      "english": "Cannot invite players to Join the party in Misc",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "24234",
+      "english": "Players cannot be removed from the party in Misc",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "25135",
+      "english": "ID",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "25277",
+      "english": "Charisma Baby",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "25344",
+      "english": "<color=#ff0000>${1}</color>/${2}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "25445",
+      "english": "Royal Caravan",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "25446",
+      "english": "Wandering Caravan",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "25512",
+      "english": "<color=${1}><sprite name=\"${2}\">${3}</color>",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "26000",
+      "english": "MVP",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "27003",
+      "english": "Log",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "27070",
+      "english": "Nearby Targets with Both High Priorities",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "27097",
+      "english": "Farthest Edge of Nearby Unit",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "27143",
+      "english": "Stationary Skill Follow-Up",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "27188",
+      "english": "30fps",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "27189",
+      "english": "60fps",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "27190",
+      "english": "120fps",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "27201",
+      "english": "80fps",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "28074",
+      "english": "Scenario:",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "29019",
+      "english": "<#c27b47>${1}</color>/${2}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "29020",
+      "english": "<#c27b47>${1}</color>/${2}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "29023",
+      "english": "<#c27b47>${1}</color>/${2}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "30018",
+      "english": "Illusion",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "30019",
+      "english": "MVP",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "30040",
+      "english": "Lv.${1}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "30065",
+      "english": "Illusion",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "30066",
+      "english": "MVP",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "30136",
+      "english": "${1}/3",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "30137",
+      "english": "${1}/${2}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "31104",
+      "english": "${1}/${2}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "31129",
+      "english": "${1}/${2}/${3} ${4}:${5}\n~${6}/${7}/${8} ${9}:${10}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "31155",
+      "english": "???",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "32002",
+      "english": "Butterfly Wing",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "32004",
+      "english": "NPC",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "32019",
+      "english": "Midgard Continent",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "32034",
+      "english": "NPC",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "32036",
+      "english": "Gathering Tribe",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "32037",
+      "english": "Mining Tribe",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "32038",
+      "english": "Logging Tribe",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "32101",
+      "english": "Abandoned Mine",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "32102",
+      "english": "Hidden Forest",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "32103",
+      "english": "Geffen Tower",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "32104",
+      "english": "Underground Culvert",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "32105",
+      "english": "Undersea Tunnel",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "32106",
+      "english": "Payon Cave",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "32107",
+      "english": "Orc Cave",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "32108",
+      "english": "Pyramid",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "32109",
+      "english": "Ant Hell",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "32110",
+      "english": "Sphinx Crypt",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "32111",
+      "english": "Shipwreck Labyrinth",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "32112",
+      "english": "Glast Heim Underground",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "33014",
+      "english": "Novice",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "33022",
+      "english": "CT",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "33030",
+      "english": "<u><color=#62af5e><link=\"jumpskillpos/${1}\">[Go to Prerequisite Skill]</link></color></u>",
+      "reason": "bracket_content_protected_by_current_runtime"
+    },
+    {
+      "id": "33071",
+      "english": "CT: ${1}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "33072",
+      "english": "（<#63A22B>${1}</color>+<#6E8bC8>${2}</color>）",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "33076",
+      "english": "【Special Cooldown Notes】",
+      "reason": "bracket_content_protected_by_current_runtime"
+    },
+    {
+      "id": "33212",
+      "english": "${1}<color=#50A22B>+${2}</color>",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "33230",
+      "english": "I",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "33231",
+      "english": "II",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "33232",
+      "english": "II+",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "33233",
+      "english": "III",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "33235",
+      "english": "Please select your Locate.",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "33236",
+      "english": "This serves as your party Locate indicator only when participating in party or matchmaking content.",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "33239",
+      "english": "Change Locate",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "34022",
+      "english": "Golden Orchid",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "34043",
+      "english": "Tree Hollow",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "34074",
+      "english": "[@${1}]",
+      "reason": "bracket_content_protected_by_current_runtime"
+    },
+    {
+      "id": "34076",
+      "english": "${1}[Members: ${2}/${3}]\n${4}",
+      "reason": "bracket_content_protected_by_current_runtime"
+    },
+    {
+      "id": "34095",
+      "english": "<color=${1}><u><link=\"${2}\">${3}</link></u></color>",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "35027",
+      "english": "TBD",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "36000",
+      "english": "Spirit Tower",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "36004",
+      "english": "${1}%",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "37029",
+      "english": "Lv. ${1}-${2}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "37040",
+      "english": "${1}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "37045",
+      "english": "${1}/${2}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "37132",
+      "english": "BASE EXP",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "37133",
+      "english": "Job EXP",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "37861",
+      "english": "+${1}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "38007",
+      "english": "${1}/${2}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "38514",
+      "english": "、",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "38516",
+      "english": "，",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "40011",
+      "english": "SP",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "40012",
+      "english": "S",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "40013",
+      "english": "A",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "40014",
+      "english": "B",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "40147",
+      "english": "Get ${1} Off Summons",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "40159",
+      "english": "Lv. ${1}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "40172",
+      "english": "${1}★",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "40205",
+      "english": "Active",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "40992",
+      "english": "Mining Star Treasure Hunt",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "44018",
+      "english": "${1} ${2}-${3}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "44021",
+      "english": "${1}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "44041",
+      "english": "${1}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "44056",
+      "english": "${1}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "44074",
+      "english": "${1}/${2}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "44075",
+      "english": "${1}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "44122",
+      "english": "Almagia",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "44123",
+      "english": "[Weak Value]",
+      "reason": "bracket_content_protected_by_current_runtime"
+    },
+    {
+      "id": "44137",
+      "english": "Dracula's Bride",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "44145",
+      "english": "Wedding Crashers",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "44147",
+      "english": "Blood Pact",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "44506",
+      "english": "Temple of Cadence",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "44507",
+      "english": "Above the Sea of Clouds",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "44508",
+      "english": "Chaos Court",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "44801",
+      "english": "Karazhan Harp",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "44803",
+      "english": "Sylvanas Statue",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "44805",
+      "english": "Dwarven Bone Flute",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "44807",
+      "english": "Undead Rapid-Fire Cannon",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "44809",
+      "english": "Alliance Ballista",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "44811",
+      "english": "World's Best Lute",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "49015",
+      "english": "Lv. ${1}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "49023",
+      "english": "Mount",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "50001",
+      "english": "Ragnarok Online",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "50002",
+      "english": "Diamond",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "50003",
+      "english": "Jade",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "50004",
+      "english": "Platinum Range",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "50005",
+      "english": "Gold",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "50006",
+      "english": "Silver",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "50007",
+      "english": "Brass",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "50008",
+      "english": "Black Iron",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "50102",
+      "english": "1-2",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "50103",
+      "english": "3-4",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "50104",
+      "english": "5-6",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "50137",
+      "english": "Water",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "50138",
+      "english": "Mountain",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "50139",
+      "english": "Fire",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "52007",
+      "english": "${1}:${2}:${3}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "52011",
+      "english": "${1}/s",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "54048",
+      "english": "${1}%",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "54054",
+      "english": "Divine Totem",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "54069",
+      "english": "MAX",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "54108",
+      "english": "Novice",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "56164",
+      "english": "${1} has not completed placement confirmation",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "56196",
+      "english": "${1} [${2}] ${3}",
+      "reason": "bracket_content_protected_by_current_runtime"
+    },
+    {
+      "id": "56201",
+      "english": "Divine Blessing:",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "56202",
+      "english": "Light of Bonds:",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "56203",
+      "english": "Divine Blessing",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "56205",
+      "english": "<color=#CC762A>LV.${1}</color>",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "56223",
+      "english": "Lv. ${1}: ${2}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "56229",
+      "english": "×${1}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "56236",
+      "english": "Locate",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "56272",
+      "english": "${1}*${2}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "57004",
+      "english": "${1}%",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "57013",
+      "english": "Lv.${1}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "57018",
+      "english": "Lv.1-20",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "57019",
+      "english": "Lv.21-40",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "57020",
+      "english": "Lv.41-60",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "57021",
+      "english": "Lv.61-80",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "57022",
+      "english": "Lv.81-100",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "57023",
+      "english": "Lv.${1}-${2}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "57027",
+      "english": "Scholar Lv.",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "57035",
+      "english": "${1}/${2}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "57051",
+      "english": "${1} Lv.${2}",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "57106",
+      "english": "MAX",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "58067",
+      "english": "Buff",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "58069",
+      "english": "Debuff",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "58147",
+      "english": "Divine Totem",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "58148",
+      "english": "Soul Echo",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "59000",
+      "english": "Tavern",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "60000",
+      "english": "LV.${1}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "61000",
+      "english": "${1}'s ${2}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "61046",
+      "english": "Mount",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "61050",
+      "english": "Swordsman",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "61051",
+      "english": "Hunter",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "61052",
+      "english": "Acolyte",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "61053",
+      "english": "Mage",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "61054",
+      "english": "Thief",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "61055",
+      "english": "Merchant",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "61118",
+      "english": "P1",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "61119",
+      "english": "P2",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "61120",
+      "english": "P3",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "61142",
+      "english": "A",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "61143",
+      "english": "B",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "61144",
+      "english": "C",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "61145",
+      "english": "D",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "61146",
+      "english": "E",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "61147",
+      "english": "F",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "61189",
+      "english": "<color=#ff7d63>${1}</color>",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "61190",
+      "english": "<color=#4cafff>${1}</color>",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "62056",
+      "english": "Peak Season",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "62059",
+      "english": "UID：${1}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "62060",
+      "english": "Base",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "62061",
+      "english": "Job",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "62074",
+      "english": "${1}/${2}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "62084",
+      "english": "<color=#887968>${1}</color>/${2}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "62098",
+      "english": "${1}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "63002",
+      "english": "Kafra - Battle of the Survivors",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "63070",
+      "english": "Novice",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "63075",
+      "english": "Kafra: Survivor Battle",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "63122",
+      "english": "MVP",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "63124",
+      "english": "NPC",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "63193",
+      "english": "【${1} Ten Thousand】",
+      "reason": "bracket_content_protected_by_current_runtime"
+    },
+    {
+      "id": "63194",
+      "english": "【${1} Hundred Million】",
+      "reason": "bracket_content_protected_by_current_runtime"
+    },
+    {
+      "id": "63211",
+      "english": "<color=#BD9932>${1}</color>/${2}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "63218",
+      "english": "<#62af5e>${1}</color>",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "63223",
+      "english": "Kafra: Battle of Survivors  ${1}",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "63240",
+      "english": "<color=#594E3D>${1}</color>/${2}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "63241",
+      "english": "${1}/${2}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "63604",
+      "english": "Evil Eye Messenger",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "63605",
+      "english": "Traveling Merchant",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "63606",
+      "english": "Mysterious Cube",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "63607",
+      "english": "Pirate Treasure",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "63608",
+      "english": "Evil Eye Emissary",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "63609",
+      "english": "Evil Eye Emissary & Blessing of the Gods",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "63610",
+      "english": "Pirate Phantom",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "64025",
+      "english": "Novice",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "64130",
+      "english": "${1}/<color=#e5dcc1>${2}</color>",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "64138",
+      "english": "DPS",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "68003",
+      "english": "Hidden Trove 68003",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "68004",
+      "english": "Hidden Trove 68004",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "68005",
+      "english": "Hidden Trove 68005",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "68006",
+      "english": "Eden Group: Commendation Vault",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "68016",
+      "english": "[Rift Crisis] Special Commendation",
+      "reason": "bracket_content_protected_by_current_runtime"
+    },
+    {
+      "id": "68017",
+      "english": "[Rift Crisis] Commendation Gift Box",
+      "reason": "bracket_content_protected_by_current_runtime"
+    },
+    {
+      "id": "68028",
+      "english": "Rift Stone",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "68030",
+      "english": "Hidden Trove 68030",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "68031",
+      "english": "<size=24><color=#97E553>${1}</color></size>/${2}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "68032",
+      "english": "<size=24><color=#F3865E>${1}</color></size>/${2}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "68033",
+      "english": "<size=26>${1}</size><color=#C3BAA8>/${2}</color>",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "69013",
+      "english": "Reversi",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "70016",
+      "english": "Feel free to participate in the following Misc activities. Your top 【three Misc activities】 during the Dragon Boat Festival will automatically be selected for rewards.",
+      "reason": "bracket_content_protected_by_current_runtime"
+    },
+    {
+      "id": "70112",
+      "english": "Conqueror",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "70129",
+      "english": "【Equipped】",
+      "reason": "bracket_content_protected_by_current_runtime"
+    },
+    {
+      "id": "70153",
+      "english": "<color=#fdab5b> X${1}</color>",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "70154",
+      "english": "<color=#fdab5b> X${1}</color>",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "71012",
+      "english": "Lv.${1}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "74009",
+      "english": "Base ${1}",
+      "reason": "requires_context_or_terminology_review"
+    },
+    {
+      "id": "80020",
+      "english": "${1}0K",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "80023",
+      "english": "${1} ${2}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "80032",
+      "english": "<sprite name=\"season_num_${1}\">",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "90103",
+      "english": "<color=#887968>${1}</color>/${2}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "90161",
+      "english": "Eastern Forest",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "90162",
+      "english": "Northern Mountains",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "90163",
+      "english": "Western Desert",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "90166",
+      "english": "In the orange and black zones of the 【Realm Map】, the longer you stay and the more players you Kill, the more 【Fatigue】 Floors you accumulate.\nFatigue 【reduces damage dealt】 and 【increases damage taken】. These effects become stronger at higher Floors.\nUpon reaching the Fatigue limit (20 Floors), you will be 【forcibly warped back to Prontera】 and lose 1 Floor of Fatigue.\nAfter leaving an orange or black zone, Fatigue will 【gradually decrease】 over time, even while offline.",
+      "reason": "bracket_content_protected_by_current_runtime"
+    },
+    {
+      "id": "90244",
+      "english": "${1}+",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "91009",
+      "english": "（${1}/${2}）",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "91027",
+      "english": "${1}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "91028",
+      "english": "${1}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "91029",
+      "english": "${1}",
+      "reason": "technical_stat_or_format_string"
+    },
+    {
+      "id": "91030",
+      "english": "[Event]",
+      "reason": "bracket_content_protected_by_current_runtime"
+    },
+    {
+      "id": "91034",
+      "english": "RO Genius LUK Star",
+      "reason": "retained_source_name_or_named_game_term"
+    },
+    {
+      "id": "91050",
+      "english": "【Tap to Participate】",
+      "reason": "bracket_content_protected_by_current_runtime"
+    }
+  ]
+}

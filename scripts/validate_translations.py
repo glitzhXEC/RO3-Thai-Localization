@@ -2,8 +2,8 @@
 import csv,json,re,collections,sys
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
-from source_snapshot import read_source
-source={r['ID']:r['English'] for r in read_source(root)}
+from live_language_source import read_authoring_source
+source=read_authoring_source(root)
 protected=re.compile(r'[$@^]\{\d+\}|(?<![$@^])\{\d+\}|%(?:\d+\$)?[sdif]|<[^>]+>|\\[nrt]')
 math=re.compile(r'[%*+]')
 numbers=re.compile(r'(?<![A-Za-z])\d+(?:\.\d+)?')

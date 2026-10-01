@@ -30,5 +30,18 @@ try:
     assert run().returncode!=0, 'Draft marker not rejected'
 finally:
     batch.write_bytes(original)
+# Newly supported live-source controls must not be dropped or normalized away.
+for key,control in [('44010','\\r'),('53001','\\t')]:
+    matches=[p for p in (root/'translations').glob('batch-*.th.json') if key in json.loads(p.read_text(encoding='utf-8'))]
+    assert len(matches)==1, 'Live-source regression case missing/duplicated'
+    target=matches[0];saved=target.read_bytes()
+    try:
+        data=json.loads(saved)
+        assert control in data[key]
+        data[key]=data[key].replace(control,'',1)
+        target.write_text(json.dumps(data,ensure_ascii=False),encoding='utf-8')
+        assert run().returncode!=0, 'Dropped live-source control was not rejected'
+    finally:
+        target.write_bytes(saved)
 assert run().returncode==0, 'Restored baseline failed'
-print('PASS: baseline, corrupt placeholder, missing multiplication, changed bracket name, broken Unicode, draft marker, restored baseline')
+print('PASS: baseline, corrupt placeholder, missing multiplication, changed bracket name, broken Unicode, draft marker, dropped live CR/tab controls, restored baseline')

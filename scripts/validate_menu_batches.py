@@ -1,9 +1,9 @@
 """Additional menu QA: count numbers after decoding escaped control boundaries."""
 import collections,json,re
 from pathlib import Path
-from source_snapshot import read_source
+from live_language_source import read_authoring_source
 root=Path(__file__).resolve().parents[1]
-source={r['ID']:r['English'] for r in read_source(root)}
+source=read_authoring_source(root)
 def numbers(s):
     # Preserve protected IDs/placeholders/tags separately in the main validator.
     # Decode control delimiters before numeric matching so \\n2 is counted as 2.
