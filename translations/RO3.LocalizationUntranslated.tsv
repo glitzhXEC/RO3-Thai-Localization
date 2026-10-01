@@ -4755,49 +4755,7 @@
 13750000002	Growth Stage	Growth Stage
 13750000003	Mature Stage	Mature Stage
 23000	Base Lv.: ${1}	Base Lv.: ${1}
-23001	Skill Unlocked: ${1}	Skill Unlocked: ${1}
-23002	Rent	Rent
-23003	Cancel Rental	Cancel Rental
-23004	Go unlock	Go unlock
-23006	Ride	Ride
-23007	Open	Open
-23008	Put in the Cart.	Put in the Cart.
-23009	Return to Backpack	Return to Backpack
-23010	This item cannot be Put in the Cart.	This item cannot be Put in the Cart.
-23011	Cannot organize during batch processing	Cannot organize during batch processing
-23012	Level too low! Hurry and Level-up!	Level too low! Hurry and Level-up!
-23013	Rental Successful	Rental Successful
-23014	Rental Canceled	Rental Canceled
-23015	${1} is full. Please clear your cart and try again.	${1} is full. Please clear your cart and try again.
 23016	Cart Merchant	Cart Merchant
-23018	You haven't learned the required skill, so you can't rent this.	You haven't learned the required skill, so you can't rent this.
-23019	Special Class Item	Special Class Item
-23021	Rented	Rented
-23022	Class Item	Class Item
-23023	Unlock Requirement	Unlock Requirement
-23024	Sort	Sort
-23025	Confirm Add	Confirm Add
-23026	Add Multiple	Add Multiple
-23027	Cancel Add	Cancel Add
-23028	Too many requests. Please try again later.	Too many requests. Please try again later.
-23029	Go to Rental	Go to Rental
-23031	Charm	Charm
-23032	After renting, tap Ride in the lower-left corner of the main screen.	After renting, tap Ride in the lower-left corner of the main screen.
-23033	Right Tap to Open	Right Tap to Open
-23034	You must Clear all items from the Cart Merchant before you can Cancel Rental.	You must Clear all items from the Cart Merchant before you can Cancel Rental.
-23035	Cannot reset the [Cart Use] skill. Please Clear all items from the Cart Merchant first.	Cannot reset the [Cart Use] skill. Please Clear all items from the Cart Merchant first.
-23036	Job Items	Job Items
-23104	Not enough [${1}]~	Not enough [${1}]~
-23105	Revive Prompt	Revive Prompt
-23106	Revive	Revive
-23107	Use 1 Yggdrasil Leaf to Revive 【${1}】?	Use 1 Yggdrasil Leaf to Revive 【${1}】?
-23108	Automatically use when HP falls below <color=#cc762a>${1}%</color>	Automatically use when HP falls below <color=#cc762a>${1}%</color>
-23109	Automatically use when SP falls below <color=#cc762a>${1}%</color>	Automatically use when SP falls below <color=#cc762a>${1}%</color>
-23110	Add All	Add All
-23112	Player ${1} revived you	Player ${1} revived you
-23113	Wing items cannot be used while dead	Wing items cannot be used while dead
-23114	This item is temporarily unavailable.	This item is temporarily unavailable.
-23115	Item-based healing is temporarily disabled. Use potions with caution.	Item-based healing is temporarily disabled. Use potions with caution.
 11520400000	^{1}^{2}^{3}Magic^{4}^{5}^{6}\n^{7}^{8}^{9}AoE^{10}^{11}^{12}	^{1}^{2}^{3}Magic^{4}^{5}^{6}\n^{7}^{8}^{9}AoE^{10}^{11}^{12}
 11520400001	^{1}^{2}^{3}Physical^{4}^{5}^{6}\n^{7}^{8}^{9}Buff^{10}^{11}^{12}	^{1}^{2}^{3}Physical^{4}^{5}^{6}\n^{7}^{8}^{9}Buff^{10}^{11}^{12}
 11520400002	^{1}^{2}^{3}Physical^{4}^{5}^{6}\n^{7}^{8}^{9}Ranged^{10}^{11}^{12}\n^{13}^{14}^{15}Buff^{16}^{17}^{18}	^{1}^{2}^{3}Physical^{4}^{5}^{6}\n^{7}^{8}^{9}Ranged^{10}^{11}^{12}\n^{13}^{14}^{15}Buff^{16}^{17}^{18}
@@ -4830,341 +4788,26 @@
 11930000029	Test Limited-Time Pool @{1} - Open for @{2} Days from Launch	Test Limited-Time Pool @{1} - Open for @{2} Days from Launch
 11930000030	Test Limited-Time Pool @{1} - Days @{2}–@{3} After Launch	Test Limited-Time Pool @{1} - Days @{2}–@{3} After Launch
 11930000031	S@{1} Large Card Pool - New Version	S@{1} Large Card Pool - New Version
-23200	Help Text	Help Text
-23203	Search History:	Search History:
-23204	${1} days remaining	${1} days remaining
-23205	${1} hr. remaining	${1} hr. remaining
-23206	${1} min. remaining	${1} min. remaining
-23208	Search Shop	Search Shop
-23209	Search Point Mall	Search Point Mall
-23210	Daily Purchase Limit: ${1}/${2}	Daily Purchase Limit: ${1}/${2}
-23211	Weekly Purchase Limit: ${1}/${2}	Weekly Purchase Limit: ${1}/${2}
-23212	Monthly Purchase Limit: ${1}/${2}	Monthly Purchase Limit: ${1}/${2}
-23213	Lifetime Purchase Limit: ${1}/${2}	Lifetime Purchase Limit: ${1}/${2}
 23214	-${1}%	-${1}%
-23215	Delete Prompt	Delete Prompt
-23217	Sold out	Sold out
 23218	${1}	${1}
-23219	Owned: ${1}	Owned: ${1}
-23220	Remaining: ${1}	Remaining: ${1}
-23221	No matching results	No matching results
-23222	Delete search history?\nThis will permanently clear all search history and cannot be undone.	Delete search history?\nThis will permanently clear all search history and cannot be undone.
-23223	Purchase requirements not met	Purchase requirements not met
-23224	Sold out	Sold out
-23225	Daily Purchase Limit	Daily Purchase Limit
-23226	Weekly Purchase Limit	Weekly Purchase Limit
-23227	Monthly Purchase Limit	Monthly Purchase Limit
-23228	Lifetime Purchase Limit	Lifetime Purchase Limit
-23229	No search history	No search history
-23230	Refreshes daily at ${1}	Refreshes daily at ${1}
-23231	New items coming soon. Stay tuned!	New items coming soon. Stay tuned!
-23233	Point Mall	Point Mall
-23234	${1} days remaining	${1} days remaining
-23235	${1} hours remaining	${1} hours remaining
-23236	${1} minutes remaining	${1} minutes remaining
-23237	Purchase Successful	Purchase Successful
-23238	${1} seconds remaining	${1} seconds remaining
-23239	New Season Arrivals	New Season Arrivals
-23241	Season Limited-Time Offer	Season Limited-Time Offer
-23242	Search Items	Search Items
-23243	After purchasing a paid item, please claim it from your mail.	After purchasing a paid item, please claim it from your mail.
-23244	First Purchase Bonus	First Purchase Bonus
-23245	Extra Bonus	Extra Bonus
-23246	Fashion	Fashion
-23248	Costume	Costume
-23250	Accessory	Accessory
-23251	Friend Gifts	Friend Gifts
-23252	Confirm Gift	Confirm Gift
-23253	Recipient Already Owns This	Recipient Already Owns This
-23254	Effect Preview	Effect Preview
 23256	${1}/${2}	${1}/${2}
-23257	${1}d	${1}d
-23258	${1}h	${1}h
-23259	${1}m	${1}m
-23260	${1}s	${1}s
-23261	If unclaimed after ${1} hr. ${2} min., the cost will be refunded	If unclaimed after ${1} hr. ${2} min., the cost will be refunded
-23262	Gift claimed	Gift claimed
-23263	Gift cost refunded by mail	Gift cost refunded by mail
-23264	or	or
-23265	And	And
-23266	Purchase limit reached	Purchase limit reached
-23267	Gift sent successfully. Please wait for the recipient to accept it.	Gift sent successfully. Please wait for the recipient to accept it.
-23268	Go to Wardrobe	Go to Wardrobe
-23269	Discount Ends In: ${1}	Discount Ends In: ${1}
-23270	Season Purchase Limit: ${1}/${2}	Season Purchase Limit: ${1}/${2}
-23271	Global Purchase Limit: ${1}/${2}	Global Purchase Limit: ${1}/${2}
-23272	Not owned	Not owned
-23274	Obtained	Obtained
-23275	Redeemed	Redeemed
-23276	Exchange failed	Exchange failed
-23277	Awaiting payment...	Awaiting payment...
-23278	Confirm exchange?	Confirm exchange?
-23280	A small token of my appreciation	A small token of my appreciation
-23281	Enter a friend's name or UID to search	Enter a friend's name or UID to search
-23282	No friends available to receive gifts	No friends available to receive gifts
-23283	Currently trying on <color=#cc762a>${1}</color> Appearance items	Currently trying on <color=#cc762a>${1}</color> Appearance items
-23284	<color=#cc762a>${1}</color> valid items	<color=#cc762a>${1}</color> valid items
-23285	Selected (<color=#cc762a>${1}</color>)	Selected (<color=#cc762a>${1}</color>)
-23286	Default	Default
-23287	Price - Ascending	Price - Ascending
-23288	Price - Descending	Price - Descending
-23289	Listing Time - Ascending	Listing Time - Ascending
-23290	Listing Time - Descending	Listing Time - Descending
-23291	Confirm and purchase	Confirm and purchase
-23293	Please select an item first.	Please select an item first.
-23295	Confirm and purchase?	Confirm and purchase?
-23296	Insufficient Balance	Insufficient Balance
-23297	Your balance is insufficient. Go to Top Up?	Your balance is insufficient. Go to Top Up?
-23298	Price	Price
-23299	Purchase (<color=#cc762a>${1}</color> total)	Purchase (<color=#cc762a>${1}</color> total)
-23300	Delete (<color=#cc762a>${1}</color> total)	Delete (<color=#cc762a>${1}</color> total)
-23301	Go Get	Go Get
-23302	Sorting Rules	Sorting Rules
-23303	Priority	Priority
-23304	Top Up	Top Up
-23305	Add to Cart	Add to Cart
-23310	Subtotal	Subtotal
-23311	Total	Total
-23312	Shopping Cart	Shopping Cart
-23313	No valid items	No valid items
-23315	Apply	Apply
-23316	Total:	Total:
 220001	Attack	Attack
 220002	Global Attack	Global Attack
 220003	Defense	Defense
 220004	Global Defense	Global Defense
-23398	No private chats	No private chats
-23399	No friends found	No friends found
-23401	Recent	Recent
-23403	Group Chat	Group Chat
 23404	Lv.${1}	Lv.${1}
-23405	Stranger	Stranger
-23406	Cross-server	Cross-server
-23408	Intimacy:	Intimacy:
 23409	Locate	Locate
-23410	Mini Window	Mini Window
-23413	Send	Send
-23414	Tap to enter text	Tap to enter text
-23415	All Friends	All Friends
-23416	Blocks	Blocks
-23417	Cross-server Friends	Cross-server Friends
-23418	Create Group	Create Group
-23419	About Cross-server Friends	About Cross-server Friends
-23420	Select a contact on the left to start chatting	Select a contact on the left to start chatting
-23421	1.The continent of Prontera is never short of Adventurers, and helping one another is considered its highest virtue.\n2.You can add other Adventurers as friends through the game world, chat channels, rankings, and more.\n3.After sending a friend request, you must wait for the other player to accept before you become friends.\n4.Team up with friends to participate in activities and complete quests to earn Intimacy Points and raise your Intimacy Level.\n5.Once you reach the required Intimacy Level, you will receive bonus effects when teamed up together.\n6.Friends can also exchange gifts to increase their Intimacy Points.	1.The continent of Prontera is never short of Adventurers, and helping one another is considered its highest virtue.\n2.You can add other Adventurers as friends through the game world, chat channels, rankings, and more.\n3.After sending a friend request, you must wait for the other player to accept before you become friends.\n4.Team up with friends to participate in activities and complete quests to earn Intimacy Points and raise your Intimacy Level.\n5.Once you reach the required Intimacy Level, you will receive bonus effects when teamed up together.\n6.Friends can also exchange gifts to increase their Intimacy Points.
-23422	My Group Chats	My Group Chats
-23423	Create Group Chat	Create Group Chat
-23424	Group Host: ${1}	Group Host: ${1}
-23425	Created: ${2}/${3}/${1}	Created: ${2}/${3}/${1}
-23427	Set as Close Friends Group Chat	Set as Close Friends Group Chat
-23428	Group chat settings	Group chat settings
-23429	Leave group chat	Leave group chat
-23430	Go add some friends now!	Go add some friends now!
-23431	No chat history	No chat history
-23432	Tap to edit members	Tap to edit members
-23433	Send Friend Request	Send Friend Request
-23434	Current Server	Current Server
-23435	Cross-server	Cross-server
-23436	Search player name or ID…	Search player name or ID…
-23438	Request	Request
-23439	Friend Recommendations:	Friend Recommendations:
-23440	Group Settings	Group Settings
-23441	Select Group	Select Group
-23442	Group Name	Group Name
-23443	Number of Members	Number of Members
-23444	Group Host	Group Host
-23445	Ungrouped	Ungrouped
-23446	My Friends	My Friends
-23447	Enter a player name to search	Enter a player name to search
-23448	Leave group chat	Leave group chat
-23449	Disband Group	Disband Group
-23451	Select Group	Select Group
-23452	Create Group	Create Group
-23453	Members Selected: ${1}	Members Selected: ${1}
-23454	No Online members in this group	No Online members in this group
-23455	Enter a friend's name	Enter a friend's name
-23457	Give ${1}	Give ${1}
-23458	Heart Points +${1}	Heart Points +${1}
-23459	Intimacy Points +${1}	Intimacy Points +${1}
-23460	Popularity Rankings	Popularity Rankings
-23461	Gifting Record	Gifting Record
-23462	Intimacy Help	Intimacy Help
-23463	Intimacy:	Intimacy:
-23464	My Heart Points:	My Heart Points:
-23465	Their Popularity This Week:	Their Popularity This Week:
-23466	All-Time Popularity:	All-Time Popularity:
-23467	Change Friend	Change Friend
-23468	Gift Message	Gift Message
-23469	Enter a gift message	Enter a gift message
-23470	Submit Anonymously	Submit Anonymously
 23471	${1}/${2}	${1}/${2}
-23472	Gift Quantity	Gift Quantity
 23473	MAX	MAX
-23475	Affinity Level Bonus	Affinity Level Bonus
-23476	Intimacy with ${1}	Intimacy with ${1}
-23477	Current Effect: ${1}	Current Effect: ${1}
-23478	Intimacy: Lv${1}	Intimacy: Lv${1}
-23479	Max: Lv. ${1}	Max: Lv. ${1}
-23480	How to Gain Affection:	How to Gain Affection:
-23481	Ignore all	Ignore all
-23483	Enter a name for the group…	Enter a name for the group…
-23484	Selected Friends: ${1}	Selected Friends: ${1}
-23485	Create	Create
-23486	Enter a group name (up to 7 characters).	Enter a group name (up to 7 characters).
-23487	Selected: ${1}	Selected: ${1}
-23489	Edit Group	Edit Group
-23490	Delete Group	Delete Group
-23491	Enter your broadcast message	Enter your broadcast message
-23492	Gift History	Gift History
-23493	Gifting Record	Gifting Record
-23494	Select Friend	Select Friend
-23495	Edit Group Chat Name…	Edit Group Chat Name…
-23498	Do Not Disturb	Do Not Disturb
-23499	Tap a player's Portrait to Add Friend.	Tap a player's Portrait to Add Friend.
-23501	Universal Mount	Universal Mount
-23502	Combat Mount	Combat Mount
-23503	Style Level	Style Level
-23506	Trait +${1}	Trait +${1}
-23507	Mount Stats	Mount Stats
-23508	Active Mount Attributes	Active Mount Attributes
-23509	Source: <#b05142><${1}></color>	Source: <#b05142><${1}></color>
-23510	Mount Appearance	Mount Appearance
-23511	Mount Stats	Mount Stats
-23513	Mount Skills	Mount Skills
-23514	How to Obtain	How to Obtain
-23515	Use Mount	Use Mount
-23516	${1} hr ${2} min	${1} hr ${2} min
-23517	Style Level	Style Level
 23518	Lv. ${1}	Lv. ${1}
-23520	Unavailable	Unavailable
-23521	1. Mounts are divided into two categories: Combat Mounts and General Mounts. The Peco Peco is an exclusive Combat Mount for Knight classes. Once they meet the requirements, Knight classes can claim and use it immediately. This mount is unavailable to other classes.\n2. Mounts come in different qualities. Each quality has different ranges for mount speed, attributes, and special stats. The higher the quality, the higher these values will be.\n3. Different mounts have different special stats, with value ranges determined by the mount's quality.\n4. To gain a General Mount's attributes, set it as your default mount. 【Combat Mount】 and 【General Mount】 attributes are separate, and a mount's appearance and attributes cannot be used separately.	1. Mounts are divided into two categories: Combat Mounts and General Mounts. The Peco Peco is an exclusive Combat Mount for Knight classes. Once they meet the requirements, Knight classes can claim and use it immediately. This mount is unavailable to other classes.\n2. Mounts come in different qualities. Each quality has different ranges for mount speed, attributes, and special stats. The higher the quality, the higher these values will be.\n3. Different mounts have different special stats, with value ranges determined by the mount's quality.\n4. To gain a General Mount's attributes, set it as your default mount. 【Combat Mount】 and 【General Mount】 attributes are separate, and a mount's appearance and attributes cannot be used separately.
-23522	1. Activating a mount automatically grants its corresponding Style Points. Each mount grants Style Points only once.\n2. Style Points accumulate as you unlock more mounts. Your total Style Points will never decrease. Battle Mounts do not grant Style Points.	1. Activating a mount automatically grants its corresponding Style Points. Each mount grants Style Points only once.\n2. Style Points accumulate as you unlock more mounts. Your total Style Points will never decrease. Battle Mounts do not grant Style Points.
-23523	Please set a default mount before use.	Please set a default mount before use.
-23524	Mount Info	Mount Info
-23525	No rewards available to claim.	No rewards available to claim.
-23527	Obtain the Mount [${1}] permanently	Obtain the Mount [${1}] permanently
-23528	Mounts cannot be obtained repeatedly	Mounts cannot be obtained repeatedly
-23529	Obtain the mount [${1}] for a limited time	Obtain the mount [${1}] for a limited time
-23530	Please land before initiating the Interaction.	Please land before initiating the Interaction.
 13350100000	Active in Guild Stronghold Battles, Escort Battles, and Siege Battles	Active in Guild Stronghold Battles, Escort Battles, and Siege Battles
-23600	No gift history yet	No gift history yet
-23601	Intimacy Bonus Effect:	Intimacy Bonus Effect:
-23602	Search results can't be empty.	Search results can't be empty.
-23603	Friend request sent.	Friend request sent.
-23604	They are already your friend.	They are already your friend.
-23605	You've reached the Add Friend limit.	You've reached the Add Friend limit.
-23606	The other player's friend list is full.	The other player's friend list is full.
-23607	You are on their Blocks list and cannot Add Friend.	You are on their Blocks list and cannot Add Friend.
-23608	No matching target found.	No matching target found.
-23609	You have unfriended ${1}.	You have unfriended ${1}.
-23610	${1} is online!	${1} is online!
-23611	You are now friends with ${1}. Start chatting!	You are now friends with ${1}. Start chatting!
-23612	This player is in Blocks. Remove them from Blocks before selecting Add Friend.	This player is in Blocks. Remove them from Blocks before selecting Add Friend.
-23614	Removing player <color=#FA983A>${1}</color> will make you strangers and permanently reset your Intimacy. Confirm?	Removing player <color=#FA983A>${1}</color> will make you strangers and permanently reset your Intimacy. Confirm?
-23615	Blocking <color=#FA983A>${1}</color> will remove them from your friends list and prevent you from receiving their messages. Your Intimacy and chat history will also be permanently deleted. Continue?	Blocking <color=#FA983A>${1}</color> will remove them from your friends list and prevent you from receiving their messages. Your Intimacy and chat history will also be permanently deleted. Continue?
-23616	Yesterday	Yesterday
-23617	Enter a group name (up to seven characters)	Enter a group name (up to seven characters)
-23618	Selected	Selected
-23619	Are you sure you want to delete the current chat history?	Are you sure you want to delete the current chat history?
-23620	Affection: +${1}	Affection: +${1}
-23621	Popularity: +${1}	Popularity: +${1}
-23622	Affection: +${1}	Affection: +${1}
-23623	${1} gave ${2} ${3} * ${4}	${1} gave ${2} ${3} * ${4}
-23624	Group name cannot be empty	Group name cannot be empty
-23625	Group Chat name cannot be empty	Group Chat name cannot be empty
-23626	Delete this group?	Delete this group?
-23627	Maximum number of groups reached	Maximum number of groups reached
-23628	Maximum number of Group Chats reached	Maximum number of Group Chats reached
-23629	Maximum number of group Members reached	Maximum number of group Members reached
-23630	Maximum number of Group Chat Members reached	Maximum number of Group Chat Members reached
-23631	Delete this group?	Delete this group?
-23632	Leave this Group Chat?	Leave this Group Chat?
-23633	Disband this Group Chat?	Disband this Group Chat?
-23634	Remove this Member from the Group Chat?	Remove this Member from the Group Chat?
-23635	Refreshing recommended friends is on cooldown	Refreshing recommended friends is on cooldown
 23636	Lv. ${1}	Lv. ${1}
-23637	Cancel Close Friends Group Chat	Cancel Close Friends Group Chat
-23638	${1} received ${2} ${3} * ${4}	${1} received ${2} ${3} * ${4}
-23639	1. After a gift is sent, both friends will gain the corresponding values.\n2. Popularity: The value gained by the gift recipient after receiving a gift.\n3. Affection: The value gained by the sender after sending a gift.\n4. Intimacy: The value gained by both the sender and recipient after a gift is sent.	1. After a gift is sent, both friends will gain the corresponding values.\n2. Popularity: The value gained by the gift recipient after receiving a gift.\n3. Affection: The value gained by the sender after sending a gift.\n4. Intimacy: The value gained by both the sender and recipient after a gift is sent.
-23640	Friends Info	Friends Info
-23641	Intimacy Info	Intimacy Info
-23642	Group name has reached the character limit	Group name has reached the character limit
-23643	You can send messages once they reach Lv. ${1}	You can send messages once they reach Lv. ${1}
-23644	Anonymous Friend	Anonymous Friend
-23645	You cannot add yourself as friend.	You cannot add yourself as friend.
-23646	No recommended friends	No recommended friends
-23647	No new friend requests	No new friend requests
-23648	You	You
-23649	Friend Chat	Friend Chat
-23650	Send Friend Gift	Send Friend Gift
-23651	Gifting Info	Gifting Info
-23652	1. Gifts can only be sent between players who are friends with each other.\n2. The recipient must be Online to receive a gift.\n3. You can switch recipients on the gifting screen.\n4. Each gift grants different amounts of Intimacy and Affection. Once sent, both friends will receive the corresponding bonuses.\n5. Only premium gifts allow custom messages and trigger a flashy Entire Server Notification.	1. Gifts can only be sent between players who are friends with each other.\n2. The recipient must be Online to receive a gift.\n3. You can switch recipients on the gifting screen.\n4. Each gift grants different amounts of Intimacy and Affection. Once sent, both friends will receive the corresponding bonuses.\n5. Only premium gifts allow custom messages and trigger a flashy Entire Server Notification.
-23653	Similar Level	Similar Level
-23654	Same Class	Same Class
-23655	Opposite-Gender Players	Opposite-Gender Players
-23656	Recently Teamed Up	Recently Teamed Up
-23657	This player is in Blocks. Remove them from Blocks before selecting Add Friend.	This player is in Blocks. Remove them from Blocks before selecting Add Friend.
-23658	Welcome ${1} to the Group Chat	Welcome ${1} to the Group Chat
-23659	${1} left the Group Chat	${1} left the Group Chat
-23660	You've joined Group Chat ${1}. Say hello~	You've joined Group Chat ${1}. Say hello~
-23661	You must be friends before you can send gifts~	You must be friends before you can send gifts~
-23662	Gifting Record	Gifting Record
-23663	1. Each player can have up to 50 Cross-server Friends.\n2. After a server merge, Cross-server Friends will automatically be added to My Friends.\n3. Cross-server Friends can team up for certain activities, but cannot send gifts.	1. Each player can have up to 50 Cross-server Friends.\n2. After a server merge, Cross-server Friends will automatically be added to My Friends.\n3. Cross-server Friends can team up for certain activities, but cannot send gifts.
-23664	Search Results:	Search Results:
-23665	Player not found	Player not found
-23666	This player has disabled the friend Function	This player has disabled the friend Function
-23667	Level Bonus	Level Bonus
-23668	Friends can increase Friendship by teaming up for activities or sending gifts	Friends can increase Friendship by teaming up for activities or sending gifts
-23669	Like is only the beginning. My love for you will never end~	Like is only the beginning. My love for you will never end~
-23670	You received ${2} from ${1}. Message: ${3}	You received ${2} from ${1}. Message: ${3}
-23671	Enter player name	Enter player name
-23672	Recommended Friends	Recommended Friends
-23673	You're on this player's Blocks and cannot send messages	You're on this player's Blocks and cannot send messages
-23674	This player is on your Blocks list, so you cannot send them messages	This player is on your Blocks list, so you cannot send them messages
-23675	You cannot send messages to yourself	You cannot send messages to yourself
-23677	Benefits	Benefits
-23678	Fashion	Fashion
-23679	${1} went offline	${1} went offline
-23680	Switched to anonymous gifting mode	Switched to anonymous gifting mode
-23681	Anonymous gifting mode disabled	Anonymous gifting mode disabled
-23682	Intimacy Level:	Intimacy Level:
-23683	Intimacy Tier:	Intimacy Tier:
-23684	Bonus:	Bonus:
-23685	Intimacy	Intimacy
-23686	Current Cap	Current Cap
-23687	Already Friends	Already Friends
-23688	Group Members:	Group Members:
-23689	Claim Gift	Claim Gift
-23690	Gift: ${1}	Gift: ${1}
-23691	Gift claimed	Gift claimed
-23692	Group Chat Do Not Disturb	Group Chat Do Not Disturb
-23693	This Group Chat has been muted.	This Group Chat has been muted.
-23694	Group Chat Name:	Group Chat Name:
-23695	You've already sent this player a friend request.	You've already sent this player a friend request.
-23701	1. Rankings are updated in real time.\n2. For some rankings, click a column header to customize the sorting order.\n3. Settlement for the Battle Power Rankings occurs every Monday at 05:00, and ranking rewards are distributed.	1. Rankings are updated in real time.\n2. For some rankings, click a column header to customize the sorting order.\n3. Settlement for the Battle Power Rankings occurs every Monday at 05:00, and ranking rewards are distributed.
-23702	Top Ten Players	Top Ten Players
-23703	Full Rankings	Full Rankings
-23706	Power	Power
-23707	No Adventurers made the rankings.	No Adventurers made the rankings.
-23708	Unranked	Unranked
 23709	-/-	-/-
-23710	Friends and Guild Members Only	Friends and Guild Members Only
-23711	View Info	View Info
-23713	Rank ${1}–${2}	Rank ${1}–${2}
-23714	Weekly Ranking Reward Settlement: ${1}${2} o'clock	Weekly Ranking Reward Settlement: ${1}${2} o'clock
-23715	My Rank: ${1}	My Rank: ${1}
-23716	Daily Ranking Reward Settlement at ${1}	Daily Ranking Reward Settlement at ${1}
-23717	No rewards available	No rewards available
 23725	Power Rankings Help Text	Power Rankings Help Text
 23727	(No Translation Required)	(No Translation Required)
 23728	(No Translation Required)	(No Translation Required)
 23729	The Journey Begins	The Journey Begins
 23730	Hero Registry	Hero Registry
-23731	Pet Not Deployed	Pet Not Deployed
-23733	You haven't made the rankings yet, so there are no rewards to claim.	You haven't made the rankings yet, so there are no rewards to claim.
-23734	No one is currently ranked.	No one is currently ranked.
-23735	Divine Armament Rank ${1}	Divine Armament Rank ${1}
-23736	You cannot view your own information.	You cannot view your own information.
 11530100000	Load cargo for your guild and dispatch the Guild Caravan's freight wagon to earn abundant Personal Rewards and provide your guild with plenty of Guild Funds!	Load cargo for your guild and dispatch the Guild Caravan's freight wagon to earn abundant Personal Rewards and provide your guild with plenty of Guild Funds!
 11530100001	Fight alongside your Pet to Challenge a tower teeming with Monsters and push your Floors to the limit!	Fight alongside your Pet to Challenge a tower teeming with Monsters and push your Floors to the limit!
 11530100002	Find powerful MVP Monsters in the Field and participate in an MVP Kill to earn Rare rewards!	Find powerful MVP Monsters in the Field and participate in an MVP Kill to earn Rare rewards!
@@ -5241,235 +4884,14 @@
 11420000019	Guild Weekly Activity Reward Tier 3	Guild Weekly Activity Reward Tier 3
 11420000020	Guild Weekly Activity Reward Tier 4	Guild Weekly Activity Reward Tier 4
 11420000021	Guild Weekly Activity Reward Tier 5	Guild Weekly Activity Reward Tier 5
-90001	Unoccupied	Unoccupied
-90002	Switched to Warzone ${1}	Switched to Warzone ${1}
-90003	Revive Point	Revive Point
-90004	Stronghold	Stronghold
-90005	Main Camp	Main Camp
-90006	Camp	Camp
-90007	Siege Camp	Siege Camp
-90008	War Continent	War Continent
-90009	Peace	Peace
-90011	Free	Free
-90012	The following materials will be consumed to establish a Siege Camp at your current location	The following materials will be consumed to establish a Siege Camp at your current location
-90013	Dismantling the siege camp while it is under construction will refund all materials consumed. Once construction is complete, dismantling it will not refund any materials.	Dismantling the siege camp while it is under construction will refund all materials consumed. Once construction is complete, dismantling it will not refund any materials.
-90014	Are you sure you want to dismantle 【${1}】 Camp?	Are you sure you want to dismantle 【${1}】 Camp?
-90015	Stronghold War - Off-Season	Stronghold War - Off-Season
-90016	Stronghold War - Auction Phase	Stronghold War - Auction Phase
-90017	Stronghold War - Preparation Phase	Stronghold War - Preparation Phase
-90018	Stronghold Battle - In Progress	Stronghold Battle - In Progress
-90019	Stronghold War - Ended	Stronghold War - Ended
-90020	Stronghold War bidding opens in ${1}	Stronghold War bidding opens in ${1}
-90021	Bidding ends in ${1}	Bidding ends in ${1}
-90022	Stronghold War begins in ${1}	Stronghold War begins in ${1}
-90023	The mode ends in ${1}	The mode ends in ${1}
-90024	Your guild has qualified to participate.	Your guild has qualified to participate.
-90025	Your guild did not qualify to participate.	Your guild did not qualify to participate.
-90026	Go to Auction	Go to Auction
-90028	Participate	Participate
-90029	War Map	War Map
-90030	Stronghold Battle	Stronghold Battle
-90031	Supply Transport	Supply Transport
-90032	Open Bidding Phase	Open Bidding Phase
-90033	Final Bidding	Final Bidding
-90034	Qualified to Participate	Qualified to Participate
-90035	Increasing Bid	Increasing Bid
-90036	Increase Bid	Increase Bid
-90038	Cannot switch Factions while the Faction switch is on cooldown.	Cannot switch Factions while the Faction switch is on cooldown.
-90039	Already on the map.	Already on the map.
-90040	Insufficient permissions	Insufficient permissions
-90041	A bid has already been placed.	A bid has already been placed.
-90042	Invalid bid. Please check the starting price and your available funds.	Invalid bid. Please check the starting price and your available funds.
-90043	Bid Successful	Bid Successful
-90044	Go to Increase Bid	Go to Increase Bid
-90045	Spend ${1}${2} to place an order with ${3} for ${4} ${5}?	Spend ${1}${2} to place an order with ${3} for ${4} ${5}?
-90046	Preset Message	Preset Message
-90047	Purchase Message	Purchase Message
-90049	Request Purchase	Request Purchase
-90050	Contact Seller	Contact Seller
-90051	Awaiting Seller Confirmation	Awaiting Seller Confirmation
-90052	Purchase Successful	Purchase Successful
-90053	Purchase Failed	Purchase Failed
-90054	You do not have permission to perform this action.	You do not have permission to perform this action.
-90055	${1}d ${2}h ago	${1}d ${2}h ago
-90056	${1}h ${2}m ago	${1}h ${2}m ago
-90057	${1} minutes ago	${1} minutes ago
-90058	Default Listing Message	Default Listing Message
-90059	Confirm Changes	Confirm Changes
-90062	Withdraw	Withdraw
-90063	Request sent	Request sent
-90064	Listed successfully.	Listed successfully.
-90065	Changed	Changed
-90066	Listing Removed	Listing Removed
-90067	No Reference Price Available	No Reference Price Available
-90069	Item Details	Item Details
-90070	Reference Sale Price	Reference Sale Price
-90071	Purchase Orders	Purchase Orders
-90072	Sale Orders	Sale Orders
-90073	Seller	Seller
-90074	Supply Quantity	Supply Quantity
-90076	Purchase Time	Purchase Time
-90077	Buyer	Buyer
-90078	Proceeds	Proceeds
-90079	Your guild has not purchased any supplies.	Your guild has not purchased any supplies.
-90080	Your guild has not purchased any supplies.	Your guild has not purchased any supplies.
-90081	Trading Hall	Trading Hall
-90082	My Orders	My Orders
-90083	Order History	Order History
-90085	Message	Message
-90086	Log	Log
-90087	Process Request	Process Request
-90088	Supply Trade	Supply Trade
-90089	Order Status	Order Status
-90090	Price	Price
-90091	Item Details	Item Details
-90092	List Order	List Order
-90093	Purchase Message	Purchase Message
-90094	Send Request	Send Request
-90095	Supply Trade Quantity	Supply Trade Quantity
-90096	Escort Supplies	Escort Supplies
-90097	Plunder Supplies	Plunder Supplies
-90098	Escort Supply Cart	Escort Supply Cart
-90099	Destroy Supply Cart	Destroy Supply Cart
-90100	Supplies Actually Obtained	Supplies Actually Obtained
-90101	Plunder	Plunder
-90102	Remove this order? Once confirmed, the order will be removed, all pending requests will be rejected, and the guild supplies in the order will be returned immediately.	Remove this order? Once confirmed, the order will be removed, all pending requests will be rejected, and the guild supplies in the order will be returned immediately.
 90103	<color=#887968>${1}</color>/${2}	<color=#887968>${1}</color>/${2}
-90104	Supply Transport - Not Available	Supply Transport - Not Available
-90105	Supply Transport - Trade Phase	Supply Transport - Trade Phase
-90106	Supply Transport - Preparation Phase	Supply Transport - Preparation Phase
-90107	Supply Transport - Transport Phase	Supply Transport - Transport Phase
-90108	Trade is Not Available yet.	Trade is Not Available yet.
-90109	<color=#fdab5b>${1}</color> Begins	<color=#fdab5b>${1}</color> Begins
-90110	<color=#fdab5b>${1}</color> Ends	<color=#fdab5b>${1}</color> Ends
-90111	Request Processed	Request Processed
-90112	You cannot perform this action on your own guild.	You cannot perform this action on your own guild.
-90113	Not enough guild supplies.	Not enough guild supplies.
-90114	The supply listing price does not meet the requirements.	The supply listing price does not meet the requirements.
-90115	Not enough Guild Funds	Not enough Guild Funds
-90116	Approve this request?	Approve this request?
-90117	Reject this request?	Reject this request?
-90118	Trade Successful	Trade Successful
-90119	Declined	Declined
-90120	Your guild has no requests.	Your guild has no requests.
-90121	Edit Order	Edit Order
-90124	Guild Supply Quantity	Guild Supply Quantity
-90125	Required Escorts	Required Escorts
-90126	Transport Map	Transport Map
-90127	Rules	Rules
-90129	There are currently no Trade orders.	There are currently no Trade orders.
-90130	Recommended Price	Recommended Price
-90133	No players are currently ranked.	No players are currently ranked.
-90134	Stronghold War Record	Stronghold War Record
-90135	Supplies are obtained only after the supply cart is successfully escorted back to the stronghold.	Supplies are obtained only after the supply cart is successfully escorted back to the stronghold.
-90136	Go to Trade	Go to Trade
-90137	Go to Escort	Go to Escort
-90138	Territory War	Territory War
-90139	Stronghold-holding guilds can purchase supplies from other guilds	Stronghold-holding guilds can purchase supplies from other guilds
-90140	Escort Missions Unavailable	Escort Missions Unavailable
-90141	Supply Trade Quantity	Supply Trade Quantity
-90142	Stored Supplies	Stored Supplies
-90143	You have fewer supplies than the minimum listing quantity of ${1}. Unable to post the Trade.	You have fewer supplies than the minimum listing quantity of ${1}. Unable to post the Trade.
-90144	Unlocks at <color=#fdab5b>${1}</color>	Unlocks at <color=#fdab5b>${1}</color>
-90145	${1}\nTotal Fatigue recovery time: <color=#FF993F>${2}</color>	${1}\nTotal Fatigue recovery time: <color=#FF993F>${2}</color>
-90146	Move more than ${1} Distance away to automatically relinquish ownership	Move more than ${1} Distance away to automatically relinquish ownership
-90147	Opens in: ${1}	Opens in: ${1}
-90148	Resetting: ${1}	Resetting: ${1}
-90149	Recommended Party Size:	Recommended Party Size:
-90152	Tap to activate	Tap to activate
-90153	Activated	Activated
-90154	Activating: ${1}	Activating: ${1}
-90155	Resetting: ${1}	Resetting: ${1}
-90156	Recommended Party Size: ${1}	Recommended Party Size: ${1}
-90157	Attempts remaining This Week: ${1}/${2}	Attempts remaining This Week: ${1}/${2}
-90158	Safe Zone	Safe Zone
-90159	Conflict Zone	Conflict Zone
-90160	War Zone	War Zone
 90161	Eastern Forest	Eastern Forest
 90162	Northern Mountains	Northern Mountains
 90163	Western Desert	Western Desert
-90164	${1} has invited you to Group Warp	${1} has invited you to Group Warp
-90165	Fatigue: ${1}/${2}	Fatigue: ${1}/${2}
 90166	In the orange and black zones of the 【Realm Map】, the longer you stay and the more players you Kill, the more 【Fatigue】 Floors you accumulate.\nFatigue 【reduces damage dealt】 and 【increases damage taken】. These effects become stronger at higher Floors.\nUpon reaching the Fatigue limit (20 Floors), you will be 【forcibly warped back to Prontera】 and lose 1 Floor of Fatigue.\nAfter leaving an orange or black zone, Fatigue will 【gradually decrease】 over time, even while offline.	In the orange and black zones of the 【Realm Map】, the longer you stay and the more players you Kill, the more 【Fatigue】 Floors you accumulate.\nFatigue 【reduces damage dealt】 and 【increases damage taken】. These effects become stronger at higher Floors.\nUpon reaching the Fatigue limit (20 Floors), you will be 【forcibly warped back to Prontera】 and lose 1 Floor of Fatigue.\nAfter leaving an orange or black zone, Fatigue will 【gradually decrease】 over time, even while offline.
-90167	My guild	My guild
-90168	Bidding Eligibility Acquired	Bidding Eligibility Acquired
-90169	No Bidding Eligibility	No Bidding Eligibility
-90170	Ends in ${1} hr ${2} min	Ends in ${1} hr ${2} min
-90171	Opens in ${1} hr ${2} min	Opens in ${1} hr ${2} min
-90172	Battle in Progress	Battle in Progress
-90173	Qualification Bidding in Progress	Qualification Bidding in Progress
-90174	Select a battle position	Select a battle position
-90175	${1} Selected	${1} Selected
-90176	Confirm Travel	Confirm Travel
-90177	Qualified to Participate	Qualified to Participate
-90178	You don't have permission to manage the Guild Black Market	You don't have permission to manage the Guild Black Market
-90179	Not Eligible to Participate	Not Eligible to Participate
-90180	Stronghold War - Qualification Bidding	Stronghold War - Qualification Bidding
-90181	Regional Capital War - Qualification Bidding	Regional Capital War - Qualification Bidding
-90182	Royal Capital War - Qualification Bidding	Royal Capital War - Qualification Bidding
-90184	Final Bidding begins in ${1}	Final Bidding begins in ${1}
-90185	Final Bidding - May end at any time within ${1}	Final Bidding - May end at any time within ${1}
-90186	Select a region to bid on first	Select a region to bid on first
-90187	No available bidding events	No available bidding events
-90189	Open Bidding	Open Bidding
-90190	Final Bidding	Final Bidding
-90191	Qualification Bidding	Qualification Bidding
-90192	Current Bidding Phase	Current Bidding Phase
-90193	Currently Qualifying Guilds	Currently Qualifying Guilds
-90194	Slots: ${1}	Slots: ${1}
-90195	If guilds submit the same bid, the guild with more total escort deliveries ranks higher	If guilds submit the same bid, the guild with more total escort deliveries ranks higher
-90196	Current Lowest Bid	Current Lowest Bid
-90198	Auto-Bid	Auto-Bid
-90199	Auto-Bidding	Auto-Bidding
-90200	Displayed after bidding begins	Displayed after bidding begins
-90201	Not Required	Not Required
-90202	No Bid	No Bid
-90203	Refunded	Refunded
-90204	Already participating in the ${1} auction	Already participating in the ${1} auction
-90205	No bidding eligibility for this ${1}	No bidding eligibility for this ${1}
-90206	Yet to start	Yet to start
-90207	Initial Bid	Initial Bid
-90208	Highest Bid	Highest Bid
-90209	Bidding Style	Bidding Style
-90210	Aggressive	Aggressive
-90211	Steady	Steady
-90212	Covert	Covert
-90213	If your bid is knocked off the rankings, Our Guild will place an Auto bid within ${1} seconds.	If your bid is knocked off the rankings, Our Guild will place an Auto bid within ${1} seconds.
-90214	Auto-Bid will gradually increase the bid after you drop off the leaderboard	Auto-Bid will gradually increase the bid after you drop off the leaderboard
-90215	Current Bidding Stage	Current Bidding Stage
-90216	Enable Auto-Bid	Enable Auto-Bid
-90217	Disable Auto-Bid	Disable Auto-Bid
-90218	Initial bid cannot be lower than the minimum starting bid	Initial bid cannot be lower than the minimum starting bid
-90219	Maximum bid cannot be less than ${1} times the minimum starting bid	Maximum bid cannot be less than ${1} times the minimum starting bid
-90220	Disable Auto-Bid before adjusting your bid	Disable Auto-Bid before adjusting your bid
-90221	Your current maximum bid is below the qualifying bid. Please adjust it	Your current maximum bid is below the qualifying bid. Please adjust it
-90222	Your current maximum bid is below the qualifying bid. Auto-Bid has stopped. Please adjust your bid	Your current maximum bid is below the qualifying bid. Auto-Bid has stopped. Please adjust your bid
-90223	Already participating in another region's auction	Already participating in another region's auction
-90224	You may only use Auto-Bid for qualification in one region at a time. Before bidding begins, you may cancel Auto-Bid at any time and enable it for another region. Continue?	You may only use Auto-Bid for qualification in one region at a time. Before bidding begins, you may cancel Auto-Bid at any time and enable it for another region. Continue?
-90225	Auto-Bid enabled	Auto-Bid enabled
-90226	Bid for the right to battle in the ${1} region	Bid for the right to battle in the ${1} region
-90227	After joining this region's auction, you cannot join auctions in other regions during the qualification period. Continue?	After joining this region's auction, you cannot join auctions in other regions during the qualification period. Continue?
-90228	Bid Successful	Bid Successful
-90229	Your bid cannot be lower than ${1} of the minimum starting bid	Your bid cannot be lower than ${1} of the minimum starting bid
-90230	Insufficient resources	Insufficient resources
-90231	Auto-Bid is currently active. Bidding manually will disable Auto-Bid. Continue?	Auto-Bid is currently active. Bidding manually will disable Auto-Bid. Continue?
-90232	Stronghold War Qualification Announcement	Stronghold War Qualification Announcement
-90233	State Capital War Qualification Announcement	State Capital War Qualification Announcement
-90234	Royal Capital War Qualification Announcement	Royal Capital War Qualification Announcement
-90235	The auction is About to start. You can now enable Auto-Bid	The auction is About to start. You can now enable Auto-Bid
-90236	The auction has begun. You may now bid freely	The auction has begun. You may now bid freely
-90237	The auction has entered its final stage and may end at any time within ${1}	The auction has entered its final stage and may end at any time within ${1}
-90238	Failed to qualify for the auction. Increase Bid now	Failed to qualify for the auction. Increase Bid now
-90239	Auto-Bid failed. Increase Bid now	Auto-Bid failed. Increase Bid now
-90240	Auction won! ${1} has been occupied	Auction won! ${1} has been occupied
-90241	Realm War	Realm War
-90242	Not Participated	Not Participated
-90243	No guilds are currently bidding	No guilds are currently bidding
 90244	${1}+	${1}+
 90245	No.${1}	No.${1}
 90246	No.${1}+	No.${1}+
-90247	No bidding permission	No bidding permission
-90248	Your guild already has permission. No bidding required	Your guild already has permission. No bidding required
 11190100105	Reach ${1} personal points in Siege War ${2} times	Reach ${1} personal points in Siege War ${2} times
 11190100106	Use Play While Downloading ${1} times	Use Play While Downloading ${1} times
 11190100107	Log in ${1} times	Log in ${1} times
@@ -5521,9 +4943,6 @@
 11190100153	Deploy ${1} Lv. ${1} Soul Echoes	Deploy ${1} Lv. ${1} Soul Echoes
 11190100154	Activate ${1} Lv. ${1} Echo Resonances	Activate ${1} Lv. ${1} Echo Resonances
 11190100155	Reach Resonance Lv. ${1} for all slots	Reach Resonance Lv. ${1} for all slots
-90300	You have left the queue area	You have left the queue area
-90301	Queued for Territory War\n${1} players ahead of you	Queued for Territory War\n${1} players ahead of you
-90302	Queuing: ${1}	Queuing: ${1}
 11190100159	Claim ${1}'s Map Reward	Claim ${1}'s Map Reward
 11190100160	Reach ${1} areas for ${2} rewards	Reach ${1} areas for ${2} rewards
 11190100161	Adventure Party Leader has not selected a sapling	Adventure Party Leader has not selected a sapling
@@ -5558,19 +4977,6 @@
 11250000094	CRIT DMG	CRIT DMG
 11250000095	CRIT RES	CRIT RES
 11250000096	CRIT DMG Reduction	CRIT DMG Reduction
-90350	Go Submit Supplies	Go Submit Supplies
-90351	${1}\n<color=#B99556>Fatigue accumulating...</color>	${1}\n<color=#B99556>Fatigue accumulating...</color>
-90352	You have not joined a guild. You can only receive personal rewards for this submission, not guild rewards. Submit anyway?	You have not joined a guild. You can only receive personal rewards for this submission, not guild rewards. Submit anyway?
-90353	Points you can earn today: ${1}/${2}	Points you can earn today: ${1}/${2}
-90354	You can only enter through the Safe Zone	You can only enter through the Safe Zone
-90355	You are already on this map	You are already on this map
-90356	Today's faction quest has been completed	Today's faction quest has been completed
-90500	Survey Deadline	Survey Deadline
-90502	Participate Now	Participate Now
-90503	Survey	Survey
-90504	Support	Support
-90505	Feedback	Feedback
-90506	Go Give Feedback	Go Give Feedback
 25075	[Guild Response] I created a new guild, 【${1}】! All Adventurers are invited to respond (${2}/${3}) 【Respond Now】	[Guild Response] I created a new guild, 【${1}】! All Adventurers are invited to respond (${2}/${3}) 【Respond Now】
 25135	ID	ID
 25223	Log	Log
@@ -5583,7 +4989,6 @@
 25446	Wandering Caravan	Wandering Caravan
 25470	Sell	Sell
 25512	<color=${1}><sprite name="${2}">${3}</color>	<color=${1}><sprite name="${2}">${3}</color>
-91052	${1}~ ${2} players placed the correct bet	${1}~ ${2} players placed the correct bet
 10620200000	The Academy has witnessed the growth and potential you have shown throughout your journey. Now, you have reached a pivotal point on your path to power—the time has come for your second class advancement.\nWe cordially invite you to return to Kratu Academy and choose your specialized path. This advancement will determine your future development and shape your combat style and calling.\nI will await your arrival at the Academy so that we may embark on this new journey together.	The Academy has witnessed the growth and potential you have shown throughout your journey. Now, you have reached a pivotal point on your path to power—the time has come for your second class advancement.\nWe cordially invite you to return to Kratu Academy and choose your specialized path. This advancement will determine your future development and shape your combat style and calling.\nI will await your arrival at the Academy so that we may embark on this new journey together.
 10620200001	This is a test note	This is a test note
 10620200002	I can't believe you managed to slip away from Moonlight Flower. You've got some skill after all, unlike the fools who came before you.\nIt seems you've barely passed the first round of our carefully designed "qualification test." After all, anyone who can't even play the game has no right to challenge us.\nBut don't get cocky. That was just a warm-up. If you truly think you have what it takes to stand against us, come settle this at the Sandsea Labyrinth in South Morroc (exact coordinates: @{1}, @{2}).\nWe solemnly swear that we will keep our word this time and face you in a fair fight!\nP.S. If you lose, everything you're carrying belongs to us. The victor deserves to take all.	I can't believe you managed to slip away from Moonlight Flower. You've got some skill after all, unlike the fools who came before you.\nIt seems you've barely passed the first round of our carefully designed "qualification test." After all, anyone who can't even play the game has no right to challenge us.\nBut don't get cocky. That was just a warm-up. If you truly think you have what it takes to stand against us, come settle this at the Sandsea Labyrinth in South Morroc (exact coordinates: @{1}, @{2}).\nWe solemnly swear that we will keep our word this time and face you in a fair fight!\nP.S. If you lose, everything you're carrying belongs to us. The victor deserves to take all.
@@ -5746,22 +5151,6 @@
 10740000054	Pet Skill	Pet Skill
 10740000055	Upgrade	Upgrade
 10740000056	Dispel	Dispel
-91501	The entry period has ended. You can no longer enter the Gala Quiz.	The entry period has ended. You can no longer enter the Gala Quiz.
-91502	Betting hasn't opened yet. Please wait.	Betting hasn't opened yet. Please wait.
-91503	You can only bet on one Lucky Star during each event. Confirm your bet on [${1}]?	You can only bet on one Lucky Star during each event. Confirm your bet on [${1}]?
-91504	You've already placed a bet on a Lucky Star. Don't get greedy!	You've already placed a bet on a Lucky Star. Don't get greedy!
-91505	The Grand Celebration invitations have already begun, so no more bets can be placed!	The Grand Celebration invitations have already begun, so no more bets can be placed!
-91506	Are you sure you want to leave the Grand Celebration Invitation event?\n(Leaving will count as forfeiting.)	Are you sure you want to leave the Grand Celebration Invitation event?\n(Leaving will count as forfeiting.)
-91509	You're already in the Lucky Koi Quiz Arena!	You're already in the Lucky Koi Quiz Arena!
-91510	The bet has expired.	The bet has expired.
-91511	Please select the Lucky Star you want to bet on.	Please select the Lucky Star you want to bet on.
-91512	You can place your bet now!	You can place your bet now!
-91513	You cannot Teleport to the quiz Location while in a Cross-server area, Dungeon, or plane.	You cannot Teleport to the quiz Location while in a Cross-server area, Dungeon, or plane.
-91514	Confirm Exit from Festival Invitation?\n(You may enter or leave the Location at any time while getting Ready.)	Confirm Exit from Festival Invitation?\n(You may enter or leave the Location at any time while getting Ready.)
-91515	The maximum number of players who can Place Bet has been reached.	The maximum number of players who can Place Bet has been reached.
-91516	You cannot respond to Follow or Rally requests in the quiz Location.	You cannot respond to Follow or Rally requests in the quiz Location.
-91517	Place Bet: Successful	Place Bet: Successful
-91518	Place Bet: Failed	Place Bet: Failed
 12390000000	Card: Lunatic	Card: Lunatic
 12390000001	Card: Savage Babe	Card: Savage Babe
 12390000002	Card: Fabre	Card: Fabre
@@ -18557,14 +17946,6 @@
 10960100029	War of Emperium Vehicle Permissions	War of Emperium Vehicle Permissions
 10960100030	Guild Funds Rankings	Guild Funds Rankings
 10960100031	Bid Fund Details	Bid Fund Details
-56000	Bosses Defeated: ${1}/${2}	Bosses Defeated: ${1}/${2}
-56001	Party Challenge	Party Challenge
-56002	Only the Party Leader can select the challenge target.	Only the Party Leader can select the challenge target.
-56003	My Party	My Party
-56005	All Classes	All Classes
-56006	${1} Achieved	${1} Achieved
-56007	Challenge unlocks at World Level <color=#dd563f>${1}</color>	Challenge unlocks at World Level <color=#dd563f>${1}</color>
-56008	Challenge unlocks in ${1} days	Challenge unlocks in ${1} days
 10960100041	Auction Pre-purchase	Auction Pre-purchase
 10960100042	Class Item Details	Class Item Details
 10960100043	Shop Details	Shop Details
@@ -18656,187 +18037,17 @@
 10960100129	Event Rules	Event Rules
 10960100130	War of Emperium Statistics Info	War of Emperium Statistics Info
 10960100131	Match Rules	Match Rules
-56100	First Clear Hall of Fame	First Clear Hall of Fame
-56101	Every Monday at 5:00 AM, ${1} reward claim attempts will be added for the highest-level unlocked dungeon.	Every Monday at 5:00 AM, ${1} reward claim attempts will be added for the highest-level unlocked dungeon.
-56102	Challenge Requirements	Challenge Requirements
-56103	Recommended Power:	Recommended Power:
-56104	Average Power:	Average Power:
-56105	Buff Effects:	Buff Effects:
-56106	Boss Skills	Boss Skills
-56108	Shared Rewards	Shared Rewards
-56109	My Party (${1}/${2})	My Party (${1}/${2})
-56110	Enter Challenge	Enter Challenge
-56111	First Clear	First Clear
-56112	Once Peak Challenge begins, attempts for other five-player dungeons will no longer increase.	Once Peak Challenge begins, attempts for other five-player dungeons will no longer increase.
-56113	First Clear Party	First Clear Party
-56114	All instances of the same Boss share the weekly attempt replenishment. Accumulated attempts cannot be used on Bosses unlocked later.	All instances of the same Boss share the weekly attempt replenishment. Accumulated attempts cannot be used on Bosses unlocked later.
-56115	Speed Rankings	Speed Rankings
-56117	Ready	Ready
-56118	Countdown: ${1}	Countdown: ${1}
-56120	Ready	Ready
-56122	Reward Count:${1}	Reward Count:${1}
-56123	Please confirm you're ready as soon as possible.	Please confirm you're ready as soon as possible.
-56124	In Position	In Position
-56125	Enter Dungeon once everyone is ready	Enter Dungeon once everyone is ready
-56126	Revives Remaining: ${1}	Revives Remaining: ${1}
-56127	Best of the Best	Best of the Best
-56128	Max DPS	Max DPS
-56129	Most Damage Taken	Most Damage Taken
-56130	Best Healing	Best Healing
-56131	Like All	Like All
-56132	Reward Count exhausted. Unable to obtain dungeon rewards.	Reward Count exhausted. Unable to obtain dungeon rewards.
-56133	${1} has invited you to join the activity!	${1} has invited you to join the activity!
-56135	Ranking Reward Settlement every Monday at 5	Ranking Reward Settlement every Monday at 5
-56136	The top 3 players in each class receive a limited-time title reward.	The top 3 players in each class receive a limited-time title reward.
-56137	Party Auction	Party Auction
-56138	Bidding	Bidding
-56139	//Previous	//Previous
-56140	Auction Countdown	Auction Countdown
-56141	You can continue participating in the auction even if you switch instances or leave the current one.	You can continue participating in the auction even if you switch instances or leave the current one.
-56142	Highest Bidder: <color=#fff7dc>${1}</color>	Highest Bidder: <color=#fff7dc>${1}</color>
-56145	No items up for auction	No items up for auction
-56146	Purchase the item for the Fixed price of ${1}?	Purchase the item for the Fixed price of ${1}?
-56147	Unsold	Unsold
-56148	${1} won the item	${1} won the item
-56149	Discard All	Discard All
-56150	Once everyone passes, the item immediately goes unsold.	Once everyone passes, the item immediately goes unsold.
-56151	Reward Count exhausted. Unable to participate in the auction.	Reward Count exhausted. Unable to participate in the auction.
-56152	Send ${1} a dungeon invite	Send ${1} a dungeon invite
-56153	The party does not meet the required number of players.	The party does not meet the required number of players.
-56154	Party size exceeds the dungeon limit.	Party size exceeds the dungeon limit.
-56155	The instance is full.	The instance is full.
-56156	The boss battle has begun. You cannot Enter Battlefield at this time.	The boss battle has begun. You cannot Enter Battlefield at this time.
-56157	The other player is in another instance and cannot be summoned.	The other player is in another instance and cannot be summoned.
-56158	A Member did not respond.	A Member did not respond.
-56159	${1} declined the dungeon ready check.	${1} declined the dungeon ready check.
-56160	The Reward Count for this boss has been exhausted. You will not receive any rewards for continuing.	The Reward Count for this boss has been exhausted. You will not receive any rewards for continuing.
-56161	Only the Party Leader can select the challenge target.	Only the Party Leader can select the challenge target.
-56162	${1} does not meet the requirements to open this dungeon, so it cannot be opened.	${1} does not meet the requirements to open this dungeon, so it cannot be opened.
-56163	Ready check sent.	Ready check sent.
 56164	${1} has not completed placement confirmation	${1} has not completed placement confirmation
-56165	BOSS Reward Count has been exhausted.	BOSS Reward Count has been exhausted.
-56166	Item forfeited.	Item forfeited.
-56167	Not enough ${1}	Not enough ${1}
-56168	Cannot send a party recruitment message during a boss battle.	Cannot send a party recruitment message during a boss battle.
-56169	Cannot remove party members during a boss battle.	Cannot remove party members during a boss battle.
-56170	Leaving the dungeon during the boss battle will prevent you from rejoining the fight. Are you sure you want to leave?	Leaving the dungeon during the boss battle will prevent you from rejoining the fight. Are you sure you want to leave?
-56171	You are currently in an instance. Leaving the party will also remove you from the instance.	You are currently in an instance. Leaving the party will also remove you from the instance.
-56172	Waiting for Auction	Waiting for Auction
-56173	Abandoned	Abandoned
-56174	Abandonment is unavailable after confirming readiness.	Abandonment is unavailable after confirming readiness.
-56175	${1} declined the dungeon summons	${1} declined the dungeon summons
-56176	Cannot be used in your current state.	Cannot be used in your current state.
-56177	Clear Reward Count: ${1}	Clear Reward Count: ${1}
-56178	Shared Reward Count: ${1}	Shared Reward Count: ${1}
-56179	Shared Reward Count: ${1}	Shared Reward Count: ${1}
-56180	You've already given this a Like.	You've already given this a Like.
-56181	Praised you!	Praised you!
-56182	You've used all your Likes.	You've used all your Likes.
-56183	The auction will begin in <color=#FDAB5B>${1}</color> seconds	The auction will begin in <color=#FDAB5B>${1}</color> seconds
-56185	Unlock Requirement	Unlock Requirement
-56186	Attempt Count	Attempt Count
-56188	Bid Item	Bid Item
-56189	I Have the Highest Bid	I Have the Highest Bid
-56190	Bidding begins after this <color=#FDAB5B>Dungeon Settlement is complete</color>	Bidding begins after this <color=#FDAB5B>Dungeon Settlement is complete</color>
-56191	Off-Season	Off-Season
-56192	Please join a party/raid before entering the Dungeon	Please join a party/raid before entering the Dungeon
-56193	Unlock this skill to view its details	Unlock this skill to view its details
-56194	No Records	No Records
-56195	Clear Time: ${1}	Clear Time: ${1}
 56196	${1} [${2}] ${3}	${1} [${2}] ${3}
-56197	Raid Members: <color=#CC762A>6—10</color>	Raid Members: <color=#CC762A>6—10</color>
-56198	Reward Count resets every Monday at <color=#CC762A>5</color> AM	Reward Count resets every Monday at <color=#CC762A>5</color> AM
-56199	Party Members: <color=#CC762A>3—5</color>	Party Members: <color=#CC762A>3—5</color>
-56200	Reward Count resets every Monday at <color=#CC762A>5</color> AM	Reward Count resets every Monday at <color=#CC762A>5</color> AM
 56201	Divine Blessing:	Divine Blessing:
 56202	Light of Bonds:	Light of Bonds:
 56203	Divine Blessing	Divine Blessing
-56204	<color=#B05142>Inactive</color>	<color=#B05142>Inactive</color>
 56205	<color=#CC762A>LV.${1}</color>	<color=#CC762A>LV.${1}</color>
-56206	<color=#63A22B>(Unlocks after the Current Server's First Clear)</color>	<color=#63A22B>(Unlocks after the Current Server's First Clear)</color>
-56207	<color=#63A22B>(Unlocks in ${1} days)</color>	<color=#63A22B>(Unlocks in ${1} days)</color>
-56208	<color=#CC762A>${1}</color>'s party <color=#CC762A>activated it with a First Clear!</color>	<color=#CC762A>${1}</color>'s party <color=#CC762A>activated it with a First Clear!</color>
-56209	Reward Count Lookup	Reward Count Lookup
-56210	Player name	Player name
-56211	If more than <color=#CC762A>3</color> party Members have no Reward Count remaining, the party's Auction Rewards will be affected	If more than <color=#CC762A>3</color> party Members have no Reward Count remaining, the party's Auction Rewards will be affected
-56212	<color=#CC762A>Members with insufficient Reward Count are shown first</color>	<color=#CC762A>Members with insufficient Reward Count are shown first</color>
-56213	<color=#97E553>(Active)</color>	<color=#97E553>(Active)</color>
-56214	<color=#EC543A>(Inactive)</color>	<color=#EC543A>(Inactive)</color>
-56215	Trial Shop	Trial Shop
-56216	Challenge Objective	Challenge Objective
-56217	Objective Complete	Objective Complete
-56218	Continue (${1})	Continue (${1})
-56219	No new challenge objectives were completed	No new challenge objectives were completed
-56220	<color=#FDAB5B>${1}</color> led the party to a First Clear!	<color=#FDAB5B>${1}</color> led the party to a First Clear!
-56221	All Adventurers receive the Divine Blessing effect	All Adventurers receive the Divine Blessing effect
-56222	Divine Blessing effect increased!	Divine Blessing effect increased!
 56223	Lv. ${1}: ${2}	Lv. ${1}: ${2}
-56226	Final Trial	Final Trial
-56227	Clear Reward Count: ${1}	Clear Reward Count: ${1}
-56228	Shared Reward Count: ${1}	Shared Reward Count: ${1}
 56229	×${1}	×${1}
-56230	No Revives remaining for this challenge	No Revives remaining for this challenge
-56231	<color=#63A22B>(Unlocks on day ${1} after the Current Server's First Clear)</color>	<color=#63A22B>(Unlocks on day ${1} after the Current Server's First Clear)</color>
-56232	Tap	Tap
-56233	, step on the rhythm notes	, step on the rhythm notes
-56234	Tap	Tap
-56235	, learn the Boss's dance moves	, learn the Boss's dance moves
 56236	Locate	Locate
-56237	Your party has fewer than 5 Members. Match with teammates?	Your party has fewer than 5 Members. Match with teammates?
-56238	Enter Directly	Enter Directly
-56239	Start Matching	Start Matching
-56240	Matchmaking Notice	Matchmaking Notice
-56241	Battle Countdown	Battle Countdown
-56242	Continue challenging<color=#FDAB5B> ${1}</color> ?	Continue challenging<color=#FDAB5B> ${1}</color> ?
-56243	Continue	Continue
-56244	Cancel Challenge	Cancel Challenge
-56245	Challenge Role	Challenge Role
-56246	Once you select a role, it will be used by default for matching in [Phantom Realm]	Once you select a role, it will be used by default for matching in [Phantom Realm]
-56247	Matchmaking is already in progress. Cancel it and start matching for ${1}?	Matchmaking is already in progress. Cancel it and start matching for ${1}?
-56248	Queuing……	Queuing……
-56249	Please select a challenge role	Please select a challenge role
-56250	The default role cannot be changed	The default role cannot be changed
-56251	Currently Queuing for a dungeon. Cancel matchmaking?	Currently Queuing for a dungeon. Cancel matchmaking?
-56252	Start Matching: Phantom Realm	Start Matching: Phantom Realm
-56253	Phantom Realm Challenge	Phantom Realm Challenge
-56254	No rewards available	No rewards available
-56255	The dungeon is not yet complete. Exit the dungeon?\n<color=#B05142>The first Adventurer to exit the dungeon</color> will receive a dungeon matchmaking penalty	The dungeon is not yet complete. Exit the dungeon?\n<color=#B05142>The first Adventurer to exit the dungeon</color> will receive a dungeon matchmaking penalty
-56256	The dungeon is not yet complete. Leave the party?\n<color=#B05142>The first Adventurer to leave the party</color> will receive a dungeon matchmaking penalty\nPlease note: Leaving the party will also remove you from the dungeon	The dungeon is not yet complete. Leave the party?\n<color=#B05142>The first Adventurer to leave the party</color> will receive a dungeon matchmaking penalty\nPlease note: Leaving the party will also remove you from the dungeon
-56257	The player with the Highest Bid cannot withdraw	The player with the Highest Bid cannot withdraw
-56258	First Clear Rewards	First Clear Rewards
-56261	Recommended Setup	Recommended Setup
-56262	Current:	Current:
-56263	Reward Count exhausted. Unable to participate in the auction.	Reward Count exhausted. Unable to participate in the auction.
-56264	Another player's bid has reached the maximum price	Another player's bid has reached the maximum price
-56265	Waiting for Bidding	Waiting for Bidding
-56267	I Have the Highest Bid	I Have the Highest Bid
-56268	Preset Bid	Preset Bid
 12390000016	Card: Poring	Card: Poring
-56271	Your current party does not meet the dungeon's recommended role setup and is missing ${1}. Enter Dungeon anyway?	Your current party does not meet the dungeon's recommended role setup and is missing ${1}. Enter Dungeon anyway?
 56272	${1}*${2}	${1}*${2}
-56273	Entry Alert	Entry Alert
-56274	Bid Item at Auction	Bid Item at Auction
-56275	Pre-Bid Item at Auction	Pre-Bid Item at Auction
-56276	You have the highest bid	You have the highest bid
-56277	Fixed price reached	Fixed price reached
-56278	Maximum pre-bid price reached. Unable to bid.	Maximum pre-bid price reached. Unable to bid.
-56279	Maximum pre-bid price reached. Unable to bid.	Maximum pre-bid price reached. Unable to bid.
-56280	${1}<color=#fff7dc>Highest</color>	${1}<color=#fff7dc>Highest</color>
-56281	${1} declined to Enter Dungeon	${1} declined to Enter Dungeon
-56282	${1} canceled Queuing	${1} canceled Queuing
-56283	You are already Queuing for other content. Cancel the current queue?	You are already Queuing for other content. Cancel the current queue?
-56284	Highest Bidder: <color=#76C233>${1}</color>	Highest Bidder: <color=#76C233>${1}</color>
-56285	Start Battle	Start Battle
-56287	No Team First Clear Yet	No Team First Clear Yet
-56288	Continue	Continue
-56289	<color=#63A22B>(Activates in ${1} days)</color>	<color=#63A22B>(Activates in ${1} days)</color>
-56290	<color=#63A22B>(Activates in ${1} hours)</color>	<color=#63A22B>(Activates in ${1} hours)</color>
-56291	<color=#63A22B>(Activates in ${1} minutes)</color>	<color=#63A22B>(Activates in ${1} minutes)</color>
-56292	Attempt Calculation	Attempt Calculation
-56293	Queuing:	Queuing:
-56294	Loading...	Loading...
-56295	Like All	Like All
-56296	Starting Bid	Starting Bid
 12380200000	(Progress ${1}/@{1})	(Progress ${1}/@{1})
 12380100031	Successfully crafting a cloth item has a @{1}% Chance to increase the output by @{2}	Successfully crafting a cloth item has a @{1}% Chance to increase the output by @{2}
 12380100030	Successfully crafting an engraved item has a @{1}% Chance to increase the output by @{2}	Successfully crafting an engraved item has a @{1}% Chance to increase the output by @{2}
@@ -20519,138 +19730,12 @@
 10220200589	Small Note Clockwise Skill@{1}	Small Note Clockwise Skill@{1}
 10220200590	Battle Royale Transition Pull	Battle Royale Transition Pull
 10220200591	Battle Royale Transition Player Effect	Battle Royale Transition Player Effect
-58000	Main Screen and Control Mode Selection	Main Screen and Control Mode Selection
-58001	Go to Selection	Go to Selection
-58002	Select Mode	Select Mode
-58003	You can switch modes later under Settings - Basic - PC Mode	You can switch modes later under Settings - Basic - PC Mode
-58004	Classic PC	Classic PC
-58005	Modern PC	Modern PC
-58006	Mobile	Mobile
-58008	Trade Exchange	Trade Exchange
-58014	Universal Mount	Universal Mount
-58015	Combat Mount	Combat Mount
-58018	Auto Mode	Auto Mode
-58019	Display Resolution	Display Resolution
-58020	Windowed ${1}*${2}	Windowed ${1}*${2}
-58022	Full-screen	Full-screen
-58023	For players familiar with RO Online	For players familiar with RO Online
-58024	For players familiar with PC MMORPGs such as Justice Online and Moonlight Blade	For players familiar with PC MMORPGs such as Justice Online and Moonlight Blade
-58025	For players who prefer mobile layouts and play on an emulator	For players who prefer mobile layouts and play on an emulator
-58026	More Left-Click Actions	More Left-Click Actions
-58027	Right-Click to Use	Right-Click to Use
-58028	Lock Skill Hotbar	Lock Skill Hotbar
-58029	Auto-Battle	Auto-Battle
-58031	Chat	Chat
-58032	Sit	Sit
-58034	New Tab	New Tab
-58035	Enter a tab name	Enter a tab name
-58036	Select at least 1 chat channel	Select at least 1 chat channel
-58037	Create	Create
-58039	Chat tab created	Chat tab created
-58041	Rename	Rename
-58042	Delete Tab	Delete Tab
-58043	Back to Bottom	Back to Bottom
-58046	Tab Management	Tab Management
-58047	Display Settings	Display Settings
-58048	Are you sure you want to delete this chat tab?	Are you sure you want to delete this chat tab?
-58049	Chat Message Display Duration	Chat Message Display Duration
-58050	Display Duration	Display Duration
-58053	Hide Chat	Hide Chat
-58054	Show Chat	Show Chat
-58055	Open	Open
-58056	Off	Off
-58057	Player Info	Player Info
-58058	Basic Profile	Basic Profile
-58059	Party/Raid	Party/Raid
-58060	Party/Raid Information Display Area	Party/Raid Information Display Area
 58061	Connect Function	Connect Function
 58062	Connect Function Menu	Connect Function Menu
-58064	Skill and Combat Resource Display Area	Skill and Combat Resource Display Area
-58065	Combat Assistance	Combat Assistance
-58066	Combat Assistance Function Display Area	Combat Assistance Function Display Area
 58067	Buff	Buff
-58068	Buff Display Area	Buff Display Area
 58069	Debuff	Debuff
-58070	Debuff Display Area	Debuff Display Area
-58072	Event Menu	Event Menu
-58074	Mini Map Display Area	Mini Map Display Area
-58076	Quest Display Area	Quest Display Area
-58077	System Function	System Function
-58078	System Function Menu	System Function Menu
-58079	Event Alert	Event Alert
-58080	Dynamic Event Alert Display Area	Dynamic Event Alert Display Area
-58081	Game Info	Game Info
-58082	Scrolling Game Notification Display Area	Scrolling Game Notification Display Area
-58083	Status Alert	Status Alert
-58084	Stat Change and Current Character Status Display Area	Stat Change and Current Character Status Display Area
-58085	Quick Items	Quick Items
-58086	Quick Item Display Area	Quick Item Display Area
-58087	Invitation Alert	Invitation Alert
-58088	Party/Raid Status and Gameplay Mechanic Alert Display Area	Party/Raid Status and Gameplay Mechanic Alert Display Area
-58089	Target Info	Target Info
-58090	Selected Target Display Area	Selected Target Display Area
-58091	Gameplay Information	Gameplay Information
-58092	Main Gameplay Information Display Area	Main Gameplay Information Display Area
-58093	Gameplay Phase	Gameplay Phase
-58094	Gameplay Phase Information Display Area	Gameplay Phase Information Display Area
-58095	Kill Alert	Kill Alert
-58096	Kill Information Display Area	Kill Information Display Area
-58097	Boss skill	Boss skill
-58098	Boss Skill information display area	Boss Skill information display area
-58099	Quick Target Selection	Quick Target Selection
-58100	Quick Target Selection Display Area	Quick Target Selection Display Area
-58101	Interaction Skill	Interaction Skill
-58102	Interactive Gameplay Button Display Area	Interactive Gameplay Button Display Area
-58103	Gameplay Alert	Gameplay Alert
-58104	Gameplay Alert display area	Gameplay Alert display area
-58105	Cast Bar	Cast Bar
-58106	Skill and Misc cast bar display area	Skill and Misc cast bar display area
-58107	Mechanic Feedback	Mechanic Feedback
-58108	Display area for feedback unique to special Misc	Display area for feedback unique to special Misc
-58109	Command Information	Command Information
-58110	Command Information display area for each Misc	Command Information display area for each Misc
-58111	Gameplay Rating	Gameplay Rating
-58112	Gameplay Rating display area	Gameplay Rating display area
-58113	Right-click to Go	Right-click to Go
-58114	Are you sure you want to exit the game?	Are you sure you want to exit the game?
-58115	(${1}s)	(${1}s)
-58116	Merge Tabs	Merge Tabs
-58117	Merge All Tabs	Merge All Tabs
-58118	Maximum number of tabs reached. Unable to create a new Tavern chat tab.	Maximum number of tabs reached. Unable to create a new Tavern chat tab.
-58119	Chat	Chat
-58120	Recent Contacts	Recent Contacts
-58121	${1}/${2} Conversations	${1}/${2} Conversations
-58122	Switching modes requires restarting the game. Are you sure you want to switch?	Switching modes requires restarting the game. Are you sure you want to switch?
-58123	Click the Ground to Move	Click the Ground to Move
-58124	Mouse Turning	Mouse Turning
-58125	Target Lock Mode	Target Lock Mode
-58126	Keyboard Movement	Keyboard Movement
-58127	Mouse Turning	Mouse Turning
-58128	Expanded Skills	Expanded Skills
-58129	Display area for expanded skills such as the Skill Bar and Pet Skill	Display area for expanded skills such as the Skill Bar and Pet Skill
-58130	Misc Master Effects	Misc Master Effects
-58131	Master Effects display area for certain Misc	Master Effects display area for certain Misc
-58132	Custom Action Bar	Custom Action Bar
-58133	Customizable display area for skills and items	Customizable display area for skills and items
-58134	Auto-Battle	Auto-Battle
-58135	Auto-Battle Button display area	Auto-Battle Button display area
-58136	Quick Items	Quick Items
-58137	Display area for Auto-Potion, Bow switching, and other actions	Display area for Auto-Potion, Bow switching, and other actions
-58138	Flying Mount	Flying Mount
-58139	Flying Mount Skills display area	Flying Mount Skills display area
-58140	Equipment you cannot equip cannot be placed in Quick Items.	Equipment you cannot equip cannot be placed in Quick Items.
-58141	Only Cooking, potions, Voice Message Items, Treasure Maps, and equipment can be placed in Quick Items.	Only Cooking, potions, Voice Message Items, Treasure Maps, and equipment can be placed in Quick Items.
-58142	Quick equipment swapping is on cooldown. Please try again later.	Quick equipment swapping is on cooldown. Please try again later.
-58143	Equipment	Equipment
-58144	Talent	Talent
 58147	Divine Totem	Divine Totem
 58148	Soul Echo	Soul Echo
-58149	Monster Hunt	Monster Hunt
-58150	Wardrobe	Wardrobe
-58152	Life Skill	Life Skill
-58153	Emotes	Emotes
-58154	Auto-Potion	Auto-Potion
-58155	In Development—Coming Soon	In Development—Coming Soon
 10220200748	Safety Wall	Safety Wall
 10220200749	Jupitel Thunder	Jupitel Thunder
 10220200750	Frost Nova	Frost Nova
@@ -21496,97 +20581,6 @@
 11190100097	Participate in the Guild League ${1} times	Participate in the Guild League ${1} times
 11190100096	Challenge and win a five-player dungeon ${1} times	Challenge and win a five-player dungeon ${1} times
 59000	Tavern	Tavern
-59001	Entire Server	Entire Server
-59002	Current Server	Current Server
-59004	Filtering	Filtering
-59005	Filter Taverns	Filter Taverns
-59006	Tavern Type	Tavern Type
-59010	Enter a tavern name to search	Enter a tavern name to search
-59011	No tavern rooms available	No tavern rooms available
-59012	Loading…	Loading…
-59013	Create Tavern	Create Tavern
-59014	Return to Tavern	Return to Tavern
-59015	Discover Taverns	Discover Taverns
-59016	Create Tavern	Create Tavern
-59017	Tavern Name	Tavern Name
-59018	Enter a tavern name	Enter a tavern name
-59019	Tavern Type	Tavern Type
-59021	Please read and agree to	Please read and agree to
-59022	Compliance Notice	Compliance Notice
-59023	Don't show again today	Don't show again today
-59026	Switch Taverns	Switch Taverns
-59027	You already have a tavern. Leave your current tavern, ${1}?	You already have a tavern. Leave your current tavern, ${1}?
-59028	Leave and Switch	Leave and Switch
-59030	Voice Settings	Voice Settings
-59032	Turn On Mic	Turn On Mic
-59034	Listen	Listen
-59035	Request Voice Access	Request Voice Access
-59036	Send Request	Send Request
-59038	Permissions	Permissions
-59039	Leave Room	Leave Room
-59040	Leave Room Confirmation	Leave Room Confirmation
-59041	Are you sure you want to leave the current tavern?	Are you sure you want to leave the current tavern?
-59042	Mini Window	Mini Window
-59049	Report Tavern	Report Tavern
-59051	Speaking Mode: ${1}	Speaking Mode: ${1}
-59052	Permission Settings	Permission Settings
-59054	Mic Controls	Mic Controls
-59055	Trophy & Quests	Trophy & Quests
-59056	Daily Tavern Quests	Daily Tavern Quests
-59057	Tavern Trophy	Tavern Trophy
-59059	Tavern Gifts	Tavern Gifts
-59060	Recipient	Recipient
-59062	Gift Quantity	Gift Quantity
-59064	Switch Recipient	Switch Recipient
-59065	Permission Settings	Permission Settings
-59066	Mic Management	Mic Management
-59067	Speaking Permissions	Speaking Permissions
-59069	Unsaved Settings	Unsaved Settings
-59070	Your current settings haven't been saved. Are you sure you want to close this screen?	Your current settings haven't been saved. Are you sure you want to close this screen?
-59071	Tavern Members	Tavern Members
-59072	Mic Requests	Mic Requests
-59073	Agreed	Agreed
-59074	Declined	Declined
-59075	Speaking Order	Speaking Order
-59076	Member Management	Member Management
-59077	Tavern Members	Tavern Members
-59079	Unmute	Unmute
-59080	Are you sure you want to mute this player?	Are you sure you want to mute this player?
-59081	Muted players cannot use their mic or send messages in the current tavern.	Muted players cannot use their mic or send messages in the current tavern.
-59082	Remove from Tavern	Remove from Tavern
-59083	Are you sure you want to remove this player from the tavern?	Are you sure you want to remove this player from the tavern?
-59084	Blocks	Blocks
-59085	Remove from Blocks	Remove from Blocks
-59086	Players removed from the tavern are automatically added to the room's Blocks.	Players removed from the tavern are automatically added to the room's Blocks.
-59087	Tavern Info	Tavern Info
-59088	Tavern Settings	Tavern Settings
-59089	Save edits	Save edits
-59090	Transfer Ownership	Transfer Ownership
-59091	Your changes to the room settings haven't been saved. Are you sure you want to close this screen?	Your changes to the room settings haven't been saved. Are you sure you want to close this screen?
-59092	${1} invited you to join a tavern	${1} invited you to join a tavern
-59093	Unmute All	Unmute All
-59094	Owner Sets Speaking Permissions	Owner Sets Speaking Permissions
-59095	Owner Sets Speaking Order	Owner Sets Speaking Order
-59096	Listeners	Listeners
-59097	Chitchat	Chitchat
-59098	Tips	Tips
-59099	Make Friends	Make Friends
-59100	Gossip	Gossip
-59101	Emotions	Emotions
-59102	Singing	Singing
-59103	Unlimited	Unlimited
-59104	English	English
-59105	Indonesian	Indonesian
-59106	Thai	Thai
-59107	Simplified Chinese	Simplified Chinese
-59108	Politically Sensitive	Politically Sensitive
-59109	Pornography	Pornography
-59110	Verbal Abuse	Verbal Abuse
-59111	Suspected Gambling	Suspected Gambling
-59112	Advertising	Advertising
-59113	Soliciting Contact Information	Soliciting Contact Information
-59114	Other Violations	Other Violations
-59115	Traditional Chinese	Traditional Chinese
 11190100095	Challenge a five-player dungeon ${1} times	Challenge a five-player dungeon ${1} times
 11190100094	Complete War of Survivors ${1} time(s)	Complete War of Survivors ${1} time(s)
 11190100093	Rank requirement not met	Rank requirement not met
@@ -21671,59 +20665,6 @@
 11190100014	Trade on the Exchange ${1} times	Trade on the Exchange ${1} times
 11190100013	Reach Title ${1}	Reach Title ${1}
 11190100012	Gender does not meet the requirements	Gender does not meet the requirements
-59200	We've received your feedback and will address it as soon as possible.	We've received your feedback and will address it as soon as possible.
-59201	The host has muted you.	The host has muted you.
-59202	The Tavern has been reported. You cannot speak at this time.	The Tavern has been reported. You cannot speak at this time.
-59203	The host has disabled microphones. You cannot turn on your microphone.	The host has disabled microphones. You cannot turn on your microphone.
-59204	Click to join the Tavern room: ${1}	Click to join the Tavern room: ${1}
-59205	Invitation notification sent.	Invitation notification sent.
-59206	The host has Agreed to your request to join the mic queue.	The host has Agreed to your request to join the mic queue.
-59207	The host has Declined your request to join the mic queue.	The host has Declined your request to join the mic queue.
-59208	You have been removed from the Tavern room.	You have been removed from the Tavern room.
-59209	The host has muted you.	The host has muted you.
-59210	Mic queue changes saved.	Mic queue changes saved.
-59211	The Tavern name contains prohibited words.	The Tavern name contains prohibited words.
-59212	The Tavern name cannot be empty.	The Tavern name cannot be empty.
-59213	Please select a Tavern type.	Please select a Tavern type.
-59214	Please select a Tavern language.	Please select a Tavern language.
-59215	The Tavern is full.	The Tavern is full.
-59216	Gift sent!	Gift sent!
-59217	Host privileges transferred successfully.	Host privileges transferred successfully.
-59218	No report reason selected.	No report reason selected.
-59219	No report Description provided.	No report Description provided.
-59220	The host has disabled microphones. Players in the mic queue temporarily cannot speak.	The host has disabled microphones. Players in the mic queue temporarily cannot speak.
-59221	The host has enabled microphones. Players in the mic queue may speak freely.	The host has enabled microphones. Players in the mic queue may speak freely.
-59222	Already in a Tavern.	Already in a Tavern.
-59223	Invitation sent	Invitation sent
-59224	${1} has accepted your invitation.	${1} has accepted your invitation.
-59225	${1} has Declined your invitation.	${1} has Declined your invitation.
-59226	The mic queue is full. Please adjust it and try again.	The mic queue is full. Please adjust it and try again.
-59227	1. Please be respectful and <color=#cc762a>keep the Tavern channel positive</color>. Let's create a lively and friendly Tavern atmosphere together~\n2. If you <color=#cc762a>break the rules or make inappropriate remarks</color>, the host may <color=#cc762a>mute or remove you from the Tavern</color>.\n3. If another player reports you and the System verifies the report, the System may mute you, permanently disable your Tavern Function, or even suspend your account.\n4. <color=#cc762a>Beware of scams</color> in the Tavern. If you Discover suspicious behavior from other players, please report it promptly to help maintain a positive Tavern atmosphere.\n5. Have fun, fellow Adventurers, and <color=#cc762a>enjoy all the fun and excitement the Tavern has to offer</color>!	1. Please be respectful and <color=#cc762a>keep the Tavern channel positive</color>. Let's create a lively and friendly Tavern atmosphere together~\n2. If you <color=#cc762a>break the rules or make inappropriate remarks</color>, the host may <color=#cc762a>mute or remove you from the Tavern</color>.\n3. If another player reports you and the System verifies the report, the System may mute you, permanently disable your Tavern Function, or even suspend your account.\n4. <color=#cc762a>Beware of scams</color> in the Tavern. If you Discover suspicious behavior from other players, please report it promptly to help maintain a positive Tavern atmosphere.\n5. Have fun, fellow Adventurers, and <color=#cc762a>enjoy all the fun and excitement the Tavern has to offer</color>!
-59229	${1} gave <color=#cc762a>${2}</color> <color=#cc762a>${3}</color> to ${4}, granting ${5} ${6} Star Points and increasing the current Tavern's Popularity by ${7}.	${1} gave <color=#cc762a>${2}</color> <color=#cc762a>${3}</color> to ${4}, granting ${5} ${6} Star Points and increasing the current Tavern's Popularity by ${7}.
-59230	Decline invitations for 10 minutes	Decline invitations for 10 minutes
-59231	Are you sure you want to unmute this player?	Are you sure you want to unmute this player?
-59232	Welcome to the Tavern, ${1}!	Welcome to the Tavern, ${1}!
-59233	Speaking mode Setting successful.	Speaking mode Setting successful.
-59234	Permission Management	Permission Management
-59235	Everyone can currently speak. Speaking privileges cannot be revoked.	Everyone can currently speak. Speaking privileges cannot be revoked.
-59236	Host	Host
-59237	There are currently no new Taverns.	There are currently no new Taverns.
-59238	Tavern host privileges have been transferred to: ${1}	Tavern host privileges have been transferred to: ${1}
-59239	There are no gift recipients in the room.	There are no gift recipients in the room.
-59240	The other player has not unlocked the Tavern Function yet.	The other player has not unlocked the Tavern Function yet.
-59241	The report Description is too short. Please enter at least 10 characters.	The report Description is too short. Please enter at least 10 characters.
-59242	Please enter the player's name.	Please enter the player's name.
-59243	Tavern room information updated.	Tavern room information updated.
-59244	Don't remind me again today	Don't remind me again today
-59245	Simplified Chinese	Simplified Chinese
-59246	Traditional Chinese	Traditional Chinese
-59247	Korean	Korean
-59248	Enter a tavern name	Enter a tavern name
-59249	Discover	Discover
-59252	Please enter your request to join the mic queue.	Please enter your request to join the mic queue.
-59253	The player has been removed from the Tavern.	The player has been removed from the Tavern.
-59254	Mic Requests Approved	Mic Requests Approved
-59255	Mic Requests Rejected	Mic Requests Rejected
 11190100011	Complete ${1} quests	Complete ${1} quests
 11190100010	Defeat ${1} Guild Members from other guilds	Defeat ${1} Guild Members from other guilds
 11190100009	Faction Mission points are ${1} short	Faction Mission points are ${1} short
@@ -23421,186 +22362,24 @@
 10630000198	Wrong Job: The skill's job does not match the player's job.	Wrong Job: The skill's job does not match the player's job.
 10630000199	This skill is not in the skill tree, so skill points cannot be allocated to it manually.	This skill is not in the skill tree, so skill points cannot be allocated to it manually.
 61000	${1}'s ${2}	${1}'s ${2}
-61001	You already have a war machine. Building another will destroy the current one.\nBuild it anyway?	You already have a war machine. Building another will destroy the current one.\nBuild it anyway?
-61002	Battle Begins	Battle Begins
-61005	Siege War - Battle for the Royal Capital: About to start! Head there now!	Siege War - Battle for the Royal Capital: About to start! Head there now!
-61008	Siege War - Battle for the Royal Capital	Siege War - Battle for the Royal Capital
-61009	Distance to Start Time	Distance to Start Time
-61011	War Machine	War Machine
-61013	Royal Capital Name	Royal Capital Name
-61014	Regional Capital 1 Name	Regional Capital 1 Name
-61015	Regional Capital 2 Name	Regional Capital 2 Name
-61017	Commander	Commander
-61018	Defenders	Defenders
-61019	Attackers	Attackers
-61021	Enter Battlefield	Enter Battlefield
-61025	Season Rewards	Season Rewards
-61027	Revoke Access	Revoke Access
-61028	This Member is currently using a war machine. Revoke their access?	This Member is currently using a war machine. Revoke their access?
-61031	None	None
-61032	Automatically heading to the revival point in ${1} sec.	Automatically heading to the revival point in ${1} sec.
-61033	Go to Revival Point	Go to Revival Point
-61034	Revive in ${1} sec.	Revive in ${1} sec.
-61035	Royal Capital	Royal Capital
-61036	Regional Capital	Regional Capital
-61037	Stronghold	Stronghold
-61038	Match	Match
-61039	Winning Guild	Winning Guild
-61040	Total Wins	Total Wins
-61042	This Week	This Week
-61043	Recruitment Info	Recruitment Info
-61044	War Machine Management	War Machine Management
-61045	Artillery	Artillery
 61046	Mount	Mount
-61047	Artillery Access	Artillery Access
-61048	Vehicle Access	Vehicle Access
-61049	All Jobs	All Jobs
 61050	Swordsman	Swordsman
 61051	Hunter	Hunter
 61052	Acolyte	Acolyte
 61053	Mage	Mage
 61054	Thief	Thief
 61055	Merchant	Merchant
-61057	Away	Away
-61058	Offline Players	Offline Players
-61059	Players on the Battlefield	Players on the Battlefield
-61060	My Battle Merit	My Battle Merit
-61061	Battlefield Contribution	Battlefield Contribution
-61064	Destroy	Destroy
-61066	Siege War Begins	Siege War Begins
-61067	Map Name	Map Name
-61068	Building	Building
-61069	Allied Players	Allied Players
-61070	Commander Marker	Commander Marker
-61071	Party Marker	Party Marker
-61072	Show	Show
-61075	Back	Back
-61076	Remove All	Remove All
-61077	Can Mark:	Can Mark:
-61078	Tap an area on the map to add a marker	Tap an area on the map to add a marker
-61079	<#fdab5b>${1}</color> Guild has captured the castle	<#fdab5b>${1}</color> Guild has captured the castle
-61080	Siege Duration: ${1}	Siege Duration: ${1}
-61081	My Battle Report	My Battle Report
-61082	Battlefield Honor	Battlefield Honor
-61083	More Honor	More Honor
-61084	Battleground Stats	Battleground Stats
-61085	Best of the Best	Best of the Best
-61086	Top Three Overall	Top Three Overall
-61087	Absolute Advantage	Absolute Advantage
-61088	Rank Among the Best	Rank Among the Best
-61089	Battle Merit	Battle Merit
-61091	Destroy	Destroy
-61095	Healing Volume	Healing Volume
-61096	Victory	Victory
-61097	Honor	Honor
-61098	Data	Data
-61099	Previous	Previous
-61100	Next	Next
-61102	Battle Merit Details	Battle Merit Details
-61103	No Members have made the rankings yet. Keep trying!	No Members have made the rankings yet. Keep trying!
-61105	Player Name	Player Name
-61106	Drag a player on the right to the party list.	Drag a player on the right to the party list.
-61107	Rally at ${1}	Rally at ${1}
-61108	Command Marker ${1}	Command Marker ${1}
-61109	Guild Leader Marker ${1}	Guild Leader Marker ${1}
-61110	<color=#897560>${1}</color>/${2} Players	<color=#897560>${1}</color>/${2} Players
-61111	Building	Building
-61112	Allied Players	Allied Players
-61113	Gameplay Marker	Gameplay Marker
-61114	Siege Weapon	Siege Weapon
-61115	Madogear Pilot	Madogear Pilot
-61116	Frontline	Frontline
 61118	P1	P1
 61119	P2	P2
 61120	P3	P3
-61121	Battle about to start	Battle about to start
-61122	Battle about to start	Battle about to start
-61123	Defend the Outer Gate	Defend the Outer Gate
-61124	Break Through the Outer Gate	Break Through the Outer Gate
-61125	Keep all guardians alive.	Keep all guardians alive.
-61126	Defeat any 1 Knight Guardian.	Defeat any 1 Knight Guardian.
-61127	Defend the Ornate Metal	Defend the Ornate Metal
-61128	Destroy the Fancy Metal	Destroy the Fancy Metal
-61129	Siege Points	Siege Points
-61130	Defense Value	Defense Value
-61131	Destroy Siege Equipment	Destroy Siege Equipment
-61134	Total Ratings	Total Ratings
-61135	Device Damage	Device Damage
-61139	Reloading	Reloading
-61140	Defeat the Archer Guardian +${1} sec.	Defeat the Archer Guardian +${1} sec.
-61141	Defeat the Knight Guardian    +${1} sec.	Defeat the Knight Guardian    +${1} sec.
 61142	A	A
 61143	B	B
 61144	C	C
 61145	D	D
 61146	E	E
 61147	F	F
-61148	Battle has yet to start	Battle has yet to start
-61149	Out of ammo	Out of ammo
-61150	Confirm Construction	Confirm Construction
-61151	Adjust Direction	Adjust Direction
-61153	Attack (Hold for Accuracy/Right-click to Cancel)	Attack (Hold for Accuracy/Right-click to Cancel)
-61154	Adjust Gun Elevation	Adjust Gun Elevation
-61155	Adjust Barrel Direction	Adjust Barrel Direction
-61156	Emergency Call	Emergency Call
-61157	Teleport to the commander?	Teleport to the commander?
-61158	Teleport	Teleport
-61160	Are you sure you want to leave the War of Emperium map?	Are you sure you want to leave the War of Emperium map?
-61161	No targets can be marked during the preparation phase.	No targets can be marked during the preparation phase.
-61162	This target does not exist and cannot be marked.	This target does not exist and cannot be marked.
-61163	Auto-Battle is unavailable while mounted.	Auto-Battle is unavailable while mounted.
-61164	Command Skill	Command Skill
-61165	Use Command Skill-${1} now?	Use Command Skill-${1} now?
-61166	Drag Member	Drag Member
-61167	Currently displaying the Guild Information found	Currently displaying the Guild Information found
-61168	Cannot teleport while riding a mount.	Cannot teleport while riding a mount.
-61169	Cannot teleport while dead.	Cannot teleport while dead.
-61170	The rally is full. Unable to teleport.	The rally is full. Unable to teleport.
-61171	Attacker Gameplay Flow	Attacker Gameplay Flow
-61172	Defender Gameplay Flow	Defender Gameplay Flow
-61173	Phase 1\nBreak Through the Castle Gate	Phase 1\nBreak Through the Castle Gate
-61174	Phase Two\nDefeat the Knight Guardian	Phase Two\nDefeat the Knight Guardian
-61175	Stage 3\nCapture the Control Point	Stage 3\nCapture the Control Point
-61176	Stage 4\nDestroy the Ornate Metal	Stage 4\nDestroy the Ornate Metal
-61177	Phase 1\nDefend the City Gate	Phase 1\nDefend the City Gate
-61178	Phase Two\nFortify the Knight Guardian	Phase Two\nFortify the Knight Guardian
-61179	Phase 3\nDefend the Control Point	Phase 3\nDefend the Control Point
-61180	Stage 4\nDefend the Magnificent Metal	Stage 4\nDefend the Magnificent Metal
-61181	Inside the City	Inside the City
-61182	Outside the City	Outside the City
-61183	Exit Vehicle	Exit Vehicle
-61184	Tactics	Tactics
-61185	War Machine Management	War Machine Management
-61186	Battlefield Backpack	Battlefield Backpack
-61188	Confirm Exit	Confirm Exit
 61189	<color=#ff7d63>${1}</color>	<color=#ff7d63>${1}</color>
 61190	<color=#4cafff>${1}</color>	<color=#4cafff>${1}</color>
-61191	After leaving, you can reenter from the Event screen. Are you sure you want to leave this area?	After leaving, you can reenter from the Event screen. Are you sure you want to leave this area?
-61192	Press and Hold—Homing Shell	Press and Hold—Homing Shell
-61193	Cannot be used during the current phase.	Cannot be used during the current phase.
-61194	Your Management Permissions have been revoked.	Your Management Permissions have been revoked.
-61195	War Management	War Management
-61196	Black Market	Black Market
-61197	This Month	This Month
-61199	Position	Position
-61200	Contribution Percentage	Contribution Percentage
-61202	This Week's Total Guild Contributions: ${1}	This Week's Total Guild Contributions: ${1}
-61203	This Month's Total Guild Contributions: ${1}	This Month's Total Guild Contributions: ${1}
-61204	This Season's Total Guild Contributions: ${1}	This Season's Total Guild Contributions: ${1}
-61205	Participants: ${1}/${2}	Participants: ${1}/${2}
-61206	Average Contribution: ${1}	Average Contribution: ${1}
-61207	Artillery Used This Week: ${1}	Artillery Used This Week: ${1}
-61208	Vehicles Used This Week: ${1}	Vehicles Used This Week: ${1}
-61209	War Machine Shop	War Machine Shop
-61210	Artillery Used This Month: ${1}	Artillery Used This Month: ${1}
-61211	Vehicles Used This Month: ${1}	Vehicles Used This Month: ${1}
-61212	Artillery Used This Season: ${1}	Artillery Used This Season: ${1}
-61213	Vehicles Used This Season: ${1}	Vehicles Used This Season: ${1}
-61214	Artillery (${1})	Artillery (${1})
-61215	Vehicles (${1})	Vehicles (${1})
-61216	Victory Rewards:	Victory Rewards:
-61217	Participation Rewards:	Participation Rewards:
-61218	You are already here	You are already here
 10630000419	HP requirements not met.	HP requirements not met.
 10630000420	Maximum number of simultaneous Interactions reached.	Maximum number of simultaneous Interactions reached.
 10630000421	The previous Interaction has not ended.	The previous Interaction has not ended.
@@ -23688,29 +22467,6 @@
 1110024	Your Guild's forces are currently garrisoned in 【${1}】. Redeploy them to 【${2}】?	Your Guild's forces are currently garrisoned in 【${1}】. Redeploy them to 【${2}】?
 1110025	Donation	Donation
 1110026	Guild Readiness has increased to Lv. 【${1}】.	Guild Readiness has increased to Lv. 【${1}】.
-61500	Exit Stronghold Battle	Exit Stronghold Battle
-61501	After leaving, you can re-enter from the Territory War event screen. Are you sure you want to leave the battlefield?	After leaving, you can re-enter from the Territory War event screen. Are you sure you want to leave the battlefield?
-61504	Revive Point A	Revive Point A
-61505	Revive Point B	Revive Point B
-61506	Revive Point C	Revive Point C
-61507	Revive Point D	Revive Point D
-61508	Revive Point E	Revive Point E
-61509	Battlefield Changes	Battlefield Changes
-61510	Personal Record	Personal Record
-61511	Attack Successful	Attack Successful
-61512	Defense Successful	Defense Successful
-61601	Contest Phase	Contest Phase
-61602	Battle Preparation Phase	Battle Preparation Phase
-61603	Stronghold Battle	Stronghold Battle
-61604	Base Defense	Base Defense
-61605	Rally!	Rally!
-61606	Attack!	Attack!
-61607	Commander Marker	Commander Marker
-61608	Party Marker	Party Marker
-61609	Marking	Marking
-61610	Can Mark	Can Mark
-61611	Cannot Be Marked	Cannot Be Marked
-61612	Another faction is currently using this.	Another faction is currently using this.
 10110300333	Spits upward, then after a @{1}-second warning, 【Unidentified Digestive Matter】 falls from the sky at several random locations, dealing A damage within a circular area with a @{2}-meter radius. 【Unidentified Digestive Matter】 lasts @{3}s and slows players and monsters within it	Spits upward, then after a @{1}-second warning, 【Unidentified Digestive Matter】 falls from the sky at several random locations, dealing A damage within a circular area with a @{2}-meter radius. 【Unidentified Digestive Matter】 lasts @{3}s and slows players and monsters within it
 10110300357	(No translation required)	(No translation required)
 10000200000	UI_Sys_Card_@{1}.prefab	UI_Sys_Card_@{1}.prefab
@@ -23748,7 +22504,6 @@
 10060100030	Sage	Sage
 10060100031	High Wizard	High Wizard
 10060100032	Warlock	Warlock
-61999	War of Emperium Entrance	War of Emperium Entrance
 62056	Peak Season	Peak Season
 62059	UID：${1}	UID：${1}
 62060	Base	Base
@@ -24327,201 +23082,18 @@
 10370000890	The ash tree that blankets the sky,\nWhite dew soaks the mighty tree,\nWhite dew falls and becomes a flood,\nThe evergreen tree that embraces Urd's Well.	The ash tree that blankets the sky,\nWhite dew soaks the mighty tree,\nWhite dew falls and becomes a flood,\nThe evergreen tree that embraces Urd's Well.
 10370000889	Sing~ Sing~\nThe song of Debuha Moni~\nO Tree of Life~\nThe World Tree, evergreen,	Sing~ Sing~\nThe song of Debuha Moni~\nO Tree of Life~\nThe World Tree, evergreen,
 10370000888	I’m working hard studying ciphers today just to experience that feeling... I’m so proud...	I’m working hard studying ciphers today just to experience that feeling... I’m so proud...
-63001	Competition	Competition
 63002	Kafra - Battle of the Survivors	Kafra - Battle of the Survivors
-63003	This reality show is presented by the Rekenber Corporation, a conglomerate, and held in the Rune-Midgarts Kingdom in partnership with the Kafra Corporation. Adventurers battle one another, and the final victor will receive the show's Grand Prize.	This reality show is presented by the Rekenber Corporation, a conglomerate, and held in the Rune-Midgarts Kingdom in partnership with the Kafra Corporation. Adventurers battle one another, and the final victor will receive the show's Grand Prize.
-63004	60-Player Fair Competition	60-Player Fair Competition
-63009	This Week's Limit	This Week's Limit
-63010	Double	Double
-63011	Event Description	Event Description
-63012	Event Description	Event Description
-63013	Event Period	Event Period
-63014	Skill Book	Skill Book
-63015	Rank Reward	Rank Reward
-63017	Party Mode	Party Mode
-63018	Solo Mode	Solo Mode
-63020	Start Matching	Start Matching
-63021	${1} failed to ready up and cannot start matchmaking for ${2}.	${1} failed to ready up and cannot start matchmaking for ${2}.
-63022	Due to inactivity, you cannot start matchmaking for ${1}.	Due to inactivity, you cannot start matchmaking for ${1}.
-63023	Queuing: ${1}	Queuing: ${1}
-63024	Point Protection	Point Protection
-63025	Complete a match to earn Protection Points.\nPlayers who perform well earn Extra Protection Points.\nProtection Points offset Victory Points lost after a defeat.\nYou can accumulate up to 99 Protection Points.\nPoint Protection no longer activates after reaching Dominator rank.	Complete a match to earn Protection Points.\nPlayers who perform well earn Extra Protection Points.\nProtection Points offset Victory Points lost after a defeat.\nYou can accumulate up to 99 Protection Points.\nPoint Protection no longer activates after reaching Dominator rank.
-63026	Protection Points	Protection Points
-63027	Current Protected Victory Points: ${1}	Current Protected Victory Points: ${1}
-63028	Quest already completed	Quest already completed
-63029	Please Select a Quest for This Week	Please Select a Quest for This Week
-63030	You can only select and complete one quest per week.	You can only select and complete one quest per week.
-63031	Accept	Accept
-63033	This Week's Tasks Completed	This Week's Tasks Completed
-63035	Season Data	Season Data
-63036	Match Data	Match Data
-63037	Total Matches	Total Matches
-63038	First-Place Finishes	First-Place Finishes
-63039	First 5 Times	First 5 Times
-63040	Total Kills	Total Kills
-63041	Likes Received	Likes Received
-63042	Best Single-Match Stats	Best Single-Match Stats
-63045	Aid	Aid
-63049	Party Queue	Party Queue
-63050	Solo Queue	Solo Queue
-63051	All Matches	All Matches
-63052	First Five Matches Only	First Five Matches Only
-63053	First Match Only	First Match Only
-63054	{1} Place	{1} Place
-63058	${1} hours ago	${1} hours ago
-63059	${1} days ago	${1} days ago
-63061	Kill/Assist/Rescue	Kill/Assist/Rescue
-63062	Damage/Healing	Damage/Healing
-63064	Survivor Battle	Survivor Battle
-63065	Rankings	Rankings
-63066	Kill Ranking	Kill Ranking
-63067	Victory Rankings	Victory Rankings
-63068	Skill Book	Skill Book
-63069	Job Talents	Job Talents
 63070	Novice	Novice
-63072	Burst	Burst
-63074	Utility	Utility
 63075	Kafra: Survivor Battle	Kafra: Survivor Battle
-63076	Countdown: ${1}s	Countdown: ${1}s
-63077	Ready	Ready
-63081	Select a Build	Select a Build
-63082	Select the build you want to use	Select the build you want to use
-63083	High-Resource Area	High-Resource Area
-63084	Enemy Drop Point	Enemy Drop Point
-63085	Enemy Drop Zone	Enemy Drop Zone
-63086	Tap the map to select a Spawn: ${1}	Tap the map to select a Spawn: ${1}
-63089	Stop Following	Stop Following
-63090	Tap to Invite	Tap to Invite
-63091	${1} invited you to follow	${1} invited you to follow
-63092	Enter the Battlefield	Enter the Battlefield
-63093	Remaining	Remaining
-63098	Safe zone shrinking	Safe zone shrinking
-63099	Nearby	Nearby
-63100	Pick Up All	Pick Up All
-63101	Aid	Aid
-63102	Revive Info	Revive Info
-63103	If you are defeated for the first time within 180 seconds of the battle starting, you can rejoin once for free.	If you are defeated for the first time within 180 seconds of the battle starting, you can rejoin once for free.
-63108	Discard Multiple	Discard Multiple
-63109	Discard Multiple	Discard Multiple
-63110	Equipment Quality	Equipment Quality
-63114	Orange	Orange
-63115	Skill Type	Skill Type
-63117	Utility	Utility
-63119	Discard	Discard
-63121	Confirm Discard	Confirm Discard
 63122	MVP	MVP
 63124	NPC	NPC
-63125	Revive Altar	Revive Altar
-63126	Next Zone Shrink	Next Zone Shrink
-63127	{1}'s Shop	{1}'s Shop
-63128	Item Supplies	Item Supplies
-63129	Skill Supplies	Skill Supplies
-63130	Equipment Supplies	Equipment Supplies
-63134	Going Well	Going Well
-63135	Better Luck Next Time	Better Luck Next Time
-63137	Group Rank: ${1}/${2}	Group Rank: ${1}/${2}
-63138	Match Stats	Match Stats
-63144	Victory Points ${1}	Victory Points ${1}
-63145	Overview	Overview
-63146	Data	Data
-63147	Return (${1})	Return (${1})
-63148	Like All	Like All
-63150	Kill/Assist/Rescue	Kill/Assist/Rescue
-63151	Damage/Healing	Damage/Healing
-63153	Victory Points	Victory Points
-63154	Interact	Interact
-63155	Select a build: ${1}	Select a build: ${1}
-63156	Countdown: ${1}	Countdown: ${1}
-63157	This location cannot be selected as your drop point. You have been automatically switched to a nearby area.	This location cannot be selected as your drop point. You have been automatically switched to a nearby area.
-63158	Talent	Talent
-63159	Job	Job
-63160	No Equipment	No Equipment
-63161	No Skills	No Skills
-63162	No items.	No items.
-63163	Discard	Discard
-63164	Join Kafra: Survivor Battle solo	Join Kafra: Survivor Battle solo
-63165	You cannot match for Solo Mode while in a party. Leave the party and start matchmaking?	You cannot match for Solo Mode while in a party. Leave the party and start matchmaking?
-63167	Matchmaking is already underway for another mode. You cannot initiate new matchmaking.	Matchmaking is already underway for another mode. You cannot initiate new matchmaking.
-63168	Solo Mode matchmaking is underway. You cannot open the Party Finder.	Solo Mode matchmaking is underway. You cannot open the Party Finder.
-63169	Onward and Upward	Onward and Upward
-63170	Close Defeat	Close Defeat
-63171	Rank: ${1}/${2}	Rank: ${1}/${2}
-63172	Bot ${1}	Bot ${1}
-63173	Battle Start	Battle Start
-63174	Tap anywhere to close (${1}s)	Tap anywhere to close (${1}s)
-63175	Waiting for the game to start: ${1}	Waiting for the game to start: ${1}
-63176	Select a mission	Select a mission
-63177	You can only select one mission per week	You can only select one mission per week
-63178	Rescue Wagon	Rescue Wagon
-63179	You can spend ID Tags here to Revive defeated party members.\nSpend all ID Tags in your Backpack to Revive party members?	You can spend ID Tags here to Revive defeated party members.\nSpend all ID Tags in your Backpack to Revive party members?
-63180	Revive	Revive
-63181	No Solo Mode information found	No Solo Mode information found
-63182	Send	Send
-63183	Send (${1})	Send (${1})
-63184	Still available This Week	Still available This Week
-63185	Rank Reward	Rank Reward
-63186	Adventure	Adventure
-63187	You are outside the barrier and taking continuous damage.	You are outside the barrier and taking continuous damage.
-63188	Spectator Mode	Spectator Mode
-63189	Overview	Overview
-63190	My Records	My Records
-63191	Item is on cooldown. Please try again later.	Item is on cooldown. Please try again later.
-63192	Cannot equip duplicate skills	Cannot equip duplicate skills
 63193	【${1} Ten Thousand】	【${1} Ten Thousand】
 63194	【${1} Hundred Million】	【${1} Hundred Million】
-63195	${1} quality is currently selected. You cannot select a lower quality.	${1} quality is currently selected. You cannot select a lower quality.
-63196	Cannot equip duplicate items	Cannot equip duplicate items
-63197	${1}'s ID Tag	${1}'s ID Tag
-63198	Uses:	Uses:
-63199	First-Place Finishes	First-Place Finishes
-63200	Longest Survival Time	Longest Survival Time
-63201	Highest Damage in a Single Match	Highest Damage in a Single Match
-63202	Ends in ${1} days	Ends in ${1} days
-63203	Season end time TBD	Season end time TBD
-63204	Players Matched: <color=#cf6753>${1}</color>/${2}	Players Matched: <color=#cf6753>${1}</color>/${2}
-63205	Kafra: Battle of Survivors Currency	Kafra: Battle of Survivors Currency
-63206	Currency Limit Details	Currency Limit Details
-63207	This Week's Limit:	This Week's Limit:
-63208	Total Limit:	Total Limit:
-63209	You can earn only a limited number of Competition Medals each week. Once you reach This Week's Limit, you cannot earn any more. You can earn up to 20,000 points per week; any excess will be discarded. This resets every Monday. You can carry up to 100,000 points; any points earned beyond this limit will be discarded.	You can earn only a limited number of Competition Medals each week. Once you reach This Week's Limit, you cannot earn any more. You can earn up to 20,000 points per week; any excess will be discarded. This resets every Monday. You can carry up to 100,000 points; any points earned beyond this limit will be discarded.
-63210	${1}/${2}<color=#7EA92B> (Limit)</color>	${1}/${2}<color=#7EA92B> (Limit)</color>
 63211	<color=#BD9932>${1}</color>/${2}	<color=#BD9932>${1}</color>/${2}
-63212	Enemy Drop Point	Enemy Drop Point
-63213	Enemy Drop Zone	Enemy Drop Zone
-63214	Victory Points:	Victory Points:
-63215	Nearby	Nearby
-63216	Switch	Switch
-63217	Pick Up All	Pick Up All
 63218	<#62af5e>${1}</color>	<#62af5e>${1}</color>
-63219	<#6890d2>${1}</color> or lower	<#6890d2>${1}</color> or lower
-63220	<#9f74c4>${1}</color> or lower	<#9f74c4>${1}</color> or lower
-63221	<#ec8c2f>${1}</color> or lower	<#ec8c2f>${1}</color> or lower
-63222	A Narrow Victory Is Within Reach	A Narrow Victory Is Within Reach
 63223	Kafra: Battle of Survivors  ${1}	Kafra: Battle of Survivors  ${1}
-63224	No party matchmaking information found	No party matchmaking information found
-63225	This Function is not yet available	This Function is not yet available
-63226	<color=#594E3D>Points:</color>${1}<color=#594E3D>/${2}</color>	<color=#594E3D>Points:</color>${1}<color=#594E3D>/${2}</color>
-63227	Claimed	Claimed
-63228	Skill Level	Skill Level
-63229	First select the equipment you want to discard in bulk	First select the equipment you want to discard in bulk
-63230	Drag outside the Backpack to discard	Drag outside the Backpack to discard
-63231	Right-click to unequip	Right-click to unequip
-63232	Right-click to equip	Right-click to equip
-63233	Skill bar is full. Cannot equip.	Skill bar is full. Cannot equip.
-63234	Item bar is full. Cannot equip.	Item bar is full. Cannot equip.
-63235	Safe Zone has not refreshed	Safe Zone has not refreshed
-63236	Distance to Safe Zone: ${1} m	Distance to Safe Zone: ${1} m
-63237	Zones Closed/Total Zones: ${1}/${2}	Zones Closed/Total Zones: ${1}/${2}
-63238	Already inside the Safe Zone	Already inside the Safe Zone
-63239	Skill Details	Skill Details
 63240	<color=#594E3D>${1}</color>/${2}	<color=#594E3D>${1}</color>/${2}
 63241	${1}/${2}	${1}/${2}
-63242	Last Death Location	Last Death Location
-63243	Place	Place
-63248	Spectate Mode	Spectate Mode
-63249	This Week's Limit Reached	This Week's Limit Reached
-63250	Limit Reached	Limit Reached
-63251	Game is About to start	Game is About to start
 10370000453	That's easy enough. We'll take care of it!	That's easy enough. We'll take care of it!
 10370000452	(Irritably) Don't bother! It's a bunch of Vocals! For some crazy reason, they've been holding concerts in my attic at midnight. All that clanging and banging is about to bring down the roof!	(Irritably) Don't bother! It's a bunch of Vocals! For some crazy reason, they've been holding concerts in my attic at midnight. All that clanging and banging is about to bring down the roof!
 10370000451	Bandits?! We'll get the guards!	Bandits?! We'll get the guards!
@@ -24771,106 +23343,6 @@
 260106	Close	Close
 260107	Transfer Server	Transfer Server
 260108	This Member is not on the Adventure Group's server. If they do not transfer to the Adventure Group's server before <color=#EB543A>${1}</color>, <color=#EB543A>they will automatically leave the Adventure Group</color>.	This Member is not on the Adventure Group's server. If they do not transfer to the Adventure Group's server before <color=#EB543A>${1}</color>, <color=#EB543A>they will automatically leave the Adventure Group</color>.
-63501	Arena Function unlocks at Lv. ${1}	Arena Function unlocks at Lv. ${1}
-63502	${2} unlocks when the server reaches Lv. ${1}	${2} unlocks when the server reaches Lv. ${1}
-63503	{2} unlocks at Lv. ${1}	{2} unlocks at Lv. ${1}
-63504	${1} will unlock at ${2}. Please wait.	${1} will unlock at ${2}. Please wait.
-63505	This Week's Currency limit has been reached	This Week's Currency limit has been reached
-63506	Matchmaking started	Matchmaking started
-63507	Matchmaking canceled	Matchmaking canceled
-63508	Due to your unsportsmanlike conduct in this mode, you must wait ${1} before you can start matchmaking	Due to your unsportsmanlike conduct in this mode, you must wait ${1} before you can start matchmaking
-63509	Cannot start matchmaking while in Cross-server mode.	Cannot start matchmaking while in Cross-server mode.
-63510	Due to inactivity, you cannot start matchmaking for ${1}.	Due to inactivity, you cannot start matchmaking for ${1}.
-63511	Cannot start matchmaking while in an instance.	Cannot start matchmaking while in an instance.
-63512	Only the Party Leader can start matchmaking.	Only the Party Leader can start matchmaking.
-63513	Party member ${1}'s current status prevents matchmaking.	Party member ${1}'s current status prevents matchmaking.
-63514	Party member ${1} is not Online. Cannot start matchmaking.	Party member ${1} is not Online. Cannot start matchmaking.
-63515	Due to ${1}'s unsportsmanlike conduct in this mode, they must wait ${2} before starting matchmaking	Due to ${1}'s unsportsmanlike conduct in this mode, they must wait ${2} before starting matchmaking
-63516	Party status changed. Matchmaking ended automatically.	Party status changed. Matchmaking ended automatically.
-63517	Start Matching: Kafra - Battle of Survivors	Start Matching: Kafra - Battle of Survivors
-63518	Cannot enter Battle of Survivors in raid mode	Cannot enter Battle of Survivors in raid mode
-63519	Party status changed. Matchmaking ended automatically	Party status changed. Matchmaking ended automatically
-63520	Battlefield matchmaking is in progress. Changing the Party Leader will stop matchmaking. Continue?	Battlefield matchmaking is in progress. Changing the Party Leader will stop matchmaking. Continue?
-63521	You did not confirm your participation. This match has been canceled.	You did not confirm your participation. This match has been canceled.
-63522	Party member ${1} did not confirm participation. This match has been canceled.	Party member ${1} did not confirm participation. This match has been canceled.
-63523	Quest accepted	Quest accepted
-63524	The quest has been completed.	The quest has been completed.
-63525	Not enough Backpack space. Rewards have been sent by mail.	Not enough Backpack space. Rewards have been sent by mail.
-63526	Level-up successful! Reached ${1}.	Level-up successful! Reached ${1}.
-63527	Obtained ${1}	Obtained ${1}
-63528	That area cannot be reached. Please select another.	That area cannot be reached. Please select another.
-63529	Invited to follow	Invited to follow
-63530	Now following ${1}	Now following ${1}
-63531	Stopped following {1}	Stopped following {1}
-63532	${1} declined your invitation to follow.	${1} declined your invitation to follow.
-63533	The battle is still underway. You will be penalized if you leave now. Are you sure?	The battle is still underway. You will be penalized if you leave now. Are you sure?
-63534	Your teammates are still fighting and need your encouragement. Continue?	Your teammates are still fighting and need your encouragement. Continue?
-63535	The Safe Zone will shrink in ${1} seconds.	The Safe Zone will shrink in ${1} seconds.
-63536	Safe Zone contraction #${1} has begun.	Safe Zone contraction #${1} has begun.
-63537	As the seal weakens, monsters emerge into the world.	As the seal weakens, monsters emerge into the world.
-63538	As the seal is restored, the monsters are drawn back.	As the seal is restored, the monsters are drawn back.
-63539	A group of uniquely talented individuals has appeared throughout the world. Find them to trigger mysterious events.	A group of uniquely talented individuals has appeared throughout the world. Find them to trigger mysterious events.
-63540	${1} defeated ${2}	${1} defeated ${2}
-63541	${1} was eliminated in the raging sandstorm.	${1} was eliminated in the raging sandstorm.
-63542	${1} quietly left.	${1} quietly left.
-63543	You rescued teammate ${1}.	You rescued teammate ${1}.
-63544	Teammate ${1} rescued you.	Teammate ${1} rescued you.
-63545	You successfully aided ${1}${2} using the Revive Altar.	You successfully aided ${1}${2} using the Revive Altar.
-63546	Teammate ${1} rescued you at the Revive Altar.	Teammate ${1} rescued you at the Revive Altar.
-63547	You are outside the barrier and continuously taking damage.	You are outside the barrier and continuously taking damage.
-63548	The competition has begun!	The competition has begun!
-63549	The final showdown has begun!	The final showdown has begun!
-63550	${1} just obtained 【${2}】: ${3}	${1} just obtained 【${2}】: ${3}
-63551	Your Backpack is overweight. You cannot carry any more supplies.	Your Backpack is overweight. You cannot carry any more supplies.
-63552	This skill is being cast and cannot be replaced.	This skill is being cast and cannot be replaced.
-63553	Purchase Successful	Purchase Successful
-63554	Not enough ${1} to purchase.	Not enough ${1} to purchase.
-63555	Not enough items in stock to purchase.	Not enough items in stock to purchase.
-63556	Your Backpack is overweight. Unable to purchase.	Your Backpack is overweight. Unable to purchase.
-63557	This skill is already equipped.	This skill is already equipped.
-63558	Incorrect equipment slot. Unable to equip.	Incorrect equipment slot. Unable to equip.
-63559	This item is already equipped.	This item is already equipped.
-63560	You can only pick up a teammate's ID Tag.	You can only pick up a teammate's ID Tag.
-63561	Teammate ${1} left the battlefield. Their ID Tag is no longer valid.	Teammate ${1} left the battlefield. Their ID Tag is no longer valid.
-63562	You cannot use skills or move during a rescue.	You cannot use skills or move during a rescue.
-63563	You were attacked, interrupting the rescue.	You were attacked, interrupting the rescue.
-63564	The rescue target has been defeated.	The rescue target has been defeated.
-63565	The rescue target has been revived.	The rescue target has been revived.
-63566	Target out of range. Rescue failed.	Target out of range. Rescue failed.
-63567	You can only spectate teammates who are still alive!	You can only spectate teammates who are still alive!
-63568	You're switching too quickly! I can't keep up!	You're switching too quickly! I can't keep up!
-63569	${1} gave you a like.	${1} gave you a like.
-63570	and above	and above
-63571	and below	and below
-63572	Hour	Hour
-63576	You cannot switch builds while in Battle Status.	You cannot switch builds while in Battle Status.
-63577	The Totem you picked up matches your current build.	The Totem you picked up matches your current build.
-63578	You cannot travel while in Battle Status.	You cannot travel while in Battle Status.
-63579	Teammate ${1} declined your rally request.	Teammate ${1} declined your rally request.
-63580	Cannot be used while in Battle Status.	Cannot be used while in Battle Status.
-63581	The Dancer loved your tip and granted you 15 seconds of bonus time.	The Dancer loved your tip and granted you 15 seconds of bonus time.
-63582	Your pockets are empty. The Dancer looks down on you.	Your pockets are empty. The Dancer looks down on you.
-63583	Sharing Materials reduced the Blacksmith's Craft time for high-tier equipment by 10s.	Sharing Materials reduced the Blacksmith's Craft time for high-tier equipment by 10s.
-63584	You cannot discard equipped items while in Battle Status.	You cannot discard equipped items while in Battle Status.
-63585	You cannot edit skills while in Battle Status.	You cannot edit skills while in Battle Status.
-63586	Normal Attack, Talent Skills, and Derived Skills cannot be edited.	Normal Attack, Talent Skills, and Derived Skills cannot be edited.
-63587	No eligible items found.	No eligible items found.
-63588	I've taken first place ${2} times using 【${1}】, with a longest survival time of ${3}. I'll carry you!	I've taken first place ${2} times using 【${1}】, with a longest survival time of ${3}. I'll carry you!
-63589	Tap a teammate's Portrait to spectate them. (Spectator Mode will begin automatically in ${1} seconds.)	Tap a teammate's Portrait to spectate them. (Spectator Mode will begin automatically in ${1} seconds.)
-63590	Equipped gear cannot be discarded during Battle Status	Equipped gear cannot be discarded during Battle Status
-63591	Skill 【${1}】 can be upgraded	Skill 【${1}】 can be upgraded
-63592	Skill upgraded	Skill upgraded
-63593	Using an ID Tag to Revive a teammate	Using an ID Tag to Revive a teammate
-63594	${1} is using an ID Tag to Revive you	${1} is using an ID Tag to Revive you
-63595	This skill cannot be moved or replaced	This skill cannot be moved or replaced
-63596	This slot is reserved for Adventure skills. Skills cannot be inserted manually.	This slot is reserved for Adventure skills. Skills cannot be inserted manually.
-63597	Battlefield Info	Battlefield Info
-63598	Players Remaining	Players Remaining
-63599	Kills	Kills
-63600	Assists	Assists
-63601	Skills cannot be upgraded during combat	Skills cannot be upgraded during combat
-63602	You've already reminded this teammate	You've already reminded this teammate
-63603	A participant did not confirm. Matchmaking has been Initiated again.	A participant did not confirm. Matchmaking has been Initiated again.
 63604	Evil Eye Messenger	Evil Eye Messenger
 63605	Traveling Merchant	Traveling Merchant
 63606	Mysterious Cube	Mysterious Cube
@@ -24878,7 +23350,6 @@
 63608	Evil Eye Emissary	Evil Eye Emissary
 63609	Evil Eye Emissary & Blessing of the Gods	Evil Eye Emissary & Blessing of the Gods
 63610	Pirate Phantom	Pirate Phantom
-63611	${1} invited you to Follow	${1} invited you to Follow
 10370000313	Can I help you? Unauthorized personnel are not allowed near this area.	Can I help you? Unauthorized personnel are not allowed near this area.
 10370000312	Take the Device	Take the Device
 10370000311	Place It in the Device	Place It in the Device
@@ -25889,48 +24360,11 @@
 110039	Participate in MVP battles, Caravans, and Daily Activity for a chance to obtain Crystals, which can be used to craft reward chests. Craft enough, and the “Chest of the Future” can be unlocked and carried over to the Season!	Participate in MVP battles, Caravans, and Daily Activity for a chance to obtain Crystals, which can be used to craft reward chests. Craft enough, and the “Chest of the Future” can be unlocked and carried over to the Season!
 110038	Tap to Congratulate	Tap to Congratulate
 110037	Gain powerful effects after the Bonfire Level-up!	Gain powerful effects after the Bonfire Level-up!
-91051	You cannot participate again during this session. Please Wait for the next event.	You cannot participate again during this session. Please Wait for the next event.
 91050	【Tap to Participate】	【Tap to Participate】
-91049	Next question in ${1}s	Next question in ${1}s
-91048	Answer:	Answer:
-91047	Players ranked ${1} or higher placed the correct bet	Players ranked ${1} or higher placed the correct bet
-91046	Below Rank ${1}	Below Rank ${1}
-91044	Quiz Starts	Quiz Starts
-91043	Questions ${1}/${2}	Questions ${1}/${2}
-91042	Resting	Resting
-91041	Preparing	Preparing
-91040	The koi you bet on took first place!	The koi you bet on took first place!
-91038	Guild Channel	Guild Channel
-91036	Event rewards have been sent to your mailbox.	Event rewards have been sent to your mailbox.
-91035	First Place	First Place
 91034	RO Genius LUK Star	RO Genius LUK Star
-91033	Question Timer: ${1}/${2} sec.	Question Timer: ${1}/${2} sec.
-91032	Watch for the question in the center, decide whether it's true or false, and stand in the corresponding circle.	Watch for the question in the center, decide whether it's true or false, and stand in the corresponding circle.
-91031	Celebration Invitation Quiz (Question ${1}/${2})	Celebration Invitation Quiz (Question ${1}/${2})
 91030	[Event]	[Event]
 91029	${1}	${1}
 91028	${1}	${1}
 91027	${1}	${1}
-91026	Grand Finals	Grand Finals
-91025	Eliminations	Eliminations
-91023	Lucky Koi Enters	Lucky Koi Enters
-91022	Forfeited	Forfeited
-91021	Captured	Captured
-91020	Bet Placed	Bet Placed
-91019	Place Bet	Place Bet
-91018	Betting closes in: ${1}	Betting closes in: ${1}
-91016	Prediction List	Prediction List
-91015	Festival Predictions	Festival Predictions
-91014	Advancing to the Finals!	Advancing to the Finals!
-91013	Exit ${1}	Exit ${1}
-91012	Event rewards have been Sent to your mailbox.	Event rewards have been Sent to your mailbox.
-91011	Event Over	Event Over
-91010	Read the question, then move to the <sprite name="activityevening_icon_riddle_right"> or <sprite name="activityevening_icon_riddle_wrong"> area	Read the question, then move to the <sprite name="activityevening_icon_riddle_right"> or <sprite name="activityevening_icon_riddle_wrong"> area
 91009	（${1}/${2}）	（${1}/${2}）
-91007	Join Now	Join Now
-91006	Event starts in: ${1}	Event starts in: ${1}
-91004	Dear student, congratulations! You've been selected to participate in the Quiz Festival! Answer questions to earn fantastic rewards. Hurry to Prontera and enter the venue!	Dear student, congratulations! You've been selected to participate in the Quiz Festival! Answer questions to earn fantastic rewards. Hurry to Prontera and enter the venue!
-91003	Festival Invitation	Festival Invitation
-91002	Entry Time: ${1}	Entry Time: ${1}
-91001	You've been selected!\nYou're a Lucky Star!	You've been selected!\nYou're a Lucky Star!
 53001	\t1. This is a role-playing game suitable for users age 12 and older. Minors are advised to play under parental supervision.\n\t2. This game features a cartoon art style with detailed visuals, vibrant colors, and lighthearted, lively music. Set against a fictional story and fantasy world, players take on the role of an adventurer embarking on a journey to protect this beautiful world. The game includes competitive gameplay and story-related conflict, but these confrontations are depicted in a cartoon style and cannot be confused with real life. The game includes a text- and voice-based Connect System for interacting with strangers. The Connect System is managed in accordance with applicable laws and regulations.\n\t3. The game includes a real-name user verification System. Users verified as minors are subject to the following restrictions:\n\tSome gameplay features and items require payment. Users under age 8 may not make payments. Users age 8 or older but under age 16 may spend no more than 50 RMB per transaction and no more than 200 RMB per month. Users age 16 or older who are minors may spend no more than 100 RMB per transaction and no more than 400 RMB per month.\n\tAccounts without real-name verification cannot log in to play. Verified minors may play for 1 hour each day from 20:00 to 21:00 on Fridays, Saturdays, Sundays, and statutory holidays, and may not play at any other time.\n\t4. The game includes a party mode, large-scale team missions, and competitions that require players to work together. These activities help Train players' communication and teamwork skills while fostering a sense of group belonging.	\t1. This is a role-playing game suitable for users age 12 and older. Minors are advised to play under parental supervision.\n\t2. This game features a cartoon art style with detailed visuals, vibrant colors, and lighthearted, lively music. Set against a fictional story and fantasy world, players take on the role of an adventurer embarking on a journey to protect this beautiful world. The game includes competitive gameplay and story-related conflict, but these confrontations are depicted in a cartoon style and cannot be confused with real life. The game includes a text- and voice-based Connect System for interacting with strangers. The Connect System is managed in accordance with applicable laws and regulations.\n\t3. The game includes a real-name user verification System. Users verified as minors are subject to the following restrictions:\n\tSome gameplay features and items require payment. Users under age 8 may not make payments. Users age 8 or older but under age 16 may spend no more than 50 RMB per transaction and no more than 200 RMB per month. Users age 16 or older who are minors may spend no more than 100 RMB per transaction and no more than 400 RMB per month.\n\tAccounts without real-name verification cannot log in to play. Verified minors may play for 1 hour each day from 20:00 to 21:00 on Fridays, Saturdays, Sundays, and statutory holidays, and may not play at any other time.\n\t4. The game includes a party mode, large-scale team missions, and competitions that require players to work together. These activities help Train players' communication and teamwork skills while fostering a sense of group belonging.

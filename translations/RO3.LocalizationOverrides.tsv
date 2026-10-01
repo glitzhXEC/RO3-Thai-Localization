@@ -7575,3 +7575,1569 @@
 50189	Round 3	รอบ 3
 50190	TBD	ยังไม่กำหนดรายละเอียด
 50194	Boss Appeared	บอสปรากฏแล้ว
+23001	Skill Unlocked: ${1}	สกิลที่ปลดล็อก: ${1}
+23002	Rent	เช่า
+23003	Cancel Rental	ยกเลิกการเช่า
+23004	Go unlock	ไปปลดล็อก
+23006	Ride	ขึ้นพาหนะ
+23007	Open	เปิด
+23008	Put in the Cart.	ใส่รถเข็น
+23009	Return to Backpack	กลับกระเป๋า
+23010	This item cannot be Put in the Cart.	ไอเทมนี้ใส่รถเข็นไม่ได้
+23011	Cannot organize during batch processing	จัดระเบียบระหว่างดำเนินการหลายรายการไม่ได้
+23012	Level too low! Hurry and Level-up!	ระดับต่ำเกินไป! รีบเพิ่มระดับ!
+23013	Rental Successful	เช่าสำเร็จ
+23014	Rental Canceled	ยกเลิกการเช่าแล้ว
+23015	${1} is full. Please clear your cart and try again.	${1} เต็มแล้ว โปรดนำของออกจากรถเข็นแล้วลองอีกครั้ง
+23018	You haven't learned the required skill, so you can't rent this.	คุณยังไม่ได้เรียนสกิลที่จำเป็น จึงเช่าสิ่งนี้ไม่ได้
+23019	Special Class Item	ไอเทมเฉพาะคลาส
+23021	Rented	เช่าแล้ว
+23022	Class Item	ไอเทมคลาส
+23023	Unlock Requirement	เงื่อนไขปลดล็อก
+23024	Sort	เรียงลำดับ
+23025	Confirm Add	ยืนยันเพิ่ม
+23026	Add Multiple	เพิ่มหลายรายการ
+23027	Cancel Add	ยกเลิกเพิ่ม
+23028	Too many requests. Please try again later.	คำขอมากเกินไป โปรดลองอีกครั้งในภายหลัง
+23029	Go to Rental	ไปเช่า
+23031	Charm	เสน่ห์
+23032	After renting, tap Ride in the lower-left corner of the main screen.	หลังเช่า แตะขึ้นพาหนะที่มุมซ้ายล่างของหน้าจอหลัก
+23033	Right Tap to Open	แตะทางขวาเพื่อเปิด
+23034	You must Clear all items from the Cart Merchant before you can Cancel Rental.	ต้องนำไอเทมทั้งหมดออกจาก Cart Merchant ก่อนยกเลิกการเช่า
+23035	Cannot reset the [Cart Use] skill. Please Clear all items from the Cart Merchant first.	รีเซ็ตสกิล [ Cart Use ] ไม่ได้ โปรดนำไอเทมทั้งหมดออกจาก Cart Merchant ก่อน
+23036	Job Items	ไอเทมอาชีพ
+23104	Not enough [${1}]~	[ ${1} ] ไม่เพียงพอ~
+23105	Revive Prompt	แจ้งเตือนฟื้นคืนชีพ
+23106	Revive	ฟื้นคืนชีพ
+23107	Use 1 Yggdrasil Leaf to Revive 【${1}】?	ใช้ Yggdrasil Leaf 1 ใบเพื่อฟื้นคืนชีพ [ ${1} ] หรือไม่?
+23108	Automatically use when HP falls below <color=#cc762a>${1}%</color>	ใช้อัตโนมัติเมื่อ HP ต่ำกว่า <color=#cc762a>${1}%</color>
+23109	Automatically use when SP falls below <color=#cc762a>${1}%</color>	ใช้อัตโนมัติเมื่อ SP ต่ำกว่า <color=#cc762a>${1}%</color>
+23110	Add All	เพิ่มทั้งหมด
+23112	Player ${1} revived you	ผู้เล่น ${1} ฟื้นคืนชีพให้คุณ
+23113	Wing items cannot be used while dead	ใช้ไอเทม Wing ขณะตายไม่ได้
+23114	This item is temporarily unavailable.	ไอเทมนี้ยังใช้ไม่ได้ชั่วคราว
+23115	Item-based healing is temporarily disabled. Use potions with caution.	การฟื้นฟูด้วยไอเทมถูกปิดชั่วคราว โปรดใช้ยาอย่างระมัดระวัง
+23200	Help Text	ข้อความช่วยเหลือ
+23203	Search History:	ประวัติการค้นหา:
+23204	${1} days remaining	เหลือ ${1} วัน
+23205	${1} hr. remaining	เหลือ ${1} ชั่วโมง
+23206	${1} min. remaining	เหลือ ${1} นาที
+23208	Search Shop	ค้นหาร้านค้า
+23209	Search Point Mall	ค้นหาร้านแต้ม
+23210	Daily Purchase Limit: ${1}/${2}	จำกัดซื้อรายวัน: ${1}/${2}
+23211	Weekly Purchase Limit: ${1}/${2}	จำกัดซื้อรายสัปดาห์: ${1}/${2}
+23212	Monthly Purchase Limit: ${1}/${2}	จำกัดซื้อรายเดือน: ${1}/${2}
+23213	Lifetime Purchase Limit: ${1}/${2}	จำกัดซื้อทั้งหมด: ${1}/${2}
+23215	Delete Prompt	แจ้งเตือนลบ
+23217	Sold out	ขายหมดแล้ว
+23219	Owned: ${1}	มีอยู่: ${1}
+23220	Remaining: ${1}	เหลือ: ${1}
+23221	No matching results	ไม่พบผลลัพธ์ที่ตรงกัน
+23222	Delete search history?\nThis will permanently clear all search history and cannot be undone.	ลบประวัติการค้นหาหรือไม่?\nการดำเนินการนี้จะล้างประวัติการค้นหาทั้งหมดอย่างถาวรและย้อนกลับไม่ได้
+23223	Purchase requirements not met	ไม่ตรงตามเงื่อนไขการซื้อ
+23224	Sold out	ขายหมดแล้ว
+23225	Daily Purchase Limit	จำกัดซื้อรายวัน
+23226	Weekly Purchase Limit	จำกัดซื้อรายสัปดาห์
+23227	Monthly Purchase Limit	จำกัดซื้อรายเดือน
+23228	Lifetime Purchase Limit	จำกัดซื้อทั้งหมด
+23229	No search history	ไม่มีประวัติการค้นหา
+23230	Refreshes daily at ${1}	รีเฟรชทุกวันเวลา ${1}
+23231	New items coming soon. Stay tuned!	ไอเทมใหม่กำลังจะมา โปรดติดตาม!
+23233	Point Mall	ร้านแต้ม
+23234	${1} days remaining	เหลือ ${1} วัน
+23235	${1} hours remaining	เหลือ ${1} ชั่วโมง
+23236	${1} minutes remaining	เหลือ ${1} นาที
+23237	Purchase Successful	ซื้อสำเร็จ
+23238	${1} seconds remaining	เหลือ ${1} วินาที
+23239	New Season Arrivals	สินค้าใหม่ประจำฤดูกาล
+23241	Season Limited-Time Offer	ข้อเสนอจำกัดเวลาประจำฤดูกาล
+23242	Search Items	ค้นหาไอเทม
+23243	After purchasing a paid item, please claim it from your mail.	หลังซื้อไอเทมที่ต้องชำระเงิน โปรดรับจากจดหมาย
+23244	First Purchase Bonus	โบนัสซื้อครั้งแรก
+23245	Extra Bonus	โบนัสเพิ่มเติม
+23246	Fashion	แฟชั่น
+23248	Costume	ชุดแต่งกาย
+23250	Accessory	เครื่องประดับ
+23251	Friend Gifts	ของขวัญเพื่อน
+23252	Confirm Gift	ยืนยันส่งของขวัญ
+23253	Recipient Already Owns This	ผู้รับมีสิ่งนี้อยู่แล้ว
+23254	Effect Preview	ตัวอย่างเอฟเฟกต์
+23257	${1}d	${1} วัน
+23258	${1}h	${1} ชั่วโมง
+23259	${1}m	${1} นาที
+23260	${1}s	${1} วินาที
+23261	If unclaimed after ${1} hr. ${2} min., the cost will be refunded	หากไม่รับภายใน ${1} ชั่วโมง ${2} นาที จะคืนค่าใช้จ่าย
+23262	Gift claimed	รับของขวัญแล้ว
+23263	Gift cost refunded by mail	คืนค่าใช้จ่ายของขวัญทางจดหมายแล้ว
+23264	or	หรือ
+23265	And	และ
+23266	Purchase limit reached	ถึงขีดจำกัดการซื้อแล้ว
+23267	Gift sent successfully. Please wait for the recipient to accept it.	ส่งของขวัญสำเร็จ โปรดรอผู้รับรับของขวัญ
+23268	Go to Wardrobe	ไปตู้เสื้อผ้า
+23269	Discount Ends In: ${1}	ส่วนลดสิ้นสุดใน: ${1}
+23270	Season Purchase Limit: ${1}/${2}	จำกัดซื้อประจำฤดูกาล: ${1}/${2}
+23271	Global Purchase Limit: ${1}/${2}	จำกัดซื้อทั่วโลก: ${1}/${2}
+23272	Not owned	ยังไม่มี
+23274	Obtained	ได้รับแล้ว
+23275	Redeemed	แลกแล้ว
+23276	Exchange failed	แลกไม่สำเร็จ
+23277	Awaiting payment...	รอชำระเงิน...
+23278	Confirm exchange?	ยืนยันแลกหรือไม่?
+23280	A small token of my appreciation	ของเล็กน้อยแทนคำขอบคุณจากฉัน
+23281	Enter a friend's name or UID to search	ใส่ชื่อเพื่อนหรือ UID เพื่อค้นหา
+23282	No friends available to receive gifts	ไม่มีเพื่อนที่รับของขวัญได้
+23283	Currently trying on <color=#cc762a>${1}</color> Appearance items	กำลังลองไอเทมรูปลักษณ์ <color=#cc762a>${1}</color> ชิ้น
+23284	<color=#cc762a>${1}</color> valid items	ไอเทมที่ใช้ได้ <color=#cc762a>${1}</color> ชิ้น
+23285	Selected (<color=#cc762a>${1}</color>)	เลือกแล้ว (<color=#cc762a>${1}</color>)
+23286	Default	ค่าเริ่มต้น
+23287	Price - Ascending	ราคา - ต่ำไปสูง
+23288	Price - Descending	ราคา - สูงไปต่ำ
+23289	Listing Time - Ascending	เวลาลงรายการ - เก่าไปใหม่
+23290	Listing Time - Descending	เวลาลงรายการ - ใหม่ไปเก่า
+23291	Confirm and purchase	ยืนยันและซื้อ
+23293	Please select an item first.	โปรดเลือกไอเทมก่อน
+23295	Confirm and purchase?	ยืนยันและซื้อหรือไม่?
+23296	Insufficient Balance	ยอดเงินไม่เพียงพอ
+23297	Your balance is insufficient. Go to Top Up?	ยอดเงินของคุณไม่เพียงพอ ไปเติมเงินหรือไม่?
+23298	Price	ราคา
+23299	Purchase (<color=#cc762a>${1}</color> total)	ซื้อ (รวม <color=#cc762a>${1}</color>)
+23300	Delete (<color=#cc762a>${1}</color> total)	ลบ (รวม <color=#cc762a>${1}</color>)
+23301	Go Get	ไปรับ
+23302	Sorting Rules	กฎการเรียงลำดับ
+23303	Priority	ลำดับความสำคัญ
+23304	Top Up	เติมเงิน
+23305	Add to Cart	เพิ่มลงรถเข็น
+23310	Subtotal	ยอดรวมย่อย
+23311	Total	ยอดรวม
+23312	Shopping Cart	รถเข็นสินค้า
+23313	No valid items	ไม่มีไอเทมที่ใช้ได้
+23315	Apply	ใช้
+23316	Total:	รวม:
+23398	No private chats	ไม่มีแชตส่วนตัว
+23399	No friends found	ไม่พบเพื่อน
+23401	Recent	ล่าสุด
+23403	Group Chat	แชตกลุ่ม
+23405	Stranger	คนแปลกหน้า
+23406	Cross-server	ข้ามเซิร์ฟเวอร์
+23408	Intimacy:	ความสนิท:
+23410	Mini Window	หน้าต่างขนาดเล็ก
+23413	Send	ส่ง
+23414	Tap to enter text	แตะเพื่อป้อนข้อความ
+23415	All Friends	เพื่อนทั้งหมด
+23416	Blocks	รายชื่อบล็อก
+23417	Cross-server Friends	เพื่อนข้ามเซิร์ฟเวอร์
+23418	Create Group	สร้างกลุ่ม
+23419	About Cross-server Friends	เกี่ยวกับเพื่อนข้ามเซิร์ฟเวอร์
+23420	Select a contact on the left to start chatting	เลือกผู้ติดต่อทางซ้ายเพื่อเริ่มแชต
+23421	1.The continent of Prontera is never short of Adventurers, and helping one another is considered its highest virtue.\n2.You can add other Adventurers as friends through the game world, chat channels, rankings, and more.\n3.After sending a friend request, you must wait for the other player to accept before you become friends.\n4.Team up with friends to participate in activities and complete quests to earn Intimacy Points and raise your Intimacy Level.\n5.Once you reach the required Intimacy Level, you will receive bonus effects when teamed up together.\n6.Friends can also exchange gifts to increase their Intimacy Points.	1.ทวีป Prontera ไม่เคยขาดนักผจญภัย และการช่วยเหลือกันถือเป็นคุณธรรมสูงสุด\n2.คุณเพิ่มนักผจญภัยคนอื่นเป็นเพื่อนผ่านโลกเกม ช่องแชต อันดับ และช่องทางอื่นได้\n3.หลังส่งคำขอเป็นเพื่อน ต้องรออีกฝ่ายยอมรับจึงจะเป็นเพื่อนกัน\n4.ร่วมทีมกับเพื่อนเพื่อเข้าร่วมกิจกรรมและทำเควสต์ รับแต้มความสนิทและเพิ่มระดับความสนิท\n5.เมื่อถึงระดับความสนิทที่กำหนด จะได้รับเอฟเฟกต์โบนัสขณะร่วมทีมกัน\n6.เพื่อนส่งของขวัญให้กันเพื่อเพิ่มแต้มความสนิทได้ด้วย
+23422	My Group Chats	แชตกลุ่มของฉัน
+23423	Create Group Chat	สร้างแชตกลุ่ม
+23424	Group Host: ${1}	เจ้าของกลุ่ม: ${1}
+23425	Created: ${2}/${3}/${1}	สร้างเมื่อ: ${2}/${3}/${1}
+23427	Set as Close Friends Group Chat	ตั้งเป็นแชตกลุ่มเพื่อนสนิท
+23428	Group chat settings	ตั้งค่าแชตกลุ่ม
+23429	Leave group chat	ออกจากแชตกลุ่ม
+23430	Go add some friends now!	ไปเพิ่มเพื่อนกันเลย!
+23431	No chat history	ไม่มีประวัติแชต
+23432	Tap to edit members	แตะเพื่อแก้ไขสมาชิก
+23433	Send Friend Request	ส่งคำขอเป็นเพื่อน
+23434	Current Server	เซิร์ฟเวอร์ปัจจุบัน
+23435	Cross-server	ข้ามเซิร์ฟเวอร์
+23436	Search player name or ID…	ค้นหาชื่อผู้เล่นหรือ ID…
+23438	Request	ส่งคำขอ
+23439	Friend Recommendations:	เพื่อนที่แนะนำ:
+23440	Group Settings	ตั้งค่ากลุ่ม
+23441	Select Group	เลือกกลุ่ม
+23442	Group Name	ชื่อกลุ่ม
+23443	Number of Members	จำนวนสมาชิก
+23444	Group Host	เจ้าของกลุ่ม
+23445	Ungrouped	ยังไม่จัดกลุ่ม
+23446	My Friends	เพื่อนของฉัน
+23447	Enter a player name to search	ป้อนชื่อผู้เล่นเพื่อค้นหา
+23448	Leave group chat	ออกจากแชตกลุ่ม
+23449	Disband Group	ยุบกลุ่ม
+23451	Select Group	เลือกกลุ่ม
+23452	Create Group	สร้างกลุ่ม
+23453	Members Selected: ${1}	สมาชิกที่เลือก: ${1}
+23454	No Online members in this group	ไม่มีสมาชิกออนไลน์ในกลุ่มนี้
+23455	Enter a friend's name	ใส่ชื่อเพื่อน
+23457	Give ${1}	มอบ ${1}
+23458	Heart Points +${1}	แต้มใจ +${1}
+23459	Intimacy Points +${1}	แต้มความสนิท +${1}
+23460	Popularity Rankings	อันดับความนิยม
+23461	Gifting Record	บันทึกส่งของขวัญ
+23462	Intimacy Help	คำอธิบายความสนิท
+23463	Intimacy:	ความสนิท:
+23464	My Heart Points:	แต้มใจของฉัน:
+23465	Their Popularity This Week:	ความนิยมของอีกฝ่ายในสัปดาห์นี้:
+23466	All-Time Popularity:	ความนิยมสะสม:
+23467	Change Friend	เปลี่ยนเพื่อน
+23468	Gift Message	ข้อความของขวัญ
+23469	Enter a gift message	ใส่ข้อความของขวัญ
+23470	Submit Anonymously	ส่งแบบไม่ระบุชื่อ
+23472	Gift Quantity	จำนวนของขวัญ
+23475	Affinity Level Bonus	โบนัสระดับความสัมพันธ์
+23476	Intimacy with ${1}	ความสนิทกับ ${1}
+23477	Current Effect: ${1}	เอฟเฟกต์ปัจจุบัน: ${1}
+23478	Intimacy: Lv${1}	ความสนิท: Lv${1}
+23479	Max: Lv. ${1}	สูงสุด: Lv. ${1}
+23480	How to Gain Affection:	วิธีเพิ่มความชอบ:
+23481	Ignore all	ละเว้นทั้งหมด
+23483	Enter a name for the group…	ใส่ชื่อกลุ่ม…
+23484	Selected Friends: ${1}	เพื่อนที่เลือก: ${1}
+23485	Create	สร้าง
+23486	Enter a group name (up to 7 characters).	ใส่ชื่อกลุ่ม (สูงสุด 7 ตัวอักษร)
+23487	Selected: ${1}	เลือกแล้ว: ${1}
+23489	Edit Group	แก้ไขกลุ่ม
+23490	Delete Group	ลบกลุ่ม
+23491	Enter your broadcast message	ป้อนข้อความประกาศ
+23492	Gift History	ประวัติของขวัญ
+23493	Gifting Record	บันทึกส่งของขวัญ
+23494	Select Friend	เลือกเพื่อน
+23495	Edit Group Chat Name…	แก้ไขชื่อแชตกลุ่ม…
+23498	Do Not Disturb	ห้ามรบกวน
+23499	Tap a player's Portrait to Add Friend.	แตะรูปผู้เล่นเพื่อเพิ่มเพื่อน
+23501	Universal Mount	พาหนะทั่วไป
+23502	Combat Mount	พาหนะต่อสู้
+23503	Style Level	ระดับสไตล์
+23506	Trait +${1}	คุณลักษณะ +${1}
+23507	Mount Stats	ค่าสถานะพาหนะ
+23508	Active Mount Attributes	ค่าสถานะพาหนะที่ใช้งาน
+23509	Source: <#b05142><${1}></color>	แหล่งที่มา: <#b05142><${1}></color>
+23510	Mount Appearance	รูปลักษณ์พาหนะ
+23511	Mount Stats	ค่าสถานะพาหนะ
+23513	Mount Skills	สกิลพาหนะ
+23514	How to Obtain	วิธีได้รับ
+23515	Use Mount	ใช้พาหนะ
+23516	${1} hr ${2} min	${1} ชั่วโมง ${2} นาที
+23517	Style Level	ระดับสไตล์
+23520	Unavailable	ใช้ไม่ได้
+23521	1. Mounts are divided into two categories: Combat Mounts and General Mounts. The Peco Peco is an exclusive Combat Mount for Knight classes. Once they meet the requirements, Knight classes can claim and use it immediately. This mount is unavailable to other classes.\n2. Mounts come in different qualities. Each quality has different ranges for mount speed, attributes, and special stats. The higher the quality, the higher these values will be.\n3. Different mounts have different special stats, with value ranges determined by the mount's quality.\n4. To gain a General Mount's attributes, set it as your default mount. 【Combat Mount】 and 【General Mount】 attributes are separate, and a mount's appearance and attributes cannot be used separately.	1. พาหนะแบ่งเป็นสองประเภท: พาหนะต่อสู้และพาหนะทั่วไป Peco Peco เป็นพาหนะต่อสู้เฉพาะคลาส Knight เมื่อมีคุณสมบัติครบ คลาส Knight รับและใช้ได้ทันที คลาสอื่นใช้พาหนะนี้ไม่ได้\n2. พาหนะมีคุณภาพต่างกัน แต่ละคุณภาพมีช่วงค่าความเร็วพาหนะ คุณลักษณะ และค่าสถานะพิเศษต่างกัน ยิ่งคุณภาพสูง ค่าเหล่านี้ยิ่งสูง\n3. พาหนะต่างชนิดมีค่าสถานะพิเศษต่างกัน โดยช่วงค่าขึ้นอยู่กับคุณภาพพาหนะ\n4. หากต้องการคุณลักษณะของพาหนะทั่วไป ให้ตั้งเป็นพาหนะเริ่มต้น คุณลักษณะของ [ Combat Mount ] และ [ General Mount ] แยกจากกัน และแยกใช้รูปลักษณ์กับคุณลักษณะของพาหนะไม่ได้
+23522	1. Activating a mount automatically grants its corresponding Style Points. Each mount grants Style Points only once.\n2. Style Points accumulate as you unlock more mounts. Your total Style Points will never decrease. Battle Mounts do not grant Style Points.	1. การเปิดใช้งานพาหนะจะให้แต้มสไตล์ที่สอดคล้องกันโดยอัตโนมัติ พาหนะแต่ละตัวให้แต้มสไตล์ได้เพียงครั้งเดียว\n2. แต้มสไตล์สะสมเมื่อปลดล็อกพาหนะเพิ่ม แต้มสไตล์รวมของคุณจะไม่ลดลง พาหนะต่อสู้ไม่ให้แต้มสไตล์
+23523	Please set a default mount before use.	โปรดตั้งพาหนะเริ่มต้นก่อนใช้
+23524	Mount Info	ข้อมูลพาหนะ
+23525	No rewards available to claim.	ไม่มีรางวัลให้รับ
+23527	Obtain the Mount [${1}] permanently	ได้รับพาหนะ [ ${1} ] แบบถาวร
+23528	Mounts cannot be obtained repeatedly	รับพาหนะซ้ำไม่ได้
+23529	Obtain the mount [${1}] for a limited time	ได้รับพาหนะ [ ${1} ] แบบจำกัดเวลา
+23530	Please land before initiating the Interaction.	โปรดลงพื้นก่อนเริ่มปฏิสัมพันธ์
+23600	No gift history yet	ยังไม่มีประวัติของขวัญ
+23601	Intimacy Bonus Effect:	เอฟเฟกต์โบนัสความสนิท:
+23602	Search results can't be empty.	ผลการค้นหาว่างไม่ได้
+23603	Friend request sent.	ส่งคำขอเป็นเพื่อนแล้ว
+23604	They are already your friend.	อีกฝ่ายเป็นเพื่อนคุณอยู่แล้ว
+23605	You've reached the Add Friend limit.	คุณถึงขีดจำกัดการเพิ่มเพื่อนแล้ว
+23606	The other player's friend list is full.	รายชื่อเพื่อนของอีกฝ่ายเต็มแล้ว
+23607	You are on their Blocks list and cannot Add Friend.	คุณอยู่ในรายชื่อบล็อกของอีกฝ่าย จึงเพิ่มเพื่อนไม่ได้
+23608	No matching target found.	ไม่พบเป้าหมายที่ตรงกัน
+23609	You have unfriended ${1}.	คุณลบ ${1} ออกจากเพื่อนแล้ว
+23610	${1} is online!	${1} ออนไลน์แล้ว!
+23611	You are now friends with ${1}. Start chatting!	คุณเป็นเพื่อนกับ ${1} แล้ว เริ่มแชตกันเลย!
+23612	This player is in Blocks. Remove them from Blocks before selecting Add Friend.	ผู้เล่นนี้อยู่ในรายชื่อบล็อก นำออกก่อนเพิ่มเพื่อน
+23614	Removing player <color=#FA983A>${1}</color> will make you strangers and permanently reset your Intimacy. Confirm?	การลบผู้เล่น <color=#FA983A>${1}</color> จะทำให้คุณเป็นคนแปลกหน้าต่อกันและรีเซ็ตความสนิทอย่างถาวร ยืนยันหรือไม่?
+23615	Blocking <color=#FA983A>${1}</color> will remove them from your friends list and prevent you from receiving their messages. Your Intimacy and chat history will also be permanently deleted. Continue?	การบล็อก <color=#FA983A>${1}</color> จะลบออกจากรายชื่อเพื่อนและป้องกันไม่ให้คุณได้รับข้อความจากอีกฝ่าย ความสนิทและประวัติแชตจะถูกลบอย่างถาวรด้วย ดำเนินการต่อหรือไม่?
+23616	Yesterday	เมื่อวาน
+23617	Enter a group name (up to seven characters)	ใส่ชื่อกลุ่ม (สูงสุดเจ็ดตัวอักษร)
+23618	Selected	เลือกแล้ว
+23619	Are you sure you want to delete the current chat history?	ยืนยันลบประวัติแชตปัจจุบันหรือไม่?
+23620	Affection: +${1}	ความชอบ: +${1}
+23621	Popularity: +${1}	ความนิยม: +${1}
+23622	Affection: +${1}	ความชอบ: +${1}
+23623	${1} gave ${2} ${3} * ${4}	${1} มอบ ${2} ${3} * ${4}
+23624	Group name cannot be empty	ชื่อกลุ่มว่างไม่ได้
+23625	Group Chat name cannot be empty	ชื่อแชตกลุ่มว่างไม่ได้
+23626	Delete this group?	ลบกลุ่มนี้หรือไม่?
+23627	Maximum number of groups reached	จำนวนกลุ่มถึงขีดจำกัดแล้ว
+23628	Maximum number of Group Chats reached	จำนวนแชตกลุ่มถึงขีดจำกัดแล้ว
+23629	Maximum number of group Members reached	จำนวนสมาชิกกลุ่มถึงขีดจำกัดแล้ว
+23630	Maximum number of Group Chat Members reached	จำนวนสมาชิกแชตกลุ่มถึงขีดจำกัดแล้ว
+23631	Delete this group?	ลบกลุ่มนี้หรือไม่?
+23632	Leave this Group Chat?	ออกจากแชตกลุ่มนี้หรือไม่?
+23633	Disband this Group Chat?	ยุบแชตกลุ่มนี้หรือไม่?
+23634	Remove this Member from the Group Chat?	นำสมาชิกนี้ออกจากแชตกลุ่มหรือไม่?
+23635	Refreshing recommended friends is on cooldown	การรีเฟรชเพื่อนที่แนะนำอยู่ระหว่าง CD
+23637	Cancel Close Friends Group Chat	ยกเลิกแชตกลุ่มเพื่อนสนิท
+23638	${1} received ${2} ${3} * ${4}	${1} ได้รับ ${2} ${3} * ${4}
+23639	1. After a gift is sent, both friends will gain the corresponding values.\n2. Popularity: The value gained by the gift recipient after receiving a gift.\n3. Affection: The value gained by the sender after sending a gift.\n4. Intimacy: The value gained by both the sender and recipient after a gift is sent.	1. หลังส่งของขวัญ เพื่อนทั้งสองจะได้รับค่าที่สอดคล้องกัน\n2. ความนิยม: ค่าที่ผู้รับได้รับหลังรับของขวัญ\n3. ความชอบ: ค่าที่ผู้ส่งได้รับหลังส่งของขวัญ\n4. ความสนิท: ค่าที่ทั้งผู้ส่งและผู้รับได้รับหลังส่งของขวัญ
+23640	Friends Info	ข้อมูลเพื่อน
+23641	Intimacy Info	ข้อมูลความสนิท
+23642	Group name has reached the character limit	ชื่อกลุ่มถึงขีดจำกัดตัวอักษรแล้ว
+23643	You can send messages once they reach Lv. ${1}	ส่งข้อความได้เมื่ออีกฝ่ายถึง Lv. ${1}
+23644	Anonymous Friend	เพื่อนนิรนาม
+23645	You cannot add yourself as friend.	เพิ่มตัวเองเป็นเพื่อนไม่ได้
+23646	No recommended friends	ไม่มีเพื่อนที่แนะนำ
+23647	No new friend requests	ไม่มีคำขอเป็นเพื่อนใหม่
+23648	You	คุณ
+23649	Friend Chat	แชตกับเพื่อน
+23650	Send Friend Gift	ส่งของขวัญให้เพื่อน
+23651	Gifting Info	ข้อมูลการส่งของขวัญ
+23652	1. Gifts can only be sent between players who are friends with each other.\n2. The recipient must be Online to receive a gift.\n3. You can switch recipients on the gifting screen.\n4. Each gift grants different amounts of Intimacy and Affection. Once sent, both friends will receive the corresponding bonuses.\n5. Only premium gifts allow custom messages and trigger a flashy Entire Server Notification.	1. ส่งของขวัญได้เฉพาะผู้เล่นที่เป็นเพื่อนกัน\n2. ผู้รับต้องออนไลน์จึงจะรับของขวัญได้\n3. เปลี่ยนผู้รับได้จากหน้าส่งของขวัญ\n4. ของขวัญแต่ละชนิดให้ความสนิทและความชอบต่างกัน หลังส่ง เพื่อนทั้งสองจะได้รับโบนัสที่สอดคล้องกัน\n5. เฉพาะของขวัญพรีเมียมเท่านั้นที่ใส่ข้อความเองได้และแสดงประกาศสะดุดตาทั่วเซิร์ฟเวอร์
+23653	Similar Level	ระดับใกล้เคียงกัน
+23654	Same Class	คลาสเดียวกัน
+23655	Opposite-Gender Players	ผู้เล่นเพศตรงข้าม
+23656	Recently Teamed Up	เคยร่วมทีมล่าสุด
+23657	This player is in Blocks. Remove them from Blocks before selecting Add Friend.	ผู้เล่นนี้อยู่ในรายชื่อบล็อก นำออกก่อนเพิ่มเพื่อน
+23658	Welcome ${1} to the Group Chat	ยินดีต้อนรับ ${1} สู่แชตกลุ่ม
+23659	${1} left the Group Chat	${1} ออกจากแชตกลุ่มแล้ว
+23660	You've joined Group Chat ${1}. Say hello~	คุณเข้าร่วมแชตกลุ่ม ${1} แล้ว ทักทายกันหน่อย~
+23661	You must be friends before you can send gifts~	ต้องเป็นเพื่อนกันก่อนจึงจะส่งของขวัญได้~
+23662	Gifting Record	บันทึกส่งของขวัญ
+23663	1. Each player can have up to 50 Cross-server Friends.\n2. After a server merge, Cross-server Friends will automatically be added to My Friends.\n3. Cross-server Friends can team up for certain activities, but cannot send gifts.	1. ผู้เล่นแต่ละคนมีเพื่อนข้ามเซิร์ฟเวอร์ได้สูงสุด 50 คน\n2. หลังรวมเซิร์ฟเวอร์ เพื่อนข้ามเซิร์ฟเวอร์จะถูกเพิ่มเป็นเพื่อนของฉันโดยอัตโนมัติ\n3. เพื่อนข้ามเซิร์ฟเวอร์ร่วมทีมในบางกิจกรรมได้ แต่ส่งของขวัญไม่ได้
+23664	Search Results:	ผลการค้นหา:
+23665	Player not found	ไม่พบผู้เล่น
+23666	This player has disabled the friend Function	ผู้เล่นนี้ปิดฟังก์ชันเพื่อน
+23667	Level Bonus	โบนัสระดับ
+23668	Friends can increase Friendship by teaming up for activities or sending gifts	เพื่อนเพิ่มความสัมพันธ์ได้โดยร่วมทีมทำกิจกรรมหรือส่งของขวัญ
+23669	Like is only the beginning. My love for you will never end~	ความชอบเป็นเพียงจุดเริ่มต้น ความรักของฉันที่มีต่อเธอจะไม่มีวันสิ้นสุด~
+23670	You received ${2} from ${1}. Message: ${3}	คุณได้รับ ${2} จาก ${1} ข้อความ: ${3}
+23671	Enter player name	ใส่ชื่อผู้เล่น
+23672	Recommended Friends	เพื่อนที่แนะนำ
+23673	You're on this player's Blocks and cannot send messages	คุณอยู่ในรายชื่อบล็อกของผู้เล่นนี้ จึงส่งข้อความไม่ได้
+23674	This player is on your Blocks list, so you cannot send them messages	ผู้เล่นนี้อยู่ในรายชื่อบล็อกของคุณ จึงส่งข้อความให้อีกฝ่ายไม่ได้
+23675	You cannot send messages to yourself	ส่งข้อความให้ตัวเองไม่ได้
+23677	Benefits	สิทธิประโยชน์
+23678	Fashion	แฟชั่น
+23679	${1} went offline	${1} ออฟไลน์แล้ว
+23680	Switched to anonymous gifting mode	เปลี่ยนเป็นโหมดส่งของขวัญแบบไม่ระบุชื่อแล้ว
+23681	Anonymous gifting mode disabled	ปิดโหมดส่งของขวัญแบบไม่ระบุชื่อแล้ว
+23682	Intimacy Level:	ระดับความสนิท:
+23683	Intimacy Tier:	ขั้นความสนิท:
+23684	Bonus:	โบนัส:
+23685	Intimacy	ความสนิท
+23686	Current Cap	เพดานปัจจุบัน
+23687	Already Friends	เป็นเพื่อนกันแล้ว
+23688	Group Members:	สมาชิกกลุ่ม:
+23689	Claim Gift	รับของขวัญ
+23690	Gift: ${1}	ของขวัญ: ${1}
+23691	Gift claimed	รับของขวัญแล้ว
+23692	Group Chat Do Not Disturb	ห้ามรบกวนแชตกลุ่ม
+23693	This Group Chat has been muted.	ปิดเสียงแชตกลุ่มนี้แล้ว
+23694	Group Chat Name:	ชื่อแชตกลุ่ม:
+23695	You've already sent this player a friend request.	คุณส่งคำขอเป็นเพื่อนให้ผู้เล่นนี้แล้ว
+23701	1. Rankings are updated in real time.\n2. For some rankings, click a column header to customize the sorting order.\n3. Settlement for the Battle Power Rankings occurs every Monday at 05:00, and ranking rewards are distributed.	1. อันดับอัปเดตแบบเรียลไทม์\n2. สำหรับบางอันดับ คลิกหัวคอลัมน์เพื่อกำหนดการเรียงลำดับเอง\n3. สรุปผลอันดับพลังต่อสู้ทุกวันจันทร์เวลา 05:00 และแจกจ่ายรางวัลอันดับ
+23702	Top Ten Players	ผู้เล่นสิบอันดับแรก
+23703	Full Rankings	อันดับทั้งหมด
+23706	Power	พลัง
+23707	No Adventurers made the rankings.	ไม่มีนักผจญภัยติดอันดับ
+23708	Unranked	ไม่มีอันดับ
+23710	Friends and Guild Members Only	เฉพาะเพื่อนและสมาชิกกิลด์
+23711	View Info	ดูข้อมูล
+23713	Rank ${1}–${2}	อันดับ ${1}–${2}
+23714	Weekly Ranking Reward Settlement: ${1}${2} o'clock	สรุปผลรางวัลอันดับรายสัปดาห์: ${1}${2} นาฬิกา
+23715	My Rank: ${1}	อันดับของฉัน: ${1}
+23716	Daily Ranking Reward Settlement at ${1}	สรุปผลรางวัลอันดับรายวันเวลา ${1}
+23717	No rewards available	ไม่มีรางวัลให้รับ
+23731	Pet Not Deployed	ยังไม่ได้ส่งสัตว์เลี้ยงลงสนาม
+23733	You haven't made the rankings yet, so there are no rewards to claim.	คุณยังไม่ติดอันดับ จึงไม่มีรางวัลให้รับ
+23734	No one is currently ranked.	ขณะนี้ยังไม่มีผู้ติดอันดับ
+23735	Divine Armament Rank ${1}	อันดับ Divine Armament ${1}
+23736	You cannot view your own information.	ดูข้อมูลของตัวเองไม่ได้
+56000	Bosses Defeated: ${1}/${2}	บอสที่กำจัด: ${1}/${2}
+56001	Party Challenge	ท้าทายปาร์ตี้
+56002	Only the Party Leader can select the challenge target.	เฉพาะหัวหน้าปาร์ตี้เท่านั้นที่เลือกเป้าหมายท้าทายได้
+56003	My Party	ปาร์ตี้ของฉัน
+56005	All Classes	ทุกอาชีพ
+56006	${1} Achieved	บรรลุ ${1} แล้ว
+56007	Challenge unlocks at World Level <color=#dd563f>${1}</color>	ปลดล็อกการท้าทายเมื่อระดับโลกถึง <color=#dd563f>${1}</color>
+56008	Challenge unlocks in ${1} days	ปลดล็อกการท้าทายใน ${1} วัน
+56100	First Clear Hall of Fame	หอเกียรติยศผู้ผ่านครั้งแรก
+56101	Every Monday at 5:00 AM, ${1} reward claim attempts will be added for the highest-level unlocked dungeon.	ทุกวันจันทร์เวลา 5:00 น. จะเพิ่มจำนวนครั้งรับรางวัล ${1} ครั้งสำหรับดันเจียนระดับสูงสุดที่ปลดล็อก
+56102	Challenge Requirements	เงื่อนไขท้าทาย
+56103	Recommended Power:	พลังที่แนะนำ:
+56104	Average Power:	พลังเฉลี่ย:
+56105	Buff Effects:	เอฟเฟกต์ Buff:
+56106	Boss Skills	สกิลบอส
+56108	Shared Rewards	รางวัลร่วม
+56109	My Party (${1}/${2})	ปาร์ตี้ของฉัน (${1}/${2})
+56110	Enter Challenge	เข้าสู่การท้าทาย
+56111	First Clear	ผ่านครั้งแรก
+56112	Once Peak Challenge begins, attempts for other five-player dungeons will no longer increase.	เมื่อ Peak Challenge เริ่ม จำนวนครั้งสำหรับดันเจียนห้าคนอื่นจะไม่เพิ่มอีก
+56113	First Clear Party	ปาร์ตี้ที่ผ่านครั้งแรก
+56114	All instances of the same Boss share the weekly attempt replenishment. Accumulated attempts cannot be used on Bosses unlocked later.	ดันเจียนทั้งหมดของบอสเดียวกันใช้การเพิ่มจำนวนครั้งรายสัปดาห์ร่วมกัน จำนวนครั้งที่สะสมไว้ใช้กับบอสที่ปลดล็อกภายหลังไม่ได้
+56115	Speed Rankings	อันดับความเร็ว
+56117	Ready	พร้อม
+56118	Countdown: ${1}	นับถอยหลัง: ${1}
+56120	Ready	พร้อม
+56122	Reward Count:${1}	จำนวนครั้งรับรางวัล:${1}
+56123	Please confirm you're ready as soon as possible.	โปรดยืนยันความพร้อมโดยเร็ว
+56124	In Position	ประจำตำแหน่งแล้ว
+56125	Enter Dungeon once everyone is ready	เข้าสู่ดันเจียนเมื่อทุกคนพร้อม
+56126	Revives Remaining: ${1}	ฟื้นคืนชีพได้อีก: ${1}
+56127	Best of the Best	ยอดฝีมือเหนือยอดฝีมือ
+56128	Max DPS	DPS สูงสุด
+56129	Most Damage Taken	รับความเสียหายมากที่สุด
+56130	Best Healing	ฟื้นฟูได้ดีที่สุด
+56131	Like All	กดถูกใจทั้งหมด
+56132	Reward Count exhausted. Unable to obtain dungeon rewards.	จำนวนครั้งรับรางวัลหมดแล้ว รับรางวัลดันเจียนไม่ได้
+56133	${1} has invited you to join the activity!	${1} เชิญคุณเข้าร่วมกิจกรรม!
+56135	Ranking Reward Settlement every Monday at 5	สรุปผลรางวัลอันดับทุกวันจันทร์เวลา 5
+56136	The top 3 players in each class receive a limited-time title reward.	ผู้เล่น 3 อันดับแรกของแต่ละคลาสได้รับรางวัลฉายาแบบจำกัดเวลา
+56137	Party Auction	ประมูลปาร์ตี้
+56138	Bidding	กำลังเสนอราคา
+56139	//Previous	//ก่อนหน้า
+56140	Auction Countdown	นับถอยหลังการประมูล
+56141	You can continue participating in the auction even if you switch instances or leave the current one.	คุณเข้าร่วมการประมูลต่อได้แม้เปลี่ยนดันเจียนหรือออกจากดันเจียนปัจจุบัน
+56142	Highest Bidder: <color=#fff7dc>${1}</color>	ผู้เสนอราคาสูงสุด: <color=#fff7dc>${1}</color>
+56145	No items up for auction	ไม่มีไอเทมประมูล
+56146	Purchase the item for the Fixed price of ${1}?	ซื้อไอเทมในราคาซื้อทันที ${1} หรือไม่?
+56147	Unsold	ขายไม่ออก
+56148	${1} won the item	${1} ได้ไอเทมไป
+56149	Discard All	สละทั้งหมด
+56150	Once everyone passes, the item immediately goes unsold.	เมื่อทุกคนสละสิทธิ์ ไอเทมจะขายไม่ออกทันที
+56151	Reward Count exhausted. Unable to participate in the auction.	จำนวนครั้งรับรางวัลหมดแล้ว เข้าร่วมประมูลไม่ได้
+56152	Send ${1} a dungeon invite	ส่งคำเชิญเข้าดันเจียนให้ ${1}
+56153	The party does not meet the required number of players.	ปาร์ตี้มีจำนวนผู้เล่นไม่ครบตามกำหนด
+56154	Party size exceeds the dungeon limit.	จำนวนสมาชิกปาร์ตี้เกินขีดจำกัดดันเจียน
+56155	The instance is full.	ดันเจียนเต็มแล้ว
+56156	The boss battle has begun. You cannot Enter Battlefield at this time.	การต่อสู้กับบอสเริ่มแล้ว ขณะนี้เข้าสู่สนามรบไม่ได้
+56157	The other player is in another instance and cannot be summoned.	ผู้เล่นอีกฝ่ายอยู่ในดันเจียนอื่น จึงเรียกตัวมาไม่ได้
+56158	A Member did not respond.	มีสมาชิกไม่ตอบรับ
+56159	${1} declined the dungeon ready check.	${1} ปฏิเสธการตรวจความพร้อมเข้าดันเจียน
+56160	The Reward Count for this boss has been exhausted. You will not receive any rewards for continuing.	จำนวนครั้งรับรางวัลของบอสนี้หมดแล้ว หากเล่นต่อจะไม่ได้รับรางวัล
+56161	Only the Party Leader can select the challenge target.	เฉพาะหัวหน้าปาร์ตี้เท่านั้นที่เลือกเป้าหมายท้าทายได้
+56162	${1} does not meet the requirements to open this dungeon, so it cannot be opened.	${1} ไม่ตรงตามเงื่อนไขเปิดดันเจียนนี้ จึงเปิดไม่ได้
+56163	Ready check sent.	ส่งการตรวจความพร้อมแล้ว
+56165	BOSS Reward Count has been exhausted.	จำนวนครั้งรับรางวัล BOSS หมดแล้ว
+56166	Item forfeited.	สละไอเทมแล้ว
+56167	Not enough ${1}	${1} ไม่เพียงพอ
+56168	Cannot send a party recruitment message during a boss battle.	ส่งข้อความรับสมัครปาร์ตี้ระหว่างต่อสู้กับบอสไม่ได้
+56169	Cannot remove party members during a boss battle.	นำสมาชิกออกจากปาร์ตี้ระหว่างต่อสู้กับบอสไม่ได้
+56170	Leaving the dungeon during the boss battle will prevent you from rejoining the fight. Are you sure you want to leave?	หากออกจากดันเจียนระหว่างต่อสู้กับบอส จะกลับเข้าร่วมการต่อสู้ไม่ได้ ยืนยันออกหรือไม่?
+56171	You are currently in an instance. Leaving the party will also remove you from the instance.	คุณอยู่ในดันเจียน การออกจากปาร์ตี้จะทำให้คุณออกจากดันเจียนด้วย
+56172	Waiting for Auction	รอการประมูล
+56173	Abandoned	ยกเลิกแล้ว
+56174	Abandonment is unavailable after confirming readiness.	ยกเลิกไม่ได้หลังยืนยันความพร้อม
+56175	${1} declined the dungeon summons	${1} ปฏิเสธการเรียกตัวเข้าดันเจียน
+56176	Cannot be used in your current state.	ใช้ในสถานะปัจจุบันของคุณไม่ได้
+56177	Clear Reward Count: ${1}	จำนวนครั้งรับรางวัลผ่านด่าน: ${1}
+56178	Shared Reward Count: ${1}	จำนวนครั้งรับรางวัลร่วม: ${1}
+56179	Shared Reward Count: ${1}	จำนวนครั้งรับรางวัลร่วม: ${1}
+56180	You've already given this a Like.	คุณกดถูกใจสิ่งนี้แล้ว
+56181	Praised you!	ชื่นชมคุณ!
+56182	You've used all your Likes.	คุณใช้จำนวนครั้งกดถูกใจหมดแล้ว
+56183	The auction will begin in <color=#FDAB5B>${1}</color> seconds	การประมูลจะเริ่มใน <color=#FDAB5B>${1}</color> วินาที
+56185	Unlock Requirement	เงื่อนไขปลดล็อก
+56186	Attempt Count	จำนวนครั้ง
+56188	Bid Item	เสนอราคาไอเทม
+56189	I Have the Highest Bid	ฉันเสนอราคาสูงสุด
+56190	Bidding begins after this <color=#FDAB5B>Dungeon Settlement is complete</color>	เริ่มเสนอราคาหลัง <color=#FDAB5B>สรุปผลดันเจียนนี้เสร็จ</color>
+56191	Off-Season	นอกฤดูกาล
+56192	Please join a party/raid before entering the Dungeon	โปรดเข้าร่วมปาร์ตี้/เรดก่อนเข้าสู่ดันเจียน
+56193	Unlock this skill to view its details	ปลดล็อกสกิลนี้เพื่อดูรายละเอียด
+56194	No Records	ไม่มีบันทึก
+56195	Clear Time: ${1}	เวลาผ่านด่าน: ${1}
+56197	Raid Members: <color=#CC762A>6—10</color>	สมาชิกเรด: <color=#CC762A>6—10</color>
+56198	Reward Count resets every Monday at <color=#CC762A>5</color> AM	รีเซ็ตจำนวนครั้งรับรางวัลทุกวันจันทร์เวลา <color=#CC762A>5</color> น.
+56199	Party Members: <color=#CC762A>3—5</color>	สมาชิกปาร์ตี้: <color=#CC762A>3—5</color>
+56200	Reward Count resets every Monday at <color=#CC762A>5</color> AM	รีเซ็ตจำนวนครั้งรับรางวัลทุกวันจันทร์เวลา <color=#CC762A>5</color> น.
+56204	<color=#B05142>Inactive</color>	<color=#B05142>ยังไม่ใช้งาน</color>
+56206	<color=#63A22B>(Unlocks after the Current Server's First Clear)</color>	<color=#63A22B>(ปลดล็อกหลังเซิร์ฟเวอร์ปัจจุบันผ่านครั้งแรก)</color>
+56207	<color=#63A22B>(Unlocks in ${1} days)</color>	<color=#63A22B>(ปลดล็อกใน ${1} วัน)</color>
+56208	<color=#CC762A>${1}</color>'s party <color=#CC762A>activated it with a First Clear!</color>	ปาร์ตี้ของ <color=#CC762A>${1}</color> <color=#CC762A>เปิดใช้งานด้วยการผ่านครั้งแรกแล้ว!</color>
+56209	Reward Count Lookup	ตรวจจำนวนครั้งรับรางวัล
+56210	Player name	ชื่อผู้เล่น
+56211	If more than <color=#CC762A>3</color> party Members have no Reward Count remaining, the party's Auction Rewards will be affected	หากมีสมาชิกปาร์ตี้มากกว่า <color=#CC762A>3</color> คนที่ไม่มีจำนวนครั้งรับรางวัลเหลือ จะส่งผลต่อรางวัลประมูลของปาร์ตี้
+56212	<color=#CC762A>Members with insufficient Reward Count are shown first</color>	<color=#CC762A>แสดงสมาชิกที่จำนวนครั้งรับรางวัลไม่เพียงพอก่อน</color>
+56213	<color=#97E553>(Active)</color>	<color=#97E553>(ใช้งานอยู่)</color>
+56214	<color=#EC543A>(Inactive)</color>	<color=#EC543A>(ยังไม่ใช้งาน)</color>
+56215	Trial Shop	ร้านบททดสอบ
+56216	Challenge Objective	เป้าหมายการท้าทาย
+56217	Objective Complete	บรรลุเป้าหมายแล้ว
+56218	Continue (${1})	ดำเนินการต่อ (${1})
+56219	No new challenge objectives were completed	ไม่มีเป้าหมายการท้าทายใหม่ที่สำเร็จ
+56220	<color=#FDAB5B>${1}</color> led the party to a First Clear!	<color=#FDAB5B>${1}</color> นำปาร์ตี้ผ่านเป็นครั้งแรก!
+56221	All Adventurers receive the Divine Blessing effect	นักผจญภัยทุกคนได้รับเอฟเฟกต์ Divine Blessing
+56222	Divine Blessing effect increased!	เอฟเฟกต์ Divine Blessing เพิ่มขึ้นแล้ว!
+56226	Final Trial	บททดสอบสุดท้าย
+56227	Clear Reward Count: ${1}	จำนวนครั้งรับรางวัลผ่านด่าน: ${1}
+56228	Shared Reward Count: ${1}	จำนวนครั้งรับรางวัลร่วม: ${1}
+56230	No Revives remaining for this challenge	การท้าทายนี้ไม่มีจำนวนครั้งฟื้นคืนชีพเหลือ
+56231	<color=#63A22B>(Unlocks on day ${1} after the Current Server's First Clear)</color>	<color=#63A22B>(ปลดล็อกในวันที่ ${1} หลังเซิร์ฟเวอร์ปัจจุบันผ่านครั้งแรก)</color>
+56232	Tap	แตะ
+56233	, step on the rhythm notes	 แล้วเหยียบตัวโน้ตตามจังหวะ
+56234	Tap	แตะ
+56235	, learn the Boss's dance moves	 แล้วเรียนรู้ท่าเต้นของบอส
+56237	Your party has fewer than 5 Members. Match with teammates?	ปาร์ตี้ของคุณมีสมาชิกไม่ถึง 5 คน จับคู่กับเพื่อนร่วมทีมหรือไม่?
+56238	Enter Directly	เข้าโดยตรง
+56239	Start Matching	เริ่มจับคู่
+56240	Matchmaking Notice	แจ้งเตือนจับคู่
+56241	Battle Countdown	นับถอยหลังการต่อสู้
+56242	Continue challenging<color=#FDAB5B> ${1}</color> ?	ท้าทาย<color=#FDAB5B> ${1}</color> ต่อหรือไม่?
+56243	Continue	ดำเนินการต่อ
+56244	Cancel Challenge	ยกเลิกท้าทาย
+56245	Challenge Role	บทบาทในการท้าทาย
+56246	Once you select a role, it will be used by default for matching in [Phantom Realm]	เมื่อเลือกบทบาทแล้ว จะใช้เป็นค่าเริ่มต้นในการจับคู่สำหรับ [ Phantom Realm ]
+56247	Matchmaking is already in progress. Cancel it and start matching for ${1}?	กำลังจับคู่อยู่ ยกเลิกแล้วเริ่มจับคู่สำหรับ ${1} หรือไม่?
+56248	Queuing……	กำลังเข้าคิว……
+56249	Please select a challenge role	โปรดเลือกบทบาทในการท้าทาย
+56250	The default role cannot be changed	เปลี่ยนบทบาทเริ่มต้นไม่ได้
+56251	Currently Queuing for a dungeon. Cancel matchmaking?	กำลังเข้าคิวดันเจียน ยกเลิกจับคู่หรือไม่?
+56252	Start Matching: Phantom Realm	เริ่มจับคู่: Phantom Realm
+56253	Phantom Realm Challenge	ท้าทาย Phantom Realm
+56254	No rewards available	ไม่มีรางวัลให้รับ
+56255	The dungeon is not yet complete. Exit the dungeon?\n<color=#B05142>The first Adventurer to exit the dungeon</color> will receive a dungeon matchmaking penalty	ดันเจียนยังไม่จบ ออกจากดันเจียนหรือไม่?\n<color=#B05142>นักผจญภัยคนแรกที่ออกจากดันเจียน</color> จะได้รับโทษการจับคู่ดันเจียน
+56256	The dungeon is not yet complete. Leave the party?\n<color=#B05142>The first Adventurer to leave the party</color> will receive a dungeon matchmaking penalty\nPlease note: Leaving the party will also remove you from the dungeon	ดันเจียนยังไม่จบ ออกจากปาร์ตี้หรือไม่?\n<color=#B05142>นักผจญภัยคนแรกที่ออกจากปาร์ตี้</color> จะได้รับโทษการจับคู่ดันเจียน\nโปรดทราบ: การออกจากปาร์ตี้จะทำให้คุณออกจากดันเจียนด้วย
+56257	The player with the Highest Bid cannot withdraw	ผู้เสนอราคาสูงสุดถอนตัวไม่ได้
+56258	First Clear Rewards	รางวัลผ่านครั้งแรก
+56261	Recommended Setup	การจัดทีมที่แนะนำ
+56262	Current:	ปัจจุบัน:
+56263	Reward Count exhausted. Unable to participate in the auction.	จำนวนครั้งรับรางวัลหมดแล้ว เข้าร่วมประมูลไม่ได้
+56264	Another player's bid has reached the maximum price	ราคาเสนอของผู้เล่นอื่นถึงราคาสูงสุดแล้ว
+56265	Waiting for Bidding	รอเสนอราคา
+56267	I Have the Highest Bid	ฉันเสนอราคาสูงสุด
+56268	Preset Bid	ราคาที่ตั้งไว้
+56271	Your current party does not meet the dungeon's recommended role setup and is missing ${1}. Enter Dungeon anyway?	ปาร์ตี้ปัจจุบันของคุณไม่มีบทบาทครบตามที่ดันเจียนแนะนำ และขาด ${1} เข้าสู่ดันเจียนต่อหรือไม่?
+56273	Entry Alert	แจ้งเตือนเข้า
+56274	Bid Item at Auction	เสนอราคาไอเทมประมูล
+56275	Pre-Bid Item at Auction	เสนอราคาล่วงหน้าไอเทมประมูล
+56276	You have the highest bid	คุณเสนอราคาสูงสุด
+56277	Fixed price reached	ถึงราคาซื้อทันทีแล้ว
+56278	Maximum pre-bid price reached. Unable to bid.	ถึงราคาประมูลล่วงหน้าสูงสุดแล้ว เสนอราคาไม่ได้
+56279	Maximum pre-bid price reached. Unable to bid.	ถึงราคาประมูลล่วงหน้าสูงสุดแล้ว เสนอราคาไม่ได้
+56280	${1}<color=#fff7dc>Highest</color>	${1}<color=#fff7dc>สูงสุด</color>
+56281	${1} declined to Enter Dungeon	${1} ปฏิเสธเข้าดันเจียน
+56282	${1} canceled Queuing	${1} ยกเลิกเข้าคิวแล้ว
+56283	You are already Queuing for other content. Cancel the current queue?	คุณกำลังเข้าคิวกิจกรรมอื่นอยู่ ยกเลิกคิวปัจจุบันหรือไม่?
+56284	Highest Bidder: <color=#76C233>${1}</color>	ผู้เสนอราคาสูงสุด: <color=#76C233>${1}</color>
+56285	Start Battle	เริ่มต่อสู้
+56287	No Team First Clear Yet	ยังไม่มีทีมผ่านครั้งแรก
+56288	Continue	ดำเนินการต่อ
+56289	<color=#63A22B>(Activates in ${1} days)</color>	<color=#63A22B>(เปิดใช้งานใน ${1} วัน)</color>
+56290	<color=#63A22B>(Activates in ${1} hours)</color>	<color=#63A22B>(เปิดใช้งานใน ${1} ชั่วโมง)</color>
+56291	<color=#63A22B>(Activates in ${1} minutes)</color>	<color=#63A22B>(เปิดใช้งานใน ${1} นาที)</color>
+56292	Attempt Calculation	การคำนวณจำนวนครั้ง
+56293	Queuing:	กำลังเข้าคิว:
+56294	Loading...	กำลังโหลด...
+56295	Like All	กดถูกใจทั้งหมด
+56296	Starting Bid	ราคาเริ่มต้น
+58000	Main Screen and Control Mode Selection	เลือกหน้าจอหลักและโหมดควบคุม
+58001	Go to Selection	ไปเลือก
+58002	Select Mode	เลือกโหมด
+58003	You can switch modes later under Settings - Basic - PC Mode	เปลี่ยนโหมดภายหลังได้ที่ ตั้งค่า - พื้นฐาน - โหมด PC
+58004	Classic PC	PC แบบคลาสสิก
+58005	Modern PC	PC แบบสมัยใหม่
+58006	Mobile	มือถือ
+58008	Trade Exchange	ตลาดซื้อขาย
+58014	Universal Mount	พาหนะทั่วไป
+58015	Combat Mount	พาหนะต่อสู้
+58018	Auto Mode	โหมดอัตโนมัติ
+58019	Display Resolution	ความละเอียดหน้าจอ
+58020	Windowed ${1}*${2}	หน้าต่าง ${1}*${2}
+58022	Full-screen	เต็มหน้าจอ
+58023	For players familiar with RO Online	สำหรับผู้เล่นที่คุ้นเคยกับ RO Online
+58024	For players familiar with PC MMORPGs such as Justice Online and Moonlight Blade	สำหรับผู้เล่นที่คุ้นเคยกับ PC MMORPG เช่น Justice Online และ Moonlight Blade
+58025	For players who prefer mobile layouts and play on an emulator	สำหรับผู้เล่นที่ชอบรูปแบบมือถือและเล่นผ่านอีมูเลเตอร์
+58026	More Left-Click Actions	คำสั่งคลิกซ้ายเพิ่มเติม
+58027	Right-Click to Use	คลิกขวาเพื่อใช้
+58028	Lock Skill Hotbar	ล็อกแถบสกิล
+58029	Auto-Battle	ต่อสู้อัตโนมัติ
+58031	Chat	แชต
+58032	Sit	นั่ง
+58034	New Tab	แท็บใหม่
+58035	Enter a tab name	ใส่ชื่อแท็บ
+58036	Select at least 1 chat channel	เลือกช่องแชตอย่างน้อย 1 ช่อง
+58037	Create	สร้าง
+58039	Chat tab created	สร้างแท็บแชตแล้ว
+58041	Rename	เปลี่ยนชื่อ
+58042	Delete Tab	ลบแท็บ
+58043	Back to Bottom	กลับด้านล่าง
+58046	Tab Management	จัดการแท็บ
+58047	Display Settings	ตั้งค่าการแสดงผล
+58048	Are you sure you want to delete this chat tab?	ยืนยันลบแท็บแชตนี้หรือไม่?
+58049	Chat Message Display Duration	ระยะเวลาแสดงข้อความแชต
+58050	Display Duration	ระยะเวลาแสดงผล
+58053	Hide Chat	ซ่อนแชต
+58054	Show Chat	แสดงแชต
+58055	Open	เปิด
+58056	Off	ปิด
+58057	Player Info	ข้อมูลผู้เล่น
+58058	Basic Profile	โปรไฟล์พื้นฐาน
+58059	Party/Raid	ปาร์ตี้/เรด
+58060	Party/Raid Information Display Area	พื้นที่แสดงข้อมูลปาร์ตี้/เรด
+58064	Skill and Combat Resource Display Area	พื้นที่แสดงสกิลและทรัพยากรต่อสู้
+58065	Combat Assistance	ตัวช่วยต่อสู้
+58066	Combat Assistance Function Display Area	พื้นที่แสดงฟังก์ชันช่วยต่อสู้
+58068	Buff Display Area	พื้นที่แสดง Buff
+58070	Debuff Display Area	พื้นที่แสดง Debuff
+58072	Event Menu	เมนูกิจกรรม
+58074	Mini Map Display Area	พื้นที่แสดงแผนที่ย่อ
+58076	Quest Display Area	พื้นที่แสดงเควสต์
+58077	System Function	ฟังก์ชันระบบ
+58078	System Function Menu	เมนูฟังก์ชันระบบ
+58079	Event Alert	แจ้งเตือนกิจกรรม
+58080	Dynamic Event Alert Display Area	พื้นที่แสดงการแจ้งเตือนกิจกรรมแบบเปลี่ยนแปลง
+58081	Game Info	ข้อมูลเกม
+58082	Scrolling Game Notification Display Area	พื้นที่แสดงประกาศเกมแบบเลื่อน
+58083	Status Alert	แจ้งเตือนสถานะ
+58084	Stat Change and Current Character Status Display Area	พื้นที่แสดงการเปลี่ยนค่าสถานะและสถานะปัจจุบันของตัวละคร
+58085	Quick Items	ไอเทมด่วน
+58086	Quick Item Display Area	พื้นที่แสดงไอเทมด่วน
+58087	Invitation Alert	แจ้งเตือนคำเชิญ
+58088	Party/Raid Status and Gameplay Mechanic Alert Display Area	พื้นที่แสดงสถานะปาร์ตี้/เรดและแจ้งเตือนกลไกการเล่น
+58089	Target Info	ข้อมูลเป้าหมาย
+58090	Selected Target Display Area	พื้นที่แสดงเป้าหมายที่เลือก
+58091	Gameplay Information	ข้อมูลการเล่น
+58092	Main Gameplay Information Display Area	พื้นที่แสดงข้อมูลการเล่นหลัก
+58093	Gameplay Phase	ช่วงการเล่น
+58094	Gameplay Phase Information Display Area	พื้นที่แสดงข้อมูลช่วงการเล่น
+58095	Kill Alert	แจ้งเตือนสังหาร
+58096	Kill Information Display Area	พื้นที่แสดงข้อมูลการสังหาร
+58097	Boss skill	สกิลบอส
+58098	Boss Skill information display area	พื้นที่แสดงข้อมูลสกิลบอส
+58099	Quick Target Selection	เลือกเป้าหมายด่วน
+58100	Quick Target Selection Display Area	พื้นที่แสดงการเลือกเป้าหมายด่วน
+58101	Interaction Skill	สกิลปฏิสัมพันธ์
+58102	Interactive Gameplay Button Display Area	พื้นที่แสดงปุ่มปฏิสัมพันธ์ในการเล่น
+58103	Gameplay Alert	แจ้งเตือนการเล่น
+58104	Gameplay Alert display area	พื้นที่แสดงแจ้งเตือนการเล่น
+58105	Cast Bar	แถบร่าย
+58106	Skill and Misc cast bar display area	พื้นที่แสดงแถบร่ายสกิลและ Misc
+58107	Mechanic Feedback	การตอบสนองต่อกลไก
+58108	Display area for feedback unique to special Misc	พื้นที่แสดงการตอบสนองเฉพาะของ Misc พิเศษ
+58109	Command Information	ข้อมูลคำสั่ง
+58110	Command Information display area for each Misc	พื้นที่แสดงข้อมูลคำสั่งของ Misc แต่ละประเภท
+58111	Gameplay Rating	คะแนนประเมินการเล่น
+58112	Gameplay Rating display area	พื้นที่แสดงคะแนนประเมินการเล่น
+58113	Right-click to Go	คลิกขวาเพื่อไป
+58114	Are you sure you want to exit the game?	ยืนยันออกจากเกมหรือไม่?
+58115	(${1}s)	(${1} วินาที)
+58116	Merge Tabs	รวมแท็บ
+58117	Merge All Tabs	รวมทุกแท็บ
+58118	Maximum number of tabs reached. Unable to create a new Tavern chat tab.	จำนวนแท็บถึงขีดจำกัดแล้ว สร้างแท็บแชต Tavern ใหม่ไม่ได้
+58119	Chat	แชต
+58120	Recent Contacts	ผู้ติดต่อล่าสุด
+58121	${1}/${2} Conversations	${1}/${2} การสนทนา
+58122	Switching modes requires restarting the game. Are you sure you want to switch?	ต้องรีสตาร์ตเกมเพื่อเปลี่ยนโหมด ยืนยันเปลี่ยนหรือไม่?
+58123	Click the Ground to Move	คลิกพื้นเพื่อเคลื่อนที่
+58124	Mouse Turning	หมุนด้วยเมาส์
+58125	Target Lock Mode	โหมดล็อกเป้าหมาย
+58126	Keyboard Movement	เคลื่อนที่ด้วยคีย์บอร์ด
+58127	Mouse Turning	หมุนด้วยเมาส์
+58128	Expanded Skills	สกิลเพิ่มเติม
+58129	Display area for expanded skills such as the Skill Bar and Pet Skill	พื้นที่แสดงสกิลเพิ่มเติม เช่น แถบสกิลและสกิลสัตว์เลี้ยง
+58130	Misc Master Effects	เอฟเฟกต์ Master ของ Misc
+58131	Master Effects display area for certain Misc	พื้นที่แสดงเอฟเฟกต์ Master ของ Misc บางประเภท
+58132	Custom Action Bar	แถบคำสั่งปรับแต่งเอง
+58133	Customizable display area for skills and items	พื้นที่แสดงสกิลและไอเทมที่ปรับแต่งได้
+58134	Auto-Battle	ต่อสู้อัตโนมัติ
+58135	Auto-Battle Button display area	พื้นที่แสดงปุ่มต่อสู้อัตโนมัติ
+58136	Quick Items	ไอเทมด่วน
+58137	Display area for Auto-Potion, Bow switching, and other actions	พื้นที่แสดงใช้ยาอัตโนมัติ สลับธนู และคำสั่งอื่น
+58138	Flying Mount	พาหนะบิน
+58139	Flying Mount Skills display area	พื้นที่แสดงสกิลพาหนะบิน
+58140	Equipment you cannot equip cannot be placed in Quick Items.	อุปกรณ์ที่คุณสวมใส่ไม่ได้ ใส่ในไอเทมด่วนไม่ได้
+58141	Only Cooking, potions, Voice Message Items, Treasure Maps, and equipment can be placed in Quick Items.	ใส่ในไอเทมด่วนได้เฉพาะอาหาร ยา ไอเทมข้อความเสียง แผนที่สมบัติ และอุปกรณ์
+58142	Quick equipment swapping is on cooldown. Please try again later.	การสลับอุปกรณ์ด่วนอยู่ระหว่าง CD โปรดลองภายหลัง
+58143	Equipment	อุปกรณ์
+58144	Talent	พรสวรรค์
+58149	Monster Hunt	ล่ามอนสเตอร์
+58150	Wardrobe	ตู้เสื้อผ้า
+58152	Life Skill	ทักษะชีวิต
+58153	Emotes	อีโมต
+58154	Auto-Potion	ใช้ยาอัตโนมัติ
+58155	In Development—Coming Soon	อยู่ระหว่างพัฒนา—เร็ว ๆ นี้
+59001	Entire Server	ทั้งเซิร์ฟเวอร์
+59002	Current Server	เซิร์ฟเวอร์ปัจจุบัน
+59004	Filtering	กำลังกรอง
+59005	Filter Taverns	กรอง Tavern
+59006	Tavern Type	ประเภท Tavern
+59010	Enter a tavern name to search	ใส่ชื่อ Tavern เพื่อค้นหา
+59011	No tavern rooms available	ไม่มีห้อง Tavern
+59012	Loading…	กำลังโหลด…
+59013	Create Tavern	สร้าง Tavern
+59014	Return to Tavern	กลับ Tavern
+59015	Discover Taverns	ค้นหา Tavern
+59016	Create Tavern	สร้าง Tavern
+59017	Tavern Name	ชื่อ Tavern
+59018	Enter a tavern name	ใส่ชื่อ Tavern
+59019	Tavern Type	ประเภท Tavern
+59021	Please read and agree to	โปรดอ่านและยอมรับ
+59022	Compliance Notice	ประกาศข้อปฏิบัติ
+59023	Don't show again today	วันนี้ไม่ต้องแสดงอีก
+59026	Switch Taverns	เปลี่ยน Tavern
+59027	You already have a tavern. Leave your current tavern, ${1}?	คุณมี Tavern อยู่แล้ว ออกจาก Tavern ปัจจุบัน ${1} หรือไม่?
+59028	Leave and Switch	ออกและเปลี่ยน
+59030	Voice Settings	ตั้งค่าเสียง
+59032	Turn On Mic	เปิดไมค์
+59034	Listen	ฟัง
+59035	Request Voice Access	ขอสิทธิ์ใช้เสียง
+59036	Send Request	ส่งคำขอ
+59038	Permissions	สิทธิ์
+59039	Leave Room	ออกจากห้อง
+59040	Leave Room Confirmation	ยืนยันออกจากห้อง
+59041	Are you sure you want to leave the current tavern?	ยืนยันออกจาก Tavern ปัจจุบันหรือไม่?
+59042	Mini Window	หน้าต่างขนาดเล็ก
+59049	Report Tavern	รายงาน Tavern
+59051	Speaking Mode: ${1}	โหมดพูด: ${1}
+59052	Permission Settings	ตั้งค่าสิทธิ์
+59054	Mic Controls	ควบคุมไมค์
+59055	Trophy & Quests	ถ้วยรางวัลและเควสต์
+59056	Daily Tavern Quests	เควสต์ Tavern รายวัน
+59057	Tavern Trophy	ถ้วยรางวัล Tavern
+59059	Tavern Gifts	ของขวัญ Tavern
+59060	Recipient	ผู้รับ
+59062	Gift Quantity	จำนวนของขวัญ
+59064	Switch Recipient	เปลี่ยนผู้รับ
+59065	Permission Settings	ตั้งค่าสิทธิ์
+59066	Mic Management	จัดการไมค์
+59067	Speaking Permissions	สิทธิ์พูด
+59069	Unsaved Settings	การตั้งค่าที่ยังไม่บันทึก
+59070	Your current settings haven't been saved. Are you sure you want to close this screen?	ยังไม่ได้บันทึกการตั้งค่าปัจจุบัน ยืนยันปิดหน้าจอนี้หรือไม่?
+59071	Tavern Members	สมาชิก Tavern
+59072	Mic Requests	คำขอใช้ไมค์
+59073	Agreed	ยอมรับแล้ว
+59074	Declined	ปฏิเสธแล้ว
+59075	Speaking Order	ลำดับพูด
+59076	Member Management	จัดการสมาชิก
+59077	Tavern Members	สมาชิก Tavern
+59079	Unmute	ยกเลิกการปิดเสียง
+59080	Are you sure you want to mute this player?	ยืนยันปิดเสียงผู้เล่นนี้หรือไม่?
+59081	Muted players cannot use their mic or send messages in the current tavern.	ผู้เล่นที่ถูกปิดเสียงใช้ไมค์หรือส่งข้อความใน Tavern ปัจจุบันไม่ได้
+59082	Remove from Tavern	นำออกจาก Tavern
+59083	Are you sure you want to remove this player from the tavern?	ยืนยันนำผู้เล่นนี้ออกจาก Tavern หรือไม่?
+59084	Blocks	รายชื่อบล็อก
+59085	Remove from Blocks	นำออกจากรายชื่อบล็อก
+59086	Players removed from the tavern are automatically added to the room's Blocks.	ผู้เล่นที่ถูกนำออกจาก Tavern จะถูกเพิ่มในรายชื่อบล็อกของห้องโดยอัตโนมัติ
+59087	Tavern Info	ข้อมูล Tavern
+59088	Tavern Settings	ตั้งค่า Tavern
+59089	Save edits	บันทึกการแก้ไข
+59090	Transfer Ownership	โอนความเป็นเจ้าของ
+59091	Your changes to the room settings haven't been saved. Are you sure you want to close this screen?	ยังไม่ได้บันทึกการแก้ไขการตั้งค่าห้อง ยืนยันปิดหน้าจอนี้หรือไม่?
+59092	${1} invited you to join a tavern	${1} เชิญคุณเข้าร่วม Tavern
+59093	Unmute All	ยกเลิกการปิดเสียงทั้งหมด
+59094	Owner Sets Speaking Permissions	เจ้าของกำหนดสิทธิ์พูด
+59095	Owner Sets Speaking Order	เจ้าของกำหนดลำดับพูด
+59096	Listeners	ผู้ฟัง
+59097	Chitchat	คุยเล่น
+59098	Tips	คำแนะนำ
+59099	Make Friends	หาเพื่อน
+59100	Gossip	ซุบซิบ
+59101	Emotions	ความรู้สึก
+59102	Singing	ร้องเพลง
+59103	Unlimited	ไม่จำกัด
+59104	English	อังกฤษ
+59105	Indonesian	อินโดนีเซีย
+59106	Thai	ไทย
+59107	Simplified Chinese	จีนตัวย่อ
+59108	Politically Sensitive	เนื้อหาอ่อนไหวทางการเมือง
+59109	Pornography	สื่อลามก
+59110	Verbal Abuse	ด่าทอ
+59111	Suspected Gambling	สงสัยว่าเป็นการพนัน
+59112	Advertising	โฆษณา
+59113	Soliciting Contact Information	ขอข้อมูลติดต่อ
+59114	Other Violations	การละเมิดอื่น
+59115	Traditional Chinese	จีนตัวเต็ม
+59200	We've received your feedback and will address it as soon as possible.	เราได้รับความคิดเห็นของคุณแล้ว และจะดำเนินการโดยเร็วที่สุด
+59201	The host has muted you.	เจ้าของห้องปิดเสียงคุณแล้ว
+59202	The Tavern has been reported. You cannot speak at this time.	Tavern ถูกรายงาน ขณะนี้คุณพูดไม่ได้
+59203	The host has disabled microphones. You cannot turn on your microphone.	เจ้าของห้องปิดการใช้ไมค์ คุณเปิดไมค์ไม่ได้
+59204	Click to join the Tavern room: ${1}	คลิกเพื่อเข้าร่วมห้อง Tavern: ${1}
+59205	Invitation notification sent.	ส่งการแจ้งเตือนคำเชิญแล้ว
+59206	The host has Agreed to your request to join the mic queue.	เจ้าของห้องยอมรับคำขอเข้าคิวไมค์ของคุณแล้ว
+59207	The host has Declined your request to join the mic queue.	เจ้าของห้องปฏิเสธคำขอเข้าคิวไมค์ของคุณแล้ว
+59208	You have been removed from the Tavern room.	คุณถูกนำออกจากห้อง Tavern แล้ว
+59209	The host has muted you.	เจ้าของห้องปิดเสียงคุณแล้ว
+59210	Mic queue changes saved.	บันทึกการเปลี่ยนคิวไมค์แล้ว
+59211	The Tavern name contains prohibited words.	ชื่อ Tavern มีคำต้องห้าม
+59212	The Tavern name cannot be empty.	ชื่อ Tavern ว่างไม่ได้
+59213	Please select a Tavern type.	โปรดเลือกประเภท Tavern
+59214	Please select a Tavern language.	โปรดเลือกภาษา Tavern
+59215	The Tavern is full.	Tavern เต็มแล้ว
+59216	Gift sent!	ส่งของขวัญแล้ว!
+59217	Host privileges transferred successfully.	โอนสิทธิ์เจ้าของห้องสำเร็จ
+59218	No report reason selected.	ยังไม่ได้เลือกเหตุผลรายงาน
+59219	No report Description provided.	ยังไม่ได้ใส่รายละเอียดรายงาน
+59220	The host has disabled microphones. Players in the mic queue temporarily cannot speak.	เจ้าของห้องปิดการใช้ไมค์ ผู้เล่นในคิวไมค์พูดไม่ได้ชั่วคราว
+59221	The host has enabled microphones. Players in the mic queue may speak freely.	เจ้าของห้องเปิดการใช้ไมค์ ผู้เล่นในคิวไมค์พูดได้ตามอิสระ
+59222	Already in a Tavern.	อยู่ใน Tavern แล้ว
+59223	Invitation sent	ส่งคำเชิญแล้ว
+59224	${1} has accepted your invitation.	${1} ยอมรับคำเชิญของคุณแล้ว
+59225	${1} has Declined your invitation.	${1} ปฏิเสธคำเชิญของคุณแล้ว
+59226	The mic queue is full. Please adjust it and try again.	คิวไมค์เต็มแล้ว โปรดปรับแล้วลองอีกครั้ง
+59227	1. Please be respectful and <color=#cc762a>keep the Tavern channel positive</color>. Let's create a lively and friendly Tavern atmosphere together~\n2. If you <color=#cc762a>break the rules or make inappropriate remarks</color>, the host may <color=#cc762a>mute or remove you from the Tavern</color>.\n3. If another player reports you and the System verifies the report, the System may mute you, permanently disable your Tavern Function, or even suspend your account.\n4. <color=#cc762a>Beware of scams</color> in the Tavern. If you Discover suspicious behavior from other players, please report it promptly to help maintain a positive Tavern atmosphere.\n5. Have fun, fellow Adventurers, and <color=#cc762a>enjoy all the fun and excitement the Tavern has to offer</color>!	1. โปรดให้เกียรติกันและ <color=#cc762a>รักษาบรรยากาศที่ดีในช่อง Tavern</color> มาสร้างบรรยากาศ Tavern ที่มีชีวิตชีวาและเป็นมิตรด้วยกัน~\n2. หากคุณ <color=#cc762a>ละเมิดกฎหรือแสดงความคิดเห็นไม่เหมาะสม</color> เจ้าของห้องอาจ <color=#cc762a>ปิดเสียงหรือนำคุณออกจาก Tavern</color>\n3. หากผู้เล่นอื่นรายงานคุณและระบบยืนยันรายงาน ระบบอาจปิดเสียง ปิดฟังก์ชัน Tavern ของคุณอย่างถาวร หรือแม้แต่ระงับบัญชี\n4. <color=#cc762a>ระวังการหลอกลวง</color> ใน Tavern หากพบพฤติกรรมน่าสงสัยของผู้เล่นอื่น โปรดรายงานโดยเร็วเพื่อช่วยรักษาบรรยากาศที่ดีใน Tavern\n5. ขอให้สนุกนะนักผจญภัย และ <color=#cc762a>เพลิดเพลินกับความสนุกและความตื่นเต้นทั้งหมดที่ Tavern มอบให้</color>!
+59229	${1} gave <color=#cc762a>${2}</color> <color=#cc762a>${3}</color> to ${4}, granting ${5} ${6} Star Points and increasing the current Tavern's Popularity by ${7}.	${1} มอบ <color=#cc762a>${2}</color> <color=#cc762a>${3}</color> ให้ ${4} มอบแต้มดาว ${5} ${6} และเพิ่มความนิยมของ Tavern ปัจจุบัน ${7}
+59230	Decline invitations for 10 minutes	ปฏิเสธคำเชิญเป็นเวลา 10 นาที
+59231	Are you sure you want to unmute this player?	ยืนยันเลิกปิดเสียงผู้เล่นนี้หรือไม่?
+59232	Welcome to the Tavern, ${1}!	ยินดีต้อนรับสู่ Tavern, ${1}!
+59233	Speaking mode Setting successful.	ตั้งค่าโหมดพูดสำเร็จ
+59234	Permission Management	จัดการสิทธิ์
+59235	Everyone can currently speak. Speaking privileges cannot be revoked.	ขณะนี้ทุกคนพูดได้ เพิกถอนสิทธิ์พูดไม่ได้
+59236	Host	เจ้าของห้อง
+59237	There are currently no new Taverns.	ขณะนี้ไม่มี Tavern ใหม่
+59238	Tavern host privileges have been transferred to: ${1}	โอนสิทธิ์เจ้าของห้อง Tavern ให้: ${1}
+59239	There are no gift recipients in the room.	ไม่มีผู้รับของขวัญในห้อง
+59240	The other player has not unlocked the Tavern Function yet.	ผู้เล่นอีกฝ่ายยังไม่ปลดล็อกฟังก์ชัน Tavern
+59241	The report Description is too short. Please enter at least 10 characters.	รายละเอียดรายงานสั้นเกินไป โปรดใส่อย่างน้อย 10 ตัวอักษร
+59242	Please enter the player's name.	โปรดใส่ชื่อผู้เล่น
+59243	Tavern room information updated.	อัปเดตข้อมูลห้อง Tavern แล้ว
+59244	Don't remind me again today	ไม่ต้องแจ้งเตือนอีกวันนี้
+59245	Simplified Chinese	จีนตัวย่อ
+59246	Traditional Chinese	จีนตัวเต็ม
+59247	Korean	เกาหลี
+59248	Enter a tavern name	ใส่ชื่อ Tavern
+59249	Discover	ค้นหา
+59252	Please enter your request to join the mic queue.	โปรดใส่คำขอเข้าคิวไมค์
+59253	The player has been removed from the Tavern.	นำผู้เล่นออกจาก Tavern แล้ว
+59254	Mic Requests Approved	อนุมัติคำขอใช้ไมค์แล้ว
+59255	Mic Requests Rejected	ปฏิเสธคำขอใช้ไมค์แล้ว
+61001	You already have a war machine. Building another will destroy the current one.\nBuild it anyway?	คุณมีเครื่องจักรสงครามอยู่แล้ว การสร้างอีกเครื่องจะทำลายเครื่องปัจจุบัน\nสร้างต่อหรือไม่?
+61002	Battle Begins	เริ่มการต่อสู้
+61005	Siege War - Battle for the Royal Capital: About to start! Head there now!	สงครามล้อมเมือง - ศึกชิงเมืองหลวง: กำลังจะเริ่ม! ไปเข้าร่วมตอนนี้!
+61008	Siege War - Battle for the Royal Capital	สงครามล้อมเมือง - ศึกชิงเมืองหลวง
+61009	Distance to Start Time	เวลาที่เหลือจนเริ่ม
+61011	War Machine	เครื่องจักรสงคราม
+61013	Royal Capital Name	ชื่อเมืองหลวง
+61014	Regional Capital 1 Name	ชื่อเมืองหลวงภูมิภาค 1
+61015	Regional Capital 2 Name	ชื่อเมืองหลวงภูมิภาค 2
+61017	Commander	ผู้บัญชาการ
+61018	Defenders	ฝ่ายป้องกัน
+61019	Attackers	ฝ่ายโจมตี
+61021	Enter Battlefield	เข้าสู่สนามรบ
+61025	Season Rewards	รางวัลฤดูกาล
+61027	Revoke Access	เพิกถอนสิทธิ์ใช้งาน
+61028	This Member is currently using a war machine. Revoke their access?	สมาชิกนี้กำลังใช้เครื่องจักรสงคราม เพิกถอนสิทธิ์ใช้งานหรือไม่?
+61031	None	ไม่มี
+61032	Automatically heading to the revival point in ${1} sec.	ไปยังจุดฟื้นคืนชีพโดยอัตโนมัติใน ${1} วินาที
+61033	Go to Revival Point	ไปจุดฟื้นคืนชีพ
+61034	Revive in ${1} sec.	ฟื้นคืนชีพใน ${1} วินาที
+61035	Royal Capital	เมืองหลวง
+61036	Regional Capital	เมืองหลวงภูมิภาค
+61037	Stronghold	ฐานที่มั่น
+61038	Match	การแข่งขัน
+61039	Winning Guild	กิลด์ผู้ชนะ
+61040	Total Wins	จำนวนชัยชนะรวม
+61042	This Week	สัปดาห์นี้
+61043	Recruitment Info	ข้อมูลรับสมัคร
+61044	War Machine Management	จัดการเครื่องจักรสงคราม
+61045	Artillery	ปืนใหญ่
+61047	Artillery Access	สิทธิ์ใช้ปืนใหญ่
+61048	Vehicle Access	สิทธิ์ใช้ยานพาหนะ
+61049	All Jobs	ทุกอาชีพ
+61057	Away	ไม่อยู่
+61058	Offline Players	ผู้เล่นออฟไลน์
+61059	Players on the Battlefield	ผู้เล่นในสนามรบ
+61060	My Battle Merit	ผลงานรบของฉัน
+61061	Battlefield Contribution	คะแนนช่วยเหลือสนามรบ
+61064	Destroy	ทำลาย
+61066	Siege War Begins	สงครามล้อมเมืองเริ่ม
+61067	Map Name	ชื่อแผนที่
+61068	Building	สิ่งปลูกสร้าง
+61069	Allied Players	ผู้เล่นฝ่ายเดียวกัน
+61070	Commander Marker	เครื่องหมายผู้บัญชาการ
+61071	Party Marker	เครื่องหมายปาร์ตี้
+61072	Show	แสดง
+61075	Back	กลับ
+61076	Remove All	ลบทั้งหมด
+61077	Can Mark:	ปักเครื่องหมายได้:
+61078	Tap an area on the map to add a marker	แตะพื้นที่บนแผนที่เพื่อเพิ่มเครื่องหมาย
+61079	<#fdab5b>${1}</color> Guild has captured the castle	กิลด์ <#fdab5b>${1}</color> ยึดปราสาทแล้ว
+61080	Siege Duration: ${1}	ระยะเวลาล้อมเมือง: ${1}
+61081	My Battle Report	รายงานการต่อสู้ของฉัน
+61082	Battlefield Honor	เกียรติยศสนามรบ
+61083	More Honor	เกียรติยศเพิ่มเติม
+61084	Battleground Stats	สถิติสนามรบ
+61085	Best of the Best	ยอดฝีมือเหนือยอดฝีมือ
+61086	Top Three Overall	สามอันดับแรกโดยรวม
+61087	Absolute Advantage	ได้เปรียบอย่างเด็ดขาด
+61088	Rank Among the Best	ติดอันดับยอดฝีมือ
+61089	Battle Merit	ผลงานรบ
+61091	Destroy	ทำลาย
+61095	Healing Volume	ปริมาณการฟื้นฟู
+61096	Victory	ชัยชนะ
+61097	Honor	เกียรติยศ
+61098	Data	ข้อมูล
+61099	Previous	ก่อนหน้า
+61100	Next	ถัดไป
+61102	Battle Merit Details	รายละเอียดผลงานรบ
+61103	No Members have made the rankings yet. Keep trying!	ยังไม่มีสมาชิกติดอันดับ พยายามต่อไป!
+61105	Player Name	ชื่อผู้เล่น
+61106	Drag a player on the right to the party list.	ลากผู้เล่นทางขวาไปยังรายชื่อปาร์ตี้
+61107	Rally at ${1}	รวมพลที่ ${1}
+61108	Command Marker ${1}	เครื่องหมายคำสั่ง ${1}
+61109	Guild Leader Marker ${1}	เครื่องหมายหัวหน้ากิลด์ ${1}
+61110	<color=#897560>${1}</color>/${2} Players	ผู้เล่น <color=#897560>${1}</color>/${2} คน
+61111	Building	สิ่งปลูกสร้าง
+61112	Allied Players	ผู้เล่นฝ่ายเดียวกัน
+61113	Gameplay Marker	เครื่องหมายการเล่น
+61114	Siege Weapon	อาวุธล้อมเมือง
+61115	Madogear Pilot	ผู้ควบคุม Madogear
+61116	Frontline	แนวหน้า
+61121	Battle about to start	การต่อสู้กำลังจะเริ่ม
+61122	Battle about to start	การต่อสู้กำลังจะเริ่ม
+61123	Defend the Outer Gate	ป้องกันประตูชั้นนอก
+61124	Break Through the Outer Gate	ฝ่าประตูชั้นนอก
+61125	Keep all guardians alive.	รักษาชีวิตผู้พิทักษ์ทั้งหมด
+61126	Defeat any 1 Knight Guardian.	กำจัด Knight Guardian 1 ตัวใดก็ได้
+61127	Defend the Ornate Metal	ป้องกัน Ornate Metal
+61128	Destroy the Fancy Metal	ทำลาย Fancy Metal
+61129	Siege Points	แต้มล้อมเมือง
+61130	Defense Value	ค่าป้องกัน
+61131	Destroy Siege Equipment	ทำลายอุปกรณ์ล้อมเมือง
+61134	Total Ratings	คะแนนรวม
+61135	Device Damage	ความเสียหายต่ออุปกรณ์
+61139	Reloading	กำลังบรรจุ
+61140	Defeat the Archer Guardian +${1} sec.	กำจัด Archer Guardian +${1} วินาที
+61141	Defeat the Knight Guardian    +${1} sec.	กำจัด Knight Guardian    +${1} วินาที
+61148	Battle has yet to start	การต่อสู้ยังไม่เริ่ม
+61149	Out of ammo	กระสุนหมด
+61150	Confirm Construction	ยืนยันสร้าง
+61151	Adjust Direction	ปรับทิศทาง
+61153	Attack (Hold for Accuracy/Right-click to Cancel)	โจมตี (กดค้างเพื่อเพิ่มความแม่นยำ/คลิกขวาเพื่อยกเลิก)
+61154	Adjust Gun Elevation	ปรับมุมยกปืน
+61155	Adjust Barrel Direction	ปรับทิศทางลำกล้อง
+61156	Emergency Call	เรียกฉุกเฉิน
+61157	Teleport to the commander?	เทเลพอร์ตไปหาผู้บัญชาการหรือไม่?
+61158	Teleport	เทเลพอร์ต
+61160	Are you sure you want to leave the War of Emperium map?	ยืนยันออกจากแผนที่ War of Emperium หรือไม่?
+61161	No targets can be marked during the preparation phase.	ปักเครื่องหมายเป้าหมายระหว่างช่วงเตรียมการไม่ได้
+61162	This target does not exist and cannot be marked.	ไม่มีเป้าหมายนี้ จึงปักเครื่องหมายไม่ได้
+61163	Auto-Battle is unavailable while mounted.	ใช้ต่อสู้อัตโนมัติขณะขี่พาหนะไม่ได้
+61164	Command Skill	สกิลบัญชาการ
+61165	Use Command Skill-${1} now?	ใช้สกิลบัญชาการ-${1} ตอนนี้หรือไม่?
+61166	Drag Member	ลากสมาชิก
+61167	Currently displaying the Guild Information found	กำลังแสดงข้อมูลกิลด์ที่ค้นพบ
+61168	Cannot teleport while riding a mount.	เทเลพอร์ตขณะขี่พาหนะไม่ได้
+61169	Cannot teleport while dead.	เทเลพอร์ตขณะตายไม่ได้
+61170	The rally is full. Unable to teleport.	จุดรวมพลเต็มแล้ว เทเลพอร์ตไม่ได้
+61171	Attacker Gameplay Flow	ขั้นตอนการเล่นฝ่ายโจมตี
+61172	Defender Gameplay Flow	ขั้นตอนการเล่นฝ่ายป้องกัน
+61173	Phase 1\nBreak Through the Castle Gate	ช่วง 1\nฝ่าประตูปราสาท
+61174	Phase Two\nDefeat the Knight Guardian	ช่วงที่สอง\nกำจัด Knight Guardian
+61175	Stage 3\nCapture the Control Point	ด่าน 3\nยึดจุดควบคุม
+61176	Stage 4\nDestroy the Ornate Metal	ด่าน 4\nทำลาย Ornate Metal
+61177	Phase 1\nDefend the City Gate	ช่วง 1\nป้องกันประตูเมือง
+61178	Phase Two\nFortify the Knight Guardian	ช่วงที่สอง\nเสริมการป้องกัน Knight Guardian
+61179	Phase 3\nDefend the Control Point	ช่วง 3\nป้องกันจุดควบคุม
+61180	Stage 4\nDefend the Magnificent Metal	ด่าน 4\nป้องกัน Magnificent Metal
+61181	Inside the City	ภายในเมือง
+61182	Outside the City	ภายนอกเมือง
+61183	Exit Vehicle	ออกจากยานพาหนะ
+61184	Tactics	ยุทธวิธี
+61185	War Machine Management	จัดการเครื่องจักรสงคราม
+61186	Battlefield Backpack	กระเป๋าสนามรบ
+61188	Confirm Exit	ยืนยันการออก
+61191	After leaving, you can reenter from the Event screen. Are you sure you want to leave this area?	หลังออก คุณกลับเข้ามาจากหน้ากิจกรรมได้ ยืนยันออกจากพื้นที่นี้หรือไม่?
+61192	Press and Hold—Homing Shell	กดค้าง—กระสุนติดตามเป้าหมาย
+61193	Cannot be used during the current phase.	ใช้ระหว่างช่วงปัจจุบันไม่ได้
+61194	Your Management Permissions have been revoked.	สิทธิ์จัดการของคุณถูกเพิกถอนแล้ว
+61195	War Management	จัดการสงคราม
+61196	Black Market	ตลาดมืด
+61197	This Month	เดือนนี้
+61199	Position	ตำแหน่ง
+61200	Contribution Percentage	เปอร์เซ็นต์การช่วยเหลือ
+61202	This Week's Total Guild Contributions: ${1}	คะแนนช่วยเหลือกิลด์รวมสัปดาห์นี้: ${1}
+61203	This Month's Total Guild Contributions: ${1}	คะแนนช่วยเหลือกิลด์รวมเดือนนี้: ${1}
+61204	This Season's Total Guild Contributions: ${1}	คะแนนช่วยเหลือกิลด์รวมฤดูกาลนี้: ${1}
+61205	Participants: ${1}/${2}	ผู้เข้าร่วม: ${1}/${2}
+61206	Average Contribution: ${1}	คะแนนช่วยเหลือเฉลี่ย: ${1}
+61207	Artillery Used This Week: ${1}	ปืนใหญ่ที่ใช้สัปดาห์นี้: ${1}
+61208	Vehicles Used This Week: ${1}	ยานพาหนะที่ใช้สัปดาห์นี้: ${1}
+61209	War Machine Shop	ร้านเครื่องจักรสงคราม
+61210	Artillery Used This Month: ${1}	ปืนใหญ่ที่ใช้เดือนนี้: ${1}
+61211	Vehicles Used This Month: ${1}	ยานพาหนะที่ใช้เดือนนี้: ${1}
+61212	Artillery Used This Season: ${1}	ปืนใหญ่ที่ใช้ฤดูกาลนี้: ${1}
+61213	Vehicles Used This Season: ${1}	ยานพาหนะที่ใช้ฤดูกาลนี้: ${1}
+61214	Artillery (${1})	ปืนใหญ่ (${1})
+61215	Vehicles (${1})	ยานพาหนะ (${1})
+61216	Victory Rewards:	รางวัลชนะ:
+61217	Participation Rewards:	รางวัลเข้าร่วม:
+61218	You are already here	คุณอยู่ที่นี่แล้ว
+61500	Exit Stronghold Battle	ออกจากศึกฐานที่มั่น
+61501	After leaving, you can re-enter from the Territory War event screen. Are you sure you want to leave the battlefield?	หลังออก คุณกลับเข้ามาจากหน้ากิจกรรมสงครามอาณาเขตได้ ยืนยันออกจากสนามรบหรือไม่?
+61504	Revive Point A	จุดฟื้นคืนชีพ A
+61505	Revive Point B	จุดฟื้นคืนชีพ B
+61506	Revive Point C	จุดฟื้นคืนชีพ C
+61507	Revive Point D	จุดฟื้นคืนชีพ D
+61508	Revive Point E	จุดฟื้นคืนชีพ E
+61509	Battlefield Changes	การเปลี่ยนแปลงสนามรบ
+61510	Personal Record	บันทึกส่วนตัว
+61511	Attack Successful	โจมตีสำเร็จ
+61512	Defense Successful	ป้องกันสำเร็จ
+61601	Contest Phase	ช่วงแข่งขัน
+61602	Battle Preparation Phase	ช่วงเตรียมต่อสู้
+61603	Stronghold Battle	ศึกฐานที่มั่น
+61604	Base Defense	ป้องกันฐาน
+61605	Rally!	รวมพล!
+61606	Attack!	โจมตี!
+61607	Commander Marker	เครื่องหมายผู้บัญชาการ
+61608	Party Marker	เครื่องหมายปาร์ตี้
+61609	Marking	กำลังปักเครื่องหมาย
+61610	Can Mark	ปักเครื่องหมายได้
+61611	Cannot Be Marked	ปักเครื่องหมายไม่ได้
+61612	Another faction is currently using this.	ฝ่ายอื่นกำลังใช้งานสิ่งนี้
+61999	War of Emperium Entrance	ทางเข้า War of Emperium
+90001	Unoccupied	ยังไม่มีผู้ครอบครอง
+90002	Switched to Warzone ${1}	เปลี่ยนเป็นเขตสงคราม ${1} แล้ว
+90003	Revive Point	จุดฟื้นคืนชีพ
+90004	Stronghold	ฐานที่มั่น
+90005	Main Camp	ค่ายหลัก
+90006	Camp	ค่าย
+90007	Siege Camp	ค่ายล้อมเมือง
+90008	War Continent	ทวีปสงคราม
+90009	Peace	สันติภาพ
+90011	Free	ฟรี
+90012	The following materials will be consumed to establish a Siege Camp at your current location	จะใช้วัสดุต่อไปนี้เพื่อสร้างค่ายล้อมเมืองที่ตำแหน่งปัจจุบันของคุณ
+90013	Dismantling the siege camp while it is under construction will refund all materials consumed. Once construction is complete, dismantling it will not refund any materials.	การรื้อค่ายล้อมเมืองระหว่างก่อสร้างจะคืนวัสดุที่ใช้ทั้งหมด หลังสร้างเสร็จ การรื้อจะไม่คืนวัสดุใด
+90014	Are you sure you want to dismantle 【${1}】 Camp?	ยืนยันรื้อค่าย [ ${1} ] หรือไม่?
+90015	Stronghold War - Off-Season	สงครามฐานที่มั่น - นอกฤดูกาล
+90016	Stronghold War - Auction Phase	สงครามฐานที่มั่น - ช่วงประมูล
+90017	Stronghold War - Preparation Phase	สงครามฐานที่มั่น - ช่วงเตรียมการ
+90018	Stronghold Battle - In Progress	ศึกฐานที่มั่น - กำลังดำเนินอยู่
+90019	Stronghold War - Ended	สงครามฐานที่มั่น - สิ้นสุดแล้ว
+90020	Stronghold War bidding opens in ${1}	เปิดประมูลสงครามฐานที่มั่นใน ${1}
+90021	Bidding ends in ${1}	การเสนอราคาสิ้นสุดใน ${1}
+90022	Stronghold War begins in ${1}	สงครามฐานที่มั่นเริ่มใน ${1}
+90023	The mode ends in ${1}	โหมดสิ้นสุดใน ${1}
+90024	Your guild has qualified to participate.	กิลด์ของคุณผ่านเกณฑ์เข้าร่วมแล้ว
+90025	Your guild did not qualify to participate.	กิลด์ของคุณไม่ผ่านเกณฑ์เข้าร่วม
+90026	Go to Auction	ไปประมูล
+90028	Participate	เข้าร่วม
+90029	War Map	แผนที่สงคราม
+90030	Stronghold Battle	ศึกฐานที่มั่น
+90031	Supply Transport	ขนส่งเสบียง
+90032	Open Bidding Phase	ช่วงประมูลเปิด
+90033	Final Bidding	ประมูลรอบสุดท้าย
+90034	Qualified to Participate	มีสิทธิ์เข้าร่วม
+90035	Increasing Bid	กำลังเพิ่มราคาเสนอ
+90036	Increase Bid	เพิ่มราคาเสนอ
+90038	Cannot switch Factions while the Faction switch is on cooldown.	เปลี่ยนฝ่ายขณะที่การเปลี่ยนฝ่ายอยู่ระหว่าง CD ไม่ได้
+90039	Already on the map.	อยู่บนแผนที่แล้ว
+90040	Insufficient permissions	สิทธิ์ไม่เพียงพอ
+90041	A bid has already been placed.	เสนอราคาแล้ว
+90042	Invalid bid. Please check the starting price and your available funds.	ราคาเสนอไม่ถูกต้อง โปรดตรวจราคาเริ่มต้นและเงินที่มี
+90043	Bid Successful	เสนอราคาสำเร็จ
+90044	Go to Increase Bid	ไปเพิ่มราคาเสนอ
+90045	Spend ${1}${2} to place an order with ${3} for ${4} ${5}?	ใช้ ${1}${2} เพื่อสั่งซื้อจาก ${3} จำนวน ${4} ${5} หรือไม่?
+90046	Preset Message	ข้อความที่ตั้งไว้
+90047	Purchase Message	ข้อความซื้อ
+90049	Request Purchase	ขอซื้อ
+90050	Contact Seller	ติดต่อผู้ขาย
+90051	Awaiting Seller Confirmation	รอผู้ขายยืนยัน
+90052	Purchase Successful	ซื้อสำเร็จ
+90053	Purchase Failed	ซื้อไม่สำเร็จ
+90054	You do not have permission to perform this action.	คุณไม่มีสิทธิ์ดำเนินการนี้
+90055	${1}d ${2}h ago	${1} วัน ${2} ชั่วโมงก่อน
+90056	${1}h ${2}m ago	${1} ชั่วโมง ${2} นาทีก่อน
+90057	${1} minutes ago	${1} นาทีที่แล้ว
+90058	Default Listing Message	ข้อความลงรายการเริ่มต้น
+90059	Confirm Changes	ยืนยันการเปลี่ยนแปลง
+90062	Withdraw	ถอน
+90063	Request sent	ส่งคำขอแล้ว
+90064	Listed successfully.	ลงขายสำเร็จ
+90065	Changed	เปลี่ยนแล้ว
+90066	Listing Removed	นำรายการออกแล้ว
+90067	No Reference Price Available	ไม่มีราคาอ้างอิง
+90069	Item Details	รายละเอียดไอเทม
+90070	Reference Sale Price	ราคาขายอ้างอิง
+90071	Purchase Orders	คำสั่งซื้อ
+90072	Sale Orders	คำสั่งขาย
+90073	Seller	ผู้ขาย
+90074	Supply Quantity	จำนวนเสบียง
+90076	Purchase Time	เวลาซื้อ
+90077	Buyer	ผู้ซื้อ
+90078	Proceeds	รายได้จากการขาย
+90079	Your guild has not purchased any supplies.	กิลด์ของคุณยังไม่ได้ซื้อเสบียง
+90080	Your guild has not purchased any supplies.	กิลด์ของคุณยังไม่ได้ซื้อเสบียง
+90081	Trading Hall	ศูนย์ซื้อขาย
+90082	My Orders	คำสั่งของฉัน
+90083	Order History	ประวัติคำสั่ง
+90085	Message	ข้อความ
+90086	Log	บันทึก
+90087	Process Request	ดำเนินการคำขอ
+90088	Supply Trade	ซื้อขายเสบียง
+90089	Order Status	สถานะคำสั่ง
+90090	Price	ราคา
+90091	Item Details	รายละเอียดไอเทม
+90092	List Order	ลงคำสั่งขาย
+90093	Purchase Message	ข้อความซื้อ
+90094	Send Request	ส่งคำขอ
+90095	Supply Trade Quantity	จำนวนเสบียงซื้อขาย
+90096	Escort Supplies	คุ้มกันเสบียง
+90097	Plunder Supplies	ปล้นเสบียง
+90098	Escort Supply Cart	คุ้มกันรถเสบียง
+90099	Destroy Supply Cart	ทำลายรถเสบียง
+90100	Supplies Actually Obtained	เสบียงที่ได้รับจริง
+90101	Plunder	ปล้น
+90102	Remove this order? Once confirmed, the order will be removed, all pending requests will be rejected, and the guild supplies in the order will be returned immediately.	นำคำสั่งนี้ออกหรือไม่? เมื่อยืนยัน คำสั่งจะถูกนำออก คำขอที่รออยู่ทั้งหมดจะถูกปฏิเสธ และเสบียงกิลด์ในคำสั่งจะถูกคืนทันที
+90104	Supply Transport - Not Available	ขนส่งเสบียง - ยังไม่เปิด
+90105	Supply Transport - Trade Phase	ขนส่งเสบียง - ช่วงซื้อขาย
+90106	Supply Transport - Preparation Phase	ขนส่งเสบียง - ช่วงเตรียมการ
+90107	Supply Transport - Transport Phase	ขนส่งเสบียง - ช่วงขนส่ง
+90108	Trade is Not Available yet.	ยังไม่เปิดซื้อขาย
+90109	<color=#fdab5b>${1}</color> Begins	<color=#fdab5b>${1}</color> เริ่ม
+90110	<color=#fdab5b>${1}</color> Ends	<color=#fdab5b>${1}</color> สิ้นสุด
+90111	Request Processed	ดำเนินการคำขอแล้ว
+90112	You cannot perform this action on your own guild.	ดำเนินการนี้กับกิลด์ของตัวเองไม่ได้
+90113	Not enough guild supplies.	เสบียงกิลด์ไม่เพียงพอ
+90114	The supply listing price does not meet the requirements.	ราคาลงขายเสบียงไม่ตรงตามข้อกำหนด
+90115	Not enough Guild Funds	เงินทุนกิลด์ไม่เพียงพอ
+90116	Approve this request?	อนุมัติคำขอนี้หรือไม่?
+90117	Reject this request?	ปฏิเสธคำขอนี้หรือไม่?
+90118	Trade Successful	ซื้อขายสำเร็จ
+90119	Declined	ปฏิเสธแล้ว
+90120	Your guild has no requests.	กิลด์ของคุณไม่มีคำขอ
+90121	Edit Order	แก้ไขคำสั่ง
+90124	Guild Supply Quantity	จำนวนเสบียงกิลด์
+90125	Required Escorts	จำนวนผู้คุ้มกันที่ต้องการ
+90126	Transport Map	แผนที่ขนส่ง
+90127	Rules	กฎ
+90129	There are currently no Trade orders.	ขณะนี้ไม่มีคำสั่งซื้อขาย
+90130	Recommended Price	ราคาที่แนะนำ
+90133	No players are currently ranked.	ขณะนี้ไม่มีผู้เล่นติดอันดับ
+90134	Stronghold War Record	บันทึกสงครามฐานที่มั่น
+90135	Supplies are obtained only after the supply cart is successfully escorted back to the stronghold.	ได้รับเสบียงต่อเมื่อคุ้มกันรถเสบียงกลับฐานที่มั่นสำเร็จเท่านั้น
+90136	Go to Trade	ไปซื้อขาย
+90137	Go to Escort	ไปคุ้มกัน
+90138	Territory War	สงครามอาณาเขต
+90139	Stronghold-holding guilds can purchase supplies from other guilds	กิลด์ที่ครองฐานที่มั่นซื้อเสบียงจากกิลด์อื่นได้
+90140	Escort Missions Unavailable	ยังไม่มีภารกิจคุ้มกัน
+90141	Supply Trade Quantity	จำนวนเสบียงซื้อขาย
+90142	Stored Supplies	เสบียงที่เก็บไว้
+90143	You have fewer supplies than the minimum listing quantity of ${1}. Unable to post the Trade.	คุณมีเสบียงน้อยกว่าจำนวนขั้นต่ำในการลงขาย ${1} จึงลงรายการซื้อขายไม่ได้
+90144	Unlocks at <color=#fdab5b>${1}</color>	ปลดล็อกเมื่อ <color=#fdab5b>${1}</color>
+90145	${1}\nTotal Fatigue recovery time: <color=#FF993F>${2}</color>	${1}\nเวลาฟื้นฟูความเหนื่อยล้าทั้งหมด: <color=#FF993F>${2}</color>
+90146	Move more than ${1} Distance away to automatically relinquish ownership	เคลื่อนออกไปไกลกว่า ${1} หน่วยระยะทางเพื่อสละสิทธิ์ครอบครองโดยอัตโนมัติ
+90147	Opens in: ${1}	เปิดใน: ${1}
+90148	Resetting: ${1}	กำลังรีเซ็ต: ${1}
+90149	Recommended Party Size:	จำนวนสมาชิกปาร์ตี้ที่แนะนำ:
+90152	Tap to activate	แตะเพื่อเปิดใช้งาน
+90153	Activated	เปิดใช้งานแล้ว
+90154	Activating: ${1}	กำลังเปิดใช้งาน: ${1}
+90155	Resetting: ${1}	กำลังรีเซ็ต: ${1}
+90156	Recommended Party Size: ${1}	จำนวนสมาชิกปาร์ตี้ที่แนะนำ: ${1}
+90157	Attempts remaining This Week: ${1}/${2}	จำนวนครั้งที่เหลือสัปดาห์นี้: ${1}/${2}
+90158	Safe Zone	พื้นที่ปลอดภัย
+90159	Conflict Zone	พื้นที่ขัดแย้ง
+90160	War Zone	พื้นที่สงคราม
+90164	${1} has invited you to Group Warp	${1} เชิญคุณวาร์ปแบบกลุ่ม
+90165	Fatigue: ${1}/${2}	ความเหนื่อยล้า: ${1}/${2}
+90167	My guild	กิลด์ของฉัน
+90168	Bidding Eligibility Acquired	ได้รับสิทธิ์ประมูลแล้ว
+90169	No Bidding Eligibility	ไม่มีสิทธิ์ประมูล
+90170	Ends in ${1} hr ${2} min	สิ้นสุดใน ${1} ชั่วโมง ${2} นาที
+90171	Opens in ${1} hr ${2} min	เปิดใน ${1} ชั่วโมง ${2} นาที
+90172	Battle in Progress	กำลังต่อสู้
+90173	Qualification Bidding in Progress	กำลังประมูลสิทธิ์เข้าร่วม
+90174	Select a battle position	เลือกตำแหน่งต่อสู้
+90175	${1} Selected	เลือก ${1} แล้ว
+90176	Confirm Travel	ยืนยันเดินทาง
+90177	Qualified to Participate	มีสิทธิ์เข้าร่วม
+90178	You don't have permission to manage the Guild Black Market	คุณไม่มีสิทธิ์จัดการตลาดมืดกิลด์
+90179	Not Eligible to Participate	ไม่มีสิทธิ์เข้าร่วม
+90180	Stronghold War - Qualification Bidding	สงครามฐานที่มั่น - ประมูลสิทธิ์เข้าร่วม
+90181	Regional Capital War - Qualification Bidding	สงครามเมืองหลวงภูมิภาค - ประมูลสิทธิ์เข้าร่วม
+90182	Royal Capital War - Qualification Bidding	สงครามเมืองหลวง - ประมูลสิทธิ์เข้าร่วม
+90184	Final Bidding begins in ${1}	ประมูลรอบสุดท้ายเริ่มใน ${1}
+90185	Final Bidding - May end at any time within ${1}	ประมูลรอบสุดท้าย - อาจสิ้นสุดเมื่อใดก็ได้ภายใน ${1}
+90186	Select a region to bid on first	เลือกภูมิภาคที่จะประมูลก่อน
+90187	No available bidding events	ไม่มีกิจกรรมประมูลที่เปิดอยู่
+90189	Open Bidding	ประมูลเปิด
+90190	Final Bidding	ประมูลรอบสุดท้าย
+90191	Qualification Bidding	ประมูลสิทธิ์เข้าร่วม
+90192	Current Bidding Phase	ช่วงประมูลปัจจุบัน
+90193	Currently Qualifying Guilds	กิลด์ที่มีสิทธิ์ในขณะนี้
+90194	Slots: ${1}	จำนวนที่: ${1}
+90195	If guilds submit the same bid, the guild with more total escort deliveries ranks higher	หากกิลด์เสนอราคาเท่ากัน กิลด์ที่คุ้มกันส่งเสบียงรวมมากกว่าจะได้อันดับสูงกว่า
+90196	Current Lowest Bid	ราคาเสนอต่ำสุดปัจจุบัน
+90198	Auto-Bid	เสนอราคาอัตโนมัติ
+90199	Auto-Bidding	กำลังเสนอราคาอัตโนมัติ
+90200	Displayed after bidding begins	แสดงหลังเริ่มประมูล
+90201	Not Required	ไม่จำเป็น
+90202	No Bid	ยังไม่เสนอราคา
+90203	Refunded	คืนเงินแล้ว
+90204	Already participating in the ${1} auction	กำลังเข้าร่วมประมูล ${1} อยู่แล้ว
+90205	No bidding eligibility for this ${1}	ไม่มีสิทธิ์ประมูล ${1} นี้
+90206	Yet to start	ยังไม่เริ่ม
+90207	Initial Bid	ราคาเสนอเริ่มต้น
+90208	Highest Bid	ราคาสูงสุด
+90209	Bidding Style	รูปแบบเสนอราคา
+90210	Aggressive	เชิงรุก
+90211	Steady	มั่นคง
+90212	Covert	ลับ
+90213	If your bid is knocked off the rankings, Our Guild will place an Auto bid within ${1} seconds.	หากราคาเสนอของคุณหลุดจากอันดับ กิลด์ของเราจะเสนอราคาอัตโนมัติภายใน ${1} วินาที
+90214	Auto-Bid will gradually increase the bid after you drop off the leaderboard	เสนอราคาอัตโนมัติจะค่อย ๆ เพิ่มราคาเสนอหลังคุณหลุดจากอันดับ
+90215	Current Bidding Stage	ขั้นประมูลปัจจุบัน
+90216	Enable Auto-Bid	เปิดเสนอราคาอัตโนมัติ
+90217	Disable Auto-Bid	ปิดเสนอราคาอัตโนมัติ
+90218	Initial bid cannot be lower than the minimum starting bid	ราคาเสนอเริ่มต้นต้องไม่ต่ำกว่าราคาเริ่มต้นขั้นต่ำ
+90219	Maximum bid cannot be less than ${1} times the minimum starting bid	ราคาเสนอสูงสุดต้องไม่ต่ำกว่า ${1} เท่าของราคาเริ่มต้นขั้นต่ำ
+90220	Disable Auto-Bid before adjusting your bid	ปิดเสนอราคาอัตโนมัติก่อนปรับราคาเสนอ
+90221	Your current maximum bid is below the qualifying bid. Please adjust it	ราคาเสนอสูงสุดปัจจุบันต่ำกว่าราคาที่ผ่านเกณฑ์ โปรดปรับราคา
+90222	Your current maximum bid is below the qualifying bid. Auto-Bid has stopped. Please adjust your bid	ราคาเสนอสูงสุดปัจจุบันต่ำกว่าราคาที่ผ่านเกณฑ์ เสนอราคาอัตโนมัติหยุดแล้ว โปรดปรับราคา
+90223	Already participating in another region's auction	กำลังเข้าร่วมประมูลของภูมิภาคอื่นอยู่แล้ว
+90224	You may only use Auto-Bid for qualification in one region at a time. Before bidding begins, you may cancel Auto-Bid at any time and enable it for another region. Continue?	ใช้เสนอราคาอัตโนมัติเพื่อรับสิทธิ์ได้ครั้งละหนึ่งภูมิภาคเท่านั้น ก่อนเริ่มประมูล คุณยกเลิกเสนอราคาอัตโนมัติเมื่อใดก็ได้และเปิดใช้กับภูมิภาคอื่น ดำเนินการต่อหรือไม่?
+90225	Auto-Bid enabled	เปิดเสนอราคาอัตโนมัติแล้ว
+90226	Bid for the right to battle in the ${1} region	ประมูลสิทธิ์ต่อสู้ในภูมิภาค ${1}
+90227	After joining this region's auction, you cannot join auctions in other regions during the qualification period. Continue?	หลังเข้าร่วมประมูลภูมิภาคนี้ จะเข้าร่วมประมูลภูมิภาคอื่นระหว่างช่วงรับสิทธิ์ไม่ได้ ดำเนินการต่อหรือไม่?
+90228	Bid Successful	เสนอราคาสำเร็จ
+90229	Your bid cannot be lower than ${1} of the minimum starting bid	ราคาเสนอของคุณต้องไม่ต่ำกว่า ${1} ของราคาเริ่มต้นขั้นต่ำ
+90230	Insufficient resources	ทรัพยากรไม่เพียงพอ
+90231	Auto-Bid is currently active. Bidding manually will disable Auto-Bid. Continue?	กำลังใช้เสนอราคาอัตโนมัติ การเสนอราคาด้วยตนเองจะปิดเสนอราคาอัตโนมัติ ดำเนินการต่อหรือไม่?
+90232	Stronghold War Qualification Announcement	ประกาศสิทธิ์สงครามฐานที่มั่น
+90233	State Capital War Qualification Announcement	ประกาศสิทธิ์สงครามเมืองหลวงภูมิภาค
+90234	Royal Capital War Qualification Announcement	ประกาศสิทธิ์สงครามเมืองหลวง
+90235	The auction is About to start. You can now enable Auto-Bid	การประมูลกำลังจะเริ่ม ตอนนี้เปิดเสนอราคาอัตโนมัติได้
+90236	The auction has begun. You may now bid freely	การประมูลเริ่มแล้ว ตอนนี้เสนอราคาได้อย่างอิสระ
+90237	The auction has entered its final stage and may end at any time within ${1}	การประมูลเข้าสู่ช่วงสุดท้ายแล้ว และอาจสิ้นสุดเมื่อใดก็ได้ภายใน ${1}
+90238	Failed to qualify for the auction. Increase Bid now	ยังไม่ผ่านเกณฑ์การประมูล เพิ่มราคาเสนอตอนนี้
+90239	Auto-Bid failed. Increase Bid now	เสนอราคาอัตโนมัติไม่สำเร็จ เพิ่มราคาเสนอตอนนี้
+90240	Auction won! ${1} has been occupied	ชนะประมูลแล้ว! ครอบครอง ${1} แล้ว
+90241	Realm War	สงคราม Realm
+90242	Not Participated	ยังไม่ได้เข้าร่วม
+90243	No guilds are currently bidding	ขณะนี้ไม่มีกิลด์เสนอราคา
+90247	No bidding permission	ไม่มีสิทธิ์เสนอราคา
+90248	Your guild already has permission. No bidding required	กิลด์ของคุณมีสิทธิ์แล้ว ไม่ต้องประมูล
+90300	You have left the queue area	คุณออกจากพื้นที่เข้าคิวแล้ว
+90301	Queued for Territory War\n${1} players ahead of you	เข้าคิวสงครามอาณาเขต\nมีผู้เล่น ${1} คนก่อนคุณ
+90302	Queuing: ${1}	กำลังเข้าคิว: ${1}
+90350	Go Submit Supplies	ไปส่งเสบียง
+90351	${1}\n<color=#B99556>Fatigue accumulating...</color>	${1}\n<color=#B99556>กำลังสะสมความเหนื่อยล้า...</color>
+90352	You have not joined a guild. You can only receive personal rewards for this submission, not guild rewards. Submit anyway?	คุณยังไม่ได้เข้าร่วมกิลด์ การส่งครั้งนี้จึงรับได้เฉพาะรางวัลส่วนตัว ไม่ได้รับรางวัลกิลด์ ส่งต่อหรือไม่?
+90353	Points you can earn today: ${1}/${2}	แต้มที่รับได้วันนี้: ${1}/${2}
+90354	You can only enter through the Safe Zone	เข้าได้ทางพื้นที่ปลอดภัยเท่านั้น
+90355	You are already on this map	คุณอยู่บนแผนที่นี้แล้ว
+90356	Today's faction quest has been completed	ทำเควสต์ฝ่ายของวันนี้แล้ว
+90500	Survey Deadline	กำหนดสิ้นสุดแบบสำรวจ
+90502	Participate Now	เข้าร่วมตอนนี้
+90503	Survey	แบบสำรวจ
+90504	Support	สนับสนุน
+90505	Feedback	ความคิดเห็น
+90506	Go Give Feedback	ไปส่งความคิดเห็น
+91001	You've been selected!\nYou're a Lucky Star!	คุณได้รับเลือกแล้ว!\nคุณคือ Lucky Star!
+91002	Entry Time: ${1}	เวลาเข้า: ${1}
+91003	Festival Invitation	คำเชิญเทศกาล
+91004	Dear student, congratulations! You've been selected to participate in the Quiz Festival! Answer questions to earn fantastic rewards. Hurry to Prontera and enter the venue!	นักเรียนที่รัก ยินดีด้วย! คุณได้รับเลือกเข้าร่วม Quiz Festival! ตอบคำถามเพื่อรับรางวัลสุดยอด รีบไป Prontera แล้วเข้าสู่สถานที่จัดงาน!
+91006	Event starts in: ${1}	กิจกรรมเริ่มใน: ${1}
+91007	Join Now	เข้าร่วมตอนนี้
+91010	Read the question, then move to the <sprite name="activityevening_icon_riddle_right"> or <sprite name="activityevening_icon_riddle_wrong"> area	อ่านคำถาม แล้วไปยังพื้นที่ <sprite name="activityevening_icon_riddle_right"> หรือ <sprite name="activityevening_icon_riddle_wrong">
+91011	Event Over	กิจกรรมจบแล้ว
+91012	Event rewards have been Sent to your mailbox.	ส่งรางวัลกิจกรรมไปยังกล่องจดหมายของคุณแล้ว
+91013	Exit ${1}	ออก ${1}
+91014	Advancing to the Finals!	ผ่านเข้ารอบชิงชนะเลิศ!
+91015	Festival Predictions	ทายผลเทศกาล
+91016	Prediction List	รายการทายผล
+91018	Betting closes in: ${1}	ปิดเดิมพันใน: ${1}
+91019	Place Bet	วางเดิมพัน
+91020	Bet Placed	วางเดิมพันแล้ว
+91021	Captured	จับได้แล้ว
+91022	Forfeited	สละสิทธิ์แล้ว
+91023	Lucky Koi Enters	Lucky Koi เข้าสู่สนาม
+91025	Eliminations	รอบคัดออก
+91026	Grand Finals	รอบชิงชนะเลิศ
+91031	Celebration Invitation Quiz (Question ${1}/${2})	คำถามคำเชิญงานเฉลิมฉลอง (ข้อ ${1}/${2})
+91032	Watch for the question in the center, decide whether it's true or false, and stand in the corresponding circle.	ดูคำถามตรงกลาง ตัดสินว่าถูกหรือผิด แล้วไปยืนในวงกลมที่ตรงกัน
+91033	Question Timer: ${1}/${2} sec.	เวลาตอบคำถาม: ${1}/${2} วินาที
+91035	First Place	อันดับแรก
+91036	Event rewards have been sent to your mailbox.	ส่งรางวัลกิจกรรมไปยังกล่องจดหมายของคุณแล้ว
+91038	Guild Channel	แชนเนลกิลด์
+91040	The koi you bet on took first place!	Koi ที่คุณเดิมพันได้อันดับแรก!
+91041	Preparing	กำลังเตรียม
+91042	Resting	กำลังพัก
+91043	Questions ${1}/${2}	คำถาม ${1}/${2}
+91044	Quiz Starts	เริ่มตอบคำถาม
+91046	Below Rank ${1}	ต่ำกว่าอันดับ ${1}
+91047	Players ranked ${1} or higher placed the correct bet	ผู้เล่นอันดับ ${1} หรือสูงกว่าวางเดิมพันถูกต้อง
+91048	Answer:	คำตอบ:
+91049	Next question in ${1}s	คำถามถัดไปใน ${1} วินาที
+91051	You cannot participate again during this session. Please Wait for the next event.	เข้าร่วมซ้ำในรอบนี้ไม่ได้ โปรดรอกิจกรรมครั้งถัดไป
+91052	${1}~ ${2} players placed the correct bet	ผู้เล่น ${1}~ ${2} คนวางเดิมพันถูกต้อง
+91501	The entry period has ended. You can no longer enter the Gala Quiz.	ช่วงเข้าสนามสิ้นสุดแล้ว เข้าสู่ Gala Quiz ไม่ได้อีก
+91502	Betting hasn't opened yet. Please wait.	ยังไม่เปิดเดิมพัน โปรดรอ
+91503	You can only bet on one Lucky Star during each event. Confirm your bet on [${1}]?	เดิมพัน Lucky Star ได้เพียงคนเดียวต่อกิจกรรม ยืนยันเดิมพัน [ ${1} ] หรือไม่?
+91504	You've already placed a bet on a Lucky Star. Don't get greedy!	คุณเดิมพัน Lucky Star ไปแล้ว อย่าโลภสิ!
+91505	The Grand Celebration invitations have already begun, so no more bets can be placed!	คำเชิญ Grand Celebration เริ่มแล้ว จึงวางเดิมพันเพิ่มไม่ได้!
+91506	Are you sure you want to leave the Grand Celebration Invitation event?\n(Leaving will count as forfeiting.)	ยืนยันออกจากกิจกรรมคำเชิญ Grand Celebration หรือไม่?\n(การออกจะนับว่าสละสิทธิ์)
+91509	You're already in the Lucky Koi Quiz Arena!	คุณอยู่ในสนามตอบคำถาม Lucky Koi แล้ว!
+91510	The bet has expired.	เดิมพันหมดอายุแล้ว
+91511	Please select the Lucky Star you want to bet on.	โปรดเลือก Lucky Star ที่ต้องการเดิมพัน
+91512	You can place your bet now!	ตอนนี้วางเดิมพันได้แล้ว!
+91513	You cannot Teleport to the quiz Location while in a Cross-server area, Dungeon, or plane.	เทเลพอร์ตไปสถานที่ตอบคำถามขณะอยู่ในพื้นที่ข้ามเซิร์ฟเวอร์ ดันเจียน หรือ plane ไม่ได้
+91514	Confirm Exit from Festival Invitation?\n(You may enter or leave the Location at any time while getting Ready.)	ยืนยันออกจากคำเชิญเทศกาลหรือไม่?\n(เข้าออกสถานที่ได้ตลอดเวลาระหว่างช่วงเตรียมพร้อม)
+91515	The maximum number of players who can Place Bet has been reached.	จำนวนผู้เล่นที่วางเดิมพันได้ถึงขีดจำกัดแล้ว
+91516	You cannot respond to Follow or Rally requests in the quiz Location.	ตอบรับคำขอติดตามหรือรวมพลในสถานที่ตอบคำถามไม่ได้
+91517	Place Bet: Successful	วางเดิมพัน: สำเร็จ
+91518	Place Bet: Failed	วางเดิมพัน: ไม่สำเร็จ
+63001	Competition	การแข่งขัน
+63003	This reality show is presented by the Rekenber Corporation, a conglomerate, and held in the Rune-Midgarts Kingdom in partnership with the Kafra Corporation. Adventurers battle one another, and the final victor will receive the show's Grand Prize.	รายการเรียลลิตีนี้นำเสนอโดย Rekenber Corporation กลุ่มบริษัทขนาดใหญ่ และจัดขึ้นในอาณาจักร Rune-Midgarts ร่วมกับ Kafra Corporation นักผจญภัยต่อสู้กันเอง และผู้ชนะคนสุดท้ายจะได้รับรางวัลใหญ่ของรายการ
+63004	60-Player Fair Competition	การแข่งขันยุติธรรม 60 คน
+63009	This Week's Limit	ขีดจำกัดสัปดาห์นี้
+63010	Double	สองเท่า
+63011	Event Description	คำอธิบายกิจกรรม
+63012	Event Description	คำอธิบายกิจกรรม
+63013	Event Period	ช่วงกิจกรรม
+63014	Skill Book	หนังสือสกิล
+63015	Rank Reward	รางวัลอันดับ
+63017	Party Mode	โหมดปาร์ตี้
+63018	Solo Mode	โหมดเดี่ยว
+63020	Start Matching	เริ่มจับคู่
+63021	${1} failed to ready up and cannot start matchmaking for ${2}.	${1} ไม่ยืนยันความพร้อม จึงเริ่มจับคู่สำหรับ ${2} ไม่ได้
+63022	Due to inactivity, you cannot start matchmaking for ${1}.	เนื่องจากไม่เคลื่อนไหว คุณเริ่มจับคู่สำหรับ ${1} ไม่ได้
+63023	Queuing: ${1}	กำลังเข้าคิว: ${1}
+63024	Point Protection	ป้องกันแต้ม
+63025	Complete a match to earn Protection Points.\nPlayers who perform well earn Extra Protection Points.\nProtection Points offset Victory Points lost after a defeat.\nYou can accumulate up to 99 Protection Points.\nPoint Protection no longer activates after reaching Dominator rank.	เล่นการแข่งขันจนจบเพื่อรับแต้มป้องกัน\nผู้เล่นที่ทำผลงานดีได้รับแต้มป้องกันเพิ่มเติม\nแต้มป้องกันชดเชยแต้มชัยชนะที่เสียหลังพ่ายแพ้\nสะสมแต้มป้องกันได้สูงสุด 99 แต้ม\nการป้องกันแต้มจะไม่ทำงานอีกเมื่อถึงอันดับ Dominator
+63026	Protection Points	แต้มป้องกัน
+63027	Current Protected Victory Points: ${1}	แต้มชัยชนะที่ป้องกันอยู่: ${1}
+63028	Quest already completed	ทำเควสต์แล้ว
+63029	Please Select a Quest for This Week	โปรดเลือกเควสต์ของสัปดาห์นี้
+63030	You can only select and complete one quest per week.	เลือกและทำเควสต์ได้เพียงหนึ่งเควสต์ต่อสัปดาห์
+63031	Accept	ยอมรับ
+63033	This Week's Tasks Completed	ทำภารกิจสัปดาห์นี้แล้ว
+63035	Season Data	ข้อมูลฤดูกาล
+63036	Match Data	ข้อมูลการแข่งขัน
+63037	Total Matches	จำนวนการแข่งขันรวม
+63038	First-Place Finishes	จำนวนครั้งที่ได้อันดับแรก
+63039	First 5 Times	5 ครั้งแรก
+63040	Total Kills	จำนวนสังหารรวม
+63041	Likes Received	ถูกใจที่ได้รับ
+63042	Best Single-Match Stats	สถิติดีที่สุดในการแข่งขันเดียว
+63045	Aid	ช่วยเหลือ
+63049	Party Queue	คิวปาร์ตี้
+63050	Solo Queue	คิวเดี่ยว
+63051	All Matches	การแข่งขันทั้งหมด
+63052	First Five Matches Only	เฉพาะห้าการแข่งขันแรก
+63053	First Match Only	เฉพาะการแข่งขันแรก
+63054	{1} Place	อันดับ {1}
+63058	${1} hours ago	${1} ชั่วโมงที่แล้ว
+63059	${1} days ago	${1} วันที่แล้ว
+63061	Kill/Assist/Rescue	สังหาร/ช่วยสังหาร/ช่วยชีวิต
+63062	Damage/Healing	ความเสียหาย/การฟื้นฟู
+63064	Survivor Battle	ศึกผู้รอดชีวิต
+63065	Rankings	อันดับ
+63066	Kill Ranking	อันดับสังหาร
+63067	Victory Rankings	อันดับชัยชนะ
+63068	Skill Book	หนังสือสกิล
+63069	Job Talents	พรสวรรค์อาชีพ
+63072	Burst	ดาเมจระเบิด
+63074	Utility	สนับสนุน
+63076	Countdown: ${1}s	นับถอยหลัง: ${1} วินาที
+63077	Ready	พร้อม
+63081	Select a Build	เลือกบิลด์
+63082	Select the build you want to use	เลือกบิลด์ที่ต้องการใช้
+63083	High-Resource Area	พื้นที่ทรัพยากรสูง
+63084	Enemy Drop Point	จุดลงของศัตรู
+63085	Enemy Drop Zone	พื้นที่ลงของศัตรู
+63086	Tap the map to select a Spawn: ${1}	แตะแผนที่เพื่อเลือกจุดเกิด: ${1}
+63089	Stop Following	หยุดติดตาม
+63090	Tap to Invite	แตะเพื่อเชิญ
+63091	${1} invited you to follow	${1} เชิญคุณติดตาม
+63092	Enter the Battlefield	เข้าสู่สนามรบ
+63093	Remaining	เหลือ
+63098	Safe zone shrinking	พื้นที่ปลอดภัยกำลังหด
+63099	Nearby	ใกล้เคียง
+63100	Pick Up All	เก็บทั้งหมด
+63101	Aid	ช่วยเหลือ
+63102	Revive Info	ข้อมูลฟื้นคืนชีพ
+63103	If you are defeated for the first time within 180 seconds of the battle starting, you can rejoin once for free.	หากคุณถูกกำจัดเป็นครั้งแรกภายใน 180 วินาทีหลังเริ่มการต่อสู้ คุณกลับเข้าร่วมได้ฟรีหนึ่งครั้ง
+63108	Discard Multiple	ทิ้งหลายรายการ
+63109	Discard Multiple	ทิ้งหลายรายการ
+63110	Equipment Quality	คุณภาพอุปกรณ์
+63114	Orange	สีส้ม
+63115	Skill Type	ประเภทสกิล
+63117	Utility	สนับสนุน
+63119	Discard	ทิ้ง
+63121	Confirm Discard	ยืนยันทิ้ง
+63125	Revive Altar	แท่นฟื้นคืนชีพ
+63126	Next Zone Shrink	การหดพื้นที่ครั้งถัดไป
+63127	{1}'s Shop	ร้านของ {1}
+63128	Item Supplies	เสบียงไอเทม
+63129	Skill Supplies	เสบียงสกิล
+63130	Equipment Supplies	เสบียงอุปกรณ์
+63134	Going Well	ไปได้สวย
+63135	Better Luck Next Time	ขอให้โชคดีครั้งหน้า
+63137	Group Rank: ${1}/${2}	อันดับกลุ่ม: ${1}/${2}
+63138	Match Stats	สถิติการแข่งขัน
+63144	Victory Points ${1}	แต้มชัยชนะ ${1}
+63145	Overview	ภาพรวม
+63146	Data	ข้อมูล
+63147	Return (${1})	กลับ (${1})
+63148	Like All	กดถูกใจทั้งหมด
+63150	Kill/Assist/Rescue	สังหาร/ช่วยสังหาร/ช่วยชีวิต
+63151	Damage/Healing	ความเสียหาย/การฟื้นฟู
+63153	Victory Points	แต้มชัยชนะ
+63154	Interact	ปฏิสัมพันธ์
+63155	Select a build: ${1}	เลือกบิลด์: ${1}
+63156	Countdown: ${1}	นับถอยหลัง: ${1}
+63157	This location cannot be selected as your drop point. You have been automatically switched to a nearby area.	เลือกตำแหน่งนี้เป็นจุดลงไม่ได้ ระบบเปลี่ยนเป็นพื้นที่ใกล้เคียงให้โดยอัตโนมัติแล้ว
+63158	Talent	พรสวรรค์
+63159	Job	อาชีพ
+63160	No Equipment	ไม่มีอุปกรณ์
+63161	No Skills	ไม่มีสกิล
+63162	No items.	ไม่มีไอเทม
+63163	Discard	ทิ้ง
+63164	Join Kafra: Survivor Battle solo	เข้าร่วม Kafra: Survivor Battle แบบเดี่ยว
+63165	You cannot match for Solo Mode while in a party. Leave the party and start matchmaking?	จับคู่โหมดเดี่ยวขณะอยู่ในปาร์ตี้ไม่ได้ ออกจากปาร์ตี้แล้วเริ่มจับคู่หรือไม่?
+63167	Matchmaking is already underway for another mode. You cannot initiate new matchmaking.	กำลังจับคู่สำหรับโหมดอื่นอยู่ เริ่มจับคู่ใหม่ไม่ได้
+63168	Solo Mode matchmaking is underway. You cannot open the Party Finder.	กำลังจับคู่โหมดเดี่ยว เปิดค้นหาปาร์ตี้ไม่ได้
+63169	Onward and Upward	ก้าวไปข้างหน้าและสูงขึ้น
+63170	Close Defeat	พ่ายแพ้ฉิวเฉียด
+63171	Rank: ${1}/${2}	อันดับ: ${1}/${2}
+63172	Bot ${1}	บอต ${1}
+63173	Battle Start	เริ่มการต่อสู้
+63174	Tap anywhere to close (${1}s)	แตะที่ใดก็ได้เพื่อปิด (${1} วินาที)
+63175	Waiting for the game to start: ${1}	รอเกมเริ่ม: ${1}
+63176	Select a mission	เลือกภารกิจ
+63177	You can only select one mission per week	เลือกภารกิจได้เพียงหนึ่งภารกิจต่อสัปดาห์
+63178	Rescue Wagon	รถช่วยชีวิต
+63179	You can spend ID Tags here to Revive defeated party members.\nSpend all ID Tags in your Backpack to Revive party members?	คุณใช้ ID Tags ที่นี่เพื่อฟื้นคืนชีพสมาชิกปาร์ตี้ที่ถูกกำจัดได้\nใช้ ID Tags ทั้งหมดในกระเป๋าเพื่อฟื้นคืนชีพสมาชิกปาร์ตี้หรือไม่?
+63180	Revive	ฟื้นคืนชีพ
+63181	No Solo Mode information found	ไม่พบข้อมูลโหมดเดี่ยว
+63182	Send	ส่ง
+63183	Send (${1})	ส่ง (${1})
+63184	Still available This Week	ยังใช้ได้ในสัปดาห์นี้
+63185	Rank Reward	รางวัลอันดับ
+63186	Adventure	ผจญภัย
+63187	You are outside the barrier and taking continuous damage.	คุณอยู่นอกเขตป้องกันและได้รับความเสียหายต่อเนื่อง
+63188	Spectator Mode	โหมดผู้ชม
+63189	Overview	ภาพรวม
+63190	My Records	บันทึกของฉัน
+63191	Item is on cooldown. Please try again later.	ไอเทมอยู่ระหว่าง CD โปรดลองภายหลัง
+63192	Cannot equip duplicate skills	ติดตั้งสกิลซ้ำไม่ได้
+63195	${1} quality is currently selected. You cannot select a lower quality.	กำลังเลือกคุณภาพ ${1} คุณเลือกคุณภาพต่ำกว่าไม่ได้
+63196	Cannot equip duplicate items	ติดตั้งไอเทมซ้ำไม่ได้
+63197	${1}'s ID Tag	ID Tag ของ ${1}
+63198	Uses:	จำนวนครั้งใช้:
+63199	First-Place Finishes	จำนวนครั้งที่ได้อันดับแรก
+63200	Longest Survival Time	เวลาอยู่รอดนานที่สุด
+63201	Highest Damage in a Single Match	ความเสียหายสูงสุดในการแข่งขันเดียว
+63202	Ends in ${1} days	สิ้นสุดใน ${1} วัน
+63203	Season end time TBD	ยังไม่กำหนดเวลาจบฤดูกาล
+63204	Players Matched: <color=#cf6753>${1}</color>/${2}	ผู้เล่นที่จับคู่แล้ว: <color=#cf6753>${1}</color>/${2}
+63205	Kafra: Battle of Survivors Currency	สกุลเงิน Kafra: Battle of Survivors
+63206	Currency Limit Details	รายละเอียดขีดจำกัดสกุลเงิน
+63207	This Week's Limit:	ขีดจำกัดสัปดาห์นี้:
+63208	Total Limit:	ขีดจำกัดรวม:
+63209	You can earn only a limited number of Competition Medals each week. Once you reach This Week's Limit, you cannot earn any more. You can earn up to 20,000 points per week; any excess will be discarded. This resets every Monday. You can carry up to 100,000 points; any points earned beyond this limit will be discarded.	รับ Competition Medals ได้จำกัดต่อสัปดาห์ เมื่อถึงขีดจำกัดสัปดาห์นี้ จะรับเพิ่มไม่ได้ รับได้สูงสุด 20,000 แต้มต่อสัปดาห์ ส่วนที่เกินจะถูกทิ้ง รีเซ็ตทุกวันจันทร์ ถือครองได้สูงสุด 100,000 แต้ม แต้มที่ได้รับเกินขีดจำกัดนี้จะถูกทิ้ง
+63210	${1}/${2}<color=#7EA92B> (Limit)</color>	${1}/${2}<color=#7EA92B> (ขีดจำกัด)</color>
+63212	Enemy Drop Point	จุดลงของศัตรู
+63213	Enemy Drop Zone	พื้นที่ลงของศัตรู
+63214	Victory Points:	แต้มชัยชนะ:
+63215	Nearby	ใกล้เคียง
+63216	Switch	สลับ
+63217	Pick Up All	เก็บทั้งหมด
+63219	<#6890d2>${1}</color> or lower	<#6890d2>${1}</color> หรือต่ำกว่า
+63220	<#9f74c4>${1}</color> or lower	<#9f74c4>${1}</color> หรือต่ำกว่า
+63221	<#ec8c2f>${1}</color> or lower	<#ec8c2f>${1}</color> หรือต่ำกว่า
+63222	A Narrow Victory Is Within Reach	ชัยชนะฉิวเฉียดอยู่ไม่ไกล
+63224	No party matchmaking information found	ไม่พบข้อมูลจับคู่ปาร์ตี้
+63225	This Function is not yet available	ฟังก์ชันนี้ยังไม่เปิดใช้งาน
+63226	<color=#594E3D>Points:</color>${1}<color=#594E3D>/${2}</color>	<color=#594E3D>แต้ม:</color>${1}<color=#594E3D>/${2}</color>
+63227	Claimed	รับแล้ว
+63228	Skill Level	ระดับสกิล
+63229	First select the equipment you want to discard in bulk	เลือกอุปกรณ์ที่จะทิ้งหลายรายการก่อน
+63230	Drag outside the Backpack to discard	ลากออกนอกกระเป๋าเพื่อทิ้ง
+63231	Right-click to unequip	คลิกขวาเพื่อถอด
+63232	Right-click to equip	คลิกขวาเพื่อติดตั้ง
+63233	Skill bar is full. Cannot equip.	แถบสกิลเต็มแล้ว ติดตั้งไม่ได้
+63234	Item bar is full. Cannot equip.	แถบไอเทมเต็มแล้ว ติดตั้งไม่ได้
+63235	Safe Zone has not refreshed	พื้นที่ปลอดภัยยังไม่รีเฟรช
+63236	Distance to Safe Zone: ${1} m	ระยะถึงพื้นที่ปลอดภัย: ${1} เมตร
+63237	Zones Closed/Total Zones: ${1}/${2}	พื้นที่ปิด/พื้นที่ทั้งหมด: ${1}/${2}
+63238	Already inside the Safe Zone	อยู่ในพื้นที่ปลอดภัยแล้ว
+63239	Skill Details	รายละเอียดสกิล
+63242	Last Death Location	ตำแหน่งที่ตายล่าสุด
+63243	Place	ตำแหน่ง
+63248	Spectate Mode	โหมดชมการต่อสู้
+63249	This Week's Limit Reached	ถึงขีดจำกัดสัปดาห์นี้แล้ว
+63250	Limit Reached	ถึงขีดจำกัดแล้ว
+63251	Game is About to start	เกมกำลังจะเริ่ม
+63501	Arena Function unlocks at Lv. ${1}	ปลดล็อกฟังก์ชันอารีนาเมื่อถึง Lv. ${1}
+63502	${2} unlocks when the server reaches Lv. ${1}	${2} ปลดล็อกเมื่อเซิร์ฟเวอร์ถึง Lv. ${1}
+63503	{2} unlocks at Lv. ${1}	{2} ปลดล็อกเมื่อถึง Lv. ${1}
+63504	${1} will unlock at ${2}. Please wait.	${1} จะปลดล็อกเมื่อ ${2} โปรดรอ
+63505	This Week's Currency limit has been reached	ถึงขีดจำกัดสกุลเงินสัปดาห์นี้แล้ว
+63506	Matchmaking started	เริ่มจับคู่แล้ว
+63507	Matchmaking canceled	ยกเลิกจับคู่แล้ว
+63508	Due to your unsportsmanlike conduct in this mode, you must wait ${1} before you can start matchmaking	เนื่องจากพฤติกรรมไม่เหมาะสมในการเล่นโหมดนี้ คุณต้องรอ ${1} ก่อนเริ่มจับคู่
+63509	Cannot start matchmaking while in Cross-server mode.	เริ่มจับคู่ขณะอยู่ในโหมดข้ามเซิร์ฟเวอร์ไม่ได้
+63510	Due to inactivity, you cannot start matchmaking for ${1}.	เนื่องจากไม่เคลื่อนไหว คุณเริ่มจับคู่สำหรับ ${1} ไม่ได้
+63511	Cannot start matchmaking while in an instance.	เริ่มจับคู่ขณะอยู่ในดันเจียนไม่ได้
+63512	Only the Party Leader can start matchmaking.	เฉพาะหัวหน้าปาร์ตี้เท่านั้นที่เริ่มจับคู่ได้
+63513	Party member ${1}'s current status prevents matchmaking.	สถานะปัจจุบันของสมาชิกปาร์ตี้ ${1} ทำให้จับคู่ไม่ได้
+63514	Party member ${1} is not Online. Cannot start matchmaking.	สมาชิกปาร์ตี้ ${1} ไม่ได้ออนไลน์ จับคู่ไม่ได้
+63515	Due to ${1}'s unsportsmanlike conduct in this mode, they must wait ${2} before starting matchmaking	เนื่องจากพฤติกรรมไม่เหมาะสมของ ${1} ในโหมดนี้ ต้องรอ ${2} ก่อนเริ่มจับคู่
+63516	Party status changed. Matchmaking ended automatically.	สถานะปาร์ตี้เปลี่ยน จับคู่สิ้นสุดโดยอัตโนมัติ
+63517	Start Matching: Kafra - Battle of Survivors	เริ่มจับคู่: Kafra - Battle of Survivors
+63518	Cannot enter Battle of Survivors in raid mode	เข้าสู่ Battle of Survivors ในโหมดเรดไม่ได้
+63519	Party status changed. Matchmaking ended automatically	สถานะปาร์ตี้เปลี่ยน จับคู่สิ้นสุดโดยอัตโนมัติ
+63520	Battlefield matchmaking is in progress. Changing the Party Leader will stop matchmaking. Continue?	กำลังจับคู่สนามรบ การเปลี่ยนหัวหน้าปาร์ตี้จะหยุดจับคู่ ดำเนินการต่อหรือไม่?
+63521	You did not confirm your participation. This match has been canceled.	คุณไม่ได้ยืนยันเข้าร่วม การแข่งขันนี้ถูกยกเลิกแล้ว
+63522	Party member ${1} did not confirm participation. This match has been canceled.	สมาชิกปาร์ตี้ ${1} ไม่ได้ยืนยันเข้าร่วม การแข่งขันนี้ถูกยกเลิกแล้ว
+63523	Quest accepted	รับเควสต์แล้ว
+63524	The quest has been completed.	ทำเควสต์แล้ว
+63525	Not enough Backpack space. Rewards have been sent by mail.	พื้นที่กระเป๋าไม่เพียงพอ ส่งรางวัลทางจดหมายแล้ว
+63526	Level-up successful! Reached ${1}.	เพิ่มระดับสำเร็จ! ถึง ${1} แล้ว
+63527	Obtained ${1}	ได้รับ ${1}
+63528	That area cannot be reached. Please select another.	ไปยังพื้นที่นั้นไม่ได้ โปรดเลือกพื้นที่อื่น
+63529	Invited to follow	เชิญติดตามแล้ว
+63530	Now following ${1}	กำลังติดตาม ${1}
+63531	Stopped following {1}	หยุดติดตาม {1} แล้ว
+63532	${1} declined your invitation to follow.	${1} ปฏิเสธคำเชิญติดตามของคุณ
+63533	The battle is still underway. You will be penalized if you leave now. Are you sure?	การต่อสู้ยังดำเนินอยู่ หากออกตอนนี้จะได้รับโทษ ยืนยันหรือไม่?
+63534	Your teammates are still fighting and need your encouragement. Continue?	เพื่อนร่วมทีมยังต่อสู้อยู่และต้องการกำลังใจจากคุณ ดำเนินการต่อหรือไม่?
+63535	The Safe Zone will shrink in ${1} seconds.	พื้นที่ปลอดภัยจะหดใน ${1} วินาที
+63536	Safe Zone contraction #${1} has begun.	เริ่มหดพื้นที่ปลอดภัยครั้งที่ #${1} แล้ว
+63537	As the seal weakens, monsters emerge into the world.	เมื่อผนึกอ่อนแอลง มอนสเตอร์ปรากฏสู่โลก
+63538	As the seal is restored, the monsters are drawn back.	เมื่อฟื้นฟูผนึก มอนสเตอร์จะถูกดึงกลับ
+63539	A group of uniquely talented individuals has appeared throughout the world. Find them to trigger mysterious events.	กลุ่มผู้มีพรสวรรค์เฉพาะตัวปรากฏทั่วโลก ค้นหาพวกเขาเพื่อเริ่มเหตุการณ์ลึกลับ
+63540	${1} defeated ${2}	${1} กำจัด ${2}
+63541	${1} was eliminated in the raging sandstorm.	${1} ถูกกำจัดท่ามกลางพายุทรายรุนแรง
+63542	${1} quietly left.	${1} ออกไปเงียบ ๆ
+63543	You rescued teammate ${1}.	คุณช่วยชีวิตเพื่อนร่วมทีม ${1}
+63544	Teammate ${1} rescued you.	เพื่อนร่วมทีม ${1} ช่วยชีวิตคุณ
+63545	You successfully aided ${1}${2} using the Revive Altar.	คุณช่วยเหลือ ${1}${2} ด้วยแท่นฟื้นคืนชีพสำเร็จ
+63546	Teammate ${1} rescued you at the Revive Altar.	เพื่อนร่วมทีม ${1} ช่วยชีวิตคุณที่แท่นฟื้นคืนชีพ
+63547	You are outside the barrier and continuously taking damage.	คุณอยู่นอกเขตป้องกันและได้รับความเสียหายต่อเนื่อง
+63548	The competition has begun!	การแข่งขันเริ่มแล้ว!
+63549	The final showdown has begun!	การประลองครั้งสุดท้ายเริ่มแล้ว!
+63550	${1} just obtained 【${2}】: ${3}	${1} เพิ่งได้รับ [ ${2} ]: ${3}
+63551	Your Backpack is overweight. You cannot carry any more supplies.	กระเป๋าของคุณน้ำหนักเกิน ถือเสบียงเพิ่มไม่ได้
+63552	This skill is being cast and cannot be replaced.	สกิลนี้กำลังร่ายและเปลี่ยนแทนไม่ได้
+63553	Purchase Successful	ซื้อสำเร็จ
+63554	Not enough ${1} to purchase.	${1} ไม่เพียงพอสำหรับซื้อ
+63555	Not enough items in stock to purchase.	ไอเทมในคลังไม่เพียงพอสำหรับซื้อ
+63556	Your Backpack is overweight. Unable to purchase.	กระเป๋าของคุณน้ำหนักเกิน ซื้อไม่ได้
+63557	This skill is already equipped.	ติดตั้งสกิลนี้อยู่แล้ว
+63558	Incorrect equipment slot. Unable to equip.	ช่องอุปกรณ์ไม่ถูกต้อง ติดตั้งไม่ได้
+63559	This item is already equipped.	ติดตั้งไอเทมนี้อยู่แล้ว
+63560	You can only pick up a teammate's ID Tag.	เก็บ ID Tag ของเพื่อนร่วมทีมได้เท่านั้น
+63561	Teammate ${1} left the battlefield. Their ID Tag is no longer valid.	เพื่อนร่วมทีม ${1} ออกจากสนามรบแล้ว ID Tag ของอีกฝ่ายใช้ไม่ได้อีก
+63562	You cannot use skills or move during a rescue.	ใช้สกิลหรือเคลื่อนที่ระหว่างช่วยชีวิตไม่ได้
+63563	You were attacked, interrupting the rescue.	คุณถูกโจมตี การช่วยชีวิตถูกขัดจังหวะ
+63564	The rescue target has been defeated.	เป้าหมายที่ช่วยชีวิตถูกกำจัดแล้ว
+63565	The rescue target has been revived.	เป้าหมายที่ช่วยชีวิตฟื้นคืนชีพแล้ว
+63566	Target out of range. Rescue failed.	เป้าหมายอยู่นอกระยะ ช่วยชีวิตไม่สำเร็จ
+63567	You can only spectate teammates who are still alive!	ชมได้เฉพาะเพื่อนร่วมทีมที่ยังมีชีวิต!
+63568	You're switching too quickly! I can't keep up!	คุณสลับเร็วเกินไป! ฉันตามไม่ทัน!
+63569	${1} gave you a like.	${1} กดถูกใจคุณ
+63570	and above	และสูงกว่า
+63571	and below	และต่ำกว่า
+63572	Hour	ชั่วโมง
+63576	You cannot switch builds while in Battle Status.	สลับบิลด์ขณะอยู่ในสถานะต่อสู้ไม่ได้
+63577	The Totem you picked up matches your current build.	Totem ที่เก็บได้ตรงกับบิลด์ปัจจุบันของคุณ
+63578	You cannot travel while in Battle Status.	เดินทางขณะอยู่ในสถานะต่อสู้ไม่ได้
+63579	Teammate ${1} declined your rally request.	เพื่อนร่วมทีม ${1} ปฏิเสธคำขอรวมพลของคุณ
+63580	Cannot be used while in Battle Status.	ใช้ขณะอยู่ในสถานะต่อสู้ไม่ได้
+63581	The Dancer loved your tip and granted you 15 seconds of bonus time.	Dancer ชอบทิปของคุณและให้โบนัสเวลา 15 วินาที
+63582	Your pockets are empty. The Dancer looks down on you.	คุณไม่มีเงินติดตัว Dancer ดูถูกคุณ
+63583	Sharing Materials reduced the Blacksmith's Craft time for high-tier equipment by 10s.	การแบ่งวัสดุลดเวลาสร้างอุปกรณ์ระดับสูงของ Blacksmith ลง 10 วินาที
+63584	You cannot discard equipped items while in Battle Status.	ทิ้งไอเทมที่ติดตั้งขณะอยู่ในสถานะต่อสู้ไม่ได้
+63585	You cannot edit skills while in Battle Status.	แก้ไขสกิลขณะอยู่ในสถานะต่อสู้ไม่ได้
+63586	Normal Attack, Talent Skills, and Derived Skills cannot be edited.	แก้ไขการโจมตีปกติ สกิลพรสวรรค์ และสกิลต่อยอดไม่ได้
+63587	No eligible items found.	ไม่พบไอเทมที่ตรงเงื่อนไข
+63588	I've taken first place ${2} times using 【${1}】, with a longest survival time of ${3}. I'll carry you!	ฉันได้อันดับแรก ${2} ครั้งด้วย [ ${1} ] โดยอยู่รอดนานที่สุด ${3} ฉันจะแบกนายเอง!
+63589	Tap a teammate's Portrait to spectate them. (Spectator Mode will begin automatically in ${1} seconds.)	แตะรูปเพื่อนร่วมทีมเพื่อชมการต่อสู้ (โหมดผู้ชมจะเริ่มโดยอัตโนมัติใน ${1} วินาที)
+63590	Equipped gear cannot be discarded during Battle Status	ทิ้งอุปกรณ์ที่ติดตั้งขณะอยู่ในสถานะต่อสู้ไม่ได้
+63591	Skill 【${1}】 can be upgraded	อัปเกรดสกิล [ ${1} ] ได้
+63592	Skill upgraded	อัปเกรดสกิลแล้ว
+63593	Using an ID Tag to Revive a teammate	กำลังใช้ ID Tag ฟื้นคืนชีพเพื่อนร่วมทีม
+63594	${1} is using an ID Tag to Revive you	${1} กำลังใช้ ID Tag ฟื้นคืนชีพคุณ
+63595	This skill cannot be moved or replaced	ย้ายหรือเปลี่ยนแทนสกิลนี้ไม่ได้
+63596	This slot is reserved for Adventure skills. Skills cannot be inserted manually.	ช่องนี้สงวนไว้สำหรับสกิลผจญภัย ใส่สกิลด้วยตนเองไม่ได้
+63597	Battlefield Info	ข้อมูลสนามรบ
+63598	Players Remaining	ผู้เล่นที่เหลือ
+63599	Kills	สังหาร
+63600	Assists	ช่วยสังหาร
+63601	Skills cannot be upgraded during combat	อัปเกรดสกิลระหว่างต่อสู้ไม่ได้
+63602	You've already reminded this teammate	คุณเตือนเพื่อนร่วมทีมคนนี้แล้ว
+63603	A participant did not confirm. Matchmaking has been Initiated again.	มีผู้เข้าร่วมไม่ยืนยัน เริ่มจับคู่อีกครั้งแล้ว
+63611	${1} invited you to Follow	${1} เชิญคุณติดตาม
