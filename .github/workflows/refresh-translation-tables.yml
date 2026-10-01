@@ -1,3 +1,4 @@
+# Refresh includes batch 046: common menus and settings (264 new IDs).
 name: Refresh translation tables
 on:
   push:
