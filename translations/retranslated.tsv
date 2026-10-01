@@ -6757,3 +6757,822 @@ ID	English	Thai_Translation
 38515	${1} to ${2}	${1} ถึง ${2}
 38517	First week of the season: ${1}${2}-${3}	สัปดาห์แรกของฤดูกาล: ${1}${2}-${3}
 38518	Opens ${1}${2}-${3}	เปิด ${1}${2}-${3}
+37001	Auto Mode	โหมดอัตโนมัติ
+37002	Auto-battle time has ended. Return to town automatically?	เวลาต่อสู้อัตโนมัติหมดแล้ว กลับเมืองโดยอัตโนมัติหรือไม่?
+37004	Return to Town Now	กลับเมืองทันที
+37005	AFK time is about to reset. Return to town automatically?	เวลา AFK ใกล้รีเซ็ตแล้ว กลับเมืองโดยอัตโนมัติหรือไม่?
+37006	Field Battle	ต่อสู้ภาคสนาม
+37007	Expedition Adventure	ผจญภัยสำรวจ
+37008	Treasure Chest	หีบสมบัติ
+37009	Auto Mode	โหมดอัตโนมัติ
+37010	Recommended Monster	มอนสเตอร์ที่แนะนำ
+37011	Timing	จับเวลา
+37012	Automatically return to the main city when Bonus AFK Points are depleted	กลับเมืองหลักโดยอัตโนมัติเมื่อแต้มโบนัส AFK หมด
+37013	Automatically return to the main city at 4:45-4:55	กลับเมืองหลักโดยอัตโนมัติในช่วง 4:45-4:55
+37014	After High-Rate AFK Mode is disabled, it will automatically reactivate at 5:00 the next day.	หลังปิดโหมด AFK อัตราสูง จะเปิดอีกครั้งโดยอัตโนมัติเวลา 5:00 ของวันถัดไป
+37015	Field Combat Time in Progress…	กำลังใช้เวลาต่อสู้ภาคสนาม…
+37016	Massive EXP	EXP จำนวนมาก
+37017	Powerful Card	การ์ดทรงพลัง
+37018	Loads of Materials	วัสดุจำนวนมาก
+37019	Surprise Mystery Chest	หีบปริศนาสุดเซอร์ไพรส์
+37020	Paused	พักแล้ว
+37021	Field Combat Time Paused…	พักเวลาต่อสู้ภาคสนามแล้ว…
+37022	min	นาที
+37023	1. ${1} restores ${2} minutes of field combat time daily, up to a maximum of ${3} minutes.	1. ${1} ฟื้นฟูเวลาต่อสู้ภาคสนาม ${2} นาทีต่อวัน สะสมได้สูงสุด ${3} นาที
+37024	2.While you have Field Combat Time, Kill field monsters to earn EXP and drops as normal. You cannot earn them while Field Combat Time is set to Pause or after it runs out.	2. ขณะที่มีเวลาต่อสู้ภาคสนาม กำจัดมอนสเตอร์ภาคสนามเพื่อรับ EXP และไอเทมดรอปตามปกติ จะไม่ได้รับขณะพักเวลาต่อสู้ภาคสนามหรือเมื่อเวลาหมด
+37025	Item Drop	ไอเทมดรอป
+37026	Map Appeared	แผนที่ที่ปรากฏ
+37027	Monsters	มอนสเตอร์
+37028	Item Drop	ไอเทมดรอป
+37031	Return to Adventure	กลับไปผจญภัย
+37032	Start Expedition	เริ่มสำรวจ
+37034	Adventure Duration	ระยะเวลาผจญภัย
+37035	Expedition Duration <#c2ff7a><size=36>${1}</size></color>/${2} min	ระยะเวลาสำรวจ <#c2ff7a><size=36>${1}</size></color>/${2} นาที
+37036	Expedition time accumulates automatically after departure, even while offline.\nThere is a limit to how much time can accumulate, so remember to claim your expedition rewards manually~	เวลาสำรวจสะสมโดยอัตโนมัติหลังออกเดินทาง แม้ออฟไลน์\nเวลาสะสมมีขีดจำกัด อย่าลืมกดรับรางวัลสำรวจด้วยตนเอง~
+37037	Return to Expedition Map Selection	กลับไปเลือกแผนที่สำรวจ
+37038	The bonus chest for the current cycle is	หีบโบนัสของรอบปัจจุบันคือ
+37039	Reward Preview	ตัวอย่างรางวัล
+37041	Open 1	เปิด 1 ใบ
+37042	Open All	เปิดทั้งหมด
+37043	Cumulative Chest Opening Rewards	รางวัลสะสมจากการเปิดหีบ
+37053	This chest does not currently have an opening bonus. You may want to save it for later. Open it anyway?	ขณะนี้หีบนี้ไม่มีโบนัสเปิดหีบ อาจเก็บไว้เปิดภายหลัง ต้องการเปิดต่อหรือไม่?
+37054	Not enough chests.	หีบไม่เพียงพอ
+37055	There are currently no chests to open.	ขณะนี้ไม่มีหีบให้เปิด
+37056	1. You receive 60 minutes of Field Battle Reward Time each day. While you have Field Battle Reward Time, killing monsters in the field grants large amounts of EXP and materials, making it the fastest way to Level-up.\n2. Once your Field Battle Reward Time runs out, killing monsters in the field will no longer grant drops.\n3. You can manually Pause Field Battle Reward Time. While paused, killing monsters in the field will not consume Field Battle Reward Time, but will not grant drops either. Adventurer, make good use of your battle time!	1. คุณได้รับเวลารางวัลต่อสู้ภาคสนาม 60 นาทีในแต่ละวัน ขณะที่มีเวลารางวัลต่อสู้ภาคสนาม การกำจัดมอนสเตอร์ภาคสนามจะให้ EXP และวัสดุจำนวนมาก จึงเป็นวิธีเพิ่มระดับที่เร็วที่สุด\n2. เมื่อเวลารางวัลต่อสู้ภาคสนามหมด การกำจัดมอนสเตอร์ภาคสนามจะไม่ให้ไอเทมดรอปอีก\n3. คุณกดพักเวลารางวัลต่อสู้ภาคสนามได้ ขณะพัก การกำจัดมอนสเตอร์ภาคสนามจะไม่ใช้เวลารางวัลต่อสู้ภาคสนามและไม่ให้ไอเทมดรอป นักผจญภัย จัดสรรเวลาต่อสู้ให้ดี!
+37057	Field Battle Rules	กฎต่อสู้ภาคสนาม
+37058	1. Adventurers can train using the mysterious power bestowed by the Goddess, earning Rare battle rewards such as cards and equipment without actually participating in combat.\n2. Expedition time will continue to accumulate after joining an Exploration Expedition, even while the Adventurer is offline.\n3. Exploration Expedition rewards must be claimed manually. Rewards are granted based on your accumulated expedition time, which has a maximum limit, so remember to claim them regularly, Adventurer!	1. นักผจญภัยฝึกฝนด้วยพลังลึกลับที่เทพธิดามอบให้เพื่อรับรางวัลต่อสู้หายาก เช่น การ์ดและอุปกรณ์ โดยไม่ต้องเข้าต่อสู้จริง\n2. เวลาสำรวจจะสะสมต่อเนื่องหลังเข้าร่วมการสำรวจ แม้นักผจญภัยออฟไลน์\n3. ต้องกดรับรางวัลสำรวจด้วยตนเอง รางวัลขึ้นอยู่กับเวลาสำรวจที่สะสม ซึ่งมีขีดจำกัด อย่าลืมรับเป็นประจำ นักผจญภัย!
+37059	Exploration Expedition Rules	กฎการสำรวจ
+37060	1. Chests are special items containing many rewards. Players can open chests to obtain these rewards.\n2. At set intervals, the Goddess blesses one type of chest. Blessed chests receive an opening bonus that grants Additional rewards based on the number opened. The cycle and order of the Goddess's chest blessings are fixed, so Adventurers can save their chests accordingly.	1. หีบเป็นไอเทมพิเศษที่บรรจุรางวัลมากมาย ผู้เล่นเปิดหีบเพื่อรับรางวัลเหล่านี้ได้\n2. ตามช่วงเวลาที่กำหนด เทพธิดาจะประทานพรแก่หีบชนิดหนึ่ง หีบที่ได้รับพรมีโบนัสเปิดหีบซึ่งให้รางวัลเพิ่มเติมตามจำนวนที่เปิด รอบและลำดับการประทานพรแก่หีบของเทพธิดาคงที่ นักผจญภัยจึงวางแผนเก็บหีบไว้ได้
+37061	Chest Rules	กฎหีบสมบัติ
+37062	Open ${1} more chests to claim the reward.	เปิดหีบเพิ่มอีก ${1} ใบเพื่อรับรางวัล
+37063	Reward requirements met.	ตรงตามเงื่อนไขรับรางวัลแล้ว
+37064	Please do not switch maps too frequently.	โปรดอย่าเปลี่ยนแผนที่ถี่เกินไป
+37065	You have not met this map's Unlock Requirement. Keep working on your Level-up!	คุณยังไม่ตรงตามเงื่อนไขปลดล็อกแผนที่นี้ พยายามเพิ่มระดับต่อไป!
+37066	You must claim your currently accumulated expedition time rewards before switching maps. Claim them now?	ต้องรับรางวัลเวลาสำรวจที่สะสมอยู่ก่อนเปลี่ยนแผนที่ รับตอนนี้หรือไม่?
+37067	You can only claim rewards after exploring for more than ${1} minutes.	รับรางวัลได้หลังสำรวจเกิน ${1} นาทีเท่านั้น
+37068	You have not joined an expedition and cannot claim rewards.	คุณยังไม่ได้เข้าร่วมการสำรวจและไม่สามารถรับรางวัลได้
+37069	You have disabled Bonus Time. When you Kill a Field Monster, it will only drop Accessory Materials.	คุณปิดเวลาโบนัสแล้ว เมื่อกำจัดมอนสเตอร์ภาคสนาม จะดรอปเฉพาะวัสดุเครื่องประดับ
+37070	Please don't toggle Bonus Time too frequently.	โปรดอย่าสลับเปิดปิดเวลาโบนัสถี่เกินไป
+37071	You've resumed using Bonus Time. Killing Field Monsters can now yield plentiful rewards.	คุณกลับมาใช้เวลาโบนัสแล้ว การกำจัดมอนสเตอร์ภาคสนามจะให้รางวัลมากมายได้อีกครั้ง
+37072	Your Bonus Time is at 0. Please come back tomorrow.	เวลาโบนัสของคุณเหลือ 0 โปรดกลับมาใหม่พรุ่งนี้
+37073	${1}/min	${1}/นาที
+37074	Bonus Time	เวลาโบนัส
+37075	Enable Bonus	เปิดโบนัส
+37076	Auto-Battling...	กำลังต่อสู้อัตโนมัติ...
+37077	Monster Collection	คอลเลกชันมอนสเตอร์
+37078	Auto-Battle Rewards	รางวัลต่อสู้อัตโนมัติ
+37079	Powerful Card	การ์ดทรงพลัง
+37080	Show Only Monsters with Purple Cards	แสดงเฉพาะมอนสเตอร์ที่มีการ์ดสีม่วง
+37082	No matching monsters found.	ไม่พบมอนสเตอร์ที่ตรงกัน
+37083	You can mark up to ${1} monsters. Select one to replace.	คุณทำเครื่องหมายมอนสเตอร์ได้สูงสุด ${1} ตัว เลือกตัวที่จะเปลี่ยน
+37086	Auto-Battle Rewards	รางวัลต่อสู้อัตโนมัติ
+37087	Auto-Battle Duration	ระยะเวลาต่อสู้อัตโนมัติ
+37088	Accumulate up to ${1} hours	สะสมได้สูงสุด ${1} ชั่วโมง
+37089	First Clear Rewards	รางวัลผ่านครั้งแรก
+37090	Monsters Encountered	มอนสเตอร์ที่พบ
+37091	Guaranteed Drops	ไอเทมดรอปแน่นอน
+37092	Chance Drops	ไอเทมดรอปตามโอกาส
+37093	Solo dungeons cannot be entered as a party. Leave your party and Enter Dungeon?	ไม่สามารถเข้าดันเจี้ยนเดี่ยวเป็นปาร์ตี้ได้ ออกจากปาร์ตี้แล้วเข้าดันเจี้ยนหรือไม่?
+37094	You can increase your power in the following ways:	คุณเพิ่มพลังได้ด้วยวิธีต่อไปนี้:
+37095	Next Stage (${1})	ขั้นถัดไป (${1})
+37096	Challenge Again	ท้าทายอีกครั้ง
+37098	All Stages Cleared	ผ่านทุกขั้นแล้ว
+37099	${1} added to favorites.	เพิ่ม ${1} ในรายการโปรดแล้ว
+37100	${1} removed from favorites.	นำ ${1} ออกจากรายการโปรดแล้ว
+37101	Decay Rules	กฎการลดลง
+37105	Extreme	สุดขีด
+37106	Nightmare	ฝันร้าย
+37107	All bonus points have been consumed. Auto-battle rewards have been reduced.	ใช้แต้มโบนัสทั้งหมดแล้ว รางวัลต่อสู้อัตโนมัติลดลง
+37108	Finale	บทส่งท้าย
+37109	${1}m${2}s	${1} นาที ${2} วินาที
+37110	${1}m	${1} นาที
+37111	${1}s	${1} วินาที
+37112	Daily Monster Kills	จำนวนมอนสเตอร์ที่กำจัดต่อวัน
+37113	Monster Kills Today:	มอนสเตอร์ที่กำจัดวันนี้:
+37114	It has been ${1} since you last checked your idle rewards. You obtained the following items during that time:	ผ่านไป ${1} ตั้งแต่คุณตรวจรางวัล AFK ครั้งล่าสุด คุณได้รับไอเทมต่อไปนี้ในช่วงนั้น:
+37115	High-rate idle mode offers generous rewards. Tap here to view them now.	โหมด AFK อัตราสูงให้รางวัลมากมาย แตะที่นี่เพื่อดูตอนนี้
+37116	Your high-rate idle time has run out. Go check your rewards.	เวลา AFK อัตราสูงหมดแล้ว ไปตรวจรางวัลของคุณ
+37117	You don't have any Fly Wing in your Backpack.	คุณไม่มี Fly Wing ในกระเป๋า
+37118	You can store up to 180 minutes of high-rate idle time.	สะสมเวลา AFK อัตราสูงได้สูงสุด 180 นาที
+37119	No current monster Kill activity detected. High-rate Auto Mode will Enter a suspended state and Auto-activate after you Kill a monster in the Field.	ขณะนี้ตรวจไม่พบการกำจัดมอนสเตอร์ โหมดอัตโนมัติอัตราสูงจะพักและเปิดโดยอัตโนมัติหลังคุณกำจัดมอนสเตอร์ภาคสนาม
+37120	High-Rate Auto Mode Resumed	โหมดอัตโนมัติอัตราสูงกลับมาทำงานแล้ว
+37121	You are currently participating in an MVP Kill. High-Rate Auto Mode will Enter a suspended state and Auto-enable after you lose the MVP's aggro and Kill a monster in the Field.	คุณกำลังร่วมกำจัด MVP โหมดอัตโนมัติอัตราสูงจะพักและเปิดโดยอัตโนมัติหลังคุณไม่เป็นเป้าหมายของ MVP และกำจัดมอนสเตอร์ภาคสนาม
+37122	Cannot Enable Bonus Time in a Dungeon Location	ไม่สามารถเปิดเวลาโบนัสในพื้นที่ดันเจี้ยนได้
+37123	${1}<color=#957846>/180m</color>	${1}<color=#957846>/180 นาที</color>
+37124	Share Auto Mode rewards with party Members on the same map	แบ่งปันรางวัลโหมดอัตโนมัติกับสมาชิกปาร์ตี้ในแผนที่เดียวกัน
+37125	Teammate: ${1}	เพื่อนร่วมทีม: ${1}
+37126	Today's Teammate Kills:	จำนวนกำจัดของเพื่อนร่วมทีมวันนี้:
+37127	Daily Teammate Kills:	จำนวนกำจัดของเพื่อนร่วมทีมต่อวัน:
+37128	Disable Bonus	ปิดโบนัส
+37129	EXP Gained	EXP ที่ได้รับ
+37130	Item Drops	ไอเทมดรอป
+37131	Shared Teammate Kills	จำนวนกำจัดที่แบ่งปันจากเพื่อนร่วมทีม
+37134	No Drops	ไม่มีไอเทมดรอป
+37135	Today's Top 10 Kills	10 อันดับการกำจัดวันนี้
+37136	No Kills	ไม่มีการกำจัด
+37800	Trade History	ประวัติการค้า
+37803	Proceeds	รายได้จากการขาย
+37804	Buyer	ผู้ซื้อ
+37805	Only records from this Trade session are saved.	บันทึกเฉพาะธุรกรรมของการค้ารอบนี้
+37806	No Trade records yet.	ยังไม่มีประวัติการค้า
+37808	Trade Tax Details	รายละเอียดภาษีการค้า
+37810	Item Details	รายละเอียดไอเทม
+37811	Remove All Listings	นำรายการลงขายทั้งหมดออก
+37812	Confirm Change	ยืนยันการเปลี่ยน
+37814	Welcome to my shop! Feel free to browse!	ยินดีต้อนรับสู่ร้านของฉัน! เลือกชมได้ตามสบาย!
+37815	Contact Seller	ติดต่อผู้ขาย
+37817	Rename Stall	เปลี่ยนชื่อร้านแผงลอย
+37818	Tap to enter a Stall name	แตะเพื่อป้อนชื่อร้านแผงลอย
+37819	Think again	คิดอีกครั้ง
+37820	Share Stall	แชร์ร้านแผงลอย
+37821	Tap to enter a message	แตะเพื่อป้อนข้อความ
+37822	Confirm and purchase	ยืนยันและซื้อ
+37823	Are you sure you want to spend ${1} to purchase ${2}×${3}${4}?	ต้องการใช้ ${1} เพื่อซื้อ ${2}×${3}${4} หรือไม่?
+37824	${1}'s Stall	ร้านแผงลอยของ ${1}
+37825	1. You've helped the city prosper, so Prontera offers Stall services to all Adventurers.\n2. You may set up a Stall in any authorized area of Prontera. If the current channel is full, you will automatically switch to another channel. Stall information is not shared between channels.\n3. Please keep your Distance from other Adventurers' Stalls. You cannot set up a Stall too close to another one.\n4. A fixed Stall fee is charged each time you set up a Stall. There is no daily limit.\n5. Items from purchases, sales, and closing your Stall will be delivered by mail.\n6. If every item in your Stall sells out, the Stall will automatically Show less. However, this will not occur within the first 6 minutes after opening your Stall.\n7. If you close your Stall manually, you must pay the fixed Stall fee again the next time you open it. Please consider carefully.\n8. You may change the price and quantity of listed items at any time.	1. คุณช่วยให้เมืองเจริญรุ่งเรือง Prontera จึงให้บริการร้านแผงลอยแก่นักผจญภัยทุกคน\n2. ตั้งร้านแผงลอยได้ในพื้นที่ที่อนุญาตของ Prontera หากแชนเนลปัจจุบันเต็ม จะเปลี่ยนไปแชนเนลอื่นโดยอัตโนมัติ ข้อมูลร้านแผงลอยไม่แชร์ระหว่างแชนเนล\n3. โปรดเว้นระยะจากร้านแผงลอยของนักผจญภัยคนอื่น ไม่สามารถตั้งร้านใกล้ร้านอื่นเกินไปได้\n4. มีค่าตั้งร้านแผงลอยคงที่ทุกครั้งที่เปิดร้าน ไม่มีขีดจำกัดจำนวนครั้งต่อวัน\n5. ไอเทมจากการซื้อ ขาย และปิดร้านจะถูกส่งทางจดหมาย\n6. หากไอเทมในร้านขายหมด ร้านจะย่อโดยอัตโนมัติ แต่จะไม่เกิดขึ้นในช่วง 6 นาทีแรกหลังเปิดร้าน\n7. หากปิดร้านด้วยตนเอง ต้องจ่ายค่าตั้งร้านแผงลอยคงที่อีกครั้งเมื่อเปิดครั้งถัดไป โปรดพิจารณาให้ดี\n8. เปลี่ยนราคาและจำนวนไอเทมที่ลงขายได้ตลอดเวลา
+37827	Listed: ${1}/ ${2}	ลงขายแล้ว: ${1}/ ${2}
+37829	Consumable	ไอเทมใช้สิ้นเปลือง
+37830	Material	วัสดุ
+37831	Pending Listing	รอลงขาย
+37833	Purchase History	ประวัติการซื้อ
+37834	Stall	ร้านแผงลอย
+37835	Close Stall	ปิดร้านแผงลอย
+37836	Stall Function unlocks at Lv. ${1}	ฟังก์ชันร้านแผงลอยปลดล็อกที่ Lv. ${1}
+37837	You don't currently have a Stall open.\nGo to <color=#63a22b>【Prontera】</color> and set one up?	ขณะนี้คุณยังไม่ได้เปิดร้านแผงลอย\nไป <color=#63a22b>[ Prontera ]</color> เพื่อตั้งร้านหรือไม่?
+37838	No Stall spaces are currently available. Please try again later.	ขณะนี้ไม่มีพื้นที่ตั้งร้านแผงลอย โปรดลองอีกครั้งในภายหลัง
+37839	Another Stall is nearby. Please move to a different location.	มีร้านแผงลอยอื่นอยู่ใกล้ โปรดย้ายไปตำแหน่งอื่น
+37840	Not enough Currency for the Stall fee~	สกุลเงินไม่เพียงพอสำหรับค่าตั้งร้านแผงลอย~
+37841	The item being purchased has changed. Refresh the page and try again.	ไอเทมที่กำลังซื้อเปลี่ยนไป รีเฟรชหน้าแล้วลองอีกครั้ง
+37842	Sorry, this item was removed or purchased!	ขออภัย ไอเทมนี้ถูกนำออกหรือซื้อไปแล้ว!
+37843	Cooldown in progress. Please try again later.	อยู่ระหว่างคูลดาวน์ โปรดลองอีกครั้งในภายหลัง
+37844	Your Stall was open for XX. You listed XX items and earned XX. Close the Stall?	ร้านแผงลอยของคุณเปิดเป็นเวลา XX คุณลงขายไอเทม XX ชิ้นและได้รับ XX ต้องการปิดร้านหรือไม่?
+37846	You must open a Stall before you can share it~	คุณต้องเปิดร้านแผงลอยก่อนจึงจะแชร์ได้~
+37847	1. When listing items at a Stall, a 7% Stall fee applies when the Currency is Diamonds, and an 8% Stall fee applies when the Currency is Zeny.\n2. For Diamonds, the minimum is 700 Meow Fruits and the maximum is 50000 Meow Fruits.\n3. For Zeny, the minimum is 800 Zeny and the maximum is 10000 Zeny.	1. การลงขายไอเทมที่ร้านแผงลอยมีค่าธรรมเนียม 7% เมื่อใช้ Diamonds และ 8% เมื่อใช้ Zeny\n2. สำหรับ Diamonds ขั้นต่ำคือ 700 Meow Fruits และสูงสุดคือ 50000 Meow Fruits\n3. สำหรับ Zeny ขั้นต่ำคือ 800 Zeny และสูงสุดคือ 10000 Zeny
+37848	This item cannot currently be listed at your Stall.	ขณะนี้ไม่สามารถลงขายไอเทมนี้ในร้านแผงลอยได้
+37849	Your Stall slots are full. You cannot list this item.	ช่องร้านแผงลอยเต็ม ไม่สามารถลงขายไอเทมนี้ได้
+37853	Trade Tax	ภาษีการค้า
+37854	Taking this item off will leave your Stall empty, so the Stall will automatically Show less.\nProceed?	การนำไอเทมนี้ออกจะทำให้ร้านแผงลอยว่าง ร้านจึงย่อโดยอัตโนมัติ\nต้องการดำเนินการต่อหรือไม่?
+37855	Please open a Stall before sharing it~	โปรดเปิดร้านแผงลอยก่อนแชร์~
+37856	Close your Stall?	ปิดร้านแผงลอยหรือไม่?
+37857	You haven't opened your Stall.\nLeave anyway?	คุณยังไม่ได้เปิดร้านแผงลอย\nต้องการออกหรือไม่?
+37858	"Spend <sprite name=""${1}""> <#cc762a>X${2}</color> to open a Stall?\nThis Stall will remain open for <#cc762a>${3} minutes</color>."	"ใช้ <sprite name=""${1}""> <#cc762a>X${2}</color> เพื่อเปิดร้านแผงลอยหรือไม่?\nร้านนี้จะเปิดเป็นเวลา <#cc762a>${3} นาที</color>"
+37859	List an item before opening your Stall.	ลงขายไอเทมก่อนเปิดร้านแผงลอย
+37862	"You cannot lower the level of the ""Vending"" skill while your Stall is open. Close your Stall first."	"ไม่สามารถลดระดับสกิล ""Vending"" ขณะร้านแผงลอยเปิดอยู่ได้ โปรดปิดร้านก่อน"
+37863	You cannot Job Advance while your Stall is open. Close your Stall first.	ไม่สามารถเปลี่ยนอาชีพขณะร้านแผงลอยเปิดอยู่ได้ โปรดปิดร้านก่อน
+37864	[${1}] unlocks at lv.${2}	[ ${1} ] ปลดล็อกที่ lv.${2}
+37865	Unlocks at lv.${1}	ปลดล็อกที่ lv.${1}
+37867	You cannot reset skills or Job Advance while your Stall is open. Go close your Stall?	ไม่สามารถรีเซ็ตสกิลหรือเปลี่ยนอาชีพขณะร้านแผงลอยเปิดอยู่ได้ ไปปิดร้านหรือไม่?
+37870	The Stall name contains restricted words. Please change it and try again.	ชื่อร้านแผงลอยมีคำต้องห้าม โปรดเปลี่ยนแล้วลองอีกครั้ง
+37871	You cannot set up a Stall while dead.	ไม่สามารถตั้งร้านแผงลอยขณะตายได้
+37872	You cannot set up a Stall during Battle Status.	ไม่สามารถตั้งร้านแผงลอยระหว่างต่อสู้ได้
+37873	You cannot set up a Stall inside an instance.	ไม่สามารถตั้งร้านแผงลอยในอินสแตนซ์ได้
+37874	You cannot set up a Stall during Cross-server play.	ไม่สามารถตั้งร้านแผงลอยระหว่างเล่นข้ามเซิร์ฟเวอร์ได้
+37875	Your reputation score is too low. Go to the Trade Exchange to view it.	คะแนนชื่อเสียงต่ำเกินไป ไปตลาดซื้อขายเพื่อดูคะแนน
+37876	Select an item from the Backpack list on the right to list it.	เลือกไอเทมจากรายการกระเป๋าทางขวาเพื่อลงขาย
+37877	No items have been listed.	ยังไม่มีไอเทมลงขาย
+37878	Cannot go to your Stall while in a Dungeon, Cross-server Location, or while dead	ไม่สามารถไปยังร้านแผงลอยของคุณขณะอยู่ในดันเจี้ยน พื้นที่ข้ามเซิร์ฟเวอร์ หรือขณะตายได้
+37879	The shared message contains restricted words. Please change it and try again.	ข้อความที่แชร์มีคำต้องห้าม โปรดเปลี่ยนแล้วลองอีกครั้ง
+37880	Go near the seller's Stall to purchase this item.	เข้าใกล้ร้านแผงลอยของผู้ขายเพื่อซื้อไอเทมนี้
+37881	Your reputation score is too low to purchase items from a Stall.	คะแนนชื่อเสียงต่ำเกินไปที่จะซื้อไอเทมจากร้านแผงลอย
+37882	You don't have enough ${1} to make this purchase.	คุณมี ${1} ไม่เพียงพอสำหรับซื้อ
+37883	${1}x${2} was bought by </color> <color=#63A22B>${3}</color>	${1}x${2} ถูกซื้อโดย </color> <color=#63A22B>${3}</color>
+37884	Total Earnings:	รายได้รวม:
+37885	Stall Details	รายละเอียดร้านแผงลอย
+37886	Stall Duration	ระยะเวลาเปิดร้านแผงลอย
+37887	Trade Count	จำนวนธุรกรรม
+37888	Sales Details	รายละเอียดการขาย
+37889	Please wait ${1} seconds before pinning again.	โปรดรอ ${1} วินาทีก่อนปักหมุดอีกครั้ง
+37890	Today's Tax Rate: <color=#c26b47>${1}%</color>	อัตราภาษีวันนี้: <color=#c26b47>${1}%</color>
+37891	Please manually switch to Channel ${1} before proceeding.	โปรดเปลี่ยนไปแชนเนล ${1} ด้วยตนเองก่อนดำเนินการต่อ
+37892	Purchase successful.	ซื้อสำเร็จ
+37893	No items sold yet.	ยังไม่มีไอเทมขายได้
+37894	This item is bound and unavailable for Trade.	ไอเทมนี้ผูกมัดและไม่สามารถซื้อขายได้
+37895	Enhanced cards are unavailable for Trade.	การ์ดที่เสริมพลังแล้วไม่สามารถซื้อขายได้
+37896	Soul Echoes that have undergone Level-up are unavailable for Trade.	Soul Echo ที่เพิ่มระดับแล้วไม่สามารถซื้อขายได้
+37897	Non-rare Divine Art Totems are unavailable for Trade.	Divine Art Totem ที่ไม่ใช่ชนิดหายากไม่สามารถซื้อขายได้
+37898	Unsold items have been sent by mail.	ส่งไอเทมที่ยังขายไม่ออกทางจดหมายแล้ว
+37899	Enhanced equipment is unavailable for Trade.	อุปกรณ์ที่เสริมพลังแล้วไม่สามารถซื้อขายได้
+37900	Limited-time items are unavailable for Trade.	ไอเทมจำกัดเวลาไม่สามารถซื้อขายได้
+37901	Change the price or quantity before confirming.	เปลี่ยนราคาหรือจำนวนก่อนยืนยัน
+37902	Stall Shared.	แชร์ร้านแผงลอยแล้ว
+37903	The seller is restocking!	ผู้ขายกำลังเติมสินค้า!
+37904	The seller has hidden their information.	ผู้ขายซ่อนข้อมูลไว้
+37905	Stall Distance Too Great	ระยะห่างร้านแผงลอยมากเกินไป
+37906	There are no items left in the display, so it can't be shared~	ไม่มีไอเทมเหลือในตู้แสดง จึงไม่สามารถแชร์ได้~
+37908	Edit Item	แก้ไขไอเทม
+37910	Purchase Item	ซื้อไอเทม
+37911	This item cannot be sold at a Stall.	ไม่สามารถขายไอเทมนี้ที่ร้านแผงลอยได้
+37912	I'm interested in an item at your Stall. Can we talk?	ฉันสนใจไอเทมที่ร้านแผงลอยของคุณ คุยกันได้ไหม?
+37913	Stall Time Remaining	เวลาเปิดร้านแผงลอยที่เหลือ
+37914	Close Stall	ปิดร้านแผงลอย
+37915	Go to Stall	ไปร้านแผงลอย
+37916	World Channel	แชนเนลโลก
+37917	Guild Channel	แชนเนลกิลด์
+37918	Party Channel	แชนเนลปาร์ตี้
+37919	Player Message	ข้อความผู้เล่น
+37920	Stall Settlement	สรุปยอดร้านแผงลอย
+37921	Open Stall	เปิดร้านแผงลอย
+62000	Profile	โปรไฟล์
+62001	Adventure History	ประวัติการผจญภัย
+62002	Card Display	ตู้แสดงการ์ด
+62003	Book Display	ตู้แสดงหนังสือ
+62004	Card Collection Progress: ${1}/${2}	ความคืบหน้าสะสมการ์ด: ${1}/${2}
+62005	Collection Level: Lv.${1}	ระดับคอลเลกชัน: Lv.${1}
+62006	Guild:	กิลด์:
+62007	Server:	เซิร์ฟเวอร์:
+62008	No Books	ไม่มีหนังสือ
+62009	Like History	ประวัติการกดถูกใจ
+62010	Details	รายละเอียด
+62012	Basic Editing	แก้ไขพื้นฐาน
+62013	Portrait Frame	กรอบรูปโปรไฟล์
+62014	Theme	ธีม
+62015	Portrait Frame	กรอบรูปโปรไฟล์
+62017	Location	ตำแหน่ง
+62018	Display Case	ตู้แสดง
+62023	Expand	ขยาย
+62024	Hide	ซ่อน
+62027	Applied: ${1}/${2}	ใช้แล้ว: ${1}/${2}
+62028	Displayed: ${1}/${2}	แสดงแล้ว: ${1}/${2}
+62029	Enter a book title	ป้อนชื่อหนังสือ
+62030	Show Unread Only	แสดงเฉพาะที่ยังไม่อ่าน
+62031	Background	พื้นหลัง
+62032	Character	ตัวละคร
+62034	Stickers	สติกเกอร์
+62035	The display case limit has been reached. Deselect another one first.	ถึงจำนวนตู้แสดงสูงสุดแล้ว โปรดยกเลิกเลือกตู้แสดงอื่นก่อน
+62037	Myself	ตนเอง
+62038	You're liking too frequently. Please try again later.	คุณกดถูกใจถี่เกินไป โปรดลองอีกครั้งในภายหลัง
+62039	Player Limit ${1}/${2}	ขีดจำกัดผู้เล่น ${1}/${2}
+62040	No likes yet	ยังไม่มีการกดถูกใจ
+62041	Unfortunately, the Friend Function is broken.	ขออภัย ฟังก์ชันเพื่อนขัดข้อง
+62042	Can be borrowed when Affection reaches ${1}. Current Affection: ${2}	ยืมได้เมื่อความสนิทถึง ${1} ความสนิทปัจจุบัน: ${2}
+62043	Increase Affinity	เพิ่มความสนิท
+62044	Borrow Books	ยืมหนังสือ
+62045	Already Read	อ่านแล้ว
+62046	Show	แสดง
+62048	Current Preset saved	บันทึกพรีเซ็ตปัจจุบันแล้ว
+62049	Reset Confirmation	ยืนยันการรีเซ็ต
+62050	No actions to restore	ไม่มีการดำเนินการให้ย้อนคืน
+62051	Your edits haven't been saved. Are you sure you want to revert and clear all changes?	ยังไม่ได้บันทึกการแก้ไข ต้องการย้อนคืนและล้างการเปลี่ยนแปลงทั้งหมดหรือไม่?
+62052	Not Enough Stickers	สติกเกอร์ไม่เพียงพอ
+62053	Reading this chapter...	กำลังอ่านบทนี้...
+62054	You can't like your own post.	คุณไม่สามารถกดถูกใจโพสต์ของตนเองได้
+62057	Titleless	ไม่มีฉายา
+62058	This person is lazy and didn't leave anything behind.	คนนี้ขี้เกียจและไม่ได้ทิ้งอะไรไว้
+62063	General Stats	ค่าสถานะทั่วไป
+62064	Special	พิเศษ
+62065	Set Template	ตั้งค่าแม่แบบ
+62067	Default Template 1	แม่แบบเริ่มต้น 1
+62068	Default Template 2	แม่แบบเริ่มต้น 2
+62069	Default Template 3	แม่แบบเริ่มต้น 3
+62070	Select Mood	เลือกอารมณ์
+62071	Switch Template	สลับแม่แบบ
+62072	Friend request sent.	ส่งคำขอเป็นเพื่อนแล้ว
+62073	Rename Template	เปลี่ยนชื่อแม่แบบ
+62075	Click to enter a template name	คลิกเพื่อป้อนชื่อแม่แบบ
+62076	Unsaved Settings	การตั้งค่าที่ยังไม่บันทึก
+62077	Save the current settings to preset [${1}]?	บันทึกการตั้งค่าปัจจุบันลงพรีเซ็ต [ ${1} ] หรือไม่?
+62078	You can't add any more Stickers.	คุณเพิ่มสติกเกอร์อีกไม่ได้แล้ว
+62079	Input cannot be empty.	ข้อมูลที่ป้อนต้องไม่ว่าง
+62080	Edit Personal Signature	แก้ไขข้อความแนะนำตัว
+62081	Tap to enter a personal message	แตะเพื่อป้อนข้อความส่วนตัว
+62085	My Book Collection	คอลเลกชันหนังสือของฉัน
+62086	${1}'s Book Collection	คอลเลกชันหนังสือของ ${1}
+62087	My Card Album	สมุดภาพการ์ดของฉัน
+62088	${1}'s Card Album	สมุดภาพการ์ดของ ${1}
+62089	${1}'s Profile	โปรไฟล์ของ ${1}
+62090	You've already liked this.	คุณกดถูกใจสิ่งนี้แล้ว
+62091	Me - Profile	ฉัน - โปรไฟล์
+62092	Available to Borrow	พร้อมให้ยืม
+62093	Template Editor - [${1}]	แก้ไขแม่แบบ - [ ${1} ]
+62094	The text contains sensitive language.	ข้อความมีคำที่ไม่เหมาะสม
+62095	Character limit exceeded	เกินจำนวนตัวอักษรสูงสุด
+62096	Couldn't find the card, lu!	ไม่พบการ์ด lu!
+62099	Fashion	แฟชั่น
+62100	Popularity	ความนิยม
+62101	Function locked	ฟังก์ชันยังไม่ปลดล็อก
+62102	This player has not unlocked the Profile Function yet.	ผู้เล่นนี้ยังไม่ปลดล็อกฟังก์ชันโปรไฟล์
+62103	Cannot be placed outside the Safe Zone. Please reposition it.	ไม่สามารถวางนอกเขตปลอดภัยได้ โปรดเปลี่ยนตำแหน่ง
+62104	Select Theme	เลือกธีม
+62105	Owned by Default	มีให้โดยค่าเริ่มต้น
+62106	Select Template	เลือกแม่แบบ
+36001	Floor ${1}	ชั้น ${1}
+36002	Basic Info	ข้อมูลพื้นฐาน
+36003	Difficulty Reduction:	ลดความยาก:
+36005	(Decreases by 1% daily, up to 10%)	(ลดลงวันละ 1% สูงสุด 10%)
+36006	Current Difficulty:	ความยากปัจจุบัน:
+36007	Recommended Power:	พลังที่แนะนำ:
+36008	Current Level:	ระดับปัจจุบัน:
+36009	Challenge Level:	ระดับที่ท้าทาย:
+36010	Deployed Companions	สหายที่ส่งลงสนาม
+36011	Starting Lineup	ทีมตัวจริง
+36012	Substitute	ตัวสำรอง
+36013	First Clear Rewards	รางวัลผ่านครั้งแรก
+36015	Current Stage	ด่านปัจจุบัน
+36019	Slightly Difficult	ยากเล็กน้อย
+36020	Floor ${1}	ชั้น ${1}
+36021	Sweep Rewards can be claimed the next day.	รับรางวัลกวาดล้างได้ในวันถัดไป
+36022	Resets daily at 5:00 AM	รีเซ็ตทุกวันเวลา 5:00 น.
+36023	Skip	ข้าม
+36025	Swept	กวาดล้างแล้ว
+36026	Clear Time	เวลาผ่านด่าน
+36027	Fastest Clear Time: ${1}	เวลาผ่านด่านที่เร็วที่สุด: ${1}
+36028	Fallen	ล้มลง
+36029	On Standby	รอพร้อม
+36030	Success	สำเร็จ
+36031	Failed	ล้มเหลว
+36032	Clear Time ${1}	เวลาผ่านด่าน ${1}
+36033	New Record	สถิติใหม่
+36034	Deployed Companions	สหายที่ส่งลงสนาม
+36035	Lower-Level Info	ข้อมูลชั้นล่าง
+36036	Current Floor Info	ข้อมูลชั้นปัจจุบัน
+36038	Edit Formation	แก้ไขการจัดทีม
+36039	Next Floor	ชั้นถัดไป
+36040	Try Again	ลองอีกครั้ง
+36041	Invalid Floors	ชั้นไม่ถูกต้อง
+36042	You've already claimed today's Sweep rewards.	คุณรับรางวัลกวาดล้างของวันนี้แล้ว
+36043	Invalid number of pets	จำนวนสัตว์เลี้ยงไม่ถูกต้อง
+36044	Reward Configuration Error	การกำหนดค่ารางวัลผิดพลาด
+36045	Monster Info	ข้อมูลมอนสเตอร์
+36046	Tower-Climbing Mode Description	คำอธิบายโหมดไต่หอคอย
+36047	Available after reaching Lv.${1}	เปิดใช้งานเมื่อถึง Lv.${1}
+36048	Complete the prerequisite stage first.	ผ่านด่านที่กำหนดก่อน
+36049	There are still pets Not Deployed. Are you sure you want to Enter Battlefield?	ยังมีสัตว์เลี้ยงที่ไม่ได้ส่งลงสนาม ยืนยันเข้าสู่สนามรบหรือไม่?
+36052	Go to Formation	ไปจัดทีม
+36053	Your Spirit Tower ranking has risen to No. ${1}.	อันดับ Spirit Tower ของคุณเพิ่มขึ้นเป็นอันดับ ${1}
+36055	This Quick Challenge cleared through Floor ${1}. You received the following rewards:	การท้าทายด่วนครั้งนี้ผ่านถึงชั้น ${1} คุณได้รับรางวัลต่อไปนี้:
+36056	Congratulations on reaching the top floor of the Spirit Tower!	ยินดีด้วย คุณขึ้นถึงชั้นสูงสุดของ Spirit Tower แล้ว!
+36057	Quick Challenge	ท้าทายด่วน
+36059	You're strong enough to quickly advance to higher Floors. Do you want to continue challenging this Floor?	คุณแข็งแกร่งพอที่จะขึ้นไปยังชั้นที่สูงกว่าได้อย่างรวดเร็ว ต้องการท้าทายชั้นนี้ต่อหรือไม่?
+36060	Next-Day Sweep Rewards	รางวัลกวาดล้างวันถัดไป
+36061	This Quick Challenge can clear up to Floor ${1}	การท้าทายด่วนครั้งนี้ผ่านได้ถึงชั้น ${1}
+36062	No Sweep Rewards Available	ไม่มีรางวัลกวาดล้างให้รับ
+36063	You can't travel there during the current activity. Please leave and try again.	เดินทางไปที่นั่นไม่ได้ระหว่างกิจกรรมปัจจุบัน โปรดออกจากกิจกรรมแล้วลองอีกครั้ง
+36064	Not Cleared	ยังไม่ผ่าน
+36065	Level up to unlock more slots.	เพิ่มระดับเพื่อปลดล็อกช่องเพิ่มเติม
+36066	Edit Lineup	แก้ไขทีม
+36067	Main	ตัวหลัก
+36068	Substitute	ตัวสำรอง
+36069	Edit Spirit Tower Pet Lineup	แก้ไขทีมสัตว์เลี้ยง Spirit Tower
+36070	Climb ${1} more floors to obtain	ไต่เพิ่มอีก ${1} ชั้นเพื่อรับ
+36071	All grand prizes claimed	รับรางวัลใหญ่ครบแล้ว
+36074	Honor Rankings	อันดับเกียรติยศ
+36077	Permanently saves the First Clear record for every 10 floors. When one player achieves the First Clear, the Entire Server can claim rewards.	บันทึกผู้ผ่านครั้งแรกทุก 10 ชั้นไว้อย่างถาวร เมื่อผู้เล่นคนหนึ่งผ่านเป็นคนแรก ผู้เล่นทั้งเซิร์ฟเวอร์จะรับรางวัลได้
+36078	No First Clear record yet	ยังไม่มีบันทึกผู้ผ่านครั้งแรก
+36079	Top ${1}%	อันดับสูงสุด ${1}%
+36080	Tap a Portrait to adjust your Formation	แตะรูปตัวละครเพื่อปรับการจัดทีม
+36081	Reward Preview	ตัวอย่างรางวัล
+36082	Floor	ชั้น
+36083	Restore default	คืนค่าเริ่มต้น
+36084	Confirm Filters	ยืนยันตัวกรอง
+36085	Back to Current	กลับไปยังปัจจุบัน
+36086	Try adjusting your Formation and try again.	ลองปรับการจัดทีมแล้วท้าทายอีกครั้ง
+36087	Floors	ชั้น
+36088	First Clear Players	ผู้ผ่านครั้งแรก
+48000	Go Join a guild!	ไปเข้าร่วมกิลด์!
+48001	Auction: Yet to start!	การประมูลยังไม่เริ่ม!
+48002	You Have the Highest Bid…	คุณเสนอราคาสูงสุด…
+48003	Bidding…	กำลังเสนอราคา…
+48004	On Display…	กำลังจัดแสดง…
+48006	Bid Placed	เสนอราคาแล้ว
+48007	Auto-Bid	เสนอราคาอัตโนมัติ
+48008	Preset Bid	ราคาที่ตั้งไว้
+48009	Fixed price	ราคาซื้อทันที
+48010	Filter ${1}	ตัวกรอง ${1}
+48011	Auctioned item	ไอเทมประมูล
+48013	Current Price	ราคาปัจจุบัน
+48014	Bid Status	สถานะการเสนอราคา
+48015	Auction	ประมูล
+48016	Log	บันทึก
+48017	My Auctions	การประมูลของฉัน
+48018	About to start	ใกล้เริ่ม
+48019	Distance to End	เวลาที่เหลือจนสิ้นสุด
+48020	Auto-Bidding	กำลังเสนอราคาอัตโนมัติ
+48021	Page: ${1}	หน้า: ${1}
+48022	The auction is Yet to start. Participate in evening guild events to unlock the Guild Auction.\n\nAfter the auction ends, players who participated in the event can receive an Auction Dividend.\n\nThe higher the Guild Auction sales, the larger the Auction Dividend!	การประมูลยังไม่เริ่ม เข้าร่วมกิจกรรมกิลด์ช่วงเย็นเพื่อปลดล็อกการประมูลกิลด์\n\nหลังการประมูลสิ้นสุด ผู้เล่นที่เข้าร่วมกิจกรรมจะได้รับส่วนแบ่งจากการประมูล\n\nยิ่งยอดขายในการประมูลกิลด์สูง ส่วนแบ่งจากการประมูลก็ยิ่งมาก!
+48023	Join a guild and attend evening guild events to unlock the Guild Auction.\n\nParticipants share an Auction Dividend - the higher the sales, the larger the payout.	เข้าร่วมกิลด์และกิจกรรมกิลด์ช่วงเย็นเพื่อปลดล็อกการประมูลกิลด์\n\nผู้เข้าร่วมจะได้รับส่วนแบ่งจากการประมูล ยิ่งยอดขายสูง ส่วนแบ่งก็ยิ่งมาก
+48024	All auction items are gone. Thank You for participating!	ไอเทมประมูลหมดแล้ว ขอบคุณที่เข้าร่วม!
+48025	Bidding Requirements Not Met	ไม่ตรงตามเงื่อนไขการเสนอราคา
+48026	Bidding begins after the display period ends	เริ่มเสนอราคาเมื่อช่วงจัดแสดงสิ้นสุด
+48027	World Auction	ประมูลทั่วโลก
+48028	Guild Auction	ประมูลกิลด์
+48029	Event Auction	ประมูลกิจกรรม
+48030	Total Auction Dividend	ส่วนแบ่งจากการประมูลทั้งหมด
+48031	Expected Dividends	ส่วนแบ่งที่คาดว่าจะได้รับ
+48033	Current bid	ราคาที่เสนอปัจจุบัน
+48034	Log	บันทึก
+48035	Bid Increment	จำนวนเพิ่มราคา
+48036	Bid Multiplier	ตัวคูณการเสนอราคา
+48037	Bidding Cap	เพดานการเสนอราคา
+48038	Week ${1} ${2}-${3}	สัปดาห์ ${1} ${2}-${3}
+48039	Auction complete. The item has been sent by mail.	การประมูลเสร็จสิ้น ส่งไอเทมทางจดหมายแล้ว
+48040	Bid Successful	เสนอราคาสำเร็จ
+48041	Your bid on ${1} has been surpassed. Your Funds have been Refunded.	มีผู้เสนอราคาสูงกว่าคุณสำหรับ ${1} คืนเงินของคุณแล้ว
+48042	The current bid price has changed. Please bid again.	ราคาเสนอปัจจุบันเปลี่ยนแล้ว โปรดเสนอราคาอีกครั้ง
+48043	Another player has outbid you	ผู้เล่นอื่นเสนอราคาสูงกว่าคุณ
+48044	Your current bid did not exceed the other bidder's	ราคาเสนอปัจจุบันของคุณไม่สูงกว่าผู้เสนอราคาอื่น
+48045	Reset Filters	รีเซ็ตตัวกรอง
+48046	No Auction Information Available	ไม่มีข้อมูลการประมูล
+48047	Fixed price	ราคาซื้อทันที
+48048	Spend ${1} to purchase ${2}?	ใช้ ${1} เพื่อซื้อ ${2} หรือไม่?
+48049	Bid Confirmation	ยืนยันการเสนอราคา
+48050	Are you sure you want to spend ${1}?	ยืนยันใช้ ${1} หรือไม่?
+48051	Cancel Auto-Bid	ยกเลิกเสนอราคาอัตโนมัติ
+48052	Auto-Bid canceled. Your funds have been refunded by mail.	ยกเลิกเสนอราคาอัตโนมัติแล้ว คืนเงินของคุณทางจดหมายแล้ว
+48053	Auto-Bid set	ตั้งเสนอราคาอัตโนมัติแล้ว
+48054	Transaction Time	เวลาทำรายการ
+48055	Source Event	กิจกรรมต้นทาง
+48056	Someone else purchased the item first	ผู้เล่นอื่นซื้อไอเทมไปก่อนแล้ว
+48057	Highest Bid	ราคาสูงสุด
+48058	Outbid	ถูกเสนอราคาสูงกว่า
+48059	Bid Confirmation	ยืนยันการเสนอราคา
+48060	To protect your funds while you were offline, the System automatically stopped your pre-auction/bulk purchases. Restart them?	เพื่อปกป้องเงินของคุณขณะออฟไลน์ ระบบหยุดการซื้อก่อนประมูล/การซื้อจำนวนมากโดยอัตโนมัติ ต้องการเริ่มอีกครั้งหรือไม่?
+48061	Auction Quantity: <color=#cc762a>${1}</color>	จำนวนประมูล: <color=#cc762a>${1}</color>
+48062	(Pre-purchase: <color=#cc762a>${1}</color>)	(ซื้อล่วงหน้า: <color=#cc762a>${1}</color>)
+48063	(Bidding/Pre-purchases: <color=#cc762a>${1}</color>/${2})	(เสนอราคา/ซื้อล่วงหน้า: <color=#cc762a>${1}</color>/${2})
+48064	Pre-purchased	ซื้อล่วงหน้าแล้ว
+48065	Bidding…	กำลังเสนอราคา…
+48066	Starts at ${1}	เริ่มเวลา ${1}
+48067	Item Pre-purchase	ซื้อล่วงหน้าไอเทม
+48068	Lowest:	ต่ำสุด:
+48069	Current:	ปัจจุบัน:
+48070	Starting Bid:	ราคาเริ่มต้น:
+48071	Starting Bid:	ราคาเริ่มต้น:
+48072	Pre-purchase Notice	ประกาศซื้อล่วงหน้า
+48073	Pre-purchase ${3} ${2} for no more than ${1}?	ซื้อล่วงหน้า ${3} ${2} ในราคาไม่เกิน ${1} หรือไม่?
+48074	The final purchase amount and quantity may change.	ยอดเงินและจำนวนที่ซื้อจริงอาจเปลี่ยนแปลง
+48075	Maximum Unit Price	ราคาต่อหน่วยสูงสุด
+48076	Quantity	จำนวน
+48077	Total Item Price	ราคาไอเทมรวม
+48078	Some of your Pre-purchase bids are currently the highest. You can only cancel those that are not the highest. Continue?	ราคาเสนอซื้อล่วงหน้าของคุณบางรายการสูงสุดอยู่ ยกเลิกได้เฉพาะรายการที่ไม่ได้เสนอราคาสูงสุด ดำเนินการต่อหรือไม่?
+48080	No changes were made to the Pre-purchase plan.	ไม่มีการเปลี่ยนแปลงแผนซื้อล่วงหน้า
+48081	Pre-purchase Plan Changed	เปลี่ยนแผนซื้อล่วงหน้าแล้ว
+48082	Pre-purchase canceled	ยกเลิกการซื้อล่วงหน้าแล้ว
+48083	There are no items of this type in the current auction.	การประมูลปัจจุบันไม่มีไอเทมประเภทนี้
+48084	Increase Bid	เพิ่มราคาเสนอ
+48085	Stop Bidding	หยุดเสนอราคา
+48086	The auction is underway. If you Leave Guild, you will not receive any dividends. Continue?	การประมูลกำลังดำเนินอยู่ หากออกจากกิลด์ คุณจะไม่ได้รับส่วนแบ่ง ดำเนินการต่อหรือไม่?
+48087	（${1}s）	（${1} วินาที）
+48088	Cancel Pre-purchase	ยกเลิกซื้อล่วงหน้า
+48089	Modify Pre-purchase	แก้ไขซื้อล่วงหน้า
+48090	Your current bid is already the highest.	ราคาเสนอปัจจุบันของคุณสูงสุดอยู่แล้ว
+48091	Show Bidding Only	แสดงเฉพาะรายการที่เสนอราคา
+48092	${1} Ends	${1} สิ้นสุด
+48093	Pre-purchase Item List	รายการไอเทมที่ซื้อล่วงหน้า
+48094	Auto-Bidding	กำลังเสนอราคาอัตโนมัติ
+48095	You already have the highest bid. No need to outbid yourself!	คุณเสนอราคาสูงสุดอยู่แล้ว ไม่ต้องเสนอราคาสูงกว่าตัวเอง!
+48096	Show Pre-purchases Only	แสดงเฉพาะรายการซื้อล่วงหน้า
+48097	You are no longer in the guild holding this auction and cannot bid.	คุณไม่ได้อยู่ในกิลด์ที่จัดการประมูลนี้แล้ว จึงเสนอราคาไม่ได้
+48098	The auction has not officially started yet. Please try again later.	การประมูลยังไม่เริ่มอย่างเป็นทางการ โปรดลองภายหลัง
+48099	Bid on ${1}?	เสนอราคาสำหรับ ${1} หรือไม่?
+48100	Buy ${1} at the Fixed price?	ซื้อ ${1} ในราคาซื้อทันทีหรือไม่?
+48101	There are currently no Event Auctions underway. Stay tuned!	ขณะนี้ไม่มีการประมูลกิจกรรม โปรดติดตามต่อไป!
+48102	There are currently no World Auctions underway. Stay tuned!	ขณะนี้ไม่มีการประมูลทั่วโลก โปรดติดตามต่อไป!
+48103	No matching items found.	ไม่พบไอเทมที่ตรงกัน
+48104	Obtained	ได้รับแล้ว
+48106	Pre-purchase in Progress…	กำลังซื้อล่วงหน้า…
+48107	Starting Bid:	ราคาเริ่มต้น:
+48108	Fixed price purchases will become available after the listing period ends.	ซื้อในราคาซื้อทันทีได้หลังช่วงลงรายการสิ้นสุด
+48109	Current Price:	ราคาปัจจุบัน:
+48110	Tap an item slot to Pre-purchase the selected item.	แตะช่องไอเทมเพื่อซื้อล่วงหน้าไอเทมที่เลือก
+48111	Use Fixed price to purchase the item immediately.	ซื้อไอเทมทันทีด้วยราคาซื้อทันที
+48112	Change bid	เปลี่ยนราคาเสนอ
+48113	Auction Status	สถานะการประมูล
+48114	Final Price	ราคาสุดท้าย
+44001	●Many ferocious monsters have appeared on Dragon Sarcophagus Isle, intent on breaking the dragon's seal. Before challenging the dragon, you must first stop the endless onslaught. Monsters will continuously pour from the purple portals. Only by deploying Adventurers wisely can you repel their assault.	●มอนสเตอร์ดุร้ายจำนวนมากปรากฏบน Dragon Sarcophagus Isle เพื่อทำลายผนึกมังกร ก่อนท้าทายมังกร คุณต้องหยุดการโจมตีที่ไม่สิ้นสุดนี้ก่อน มอนสเตอร์จะหลั่งไหลออกจากประตูมิติสีม่วงอย่างต่อเนื่อง จัดนักผจญภัยลงสนามอย่างเหมาะสมจึงจะต้านการโจมตีได้
+44002	●The dragon is sealed at the center of Dragon Sarcophagus Isle. Monsters will continuously surge toward the center in an attempt to break the seal. Any monster that reaches the seal will damage it, so be sure to defeat them before they get close.	●มังกรถูกผนึกไว้ที่ใจกลาง Dragon Sarcophagus Isle มอนสเตอร์จะมุ่งหน้าไปยังใจกลางอย่างต่อเนื่องเพื่อทำลายผนึก มอนสเตอร์ที่ไปถึงผนึกจะสร้างความเสียหายแก่ผนึก จึงต้องกำจัดก่อนที่พวกมันจะเข้าใกล้
+44005	Desperate	สิ้นหวัง
+44006	Outer Area	พื้นที่ด้านนอก
+44007	Inner Area	พื้นที่ด้านใน
+44008	Gloom Over Dragon Sarcophagus Isle	เงามืดเหนือ Dragon Sarcophagus Isle
+44009	Gloom Over Dragon Sarcophagus Isle	เงามืดเหนือ Dragon Sarcophagus Isle
+44016	Tips	คำแนะนำ
+44017	Next Event Begins	กิจกรรมถัดไปเริ่ม
+44019	Waiting for Event to Begin	รอเริ่มกิจกรรม
+44020	Time Until Event Ends: ${1}	เวลาที่เหลือจนกิจกรรมสิ้นสุด: ${1}
+44022	Open Dungeon	เปิดดันเจียน
+44023	Enter Battlefield	เข้าสู่สนามรบ
+44024	Current Battle Report	รายงานการต่อสู้ปัจจุบัน
+44025	This GvE challenge has ended	การท้าทาย GvE ครั้งนี้สิ้นสุดแล้ว
+44027	Outer Area	พื้นที่ด้านนอก
+44028	Inner Area	พื้นที่ด้านใน
+44029	Challenge difficulty	ความยากของการท้าทาย
+44031	Player name	ชื่อผู้เล่น
+44036	Inner Area	พื้นที่ด้านใน
+44037	High Platform	แท่นสูง
+44038	Fire/Reload/Repair	ยิง/บรรจุ/ซ่อม
+44039	Kill Young Dragons	กำจัดมังกรวัยเยาว์
+44040	Unlock Difficulty	ปลดล็อกความยาก
+44042	Higher difficulty unlocked! A higher difficulty brings greater challenges, but also richer rewards.	ปลดล็อกความยากที่สูงขึ้นแล้ว! ความยากที่สูงขึ้นมาพร้อมความท้าทายที่มากขึ้น แต่รางวัลก็มากขึ้นด้วย
+44044	Once an administrator starts the challenge, each Guild Member can Enter Dungeon.	เมื่อผู้ดูแลเริ่มการท้าทาย สมาชิกกิลด์แต่ละคนจะเข้าสู่ดันเจียนได้
+44045	Start Challenge	เริ่มท้าทาย
+44046	Start Event	เริ่มกิจกรรม
+44047	The selected difficulty is not the highest difficulty unlocked. Start the challenge at the current difficulty?	ความยากที่เลือกไม่ใช่ระดับสูงสุดที่ปลดล็อก เริ่มท้าทายในความยากปัจจุบันหรือไม่?
+44049	Gloom Over Dragon Sarcophagus Isle - ${1} Challenge is now open! Come join the fight against the dragon!	เปิดการท้าทายเงามืดเหนือ Dragon Sarcophagus Isle - ${1} แล้ว! มาร่วมต่อสู้กับมังกรกัน!
+44052	Gloom Over Dragon Sarcophagus Isle - ${1} Challenge is now open! Come join the fight against the dragon!	เปิดการท้าทายเงามืดเหนือ Dragon Sarcophagus Isle - ${1} แล้ว! มาร่วมต่อสู้กับมังกรกัน!
+44054	Players	ผู้เล่น
+44057	Event Management	จัดการกิจกรรม
+44058	During the event preparation phase, a Guild administrator can manually skip preparation and start the challenge immediately.	ระหว่างช่วงเตรียมกิจกรรม ผู้ดูแลกิลด์สามารถข้ามการเตรียมการและเริ่มท้าทายได้ทันที
+44059	Start Now	เริ่มทันที
+44060	Rally All Members	ระดมสมาชิกทั้งหมด
+44061	Abandon Event	ยกเลิกกิจกรรม
+44062	Abandon Challenge	ยกเลิกการท้าทาย
+44063	After abandoning the stage, you can return to the event screen, select a new difficulty, and start another challenge. This challenge will count as a failure. Abandon it?	หลังยกเลิกด่าน คุณกลับไปยังหน้ากิจกรรม เลือกความยากใหม่ และเริ่มท้าทายอีกครั้งได้ การท้าทายครั้งนี้จะนับว่าล้มเหลว ต้องการยกเลิกหรือไม่?
+44065	Confirm Abandon	ยืนยันยกเลิก
+44066	Skip Preparation	ข้ามการเตรียมการ
+44067	Skip the preparation phase and start the challenge?	ข้ามช่วงเตรียมการและเริ่มท้าทายหรือไม่?
+44068	Confirm Skip	ยืนยันข้าม
+44069	Wave ${1}/${2}	ระลอก ${1}/${2}
+44070	Difficulty Warning	คำเตือนความยาก
+44071	If the current event difficulty is too high...	หากความยากของกิจกรรมปัจจุบันสูงเกินไป...
+44072	Go to Guild Management	ไปจัดการกิลด์
+44073	<color=#FF6161>Time Until Exit</color>	<color=#FF6161>เวลาที่เหลือจนออก</color>
+44076	If the Challenge difficulty is too high, you can abandon the stage from within the Dungeon and select a new difficulty.	หากความยากของการท้าทายสูงเกินไป คุณยกเลิกด่านจากภายในดันเจียนแล้วเลือกความยากใหม่ได้
+44077	If the stage difficulty is too high, you can abandon the stage, return to the event screen, and select a new difficulty.	หากด่านยากเกินไป คุณยกเลิกด่าน กลับไปยังหน้ากิจกรรม แล้วเลือกความยากใหม่ได้
+44078	Rally sends a quick invitation to Online Guild Members	การระดมพลจะส่งคำเชิญด่วนให้สมาชิกกิลด์ที่ออนไลน์
+44080	Mode	โหมด
+44081	No Difficulty Selected	ยังไม่ได้เลือกความยาก
+44082	Resets in ${1}	รีเซ็ตใน ${1}
+44083	<color=#F8B453>Go to the teleportation portal to enter the Inner Area</color>	<color=#F8B453>ไปที่ประตูมิติเพื่อเข้าสู่พื้นที่ด้านใน</color>
+44084	The Dungeon is not open yet. Contact Guild Management to open it.	ดันเจียนยังไม่เปิด ติดต่อผู้ดูแลกิลด์เพื่อเปิด
+44085	The event has not begun yet	กิจกรรมยังไม่เริ่ม
+44086	Event Ended	กิจกรรมสิ้นสุดแล้ว
+44087	Previous difficulty not yet cleared	ยังไม่ผ่านความยากก่อนหน้า
+44089	<color=#F8B453>Distance Until Event Opens</color>	<color=#F8B453>เวลาที่เหลือจนกิจกรรมเปิด</color>
+44090	Next Wave	ระลอกถัดไป
+44091	Final Wave	ระลอกสุดท้าย
+44092	Confirm Exit	ยืนยันการออก
+44093	You can reenter from the event screen after exiting. Exit the area?	หลังออก คุณกลับเข้ามาจากหน้ากิจกรรมได้ ต้องการออกจากพื้นที่หรือไม่?
+44094	Confirm Revive	ยืนยันฟื้นคืนชีพ
+44095	After you Revive, you can only travel to the ramparts and cannot reenter the Inner Area. Revive now?	หลังฟื้นคืนชีพ คุณไปได้เฉพาะเชิงเทินและกลับเข้าสู่พื้นที่ด้านในไม่ได้ ต้องการฟื้นคืนชีพตอนนี้หรือไม่?
+44096	Tap an area on the map to add a marker	แตะพื้นที่บนแผนที่เพื่อเพิ่มเครื่องหมาย
+44099	Tap a marker to auto-navigate	แตะเครื่องหมายเพื่อนำทางอัตโนมัติ
+44100	Remove All	ลบทั้งหมด
+44101	This area is inaccessible and cannot be marked	เข้าถึงพื้นที่นี้ไม่ได้ จึงปักเครื่องหมายไม่ได้
+44102	Marker limit reached	จำนวนเครื่องหมายถึงขีดจำกัดแล้ว
+44103	Manage Markers	จัดการเครื่องหมาย
+44104	Players in Instance	ผู้เล่นในดันเจียน
+44105	Players in Inner Area	ผู้เล่นในพื้นที่ด้านใน
+44106	Players on High Platform	ผู้เล่นบนแท่นสูง
+44107	Event Management	จัดการกิจกรรม
+44108	No data from the previous event	ไม่มีข้อมูลจากกิจกรรมก่อนหน้า
+44109	Berserk	คลุ้มคลั่ง
+44110	Enraged	เดือดดาล
+44111	●If monsters reduce the seal's durability to 0, the dragon's seal will break, bringing catastrophe to the continent of Midgard and causing the event to fail.	●หากมอนสเตอร์ทำให้ความทนทานของผนึกลดลงเหลือ 0 ผนึกมังกรจะถูกทำลาย ก่อหายนะแก่ทวีป Midgard และทำให้กิจกรรมล้มเหลว
+44112	●After successfully defending the dragon's seal, you can venture into the heart of Dragon Casket Isle to hunt the dragon. Some Adventurers must enter the Inner Area and face the dragon directly. Not all Adventurers can fight the dragon, so the guild must assign members appropriately.	●หลังป้องกันผนึกมังกรสำเร็จ คุณเข้าสู่ใจกลาง Dragon Casket Isle เพื่อล่ามังกรได้ นักผจญภัยบางส่วนต้องเข้าสู่พื้นที่ด้านในและเผชิญมังกรโดยตรง ไม่ใช่นักผจญภัยทุกคนจะต่อสู้กับมังกรได้ กิลด์จึงต้องจัดสรรสมาชิกให้เหมาะสม
+44113	●Other Adventurers can use siege weapons atop the high walls to attack the dragon. Cooperation between Adventurers and effective use of these weapons are the keys to victory.	●นักผจญภัยคนอื่นใช้อาวุธล้อมเมืองบนกำแพงสูงโจมตีมังกรได้ ความร่วมมือระหว่างนักผจญภัยและการใช้อาวุธเหล่านี้อย่างมีประสิทธิภาพคือกุญแจสู่ชัยชนะ
+44114	Dragon Casket Isle Gloom Guide	คู่มือเงามืดแห่ง Dragon Casket Isle
+44115	Dragon seal successfully defended. Enter the Inner Area and challenge the dragon.	ป้องกันผนึกมังกรสำเร็จ เข้าสู่พื้นที่ด้านในแล้วท้าทายมังกร
+44116	Dragon hunt successful. The event has ended.	ล่ามังกรสำเร็จ กิจกรรมสิ้นสุดแล้ว
+44117	Can Mark:	ปักเครื่องหมายได้:
+44118	Hide Markers	ซ่อนเครื่องหมาย
+44119	Show Markers	แสดงเครื่องหมาย
+44120	Clear Markers	ล้างเครื่องหมาย
+44121	Random event starting soon	กิจกรรมสุ่มกำลังจะเริ่ม
+44125	Opening	กำลังเปิด
+44126	Reset Stage	รีเซ็ตด่าน
+44127	Confirm Stage Reset	ยืนยันรีเซ็ตด่าน
+44128	Resetting the stage will return it to its Initial state, fully restore the monsters' HP, and restart the challenge.\nReset the stage?	การรีเซ็ตด่านจะทำให้ด่านกลับสู่สถานะเริ่มต้น ฟื้นฟู HP ของมอนสเตอร์ทั้งหมด และเริ่มท้าทายใหม่\nรีเซ็ตด่านหรือไม่?
+44132	Launch	เริ่ม
+44133	Activating <color=#F99940>${1}</color> Mode	กำลังเปิดโหมด <color=#F99940>${1}</color>
+44134	You cannot join a battle already in progress. Please wait until it ends.	เข้าร่วมการต่อสู้ที่กำลังดำเนินอยู่ไม่ได้ โปรดรอจนสิ้นสุด
+44135	Please join a guild first	โปรดเข้าร่วมกิลด์ก่อน
+44136	Start Battle	เริ่มต่อสู้
+44138	Exit (${1}s)	ออก (${1} วินาที)
+44139	Rescue the Bride	ช่วยเจ้าสาว
+44140	Search for the Key	ค้นหากุญแจ
+44141	Gang Members are mounting an active rescue	สมาชิกกลุ่มกำลังดำเนินการช่วยเหลือ
+44142	Tap the Spectate Button on the right to Enter a teammate's view	แตะปุ่มชมการต่อสู้ทางขวาเพื่อดูมุมมองของเพื่อนร่วมทีม
+44143	Exit Spectate	ออกจากการชม
+44146	No players are currently available to Spectate	ขณะนี้ไม่มีผู้เล่นให้ชมการต่อสู้
+44501	Epic Battle	ศึกมหากาพย์
+44502	Normal Mode	โหมดปกติ
+44503	Hard Mode	โหมดยาก
+44504	Nightmare Mode	โหมดฝันร้าย
+44505	Story	เนื้อเรื่อง
+44509	Recommended Players:	จำนวนผู้เล่นที่แนะนำ:
+44511	Unlock Requirement	เงื่อนไขปลดล็อก
+44512	Not yet available	ยังไม่เปิดใช้งาน
+44513	Open Dungeon	เปิดดันเจียน
+44514	Waiting for the Guild Leader to Open	รอหัวหน้ากิลด์เปิด
+44515	Enter Dungeon	เข้าสู่ดันเจียน
+44516	View Auction	ดูการประมูล
+44517	Instance opens in ${1}	ดันเจียนเปิดใน ${1}
+44519	Instance closes in ${1}	ดันเจียนปิดใน ${1}
+44520	This instance has ended	ดันเจียนนี้สิ้นสุดแล้ว
+44521	Auction	ประมูล
+44522	You have already claimed the Stage ${1} reward. Skip the stages with no rewards?	คุณรับรางวัลด่าน ${1} แล้ว ข้ามด่านที่ไม่มีรางวัลหรือไม่?
+44523	Start Now	เริ่มทันที
+44524	Skip Stage	ข้ามด่าน
+44526	Unlock Difficulty	ปลดล็อกความยาก
+44527	New Stage - ${1}	ด่านใหม่ - ${1}
+44528	Stage Name	ชื่อด่าน
+44529	Challenge difficulty: ${1}	ความยากของการท้าทาย: ${1}
+44530	Stage Settlement	สรุปผลด่าน
+44532	Bid List	รายการเสนอราคา
+44533	The auction will open after Settlement	การประมูลจะเปิดหลังสรุปผล
+44534	Continue	ดำเนินการต่อ
+44535	The auction will open in ${1}	การประมูลจะเปิดใน ${1}
+44538	Desperate	สิ้นหวัง
+44539	Clear Time: ${1}	เวลาผ่านด่าน: ${1}
+44540	New Record	สถิติใหม่
+44541	Rewards for cleared stages have been issued	มอบรางวัลสำหรับด่านที่ผ่านแล้ว
+44542	Guild Challenge: Eternal Land - ${1} difficulty is now open	เปิดการท้าทายกิลด์: Eternal Land - ความยาก ${1} แล้ว
+44543	Guild Challenge: Eternal Land - ${1} difficulty is now open. Join your fellow Guild Members in battle! Click to join >>	เปิดการท้าทายกิลด์: Eternal Land - ความยาก ${1} แล้ว ร่วมต่อสู้กับสมาชิกกิลด์ของคุณ! คลิกเพื่อเข้าร่วม >>
+44546	Auction List	รายการประมูล
+44547	The auction will open when the event ends	การประมูลจะเปิดเมื่อกิจกรรมสิ้นสุด
+44548	You can continue participating in the auction after switching dungeons, leaving the dungeon, or leaving the party	คุณเข้าร่วมการประมูลต่อได้หลังเปลี่ยนดันเจียน ออกจากดันเจียน หรือออกจากปาร์ตี้
+44549	Event Management	จัดการกิจกรรม
+44550	Skipping can be enabled manually during the preparation phase.\nIf the stage is too difficult, you can abandon it and select a different difficulty after enabling this option.\nThe rally Function lets you post a stage rally in the Guild Channel and invite Guild Members to participate.	เปิดใช้งานการข้ามด้วยตนเองได้ในช่วงเตรียมการ\nหากด่านยากเกินไป หลังเปิดตัวเลือกนี้ คุณยกเลิกด่านแล้วเลือกความยากอื่นได้\nฟังก์ชันระดมพลช่วยให้คุณโพสต์ประกาศระดมพลสำหรับด่านในช่องกิลด์และเชิญสมาชิกกิลด์เข้าร่วม
+44551	Abandon Event	ยกเลิกกิจกรรม
+44552	Rally All Members	ระดมสมาชิกทั้งหมด
+44553	Start Now	เริ่มทันที
+44554	Abandon Challenge	ยกเลิกการท้าทาย
+44555	If you abandon the stage, you can return to the event screen, select a different difficulty, and start the challenge again. This challenge will be considered a failure. Confirm?	หากยกเลิกด่าน คุณกลับไปยังหน้ากิจกรรม เลือกความยากอื่น และเริ่มท้าทายอีกครั้งได้ การท้าทายครั้งนี้จะนับว่าล้มเหลว ยืนยันหรือไม่?
+44556	Confirm Abandon	ยืนยันยกเลิก
+44558	Skip Preparation	ข้ามการเตรียมการ
+44559	Skip the preparation phase and enter battle immediately?	ข้ามช่วงเตรียมการและเข้าสู่การต่อสู้ทันทีหรือไม่?
+44560	Confirm Skip	ยืนยันข้าม
+44561	Time Until Event Starts	เวลาที่เหลือจนกิจกรรมเริ่ม
+44562	Event Ended	กิจกรรมสิ้นสุดแล้ว
+44563	Dungeon Closing Time	เวลาปิดดันเจียน
+44564	Log In	เข้าสู่ระบบ
+44565	Clear ${1}	ผ่าน ${1}
+44566	Guild Challenge: Epic Battle is now open. Head to the Guild Event panel to provide Utility support to your allies!	เปิดการท้าทายกิลด์: ศึกมหากาพย์แล้ว ไปยังหน้ากิจกรรมกิลด์เพื่อสนับสนุนเพื่อนร่วมทีม!
+44567	The battle has already begun. If you leave the dungeon, you cannot rejoin the battle.\nAre you sure you want to leave?	การต่อสู้เริ่มแล้ว หากออกจากดันเจียน คุณจะกลับเข้าร่วมการต่อสู้ไม่ได้\nยืนยันออกหรือไม่?
+44568	You have no Reward Count remaining, so you will not receive Additional rewards from this challenge	คุณไม่มีจำนวนครั้งรับรางวัลเหลือ จึงจะไม่ได้รับรางวัลเพิ่มเติมจากการท้าทายครั้งนี้
+44569	Reset This Stage	รีเซ็ตด่านนี้
+44701	Guild Challenge: Eternal Land is now open. Guilds can enter the challenge from the Guild screen.	เปิดการท้าทายกิลด์: Eternal Land แล้ว กิลด์เข้าสู่การท้าทายจากหน้ากิลด์ได้
+44702	Guild Challenge: Eternal Land is now open. The Guild Master or Vice Guild Master must start the challenge.	เปิดการท้าทายกิลด์: Eternal Land แล้ว หัวหน้ากิลด์หรือรองหัวหน้ากิลด์ต้องเป็นผู้เริ่มการท้าทาย
+44703	The Eternal Land event has ended.	กิจกรรม Eternal Land สิ้นสุดแล้ว
+44704	Our Guild successfully cleared ${1} mode of the Eternal Land event. After the event ends, go to the auction to view the Auctioned items.	กิลด์ของเราผ่านกิจกรรม Eternal Land โหมด ${1} สำเร็จ หลังจบกิจกรรม ไปยังการประมูลเพื่อดูไอเทมประมูล
+44705	This difficulty has not been unlocked yet. Unlock it to view it.	ยังไม่ปลดล็อกความยากนี้ ปลดล็อกเพื่อดูข้อมูล
+44706	The event has not started yet. Please wait.	กิจกรรมยังไม่เริ่ม โปรดรอ
+44707	Please wait for the Guild Master or Vice Guild Master to start the event.	โปรดรอหัวหน้ากิลด์หรือรองหัวหน้ากิลด์เริ่มกิจกรรม
+44709	You can re-enter the dungeon after leaving. Leave now?	กลับเข้าดันเจียนได้หลังออก ต้องการออกตอนนี้หรือไม่?
+44710	Return to Game	กลับเข้าเกม
+44712	Start Next Stage	เริ่มด่านถัดไป
+44713	Goodbye	ลาก่อน
+44714	Someone else is already controlling it!	มีผู้อื่นควบคุมอยู่แล้ว!
+44715	Armakia is about to leap	Armakia กำลังจะกระโดด
+44716	Armakia is nearly exhausted	Armakia ใกล้หมดแรงแล้ว
+44717	The strings are beginning to vibrate	สายเริ่มสั่น
+44718	Armakia is about to leap	Armakia กำลังจะกระโดด
+44719	Ilmata has summoned her minions	Ilmata เรียกสมุนออกมาแล้ว
+44720	Difficulty Warning	คำเตือนความยาก
+44721	If the current difficulty is too high, you can abandon the challenge from the in-stage Event Management screen and select a different difficulty	หากความยากปัจจุบันสูงเกินไป คุณยกเลิกการท้าทายจากหน้าจัดการกิจกรรมภายในด่าน แล้วเลือกความยากอื่นได้
+44723	Go to Guild Management	ไปจัดการกิลด์
+44724	The selected difficulty is not the highest difficulty you have unlocked. Start the challenge at the current difficulty?	ความยากที่เลือกไม่ใช่ระดับสูงสุดที่คุณปลดล็อก เริ่มท้าทายในความยากปัจจุบันหรือไม่?
+44725	If the Challenge difficulty is too high, Guild Management can abandon the challenge from the in-stage Event Management screen and select a different difficulty.	หากความยากของการท้าทายสูงเกินไป ผู้ดูแลกิลด์ยกเลิกการท้าทายจากหน้าจัดการกิจกรรมภายในด่าน แล้วเลือกความยากอื่นได้
+44727	Decline	ปฏิเสธ
+50009	Near the Water Point	ใกล้จุดน้ำ
+50010	Spawn	จุดเกิด
+50011	Near the Fire Point	ใกล้จุดไฟ
+50015	No ranking yet	ยังไม่มีอันดับ
+50016	Time Until Eliminations Begin:	เวลาที่เหลือจนเริ่มรอบคัดออก:
+50017	Time Until Semifinals Begin:	เวลาที่เหลือจนเริ่มรอบรองชนะเลิศ:
+50018	Distance Until Finals Begin:	เวลาที่เหลือจนเริ่มรอบชิงชนะเลิศ:
+50019	You are a guild elite. We recommend heading to the Main Battlefield.	คุณเป็นสมาชิกกิลด์ชั้นแนวหน้า แนะนำให้ไปสนามรบหลัก
+50020	This action is unavailable during the league.	ดำเนินการนี้ไม่ได้ระหว่างการแข่งขันลีก
+50021	Guild League	ลีกกิลด์
+50022	Local Server League	ลีกภายในเซิร์ฟเวอร์
+50023	Schedule	ตารางแข่งขัน
+50026	Eligibility	สิทธิ์เข้าร่วม
+50027	Enter Battlefield	เข้าสู่สนามรบ
+50028	The Guild League has begun. Participate Now?	ลีกกิลด์เริ่มแล้ว เข้าร่วมตอนนี้หรือไม่?
+50029	Ends in ${1}	สิ้นสุดในอีก ${1}
+50030	The event is not currently active.	ขณะนี้กิจกรรมไม่ได้เปิดอยู่
+50031	Please join a guild first	โปรดเข้าร่วมกิลด์ก่อน
+50032	Temporary Members cannot participate in the league.	สมาชิกชั่วคราวเข้าร่วมลีกไม่ได้
+50033	The guild has been disbanded	กิลด์ถูกยุบแล้ว
+50034	Your guild has not been assigned a division and cannot participate in the league.	กิลด์ของคุณยังไม่ได้รับการจัดกลุ่ม จึงเข้าร่วมลีกไม่ได้
+50035	No battle history available.	ไม่มีประวัติการต่อสู้
+50036	Main Field	สนามหลัก
+50037	Sub Field	สนามรอง
+50038	Only elites may enter.	เข้าได้เฉพาะสมาชิกชั้นแนวหน้า
+50039	The Main Battlefield is full.	สนามรบหลักเต็มแล้ว
+50041	Battle Results	ผลการต่อสู้
+50042	Our Guild	กิลด์ของเรา
+50043	Opponent's Guild	กิลด์คู่ต่อสู้
+50044	Battle Report Details	รายละเอียดรายงานการต่อสู้
+50045	Victory	ชัยชนะ
+50046	Failed	ล้มเหลว
+50051	Current Guild Division:	กลุ่มกิลด์ปัจจุบัน:
+50053	Player name	ชื่อผู้เล่น
+50054	Guide	คู่มือ
+50055	Once you Join a guild, you can participate in its scheduled matches.	เมื่อเข้าร่วมกิลด์ คุณเข้าร่วมการแข่งขันตามตารางของกิลด์ได้
+50056	Your guild has not yet been assigned a division or matched for the schedule.	กิลด์ของคุณยังไม่ได้รับการจัดกลุ่มหรือจับคู่ตามตารางแข่งขัน
+50057	Division Assignment Requirements:	เงื่อนไขการจัดกลุ่ม:
+50058	Guild membership reaches ${1}	จำนวนสมาชิกกิลด์ถึง ${1}
+50059	Your guild's Active rating reached ${1} last week.	คะแนนความเคลื่อนไหวของกิลด์ในสัปดาห์ก่อนถึง ${1}
+50060	Division Assignment Time:	เวลาจัดกลุ่ม:
+50061	Monday at 05:03 during the first week of the schedule	วันจันทร์เวลา 05:03 ในสัปดาห์แรกของตารางแข่งขัน
+50062	Morale:	ขวัญกำลังใจ:
+50063	Commander	ผู้บัญชาการ
+50064	Battlefield Skill	สกิลสนามรบ
+50065	Battlefield Command	คำสั่งสนามรบ
+50067	Notes	หมายเหตุ
+50068	You do not have permission.	คุณไม่มีสิทธิ์
+50069	You are not on the Main Battlefield.	คุณไม่ได้อยู่ในสนามรบหลัก
+50070	Insufficient remaining attempts	จำนวนครั้งที่เหลือไม่เพียงพอ
+50071	On cooldown. Please try again later.	อยู่ระหว่าง CD โปรดลองภายหลัง
+50072	The league is underway. Are you sure you want to leave?	ลีกกำลังดำเนินอยู่ ยืนยันออกหรือไม่?
+50073	Preparation Time:	เวลาเตรียมการ:
+50074	Battle Begins	เริ่มการต่อสู้
+50075	Guild Members:	สมาชิกกิลด์:
+50076	My Points:	แต้มของฉัน:
+50079	Capture the Flag	ยึดธง
+50082	Morale:${1}/${2}	ขวัญกำลังใจ:${1}/${2}
+50083	You can reenter from the Guild Events screen after leaving. Are you sure you want to leave?	หลังออก คุณกลับเข้ามาจากหน้ากิจกรรมกิลด์ได้ ยืนยันออกหรือไม่?
+50084	Group Division:${1}	การจัดกลุ่ม:${1}
+50085	Morale	ขวัญกำลังใจ
+50086	Random Upper Bracket Matchups	สุ่มคู่แข่งขันสายบน
+50087	Random Lower Bracket Matchups	สุ่มคู่แข่งขันสายล่าง
+50089	Winners' Bracket	สายผู้ชนะ
+50090	Losers' Bracket	สายผู้แพ้
+50091	In progress	กำลังดำเนินการ
+50093	Matchup	คู่แข่งขัน
+50094	Schedule	ตารางแข่งขัน
+50096	Semifinal Matchups	คู่แข่งขันรอบรองชนะเลิศ
+50097	Final Matchups	คู่แข่งขันรอบชิงชนะเลิศ
+50098	Upper Winners' Bracket	สายผู้ชนะส่วนบน
+50099	Lower Winners' Bracket	สายผู้ชนะส่วนล่าง
+50100	Upper Losers' Bracket	สายผู้แพ้ส่วนบน
+50101	Lower Losers' Bracket	สายผู้แพ้ส่วนล่าง
+50105	7-8 Players	ผู้เล่น 7-8 คน
+50106	Advance	เลื่อนขั้น
+50107	Demote	เลื่อนลง
+50109	Distance Until the Next Preliminaries Begin:	เวลาที่เหลือจนเริ่มรอบคัดเลือกถัดไป:
+50110	My guild ranking	อันดับกิลด์ของฉัน
+50111	[${1}] Rank ${2}	[ ${1} ] อันดับ ${2}
+50112	Group ${1}	กลุ่ม ${1}
+50113	Deliver the Flag:	ส่งธง:
+50114	Capture the Flag!	ยึดธง!
+50115	Defend the Flag!	ป้องกันธง!
+50116	Transport the Flag	ขนส่งธง
+50117	Defeat the Boss	กำจัดบอส
+50118	My Battle Report	รายงานการต่อสู้ของฉัน
+50119	Battlefield Honor	เกียรติยศสนามรบ
+50120	Battleground Stats	สถิติสนามรบ
+50121	Transport the Flag	ขนส่งธง
+50122	Capture the Flag	ยึดธง
+50123	Kill Players	กำจัดผู้เล่น
+50128	Best of the Best	ยอดฝีมือเหนือยอดฝีมือ
+50129	Top Three Overall	สามอันดับแรกโดยรวม
+50130	Absolute Advantage	ได้เปรียบอย่างเด็ดขาด
+50131	Rank Among the Best	ติดอันดับยอดฝีมือ
+50132	Go to Guild Battle Report	ไปยังรายงานการต่อสู้กิลด์
+50133	Previous	ก่อนหน้า
+50134	Honor	เกียรติยศ
+50135	Data	ข้อมูล
+50136	Victory	ชัยชนะ
+50140	Codex Stat Overview	ภาพรวมค่าสถานะ Codex
+50141	Total Points	แต้มรวม
+50142	Kill Boss	กำจัดบอส
+50143	Kill the Guard	กำจัดยาม
+50144	Capture the Flag	ยึดธง
+50145	Defend the Flag	ป้องกันธง
+50146	This match has ended.	การแข่งขันนี้สิ้นสุดแล้ว
+50147	No Members have made the rankings yet. Keep trying!	ยังไม่มีสมาชิกติดอันดับ พยายามต่อไป!
+50148	Divine Assist	ช่วยเหลืออย่างยอดเยี่ยม
+50149	More Honor	เกียรติยศเพิ่มเติม
+50150	Killing Spree	สังหารต่อเนื่อง
+50151	Divine Assist	ช่วยเหลืออย่างยอดเยี่ยม
+50152	Protecting	กำลังป้องกัน
+50153	Eliminations	รอบคัดออก
+50154	Semifinals	รอบรองชนะเลิศ
+50155	Grand Finals	รอบชิงชนะเลิศ
+50156	Preliminaries-Semifinals	รอบคัดเลือก-รอบรองชนะเลิศ
+50157	Placement Criteria:	เกณฑ์การจัดอันดับ:
+50158	Initial placement is based on Guild Member strength.	การจัดอันดับเริ่มต้นอิงความแข็งแกร่งของสมาชิกกิลด์
+50159	The next season's tier is determined by the previous season's results.	ระดับของฤดูกาลถัดไปกำหนดจากผลการแข่งขันในฤดูกาลก่อน
+50160	Main Battlefield	สนามรบหลัก
+50161	Sub-Battlefield	สนามรบรอง
+50162	Individual Victory Rewards	รางวัลชนะรายบุคคล
+50163	Victory Auction Rewards	รางวัลประมูลเมื่อชนะ
+50164	Individual Loss Reward	รางวัลแพ้รายบุคคล
+50165	Failed Auction Rewards	รางวัลประมูลเมื่อแพ้
+50166	Flag Delivered Successfully	ส่งธงสำเร็จ
+50167	Battleground Rating	คะแนนประเมินสนามรบ
+50168	Total Score:	คะแนนรวม:
+50169	Next	ถัดไป
+50170	No Members on the Rankings Yet	ยังไม่มีสมาชิกติดอันดับ
+50171	Peerless	ไร้เทียมทาน
+50172	Terminate	ยุติ
+50173	Enter the League.	เข้าสู่ลีก
+50174	Match has ended	การแข่งขันสิ้นสุดแล้ว
+50175	Battleground Info	ข้อมูลสนามรบ
+50176	Group Rank	อันดับกลุ่ม
+50177	Auto-Register for Next Round	ลงทะเบียนรอบถัดไปอัตโนมัติ
+50178	Registration Condition	เงื่อนไขลงทะเบียน
+50179	Sign Up	ลงทะเบียน
+50180	Your guild hasn't registered, so you can't participate.	กิลด์ของคุณยังไม่ได้ลงทะเบียน จึงเข้าร่วมไม่ได้
+50181	Points Match	การแข่งขันเก็บแต้ม
+50182	Current Points	แต้มปัจจุบัน
+50183	Warzone Ranking	อันดับเขตสงคราม
+50184	Highest Win Streak	สถิติชนะต่อเนื่องสูงสุด
+50185	Season Ranking Rewards will be sent via mail.	ส่งรางวัลอันดับฤดูกาลทางจดหมาย
+50187	First Match	การแข่งขันแรก
+50188	Round 2	รอบ 2
+50189	Round 3	รอบ 3
+50190	TBD	ยังไม่กำหนดรายละเอียด
+50194	Boss Appeared	บอสปรากฏแล้ว

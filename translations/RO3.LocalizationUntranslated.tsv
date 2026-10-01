@@ -9591,80 +9591,7 @@
 13260000002	Purpose of the Experiment	Purpose of the Experiment
 11440000000	Test	Test
 36000	Spirit Tower	Spirit Tower
-36001	Floor ${1}	Floor ${1}
-36002	Basic Info	Basic Info
-36003	Difficulty Reduction:	Difficulty Reduction:
 36004	${1}%	${1}%
-36005	(Decreases by 1% daily, up to 10%)	(Decreases by 1% daily, up to 10%)
-36006	Current Difficulty:	Current Difficulty:
-36007	Recommended Power:	Recommended Power:
-36008	Current Level:	Current Level:
-36009	Challenge Level:	Challenge Level:
-36010	Deployed Companions	Deployed Companions
-36011	Starting Lineup	Starting Lineup
-36012	Substitute	Substitute
-36013	First Clear Rewards	First Clear Rewards
-36015	Current Stage	Current Stage
-36019	Slightly Difficult	Slightly Difficult
-36020	Floor ${1}	Floor ${1}
-36021	Sweep Rewards can be claimed the next day.	Sweep Rewards can be claimed the next day.
-36022	Resets daily at 5:00 AM	Resets daily at 5:00 AM
-36023	Skip	Skip
-36025	Swept	Swept
-36026	Clear Time	Clear Time
-36027	Fastest Clear Time: ${1}	Fastest Clear Time: ${1}
-36028	Fallen	Fallen
-36029	On Standby	On Standby
-36030	Success	Success
-36031	Failed	Failed
-36032	Clear Time ${1}	Clear Time ${1}
-36033	New Record	New Record
-36034	Deployed Companions	Deployed Companions
-36035	Lower-Level Info	Lower-Level Info
-36036	Current Floor Info	Current Floor Info
-36038	Edit Formation	Edit Formation
-36039	Next Floor	Next Floor
-36040	Try Again	Try Again
-36041	Invalid Floors	Invalid Floors
-36042	You've already claimed today's Sweep rewards.	You've already claimed today's Sweep rewards.
-36043	Invalid number of pets	Invalid number of pets
-36044	Reward Configuration Error	Reward Configuration Error
-36045	Monster Info	Monster Info
-36046	Tower-Climbing Mode Description	Tower-Climbing Mode Description
-36047	Available after reaching Lv.${1}	Available after reaching Lv.${1}
-36048	Complete the prerequisite stage first.	Complete the prerequisite stage first.
-36049	There are still pets Not Deployed. Are you sure you want to Enter Battlefield?	There are still pets Not Deployed. Are you sure you want to Enter Battlefield?
-36052	Go to Formation	Go to Formation
-36053	Your Spirit Tower ranking has risen to No. ${1}.	Your Spirit Tower ranking has risen to No. ${1}.
-36055	This Quick Challenge cleared through Floor ${1}. You received the following rewards:	This Quick Challenge cleared through Floor ${1}. You received the following rewards:
-36056	Congratulations on reaching the top floor of the Spirit Tower!	Congratulations on reaching the top floor of the Spirit Tower!
-36057	Quick Challenge	Quick Challenge
-36059	You're strong enough to quickly advance to higher Floors. Do you want to continue challenging this Floor?	You're strong enough to quickly advance to higher Floors. Do you want to continue challenging this Floor?
-36060	Next-Day Sweep Rewards	Next-Day Sweep Rewards
-36061	This Quick Challenge can clear up to Floor ${1}	This Quick Challenge can clear up to Floor ${1}
-36062	No Sweep Rewards Available	No Sweep Rewards Available
-36063	You can't travel there during the current activity. Please leave and try again.	You can't travel there during the current activity. Please leave and try again.
-36064	Not Cleared	Not Cleared
-36065	Level up to unlock more slots.	Level up to unlock more slots.
-36066	Edit Lineup	Edit Lineup
-36067	Main	Main
-36068	Substitute	Substitute
-36069	Edit Spirit Tower Pet Lineup	Edit Spirit Tower Pet Lineup
-36070	Climb ${1} more floors to obtain	Climb ${1} more floors to obtain
-36071	All grand prizes claimed	All grand prizes claimed
-36074	Honor Rankings	Honor Rankings
-36077	Permanently saves the First Clear record for every 10 floors. When one player achieves the First Clear, the Entire Server can claim rewards.	Permanently saves the First Clear record for every 10 floors. When one player achieves the First Clear, the Entire Server can claim rewards.
-36078	No First Clear record yet	No First Clear record yet
-36079	Top ${1}%	Top ${1}%
-36080	Tap a Portrait to adjust your Formation	Tap a Portrait to adjust your Formation
-36081	Reward Preview	Reward Preview
-36082	Floor	Floor
-36083	Restore default	Restore default
-36084	Confirm Filters	Confirm Filters
-36085	Back to Current	Back to Current
-36086	Try adjusting your Formation and try again.	Try adjusting your Formation and try again.
-36087	Floors	Floors
-36088	First Clear Players	First Clear Players
 11210100000	A Hat made from half of a sturdy fruit. It provides solid defense, but a hammer would still break it, so it cannot be refined.	A Hat made from half of a sturdy fruit. It provides solid defense, but a hammer would still break it, so it cannot be refined.
 11210100001	A Hat made by wearing a bread bag backward.	A Hat made by wearing a bread bag backward.
 11210100002	A decorative eggshell worn on the head. It's surprisingly sturdy.	A decorative eggshell worn on the head. It's surprisingly sturdy.
@@ -9814,124 +9741,11 @@
 10930000006	Thinking of You, Longing for You	Thinking of You, Longing for You
 10930000007	Kindred Spirits	Kindred Spirits
 10930000008	Matching Hearts	Matching Hearts
-37001	Auto Mode	Auto Mode
-37002	Auto-battle time has ended. Return to town automatically?	Auto-battle time has ended. Return to town automatically?
-37004	Return to Town Now	Return to Town Now
-37005	AFK time is about to reset. Return to town automatically?	AFK time is about to reset. Return to town automatically?
-37006	Field Battle	Field Battle
-37007	Expedition Adventure	Expedition Adventure
-37008	Treasure Chest	Treasure Chest
-37009	Auto Mode	Auto Mode
-37010	Recommended Monster	Recommended Monster
-37011	Timing	Timing
-37012	Automatically return to the main city when Bonus AFK Points are depleted	Automatically return to the main city when Bonus AFK Points are depleted
-37013	Automatically return to the main city at 4:45-4:55	Automatically return to the main city at 4:45-4:55
-37014	After High-Rate AFK Mode is disabled, it will automatically reactivate at 5:00 the next day.	After High-Rate AFK Mode is disabled, it will automatically reactivate at 5:00 the next day.
-37015	Field Combat Time in Progress…	Field Combat Time in Progress…
-37016	Massive EXP	Massive EXP
-37017	Powerful Card	Powerful Card
-37018	Loads of Materials	Loads of Materials
-37019	Surprise Mystery Chest	Surprise Mystery Chest
-37020	Paused	Paused
-37021	Field Combat Time Paused…	Field Combat Time Paused…
-37022	min	min
-37023	1. ${1} restores ${2} minutes of field combat time daily, up to a maximum of ${3} minutes.	1. ${1} restores ${2} minutes of field combat time daily, up to a maximum of ${3} minutes.
-37024	2.While you have Field Combat Time, Kill field monsters to earn EXP and drops as normal. You cannot earn them while Field Combat Time is set to Pause or after it runs out.	2.While you have Field Combat Time, Kill field monsters to earn EXP and drops as normal. You cannot earn them while Field Combat Time is set to Pause or after it runs out.
-37025	Item Drop	Item Drop
-37026	Map Appeared	Map Appeared
-37027	Monsters	Monsters
-37028	Item Drop	Item Drop
 37029	Lv. ${1}-${2}	Lv. ${1}-${2}
-37031	Return to Adventure	Return to Adventure
-37032	Start Expedition	Start Expedition
-37034	Adventure Duration	Adventure Duration
-37035	Expedition Duration <#c2ff7a><size=36>${1}</size></color>/${2} min	Expedition Duration <#c2ff7a><size=36>${1}</size></color>/${2} min
-37036	Expedition time accumulates automatically after departure, even while offline.\nThere is a limit to how much time can accumulate, so remember to claim your expedition rewards manually~	Expedition time accumulates automatically after departure, even while offline.\nThere is a limit to how much time can accumulate, so remember to claim your expedition rewards manually~
-37037	Return to Expedition Map Selection	Return to Expedition Map Selection
-37038	The bonus chest for the current cycle is	The bonus chest for the current cycle is
-37039	Reward Preview	Reward Preview
 37040	${1}	${1}
-37041	Open 1	Open 1
-37042	Open All	Open All
-37043	Cumulative Chest Opening Rewards	Cumulative Chest Opening Rewards
 37045	${1}/${2}	${1}/${2}
-37053	This chest does not currently have an opening bonus. You may want to save it for later. Open it anyway?	This chest does not currently have an opening bonus. You may want to save it for later. Open it anyway?
-37054	Not enough chests.	Not enough chests.
-37055	There are currently no chests to open.	There are currently no chests to open.
-37056	1. You receive 60 minutes of Field Battle Reward Time each day. While you have Field Battle Reward Time, killing monsters in the field grants large amounts of EXP and materials, making it the fastest way to Level-up.\n2. Once your Field Battle Reward Time runs out, killing monsters in the field will no longer grant drops.\n3. You can manually Pause Field Battle Reward Time. While paused, killing monsters in the field will not consume Field Battle Reward Time, but will not grant drops either. Adventurer, make good use of your battle time!	1. You receive 60 minutes of Field Battle Reward Time each day. While you have Field Battle Reward Time, killing monsters in the field grants large amounts of EXP and materials, making it the fastest way to Level-up.\n2. Once your Field Battle Reward Time runs out, killing monsters in the field will no longer grant drops.\n3. You can manually Pause Field Battle Reward Time. While paused, killing monsters in the field will not consume Field Battle Reward Time, but will not grant drops either. Adventurer, make good use of your battle time!
-37057	Field Battle Rules	Field Battle Rules
-37058	1. Adventurers can train using the mysterious power bestowed by the Goddess, earning Rare battle rewards such as cards and equipment without actually participating in combat.\n2. Expedition time will continue to accumulate after joining an Exploration Expedition, even while the Adventurer is offline.\n3. Exploration Expedition rewards must be claimed manually. Rewards are granted based on your accumulated expedition time, which has a maximum limit, so remember to claim them regularly, Adventurer!	1. Adventurers can train using the mysterious power bestowed by the Goddess, earning Rare battle rewards such as cards and equipment without actually participating in combat.\n2. Expedition time will continue to accumulate after joining an Exploration Expedition, even while the Adventurer is offline.\n3. Exploration Expedition rewards must be claimed manually. Rewards are granted based on your accumulated expedition time, which has a maximum limit, so remember to claim them regularly, Adventurer!
-37059	Exploration Expedition Rules	Exploration Expedition Rules
-37060	1. Chests are special items containing many rewards. Players can open chests to obtain these rewards.\n2. At set intervals, the Goddess blesses one type of chest. Blessed chests receive an opening bonus that grants Additional rewards based on the number opened. The cycle and order of the Goddess's chest blessings are fixed, so Adventurers can save their chests accordingly.	1. Chests are special items containing many rewards. Players can open chests to obtain these rewards.\n2. At set intervals, the Goddess blesses one type of chest. Blessed chests receive an opening bonus that grants Additional rewards based on the number opened. The cycle and order of the Goddess's chest blessings are fixed, so Adventurers can save their chests accordingly.
-37061	Chest Rules	Chest Rules
-37062	Open ${1} more chests to claim the reward.	Open ${1} more chests to claim the reward.
-37063	Reward requirements met.	Reward requirements met.
-37064	Please do not switch maps too frequently.	Please do not switch maps too frequently.
-37065	You have not met this map's Unlock Requirement. Keep working on your Level-up!	You have not met this map's Unlock Requirement. Keep working on your Level-up!
-37066	You must claim your currently accumulated expedition time rewards before switching maps. Claim them now?	You must claim your currently accumulated expedition time rewards before switching maps. Claim them now?
-37067	You can only claim rewards after exploring for more than ${1} minutes.	You can only claim rewards after exploring for more than ${1} minutes.
-37068	You have not joined an expedition and cannot claim rewards.	You have not joined an expedition and cannot claim rewards.
-37069	You have disabled Bonus Time. When you Kill a Field Monster, it will only drop Accessory Materials.	You have disabled Bonus Time. When you Kill a Field Monster, it will only drop Accessory Materials.
-37070	Please don't toggle Bonus Time too frequently.	Please don't toggle Bonus Time too frequently.
-37071	You've resumed using Bonus Time. Killing Field Monsters can now yield plentiful rewards.	You've resumed using Bonus Time. Killing Field Monsters can now yield plentiful rewards.
-37072	Your Bonus Time is at 0. Please come back tomorrow.	Your Bonus Time is at 0. Please come back tomorrow.
-37073	${1}/min	${1}/min
-37074	Bonus Time	Bonus Time
-37075	Enable Bonus	Enable Bonus
-37076	Auto-Battling...	Auto-Battling...
-37077	Monster Collection	Monster Collection
-37078	Auto-Battle Rewards	Auto-Battle Rewards
-37079	Powerful Card	Powerful Card
-37080	Show Only Monsters with Purple Cards	Show Only Monsters with Purple Cards
-37082	No matching monsters found.	No matching monsters found.
-37083	You can mark up to ${1} monsters. Select one to replace.	You can mark up to ${1} monsters. Select one to replace.
-37086	Auto-Battle Rewards	Auto-Battle Rewards
-37087	Auto-Battle Duration	Auto-Battle Duration
-37088	Accumulate up to ${1} hours	Accumulate up to ${1} hours
-37089	First Clear Rewards	First Clear Rewards
-37090	Monsters Encountered	Monsters Encountered
-37091	Guaranteed Drops	Guaranteed Drops
-37092	Chance Drops	Chance Drops
-37093	Solo dungeons cannot be entered as a party. Leave your party and Enter Dungeon?	Solo dungeons cannot be entered as a party. Leave your party and Enter Dungeon?
-37094	You can increase your power in the following ways:	You can increase your power in the following ways:
-37095	Next Stage (${1})	Next Stage (${1})
-37096	Challenge Again	Challenge Again
-37098	All Stages Cleared	All Stages Cleared
-37099	${1} added to favorites.	${1} added to favorites.
-37100	${1} removed from favorites.	${1} removed from favorites.
-37101	Decay Rules	Decay Rules
-37105	Extreme	Extreme
-37106	Nightmare	Nightmare
-37107	All bonus points have been consumed. Auto-battle rewards have been reduced.	All bonus points have been consumed. Auto-battle rewards have been reduced.
-37108	Finale	Finale
-37109	${1}m${2}s	${1}m${2}s
-37110	${1}m	${1}m
-37111	${1}s	${1}s
-37112	Daily Monster Kills	Daily Monster Kills
-37113	Monster Kills Today:	Monster Kills Today:
-37114	It has been ${1} since you last checked your idle rewards. You obtained the following items during that time:	It has been ${1} since you last checked your idle rewards. You obtained the following items during that time:
-37115	High-rate idle mode offers generous rewards. Tap here to view them now.	High-rate idle mode offers generous rewards. Tap here to view them now.
-37116	Your high-rate idle time has run out. Go check your rewards.	Your high-rate idle time has run out. Go check your rewards.
-37117	You don't have any Fly Wing in your Backpack.	You don't have any Fly Wing in your Backpack.
-37118	You can store up to 180 minutes of high-rate idle time.	You can store up to 180 minutes of high-rate idle time.
-37119	No current monster Kill activity detected. High-rate Auto Mode will Enter a suspended state and Auto-activate after you Kill a monster in the Field.	No current monster Kill activity detected. High-rate Auto Mode will Enter a suspended state and Auto-activate after you Kill a monster in the Field.
-37120	High-Rate Auto Mode Resumed	High-Rate Auto Mode Resumed
-37121	You are currently participating in an MVP Kill. High-Rate Auto Mode will Enter a suspended state and Auto-enable after you lose the MVP's aggro and Kill a monster in the Field.	You are currently participating in an MVP Kill. High-Rate Auto Mode will Enter a suspended state and Auto-enable after you lose the MVP's aggro and Kill a monster in the Field.
-37122	Cannot Enable Bonus Time in a Dungeon Location	Cannot Enable Bonus Time in a Dungeon Location
-37123	${1}<color=#957846>/180m</color>	${1}<color=#957846>/180m</color>
-37124	Share Auto Mode rewards with party Members on the same map	Share Auto Mode rewards with party Members on the same map
-37125	Teammate: ${1}	Teammate: ${1}
-37126	Today's Teammate Kills:	Today's Teammate Kills:
-37127	Daily Teammate Kills:	Daily Teammate Kills:
-37128	Disable Bonus	Disable Bonus
-37129	EXP Gained	EXP Gained
-37130	Item Drops	Item Drops
-37131	Shared Teammate Kills	Shared Teammate Kills
 37132	BASE EXP	BASE EXP
 37133	Job EXP	Job EXP
-37134	No Drops	No Drops
-37135	Today's Top 10 Kills	Today's Top 10 Kills
-37136	No Kills	No Kills
 10760000000	Apprentice Adventurer	Apprentice Adventurer
 10760000001	Adventurer	Adventurer
 10760000002	Advanced Adventurer	Advanced Adventurer
@@ -10031,109 +9845,7 @@
 10470200026	Eden Group Instructor	Eden Group Instructor
 10470200027	Knight Leader	Knight Leader
 10470200028	Shorty	Shorty
-37800	Trade History	Trade History
-37803	Proceeds	Proceeds
-37804	Buyer	Buyer
-37805	Only records from this Trade session are saved.	Only records from this Trade session are saved.
-37806	No Trade records yet.	No Trade records yet.
-37808	Trade Tax Details	Trade Tax Details
-37810	Item Details	Item Details
-37811	Remove All Listings	Remove All Listings
-37812	Confirm Change	Confirm Change
-37814	Welcome to my shop! Feel free to browse!	Welcome to my shop! Feel free to browse!
-37815	Contact Seller	Contact Seller
-37817	Rename Stall	Rename Stall
-37818	Tap to enter a Stall name	Tap to enter a Stall name
-37819	Think again	Think again
-37820	Share Stall	Share Stall
-37821	Tap to enter a message	Tap to enter a message
-37822	Confirm and purchase	Confirm and purchase
-37823	Are you sure you want to spend ${1} to purchase ${2}×${3}${4}?	Are you sure you want to spend ${1} to purchase ${2}×${3}${4}?
-37824	${1}'s Stall	${1}'s Stall
-37825	1. You've helped the city prosper, so Prontera offers Stall services to all Adventurers.\n2. You may set up a Stall in any authorized area of Prontera. If the current channel is full, you will automatically switch to another channel. Stall information is not shared between channels.\n3. Please keep your Distance from other Adventurers' Stalls. You cannot set up a Stall too close to another one.\n4. A fixed Stall fee is charged each time you set up a Stall. There is no daily limit.\n5. Items from purchases, sales, and closing your Stall will be delivered by mail.\n6. If every item in your Stall sells out, the Stall will automatically Show less. However, this will not occur within the first 6 minutes after opening your Stall.\n7. If you close your Stall manually, you must pay the fixed Stall fee again the next time you open it. Please consider carefully.\n8. You may change the price and quantity of listed items at any time.	1. You've helped the city prosper, so Prontera offers Stall services to all Adventurers.\n2. You may set up a Stall in any authorized area of Prontera. If the current channel is full, you will automatically switch to another channel. Stall information is not shared between channels.\n3. Please keep your Distance from other Adventurers' Stalls. You cannot set up a Stall too close to another one.\n4. A fixed Stall fee is charged each time you set up a Stall. There is no daily limit.\n5. Items from purchases, sales, and closing your Stall will be delivered by mail.\n6. If every item in your Stall sells out, the Stall will automatically Show less. However, this will not occur within the first 6 minutes after opening your Stall.\n7. If you close your Stall manually, you must pay the fixed Stall fee again the next time you open it. Please consider carefully.\n8. You may change the price and quantity of listed items at any time.
-37827	Listed: ${1}/ ${2}	Listed: ${1}/ ${2}
-37829	Consumable	Consumable
-37830	Material	Material
-37831	Pending Listing	Pending Listing
-37833	Purchase History	Purchase History
-37834	Stall	Stall
-37835	Close Stall	Close Stall
-37836	Stall Function unlocks at Lv. ${1}	Stall Function unlocks at Lv. ${1}
-37837	You don't currently have a Stall open.\nGo to <color=#63a22b>【Prontera】</color> and set one up?	You don't currently have a Stall open.\nGo to <color=#63a22b>【Prontera】</color> and set one up?
-37838	No Stall spaces are currently available. Please try again later.	No Stall spaces are currently available. Please try again later.
-37839	Another Stall is nearby. Please move to a different location.	Another Stall is nearby. Please move to a different location.
-37840	Not enough Currency for the Stall fee~	Not enough Currency for the Stall fee~
-37841	The item being purchased has changed. Refresh the page and try again.	The item being purchased has changed. Refresh the page and try again.
-37842	Sorry, this item was removed or purchased!	Sorry, this item was removed or purchased!
-37843	Cooldown in progress. Please try again later.	Cooldown in progress. Please try again later.
-37844	Your Stall was open for XX. You listed XX items and earned XX. Close the Stall?	Your Stall was open for XX. You listed XX items and earned XX. Close the Stall?
-37846	You must open a Stall before you can share it~	You must open a Stall before you can share it~
-37847	1. When listing items at a Stall, a 7% Stall fee applies when the Currency is Diamonds, and an 8% Stall fee applies when the Currency is Zeny.\n2. For Diamonds, the minimum is 700 Meow Fruits and the maximum is 50000 Meow Fruits.\n3. For Zeny, the minimum is 800 Zeny and the maximum is 10000 Zeny.	1. When listing items at a Stall, a 7% Stall fee applies when the Currency is Diamonds, and an 8% Stall fee applies when the Currency is Zeny.\n2. For Diamonds, the minimum is 700 Meow Fruits and the maximum is 50000 Meow Fruits.\n3. For Zeny, the minimum is 800 Zeny and the maximum is 10000 Zeny.
-37848	This item cannot currently be listed at your Stall.	This item cannot currently be listed at your Stall.
-37849	Your Stall slots are full. You cannot list this item.	Your Stall slots are full. You cannot list this item.
-37853	Trade Tax	Trade Tax
-37854	Taking this item off will leave your Stall empty, so the Stall will automatically Show less.\nProceed?	Taking this item off will leave your Stall empty, so the Stall will automatically Show less.\nProceed?
-37855	Please open a Stall before sharing it~	Please open a Stall before sharing it~
-37856	Close your Stall?	Close your Stall?
-37857	You haven't opened your Stall.\nLeave anyway?	You haven't opened your Stall.\nLeave anyway?
-37858	Spend <sprite name="${1}"> <#cc762a>X${2}</color> to open a Stall?\nThis Stall will remain open for <#cc762a>${3} minutes</color>.	Spend <sprite name="${1}"> <#cc762a>X${2}</color> to open a Stall?\nThis Stall will remain open for <#cc762a>${3} minutes</color>.
-37859	List an item before opening your Stall.	List an item before opening your Stall.
 37861	+${1}	+${1}
-37862	You cannot lower the level of the "Vending" skill while your Stall is open. Close your Stall first.	You cannot lower the level of the "Vending" skill while your Stall is open. Close your Stall first.
-37863	You cannot Job Advance while your Stall is open. Close your Stall first.	You cannot Job Advance while your Stall is open. Close your Stall first.
-37864	[${1}] unlocks at lv.${2}	[${1}] unlocks at lv.${2}
-37865	Unlocks at lv.${1}	Unlocks at lv.${1}
-37867	You cannot reset skills or Job Advance while your Stall is open. Go close your Stall?	You cannot reset skills or Job Advance while your Stall is open. Go close your Stall?
-37870	The Stall name contains restricted words. Please change it and try again.	The Stall name contains restricted words. Please change it and try again.
-37871	You cannot set up a Stall while dead.	You cannot set up a Stall while dead.
-37872	You cannot set up a Stall during Battle Status.	You cannot set up a Stall during Battle Status.
-37873	You cannot set up a Stall inside an instance.	You cannot set up a Stall inside an instance.
-37874	You cannot set up a Stall during Cross-server play.	You cannot set up a Stall during Cross-server play.
-37875	Your reputation score is too low. Go to the Trade Exchange to view it.	Your reputation score is too low. Go to the Trade Exchange to view it.
-37876	Select an item from the Backpack list on the right to list it.	Select an item from the Backpack list on the right to list it.
-37877	No items have been listed.	No items have been listed.
-37878	Cannot go to your Stall while in a Dungeon, Cross-server Location, or while dead	Cannot go to your Stall while in a Dungeon, Cross-server Location, or while dead
-37879	The shared message contains restricted words. Please change it and try again.	The shared message contains restricted words. Please change it and try again.
-37880	Go near the seller's Stall to purchase this item.	Go near the seller's Stall to purchase this item.
-37881	Your reputation score is too low to purchase items from a Stall.	Your reputation score is too low to purchase items from a Stall.
-37882	You don't have enough ${1} to make this purchase.	You don't have enough ${1} to make this purchase.
-37883	${1}x${2} was bought by </color> <color=#63A22B>${3}</color>	${1}x${2} was bought by </color> <color=#63A22B>${3}</color>
-37884	Total Earnings:	Total Earnings:
-37885	Stall Details	Stall Details
-37886	Stall Duration	Stall Duration
-37887	Trade Count	Trade Count
-37888	Sales Details	Sales Details
-37889	Please wait ${1} seconds before pinning again.	Please wait ${1} seconds before pinning again.
-37890	Today's Tax Rate: <color=#c26b47>${1}%</color>	Today's Tax Rate: <color=#c26b47>${1}%</color>
-37891	Please manually switch to Channel ${1} before proceeding.	Please manually switch to Channel ${1} before proceeding.
-37892	Purchase successful.	Purchase successful.
-37893	No items sold yet.	No items sold yet.
-37894	This item is bound and unavailable for Trade.	This item is bound and unavailable for Trade.
-37895	Enhanced cards are unavailable for Trade.	Enhanced cards are unavailable for Trade.
-37896	Soul Echoes that have undergone Level-up are unavailable for Trade.	Soul Echoes that have undergone Level-up are unavailable for Trade.
-37897	Non-rare Divine Art Totems are unavailable for Trade.	Non-rare Divine Art Totems are unavailable for Trade.
-37898	Unsold items have been sent by mail.	Unsold items have been sent by mail.
-37899	Enhanced equipment is unavailable for Trade.	Enhanced equipment is unavailable for Trade.
-37900	Limited-time items are unavailable for Trade.	Limited-time items are unavailable for Trade.
-37901	Change the price or quantity before confirming.	Change the price or quantity before confirming.
-37902	Stall Shared.	Stall Shared.
-37903	The seller is restocking!	The seller is restocking!
-37904	The seller has hidden their information.	The seller has hidden their information.
-37905	Stall Distance Too Great	Stall Distance Too Great
-37906	There are no items left in the display, so it can't be shared~	There are no items left in the display, so it can't be shared~
-37908	Edit Item	Edit Item
-37910	Purchase Item	Purchase Item
-37911	This item cannot be sold at a Stall.	This item cannot be sold at a Stall.
-37912	I'm interested in an item at your Stall. Can we talk?	I'm interested in an item at your Stall. Can we talk?
-37913	Stall Time Remaining	Stall Time Remaining
-37914	Close Stall	Close Stall
-37915	Go to Stall	Go to Stall
-37916	World Channel	World Channel
-37917	Guild Channel	Guild Channel
-37918	Party Channel	Party Channel
-37919	Player Message	Player Message
-37920	Stall Settlement	Stall Settlement
-37921	Open Stall	Open Stall
 38007	${1}/${2}	${1}/${2}
 10010400000	STR	STR
 10010400001	AGI	AGI
@@ -13572,123 +13284,17 @@
 12990000003	Purchase Standard + Premium Together	Purchase Standard + Premium Together
 12990000004	Pass	Pass
 12990000005	Pass Gift	Pass Gift
-44001	●Many ferocious monsters have appeared on Dragon Sarcophagus Isle, intent on breaking the dragon's seal. Before challenging the dragon, you must first stop the endless onslaught. Monsters will continuously pour from the purple portals. Only by deploying Adventurers wisely can you repel their assault.	●Many ferocious monsters have appeared on Dragon Sarcophagus Isle, intent on breaking the dragon's seal. Before challenging the dragon, you must first stop the endless onslaught. Monsters will continuously pour from the purple portals. Only by deploying Adventurers wisely can you repel their assault.
-44002	●The dragon is sealed at the center of Dragon Sarcophagus Isle. Monsters will continuously surge toward the center in an attempt to break the seal. Any monster that reaches the seal will damage it, so be sure to defeat them before they get close.	●The dragon is sealed at the center of Dragon Sarcophagus Isle. Monsters will continuously surge toward the center in an attempt to break the seal. Any monster that reaches the seal will damage it, so be sure to defeat them before they get close.
-44005	Desperate	Desperate
-44006	Outer Area	Outer Area
-44007	Inner Area	Inner Area
-44008	Gloom Over Dragon Sarcophagus Isle	Gloom Over Dragon Sarcophagus Isle
-44009	Gloom Over Dragon Sarcophagus Isle	Gloom Over Dragon Sarcophagus Isle
 44010	\rIn the waters surrounding the continent of Midgard lies a little-known island. It appears on no sea chart, and only ships that have lost their way occasionally stumble upon it. Yet no crew dares linger there, for terrifying, thunderous roars have echoed from the island's depths for as long as anyone can remember.\n \n\rLegend holds that the dragon Fafnir is sealed deep within the island. Once a descendant of the giants, he was slain by a descendant of Odin for his insatiable greed for treasure. After Ragnarök, he returned from the underworld to Midgard, transformed into a decaying dragon driven by nothing but greed. To stop Fafnir's plunder and slaughter, people built fortresses, Turrets, and magic formations across the nameless island. Using gold as bait, they ultimately sealed him away through tremendous Devotion. Thus, the island came to be known as Dragon Sarcophagus Isle.\n\n\rCenturies have since passed, and the seal's power has begun to wane. The roars from the island grow more deafening by the day, while monsters drawn by the dragon's call gather nearby and relentlessly attack the seal.\n\n\rFafnir, the dragon once thought safely sealed away, has lost none of his greed. His power stirs deep within Dragon Sarcophagus Isle, threatening the Peace of the continent.\n\n\rFaced with this threat, the Guild has issued a call to arms. To protect the continent of Midgard and prevent Fafnir from unleashing another catastrophe, brave Adventurers must be assembled. These heroes will form a dragon-slaying force, travel to Dragon Sarcophagus Isle, and challenge Fafnir once more for the sake of the continent's future.\nTo restore the seal, keep the greedy dragon contained, and protect the Peace of the continent of Midgard, the Guild must gather the bravest Adventurers into a dragon-slaying force and send them to Dragon Sarcophagus Isle to challenge the dragon once more.	\rIn the waters surrounding the continent of Midgard lies a little-known island. It appears on no sea chart, and only ships that have lost their way occasionally stumble upon it. Yet no crew dares linger there, for terrifying, thunderous roars have echoed from the island's depths for as long as anyone can remember.\n \n\rLegend holds that the dragon Fafnir is sealed deep within the island. Once a descendant of the giants, he was slain by a descendant of Odin for his insatiable greed for treasure. After Ragnarök, he returned from the underworld to Midgard, transformed into a decaying dragon driven by nothing but greed. To stop Fafnir's plunder and slaughter, people built fortresses, Turrets, and magic formations across the nameless island. Using gold as bait, they ultimately sealed him away through tremendous Devotion. Thus, the island came to be known as Dragon Sarcophagus Isle.\n\n\rCenturies have since passed, and the seal's power has begun to wane. The roars from the island grow more deafening by the day, while monsters drawn by the dragon's call gather nearby and relentlessly attack the seal.\n\n\rFafnir, the dragon once thought safely sealed away, has lost none of his greed. His power stirs deep within Dragon Sarcophagus Isle, threatening the Peace of the continent.\n\n\rFaced with this threat, the Guild has issued a call to arms. To protect the continent of Midgard and prevent Fafnir from unleashing another catastrophe, brave Adventurers must be assembled. These heroes will form a dragon-slaying force, travel to Dragon Sarcophagus Isle, and challenge Fafnir once more for the sake of the continent's future.\nTo restore the seal, keep the greedy dragon contained, and protect the Peace of the continent of Midgard, the Guild must gather the bravest Adventurers into a dragon-slaying force and send them to Dragon Sarcophagus Isle to challenge the dragon once more.
-44016	Tips	Tips
-44017	Next Event Begins	Next Event Begins
 44018	${1} ${2}-${3}	${1} ${2}-${3}
-44019	Waiting for Event to Begin	Waiting for Event to Begin
-44020	Time Until Event Ends: ${1}	Time Until Event Ends: ${1}
 44021	${1}	${1}
-44022	Open Dungeon	Open Dungeon
-44023	Enter Battlefield	Enter Battlefield
-44024	Current Battle Report	Current Battle Report
-44025	This GvE challenge has ended	This GvE challenge has ended
-44027	Outer Area	Outer Area
-44028	Inner Area	Inner Area
-44029	Challenge difficulty	Challenge difficulty
-44031	Player name	Player name
-44036	Inner Area	Inner Area
-44037	High Platform	High Platform
-44038	Fire/Reload/Repair	Fire/Reload/Repair
-44039	Kill Young Dragons	Kill Young Dragons
-44040	Unlock Difficulty	Unlock Difficulty
 44041	${1}	${1}
-44042	Higher difficulty unlocked! A higher difficulty brings greater challenges, but also richer rewards.	Higher difficulty unlocked! A higher difficulty brings greater challenges, but also richer rewards.
-44044	Once an administrator starts the challenge, each Guild Member can Enter Dungeon.	Once an administrator starts the challenge, each Guild Member can Enter Dungeon.
-44045	Start Challenge	Start Challenge
-44046	Start Event	Start Event
-44047	The selected difficulty is not the highest difficulty unlocked. Start the challenge at the current difficulty?	The selected difficulty is not the highest difficulty unlocked. Start the challenge at the current difficulty?
-44049	Gloom Over Dragon Sarcophagus Isle - ${1} Challenge is now open! Come join the fight against the dragon!	Gloom Over Dragon Sarcophagus Isle - ${1} Challenge is now open! Come join the fight against the dragon!
-44052	Gloom Over Dragon Sarcophagus Isle - ${1} Challenge is now open! Come join the fight against the dragon!	Gloom Over Dragon Sarcophagus Isle - ${1} Challenge is now open! Come join the fight against the dragon!
-44054	Players	Players
 44056	${1}	${1}
-44057	Event Management	Event Management
-44058	During the event preparation phase, a Guild administrator can manually skip preparation and start the challenge immediately.	During the event preparation phase, a Guild administrator can manually skip preparation and start the challenge immediately.
-44059	Start Now	Start Now
-44060	Rally All Members	Rally All Members
-44061	Abandon Event	Abandon Event
-44062	Abandon Challenge	Abandon Challenge
-44063	After abandoning the stage, you can return to the event screen, select a new difficulty, and start another challenge. This challenge will count as a failure. Abandon it?	After abandoning the stage, you can return to the event screen, select a new difficulty, and start another challenge. This challenge will count as a failure. Abandon it?
-44065	Confirm Abandon	Confirm Abandon
-44066	Skip Preparation	Skip Preparation
-44067	Skip the preparation phase and start the challenge?	Skip the preparation phase and start the challenge?
-44068	Confirm Skip	Confirm Skip
-44069	Wave ${1}/${2}	Wave ${1}/${2}
-44070	Difficulty Warning	Difficulty Warning
-44071	If the current event difficulty is too high...	If the current event difficulty is too high...
-44072	Go to Guild Management	Go to Guild Management
-44073	<color=#FF6161>Time Until Exit</color>	<color=#FF6161>Time Until Exit</color>
 44074	${1}/${2}	${1}/${2}
 44075	${1}	${1}
-44076	If the Challenge difficulty is too high, you can abandon the stage from within the Dungeon and select a new difficulty.	If the Challenge difficulty is too high, you can abandon the stage from within the Dungeon and select a new difficulty.
-44077	If the stage difficulty is too high, you can abandon the stage, return to the event screen, and select a new difficulty.	If the stage difficulty is too high, you can abandon the stage, return to the event screen, and select a new difficulty.
-44078	Rally sends a quick invitation to Online Guild Members	Rally sends a quick invitation to Online Guild Members
-44080	Mode	Mode
-44081	No Difficulty Selected	No Difficulty Selected
-44082	Resets in ${1}	Resets in ${1}
-44083	<color=#F8B453>Go to the teleportation portal to enter the Inner Area</color>	<color=#F8B453>Go to the teleportation portal to enter the Inner Area</color>
-44084	The Dungeon is not open yet. Contact Guild Management to open it.	The Dungeon is not open yet. Contact Guild Management to open it.
-44085	The event has not begun yet	The event has not begun yet
-44086	Event Ended	Event Ended
-44087	Previous difficulty not yet cleared	Previous difficulty not yet cleared
-44089	<color=#F8B453>Distance Until Event Opens</color>	<color=#F8B453>Distance Until Event Opens</color>
-44090	Next Wave	Next Wave
-44091	Final Wave	Final Wave
-44092	Confirm Exit	Confirm Exit
-44093	You can reenter from the event screen after exiting. Exit the area?	You can reenter from the event screen after exiting. Exit the area?
-44094	Confirm Revive	Confirm Revive
-44095	After you Revive, you can only travel to the ramparts and cannot reenter the Inner Area. Revive now?	After you Revive, you can only travel to the ramparts and cannot reenter the Inner Area. Revive now?
-44096	Tap an area on the map to add a marker	Tap an area on the map to add a marker
-44099	Tap a marker to auto-navigate	Tap a marker to auto-navigate
-44100	Remove All	Remove All
-44101	This area is inaccessible and cannot be marked	This area is inaccessible and cannot be marked
-44102	Marker limit reached	Marker limit reached
-44103	Manage Markers	Manage Markers
-44104	Players in Instance	Players in Instance
-44105	Players in Inner Area	Players in Inner Area
-44106	Players on High Platform	Players on High Platform
-44107	Event Management	Event Management
-44108	No data from the previous event	No data from the previous event
-44109	Berserk	Berserk
-44110	Enraged	Enraged
-44111	●If monsters reduce the seal's durability to 0, the dragon's seal will break, bringing catastrophe to the continent of Midgard and causing the event to fail.	●If monsters reduce the seal's durability to 0, the dragon's seal will break, bringing catastrophe to the continent of Midgard and causing the event to fail.
-44112	●After successfully defending the dragon's seal, you can venture into the heart of Dragon Casket Isle to hunt the dragon. Some Adventurers must enter the Inner Area and face the dragon directly. Not all Adventurers can fight the dragon, so the guild must assign members appropriately.	●After successfully defending the dragon's seal, you can venture into the heart of Dragon Casket Isle to hunt the dragon. Some Adventurers must enter the Inner Area and face the dragon directly. Not all Adventurers can fight the dragon, so the guild must assign members appropriately.
-44113	●Other Adventurers can use siege weapons atop the high walls to attack the dragon. Cooperation between Adventurers and effective use of these weapons are the keys to victory.	●Other Adventurers can use siege weapons atop the high walls to attack the dragon. Cooperation between Adventurers and effective use of these weapons are the keys to victory.
-44114	Dragon Casket Isle Gloom Guide	Dragon Casket Isle Gloom Guide
-44115	Dragon seal successfully defended. Enter the Inner Area and challenge the dragon.	Dragon seal successfully defended. Enter the Inner Area and challenge the dragon.
-44116	Dragon hunt successful. The event has ended.	Dragon hunt successful. The event has ended.
-44117	Can Mark:	Can Mark:
-44118	Hide Markers	Hide Markers
-44119	Show Markers	Show Markers
-44120	Clear Markers	Clear Markers
-44121	Random event starting soon	Random event starting soon
 44122	Almagia	Almagia
 44123	[Weak Value]	[Weak Value]
-44125	Opening	Opening
-44126	Reset Stage	Reset Stage
-44127	Confirm Stage Reset	Confirm Stage Reset
-44128	Resetting the stage will return it to its Initial state, fully restore the monsters' HP, and restart the challenge.\nReset the stage?	Resetting the stage will return it to its Initial state, fully restore the monsters' HP, and restart the challenge.\nReset the stage?
-44132	Launch	Launch
-44133	Activating <color=#F99940>${1}</color> Mode	Activating <color=#F99940>${1}</color> Mode
-44134	You cannot join a battle already in progress. Please wait until it ends.	You cannot join a battle already in progress. Please wait until it ends.
-44135	Please join a guild first	Please join a guild first
-44136	Start Battle	Start Battle
 44137	Dracula's Bride	Dracula's Bride
-44138	Exit (${1}s)	Exit (${1}s)
-44139	Rescue the Bride	Rescue the Bride
-44140	Search for the Key	Search for the Key
-44141	Gang Members are mounting an active rescue	Gang Members are mounting an active rescue
-44142	Tap the Spectate Button on the right to Enter a teammate's view	Tap the Spectate Button on the right to Enter a teammate's view
-44143	Exit Spectate	Exit Spectate
 44145	Wedding Crashers	Wedding Crashers
-44146	No players are currently available to Spectate	No players are currently available to Spectate
 44147	Blood Pact	Blood Pact
 110001	Lv.${1}	Lv.${1}
 110002	Life Skill Overview	Life Skill Overview
@@ -13726,66 +13332,9 @@
 110034	Unlocked	Unlocked
 110035	Locked	Locked
 110036	During the event, complete Activity Quests to earn Treasure Maps. Digging for treasure may unlock a Treasure Stage or summon monsters. Defeat them to earn generous rewards. Collect Treasure Map Fragments to craft a High-Grade Treasure Map and receive a guaranteed rare reward!	During the event, complete Activity Quests to earn Treasure Maps. Digging for treasure may unlock a Treasure Stage or summon monsters. Defeat them to earn generous rewards. Collect Treasure Map Fragments to craft a High-Grade Treasure Map and receive a guaranteed rare reward!
-44501	Epic Battle	Epic Battle
-44502	Normal Mode	Normal Mode
-44503	Hard Mode	Hard Mode
-44504	Nightmare Mode	Nightmare Mode
-44505	Story	Story
 44506	Temple of Cadence	Temple of Cadence
 44507	Above the Sea of Clouds	Above the Sea of Clouds
 44508	Chaos Court	Chaos Court
-44509	Recommended Players:	Recommended Players:
-44511	Unlock Requirement	Unlock Requirement
-44512	Not yet available	Not yet available
-44513	Open Dungeon	Open Dungeon
-44514	Waiting for the Guild Leader to Open	Waiting for the Guild Leader to Open
-44515	Enter Dungeon	Enter Dungeon
-44516	View Auction	View Auction
-44517	Instance opens in ${1}	Instance opens in ${1}
-44519	Instance closes in ${1}	Instance closes in ${1}
-44520	This instance has ended	This instance has ended
-44521	Auction	Auction
-44522	You have already claimed the Stage ${1} reward. Skip the stages with no rewards?	You have already claimed the Stage ${1} reward. Skip the stages with no rewards?
-44523	Start Now	Start Now
-44524	Skip Stage	Skip Stage
-44526	Unlock Difficulty	Unlock Difficulty
-44527	New Stage - ${1}	New Stage - ${1}
-44528	Stage Name	Stage Name
-44529	Challenge difficulty: ${1}	Challenge difficulty: ${1}
-44530	Stage Settlement	Stage Settlement
-44532	Bid List	Bid List
-44533	The auction will open after Settlement	The auction will open after Settlement
-44534	Continue	Continue
-44535	The auction will open in ${1}	The auction will open in ${1}
-44538	Desperate	Desperate
-44539	Clear Time: ${1}	Clear Time: ${1}
-44540	New Record	New Record
-44541	Rewards for cleared stages have been issued	Rewards for cleared stages have been issued
-44542	Guild Challenge: Eternal Land - ${1} difficulty is now open	Guild Challenge: Eternal Land - ${1} difficulty is now open
-44543	Guild Challenge: Eternal Land - ${1} difficulty is now open. Join your fellow Guild Members in battle! Click to join >>	Guild Challenge: Eternal Land - ${1} difficulty is now open. Join your fellow Guild Members in battle! Click to join >>
-44546	Auction List	Auction List
-44547	The auction will open when the event ends	The auction will open when the event ends
-44548	You can continue participating in the auction after switching dungeons, leaving the dungeon, or leaving the party	You can continue participating in the auction after switching dungeons, leaving the dungeon, or leaving the party
-44549	Event Management	Event Management
-44550	Skipping can be enabled manually during the preparation phase.\nIf the stage is too difficult, you can abandon it and select a different difficulty after enabling this option.\nThe rally Function lets you post a stage rally in the Guild Channel and invite Guild Members to participate.	Skipping can be enabled manually during the preparation phase.\nIf the stage is too difficult, you can abandon it and select a different difficulty after enabling this option.\nThe rally Function lets you post a stage rally in the Guild Channel and invite Guild Members to participate.
-44551	Abandon Event	Abandon Event
-44552	Rally All Members	Rally All Members
-44553	Start Now	Start Now
-44554	Abandon Challenge	Abandon Challenge
-44555	If you abandon the stage, you can return to the event screen, select a different difficulty, and start the challenge again. This challenge will be considered a failure. Confirm?	If you abandon the stage, you can return to the event screen, select a different difficulty, and start the challenge again. This challenge will be considered a failure. Confirm?
-44556	Confirm Abandon	Confirm Abandon
-44558	Skip Preparation	Skip Preparation
-44559	Skip the preparation phase and enter battle immediately?	Skip the preparation phase and enter battle immediately?
-44560	Confirm Skip	Confirm Skip
-44561	Time Until Event Starts	Time Until Event Starts
-44562	Event Ended	Event Ended
-44563	Dungeon Closing Time	Dungeon Closing Time
-44564	Log In	Log In
-44565	Clear ${1}	Clear ${1}
-44566	Guild Challenge: Epic Battle is now open. Head to the Guild Event panel to provide Utility support to your allies!	Guild Challenge: Epic Battle is now open. Head to the Guild Event panel to provide Utility support to your allies!
-44567	The battle has already begun. If you leave the dungeon, you cannot rejoin the battle.\nAre you sure you want to leave?	The battle has already begun. If you leave the dungeon, you cannot rejoin the battle.\nAre you sure you want to leave?
-44568	You have no Reward Count remaining, so you will not receive Additional rewards from this challenge	You have no Reward Count remaining, so you will not receive Additional rewards from this challenge
-44569	Reset This Stage	Reset This Stage
 110106	Refresh	Refresh
 110107	Title Advance	Title Advance
 110108	Recipe Unlock	Recipe Unlock
@@ -13864,29 +13413,6 @@
 110185	Follow me~	Follow me~
 110186	Core Rewards	Core Rewards
 110187	<color=#FA983A>${1} Class</color> Not Learned	<color=#FA983A>${1} Class</color> Not Learned
-44701	Guild Challenge: Eternal Land is now open. Guilds can enter the challenge from the Guild screen.	Guild Challenge: Eternal Land is now open. Guilds can enter the challenge from the Guild screen.
-44702	Guild Challenge: Eternal Land is now open. The Guild Master or Vice Guild Master must start the challenge.	Guild Challenge: Eternal Land is now open. The Guild Master or Vice Guild Master must start the challenge.
-44703	The Eternal Land event has ended.	The Eternal Land event has ended.
-44704	Our Guild successfully cleared ${1} mode of the Eternal Land event. After the event ends, go to the auction to view the Auctioned items.	Our Guild successfully cleared ${1} mode of the Eternal Land event. After the event ends, go to the auction to view the Auctioned items.
-44705	This difficulty has not been unlocked yet. Unlock it to view it.	This difficulty has not been unlocked yet. Unlock it to view it.
-44706	The event has not started yet. Please wait.	The event has not started yet. Please wait.
-44707	Please wait for the Guild Master or Vice Guild Master to start the event.	Please wait for the Guild Master or Vice Guild Master to start the event.
-44709	You can re-enter the dungeon after leaving. Leave now?	You can re-enter the dungeon after leaving. Leave now?
-44710	Return to Game	Return to Game
-44712	Start Next Stage	Start Next Stage
-44713	Goodbye	Goodbye
-44714	Someone else is already controlling it!	Someone else is already controlling it!
-44715	Armakia is about to leap	Armakia is about to leap
-44716	Armakia is nearly exhausted	Armakia is nearly exhausted
-44717	The strings are beginning to vibrate	The strings are beginning to vibrate
-44718	Armakia is about to leap	Armakia is about to leap
-44719	Ilmata has summoned her minions	Ilmata has summoned her minions
-44720	Difficulty Warning	Difficulty Warning
-44721	If the current difficulty is too high, you can abandon the challenge from the in-stage Event Management screen and select a different difficulty	If the current difficulty is too high, you can abandon the challenge from the in-stage Event Management screen and select a different difficulty
-44723	Go to Guild Management	Go to Guild Management
-44724	The selected difficulty is not the highest difficulty you have unlocked. Start the challenge at the current difficulty?	The selected difficulty is not the highest difficulty you have unlocked. Start the challenge at the current difficulty?
-44725	If the Challenge difficulty is too high, Guild Management can abandon the challenge from the in-stage Event Management screen and select a different difficulty.	If the Challenge difficulty is too high, Guild Management can abandon the challenge from the in-stage Event Management screen and select a different difficulty.
-44727	Decline	Decline
 44801	Karazhan Harp	Karazhan Harp
 44802	Content Description Content Description Content Description Content Description Content Description	Content Description Content Description Content Description Content Description Content Description
 44803	Sylvanas Statue	Sylvanas Statue
@@ -14999,116 +14525,6 @@
 12880100004	^{1}The summit isn't the end. It's where you first glimpse the next peak.^{2}	^{1}The summit isn't the end. It's where you first glimpse the next peak.^{2}
 12880100005	^{1}A one-of-a-kind path often begins with ten million ordinary swings of the sword.^{2}	^{1}A one-of-a-kind path often begins with ten million ordinary swings of the sword.^{2}
 12880100006	^{1}Is it lonely at the top? No—the top has the best views and the strongest opponents.^{2}	^{1}Is it lonely at the top? No—the top has the best views and the strongest opponents.^{2}
-48000	Go Join a guild!	Go Join a guild!
-48001	Auction: Yet to start!	Auction: Yet to start!
-48002	You Have the Highest Bid…	You Have the Highest Bid…
-48003	Bidding…	Bidding…
-48004	On Display…	On Display…
-48006	Bid Placed	Bid Placed
-48007	Auto-Bid	Auto-Bid
-48008	Preset Bid	Preset Bid
-48009	Fixed price	Fixed price
-48010	Filter ${1}	Filter ${1}
-48011	Auctioned item	Auctioned item
-48013	Current Price	Current Price
-48014	Bid Status	Bid Status
-48015	Auction	Auction
-48016	Log	Log
-48017	My Auctions	My Auctions
-48018	About to start	About to start
-48019	Distance to End	Distance to End
-48020	Auto-Bidding	Auto-Bidding
-48021	Page: ${1}	Page: ${1}
-48022	The auction is Yet to start. Participate in evening guild events to unlock the Guild Auction.\n\nAfter the auction ends, players who participated in the event can receive an Auction Dividend.\n\nThe higher the Guild Auction sales, the larger the Auction Dividend!	The auction is Yet to start. Participate in evening guild events to unlock the Guild Auction.\n\nAfter the auction ends, players who participated in the event can receive an Auction Dividend.\n\nThe higher the Guild Auction sales, the larger the Auction Dividend!
-48023	Join a guild and attend evening guild events to unlock the Guild Auction.\n\nParticipants share an Auction Dividend - the higher the sales, the larger the payout.	Join a guild and attend evening guild events to unlock the Guild Auction.\n\nParticipants share an Auction Dividend - the higher the sales, the larger the payout.
-48024	All auction items are gone. Thank You for participating!	All auction items are gone. Thank You for participating!
-48025	Bidding Requirements Not Met	Bidding Requirements Not Met
-48026	Bidding begins after the display period ends	Bidding begins after the display period ends
-48027	World Auction	World Auction
-48028	Guild Auction	Guild Auction
-48029	Event Auction	Event Auction
-48030	Total Auction Dividend	Total Auction Dividend
-48031	Expected Dividends	Expected Dividends
-48033	Current bid	Current bid
-48034	Log	Log
-48035	Bid Increment	Bid Increment
-48036	Bid Multiplier	Bid Multiplier
-48037	Bidding Cap	Bidding Cap
-48038	Week ${1} ${2}-${3}	Week ${1} ${2}-${3}
-48039	Auction complete. The item has been sent by mail.	Auction complete. The item has been sent by mail.
-48040	Bid Successful	Bid Successful
-48041	Your bid on ${1} has been surpassed. Your Funds have been Refunded.	Your bid on ${1} has been surpassed. Your Funds have been Refunded.
-48042	The current bid price has changed. Please bid again.	The current bid price has changed. Please bid again.
-48043	Another player has outbid you	Another player has outbid you
-48044	Your current bid did not exceed the other bidder's	Your current bid did not exceed the other bidder's
-48045	Reset Filters	Reset Filters
-48046	No Auction Information Available	No Auction Information Available
-48047	Fixed price	Fixed price
-48048	Spend ${1} to purchase ${2}?	Spend ${1} to purchase ${2}?
-48049	Bid Confirmation	Bid Confirmation
-48050	Are you sure you want to spend ${1}?	Are you sure you want to spend ${1}?
-48051	Cancel Auto-Bid	Cancel Auto-Bid
-48052	Auto-Bid canceled. Your funds have been refunded by mail.	Auto-Bid canceled. Your funds have been refunded by mail.
-48053	Auto-Bid set	Auto-Bid set
-48054	Transaction Time	Transaction Time
-48055	Source Event	Source Event
-48056	Someone else purchased the item first	Someone else purchased the item first
-48057	Highest Bid	Highest Bid
-48058	Outbid	Outbid
-48059	Bid Confirmation	Bid Confirmation
-48060	To protect your funds while you were offline, the System automatically stopped your pre-auction/bulk purchases. Restart them?	To protect your funds while you were offline, the System automatically stopped your pre-auction/bulk purchases. Restart them?
-48061	Auction Quantity: <color=#cc762a>${1}</color>	Auction Quantity: <color=#cc762a>${1}</color>
-48062	(Pre-purchase: <color=#cc762a>${1}</color>)	(Pre-purchase: <color=#cc762a>${1}</color>)
-48063	(Bidding/Pre-purchases: <color=#cc762a>${1}</color>/${2})	(Bidding/Pre-purchases: <color=#cc762a>${1}</color>/${2})
-48064	Pre-purchased	Pre-purchased
-48065	Bidding…	Bidding…
-48066	Starts at ${1}	Starts at ${1}
-48067	Item Pre-purchase	Item Pre-purchase
-48068	Lowest:	Lowest:
-48069	Current:	Current:
-48070	Starting Bid:	Starting Bid:
-48071	Starting Bid:	Starting Bid:
-48072	Pre-purchase Notice	Pre-purchase Notice
-48073	Pre-purchase ${3} ${2} for no more than ${1}?	Pre-purchase ${3} ${2} for no more than ${1}?
-48074	The final purchase amount and quantity may change.	The final purchase amount and quantity may change.
-48075	Maximum Unit Price	Maximum Unit Price
-48076	Quantity	Quantity
-48077	Total Item Price	Total Item Price
-48078	Some of your Pre-purchase bids are currently the highest. You can only cancel those that are not the highest. Continue?	Some of your Pre-purchase bids are currently the highest. You can only cancel those that are not the highest. Continue?
-48080	No changes were made to the Pre-purchase plan.	No changes were made to the Pre-purchase plan.
-48081	Pre-purchase Plan Changed	Pre-purchase Plan Changed
-48082	Pre-purchase canceled	Pre-purchase canceled
-48083	There are no items of this type in the current auction.	There are no items of this type in the current auction.
-48084	Increase Bid	Increase Bid
-48085	Stop Bidding	Stop Bidding
-48086	The auction is underway. If you Leave Guild, you will not receive any dividends. Continue?	The auction is underway. If you Leave Guild, you will not receive any dividends. Continue?
-48087	（${1}s）	（${1}s）
-48088	Cancel Pre-purchase	Cancel Pre-purchase
-48089	Modify Pre-purchase	Modify Pre-purchase
-48090	Your current bid is already the highest.	Your current bid is already the highest.
-48091	Show Bidding Only	Show Bidding Only
-48092	${1} Ends	${1} Ends
-48093	Pre-purchase Item List	Pre-purchase Item List
-48094	Auto-Bidding	Auto-Bidding
-48095	You already have the highest bid. No need to outbid yourself!	You already have the highest bid. No need to outbid yourself!
-48096	Show Pre-purchases Only	Show Pre-purchases Only
-48097	You are no longer in the guild holding this auction and cannot bid.	You are no longer in the guild holding this auction and cannot bid.
-48098	The auction has not officially started yet. Please try again later.	The auction has not officially started yet. Please try again later.
-48099	Bid on ${1}?	Bid on ${1}?
-48100	Buy ${1} at the Fixed price?	Buy ${1} at the Fixed price?
-48101	There are currently no Event Auctions underway. Stay tuned!	There are currently no Event Auctions underway. Stay tuned!
-48102	There are currently no World Auctions underway. Stay tuned!	There are currently no World Auctions underway. Stay tuned!
-48103	No matching items found.	No matching items found.
-48104	Obtained	Obtained
-48106	Pre-purchase in Progress…	Pre-purchase in Progress…
-48107	Starting Bid:	Starting Bid:
-48108	Fixed price purchases will become available after the listing period ends.	Fixed price purchases will become available after the listing period ends.
-48109	Current Price:	Current Price:
-48110	Tap an item slot to Pre-purchase the selected item.	Tap an item slot to Pre-purchase the selected item.
-48111	Use Fixed price to purchase the item immediately.	Use Fixed price to purchase the item immediately.
-48112	Change bid	Change bid
-48113	Auction Status	Auction Status
-48114	Final Price	Final Price
 10890100000	Limited-Time Guild Event Now Open	Limited-Time Guild Event Now Open
 10890100001	Enjoy thrilling battles between guilds~	Enjoy thrilling battles between guilds~
 10890100002	Bring your friends and join a thrilling and fun free-for-all!	Bring your friends and join a thrilling and fun free-for-all!
@@ -15190,169 +14606,17 @@
 50006	Silver	Silver
 50007	Brass	Brass
 50008	Black Iron	Black Iron
-50009	Near the Water Point	Near the Water Point
-50010	Spawn	Spawn
-50011	Near the Fire Point	Near the Fire Point
 50012	Local Server League Screen Help Text	Local Server League Screen Help Text
 50013	Guild Schedule Help Text	Guild Schedule Help Text
-50015	No ranking yet	No ranking yet
-50016	Time Until Eliminations Begin:	Time Until Eliminations Begin:
-50017	Time Until Semifinals Begin:	Time Until Semifinals Begin:
-50018	Distance Until Finals Begin:	Distance Until Finals Begin:
-50019	You are a guild elite. We recommend heading to the Main Battlefield.	You are a guild elite. We recommend heading to the Main Battlefield.
-50020	This action is unavailable during the league.	This action is unavailable during the league.
-50021	Guild League	Guild League
-50022	Local Server League	Local Server League
-50023	Schedule	Schedule
-50026	Eligibility	Eligibility
-50027	Enter Battlefield	Enter Battlefield
-50028	The Guild League has begun. Participate Now?	The Guild League has begun. Participate Now?
-50029	Ends in ${1}	Ends in ${1}
-50030	The event is not currently active.	The event is not currently active.
-50031	Please join a guild first	Please join a guild first
-50032	Temporary Members cannot participate in the league.	Temporary Members cannot participate in the league.
-50033	The guild has been disbanded	The guild has been disbanded
-50034	Your guild has not been assigned a division and cannot participate in the league.	Your guild has not been assigned a division and cannot participate in the league.
-50035	No battle history available.	No battle history available.
-50036	Main Field	Main Field
-50037	Sub Field	Sub Field
-50038	Only elites may enter.	Only elites may enter.
-50039	The Main Battlefield is full.	The Main Battlefield is full.
-50041	Battle Results	Battle Results
-50042	Our Guild	Our Guild
-50043	Opponent's Guild	Opponent's Guild
-50044	Battle Report Details	Battle Report Details
-50045	Victory	Victory
-50046	Failed	Failed
-50051	Current Guild Division:	Current Guild Division:
-50053	Player name	Player name
-50054	Guide	Guide
-50055	Once you Join a guild, you can participate in its scheduled matches.	Once you Join a guild, you can participate in its scheduled matches.
-50056	Your guild has not yet been assigned a division or matched for the schedule.	Your guild has not yet been assigned a division or matched for the schedule.
-50057	Division Assignment Requirements:	Division Assignment Requirements:
-50058	Guild membership reaches ${1}	Guild membership reaches ${1}
-50059	Your guild's Active rating reached ${1} last week.	Your guild's Active rating reached ${1} last week.
-50060	Division Assignment Time:	Division Assignment Time:
-50061	Monday at 05:03 during the first week of the schedule	Monday at 05:03 during the first week of the schedule
-50062	Morale:	Morale:
-50063	Commander	Commander
-50064	Battlefield Skill	Battlefield Skill
-50065	Battlefield Command	Battlefield Command
-50067	Notes	Notes
-50068	You do not have permission.	You do not have permission.
-50069	You are not on the Main Battlefield.	You are not on the Main Battlefield.
-50070	Insufficient remaining attempts	Insufficient remaining attempts
-50071	On cooldown. Please try again later.	On cooldown. Please try again later.
-50072	The league is underway. Are you sure you want to leave?	The league is underway. Are you sure you want to leave?
-50073	Preparation Time:	Preparation Time:
-50074	Battle Begins	Battle Begins
-50075	Guild Members:	Guild Members:
-50076	My Points:	My Points:
-50079	Capture the Flag	Capture the Flag
 50080	Point Rules Help Text	Point Rules Help Text
-50082	Morale:${1}/${2}	Morale:${1}/${2}
-50083	You can reenter from the Guild Events screen after leaving. Are you sure you want to leave?	You can reenter from the Guild Events screen after leaving. Are you sure you want to leave?
-50084	Group Division:${1}	Group Division:${1}
-50085	Morale	Morale
-50086	Random Upper Bracket Matchups	Random Upper Bracket Matchups
-50087	Random Lower Bracket Matchups	Random Lower Bracket Matchups
-50089	Winners' Bracket	Winners' Bracket
-50090	Losers' Bracket	Losers' Bracket
-50091	In progress	In progress
-50093	Matchup	Matchup
-50094	Schedule	Schedule
-50096	Semifinal Matchups	Semifinal Matchups
-50097	Final Matchups	Final Matchups
-50098	Upper Winners' Bracket	Upper Winners' Bracket
-50099	Lower Winners' Bracket	Lower Winners' Bracket
-50100	Upper Losers' Bracket	Upper Losers' Bracket
-50101	Lower Losers' Bracket	Lower Losers' Bracket
 50102	1-2	1-2
 50103	3-4	3-4
 50104	5-6	5-6
-50105	7-8 Players	7-8 Players
-50106	Advance	Advance
-50107	Demote	Demote
-50109	Distance Until the Next Preliminaries Begin:	Distance Until the Next Preliminaries Begin:
-50110	My guild ranking	My guild ranking
-50111	[${1}] Rank ${2}	[${1}] Rank ${2}
-50112	Group ${1}	Group ${1}
-50113	Deliver the Flag:	Deliver the Flag:
-50114	Capture the Flag!	Capture the Flag!
-50115	Defend the Flag!	Defend the Flag!
-50116	Transport the Flag	Transport the Flag
-50117	Defeat the Boss	Defeat the Boss
-50118	My Battle Report	My Battle Report
-50119	Battlefield Honor	Battlefield Honor
-50120	Battleground Stats	Battleground Stats
-50121	Transport the Flag	Transport the Flag
-50122	Capture the Flag	Capture the Flag
-50123	Kill Players	Kill Players
-50128	Best of the Best	Best of the Best
-50129	Top Three Overall	Top Three Overall
-50130	Absolute Advantage	Absolute Advantage
-50131	Rank Among the Best	Rank Among the Best
-50132	Go to Guild Battle Report	Go to Guild Battle Report
-50133	Previous	Previous
-50134	Honor	Honor
-50135	Data	Data
-50136	Victory	Victory
 50137	Water	Water
 50138	Mountain	Mountain
 50139	Fire	Fire
-50140	Codex Stat Overview	Codex Stat Overview
-50141	Total Points	Total Points
-50142	Kill Boss	Kill Boss
-50143	Kill the Guard	Kill the Guard
-50144	Capture the Flag	Capture the Flag
-50145	Defend the Flag	Defend the Flag
-50146	This match has ended.	This match has ended.
-50147	No Members have made the rankings yet. Keep trying!	No Members have made the rankings yet. Keep trying!
-50148	Divine Assist	Divine Assist
-50149	More Honor	More Honor
-50150	Killing Spree	Killing Spree
-50151	Divine Assist	Divine Assist
-50152	Protecting	Protecting
-50153	Eliminations	Eliminations
-50154	Semifinals	Semifinals
-50155	Grand Finals	Grand Finals
-50156	Preliminaries-Semifinals	Preliminaries-Semifinals
-50157	Placement Criteria:	Placement Criteria:
-50158	Initial placement is based on Guild Member strength.	Initial placement is based on Guild Member strength.
-50159	The next season's tier is determined by the previous season's results.	The next season's tier is determined by the previous season's results.
-50160	Main Battlefield	Main Battlefield
-50161	Sub-Battlefield	Sub-Battlefield
-50162	Individual Victory Rewards	Individual Victory Rewards
-50163	Victory Auction Rewards	Victory Auction Rewards
-50164	Individual Loss Reward	Individual Loss Reward
-50165	Failed Auction Rewards	Failed Auction Rewards
-50166	Flag Delivered Successfully	Flag Delivered Successfully
-50167	Battleground Rating	Battleground Rating
-50168	Total Score:	Total Score:
-50169	Next	Next
-50170	No Members on the Rankings Yet	No Members on the Rankings Yet
-50171	Peerless	Peerless
-50172	Terminate	Terminate
-50173	Enter the League.	Enter the League.
-50174	Match has ended	Match has ended
-50175	Battleground Info	Battleground Info
-50176	Group Rank	Group Rank
-50177	Auto-Register for Next Round	Auto-Register for Next Round
-50178	Registration Condition	Registration Condition
-50179	Sign Up	Sign Up
-50180	Your guild hasn't registered, so you can't participate.	Your guild hasn't registered, so you can't participate.
-50181	Points Match	Points Match
-50182	Current Points	Current Points
-50183	Warzone Ranking	Warzone Ranking
-50184	Highest Win Streak	Highest Win Streak
-50185	Season Ranking Rewards will be sent via mail.	Season Ranking Rewards will be sent via mail.
 50186	Locate Match	Locate Match
-50187	First Match	First Match
-50188	Round 2	Round 2
-50189	Round 3	Round 3
-50190	TBD	TBD
 50191	Season points and rankings can be viewed after the Locate Matches end.	Season points and rankings can be viewed after the Locate Matches end.
-50194	Boss Appeared	Boss Appeared
 10100000000	Cumulative quest	Cumulative quest
 10100000001	Daily Quest	Daily Quest
 10100000002	Challenge Quests	Challenge Quests
@@ -24485,96 +23749,13 @@
 10060100031	High Wizard	High Wizard
 10060100032	Warlock	Warlock
 61999	War of Emperium Entrance	War of Emperium Entrance
-62000	Profile	Profile
-62001	Adventure History	Adventure History
-62002	Card Display	Card Display
-62003	Book Display	Book Display
-62004	Card Collection Progress: ${1}/${2}	Card Collection Progress: ${1}/${2}
-62005	Collection Level: Lv.${1}	Collection Level: Lv.${1}
-62006	Guild:	Guild:
-62007	Server:	Server:
-62008	No Books	No Books
-62009	Like History	Like History
-62010	Details	Details
-62012	Basic Editing	Basic Editing
-62013	Portrait Frame	Portrait Frame
-62014	Theme	Theme
-62015	Portrait Frame	Portrait Frame
-62017	Location	Location
-62018	Display Case	Display Case
-62023	Expand	Expand
-62024	Hide	Hide
-62027	Applied: ${1}/${2}	Applied: ${1}/${2}
-62028	Displayed: ${1}/${2}	Displayed: ${1}/${2}
-62029	Enter a book title	Enter a book title
-62030	Show Unread Only	Show Unread Only
-62031	Background	Background
-62032	Character	Character
-62034	Stickers	Stickers
-62035	The display case limit has been reached. Deselect another one first.	The display case limit has been reached. Deselect another one first.
-62037	Myself	Myself
-62038	You're liking too frequently. Please try again later.	You're liking too frequently. Please try again later.
-62039	Player Limit ${1}/${2}	Player Limit ${1}/${2}
-62040	No likes yet	No likes yet
-62041	Unfortunately, the Friend Function is broken.	Unfortunately, the Friend Function is broken.
-62042	Can be borrowed when Affection reaches ${1}. Current Affection: ${2}	Can be borrowed when Affection reaches ${1}. Current Affection: ${2}
-62043	Increase Affinity	Increase Affinity
-62044	Borrow Books	Borrow Books
-62045	Already Read	Already Read
-62046	Show	Show
-62048	Current Preset saved	Current Preset saved
-62049	Reset Confirmation	Reset Confirmation
-62050	No actions to restore	No actions to restore
-62051	Your edits haven't been saved. Are you sure you want to revert and clear all changes?	Your edits haven't been saved. Are you sure you want to revert and clear all changes?
-62052	Not Enough Stickers	Not Enough Stickers
-62053	Reading this chapter...	Reading this chapter...
-62054	You can't like your own post.	You can't like your own post.
 62056	Peak Season	Peak Season
-62057	Titleless	Titleless
-62058	This person is lazy and didn't leave anything behind.	This person is lazy and didn't leave anything behind.
 62059	UID：${1}	UID：${1}
 62060	Base	Base
 62061	Job	Job
-62063	General Stats	General Stats
-62064	Special	Special
-62065	Set Template	Set Template
-62067	Default Template 1	Default Template 1
-62068	Default Template 2	Default Template 2
-62069	Default Template 3	Default Template 3
-62070	Select Mood	Select Mood
-62071	Switch Template	Switch Template
-62072	Friend request sent.	Friend request sent.
-62073	Rename Template	Rename Template
 62074	${1}/${2}	${1}/${2}
-62075	Click to enter a template name	Click to enter a template name
-62076	Unsaved Settings	Unsaved Settings
-62077	Save the current settings to preset [${1}]?	Save the current settings to preset [${1}]?
-62078	You can't add any more Stickers.	You can't add any more Stickers.
-62079	Input cannot be empty.	Input cannot be empty.
-62080	Edit Personal Signature	Edit Personal Signature
-62081	Tap to enter a personal message	Tap to enter a personal message
 62084	<color=#887968>${1}</color>/${2}	<color=#887968>${1}</color>/${2}
-62085	My Book Collection	My Book Collection
-62086	${1}'s Book Collection	${1}'s Book Collection
-62087	My Card Album	My Card Album
-62088	${1}'s Card Album	${1}'s Card Album
-62089	${1}'s Profile	${1}'s Profile
-62090	You've already liked this.	You've already liked this.
-62091	Me - Profile	Me - Profile
-62092	Available to Borrow	Available to Borrow
-62093	Template Editor - [${1}]	Template Editor - [${1}]
-62094	The text contains sensitive language.	The text contains sensitive language.
-62095	Character limit exceeded	Character limit exceeded
-62096	Couldn't find the card, lu!	Couldn't find the card, lu!
 62098	${1}	${1}
-62099	Fashion	Fashion
-62100	Popularity	Popularity
-62101	Function locked	Function locked
-62102	This player has not unlocked the Profile Function yet.	This player has not unlocked the Profile Function yet.
-62103	Cannot be placed outside the Safe Zone. Please reposition it.	Cannot be placed outside the Safe Zone. Please reposition it.
-62104	Select Theme	Select Theme
-62105	Owned by Default	Owned by Default
-62106	Select Template	Select Template
 10110300967	Can only be used while riding a Demonic Wolf. Command the Demonic Wolf to bite @{2} designated targets within @{1} meters, dealing x% Neutral Physical damage and reducing their healing received by @{3}% for @{4} seconds. Damage dealt to controlled targets is increased by @{5}%.	Can only be used while riding a Demonic Wolf. Command the Demonic Wolf to bite @{2} designated targets within @{1} meters, dealing x% Neutral Physical damage and reducing their healing received by @{3}% for @{4} seconds. Damage dealt to controlled targets is increased by @{5}%.
 10110300975	Stores ^{3}@{2}^{4} stacks every ^{1}@{1}^{2} sec, up to ^{5}@{3}^{6} stacks. Locks onto an enemy within @{4} m and teleports to a position @{5} m in front of the target, ^{7}slowing^{8} them by @{6}% for @{7} sec and dealing ^{9}@{8}%^{10} * Physical ATK as Neutral Physical damage. Immediately gains @{9} Blade stacks, and increases the blade count * and damage of the next Cross Ripper Slasher by ^{11}@{10}%^{12}	Stores ^{3}@{2}^{4} stacks every ^{1}@{1}^{2} sec, up to ^{5}@{3}^{6} stacks. Locks onto an enemy within @{4} m and teleports to a position @{5} m in front of the target, ^{7}slowing^{8} them by @{6}% for @{7} sec and dealing ^{9}@{8}%^{10} * Physical ATK as Neutral Physical damage. Immediately gains @{9} Blade stacks, and increases the blade count * and damage of the next Cross Ripper Slasher by ^{11}@{10}%^{12}
 10110301061	Plant timed Dynamite on a designated ST enemy within ${1} meters. After ${2} seconds, deal Physical ATK * ^{1}${5}%^{2} Poison ranged Physical damage that ignores FLEE to the designated enemy and up to ${4} other enemies within a ${3}-meter radius, and inflict 【^{3}^{4}【Poisoned】^{5}^{6} damage on the target.	Plant timed Dynamite on a designated ST enemy within ${1} meters. After ${2} seconds, deal Physical ATK * ^{1}${5}%^{2} Poison ranged Physical damage that ignores FLEE to the designated enemy and up to ${4} other enemies within a ${3}-meter radius, and inflict 【^{3}^{4}【Poisoned】^{5}^{6} damage on the target.
