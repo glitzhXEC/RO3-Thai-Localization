@@ -10112,31 +10112,31 @@
 160007	Current Rank: <color=#B05142>${1}</color>	Current Rank: <color=#B05142>${1}</color>
 160008	At Season Settlement, if you remain at rank ${1}, you will receive the following rewards.	At Season Settlement, if you remain at rank ${1}, you will receive the following rewards.
 160009	Battle Merit	Battle Merit
-29000	Completed <color=#c27b47>${1}</color> Trophies	Completed <color=#c27b47>${1}</color> Trophies
-29001	Trophy Journey	Trophy Journey
-29002	${1} Adventure Begins! Today is day <color=#c27b47>${2}</color> of your adventure!	${1} Adventure Begins! Today is day <color=#c27b47>${2}</color> of your adventure!
-29003	Achievement Level Rewards	Achievement Level Rewards
-29004	Achievement Level	Achievement Level
-29005	Trophy Points	Trophy Points
+29000	Completed <color=#c27b47>${1}</color> Trophies	ทำถ้วยรางวัลสำเร็จแล้ว <color=#c27b47>${1}</color> รายการ
+29001	Trophy Journey	เส้นทางถ้วยรางวัล
+29002	${1} Adventure Begins! Today is day <color=#c27b47>${2}</color> of your adventure!	${1} เริ่มการผจญภัย! วันนี้เป็นวันที่ <color=#c27b47>${2}</color> ของการผจญภัยของคุณ!
+29003	Achievement Level Rewards	รางวัลระดับความสำเร็จ
+29004	Achievement Level	ระดับความสำเร็จ
+29005	Trophy Points	แต้มถ้วยรางวัล
 29006	Rewards	รางวัล
-29007	Next Level	Next Level
+29007	Next Level	ระดับถัดไป
 29008	Complete	เสร็จสิ้น
-29009	Trophies Achieved: <#c27b47>${1}</color>/${2}	Trophies Achieved: <#c27b47>${1}</color>/${2}
+29009	Trophies Achieved: <#c27b47>${1}</color>/${2}	ถ้วยรางวัลที่ทำสำเร็จ: <#c27b47>${1}</color>/${2}
 29010	Claim All	รับทั้งหมด
-29011	Players Completed: ${1}	Players Completed: ${1}
-29012	Hidden Trophy	Hidden Trophy
-29013	(Trophy Series)	(Trophy Series)
-29014	(Multiple Conditions)	(Multiple Conditions)
-29015	${1} Trophy Category Level Rewards	${1} Trophy Category Level Rewards
-29016	Trophy Level-up	Trophy Level-up
-29017	${1} Trophy Level-up	${1} Trophy Level-up
+29011	Players Completed: ${1}	ผู้เล่นที่ทำสำเร็จ: ${1}
+29012	Hidden Trophy	ถ้วยรางวัลลับ
+29013	(Trophy Series)	(ชุดถ้วยรางวัล)
+29014	(Multiple Conditions)	(หลายเงื่อนไข)
+29015	${1} Trophy Category Level Rewards	รางวัลระดับหมวดถ้วยรางวัล ${1}
+29016	Trophy Level-up	เพิ่มระดับถ้วยรางวัล
+29017	${1} Trophy Level-up	เพิ่มระดับถ้วยรางวัล ${1}
 29018	Claim	รับ
 29019	<#c27b47>${1}</color>/${2}	<#c27b47>${1}</color>/${2}
 29020	<#c27b47>${1}</color>/${2}	<#c27b47>${1}</color>/${2}
-29021	Trophy	Trophy
-29022	Players Completed	Players Completed
+29021	Trophy	ถ้วยรางวัล
+29022	Players Completed	ผู้เล่นที่ทำสำเร็จ
 29023	<#c27b47>${1}</color>/${2}	<#c27b47>${1}</color>/${2}
-29024	Gain achievement	Gain achievement
+29024	Gain achievement	ได้รับความสำเร็จ
 10800100000	^{1}^{2}【Turn Undead】^{3}^{4}'s percentage-based damage multiplier increases by ${1}%, and its fixed damage increases by ${2}.	ตัวคูณความเสียหายแบบเปอร์เซ็นต์ของ ^{1}^{2}[ Turn Undead ]^{3}^{4} เพิ่มขึ้น ${1}% และความเสียหายจริงเพิ่มขึ้น ${2}
 10800100001	When ^{1}^{2}【Turn Undead】^{3}^{4} hits an enemy, it deals ${1} Extra hit(s) of Ranged Holy Magic damage equal to MATK * ${2}% + ${3}. Internal Cooldown: ${4} sec.	เมื่อ ^{1}^{2}[ Turn Undead ]^{3}^{4} โจมตีถูกศัตรู จะสร้างดาเมจเวทระยะไกลธาตุ Holy เพิ่มเติม ${1} ครั้ง เท่ากับ M.ATK * ${2}% + ${3} CD ภายใน: ${4} วินาที
 10800100002	^{1}^{2}[Turn Undead]^{3}^{4} infuses the ground with holy light upon hitting an enemy, dealing MATK*${3}%+${4} Holy Ranged Magic damage to the enemy and up to ${2} enemies within a ${1}-meter radius. Internal Cooldown: ${5} seconds.	^{1}^{2}[ Turn Undead ]^{3}^{4} แผ่แสงศักดิ์สิทธิ์บนพื้นเมื่อโจมตีถูกศัตรู สร้างดาเมจเวทระยะไกลธาตุ Holy เท่ากับ M.ATK*${3}%+${4} แก่ศัตรูเป้าหมายและศัตรูสูงสุด ${2} ตัว ในรัศมี ${1} เมตร CD ภายใน: ${5} วินาที
@@ -14633,331 +14633,331 @@
 13150100542	Complete Training	Complete Training
 13150100543	New Skills	New Skills
 40000	Pet	สัตว์เลี้ยง
-40001	Formation	Formation
-40002	Search	Search
+40001	Formation	จัดทีม
+40002	Search	ค้นหา
 40003	Filter	ตัวกรอง
 40004	Type	ประเภท
 40005	All	ทั้งหมด
 40006	Rarity	ความหายาก
 40007	Stats	ค่าสถานะ
-40008	Attack-type	Attack-type
-40009	Defender	Defender
-40010	Support	Support
+40008	Attack-type	ประเภทโจมตี
+40009	Defender	ผู้ป้องกัน
+40010	Support	สนับสนุน
 40011	SP	SP
 40012	S	S
 40013	A	A
 40014	B	B
-40015	Normal Attack	Normal Attack
-40016	Passive	Passive
-40017	Primary Battle Skill	Primary Battle Skill
-40018	Activated Stats	Activated Stats
-40019	Unlock	Unlock
-40020	Details	Details
+40015	Normal Attack	โจมตีปกติ
+40016	Passive	พาสซีฟ
+40017	Primary Battle Skill	สกิลต่อสู้หลัก
+40018	Activated Stats	ค่าสถานะที่เปิดใช้งาน
+40019	Unlock	ปลดล็อก
+40020	Details	รายละเอียด
 40021	Deploy	จัดลงสนาม
 40022	Assist	ช่วยเหลือ
-40023	Deployed	Deployed
-40024	Supporting	Supporting
+40023	Deployed	ลงสนามแล้ว
+40024	Supporting	กำลังช่วยเหลือ
 40025	Locked	ยังไม่ปลดล็อก
-40026	Can be unlocked	Can be unlocked
-40027	Not enough items to unlock.	Not enough items to unlock.
-40028	Pet unlocked	Pet unlocked
+40026	Can be unlocked	ปลดล็อกได้
+40027	Not enough items to unlock.	ไอเทมไม่เพียงพอสำหรับปลดล็อก
+40028	Pet unlocked	ปลดล็อกสัตว์เลี้ยงแล้ว
 40029	Level-up	เพิ่มระดับ
-40030	Advance	Advance
-40031	Respawn	Respawn
-40032	Level Increased	Level Increased
-40033	Gain 1 Level	Gain 1 Level
-40034	Gain 10 Levels	Gain 10 Levels
-40035	After unlocking a pet, activate its Codex entry to gain a global stat bonus.	After unlocking a pet, activate its Codex entry to gain a global stat bonus.
-40036	Active Effect	Active Effect
-40037	Support Effect	Support Effect
+40030	Advance	เลื่อนขั้น
+40031	Respawn	คืนค่าสัตว์เลี้ยง
+40032	Level Increased	เพิ่มระดับแล้ว
+40033	Gain 1 Level	เพิ่ม 1 ระดับ
+40034	Gain 10 Levels	เพิ่ม 10 ระดับ
+40035	After unlocking a pet, activate its Codex entry to gain a global stat bonus.	หลังปลดล็อกสัตว์เลี้ยง ให้เปิดใช้รายการในสารานุกรมเพื่อรับโบนัสค่าสถานะโดยรวม
+40036	Active Effect	เอฟเฟกต์เมื่อลงสนาม
+40037	Support Effect	เอฟเฟกต์สนับสนุน
 40038	Current	ปัจจุบัน
-40039	Next Star Level	Next Star Level
-40040	After Unlocking	After Unlocking
-40041	Utility-slot pets activate Passive Skills\nOnly 1 core Passive Skill can be active at a time	Utility-slot pets activate Passive Skills\nOnly 1 core Passive Skill can be active at a time
-40042	Can be used when the pet is in the primary battle slot	Can be used when the pet is in the primary battle slot
-40043	Unlock pets to gain stat bonuses.	Unlock pets to gain stat bonuses.
-40044	Pet Level-up Info	Pet Level-up Info
-40045	1. A pet's level cannot exceed the Adventurer's level.\n2. Tap the Level-up button to automatically raise the pet to the specified level. Lower-quality Pet EXP Books will be consumed first.\n3. If the Pet EXP Books consumed provide more EXP than required for the Level-up, the excess will be converted into Pet EXP Books of equivalent value.	1. A pet's level cannot exceed the Adventurer's level.\n2. Tap the Level-up button to automatically raise the pet to the specified level. Lower-quality Pet EXP Books will be consumed first.\n3. If the Pet EXP Books consumed provide more EXP than required for the Level-up, the excess will be converted into Pet EXP Books of equivalent value.
+40039	Next Star Level	ระดับดาวถัดไป
+40040	After Unlocking	หลังปลดล็อก
+40041	Utility-slot pets activate Passive Skills\nOnly 1 core Passive Skill can be active at a time	สัตว์เลี้ยงในช่องเสริมจะเปิดใช้สกิลพาสซีฟ\nสกิลพาสซีฟหลักทำงานได้เพียง 1 สกิลในแต่ละครั้ง
+40042	Can be used when the pet is in the primary battle slot	ใช้ได้เมื่อสัตว์เลี้ยงอยู่ในช่องต่อสู้หลัก
+40043	Unlock pets to gain stat bonuses.	ปลดล็อกสัตว์เลี้ยงเพื่อรับโบนัสค่าสถานะ
+40044	Pet Level-up Info	ข้อมูลการเพิ่มระดับสัตว์เลี้ยง
+40045	1. A pet's level cannot exceed the Adventurer's level.\n2. Tap the Level-up button to automatically raise the pet to the specified level. Lower-quality Pet EXP Books will be consumed first.\n3. If the Pet EXP Books consumed provide more EXP than required for the Level-up, the excess will be converted into Pet EXP Books of equivalent value.	1. ระดับสัตว์เลี้ยงต้องไม่เกินระดับนักผจญภัย\n2. แตะปุ่มเพิ่มระดับเพื่อเพิ่มระดับสัตว์เลี้ยงถึงระดับที่กำหนดโดยอัตโนมัติ จะใช้หนังสือ EXP สัตว์เลี้ยงคุณภาพต่ำก่อน\n3. หากหนังสือ EXP สัตว์เลี้ยงที่ใช้ให้ EXP มากกว่าที่ต้องใช้เพิ่มระดับ ส่วนเกินจะถูกแปลงเป็นหนังสือ EXP สัตว์เลี้ยงที่มีมูลค่าเท่ากัน
 40046	Obtain	ได้รับ
-40047	Pet Not Unlocked	Pet Not Unlocked
-40048	Cannot perform this action during combat.	Cannot perform this action during combat.
-40049	Maximum level reached	Maximum level reached
-40050	Leveled up	Leveled up
-40051	Confirm Pet Respawn?\nRespawn resets the Pet to <color=#b99556>Lv. 1</color> and Returns all Level-up Materials. Return list:	Confirm Pet Respawn?\nRespawn resets the Pet to <color=#b99556>Lv. 1</color> and Returns all Level-up Materials. Return list:
-40052	Cannot Respawn a pet while it is deployed or assisting.	Cannot Respawn a pet while it is deployed or assisting.
-40053	Cannot Respawn during combat.	Cannot Respawn during combat.
-40054	Pet must be unlocked and complete a Level-up before it can Respawn.	Pet must be unlocked and complete a Level-up before it can Respawn.
-40055	Backpack is full	Backpack is full
-40056	Pet has Respawned	Pet has Respawned
-40057	Pet not yet unlocked	Pet not yet unlocked
-40058	Not enough items to unlock.	Not enough items to unlock.
-40059	Pet unlocked	Pet unlocked
-40060	Takes effect when deployed for battle or support	Takes effect when deployed for battle or support
-40061	Rank Up	Rank Up
-40062	Not enough materials. Please obtain the required materials first.	Not enough materials. Please obtain the required materials first.
-40063	Promotion succeeded!	Promotion succeeded!
-40064	Advancing Success	Advancing Success
-40065	Tap anywhere to close.	Tap anywhere to close.
-40066	Max star level reached. Extra shards can be dismantled.	Max star level reached. Extra shards can be dismantled.
-40067	Go to Dismantle	Go to Dismantle
-40068	Pet Shard Dismantling	Pet Shard Dismantling
-40069	Dismantle to receive	Dismantle to receive
-40070	Quick Select	Quick Select
-40071	Dismantle	Dismantle
-40072	No Pet Shards available to dismantle	No Pet Shards available to dismantle
-40073	Dismantled successfully.	Dismantled successfully.
-40074	Limit	Limit
-40075	Primary Battle Skill	Primary Battle Skill
-40076	Activates the Main Battle Skill of the pet in the Main Battle slot.	Activates the Main Battle Skill of the pet in the Main Battle slot.
+40047	Pet Not Unlocked	สัตว์เลี้ยงยังไม่ปลดล็อก
+40048	Cannot perform this action during combat.	ไม่สามารถดำเนินการนี้ระหว่างต่อสู้ได้
+40049	Maximum level reached	ถึงระดับสูงสุดแล้ว
+40050	Leveled up	เพิ่มระดับแล้ว
+40051	Confirm Pet Respawn?\nRespawn resets the Pet to <color=#b99556>Lv. 1</color> and Returns all Level-up Materials. Return list:	ยืนยันการคืนค่าสัตว์เลี้ยงหรือไม่?\nการคืนค่าจะรีเซ็ตสัตว์เลี้ยงเป็น <color=#b99556>Lv. 1</color> และคืนวัสดุเพิ่มระดับทั้งหมด รายการคืน:
+40052	Cannot Respawn a pet while it is deployed or assisting.	ไม่สามารถคืนค่าสัตว์เลี้ยงขณะลงสนามหรือช่วยเหลือได้
+40053	Cannot Respawn during combat.	ไม่สามารถคืนค่าสัตว์เลี้ยงระหว่างต่อสู้ได้
+40054	Pet must be unlocked and complete a Level-up before it can Respawn.	สัตว์เลี้ยงต้องปลดล็อกและเพิ่มระดับแล้วจึงจะคืนค่าได้
+40055	Backpack is full	กระเป๋าเต็ม
+40056	Pet has Respawned	คืนค่าสัตว์เลี้ยงแล้ว
+40057	Pet not yet unlocked	สัตว์เลี้ยงยังไม่ปลดล็อก
+40058	Not enough items to unlock.	ไอเทมไม่เพียงพอสำหรับปลดล็อก
+40059	Pet unlocked	ปลดล็อกสัตว์เลี้ยงแล้ว
+40060	Takes effect when deployed for battle or support	มีผลเมื่อลงสนามต่อสู้หรือสนับสนุน
+40061	Rank Up	เพิ่มอันดับ
+40062	Not enough materials. Please obtain the required materials first.	วัสดุไม่เพียงพอ โปรดหาวัสดุที่ต้องใช้ก่อน
+40063	Promotion succeeded!	เลื่อนขั้นสำเร็จ!
+40064	Advancing Success	เลื่อนขั้นสำเร็จ
+40065	Tap anywhere to close.	แตะที่ใดก็ได้เพื่อปิด
+40066	Max star level reached. Extra shards can be dismantled.	ถึงระดับดาวสูงสุดแล้ว สามารถแยกชิ้นส่วนเศษที่เกินได้
+40067	Go to Dismantle	ไปแยกชิ้นส่วน
+40068	Pet Shard Dismantling	แยกชิ้นส่วนเศษสัตว์เลี้ยง
+40069	Dismantle to receive	แยกชิ้นส่วนเพื่อรับ
+40070	Quick Select	เลือกอย่างรวดเร็ว
+40071	Dismantle	แยกชิ้นส่วน
+40072	No Pet Shards available to dismantle	ไม่มีเศษสัตว์เลี้ยงให้แยกชิ้นส่วน
+40073	Dismantled successfully.	แยกชิ้นส่วนสำเร็จ
+40074	Limit	ขีดจำกัด
+40075	Primary Battle Skill	สกิลต่อสู้หลัก
+40076	Activates the Main Battle Skill of the pet in the Main Battle slot.	เปิดใช้สกิลต่อสู้หลักของสัตว์เลี้ยงในช่องต่อสู้หลัก
 40077	Inactive	ไม่ใช้งาน
-40078	Stat Overview	Stat Overview
-40079	Click to open the Pet List	Click to open the Pet List
-40080	Primary Battle Slot	Primary Battle Slot
-40081	Utility Slot 1	Utility Slot 1
-40082	Utility Slot 2	Utility Slot 2
-40083	Utility Slot 3	Utility Slot 3
-40084	Pet ${1} has switched from Support to Active.	Pet ${1} has switched from Support to Active.
-40085	Pet ${1} has switched from active to support.	Pet ${1} has switched from active to support.
-40086	Slot not unlocked	Slot not unlocked
-40087	Maximum deployment reached	Maximum deployment reached
-40088	Assist cap reached	Assist cap reached
-40089	Up to ${1} ${2} can be deployed at once.	Up to ${1} ${2} can be deployed at once.
-40090	Slot unlocks at Lv. ${1}	Slot unlocks at Lv. ${1}
-40091	Lineup Stat Bonuses	Lineup Stat Bonuses
-40092	Adds 6.9% of the deployed pet's stats to the Adventurer	Adds 6.9% of the deployed pet's stats to the Adventurer
-40093	Stat Bonus Overview	Stat Bonus Overview
-40094	Total Power Bonus	Total Power Bonus
-40095	Pet Search	Pet Search
-40096	Normal Hatch	Normal Hatch
-40097	Advanced Hatch	Advanced Hatch
-40098	Search:	Search:
-40099	Guaranteed S-Rank or higher	Guaranteed S-Rank or higher
-40100	Beginner Benefits	Beginner Benefits
-40101	S-Class Pet guaranteed after ${1} Hatches	S-Class Pet guaranteed after ${1} Hatches
-40102	Free This Time	Free This Time
-40103	Not enough <sprite name="${1}"> <#cc762a>X${2}</color>. Spend <sprite name="${3}"><#cc762a>${4}</color> to purchase?	Not enough <sprite name="${1}"> <#cc762a>X${2}</color>. Spend <sprite name="${3}"><#cc762a>${4}</color> to purchase?
-40104	Prize Pool Preview	Prize Pool Preview
+40078	Stat Overview	ภาพรวมค่าสถานะ
+40079	Click to open the Pet List	คลิกเพื่อเปิดรายชื่อสัตว์เลี้ยง
+40080	Primary Battle Slot	ช่องต่อสู้หลัก
+40081	Utility Slot 1	ช่องเสริม 1
+40082	Utility Slot 2	ช่องเสริม 2
+40083	Utility Slot 3	ช่องเสริม 3
+40084	Pet ${1} has switched from Support to Active.	สัตว์เลี้ยง ${1} เปลี่ยนจากสนับสนุนเป็นลงสนามแล้ว
+40085	Pet ${1} has switched from active to support.	สัตว์เลี้ยง ${1} เปลี่ยนจากลงสนามเป็นสนับสนุนแล้ว
+40086	Slot not unlocked	ช่องยังไม่ปลดล็อก
+40087	Maximum deployment reached	ถึงจำนวนลงสนามสูงสุดแล้ว
+40088	Assist cap reached	ถึงขีดจำกัดช่วยเหลือแล้ว
+40089	Up to ${1} ${2} can be deployed at once.	ลงสนามได้สูงสุด ${1} ${2} พร้อมกัน
+40090	Slot unlocks at Lv. ${1}	ช่องปลดล็อกที่ Lv. ${1}
+40091	Lineup Stat Bonuses	โบนัสค่าสถานะจากการจัดทีม
+40092	Adds 6.9% of the deployed pet's stats to the Adventurer	เพิ่มค่าสถานะให้นักผจญภัยเท่ากับ 6.9% ของค่าสถานะสัตว์เลี้ยงที่ลงสนาม
+40093	Stat Bonus Overview	ภาพรวมโบนัสค่าสถานะ
+40094	Total Power Bonus	โบนัสพลังรวม
+40095	Pet Search	ค้นหาสัตว์เลี้ยง
+40096	Normal Hatch	ฟักปกติ
+40097	Advanced Hatch	ฟักขั้นสูง
+40098	Search:	ค้นหา:
+40099	Guaranteed S-Rank or higher	การันตีอันดับ S ขึ้นไป
+40100	Beginner Benefits	สิทธิประโยชน์ผู้เริ่มต้น
+40101	S-Class Pet guaranteed after ${1} Hatches	การันตีสัตว์เลี้ยงระดับ S หลังฟัก ${1} ครั้ง
+40102	Free This Time	ครั้งนี้ฟรี
+40103	Not enough <sprite name="${1}"> <#cc762a>X${2}</color>. Spend <sprite name="${3}"><#cc762a>${4}</color> to purchase?	มี <sprite name="${1}"> <#cc762a>X${2}</color> ไม่เพียงพอ ใช้ <sprite name="${3}"><#cc762a>${4}</color> เพื่อซื้อหรือไม่?
+40104	Prize Pool Preview	ตัวอย่างรางวัลในพูล
 40105	Items	ไอเทม
-40106	Chance Disclosure	Chance Disclosure
-40107	Chance of a Complete S-Rank Pet: 3%\nChance of an S-Rank Pet Shard: 37%\nChance of a Pet EXP Book: 60%	Chance of a Complete S-Rank Pet: 3%\nChance of an S-Rank Pet Shard: 37%\nChance of a Pet EXP Book: 60%
-40108	Daily Hatch Limit:	Daily Hatch Limit:
-40109	Hatch Once	Hatch Once
-40110	Seek 10 Times	Seek 10 Times
-40111	Skip Animation	Skip Animation
-40112	Auto-Purchase	Auto-Purchase
-40113	Prize Pool	Prize Pool
+40106	Chance Disclosure	รายละเอียดโอกาสได้รับ
+40107	Chance of a Complete S-Rank Pet: 3%\nChance of an S-Rank Pet Shard: 37%\nChance of a Pet EXP Book: 60%	โอกาสได้รับสัตว์เลี้ยงอันดับ S แบบสมบูรณ์: 3%\nโอกาสได้รับเศษสัตว์เลี้ยงอันดับ S: 37%\nโอกาสได้รับหนังสือ EXP สัตว์เลี้ยง: 60%
+40108	Daily Hatch Limit:	จำนวนฟักสูงสุดต่อวัน:
+40109	Hatch Once	ฟักหนึ่งครั้ง
+40110	Seek 10 Times	ค้นหา 10 ครั้ง
+40111	Skip Animation	ข้ามแอนิเมชัน
+40112	Auto-Purchase	ซื้ออัตโนมัติ
+40113	Prize Pool	พูลรางวัล
 40114	Shop	ร้านค้า
-40115	Swipe Through the Grass to Find Pets	Swipe Through the Grass to Find Pets
-40116	Skip	Skip
+40115	Swipe Through the Grass to Find Pets	ปัดผ่านพงหญ้าเพื่อค้นหาสัตว์เลี้ยง
+40116	Skip	ข้าม
 40117	NEW	NEW
-40118	Tap a blank area to continue	Tap a blank area to continue
-40119	Congrats on Obtaining	Congrats on Obtaining
-40120	Repeat pets will automatically be dismantled into Pet Shards	Repeat pets will automatically be dismantled into Pet Shards
-40121	Receive	Receive
-40122	You've reached today's search limit.	You've reached today's search limit.
-40123	Pet Basics\n1. Unlock pets through Pet Search or by collecting enough shards.\n2. Use EXP Books to Level-up pets. Respawn refunds all EXP Books used for Level-up and resets the pet to Lv. 1.\n3. A pet's base stats are determined by its level and growth rate.\n\nPet Skills\n1. Combat Skill: An active Pet Skill that can be used after the pet enters battle in modes such as Pet Tower.\n2. Passive Skill: A Pet Skill that takes effect when the pet is assigned to a Utility slot.\n3. Main Skill: A Pet Skill that the Adventurer can manually use in battle while the pet is assigned to the main slot.\n4. Stat Activation Skill: A Pet Skill that grants the Adventurer permanent stat bonuses once the pet is unlocked, even when the pet is not deployed.\n\nPet Rank and Star Level\n1. Every 3 pet Rank Ups increases its star level by 1.\n2. Ranking up a pet increases its growth rate.\n3. Increasing a pet's star level raises the star level of its Main, Passive, and Stat Activation Skills. Higher-star skills provide stronger effects.\n	Pet Basics\n1. Unlock pets through Pet Search or by collecting enough shards.\n2. Use EXP Books to Level-up pets. Respawn refunds all EXP Books used for Level-up and resets the pet to Lv. 1.\n3. A pet's base stats are determined by its level and growth rate.\n\nPet Skills\n1. Combat Skill: An active Pet Skill that can be used after the pet enters battle in modes such as Pet Tower.\n2. Passive Skill: A Pet Skill that takes effect when the pet is assigned to a Utility slot.\n3. Main Skill: A Pet Skill that the Adventurer can manually use in battle while the pet is assigned to the main slot.\n4. Stat Activation Skill: A Pet Skill that grants the Adventurer permanent stat bonuses once the pet is unlocked, even when the pet is not deployed.\n\nPet Rank and Star Level\n1. Every 3 pet Rank Ups increases its star level by 1.\n2. Ranking up a pet increases its growth rate.\n3. Increasing a pet's star level raises the star level of its Main, Passive, and Stat Activation Skills. Higher-star skills provide stronger effects.\n
-40124	Pet Deployment and Assist\n1. The Adventurer can deploy 4 pets and assign 5 pets to Assist at the same time: 1 Main slot, 3 Utility slots, and 5 Assist slots. These slots are gradually unlocked with each Adventurer Level Increased milestone.\n2. Deploying 3 pets from the same Faction activates that Faction's effect. Each Faction has a different effect.\n3. Deployed pets grant the Adventurer a percentage of their base stats. The percentage differs between deployed and Assist pets.\n4. A pet in the Main slot grants the Adventurer its Main Skill, while a pet in a Utility slot grants the Adventurer its Passive Skill.\n5. Some pets in Utility slots provide a Core Passive with enhanced skill effects. If multiple pets with Core Passives are assigned to Utility slots, only the Core Passive in the lowest-numbered Utility slot takes effect.\n	Pet Deployment and Assist\n1. The Adventurer can deploy 4 pets and assign 5 pets to Assist at the same time: 1 Main slot, 3 Utility slots, and 5 Assist slots. These slots are gradually unlocked with each Adventurer Level Increased milestone.\n2. Deploying 3 pets from the same Faction activates that Faction's effect. Each Faction has a different effect.\n3. Deployed pets grant the Adventurer a percentage of their base stats. The percentage differs between deployed and Assist pets.\n4. A pet in the Main slot grants the Adventurer its Main Skill, while a pet in a Utility slot grants the Adventurer its Passive Skill.\n5. Some pets in Utility slots provide a Core Passive with enhanced skill effects. If multiple pets with Core Passives are assigned to Utility slots, only the Core Passive in the lowest-numbered Utility slot takes effect.\n
-40125	Passive Skills gain ranks when the pet's star rating increases.	Passive Skills gain ranks when the pet's star rating increases.
-40126	The main battle skill's star rating increases when the pet's star rating increases.	The main battle skill's star rating increases when the pet's star rating increases.
-40127	Activated stat skills gain ranks when the pet's star rating increases.	Activated stat skills gain ranks when the pet's star rating increases.
-40128	Passive Skill	Passive Skill
-40129	Activate Attribute Skill	Activate Attribute Skill
-40130	Pet level cannot exceed Adventurer level.	Pet level cannot exceed Adventurer level.
-40131	Not enough Level-up materials	Not enough Level-up materials
-40132	Skill Upgrade	Skill Upgrade
-40133	Novice Pool Draw Rules	Novice Pool Draw Rules
-40134	Standard Summon Pool Rules	Standard Summon Pool Rules
-40135	Limited-Time Rate-Up Summon Rules	Limited-Time Rate-Up Summon Rules
-40136	Core Passive	Core Passive
-40137	Core Passive Effect	Core Passive Effect
-40138	Faction	Faction
-40139	There are currently no Faction effects.	There are currently no Faction effects.
-40140	Faction Combination Attributes	Faction Combination Attributes
-40141	Only the Core Passive effects of pets in lower-numbered Utility slots take effect.	Only the Core Passive effects of pets in lower-numbered Utility slots take effect.
-40142	Deployed Pet ${1}	Deployed Pet ${1}
-40143	Deploy 3 pets from the same Faction to activate the Faction bonus.	Deploy 3 pets from the same Faction to activate the Faction bonus.
-40144	Only 1 Core Passive effect can be active at a time.	Only 1 Core Passive effect can be active at a time.
-40145	Summon <color=#fdab5b><size=36>${1}</size></color>/${2} times to guarantee an S-rank pet	Summon <color=#fdab5b><size=36>${1}</size></color>/${2} times to guarantee an S-rank pet
-40146	Guaranteed S-Rank Pet within ${1} summons	Guaranteed S-Rank Pet within ${1} summons
+40118	Tap a blank area to continue	แตะพื้นที่ว่างเพื่อดำเนินการต่อ
+40119	Congrats on Obtaining	ยินดีด้วยที่ได้รับ
+40120	Repeat pets will automatically be dismantled into Pet Shards	สัตว์เลี้ยงซ้ำจะถูกแยกชิ้นส่วนเป็นเศษสัตว์เลี้ยงโดยอัตโนมัติ
+40121	Receive	รับ
+40122	You've reached today's search limit.	ถึงขีดจำกัดการค้นหาของวันนี้แล้ว
+40123	Pet Basics\n1. Unlock pets through Pet Search or by collecting enough shards.\n2. Use EXP Books to Level-up pets. Respawn refunds all EXP Books used for Level-up and resets the pet to Lv. 1.\n3. A pet's base stats are determined by its level and growth rate.\n\nPet Skills\n1. Combat Skill: An active Pet Skill that can be used after the pet enters battle in modes such as Pet Tower.\n2. Passive Skill: A Pet Skill that takes effect when the pet is assigned to a Utility slot.\n3. Main Skill: A Pet Skill that the Adventurer can manually use in battle while the pet is assigned to the main slot.\n4. Stat Activation Skill: A Pet Skill that grants the Adventurer permanent stat bonuses once the pet is unlocked, even when the pet is not deployed.\n\nPet Rank and Star Level\n1. Every 3 pet Rank Ups increases its star level by 1.\n2. Ranking up a pet increases its growth rate.\n3. Increasing a pet's star level raises the star level of its Main, Passive, and Stat Activation Skills. Higher-star skills provide stronger effects.\n	พื้นฐานสัตว์เลี้ยง\n1. ปลดล็อกสัตว์เลี้ยงผ่านการค้นหาสัตว์เลี้ยงหรือรวบรวมเศษให้เพียงพอ\n2. ใช้หนังสือ EXP เพื่อเพิ่มระดับสัตว์เลี้ยง การคืนค่าสัตว์เลี้ยงจะคืนหนังสือ EXP ที่ใช้เพิ่มระดับทั้งหมดและรีเซ็ตสัตว์เลี้ยงเป็น Lv. 1\n3. ค่าสถานะพื้นฐานของสัตว์เลี้ยงขึ้นอยู่กับระดับและอัตราการเติบโต\n\nสกิลสัตว์เลี้ยง\n1. สกิลต่อสู้: สกิลใช้งานของสัตว์เลี้ยงที่ใช้ได้เมื่อสัตว์เลี้ยงเข้าต่อสู้ในโหมดต่าง ๆ เช่น Pet Tower\n2. สกิลพาสซีฟ: สกิลสัตว์เลี้ยงที่มีผลเมื่อสัตว์เลี้ยงอยู่ในช่องเสริม\n3. สกิลหลัก: สกิลสัตว์เลี้ยงที่นักผจญภัยกดใช้เองในการต่อสู้ได้ขณะสัตว์เลี้ยงอยู่ในช่องหลัก\n4. สกิลเปิดใช้ค่าสถานะ: สกิลสัตว์เลี้ยงที่ให้โบนัสค่าสถานะถาวรแก่นักผจญภัยเมื่อปลดล็อกสัตว์เลี้ยง แม้สัตว์เลี้ยงไม่ได้ลงสนาม\n\nอันดับและระดับดาวสัตว์เลี้ยง\n1. การเพิ่มอันดับสัตว์เลี้ยงทุก 3 ครั้งจะเพิ่มระดับดาว 1 ระดับ\n2. การเพิ่มอันดับสัตว์เลี้ยงจะเพิ่มอัตราการเติบโต\n3. การเพิ่มระดับดาวสัตว์เลี้ยงจะเพิ่มระดับดาวของสกิลหลัก สกิลพาสซีฟ และสกิลเปิดใช้ค่าสถานะ สกิลดาวสูงขึ้นจะให้เอฟเฟกต์ที่แข็งแกร่งขึ้น\n
+40124	Pet Deployment and Assist\n1. The Adventurer can deploy 4 pets and assign 5 pets to Assist at the same time: 1 Main slot, 3 Utility slots, and 5 Assist slots. These slots are gradually unlocked with each Adventurer Level Increased milestone.\n2. Deploying 3 pets from the same Faction activates that Faction's effect. Each Faction has a different effect.\n3. Deployed pets grant the Adventurer a percentage of their base stats. The percentage differs between deployed and Assist pets.\n4. A pet in the Main slot grants the Adventurer its Main Skill, while a pet in a Utility slot grants the Adventurer its Passive Skill.\n5. Some pets in Utility slots provide a Core Passive with enhanced skill effects. If multiple pets with Core Passives are assigned to Utility slots, only the Core Passive in the lowest-numbered Utility slot takes effect.\n	การลงสนามและช่วยเหลือของสัตว์เลี้ยง\n1. นักผจญภัยลงสนามสัตว์เลี้ยงได้ 4 ตัวและมอบหมายสัตว์เลี้ยงช่วยเหลือได้ 5 ตัวพร้อมกัน ได้แก่ ช่องหลัก 1 ช่อง ช่องเสริม 3 ช่อง และช่องช่วยเหลือ 5 ช่อง ช่องเหล่านี้ค่อย ๆ ปลดล็อกเมื่อระดับนักผจญภัยถึงเกณฑ์\n2. ลงสนามสัตว์เลี้ยง 3 ตัวจากฝ่ายเดียวกันเพื่อเปิดใช้เอฟเฟกต์ฝ่ายนั้น แต่ละฝ่ายมีเอฟเฟกต์ต่างกัน\n3. สัตว์เลี้ยงที่ลงสนามให้ค่าสถานะพื้นฐานบางส่วนแก่นักผจญภัย สัดส่วนของสัตว์เลี้ยงลงสนามและช่วยเหลือต่างกัน\n4. สัตว์เลี้ยงในช่องหลักให้สกิลหลักแก่นักผจญภัย ส่วนสัตว์เลี้ยงในช่องเสริมให้สกิลพาสซีฟ\n5. สัตว์เลี้ยงบางตัวในช่องเสริมมีพาสซีฟหลักที่เพิ่มประสิทธิภาพสกิล หากจัดสัตว์เลี้ยงที่มีพาสซีฟหลักหลายตัวลงช่องเสริม จะมีผลเฉพาะพาสซีฟหลักในช่องเสริมหมายเลขต่ำที่สุด\n
+40125	Passive Skills gain ranks when the pet's star rating increases.	สกิลพาสซีฟเพิ่มอันดับเมื่อระดับดาวสัตว์เลี้ยงเพิ่มขึ้น
+40126	The main battle skill's star rating increases when the pet's star rating increases.	ระดับดาวสกิลต่อสู้หลักเพิ่มขึ้นเมื่อระดับดาวสัตว์เลี้ยงเพิ่มขึ้น
+40127	Activated stat skills gain ranks when the pet's star rating increases.	สกิลเปิดใช้ค่าสถานะเพิ่มอันดับเมื่อระดับดาวสัตว์เลี้ยงเพิ่มขึ้น
+40128	Passive Skill	สกิลพาสซีฟ
+40129	Activate Attribute Skill	สกิลเปิดใช้ค่าสถานะ
+40130	Pet level cannot exceed Adventurer level.	ระดับสัตว์เลี้ยงต้องไม่เกินระดับนักผจญภัย
+40131	Not enough Level-up materials	วัสดุเพิ่มระดับไม่เพียงพอ
+40132	Skill Upgrade	สกิลอัปเกรด
+40133	Novice Pool Draw Rules	กฎการสุ่มพูลผู้เริ่มต้น
+40134	Standard Summon Pool Rules	กฎพูลอัญเชิญมาตรฐาน
+40135	Limited-Time Rate-Up Summon Rules	กฎอัญเชิญเพิ่มโอกาสแบบจำกัดเวลา
+40136	Core Passive	พาสซีฟหลัก
+40137	Core Passive Effect	เอฟเฟกต์พาสซีฟหลัก
+40138	Faction	ฝ่าย
+40139	There are currently no Faction effects.	ขณะนี้ไม่มีเอฟเฟกต์ฝ่าย
+40140	Faction Combination Attributes	ค่าสถานะการจัดฝ่ายร่วมกัน
+40141	Only the Core Passive effects of pets in lower-numbered Utility slots take effect.	เอฟเฟกต์พาสซีฟหลักมีผลเฉพาะสัตว์เลี้ยงในช่องเสริมหมายเลขต่ำกว่า
+40142	Deployed Pet ${1}	สัตว์เลี้ยงที่ลงสนาม ${1}
+40143	Deploy 3 pets from the same Faction to activate the Faction bonus.	ลงสนามสัตว์เลี้ยง 3 ตัวจากฝ่ายเดียวกันเพื่อเปิดใช้โบนัสฝ่าย
+40144	Only 1 Core Passive effect can be active at a time.	เอฟเฟกต์พาสซีฟหลักทำงานได้เพียง 1 เอฟเฟกต์ในแต่ละครั้ง
+40145	Summon <color=#fdab5b><size=36>${1}</size></color>/${2} times to guarantee an S-rank pet	อัญเชิญ <color=#fdab5b><size=36>${1}</size></color>/${2} ครั้งเพื่อการันตีสัตว์เลี้ยงอันดับ S
+40146	Guaranteed S-Rank Pet within ${1} summons	การันตีสัตว์เลี้ยงอันดับ S ภายใน ${1} ครั้งที่อัญเชิญ
 40147	Get ${1} Off Summons	Get ${1} Off Summons
-40148	Unlock more pets to increase your overall stats	Unlock more pets to increase your overall stats
-40149	Activate Stat Overview	Activate Stat Overview
-40150	No pets are available for battle or support.	No pets are available for battle or support.
-40151	Beginner Hatch Limit:	Beginner Hatch Limit:
-40152	Rebate	Rebate
-40153	No Beginner Hatch attempts remaining. Prize Pool closed.	No Beginner Hatch attempts remaining. Prize Pool closed.
-40154	Current Hatch Ended	Current Hatch Ended
-40155	Gain bonus stats when deployed or assisting	Gain bonus stats when deployed or assisting
-40156	In Effect	In Effect
+40148	Unlock more pets to increase your overall stats	ปลดล็อกสัตว์เลี้ยงเพิ่มเพื่อเพิ่มค่าสถานะโดยรวม
+40149	Activate Stat Overview	ภาพรวมค่าสถานะที่เปิดใช้งาน
+40150	No pets are available for battle or support.	ไม่มีสัตว์เลี้ยงที่พร้อมต่อสู้หรือสนับสนุน
+40151	Beginner Hatch Limit:	จำนวนฟักสูงสุดสำหรับผู้เริ่มต้น:
+40152	Rebate	เงินคืน
+40153	No Beginner Hatch attempts remaining. Prize Pool closed.	ไม่มีครั้งฟักสำหรับผู้เริ่มต้นเหลือ ปิดพูลรางวัลแล้ว
+40154	Current Hatch Ended	การฟักครั้งปัจจุบันสิ้นสุดแล้ว
+40155	Gain bonus stats when deployed or assisting	ได้รับโบนัสค่าสถานะเมื่อลงสนามหรือช่วยเหลือ
+40156	In Effect	มีผลอยู่
 40157	Inactive	ไม่ใช้งาน
-40158	No attributes	No attributes
+40158	No attributes	ไม่มีค่าสถานะ
 40159	Lv. ${1}	Lv. ${1}
-40160	Pet Promotion	Pet Promotion
+40160	Pet Promotion	เลื่อนขั้นสัตว์เลี้ยง
 40161	Upgrade	อัปเกรด
-40162	Advanced	Advanced
-40163	After Advancement	After Advancement
-40164	Maximum Stars	Maximum Stars
-40165	After Star Upgrade	After Star Upgrade
-40166	Growth Rate	Growth Rate
-40167	Growth Rate:	Growth Rate:
-40168	${1} Increase	${1} Increase
-40169	Growth Rate Increase	Growth Rate Increase
-40170	Raise Pet Star Level to	Raise Pet Star Level to
-40171	Upgrade All Skills to	Upgrade All Skills to
+40162	Advanced	ขั้นสูง
+40163	After Advancement	หลังเลื่อนขั้น
+40164	Maximum Stars	ดาวสูงสุด
+40165	After Star Upgrade	หลังเพิ่มดาว
+40166	Growth Rate	อัตราการเติบโต
+40167	Growth Rate:	อัตราการเติบโต:
+40168	${1} Increase	${1} เพิ่มขึ้น
+40169	Growth Rate Increase	อัตราการเติบโตเพิ่มขึ้น
+40170	Raise Pet Star Level to	เพิ่มระดับดาวสัตว์เลี้ยงเป็น
+40171	Upgrade All Skills to	อัปเกรดสกิลทั้งหมดเป็น
 40172	${1}★	${1}★
-40173	An S-Rank Pet is guaranteed within <color=#fdab5b><size=36>${1}</size></color> more searches	An S-Rank Pet is guaranteed within <color=#fdab5b><size=36>${1}</size></color> more searches
+40173	An S-Rank Pet is guaranteed within <color=#fdab5b><size=36>${1}</size></color> more searches	การันตีสัตว์เลี้ยงอันดับ S ภายในอีก <color=#fdab5b><size=36>${1}</size></color> ครั้งที่ค้นหา
 40174	Owned	มีแล้ว
-40175	Initial	Initial
-40176	Max Stars	Max Stars
-40177	Grants the Adventurer 2.2% of the Support Pet's stats	Grants the Adventurer 2.2% of the Support Pet's stats
-40178	The Utility Pet's Passive Skill effects are granted to the Adventurer	The Utility Pet's Passive Skill effects are granted to the Adventurer
-40179	Growth Rate affects pet stats	Growth Rate affects pet stats
-40180	Pet Preview	Pet Preview
-40181	Search Rebate	Search Rebate
-40182	Combat Skills	Combat Skills
-40183	Pet Follow unlocked	Pet Follow unlocked
-40184	Unlocks at ${1} stars	Unlocks at ${1} stars
-40185	Enable Pet Follow	Enable Pet Follow
-40186	Primary Battle Skill	Primary Battle Skill
-40187	Passive	Passive
-40188	Core Passive	Core Passive
+40175	Initial	เริ่มต้น
+40176	Max Stars	ดาวสูงสุด
+40177	Grants the Adventurer 2.2% of the Support Pet's stats	เพิ่มค่าสถานะให้นักผจญภัยเท่ากับ 2.2% ของค่าสถานะสัตว์เลี้ยงสนับสนุน
+40178	The Utility Pet's Passive Skill effects are granted to the Adventurer	นักผจญภัยได้รับเอฟเฟกต์สกิลพาสซีฟของสัตว์เลี้ยงในช่องเสริม
+40179	Growth Rate affects pet stats	อัตราการเติบโตมีผลต่อค่าสถานะสัตว์เลี้ยง
+40180	Pet Preview	ตัวอย่างสัตว์เลี้ยง
+40181	Search Rebate	เงินคืนจากการค้นหา
+40182	Combat Skills	สกิลต่อสู้
+40183	Pet Follow unlocked	ปลดล็อกสัตว์เลี้ยงติดตามแล้ว
+40184	Unlocks at ${1} stars	ปลดล็อกที่ ${1} ดาว
+40185	Enable Pet Follow	เปิดสัตว์เลี้ยงติดตาม
+40186	Primary Battle Skill	สกิลต่อสู้หลัก
+40187	Passive	พาสซีฟ
+40188	Core Passive	พาสซีฟหลัก
 40189	Follow	ติดตาม
 40190	Follow	ติดตาม
-40191	Enable Effect	Enable Effect
-40192	Enable Follow under [Wardrobe - Pet Follow]. Once enabled, ${1} will follow close behind you in non-battle locations.	Enable Follow under [Wardrobe - Pet Follow]. Once enabled, ${1} will follow close behind you in non-battle locations.
-40193	Unlocked	Unlocked
-40194	No Pets Available to Hatch	No Pets Available to Hatch
-40195	No pets obtained. Please go obtain one first.	No pets obtained. Please go obtain one first.
-40196	Passive Skill Effects	Passive Skill Effects
-40197	Activate Pet Main Skill	Activate Pet Main Skill
-40198	Activate Pet Passive Skill	Activate Pet Passive Skill
-40199	Close the pool after drawing an S-rank pet	Close the pool after drawing an S-rank pet
-40200	Total Bonus	Total Bonus
-40201	Hold the left mouse button and drag to adjust the incubator temperature	Hold the left mouse button and drag to adjust the incubator temperature
-40202	Breakthrough	Breakthrough
+40191	Enable Effect	เปิดใช้เอฟเฟกต์
+40192	Enable Follow under [Wardrobe - Pet Follow]. Once enabled, ${1} will follow close behind you in non-battle locations.	เปิดการติดตามที่ [ Wardrobe - Pet Follow ] เมื่อเปิดใช้งานแล้ว ${1} จะเดินตามคุณในพื้นที่ที่ไม่ใช่การต่อสู้
+40193	Unlocked	ปลดล็อกแล้ว
+40194	No Pets Available to Hatch	ไม่มีสัตว์เลี้ยงให้ฟัก
+40195	No pets obtained. Please go obtain one first.	ยังไม่ได้รับสัตว์เลี้ยง โปรดหาให้ได้ก่อน
+40196	Passive Skill Effects	เอฟเฟกต์สกิลพาสซีฟ
+40197	Activate Pet Main Skill	เปิดสกิลหลักสัตว์เลี้ยง
+40198	Activate Pet Passive Skill	เปิดสกิลพาสซีฟสัตว์เลี้ยง
+40199	Close the pool after drawing an S-rank pet	ปิดพูลหลังสุ่มได้สัตว์เลี้ยงอันดับ S
+40200	Total Bonus	โบนัสรวม
+40201	Hold the left mouse button and drag to adjust the incubator temperature	กดปุ่มเมาส์ซ้ายค้างแล้วลากเพื่อปรับอุณหภูมิตู้ฟัก
+40202	Breakthrough	ทะลุขีดจำกัด
 40203	Collection	คอลเลกชัน
-40204	Breakthrough	Breakthrough
+40204	Breakthrough	ทะลุขีดจำกัด
 40205	Active	Active
-40206	Passive	Passive
-40207	Hatchery	Hatchery
-40208	Hatching Records	Hatching Records
-40209	Permanent Pool	Permanent Pool
-40210	Limited-Time Pool	Limited-Time Pool
-40211	Slot unlocked at Hatchery Lv. ${1}	Slot unlocked at Hatchery Lv. ${1}
-40212	Hatch Egg	Hatch Egg
-40213	Accelerate	Accelerate
-40214	Hatching Complete	Hatching Complete
-40215	Skip Animation	Skip Animation
-40216	Spend the required materials to hatch 1 Pet Egg?	Spend the required materials to hatch 1 Pet Egg?
-40217	Do not remind again during this login	Do not remind again during this login
-40218	Insufficient Speed-Up Tickets. You need ${1} more to finish instantly. Spend ${2} Sacred Crystals to make up the difference and complete the speed-up?	Insufficient Speed-Up Tickets. You need ${1} more to finish instantly. Spend ${2} Sacred Crystals to make up the difference and complete the speed-up?
-40219	Hatchery Level Increased	Hatchery Level Increased
-40220	Hatching Result Chance	Hatching Result Chance
-40221	Unlock 4 Extra Slots	Unlock 4 Extra Slots
-40222	${1} Quality Chance	${1} Quality Chance
-40223	Required Proficiency	Required Proficiency
-40224	Level-up Time:	Level-up Time:
+40206	Passive	พาสซีฟ
+40207	Hatchery	โรงฟัก
+40208	Hatching Records	บันทึกการฟัก
+40209	Permanent Pool	พูลถาวร
+40210	Limited-Time Pool	พูลจำกัดเวลา
+40211	Slot unlocked at Hatchery Lv. ${1}	ช่องปลดล็อกที่โรงฟัก Lv. ${1}
+40212	Hatch Egg	ฟักไข่
+40213	Accelerate	เร่งเวลา
+40214	Hatching Complete	ฟักเสร็จแล้ว
+40215	Skip Animation	ข้ามแอนิเมชัน
+40216	Spend the required materials to hatch 1 Pet Egg?	ใช้วัสดุที่ต้องการเพื่อฟักไข่สัตว์เลี้ยง 1 ฟองหรือไม่?
+40217	Do not remind again during this login	ไม่ต้องแจ้งเตือนอีกระหว่างการเข้าสู่ระบบครั้งนี้
+40218	Insufficient Speed-Up Tickets. You need ${1} more to finish instantly. Spend ${2} Sacred Crystals to make up the difference and complete the speed-up?	ตั๋วเร่งเวลาไม่เพียงพอ ต้องใช้อีก ${1} ใบเพื่อเสร็จทันที ใช้ Sacred Crystals ${2} เพื่อชดเชยส่วนที่ขาดและเร่งเวลาให้เสร็จหรือไม่?
+40219	Hatchery Level Increased	ระดับโรงฟักเพิ่มขึ้น
+40220	Hatching Result Chance	โอกาสของผลการฟัก
+40221	Unlock 4 Extra Slots	ปลดล็อกช่องเพิ่มเติม 4 ช่อง
+40222	${1} Quality Chance	โอกาสคุณภาพ ${1}
+40223	Required Proficiency	ความชำนาญที่ต้องการ
+40224	Level-up Time:	เวลาเพิ่มระดับ:
 40225	Level-up	เพิ่มระดับ
-40226	Chance-Boosted Pets	Chance-Boosted Pets
-40227	Hatching Notes	Hatching Notes
-40228	When a gold-quality pet is obtained, it accounts for 50% of the Chance	When a gold-quality pet is obtained, it accounts for 50% of the Chance
-40229	All Possible Pet Hatching Results	All Possible Pet Hatching Results
-40230	All Possible Item Hatching Results	All Possible Item Hatching Results
-40231	Hatching Chance Details	Hatching Chance Details
-40232	Upgrading the Hatchery increases the Chance of obtaining high-quality results in every room. Limited-time rooms can hatch certain pets. Preview all possible hatching results, then choose your preferred room.	Upgrading the Hatchery increases the Chance of obtaining high-quality results in every room. Limited-time rooms can hatch certain pets. Preview all possible hatching results, then choose your preferred room.
-40233	Hatching Chance	Hatching Chance
-40234	Hatchery	Hatchery
-40235	The higher the Hatchery level, the greater the Chance of obtaining high-quality pets.\nLevel Increased will not remove unlocked content and will only raise the base Chance.	The higher the Hatchery level, the greater the Chance of obtaining high-quality pets.\nLevel Increased will not remove unlocked content and will only raise the base Chance.
-40236	Hatching Records	Hatching Records
-40237	Hatching History	Hatching History
-40238	*View recent Hatching Records. Results may be slightly delayed. Up to 50 pages of records can be stored.	*View recent Hatching Records. Results may be slightly delayed. Up to 50 pages of records can be stored.
-40239	Pool Type	Pool Type
-40240	Result Type	Result Type
-40241	Name	Name
+40226	Chance-Boosted Pets	สัตว์เลี้ยงที่เพิ่มโอกาสได้รับ
+40227	Hatching Notes	หมายเหตุการฟัก
+40228	When a gold-quality pet is obtained, it accounts for 50% of the Chance	เมื่อได้รับสัตว์เลี้ยงคุณภาพสีทอง สัตว์เลี้ยงนั้นมีสัดส่วนโอกาส 50%
+40229	All Possible Pet Hatching Results	ผลการฟักสัตว์เลี้ยงที่เป็นไปได้ทั้งหมด
+40230	All Possible Item Hatching Results	ผลการฟักไอเทมที่เป็นไปได้ทั้งหมด
+40231	Hatching Chance Details	รายละเอียดโอกาสการฟัก
+40232	Upgrading the Hatchery increases the Chance of obtaining high-quality results in every room. Limited-time rooms can hatch certain pets. Preview all possible hatching results, then choose your preferred room.	การอัปเกรดโรงฟักเพิ่มโอกาสได้ผลลัพธ์คุณภาพสูงในทุกห้อง ห้องจำกัดเวลาฟักสัตว์เลี้ยงบางชนิดได้ ดูตัวอย่างผลการฟักทั้งหมดแล้วเลือกห้องที่ต้องการ
+40233	Hatching Chance	โอกาสการฟัก
+40234	Hatchery	โรงฟัก
+40235	The higher the Hatchery level, the greater the Chance of obtaining high-quality pets.\nLevel Increased will not remove unlocked content and will only raise the base Chance.	ระดับโรงฟักยิ่งสูง ยิ่งมีโอกาสได้สัตว์เลี้ยงคุณภาพสูง\nการเพิ่มระดับจะไม่ลบเนื้อหาที่ปลดล็อกแล้ว และจะเพิ่มเฉพาะโอกาสพื้นฐาน
+40236	Hatching Records	บันทึกการฟัก
+40237	Hatching History	ประวัติการฟัก
+40238	*View recent Hatching Records. Results may be slightly delayed. Up to 50 pages of records can be stored.	*ดูบันทึกการฟักล่าสุด ผลลัพธ์อาจล่าช้าเล็กน้อย เก็บบันทึกได้สูงสุด 50 หน้า
+40239	Pool Type	ประเภทพูล
+40240	Result Type	ประเภทผลลัพธ์
+40241	Name	ชื่อ
 40242	Time	เวลา
-40243	Repeat pets have been converted into shards	Repeat pets have been converted into shards
-40244	Limited-Time Hatchery time remaining: <color=#ff993f>${1}</color>	Limited-Time Hatchery time remaining: <color=#ff993f>${1}</color>
+40243	Repeat pets have been converted into shards	สัตว์เลี้ยงซ้ำถูกแปลงเป็นเศษแล้ว
+40244	Limited-Time Hatchery time remaining: <color=#ff993f>${1}</color>	เวลาที่เหลือของโรงฟักจำกัดเวลา: <color=#ff993f>${1}</color>
 40245	Pet	สัตว์เลี้ยง
-40246	Hatch	Hatch
+40246	Hatch	ฟัก
 40247	Collection	คอลเลกชัน
-40248	Growth Preview	Growth Preview
-40249	Battle Skill Effects	Battle Skill Effects
-40250	Level-up to Lv. ${1}	Level-up to Lv. ${1}
-40251	Once a pet is unlocked, you can activate its entry in the Pet Album. After activation, you gain the pet's unique stat bonuses without deploying it. Its Pet Album stats also increase with its star rank.	Once a pet is unlocked, you can activate its entry in the Pet Album. After activation, you gain the pet's unique stat bonuses without deploying it. Its Pet Album stats also increase with its star rank.
-40252	Once a pet reaches certain levels, special materials are Required Materials for a breakthrough. After the breakthrough, the pet gains a large number of stats.	Once a pet reaches certain levels, special materials are Required Materials for a breakthrough. After the breakthrough, the pet gains a large number of stats.
-40253	When a pet is deployed in the Main Slot, the Adventurer gains its Main Skill, which can be activated in battle. The Main Skill's star rank also increases with the pet's star rank.	When a pet is deployed in the Main Slot, the Adventurer gains its Main Skill, which can be activated in battle. The Main Skill's star rank also increases with the pet's star rank.
-40254	When a pet is deployed in a Utility Slot, its Passive Skill always applies to the Adventurer, making the Main Skill more powerful. The Passive Skill's star rank also increases with the pet's star rank.\nSome pets have a Core Passive Skill. Only 1 Core Passive Skill effect can be active at a time. If multiple pets with Core Passive Skill effects are deployed, only the pet in the lowest-numbered Utility Slot takes effect.	When a pet is deployed in a Utility Slot, its Passive Skill always applies to the Adventurer, making the Main Skill more powerful. The Passive Skill's star rank also increases with the pet's star rank.\nSome pets have a Core Passive Skill. Only 1 Core Passive Skill effect can be active at a time. If multiple pets with Core Passive Skill effects are deployed, only the pet in the lowest-numbered Utility Slot takes effect.
-40255	In modes where pets fight directly, they automatically use their Battle Skill when its Cooldown ends. The Battle Skill's star rank also increases with the pet's star rank.	In modes where pets fight directly, they automatically use their Battle Skill when its Cooldown ends. The Battle Skill's star rank also increases with the pet's star rank.
-40256	Cooldown: ${1}s	Cooldown: ${1}s
-40257	(${1}% bonus granted to the main character)	(${1}% bonus granted to the main character)
-40258	(Inactive)	(Inactive)
-40259	All Main Slots are full. Remove a pet or drag another pet here to replace it.	All Main Slots are full. Remove a pet or drag another pet here to replace it.
-40260	All Utility Slots are full. Remove a pet or drag another pet here to replace it.	All Utility Slots are full. Remove a pet or drag another pet here to replace it.
-40261	This pet is currently in a Utility Slot. Change it to a Main Slot?	This pet is currently in a Utility Slot. Change it to a Main Slot?
-40262	This pet is currently in a Main Slot. Change it to a Utility Slot?	This pet is currently in a Main Slot. Change it to a Utility Slot?
-40263	No Speed-Up Tickets remaining. Please obtain more first.	No Speed-Up Tickets remaining. Please obtain more first.
-40264	Deployed in a Utility Slot	Deployed in a Utility Slot
-40265	Deployed in a Main Slot	Deployed in a Main Slot
-40266	Cannot exceed the main character's level	Cannot exceed the main character's level
-40267	Breakthrough Success	Breakthrough Success
-40268	Pet already unlocked. Converted into shards.	Pet already unlocked. Converted into shards.
-40269	Insufficient proficiency. Please obtain more proficiency first.	Insufficient proficiency. Please obtain more proficiency first.
-40270	Insufficient Required Materials. Please obtain more materials first.	Insufficient Required Materials. Please obtain more materials first.
-40271	Insufficient items. Please obtain more Speed-Up Tickets first.	Insufficient items. Please obtain more Speed-Up Tickets first.
-40272	Please upgrade the Alchemy Incubation Room first.	Please upgrade the Alchemy Incubation Room first.
-40273	Fusion failed. Please obtain enough materials first.	Fusion failed. Please obtain enough materials first.
-40274	Accelerated	Accelerated
-40275	Accelerated! Open the Pet Egg!	Accelerated! Open the Pet Egg!
-40276	The limited-time Incubation Room is closed.	The limited-time Incubation Room is closed.
-40277	You've reached today's incubation limit.	You've reached today's incubation limit.
-40278	Actively cast by the pet in modes where pets are deployed	Actively cast by the pet in modes where pets are deployed
-40279	Assist Slot 1	Assist Slot 1
-40280	Assist Slot 2	Assist Slot 2
-40281	Assist Slot 3	Assist Slot 3
-40282	Assist Slot 4	Assist Slot 4
-40283	Assist Slot 5	Assist Slot 5
-40284	Not enough materials. Please obtain more materials first.	Not enough materials. Please obtain more materials first.
-40285	Pets in Utility slots activate their Passive Skills.	Pets in Utility slots activate their Passive Skills.
-40286	Passive Skills of pets in Utility slots are always active.	Passive Skills of pets in Utility slots are always active.
-40287	Passive Skills of pets in Utility slots are always active.\nOnly 1 Core Passive Skill can be active at a time.	Passive Skills of pets in Utility slots are always active.\nOnly 1 Core Passive Skill can be active at a time.
-40288	You can now upgrade the Alchemy Room. Upgrading it increases the Chance of obtaining high-quality pets. Go to Upgrade now?	You can now upgrade the Alchemy Room. Upgrading it increases the Chance of obtaining high-quality pets. Go to Upgrade now?
-40289	Increase the star rating of All Skills	Increase the star rating of All Skills
-40290	Not enough ${1}. Please obtain enough materials first.	Not enough ${1}. Please obtain enough materials first.
-40291	Spend materials to incubate and open ${1} Pet Eggs at once?	Spend materials to incubate and open ${1} Pet Eggs at once?
-40292	Rapid Incubation	Rapid Incubation
-40293	Unlocks at Incubation Room Lv. ${1}	Unlocks at Incubation Room Lv. ${1}
-40294	Automatically performs a Level-up when Proficiency is full	Automatically performs a Level-up when Proficiency is full
-40295	No incubation time	No incubation time
-40296	Unlocked ${1}/${2}	Unlocked ${1}/${2}
-40297	Stat Bonus Overview provided to the Adventurer by all currently unlocked entries	Stat Bonus Overview provided to the Adventurer by all currently unlocked entries
-40298	Stat Bonus Overview provided to the Adventurer by currently Deployed Pets	Stat Bonus Overview provided to the Adventurer by currently Deployed Pets
-40299	Stat Bonus Overview provided to the Adventurer by current Support Pets	Stat Bonus Overview provided to the Adventurer by current Support Pets
-40300	Total Codex Stats	Total Codex Stats
-40301	Total Deployment Stats	Total Deployment Stats
-40302	Total Assist Stats	Total Assist Stats
-40303	Formation	Formation
-40304	Unlock the Rapid Incubation Function	Unlock the Rapid Incubation Function
-40305	Not Enough Spirit Pact Stones	Not Enough Spirit Pact Stones
-40306	Always Play	Always Play
-40307	Play Once per Login	Play Once per Login
-40308	Never Play	Never Play
-40309	Hatchery Level-up Complete	Hatchery Level-up Complete
-40310	Guaranteed to obtain an <color=#FF993F>S-Class</color> Pet within the next <color=#FF993F>${1} Hatches</color>	Guaranteed to obtain an <color=#FF993F>S-Class</color> Pet within the next <color=#FF993F>${1} Hatches</color>
-40311	Pet Stats	Pet Stats
-40312	Collection Stats	Collection Stats
+40248	Growth Preview	ตัวอย่างการเติบโต
+40249	Battle Skill Effects	เอฟเฟกต์สกิลต่อสู้
+40250	Level-up to Lv. ${1}	เพิ่มระดับเป็น Lv. ${1}
+40251	Once a pet is unlocked, you can activate its entry in the Pet Album. After activation, you gain the pet's unique stat bonuses without deploying it. Its Pet Album stats also increase with its star rank.	เมื่อปลดล็อกสัตว์เลี้ยงแล้ว คุณเปิดใช้รายการในสมุดภาพสัตว์เลี้ยงได้ หลังเปิดใช้งานจะได้รับโบนัสค่าสถานะเฉพาะของสัตว์เลี้ยงโดยไม่ต้องลงสนาม ค่าสถานะในสมุดภาพยังเพิ่มตามอันดับดาวของสัตว์เลี้ยงด้วย
+40252	Once a pet reaches certain levels, special materials are Required Materials for a breakthrough. After the breakthrough, the pet gains a large number of stats.	เมื่อสัตว์เลี้ยงถึงระดับที่กำหนด ต้องใช้วัสดุพิเศษเพื่อทะลุขีดจำกัด หลังทะลุขีดจำกัด สัตว์เลี้ยงจะได้รับค่าสถานะเพิ่มมาก
+40253	When a pet is deployed in the Main Slot, the Adventurer gains its Main Skill, which can be activated in battle. The Main Skill's star rank also increases with the pet's star rank.	เมื่อสัตว์เลี้ยงอยู่ในช่องหลัก นักผจญภัยจะได้รับสกิลหลักที่กดใช้ในการต่อสู้ได้ อันดับดาวสกิลหลักยังเพิ่มตามอันดับดาวของสัตว์เลี้ยงด้วย
+40254	When a pet is deployed in a Utility Slot, its Passive Skill always applies to the Adventurer, making the Main Skill more powerful. The Passive Skill's star rank also increases with the pet's star rank.\nSome pets have a Core Passive Skill. Only 1 Core Passive Skill effect can be active at a time. If multiple pets with Core Passive Skill effects are deployed, only the pet in the lowest-numbered Utility Slot takes effect.	เมื่อสัตว์เลี้ยงอยู่ในช่องเสริม สกิลพาสซีฟของมันจะมีผลต่อนักผจญภัยเสมอ และเพิ่มประสิทธิภาพสกิลหลัก อันดับดาวสกิลพาสซีฟยังเพิ่มตามอันดับดาวของสัตว์เลี้ยงด้วย\nสัตว์เลี้ยงบางตัวมีสกิลพาสซีฟหลัก สกิลพาสซีฟหลักทำงานได้เพียง 1 เอฟเฟกต์ในแต่ละครั้ง หากลงสนามสัตว์เลี้ยงที่มีเอฟเฟกต์สกิลพาสซีฟหลักหลายตัว จะมีผลเฉพาะสัตว์เลี้ยงในช่องเสริมหมายเลขต่ำที่สุด
+40255	In modes where pets fight directly, they automatically use their Battle Skill when its Cooldown ends. The Battle Skill's star rank also increases with the pet's star rank.	ในโหมดที่สัตว์เลี้ยงต่อสู้โดยตรง สัตว์เลี้ยงจะใช้สกิลต่อสู้โดยอัตโนมัติเมื่อคูลดาวน์สิ้นสุด อันดับดาวสกิลต่อสู้ยังเพิ่มตามอันดับดาวของสัตว์เลี้ยงด้วย
+40256	Cooldown: ${1}s	คูลดาวน์: ${1} วินาที
+40257	(${1}% bonus granted to the main character)	(มอบโบนัส ${1}% ให้ตัวละครหลัก)
+40258	(Inactive)	(ไม่ทำงาน)
+40259	All Main Slots are full. Remove a pet or drag another pet here to replace it.	ช่องหลักเต็มทั้งหมด นำสัตว์เลี้ยงออกหรือลากตัวอื่นมาที่นี่เพื่อเปลี่ยน
+40260	All Utility Slots are full. Remove a pet or drag another pet here to replace it.	ช่องเสริมเต็มทั้งหมด นำสัตว์เลี้ยงออกหรือลากตัวอื่นมาที่นี่เพื่อเปลี่ยน
+40261	This pet is currently in a Utility Slot. Change it to a Main Slot?	สัตว์เลี้ยงนี้อยู่ในช่องเสริม เปลี่ยนไปช่องหลักหรือไม่?
+40262	This pet is currently in a Main Slot. Change it to a Utility Slot?	สัตว์เลี้ยงนี้อยู่ในช่องหลัก เปลี่ยนไปช่องเสริมหรือไม่?
+40263	No Speed-Up Tickets remaining. Please obtain more first.	ไม่มีตั๋วเร่งเวลาเหลือ โปรดหาเพิ่มก่อน
+40264	Deployed in a Utility Slot	อยู่ในช่องเสริม
+40265	Deployed in a Main Slot	อยู่ในช่องหลัก
+40266	Cannot exceed the main character's level	ต้องไม่เกินระดับตัวละครหลัก
+40267	Breakthrough Success	ทะลุขีดจำกัดสำเร็จ
+40268	Pet already unlocked. Converted into shards.	ปลดล็อกสัตว์เลี้ยงแล้ว แปลงเป็นเศษ
+40269	Insufficient proficiency. Please obtain more proficiency first.	ความชำนาญไม่เพียงพอ โปรดเพิ่มความชำนาญก่อน
+40270	Insufficient Required Materials. Please obtain more materials first.	วัสดุที่ต้องใช้ไม่เพียงพอ โปรดหาวัสดุเพิ่มก่อน
+40271	Insufficient items. Please obtain more Speed-Up Tickets first.	ไอเทมไม่เพียงพอ โปรดหาตั๋วเร่งเวลาเพิ่มก่อน
+40272	Please upgrade the Alchemy Incubation Room first.	โปรดอัปเกรดห้องฟักแปรธาตุก่อน
+40273	Fusion failed. Please obtain enough materials first.	ผสานไม่สำเร็จ โปรดหาวัสดุให้เพียงพอก่อน
+40274	Accelerated	เร่งเวลาแล้ว
+40275	Accelerated! Open the Pet Egg!	เร่งเวลาแล้ว! เปิดไข่สัตว์เลี้ยงเลย!
+40276	The limited-time Incubation Room is closed.	ห้องฟักจำกัดเวลาปิดแล้ว
+40277	You've reached today's incubation limit.	ถึงขีดจำกัดการฟักของวันนี้แล้ว
+40278	Actively cast by the pet in modes where pets are deployed	สัตว์เลี้ยงใช้สกิลเองในโหมดที่สัตว์เลี้ยงลงสนาม
+40279	Assist Slot 1	ช่องช่วยเหลือ 1
+40280	Assist Slot 2	ช่องช่วยเหลือ 2
+40281	Assist Slot 3	ช่องช่วยเหลือ 3
+40282	Assist Slot 4	ช่องช่วยเหลือ 4
+40283	Assist Slot 5	ช่องช่วยเหลือ 5
+40284	Not enough materials. Please obtain more materials first.	วัสดุไม่เพียงพอ โปรดหาวัสดุเพิ่มก่อน
+40285	Pets in Utility slots activate their Passive Skills.	สัตว์เลี้ยงในช่องเสริมเปิดใช้สกิลพาสซีฟ
+40286	Passive Skills of pets in Utility slots are always active.	สกิลพาสซีฟของสัตว์เลี้ยงในช่องเสริมทำงานเสมอ
+40287	Passive Skills of pets in Utility slots are always active.\nOnly 1 Core Passive Skill can be active at a time.	สกิลพาสซีฟของสัตว์เลี้ยงในช่องเสริมทำงานเสมอ\nสกิลพาสซีฟหลักทำงานได้เพียง 1 สกิลในแต่ละครั้ง
+40288	You can now upgrade the Alchemy Room. Upgrading it increases the Chance of obtaining high-quality pets. Go to Upgrade now?	ขณะนี้คุณอัปเกรดห้องแปรธาตุได้ การอัปเกรดเพิ่มโอกาสได้สัตว์เลี้ยงคุณภาพสูง ไปอัปเกรดตอนนี้หรือไม่?
+40289	Increase the star rating of All Skills	เพิ่มอันดับดาวของสกิลทั้งหมด
+40290	Not enough ${1}. Please obtain enough materials first.	${1} ไม่เพียงพอ โปรดหาให้เพียงพอก่อน
+40291	Spend materials to incubate and open ${1} Pet Eggs at once?	ใช้วัสดุเพื่อฟักและเปิดไข่สัตว์เลี้ยง ${1} ฟองพร้อมกันหรือไม่?
+40292	Rapid Incubation	ฟักอย่างรวดเร็ว
+40293	Unlocks at Incubation Room Lv. ${1}	ปลดล็อกที่ห้องฟัก Lv. ${1}
+40294	Automatically performs a Level-up when Proficiency is full	เพิ่มระดับโดยอัตโนมัติเมื่อความชำนาญเต็ม
+40295	No incubation time	ไม่ต้องใช้เวลาฟัก
+40296	Unlocked ${1}/${2}	ปลดล็อกแล้ว ${1}/${2}
+40297	Stat Bonus Overview provided to the Adventurer by all currently unlocked entries	ภาพรวมโบนัสค่าสถานะที่นักผจญภัยได้รับจากรายการที่ปลดล็อกทั้งหมดในปัจจุบัน
+40298	Stat Bonus Overview provided to the Adventurer by currently Deployed Pets	ภาพรวมโบนัสค่าสถานะที่นักผจญภัยได้รับจากสัตว์เลี้ยงที่ลงสนามในปัจจุบัน
+40299	Stat Bonus Overview provided to the Adventurer by current Support Pets	ภาพรวมโบนัสค่าสถานะที่นักผจญภัยได้รับจากสัตว์เลี้ยงสนับสนุนในปัจจุบัน
+40300	Total Codex Stats	ค่าสถานะสารานุกรมรวม
+40301	Total Deployment Stats	ค่าสถานะลงสนามรวม
+40302	Total Assist Stats	ค่าสถานะช่วยเหลือรวม
+40303	Formation	จัดทีม
+40304	Unlock the Rapid Incubation Function	ปลดล็อกฟังก์ชันฟักอย่างรวดเร็ว
+40305	Not Enough Spirit Pact Stones	Spirit Pact Stones ไม่เพียงพอ
+40306	Always Play	เล่นเสมอ
+40307	Play Once per Login	เล่นครั้งเดียวต่อการเข้าสู่ระบบ
+40308	Never Play	ไม่เล่น
+40309	Hatchery Level-up Complete	เพิ่มระดับโรงฟักเสร็จแล้ว
+40310	Guaranteed to obtain an <color=#FF993F>S-Class</color> Pet within the next <color=#FF993F>${1} Hatches</color>	การันตีสัตว์เลี้ยงระดับ <color=#FF993F>S</color> ภายใน <color=#FF993F>${1} ครั้งที่ฟัก</color> ถัดไป
+40311	Pet Stats	ค่าสถานะสัตว์เลี้ยง
+40312	Collection Stats	ค่าสถานะคอลเลกชัน
 40313	Skills	สกิล
 40314	Cost	ค่าใช้จ่าย
-40315	Growth Preview	Growth Preview
-40316	Unlock Collection Entry	Unlock Collection Entry
-40317	Congrats on Obtaining the Following Stats	Congrats on Obtaining the Following Stats
-40318	Congrats on Obtaining the following rewards	Congrats on Obtaining the following rewards
-40319	Stats are increased.	Stats are increased.
-40320	Skill Level-up	Skill Level-up
-40321	Limit has been reached	Limit has been reached
-40322	Pet Codex	Pet Codex
-40323	Ragnarok Online Pet Encyclopedia	Ragnarok Online Pet Encyclopedia
-40324	<size=84>Hatch</size><size=106>ery</size>	<size=84>Hatch</size><size=106>ery</size>
-40325	Hatching Expertise	Hatching Expertise
+40315	Growth Preview	ตัวอย่างการเติบโต
+40316	Unlock Collection Entry	ปลดล็อกรายการคอลเลกชัน
+40317	Congrats on Obtaining the Following Stats	ยินดีด้วยที่ได้รับค่าสถานะต่อไปนี้
+40318	Congrats on Obtaining the following rewards	ยินดีด้วยที่ได้รับรางวัลต่อไปนี้
+40319	Stats are increased.	ค่าสถานะเพิ่มขึ้น
+40320	Skill Level-up	เพิ่มระดับสกิล
+40321	Limit has been reached	ถึงขีดจำกัดแล้ว
+40322	Pet Codex	สารานุกรมสัตว์เลี้ยง
+40323	Ragnarok Online Pet Encyclopedia	สารานุกรมสัตว์เลี้ยง Ragnarok Online
+40324	<size=84>Hatch</size><size=106>ery</size>	<size=84>โรง</size><size=106>ฟัก</size>
+40325	Hatching Expertise	ความเชี่ยวชาญการฟัก
 11050000000	Items	Items
 11050000001	Equip	Equip
 11050000002	Card	Card
@@ -14965,13 +14965,13 @@
 11050000004	Soul Echo	Soul Echo
 11050000005	Pet	Pet
 40992	Mining Star Treasure Hunt	Mining Star Treasure Hunt
-40993	Draw ${1} Times	Draw ${1} Times
-40994	Draw ${1} More Times	Draw ${1} More Times
-40995	Not enough draws remaining today.	Not enough draws remaining today.
-40996	Draw <color=#63a22b><size=30>${1}</size></color> more times to guarantee a Starlight Stone	Draw <color=#63a22b><size=30>${1}</size></color> more times to guarantee a Starlight Stone
-40997	Limited-Time ${1}	Limited-Time ${1}
-40998	Daily Draw Limit: ${1}/${2}	Daily Draw Limit: ${1}/${2}
-40999	Total Draw Limit: ${1}/${2}	Total Draw Limit: ${1}/${2}
+40993	Draw ${1} Times	สุ่ม ${1} ครั้ง
+40994	Draw ${1} More Times	สุ่มเพิ่ม ${1} ครั้ง
+40995	Not enough draws remaining today.	จำนวนสุ่มที่เหลือวันนี้ไม่เพียงพอ
+40996	Draw <color=#63a22b><size=30>${1}</size></color> more times to guarantee a Starlight Stone	สุ่มอีก <color=#63a22b><size=30>${1}</size></color> ครั้งเพื่อการันตี Starlight Stone
+40997	Limited-Time ${1}	จำกัดเวลา ${1}
+40998	Daily Draw Limit: ${1}/${2}	จำนวนสุ่มสูงสุดต่อวัน: ${1}/${2}
+40999	Total Draw Limit: ${1}/${2}	จำนวนสุ่มสูงสุดทั้งหมด: ${1}/${2}
 41000	Congrats on Obtaining	Congrats on Obtaining
 41001	Slot: ${1}	Slot: ${1}
 41002	Bonus:	Bonus:
@@ -18816,60 +18816,60 @@
 12370100003	Has honed their craft and can flexibly apply various abilities to different situations. Unlocks the third Craft Slot and grants access to specialized abilities from the intermediate and advanced ability pools.	Has honed their craft and can flexibly apply various abilities to different situations. Unlocks the third Craft Slot and grants access to specialized abilities from the intermediate and advanced ability pools.
 12370100004	Has reached the pinnacle of the craft and can create ingenious masterpieces. Unlocks the fourth Craft Slot and allows Rare abilities to be learned, further strengthening the trade's unique traits.	Has reached the pinnacle of the craft and can create ingenious masterpieces. Unlocks the fourth Craft Slot and allows Rare abilities to be learned, further strengthening the trade's unique traits.
 12370100005	Craftsmanship and inspiration become one, allowing all abilities to be freely combined and mastered. Unlocks the fifth Craft Slot and all Legend techniques in the top-tier ability pool.	Craftsmanship and inspiration become one, allowing all abilities to be freely combined and mastered. Unlocks the fifth Craft Slot and all Legend techniques in the top-tier ability pool.
-49001	You already permanently own ${1}.	You already permanently own ${1}.
-49002	Currently equipped appearance: <color=#cc762a><u>${1}</u></color>	Currently equipped appearance: <color=#cc762a><u>${1}</u></color>
+49001	You already permanently own ${1}.	คุณมี ${1} แบบถาวรแล้ว
+49002	Currently equipped appearance: <color=#cc762a><u>${1}</u></color>	รูปลักษณ์ที่สวมอยู่: <color=#cc762a><u>${1}</u></color>
 49003	Reset	รีเซ็ต
-49004	Hide	Hide
-49005	Style +${1}	Style +${1}
+49004	Hide	ซ่อน
+49005	Style +${1}	สไตล์ +${1}
 49006	Stats	ค่าสถานะ
 49007	Obtain	ได้รับ
-49008	Apply Attributes	Apply Attributes
-49009	Applying Attributes	Applying Attributes
-49010	Compare	Compare
+49008	Apply Attributes	ใช้ค่าสถานะ
+49009	Applying Attributes	กำลังใช้ค่าสถานะ
+49010	Compare	เปรียบเทียบ
 49011	Show less	แสดงน้อยลง
 49012	Current	ปัจจุบัน
-49013	Fashion Rating	Fashion Rating
+49013	Fashion Rating	คะแนนแฟชั่น
 49014	Claim All	รับทั้งหมด
 49015	Lv. ${1}	Lv. ${1}
 49016	Current	ปัจจุบัน
-49017	Build ${1}	Build ${1}
-49018	No Plans	No Plans
+49017	Build ${1}	บิลด์ ${1}
+49018	No Plans	ไม่มีแผน
 49019	Applied	ส่งคำขอแล้ว
-49020	Use This Plan	Use This Plan
-49021	Save to This Plan	Save to This Plan
-49022	Your trial of <color=#cc762a>${1}</color> has expired.	Your trial of <color=#cc762a>${1}</color> has expired.
+49020	Use This Plan	ใช้แผนนี้
+49021	Save to This Plan	บันทึกลงแผนนี้
+49022	Your trial of <color=#cc762a>${1}</color> has expired.	การทดลองใช้ <color=#cc762a>${1}</color> ของคุณหมดอายุแล้ว
 49023	Mount	Mount
-49024	Dismount	Dismount
-49025	Monster Drops	Monster Drops
-49026	Start Crafting	Start Crafting
-49027	Go to Unseal	Go to Unseal
-49028	Not enough crafting materials.	Not enough crafting materials.
-49029	Synthesis Materials	Synthesis Materials
-49030	Gift from Costume ${1}	Gift from Costume ${1}
-49031	Build ${1}	Build ${1}
+49024	Dismount	ลงจากพาหนะ
+49025	Monster Drops	ไอเทมดรอปจากมอนสเตอร์
+49026	Start Crafting	เริ่มคราฟต์
+49027	Go to Unseal	ไปปลดผนึก
+49028	Not enough crafting materials.	วัสดุคราฟต์ไม่เพียงพอ
+49029	Synthesis Materials	วัสดุสังเคราะห์
+49030	Gift from Costume ${1}	ของขวัญจากคอสตูม ${1}
+49031	Build ${1}	บิลด์ ${1}
 49032	Monday	วันจันทร์
 49033	Tuesday	วันอังคาร
 49034	Wednesday	วันพุธ
-49035	Initial Plan	Initial Plan
-49036	Apply Engraving	Apply Engraving
-49037	This slot has an advanced attribute. Reroll it?	This slot has an advanced attribute. Reroll it?
-49038	Save the following engraving results to ${1}?	Save the following engraving results to ${1}?
-49039	No.${1}	No.${1}
-49040	Engraving Plan	Engraving Plan
-49041	Select Plan	Select Plan
-49042	Plan	Plan
-49043	Select an engraving slot.	Select an engraving slot.
-49044	Engraving	Engraving
-49045	Save Preset	Save Preset
-49046	Limited	Limited
-49047	No.${1}	No.${1}
-49048	Current Preset	Current Preset
-49049	Appearance Engraving	Appearance Engraving
+49035	Initial Plan	แผนเริ่มต้น
+49036	Apply Engraving	ใช้การสลัก
+49037	This slot has an advanced attribute. Reroll it?	ช่องนี้มีค่าสถานะขั้นสูง ต้องการสุ่มใหม่หรือไม่?
+49038	Save the following engraving results to ${1}?	บันทึกผลการสลักต่อไปนี้ลง ${1} หรือไม่?
+49039	No.${1}	หมายเลข ${1}
+49040	Engraving Plan	แผนการสลัก
+49041	Select Plan	เลือกแผน
+49042	Plan	แผน
+49043	Select an engraving slot.	เลือกช่องสลัก
+49044	Engraving	สลัก
+49045	Save Preset	บันทึกพรีเซ็ต
+49046	Limited	จำกัด
+49047	No.${1}	หมายเลข ${1}
+49048	Current Preset	พรีเซ็ตปัจจุบัน
+49049	Appearance Engraving	สลักรูปลักษณ์
 49050	Confirm	ยืนยัน
-49051	No ranking yet	No ranking yet
-49052	View Set	View Set
-49053	Go Get	Go Get
-49054	Fashion Sense Rewards	Fashion Sense Rewards
+49051	No ranking yet	ยังไม่มีอันดับ
+49052	View Set	ดูชุด
+49053	Go Get	ไปรับ
+49054	Fashion Sense Rewards	รางวัลคะแนนแฟชั่น
 49055	Current	ปัจจุบัน
 13910000000	Apprentice V	Apprentice V
 13910000001	Apprentice IV	Apprentice IV
@@ -31974,185 +31974,185 @@
 10220300700	Physical/Magic DEF +^{1}${1}%^{2}.	P.DEF/M.DEF +^{1}${1}%^{2}
 10220300699	When any Protector skill is used, grants the master [Divine Hope] (Physical/Magic DEF +^{1}${1}%^{2}) for ${2}% sec.	When any Protector skill is used, grants the master [Divine Hope] (Physical/Magic DEF +^{1}${1}%^{2}) for ${2}% sec.
 10220300698	Life cannot fall below ^{1}${1}%^{2}.	HP ไม่สามารถลดต่ำกว่า ^{1}${1}%^{2}
-64000	Build ${1}	Build ${1}
-64001	You are switching Skill Builds too frequently. Please try again later.	You are switching Skill Builds too frequently. Please try again later.
-64002	Presets cannot be switched during combat	Presets cannot be switched during combat
-64003	Plan [${1}] Activated	Plan [${1}] Activated
-64004	New presets are blank and must be configured manually	New presets are blank and must be configured manually
-64005	This item is used in a preset. Dismantle it anyway?	This item is used in a preset. Dismantle it anyway?
-64006	This item is used in a preset. Sell it anyway?	This item is used in a preset. Sell it anyway?
-64007	Rename Preset	Rename Preset
-64008	Enter up to 8 characters	Enter up to 8 characters
-64009	Nothing Selected	Nothing Selected
-64010	Select a Skill Build in the upper-right corner	Select a Skill Build in the upper-right corner
+64000	Build ${1}	บิลด์ ${1}
+64001	You are switching Skill Builds too frequently. Please try again later.	คุณสลับบิลด์สกิลถี่เกินไป โปรดลองอีกครั้งในภายหลัง
+64002	Presets cannot be switched during combat	ไม่สามารถสลับพรีเซ็ตระหว่างต่อสู้ได้
+64003	Plan [${1}] Activated	เปิดใช้แผน [ ${1} ] แล้ว
+64004	New presets are blank and must be configured manually	พรีเซ็ตใหม่ยังว่างและต้องตั้งค่าด้วยตนเอง
+64005	This item is used in a preset. Dismantle it anyway?	ไอเทมนี้ใช้อยู่ในพรีเซ็ต ต้องการแยกชิ้นส่วนต่อหรือไม่?
+64006	This item is used in a preset. Sell it anyway?	ไอเทมนี้ใช้อยู่ในพรีเซ็ต ต้องการขายต่อหรือไม่?
+64007	Rename Preset	เปลี่ยนชื่อพรีเซ็ต
+64008	Enter up to 8 characters	ป้อนได้สูงสุด 8 ตัวอักษร
+64009	Nothing Selected	ยังไม่ได้เลือก
+64010	Select a Skill Build in the upper-right corner	เลือกบิลด์สกิลที่มุมขวาบน
 64011	Go	ไป
-64012	Select a Stat Build in the upper-right corner	Select a Stat Build in the upper-right corner
-64013	Select an Equipment Preset in the upper-right corner	Select an Equipment Preset in the upper-right corner
-64014	Select a Card Preset in the upper-right corner	Select a Card Preset in the upper-right corner
-64015	Select a Divine Arts Totem Preset in the upper-right corner	Select a Divine Arts Totem Preset in the upper-right corner
-64016	Select a Soul Echo Preset in the upper-right corner	Select a Soul Echo Preset in the upper-right corner
-64017	Select a Pet Preset in the upper-right corner	Select a Pet Preset in the upper-right corner
-64018	Applying Preset	Applying Preset
-64019	Apply Preset	Apply Preset
-64020	Save Preset	Save Preset
-64021	Current Preset saved	Current Preset saved
-64022	Current Preset saved and applied	Current Preset saved and applied
-64023	Current Preset has not been saved. Continue?	Current Preset has not been saved. Continue?
-64024	Training Ground	Training Ground
+64012	Select a Stat Build in the upper-right corner	เลือกบิลด์ค่าสถานะที่มุมขวาบน
+64013	Select an Equipment Preset in the upper-right corner	เลือกพรีเซ็ตอุปกรณ์ที่มุมขวาบน
+64014	Select a Card Preset in the upper-right corner	เลือกพรีเซ็ตการ์ดที่มุมขวาบน
+64015	Select a Divine Arts Totem Preset in the upper-right corner	เลือกพรีเซ็ต Divine Arts Totem ที่มุมขวาบน
+64016	Select a Soul Echo Preset in the upper-right corner	เลือกพรีเซ็ต Soul Echo ที่มุมขวาบน
+64017	Select a Pet Preset in the upper-right corner	เลือกพรีเซ็ตสัตว์เลี้ยงที่มุมขวาบน
+64018	Applying Preset	กำลังใช้พรีเซ็ต
+64019	Apply Preset	ใช้พรีเซ็ต
+64020	Save Preset	บันทึกพรีเซ็ต
+64021	Current Preset saved	บันทึกพรีเซ็ตปัจจุบันแล้ว
+64022	Current Preset saved and applied	บันทึกและใช้พรีเซ็ตปัจจุบันแล้ว
+64023	Current Preset has not been saved. Continue?	ยังไม่ได้บันทึกพรีเซ็ตปัจจุบัน ต้องการดำเนินการต่อหรือไม่?
+64024	Training Ground	สนามฝึก
 64025	Novice	Novice
 64026	Upgrade	อัปเกรด
-64027	Stat Priorities	Stat Priorities
-64028	Recommended Affixes	Recommended Affixes
+64027	Stat Priorities	ลำดับความสำคัญค่าสถานะ
+64028	Recommended Affixes	คุณสมบัติเสริมที่แนะนำ
 64029	Recommended Stunts	Recommended Stunts
-64030	Recommended Skills	Recommended Skills
-64031	Function not yet unlocked	Function not yet unlocked
-64032	Advisor	Advisor
-64033	Preset Name	Preset Name
-64034	Power	Power
+64030	Recommended Skills	สกิลที่แนะนำ
+64031	Function not yet unlocked	ฟังก์ชันยังไม่ปลดล็อก
+64032	Advisor	ที่ปรึกษา
+64033	Preset Name	ชื่อพรีเซ็ต
+64034	Power	พลัง
 64035	Build Details	รายละเอียดบิลด์
 64036	Delete	ลบ
-64037	Configuring Preset	Configuring Preset
+64037	Configuring Preset	กำลังตั้งค่าพรีเซ็ต
 64038	Expired	Expired
 64039	Expired	Expired
-64040	Delete this build preset?	Delete this build preset?
-64041	This preset is being configured and cannot be viewed	This preset is being configured and cannot be viewed
-64042	This preset is being configured. Delete it?	This preset is being configured. Delete it?
-64043	This preset is invalid and cannot be viewed. We recommend deleting it	This preset is invalid and cannot be viewed. We recommend deleting it
-64044	This preset has expired and cannot be viewed. We recommend deleting it	This preset has expired and cannot be viewed. We recommend deleting it
-64045	Get Help from Others	Get Help from Others
-64046	Share to Get Help	Share to Get Help
-64047	Get Help Outside the Game	Get Help Outside the Game
-64048	Generate Get Help Code	Generate Get Help Code
+64040	Delete this build preset?	ลบพรีเซ็ตบิลด์นี้หรือไม่?
+64041	This preset is being configured and cannot be viewed	พรีเซ็ตนี้กำลังตั้งค่าและไม่สามารถดูได้
+64042	This preset is being configured. Delete it?	พรีเซ็ตนี้กำลังตั้งค่า ต้องการลบหรือไม่?
+64043	This preset is invalid and cannot be viewed. We recommend deleting it	พรีเซ็ตนี้ใช้ไม่ได้และไม่สามารถดูได้ แนะนำให้ลบ
+64044	This preset has expired and cannot be viewed. We recommend deleting it	พรีเซ็ตนี้หมดอายุและไม่สามารถดูได้ แนะนำให้ลบ
+64045	Get Help from Others	ขอความช่วยเหลือจากผู้อื่น
+64046	Share to Get Help	แชร์เพื่อขอความช่วยเหลือ
+64047	Get Help Outside the Game	ขอความช่วยเหลือนอกเกม
+64048	Generate Get Help Code	สร้างรหัสขอความช่วยเหลือ
 64049	Copy	คัดลอก
-64050	Suggestions from Others	Suggestions from Others
-64051	Quick Apply	Quick Apply
-64052	Select a Replacement Build Preset	Select a Replacement Build Preset
-64053	New Build Preset	New Build Preset
-64054	Confirm Replacement	Confirm Replacement
-64055	You no longer own some items in the recommended preset. Replace personal preset ${1} with the recommended preset:	You no longer own some items in the recommended preset. Replace personal preset ${1} with the recommended preset:
+64050	Suggestions from Others	คำแนะนำจากผู้อื่น
+64051	Quick Apply	ใช้อย่างรวดเร็ว
+64052	Select a Replacement Build Preset	เลือกพรีเซ็ตบิลด์ที่จะเปลี่ยน
+64053	New Build Preset	พรีเซ็ตบิลด์ใหม่
+64054	Confirm Replacement	ยืนยันการเปลี่ยน
+64055	You no longer own some items in the recommended preset. Replace personal preset ${1} with the recommended preset:	คุณไม่มีไอเทมบางชิ้นในพรีเซ็ตที่แนะนำแล้ว เปลี่ยนพรีเซ็ตส่วนตัว ${1} เป็นพรีเซ็ตที่แนะนำ:
 10220300697	Physical/Magic ATK and DEF -^{1}${1}%^{2}, Attack Speed -^{3}${2}%^{4}, and Movement Speed -^{5}${3}%^{6}	P.ATK/M.ATK และ P.DEF/M.DEF -^{1}${1}%^{2}, ASPD -^{3}${2}%^{4} และ MSPD -^{5}${3}%^{6}
 10220300696	Movement Speed -^{1}${1}%^{2}	MSPD -^{1}${1}%^{2}
-64058	Player Requesting Help	Player Requesting Help
-64059	My Build	My Build
-64060	Enter Get Help Code	Enter Get Help Code
-64061	Help Configure Build	Help Configure Build
-64062	Tap to Preset Skills	Tap to Preset Skills
-64063	Tap to Preset Attributes	Tap to Preset Attributes
-64064	Tap to select equipment	Tap to select equipment
-64065	Tap to select cards	Tap to select cards
-64066	Tap to Select a Pet	Tap to Select a Pet
-64067	Tap to Select a Divine Totem	Tap to Select a Divine Totem
-64068	Tap to Select a Soul Echo	Tap to Select a Soul Echo
-64069	<color=#97E553> ${1} </color>Expired	<color=#97E553> ${1} </color>Expired
-64070	Submit Build	Submit Build
-64071	Submit this build? It cannot be modified after submission.	Submit this build? It cannot be modified after submission.
-64072	Skill Build	Skill Build
-64073	Stat Build	Stat Build
-64074	Select Equipment	Select Equipment
-64075	Select Cards	Select Cards
-64076	Select Pets	Select Pets
-64077	Select Divine Totems	Select Divine Totems
-64078	Select Soul Echoes	Select Soul Echoes
+64058	Player Requesting Help	ผู้เล่นที่ขอความช่วยเหลือ
+64059	My Build	บิลด์ของฉัน
+64060	Enter Get Help Code	ป้อนรหัสขอความช่วยเหลือ
+64061	Help Configure Build	ช่วยตั้งค่าบิลด์
+64062	Tap to Preset Skills	แตะเพื่อตั้งค่าพรีเซ็ตสกิล
+64063	Tap to Preset Attributes	แตะเพื่อตั้งค่าพรีเซ็ตค่าสถานะ
+64064	Tap to select equipment	แตะเพื่อเลือกอุปกรณ์
+64065	Tap to select cards	แตะเพื่อเลือกการ์ด
+64066	Tap to Select a Pet	แตะเพื่อเลือกสัตว์เลี้ยง
+64067	Tap to Select a Divine Totem	แตะเพื่อเลือก Divine Totem
+64068	Tap to Select a Soul Echo	แตะเพื่อเลือก Soul Echo
+64069	<color=#97E553> ${1} </color>Expired	<color=#97E553> ${1} </color>หมดอายุแล้ว
+64070	Submit Build	ส่งบิลด์
+64071	Submit this build? It cannot be modified after submission.	ส่งบิลด์นี้หรือไม่? ไม่สามารถแก้ไขหลังส่งได้
+64072	Skill Build	บิลด์สกิล
+64073	Stat Build	บิลด์ค่าสถานะ
+64074	Select Equipment	เลือกอุปกรณ์
+64075	Select Cards	เลือกการ์ด
+64076	Select Pets	เลือกสัตว์เลี้ยง
+64077	Select Divine Totems	เลือก Divine Totem
+64078	Select Soul Echoes	เลือก Soul Echo
 64079	Filter	ตัวกรอง
-64080	Filtering	Filtering
-64081	Enter the Training Grounds?	Enter the Training Grounds?
-64082	Solo Training	Solo Training
-64083	Party Training	Party Training
-64084	You must leave your party to enter Solo Training.	You must leave your party to enter Solo Training.
-64085	Only the Party Leader can invite the party to Party Training.	Only the Party Leader can invite the party to Party Training.
-64086	Faction Settings	Faction Settings
-64087	Enemy Team	Enemy Team
-64088	Ally	Ally
-64089	Type Settings	Type Settings
-64090	Monster	Monster
+64080	Filtering	กำลังกรอง
+64081	Enter the Training Grounds?	เข้าสู่สนามฝึกหรือไม่?
+64082	Solo Training	ฝึกเดี่ยว
+64083	Party Training	ฝึกปาร์ตี้
+64084	You must leave your party to enter Solo Training.	คุณต้องออกจากปาร์ตี้ก่อนจึงจะเข้าฝึกเดี่ยวได้
+64085	Only the Party Leader can invite the party to Party Training.	เฉพาะหัวหน้าปาร์ตี้เท่านั้นที่เชิญปาร์ตี้เข้าฝึกปาร์ตี้ได้
+64086	Faction Settings	ตั้งค่าฝ่าย
+64087	Enemy Team	ทีมศัตรู
+64088	Ally	พันธมิตร
+64089	Type Settings	ตั้งค่าประเภท
+64090	Monster	มอนสเตอร์
 64091	Player	ผู้เล่น
-64092	Dummy Faction switched to Ally.	Dummy Faction switched to Ally.
-64093	Dummy Faction switched to Enemy.	Dummy Faction switched to Enemy.
-64094	Dummy type switched to Monster.	Dummy type switched to Monster.
-64095	Dummy type switched to Player.	Dummy type switched to Player.
-64096	Damage tracking Paused.	Damage tracking Paused.
-64097	Damage tracking resumed.	Damage tracking resumed.
-64098	Damage data cleared.	Damage data cleared.
-64099	Replace Personal Build ${1} with the recommended build?	Replace Personal Build ${1} with the recommended build?
-64100	Your selected build has not been saved. Exit anyway?	Your selected build has not been saved. Exit anyway?
-64101	You no longer own some items in the recommended build. Replace the selected System build with the recommended build?	You no longer own some items in the recommended build. Replace the selected System build with the recommended build?
-64102	Items you no longer own were automatically removed from the build.	Items you no longer own were automatically removed from the build.
-64103	Stat Overview	Stat Overview
-64104	The preset name cannot be empty	The preset name cannot be empty
-64105	Not Configured	Not Configured
-64106	${1} List	${1} List
-64107	Get Help code Copied.	Get Help code Copied.
-64108	Personal build replaced.	Personal build replaced.
-64109	System build replaced.	System build replaced.
-64110	You must be in a party to enter Party Training.	You must be in a party to enter Party Training.
-64111	Some System builds have not been selected for Personal Build ${1}. Recommend only the selected System builds?	Some System builds have not been selected for Personal Build ${1}. Recommend only the selected System builds?
-64112	Please select a linked System build first.	Please select a linked System build first.
-64113	Unable to submit. The submission countdown has ended.	Unable to submit. The submission countdown has ended.
-64114	You must link a System build before replacing it.	You must link a System build before replacing it.
-64115	Select an original build on the left.	Select an original build on the left.
-64116	Tap to enter a build name	Tap to enter a build name
-64117	Tap to enter a build description	Tap to enter a build description
+64092	Dummy Faction switched to Ally.	เปลี่ยนฝ่ายหุ่นฝึกเป็นพันธมิตรแล้ว
+64093	Dummy Faction switched to Enemy.	เปลี่ยนฝ่ายหุ่นฝึกเป็นศัตรูแล้ว
+64094	Dummy type switched to Monster.	เปลี่ยนประเภทหุ่นฝึกเป็นมอนสเตอร์แล้ว
+64095	Dummy type switched to Player.	เปลี่ยนประเภทหุ่นฝึกเป็นผู้เล่นแล้ว
+64096	Damage tracking Paused.	พักการติดตามความเสียหายแล้ว
+64097	Damage tracking resumed.	ติดตามความเสียหายต่อแล้ว
+64098	Damage data cleared.	ล้างข้อมูลความเสียหายแล้ว
+64099	Replace Personal Build ${1} with the recommended build?	เปลี่ยนบิลด์ส่วนตัว ${1} เป็นบิลด์ที่แนะนำหรือไม่?
+64100	Your selected build has not been saved. Exit anyway?	ยังไม่ได้บันทึกบิลด์ที่เลือก ต้องการออกหรือไม่?
+64101	You no longer own some items in the recommended build. Replace the selected System build with the recommended build?	คุณไม่มีไอเทมบางชิ้นในบิลด์ที่แนะนำแล้ว เปลี่ยนบิลด์ระบบที่เลือกเป็นบิลด์ที่แนะนำหรือไม่?
+64102	Items you no longer own were automatically removed from the build.	นำไอเทมที่คุณไม่มีแล้วออกจากบิลด์โดยอัตโนมัติ
+64103	Stat Overview	ภาพรวมค่าสถานะ
+64104	The preset name cannot be empty	ชื่อพรีเซ็ตต้องไม่ว่าง
+64105	Not Configured	ยังไม่ได้ตั้งค่า
+64106	${1} List	รายการ ${1}
+64107	Get Help code Copied.	คัดลอกรหัสขอความช่วยเหลือแล้ว
+64108	Personal build replaced.	เปลี่ยนบิลด์ส่วนตัวแล้ว
+64109	System build replaced.	เปลี่ยนบิลด์ระบบแล้ว
+64110	You must be in a party to enter Party Training.	คุณต้องอยู่ในปาร์ตี้จึงจะเข้าฝึกปาร์ตี้ได้
+64111	Some System builds have not been selected for Personal Build ${1}. Recommend only the selected System builds?	ยังไม่ได้เลือกบิลด์ระบบบางส่วนสำหรับบิลด์ส่วนตัว ${1} ต้องการแนะนำเฉพาะบิลด์ระบบที่เลือกหรือไม่?
+64112	Please select a linked System build first.	โปรดเลือกบิลด์ระบบที่เชื่อมโยงก่อน
+64113	Unable to submit. The submission countdown has ended.	ไม่สามารถส่งได้ การนับถอยหลังส่งสิ้นสุดแล้ว
+64114	You must link a System build before replacing it.	คุณต้องเชื่อมโยงบิลด์ระบบก่อนจึงจะเปลี่ยนได้
+64115	Select an original build on the left.	เลือกบิลด์ต้นฉบับทางด้านซ้าย
+64116	Tap to enter a build name	แตะเพื่อป้อนชื่อบิลด์
+64117	Tap to enter a build description	แตะเพื่อป้อนคำอธิบายบิลด์
 64118	Start	เริ่ม
-64119	Pause	Pause
+64119	Pause	พัก
 64120	Refresh	รีเฟรช
-64121	A new scenario has begun. Your Skill Build and Soul Echo build have been reset. Please configure them again.	A new scenario has begun. Your Skill Build and Soul Echo build have been reset. Please configure them again.
-64122	Playstyle Build	Playstyle Build
-64123	Auto-Assign	Auto-Assign
-64124	Recommended Stats	Recommended Stats
-64125	No playstyle builds available. Use Get Help to obtain one from another player.	No playstyle builds available. Use Get Help to obtain one from another player.
-64126	No playstyle builds available. Create a build for another player to obtain one.	No playstyle builds available. Create a build for another player to obtain one.
-64127	No suitable equipment available.	No suitable equipment available.
-64128	${1} is currently used in a build. Use it for synthesis anyway?	${1} is currently used in a build. Use it for synthesis anyway?
-64129	The requester deleted their Get Help request. Unable to submit.	The requester deleted their Get Help request. Unable to submit.
+64121	A new scenario has begun. Your Skill Build and Soul Echo build have been reset. Please configure them again.	เริ่มสถานการณ์ใหม่แล้ว บิลด์สกิลและบิลด์ Soul Echo ของคุณถูกรีเซ็ต โปรดตั้งค่าใหม่
+64122	Playstyle Build	บิลด์สไตล์การเล่น
+64123	Auto-Assign	จัดสรรอัตโนมัติ
+64124	Recommended Stats	ค่าสถานะที่แนะนำ
+64125	No playstyle builds available. Use Get Help to obtain one from another player.	ไม่มีบิลด์สไตล์การเล่น ใช้ขอความช่วยเหลือเพื่อรับจากผู้เล่นอื่น
+64126	No playstyle builds available. Create a build for another player to obtain one.	ไม่มีบิลด์สไตล์การเล่น สร้างบิลด์ให้ผู้เล่นอื่นเพื่อรับหนึ่งบิลด์
+64127	No suitable equipment available.	ไม่มีอุปกรณ์ที่เหมาะสม
+64128	${1} is currently used in a build. Use it for synthesis anyway?	${1} ใช้อยู่ในบิลด์ ต้องการใช้สังเคราะห์ต่อหรือไม่?
+64129	The requester deleted their Get Help request. Unable to submit.	ผู้ขอลบคำขอความช่วยเหลือแล้ว ไม่สามารถส่งได้
 64130	${1}/<color=#e5dcc1>${2}</color>	${1}/<color=#e5dcc1>${2}</color>
-64131	Current DPS Record <color=#c27b47>${1}</color>	Current DPS Record <color=#c27b47>${1}</color>
-64132	Reach <color=#63a22b>${1}</color> DPS	Reach <color=#63a22b>${1}</color> DPS
-64133	Class Ranking: <color=#e5dcc1>${1}</color>	Class Ranking: <color=#e5dcc1>${1}</color>
-64134	Overall Ranking: <color=#e5dcc1>${1}</color>	Overall Ranking: <color=#e5dcc1>${1}</color>
-64135	Challenge Complete	Challenge Complete
-64136	Total DMG	Total DMG
-64137	Current Battle Data	Current Battle Data
+64131	Current DPS Record <color=#c27b47>${1}</color>	สถิติ DPS ปัจจุบัน <color=#c27b47>${1}</color>
+64132	Reach <color=#63a22b>${1}</color> DPS	ทำ DPS ให้ถึง <color=#63a22b>${1}</color>
+64133	Class Ranking: <color=#e5dcc1>${1}</color>	อันดับอาชีพ: <color=#e5dcc1>${1}</color>
+64134	Overall Ranking: <color=#e5dcc1>${1}</color>	อันดับรวม: <color=#e5dcc1>${1}</color>
+64135	Challenge Complete	ท้าทายสำเร็จ
+64136	Total DMG	ความเสียหายรวม
+64137	Current Battle Data	ข้อมูลการต่อสู้ปัจจุบัน
 64138	DPS	DPS
 64139	Rewards	รางวัล
 64140	Ranking	อันดับ
-64141	Dummy Settings	Dummy Settings
+64141	Dummy Settings	ตั้งค่าหุ่นฝึก
 64142	Confirm	ยืนยัน
-64143	All challenges completed.	All challenges completed.
-64144	Clearing Rewards	Clearing Rewards
-64145	Tap to Begin the Challenge	Tap to Begin the Challenge
-64146	Reach the next DPS target in Challenge Mode to earn the following rewards:	Reach the next DPS target in Challenge Mode to earn the following rewards:
+64143	All challenges completed.	ทำการท้าทายทั้งหมดสำเร็จแล้ว
+64144	Clearing Rewards	รางวัลผ่านด่าน
+64145	Tap to Begin the Challenge	แตะเพื่อเริ่มการท้าทาย
+64146	Reach the next DPS target in Challenge Mode to earn the following rewards:	ทำ DPS ให้ถึงเป้าหมายถัดไปในโหมดท้าทายเพื่อรับรางวัลต่อไปนี้:
 64147	More	เพิ่มเติม
-64148	Challenge DPS	Challenge DPS
+64148	Challenge DPS	DPS การท้าทาย
 64149	Challenge	ท้าทาย
 64150	Ranking	อันดับ
-64151	Build	Build
-64152	Claimed	Claimed
-64153	Not Reached	Not Reached
+64151	Build	บิลด์
+64152	Claimed	รับแล้ว
+64153	Not Reached	ยังไม่ถึง
 64154	Claim	รับ
 64155	Reset	รีเซ็ต
 64156	Exit	ออก
 64157	Claim All	รับทั้งหมด
-64158	Dummy	Dummy
-64159	Challenge Mode	Challenge Mode
-64160	Take part in the <color=#ff993f>Dummy Challenge</color> and push your limit to earn rewards.	Take part in the <color=#ff993f>Dummy Challenge</color> and push your limit to earn rewards.
-64161	Participate Now	Participate Now
-64162	Maximum DPS	Maximum DPS
+64158	Dummy	หุ่นฝึก
+64159	Challenge Mode	โหมดท้าทาย
+64160	Take part in the <color=#ff993f>Dummy Challenge</color> and push your limit to earn rewards.	เข้าร่วม <color=#ff993f>การท้าทายหุ่นฝึก</color> และก้าวข้ามขีดจำกัดเพื่อรับรางวัล
+64161	Participate Now	เข้าร่วมตอนนี้
+64162	Maximum DPS	DPS สูงสุด
 64163	Ranking	อันดับ
-64164	Confirm Exit	Confirm Exit
-64165	Try different skill combinations and learn class synergies	Try different skill combinations and learn class synergies
-64166	Party Training: Build team coordination	Party Training: Build team coordination
-64167	Extreme Challenge: Strive to become the Best Attacker	Extreme Challenge: Strive to become the Best Attacker
-64168	Dummy Challenge	Dummy Challenge
-64169	Challenge Again	Challenge Again
-64170	Extreme Challenge	Extreme Challenge
-64171	Select Mode	Select Mode
-64172	Start Challenge	Start Challenge
-64173	Please select a Talent Plan in the upper-right corner	Please select a Talent Plan in the upper-right corner
-64174	Tap to Preset Talents	Tap to Preset Talents
-64175	This class has no class talents	This class has no class talents
-64176	Suggested Resonance	Suggested Resonance
-64177	Suggested Talents	Suggested Talents
-64178	Level Req: ${1}	Level Req: ${1}
+64164	Confirm Exit	ยืนยันการออก
+64165	Try different skill combinations and learn class synergies	ลองชุดสกิลต่าง ๆ และเรียนรู้การประสานกันของอาชีพ
+64166	Party Training: Build team coordination	ฝึกปาร์ตี้: พัฒนาการประสานงานของทีม
+64167	Extreme Challenge: Strive to become the Best Attacker	การท้าทายสุดขีด: มุ่งเป็นผู้โจมตีที่ดีที่สุด
+64168	Dummy Challenge	การท้าทายหุ่นฝึก
+64169	Challenge Again	ท้าทายอีกครั้ง
+64170	Extreme Challenge	การท้าทายสุดขีด
+64171	Select Mode	เลือกโหมด
+64172	Start Challenge	เริ่มท้าทาย
+64173	Please select a Talent Plan in the upper-right corner	โปรดเลือกแผนพรสวรรค์ที่มุมขวาบน
+64174	Tap to Preset Talents	แตะเพื่อตั้งค่าพรีเซ็ตพรสวรรค์
+64175	This class has no class talents	อาชีพนี้ไม่มีพรสวรรค์อาชีพ
+64176	Suggested Resonance	เรโซแนนซ์ที่แนะนำ
+64177	Suggested Talents	พรสวรรค์ที่แนะนำ
+64178	Level Req: ${1}	ระดับที่ต้องการ: ${1}
 10220300695	On HIT, ^{1}${1}%^{2} Chance to reduce the enemy target's Movement Speed by ^{3}${2}%^{4}	เมื่อโจมตีโดน มีโอกาส ^{1}${1}%^{2} ลด MSPD ของเป้าหมายศัตรูลง ^{3}${2}%^{4}
 10220300694	Physical/Magic DEF -^{1}${1}%^{2}	P.DEF/M.DEF -^{1}${1}%^{2}
 10220300693	Physical/Magic DEF +^{1}${1}%^{2}	P.DEF/M.DEF +^{1}${1}%^{2}

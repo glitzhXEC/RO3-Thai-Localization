@@ -1,20 +1,20 @@
 {
   "Schema": 1,
   "RuntimeSchema": 2,
-  "Version": "80bf7b898312471debdf5040a647ccaa2f6342d947891fc5eabcb0781e3d2e2e",
-  "SourceSha256": "6b1305a73ea92ca23ea5f3bcd52722ad44ac33dd2dac28479cf9f20fd4afaac8",
+  "Version": "a70c8a4dac7834f33c65fe09db147ad55778e69241bbfc39c4831084a6c922de",
+  "SourceSha256": "f992472d44d7252c3aad6c9ee48c6e304df7445ecfc1d37bd96d2ddd39c05284",
   "TranslationIds": 33513,
-  "RuntimeRules": 1920,
+  "RuntimeRules": 1943,
   "Files": [
     {
       "Name": "RO3.LocalizationOverrides.tsv",
-      "Sha256": "50eeea48b0d6aad7938dfe2e635186ec1212309d9bfd1dc2406b1b913faa457b",
-      "Bytes": 3973932
+      "Sha256": "01d334d86bba17be80494ec6499071e01975e916e25a37524c90bbd8065a0f17",
+      "Bytes": 4001881
     },
     {
       "Name": "RO3.LocalizationRules.tsv",
-      "Sha256": "c1bba4b5cbf76800a615afb88b875386c4adac9342a4d283d7423df891642721",
-      "Bytes": 1516888
+      "Sha256": "ef75a83675b4ae985e88c33acba7950be9adf9e249466b7301af160df8076267",
+      "Bytes": 1524184
     },
     {
       "Name": "RO3.LanguageOrigins.tsv",
