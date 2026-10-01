@@ -1,0 +1,15 @@
+{
+  "new_batch_counts": {
+    "batch-074.th.json": 60,
+    "batch-075.th.json": 54,
+    "batch-076.th.json": 27,
+    "batch-077.th.json": 166,
+    "batch-078.th.json": 54
+  },
+  "new_authored_ids": 361,
+  "authored_ids_all_batches": 10457,
+  "runtime_thai_difference_ids": 10445,
+  "runtime_english_ids": 23068,
+  "complete_game_translation": false,
+  "game_tested": false
+}

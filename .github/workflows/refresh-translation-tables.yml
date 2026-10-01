@@ -1,3 +1,4 @@
+# Refresh includes batches 074–078: 361 gameplay guide, skill and encounter IDs.
 # Refresh includes batches 067–073: 953 additional IDs; verified live English authoring.
 # Refresh includes batches 061–066: 1,566 additional menu IDs.
 # Refresh includes batches 057–060: 819 additional menu IDs.
@@ -19,6 +20,7 @@ on:
       - 'scripts/validate_menu_batches.py'
       - 'scripts/audit_english_base.py'
       - 'scripts/prepare_skill_runtime.py'
+      - 'tests/SkillRuntime.Tests/**'
   workflow_dispatch:
 permissions:
   contents: write

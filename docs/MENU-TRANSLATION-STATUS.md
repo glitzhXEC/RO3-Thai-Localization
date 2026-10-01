@@ -36,7 +36,7 @@ English from the actual game export is the source of truth. Native Thai from the
 | 073 | 24 | Remaining menu headings/help placeholders, guild messages and format labels |
 
 - 953 new IDs in the latest update; 6,716 authored menu IDs across batches 046–073.
-- 10,096 authored translation IDs across all batches. Runtime retains English for five held semantic-review IDs and seven authored rows whose target equals English: 10,084 runtime IDs differ from English.
+- 10,457 authored translation IDs across all batches. Runtime retains English for five held semantic-review IDs and seven authored rows whose target equals English: 10,445 runtime IDs differ from English.
 - **This is not a completed translation of every menu or every game text.** Newer gameplay systems and other groups still need review; some card/title/event labels also remain English as protected formats, technical names or ambiguous text. Some pet/appearance/preset rows remain held as described below. The exact unreviewed UI-candidate inventory is in `menu-translation-coverage.json`; these candidates also contain proper names, technical labels and format-only rows, so their count is not the count of menus requiring Thai.
 
 ## Reference corrections and held context
@@ -65,3 +65,7 @@ Validation checks placeholder/tag order, numbers, math symbols, bracket names, e
 ## Remaining review inventory
 
 `menu-untranslated-review.json` lists the 344 source IDs below 100000 not present in authored batches. This is a scoped UI-review inventory, not an exhaustive game-text backlog. It separates technical/format strings, explicitly retained names, bracket-protected text and unresolved context. The current DLL treats bracket content as protected names even in some highlighted UI prose; changing those clauses would require a compatible runtime feature, not simply a TSV edit. They retain the English base for now.
+
+## Gameplay descriptions beyond the menu inventory
+
+Batches 074–078 add 361 IDs above 100000, covering equipment/card/AFK/guild guides, remaining readable skill/item descriptions, boss mechanics, siege alerts and airship encounters. These are not added to the below-100000 menu totals. See `GAMEPLAY-TRANSLATION-STATUS.md`. Overall authored totals above include these batches.

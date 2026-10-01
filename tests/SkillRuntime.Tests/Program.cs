@@ -16,6 +16,7 @@ foreach(var row in rows.Values)
  Check(!dict.TryId(row[0],"Different new game English text",out _),"Mismatched ID refused "+row[0]);
 }
 string Unwire(string s){var b=new System.Text.StringBuilder();for(int i=0;i<s.Length;i++){if(s[i]=='\\'&&i+1<s.Length&&"nrt\\".Contains(s[i+1])){char c=s[++i];b.Append(c=='n'?'\n':c=='r'?'\r':c=='t'?'\t':'\\');}else b.Append(s[i]);}return b.ToString();}
+Check(Unwire(@"a\r\nb\tc\\n")=="a\r\nb\tc\\n","Wire controls decoded once; literal backslash-n retained");
 var originals=File.ReadAllLines(Path.Combine(config,"RO3.LanguageOrigins.tsv")).Select(s=>s.Split('\t',3)).ToDictionary(r=>r[0]);
 foreach(var pair in originals)
  foreach(string chinese in pair.Value.Skip(1))
@@ -28,7 +29,7 @@ foreach(var line in File.ReadAllLines(Path.Combine(config,"RO3.SkillRules.tsv"))
  var rule=line.Split('\t',3);var row=rows[rule[0]];
  foreach(bool styled in new[]{false,true})
  {
-  string Render(string s) => token.Replace(s.Replace(@"\n","\n"),m=>m.Value.StartsWith('^')?(styled?(int.Parse(Regex.Match(m.Value,@"\d+").Value)%2==1?"<color=#ff9900>":"</color>"):""):"123.5");
+  string Render(string s) => token.Replace(Unwire(s),m=>m.Value.StartsWith('^')?(styled?(int.Parse(Regex.Match(m.Value,@"\d+").Value)%2==1?"<color=#ff9900>":"</color>"):""):"123.5");
   string english=Render(row[1]),expected=Render(row[2]);
   string actual=dict.Translate(english);
   Check(actual==expected,"Rendered skill rule "+rule[0]+" styled="+styled+"\nEXPECTED:"+expected+"\nACTUAL:"+actual);

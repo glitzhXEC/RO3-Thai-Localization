@@ -17,4 +17,4 @@ for path in sorted((root/'translations').glob('batch-*.th.json')):
         checked+=1
 assert numbers('Items\\n2-player party')=={'2':1}
 assert numbers('Items\\n2-player party')!=numbers('ไอเทม\\n3 คนในปาร์ตี้')
-print(f'PASS: {checked} menu ID pairs; decoded-control numeric check and changed-digit rejection')
+print(f'PASS: {checked} audited ID pairs (menus and descriptions); decoded-control numeric check and changed-digit rejection')
