@@ -42,13 +42,16 @@ Check(dict.Translate("Hello from my party!")=="Hello from my party!","Unmatched 
 Check(dict.Translate("ข้อความภาษาไทยเดิม")=="ข้อความภาษาไทยเดิม","Thai text not retranslated");
 Check(!dict.TryId("99999999999","Hello",out _),"Unknown ID refused");
 Check(!dict.TryId("10110300015","unknown",out _),"Ambiguous skill does not override mismatched text");
-foreach(var sample in new[]{("1002","确定","Confirm"),("1003","取消","Cancel"),("1008","背包","Backpack")})
- Check(dict.TryId(sample.Item1,sample.Item2,out var restored)&&restored==sample.Item3,"UI restored English "+sample.Item1);
+foreach(var sample in new[]{("1002","确定","ยืนยัน"),("1003","取消","ยกเลิก"),("1008","背包","กระเป๋า")})
+ Check(dict.TryId(sample.Item1,sample.Item2,out var restored)&&restored==sample.Item3,"Approved UI Thai by verified Chinese ID "+sample.Item1);
+Check(rows["27003"][1]=="Log" && rows["27003"][2]=="Log","Held ambiguous UI label stays English");
+Check(dict.TryId("27003", originals["27003"][1], out var englishFallback) && englishFallback=="Log","Untranslated UI Chinese source restores English by ID");
+Check(dict.Translate("Confirm")=="Confirm" && dict.Translate("Backpack")=="Backpack","Short UI translations do not leak globally");
 Check(dict.Translate("确定")=="确定" && dict.Translate("你好")=="你好","No global arbitrary Chinese translations");
 Check(!dict.TryId("1002","另一个玩家",out _),"Wrong Chinese for same ID preserved");
 var native=new Dictionary<long,string>{{1002,"确定"},{1003,"取消"},{999999,"user-owned"}};
-dict.SeedCache(native);Check(native[1002]=="Confirm" && native[1003]=="Cancel","Native Chinese cache restored");
-for(int i=0;i<5;i++){native.Clear();native[1002]="确定";dict.SeedCache(native);Check(native[1002]=="Confirm","Repeated language cache reset "+i);}
+dict.SeedCache(native);Check(native[1002]=="ยืนยัน" && native[1003]=="ยกเลิก","Native Chinese cache restored to approved Thai");
+for(int i=0;i<5;i++){native.Clear();native[1002]="确定";dict.SeedCache(native);Check(native[1002]=="ยืนยัน","Repeated language cache reset "+i);}
 native[1002]="Changed newer English";dict.SeedCache(native);Check(native[1002]=="Changed newer English","Unknown/new English not forcibly overwritten");
 var collision=SkillDictionary.LoadText("1002\tThis is a sufficiently long duplicated original English description.\tThis is a sufficiently long duplicated original English description.\n10110300001\tThis is a sufficiently long duplicated original English description.\tนี่เป็นคำแปลทดสอบที่มีต้นฉบับเดียวกัน\n","");
 Check(collision.Translate("This is a sufficiently long duplicated original English description.")=="This is a sufficiently long duplicated original English description.","Shared text cannot change English-only UI IDs");
