@@ -56,4 +56,5 @@ native[1002]="Changed newer English";dict.SeedCache(native);Check(native[1002]==
 var collision=SkillDictionary.LoadText("1002\tThis is a sufficiently long duplicated original English description.\tThis is a sufficiently long duplicated original English description.\n10110300001\tThis is a sufficiently long duplicated original English description.\tนี่เป็นคำแปลทดสอบที่มีต้นฉบับเดียวกัน\n","");
 Check(collision.Translate("This is a sufficiently long duplicated original English description.")=="This is a sufficiently long duplicated original English description.","Shared text cannot change English-only UI IDs");
 Check(collision.TryId("10110300001","This is a sufficiently long duplicated original English description.",out var special)&&special=="นี่เป็นคำแปลทดสอบที่มีต้นฉบับเดียวกัน","Shared text still translates by exact approved ID");
+checks+=LanguageBridgeChecks.Run();
 Console.WriteLine($"PASS: {checks} checks; {dict.Count} merged localization IDs, {dict.RuleCount} runtime rules. No game executed.");

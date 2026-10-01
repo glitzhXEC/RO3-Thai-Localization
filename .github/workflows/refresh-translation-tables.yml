@@ -1,3 +1,4 @@
+# Language-table hotfix and English-base audit; translation batch 056.
 # Refresh includes batches 054–055: 506 additional menu IDs.
 # Refresh includes batches 048–053: 2,109 additional menu IDs.
 # Refresh includes batches 046–047: 531 new menu IDs.
@@ -11,6 +12,7 @@ on:
       - 'translations/batch-*.th.json'
       - 'scripts/validate_translations.py'
       - 'scripts/validate_menu_batches.py'
+      - 'scripts/audit_english_base.py'
       - 'scripts/prepare_skill_runtime.py'
   workflow_dispatch:
 permissions:
@@ -39,11 +41,13 @@ jobs:
       - name: Verify skills runtime and styled numeric rules
         run: |
           python scripts/prepare_live_translations.py
+          python scripts/audit_english_base.py
+          dotnet run --project tests/LanguageHooks.Tests -c Release
           dotnet run --project tests/SkillRuntime.Tests -c Release -- .
           dotnet run --project tests/TranslationUpdater.Tests -c Release -- .
       - name: Commit generated tables only
         run: |
-          git add -- translations/RO3.LocalizationOverrides.tsv translations/retranslated.tsv docs/qa-translations.json docs/partial-skill-payload.json translations/RO3.LocalizationUntranslated.tsv translations/RO3.LocalizationMerged.tsv docs/split-localization-tables.json translations/live docs/translation-update-feed.json
+          git add -- translations/RO3.LocalizationOverrides.tsv translations/retranslated.tsv docs/qa-translations.json docs/partial-skill-payload.json translations/RO3.LocalizationUntranslated.tsv translations/RO3.LocalizationMerged.tsv docs/split-localization-tables.json translations/live docs/translation-update-feed.json docs/english-base-audit.json
           if git diff --cached --quiet; then
             echo "Tables already current"
             exit 0

@@ -117,6 +117,43 @@ namespace RO3.ThaiLocalization
             if (KnownOrigin(original, row.CnWire) || KnownOrigin(original, row.TwWire)) { translated = row.Thai; return true; }
             return false;
         }
+        public bool ContainsId(string id) { return byId.ContainsKey(id); }
+        public bool TryUpdatedTarget(string id, string original, SkillDictionary? previous, out string translated)
+        {
+            translated = original;
+            Row now, old;
+            if (previous == null || !byId.TryGetValue(id, out now!) || !previous.byId.TryGetValue(id, out old!)) return false;
+            if (original == old.ThaiDecoded) { translated = now.ThaiDecoded; return true; }
+            if (original == old.Thai) { translated = now.Thai; return true; }
+            return false;
+        }
+        public static bool HasChinese(string text)
+        { return Regex.IsMatch(text.Replace("(╯▔皿▔)╯", ""), @"[\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF]"); }
+        // Only call from a trusted language-ID API or a named localization table.
+        // This is NOT a global text/player-name translator.
+        public bool TryLanguageId(string id, string original, out string translated, out bool restoredEnglish)
+        {
+            restoredEnglish = false;
+            if (TryId(id, original, out translated)) return true;
+            Row row;
+            if (!byId.TryGetValue(id, out row!)) return false;
+            if (original == row.ThaiDecoded || original == row.Thai) return true;
+            if (original.Length > 15000 || !HasChinese(original)) return false;
+            // A changed Chinese source must never be guessed into Thai. Restore the
+            // trusted English by ID only when placeholders/tags/numbers still agree.
+            try { ValidateLanguageShape(row.EnglishDecoded, Decode(original)); }
+            catch (InvalidDataException) { return false; }
+            translated = original == Decode(original) ? row.EnglishDecoded : row.English;
+            restoredEnglish = true;
+            return true;
+        }
+        private static void ValidateLanguageShape(string english, string chinese)
+        {
+            SameMatches(english, chinese, @"[$@^]\{\d+\}|(?<![$@^])\{\d+\}|%(?:\d+\$)?[sdif]|<[^>]+>", false);
+            SameMatches(english, chinese, @"(?<![A-Za-z])\d+(?:\.\d+)?|[%*+]", true);
+            if (english.Split('\n').Length != chinese.Split('\n').Length || english.Split('\r').Length != chinese.Split('\r').Length || english.Split('\t').Length != chinese.Split('\t').Length)
+                throw new InvalidDataException("Changed localization layout");
+        }
         private static bool KnownOrigin(string input, string value) { return value.Length != 0 && value != "None" && input == value; }
         public int ThaiCount { get { int n = 0; foreach (var row in byId.Values) if (row.English != row.Thai) n++; return n; } }
         public IEnumerable<KeyValuePair<long, string>> IdValues()
@@ -129,9 +166,13 @@ namespace RO3.ThaiLocalization
                 long key = long.Parse(pair.Key, System.Globalization.CultureInfo.InvariantCulture); string existing;
                 bool has = native.TryGetValue(key, out existing!); Row old;
                 bool ownPrevious = previous != null && previous.byId.TryGetValue(pair.Key, out old!) && existing == old.ThaiDecoded;
-                string matched;
-                if (has && existing != pair.Value.ThaiDecoded && !TryId(pair.Key, existing, out matched!) && !ownPrevious) continue;
-                if (!has || existing != pair.Value.ThaiDecoded) { native[key] = pair.Value.ThaiDecoded; changed++; }
+                string target = pair.Value.ThaiDecoded, matched;
+                if (has && existing != target && !ownPrevious)
+                {
+                    if (!TryLanguageId(pair.Key, existing, out matched!, out _)) continue;
+                    target = matched;
+                }
+                if (!has || existing != target) { native[key] = target; changed++; }
             }
             return changed;
         }

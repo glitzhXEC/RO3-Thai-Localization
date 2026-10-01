@@ -10,12 +10,16 @@ using System.Threading;
 
 namespace RO3.ThaiLocalization
 {
-    [BepInPlugin("com.ro3.thailocalization.skills", "RO3 Thai Localization + Translation Updates", "0.4.0")]
+    [BepInPlugin("com.ro3.thailocalization.skills", "RO3 Thai Localization + Translation Updates", "0.4.1")]
     public sealed class SkillsPlugin : BaseUnityPlugin
     {
         private static SkillDictionary? dictionary;
         private static SkillDictionary? previousDictionary;
         private static int seedPending = 1, fallbackLogs;
+        private static int gameThreadId, luaProbePending = 1;
+        private static long nextLuaProbe;
+        private static readonly List<object> luaEnvs = new List<object>();
+        [ThreadStatic] private static bool patchingLua;
         private static Harmony? harmony;
         private static ManualLogSource? log;
         private static readonly HashSet<MethodBase> patched = new HashSet<MethodBase>();
@@ -27,6 +31,7 @@ namespace RO3.ThaiLocalization
             try
             {
                 log = Logger;
+                gameThreadId = Thread.CurrentThread.ManagedThreadId;
                 dictionary = SkillDictionary.Load(Path.Combine(Paths.ConfigPath, "RO3.SkillTranslations.tsv"), Path.Combine(Paths.ConfigPath, "RO3.SkillRules.tsv"), Path.Combine(Paths.ConfigPath, "RO3.LanguageOrigins.tsv"));
                 string cachedVersion = "";
                 try
@@ -50,7 +55,7 @@ namespace RO3.ThaiLocalization
                         if (updated != null)
                         {
                             Volatile.Write(ref previousDictionary, Volatile.Read(ref dictionary));
-                            Volatile.Write(ref dictionary, updated); Interlocked.Exchange(ref seedPending, 1);
+                            Volatile.Write(ref dictionary, updated); Interlocked.Exchange(ref seedPending, 1); Interlocked.Exchange(ref luaProbePending, 1);
                         }
                     });
                 }
@@ -88,6 +93,20 @@ namespace RO3.ThaiLocalization
                     var reset = type.GetMethod("Obf_FO", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static, null, Type.EmptyTypes, null);
                     if (reset != null) Patch(reset, "LanguageCacheResetPostfix", true, true);
                 }
+                foreach (Type type in FindTypes("LA_LuaManager"))
+                {
+                    var require = type.GetMethod("Obf_MD", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance, null, new[] { typeof(string) }, null);
+                    if (require != null && require.ReturnType == typeof(object[])) Patch(require, "ModuleRequirePostfix", true, false);
+                    var getter = type.GetMethod("Obf_jD", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance, null, Type.EmptyTypes, null);
+                    if (getter != null && !getter.ReturnType.IsValueType && getter.ReturnType != typeof(void)) Patch(getter, "LuaEnvPostfix", true, false);
+                    foreach (var init in type.GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance))
+                        if (init.Name == "Obf_iD" && init.GetParameters().Length == 2) Patch(init, "LuaInitPostfix", true, false);
+                }
+                foreach (Type type in FindTypes("Obf_o"))
+                {
+                    var tick = type.GetMethod("Obf_ie", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance, null, Type.EmptyTypes, null);
+                    if (tick != null) Patch(tick, "LuaTickPostfix", true, false);
+                }
                 foreach (string name in new[] { "TMPro.TMP_Text", "UnityEngine.UI.Text", "HUDUber.Text", "HUDUber.Graphic", "MTextData", "TextMeshBuilder" })
                     foreach (Type type in FindTypes(name))
                         foreach (MethodInfo method in type.GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.DeclaredOnly))
@@ -106,7 +125,8 @@ namespace RO3.ThaiLocalization
             if (patched.Contains(method)) return;
             try
             {
-                var hook = new HarmonyMethod(typeof(SkillsPlugin).GetMethod(callback, BindingFlags.NonPublic | BindingFlags.Static));
+                var callbackMethod = typeof(SkillsPlugin).GetMethod(callback, BindingFlags.NonPublic | BindingFlags.Static) ?? throw new InvalidOperationException("Missing patch callback " + callback);
+                var hook = new HarmonyMethod(callbackMethod);
                 hook.priority = Priority.Last;
                 if (postfix) harmony!.Patch(method, postfix: hook); else harmony!.Patch(method, prefix: hook);
                 patched.Add(method);
@@ -131,26 +151,103 @@ namespace RO3.ThaiLocalization
         }
         private static void LanguageCacheResetPostfix(MethodBase __originalMethod)
         {
-            if (__originalMethod.DeclaringType != null) SeedLanguageCache(__originalMethod.DeclaringType, "language cache reset");
+            Interlocked.Exchange(ref luaProbePending, 1);
+            if (Thread.CurrentThread.ManagedThreadId == gameThreadId && __originalMethod.DeclaringType != null) SeedLanguageCache(__originalMethod.DeclaringType, "language cache reset");
+            CaptureLanguageEnv(__originalMethod.DeclaringType);
         }
         private static void LanguagePostfix(long __0, ref string __result, MethodBase __originalMethod)
         {
             if (dictionary == null || __result == null) return;
             try
             {
-                if (Volatile.Read(ref seedPending) != 0 && __originalMethod.DeclaringType != null) SeedLanguageCache(__originalMethod.DeclaringType, "ID lookup (game thread)");
+                if (Thread.CurrentThread.ManagedThreadId == gameThreadId && Volatile.Read(ref seedPending) != 0 && __originalMethod.DeclaringType != null) SeedLanguageCache(__originalMethod.DeclaringType, "ID lookup (game thread)");
+                CaptureLanguageEnv(__originalMethod.DeclaringType);
                 var current = Volatile.Read(ref dictionary); if (current == null) return;
                 string translated;
-                if (current.TryId(__0.ToString(CultureInfo.InvariantCulture), __result, out translated))
+                bool englishFallback;
+                if (current.TryLanguageId(__0.ToString(CultureInfo.InvariantCulture), __result, out translated, out englishFallback))
                 {
-                    if (__result != translated && System.Text.RegularExpressions.Regex.IsMatch(__result, @"[\u3400-\u4DBF\u4E00-\u9FFF]") && Interlocked.Increment(ref fallbackLogs) <= 16)
-                        log?.LogInfo("Verified language fallback restored by ID=" + __0.ToString(CultureInfo.InvariantCulture));
+                    if (__result != translated && SkillDictionary.HasChinese(__result) && Interlocked.Increment(ref fallbackLogs) <= 16)
+                        log?.LogInfo((englishFallback ? "Unverified Chinese restored to trusted English; review ID=" : "Verified language fallback restored by ID=") + __0.ToString(CultureInfo.InvariantCulture));
                     __result = translated;
                 }
-                else if (System.Text.RegularExpressions.Regex.IsMatch(__result, @"[\u3400-\u4DBF\u4E00-\u9FFF]") && Interlocked.Increment(ref fallbackLogs) <= 16)
+                else if (SkillDictionary.HasChinese(__result) && Interlocked.Increment(ref fallbackLogs) <= 16)
                     log?.LogWarning("Unmatched Chinese lookup kept unchanged (not guessed), ID=" + __0.ToString(CultureInfo.InvariantCulture));
             }
             catch { /* No lookup failure is allowed to break a game method. */ }
+        }
+        private static object? Field(object? instance, string name)
+        {
+            if (instance == null) return null;
+            for (Type? t = instance.GetType(); t != null; t = t.BaseType)
+            {
+                var f = t.GetField(name, BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+                if (f != null) return f.GetValue(instance);
+            }
+            return null;
+        }
+        private static void Capture(object? env)
+        {
+            if (env == null) return;
+            lock (luaEnvs)
+            {
+                foreach (object known in luaEnvs) if (ReferenceEquals(known, env)) return;
+                if (luaEnvs.Count >= 8) { log?.LogWarning("Additional Lua environment not retained; direct named-module hook remains active."); return; }
+                luaEnvs.Add(env); Interlocked.Exchange(ref luaProbePending, 1);
+            }
+        }
+        private static void CaptureLanguageEnv(Type? type)
+        {
+            if (type == null) return;
+            try
+            {
+                var f = type.GetField("Obf_pk", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static);
+                Capture(Field(f?.GetValue(null), "Obf_blA"));
+            }
+            catch { }
+        }
+        private static void ApplyModule(string name, object? table, string reason)
+        {
+            var current = Volatile.Read(ref dictionary); if (current == null) return;
+            var r = LocalizationTableBridge.PatchModule(name, table, current, Volatile.Read(ref previousDictionary));
+            if (r.Tables == 0) return;
+            log?.LogInfo("Language table " + name + " after " + reason + ": changed=" + r.Changed + ", unverified-English=" + r.EnglishRestored + ", preserved=" + r.Preserved + ", unknown-IDs=" + r.UnknownIds + ", errors=" + r.Errors);
+            if (r.ReviewIds.Count > 0) log?.LogWarning("Language IDs requiring source review: " + String.Join(",", r.ReviewIds));
+        }
+        private static void ModuleRequirePostfix(object __instance, string __0, object[] __result)
+        {
+            try { Capture(Field(__instance, "Obf_Dc")); } catch { }
+            if (patchingLua || Thread.CurrentThread.ManagedThreadId != gameThreadId || !LocalizationTableBridge.IsLanguageModule(__0)) return;
+            try
+            {
+                patchingLua = true;
+                if (__result != null) foreach (object value in __result) ApplyModule(__0, value, "require");
+                Interlocked.Exchange(ref luaProbePending, 1);
+            }
+            catch (Exception e) { log?.LogWarning("Named language module patch deferred: " + e.Message); }
+            finally { patchingLua = false; }
+        }
+        private static void LuaEnvPostfix(object __result) { try { Capture(__result); } catch { } }
+        private static void LuaInitPostfix(object __instance) { try { Capture(Field(__instance, "Obf_Dc")); Interlocked.Exchange(ref luaProbePending, 1); } catch { } }
+        private static void LuaTickPostfix()
+        {
+            if (patchingLua || Thread.CurrentThread.ManagedThreadId != gameThreadId || Volatile.Read(ref luaProbePending) == 0) return;
+            long now = DateTime.UtcNow.Ticks;
+            if (now < Interlocked.Read(ref nextLuaProbe)) return;
+            try
+            {
+                patchingLua = true;
+                object[] envs; lock (luaEnvs) envs = luaEnvs.ToArray();
+                int found = 0;
+                foreach (object env in envs)
+                    foreach (var module in LocalizationTableBridge.LoadedModules(env)) { ApplyModule(module.Key, module.Value, "game-thread refresh"); found++; }
+                if (found > 0) Interlocked.Exchange(ref luaProbePending, 0);
+                // No Lua work from timers/network callbacks; retry unavailable globals
+                // after initialization without probing every frame.
+                Interlocked.Exchange(ref nextLuaProbe, now + TimeSpan.FromSeconds(2).Ticks);
+            }
+            catch (Exception e) { log?.LogWarning("Language table refresh deferred: " + e.Message); }
+            finally { patchingLua = false; }
         }
         private static void TextPrefix(ref string __0)
         {

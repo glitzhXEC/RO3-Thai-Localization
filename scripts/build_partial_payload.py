@@ -29,7 +29,7 @@ for file in sorted(stage.rglob('*')):
  files.append({'Path':relative,'Sha256':hashlib.sha256(file.read_bytes()).hexdigest()})
 required=['BepInEx/config/RO3.LanguageOrigins.tsv','BepInEx/config/RO3.TranslationCache/cache.json','winhttp.dll','doorstop_config.ini','arialuni_sdf_u2022','BepInEx/core/BepInEx.dll','BepInEx/core/BepInEx.Preloader.dll','BepInEx/core/0Harmony.dll','BepInEx/plugins/RO3.ThaiLocalization.Skills.dll','BepInEx/plugins/SkillRuntime.Engine.dll','BepInEx/config/RO3.SkillTranslations.tsv','BepInEx/config/RO3.SkillRules.tsv','BepInEx/config/AutoTranslatorConfig.ini']
 assert set(required).issubset({f['Path'] for f in files})
-manifest={'Version':'0.4.0-english-base-alpha.1','ReadyForInstallation':True,'TargetProfile':'ro3-mono-x64','Files':files}
+manifest={'Version':'0.4.1-language-table-hotfix-alpha.1','ReadyForInstallation':True,'TargetProfile':'ro3-mono-x64','Files':files}
 installer=root/'src/Installer'
 (installer/'payload-manifest.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')
 with zipfile.ZipFile(installer/'payload.zip','w',zipfile.ZIP_DEFLATED) as z:

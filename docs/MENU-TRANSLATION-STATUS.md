@@ -1,4 +1,4 @@
-# Menu translation progress — batches 046–055
+# Menu translation progress — batches 046–056
 
 English from the actual game export is the source of truth. Native Thai from the supplied ZIP is a terminology reference only; literal `None`, ID-only values and translations that contradict English are not copied. Existing approved fresh translations are reused for identical English labels to maintain consistent terminology.
 
@@ -16,10 +16,11 @@ English from the actual game export is the source of truth. Native Thai from the
 | 053 | 220 | Equipment appraisal, crafting, smelting, refine/enhance and character stats |
 | 054 | 297 | Pet formation, hatching, growth, skills, collection and help text |
 | 055 | 209 | Appearance/engraving, presets, training grounds and achievements |
+| 056 | 232 | Card/bond/slot controls, titles/item restrictions and event calendars |
 
-- 506 new IDs in the latest update; 3,146 authored menu IDs across batches 046–055.
-- 6,526 authored translation IDs across all batches. Runtime retains English for five held semantic-review IDs and seven authored rows whose target equals English: 6,514 runtime IDs differ from English.
-- **This is not a completed translation of every menu or every game text.** Dedicated card/title menus, events, newer gameplay systems and other groups still need review. Some pet/appearance/preset rows remain held as described below. The exact unreviewed UI-candidate inventory is in `menu-translation-coverage.json`; these candidates also contain proper names, technical labels and format-only rows, so their count is not the count of menus requiring Thai.
+- 232 new IDs in the latest update; 3,378 authored menu IDs across batches 046–056.
+- 6,758 authored translation IDs across all batches. Runtime retains English for five held semantic-review IDs and seven authored rows whose target equals English: 6,746 runtime IDs differ from English.
+- **This is not a completed translation of every menu or every game text.** Newer gameplay systems and other groups still need review; some card/title/event labels also remain English as protected formats, technical names or ambiguous text. Some pet/appearance/preset rows remain held as described below. The exact unreviewed UI-candidate inventory is in `menu-translation-coverage.json`; these candidates also contain proper names, technical labels and format-only rows, so their count is not the count of menus requiring Thai.
 
 ## Reference corrections and held context
 
@@ -38,6 +39,6 @@ English from the actual game export is the source of truth. Native Thai from the
 
 ## Delivery and validation
 
-This is a text/data-only update. No installer or runtime DLL change is required, and no new executable release is required. Runtime v0.4.0 or later checks the verified schema-2 data feed on game startup. Restart the game with internet access to check for updates; offline/invalid downloads retain the verified cache or bundled fallback.
+Batch 056 itself is a text/data-only update. The separate language-table hotfix v0.4.1 changes the runtime DLL and requires a one-time plugin/installer update; see LANGUAGE-TABLE-HOTFIX.md. Subsequent text updates do not require new executable releases. Runtime v0.4.0 or later checks the verified schema-2 data feed on game startup. Restart the game with internet access to check for updates; offline/invalid downloads retain the verified cache or bundled fallback.
 
 Validation checks placeholder/tag order, numbers, math symbols, bracket names, escaped controls, Unicode, exact ID/original matching, runtime rules and updater integrity. Additional menu QA decodes escaped control boundaries before counting numbers (so a number immediately after `\n` is still checked). Windows game UI layout, text clipping and in-game behavior have not been tested for these batches.
