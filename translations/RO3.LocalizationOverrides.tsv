@@ -3909,3 +3909,2112 @@
 35029	You must wait for the countdown to reach zero and the quest to begin before proceeding.	ต้องรอให้การนับถอยหลังถึงศูนย์และเควสต์เริ่มก่อนจึงจะดำเนินการต่อได้
 35030	or ${1}	หรือ ${1}
 35031	<color=#99FF9F>Current Server Level Cap: Lv. ${1}\n${2}: Server Level Cap increases to Lv. ${3}</color>	<color=#99FF9F>ระดับสูงสุดของเซิร์ฟเวอร์ปัจจุบัน: Lv. ${1}\n${2}: ระดับสูงสุดของเซิร์ฟเวอร์เพิ่มเป็น Lv. ${3}</color>
+2064	To-Do	สิ่งที่ต้องทำ
+3016	Notification	การแจ้งเตือน
+3017	Clear	ล้าง
+3018	Go	ไป
+3024	Healing	การรักษา
+3026	Control	การควบคุม
+12004	Type	ประเภท
+12020	Base Stats	ค่าสถานะพื้นฐาน
+12023	All	ทั้งหมด
+12029	Base Stats	ค่าสถานะพื้นฐาน
+12039	Reset	รีเซ็ต
+12040	Reset	รีเซ็ต
+12050	Current	ปัจจุบัน
+12051	Save	บันทึก
+12059	Reset	รีเซ็ต
+12064	Save	บันทึก
+12068	Reset	รีเซ็ต
+12079	Equipped	สวมใส่แล้ว
+12087	Rarity	ความหายาก
+12088	Type	ประเภท
+13021	Equip	สวมใส่
+16003	Locked	ยังไม่ปลดล็อก
+16012	Notice	ประกาศ
+16027	Base Stats	ค่าสถานะพื้นฐาน
+16033	Stats	ค่าสถานะ
+16040	Use	ใช้
+16057	Tap to close	แตะเพื่อปิด
+16065	Equipped	สวมใส่แล้ว
+16083	Points	แต้ม
+16096	Level-up	เพิ่มระดับ
+16097	Confirm	ยืนยัน
+16098	Remove	นำออก
+16100	Replace	เปลี่ยน
+16120	Suggested	แนะนำ
+18022	Reject	ปฏิเสธ
+18027	Abandon	ละทิ้ง
+19009	Achieved	สำเร็จแล้ว
+19010	Locked	ยังไม่ปลดล็อก
+19026	Material Cost:	วัสดุที่ใช้:
+19028	Locked	ยังไม่ปลดล็อก
+19117	Material Cost:	วัสดุที่ใช้:
+19118	Locked	ยังไม่ปลดล็อก
+19208	Replace	เปลี่ยน
+19209	Abandon	ละทิ้ง
+19216	Inactive	ไม่ใช้งาน
+19217	Locked	ยังไม่ปลดล็อก
+21007	Equip	สวมใส่
+21008	Card	การ์ด
+21013	Locked	ยังไม่ปลดล็อก
+21014	Notice	ประกาศ
+21022	Buy	ซื้อ
+21026	Enter Shop Item Name	ป้อนชื่อไอเทมในร้านค้า
+21034	Type	ประเภท
+21038	Unit Price	ราคาต่อหน่วย
+21039	Amount	จำนวน
+21040	Total Price	ราคารวม
+21041	Rank	อันดับ
+21043	Buy	ซื้อ
+21044	Reset	รีเซ็ต
+21046	Type	ประเภท
+21047	Rarity	ความหายาก
+21048	Use	ใช้
+21050	List Item	ลงขายไอเทม
+21060	Time	เวลา
+21061	Cost	ค่าใช้จ่าย
+21078	Base Stats	ค่าสถานะพื้นฐาน
+21080	All	ทั้งหมด
+21142	Enter Shop Item Name	ป้อนชื่อไอเทมในร้านค้า
+21145	Go	ไป
+21147	Empty	ว่าง
+21155	Unit Price	ราคาต่อหน่วย
+21156	Amount	จำนวน
+21157	Total Price	ราคารวม
+21165	List Item	ลงขายไอเทม
+21173	Cancel	ยกเลิก
+21174	Confirm	ยืนยัน
+21183	Claim All	รับทั้งหมด
+21221	Card	การ์ด
+23005	Replace	เปลี่ยน
+23017	Backpack	กระเป๋า
+23020	Owned	มีแล้ว
+23030	Mount	พาหนะ
+23100	Equipped	สวมใส่แล้ว
+23101	Replace	เปลี่ยน
+23102	Add	เพิ่ม
+23103	Remove	นำออก
+23111	Obtain	ได้รับ
+23201	More	เพิ่มเติม
+23202	Clear	ล้าง
+23207	Enter Shop Item Name	ป้อนชื่อไอเทมในร้านค้า
+23216	Buy	ซื้อ
+23232	Shop	ร้านค้า
+23240	Season	ฤดูกาล
+23247	Suggested	แนะนำ
+23249	Mount	พาหนะ
+23255	Gift	ของขวัญ
+23273	Cost	ค่าใช้จ่าย
+23279	Owned	มีแล้ว
+23292	Buy	ซื้อ
+23294	Buy	ซื้อ
+23306	Buy	ซื้อ
+23307	Type	ประเภท
+23308	Unit Price	ราคาต่อหน่วย
+23309	Amount	จำนวน
+23314	Enter Shop Item Name	ป้อนชื่อไอเทมในร้านค้า
+23400	Mail	จดหมาย
+23402	Friends	เพื่อน
+23407	Add Friend	เพิ่มเพื่อน
+23411	Gift	ของขวัญ
+23412	Clear	ล้าง
+23426	Invite	เชิญ
+23437	Applied	ส่งคำขอแล้ว
+23450	Invite	เชิญ
+23456	Confirm	ยืนยัน
+23474	Gift	ของขวัญ
+23482	Agree	ตกลง
+23488	Cancel	ยกเลิก
+23496	Reject	ปฏิเสธ
+23497	Agree	ตกลง
+23500	Mount	พาหนะ
+23504	Ranking	อันดับ
+23505	Reset	รีเซ็ต
+23512	Equipped	สวมใส่แล้ว
+23519	Claim All	รับทั้งหมด
+23526	Obtain	ได้รับ
+23613	Notice	ประกาศ
+23676	Gift	ของขวัญ
+23700	Ranking	อันดับ
+23704	Rank	อันดับ
+23705	Player	ผู้เล่น
+23712	Rewards	รางวัล
+23718	Monday	วันจันทร์
+23719	Tuesday	วันอังคาร
+23720	Wednesday	วันพุธ
+23721	Thursday	วันพฤหัสบดี
+23722	Friday	วันศุกร์
+23723	Saturday	วันเสาร์
+23724	Sunday	วันอาทิตย์
+23726	Rank	อันดับ
+23732	Me	ฉัน
+24004	Invite	เชิญ
+24032	Mute	ปิดเสียง
+24054	Requests	คำขอ
+24055	Rally	รวมพล
+24058	Recruitment	รับสมัคร
+24064	Offline	ออฟไลน์
+24068	Friends	เพื่อน
+24069	Guild	กิลด์
+24071	Close Friends	เพื่อนสนิท
+24072	Guild Member	สมาชิกกิลด์
+24081	Agree	ตกลง
+24087	Finder	ค้นหาทีม
+24091	Add Friend	เพิ่มเพื่อน
+24092	Suggested	แนะนำ
+24097	Party	ปาร์ตี้
+24101	Applied	ส่งคำขอแล้ว
+24103	Refresh	รีเฟรช
+24105	Party	ปาร์ตี้
+24106	Settings	ตั้งค่า
+24111	No Guild	ไม่มีกิลด์
+24172	Party	ปาร์ตี้
+24173	No Objective	ไม่มีเป้าหมาย
+24177	Finder	ค้นหาทีม
+24183	Mute	ปิดเสียง
+24186	Reject	ปฏิเสธ
+24187	Agree	ตกลง
+24189	No Objective	ไม่มีเป้าหมาย
+24216	Coming Soon	เร็วๆ นี้
+24229	Follow	ติดตาม
+25003	Guild	กิลด์
+25006	Applied	ส่งคำขอแล้ว
+25007	Guild Master	หัวหน้ากิลด์
+25008	Introduction	แนะนำ
+25011	Refresh	รีเฟรช
+25020	Recruitment	รับสมัคร
+25040	Skills	สกิล
+25041	Shop	ร้านค้า
+25043	Coming Soon	เร็วๆ นี้
+25044	Coming Soon	เร็วๆ นี้
+25045	Coming Soon	เร็วๆ นี้
+25046	Coming Soon	เร็วๆ นี้
+25126	Save	บันทึก
+25129	Member	สมาชิก
+25130	Management	จัดการ
+25131	Guild Master	หัวหน้ากิลด์
+25134	Funds	เงินทุน
+25136	Announcement	ประกาศ
+25140	Confirm	ยืนยัน
+25142	Settings	ตั้งค่า
+25154	Share	แชร์
+25165	No data	ไม่มีข้อมูล
+25196	Guild Member	สมาชิกกิลด์
+25203	Remove	นำออก
+25210	Selected:	เลือกแล้ว:
+25212	Time	เวลา
+25213	Event	อีเวนต์
+25218	Filter	ตัวกรอง
+25221	Title	ฉายา
+25226	Agree	ตกลง
+25229	Introduction	แนะนำ
+25230	Recruitment	รับสมัคร
+25231	Player	ผู้เล่น
+25232	Invite	เชิญ
+25236	Online	ออนไลน์
+25237	Offline	ออฟไลน์
+25241	Offline	ออฟไลน์
+25260	Saved	บันทึกแล้ว
+25273	Guild Master	หัวหน้ากิลด์
+25295	Copied	คัดลอกแล้ว
+25296	Notice	ประกาศ
+25324	Empty	ว่าง
+25346	Level Up Preview	ตัวอย่างหลังเพิ่มระดับ
+25366	Event	อีเวนต์
+25367	Equip	สวมใส่
+25407	Get Help	ขอความช่วยเหลือ
+25408	Equip	สวมใส่
+25457	Open All Day	เปิดตลอดวัน
+25460	Rewards	รางวัล
+25463	Achieved	สำเร็จแล้ว
+25467	Total Price:	ราคารวม:
+25469	Buy	ซื้อ
+25471	Stock: ${1}	สินค้าคงเหลือ: ${1}
+25486	List Item	ลงขายไอเทม
+25489	List Item	ลงขายไอเทม
+25492	Item	ไอเทม
+25493	Cost	ค่าใช้จ่าย
+25495	Time	เวลา
+25500	Unit Price	ราคาต่อหน่วย
+25501	Amount	จำนวน
+25502	Total Price	ราคารวม
+26004	Go	ไป
+26007	Rewards	รางวัล
+26015	Report	รายงาน
+26023	Rank	อันดับ
+26025	Damage	ความเสียหาย
+26026	Points	แต้ม
+26027	Rewards	รางวัล
+26034	Damage	ความเสียหาย
+26035	Healing	การรักษา
+26036	DMG Taken	ความเสียหายที่ได้รับ
+26055	Challenge	ท้าทาย
+28002	Notice	ประกาศ
+28003	Exit	ออก
+28029	Suggested	แนะนำ
+28033	Suggested	แนะนำ
+28038	Offline	ออฟไลน์
+28053	Healing	การรักษา
+28083	Complete	เสร็จสิ้น
+29006	Rewards	รางวัล
+29008	Complete	เสร็จสิ้น
+29010	Claim All	รับทั้งหมด
+29018	Claim	รับ
+30000	Equipped	สวมใส่แล้ว
+30014	All	ทั้งหมด
+30015	Green	สีเขียว
+30016	Blue	สีน้ำเงิน
+30017	Purple	สีม่วง
+30020	All	ทั้งหมด
+30025	Level-up	เพิ่มระดับ
+30026	Upgrade	อัปเกรด
+30029	Cost	ค่าใช้จ่าย
+30038	Achieved	สำเร็จแล้ว
+30039	Locked	ยังไม่ปลดล็อก
+30048	Current	ปัจจุบัน
+30053	Replace	เปลี่ยน
+30057	Material Cost:	วัสดุที่ใช้:
+30062	Green	สีเขียว
+30063	Blue	สีน้ำเงิน
+30064	Purple	สีม่วง
+30071	In Use	กำลังใช้งาน
+30073	Inactive	ไม่ใช้งาน
+30074	Edit	แก้ไข
+30075	Deploy	จัดลงสนาม
+30076	Remove	นำออก
+30085	Achieved	สำเร็จแล้ว
+30086	Locked	ยังไม่ปลดล็อก
+30089	Deploy	จัดลงสนาม
+30090	Replace	เปลี่ยน
+30095	Level-up	เพิ่มระดับ
+30096	In Use	กำลังใช้งาน
+30121	Inactive	ไม่ใช้งาน
+30133	Empty	ว่าง
+30153	Card	การ์ด
+30160	Collection	คอลเลกชัน
+30166	Rarity	ความหายาก
+30167	Collection	คอลเลกชัน
+30168	Type	ประเภท
+30176	Collection	คอลเลกชัน
+30182	View	ดู
+31000	Title	ฉายา
+31001	Current	ปัจจุบัน
+31011	Coming Soon	เร็วๆ นี้
+31017	Title	ฉายา
+31111	Use	ใช้
+31113	Equip	สวมใส่
+31122	Notice	ประกาศ
+31132	Obtain	ได้รับ
+31133	Unit Price	ราคาต่อหน่วย
+31152	Use	ใช้
+33008	Notice	ประกาศ
+33009	Skills	สกิล
+33010	Settings	ตั้งค่า
+33011	Guild	กิลด์
+33021	Suggested	แนะนำ
+33024	Cost	ค่าใช้จ่าย
+33025	Equipped	สวมใส่แล้ว
+33031	Build Details	รายละเอียดบิลด์
+33065	Build Details	รายละเอียดบิลด์
+33079	Upgrade	อัปเกรด
+33243	Confirm	ยืนยัน
+36014	Start	เริ่ม
+36016	Hard	ยาก
+36017	Easy	ง่าย
+36018	Normal	ปกติ
+36024	Shop	ร้านค้า
+36037	Exit	ออก
+36050	Notice	ประกาศ
+36051	Go challenge	ไปท้าทาย
+36054	Deploy	จัดลงสนาม
+36058	Complete	เสร็จสิ้น
+36072	More	เพิ่มเติม
+36073	Ranking	อันดับ
+36075	Shop	ร้านค้า
+36076	Rewards	รางวัล
+37003	Reject	ปฏิเสธ
+37033	Suggested	แนะนำ
+37046	Monday	วันจันทร์
+37047	Tuesday	วันอังคาร
+37048	Wednesday	วันพุธ
+37049	Thursday	วันพฤหัสบดี
+37050	Friday	วันศุกร์
+37051	Saturday	วันเสาร์
+37052	Sunday	วันอาทิตย์
+37081	All	ทั้งหมด
+37084	Challenge	ท้าทาย
+37085	Claim	รับ
+37097	Go	ไป
+37102	Easy	ง่าย
+37103	Normal	ปกติ
+37104	Hard	ยาก
+37801	Time	เวลา
+37802	Item	ไอเทม
+37807	List Item	ลงขายไอเทม
+37809	List Item	ลงขายไอเทม
+37813	Buy	ซื้อ
+37816	Go	ไป
+37826	Go	ไป
+37828	All	ทั้งหมด
+37832	Share	แชร์
+37845	Confirm	ยืนยัน
+37850	Unit Price	ราคาต่อหน่วย
+37851	Amount	จำนวน
+37852	Total Price	ราคารวม
+37860	Locked	ยังไม่ปลดล็อก
+37866	Notice	ประกาศ
+37868	Go	ไป
+37869	Cancel	ยกเลิก
+37907	View	ดู
+37909	List Item	ลงขายไอเทม
+38001	To-Do	สิ่งที่ต้องทำ
+38002	Challenge	ท้าทาย
+38005	Party	ปาร์ตี้
+38017	Ended	สิ้นสุดแล้ว
+38018	Complete	เสร็จสิ้น
+38019	Equip	สวมใส่
+38020	Items	ไอเทม
+38021	Card	การ์ด
+38025	Coming Soon	เร็วๆ นี้
+38026	Monday	วันจันทร์
+38027	Tuesday	วันอังคาร
+38028	Wednesday	วันพุธ
+38029	Thursday	วันพฤหัสบดี
+38030	Friday	วันศุกร์
+38031	Saturday	วันเสาร์
+38032	Sunday	วันอาทิตย์
+38505	Monday	วันจันทร์
+38506	Tuesday	วันอังคาร
+38507	Wednesday	วันพุธ
+38508	Thursday	วันพฤหัสบดี
+38509	Friday	วันศุกร์
+38510	Saturday	วันเสาร์
+38511	Sunday	วันอาทิตย์
+39004	Coming Soon	เร็วๆ นี้
+40000	Pet	สัตว์เลี้ยง
+40003	Filter	ตัวกรอง
+40004	Type	ประเภท
+40005	All	ทั้งหมด
+40006	Rarity	ความหายาก
+40007	Stats	ค่าสถานะ
+40021	Deploy	จัดลงสนาม
+40022	Assist	ช่วยเหลือ
+40025	Locked	ยังไม่ปลดล็อก
+40029	Level-up	เพิ่มระดับ
+40038	Current	ปัจจุบัน
+40046	Obtain	ได้รับ
+40077	Inactive	ไม่ใช้งาน
+40105	Items	ไอเทม
+40114	Shop	ร้านค้า
+40157	Inactive	ไม่ใช้งาน
+40161	Upgrade	อัปเกรด
+40174	Owned	มีแล้ว
+40189	Follow	ติดตาม
+40190	Follow	ติดตาม
+40203	Collection	คอลเลกชัน
+40225	Level-up	เพิ่มระดับ
+40242	Time	เวลา
+40245	Pet	สัตว์เลี้ยง
+40247	Collection	คอลเลกชัน
+40313	Skills	สกิล
+40314	Cost	ค่าใช้จ่าย
+41003	Tap to close	แตะเพื่อปิด
+42004	Confirm	ยืนยัน
+42017	Build Details	รายละเอียดบิลด์
+43002	Rewards	รางวัล
+43014	Locked	ยังไม่ปลดล็อก
+43024	Achieved	สำเร็จแล้ว
+43025	Achieved	สำเร็จแล้ว
+43027	Locked	ยังไม่ปลดล็อก
+44003	Easy	ง่าย
+44004	Hard	ยาก
+44011	Personal Rewards	รางวัลส่วนตัว
+44012	Auction Rewards	รางวัลประมูล
+44013	Report	รายงาน
+44014	Ranking	อันดับ
+44015	Rewards	รางวัล
+44026	Report	รายงาน
+44030	Rank	อันดับ
+44032	Damage	ความเสียหาย
+44033	Healing	การรักษา
+44034	DMG Taken	ความเสียหายที่ได้รับ
+44035	Points	แต้ม
+44043	Suggested	แนะนำ
+44048	Rally	รวมพล
+44050	Reject	ปฏิเสธ
+44051	Go	ไป
+44053	Opens in ${1}	เปิดในอีก ${1}
+44055	Management	จัดการ
+44064	Cancel	ยกเลิก
+44079	Easy	ง่าย
+44097	Go	ไป
+44098	Remove	นำออก
+44124	Suggested	แนะนำ
+44129	Cancel	ยกเลิก
+44130	Confirm	ยืนยัน
+44131	Preparation Phase	ช่วงเตรียมตัว
+44144	Opens in ${1}	เปิดในอีก ${1}
+44510	Rewards	รางวัล
+44518	Opens in ${1}	เปิดในอีก ${1}
+44525	Rewards	รางวัล
+44531	Rewards	รางวัล
+44536	Normal	ปกติ
+44537	Hard	ยาก
+44544	Reject	ปฏิเสธ
+44545	Go	ไป
+44557	Cancel	ยกเลิก
+44708	Notice	ประกาศ
+44711	Exit	ออก
+44722	Cancel	ยกเลิก
+44726	Go challenge	ไปท้าทาย
+45001	Complete	เสร็จสิ้น
+45002	Claim	รับ
+46033	Green	สีเขียว
+46034	Blue	สีน้ำเงิน
+46035	Purple	สีม่วง
+46047	Amount	จำนวน
+46050	Amount	จำนวน
+47005	View	ดู
+47006	Claim	รับ
+47023	Claim	รับ
+47024	Go	ไป
+47025	Claim All	รับทั้งหมด
+47124	Start	เริ่ม
+48005	Bid	เสนอราคา
+48012	Time	เวลา
+48032	Claim	รับ
+48079	Cancel	ยกเลิก
+48105	Ended	สิ้นสุดแล้ว
+49003	Reset	รีเซ็ต
+49006	Stats	ค่าสถานะ
+49007	Obtain	ได้รับ
+49011	Show less	แสดงน้อยลง
+49012	Current	ปัจจุบัน
+49014	Claim All	รับทั้งหมด
+49016	Current	ปัจจุบัน
+49019	Applied	ส่งคำขอแล้ว
+49032	Monday	วันจันทร์
+49033	Tuesday	วันอังคาร
+49034	Wednesday	วันพุธ
+49050	Confirm	ยืนยัน
+49055	Current	ปัจจุบัน
+50014	No Guild	ไม่มีกิลด์
+50024	Result	ผลลัพธ์
+50025	Rewards	รางวัล
+50040	Ranking	อันดับ
+50047	Report	รายงาน
+50048	Rewards	รางวัล
+50049	Personal Rewards	รางวัลส่วนตัว
+50050	Auction Rewards	รางวัลประมูล
+50052	Rank	อันดับ
+50066	Rally	รวมพล
+50077	Defeat	กำจัด
+50078	Assist	ช่วยเหลือ
+50081	Rank ${1}	อันดับ ${1}
+50088	Empty	ว่าง
+50092	Ended	สิ้นสุดแล้ว
+50095	Ranking	อันดับ
+50108	Opens in ${1}	เปิดในอีก ${1}
+50124	Assist	ช่วยเหลือ
+50125	Damage	ความเสียหาย
+50126	DMG Taken	ความเสียหายที่ได้รับ
+50127	Healing	การรักษา
+50192	Time	เวลา
+50193	Points	แต้ม
+52002	Damage	ความเสียหาย
+52004	Healing	การรักษา
+52014	Healing	การรักษา
+52018	Damage	ความเสียหาย
+52022	Healing	การรักษา
+52023	DMG Taken	ความเสียหายที่ได้รับ
+52024	No data	ไม่มีข้อมูล
+53002	Confirm	ยืนยัน
+54010	Remove	นำออก
+54011	Deploy	จัดลงสนาม
+54012	Replace	เปลี่ยน
+54013	In Use	กำลังใช้งาน
+54030	Reset	รีเซ็ต
+54031	Confirm	ยืนยัน
+54041	Reset	รีเซ็ต
+54055	Stats	ค่าสถานะ
+54056	Skills	สกิล
+54079	Material Cost:	วัสดุที่ใช้:
+54111	Stats	ค่าสถานะ
+54112	Skills	สกิล
+56004	Finder	ค้นหาทีม
+56107	Personal Rewards	รางวัลส่วนตัว
+56116	Abandon	ละทิ้ง
+56119	Show less	แสดงน้อยลง
+56121	Notice	ประกาศ
+56134	Me	ฉัน
+56143	Empty	ว่าง
+56144	Bid	เสนอราคา
+56184	Rewards	รางวัล
+56187	Rewards	รางวัล
+56224	Normal	ปกติ
+56225	Hard	ยาก
+56259	Auction Rewards	รางวัลประมูล
+56260	Rewards	รางวัล
+56266	Abandon	ละทิ้ง
+56270	Start	เริ่ม
+56286	Reset	รีเซ็ต
+57000	Collection	คอลเลกชัน
+57002	Card	การ์ด
+57007	Current	ปัจจุบัน
+57014	Filter	ตัวกรอง
+57015	All	ทั้งหมด
+57024	Reset	รีเซ็ต
+57025	Confirm	ยืนยัน
+57029	Rewards	รางวัล
+57055	Go	ไป
+57060	Rarity	ความหายาก
+57061	Type	ประเภท
+57062	Owned	มีแล้ว
+57063	Base Stats	ค่าสถานะพื้นฐาน
+57074	Share	แชร์
+57076	Stats	ค่าสถานะ
+57078	Filter	ตัวกรอง
+57092	Go	ไป
+57102	Upgrade	อัปเกรด
+57110	Add Friend	เพิ่มเพื่อน
+58007	Shop	ร้านค้า
+58009	Event	อีเวนต์
+58010	To-Do	สิ่งที่ต้องทำ
+58011	Friends	เพื่อน
+58012	Stats	ค่าสถานะ
+58013	Guild	กิลด์
+58016	Quests	เควสต์
+58017	Skills	สกิล
+58021	Settings	ตั้งค่า
+58030	Equip	สวมใส่
+58033	Notification	การแจ้งเตือน
+58038	Cancel	ยกเลิก
+58040	Edit	แก้ไข
+58044	Clear Chat	ล้างแชต
+58045	Chat Settings	ตั้งค่าแชต
+58051	Save	บันทึก
+58052	Cancel	ยกเลิก
+58063	Skills	สกิล
+58071	Event	อีเวนต์
+58073	Map	แผนที่
+58075	Quests	เควสต์
+58145	Card	การ์ด
+58146	Pet	สัตว์เลี้ยง
+58151	Collection	คอลเลกชัน
+59003	Filter	ตัวกรอง
+59007	Language	ภาษา
+59008	Reset	รีเซ็ต
+59009	Confirm	ยืนยัน
+59020	Language	ภาษา
+59024	Confirm	ยืนยัน
+59025	Cancel	ยกเลิก
+59029	Cancel	ยกเลิก
+59031	Mute	ปิดเสียง
+59033	Mute	ปิดเสียง
+59037	Member	สมาชิก
+59043	Gift	ของขวัญ
+59044	More	เพิ่มเติม
+59045	Quests	เควสต์
+59046	Share	แชร์
+59047	Report	รายงาน
+59048	Report	รายงาน
+59050	Member	สมาชิก
+59053	Invite	เชิญ
+59058	View	ดู
+59061	Gift	ของขวัญ
+59063	Gift	ของขวัญ
+59068	Save	บันทึก
+59078	Mute	ปิดเสียง
+59228	Mute	ปิดเสียง
+59250	Me	ฉัน
+59251	Quests	เควสต์
+60004	Inactive	ไม่ใช้งาน
+60017	Reset	รีเซ็ต
+60018	Confirm	ยืนยัน
+60019	In Use	กำลังใช้งาน
+60020	Empty	ว่าง
+60022	Remove	นำออก
+60023	Deploy	จัดลงสนาม
+60025	Level-up	เพิ่มระดับ
+60043	Replace	เปลี่ยน
+60045	Stats	ค่าสถานะ
+60052	Current	ปัจจุบัน
+60055	Rarity	ความหายาก
+61003	Preparation Phase	ช่วงเตรียมตัว
+61004	Notification	การแจ้งเตือน
+61006	Go	ไป
+61007	Reject	ปฏิเสธ
+61010	Rewards	รางวัล
+61012	Result	ผลลัพธ์
+61016	Guild Master	หัวหน้ากิลด์
+61020	Me	ฉัน
+61022	Ended	สิ้นสุดแล้ว
+61023	Personal Rewards	รางวัลส่วนตัว
+61024	Auction Rewards	รางวัลประมูล
+61026	Ranking	อันดับ
+61029	Confirm	ยืนยัน
+61030	Cancel	ยกเลิก
+61041	Report	รายงาน
+61056	Offline	ออฟไลน์
+61062	Defeat	กำจัด
+61063	Assist	ช่วยเหลือ
+61065	Report	รายงาน
+61073	Rally	รวมพล
+61074	Remove	นำออก
+61090	Kill	สังหาร
+61092	Assist	ช่วยเหลือ
+61093	Damage	ความเสียหาย
+61094	DMG Taken	ความเสียหายที่ได้รับ
+61101	Confirm	ยืนยัน
+61104	Rank	อันดับ
+61117	Preparation Phase	ช่วงเตรียมตัว
+61132	Kill	สังหาร
+61133	Assist	ช่วยเหลือ
+61136	Damage	ความเสียหาย
+61137	DMG Taken	ความเสียหายที่ได้รับ
+61138	Healing	การรักษา
+61152	Exit	ออก
+61159	Reject	ปฏิเสธ
+61187	Management	จัดการ
+61198	Season	ฤดูกาล
+61201	Amount	จำนวน
+61502	Cancel	ยกเลิก
+61503	Confirm	ยืนยัน
+61513	Personal Rewards	รางวัลส่วนตัว
+61514	Auction Rewards	รางวัลประมูล
+61600	Preparation Phase	ช่วงเตรียมตัว
+62011	Edit	แก้ไข
+62016	Title	ฉายา
+62019	Edit	แก้ไข
+62020	Share	แชร์
+62021	Save	บันทึก
+62022	Show less	แสดงน้อยลง
+62025	Current	ปัจจุบัน
+62026	Reset	รีเซ็ต
+62033	Pet	สัตว์เลี้ยง
+62036	No Guild	ไม่มีกิลด์
+62047	Show less	แสดงน้อยลง
+62055	Stats	ค่าสถานะ
+62062	Base Stats	ค่าสถานะพื้นฐาน
+62066	Edit	แก้ไข
+62082	Confirm	ยืนยัน
+62083	Abandon	ละทิ้ง
+62097	Add Friend	เพิ่มเพื่อน
+63005	Quests	เควสต์
+63006	Result	ผลลัพธ์
+63007	Ranking	อันดับ
+63008	Shop	ร้านค้า
+63016	More	เพิ่มเติม
+63019	Finder	ค้นหาทีม
+63032	Complete	เสร็จสิ้น
+63034	Result	ผลลัพธ์
+63043	Kill	สังหาร
+63044	Assist	ช่วยเหลือ
+63046	Damage	ความเสียหาย
+63047	Healing	การรักษา
+63048	Survival Duration	ระยะเวลารอดชีวิต
+63055	Defeat	กำจัด
+63056	Survival Duration	ระยะเวลารอดชีวิต
+63057	Offline	ออฟไลน์
+63060	Player	ผู้เล่น
+63063	Survival Duration	ระยะเวลารอดชีวิต
+63071	All	ทั้งหมด
+63073	Control	การควบคุม
+63078	Abandon	ละทิ้ง
+63079	Show less	แสดงน้อยลง
+63080	Notice	ประกาศ
+63087	Follow	ติดตาม
+63088	Invite	เชิญ
+63094	Kill	สังหาร
+63095	Assist	ช่วยเหลือ
+63096	Backpack	กระเป๋า
+63097	Equipped	สวมใส่แล้ว
+63104	Backpack	กระเป๋า
+63105	Equip	สวมใส่
+63106	Skills	สกิล
+63107	Items	ไอเทม
+63111	Green	สีเขียว
+63112	Blue	สีน้ำเงิน
+63113	Purple	สีม่วง
+63116	Damage	ความเสียหาย
+63118	Control	การควบคุม
+63120	Amount	จำนวน
+63123	Shop	ร้านค้า
+63131	Buy	ซื้อ
+63132	Total Price	ราคารวม
+63133	Buy	ซื้อ
+63136	Rank ${1}	อันดับ ${1}
+63139	Kill	สังหาร
+63140	Damage	ความเสียหาย
+63141	Survival Duration	ระยะเวลารอดชีวิต
+63142	Points	แต้ม
+63143	Tap to close	แตะเพื่อปิด
+63149	Player	ผู้เล่น
+63152	Survival Duration	ระยะเวลารอดชีวิต
+63166	Notice	ประกาศ
+63244	Points	แต้ม
+63245	Defeat	กำจัด
+63246	Survival Duration	ระยะเวลารอดชีวิต
+63247	Time	เวลา
+63573	Notice	ประกาศ
+63574	Confirm	ยืนยัน
+63575	Cancel	ยกเลิก
+64011	Go	ไป
+64026	Upgrade	อัปเกรด
+64035	Build Details	รายละเอียดบิลด์
+64036	Delete	ลบ
+64049	Copy	คัดลอก
+64079	Filter	ตัวกรอง
+64091	Player	ผู้เล่น
+64118	Start	เริ่ม
+64120	Refresh	รีเฟรช
+64139	Rewards	รางวัล
+64140	Ranking	อันดับ
+64142	Confirm	ยืนยัน
+64147	More	เพิ่มเติม
+64149	Challenge	ท้าทาย
+64150	Ranking	อันดับ
+64154	Claim	รับ
+64155	Reset	รีเซ็ต
+64156	Exit	ออก
+64157	Claim All	รับทั้งหมด
+64163	Ranking	อันดับ
+66004	Reject	ปฏิเสธ
+66005	Agree	ตกลง
+66020	Skills	สกิล
+66022	Edit	แก้ไข
+66023	Save	บันทึก
+66027	Cancel	ยกเลิก
+66036	Saved	บันทึกแล้ว
+67000	Event	อีเวนต์
+68039	Tap to close	แตะเพื่อปิด
+68040	Show less	แสดงน้อยลง
+69015	Go challenge	ไปท้าทาย
+69017	Claim	รับ
+69019	Go	ไป
+69039	Rewards	รางวัล
+69057	Reset	รีเซ็ต
+70002	Season	ฤดูกาล
+70003	Season	ฤดูกาล
+70012	Ended	สิ้นสุดแล้ว
+70017	Go	ไป
+70034	Ended	สิ้นสุดแล้ว
+70035	Locked	ยังไม่ปลดล็อก
+70146	No Guild	ไม่มีกิลด์
+70149	Rank ${1}	อันดับ ${1}
+70156	Rewards	รางวัล
+70161	No Guild	ไม่มีกิลด์
+71004	Refresh	รีเฟรช
+71006	Confirm	ยืนยัน
+71010	All	ทั้งหมด
+72004	Title	ฉายา
+72005	Title	ฉายา
+72010	Equip	สวมใส่
+72019	Friends	เพื่อน
+73000	Time	เวลา
+73001	Rank	อันดับ
+73002	Points	แต้ม
+74004	Shop	ร้านค้า
+74008	Suggested	แนะนำ
+74011	Go	ไป
+74017	Claim	รับ
+90010	Guild	กิลด์
+90027	View	ดู
+90037	Bid	เสนอราคา
+90048	Applied	ส่งคำขอแล้ว
+90060	List Item	ลงขายไอเทม
+90061	Cancel	ยกเลิก
+90068	Announcement	ประกาศ
+90075	Cost	ค่าใช้จ่าย
+90084	Guild	กิลด์
+90122	Unit Price	ราคาต่อหน่วย
+90123	Total Price	ราคารวม
+90128	Result	ผลลัพธ์
+90131	Rank	อันดับ
+90132	Player	ผู้เล่น
+90150	Go challenge	ไปท้าทาย
+90151	Rewards	รางวัล
+90183	Opens in ${1}	เปิดในอีก ${1}
+90188	Preparation Phase	ช่วงเตรียมตัว
+90197	Bid	เสนอราคา
+90501	Rewards	รางวัล
+91005	Rewards	รางวัล
+91008	Opens in ${1}	เปิดในอีก ${1}
+91017	Rewards	รางวัล
+91024	Achieved	สำเร็จแล้ว
+91037	Share	แชร์
+91039	Friends	เพื่อน
+91045	Rank ${1}	อันดับ ${1}
+91507	Cancel	ยกเลิก
+91508	Confirm	ยืนยัน
+24000	Party: This feature is unavailable	ปาร์ตี้: ฟีเจอร์นี้ไม่พร้อมใช้งาน
+24001	Create Party	สร้างปาร์ตี้
+24002	Create Team	สร้างทีม
+24003	Search Party	ค้นหาปาร์ตี้
+24005	Invitation Message	ข้อความเชิญ
+24006	Party request sent.	ส่งคำขอเข้าร่วมปาร์ตี้แล้ว
+24007	Party is already full	ปาร์ตี้เต็มแล้ว
+24008	This party has been disbanded.	ปาร์ตี้นี้ถูกยุบแล้ว
+24009	Party requests are being sent too frequently. Please try again later.	ส่งคำขอเข้าร่วมปาร์ตี้ถี่เกินไป โปรดลองอีกครั้งในภายหลัง
+24010	No microphone detected on this device.	ไม่พบไมโครโฟนบนอุปกรณ์นี้
+24011	Call your party members to follow you?	เรียกสมาชิกปาร์ตี้ให้ติดตามคุณหรือไม่?
+24012	Call all Members in the team to follow you?	เรียกสมาชิกทั้งหมดในทีมให้ติดตามคุณหรือไม่?
+24013	Party members cannot follow you in this area. Please enter a public area to summon them.	สมาชิกปาร์ตี้ไม่สามารถติดตามคุณในพื้นที่นี้ได้ โปรดเข้าสู่พื้นที่สาธารณะเพื่อเรียกพวกเขา
+24014	${1} declined the rally invitation	${1} ปฏิเสธคำเชิญรวมพล
+24015	Cannot follow the target player at their current location.	ไม่สามารถติดตามผู้เล่นเป้าหมายไปยังตำแหน่งปัจจุบันได้
+24016	Leave the current party?	ออกจากปาร์ตี้ปัจจุบันหรือไม่?
+24017	Leave the current raid?	ออกจากเรดปัจจุบันหรือไม่?
+24018	Transfer Leadership	โอนตำแหน่งหัวหน้า
+24019	Disable Chat	ปิดการแชต
+24020	Unmute	ยกเลิกการปิดเสียง
+24022	Mute Voice Chat	ปิดเสียงแชตเสียง
+24023	Unmute Voice	ยกเลิกการปิดเสียงแชตเสียง
+24024	Profile Card	การ์ดโปรไฟล์
+24025	Transfer Leadership	โอนตำแหน่งหัวหน้า
+24026	Appoint Deputy Leader	แต่งตั้งรองหัวหน้า
+24027	Remove Deputy Leader	ปลดรองหัวหน้า
+24028	${1} marked ${3} with the number ${2}	${1} ทำเครื่องหมาย ${3} ด้วยหมายเลข ${2}
+24029	Once selected, click to mark a target, or drag to mark an area on the ground.	เมื่อเลือกแล้ว คลิกเพื่อทำเครื่องหมายเป้าหมาย หรือลากเพื่อทำเครื่องหมายพื้นที่บนพื้น
+24030	Talk	พูด
+24031	Listen	ฟัง
+24033	${1} initiated a Placement confirmation. Are you ready?	${1} เริ่มการยืนยันความพร้อม คุณพร้อมหรือไม่?
+24034	Confirm whether to transfer Party Leader status	ยืนยันว่าจะโอนตำแหน่งหัวหน้าปาร์ตี้หรือไม่
+24035	Confirm transferring raid leadership	ยืนยันการโอนตำแหน่งหัวหน้าเรด
+24037	You have been removed from the party.	คุณถูกนำออกจากปาร์ตี้แล้ว
+24038	Appoint ${1} as Vice Leader?	แต่งตั้ง ${1} เป็นรองหัวหน้าหรือไม่?
+24039	The team can only appoint ${1} deputy leaders. The maximum number of deputy leaders has been reached.	ทีมแต่งตั้งรองหัวหน้าได้เพียง ${1} คน ขณะนี้มีรองหัวหน้าครบจำนวนสูงสุดแล้ว
+24040	Remove ${1} as Deputy Leader?	ปลด ${1} จากตำแหน่งรองหัวหน้าหรือไม่?
+24041	Only the Party Leader can change the party name.	เฉพาะหัวหน้าปาร์ตี้เท่านั้นที่เปลี่ยนชื่อปาร์ตี้ได้
+24042	Only the raid leader can change the party name.	เฉพาะหัวหน้าเรดเท่านั้นที่เปลี่ยนชื่อปาร์ตี้ได้
+24043	Party members who defeat monsters together on the same field map receive Extra bonuses\n2-player party: Base EXP, Job EXP, and item drop rate +20%\n3-player party: Base EXP, Job EXP, and item drop rate +30%\n4-player party: Base EXP, Job EXP, and item drop rate +40%\n5-player party: Base EXP, Job EXP, and item drop rate +50%	สมาชิกปาร์ตี้ที่ร่วมกันกำจัดมอนสเตอร์ในแผนที่ภาคสนามเดียวกันจะได้รับโบนัสเพิ่มเติม\n2 คนในปาร์ตี้: Base EXP, Job EXP และอัตราดรอปไอเทม +20%\n3 คนในปาร์ตี้: Base EXP, Job EXP และอัตราดรอปไอเทม +30%\n4 คนในปาร์ตี้: Base EXP, Job EXP และอัตราดรอปไอเทม +40%\n5 คนในปาร์ตี้: Base EXP, Job EXP และอัตราดรอปไอเทม +50%
+24044	Only the Party Leader can change the party objective.	เฉพาะหัวหน้าปาร์ตี้เท่านั้นที่เปลี่ยนเป้าหมายปาร์ตี้ได้
+24045	Only the raid leader can change the party objective.	เฉพาะหัวหน้าเรดเท่านั้นที่เปลี่ยนเป้าหมายปาร์ตี้ได้
+24046	${1}, Party Objective: ${2},	${1}, เป้าหมายปาร์ตี้: ${2},
+24047	${1}, Power Requirement: ${2}, Objective: ${3},	${1}, พลังที่ต้องการ: ${2}, เป้าหมาย: ${3},
+24048	${1}'s Party	ปาร์ตี้ของ ${1}
+24049	Objective Filter:	ตัวกรองเป้าหมาย:
+24050	Leave	ออก
+24051	Leave the raid	ออกจากเรด
+24052	Convert to Raid	เปลี่ยนเป็นเรด
+24053	Convert to Party	เปลี่ยนเป็นปาร์ตี้
+24056	Gather Party Members	รวมสมาชิกปาร์ตี้
+24057	Gather Raid Members	รวมสมาชิกเรด
+24059	Follow Leader	ติดตามหัวหน้า
+24060	Follow Raid Leader	ติดตามหัวหน้าเรด
+24061	End Following	หยุดติดตาม
+24062	Away	ไม่อยู่
+24065	Drag Member info to edit the Party	ลากข้อมูลสมาชิกเพื่อจัดปาร์ตี้
+24066	Party size will change.\nIf this is currently a 5-player Party, the Member limit will increase to a 40-player Raid.\nIf this is currently a 40-player Raid, it will be disbanded into 5-player Parties.\nContinue with Convert to Party?	ขนาดปาร์ตี้จะเปลี่ยนไป\nหากปัจจุบันเป็นปาร์ตี้ 5 คน จำนวนสมาชิกสูงสุดจะเพิ่มเป็นเรด 40 คน\nหากปัจจุบันเป็นเรด 40 คน จะถูกแบ่งเป็นปาร์ตี้ 5 คน\nต้องการเปลี่ยนเป็นปาร์ตี้ต่อหรือไม่?
+24067	Recommended Players	ผู้เล่นที่แนะนำ
+24070	Recent	ล่าสุด
+24073	${1} has invited you to join a Party.	${1} เชิญคุณเข้าร่วมปาร์ตี้
+24074	Invitations received during this login will be saved to the list.	คำเชิญที่ได้รับระหว่างการเข้าสู่ระบบครั้งนี้จะถูกบันทึกในรายการ
+24075	This player is offline.	ผู้เล่นนี้ออฟไลน์
+24076	This player is already in a Party.	ผู้เล่นนี้อยู่ในปาร์ตี้แล้ว
+24077	This player is in an instance and cannot accept Party invitations.	ผู้เล่นนี้อยู่ในอินสแตนซ์และไม่สามารถรับคำเชิญปาร์ตี้ได้
+24078	Request to Join Party sent.	ส่งคำขอเข้าร่วมปาร์ตี้แล้ว
+24079	Auto-Accept	ยอมรับอัตโนมัติ
+24080	Clear List	ล้างรายการ
+24082	Auto Battle Status cannot be changed while following.	ไม่สามารถเปลี่ยนสถานะต่อสู้อัตโนมัติขณะติดตามได้
+24083	The target is too far away to target.	เป้าหมายอยู่ไกลเกินไป ไม่สามารถเลือกเป็นเป้าหมายได้
+24084	You have not unlocked this content and cannot join this Party.	คุณยังไม่ปลดล็อกเนื้อหานี้และไม่สามารถเข้าร่วมปาร์ตี้นี้ได้
+24085	You do not meet this Party's Power requirement and cannot join.	คุณมีพลังไม่ถึงเกณฑ์ที่ปาร์ตี้นี้กำหนด จึงไม่สามารถเข้าร่วมได้
+24086	Post	โพสต์
+24088	Recruiting	กำลังรับสมัคร
+24089	Gathering	กำลังรวมพล
+24090	Confirm announcement:	ยืนยันประกาศ:
+24093	Invite to Party	เชิญเข้าปาร์ตี้
+24094	Enter your broadcast message	ป้อนข้อความประกาศ
+24095	Recent Parties	ปาร์ตี้ล่าสุด
+24096	Party Notifications	การแจ้งเตือนปาร์ตี้
+24098	Clear List	ล้างรายการ
+24099	Show today's received invitations in a notification window.	แสดงคำเชิญที่ได้รับวันนี้ในหน้าต่างแจ้งเตือน
+24100	No valid information found yet...	ยังไม่พบข้อมูลที่ใช้ได้...
+24102	Join	เข้าร่วม
+24104	Nearby Parties	ปาร์ตี้ใกล้เคียง
+24107	Power:	พลัง:
+24108	Up to 20 characters	สูงสุด 20 ตัวอักษร
+24109	Enter keywords...	ป้อนคำค้น...
+24112	<#5E3711>Fighting monsters with a Party on the same field map grants Extra bonuses.</color>\n1-player Party:\nBase EXP and Job EXP increased by 0%\nItem drop rate increased by 0%	<#5E3711>ต่อสู้กับมอนสเตอร์ร่วมกับปาร์ตี้ในแผนที่ภาคสนามเดียวกันเพื่อรับโบนัสเพิ่มเติม</color>\n1 คนในปาร์ตี้:\nBase EXP และ Job EXP เพิ่มขึ้น 0%\nอัตราดรอปไอเทมเพิ่มขึ้น 0%
+24113	<#5E3711>Fighting monsters with a Party on the same field map grants Extra bonuses.</color>\n2-player Party:\nBase EXP and Job EXP increased by 25%\nItem drop rate increased by 30%	<#5E3711>ต่อสู้กับมอนสเตอร์ร่วมกับปาร์ตี้ในแผนที่ภาคสนามเดียวกันเพื่อรับโบนัสเพิ่มเติม</color>\n2 คนในปาร์ตี้:\nBase EXP และ Job EXP เพิ่มขึ้น 25%\nอัตราดรอปไอเทมเพิ่มขึ้น 30%
+24114	<#5E3711>Fighting monsters with a Party on the same field map grants Extra bonuses.</color>\n3-player Party:\nBase EXP and Job EXP increased by 50%\nItem drop rate increased by 60%	<#5E3711>ต่อสู้กับมอนสเตอร์ร่วมกับปาร์ตี้ในแผนที่ภาคสนามเดียวกันเพื่อรับโบนัสเพิ่มเติม</color>\n3 คนในปาร์ตี้:\nBase EXP และ Job EXP เพิ่มขึ้น 50%\nอัตราดรอปไอเทมเพิ่มขึ้น 60%
+24115	<#5E3711>Fighting monsters with a Party on the same field map grants Extra bonuses.</color>\n4-player Party:\nBase EXP and Job EXP increased by 75%\nItem drop rate increased by 90%	<#5E3711>ต่อสู้กับมอนสเตอร์ร่วมกับปาร์ตี้ในแผนที่ภาคสนามเดียวกันเพื่อรับโบนัสเพิ่มเติม</color>\n4 คนในปาร์ตี้:\nBase EXP และ Job EXP เพิ่มขึ้น 75%\nอัตราดรอปไอเทมเพิ่มขึ้น 90%
+24116	<#5E3711>Fighting monsters with a Party on the same field map grants Extra bonuses.</color>\n4-player Party:\nBase EXP and Job EXP increased by 100%\nItem drop rate increased by 120%	<#5E3711>ต่อสู้กับมอนสเตอร์ร่วมกับปาร์ตี้ในแผนที่ภาคสนามเดียวกันเพื่อรับโบนัสเพิ่มเติม</color>\n4 คนในปาร์ตี้:\nBase EXP และ Job EXP เพิ่มขึ้น 100%\nอัตราดรอปไอเทมเพิ่มขึ้น 120%
+24122	You cannot Request to Join Party while already in a Party.	ไม่สามารถส่งคำขอเข้าร่วมปาร์ตี้ได้ขณะอยู่ในปาร์ตี้แล้ว
+24123	Invitations are being sent too frequently. Please try again later.	ส่งคำเชิญถี่เกินไป โปรดลองอีกครั้งในภายหลัง
+24124	${1} swapped the positions of ${2} and ${3}.	${1} สลับตำแหน่งของ ${2} และ ${3}
+24126	Party Invite	คำเชิญปาร์ตี้
+24127	Targets are being switched too frequently. Please try again later.	สลับเป้าหมายถี่เกินไป โปรดลองอีกครั้งในภายหลัง
+24128	${1} moved ${2} to Party ${3}.	${1} ย้าย ${2} ไปยังปาร์ตี้ ${3}
+24129	Remove Power Requirement	ยกเลิกข้อกำหนดพลัง
+24130	You are already in a Party.	คุณอยู่ในปาร์ตี้แล้ว
+24131	No Party exists with this ID.	ไม่มีปาร์ตี้ที่ใช้ ID นี้
+24132	Incorrect Party type.	ประเภทปาร์ตี้ไม่ถูกต้อง
+24133	Do not have Permission	ไม่มีสิทธิ์
+24134	This is already the same Party type. No conversion is needed.	เป็นปาร์ตี้ประเภทเดียวกันอยู่แล้ว ไม่จำเป็นต้องเปลี่ยน
+24135	The Party no longer exists.	ปาร์ตี้นี้ไม่มีอยู่แล้ว
+24136	Already on the request list.	อยู่ในรายการคำขอแล้ว
+24137	Unable to retrieve player information	ไม่สามารถดึงข้อมูลผู้เล่นได้
+24138	Party is full	ปาร์ตี้เต็ม
+24139	Request List is Full	รายการคำขอเต็ม
+24140	On cooldown	อยู่ระหว่างคูลดาวน์
+24141	The inviter has left the party	ผู้เชิญออกจากปาร์ตี้แล้ว
+24142	Already left the party	ออกจากปาร์ตี้แล้ว
+24143	Maximum number of Deputy Raid Leaders reached	ถึงจำนวนรองหัวหน้าเรดสูงสุดแล้ว
+24144	Already a Deputy Raid Leader	เป็นรองหัวหน้าเรดอยู่แล้ว
+24145	No longer a Deputy Raid Leader	ไม่ได้เป็นรองหัวหน้าเรดแล้ว
+24146	Not all members of the five-player party have been summoned	ยังเรียกสมาชิกปาร์ตี้ห้าคนมาไม่ครบ
+24147	The Party Leader is in an instance and cannot be followed	หัวหน้าปาร์ตี้อยู่ในอินสแตนซ์และไม่สามารถติดตามได้
+24148	Marker index out of range	ดัชนีเครื่องหมายอยู่นอกช่วง
+24149	Invalid party objective	เป้าหมายปาร์ตี้ไม่ถูกต้อง
+24150	Party objective level too low	ระดับเป้าหมายปาร์ตี้ต่ำเกินไป
+24151	Party is being created	กำลังสร้างปาร์ตี้
+24152	The invitee is in an instance	ผู้รับเชิญอยู่ในอินสแตนซ์
+24153	Player is offline	ผู้เล่นออฟไลน์
+24154	The invitee is already in a party	ผู้รับเชิญอยู่ในปาร์ตี้แล้ว
+24155	No longer on the application list	ไม่ได้อยู่ในรายการคำขอแล้ว
+24156	Follow Party Leader?	ติดตามหัวหน้าปาร์ตี้หรือไม่?
+24157	Follow Raid Leader?	ติดตามหัวหน้าเรดหรือไม่?
+24158	Ready check will be automatically declined in ${1} seconds	การตรวจความพร้อมจะถูกปฏิเสธโดยอัตโนมัติในอีก ${1} วินาที
+24159	Up to 20 characters	สูงสุด 20 ตัวอักษร
+24160	${1} removed marker ${2}	${1} นำเครื่องหมาย ${2} ออก
+24161	Level: ${1}	ระดับ: ${1}
+24162	Players: ${1}	ผู้เล่น: ${1}
+24164	You're summoning too quickly! Your party members can't keep up!	คุณเรียกสมาชิกเร็วเกินไป! สมาชิกปาร์ตี้ตามมาไม่ทัน!
+24165	Enter Follow Raid Leader mode	เข้าสู่โหมดติดตามหัวหน้าเรด
+24166	Enter Follow Leader mode	เข้าสู่โหมดติดตามหัวหน้า
+24167	Stop Following	หยุดติดตาม
+24168	${1} joined the party	${1} เข้าร่วมปาร์ตี้
+24169	${1} transferred Party Leader to ${2}	${1} โอนตำแหน่งหัวหน้าปาร์ตี้ให้ ${2}
+24170	${1} appointed ${2} as Deputy Raid Leader	${1} แต่งตั้ง ${2} เป็นรองหัวหน้าเรด
+24171	${1} removed ${2} as Deputy Raid Leader	${1} ปลด ${2} จากตำแหน่งรองหัวหน้าเรด
+24174	Tap to Invite	แตะเพื่อเชิญ
+24175	Party Description:	คำอธิบายปาร์ตี้:
+24176	My Raid	เรดของฉัน
+24178	Drag Member info to edit the Party	ลากข้อมูลสมาชิกเพื่อจัดปาร์ตี้
+24179	Players:	ผู้เล่น:
+24180	Voice Settings	ตั้งค่าเสียง
+24181	Talk	พูด
+24182	Listen	ฟัง
+24184	Drag into the area to place a marker	ลากเข้าไปในพื้นที่เพื่อวางเครื่องหมาย
+24188	Show invitations in the invitation pop-up	แสดงคำเชิญในหน้าต่างคำเชิญ
+24190	Misc	อื่น ๆ
+24191	AFK in the Field	AFK ในภาคสนาม
+24192	Parties:	ปาร์ตี้:
+24193	No current party invitations	ขณะนี้ไม่มีคำเชิญปาร์ตี้
+24194	No current party applications	ขณะนี้ไม่มีคำขอเข้าร่วมปาร์ตี้
+24195	No players available to invite	ไม่มีผู้เล่นให้เชิญ
+24196	Players: 1-40	ผู้เล่น: 1-40
+24197	Level: N/A	ระดับ: N/A
+24198	All Objectives	เป้าหมายทั้งหมด
+24199	Refresh Time	เวลารีเฟรช
+24201	Level: ${1}	ระดับ: ${1}
+24202	Parties:	ปาร์ตี้:
+24203	${1} left the party	${1} ออกจากปาร์ตี้
+24206	${1}'s party is recruiting	ปาร์ตี้ของ ${1} กำลังรับสมัคร
+24207	Party members summoned to follow	เรียกสมาชิกปาร์ตี้ให้ติดตามแล้ว
+24208	Recruitment message sent to the Recruitment channel	ส่งข้อความรับสมัครไปยังแชนเนลรับสมัครแล้ว
+24209	The Party Leader's channel is full. Auto-follow stopped	แชนเนลของหัวหน้าปาร์ตี้เต็ม หยุดติดตามอัตโนมัติแล้ว
+24210	Free to Join	เข้าร่วมได้ทันที
+24211	Status Change Notice	แจ้งเตือนการเปลี่ยนสถานะ
+24212	Enabling Follow will take control of Auto-Battle.	การเปิดใช้การติดตามจะเข้าควบคุมการต่อสู้อัตโนมัติ
+24213	Enabling Auto-Battle will Pause following	การเปิดใช้การต่อสู้อัตโนมัติจะพักการติดตาม
+24214	Voice Status Notice	แจ้งเตือนสถานะเสียง
+24215	Joining 【${1}】 voice chat will automatically mute your mic in the current voice chat. Continue?	การเข้าร่วมแชตเสียง [ ${1} ] จะปิดเสียงไมโครโฟนของคุณในแชตเสียงปัจจุบันโดยอัตโนมัติ ต้องการดำเนินการต่อหรือไม่?
+24217	This build is still in development. Stay tuned!	บิลด์นี้ยังอยู่ระหว่างการพัฒนา โปรดติดตาม!
+24218	Not Learned	ยังไม่ได้เรียนรู้
+24219	Skill slot cannot be empty	ช่องสกิลต้องไม่ว่าง
+24220	Joined the party	เข้าร่วมปาร์ตี้แล้ว
+24221	We look forward to welcoming all Adventurers!	เรายินดีต้อนรับนักผจญภัยทุกคน!
+24222	Party Objective	เป้าหมายปาร์ตี้
+24223	You do not have permission to perform this action	คุณไม่มีสิทธิ์ดำเนินการนี้
+24224	Following party…	กำลังติดตามปาร์ตี้…
+24225	Calling for help	เรียกขอความช่วยเหลือ
+24226	Loading character information	กำลังโหลดข้อมูลตัวละคร
+24227	Leave Party	ออกจากปาร์ตี้
+24228	Party Voice	แชตเสียงปาร์ตี้
+24230	Party Marker	เครื่องหมายปาร์ตี้
+24235	Follow is prohibited in the Party Leader's Location.	ไม่อนุญาตให้ติดตามในตำแหน่งของหัวหน้าปาร์ตี้
+24236	Rally actions are unavailable at your current Location.	ไม่สามารถรวมพลในตำแหน่งปัจจุบันได้
+24237	Follow is unavailable in the current Location.	ไม่สามารถติดตามในตำแหน่งปัจจุบันได้
+25000	Join a guild	เข้าร่วมกิลด์
+25001	Create Guild	สร้างกิลด์
+25002	Respond to Guild	ตอบรับกิลด์
+25004	Players	ผู้เล่น
+25005	Activity	ความเคลื่อนไหว
+25009	Guild Benefit	สิทธิประโยชน์กิลด์
+25010	Request	ส่งคำขอ
+25012	Request All	ส่งคำขอทั้งหมด
+25013	Guild Emblem	ตรากิลด์
+25014	Guild Name	ชื่อกิลด์
+25015	Emblem Design	ลวดลายตรา
+25016	Emblem Border	กรอบตรา
+25017	Creation Cost:	ค่าใช้จ่ายในการสร้าง:
+25018	Guild Creation Response	ตอบรับการสร้างกิลด์
+25019	Cancel Response	ยกเลิกการตอบรับ
+25021	Responses	การตอบรับ
+25022	Time Left	เวลาที่เหลือ
+25023	No Guild Available to Join	ไม่มีกิลด์ให้เข้าร่วม
+25024	Please enter a guild name...	โปรดป้อนชื่อกิลด์...
+25025	Invalid input	ข้อมูลที่ป้อนไม่ถูกต้อง
+25026	No Guild Information Found	ไม่พบข้อมูลกิลด์
+25027	No Guild Information	ไม่มีข้อมูลกิลด์
+25028	Please try again later	โปรดลองอีกครั้งในภายหลัง
+25029	Level too low	ระดับต่ำเกินไป
+25030	You have already joined a guild	คุณเข้าร่วมกิลด์แล้ว
+25031	Request All has a ${1}-minute cooldown. Please try again later	การส่งคำขอทั้งหมดมีคูลดาวน์ ${1} นาที โปรดลองอีกครั้งในภายหลัง
+25032	You have reached the application limit	ถึงขีดจำกัดจำนวนคำขอแล้ว
+25033	Applications have been sent to all eligible guilds on the current list	ส่งคำขอไปยังกิลด์ที่ตรงตามเงื่อนไขทั้งหมดในรายการปัจจุบันแล้ว
+25034	No Guild Information	ไม่มีข้อมูลกิลด์
+25035	Guild ID: ${1}\nFormer Guild Name: ${2}	ID กิลด์: ${1}\nชื่อกิลด์เดิม: ${2}
+25036	Former Guild Names: ${1}; ${2}; ${3}; ${4}; ${5} (Deprecated)	ชื่อกิลด์เดิม: ${1}; ${2}; ${3}; ${4}; ${5} (เลิกใช้งานแล้ว)
+25037	You cannot chat with yourself	คุณไม่สามารถแชตกับตนเองได้
+25038	Bonuses	โบนัส
+25039	Salary	เงินเดือน
+25042	Benefits Overview	ภาพรวมสิทธิประโยชน์
+25047	This guild no longer exists	กิลด์นี้ไม่มีอยู่แล้ว
+25048	Guild is full	กิลด์เต็ม
+25049	The guild application list is full	รายการคำขอเข้ากิลด์เต็ม
+25050	You have already applied to this guild	คุณส่งคำขอเข้ากิลด์นี้แล้ว
+25051	Request sent	ส่งคำขอแล้ว
+25052	Please enter ${1}-${2} characters	โปรดป้อน ${1}-${2} ตัวอักษร
+25053	Please enter a recruitment message of no more than ${1} characters	โปรดป้อนข้อความรับสมัครไม่เกิน ${1} ตัวอักษร
+25054	Please enter a guild name first	โปรดป้อนชื่อกิลด์ก่อน
+25055	The guild name is too short. Please enter another	ชื่อกิลด์สั้นเกินไป โปรดป้อนชื่ออื่น
+25056	The guild name is too long. Please enter another	ชื่อกิลด์ยาวเกินไป โปรดป้อนชื่ออื่น
+25057	The guild name is invalid. Please enter another	ชื่อกิลด์ไม่ถูกต้อง โปรดป้อนชื่ออื่น
+25058	The guild name is already in use. Please enter another	ชื่อกิลด์นี้ถูกใช้แล้ว โปรดป้อนชื่ออื่น
+25059	Please enter a recruitment message first	โปรดป้อนข้อความรับสมัครก่อน
+25060	The recruitment message is invalid	ข้อความรับสมัครไม่ถูกต้อง
+25061	The recruitment message is too long	ข้อความรับสมัครยาวเกินไป
+25062	Not enough items to create the guild	ไอเทมไม่เพียงพอสำหรับสร้างกิลด์
+25063	You will spend <color=#C26B47>${1}*${2}</color> to create a guild. Creation Successful requires responses from <color=#C26B47>${4}</color> players within <color=#C26B47>${3}</color> hours. Create the guild? (The required items will be returned if guild creation fails.)	คุณจะใช้ <color=#C26B47>${1}*${2}</color> เพื่อสร้างกิลด์ การสร้างให้สำเร็จต้องมีผู้เล่น <color=#C26B47>${4}</color> คนตอบรับภายใน <color=#C26B47>${3}</color> ชั่วโมง ต้องการสร้างกิลด์หรือไม่? (หากสร้างกิลด์ไม่สำเร็จ จะคืนไอเทมที่ใช้)
+25064	Creation Successful	สร้างสำเร็จ
+25065	Reach ${2} Responses within ${1} hours to become Responded. Once Responded, the creator will become the Guild Master via Auto assignment.	รวบรวมการตอบรับ ${2} ครั้งภายใน ${1} ชั่วโมงเพื่อให้การตอบรับสำเร็จ เมื่อสำเร็จ ผู้สร้างจะได้รับตำแหน่งหัวหน้ากิลด์โดยอัตโนมัติ
+25066	Responses: ${1}/${2}	การตอบรับ: ${1}/${2}
+25067	Response Time Remaining: ${1}	เวลาตอบรับที่เหลือ: ${1}
+25068	Canceling the response will cause guild creation to fail. Cancel the response?	การยกเลิกการตอบรับจะทำให้การสร้างกิลด์ล้มเหลว ต้องการยกเลิกการตอบรับหรือไม่?
+25069	Response canceled. Guild creation failed	ยกเลิกการตอบรับแล้ว การสร้างกิลด์ล้มเหลว
+25070	Guild creation successful	สร้างกิลด์สำเร็จ
+25071	Response canceled	ยกเลิกการตอบรับแล้ว
+25072	You have not responded to this guild	คุณยังไม่ได้ตอบรับกิลด์นี้
+25073	Recruitment information sent to the ${1} channel	ส่งข้อมูลรับสมัครไปยังแชนเนล ${1} แล้ว
+25074	This can only be sent once every ${1} minutes	ส่งได้เพียงครั้งเดียวทุก ${1} นาที
+25076	No guilds are awaiting responses	ไม่มีกิลด์ที่รอการตอบรับ
+25077	Responded	ตอบรับแล้ว
+25078	Impeachment Requirements	เงื่อนไขการถอดถอน
+25079	The Guild Leader is eligible for Impeachment if they have been offline for ${1} days or earned less than ${3} Guild Contribution each week for the past ${2} consecutive weeks	สามารถถอดถอนหัวหน้ากิลด์ได้หากออฟไลน์เป็นเวลา ${1} วัน หรือได้รับแต้มสนับสนุนกิลด์ต่ำกว่า ${3} แต้มต่อสัปดาห์ในช่วง ${2} สัปดาห์ติดต่อกันที่ผ่านมา
+25080	A Guild Member must Join a guild at least ${1} days before they can Impeach	สมาชิกต้องเข้าร่วมกิลด์อย่างน้อย ${1} วันก่อนจึงจะเริ่มถอดถอนได้
+25081	Impeachment Process	ขั้นตอนการถอดถอน
+25082	After initiating an Impeachment, the initiator must rally Guild Members to respond	หลังเริ่มการถอดถอน ผู้เริ่มต้องรวบรวมสมาชิกกิลด์ให้ตอบรับ
+25083	The initiator must receive responses from ${1} guild players (${3}% of players who logged in within ${2} days) for the Impeachment to succeed (the initiator responds automatically)	ผู้เริ่มต้องได้รับการตอบรับจากผู้เล่นในกิลด์ ${1} คน (${3}% ของผู้เล่นที่เข้าสู่ระบบภายใน ${2} วัน) เพื่อให้การถอดถอนสำเร็จ (ผู้เริ่มตอบรับโดยอัตโนมัติ)
+25084	Responses to the Impeachment must be completed within ${1} hours	ต้องตอบรับการถอดถอนให้ครบภายใน ${1} ชั่วโมง
+25085	The Impeachment is failed if the Initiator leaves the Guild voluntarily during the impeachment	การถอดถอนจะล้มเหลวหากผู้เริ่มออกจากกิลด์ด้วยตนเองระหว่างดำเนินการ
+25086	The Initiator will become the new Guild Master if the Impeachment is successful.	ผู้เริ่มจะเป็นหัวหน้ากิลด์คนใหม่หากการถอดถอนสำเร็จ
+25087	No Impeachment is currently underway. You may Impeach the Guild Leader	ขณะนี้ไม่มีการถอดถอน คุณสามารถเริ่มถอดถอนหัวหน้ากิลด์ได้
+25088	You can Impeach after ${1}	คุณสามารถเริ่มถอดถอนได้หลังจาก ${1}
+25089	Guild Master cannot self-impeach	หัวหน้ากิลด์ไม่สามารถถอดถอนตนเองได้
+25090	You must Join a guild at least ${1} days before you can Impeach	คุณต้องเข้าร่วมกิลด์อย่างน้อย ${1} วันก่อนจึงจะเริ่มถอดถอนได้
+25091	No grounds for impeachment. The Guild Master cannot be impeached.	ไม่มีเหตุให้ถอดถอน ไม่สามารถถอดถอนหัวหน้ากิลด์ได้
+25092	Spend ${1}${2} to Impeach Guild Leader ${3}?	ใช้ ${1}${2} เพื่อถอดถอนหัวหน้ากิลด์ ${3} หรือไม่?
+25093	Insufficient fund, cannot initiate impeachment	เงินทุนไม่เพียงพอ ไม่สามารถเริ่มการถอดถอนได้
+25094	Impeachment initiated, waiting for other members to respond	เริ่มการถอดถอนแล้ว กำลังรอสมาชิกคนอื่นตอบรับ
+25095	Impeachment initiated	เริ่มการถอดถอนแล้ว
+25096	Guild Member ${1} has initiated an Impeachment. You may Respond to Impeachment	สมาชิกกิลด์ ${1} เริ่มการถอดถอนแล้ว คุณสามารถตอบรับการถอดถอนได้
+25097	Responses:	การตอบรับ:
+25098	Response Time Remaining: ${1}	เวลาตอบรับที่เหลือ: ${1}
+25099	Responded	ตอบรับแล้ว
+25100	You are being impeached, unable to proceed.	คุณกำลังถูกถอดถอน ไม่สามารถดำเนินการต่อได้
+25101	Cancel the Impeachment of Guild Leader ${1}? You cannot Impeach again for ${2} hours after canceling.	ยกเลิกการถอดถอนหัวหน้ากิลด์ ${1} หรือไม่? หลังยกเลิก คุณจะเริ่มถอดถอนอีกครั้งไม่ได้เป็นเวลา ${2} ชั่วโมง
+25102	You canceled the Impeachment of Guild Leader ${1}	คุณยกเลิกการถอดถอนหัวหน้ากิลด์ ${1} แล้ว
+25103	You have initiated an Impeachment of Guild Leader ${1}. Selecting Leave Guild will automatically cancel the Impeachment. Are you sure you want to leave?	คุณเริ่มการถอดถอนหัวหน้ากิลด์ ${1} แล้ว การเลือกออกจากกิลด์จะยกเลิกการถอดถอนโดยอัตโนมัติ ต้องการออกหรือไม่?
+25104	The Impeachment of Guild Leader ${1} was automatically canceled	การถอดถอนหัวหน้ากิลด์ ${1} ถูกยกเลิกโดยอัตโนมัติ
+25105	Impeachment ended	การถอดถอนสิ้นสุดแล้ว
+25106	Impeach Guild Master	ถอดถอนหัวหน้ากิลด์
+25107	Impeach	ถอดถอน
+25108	Cancel Impeachment	ยกเลิกการถอดถอน
+25109	Respond to Impeachment	ตอบรับการถอดถอน
+25110	Responded	ตอบรับแล้ว
+25111	Change Guild Name	เปลี่ยนชื่อกิลด์
+25112	Guild Name:	ชื่อกิลด์:
+25113	Previous Name:	ชื่อเดิม:
+25114	Confirm Change	ยืนยันการเปลี่ยน
+25115	No former name	ไม่มีชื่อเดิม
+25116	The name cannot be changed again for 7 days	ไม่สามารถเปลี่ยนชื่ออีกครั้งได้เป็นเวลา 7 วัน
+25117	Use ${1} ${2} to Change Guild Name to ${3}?	ใช้ ${1} ${2} เพื่อเปลี่ยนชื่อกิลด์เป็น ${3} หรือไม่?
+25118	Insufficient permissions	สิทธิ์ไม่เพียงพอ
+25119	The guild name cannot be changed again for ${1} days	ไม่สามารถเปลี่ยนชื่อกิลด์อีกครั้งได้เป็นเวลา ${1} วัน
+25120	Not enough ${1} to change the name	${1} ไม่เพียงพอสำหรับเปลี่ยนชื่อ
+25121	The new name cannot be the same as the existing one	ชื่อใหม่ต้องไม่ซ้ำกับชื่อปัจจุบัน
+25122	Guild name changed successfully	เปลี่ยนชื่อกิลด์สำเร็จ
+25123	Guild Emblem	ตรากิลด์
+25124	Emblem Design	ลวดลายตรา
+25125	Emblem Border	กรอบตรา
+25127	Valid for: ${1}	มีผลเป็นเวลา: ${1}
+25128	Info	ข้อมูล
+25132	Leader	หัวหน้า
+25133	Activity	ความเคลื่อนไหว
+25137	Guild News	ข่าวกิลด์
+25138	Go to Guild HQ	ไปที่สำนักงานใหญ่กิลด์
+25139	Edit Announcement	แก้ไขประกาศ
+25141	Activity Info	ข้อมูลความเคลื่อนไหว
+25143	Display Filters	ตัวกรองการแสดงผล
+25144	Equipment Forging	การตีอุปกรณ์
+25145	Trophy Earned	ได้รับถ้วยรางวัล
+25146	Gameplay Reward Earned	ได้รับรางวัลจากการเล่น
+25147	Title Earned	ได้รับฉายา
+25148	Pet Obtained	ได้รับสัตว์เลี้ยง
+25149	Other Guild News	ข่าวกิลด์อื่น ๆ
+25150	Posting Settings	ตั้งค่าการโพสต์
+25151	Do not post my content in Guild News	ไม่โพสต์เนื้อหาของฉันในข่าวกิลด์
+25152	Repost	โพสต์ซ้ำ
+25153	Switch topics randomly	สุ่มสลับหัวข้อ
+25155	Insufficient permissions	สิทธิ์ไม่เพียงพอ
+25156	You have not joined a guild	คุณยังไม่ได้เข้าร่วมกิลด์
+25157	This guild no longer exists	กิลด์นี้ไม่มีอยู่แล้ว
+25158	Enter an announcement (up to 160 characters)	ป้อนประกาศ (สูงสุด 160 ตัวอักษร)
+25159	Enter an announcement first	โปรดป้อนประกาศก่อน
+25160	The guild announcement contains inappropriate content	ประกาศกิลด์มีเนื้อหาที่ไม่เหมาะสม
+25161	The announcement is too long	ประกาศยาวเกินไป
+25162	Changed	เปลี่ยนแล้ว
+25163	Last Week's Activity: ${1}	ความเคลื่อนไหวสัปดาห์ที่แล้ว: ${1}
+25164	Last Week's Active rating: ${1}	ระดับความเคลื่อนไหวสัปดาห์ที่แล้ว: ${1}
+25166	Very Active	คึกคักมาก
+25167	Moderately Active	คึกคักปานกลาง
+25168	Active	คึกคัก
+25169	Very Inactive	เงียบมาก
+25170	Weekly Activity: Guild Members earn Guild Activity by completing guild content. Weekly Guild Activity is the sum of all Guild Members' activity each week	ความเคลื่อนไหวรายสัปดาห์: สมาชิกได้รับค่าความเคลื่อนไหวกิลด์จากการทำกิจกรรมกิลด์ ความเคลื่อนไหวกิลด์รายสัปดาห์คือผลรวมค่าความเคลื่อนไหวของสมาชิกทุกคนในแต่ละสัปดาห์
+25171	Weekly Active rating: There are 4 Active rating tiers based on Weekly Activity:	ระดับความเคลื่อนไหวรายสัปดาห์: แบ่งเป็น 4 ระดับตามค่าความเคลื่อนไหวรายสัปดาห์:
+25172	Very Active: <color=#7E7361>Weekly Activity ≥ ${1}</color>	คึกคักมาก: <color=#7E7361>ค่าความเคลื่อนไหวรายสัปดาห์ ≥ ${1}</color>
+25173	Moderately Active: <color=#7E7361>${1} ≤ Weekly Activity ≤ ${2}</color>	คึกคักปานกลาง: <color=#7E7361>${1} ≤ ค่าความเคลื่อนไหวรายสัปดาห์ ≤ ${2}</color>
+25174	Active: <color=#7E7361>${1} ≤ Weekly Activity ≤ ${2}</color>	คึกคัก: <color=#7E7361>${1} ≤ ค่าความเคลื่อนไหวรายสัปดาห์ ≤ ${2}</color>
+25175	Very Inactive: <color=#7E7361>Weekly Activity ＜ ${1}</color>	เงียบมาก: <color=#7E7361>ค่าความเคลื่อนไหวรายสัปดาห์ ＜ ${1}</color>
+25176	Disbandment Rules: If the guild's Weekly Active rating remains Very Inactive for ${1} consecutive weeks, the guild will automatically disband at 5 o'clock on Monday of week ${2} (the first 2 weeks after the guild is created do not count toward the inactivity period)	กฎการยุบกิลด์: หากระดับความเคลื่อนไหวรายสัปดาห์ของกิลด์อยู่ในระดับเงียบมากติดต่อกัน ${1} สัปดาห์ กิลด์จะถูกยุบโดยอัตโนมัติเวลา 5 นาฬิกาของวันจันทร์ในสัปดาห์ที่ ${2} (2 สัปดาห์แรกหลังสร้างกิลด์จะไม่นับรวมในระยะเวลาไม่เคลื่อนไหว)
+25177	Congratulations, ${1}!	ยินดีด้วย ${1}!
+25178	Please enter text to share first.	โปรดป้อนข้อความที่ต้องการแชร์ก่อน
+25179	Invalid share text.	ข้อความที่ต้องการแชร์ไม่ถูกต้อง
+25180	Share text is too long.	ข้อความที่ต้องการแชร์ยาวเกินไป
+25181	Shared	แชร์แล้ว
+25182	You can't like your own post.	คุณไม่สามารถกดถูกใจโพสต์ของตนเองได้
+25183	You are already in a guild.	คุณอยู่ในกิลด์แล้ว
+25184	Are you sure you want to Leave Guild?\n1. After you Leave Guild, your Guild Funds Donation records will be cleared. If you rejoin this guild within two weeks, your Guild Funds records will be restored.\n2. If you Leave Guild before an auction ends, you will not receive the Auction Dividend.	ต้องการออกจากกิลด์หรือไม่?\n1. หลังออกจากกิลด์ ประวัติการบริจาคเงินทุนกิลด์ของคุณจะถูกล้าง หากกลับเข้ากิลด์นี้ภายในสองสัปดาห์ ประวัติเงินทุนกิลด์จะถูกคืนให้\n2. หากออกจากกิลด์ก่อนการประมูลสิ้นสุด คุณจะไม่ได้รับส่วนแบ่งการประมูล
+25185	You must transfer guild leadership before you can Leave Guild.	คุณต้องโอนตำแหน่งหัวหน้ากิลด์ก่อนจึงจะออกจากกิลด์ได้
+25186	You have left the guild.	คุณออกจากกิลด์แล้ว
+25187	Are you sure you want to remove <color=#C26B47>${1}</color> from the guild?	ต้องการนำ <color=#C26B47>${1}</color> ออกจากกิลด์หรือไม่?
+25188	That character does not exist.	ไม่มีตัวละครนั้น
+25189	That player has not joined a guild.	ผู้เล่นนั้นยังไม่ได้เข้าร่วมกิลด์
+25190	Only outgoing management can be dismissed	ปลดได้เฉพาะผู้บริหารที่กำลังจะพ้นตำแหน่ง
+25191	Kicked out	ถูกนำออกแล้ว
+25192	Member Info	ข้อมูลสมาชิก
+25193	Guild Events	อีเวนต์กิลด์
+25194	Event Activity	ความเคลื่อนไหวอีเวนต์
+25195	Request List	รายการคำขอ
+25197	Level	ระดับ
+25198	Combat Power	พลังต่อสู้
+25199	Weekly Activity	ความเคลื่อนไหวรายสัปดาห์
+25200	Contribution	แต้มสนับสนุน
+25201	Position	ตำแหน่ง
+25202	Offline Time	เวลาออฟไลน์
+25204	Group Mail	จดหมายกลุ่ม
+25205	Impeach Guild Master	ถอดถอนหัวหน้ากิลด์
+25206	Leave Guild	ออกจากกิลด์
+25207	Honor Position	ตำแหน่งเกียรติยศ
+25208	Confirm Removal	ยืนยันการนำออก
+25209	Cancel Removal	ยกเลิกการนำออก
+25211	Send	ส่ง
+25214	Show Only My Events	แสดงเฉพาะอีเวนต์ของฉัน
+25215	Position Changes	การเปลี่ยนตำแหน่ง
+25216	Member Arrivals and Departures	การเข้าและออกของสมาชิก
+25217	Building Level-up	เพิ่มระดับอาคาร
+25219	Total Activity	ความเคลื่อนไหวทั้งหมด
+25220	Event Name	ชื่ออีเวนต์
+25222	Application Time	เวลาส่งคำขอ
+25224	Auto-Accept	ยอมรับอัตโนมัติ
+25225	Applicants: ${1}	ผู้ส่งคำขอ: ${1}
+25227	Reject All	ปฏิเสธทั้งหมด
+25228	Recruit Member	รับสมัครสมาชิก
+25233	Invited	เชิญแล้ว
+25234	Combat Power Requirement	พลังต่อสู้ที่ต้องการ
+25235	Refresh List	รีเฟรชรายการ
+25238	Over ${1} hours	มากกว่า ${1} ชั่วโมง
+25239	Over ${1} days	มากกว่า ${1} วัน
+25240	Over ${1} months	มากกว่า ${1} เดือน
+25242	Select Members to Remove	เลือกสมาชิกที่จะนำออก
+25243	Change of member information	การเปลี่ยนแปลงข้อมูลสมาชิก
+25244	Are you sure you want to remove the selected ${1} Guild Members?	ต้องการนำสมาชิกกิลด์ที่เลือก ${1} คนออกหรือไม่?
+25245	Kicked out	ถูกนำออกแล้ว
+25246	Leave this screen?\nYour selections will be cleared when you leave.	ออกจากหน้าจอนี้หรือไม่?\nรายการที่เลือกจะถูกล้างเมื่อออก
+25247	Messages can only be Sent once every ${1} hours. Please try again later.	ส่งข้อความได้เพียงครั้งเดียวทุก ${1} ชั่วโมง โปรดลองอีกครั้งในภายหลัง
+25248	Tap to enter a message (max ${1} characters)	แตะเพื่อป้อนข้อความ (สูงสุด ${1} ตัวอักษร)
+25249	This message will be Sent to all Guild Members. Send it now?	ข้อความนี้จะส่งให้สมาชิกกิลด์ทุกคน ต้องการส่งตอนนี้หรือไม่?
+25250	Please enter a message first.	โปรดป้อนข้อความก่อน
+25251	Invalid content.	เนื้อหาไม่ถูกต้อง
+25252	Content is too long.	เนื้อหายาวเกินไป
+25253	Mail Sent	ส่งจดหมายแล้ว
+25254	Search Members	ค้นหาสมาชิก
+25255	No Member info found.	ไม่พบข้อมูลสมาชิก
+25256	Guild is full	กิลด์เต็ม
+25257	${1}: Level too low	${1}: ระดับต่ำเกินไป
+25258	${1} has joined a guild.	${1} เข้าร่วมกิลด์แล้ว
+25259	${1}: Character does not exist	${1}: ไม่มีตัวละครนี้
+25261	Sent to the World Chat channel.	ส่งไปยังแชนเนลแชตโลกแล้ว
+25263	Position Appointment	แต่งตั้งตำแหน่ง
+25264	Permission Management	จัดการสิทธิ์
+25265	Appoint Elite	แต่งตั้งสมาชิกชั้นยอด
+25266	Confirm Appointment	ยืนยันการแต่งตั้ง
+25267	Cancel Appointment	ยกเลิกการแต่งตั้ง
+25268	Clear Appointments	ล้างการแต่งตั้ง
+25269	Selected: ${1}	เลือกแล้ว: ${1}
+25270	Change Position	เปลี่ยนตำแหน่ง
+25271	Current Position:	ตำแหน่งปัจจุบัน:
+25272	Position Permission	สิทธิ์ของตำแหน่ง
+25274	Leader	หัวหน้า
+25275	Vice Guild Master	รองหัวหน้ากิลด์
+25276	Commander	ผู้บัญชาการ
+25278	Officer	เจ้าหน้าที่
+25279	Edit permissions	แก้ไขสิทธิ์
+25280	Cancel Editing	ยกเลิกการแก้ไข
+25281	Save edits	บันทึกการแก้ไข
+25282	Cannot appoint this position.	ไม่สามารถแต่งตั้งตำแหน่งนี้ได้
+25283	This position is full	ตำแหน่งนี้เต็มแล้ว
+25284	You cannot appoint yourself	คุณไม่สามารถแต่งตั้งตนเองได้
+25285	Changes saved	บันทึกการเปลี่ยนแปลงแล้ว
+25286	${1} has not joined a guild	${1} ยังไม่ได้เข้าร่วมกิลด์
+25287	After an Adventurer joins a guild, the guild will grant them an Honor position based on the Member's historical contribution	หลังนักผจญภัยเข้าร่วมกิลด์ กิลด์จะมอบตำแหน่งเกียรติยศตามประวัติแต้มสนับสนุนของสมาชิก
+25288	As historical contribution increases, the corresponding Honor position is granted automatically. Management positions take display priority	เมื่อแต้มสนับสนุนสะสมเพิ่มขึ้น จะได้รับตำแหน่งเกียรติยศที่เหมาะสมโดยอัตโนมัติ ตำแหน่งบริหารมีลำดับความสำคัญในการแสดงผลสูงกว่า
+25289	Honor Position	ตำแหน่งเกียรติยศ
+25290	Required Historical Contribution	แต้มสนับสนุนสะสมที่ต้องการ
+25291	My Position:	ตำแหน่งของฉัน:
+25292	Some positions cannot be appointed	ไม่สามารถแต่งตั้งบางตำแหน่งได้
+25293	Leave this screen?\nLeaving will automatically clear your elite appointments	ออกจากหน้าจอนี้หรือไม่?\nการออกจะล้างการแต่งตั้งสมาชิกชั้นยอดโดยอัตโนมัติ
+25294	Leave this screen?\nLeaving will automatically cancel your edits	ออกจากหน้าจอนี้หรือไม่?\nการออกจะยกเลิกการแก้ไขโดยอัตโนมัติ
+25317	Less than 1 minute ago	น้อยกว่า 1 นาทีที่แล้ว
+25318	${1} minutes ago	${1} นาทีที่แล้ว
+25319	${1} hours ago	${1} ชั่วโมงที่แล้ว
+25320	${1} days ago	${1} วันที่แล้ว
+25321	${1} months ago	${1} เดือนที่แล้ว
+25322	${1} years ago	${1} ปีที่แล้ว
+25323	Loading...${1}%	กำลังโหลด...${1}%
+25325	No news available	ไม่มีข่าว
+25343	Respond	ตอบรับ
+25345	Building Level-up	เพิ่มระดับอาคาร
+25347	Max level Effect	ผลเมื่อถึงระดับสูงสุด
+25348	Requirement to level up:	เงื่อนไขการเพิ่มระดับ:
+25349	This facility has reached Max level	สิ่งปลูกสร้างนี้มีระดับสูงสุดแล้ว
+25350	${1} reaches level ${2}	${1} ถึงระดับ ${2}
+25351	Facility Level-up	เพิ่มระดับสิ่งปลูกสร้าง
+25352	Another guild building is currently undergoing Level-up. Please try again once it is complete	ขณะนี้มีอาคารกิลด์อื่นกำลังเพิ่มระดับ โปรดลองอีกครั้งเมื่อเสร็จสิ้น
+25353	Not enough Guild Funds	เงินทุนกิลด์ไม่เพียงพอ
+25354	This building has reached Max level	อาคารนี้มีระดับสูงสุดแล้ว
+25355	Spend ${1} Guild Funds to Level-up the ${2} building to level ${3}?	ใช้เงินทุนกิลด์ ${1} เพื่อเพิ่มระดับอาคาร ${2} เป็นระดับ ${3} หรือไม่?
+25356	Start Level-up	เริ่มเพิ่มระดับ
+25357	Level-up in progress...	กำลังเพิ่มระดับ...
+25358	This is the Guild Level. It governs guild growth and Benefits and determines the Level-up limit for other buildings	นี่คือระดับกิลด์ ซึ่งควบคุมการเติบโตและสิทธิประโยชน์ของกิลด์ รวมถึงกำหนดระดับสูงสุดที่อาคารอื่นเพิ่มได้
+25359	Linked to the Guild Shop. Determines item unlocks and purchase limits	เชื่อมโยงกับร้านค้ากิลด์ กำหนดไอเทมที่ปลดล็อกและขีดจำกัดการซื้อ
+25360	Linked to Guild Skills. Determines the Skill Level limit for Guild Skills	เชื่อมโยงกับสกิลกิลด์ กำหนดระดับสกิลสูงสุดของสกิลกิลด์
+25361	Guild Member limit increased from ${1}→${2}	จำนวนสมาชิกกิลด์สูงสุดเพิ่มจาก ${1}→${2}
+25362	Guild Funds limit increased from ${1}→${2}	เงินทุนกิลด์สูงสุดเพิ่มจาก ${1}→${2}
+25363	Upgrade to unlock more new items	อัปเกรดเพื่อปลดล็อกไอเทมใหม่เพิ่มเติม
+25364	Level-up to unlock a higher Skill Level limit	เพิ่มระดับเพื่อปลดล็อกระดับสกิลสูงสุดที่สูงขึ้น
+25365	Benefits	สิทธิประโยชน์
+25368	Tips	คำแนะนำ
+25369	This activity is unavailable on the day you change guilds	กิจกรรมนี้ไม่พร้อมใช้งานในวันที่คุณเปลี่ยนกิลด์
+25370	Event not yet started	อีเวนต์ยังไม่เริ่ม
+25371	Not in the event period	ไม่อยู่ในช่วงอีเวนต์
+25372	Level too low to participate	ระดับต่ำเกินไปที่จะเข้าร่วม
+25373	Goods Needed by the Caravan	สินค้าที่คาราวานต้องการ
+25374	Asking for Aid	กำลังขอความช่วยเหลือ
+25375	Departure Rewards	รางวัลออกเดินทาง
+25376	Load ${1}/${2} to Get Help	บรรทุก ${1}/${2} เพื่อขอความช่วยเหลือ
+25377	Cargo: ${1}/${2}	สินค้า: ${1}/${2}
+25378	Departure Rewards	รางวัลออกเดินทาง
+25379	Load 5 or more items to depart	บรรทุกไอเทมอย่างน้อย 5 ชิ้นเพื่อออกเดินทาง
+25380	Load <color=#a6e26c>6/7/8</color> items to earn Additional rewards	บรรทุกไอเทม <color=#a6e26c>6/7/8</color> ชิ้นเพื่อรับรางวัลเพิ่มเติม
+25381	This item is Sold out	ไอเทมนี้ขายหมดแล้ว
+25382	The caravan has departed	คาราวานออกเดินทางแล้ว
+25383	Item submitted	ส่งไอเทมแล้ว
+25384	Item expired	ไอเทมหมดอายุแล้ว
+25385	Load ${1} goods before you can Get Help	บรรทุกสินค้า ${1} ชิ้นก่อนจึงจะขอความช่วยเหลือได้
+25386	You can only Get Help for this item 1 time every ${1} minutes	คุณขอความช่วยเหลือสำหรับไอเทมนี้ได้เพียง 1 ครั้งทุก ${1} นาที
+25387	Get Help limit reached	ถึงขีดจำกัดการขอความช่วยเหลือแล้ว
+25388	Get Help request sent to the Help screen	ส่งคำขอความช่วยเหลือไปยังหน้าช่วยเหลือแล้ว
+25389	Not enough items	ไอเทมไม่เพียงพอ
+25390	Departure successful	ออกเดินทางสำเร็จ
+25391	Load ${1} or more items before departing	บรรทุกไอเทมอย่างน้อย ${1} ชิ้นก่อนออกเดินทาง
+25392	Loading more goods grants more Additional rewards. Depart now?	บรรทุกสินค้ามากขึ้นเพื่อรับรางวัลเพิ่มเติมมากขึ้น ต้องการออกเดินทางตอนนี้หรือไม่?
+25393	The caravan has departed. It will return after 5:00 Tomorrow	คาราวานออกเดินทางแล้ว จะกลับมาหลัง 5:00 น. พรุ่งนี้
+25395	Help limit reached	ถึงขีดจำกัดการช่วยเหลือแล้ว
+25396	Get Help request expired	คำขอความช่วยเหลือหมดอายุแล้ว
+25397	Get Help Cargo	สินค้าที่ขอความช่วยเหลือ
+25398	${1}'s Get Help Request	คำขอความช่วยเหลือของ ${1}
+25399	Assistance Reward	รางวัลช่วยเหลือ
+25400	Helped Today: ${1}/${2}	ช่วยเหลือวันนี้: ${1}/${2}
+25401	Help Load	ช่วยบรรทุก
+25402	You cannot help load an item you submitted through Get Help.	คุณไม่สามารถช่วยบรรทุกไอเทมที่ตนเองส่งคำขอความช่วยเหลือได้
+25403	${1} helped load it	${1} ช่วยบรรทุกแล้ว
+25404	No cargo currently needs loading	ขณะนี้ไม่มีสินค้าที่ต้องบรรทุก
+25405	Loaded	บรรทุกแล้ว
+25406	Depart	ออกเดินทาง
+25409	You are already in a guild.	คุณอยู่ในกิลด์แล้ว
+25410	You are participating in a Guild event. Are you sure you want to leave this area?	คุณกำลังเข้าร่วมอีเวนต์กิลด์ ต้องการออกจากพื้นที่นี้หรือไม่?
+25411	You are currently in combat. Are you sure you want to leave this area?	คุณกำลังต่อสู้อยู่ ต้องการออกจากพื้นที่นี้หรือไม่?
+25412	Current Guild Funds cap: ${1}	ขีดจำกัดเงินทุนกิลด์ปัจจุบัน: ${1}
+25414	Guild Member limit increased to ${1}	จำนวนสมาชิกกิลด์สูงสุดเพิ่มเป็น ${1}
+25415	Guild Funds limit increased to ${1}	เงินทุนกิลด์สูงสุดเพิ่มเป็น ${1}
+25416	d	วัน
+25417	Hour	ชั่วโมง
+25418	Minute	นาที
+25419	sec	วินาที
+25420	Opens Daily	เปิดทุกวัน
+25421	Opens Monday	เปิดวันจันทร์
+25422	Opens in ${1} hours	เปิดในอีก ${1} ชั่วโมง
+25423	Opens in ${1} minutes	เปิดในอีก ${1} นาที
+25424	Opens within 1 minute	เปิดภายใน 1 นาที
+25425	Event in Progress	อีเวนต์กำลังดำเนินอยู่
+25426	${1} building has not reached Lv. ${2}	อาคาร ${1} ยังไม่ถึง Lv. ${2}
+25427	${1} reaches Lv. <color=#ff0000>${2}</color>	${1} ถึง Lv. <color=#ff0000>${2}</color>
+25428	Opens Tuesday	เปิดวันอังคาร
+25429	Opens Wednesday	เปิดวันพุธ
+25430	Opens Thursday	เปิดวันพฤหัสบดี
+25431	Opens Friday	เปิดวันศุกร์
+25432	Opens Saturday	เปิดวันเสาร์
+25433	Opens Sunday	เปิดวันอาทิตย์
+25434	Quest Expired	เควสต์หมดอายุ
+25435	You have initiated an impeachment against Guild Leader ${1}. Cancel Impeachment?	คุณเริ่มการถอดถอนหัวหน้ากิลด์ ${1} แล้ว ต้องการยกเลิกการถอดถอนหรือไม่?
+25437	Guild:	กิลด์:
+25438	Guild Leader:	หัวหน้ากิลด์:
+25439	Awaiting Response	รอการตอบรับ
+25440	Countdown:	นับถอยหลัง:
+25441	Responses:	การตอบรับ:
+25442	Guild Fund Description	คำอธิบายเงินทุนกิลด์
+25443	Tap to enter a Guild Declaration	แตะเพื่อป้อนคำประกาศกิลด์
+25444	Power Requirement:	พลังที่ต้องการ:
+25447	Refresh all items that haven't been submitted or used Get Help? Are you sure?	รีเฟรชไอเทมทั้งหมดที่ยังไม่ได้ส่งหรือขอความช่วยเหลือหรือไม่? คุณแน่ใจหรือไม่?
+25448	${1}noticed your Get Help request and helped you submit the item.	${1} เห็นคำขอความช่วยเหลือของคุณและช่วยส่งไอเทมให้แล้ว
+25449	Get Help Today: ${1}/${2}	ขอความช่วยเหลือวันนี้: ${1}/${2}
+25450	Refreshed Today: ${1}/${2}	รีเฟรชวันนี้: ${1}/${2}
+25451	Load Rewards	รางวัลบรรทุกสินค้า
+25452	Lowest unit price selected based on the required quantity.	เลือกราคาต่อหน่วยต่ำที่สุดตามจำนวนที่ต้องการ
+25453	There are currently no items to purchase.	ขณะนี้ไม่มีไอเทมให้ซื้อ
+25454	I helped you load ${1} ${2} during the Guild Caravan event.	ฉันช่วยคุณบรรทุก ${1} ${2} ในอีเวนต์คาราวานกิลด์
+25455	Departure Reward for Fully Loading ${1} Item Types	รางวัลออกเดินทางเมื่อบรรทุกไอเทมครบ ${1} ประเภท
+25456	My Aid Requests	คำขอความช่วยเหลือของฉัน
+25458	No content available to refresh.	ไม่มีเนื้อหาให้รีเฟรช
+25459	<size=54>Guild</size> Caravan	คาราวาน<size=54>กิลด์</size>
+25461	Quick Buy	ซื้อด่วน
+25462	Cancel Help Request	ยกเลิกคำขอความช่วยเหลือ
+25464	Select All	เลือกทั้งหมด
+25465	Trade - Sold out	การค้า - ขายหมดแล้ว
+25466	Unit Price: <sprite name="${1}"> ${2}	ราคาต่อหน่วย: <sprite name="${1}"> ${2}
+25468	Already refreshed today	รีเฟรชวันนี้แล้ว
+25472	Black Gold prices have soared today.	ราคา Black Gold พุ่งสูงขึ้นวันนี้
+25473	Recent Average Trade Price${1}	ราคาเฉลี่ยการซื้อขายล่าสุด${1}
+25474	Recent Transactions	ธุรกรรมล่าสุด
+25475	Today's data updates daily at ${1}	ข้อมูลวันนี้อัปเดตทุกวันที่ ${1}
+25476	Highest:	สูงสุด:
+25477	Lowest:	ต่ำสุด:
+25478	Average:	เฉลี่ย:
+25479	Stall Count	จำนวนร้านแผงลอย
+25480	Trade Fee${1}	ค่าธรรมเนียมการค้า${1}
+25481	List Resources	ลงขายทรัพยากร
+25482	Pending Listing	รอลงขาย
+25483	For Sale: ${1}	ขายอยู่: ${1}
+25484	Expired	หมดอายุแล้ว
+25485	Guild Inventory	คลังไอเทมกิลด์
+25487	Update	อัปเดต
+25488	Withdraw	ถอน
+25490	Purchase History	ประวัติการซื้อ
+25491	Sales History	ประวัติการขาย
+25494	Order Number	หมายเลขคำสั่งซื้อ
+25496	Actual Earnings	รายได้จริง
+25497	Fee	ค่าธรรมเนียม
+25498	Keep up to 20 records	เก็บได้สูงสุด 20 รายการ
+25499	Trade History	ประวัติการค้า
+25503	When an item is sold, the System will charge ${1} of the total price as a fee	เมื่อขายไอเทม ระบบจะเรียกเก็บค่าธรรมเนียม ${1} ของราคารวม
+25504	Listed successfully.	ลงขายสำเร็จ
+25505	Guild Military Supplies are about to exceed the limit. Any excess will be discarded. Continue?	เสบียงทหารกิลด์กำลังจะเกินขีดจำกัด ส่วนที่เกินจะถูกทิ้ง ต้องการดำเนินการต่อหรือไม่?
+25506	Guild Management can Trade Military Supplies here, using Guild Funds as the Currency	ผู้บริหารกิลด์สามารถซื้อขายเสบียงทหารที่นี่โดยใช้เงินทุนกิลด์เป็นสกุลเงิน
+25507	Stall updated	อัปเดตร้านแผงลอยแล้ว
+25508	Sell: ${1}	ขาย: ${1}
+25509	Please enter a multiple of ${1}	โปรดป้อนจำนวนที่เป็นพหุคูณของ ${1}
+25510	You can list again in ${1} seconds	คุณลงขายอีกครั้งได้ในอีก ${1} วินาที
+25511	Data updates once per hour	ข้อมูลอัปเดตทุกชั่วโมง
+25513	Online Members:	สมาชิกออนไลน์:
+25514	Guild Permissions	สิทธิ์กิลด์
+25515	<size=54>Guild</size> Caravan	คาราวาน<size=54>กิลด์</size>
+25436	Cargo Loading\n1. After 5:00 AM each day, the Guild Caravan will give each Adventurer an order for the day's required cargo. The cargo can be crafted or purchased through the Trade Exchange or a Stall.\n2. After loading the cargo, the Adventurer will receive Personal Rewards based on its value.\n3. After loading 5 pieces of cargo in a day, the Adventurer can select Depart and receive generous rewards.\n4. Select Depart after loading 6\7\8 pieces of cargo to receive more Additional rewards.\n\nCargo Help\n1. Players can use Get Help to request cargo from guildmates.\n2. When a guildmate uses Help Load, both the helper and the requester receive rewards. Help your friends whenever you can!\n3. The number of times you can Get Help and Help Load each day is limited, so plan wisely!\n	บรรทุกสินค้า\n1. หลังเวลา 5:00 น. ของแต่ละวัน คาราวานกิลด์จะมอบรายการสินค้าที่ต้องการในวันนั้นให้นักผจญภัยแต่ละคน สามารถคราฟต์สินค้าหรือซื้อผ่านตลาดซื้อขายหรือร้านแผงลอยได้\n2. หลังบรรทุกสินค้า นักผจญภัยจะได้รับรางวัลส่วนตัวตามมูลค่าของสินค้า\n3. เมื่อบรรทุกสินค้า 5 ชิ้นในวันนั้น นักผจญภัยสามารถเลือกออกเดินทางเพื่อรับรางวัลมากมาย\n4. เลือกออกเดินทางหลังบรรทุกสินค้า 6\7\8 ชิ้นเพื่อรับรางวัลเพิ่มเติมมากขึ้น\n\nช่วยเหลือสินค้า\n1. ผู้เล่นสามารถใช้ขอความช่วยเหลือเพื่อขอสินค้าจากสมาชิกกิลด์\n2. เมื่อสมาชิกกิลด์ใช้ช่วยบรรทุก ทั้งผู้ช่วยและผู้ขอจะได้รับรางวัล ช่วยเพื่อนเมื่อมีโอกาส!\n3. จำนวนครั้งที่ขอความช่วยเหลือและช่วยบรรทุกได้ในแต่ละวันมีจำกัด โปรดวางแผนให้ดี!\n
+10000	<color=#FA983A>${1} Function</color> is not unlocked	<color=#FA983A>ฟังก์ชัน ${1}</color> ยังไม่ปลดล็อก
+10001	Failed to unlock <color=#FA983A>${1} Function</color>	ปลดล็อก <color=#FA983A>ฟังก์ชัน ${1}</color> ไม่สำเร็จ
+10002	<color=#FA983A>${1} Function</color> is not available yet. Stay tuned!	<color=#FA983A>ฟังก์ชัน ${1}</color> ยังไม่พร้อมใช้งาน โปรดติดตาม!
+10003	<color=#FA983A>${1}</color> unlocks at Base Lv. ${2}	<color=#FA983A>${1}</color> ปลดล็อกที่ Base Lv. ${2}
+10004	New Feature Unlocked	ปลดล็อกฟีเจอร์ใหม่แล้ว
+10005	<color=#FA983A>${1} Function</color> is temporarily unavailable. Please check the official announcements.	<color=#FA983A>ฟังก์ชัน ${1}</color> ไม่พร้อมใช้งานชั่วคราว โปรดตรวจประกาศอย่างเป็นทางการ
+13000	Reset the center of the Auto Mode Range after movement ends	รีเซ็ตจุดศูนย์กลางระยะโหมดอัตโนมัติหลังหยุดเคลื่อนที่
+13001	New center of Auto Mode Range	จุดศูนย์กลางใหม่ของระยะโหมดอัตโนมัติ
+13002	Manual Combat	ต่อสู้ด้วยตนเอง
+13003	Auto-Battle	ต่อสู้อัตโนมัติ
+13004	All Monsters	มอนสเตอร์ทั้งหมด
+13005	Radius	รัศมี
+13006	Map-wide	ทั่วทั้งแผนที่
+13008	Auto Mode Settings	ตั้งค่าโหมดอัตโนมัติ
+13009	No target available	ไม่มีเป้าหมาย
+13010	Auto Combat is being revamped and is currently unavailable	ระบบต่อสู้อัตโนมัติกำลังปรับปรุงและไม่พร้อมใช้งานในขณะนี้
+13011	Battle	การต่อสู้
+13012	Use Potions	ใช้ยา
+13013	Map-wide	ทั่วทั้งแผนที่
+13014	Auto Combat cannot be enabled while Transformed	ไม่สามารถเปิดการต่อสู้อัตโนมัติขณะแปลงร่างได้
+13015	Auto-Cast cannot be enabled for this skill	ไม่สามารถเปิดการใช้สกิลอัตโนมัติสำหรับสกิลนี้ได้
+13016	Mode	โหมด
+13017	The selected target is outside the Auto Combat range. A new target has been selected.	เป้าหมายที่เลือกอยู่นอกระยะต่อสู้อัตโนมัติ เลือกเป้าหมายใหม่แล้ว
+13018	Job Advance can unlock more skill slots	การเปลี่ยนอาชีพปลดล็อกช่องสกิลเพิ่มได้
+13019	Auto Combat has stopped	หยุดต่อสู้อัตโนมัติแล้ว
+13020	Press and hold to open Auto Combat settings	กดค้างเพื่อเปิดการตั้งค่าต่อสู้อัตโนมัติ
+13022	Potion Settings	ตั้งค่ายา
+13023	Right-click to open combat settings	คลิกขวาเพื่อเปิดการตั้งค่าต่อสู้
+13024	Skill Settings	ตั้งค่าสกิล
+13025	Press and hold to open potion settings	กดค้างเพื่อเปิดการตั้งค่ายา
+13026	Right-click to open potion settings	คลิกขวาเพื่อเปิดการตั้งค่ายา
+13027	Patrol Mode	โหมดลาดตระเวน
+13028	Not enough Coins to purchase a Fly Wing	Coins ไม่เพียงพอสำหรับซื้อ Fly Wing
+13029	Fly Wing Auto-Purchase successful	ซื้อ Fly Wing อัตโนมัติสำเร็จ
+13030	This item is not in your Backpack and cannot be added	ไอเทมนี้ไม่อยู่ในกระเป๋าและไม่สามารถเพิ่มได้
+13031	Enable Confirmation	ยืนยันการเปิดใช้งาน
+13032	Enabling Auto-Purchase for Fly Wings will automatically spend Coins to purchase them from the Shop. Please proceed with caution!	การเปิดซื้อ Fly Wing อัตโนมัติจะใช้ Coins ซื้อจากร้านค้าโดยอัตโนมัติ โปรดดำเนินการอย่างระมัดระวัง!
+13033	Auto Counter When Attacked	โต้กลับอัตโนมัติเมื่อถูกโจมตี
+13034	Auto-Use Fly Wing When No Monsters Are Nearby	ใช้ Fly Wing อัตโนมัติเมื่อไม่มีมอนสเตอร์ใกล้เคียง
+13035	Auto-Purchase Fly Wing	ซื้อ Fly Wing อัตโนมัติ
+13036	Quick Use Potions	ใช้ยาอย่างรวดเร็ว
+13037	Auto-Battle After Revive	ต่อสู้อัตโนมัติหลังฟื้นคืนชีพ
+13038	Return to Town and Disable Auto-Battle Before 5:00 AM	กลับเมืองและปิดการต่อสู้อัตโนมัติก่อน 5:00 น.
+14000	Auto-navigation cannot reach the destination	การนำทางอัตโนมัติไม่สามารถไปถึงจุดหมายได้
+14001	Entry requirements not met. Unable to reach the destination area.	ไม่ตรงตามเงื่อนไขการเข้า ไม่สามารถไปยังพื้นที่เป้าหมายได้
+14002	This area is inaccessible	ไม่สามารถเข้าถึงพื้นที่นี้ได้
+14003	Auto-navigating…	กำลังนำทางอัตโนมัติ…
+14004	<color=#FF0000>Entering Combat</color>	<color=#FF0000>เข้าสู่การต่อสู้</color>
+14005	<color=#00FF2E>Leaving Combat</color>	<color=#00FF2E>ออกจากการต่อสู้</color>
+14006	You are already on the map where the monster is located. Explore the area to find it.	คุณอยู่ในแผนที่ที่มอนสเตอร์อาศัยอยู่แล้ว สำรวจพื้นที่เพื่อค้นหา
+15000	Unable to connect to the server. Try reconnecting?	ไม่สามารถเชื่อมต่อเซิร์ฟเวอร์ได้ ต้องการเชื่อมต่ออีกครั้งหรือไม่?
+15001	Reconnect	เชื่อมต่ออีกครั้ง
+15002	Return to Login	กลับหน้าเข้าสู่ระบบ
+15003	Disconnected from the server. Please log in again.	การเชื่อมต่อเซิร์ฟเวอร์ขาดหาย โปรดเข้าสู่ระบบอีกครั้ง
+15004	Log In Again	เข้าสู่ระบบอีกครั้ง
+15005	Your account has been logged in on another device	บัญชีของคุณเข้าสู่ระบบบนอุปกรณ์อื่นแล้ว
+15006	Network connection failed. Check your network settings and reconnect.	เชื่อมต่อเครือข่ายไม่สำเร็จ ตรวจการตั้งค่าเครือข่ายแล้วเชื่อมต่ออีกครั้ง
+15007	Exit Game	ออกจากเกม
+15008	Reconnecting to server	กำลังเชื่อมต่อเซิร์ฟเวอร์อีกครั้ง
+15009	Your character has been banned. Please log in again.	ตัวละครของคุณถูกแบน โปรดเข้าสู่ระบบอีกครั้ง
+15010	Your character has been deleted. Please log in again.	ตัวละครของคุณถูกลบ โปรดเข้าสู่ระบบอีกครั้ง
+15011	The game is currently undergoing maintenance……	เกมกำลังอยู่ระหว่างบำรุงรักษา……
+15012	Incorrect Username or Password	ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง
+15013	Please select a server	โปรดเลือกเซิร์ฟเวอร์
+15014	Failed to retrieve character list	ดึงรายชื่อตัวละครไม่สำเร็จ
+15015	Failed to enter the game with the selected character	เข้าเกมด้วยตัวละครที่เลือกไม่สำเร็จ
+15016	The server is under maintenance. Please check the official announcements.	เซิร์ฟเวอร์อยู่ระหว่างบำรุงรักษา โปรดตรวจประกาศอย่างเป็นทางการ
+15017	An unknown server database storage error occurred	เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุในระบบจัดเก็บฐานข้อมูลเซิร์ฟเวอร์
+15018	An unknown queue error occurred	เกิดข้อผิดพลาดคิวที่ไม่ทราบสาเหตุ
+15019	Failed to connect to the Server. Please Log In Again.	เชื่อมต่อเซิร์ฟเวอร์ไม่สำเร็จ โปรดเข้าสู่ระบบอีกครั้ง
+15020	Failed to create character	สร้างตัวละครไม่สำเร็จ
+15021	Failed to Select character	เลือกตัวละครไม่สำเร็จ
+15022	Failed to switch characters	สลับตัวละครไม่สำเร็จ
+15023	Unknown error occurred during login	เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุระหว่างเข้าสู่ระบบ
+15024	Token verification failed	ตรวจสอบโทเค็นไม่สำเร็จ
+15025	Login failed. Please restart the game using the launcher.	เข้าสู่ระบบไม่สำเร็จ โปรดเริ่มเกมใหม่ผ่านตัวเปิดเกม
+15026	Failed to connect to the Server. Please try again.	เชื่อมต่อเซิร์ฟเวอร์ไม่สำเร็จ โปรดลองอีกครั้ง
+15027	Network Diagnostics	วินิจฉัยเครือข่าย
+15028	The following network diagnostics will be performed:	จะตรวจวินิจฉัยเครือข่ายดังต่อไปนี้:
+15029	DNS Resolution Check	ตรวจการแปลงชื่อ DNS
+15030	TCP Connection Check	ตรวจการเชื่อมต่อ TCP
+15031	Web Access Check	ตรวจการเข้าถึงเว็บ
+15032	MTR Route Analysis	วิเคราะห์เส้นทาง MTR
+15033	Back	กลับ
+15034	Retry	ลองอีกครั้ง
+15035	Network Delay Check	ตรวจความหน่วงเครือข่าย
+18000	Automatically Revive after <color=#76c233>${1} sec.</color>	ฟื้นคืนชีพอัตโนมัติหลัง <color=#76c233>${1} วินาที</color>
+18001	Revive	ฟื้นคืนชีพ
+18002	Instant respawn	เกิดใหม่ทันที
+18003	Instant respawn	เกิดใหม่ทันที
+18004	Spend <sprite name="${1}"> <color=#cc762a>x${2}</color> to Revive?	ใช้ <sprite name="${1}"> <color=#cc762a>x${2}</color> เพื่อฟื้นคืนชีพหรือไม่?
+18005	Waiting to Revive	รอฟื้นคืนชีพ
+18006	Return to checkpoint	กลับจุดเช็กพอยต์
+18007	Revive in <color=#76c233>${1}</color> seconds	ฟื้นคืนชีพในอีก <color=#76c233>${1}</color> วินาที
+18008	${1} Revive	ฟื้นคืนชีพ ${1}
+18009	Free Revives: <color=#76c233>${2}</color>/${1}	ฟื้นคืนชีพฟรี: <color=#76c233>${2}</color>/${1}
+18010	Not Enough Revives	จำนวนครั้งฟื้นคืนชีพไม่เพียงพอ
+18011	Help!	ช่วยด้วย!
+18012	Help!	ช่วยด้วย!
+18013	Reviving	กำลังฟื้นคืนชีพ
+18014	Accept ${1}'s Revive invitation?	ยอมรับคำเชิญฟื้นคืนชีพจาก ${1} หรือไม่?
+18015	You have been successfully Revived by ${1}!	${1} ฟื้นคืนชีพให้คุณสำเร็จแล้ว!
+18016	You have successfully Revived ${1}!	คุณฟื้นคืนชีพให้ ${1} สำเร็จแล้ว!
+18017	Don't rush! Take a moment to calm down before asking your teammates for help again (*^_^*)	อย่าเพิ่งรีบ! ใจเย็นสักครู่ก่อนขอให้เพื่อนร่วมทีมช่วยอีกครั้ง (*^_^*)
+18018	You Declined ${1}'s Revive invitation! Tough stuff!	คุณปฏิเสธคำเชิญฟื้นคืนชีพจาก ${1}! ใจแข็งจริง ๆ!
+18019	${1} Declined your Revive invitation! (╯▔皿▔)╯	${1} ปฏิเสธคำเชิญฟื้นคืนชีพของคุณ! (╯▔皿▔)╯
+18020	<color=#FDAB5B>Revive Point activates in:</color><color=#76C233>${1}s</color>	<color=#FDAB5B>จุดฟื้นคืนชีพจะเปิดใช้งานใน:</color><color=#76C233>${1} วินาที</color>
+18021	Accept ${1}'s Revive invitation? If you decline, you will automatically return to the Revive Point.	ยอมรับคำเชิญฟื้นคืนชีพจาก ${1} หรือไม่? หากปฏิเสธ คุณจะกลับไปยังจุดฟื้นคืนชีพโดยอัตโนมัติ
+18023	Accept	ยอมรับ
+18024	Teleport Prompt	แจ้งเตือนการวาร์ป
+18025	Activate the <color=#fdab5b>${1}</color> effect to Respawn here?	เปิดใช้เอฟเฟกต์ <color=#fdab5b>${1}</color> เพื่อเกิดใหม่ที่นี่หรือไม่?
+18026	Active	คึกคัก
+33000	Max Level	ระดับสูงสุด
+33001	Prerequisite Skill <color=#cc762a>${1}</color>	สกิลที่ต้องเรียนก่อน <color=#cc762a>${1}</color>
+33002	Switch stat builds. This version currently supports only one build.	สลับบิลด์ค่าสถานะ เวอร์ชันนี้รองรับเพียงบิลด์เดียว
+33003	Drag skills from the left to the skill bar. Drag a skill to an empty area to unassign it.	ลากสกิลจากด้านซ้ายไปยังแถบสกิล ลากสกิลไปยังพื้นที่ว่างเพื่อถอดออก
+33004	In Auto mode, skills are cast automatically in the order shown.	ในโหมดอัตโนมัติ สกิลจะถูกใช้ตามลำดับที่แสดงโดยอัตโนมัติ
+33005	Damage Skills	สกิลสร้างความเสียหาย
+33006	Other Skill	สกิลอื่น
+33007	Recovery Skills	สกิลฟื้นฟู
+33012	Skill Points	แต้มสกิล
+33013	Points:	แต้ม:
+33015	First Job	อาชีพขั้นแรก
+33016	Second Job	อาชีพขั้นสอง
+33017	Advanced Second Job	อาชีพขั้นสองขั้นสูง
+33018	Third Job	อาชีพขั้นสาม
+33019	Fourth Job	อาชีพขั้นสี่
+33020	Default Build ${1}	บิลด์เริ่มต้น ${1}
+33023	Cooldown	คูลดาวน์
+33026	Manual	ด้วยตนเอง
+33027	Auto	อัตโนมัติ
+33028	Skills default to their maximum level.	สกิลจะใช้ระดับสูงสุดเป็นค่าเริ่มต้น
+33029	${1} is the Skill Upgrade for ${2}. After allocating points, ${3} will be replaced by ${4}.	${1} เป็นสกิลอัปเกรดของ ${2} หลังจัดสรรแต้ม ${3} จะถูกแทนที่ด้วย ${4}
+33032	1. When using a new Skill Build for the first time, you must reallocate skill points and equip skills. \n2. Skill Builds are independent. Switching Skill Builds also switches your skill point allocation and equipped skills. \n3. You cannot switch Skill Builds during combat.	1. เมื่อใช้บิลด์สกิลใหม่ครั้งแรก คุณต้องจัดสรรแต้มสกิลและติดตั้งสกิลใหม่\n2. บิลด์สกิลแต่ละบิลด์แยกจากกัน การสลับบิลด์สกิลจะสลับการจัดสรรแต้มและสกิลที่ติดตั้งด้วย\n3. ไม่สามารถสลับบิลด์สกิลระหว่างต่อสู้ได้
+33033	Reset Stage Skill Points	รีเซ็ตแต้มสกิลของขั้นนี้
+33034	Quick Allocation	จัดสรรอย่างรวดเร็ว
+33035	This skill has prerequisites. Spend <color=#cc762a>${1}</color> skill points to use Quick Allocation?	สกิลนี้มีสกิลที่ต้องเรียนก่อน ใช้แต้มสกิล <color=#cc762a>${1}</color> แต้มเพื่อจัดสรรอย่างรวดเร็วหรือไม่?
+33036	Reset Skill Points	รีเซ็ตแต้มสกิล
+33037	Resetting this skill will also reset the following dependent skills from other stages.	การรีเซ็ตสกิลนี้จะรีเซ็ตสกิลที่พึ่งพาสกิลนี้ในขั้นอื่น ๆ ต่อไปนี้ด้วย
+33038	Confirm Save	ยืนยันการบันทึก
+33039	Your changes have not been saved. Exit skill allocation mode?	ยังไม่ได้บันทึกการเปลี่ยนแปลง ต้องการออกจากโหมดจัดสรรแต้มสกิลหรือไม่?
+33041	1. Enter skill allocation mode to allocate skill points. Skill points from your current Job Advance stage can only be allocated to skills from that stage. \n2. Use a recommended build to allocate points automatically.\n3. Switch Skill Builds to quickly change the build Currently Using.	1. เข้าสู่โหมดจัดสรรแต้มสกิลเพื่อจัดสรรแต้ม แต้มสกิลจากขั้นเปลี่ยนอาชีพปัจจุบันจัดสรรให้สกิลในขั้นนั้นได้เท่านั้น\n2. ใช้บิลด์ที่แนะนำเพื่อจัดสรรแต้มโดยอัตโนมัติ\n3. สลับบิลด์สกิลเพื่อเปลี่ยนบิลด์ที่ใช้อยู่ได้อย่างรวดเร็ว
+33042	You may enter up to ${1} characters.	คุณป้อนได้สูงสุด ${1} ตัวอักษร
+33043	No skills have been assigned to the current Skill Build. Set them up now?	ยังไม่ได้ติดตั้งสกิลในบิลด์สกิลปัจจุบัน ต้องการตั้งค่าตอนนี้หรือไม่?
+33044	The new Skill Build is blank. You must manually allocate skill points and equip skills.	บิลด์สกิลใหม่ยังว่าง คุณต้องจัดสรรแต้มและติดตั้งสกิลด้วยตนเอง
+33045	You are switching Skill Builds too frequently. Please try again later.	คุณสลับบิลด์สกิลถี่เกินไป โปรดลองอีกครั้งในภายหลัง
+33046	This skill point allocation includes a Skill Upgrade. Once confirmed, the upgraded skill will replace its prerequisite skill. Confirm allocation?	การจัดสรรแต้มสกิลนี้มีสกิลอัปเกรด เมื่อยืนยันแล้ว สกิลอัปเกรดจะแทนที่สกิลที่ต้องเรียนก่อน ต้องการยืนยันการจัดสรรหรือไม่?
+33047	Not Learned	ยังไม่ได้เรียนรู้
+33048	Max Level	ระดับสูงสุด
+33049	The current skill point allocation has not been saved. Exit?	ยังไม่ได้บันทึกการจัดสรรแต้มสกิลปัจจุบัน ต้องการออกหรือไม่?
+33050	Switching Skill Builds will reset your current skill point allocation. Continue?	การสลับบิลด์สกิลจะรีเซ็ตการจัดสรรแต้มสกิลปัจจุบัน ต้องการดำเนินการต่อหรือไม่?
+33051	You cannot change your skill point allocation during combat.	ไม่สามารถเปลี่ยนการจัดสรรแต้มสกิลระหว่างต่อสู้ได้
+33052	You cannot switch Skill Builds during combat.	ไม่สามารถสลับบิลด์สกิลระหว่างต่อสู้ได้
+33053	Skills cannot be replaced during combat.	ไม่สามารถเปลี่ยนสกิลระหว่างต่อสู้ได้
+33054	Points cannot be reset during combat.	ไม่สามารถรีเซ็ตแต้มระหว่างต่อสู้ได้
+33055	Builds cannot be switched during combat.	ไม่สามารถสลับบิลด์ระหว่างต่อสู้ได้
+33056	${1} Point Allocation	การจัดสรรแต้ม ${1}
+33057	Difficulty	ความยาก
+33058	Skill Point Preset	พรีเซ็ตแต้มสกิล
+33059	Priority Skills	สกิลหลัก
+33060	Secondary Skills	สกิลรอง
+33061	Apply Point Allocation	ใช้การจัดสรรแต้ม
+33062	Talent	พรสวรรค์
+33063	Key Attributes	คุณสมบัติหลัก
+33064	Skill Preview	ตัวอย่างสกิล
+33066	Current Effect	เอฟเฟกต์ปัจจุบัน
+33067	Max Level Preview	ตัวอย่างระดับสูงสุด
+33068	Preset 1	พรีเซ็ต 1
+33069	Preset 2	พรีเซ็ต 2
+33070	Preset 3	พรีเซ็ต 3
+33073	Cooldown: ${1}	คูลดาวน์: ${1}
+33074	Global Cooldown: ${1}	คูลดาวน์ร่วม: ${1}
+33075	Cost: ${1}	ค่าใช้จ่าย: ${1}
+33077	No messages have been sent yet.	ยังไม่มีข้อความที่ส่ง
+33078	Recommended Build	บิลด์ที่แนะนำ
+33080	Equipped skills cannot be adjusted during combat.	ไม่สามารถปรับสกิลที่ติดตั้งระหว่างต่อสู้ได้
+33081	Drag skills into slots to equip them.	ลากสกิลลงช่องเพื่อติดตั้ง
+33082	Switch Build	สลับบิลด์
+33083	Allocating points manually will cancel the selected build and disable automatic point allocation.	การจัดสรรแต้มด้วยตนเองจะยกเลิกบิลด์ที่เลือกและปิดการจัดสรรแต้มอัตโนมัติ
+33084	Confirm Point Allocation	ยืนยันการจัดสรรแต้ม
+33100	Abnormal Status, Control Status. Units affected by <u><color=#62af5e><link="tip/33100">【Disarm】</link></color></u> cannot use Normal Attack.	สถานะผิดปกติประเภทควบคุม ยูนิตที่ติด <u><color=#62af5e><link="tip/33100">[ Disarm ]</link></color></u> จะใช้การโจมตีปกติไม่ได้
+33101	Deals Physical damage.	สร้าง P.DMG
+33102	Deals Magic damage.	สร้าง M.DMG
+33103	Deals damage to a single enemy.	สร้างความเสียหายแก่ศัตรูหนึ่งตัว
+33104	Deals AoE damage to enemies within range.	สร้างความเสียหาย AoE แก่ศัตรูในระยะ
+33105	Special buff. When dealing Weapon Damage, there is a Chance to increase Weapon Damage by 50%.	บัฟพิเศษ เมื่อสร้างความเสียหายจากอาวุธ มีโอกาสเพิ่มความเสียหายจากอาวุธ 50%
+33200	Skill Bar	แถบสกิล
+33201	Drag skills from the left to the Lineup.	ลากสกิลจากด้านซ้ายไปยังชุดสกิล
+33202	Available Skills	สกิลที่ใช้ได้
+33203	Lineup	ชุดสกิล
+33204	Lineup Settings	ตั้งค่าชุดสกิล
+33205	This skill can be placed on the Skill Bar.	สกิลนี้ติดตั้งบนแถบสกิลได้
+33210	Damage against ${1} Resonance <color=#50A22B>+${2}%</color>	ความเสียหายต่อเรโซแนนซ์ ${1} <color=#50A22B>+${2}%</color>
+33211	Damage against ${1} Resonance <color=#B05142>-${2}%</color>	ความเสียหายต่อเรโซแนนซ์ ${1} <color=#B05142>-${2}%</color>
+33213	Build Resonance	เรโซแนนซ์บิลด์
+33214	Reduces ${1} Resonance damage by ${2}	ลดความเสียหายจากเรโซแนนซ์ ${1} ลง ${2}
+33215	This skill is Not Available yet. Stay tuned!	สกิลนี้ยังไม่พร้อมใช้งาน โปรดติดตาม!
+33216	Resonance active: <color=#63A22B>+10%</color> damage to Resonances you counter, <color=#B05142>-10%</color> to those that counter you.	เรโซแนนซ์ทำงาน: สร้างความเสียหายต่อเรโซแนนซ์ที่คุณได้เปรียบ <color=#63A22B>+10%</color> และต่อเรโซแนนซ์ที่ได้เปรียบคุณ <color=#B05142>-10%</color>
+33217	Activate Resonance	เปิดใช้เรโซแนนซ์
+33218	Activating	กำลังเปิดใช้งาน
+33219	Damage dealt to ${1} Resonance\nincreases by ${2}%\nDamage taken from it decreases by ${3}%	ความเสียหายที่สร้างต่อเรโซแนนซ์ ${1}\nเพิ่มขึ้น ${2}%\nความเสียหายที่ได้รับจากเรโซแนนซ์นั้นลดลง ${3}%
+33220	Requirement	เงื่อนไข
+33221	Build Counters	การได้เปรียบเสียเปรียบของบิลด์
+33222	Counters	การได้เปรียบเสียเปรียบ
+33223	Unaffected by Counters	ไม่รับผลจากการได้เปรียบเสียเปรียบ
+33224	Mutually Exclusive Skills	สกิลที่ใช้ร่วมกันไม่ได้
+33225	This skill is mutually exclusive with the following skills. After confirming point allocation, mutually exclusive skills and subsequent skills in other tiers will also be reset.	สกิลนี้ใช้ร่วมกับสกิลต่อไปนี้ไม่ได้ หลังยืนยันการจัดสรรแต้ม สกิลที่ใช้ร่วมกันไม่ได้และสกิลต่อเนื่องในขั้นอื่นจะถูกรีเซ็ตด้วย
+33226	Mutually Exclusive Skill: <color=#B05142>${1}</color>	สกิลที่ใช้ร่วมกันไม่ได้: <color=#B05142>${1}</color>
+33227	Tap to activate	แตะเพื่อเปิดใช้งาน
+33228	Activation Effect	เอฟเฟกต์การเปิดใช้งาน
+33229	General	ทั่วไป
+33234	Mutually Exclusive Skill: <color=#cc762a>${1}</color>	สกิลที่ใช้ร่วมกันไม่ได้: <color=#cc762a>${1}</color>
+33237	Resonance inactive: <color=#B05142>+10%</color> damage taken from all Resonances, <color=#B05142>-10%</color> damage dealt to them.	เรโซแนนซ์ไม่ทำงาน: ความเสียหายที่ได้รับจากเรโซแนนซ์ทั้งหมด <color=#B05142>+10%</color> และความเสียหายที่สร้างต่อเรโซแนนซ์เหล่านั้น <color=#B05142>-10%</color>
+33238	Gospel Resonance is unaffected by Counters and other Resonances.	Gospel Resonance ไม่รับผลจากการได้เปรียบเสียเปรียบและเรโซแนนซ์อื่น
+33240	Select Build	เลือกบิลด์
+33241	Skill points are available.	มีแต้มสกิลที่ใช้ได้
+33242	Stat points are available.	มีแต้มค่าสถานะที่ใช้ได้
+33244	Learn prerequisite skill ${1} first.	เรียนสกิลที่ต้องเรียนก่อน ${1} ก่อน
+33245	Build Preview	ตัวอย่างบิลด์
+33246	Cannot Activate Current Job	ไม่สามารถเปิดใช้อาชีพปัจจุบันได้
+21000	All Slots	ทุกช่อง
+21001	All Qualities	ทุกคุณภาพ
+21002	Listed	ลงขายแล้ว
+21003	Refinement Material	วัสดุตีบวก
+21004	Enhancement Materials	วัสดุเสริมพลัง
+21005	Life Skill Materials	วัสดุสกิลชีวิต
+21006	Other	อื่น ๆ
+21009	Material	วัสดุ
+21010	The price has reached the limit and cannot be increased further.	ราคาถึงขีดจำกัดแล้ว ไม่สามารถเพิ่มได้อีก
+21011	Recommended Price	ราคาที่แนะนำ
+21012	Pending Listing	รอลงขาย
+21015	Use the following items to unlock an inventory slot?	ใช้ไอเทมต่อไปนี้เพื่อปลดล็อกช่องจัดเก็บหรือไม่?
+21016	Listed successfully.	ลงขายสำเร็จ
+21017	To ensure fair play, improper Trade practices are prohibited (including offline transactions and transactions at abnormal prices intended to transfer Currency or items).\nImproper Trade practices may result in penalties including, but not limited to, suspension of the Trade Function or account bans.\nWe need your support to keep the game fair!	เพื่อให้การเล่นเป็นธรรม ห้ามซื้อขายอย่างไม่เหมาะสม (รวมถึงธุรกรรมนอกเกมและธุรกรรมที่มีราคาผิดปกติโดยมีเจตนาโอนสกุลเงินหรือไอเทม)\nการซื้อขายอย่างไม่เหมาะสมอาจได้รับบทลงโทษ รวมถึงแต่ไม่จำกัดเพียงการระงับฟังก์ชันการค้าหรือแบนบัญชี\nเราต้องการความร่วมมือจากคุณเพื่อรักษาความเป็นธรรมของเกม!
+21018	Don't remind me again today	ไม่ต้องแจ้งเตือนอีกวันนี้
+21019	Under Review	กำลังตรวจสอบ
+21020	Trade Successful. The item will be delivered by mail.	ซื้อขายสำเร็จ ไอเทมจะถูกส่งทางจดหมาย
+21021	My Watchlist	รายการติดตามของฉัน
+21023	Sell	ขาย
+21024	Items Under Review	ไอเทมที่กำลังตรวจสอบ
+21025	Available Only	เฉพาะที่มีจำหน่าย
+21027	Search History	ประวัติการค้นหา
+21028	There are no items here.	ไม่มีไอเทมที่นี่
+21029	No search history	ไม่มีประวัติการค้นหา
+21030	Auction	ประมูล
+21031	My Stand (${1}/${2})	แผงขายของฉัน (${1}/${2})
+21032	My Items	ไอเทมของฉัน
+21033	Clear History	ล้างประวัติ
+21035	Price (Descending Order)	ราคา (มากไปน้อย)
+21036	Price (Ascending Order)	ราคา (น้อยไปมาก)
+21037	Purchase Item	ซื้อไอเทม
+21042	Contact Seller	ติดต่อผู้ขาย
+21045	Search History	ประวัติการค้นหา
+21049	Withdraw	ถอน
+21051	Trade History	ประวัติการค้า
+21052	Do not remind again during this login	ไม่ต้องแจ้งเตือนอีกระหว่างการเข้าสู่ระบบครั้งนี้
+21053	Purchase History	ประวัติการซื้อ
+21054	This item has reached its listing limit.	ไอเทมนี้ถึงขีดจำกัดการลงขายแล้ว
+21055	Select your offer item from the list on the right	เลือกไอเทมที่เสนอขายจากรายการด้านขวา
+21056	Sales History	ประวัติการขาย
+21057	Shop Item Name	ชื่อไอเทมในร้านค้า
+21058	1. The Trade Exchange is the official platform for buying and selling items.\n2. Some rare items can be priced freely without restrictions.\n3. Rare items have a public listing period. They can only be traded once this period ends.\n4. After a successful purchase or sale, the item or proceeds will be sent by mail. Be sure to claim them promptly.\n5. You can follow items to check their sale status at any time.\n6. Listings remain active for a limited time. Unsold items will automatically be returned by mail when their listing expires.\n7. After an item is sold, Trade Tax will be deducted from the seller's proceeds. The applicable tax rate depends on the seller's total Trade amount This Week.	1. ตลาดซื้อขายเป็นแพลตฟอร์มอย่างเป็นทางการสำหรับซื้อและขายไอเทม\n2. ไอเทมหายากบางชนิดกำหนดราคาได้อย่างอิสระโดยไม่มีข้อจำกัด\n3. ไอเทมหายากมีช่วงประกาศขาย และจะซื้อขายได้เมื่อช่วงนี้สิ้นสุดเท่านั้น\n4. หลังซื้อหรือขายสำเร็จ ไอเทมหรือรายได้จะถูกส่งทางจดหมาย อย่าลืมรับโดยเร็ว\n5. คุณติดตามไอเทมเพื่อตรวจสถานะการขายได้ตลอดเวลา\n6. การลงขายมีระยะเวลาจำกัด ไอเทมที่ขายไม่ออกจะถูกส่งคืนทางจดหมายโดยอัตโนมัติเมื่อหมดเวลาลงขาย\n7. เมื่อขายไอเทม ภาษีการค้าจะถูกหักจากรายได้ของผู้ขาย อัตราภาษีขึ้นอยู่กับยอดซื้อขายรวมของผู้ขายในสัปดาห์นี้
+21059	Proceeds	รายได้จากการขาย
+21062	Keep up to 20 Purchase History and Sales History entries. Updates may be delayed.	เก็บประวัติการซื้อและการขายได้สูงสุด 20 รายการ การอัปเดตอาจล่าช้า
+21063	Send Link	ส่งลิงก์
+21064	Go to Trade Exchange	ไปตลาดซื้อขาย
+21065	Trade	การค้า
+21066	Purchase after the public listing period ends	ซื้อได้หลังช่วงประกาศขายสิ้นสุด
+21068	Search Help Title	หัวข้อความช่วยเหลือในการค้นหา
+21069	Search Help Text	ข้อความช่วยเหลือในการค้นหา
+21070	My Stand	แผงขายของฉัน
+21071	Close Stall	ปิดร้านแผงลอย
+21072	Trade Exchange	ตลาดซื้อขาย
+21073	No price	ไม่มีราคา
+21074	Lowest Price	ราคาต่ำสุด
+21075	For Sale: ${1}	ขายอยู่: ${1}
+21076	Public Listings: ${1}	ประกาศขาย: ${1}
+21079	Affix Stats	ค่าสถานะคุณสมบัติเสริม
+21081	Weapon	อาวุธ
+21082	Armor	เกราะ
+21084	Price	ราคา
+21085	Rating	คะแนน
+21087	Delete your search history? It cannot be recovered.	ลบประวัติการค้นหาหรือไม่? ไม่สามารถกู้คืนได้
+21088	Help Title	หัวข้อความช่วยเหลือ
+21089	Help Text	ข้อความช่วยเหลือ
+21090	You have joined the Lineup to purchase this item. In ${1} seconds,\na random player from the Lineup will be selected to 【Confirm Trade】. Please wait…\n\nThis page will close automatically after the result is announced.	คุณเข้าคิวซื้อไอเทมนี้แล้ว ในอีก ${1} วินาที\nจะสุ่มเลือกผู้เล่นหนึ่งคนจากคิวเพื่อ [ Confirm Trade ] โปรดรอสักครู่…\n\nหน้านี้จะปิดโดยอัตโนมัติหลังประกาศผล
+21091	Reputation	ชื่อเสียง
+21092	My Reputation	ชื่อเสียงของฉัน
+21093	Current Reputation	ชื่อเสียงปัจจุบัน
+21094	Current minimum review time:	เวลาตรวจสอบขั้นต่ำปัจจุบัน:
+21095	The displayed review time varies based on the player's Reputation.	เวลาตรวจสอบที่แสดงแตกต่างกันตามชื่อเสียงของผู้เล่น
+21096	Your daily Stall Trade activity is factored into your Reputation assessment.\nRaising your Reputation level shortens the item Trade review period.\nPlease follow the game's Trade rules and help maintain a fair, positive trading environment.	กิจกรรมซื้อขายผ่านร้านแผงลอยประจำวันของคุณมีผลต่อการประเมินชื่อเสียง\nการเพิ่มระดับชื่อเสียงจะช่วยลดเวลาตรวจสอบการซื้อขายไอเทม\nโปรดปฏิบัติตามกฎการค้าของเกมและร่วมกันรักษาสภาพแวดล้อมการซื้อขายที่เป็นธรรมและเหมาะสม
+21097	Press and hold for details	กดค้างเพื่อดูรายละเอียด
+21098	The System has detected unusual Trade activity on your account. You cannot list items.	ระบบตรวจพบกิจกรรมซื้อขายผิดปกติในบัญชีของคุณ คุณไม่สามารถลงขายไอเทมได้
+21099	Trade Details	รายละเอียดการค้า
+21100	Penalty Details	รายละเอียดบทลงโทษ
+21101	Because you were found to have violated the System Trade Rules, we have frozen your <sprite name="item_3"><color=#cc762a> ${1}</color>  as bail.	เนื่องจากตรวจพบว่าคุณละเมิดกฎการค้าของระบบ เราจึงอายัด <sprite name="item_3"><color=#cc762a> ${1}</color> ของคุณไว้เป็นหลักประกัน
+21102	Consumable	ไอเทมใช้สิ้นเปลือง
+21103	Filter Options	ตัวเลือกการกรอง
+21104	Violation time: ${1}-${2}-${3} ${4}.\nFreeze end time: ${1}-${2}-${3} ${4}.	เวลาละเมิด: ${1}-${2}-${3} ${4}\nเวลาสิ้นสุดการอายัด: ${1}-${2}-${3} ${4}
+21105	Once the freeze ends, all frozen Diamonds will be returned to your mailbox.\nIf another violation occurs during the freeze period, the release date for all currently frozen Diamonds will be extended to the latest freeze end time.	เมื่อการอายัดสิ้นสุด Diamonds ที่ถูกอายัดทั้งหมดจะถูกส่งคืนทางจดหมาย\nหากมีการละเมิดอีกระหว่างการอายัด วันคืน Diamonds ทั้งหมดที่ถูกอายัดอยู่จะถูกขยายไปจนถึงเวลาสิ้นสุดการอายัดล่าสุด
+21107	Bookmarked	เพิ่มในรายการติดตามแล้ว
+21108	Bookmark removed	นำออกจากรายการติดตามแล้ว
+21109	You've reached the follow limit and can't follow any more.	ถึงขีดจำกัดการติดตามแล้ว ไม่สามารถติดตามเพิ่มได้
+21110	Minimum value reached!	ถึงค่าต่ำสุดแล้ว!
+21111	Maximum value reached!	ถึงค่าสูงสุดแล้ว!
+21112	You are already on the first page!	คุณอยู่หน้าแรกแล้ว!
+21113	You are already on the last page!	คุณอยู่หน้าสุดท้ายแล้ว!
+21114	It can't go any lower!	ลดลงอีกไม่ได้แล้ว!
+21115	It can't go any higher!	เพิ่มขึ้นอีกไม่ได้แล้ว!
+21116	Trade failed. All Currency has been refunded to your mailbox.	ซื้อขายไม่สำเร็จ ส่งคืนสกุลเงินทั้งหมดทางจดหมายแล้ว
+21117	Purchase Successful! Your item has been sent by mail. Be sure to claim it.	ซื้อสำเร็จ! ส่งไอเทมทางจดหมายแล้ว อย่าลืมรับ
+21118	Sorry, your purchase was unsuccessful. The Trade amount will be refunded by mail.	ขออภัย ซื้อไม่สำเร็จ ยอดซื้อขายจะถูกคืนทางจดหมาย
+21119	Please stay here. The result will be announced shortly.	โปรดอยู่ที่นี่ จะประกาศผลในอีกสักครู่
+21120	You have reached today's item listing limit.	ถึงขีดจำกัดการลงขายไอเทมของวันนี้แล้ว
+21121	Not enough stall slots. Listing failed.	ช่องร้านแผงลอยไม่เพียงพอ ลงขายไม่สำเร็จ
+21122	Not enough ${1}. Unable to unlock.	${1} ไม่เพียงพอ ไม่สามารถปลดล็อกได้
+21123	Too many of this item are currently for sale. Unable to consign.	ขณะนี้มีไอเทมชนิดนี้ขายอยู่มากเกินไป ไม่สามารถฝากขายได้
+21124	Free	ฟรี
+21125	Custom Price	กำหนดราคาเอง
+21126	Update Price	อัปเดตราคา
+21127	No matching items found.	ไม่พบไอเทมที่ตรงกัน
+21128	Your Reputation Score affects the review time.\nYour Reputation Score is updated daily at 5:00. Updates affect that day's review time.\nFollowing the rules helps maintain a good Reputation Score.	คะแนนชื่อเสียงของคุณมีผลต่อเวลาตรวจสอบ\nคะแนนชื่อเสียงอัปเดตทุกวันเวลา 5:00 การอัปเดตมีผลต่อเวลาตรวจสอบของวันนั้น\nการปฏิบัติตามกฎช่วยรักษาคะแนนชื่อเสียงที่ดี
+21129	Equipment (Identified)	อุปกรณ์ (ประเมินแล้ว)
+21130	Equipment (Unidentified)	อุปกรณ์ (ยังไม่ประเมิน)
+21132	${1}h	${1} ชั่วโมง
+21134	All Classes	ทุกอาชีพ
+21135	All Grades	ทุกเกรด
+21136	All Qualities	ทุกคุณภาพ
+21137	All Slots	ทุกช่อง
+21138	All Skills	ทุกสกิล
+21139	All Types	ทุกประเภท
+21140	Search	ค้นหา
+21141	Record ${1}	รายการ ${1}
+21143	Not available in this version	ไม่พร้อมใช้งานในเวอร์ชันนี้
+21144	Changing the price requires another Trade review, just like relisting the item. Continue?	การเปลี่ยนราคาต้องตรวจสอบการค้าใหม่เช่นเดียวกับการลงขายใหม่ ต้องการดำเนินการต่อหรือไม่?
+21146	The price has not been changed.	ราคาไม่เปลี่ยนแปลง
+21148	Keep up to ${1} records	เก็บได้สูงสุด ${1} รายการ
+21149	Recent Transactions	ธุรกรรมล่าสุด
+21150	Today's data is updated daily at 5:00	ข้อมูลวันนี้อัปเดตทุกวันเวลา 5:00
+21151	Highest:	สูงสุด:
+21152	Lowest:	ต่ำสุด:
+21153	Average:	เฉลี่ย:
+21154	Today's Tax Rate:	อัตราภาษีวันนี้:
+21158	Credit Points	แต้มเครดิต
+21159	My Credit Points	แต้มเครดิตของฉัน
+21160	Purchasing certain items also consumes an equal amount of Credit Points	การซื้อไอเทมบางชนิดจะใช้แต้มเครดิตในจำนวนเท่ากันด้วย
+21161	Frozen Proceeds	รายได้ที่ถูกอายัด
+21162	This Trade violated the System's Trade rules. A penalty has been applied.	การซื้อขายนี้ละเมิดกฎการค้าของระบบ ได้รับบทลงโทษแล้ว
+21163	Tap to Appeal	แตะเพื่ออุทธรณ์
+21164	Retrieval Overdue	เกินกำหนดรับคืน
+21166	The recommended price has been updated. Please note the price change.	ราคาที่แนะนำอัปเดตแล้ว โปรดตรวจราคาที่เปลี่ยนไป
+21167	Item removed successfully. Check your Backpack.	นำไอเทมออกสำเร็จ โปรดตรวจดูกระเป๋า
+21168	Your Backpack is full. The item has been sent by mail.	กระเป๋าเต็ม ส่งไอเทมทางจดหมายแล้ว
+21169	Pre-purchase List	รายการซื้อล่วงหน้า
+21170	Pre-purchase	ซื้อล่วงหน้า
+21171	Pre-purchase Item List	รายการไอเทมที่ซื้อล่วงหน้า
+21172	Spend ${1}${2}${3}${4} to Pre-purchase 【${5}】?\nPayment will be deducted in advance. Once the listing period ends,\none buyer will be randomly selected from all purchase Lineups to complete the Trade.	ใช้ ${1}${2}${3}${4} เพื่อซื้อล่วงหน้า [ ${5} ] หรือไม่?\nจะหักเงินล่วงหน้า เมื่อช่วงประกาศขายสิ้นสุด\nจะสุ่มเลือกผู้ซื้อหนึ่งคนจากคิวซื้อทั้งหมดเพื่อทำธุรกรรมให้เสร็จสิ้น
+21175	Purchase Price:	ราคาซื้อ:
+21176	Listing period ends in ${1}	ช่วงประกาศขายสิ้นสุดในอีก ${1}
+21177	No Pre-purchased items	ไม่มีไอเทมที่ซื้อล่วงหน้า
+21178	After canceling the Pre-purchase, your payment will be returned by mail. Continue?	หลังยกเลิกการซื้อล่วงหน้า เงินของคุณจะถูกคืนทางจดหมาย ต้องการดำเนินการต่อหรือไม่?
+21179	This Function is temporarily unavailable.	ฟังก์ชันนี้ไม่พร้อมใช้งานชั่วคราว
+21180	Your Reputation Score is too low to use the Trade market.	คะแนนชื่อเสียงของคุณต่ำเกินไปที่จะใช้ตลาดซื้อขาย
+21181	Pre-purchase successful	ซื้อล่วงหน้าสำเร็จ
+21182	Pre-purchase canceled	ยกเลิกการซื้อล่วงหน้าแล้ว
+21184	Listing period ends in <color=#63a22b>${1}</color>	ช่วงประกาศขายสิ้นสุดในอีก <color=#63a22b>${1}</color>
+21185	You must be in a party to share.	คุณต้องอยู่ในปาร์ตี้จึงจะแชร์ได้
+21186	You've already made a reservation and cannot make another.	คุณจองแล้ว ไม่สามารถจองเพิ่มได้
+21187	I Discover a great item! Come check it out!	ฉันพบไอเทมดี ๆ! มาดูกันเลย!
+21188	I'd like to discuss the price of this item with you.	ฉันอยากคุยเรื่องราคาไอเทมนี้กับคุณ
+21189	The item is already gone!	ไอเทมไม่อยู่แล้ว!
+21190	I Discover a great item! Come check it out!${1}	ฉันพบไอเทมดี ๆ! มาดูกันเลย!${1}
+21192	You have ${1} penalty records	คุณมีประวัติการลงโทษ ${1} รายการ
+21193	Everyone must help protect the game environment, reject rule violations, and maintain a fair Trade environment.	ทุกคนต้องช่วยกันรักษาสภาพแวดล้อมของเกม ปฏิเสธการละเมิดกฎ และรักษาสภาพแวดล้อมการค้าที่เป็นธรรม
+21194	Shared	แชร์แล้ว
+21195	This Trade violated the Trade rules. The System has automatically taken action.	การซื้อขายนี้ละเมิดกฎการค้า ระบบดำเนินการโดยอัตโนมัติแล้ว
+21196	Penalty:	บทลงโทษ:
+21197	Trade canceled. The item has been removed automatically.	ยกเลิกการซื้อขายแล้ว นำไอเทมออกโดยอัตโนมัติ
+21198	Frozen Proceeds	รายได้ที่ถูกอายัด
+21199	View Frozen Proceeds Rules	ดูกฎรายได้ที่ถูกอายัด
+21200	Combined-Duration Penalty	บทลงโทษแบบรวมระยะเวลา
+21201	Trade has been reset, and all items have been automatically delisted.	รีเซ็ตการค้าแล้ว นำไอเทมทั้งหมดออกจากการลงขายโดยอัตโนมัติ
+21202	Deduct Illicit Earnings	หักรายได้ที่ได้มาโดยผิดกฎ
+21203	Restrict Selling on the Trade Market	จำกัดการขายในตลาดซื้อขาย
+21204	Restrict Purchasing on the Trade Market	จำกัดการซื้อในตลาดซื้อขาย
+21205	Disable the Trade Market and Stall Function	ปิดฟังก์ชันตลาดซื้อขายและร้านแผงลอย
+21206	Penalty Duration:	ระยะเวลาลงโทษ:
+21207	You have already placed a Pre-purchase order and cannot purchase again.	คุณสั่งซื้อล่วงหน้าแล้ว ไม่สามารถซื้ออีกได้
+21208	Pre-purchase has ended and can no longer be canceled.	การซื้อล่วงหน้าสิ้นสุดแล้ว ไม่สามารถยกเลิกได้อีก
+21209	Pre-purchase Settlement in progress	กำลังชำระบัญชีการซื้อล่วงหน้า
+21210	Cancel the Pre-purchase?	ยกเลิกการซื้อล่วงหน้าหรือไม่?
+21211	All Pre-purchase funds claimed successfully.	รับเงินซื้อล่วงหน้าทั้งหมดสำเร็จ
+21212	Pre-purchase Settlement in progress	กำลังชำระบัญชีการซื้อล่วงหน้า
+21213	You were not selected. Tap below to reclaim your Pre-purchase funds.	คุณไม่ได้รับเลือก แตะด้านล่างเพื่อรับเงินซื้อล่วงหน้าคืน
+21214	Standard Search	ค้นหาแบบทั่วไป
+21215	Exact Search	ค้นหาแบบตรงตัว
+21216	Already selected. Please do not Repeat your selection!	เลือกแล้ว โปรดอย่าเลือกซ้ำ!
+21217	No matching results found.	ไม่พบผลลัพธ์ที่ตรงกัน
+21218	This item has been delisted. Your Pre-purchase funds have been refunded.	ไอเทมนี้ถูกนำออกจากการลงขายแล้ว คืนเงินซื้อล่วงหน้าให้คุณแล้ว
+21220	Equipment Blueprint	แบบแปลนอุปกรณ์
+21222	Collection Card	การ์ดคอลเลกชัน
+21223	Totem (Unidentified)	โทเทม (ยังไม่ประเมิน)
+21224	Totem (Identified)	โทเทม (ประเมินแล้ว)
+21225	Totem Development	พัฒนาโทเทม
+21226	Material	วัสดุ
+21227	Cooking Materials	วัตถุดิบทำอาหาร
+21228	Other Materials	วัสดุอื่น ๆ
+46001	Combine	ผสม
+46002	Dismantle	แยกชิ้นส่วน
+46003	Synthesis Materials	วัสดุสังเคราะห์
+46004	Synthesis Result	ผลการสังเคราะห์
+46005	Dismantle Items	แยกชิ้นส่วนไอเทม
+46006	Materials Obtained	วัสดุที่ได้รับ
+46007	Bulk Dismantle	แยกชิ้นส่วนเป็นชุด
+46008	Obtainable by dismantling	ได้รับจากการแยกชิ้นส่วน
+46009	Select an item to dismantle on the left	เลือกไอเทมที่จะแยกชิ้นส่วนทางด้านซ้าย
+46010	No items can be dismantled under the current tab	ไม่มีไอเทมที่แยกชิ้นส่วนได้ในแท็บปัจจุบัน
+46011	High-quality items are selected for dismantling. Confirm?	มีไอเทมคุณภาพสูงถูกเลือกให้แยกชิ้นส่วน ต้องการยืนยันหรือไม่?
+46012	This action will consume ${1} to supply the missing synthesis materials, ${2}. Perform Quick Synthesis?	การดำเนินการนี้จะใช้ ${1} เพื่อเติมวัสดุสังเคราะห์ที่ขาด ${2} ต้องการสังเคราะห์อย่างรวดเร็วหรือไม่?
+46013	This combine will consume ${1}. Continue?	การผสมนี้จะใช้ ${1} ต้องการดำเนินการต่อหรือไม่?
+46014	${1} is short by ${2}. Combine this item? You can currently combine ${3} items.	${1} ขาดอีก ${2} ต้องการผสมไอเทมนี้หรือไม่? ขณะนี้คุณผสมได้ ${3} ชิ้น
+46015	Some items selected for dismantling are included in a preset. Continue dismantling?	ไอเทมบางชิ้นที่เลือกแยกชิ้นส่วนอยู่ในพรีเซ็ต ต้องการแยกชิ้นส่วนต่อหรือไม่?
+46016	Successfully dismantled ${1} and obtained ${2}.	แยกชิ้นส่วน ${1} สำเร็จและได้รับ ${2}
+46017	Automatically dismantled ${1} and obtained ${2}.	แยกชิ้นส่วน ${1} โดยอัตโนมัติและได้รับ ${2}
+46018	Batch dismantling successful. Dismantled ${1} items.	แยกชิ้นส่วนเป็นชุดสำเร็จ แยกชิ้นส่วนไอเทม ${1} ชิ้น
+46019	Setting successful	ตั้งค่าสำเร็จ
+46020	Enable Auto-Dismantle	เปิดแยกชิ้นส่วนอัตโนมัติ
+46021	Disable Auto-Dismantle	ปิดแยกชิ้นส่วนอัตโนมัติ
+46022	Combine is successful. Obtained ${1}.	ผสมสำเร็จ ได้รับ ${1}
+46023	Quick Combine	ผสมอย่างรวดเร็ว
+46024	Confirm Cost	ยืนยันค่าใช้จ่าย
+46025	Not enough items to combine.	ไอเทมไม่เพียงพอสำหรับผสม
+46026	Already at the maximum value	ถึงค่าสูงสุดแล้ว
+46027	Already at the minimum value	ถึงค่าต่ำสุดแล้ว
+46028	Select items to dismantle.	เลือกไอเทมที่จะแยกชิ้นส่วน
+46029	No filter conditions selected.	ยังไม่ได้เลือกเงื่อนไขการกรอง
+46030	Auto-Dismantle	แยกชิ้นส่วนอัตโนมัติ
+46031	Automatically dismantle equipment that meets all the following conditions.	แยกชิ้นส่วนอุปกรณ์ที่ตรงตามเงื่อนไขต่อไปนี้ทั้งหมดโดยอัตโนมัติ
+46032	White	สีขาว
+46036	Orange	สีส้ม
+46037	Red	สีแดง
+46038	Items that meet all the above conditions will be selected for dismantling.	จะเลือกไอเทมที่ตรงตามเงื่อนไขข้างต้นทั้งหมดเพื่อแยกชิ้นส่วน
+46039	Available Amount:	จำนวนที่ใช้ได้:
+46040	Not enough combine materials.	วัสดุผสมไม่เพียงพอ
+46041	Combine Materials Across Levels	ผสมวัสดุข้ามระดับ
+46042	Selected: ${1}	เลือกแล้ว: ${1}
+46043	Combine & Dismantle	ผสมและแยกชิ้นส่วน
+46044	Cross-Level	ข้ามระดับ
+46045	Auto-Dismantle Equipment	แยกชิ้นส่วนอุปกรณ์อัตโนมัติ
+46046	Items Available to Dismantle	ไอเทมที่แยกชิ้นส่วนได้
+46048	No Items Available to Combine	ไม่มีไอเทมที่ผสมได้
+46049	Combine Using Cross-Level Materials	ผสมโดยใช้วัสดุข้ามระดับ
+46051	Rarity:	ความหายาก:
+12000	Not enough items to appraise this equipment.	ไอเทมไม่เพียงพอสำหรับประเมินอุปกรณ์นี้
+12001	Your Backpack is full. Unable to unequip equipment.	กระเป๋าเต็ม ไม่สามารถถอดอุปกรณ์ได้
+12002	Appraisal Confirmation	ยืนยันการประเมิน
+12003	Use the following items to appraise ${1} Equipment?	ใช้ไอเทมต่อไปนี้เพื่อประเมินอุปกรณ์ ${1} หรือไม่?
+12005	Tier	ระดับชั้น
+12006	Level Req	ระดับที่ต้องการ
+12008	Additional Affix	คุณสมบัติเสริมเพิ่มเติม
+12009	Refine	ตีบวก
+12010	Enhance	เสริมพลัง
+12011	No Card Inserted	ยังไม่ได้ใส่การ์ด
+12012	Card Slot Not Unlocked	ช่องการ์ดยังไม่ปลดล็อก
+12013	Job Restriction	ข้อจำกัดอาชีพ
+12014	Affixes are unknown until the equipment is appraised.	จะไม่ทราบคุณสมบัติเสริมจนกว่าจะประเมินอุปกรณ์
+12015	Slot	ช่อง
+12016	Smelting Attributes	ค่าสถานะจากการหลอม
+12018	Crafter: <color=#cd772a><u>${1}</u></color>	ผู้คราฟต์: <color=#cd772a><u>${1}</u></color>
+12019	Equipment Details	รายละเอียดอุปกรณ์
+12021	Attribute Range	ช่วงค่าสถานะ
+12022	Equipment Forging	การตีอุปกรณ์
+12025	Craft	คราฟต์
+12026	Crafting has a Chance to produce high-quality equipment.	การคราฟต์มีโอกาสได้อุปกรณ์คุณภาพสูง
+12027	Crafting Successful	คราฟต์สำเร็จ
+12028	Crafting Info	ข้อมูลการคราฟต์
+12030	Affix	คุณสมบัติเสริม
+12032	Card Slot	ช่องการ์ด
+12033	Randomly grants <color=#cc762a>${1}-${2}</color> Unseal Card Slots	สุ่มให้ช่องการ์ดที่ปลดผนึกแล้ว <color=#cc762a>${1}-${2}</color> ช่อง
+12034	Randomly grants <color=#cc762a>${1}-${2}</color> affixes	สุ่มให้คุณสมบัติเสริม <color=#cc762a>${1}-${2}</color> รายการ
+12036	Purple Quality	คุณภาพสีม่วง
+12037	Orange Quality	คุณภาพสีส้ม
+12038	Red Quality	คุณภาพสีแดง
+12041	Attribute Range	ช่วงค่าสถานะ
+12042	Smelting Cost:	ค่าใช้จ่ายในการหลอม:
+12045	Smelted ${1} times today	หลอมแล้ว ${1} ครั้งวันนี้
+12046	Smelting Successful	หลอมสำเร็จ
+12047	No equipment available for smelting.	ไม่มีอุปกรณ์ที่หลอมได้
+12048	Only Tier 2 or higher equipment of Purple Quality or higher can be smelted.	หลอมได้เฉพาะอุปกรณ์ระดับชั้น 2 ขึ้นไปและคุณภาพสีม่วงขึ้นไป
+12049	Smelting Restoration	คืนค่าการหลอม
+12052	You can save the current attributes.	คุณบันทึกค่าสถานะปัจจุบันได้
+12053	Each restoration has a ${1}-day cooldown.	การคืนค่าแต่ละครั้งมีคูลดาวน์ ${1} วัน
+12054	Restore Smelting Attributes	คืนค่าค่าสถานะจากการหลอม
+12055	Restore the saved attributes? This will overwrite the equipment's current smelting attributes.	คืนค่าค่าสถานะที่บันทึกไว้หรือไม่? จะเขียนทับค่าสถานะจากการหลอมปัจจุบันของอุปกรณ์
+12056	Before Restoration	ก่อนคืนค่า
+12057	After Restoration	หลังคืนค่า
+12058	Restoration Cost	ค่าใช้จ่ายในการคืนค่า
+12060	Save Smelting Attributes	บันทึกค่าสถานะจากการหลอม
+12061	Save the Current Equipment's smelting attributes? Each piece of equipment can have only one save. A new save will overwrite the old one.	บันทึกค่าสถานะจากการหลอมของอุปกรณ์ปัจจุบันหรือไม่? อุปกรณ์แต่ละชิ้นบันทึกได้เพียงชุดเดียว การบันทึกใหม่จะเขียนทับชุดเดิม
+12062	Old Save	ชุดบันทึกเดิม
+12063	New Save	ชุดบันทึกใหม่
+12065	This equipment has no saved attributes.	อุปกรณ์นี้ไม่มีค่าสถานะที่บันทึกไว้
+12066	Reset Smelting Attributes	รีเซ็ตค่าสถานะจากการหลอม
+12067	Resetting will remove all smelting attributes from the equipment.	การรีเซ็ตจะนำค่าสถานะจากการหลอมทั้งหมดออกจากอุปกรณ์
+12069	<color=#cc762a>${1}</color> Unseal Card Slots	ช่องการ์ดที่ปลดผนึกแล้ว <color=#cc762a>${1}</color> ช่อง
+12070	Randomly grants <color=#cc762a>${1}</color> affixes	สุ่มให้คุณสมบัติเสริม <color=#cc762a>${1}</color> รายการ
+12072	No Card Slots	ไม่มีช่องการ์ด
+12073	No Affix	ไม่มีคุณสมบัติเสริม
+12076	Equipment has not been smelted	อุปกรณ์ยังไม่ได้หลอม
+12077	Crafted <color=#EC8C2F>orange</color> and <color=#CA4A36>red</color> equipment is unidentified. Appraise it to gain random attributes.	อุปกรณ์ที่คราฟต์ได้คุณภาพ<color=#EC8C2F>สีส้ม</color>และ<color=#CA4A36>สีแดง</color>ยังไม่ประเมิน ประเมินเพื่อรับค่าสถานะแบบสุ่ม
+12078	No suitable equipment available. You can obtain equipment by defeating monsters, completing quests, and more.	ไม่มีอุปกรณ์ที่เหมาะสม คุณหาอุปกรณ์ได้จากการกำจัดมอนสเตอร์ ทำเควสต์ และวิธีอื่น ๆ
+12080	Insufficient crafting materials	วัสดุคราฟต์ไม่เพียงพอ
+12081	Unidentified	ยังไม่ประเมิน
+12082	Identify	ประเมิน
+12083	Equipment requirements not met	ไม่ตรงตามเงื่อนไขอุปกรณ์
+12084	This equipment cannot be used by your current class. Appraise it anyway?	อาชีพปัจจุบันของคุณใช้อุปกรณ์นี้ไม่ได้ ต้องการประเมินต่อหรือไม่?
+12085	Some equipment cannot be used by your current class. Appraise ${1} item(s) anyway?	อาชีพปัจจุบันของคุณใช้อุปกรณ์บางชิ้นไม่ได้ ต้องการประเมินไอเทม ${1} ชิ้นต่อหรือไม่?
+12086	Blue Quality	คุณภาพสีน้ำเงิน
+12089	Filter by Slot	กรองตามช่อง
+12090	Filter by Job	กรองตามอาชีพ
+12091	Filter Equipment	กรองอุปกรณ์
+12092	Current Job Only	เฉพาะอาชีพปัจจุบัน
+16000	Reset succeeded	รีเซ็ตสำเร็จ
+16001	No points have been allocated. Unable to reset.	ยังไม่ได้จัดสรรแต้ม ไม่สามารถรีเซ็ตได้
+16002	You haven't joined a guild yet.	คุณยังไม่ได้เข้าร่วมกิลด์
+16004	Current Base Level cap: ${1}	ระดับ Base สูงสุดปัจจุบัน: ${1}
+16005	Next Base Level cap: ${1}	ระดับ Base สูงสุดถัดไป: ${1}
+16006	New Base Level cap unlocks on: ${1} (in ${2} days)	ปลดล็อกระดับ Base สูงสุดใหม่วันที่: ${1} (ในอีก ${2} วัน)
+16007	Days since server launch: ${1}	จำนวนวันตั้งแต่เปิดเซิร์ฟเวอร์: ${1}
+16008	Current World Level: ${1} (affects some monster levels)	ระดับโลกปัจจุบัน: ${1} (มีผลต่อระดับมอนสเตอร์บางชนิด)
+16009	Extra World Level EXP bonus: ${1}	โบนัส EXP เพิ่มเติมจากระดับโลก: ${1}
+16010	Complete quests and Kill monsters to earn EXP	ทำเควสต์และกำจัดมอนสเตอร์เพื่อรับ EXP
+16011	Character UID Copied	คัดลอก UID ตัวละครแล้ว
+16013	Switch stat builds. This version currently supports only one build.	สลับบิลด์ค่าสถานะ เวอร์ชันนี้รองรับเพียงบิลด์เดียว
+16014	Reset stat points. All allocated points will be refunded.	รีเซ็ตแต้มค่าสถานะ คืนแต้มที่จัดสรรแล้วทั้งหมด
+16015	Save your stat allocation first?	บันทึกการจัดสรรค่าสถานะก่อนหรือไม่?
+16016	Job:	อาชีพ:
+16018	Title:	ฉายา:
+16019	Rank:	อันดับ:
+16021	Title Function locked	ฟังก์ชันฉายายังไม่ปลดล็อก
+16022	Rank Function locked	ฟังก์ชันอันดับยังไม่ปลดล็อก
+16023	Trophy:	ถ้วยรางวัล:
+16024	Guild:	กิลด์:
+16028	Life Skills:	สกิลชีวิต:
+16029	General Stats	ค่าสถานะทั่วไป
+16031	Special	พิเศษ
+16032	Auto-Assign	จัดสรรอัตโนมัติ
+16034	Equipment & Other	อุปกรณ์และอื่น ๆ
+16035	Req	เงื่อนไข
+16036	Points remaining: <color=#63a22b>${1}</color>	แต้มที่เหลือ: <color=#63a22b>${1}</color>
+16037	Insufficient items	ไอเทมไม่เพียงพอ
+16038	Unlock	ปลดล็อก
+16039	Unlocking this build costs	ค่าใช้จ่ายในการปลดล็อกบิลด์นี้
+16041	Party:	ปาร์ตี้:
+16043	Raid:	เรด:
+16056	Unable to view. This player has hidden their information.	ไม่สามารถดูได้ ผู้เล่นนี้ซ่อนข้อมูลไว้
+16058	Costume System is not yet available	ระบบคอสตูมยังไม่พร้อมใช้งาน
+16059	Build ${1}	บิลด์ ${1}
+16062	Stat allocation unlocks after Job Advance	การจัดสรรค่าสถานะปลดล็อกหลังเปลี่ยนอาชีพ
+16063	No stat points have been allocated. Exit anyway?	ยังไม่ได้จัดสรรแต้มค่าสถานะ ต้องการออกหรือไม่?
+16064	Edit Name	แก้ไขชื่อ
+16066	After using a recommended build, stat points will be allocated automatically upon Level-up based on the selected recommendation	หลังใช้บิลด์ที่แนะนำ เมื่อเพิ่มระดับ ระบบจะจัดสรรแต้มค่าสถานะตามคำแนะนำที่เลือกโดยอัตโนมัติ
+16067	Switch	สลับ
+16068	Selected build: ${1}	บิลด์ที่เลือก: ${1}
+16080	Astral Level	ระดับ Astral
+16081	Astral Points	แต้ม Astral
+16082	Stat Overview	ภาพรวมค่าสถานะ
+16084	Astral Level and Constellation data will reset between Seasons	ระดับ Astral และข้อมูลกลุ่มดาวจะรีเซ็ตระหว่างฤดูกาล
+16086	Pending activation	รอเปิดใช้งาน
+16087	Tap to activate	แตะเพื่อเปิดใช้งาน
+16088	Activation Effect	เอฟเฟกต์การเปิดใช้งาน
+16089	Current Effect	เอฟเฟกต์ปัจจุบัน
+16090	Level-up Effect	เอฟเฟกต์เพิ่มระดับ
+16091	Replacement Effect	เอฟเฟกต์การเปลี่ยน
+16092	Power Bonus	โบนัสพลัง
+16093	Effect granted after socketing a Star Core	ได้รับเอฟเฟกต์หลังใส่ Star Core
+16094	Activate	เปิดใช้งาน
+16095	Reset Points	รีเซ็ตแต้ม
+16099	Insert	ใส่
+16102	Tap to activate when the prerequisite Star reaches Max level	แตะเพื่อเปิดใช้งานเมื่อดาวที่ต้องปลดล็อกก่อนมีระดับสูงสุด
+16103	Resetting points will reset this Star and all subsequent Stars and automatically unequip their Star Cores\nContinue? (<color=#cc762a>${1}</color> Astral Points will be refunded)	การรีเซ็ตแต้มจะรีเซ็ตดาวนี้และดาวที่ตามมาทั้งหมด พร้อมถอด Star Core ของดาวเหล่านั้นโดยอัตโนมัติ\nต้องการดำเนินการต่อหรือไม่? (จะคืนแต้ม Astral <color=#cc762a>${1}</color> แต้ม)
+16104	Insufficient points in the prerequisite Constellation. This Constellation's attributes are inactive.	แต้มในกลุ่มดาวที่ต้องปลดล็อกก่อนไม่เพียงพอ ค่าสถานะของกลุ่มดาวนี้ไม่ทำงาน
+16105	Star Core List	รายการ Star Core
+16106	No attributes	ไม่มีค่าสถานะ
+16107	Not enough Star Points to Level-up	แต้มดาวไม่เพียงพอสำหรับเพิ่มระดับ
+16108	Star Core Effect	เอฟเฟกต์ Star Core
+16109	No Star Cores in your Backpack	ไม่มี Star Core ในกระเป๋า
+16110	No Stars can be reverted	ไม่มีดาวที่คืนค่าได้
+16111	Can be unlocked after activating all Stars in the prerequisite Constellation	ปลดล็อกได้หลังเปิดใช้งานดาวทั้งหมดในกลุ่มดาวที่ต้องปลดล็อกก่อน
+16113	No other Star Cores in your Backpack	ไม่มี Star Core อื่นในกระเป๋า
+16114	Resetting points will reset this Star and all subsequent Stars and automatically unequip their Star Cores\nContinue? (<color=#cc762a>${1}</color> Astral Points will be refunded)\n<color=#da3838>This will deactivate the attributes of subsequent Constellations</color>	การรีเซ็ตแต้มจะรีเซ็ตดาวนี้และดาวที่ตามมาทั้งหมด พร้อมถอด Star Core ของดาวเหล่านั้นโดยอัตโนมัติ\nต้องการดำเนินการต่อหรือไม่? (จะคืนแต้ม Astral <color=#cc762a>${1}</color> แต้ม)\n<color=#da3838>จะปิดการทำงานของค่าสถานะในกลุ่มดาวที่ตามมา</color>
+16115	This will reset all Stars in every Constellation and automatically unequip their Star Cores\nContinue? (<color=#cc762a>${1}</color> Astral Points will be refunded)	การดำเนินการนี้จะรีเซ็ตดาวทั้งหมดในทุกกลุ่มดาว พร้อมถอด Star Core ของดาวเหล่านั้นโดยอัตโนมัติ\nต้องการดำเนินการต่อหรือไม่? (จะคืนแต้ม Astral <color=#cc762a>${1}</color> แต้ม)
+16116	Current Paragon Level: ${1}	ระดับ Paragon ปัจจุบัน: ${1}
+16117	Extra World Paragon Level bonus: ${1}%	โบนัสระดับ Paragon โลกเพิ่มเติม: ${1}%
+16118	Complete quests and Kill monsters to earn EXP. Star Deity Level and constellation data will reset between Seasons.	ทำเควสต์และกำจัดมอนสเตอร์เพื่อรับ EXP ระดับ Star Deity และข้อมูลกลุ่มดาวจะรีเซ็ตระหว่างฤดูกาล
+16119	Press and hold to quickly assign points	กดค้างเพื่อจัดสรรแต้มอย่างรวดเร็ว
+19001	Left Accessory	เครื่องประดับซ้าย
+19002	Right Accessory	เครื่องประดับขวา
+19003	Main/Off-Hand	มือหลัก/มือรอง
+19004	Armor	เกราะ
+19005	Cloak	ผ้าคลุม
+19006	Shoes	รองเท้า
+19007	Current Level	ระดับปัจจุบัน
+19008	Next Level	ระดับถัดไป
+19011	${1} pieces of equipment reach Refine Level ${2}	อุปกรณ์ ${1} ชิ้นมีระดับตีบวกถึง ${2}
+19012	Refinement Resonance	เรโซแนนซ์การตีบวก
+19013	Refine Level	ระดับตีบวก
+19014	After reaching Refinement +${1}, failure will not reduce it below +${2}	หลังตีบวกถึง +${1} แม้ล้มเหลวก็จะไม่ลดต่ำกว่า +${2}
+19015	Blessed Refinement will not decrease the refinement level	การตีบวกแบบรับพรจะไม่ลดระดับตีบวก
+19016	Refinement Lv.${1}	ระดับตีบวก Lv.${1}
+19017	Off-hand equipment does not inherit refinement attributes	อุปกรณ์มือรองไม่สืบทอดค่าสถานะตีบวก
+19018	1. Refinement applies to equipment slots only. Changing equipment does not affect refinement bonuses.\n2. Slots can still be refined when no equipment is worn, but refinement bonuses only take effect when equipment is equipped.\n3. The maximum Refine Level is equal to the character's Current Level.\n4. Refining all equipment slots to the specified level activates Resonance stats. The corresponding bonuses only take effect when equipment is equipped.	1. การตีบวกใช้กับช่องอุปกรณ์เท่านั้น การเปลี่ยนอุปกรณ์ไม่กระทบโบนัสตีบวก\n2. ตีบวกช่องได้แม้ไม่ได้สวมอุปกรณ์ แต่โบนัสตีบวกจะมีผลเมื่อสวมอุปกรณ์เท่านั้น\n3. ระดับตีบวกสูงสุดเท่ากับระดับปัจจุบันของตัวละคร\n4. ตีบวกช่องอุปกรณ์ทุกช่องถึงระดับที่กำหนดเพื่อเปิดใช้ค่าสถานะเรโซแนนซ์ โบนัสที่เกี่ยวข้องจะมีผลเมื่อสวมอุปกรณ์เท่านั้น
+19019	1.Each Refine Level in Equipment Refining has a fixed success rate.\n2.Refining may fail. If it does, the Refine Level may decrease by 1.\n3.Failed refining attempts or level decreases grant Luck. Consecutive level decreases grant more bonus Luck.\n4.At a safe Refine Level, failed refining attempts will neither decrease the Refine Level nor grant Luck. Safe Refine Levels: 4/7/10/13/16/19/22/25.\n5.When using Blessed Ore, failed refining attempts will not decrease the Refine Level. Legend Ore increases the refining success rate and prevents the Refine Level from decreasing upon failure.	1. ระดับตีบวกแต่ละระดับมีอัตราสำเร็จคงที่\n2. การตีบวกอาจล้มเหลว หากล้มเหลว ระดับตีบวกอาจลดลง 1 ระดับ\n3. การตีบวกที่ล้มเหลวหรือระดับลดลงจะเพิ่มค่าโชค การลดระดับติดต่อกันจะเพิ่มค่าโชคโบนัสมากขึ้น\n4. ที่ระดับตีบวกปลอดภัย การล้มเหลวจะไม่ลดระดับตีบวกและไม่เพิ่มค่าโชค ระดับตีบวกปลอดภัย: 4/7/10/13/16/19/22/25\n5. เมื่อใช้ Blessed Ore การตีบวกที่ล้มเหลวจะไม่ลดระดับตีบวก Legend Ore เพิ่มอัตราสำเร็จและป้องกันระดับตีบวกลดลงเมื่อล้มเหลว
+19020	Refinement Successful	ตีบวกสำเร็จ
+19021	Refinement Failed	ตีบวกล้มเหลว
+19022	Equipment Upgrade	อัปเกรดอุปกรณ์
+19023	Equipment Enhancement Guide	คู่มือเสริมพลังอุปกรณ์
+19024	Refine	ตีบวก
+19025	Success Rate	อัตราสำเร็จ
+19027	Success Rate Details	รายละเอียดอัตราสำเร็จ
+19029	Not Equipped	ยังไม่สวมใส่
+19030	Refinement limit reached	ถึงขีดจำกัดตีบวกแล้ว
+19031	Blessing	พร
+19032	Please equip the item before enhancing it.	โปรดสวมไอเทมก่อนเสริมพลัง
+19033	Success	สำเร็จ
+19034	Do not remind again during this login	ไม่ต้องแจ้งเตือนอีกระหว่างการเข้าสู่ระบบครั้งนี้
+19035	Don't Downgrade	ไม่ลดระดับ
+19036	Refine Level<color=#ff6161>-${1}</color>   Success Rate <color=#76c233>+${2}%</color>	ระดับตีบวก<color=#ff6161>-${1}</color>   อัตราสำเร็จ <color=#76c233>+${2}%</color>
+19037	Success Rate <color=#76c233>+${1}%</color>	อัตราสำเร็จ <color=#76c233>+${1}%</color>
+19038	Maximum Refine Level reached	ถึงระดับตีบวกสูงสุดแล้ว
+19100	${1} pieces of equipment reach Reinforcement level ${2}	อุปกรณ์ ${1} ชิ้นมีระดับเสริมพลังถึง ${2}
+19101	Enhancement Resonance	เรโซแนนซ์การเสริมพลัง
+19102	Reinforcement level	ระดับเสริมพลัง
+19103	Current Enhance Level Cap: ${1}	ระดับเสริมพลังสูงสุดปัจจุบัน: ${1}
+19104	Enhance Lv.${1}	เสริมพลัง Lv.${1}
+19105	Off-hand slots do not inherit Enhance attributes.	ช่องมือรองไม่สืบทอดค่าสถานะเสริมพลัง
+19106	1. Enhance applies only to equipment slots. Changing equipment does not affect its bonuses.\n2. You can still Enhance a slot when no equipment is equipped, but the bonuses only take effect once equipment is equipped in that slot.\n3. The maximum Reinforcement level is your character's Current Level.\n4. When you Enhance all equipment slots to the specified level, Resonance stats will be activated. You must have equipment equipped in those slots to receive the corresponding bonuses.	1. การเสริมพลังใช้กับช่องอุปกรณ์เท่านั้น การเปลี่ยนอุปกรณ์ไม่กระทบโบนัส\n2. เสริมพลังช่องได้แม้ไม่สวมอุปกรณ์ แต่โบนัสจะมีผลเมื่อสวมอุปกรณ์ในช่องนั้นเท่านั้น\n3. ระดับเสริมพลังสูงสุดเท่ากับระดับปัจจุบันของตัวละคร\n4. เมื่อเสริมพลังช่องอุปกรณ์ทั้งหมดถึงระดับที่กำหนด จะเปิดใช้ค่าสถานะเรโซแนนซ์ ต้องสวมอุปกรณ์ในช่องเหล่านั้นเพื่อรับโบนัสที่เกี่ยวข้อง
+19107	Equipment Upgrade	อัปเกรดอุปกรณ์
+19108	Enhancement Successful	เสริมพลังสำเร็จ
+19109	Left Accessory Slot	ช่องเครื่องประดับซ้าย
+19110	Right Accessory Slot	ช่องเครื่องประดับขวา
+19111	Main-Hand/Off-Hand Slot	ช่องมือหลัก/มือรอง
+19112	Armor Slot	ช่องเกราะ
+19113	Cloak Slot	ช่องผ้าคลุม
+19114	Footwear Slot	ช่องรองเท้า
+19115	Equipment Refining Details	รายละเอียดการตีบวกอุปกรณ์
+19116	Enhance	เสริมพลัง
+19119	Enhance once	เสริมพลังหนึ่งครั้ง
+19120	Enhance Five Times	เสริมพลังห้าครั้ง
+19121	The upgrade cap has been reached	ถึงระดับอัปเกรดสูงสุดแล้ว
+19122	Equip the item before enhancing it.	สวมไอเทมก่อนเสริมพลัง
+19123	Select Item	เลือกไอเทม
+19124	${1}(Max)	${1}(สูงสุด)
+19125	(New levels unlock after Base${1})	(ปลดล็อกระดับใหม่หลัง Base${1})
+19126	New levels unlock after Base${1}	ปลดล็อกระดับใหม่หลัง Base${1}
+19127	100% of attributes carry over when changing equipment.	ค่าสถานะสืบทอด 100% เมื่อเปลี่ยนอุปกรณ์
+19128	Enhancement attributes take effect once the equipment is equipped.	ค่าสถานะเสริมพลังมีผลเมื่อสวมอุปกรณ์
+19129	Enhancement in progress. Please try again later.	กำลังเสริมพลัง โปรดลองอีกครั้งในภายหลัง
+19138	Refine attributes take effect once the equipment is equipped.	ค่าสถานะตีบวกมีผลเมื่อสวมอุปกรณ์
+19200	Select <color=#cc762a>1</color> attribute to activate.	เลือกค่าสถานะ <color=#cc762a>1</color> รายการเพื่อเปิดใช้งาน
+19201	Activate	เปิดใช้งาน
+19202	Reforge Cost	ค่าใช้จ่ายในการตีใหม่
+19203	Reforge	ตีใหม่
+19204	Activating this attribute will <color=#FF1515>decrease Power</color>. Continue?	การเปิดใช้ค่าสถานะนี้จะ<color=#FF1515>ลดพลัง</color> ต้องการดำเนินการต่อหรือไม่?
+19205	Tap Reforge to reroll 3 attributes.	แตะตีใหม่เพื่อสุ่มค่าสถานะใหม่ 3 รายการ
+19206	Attribute bonuses reset between Seasons.	โบนัสค่าสถานะรีเซ็ตระหว่างฤดูกาล
+19207	Select <color=#cc762a>1</color> attribute to replace.	เลือกค่าสถานะ <color=#cc762a>1</color> รายการเพื่อเปลี่ยน
+19210	Unlocks at Refine Level ${1}	ปลดล็อกที่ระดับตีบวก ${1}
+19211	A high-quality attribute is currently available. Discard it?	ขณะนี้มีค่าสถานะคุณภาพสูง ต้องการทิ้งหรือไม่?
+19212	Refine Ascension	ยกระดับการตีบวก
+19213	Activate Refine Ascension	เปิดใช้การยกระดับการตีบวก
+19214	Refine Level ${1}	ระดับตีบวก ${1}
+19215	Raise the Refine Level to enable Refine Ascension.	เพิ่มระดับตีบวกเพื่อเปิดใช้การยกระดับการตีบวก
