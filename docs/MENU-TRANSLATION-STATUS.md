@@ -1,4 +1,4 @@
-# Menu translation progress — batches 046–060
+# Menu translation progress — batches 046–066
 
 English from the actual game export is the source of truth. Native Thai from the supplied ZIP is a terminology reference only; literal `None`, ID-only values and translations that contradict English are not copied. Existing approved fresh translations are reused for identical English labels to maintain consistent terminology.
 
@@ -21,9 +21,15 @@ English from the actual game export is the source of truth. Native Thai from the
 | 058 | 183 | Spirit Tower teams/challenges/sweeps and auction/bidding/pre-purchase controls |
 | 059 | 186 | Guild PvE dungeons, dragon defense, event management and battle notifications |
 | 060 | 152 | Guild league schedules, battlefield commands, flags, scores and rankings |
+| 061 | 357 | Rentals/cart, shop/gifts, friends/groups/chat, mounts and ranking rewards |
+| 062 | 178 | Party/raid dungeon ready checks, objectives/rewards, matchmaking and auctions |
+| 063 | 270 | PC/mobile control modes, HUD/chat settings, Tavern voice/gifts/moderation |
+| 064 | 186 | Siege/territory battles, war machines, commands, markers and contribution reports |
+| 065 | 291 | Territory bidding, guild supply trade/escorts, fatigue alerts and festival quizzes |
+| 066 | 284 | Battle of Survivors queues/builds, loot, safe zones, rescues, scores and match messages |
 
-- 819 new IDs in the latest update; 4,197 authored menu IDs across batches 046–060.
-- 7,577 authored translation IDs across all batches. Runtime retains English for five held semantic-review IDs and seven authored rows whose target equals English: 7,565 runtime IDs differ from English.
+- 1,566 new IDs in the latest update; 5,763 authored menu IDs across batches 046–066.
+- 9,143 authored translation IDs across all batches. Runtime retains English for five held semantic-review IDs and seven authored rows whose target equals English: 9,131 runtime IDs differ from English.
 - **This is not a completed translation of every menu or every game text.** Newer gameplay systems and other groups still need review; some card/title/event labels also remain English as protected formats, technical names or ambiguous text. Some pet/appearance/preset rows remain held as described below. The exact unreviewed UI-candidate inventory is in `menu-translation-coverage.json`; these candidates also contain proper names, technical labels and format-only rows, so their count is not the count of menus requiring Thai.
 
 ## Reference corrections and held context
@@ -39,11 +45,12 @@ English from the actual game export is the source of truth. Native Thai from the
 - Pet ID 40147 (`Get ${1} Off Summons`) lacks clear discount-unit context and remains English. The isolated Active skill-type label (40205) stays English instead of borrowing the unrelated active-state translation. Named event heading 40992 and preset `Stunt` label 64029 remain English.
 - `Respawn` in the pet menu is a reset/refund action as explicitly defined by IDs 40051 and 40123, not character revival. The translation uses คืนค่าสัตว์เลี้ยง. Pet numbers, hatching chances, star/slot counts and stat percentages retain the source values.
 - Lore ID 44010 remains English: the current live export adds carriage-return controls not present in the historical batch-authoring snapshot. A draft is withheld rather than dropping those controls. Event placeholder help text, proper stage/weapon names, format-only rows, league tier names and ambiguous Locate Match labels are also not guessed.
+- Survivor Battle keeps named mechanics, class names, currencies, rank names and NPC/event names in English; UI/control text around these names is translated. Standalone Connect/Locate labels, developer placeholder help text and bracket-only button/help labels remain under review rather than guessed.
 - Some bracket-only UI labels remain English because the current runtime protects bracket contents as names. Proper item/location/class names, technical labels, frame rates and format-only strings remain unchanged.
 - Party source data contains inconsistent bonus descriptions: 24043 differs from 24112–24116; 24115 and 24116 both say 4 players with different values. Translations preserve the English values exactly; no gameplay values were invented or corrected.
 
 ## Delivery and validation
 
-Batches 057–060 are is a text/data-only update. The separate language-table hotfix v0.4.1 changes the runtime DLL and requires a one-time plugin/installer update; see LANGUAGE-TABLE-HOTFIX.md. Subsequent text updates do not require new executable releases. Runtime v0.4.0 or later checks the verified schema-2 data feed on game startup. Restart the game with internet access to check for updates; offline/invalid downloads retain the verified cache or bundled fallback.
+Batches 061–066 are is a text/data-only update. The separate language-table hotfix v0.4.1 changes the runtime DLL and requires a one-time plugin/installer update; see LANGUAGE-TABLE-HOTFIX.md. Subsequent text updates do not require new executable releases. Runtime v0.4.0 or later checks the verified schema-2 data feed on game startup. Restart the game with internet access to check for updates; offline/invalid downloads retain the verified cache or bundled fallback.
 
 Validation checks placeholder/tag order, numbers, math symbols, bracket names, escaped controls, Unicode, exact ID/original matching, runtime rules and updater integrity. Additional menu QA decodes escaped control boundaries before counting numbers (so a number immediately after `\n` is still checked). Windows game UI layout, text clipping and in-game behavior have not been tested for these batches.
