@@ -6524,3 +6524,235 @@
 29021	Trophy	ถ้วยรางวัล
 29022	Players Completed	ผู้เล่นที่ทำสำเร็จ
 29024	Gain achievement	ได้รับความสำเร็จ
+30002	Bonded	เชื่อมพันธะแล้ว
+30003	No cards available	ไม่มีการ์ดที่ใช้ได้
+30021	${1} Conditions	เงื่อนไข ${1}
+30022	Level-up Lv.${1}	เพิ่มระดับ Lv.${1}
+30023	Train	ฝึก
+30024	Description	คำอธิบาย
+30027	Train	ฝึก
+30028	Level	ระดับ
+30030	Return	คืนค่า
+30031	Rank Preview	ตัวอย่างอันดับ
+30032	Maximum Stars	ดาวสูงสุด
+30033	Card Leveled up	เพิ่มระดับการ์ดแล้ว
+30034	Card Promotion	เลื่อนขั้นการ์ด
+30036	Current Level	ระดับปัจจุบัน
+30037	Next Level	ระดับถัดไป
+30041	Not Unsealed	ยังไม่ปลดผนึก
+30042	Insert	ใส่
+30044	Unseal Card Slot	ปลดผนึกช่องการ์ด
+30045	Unseal Cost	ค่าใช้จ่ายในการปลดผนึก
+30046	Unseal	ปลดผนึก
+30047	Card slot successfully unsealed. Insert a card to enhance the equipment.	ปลดผนึกช่องการ์ดสำเร็จ ใส่การ์ดเพื่อเสริมพลังอุปกรณ์
+30050	Select a Card	เลือกการ์ด
+30051	Take off	ถอด
+30052	Insert	ใส่
+30054	Card Taken off	ถอดการ์ดแล้ว
+30055	Card Inserted	ใส่การ์ดแล้ว
+30056	Refund	สิ่งที่ได้รับคืน
+30058	After resetting, the card's rank will return to 0. \nEnter “YES” below.	หลังรีเซ็ต อันดับการ์ดจะกลับเป็น 0\nป้อน “YES” ด้านล่าง
+30059	Don't Show Again Today	ไม่ต้องแสดงอีกวันนี้
+30060	Card Restored	คืนค่าการ์ดแล้ว
+30061	Confirm Return	ยืนยันการคืนค่า
+30067	Activation	เปิดใช้งาน
+30068	Deployment Effects	เอฟเฟกต์ลงสนาม
+30069	Collection Effects	เอฟเฟกต์คอลเลกชัน
+30070	Preview	ตัวอย่าง
+30072	Not Deployed	ยังไม่ลงสนาม
+30077	Bond Removed	นำพันธะออกแล้ว
+30078	Edit Bond	แก้ไขพันธะ
+30079	No suitable cards	ไม่มีการ์ดที่เหมาะสม
+30080	Preview	ตัวอย่าง
+30081	Deployment Effects	เอฟเฟกต์ลงสนาม
+30082	Collection Effects	เอฟเฟกต์คอลเลกชัน
+30083	Current Rank	อันดับปัจจุบัน
+30084	Next Rank	อันดับถัดไป
+30087	Currently Using	กำลังใช้งาน
+30088	Use Preset	ใช้พรีเซ็ต
+30091	Bond Deployed	จัดพันธะลงสนามแล้ว
+30092	Current Total Deployment Stats	ค่าสถานะลงสนามรวมปัจจุบัน
+30093	Current Total Collection Stats	ค่าสถานะคอลเลกชันรวมปัจจุบัน
+30094	Activate	เปิดใช้งาน
+30097	Activated	เปิดใช้งานแล้ว
+30098	Max	สูงสุด
+30099	Only one ${1} can be inserted	ใส่ ${1} ได้เพียงหนึ่งรายการ
+30100	No ${1} available to insert this card into	ไม่มี ${1} ให้ใส่การ์ดนี้
+30101	No equipment available for card insertion	ไม่มีอุปกรณ์ให้ใส่การ์ด
+30102	As more card slots are unsealed, the number of items required to unseal them will also increase.	ยิ่งปลดผนึกช่องการ์ดเพิ่ม จำนวนไอเทมที่ต้องใช้ปลดผนึกจะยิ่งเพิ่มขึ้น
+30103	Card is already at max level	การ์ดมีระดับสูงสุดแล้ว
+30104	Card is already at max star rank	การ์ดมีอันดับดาวสูงสุดแล้ว
+30105	The card must be ranked up before it can Level-up	ต้องเพิ่มอันดับการ์ดก่อนจึงจะเพิ่มระดับได้
+30106	0-star cards cannot be returned	ไม่สามารถคืนค่าการ์ด 0 ดาวได้
+30107	This Bond does not exist	ไม่มีพันธะนี้
+30108	Invalid card slot position	ตำแหน่งช่องการ์ดไม่ถูกต้อง
+30109	This card cannot be inserted into this Bond slot	ไม่สามารถใส่การ์ดนี้ในช่องพันธะนี้ได้
+30110	Bond already deployed	จัดพันธะลงสนามแล้ว
+30111	No Bond deployed	ยังไม่มีพันธะลงสนาม
+30112	There is no card in this slot	ไม่มีการ์ดในช่องนี้
+30113	Card slot has not been unsealed	ช่องการ์ดยังไม่ปลดผนึก
+30114	Repeat insertion is not allowed	ไม่อนุญาตให้ใส่ซ้ำ
+30115	Already unlocked	ปลดล็อกแล้ว
+30119	${1} Card	การ์ด ${1}
+30120	Base ${1} Unseal	ปลดผนึกที่ Base ${1}
+30122	Cards are inactive when no gear is equipped	การ์ดไม่ทำงานเมื่อไม่สวมอุปกรณ์
+30123	Two-Handed Weapons Only	เฉพาะอาวุธสองมือ
+30124	Inactive without an off-hand weapon	ไม่ทำงานเมื่อไม่มีอาวุธมือรอง
+30125	Off-hand cards are inactive while using a two-handed weapon	การ์ดมือรองไม่ทำงานขณะใช้อาวุธสองมือ
+30126	(Cards are inactive when no gear is equipped)	(การ์ดไม่ทำงานเมื่อไม่สวมอุปกรณ์)
+30127	If you equip a one-handed weapon, the card in the two-handed weapon slot, <color=#CC762A>${1}</color>, will become <color=#CC762A>inactive</color>. Replace your gear?	หากสวมอาวุธมือเดียว การ์ดในช่องอาวุธสองมือ <color=#CC762A>${1}</color> จะ<color=#CC762A>ไม่ทำงาน</color> ต้องการเปลี่ยนอุปกรณ์หรือไม่?
+30128	You can adjust your cards in the Card System	คุณปรับการ์ดได้ในระบบการ์ด
+30129	Equipment Insert Card	ใส่การ์ดอุปกรณ์
+30130	Select a card to replace (click or drag)	เลือกการ์ดที่จะเปลี่ยน (คลิกหรือลาก)
+30131	Current Equipment	อุปกรณ์ปัจจุบัน
+30132	Select a card on the left to equip	เลือกการ์ดทางซ้ายเพื่อสวมใส่
+30134	No cards	ไม่มีการ์ด
+30135	No Bonds	ไม่มีพันธะ
+30138	Taking off <color=#CC762A>${1}</color> will also undeploy the Bond <color=#CC762A>${2}</color>. Are you sure you want to take it off?	การถอด <color=#CC762A>${1}</color> จะนำพันธะ <color=#CC762A>${2}</color> ออกจากสนามด้วย ต้องการถอดหรือไม่?
+30139	Edit Active Bonds	แก้ไขพันธะที่ทำงาน
+30140	No active Bonds	ไม่มีพันธะที่ทำงาน
+30141	Select a Bond to replace (click or drag)	เลือกพันธะที่จะเปลี่ยน (คลิกหรือลาก)
+30142	No Bonds active	ไม่มีพันธะที่ทำงาน
+30143	No Bonds collected	ไม่มีพันธะในคอลเลกชัน
+30144	No gear	ไม่มีอุปกรณ์
+30145	Cards in this slot are only active while a <color=#CC762A>two-handed weapon is equipped</color>. This card will be inactive if a one-handed weapon is equipped	การ์ดในช่องนี้ทำงานเฉพาะเมื่อ<color=#CC762A>สวมอาวุธสองมือ</color> การ์ดนี้จะไม่ทำงานหากสวมอาวุธมือเดียว
+30146	If you equip a two-handed weapon, the off-hand card <color=#CC762A>${1}</color> will become <color=#CC762A>inactive</color>. Replace your gear?	หากสวมอาวุธสองมือ การ์ดมือรอง <color=#CC762A>${1}</color> จะ<color=#CC762A>ไม่ทำงาน</color> ต้องการเปลี่ยนอุปกรณ์หรือไม่?
+30147	Active (${1}/3)	ทำงาน (${1}/3)
+30148	Monster transformation cards grant special effects when socketed in the corresponding slot	การ์ดแปลงร่างมอนสเตอร์มอบเอฟเฟกต์พิเศษเมื่อใส่ในช่องที่ตรงกัน
+30149	No appearance	ไม่มีรูปลักษณ์
+30150	Equipment Insert Card	ใส่การ์ดอุปกรณ์
+30151	Cards are inactive when the appearance is not applied	การ์ดไม่ทำงานเมื่อไม่ได้ใช้รูปลักษณ์
+30152	Cannot socket cards without an off-hand weapon equipped	ไม่สามารถใส่การ์ดได้หากไม่สวมอาวุธมือรอง
+30154	Card List	รายชื่อการ์ด
+30155	Cannot socket cards until the Wardrobe System is unlocked	ไม่สามารถใส่การ์ดได้จนกว่าจะปลดล็อกระบบตู้เสื้อผ้า
+30156	Consume Collection Cards	ใช้การ์ดคอลเลกชัน
+30157	Select cards for Collection	เลือกการ์ดสำหรับคอลเลกชัน
+30158	You have enough cards	คุณมีการ์ดเพียงพอ
+30159	Only cards of the same quality can be used for Collection	ใช้ได้เฉพาะการ์ดคุณภาพเดียวกันสำหรับคอลเลกชัน
+30161	Consume Collection Cards to perform Collection?	ใช้การ์ดคอลเลกชันเพื่อทำคอลเลกชันหรือไม่?
+30162	Not enough cards	การ์ดไม่เพียงพอ
+30163	Cards of the same quality can be used for Collection, producing Collection Cards of the same quality	ใช้การ์ดคุณภาพเดียวกันเพื่อทำคอลเลกชันและได้รับการ์ดคอลเลกชันคุณภาพเดียวกัน
+30165	Bulk Dismantle	แยกชิ้นส่วนเป็นชุด
+30169	Compare	เปรียบเทียบ
+30170	Show less Compare	แสดงการเปรียบเทียบน้อยลง
+30171	Collection Effects (Collection Cards Only)	เอฟเฟกต์คอลเลกชัน (เฉพาะการ์ดคอลเลกชัน)
+30172	Click to add cards to the Collection	คลิกเพื่อเพิ่มการ์ดในคอลเลกชัน
+30173	Collection Preview	ตัวอย่างคอลเลกชัน
+30174	${1} Collection	คอลเลกชัน ${1}
+30175	Result Preview	ตัวอย่างผลลัพธ์
+30177	Collection successful	ทำคอลเลกชันสำเร็จ
+30178	Only one card with the same name can be socketed. Already socketed: ${1}	ใส่การ์ดชื่อเดียวกันได้เพียงหนึ่งใบ ใส่อยู่แล้ว: ${1}
+30179	Collection Effects	เอฟเฟกต์คอลเลกชัน
+30180	Card Effects	เอฟเฟกต์การ์ด
+30181	Only one card that changes armor elemental properties can be socketed. Already socketed: ${1}	ใส่การ์ดที่เปลี่ยนธาตุเกราะได้เพียงหนึ่งใบ ใส่อยู่แล้ว: ${1}
+30183	Filter Cards	กรองการ์ด
+30184	Obtain Card	รับการ์ด
+31002	Next	ถัดไป
+31003	Requirement	เงื่อนไข
+31004	Power Requirement:	พลังที่ต้องการ:
+31005	Level Requirement:	ระดับที่ต้องการ:
+31006	Title level differences will trigger Extra effects	ความต่างของระดับฉายาจะเปิดใช้เอฟเฟกต์เพิ่มเติม
+31007	Advance	เลื่อนขั้น
+31008	This title is not yet unlocked.	ฉายานี้ยังไม่ปลดล็อก
+31009	When fighting other players, you deal Extra damage to players with a lower Title level, but deal reduced damage to players with a higher Title level.	เมื่อต่อสู้กับผู้เล่นอื่น คุณสร้างความเสียหายเพิ่มเติมแก่ผู้เล่นที่มีระดับฉายาต่ำกว่า แต่สร้างความเสียหายลดลงแก่ผู้เล่นที่มีระดับฉายาสูงกว่า
+31010	Title Description	คำอธิบายฉายา
+31012	New Titles are not yet available. Stay tuned!	ฉายาใหม่ยังไม่พร้อมใช้งาน โปรดติดตาม!
+31013	Base Level	ระดับ Base
+31014	Title level is already at the maximum.	ฉายามีระดับสูงสุดแล้ว
+31015	Highest recorded Power is insufficient.	พลังสูงสุดที่เคยบันทึกไว้ไม่เพียงพอ
+31016	Level too low	ระดับต่ำเกินไป
+31018	Too many requests. Please try again later.	คำขอมากเกินไป โปรดลองอีกครั้งในภายหลัง
+31019	Title Description	คำอธิบายฉายา
+31101	Daily Uses Remaining:	จำนวนใช้ที่เหลือต่อวัน:
+31102	Weekly Uses Remaining:	จำนวนใช้ที่เหลือต่อสัปดาห์:
+31103	Monthly Uses Remaining:	จำนวนใช้ที่เหลือต่อเดือน:
+31105	Delete ${1}?	ลบ ${1} หรือไม่?
+31106	Use ${1}?	ใช้ ${1} หรือไม่?
+31107	Reward: Guaranteed	รางวัล: ได้แน่นอน
+31108	Reward: Selectable	รางวัล: เลือกได้
+31109	Reward: Random	รางวัล: สุ่ม
+31110	Select reward items ${1}/${2}	เลือกไอเทมรางวัล ${1}/${2}
+31112	Use (${1})	ใช้ (${1})
+31114	Equip (${1})	สวมใส่ (${1})
+31115	Job Restriction	ข้อจำกัดอาชีพ
+31116	Gender Restriction	ข้อจำกัดเพศ
+31117	Level Requirement	ระดับที่ต้องการ
+31118	Attempt Restriction	ข้อจำกัดจำนวนครั้ง
+31119	Cooldown	คูลดาวน์
+31120	Cooldown Group Duration	ระยะเวลาคูลดาวน์กลุ่ม
+31121	Related Tips	คำแนะนำที่เกี่ยวข้อง
+31123	Maximum quantity reached.	ถึงจำนวนสูงสุดแล้ว
+31124	Minimum quantity reached.	ถึงจำนวนต่ำสุดแล้ว
+31125	Male Character	ตัวละครชาย
+31126	Female Character	ตัวละครหญิง
+31127	Time Left:	เวลาที่เหลือ:
+31128	Valid For:	ใช้ได้เป็นเวลา:
+31131	Yet to start	ยังไม่เริ่ม
+31134	Obtained	ได้รับแล้ว
+31135	Button	ปุ่ม
+31136	Sell Item	ขายไอเทม
+31137	${1}d ${2}h ${3}m	${1} วัน ${2} ชั่วโมง ${3} นาที
+31138	This item cannot be used yet.	ไอเทมนี้ยังใช้ไม่ได้
+31139	<color=#b4a797>(Recent)</color>	<color=#b4a797>(ล่าสุด)</color>
+31140	Insufficient items	ไอเทมไม่เพียงพอ
+31141	Select a reward item.	เลือกไอเทมรางวัล
+31142	Mount Preview	ตัวอย่างพาหนะ
+31143	Costume Preview	ตัวอย่างคอสตูม
+31144	Use By:${1}	ใช้ภายใน:${1}
+31145	This item has been disabled.	ไอเทมนี้ถูกปิดใช้งาน
+31146	Disabled	ปิดใช้งาน
+31147	Upgrading this item will make it untradeable. Continue?	การอัปเกรดไอเทมนี้จะทำให้ซื้อขายไม่ได้ ต้องการดำเนินการต่อหรือไม่?
+31148	Some synthesis materials are untradeable, so the resulting item will also be untradeable. Proceed with synthesis?	วัสดุสังเคราะห์บางชิ้นซื้อขายไม่ได้ ไอเทมที่ได้จึงซื้อขายไม่ได้เช่นกัน ต้องการสังเคราะห์ต่อหรือไม่?
+31149	Untradeable	ซื้อขายไม่ได้
+31150	Tradeable	ซื้อขายได้
+31151	Quantity	จำนวน
+31153	Crafted by	คราฟต์โดย
+31154	Recyclable</color><sprite name="${1}">x${2}	รีไซเคิลได้</color><sprite name="${1}">x${2}
+31156	Used for Exchange	ใช้แลกเปลี่ยน
+31157	${1} Tradeable	${1} ซื้อขายได้
+31158	Expires after ${1}	หมดอายุหลัง ${1}
+31159	Reward Selection	เลือกรางวัล
+31160	Next Season	ฤดูกาลถัดไป
+31161	Redeemable Items	ไอเทมที่แลกได้
+31200	Not enough Fly Wings.	Fly Wings ไม่เพียงพอ
+31201	Not enough Butterfly Wings.	Butterfly Wings ไม่เพียงพอ
+31202	Butterfly Wings cannot be used in this area.	ไม่สามารถใช้ Butterfly Wings ในพื้นที่นี้ได้
+31203	Fly Wings cannot be used in this area.	ไม่สามารถใช้ Fly Wings ในพื้นที่นี้ได้
+38000	Event Calendar	ปฏิทินอีเวนต์
+38003	Calendar	ปฏิทิน
+38004	Solo	เดี่ยว
+38006	Daily Must-Dos	สิ่งที่ต้องทำประจำวัน
+38008	Attempts: ${1}/${2}	จำนวนครั้ง: ${1}/${2}
+38009	Limited-Time Event	อีเวนต์จำกัดเวลา
+38010	Available: ${1}~${2}	เปิดให้เข้าร่วม: ${1}~${2}
+38011	Activity	ความเคลื่อนไหว
+38012	Updates daily at 5:00	อัปเดตทุกวันเวลา 5:00
+38013	Ends in ${1}	สิ้นสุดในอีก ${1}
+38014	Starts in ${1}	เริ่มในอีก ${1}
+38015	In Progress…	กำลังดำเนินอยู่…
+38016	About to start…	ใกล้เริ่มแล้ว…
+38022	Daily Attempts: ${1}/${2}	จำนวนครั้งต่อวัน: ${1}/${2}
+38023	Weekly Attempts: ${1}/${2}	จำนวนครั้งต่อสัปดาห์: ${1}/${2}
+38024	Attempts: ${1}/${2}	จำนวนครั้ง: ${1}/${2}
+38033	Starts at ${1}	เริ่มเวลา ${1}
+38034	Starts in ${1}	เริ่มในอีก ${1}
+38035	Ends in ${1}	สิ้นสุดในอีก ${1}
+38036	Level: Lv${1}	ระดับ: Lv${1}
+38037	Format: ${1}	รูปแบบ: ${1}
+38038	Time:	เวลา:
+38039	Event Rewards:	รางวัลอีเวนต์:
+38040	Join	เข้าร่วม
+38041	Event Not Yet Available	อีเวนต์ยังไม่พร้อมใช้งาน
+38042	Level: No Limit	ระดับ: ไม่จำกัด
+38043	Event is currently unavailable.	อีเวนต์ไม่พร้อมใช้งานในขณะนี้
+38044	Daily	รายวัน
+38045	Weekly	รายสัปดาห์
+38501	<color=#FA983A>${1}</color> is available during ${2}	<color=#FA983A>${1}</color> เปิดให้เข้าร่วมระหว่าง ${2}
+38502	Event Calendar Help	ความช่วยเหลือปฏิทินอีเวนต์
+38503	Available Weekly	เปิดทุกสัปดาห์
+38504	Daily	รายวัน
+38512	Event Period:	ช่วงอีเวนต์:
+38513	Opens every ${1}${2}-${3}	เปิดทุก ${1}${2}-${3}
+38515	${1} to ${2}	${1} ถึง ${2}
+38517	First week of the season: ${1}${2}-${3}	สัปดาห์แรกของฤดูกาล: ${1}${2}-${3}
+38518	Opens ${1}${2}-${3}	เปิด ${1}${2}-${3}

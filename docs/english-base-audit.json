@@ -1,0 +1,14 @@
+{
+  "source_ids": 33513,
+  "runtime_ids": 33513,
+  "runtime_english_ids": 26767,
+  "runtime_thai_difference_ids": 6746,
+  "chinese_prose_in_english_ids": [],
+  "chinese_prose_in_target_ids": [],
+  "preserved_source_emoticon_ids": [
+    "18019"
+  ],
+  "all_source_ids_have_english_base": true,
+  "complete_thai_translation": false,
+  "game_tested": false
+}
