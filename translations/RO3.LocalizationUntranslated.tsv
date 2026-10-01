@@ -56,78 +56,22 @@
 11720000009	Right Heart	Right Heart
 1000	${1}${2} X ${3}	${1}${2} X ${3}
 1001	${1} X ${2}	${1} X ${2}
-1002	Confirm	Confirm
-1003	Cancel	Cancel
-1004	Currently unavailable. Coming soon.	Currently unavailable. Coming soon.
-1005	Friendly Reminder	Friendly Reminder
-1006	Delete	Delete
-1007	Menu	Menu
-1008	Backpack	Backpack
-1009	Function Menu	Function Menu
-1010	Total Ratings	Total Ratings
 1011	_	_
-1012	Tap to close	Tap to close
 1013	<sprite name="common_arrow_07_02">	<sprite name="common_arrow_07_02">
-1014	Please wait. Processing…	Please wait. Processing…
-1015	Rating ${1}	Rating ${1}
-1016	Weapon	Weapon
-1017	Armor	Armor
 1018	<color=#cc762a>${1}</color>	<color=#cc762a>${1}</color>
 1019	<u>${1}</u>	<u>${1}</u>
-1020	Exit	Exit
-1021	Notice	Notice
 1022	[${1}]	[${1}]
-1023	Expand	Expand
-1024	Show less	Show less
-1025	Go	Go
-1026	How to Obtain	How to Obtain
 1027	[<color=${1}><u><link="${2}">${3}</link></u></color>]	[<color=${1}><u><link="${2}">${3}</link></u></color>]
-1028	${1}d ${2}h ${3}m	${1}d ${2}h ${3}m
-1029	${1}h ${2}m	${1}h ${2}m
-1030	Not Available	Not Available
-1031	Use	Use
 1032	、	、
 1033	；	；
 1034	<color=#b4a797>${1}</color>	<color=#b4a797>${1}</color>
-1035	Edit Name	Edit Name
-1036	Tap to enter a name	Tap to enter a name
-1037	Function Details	Function Details
-1038	Notice	Notice
-1039	Rating	Rating
-1040	Filter	Filter
-1041	Already at the maximum value	Already at the maximum value
-1042	Already at the minimum value	Already at the minimum value
 1043	<color=#DD563F>%s</color>/%s	<color=#DD563F>%s</color>/%s
 1044	<color=#DD563F>%s</color>	<color=#DD563F>%s</color>
-1045	Function locked	Function locked
-1046	Do not remind again	Do not remind again
-1047	Back	Back
-1048	${1}m ${2}s	${1}m ${2}s
-1049	Obtained ${1} X ${2}	Obtained ${1} X ${2}
 1050	Protocol mismatch. Please use the corresponding server version, or update both the client and server to the latest version!\nClient protocol:${1} \nServer protocol:${2}\n\n Click Go to continue playing	Protocol mismatch. Please use the corresponding server version, or update both the client and server to the latest version!\nClient protocol:${1} \nServer protocol:${2}\n\n Click Go to continue playing
-1051	Monday	Monday
-1052	Tuesday	Tuesday
-1053	Wednesday	Wednesday
-1054	Thursday	Thursday
-1055	Friday	Friday
-1056	Saturday	Saturday
-1057	Sunday	Sunday
-1058	In ${1}d ${2}h	In ${1}d ${2}h
-1059	In ${1}d	In ${1}d
-1060	In ${1}h ${2}m	In ${1}h ${2}m
-1061	In ${1}h	In ${1}h
-1062	In ${1}m	In ${1}m
-1063	In ${1}s	In ${1}s
-1064	${1}s	${1}s
 1065	：	：
-1066	${1}m	${1}m
-1067	${1}h	${1}h
-1068	${1}d	${1}d
-1069	Failed to retrieve information.	Failed to retrieve information.
 1070	<sprite name="common_arrow_07_03">	<sprite name="common_arrow_07_03">
 1071	X${1}	X${1}
 1072	-	-
-1073	Complete	Complete
 11380000000	Wildlands	Wildlands
 11380000001	Natural Land	Natural Land
 11380000002	Dark Land	Dark Land
@@ -7844,228 +7788,20 @@
 10110200181	Moon Slasher	Moon Slasher
 10110200182	Sniping Shot	Sniping Shot
 10110200183	Twilight	Twilight
-27000	Settings	Settings
-27001	Basic	Basic
-27002	Show	Show
 27003	Log	Log
-27004	Chat Settings	Chat Settings
-27005	No settings Function available	No settings Function available
-27006	Switch Target	Switch Target
-27007	Nearest	Nearest
-27008	Low HP	Low HP
-27009	Chase Distance	Chase Distance
-27010	Default	Default
-27011	Settings	Settings
-27012	Distance	Distance
-27013	Auto	Auto
-27014	Additional Skill Range	Additional Skill Range
-27015	Lock Skill Indicator	Lock Skill Indicator
-27016	Unlock	Unlock
-27017	Close	Close
-27018	Display Skill Range	Display Skill Range
-27019	Auto Skills	Auto Skills
-27020	Go to Settings	Go to Settings
-27021	AFK Mode	AFK Mode
-27022	Attack While Moving	Attack While Moving
-27023	Attack in Place	Attack in Place
-27024	Range	Range
-27025	Map-wide	Map-wide
-27026	Privacy	Privacy
-27027	Display Character Info	Display Character Info
-27028	Key Settings	Key Settings
-27029	Display UI Buttons	Display UI Buttons
-27030	Battle	Battle
-27031	General	General
-27032	Switch Target	Switch Target
-27033	Skill bar 1	Skill bar 1
-27034	Skill bar 2	Skill bar 2
-27035	Skill bar 3	Skill bar 3
-27036	Skill bar 4	Skill bar 4
-27037	Skill bar 5	Skill bar 5
-27038	Skill bar 6	Skill bar 6
-27039	Skill Bar 7	Skill Bar 7
-27040	Skill Bar 8	Skill Bar 8
-27041	Skill Bar 9	Skill Bar 9
-27042	Interaction 1	Interaction 1
-27043	Interaction 2	Interaction 2
-27044	Interaction 3	Interaction 3
-27045	Quick Potion	Quick Potion
-27046	Forward	Forward
-27047	Move back	Move back
-27048	Move left	Move left
-27049	Move right	Move right
-27050	Backpack	Backpack
-27051	Map	Map
-27052	This conflicts with the shortcut for Function ${1}. Swap their shortcuts?	This conflicts with the shortcut for Function ${1}. Swap their shortcuts?
-27053	Save shortcut settings?	Save shortcut settings?
-27054	This will reset all shortcuts. Continue?	This will reset all shortcuts. Continue?
-27055	Reset	Reset
-27056	Press 【BackSpace】 to clear a shortcut	Press 【BackSpace】 to clear a shortcut
-27057	Empty	Empty
-27058	Account	Account
-27059	Switch Character	Switch Character
-27060	Log Out	Log Out
-27061	Are you sure you want to log out?	Are you sure you want to log out?
-27062	Sound	Sound
-27063	Master	Master
-27064	Music	Music
-27065	Effects	Effects
-27066	Character Voice	Character Voice
-27067	Voice Pack	Voice Pack
-27068	Switch Selected Target by Key	Switch Selected Target by Key
-27069	All Nearby Targets	All Nearby Targets
 27070	Nearby Targets with Both High Priorities	Nearby Targets with Both High Priorities
-27071	Target Priority	Target Priority
-27072	Smart DPS	Smart DPS
-27073	Smart Healing	Smart Healing
-27074	Casting Settings	Casting Settings
-27075	Casting Method	Casting Method
-27076	Normal Casting	Normal Casting
-27077	Quick Casting	Quick Casting
-27078	Reset Keys	Reset Keys
-27079	Official Recommended Keys:	Official Recommended Keys:
-27080	Classic Mode	Classic Mode
-27081	Modern Mode	Modern Mode
-27082	Reset	Reset
-27083	Cancel	Cancel
-27084	Please choose an appropriate key	Please choose an appropriate key
-27085	Move	Move
-27086	Function	Function
-27087	Keyboard Movement	Keyboard Movement
-27088	Keyboard	Keyboard
-27089	Mouse	Mouse
-27090	Right-Click Movement	Right-Click Movement
-27091	Chase with Drag Skills	Chase with Drag Skills
-27092	Chase Locked Target	Chase Locked Target
-27093	Do Not Chase	Do Not Chase
-27094	Default Drag Skill Position	Default Drag Skill Position
-27095	Farthest Point Ahead	Farthest Point Ahead
-27096	Your Position	Your Position
 27097	Farthest Edge of Nearby Unit	Farthest Edge of Nearby Unit
-27098	Stop Moving	Stop Moving
-27099	Smart Casting	Smart Casting
-27100	Language	Language
-27101	Skill Callout Display Range	Skill Callout Display Range
-27102	All	All
-27103	You and Party Members	You and Party Members
-27104	Only Self	Only Self
-27105	Skill Callout Display Density	Skill Callout Display Density
-27106	High	High
-27107	Medium	Medium
-27108	Low	Low
-27109	Selected Target	Selected Target
-27110	Continuously Normal Attack the Selected Target	Continuously Normal Attack the Selected Target
-27111	Unlock	Unlock
-27112	Close	Close
-27113	Name Information	Name Information
-27114	HP Bar	HP Bar
-27115	Damage Numbers	Damage Numbers
-27116	Only Self	Only Self
-27117	You and Your Team	You and Your Team
-27118	You and Enemies	You and Enemies
-27119	All	All
-27120	Show	Show
-27121	Hide	Hide
-27122	Name Position	Name Position
-27123	Above	Above
-27124	Below	Below
-27125	General Display	General Display
-27126	Max Characters on Screen	Max Characters on Screen
-27127	System Settings	System Settings
-27128	PC Mode	PC Mode
-27129	General Display	General Display
-27130	Skills	Skills
-27131	Sound Settings	Sound Settings
-27132	Other	Other
 27133	Hard Lock	Hard Lock
 27134	Semi-Soft Lock	Semi-Soft Lock
 27135	Full Soft Lock	Full Soft Lock
-27136	Hide All	Hide All
-27137	Ultimate Skill Camera	Ultimate Skill Camera
-27138	You	You
-27139	Team	Team
-27140	Same Faction	Same Faction
-27141	Enemy Team	Enemy Team
-27142	Skill Callouts	Skill Callouts
 27143	Stationary Skill Follow-Up	Stationary Skill Follow-Up
-27144	Follow-Up Logic	Follow-Up Logic
-27145	Target	Target
-27146	Green	Green
-27147	Dark Green	Dark Green
-27148	Blue	Blue
-27149	Yellow	Yellow
-27150	Red	Red
-27151	White	White
-27152	HP Bar Color Settings	HP Bar Color Settings
-27153	Name Color Settings	Name Color Settings
-27154	Custom Layout	Custom Layout
-27155	Graphics	Graphics
-27156	Graphics Settings	Graphics Settings
-27157	UI Scale	UI Scale
-27158	All	All
-27159	Always Display	Always Display
-27160	Notice	Notice
-27161	Battle	Battle
-27162	Drag UI elements to reposition them.	Drag UI elements to reposition them.
-27163	Restore default	Restore default
-27164	Save	Save
-27165	Save the current layout?	Save the current layout?
-27166	Adjust Scale	Adjust Scale
-27167	Auto	Auto
-27168	The UI scale is too large for the current resolution and has been automatically adjusted to ${1}.	The UI scale is too large for the current resolution and has been automatically adjusted to ${1}.
-27169	Scale	Scale
-27170	Opacity	Opacity
-27171	Very Low	Very Low
-27172	Low	Low
-27173	Medium	Medium
-27174	High	High
-27175	Ultra	Ultra
-27176	Cursor Style	Cursor Style
-27177	Save	Save
-27178	Show Cursor	Show Cursor
-27179	Cursor Scale	Cursor Scale
-27180	Shift + Right-click to control the camera	Shift + Right-click to control the camera
-27181	Go	Go
-27182	Style ${1}	Style ${1}
-27183	Graphics	Graphics
 10110200368	Pick Up Scale	Pick Up Scale
 10110200369	Discard Scale	Discard Scale
 10110200370	Build Shield Wall	Build Shield Wall
-27187	Frame Rate	Frame Rate
 27188	30fps	30fps
 27189	60fps	60fps
 27190	120fps	120fps
-27191	Anti-Aliasing	Anti-Aliasing
-27192	Party	Party
-27193	Self and Party	Self and Party
-27194	Purple	Purple
-27195	Item bar 1	Item bar 1
-27196	Item bar 2	Item bar 2
-27197	Item bar 3	Item bar 3
-27198	Item bar 4	Item bar 4
-27199	Item Bar 5	Item Bar 5
-27200	Item Bar 6	Item Bar 6
 27201	80fps	80fps
-27202	Using Unstuck will cause your Character to die. This cannot be undone. After death, use Revive to complete Unstuck. Are you sure you want to proceed?	Using Unstuck will cause your Character to die. This cannot be undone. After death, use Revive to complete Unstuck. Are you sure you want to proceed?
-27203	Mouse Move	Mouse Move
-27204	Move Method	Move Method
-27205	Selected Target	Selected Target
-27206	Left Tap	Left Tap
-27207	Right Tap	Right Tap
-27208	Adjust Camera	Adjust Camera
-27209	Drag with Mouse Right Tap	Drag with Mouse Right Tap
-27210	Mouse Left Tap Drag	Mouse Left Tap Drag
-27211	Shift+Mouse Right Tap and Drag	Shift+Mouse Right Tap and Drag
-27212	Shift+Mouse Left Tap to Drag	Shift+Mouse Left Tap to Drag
-27213	Reset Keys	Reset Keys
-27214	Camera controls conflict with the Select/Move key bindings. Please change them.	Camera controls conflict with the Select/Move key bindings. Please change them.
-27215	Use 【Mouse Right Tap (+Shift)】 to adjust the camera.\nZoom with Ctrl+Mouse Right Tap.\nUse 【Mouse Left Tap (+Shift)】 to adjust the camera.\nZoom with Ctrl+Mouse Left Tap.	Use 【Mouse Right Tap (+Shift)】 to adjust the camera.\nZoom with Ctrl+Mouse Right Tap.\nUse 【Mouse Left Tap (+Shift)】 to adjust the camera.\nZoom with Ctrl+Mouse Left Tap.
-27216	Mouse Left Tap	Mouse Left Tap
-27217	Right Tap	Right Tap
-27218	Shift+Mouse Left Tap	Shift+Mouse Left Tap
-27219	Shift+Mouse Right Tap	Shift+Mouse Right Tap
-27220	Open	Open
-27221	Off	Off
 10110200406	Devouring Tongue	Devouring Tongue
 10110200407	Indigestion	Indigestion
 10110200408	Putrid Explosion	Putrid Explosion
