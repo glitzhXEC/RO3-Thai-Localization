@@ -3069,43 +3069,6 @@
 11081100008	Time Left	Time Left
 11081100009	Try to Pick up scattered battlefield supplies to gain powerful skills	Try to Pick up scattered battlefield supplies to gain powerful skills
 11081100010	Head to the outskirts of the arena and Pick up Dragonblood Crystals	Head to the outskirts of the arena and Pick up Dragonblood Crystals
-11000	Are you sure you want to spend the following items to unlock 5 Backpack slots? Remaining unlocks: ${1}	Are you sure you want to spend the following items to unlock 5 Backpack slots? Remaining unlocks: ${1}
-11001	Maximum Backpack capacity reached. No more slots can be added.	Maximum Backpack capacity reached. No more slots can be added.
-11002	Backpack full. Please organize your Backpack first.	Backpack full. Please organize your Backpack first.
-11003	Backpack full. Please organize your Backpack before opening the gift pack.	Backpack full. Please organize your Backpack before opening the gift pack.
-11004	Unlock Notice	Unlock Notice
-11005	Not enough items to unlock Backpack slots.	Not enough items to unlock Backpack slots.
-11006	Sell	Sell
-11007	Failed to sell	Failed to sell
-11008	Sort	Sort
-11009	Organize (${1})	Organize (${1})
-11010	Organize Function is on cooldown	Organize Function is on cooldown
-11011	Dismantle	Dismantle
-11012	Sort by Rating	Sort by Rating
-11013	Sort by Tier	Sort by Tier
-11014	Sort by Quality	Sort by Quality
-11015	Sort by Tier	Sort by Tier
-11016	Sell	Sell
-11017	Tap to select items to sell. Press and hold to view item details.	Tap to select items to sell. Press and hold to view item details.
-11018	Proceeds	Proceeds
-11019	Please select an item to sell from the left.	Please select an item to sell from the left.
-11020	Sell	Sell
-11021	No items selected for sale.	No items selected for sale.
-11022	No items can be sold from this tab.	No items can be sold from this tab.
-11023	This item will expire at the end of the current Season.	This item will expire at the end of the current Season.
-11024	This item has expired	This item has expired
-11025	This item will be removed at the end of the current Season.	This item will be removed at the end of the current Season.
-11026	This item has been removed.	This item has been removed.
-11027	This item cannot be used until the next Season.	This item cannot be used until the next Season.
-11028	Removed	Removed
-11029	Expired items have been automatically removed.	Expired items have been automatically removed.
-11030	Equip	Equip
-11031	Fashion	Fashion
-11032	Refinement Resonance	Refinement Resonance
-11033	Enhancement Resonance	Enhancement Resonance
-11034	Items	Items
-11035	Equip	Equip
-11036	Card	Card
 11037	Divine Totem	Divine Totem
 11038	Soul Echo	Soul Echo
 10430000000	Member Arrivals and Departures	Member Arrivals and Departures
@@ -4583,46 +4546,8 @@
 11520200034	Unleash psychic power to deal ST damage.	Unleash psychic power to deal ST damage.
 11520200035	Multiple Elements, multiple effects, and AoE damage.	Multiple Elements, multiple effects, and AoE damage.
 11520200036	Self-enhancement specialized for ST combat.	Self-enhancement specialized for ST combat.
-20000	This mail has no attachments to claim.	This mail has no attachments to claim.
-20001	Mail claimed.	Mail claimed.
-20002	Deletion failed. This mail has unclaimed attachments.	Deletion failed. This mail has unclaimed attachments.
-20003	Deletion failed. This mail has been deleted or has expired.	Deletion failed. This mail has been deleted or has expired.
-20004	You have new mail, but your mailbox is full and cannot receive it. Please delete mail you've already processed.	You have new mail, but your mailbox is full and cannot receive it. Please delete mail you've already processed.
-20005	You received new mail. Check it soon.	You received new mail. Check it soon.
-20006	Mail attachments claimed.	Mail attachments claimed.
-20007	No mail to claim.	No mail to claim.
-20008	No mail to delete.	No mail to delete.
-20009	Your Backpack is full. Make room before claiming.	Your Backpack is full. Make room before claiming.
-20010	Cannot delete mail with unclaimed attachments.	Cannot delete mail with unclaimed attachments.
-20011	Your Backpack is full. Make room before claiming.	Your Backpack is full. Make room before claiming.
-20012	Delete all processed mail?	Delete all processed mail?
-20013	Friends	Friends
-20014	Mail	Mail
-20015	Blocks	Blocks
 20016	Connect	Connect
-20017	No mail.	No mail.
-20018	No mail to view.	No mail to view.
-20019	System	System
-20020	Guild	Guild
-20021	Mail Storage Limit: ${1}/${2}	Mail Storage Limit: ${1}/${2}
-20022	Delete All	Delete All
-20023	Claim All	Claim All
-20024	No mail right now.	No mail right now.
-20025	No mail.	No mail.
-20026	Expires in ${1} days	Expires in ${1} days
-20027	Claim	Claim
-20028	Attachments:	Attachments:
-20029	Mail Storage Limit: <color=#FA983A>${1}</color>/${2}	Mail Storage Limit: <color=#FA983A>${1}</color>/${2}
-20030	Mail Info	Mail Info
-20031	1. Mail is divided into System Mail and Guild Mail, which unlock at different levels.\n2. System Mail and Guild Mail have separate storage limits. Mail exceeding these limits cannot be received, so Adventurers should clear out mail regularly.\n3. Mail with attachments can only be deleted after the attachments have been claimed.\n4. Each mail has an expiration date. Expired mail is automatically deleted, so be sure to read it and claim its attachments in time.	1. Mail is divided into System Mail and Guild Mail, which unlock at different levels.\n2. System Mail and Guild Mail have separate storage limits. Mail exceeding these limits cannot be received, so Adventurers should clear out mail regularly.\n3. Mail with attachments can only be deleted after the attachments have been claimed.\n4. Each mail has an expiration date. Expired mail is automatically deleted, so be sure to read it and claim its attachments in time.
-20032	Your mailbox is almost full. Clear out some mail soon~	Your mailbox is almost full. Clear out some mail soon~
-20033	Your mailbox is full and cannot receive new mail. Clear out some mail.	Your mailbox is full and cannot receive new mail. Clear out some mail.
 20034	[Mail ${1}]	[Mail ${1}]
-20035	Permanent	Permanent
-20036	Expires in ${1} hr.	Expires in ${1} hr.
-20037	Expires in ${1} min.	Expires in ${1} min.
-20038	Hey, Adventurer.\nI'm the programmer who stays up late fixing bugs every night. Your mail... was accidentally flung into a rift in space-time by a mysterious line of my code.\nKeep this quiet. Log In Again or contact Customer Support, and I'll secretly pull your mail back for you.\n\nA mysterious programmer who doesn't want to write an incident report	Hey, Adventurer.\nI'm the programmer who stays up late fixing bugs every night. Your mail... was accidentally flung into a rift in space-time by a mysterious line of my code.\nKeep this quiet. Log In Again or contact Customer Support, and I'll secretly pull your mail back for you.\n\nA mysterious programmer who doesn't want to write an incident report
-20039	A Letter Lost in Another Dimension	A Letter Lost in Another Dimension
 13290000000	Novice	Novice
 13290000001	Star of Rekenber	Star of Rekenber
 13290000002	Composer	Composer
@@ -9998,51 +9923,13 @@
 11490000000	Number of stalls increased by ^{1}${1}^{2}	Number of stalls increased by ^{1}${1}^{2}
 11490000001	Trade Exchange Collect limit increased by ^{1}${1}^{2}	Trade Exchange Collect limit increased by ^{1}${1}^{2}
 11490000002	${1} acquisition efficiency increased by ^{1}${2}%^{2}	${1} acquisition efficiency increased by ^{1}${2}%^{2}
-32000	Details	Details
-32001	Add Marker	Add Marker
 32002	Butterfly Wing	Butterfly Wing
-32003	World Map	World Map
 32004	NPC	NPC
-32005	Monster	Monster
-32006	Markers	Markers
-32007	Ch. ${1}	Ch. ${1}
-32008	Monster Drops	Monster Drops
-32009	EXP Gain: ${1}%	EXP Gain: ${1}%
-32010	Material Gain: ${1}%	Material Gain: ${1}%
-32011	Go to Monster	Go to Monster
-32012	Go	Go
-32013	View Cave	View Cave
-32014	Hide Cave	Hide Cave
-32015	View Info	View Info
-32016	Hide Info	Hide Info
-32017	View Event	View Event
-32018	Hide Event	Hide Event
 32019	Midgard Continent	Midgard Continent
-32020	Switched to Channel ${1}.	Switched to Channel ${1}.
-32021	This channel is full. Unable to join.	This channel is full. Unable to join.
-32022	This area is full. Please wait a moment.	This area is full. Please wait a moment.
-32023	You cannot switch channels while dead.	You cannot switch channels while dead.
-32024	The target channel does not exist.	The target channel does not exist.
-32025	You cannot switch channels while in Battle Status.	You cannot switch channels while in Battle Status.
-32026	You cannot switch channels during an Interaction.	You cannot switch channels during an Interaction.
-32027	Auto-follow has stopped due to switching channels.	Auto-follow has stopped due to switching channels.
-32028	The wait time was too long. Please try again later.	The wait time was too long. Please try again later.
-32029	This area has not been unlocked yet.	This area has not been unlocked yet.
-32030	No markers.	No markers.
-32031	No NPCs.	No NPCs.
-32032	No monsters.	No monsters.
-32033	Filter results have been applied to all maps.	Filter results have been applied to all maps.
 32034	NPC	NPC
-32035	Teleporter	Teleporter
 32036	Gathering Tribe	Gathering Tribe
 32037	Mining Tribe	Mining Tribe
 32038	Logging Tribe	Logging Tribe
-32039	Teleportation is not available at the destination.	Teleportation is not available at the destination.
-32040	Tap an unlocked map to teleport.	Tap an unlocked map to teleport.
-32041	Auto-pathing is unavailable in this area.	Auto-pathing is unavailable in this area.
-32042	You must explore this area on your own.	You must explore this area on your own.
-32043	Confirm Teleportation	Confirm Teleportation
-32044	Mini Map	Mini Map
 32101	Abandoned Mine	Abandoned Mine
 32102	Hidden Forest	Hidden Forest
 32103	Geffen Tower	Geffen Tower
@@ -10055,7 +9942,6 @@
 32110	Sphinx Crypt	Sphinx Crypt
 32111	Shipwreck Labyrinth	Shipwreck Labyrinth
 32112	Glast Heim Underground	Glast Heim Underground
-32113	Map Coordinates	Map Coordinates
 33000	Max Level	Max Level
 33001	Prerequisite Skill <color=#cc762a>${1}</color>	Prerequisite Skill <color=#cc762a>${1}</color>
 33002	Switch stat builds. This version currently supports only one build.	Switch stat builds. This version currently supports only one build.
@@ -10234,135 +10120,13 @@
 12290000005	Gameplay Map	Gameplay Map
 12290000006	Rhythm of Music Scenario	Rhythm of Music Scenario
 12290000007	Animal World Script	Animal World Script
-34000	Main Screen Chat Settings	Main Screen Chat Settings
-34001	World	World
-34002	Guild	Guild
-34003	Party	Party
-34004	Whisper	Whisper
-34005	Recruit	Recruit
 34006	Build	Build
-34007	Nearby	Nearby
-34008	Auto-Send Bullet Comments Settings	Auto-Send Bullet Comments Settings
-34009	Auto-Play Voice Settings	Auto-Play Voice Settings
-34010	Auto-play on Wi-Fi only	Auto-play on Wi-Fi only
-34011	Stranger Private Message Settings	Stranger Private Message Settings
-34012	Block ≤	Block ≤
-34013	private messages from strangers below this level	private messages from strangers below this level
-34014	Chat Settings	Chat Settings
-34015	Portrait	Portrait
-34016	Portrait Frame	Portrait Frame
-34017	Chat Bubble	Chat Bubble
-34018	Chat Settings	Chat Settings
-34019	Enter text...	Enter text...
-34020	Edit Private Chat	Edit Private Chat
-34021	Friends	Friends
 34022	Golden Orchid	Golden Orchid
-34023	Mentorship	Mentorship
-34024	Group Chat	Group Chat
-34025	Enter a player name to search	Enter a player name to search
-34026	Number of close friends and private groups allowed:	Number of close friends and private groups allowed:
-34027	Submit	Submit
-34028	Cancel	Cancel
-34029	Report Description:	Report Description:
-34030	Reason for Report:	Reason for Report:
-34031	Reported Player:	Reported Player:
-34032	Report	Report
-34033	No messages	No messages
-34034	Mini Window	Mini Window
-34035	Locate	Locate
-34036	Broadcast	Broadcast
-34037	Finder	Finder
-34038	Create Party	Create Party
-34039	Tap to enter text	Tap to enter text
-34040	Send	Send
 34041	Tree Hollow Chat Channel	Tree Hollow Chat Channel
-34042	Mysterious Adventurer	Mysterious Adventurer
 34043	Tree Hollow	Tree Hollow
-34044	System	System
-34045	Recently used	Recently used
-34046	${1} new messages received	${1} new messages received
-34047	You're sending messages too frequently. Please try again later.	You're sending messages too frequently. Please try again later.
-34048	Message cannot be empty	Message cannot be empty
-34049	Channel window created	Channel window created
-34050	Maximum number of windows reached	Maximum number of windows reached
-34051	Maximum message length reached	Maximum message length reached
-34052	Public channel chat unlocks at Lv. ${1}	Public channel chat unlocks at Lv. ${1}
-34053	Join a guild to chat in this channel	Join a guild to chat in this channel
-34054	You are not in a party	You are not in a party
-34055	Tree Hollow channel chat unlocks at Lv. ${1}	Tree Hollow channel chat unlocks at Lv. ${1}
-34056	No new messages	No new messages
-34057	Failed to send message to the server	Failed to send message to the server
-34058	Channel	Channel
-34059	1. The Tree Hollow channel offers an 【Anonymous】 mode.\n\n2. There is a Chance that your disguise will slip, revealing your true identity.\n\n3. A different anonymous theme is available each day. You will receive a random alias, including a name and Portrait, which refreshes the next day.\n\n4. We will Keep a strict moderation system in place. Please do not post inappropriate content.	1. The Tree Hollow channel offers an 【Anonymous】 mode.\n\n2. There is a Chance that your disguise will slip, revealing your true identity.\n\n3. A different anonymous theme is available each day. You will receive a random alias, including a name and Portrait, which refreshes the next day.\n\n4. We will Keep a strict moderation system in place. Please do not post inappropriate content.
-34060	Channel Description	Channel Description
-34061	All	All
-34062	Incorrect message channel	Incorrect message channel
-34063	Hold to Talk	Hold to Talk
-34064	Emotes	Emotes
-34065	Record	Record
-34066	Character	Character
-34067	Item	Item
-34068	Join a guild	Join a guild
-34069	Broadcast	Broadcast
-34070	Preview Style	Preview Style
-34071	Select Item	Select Item
-34072	Failed to join chat channel	Failed to join chat channel
-34073	You were mentioned	You were mentioned
 34074	[@${1}]	[@${1}]
-34075	Tap to Join Party	Tap to Join Party
 34076	${1}[Members: ${2}/${3}]\n${4}	${1}[Members: ${2}/${3}]\n${4}
-34077	Release to Send	Release to Send
-34078	Voice message is too short	Voice message is too short
-34079	Reply	Reply
-34080	Copy	Copy
-34081	You can enter up to ${1} items at once	You can enter up to ${1} items at once
-34082	Repeat item entered	Repeat item entered
-34083	Show chat bubbles above characters	Show chat bubbles above characters
-34084	Go Add Friend!	Go Add Friend!
-34085	You haven't added any Group Chats yet!	You haven't added any Group Chats yet!
-34086	Go join a Golden Orchid!	Go join a Golden Orchid!
-34087	You haven't joined a mentorship yet!	You haven't joined a mentorship yet!
-34088	Broadcast item required	Broadcast item required
-34089	Main Screen Chat Settings	Main Screen Chat Settings
-34090	No voice input device detected	No voice input device detected
-34091	Voice: This feature is unavailable	Voice: This feature is unavailable
-34092	Items	Items
-34093	Equip	Equip
-34094	Card	Card
 34095	<color=${1}><u><link="${2}">${3}</link></u></color>	<color=${1}><u><link="${2}">${3}</link></u></color>
-34096	Add	Add
-34097	Clear Chat	Clear Chat
-34098	Channel One <color=#FF993F>${1} Members</color>	Channel One <color=#FF993F>${1} Members</color>
-34099	Channel Two <color=#FF993F>${1} Members</color>	Channel Two <color=#FF993F>${1} Members</color>
-34100	Channel Three <color=#FF993F>${1} Members</color>	Channel Three <color=#FF993F>${1} Members</color>
-34101	Recruitment message has expired	Recruitment message has expired
-34102	Party application sent	Party application sent
-34103	Member ${1}	Member ${1}
-34104	Channel Members	Channel Members
-34105	Muted players cannot use their microphones.	Muted players cannot use their microphones.
-34106	Exit Prompt	Exit Prompt
-34107	Are you sure you want to leave the current channel?	Are you sure you want to leave the current channel?
-34108	Leave Channel	Leave Channel
-34109	Are you sure you want to remove this player from the channel?	Are you sure you want to remove this player from the channel?
-34110	Request Voice Access	Request Voice Access
-34111	Tap to type...	Tap to type...
-34112	Send Request	Send Request
-34113	Guild Voice Channel Invitation	Guild Voice Channel Invitation
-34114	<color=#FF993F>${1}</color> has invited you to join the guild voice channel.	<color=#FF993F>${1}</color> has invited you to join the guild voice channel.
-34115	Do not accept Guild Voice invitations for 10 minutes	Do not accept Guild Voice invitations for 10 minutes
-34116	Unmute All	Unmute All
-34117	Manage Speaking Permissions	Manage Speaking Permissions
-34118	Channel One	Channel One
-34119	Channel Two	Channel Two
-34120	Channel Three	Channel Three
-34121	Unable to join this channel. Please try again later.	Unable to join this channel. Please try again later.
-34122	Your message contains inappropriate language. Please revise it and try again.	Your message contains inappropriate language. Please revise it and try again.
-34123	Group Whisper	Group Whisper
-34124	Channel names are limited to ${1} characters.	Channel names are limited to ${1} characters.
-34125	Equipped	Equipped
-34126	Players removed via Leave Channel will be Auto-added to Blocks and cannot Enter this Channel again for ${1} hours.	Players removed via Leave Channel will be Auto-added to Blocks and cannot Enter this Channel again for ${1} hours.
-34127	Invite Guild Members	Invite Guild Members
-34128	There are currently no Guild Members Online	There are currently no Guild Members Online
 10470000000	grant	grant
 10470000001	karl	karl
 10470000002	aldric	aldric
@@ -11187,38 +10951,7 @@
 10470000821	Sound Asleeper	Sound Asleeper
 10470000822	Food Vendor	Food Vendor
 10470000823	Map Vendor	Map Vendor
-35000	Quests	Quests
-35001	No Quests Available	No Quests Available
-35002	Current Quest	Current Quest
-35003	Available Quests	Available Quests
-35004	Complete the following objectives	Complete the following objectives
-35005	Quest Rewards	Quest Rewards
-35006	Complete	Complete
-35007	Reset	Reset
-35008	Go	Go
-35009	Abandon	Abandon
-35010	Track Quest	Track Quest
-35011	Time Limit: ${1} Days	Time Limit: ${1} Days
-35012	Time Limit: ${1}	Time Limit: ${1}
-35013	[${1}] Quest Failed	[${1}] Quest Failed
-35014	Quest Complete: 【${1}】	Quest Complete: 【${1}】
-35015	Failed to accept quest [${1}].	Failed to accept quest [${1}].
-35016	Failed to reset quest [${1}]	Failed to reset quest [${1}]
-35017	Failed to abandon quest [${1}]	Failed to abandon quest [${1}]
-35018	Failed to turn in quest [${1}]	Failed to turn in quest [${1}]
-35019	Failed to track quest [${1}]	Failed to track quest [${1}]
-35020	Quest [${1}] progress updated.	Quest [${1}] progress updated.
-35021	Go	Go
-35022	Quest Failed	Quest Failed
-35023	Quest Timed Out	Quest Timed Out
-35024	You haven't accepted the quest yet~	You haven't accepted the quest yet~
-35025	No quests are currently available~	No quests are currently available~
-35026	Submit	Submit
 35027	TBD	TBD
-35028	Dungeon Quest	Dungeon Quest
-35029	You must wait for the countdown to reach zero and the quest to begin before proceeding.	You must wait for the countdown to reach zero and the quest to begin before proceeding.
-35030	or ${1}	or ${1}
-35031	<color=#99FF9F>Current Server Level Cap: Lv. ${1}\n${2}: Server Level Cap increases to Lv. ${3}</color>	<color=#99FF9F>Current Server Level Cap: Lv. ${1}\n${2}: Server Level Cap increases to Lv. ${3}</color>
 10470000856	Life Skill Mentor	Life Skill Mentor
 10470000857	Wedding Officiant	Wedding Officiant
 10470000858	Adventure Guild Mentor	Adventure Guild Mentor

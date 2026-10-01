@@ -3643,3 +3643,270 @@ ID	English	Thai_Translation
 27219	Shift+Mouse Right Tap	Shift+คลิกขวา
 27220	Open	เปิด
 27221	Off	ปิด
+11000	Are you sure you want to spend the following items to unlock 5 Backpack slots? Remaining unlocks: ${1}	ต้องการใช้ไอเทมต่อไปนี้เพื่อปลดล็อกช่องกระเป๋า 5 ช่องหรือไม่? จำนวนครั้งที่ยังปลดล็อกได้: ${1}
+11001	Maximum Backpack capacity reached. No more slots can be added.	กระเป๋ามีความจุสูงสุดแล้ว ไม่สามารถเพิ่มช่องได้อีก
+11002	Backpack full. Please organize your Backpack first.	กระเป๋าเต็ม โปรดจัดระเบียบกระเป๋าก่อน
+11003	Backpack full. Please organize your Backpack before opening the gift pack.	กระเป๋าเต็ม โปรดจัดระเบียบกระเป๋าก่อนเปิดชุดของขวัญ
+11004	Unlock Notice	แจ้งเตือนการปลดล็อก
+11005	Not enough items to unlock Backpack slots.	ไอเทมไม่เพียงพอสำหรับปลดล็อกช่องกระเป๋า
+11006	Sell	ขาย
+11007	Failed to sell	ขายไม่สำเร็จ
+11008	Sort	เรียงลำดับ
+11009	Organize (${1})	จัดระเบียบ (${1})
+11010	Organize Function is on cooldown	ฟังก์ชันจัดระเบียบอยู่ระหว่างคูลดาวน์
+11011	Dismantle	แยกชิ้นส่วน
+11012	Sort by Rating	เรียงตามคะแนน
+11013	Sort by Tier	เรียงตามระดับ
+11014	Sort by Quality	เรียงตามคุณภาพ
+11015	Sort by Tier	เรียงตามระดับ
+11016	Sell	ขาย
+11017	Tap to select items to sell. Press and hold to view item details.	แตะเพื่อเลือกไอเทมที่จะขาย กดค้างเพื่อดูรายละเอียดไอเทม
+11018	Proceeds	รายได้จากการขาย
+11019	Please select an item to sell from the left.	โปรดเลือกไอเทมที่จะขายจากด้านซ้าย
+11020	Sell	ขาย
+11021	No items selected for sale.	ยังไม่ได้เลือกไอเทมที่จะขาย
+11022	No items can be sold from this tab.	ไม่มีไอเทมที่ขายได้ในแท็บนี้
+11023	This item will expire at the end of the current Season.	ไอเทมนี้จะหมดอายุเมื่อสิ้นสุดฤดูกาลปัจจุบัน
+11024	This item has expired	ไอเทมนี้หมดอายุแล้ว
+11025	This item will be removed at the end of the current Season.	ไอเทมนี้จะถูกนำออกเมื่อสิ้นสุดฤดูกาลปัจจุบัน
+11026	This item has been removed.	ไอเทมนี้ถูกนำออกแล้ว
+11027	This item cannot be used until the next Season.	ไม่สามารถใช้ไอเทมนี้ได้จนกว่าจะถึงฤดูกาลถัดไป
+11028	Removed	นำออกแล้ว
+11029	Expired items have been automatically removed.	นำไอเทมที่หมดอายุออกโดยอัตโนมัติแล้ว
+11030	Equip	สวมใส่
+11031	Fashion	แฟชั่น
+11032	Refinement Resonance	เรโซแนนซ์การตีบวก
+11033	Enhancement Resonance	เรโซแนนซ์การเสริมพลัง
+11034	Items	ไอเทม
+11035	Equip	สวมใส่
+11036	Card	การ์ด
+20000	This mail has no attachments to claim.	จดหมายนี้ไม่มีของแนบให้รับ
+20001	Mail claimed.	รับจดหมายแล้ว
+20002	Deletion failed. This mail has unclaimed attachments.	ลบไม่สำเร็จ จดหมายนี้มีของแนบที่ยังไม่ได้รับ
+20003	Deletion failed. This mail has been deleted or has expired.	ลบไม่สำเร็จ จดหมายนี้ถูกลบหรือหมดอายุแล้ว
+20004	You have new mail, but your mailbox is full and cannot receive it. Please delete mail you've already processed.	คุณมีจดหมายใหม่ แต่กล่องจดหมายเต็มและไม่สามารถรับได้ โปรดลบจดหมายที่จัดการแล้ว
+20005	You received new mail. Check it soon.	คุณได้รับจดหมายใหม่ อย่าลืมตรวจดู
+20006	Mail attachments claimed.	รับของแนบในจดหมายแล้ว
+20007	No mail to claim.	ไม่มีจดหมายให้รับ
+20008	No mail to delete.	ไม่มีจดหมายให้ลบ
+20009	Your Backpack is full. Make room before claiming.	กระเป๋าเต็ม โปรดเพิ่มพื้นที่ว่างก่อนรับ
+20010	Cannot delete mail with unclaimed attachments.	ไม่สามารถลบจดหมายที่มีของแนบซึ่งยังไม่ได้รับ
+20011	Your Backpack is full. Make room before claiming.	กระเป๋าเต็ม โปรดเพิ่มพื้นที่ว่างก่อนรับ
+20012	Delete all processed mail?	ลบจดหมายที่จัดการแล้วทั้งหมดหรือไม่?
+20013	Friends	เพื่อน
+20014	Mail	จดหมาย
+20015	Blocks	รายชื่อบล็อก
+20017	No mail.	ไม่มีจดหมาย
+20018	No mail to view.	ไม่มีจดหมายให้ดู
+20019	System	ระบบ
+20020	Guild	กิลด์
+20021	Mail Storage Limit: ${1}/${2}	ขีดจำกัดการจัดเก็บจดหมาย: ${1}/${2}
+20022	Delete All	ลบทั้งหมด
+20023	Claim All	รับทั้งหมด
+20024	No mail right now.	ขณะนี้ไม่มีจดหมาย
+20025	No mail.	ไม่มีจดหมาย
+20026	Expires in ${1} days	หมดอายุในอีก ${1} วัน
+20027	Claim	รับ
+20028	Attachments:	ของแนบ:
+20029	Mail Storage Limit: <color=#FA983A>${1}</color>/${2}	ขีดจำกัดการจัดเก็บจดหมาย: <color=#FA983A>${1}</color>/${2}
+20030	Mail Info	ข้อมูลจดหมาย
+20031	1. Mail is divided into System Mail and Guild Mail, which unlock at different levels.\n2. System Mail and Guild Mail have separate storage limits. Mail exceeding these limits cannot be received, so Adventurers should clear out mail regularly.\n3. Mail with attachments can only be deleted after the attachments have been claimed.\n4. Each mail has an expiration date. Expired mail is automatically deleted, so be sure to read it and claim its attachments in time.	1. จดหมายแบ่งเป็นจดหมายระบบและจดหมายกิลด์ ซึ่งปลดล็อกที่ระดับต่างกัน\n2. จดหมายระบบและจดหมายกิลด์มีขีดจำกัดการจัดเก็บแยกกัน หากเกินขีดจำกัดจะไม่สามารถรับจดหมายได้ นักผจญภัยจึงควรล้างกล่องจดหมายเป็นประจำ\n3. จดหมายที่มีของแนบจะลบได้หลังจากรับของแนบแล้วเท่านั้น\n4. จดหมายแต่ละฉบับมีวันหมดอายุ จดหมายที่หมดอายุจะถูกลบโดยอัตโนมัติ อย่าลืมอ่านและรับของแนบให้ทันเวลา
+20032	Your mailbox is almost full. Clear out some mail soon~	กล่องจดหมายใกล้เต็มแล้ว โปรดลบจดหมายบางส่วนเร็ว ๆ นี้~
+20033	Your mailbox is full and cannot receive new mail. Clear out some mail.	กล่องจดหมายเต็มและไม่สามารถรับจดหมายใหม่ได้ โปรดลบจดหมายบางส่วน
+20035	Permanent	ถาวร
+20036	Expires in ${1} hr.	หมดอายุในอีก ${1} ชั่วโมง
+20037	Expires in ${1} min.	หมดอายุในอีก ${1} นาที
+20038	Hey, Adventurer.\nI'm the programmer who stays up late fixing bugs every night. Your mail... was accidentally flung into a rift in space-time by a mysterious line of my code.\nKeep this quiet. Log In Again or contact Customer Support, and I'll secretly pull your mail back for you.\n\nA mysterious programmer who doesn't want to write an incident report	สวัสดี นักผจญภัย\nผมคือโปรแกรมเมอร์ที่อยู่แก้บั๊กดึก ๆ ทุกคืน จดหมายของคุณ... ถูกโค้ดลึกลับบรรทัดหนึ่งของผมเหวี่ยงเข้าไปในรอยแยกของกาลอวกาศโดยไม่ตั้งใจ\nอย่าบอกใครนะ ลองเข้าสู่ระบบอีกครั้งหรือติดต่อฝ่ายบริการลูกค้า แล้วผมจะแอบดึงจดหมายกลับมาให้\n\nโปรแกรมเมอร์ลึกลับที่ไม่อยากเขียนรายงานเหตุขัดข้อง
+20039	A Letter Lost in Another Dimension	จดหมายที่หายไปในอีกมิติ
+32000	Details	รายละเอียด
+32001	Add Marker	เพิ่มเครื่องหมาย
+32003	World Map	แผนที่โลก
+32005	Monster	มอนสเตอร์
+32006	Markers	เครื่องหมาย
+32007	Ch. ${1}	แชนเนล ${1}
+32008	Monster Drops	ไอเทมดรอปจากมอนสเตอร์
+32009	EXP Gain: ${1}%	EXP ที่ได้รับ: ${1}%
+32010	Material Gain: ${1}%	วัสดุที่ได้รับ: ${1}%
+32011	Go to Monster	ไปหามอนสเตอร์
+32012	Go	ไป
+32013	View Cave	แสดงถ้ำ
+32014	Hide Cave	ซ่อนถ้ำ
+32015	View Info	ดูข้อมูล
+32016	Hide Info	ซ่อนข้อมูล
+32017	View Event	ดูอีเวนต์
+32018	Hide Event	ซ่อนอีเวนต์
+32020	Switched to Channel ${1}.	เปลี่ยนเป็นแชนเนล ${1} แล้ว
+32021	This channel is full. Unable to join.	แชนเนลนี้เต็ม ไม่สามารถเข้าร่วมได้
+32022	This area is full. Please wait a moment.	พื้นที่นี้เต็ม โปรดรอสักครู่
+32023	You cannot switch channels while dead.	ไม่สามารถเปลี่ยนแชนเนลขณะตายได้
+32024	The target channel does not exist.	ไม่มีแชนเนลเป้าหมาย
+32025	You cannot switch channels while in Battle Status.	ไม่สามารถเปลี่ยนแชนเนลขณะอยู่ในสถานะต่อสู้ได้
+32026	You cannot switch channels during an Interaction.	ไม่สามารถเปลี่ยนแชนเนลขณะโต้ตอบได้
+32027	Auto-follow has stopped due to switching channels.	หยุดติดตามอัตโนมัติเนื่องจากเปลี่ยนแชนเนล
+32028	The wait time was too long. Please try again later.	รอนานเกินไป โปรดลองอีกครั้งในภายหลัง
+32029	This area has not been unlocked yet.	พื้นที่นี้ยังไม่ปลดล็อก
+32030	No markers.	ไม่มีเครื่องหมาย
+32031	No NPCs.	ไม่มี NPC
+32032	No monsters.	ไม่มีมอนสเตอร์
+32033	Filter results have been applied to all maps.	ใช้ผลการกรองกับทุกแผนที่แล้ว
+32035	Teleporter	จุดวาร์ป
+32039	Teleportation is not available at the destination.	ไม่สามารถวาร์ปไปยังจุดหมายได้
+32040	Tap an unlocked map to teleport.	แตะแผนที่ที่ปลดล็อกแล้วเพื่อวาร์ป
+32041	Auto-pathing is unavailable in this area.	ไม่สามารถนำทางอัตโนมัติในพื้นที่นี้ได้
+32042	You must explore this area on your own.	คุณต้องสำรวจพื้นที่นี้ด้วยตนเอง
+32043	Confirm Teleportation	ยืนยันการวาร์ป
+32044	Mini Map	แผนที่ย่อ
+32113	Map Coordinates	พิกัดแผนที่
+34000	Main Screen Chat Settings	ตั้งค่าแชตหน้าจอหลัก
+34001	World	โลก
+34002	Guild	กิลด์
+34003	Party	ปาร์ตี้
+34004	Whisper	กระซิบ
+34005	Recruit	รับสมัคร
+34007	Nearby	ใกล้เคียง
+34008	Auto-Send Bullet Comments Settings	ตั้งค่าส่งข้อความลอยอัตโนมัติ
+34009	Auto-Play Voice Settings	ตั้งค่าเล่นข้อความเสียงอัตโนมัติ
+34010	Auto-play on Wi-Fi only	เล่นอัตโนมัติเฉพาะเมื่อใช้ Wi-Fi
+34011	Stranger Private Message Settings	ตั้งค่าข้อความส่วนตัวจากคนแปลกหน้า
+34012	Block ≤	บล็อก ≤
+34013	private messages from strangers below this level	ข้อความส่วนตัวจากคนแปลกหน้าที่มีระดับต่ำกว่านี้
+34014	Chat Settings	ตั้งค่าแชต
+34015	Portrait	รูปโปรไฟล์
+34016	Portrait Frame	กรอบรูปโปรไฟล์
+34017	Chat Bubble	กล่องข้อความแชต
+34018	Chat Settings	ตั้งค่าแชต
+34019	Enter text...	ป้อนข้อความ...
+34020	Edit Private Chat	แก้ไขแชตส่วนตัว
+34021	Friends	เพื่อน
+34023	Mentorship	ระบบศิษย์และอาจารย์
+34024	Group Chat	แชตกลุ่ม
+34025	Enter a player name to search	ป้อนชื่อผู้เล่นเพื่อค้นหา
+34026	Number of close friends and private groups allowed:	จำนวนเพื่อนสนิทและกลุ่มส่วนตัวที่มีได้:
+34027	Submit	ส่ง
+34028	Cancel	ยกเลิก
+34029	Report Description:	คำอธิบายการรายงาน:
+34030	Reason for Report:	เหตุผลที่รายงาน:
+34031	Reported Player:	ผู้เล่นที่ถูกรายงาน:
+34032	Report	รายงาน
+34033	No messages	ไม่มีข้อความ
+34034	Mini Window	หน้าต่างขนาดเล็ก
+34035	Locate	ระบุตำแหน่ง
+34036	Broadcast	ประกาศ
+34037	Finder	ค้นหาทีม
+34038	Create Party	สร้างปาร์ตี้
+34039	Tap to enter text	แตะเพื่อป้อนข้อความ
+34040	Send	ส่ง
+34042	Mysterious Adventurer	นักผจญภัยลึกลับ
+34044	System	ระบบ
+34045	Recently used	ใช้ล่าสุด
+34046	${1} new messages received	ได้รับข้อความใหม่ ${1} ข้อความ
+34047	You're sending messages too frequently. Please try again later.	คุณส่งข้อความถี่เกินไป โปรดลองอีกครั้งในภายหลัง
+34048	Message cannot be empty	ข้อความต้องไม่ว่าง
+34049	Channel window created	สร้างหน้าต่างแชนเนลแล้ว
+34050	Maximum number of windows reached	ถึงจำนวนหน้าต่างสูงสุดแล้ว
+34051	Maximum message length reached	ถึงความยาวข้อความสูงสุดแล้ว
+34052	Public channel chat unlocks at Lv. ${1}	แชตในแชนเนลสาธารณะปลดล็อกที่ Lv. ${1}
+34053	Join a guild to chat in this channel	เข้าร่วมกิลด์เพื่อแชตในแชนเนลนี้
+34054	You are not in a party	คุณไม่ได้อยู่ในปาร์ตี้
+34055	Tree Hollow channel chat unlocks at Lv. ${1}	แชตในแชนเนล Tree Hollow ปลดล็อกที่ Lv. ${1}
+34056	No new messages	ไม่มีข้อความใหม่
+34057	Failed to send message to the server	ส่งข้อความไปยังเซิร์ฟเวอร์ไม่สำเร็จ
+34058	Channel	แชนเนล
+34059	1. The Tree Hollow channel offers an 【Anonymous】 mode.\n\n2. There is a Chance that your disguise will slip, revealing your true identity.\n\n3. A different anonymous theme is available each day. You will receive a random alias, including a name and Portrait, which refreshes the next day.\n\n4. We will Keep a strict moderation system in place. Please do not post inappropriate content.	1. แชนเนล Tree Hollow มีโหมด [ Anonymous ]\n\n2. มีโอกาสที่การปลอมตัวของคุณจะหลุดและเปิดเผยตัวตนจริง\n\n3. แต่ละวันมีธีมไม่ระบุตัวตนที่ต่างกัน คุณจะได้รับนามแฝงแบบสุ่มพร้อมชื่อและรูปโปรไฟล์ ซึ่งจะเปลี่ยนใหม่ในวันถัดไป\n\n4. เราจะดูแลเนื้อหาอย่างเข้มงวด โปรดอย่าโพสต์เนื้อหาที่ไม่เหมาะสม
+34060	Channel Description	คำอธิบายแชนเนล
+34061	All	ทั้งหมด
+34062	Incorrect message channel	แชนเนลข้อความไม่ถูกต้อง
+34063	Hold to Talk	กดค้างเพื่อพูด
+34064	Emotes	อีโมต
+34065	Record	บันทึก
+34066	Character	ตัวละคร
+34067	Item	ไอเทม
+34068	Join a guild	เข้าร่วมกิลด์
+34069	Broadcast	ประกาศ
+34070	Preview Style	ตัวอย่างรูปแบบ
+34071	Select Item	เลือกไอเทม
+34072	Failed to join chat channel	เข้าร่วมแชนเนลแชตไม่สำเร็จ
+34073	You were mentioned	มีคนกล่าวถึงคุณ
+34075	Tap to Join Party	แตะเพื่อเข้าร่วมปาร์ตี้
+34077	Release to Send	ปล่อยเพื่อส่ง
+34078	Voice message is too short	ข้อความเสียงสั้นเกินไป
+34079	Reply	ตอบกลับ
+34080	Copy	คัดลอก
+34081	You can enter up to ${1} items at once	คุณสามารถใส่ไอเทมพร้อมกันได้สูงสุด ${1} ชิ้น
+34082	Repeat item entered	ใส่ไอเทมซ้ำ
+34083	Show chat bubbles above characters	แสดงกล่องข้อความแชตเหนือตัวละคร
+34084	Go Add Friend!	ไปเพิ่มเพื่อนเลย!
+34085	You haven't added any Group Chats yet!	คุณยังไม่ได้เพิ่มแชตกลุ่มเลย!
+34086	Go join a Golden Orchid!	ไปเข้าร่วม Golden Orchid เลย!
+34087	You haven't joined a mentorship yet!	คุณยังไม่ได้เข้าร่วมระบบศิษย์และอาจารย์เลย!
+34088	Broadcast item required	ต้องใช้ไอเทมสำหรับประกาศ
+34089	Main Screen Chat Settings	ตั้งค่าแชตหน้าจอหลัก
+34090	No voice input device detected	ไม่พบอุปกรณ์รับเสียง
+34091	Voice: This feature is unavailable	เสียง: ฟีเจอร์นี้ไม่พร้อมใช้งาน
+34092	Items	ไอเทม
+34093	Equip	สวมใส่
+34094	Card	การ์ด
+34096	Add	เพิ่ม
+34097	Clear Chat	ล้างแชต
+34098	Channel One <color=#FF993F>${1} Members</color>	แชนเนลหนึ่ง <color=#FF993F>สมาชิก ${1} คน</color>
+34099	Channel Two <color=#FF993F>${1} Members</color>	แชนเนลสอง <color=#FF993F>สมาชิก ${1} คน</color>
+34100	Channel Three <color=#FF993F>${1} Members</color>	แชนเนลสาม <color=#FF993F>สมาชิก ${1} คน</color>
+34101	Recruitment message has expired	ข้อความรับสมัครหมดอายุแล้ว
+34102	Party application sent	ส่งคำขอเข้าร่วมปาร์ตี้แล้ว
+34103	Member ${1}	สมาชิก ${1}
+34104	Channel Members	สมาชิกแชนเนล
+34105	Muted players cannot use their microphones.	ผู้เล่นที่ถูกปิดเสียงไม่สามารถใช้ไมโครโฟนได้
+34106	Exit Prompt	แจ้งเตือนการออก
+34107	Are you sure you want to leave the current channel?	ต้องการออกจากแชนเนลปัจจุบันหรือไม่?
+34108	Leave Channel	ออกจากแชนเนล
+34109	Are you sure you want to remove this player from the channel?	ต้องการนำผู้เล่นนี้ออกจากแชนเนลหรือไม่?
+34110	Request Voice Access	ขอสิทธิ์ใช้เสียง
+34111	Tap to type...	แตะเพื่อพิมพ์...
+34112	Send Request	ส่งคำขอ
+34113	Guild Voice Channel Invitation	คำเชิญเข้าร่วมแชนเนลเสียงกิลด์
+34114	<color=#FF993F>${1}</color> has invited you to join the guild voice channel.	<color=#FF993F>${1}</color> เชิญคุณเข้าร่วมแชนเนลเสียงกิลด์
+34115	Do not accept Guild Voice invitations for 10 minutes	ไม่รับคำเชิญเข้าร่วมแชนเนลเสียงกิลด์เป็นเวลา 10 นาที
+34116	Unmute All	ยกเลิกการปิดเสียงทั้งหมด
+34117	Manage Speaking Permissions	จัดการสิทธิ์พูด
+34118	Channel One	แชนเนลหนึ่ง
+34119	Channel Two	แชนเนลสอง
+34120	Channel Three	แชนเนลสาม
+34121	Unable to join this channel. Please try again later.	ไม่สามารถเข้าร่วมแชนเนลนี้ได้ โปรดลองอีกครั้งในภายหลัง
+34122	Your message contains inappropriate language. Please revise it and try again.	ข้อความของคุณมีภาษาที่ไม่เหมาะสม โปรดแก้ไขแล้วลองอีกครั้ง
+34123	Group Whisper	กระซิบกลุ่ม
+34124	Channel names are limited to ${1} characters.	ชื่อแชนเนลมีความยาวได้สูงสุด ${1} ตัวอักษร
+34125	Equipped	สวมใส่แล้ว
+34126	Players removed via Leave Channel will be Auto-added to Blocks and cannot Enter this Channel again for ${1} hours.	ผู้เล่นที่ถูกนำออกผ่านฟังก์ชันออกจากแชนเนลจะถูกเพิ่มในรายชื่อบล็อกโดยอัตโนมัติ และไม่สามารถเข้าร่วมแชนเนลนี้ได้อีกเป็นเวลา ${1} ชั่วโมง
+34127	Invite Guild Members	เชิญสมาชิกกิลด์
+34128	There are currently no Guild Members Online	ขณะนี้ไม่มีสมาชิกกิลด์ออนไลน์
+35000	Quests	เควสต์
+35001	No Quests Available	ไม่มีเควสต์ให้ทำ
+35002	Current Quest	เควสต์ปัจจุบัน
+35003	Available Quests	เควสต์ที่รับได้
+35004	Complete the following objectives	ทำเป้าหมายต่อไปนี้ให้สำเร็จ
+35005	Quest Rewards	รางวัลเควสต์
+35006	Complete	เสร็จสิ้น
+35007	Reset	รีเซ็ต
+35008	Go	ไป
+35009	Abandon	ละทิ้ง
+35010	Track Quest	ติดตามเควสต์
+35011	Time Limit: ${1} Days	เวลาจำกัด: ${1} วัน
+35012	Time Limit: ${1}	เวลาจำกัด: ${1}
+35013	[${1}] Quest Failed	[ ${1} ] เควสต์ล้มเหลว
+35014	Quest Complete: 【${1}】	เควสต์สำเร็จ: [ ${1} ]
+35015	Failed to accept quest [${1}].	รับเควสต์ [ ${1} ] ไม่สำเร็จ
+35016	Failed to reset quest [${1}]	รีเซ็ตเควสต์ [ ${1} ] ไม่สำเร็จ
+35017	Failed to abandon quest [${1}]	ละทิ้งเควสต์ [ ${1} ] ไม่สำเร็จ
+35018	Failed to turn in quest [${1}]	ส่งเควสต์ [ ${1} ] ไม่สำเร็จ
+35019	Failed to track quest [${1}]	ติดตามเควสต์ [ ${1} ] ไม่สำเร็จ
+35020	Quest [${1}] progress updated.	อัปเดตความคืบหน้าเควสต์ [ ${1} ] แล้ว
+35021	Go	ไป
+35022	Quest Failed	เควสต์ล้มเหลว
+35023	Quest Timed Out	เควสต์หมดเวลา
+35024	You haven't accepted the quest yet~	คุณยังไม่ได้รับเควสต์~
+35025	No quests are currently available~	ขณะนี้ไม่มีเควสต์ให้รับ~
+35026	Submit	ส่ง
+35028	Dungeon Quest	เควสต์ดันเจี้ยน
+35029	You must wait for the countdown to reach zero and the quest to begin before proceeding.	ต้องรอให้การนับถอยหลังถึงศูนย์และเควสต์เริ่มก่อนจึงจะดำเนินการต่อได้
+35030	or ${1}	หรือ ${1}
+35031	<color=#99FF9F>Current Server Level Cap: Lv. ${1}\n${2}: Server Level Cap increases to Lv. ${3}</color>	<color=#99FF9F>ระดับสูงสุดของเซิร์ฟเวอร์ปัจจุบัน: Lv. ${1}\n${2}: ระดับสูงสุดของเซิร์ฟเวอร์เพิ่มเป็น Lv. ${3}</color>
