@@ -1,4 +1,4 @@
-# Menu translation progress — batches 046–053
+# Menu translation progress — batches 046–055
 
 English from the actual game export is the source of truth. Native Thai from the supplied ZIP is a terminology reference only; literal `None`, ID-only values and translations that contradict English are not copied. Existing approved fresh translations are reused for identical English labels to maintain consistent terminology.
 
@@ -14,10 +14,12 @@ English from the actual game export is the source of truth. Native Thai from the
 | 051 | 220 | Feature unlocks, auto-battle, navigation, login/network, revive and skill builds |
 | 052 | 234 | Trade market, reservations, penalties, search, combine/dismantle |
 | 053 | 220 | Equipment appraisal, crafting, smelting, refine/enhance and character stats |
+| 054 | 297 | Pet formation, hatching, growth, skills, collection and help text |
+| 055 | 209 | Appearance/engraving, presets, training grounds and achievements |
 
-- 2,109 new IDs in the latest update; 2,640 authored menu IDs across batches 046–053.
-- 6,020 authored translation IDs across all batches. Runtime retains English for five held semantic-review IDs and seven authored rows whose target equals English: 6,008 runtime IDs differ from English.
-- **This is not a completed translation of every menu or every game text.** Dedicated pet, appearance, events, achievements, presets, newer gameplay systems and other groups still need review. The exact unreviewed UI-candidate inventory is in `menu-translation-coverage.json`; these candidates also contain proper names, technical labels and format-only rows, so their count is not the count of menus requiring Thai.
+- 506 new IDs in the latest update; 3,146 authored menu IDs across batches 046–055.
+- 6,526 authored translation IDs across all batches. Runtime retains English for five held semantic-review IDs and seven authored rows whose target equals English: 6,514 runtime IDs differ from English.
+- **This is not a completed translation of every menu or every game text.** Dedicated card/title menus, events, newer gameplay systems and other groups still need review. Some pet/appearance/preset rows remain held as described below. The exact unreviewed UI-candidate inventory is in `menu-translation-coverage.json`; these candidates also contain proper names, technical labels and format-only rows, so their count is not the count of menus requiring Thai.
 
 ## Reference corrections and held context
 
@@ -29,6 +31,8 @@ English from the actual game export is the source of truth. Native Thai from the
 - 34108: leave a channel; removing another player is a separate action/confirmation.
 - `Mount` is translated as a noun for mount categories only. The mount/dismount action (49023) and artillery label (61046) remain English pending context. `Deploy` uses the reviewed unit/card/pet/formation context.
 - `Call Mio!!`, isolated `Placement confirmation`, `Misc`-specific party restrictions, `Charisma Baby`, `Stunt`, `Vivify`, `Quasi-Stats` and `Locate` are not guessed.
+- Pet ID 40147 (`Get ${1} Off Summons`) lacks clear discount-unit context and remains English. The isolated Active skill-type label (40205) stays English instead of borrowing the unrelated active-state translation. Named event heading 40992 and preset `Stunt` label 64029 remain English.
+- `Respawn` in the pet menu is a reset/refund action as explicitly defined by IDs 40051 and 40123, not character revival. The translation uses คืนค่าสัตว์เลี้ยง. Pet numbers, hatching chances, star/slot counts and stat percentages retain the source values.
 - Some bracket-only UI labels remain English because the current runtime protects bracket contents as names. Proper item/location/class names, technical labels, frame rates and format-only strings remain unchanged.
 - Party source data contains inconsistent bonus descriptions: 24043 differs from 24112–24116; 24115 and 24116 both say 4 players with different values. Translations preserve the English values exactly; no gameplay values were invented or corrected.
 
