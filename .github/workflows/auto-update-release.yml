@@ -1,5 +1,5 @@
-# UTF-8-safe Windows updater Alpha; immutable feed TSVs use byte-exact checkout.
-name: Build auto-update Alpha
+# Minimal Windows runtime Alpha; translations remain on the independent data feed.
+name: Build minimal-runtime Alpha
 on:
   push:
     branches: [main]
@@ -10,7 +10,7 @@ permissions:
 env:
   PYTHONUTF8: '1'
 concurrency:
-  group: auto-update-alpha
+  group: minimal-runtime-alpha
   cancel-in-progress: false
 jobs:
   checks:
@@ -36,7 +36,7 @@ jobs:
       contents: write
     env:
       GH_TOKEN: ${{ github.token }}
-      TAG: v0.4.2-installer-update-alpha.1
+      TAG: v0.4.3-minimal-runtime-alpha.1
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -62,7 +62,7 @@ jobs:
         run: dotnet run --project tests/LanguageHooks.Tests -c Release
       - name: Verify install and uninstall on Windows
         run: dotnet run --project tests/Installer.Core.Tests -c Release -- .
-      - name: Publish single-file Windows Alpha
+      - name: Publish single-file Windows minimal-runtime Alpha
         shell: pwsh
         run: |
           dotnet publish src/Installer/Installer.csproj -c Release -r win-x64 --self-contained true -o dist/skills-alpha /p:PublishSingleFile=true /p:DebugType=None /p:DebugSymbols=false
@@ -91,16 +91,16 @@ jobs:
         with:
           name: auto-update-alpha
           path: dist/release/*
-      - name: Publish as prerelease, never stable
+      - name: Publish minimal-runtime prerelease, never stable
         shell: pwsh
         run: |
           gh release view $env:TAG --repo $env:GITHUB_REPOSITORY *> $null
           if ($LASTEXITCODE -ne 0) {
-            gh release create $env:TAG --repo $env:GITHUB_REPOSITORY --target $env:GITHUB_SHA --draft --prerelease --latest=false --title 'RO3 Thai Patch — Installer Update Alpha (ยังไม่ทดสอบในเกม)' --notes-file docs/INSTALLER-UPDATE-RELEASE.md
+            gh release create $env:TAG --repo $env:GITHUB_REPOSITORY --target $env:GITHUB_SHA --draft --prerelease --latest=false --title 'RO3 Thai Patch — Minimal Runtime Alpha (ยังไม่ทดสอบในเกม)' --notes-file docs/INSTALLER-UPDATE-RELEASE.md
             if ($LASTEXITCODE -ne 0) { throw 'Create failed' }
           }
           $assets = Get-ChildItem dist/release -File | ForEach-Object { $_.FullName }
           gh release upload $env:TAG $assets --repo $env:GITHUB_REPOSITORY --clobber
           if ($LASTEXITCODE -ne 0) { throw 'Upload failed' }
-          gh release edit $env:TAG --repo $env:GITHUB_REPOSITORY --draft=false --prerelease --latest=false --title 'RO3 Thai Patch — Installer Update Alpha (ยังไม่ทดสอบในเกม)' --notes-file docs/INSTALLER-UPDATE-RELEASE.md
+          gh release edit $env:TAG --repo $env:GITHUB_REPOSITORY --draft=false --prerelease --latest=false --title 'RO3 Thai Patch — Minimal Runtime Alpha (ยังไม่ทดสอบในเกม)' --notes-file docs/INSTALLER-UPDATE-RELEASE.md
           if ($LASTEXITCODE -ne 0) { throw 'Publish failed' }

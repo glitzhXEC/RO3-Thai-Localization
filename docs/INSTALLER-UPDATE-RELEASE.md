@@ -1,4 +1,4 @@
-# RO3 Thai Patch Installer Update Alpha — v0.4.2
+# RO3 Thai Patch Minimal Runtime Alpha — v0.4.3
 
 รุ่นนี้แสดงสองเวอร์ชันแยกกัน: รุ่น runtime/ตัวติดตั้ง และรุ่นข้อมูลคำแปลจาก GitHub อัปเดต runtime เมื่อมี Installer รุ่นใหม่กว่า; อัปเดตข้อมูลคำแปลได้โดยไม่ดาวน์โหลด Installer/Client ใหม่ และถอนเฉพาะไฟล์ของแพตช์ได้
 
@@ -10,6 +10,14 @@
 4. ถ้า runtime เก่า ให้กด **อัปเดตตัวแพตช์**; ถ้าข้อมูลคำแปลเก่า ให้กด **อัปเดตคำแปลจาก GitHub** ซึ่งดาวน์โหลดเฉพาะ TSV ที่ตรวจ hash/schema แล้ว
 5. plugin ยังตรวจ feed คำแปลตอนเปิดเกมอัตโนมัติด้วย ปุ่มใน Installer ใช้ให้อัปเดตข้อมูลล่วงหน้าได้ ไม่จำเป็นต้องดาวน์โหลด Client/Installer ใหม่เมื่อเพิ่มคำแปล
 6. ถอนแพตช์ลบเฉพาะไฟล์ที่ ownership marker ระบุและคืนไฟล์เดิมที่ installer รุ่นก่อนเคยแทนที่ ไม่มี snapshot/backup คงเหลือ
+
+## Runtime ที่ติดตั้ง
+
+payload มีเฉพาะ BepInEx/Harmony runtime ที่ปลั๊กอินใช้, ปลั๊กอินแปลไทยของโครงการ, dictionaries และตัวอัปเดต translations feed ไม่ติดตั้ง XUnity AutoTranslator, XUnity ResourceRedirector, config ของ XUnity หรือ TMP font bundle เพราะ source/runtime ของเราไม่ได้เรียกใช้ส่วนเหล่านั้น การแปลข้อความไม่ได้พึ่งบริการ machine translation
+
+hook ข้อความ UI ทั่วไปแปลเฉพาะข้อความต้นฉบับที่ตรงกับรายการอนุมัติทั้งประโยค ไม่ไล่ regex หลายพันกฎกับข้อความแชตหรือข้อความที่ผู้เล่นพิมพ์; คำอธิบายที่มีตัวแปรยังแปลผ่าน localization ID ของเกม
+
+เมื่ออัปเดตจากรุ่นก่อน Installer จะนำไฟล์เก่าของ XUnity ออกเฉพาะรายการที่ ownership marker รุ่นก่อนระบุว่า Installer เป็นผู้ติดตั้ง ถ้ามีไฟล์ดั้งเดิมที่ถูกแทนไว้จะคืนไฟล์นั้นตาม ownership record ส่วน XUnity/ม็อดที่ผู้ใช้ติดตั้งเองและไม่มี ownership ใน marker จะไม่แตะต้อง
 
 โปรแกรมตรวจรุ่นหลังผู้ใช้เลือก Client โดยอ่าน `.ro3-thai-localization.json` และ `BepInEx/config/RO3.TranslationCache/cache.json` ในตำแหน่งนั้นเท่านั้น ไม่มีการสแกนหาเกมหรือ Client อัตโนมัติ ไฟล์ที่ไม่ได้เป็นของแพตช์และม็อดที่เพิ่มภายหลังจะไม่ถูกลบหรือเขียนทับ หากพบ BepInEx ที่ไม่มี ownership marker โปรแกรมจะหยุดและแจ้งให้ทราบ
 
@@ -27,7 +35,7 @@ runtime รุ่นนี้เพิ่ม exact-origin fallback สำหร�
 
 ## สถานะและข้อจำกัด
 
-- รุ่น `v0.4.2-installer-update-alpha.1` เป็น prerelease/Alpha
-- รองรับ Windows x64 และ RO3 Unity Mono x64 ตามการตรวจใน Client ที่เลือก
+- รุ่นเป้าหมาย `v0.4.3-minimal-runtime-alpha.1` เป็น prerelease/Alpha
+- รองรับ Windows x64 และ RO3 Unity Mono x64 ตามการตรวจใน Client ที่เลือก; runtime ใช้ BepInEx/Harmony ไม่มี XUnity
 - ไม่ทดสอบ GUI ใน Windows หรือแสดงผลในเกมโดยอัตโนมัติ; ให้ตรวจหน้าจอจริงหลังติดตั้ง
 - `SHA256SUMS.txt` ใช้ตรวจความสมบูรณ์ของไฟล์ดาวน์โหลด

@@ -233,5 +233,19 @@ namespace RO3.ThaiLocalization
                 return input;
             }
         }
+        public string TranslateKnownText(string input)
+        {
+            if (String.IsNullOrEmpty(input) || input.Length > 6000) return input;
+            lock (sync)
+            {
+                string output;
+                // Generic Unity text hooks may receive chat or player-authored text.
+                // Permit only complete, approved source strings; never run the large
+                // numeric-template regex list on arbitrary text setter calls.
+                if (HasChinese(input) && exactOrigins.TryGetValue(input, out output!)) return output;
+                if (input.Length >= 45 && exact.TryGetValue(input, out output!)) return output;
+                return input;
+            }
+        }
     }
 }

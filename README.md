@@ -6,7 +6,7 @@
 
 [ดาวน์โหลด v0.4.0-english-base-alpha.1](https://github.com/glitzhXEC/RO3-Thai-Localization/releases/tag/v0.4.0-english-base-alpha.1)
 
-รุ่น installer update ล่าสุด: [v0.4.2-installer-update-alpha.1](docs/INSTALLER-UPDATE-RELEASE.md) เพิ่มตรวจเวอร์ชัน อัปเดตแพตช์เดิม และถอนเฉพาะไฟล์ที่แพตช์เป็นเจ้าของโดยไม่เก็บ backup ถาวร
+รุ่น Installer ถัดไป `v0.4.3-minimal-runtime-alpha.1` ตัด XUnity AutoTranslator, XUnity ResourceRedirector, config และ font bundle ที่ไม่ได้ถูกเรียกใช้ออกจาก payload; คงระบบอัปเดต runtime/translation feed และถอนเฉพาะไฟล์ที่แพตช์เป็นเจ้าของ ดู [รายละเอียด](docs/INSTALLER-UPDATE-RELEASE.md)
 
 ฐาน English จากข้อมูลเกมจริง 33,513 IDs พร้อมคำแปลใหม่ตาม ID คืน English/Thai เมื่อเกมส่งต้นฉบับจีนของ ID เดียวกัน ป้องกันข้อความกลับเป็นจีนหลังรีเซ็ตภาษา ไม่แปลจีน/ชื่อผู้เล่นทั่วระบบ ไม่ใช้คำแปลไทยเก่า
 

@@ -22,6 +22,8 @@ Runtime version ของ Installer และ translation feed version เป็
 - ห้ามไล่ค้นหาในโฟลเดอร์ลูก ห้ามเลือก parent แล้วค้นหา Client ให้อัตโนมัติ
 - ไม่บรรจุ `Translation-Editor` หรือ `.bat` ใน repository/release ใหม่
 - ไม่รวมคำแปลเก่าหรือ online auto-translation เป็น fallback
+- payload runtime ใหม่ไม่รวม XUnity AutoTranslator, XUnity ResourceRedirector, `XUnity.Common.dll`, config XUnity หรือ TMP font bundle ที่โค้ดแพตช์ไม่ได้เรียกใช้
+- เมื่ออัปเดตจาก marker เก่าที่ Installer เป็นเจ้าของ จะเอาเฉพาะ XUnity files ใน ownership เดิมออก; ไฟล์ที่ไม่มี ownership marker จะไม่ถูกแตะ
 - ห้ามเปิดเกมหรือข้าม anti-cheat เพื่อทดสอบ
 
 ## ความปลอดภัยของการติดตั้ง

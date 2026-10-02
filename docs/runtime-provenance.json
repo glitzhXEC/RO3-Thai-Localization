@@ -7,10 +7,6 @@
       "sha256": "75a2f501000d4fe28f74bc7ee66dae5581959d28b6c44f0c1b0c05cd5ba261e6"
     },
     {
-      "path": "arialuni_sdf_u2022",
-      "sha256": "de18a759d475e01f90cffee16bdc861bf3aa09bc501f3c622e5822622b5e1606"
-    },
-    {
       "path": "doorstop_config.ini",
       "sha256": "345e2a6aa8fa40fa95c0f763f360ff75a20566a74fdc33d0621ea5271b1cdd9e"
     },
@@ -21,10 +17,6 @@
     {
       "path": "BepInEx/config/BepInEx.cfg",
       "sha256": "c902bb9ae25c8277cc1f20f8555610ce19164a7c81279ccc3a1a1eb042c9a035"
-    },
-    {
-      "path": "BepInEx/config/gravydevsupreme.xunity.resourceredirector.cfg",
-      "sha256": "9a89919f8b680e13db9f92a156a09151dbe8c14981c2bb795d92bda1c6fd75e6"
     },
     {
       "path": "BepInEx/core/0Harmony.dll",
@@ -73,38 +65,13 @@
     {
       "path": "BepInEx/core/MonoMod.Utils.dll",
       "sha256": "33b5432cfd72c49d26ba2c32c9e57264e2d979c6ca6cde09a8f372f8c5ff5f5e"
-    },
-    {
-      "path": "BepInEx/core/XUnity.Common.dll",
-      "sha256": "02dac9f744edc656d97ed42aeec8c697081dc5969bbc7ae52433413ce356b170"
-    },
-    {
-      "path": "BepInEx/plugins/XUnity.AutoTranslator/ExIni.dll",
-      "sha256": "c073db2220667e6bbbfff64e13ed4f7e744af4b554c408f13ea80bfdffd859d0"
-    },
-    {
-      "path": "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.BepInEx.dll",
-      "sha256": "8d54de55fb6c1284d3f381cdfb2be37c9f60f8d5b9cd4e9051f36ff9b024a722"
-    },
-    {
-      "path": "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.Core.dll",
-      "sha256": "71b825615b631bf55ee93358f35a835f48d9c61abc8814c57b762698a2a9f477"
-    },
-    {
-      "path": "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.ExtProtocol.dll",
-      "sha256": "e502c355f34de51e3fa3d3b08c95cbbda4a2ac044bf8aebf5c4b6ecf81efff8f"
-    },
-    {
-      "path": "BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.BepInEx.dll",
-      "sha256": "6a6bce64d736c8d45205d56242c99f7af79edcb173aa7568a83cf23313948d1c"
-    },
-    {
-      "path": "BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.dll",
-      "sha256": "9986a5a7959f86fc99ae27bbcefa7f0ef924ef4979f68b32ec4e2903b5f4d64c"
     }
   ],
   "legacy_translation_files_read": false,
   "legacy_plugin_included": false,
   "compatibility_runtime_reused": true,
-  "game_tested": false
+  "game_tested": false,
+  "xunity_auto_translator_included": false,
+  "xunity_resource_redirector_included": false,
+  "xunity_font_bundle_included": false
 }

@@ -10,7 +10,7 @@
 
 runtime สร้างรายการ fallback จากต้นฉบับภาษาจีน/ไต้หวันที่ผูกกับ ID ซึ่งมีคำแปลไทยอนุมัติแล้ว โดยแปลเฉพาะเมื่อข้อความทั้งสตริงตรงกับต้นฉบับ และทุก ID ที่ใช้ต้นฉบับเดียวกันให้คำแปลไทยเหมือนกัน หากคำแปลขัดกัน runtime จะข้ามข้อความนั้น ไม่แปล CJK ที่ไม่อยู่ในรายการ และไม่ใช้การค้นหา/แปลบางส่วน
 
-จึงรองรับป้าย `取下` → `ถอด` ได้โดยไม่เปิดการแปลจีนทั่วระบบ การเปลี่ยนอยู่ใน `src/SkillRuntime.Engine/SkillDictionary.cs` และติดตั้งผ่าน DLL ของ `RO3.ThaiLocalization.Skills` กับ `SkillRuntime.Engine`
+จึงรองรับป้าย `取下` → `ถอด` ได้โดยไม่เปิดการแปลจีนทั่วระบบ การเปลี่ยนอยู่ใน `src/SkillRuntime.Engine/SkillDictionary.cs` และติดตั้งผ่าน DLL ของ `RO3.ThaiLocalization.Skills` กับ `SkillRuntime.Engine` รุ่น minimal runtime ยังจำกัด fallback ของ text setter ให้ค้นเฉพาะข้อความที่อนุมัติแบบตรงทั้งประโยค เพื่อไม่ให้แชตไปสแกน numeric regex rules ทั้งชุด
 
 ## การตรวจสอบ
 

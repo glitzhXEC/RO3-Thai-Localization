@@ -1,5 +1,7 @@
 # RO3 Thai Skills — Partial Alpha 0.2.0
 
+> เอกสารนี้บันทึก payload รุ่นเก่า 0.2.0 ซึ่งเคยรวม XUnity ไว้; payload minimal รุ่นใหม่ถอด AutoTranslator/ResourceRedirector ออกตาม dependency analysis ใน `docs/INSTALLER-UPDATE-RELEASE.md`.
+
 > **รุ่นนี้ติดตั้งไฟล์แพตช์สกิลบางส่วนได้แล้ว แต่ยังไม่ผ่านการทดสอบเกมจริง**
 > ไม่ใช่ UI Preview เดิม และยังไม่ใช่ Stable Release
 
@@ -12,7 +14,7 @@
 
 ## สิ่งที่บรรจุ
 
-- BepInEx/XUnity compatibility runtime และฟอนต์
+- BepInEx/XUnity compatibility runtime และฟอนต์ (สถานะของ release เก่า 0.2.0 เท่านั้น)
 - Plugin/engine สกิลที่เขียนใหม่ ไม่มี plugin localization เก่า
 - คำแปลใหม่ 416 รหัสของสกิล/เอฟเฟกต์/เสริมสกิล ใช้ English เท่านั้น
 - ไม่มีคำแปลเก่า ไม่มีการแปลออนไลน์ ไม่มี BAT หรือ Translation-Editor

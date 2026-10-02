@@ -12,6 +12,7 @@
 - แยก runtime version ใน Installer/ownership marker ออกจาก translation data version ใน feed manifest/cache; เช็ค latest feed ได้โดยดาวน์โหลด manifest อย่างเดียว
 - ปุ่มอัปเดตคำแปลใช้ runtime updater ที่ตรวจ SHA-256, schema, จำนวน IDs/rules และบันทึก cache แบบ atomic; ไม่ดาวน์โหลด client, EXE หรือ DLL
 - plugin ยังตรวจ translation feed ตอนเปิดเกมอัตโนมัติ การเพิ่มคำแปลใน feed จึงไม่ต้องออก Installer Release ใหม่
+- payload runtime ลดเหลือ BepInEx/Harmony กับ plugin/data ที่โปรเจกต์ใช้จริง ไม่รวม XUnity AutoTranslator, ResourceRedirector, XUnity config หรือ font bundle
 - รองรับอัปเดตเฉพาะไฟล์ที่ marker เดิมเป็นเจ้าของ เก็บ config/cache ที่เปลี่ยนได้ และคงไฟล์ที่ไม่ใช่ของแพตช์
 - ถอนเฉพาะไฟล์ที่ marker เป็นเจ้าของและลบ marker โดยไม่เก็บ snapshot หรือ backup ถาวร
 - เมื่อพบ BepInEx ที่ไม่มี marker หรือปลายทางที่ไม่ใช่ของแพตช์ โปรแกรมหยุดโดยไม่เขียนทับ
@@ -28,7 +29,7 @@
 ## สิ่งที่ยังต้องทำก่อนแจก EXE
 
 1. แปลและตรวจคำอธิบายที่เหลือ รวมรายการ semantic-review
-2. ทำ runtime ใหม่ที่ไม่บรรจุคำแปลเก่าหรือ online translation fallback ต้องใช้ game-managed dependencies เพื่อ compile/test plugin
+2. ตรวจ compatibility runtime BepInEx/Harmony แบบ minimal โดยไม่บรรจุ XUnity หรือ online translation fallback
 3. ตรวจ UI/update/uninstall/rollback บน Windows กับไฟล์จำลองและเกมจริง
 4. ตรวจว่าไฟล์ user/mod ที่ไม่ได้อยู่ใน ownership marker ไม่ถูกเขียนทับหรือลบ
 5. สร้าง `payload.zip` พร้อม manifest ของ runtime และคำแปลที่ตรวจแล้ว จากนั้นจึง publish single-file Windows EXE

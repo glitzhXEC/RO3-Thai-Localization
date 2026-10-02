@@ -115,6 +115,8 @@ public static partial class InstallEngine
             System.IO.Path.IsPathRooted(relative) || relative.Split('/').Any(p => p is "" or "." or ".."))
             throw new InvalidDataException("Invalid payload path: " + relative);
         // Do not let a patch replace the game EXE or arbitrary user files.
+        // arialuni_sdf_u2022 remains path-safe only so old ownership markers can
+        // be read/uninstalled during migration; new payload validation rejects it.
         bool allowed = relative.StartsWith("BepInEx/", StringComparison.Ordinal) ||
             relative is "winhttp.dll" or "doorstop_config.ini" or ".doorstop_version" or "arialuni_sdf_u2022";
         if (!allowed) throw new InvalidDataException("Payload path is not permitted: " + relative);
@@ -143,13 +145,18 @@ public static partial class InstallEngine
         if (manifest.TargetProfile != null && manifest.TargetProfile != "ro3-mono-x64") throw new InvalidDataException("Unsupported target profile");
         if (manifest.TargetProfile == "ro3-mono-x64")
         {
-            string[] required = { "BepInEx/config/RO3.LanguageOrigins.tsv", "winhttp.dll", "doorstop_config.ini", "arialuni_sdf_u2022", "BepInEx/core/BepInEx.dll", "BepInEx/core/BepInEx.Preloader.dll", "BepInEx/core/0Harmony.dll", "BepInEx/plugins/RO3.ThaiLocalization.Skills.dll", "BepInEx/plugins/SkillRuntime.Engine.dll", "BepInEx/config/RO3.SkillTranslations.tsv", "BepInEx/config/RO3.SkillRules.tsv", "BepInEx/config/AutoTranslatorConfig.ini" };
+            string[] required = { "BepInEx/config/RO3.LanguageOrigins.tsv", "winhttp.dll", "doorstop_config.ini", "BepInEx/core/BepInEx.dll", "BepInEx/core/BepInEx.Preloader.dll", "BepInEx/core/0Harmony.dll", "BepInEx/plugins/RO3.ThaiLocalization.Skills.dll", "BepInEx/plugins/SkillRuntime.Engine.dll", "BepInEx/config/RO3.SkillTranslations.tsv", "BepInEx/config/RO3.SkillRules.tsv" };
             foreach (string path in required) if (!manifest.Files.Any(f => f.Path == path)) throw new InvalidDataException("Incomplete skills payload: " + path);
         }
         var names = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
         foreach (var entry in manifest.Files)
         {
             if (!names.Add(entry.Path)) throw new InvalidDataException("Duplicate payload path");
+            if (manifest.TargetProfile == "ro3-mono-x64" &&
+                (entry.Path.Contains("XUnity", StringComparison.OrdinalIgnoreCase) ||
+                 entry.Path.Contains("AutoTranslator", StringComparison.OrdinalIgnoreCase) ||
+                 entry.Path.Equals("arialuni_sdf_u2022", StringComparison.OrdinalIgnoreCase)))
+                throw new InvalidDataException("Minimal runtime payload must not include XUnity or its font bundle: " + entry.Path);
             string file = ResolveSafe(payloadRoot, entry.Path);
             if (!File.Exists(file) || new FileInfo(file).Length > 128 * 1024 * 1024 ||
                 !Sha(file).Equals(entry.Sha256, StringComparison.OrdinalIgnoreCase))
@@ -288,6 +295,19 @@ public static partial class InstallEngine
         {
             if (retainedBackup == null) Directory.Delete(previous.BackupDirectory, true);
             else foreach (string original in obsoleteOriginals) if (File.Exists(original)) File.Delete(original);
+        }
+        // Remove only empty directories left by files that the prior ownership
+        // marker assigned to this patch. Non-empty folders (other mods/user data)
+        // are preserved because deletion is non-recursive.
+        var obsoleteDirectories = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+        foreach (var old in obsolete)
+        {
+            for (string? folder = Path.GetDirectoryName(ResolveSafe(target, old.Path)); folder != null && folder != target; folder = Path.GetDirectoryName(folder))
+                obsoleteDirectories.Add(folder);
+        }
+        foreach (string folder in obsoleteDirectories.OrderByDescending(p => p.Length))
+        {
+            try { Directory.Delete(folder, false); } catch (IOException) { } catch (UnauthorizedAccessException) { }
         }
     }
 }
