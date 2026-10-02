@@ -6,9 +6,11 @@
 
 [ดาวน์โหลด v0.4.0-english-base-alpha.1](https://github.com/glitzhXEC/RO3-Thai-Localization/releases/tag/v0.4.0-english-base-alpha.1)
 
+รุ่น installer update ล่าสุด: [v0.4.2-installer-update-alpha.1](docs/INSTALLER-UPDATE-RELEASE.md) เพิ่มตรวจเวอร์ชัน อัปเดตแพตช์เดิม และถอนเฉพาะไฟล์ที่แพตช์เป็นเจ้าของโดยไม่เก็บ backup ถาวร
+
 ฐาน English จากข้อมูลเกมจริง 33,513 IDs พร้อมคำแปลใหม่ตาม ID คืน English/Thai เมื่อเกมส่งต้นฉบับจีนของ ID เดียวกัน ป้องกันข้อความกลับเป็นจีนหลังรีเซ็ตภาษา ไม่แปลจีน/ชื่อผู้เล่นทั่วระบบ ไม่ใช้คำแปลไทยเก่า
 
-ตัวติดตั้งมี **ถอนแพตช์นี้** และ **ถอน BepInEx ทั้งหมด** แยกกัน โหมดทั้งหมดรวมม็อดอื่นและย้ายไปสำรองก่อน ไม่แตะ ro3.exe/ro3_Data ไม่สแกนหาเกม และไม่ลบ DLL root ที่ยืนยัน provenance ไม่ได้
+ตัวติดตั้งอ่าน ownership และรุ่น runtime ของแพตช์เมื่อผู้ใช้เลือก Client มีปุ่มอัปเดต runtime, อัปเดตข้อมูลคำแปลจาก GitHub โดยไม่โหลด Installer ใหม่ และถอนเฉพาะไฟล์ที่แพตช์เป็นเจ้าของ ไม่ค้นหาเกมอัตโนมัติหรือแตะไฟล์ม็อดอื่น
 
 [คู่มือและขอบเขต](docs/ENGLISH-BASE-AND-FULL-UNINSTALL.md) · [อัปเดต BepInEx เดิม](docs/ENGLISH-BASE-UPDATE.md)
 

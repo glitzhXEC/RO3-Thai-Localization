@@ -65,7 +65,8 @@ foreach(var sample in new[]{("1002","确定","ยืนยัน"),("1003","取�
 Check(rows["27003"][1]=="Log" && rows["27003"][2]=="Log","Held ambiguous UI label stays English");
 Check(dict.TryId("27003", originals["27003"][1], out var englishFallback) && englishFallback=="Log","Untranslated UI Chinese source restores English by ID");
 Check(dict.Translate("Confirm")=="Confirm" && dict.Translate("Backpack")=="Backpack","Short UI translations do not leak globally");
-Check(dict.Translate("确定")=="确定" && dict.Translate("你好")=="你好","No global arbitrary Chinese translations");
+Check(dict.Translate("确定")=="ยืนยัน" && dict.Translate("你好")=="你好","Only exact approved Chinese UI strings translate");
+Check(dict.Translate("取下")=="ถอด","Known short UI string 取下 uses its approved Thai translation");
 Check(!dict.TryId("1002","另一个玩家",out _),"Wrong Chinese for same ID preserved");
 var native=new Dictionary<long,string>{{1002,"确定"},{1003,"取消"},{999999,"user-owned"}};
 dict.SeedCache(native);Check(native[1002]=="ยืนยัน" && native[1003]=="ยกเลิก","Native Chinese cache restored to approved Thai");

@@ -2,6 +2,7 @@ using System.IO.Compression;
 using System.Reflection;
 using System.Text.Json;
 using RO3.Installer;
+using RO3.ThaiLocalization;
 
 namespace RO3.Installer.UI;
 
@@ -14,38 +15,40 @@ sealed class MainForm : Form
     readonly TextBox location = new() { ReadOnly = true, Width = 530 };
     readonly Button chooseFolder = new() { Text = "เลือกโฟลเดอร์เกม", AutoSize = true };
     readonly Button chooseExe = new() { Text = "เลือกไฟล์ ro3.exe", AutoSize = true };
-    readonly Button install = new() { Text = "ติดตั้ง", Enabled = false, AutoSize = true };
+    readonly Label versionInfo = new() { AutoSize = true, MaximumSize = new Size(530, 0) };
+    readonly Label translationInfo = new() { AutoSize = true, MaximumSize = new Size(530, 0) };
+    readonly Button install = new() { Text = "ติดตั้งแพตช์", Enabled = false, AutoSize = true };
+    readonly Button updateTranslations = new() { Text = "อัปเดตคำแปลจาก GitHub", Enabled = false, AutoSize = true };
     readonly Button uninstall = new() { Text = "ถอนแพตช์นี้", Enabled = false, AutoSize = true };
-    readonly Button removeAll = new() { Text = "ถอน BepInEx ทั้งหมด", Enabled = false, AutoSize = true };
     readonly ProgressBar bar = new() { Width = 530 };
-    readonly Label status = new() { AutoSize = true, MaximumSize = new Size(530, 0), Text = "รุ่นทดสอบหน้าจอเท่านั้น ยังไม่มี BepInEx/runtime payload และยังติดตั้งภาษาไทยไม่ได้ เลือก Client เพื่อทดสอบตรวจตำแหน่งเกม โดยไม่มีการค้นหาอัตโนมัติ" };
+    readonly Label status = new() { AutoSize = true, MaximumSize = new Size(530, 0), Text = "เลือกโฟลเดอร์ Client เพื่อตรวจรุ่นที่ติดตั้ง ไม่มีการค้นหาเกมอัตโนมัติ" };
     string? selected;
     bool busy;
     public MainForm()
     {
         bool ready = false; try { ready = Manifest().ReadyForInstallation; } catch { }
         Text = ready ? "RO3 Thai Localization — Auto-update Alpha (ยังไม่ทดสอบในเกม)" : "RO3 Thai Patch — UI Preview";
-        if (ready) status.Text = "ฐาน English พร้อมคำแปลสกิลและไอเทม และตรวจคำแปลใหม่จาก GitHub ตอนเปิดเกม รุ่น Alpha สำหรับ Mono x64 ปิดเกมและ Launcher ก่อนติดตั้ง ไม่มีการค้นหาเกมอัตโนมัติ";
-        Width = 590; Height = 440;
+        if (ready) status.Text = "เลือก Client ที่มี ro3.exe แล้วโปรแกรมจะแสดงรุ่นแพตช์และเปิดใช้การอัปเดตหรือถอนติดตั้งได้ รุ่น Alpha สำหรับ Mono x64 ปิดเกมและ Launcher ก่อนดำเนินการ";
+        Width = 590; Height = 400;
         FormBorderStyle = FormBorderStyle.FixedDialog; MaximizeBox = false;
         StartPosition = FormStartPosition.CenterScreen;
         var panel = new FlowLayoutPanel { Dock = DockStyle.Fill, FlowDirection = FlowDirection.TopDown, WrapContents = false, Padding = new Padding(20), AutoScroll = true };
         var buttons = new FlowLayoutPanel { Width = 530, Height = 45 };
         buttons.Controls.AddRange([chooseFolder, chooseExe]);
-        panel.Controls.AddRange([new Label { Text = "ตำแหน่งเกม", AutoSize = true }, location, buttons, install, uninstall, removeAll, bar, status]); Controls.Add(panel);
-        chooseFolder.Click += (_, _) =>
+        panel.Controls.AddRange([new Label { Text = "ตำแหน่งเกม", AutoSize = true }, location, buttons, versionInfo, translationInfo, install, updateTranslations, uninstall, bar, status]); Controls.Add(panel);
+        chooseFolder.Click += async (_, _) =>
         {
             using var picker = new FolderBrowserDialog { Description = "เลือกโฟลเดอร์ Client ที่มี ro3.exe", UseDescriptionForTitle = true };
-            if (picker.ShowDialog(this) == DialogResult.OK) Check(picker.SelectedPath, false);
+            if (picker.ShowDialog(this) == DialogResult.OK) await Check(picker.SelectedPath, false);
         };
-        chooseExe.Click += (_, _) =>
+        chooseExe.Click += async (_, _) =>
         {
             using var picker = new OpenFileDialog { Title = "เลือกไฟล์ ro3.exe", Filter = "RO3 game|ro3.exe", CheckFileExists = true, Multiselect = false };
-            if (picker.ShowDialog(this) == DialogResult.OK) Check(picker.FileName, true);
+            if (picker.ShowDialog(this) == DialogResult.OK) await Check(picker.FileName, true);
         };
         install.Click += async (_, _) => await Install();
+        updateTranslations.Click += async (_, _) => await UpdateTranslations();
         uninstall.Click += async (_, _) => await Remove();
-        removeAll.Click += async (_, _) => await RemoveAll();
         FormClosing += (_, e) => { if (busy) { e.Cancel = true; status.Text = "กรุณารอให้ติดตั้งหรือ rollback เสร็จ ก่อนปิดโปรแกรม"; } };
     }
     static Stream? Resource(string suffix)
@@ -59,21 +62,49 @@ sealed class MainForm : Form
         using var stream = Resource("payload-manifest.json") ?? throw new InvalidDataException("รุ่นพัฒนานี้ยังไม่มี payload ที่พร้อมติดตั้ง");
         return JsonSerializer.Deserialize<PayloadManifest>(stream) ?? throw new InvalidDataException("Invalid payload manifest");
     }
-    void Check(string path, bool isExe)
+    async Task Check(string path, bool isExe)
     {
-        selected = null; install.Enabled = uninstall.Enabled = removeAll.Enabled = false; location.Text = path;
+        selected = null; install.Enabled = updateTranslations.Enabled = uninstall.Enabled = false; install.Text = "ติดตั้งแพตช์"; versionInfo.Text = translationInfo.Text = ""; location.Text = path;
         try
         {
             string valid = isExe ? GameSelection.FromExe(path) : GameSelection.ValidateDirectory(path);
             selected = valid; location.Text = valid;
-            removeAll.Enabled = InstallEngine.CanRemoveBepInExAll(valid);
-            uninstall.Enabled = File.Exists(Path.Combine(valid, ".ro3-thai-localization.json"));
             var manifest = Manifest();
             if (!manifest.ReadyForInstallation || manifest.Files.Length == 0) throw new InvalidDataException("คำแปลและ runtime ยังไม่พร้อมติดตั้ง");
             using var payload = Resource("payload.zip") ?? throw new InvalidDataException("ไม่มี payload");
             if (manifest.TargetProfile == "ro3-mono-x64") InstallEngine.ValidateMonoX64(valid);
-            if (uninstall.Enabled) { status.Text = "พบแพตช์ที่ติดตั้งไว้แล้ว ปิดเกมแล้วกดถอนแพตช์นี้ จากนั้นเลือก Client อีกครั้งเพื่อติดตั้งรุ่นใหม่ คำแปลหลังติดตั้งจะอัปเดตแยกจาก EXE"; return; }
-            if (Directory.Exists(Path.Combine(valid, "BepInEx")) || File.Exists(Path.Combine(valid,"winhttp.dll"))) throw new InvalidDataException("พบ BepInEx/proxy เดิม: รุ่น Alpha ไม่ทับม็อดเดิม กรุณาใช้ Client สำหรับทดสอบที่ยังไม่มีแพตช์");
+            var installed = InstallEngine.ReadInstallation(valid);
+            if (installed != null)
+            {
+                int comparison = InstallEngine.CompareVersions(installed.Version, manifest.Version);
+                versionInfo.Text = $"รุ่น runtime ที่ติดตั้ง: {installed.Version}    รุ่น runtime ใน Installer: {manifest.Version}";
+                uninstall.Enabled = true;
+                if (comparison < 0) { install.Text = "อัปเดตตัวแพตช์"; install.Enabled = true; }
+                else if (comparison == 0) install.Text = "ตัวแพตช์เป็นรุ่นล่าสุด";
+                else status.Text = "runtime ที่ติดตั้งใหม่กว่าไฟล์ในตัวติดตั้งนี้; จะไม่ลดรุ่นให้โดยอัตโนมัติ";
+                string config = Path.Combine(valid, "BepInEx", "config");
+                string localVersion = "";
+                try { TranslationUpdater.LoadCache(config, out localVersion); } catch { }
+                translationInfo.Text = "เวอร์ชันชุดคำแปลในเครื่อง: " + ShortVersion(localVersion) + "    กำลังตรวจ GitHub…";
+                status.Text = comparison < 0 ? "พบ runtime รุ่นเก่า; อัปเดตตัวแพตช์ได้ และตรวจชุดคำแปลแยกจากกัน" : "ตรวจชุดคำแปลแยกจากเวอร์ชันตัวติดตั้ง";
+                try
+                {
+                    string latest = await Task.Run(() => TranslationUpdater.GetLatestVersion());
+                    translationInfo.Text = "เวอร์ชันชุดคำแปลในเครื่อง: " + ShortVersion(localVersion) + "    ล่าสุดบน GitHub: " + ShortVersion(latest);
+                    updateTranslations.Enabled = latest != localVersion;
+                    if (latest == localVersion) status.Text += " — คำแปลเป็นรุ่นล่าสุดแล้ว";
+                    else status.Text += " — พบคำแปลรุ่นใหม่ กดอัปเดตคำแปลได้โดยไม่ดาวน์โหลดตัวติดตั้งใหม่";
+                }
+                catch (Exception error)
+                {
+                    translationInfo.Text = "เวอร์ชันชุดคำแปลในเครื่อง: " + ShortVersion(localVersion) + "    ตรวจ GitHub ไม่สำเร็จ";
+                    updateTranslations.Enabled = true; // Allow a direct retry from the update action.
+                    status.Text += " — plugin จะตรวจอัปเดตให้อีกครั้งเมื่อเปิดเกม: " + error.Message;
+                }
+                return;
+            }
+            versionInfo.Text = "รุ่นแพตช์ที่จะติดตั้ง: " + manifest.Version;
+            if (Directory.Exists(Path.Combine(valid, "BepInEx")) || File.Exists(Path.Combine(valid, "winhttp.dll"))) throw new InvalidDataException("พบ BepInEx/proxy ที่ไม่ได้เป็นของแพตช์นี้ โปรแกรมจะไม่ทับม็อดหรือไฟล์เดิม");
             install.Enabled = true; status.Text = "โฟลเดอร์ถูกต้อง กรุณาปิดเกมและ Launcher ก่อนติดตั้ง";
         }
         catch (Exception error) { status.Text = error.Message; }
@@ -81,8 +112,9 @@ sealed class MainForm : Form
     async Task Install()
     {
         if (selected == null || busy) return;
-        if (MessageBox.Show(this, "ปิดเกมและ RO3AsiaLauncher แล้วใช่ไหม?", "ก่อนติดตั้ง", MessageBoxButtons.YesNo, MessageBoxIcon.Question) != DialogResult.Yes) return;
-        busy = true; install.Enabled = uninstall.Enabled = removeAll.Enabled = chooseFolder.Enabled = chooseExe.Enabled = false;
+        string action = install.Text == "อัปเดตแพตช์" ? "อัปเดตแพตช์ภาษาไทยเป็นรุ่นล่าสุด" : "ติดตั้งแพตช์ภาษาไทย";
+        if (MessageBox.Show(this, "ปิดเกมและ RO3AsiaLauncher แล้วใช่ไหม?\n\n" + action + " โดยไม่สร้าง backup ถาวรชุดใหม่", "ก่อนดำเนินการ", MessageBoxButtons.YesNo, MessageBoxIcon.Question) != DialogResult.Yes) return;
+        busy = true; install.Enabled = updateTranslations.Enabled = uninstall.Enabled = chooseFolder.Enabled = chooseExe.Enabled = false;
         string staging = Path.Combine(Path.GetTempPath(), "ro3-thai-" + Guid.NewGuid().ToString("N"));
         try
         {
@@ -106,50 +138,53 @@ sealed class MainForm : Form
                 }
                 InstallEngine.Install(explicitSelection, staging, manifest, progress);
             });
-            status.Text = "ติดตั้งแพตช์พร้อมอัปเดตคำแปลสำเร็จ: ตรวจ GitHub ตอนเปิดเกมและใช้แคชเมื่อเน็ตไม่ได้ ยังต้องทดสอบเกมจริง ใช้ปุ่มถอนแพตช์นี้เพื่อย้อนกลับ";
-            uninstall.Enabled = true;
+            status.Text = "ติดตั้งหรืออัปเดตสำเร็จ ไฟล์ที่แพตช์เป็นเจ้าของได้รับการตรวจแล้ว";
         }
         catch (Exception error) { status.Text = "ติดตั้งไม่สำเร็จ: " + error.Message; MessageBox.Show(this, error.Message, "ข้อผิดพลาด", MessageBoxButtons.OK, MessageBoxIcon.Error); }
         finally
         {
             try { if (Directory.Exists(staging)) Directory.Delete(staging, true); } catch { /* Do not mask installation errors. */ }
             busy = false; chooseFolder.Enabled = chooseExe.Enabled = true;
-            uninstall.Enabled = selected != null && File.Exists(Path.Combine(selected, ".ro3-thai-localization.json"));
-            removeAll.Enabled = selected != null && InstallEngine.CanRemoveBepInExAll(selected);
-            install.Enabled = false; // Revalidate through explicit user selection before another attempt.
+            if (selected != null) await Check(selected, false);
         }
     }
     async Task Remove()
     {
         if (selected == null || busy) return;
-        if (MessageBox.Show(this, "ปิดเกมและ Launcher แล้วใช่ไหม? จะถอนเฉพาะไฟล์ที่แพตช์นี้เป็นเจ้าของ และเก็บ snapshot ไว้", "ถอนแพตช์สกิล", MessageBoxButtons.YesNo, MessageBoxIcon.Question) != DialogResult.Yes) return;
-        busy = true; install.Enabled = uninstall.Enabled = removeAll.Enabled = chooseFolder.Enabled = chooseExe.Enabled = false;
+        if (MessageBox.Show(this, "ปิดเกมและ Launcher แล้วใช่ไหม?\n\nจะลบเฉพาะไฟล์ที่แพตช์นี้ติดตั้ง และคืนไฟล์เดิมที่แพตช์เคยแทนที่ โดยไม่เก็บ backup", "ถอนแพตช์ภาษาไทย", MessageBoxButtons.YesNo, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button2) != DialogResult.Yes) return;
+        busy = true; install.Enabled = updateTranslations.Enabled = uninstall.Enabled = chooseFolder.Enabled = chooseExe.Enabled = false;
         try
         {
             var progress = new Progress<InstallProgress>(p => { bar.Maximum = p.Total; bar.Value = p.Completed; status.Text = $"กำลังถอน {p.Completed}/{p.Total}: {p.Path}"; });
             string root = selected;
-            string saved = await Task.Run(() => InstallEngine.Uninstall(root, progress));
-            status.Text = "ถอนเฉพาะไฟล์แพตช์แล้ว เก็บ snapshot ไว้ที่ " + saved + " ไฟล์ log/ม็อดที่เพิ่มภายหลังจะไม่ถูกลบ";
+            await Task.Run(() => InstallEngine.Uninstall(root, progress));
+            status.Text = "ถอนเฉพาะไฟล์แพตช์แล้ว ไม่มี backup คงเหลือ ไฟล์หรือม็อดที่ไม่ได้ติดตั้งโดยแพตช์ยังอยู่";
         }
         catch (Exception error) { status.Text = "ถอนแพตช์ไม่สำเร็จ: " + error.Message; MessageBox.Show(this,error.Message,"ข้อผิดพลาด",MessageBoxButtons.OK,MessageBoxIcon.Error); }
-        finally { busy = false; chooseFolder.Enabled = chooseExe.Enabled = true; uninstall.Enabled = File.Exists(Path.Combine(selected,".ro3-thai-localization.json")); removeAll.Enabled = InstallEngine.CanRemoveBepInExAll(selected); }
+        finally { busy = false; chooseFolder.Enabled = chooseExe.Enabled = true; if (selected != null) await Check(selected, false); }
     }
 
-    async Task RemoveAll()
+    static string ShortVersion(string version) => string.IsNullOrEmpty(version) ? "ไม่มีแคช" : version[..Math.Min(12, version.Length)];
+
+    async Task UpdateTranslations()
     {
-        if(selected==null || busy)return;
-        string warning="ปิดเกมและ Launcher ก่อนดำเนินการ\n\nจะถอน BepInEx ทั้งโฟลเดอร์ รวมม็อดอื่น config และ log พร้อม loader ที่ยืนยันว่าเกี่ยวข้อง ไม่แตะ ro3.exe หรือ ro3_Data\nไฟล์จะย้ายไป backup ใน Client ไม่ลบถาวร\n\nต้องการถอน BepInEx ทั้งหมดใช่ไหม?";
-        if(MessageBox.Show(this,warning,"ถอน BepInEx ทั้งหมด — รวมม็อดอื่น",MessageBoxButtons.YesNo,MessageBoxIcon.Warning,MessageBoxDefaultButton.Button2)!=DialogResult.Yes)return;
-        busy=true;install.Enabled=uninstall.Enabled=removeAll.Enabled=chooseFolder.Enabled=chooseExe.Enabled=false;
+        if (selected == null || busy) return;
+        if (MessageBox.Show(this, "ดาวน์โหลดเฉพาะข้อมูลคำแปลจาก GitHub และตรวจ hash/schema ก่อนเขียนแคช\n\nไม่ดาวน์โหลด Client, Installer หรือ DLL", "อัปเดตคำแปล", MessageBoxButtons.YesNo, MessageBoxIcon.Question) != DialogResult.Yes) return;
+        busy = true; install.Enabled = updateTranslations.Enabled = uninstall.Enabled = chooseFolder.Enabled = chooseExe.Enabled = false;
         try
         {
-            string root=selected;var progress=new Progress<InstallProgress>(p=>{bar.Maximum=p.Total;bar.Value=p.Completed;status.Text=$"กำลังถอนทั้งหมด {p.Completed}/{p.Total}: {p.Path}";});
-            var result=await Task.Run(()=>InstallEngine.RemoveBepInExAll(root,progress));
-            status.Text="ถอน BepInEx แล้ว ย้ายไฟล์ไปสำรองที่ "+result.BackupDirectory;
-            if(result.PreservedRootPaths.Length>0)status.Text+=" ไม่แตะไฟล์ root ที่ยังยืนยันไม่ได้: "+string.Join(", ",result.PreservedRootPaths);
+            string config = Path.Combine(selected, "BepInEx", "config");
+            string current = "";
+            try { TranslationUpdater.LoadCache(config, out current); } catch { /* A corrupt cache will be replaced only after the new bundle validates. */ }
+            string message = "กำลังตรวจเวอร์ชันชุดคำแปลจาก GitHub…";
+            await Task.Run(() => TranslationUpdater.Refresh(config, current, text => message = text));
+            TranslationUpdater.LoadCache(config, out string updated);
+            string latest = await Task.Run(() => TranslationUpdater.GetLatestVersion());
+            if (updated != latest) throw new InvalidOperationException(message);
+            status.Text = "อัปเดตข้อมูลคำแปลสำเร็จ โดยไม่ดาวน์โหลด Client หรือ Installer";
         }
-        catch(Exception e){status.Text="ถอนทั้งหมดไม่สำเร็จ: "+e.Message;MessageBox.Show(this,e.Message,"ข้อผิดพลาด",MessageBoxButtons.OK,MessageBoxIcon.Error);}
-        finally{busy=false;chooseFolder.Enabled=chooseExe.Enabled=true;install.Enabled=false;uninstall.Enabled=File.Exists(Path.Combine(selected,".ro3-thai-localization.json"));removeAll.Enabled=InstallEngine.CanRemoveBepInExAll(selected);}
+        catch (Exception error) { status.Text = "อัปเดตคำแปลไม่สำเร็จ; ข้อมูลเดิมยังอยู่: " + error.Message; }
+        finally { busy = false; chooseFolder.Enabled = chooseExe.Enabled = true; if (selected != null) await Check(selected, false); }
     }
 
 }

@@ -13,6 +13,7 @@ try{
  Check(!engine.GetReferencedAssemblies().Any(a=>a.Name=="System.Runtime.Serialization"),"engine has no stripped serialization dependency");
  Check(engine.GetTypes().All(t=>!t.GetCustomAttributesData().Any(a=>a.AttributeType.Namespace=="System.Runtime.Serialization")),"game type scans do not see unsupported serializer attributes");
  var m=JsonSerializer.Deserialize<TranslationManifest>(File.ReadAllBytes(Path.Combine(root,"translations/live/manifest.json")),options)!;
+ Check(TranslationUpdater.GetLatestVersion((_,_)=>Json(m))==m.Version,"latest translation feed version checked without downloading data");
  var dir=Path.Combine(root,"translations/live/versions",m.Version);
  byte[] table=File.ReadAllBytes(Path.Combine(dir,m.Files[0].Name)),rules=File.ReadAllBytes(Path.Combine(dir,m.Files[1].Name)),origins=File.ReadAllBytes(Path.Combine(dir,m.Files[2].Name));
  var seedConfig=Path.Combine(root,"runtime-build/payload/BepInEx/config");
@@ -46,8 +47,12 @@ try{
  Check(m.RuntimeSchema==2 && m.Files.Length==3,"runtime schema 2 requires origins file and all merged IDs");
  File.WriteAllText(cache,"corrupt");Reject(()=>TranslationUpdater.LoadCache(config,out _),"corrupt cache rejected for embedded fallback");
  File.WriteAllBytes(cache,before);
- var linked=Path.Combine(temp,"linked");Directory.CreateSymbolicLink(linked,config);Reject(()=>TranslationUpdater.SaveCache(linked,m,table,rules,origins),"linked config rejected");
- var config2=Path.Combine(temp,"config2");Directory.CreateDirectory(config2);Directory.CreateSymbolicLink(Path.Combine(config2,"RO3.TranslationCache"),Path.GetDirectoryName(cache)!);Reject(()=>TranslationUpdater.SaveCache(config2,m,table,rules,origins),"linked cache directory rejected");
- Check(before.SequenceEqual(File.ReadAllBytes(cache)),"linked writes do not alter outside data");
+ try
+ {
+  var linked=Path.Combine(temp,"linked");Directory.CreateSymbolicLink(linked,config);Reject(()=>TranslationUpdater.SaveCache(linked,m,table,rules,origins),"linked config rejected");
+  var config2=Path.Combine(temp,"config2");Directory.CreateDirectory(config2);Directory.CreateSymbolicLink(Path.Combine(config2,"RO3.TranslationCache"),Path.GetDirectoryName(cache)!);Reject(()=>TranslationUpdater.SaveCache(config2,m,table,rules,origins),"linked cache directory rejected");
+  Check(before.SequenceEqual(File.ReadAllBytes(cache)),"linked writes do not alter outside data");
+ }
+ catch(Exception e) when(e is IOException or UnauthorizedAccessException or PlatformNotSupportedException){Console.WriteLine("SKIP symlink tests; creating symlinks is unavailable");}
  Console.WriteLine($"{passed} updater checks passed. Fake network only; no game or executable downloads.");
 }finally{Directory.Delete(temp,true);}

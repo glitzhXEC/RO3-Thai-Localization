@@ -12,7 +12,9 @@ public static class LanguageBridgeChecks
   Check(!d.TryLanguageId("1002","Changed English",out _,out _),"New English preserved");
   Check(!d.TryLanguageId("11000","解锁 ${2} 个格子",out _,out _),"Changed placeholder shape preserved");
   Check(!d.TryLanguageId("11000","解锁 ${1} 个格子\n第二行",out _,out _),"Changed line layout preserved");
-  Check(d.Translate("确定")=="确定"&&d.Translate("你好玩家")=="你好玩家","No global Chinese/player-name substitutions");
+  Check(d.Translate("确定")=="ยืนยัน"&&d.Translate("你好玩家")=="你好玩家","Exact approved Chinese UI strings translate; arbitrary player text stays unchanged");
+  var ambiguousText=SkillDictionary.LoadText("1002\tConfirm\tยืนยัน\n1003\tCancel\tยกเลิก\n", "", "1002\t相同\t相同\n1003\t相同\t相同\n");
+  Check(ambiguousText.Translate("相同")=="相同","Conflicting exact Chinese source is left unchanged");
   Check(!SkillDictionary.HasChinese("New English (╯▔皿▔)╯")&&!d.TryLanguageId("1002","New English (╯▔皿▔)╯",out _,out _),"Chinese-looking emoticon does not overwrite changed English");
   var multiline=SkillDictionary.LoadText("11001\tUse ${1}\\nConfirm\tใช้ ${1}\\nยืนยัน\n", "");
   Check(multiline.TryLanguageId("11001","新版 ${1}\\n确认",out var wireFallback,out _)&&wireFallback=="Use ${1}\\nConfirm","Unknown Chinese wire controls retain escaped output style");

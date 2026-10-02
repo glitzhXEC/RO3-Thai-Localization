@@ -13,14 +13,14 @@
 ดาวน์โหลด `RO3-Thai-Patch-Installer.exe` จาก Release นี้ หรือ ZIP ที่มี EXE พร้อมคู่มือ แล้วตรวจ SHA256SUMS.txt
 ปิดเกมและ Launcher เปิด EXE เลือกโฟลเดอร์ `Client` ที่มี `ro3.exe` หรือเลือกไฟล์ `ro3.exe` โดยตรง จากนั้นกดติดตั้ง ไม่มี BAT ไม่มี Translation-Editor ไม่มีการสแกนเครื่องหรือหาเกมอัตโนมัติ ยังใช้ BepInEx เหมือนเดิม
 
-**ถ้าใช้ Alpha เดิม:** ปิดเกม เปิด EXE ใหม่ เลือก Client แล้วกดถอนแพตช์นี้ก่อน เลือก Client ใหม่แล้วติดตั้ง ไม่ติดตั้งทับ BepInEx/ม็อดเดิม หากยังมี BepInEx เหลือจาก logs/config หรือม็อดอื่น โปรแกรมจะไม่ลบทิ้งเอง ให้สำรองและย้ายโฟลเดอร์ที่เหลือออกด้วยตัวเองก่อนติดตั้ง ไม่ควรทำเช่นนี้หากต้องใช้ม็อดเหล่านั้นร่วมกัน รุ่นนี้ยังไม่รองรับการรวมม็อดเดิม
+**ถ้าใช้ Alpha เดิม:** ปิดเกม เปิด EXE แล้วเลือก Client โปรแกรมแสดง runtime version และ translation data version แยกกัน runtime เก่าสามารถกด **อัปเดตตัวแพตช์**; translation data เก่ากด **อัปเดตคำแปลจาก GitHub** ได้โดยไม่โหลด Installer/Client ใหม่ หรือกด **ถอนแพตช์นี้** โปรแกรมไม่ค้นหา Client อัตโนมัติ และคงไฟล์/ม็อดที่ไม่มี ownership marker ของแพตช์ไว้
 
 ## คำแปลอัปเดตอย่างไร
 
 - มีฐานออฟไลน์ 3,375 IDs / 1,848 rules (สกิล 2,414 IDs รวมไอเทมและอาหาร)
 - ตอนเริ่มเกม ใช้แคชที่ตรวจแล้วทันที จากนั้นตรวจข้อมูลใหม่จาก GitHub `main` หนึ่งครั้งใน background
 - แหล่งต้นทางคือ `translations/RO3.LocalizationOverrides.tsv` บน main; GitHub Actions สร้าง TSV + rules เป็นชุด versioned ใน `translations/live` ก่อนเผยแพร่
-- แก้คำแปลใน main แล้วรอ workflow Translation data feed สำเร็จ ผู้เล่นเปิดเกมครั้งถัดไปจะได้รับข้อมูลใหม่ ไม่ต้องสร้าง Release ทุกครั้ง
+- แก้คำแปลใน main แล้วรอ workflow Translation data feed สำเร็จ plugin จะเช็ค manifest ที่ GitHub ตอนเปิดเกมและรับข้อมูลรุ่นใหม่อัตโนมัติ ไม่ต้องดาวน์โหลด Client/Installer หรือสร้าง Release ทุกครั้ง; Installer รุ่นใหม่มีปุ่มเช็ค/อัปเดต data ล่วงหน้าได้
 - เปลี่ยนผ่าน `batch-*.th.json` จะใช้ workflow Refresh translation tables ที่ตรวจและสร้างทั้งตารางและ feed; อย่าแก้ batch และ TSV ต่างเวอร์ชันพร้อมกัน เพราะ batch workflow สร้าง TSV ใหม่จาก batches
 - ข้อความที่แสดงเป็นไทยไปแล้วอาจต้องเปิดหน้าสกิลใหม่หรือเริ่มเกมใหม่ ไม่ได้ย้อนแปลทุกหน้าจอที่เปิดอยู่
 - เน็ตล่ม แฮชผิด ไฟล์ไม่ครบ schema ใหม่ หรือเขียนแคชไม่ได้: ใช้ข้อมูลเดิมต่อ หากแคชเสีย ใช้ฐานที่ติดตั้งมา
@@ -28,7 +28,7 @@
 
 ระบบตรวจ HTTPS repo ที่กำหนดตายตัว, SHA-256, ขนาด, schema, จำนวนแถว, IDs, placeholders, สูตร และชื่อสถานะ; ใช้ชุดข้อมูล content-versioned เพื่อไม่ปะปนไฟล์คนละเวอร์ชัน SHA-256 ตรวจความสอดคล้อง/ความสมบูรณ์ **ไม่ใช่ลายเซ็นผู้เผยแพร่** ความเชื่อถืออยู่ที่ repo นี้และ HTTPS
 
-แคช: `BepInEx/config/RO3.TranslationCache/cache.json` เขียนเป็นไฟล์เดียวแบบ atomic ไม่แก้ DLL หรือ TSV ฐานที่ installer เป็นเจ้าของ ถอนติดตั้งได้แม้แคชอัปเดตแล้ว และเก็บ snapshot แคช/config ปัจจุบันไว้ใน Client; ไม่ลบม็อดที่ผู้ใช้เพิ่มเอง
+เวอร์ชัน runtime ของ Installer/ownership marker แยกจากเวอร์ชันคำแปลใน manifest/cache (`RO3.TranslationCache/cache.json`). การอัปเดต translations แตะเฉพาะ data cache ไม่แก้ DLL หรือ TSV ฐานที่ installer เป็นเจ้าของ และไม่ต้องดาวน์โหลด installer ใหม่เมื่อเพิ่มคำแปล การอัปเดต runtime คงแคช/config ที่ผู้ใช้แก้ไว้; การถอนลบเฉพาะไฟล์ใน ownership marker และไม่สร้าง snapshot/backup คงเหลือ
 
 หลังเปิดเกมครั้งแรก ปิดการตรวจออนไลน์ได้ที่ `BepInEx/config/com.ro3.thailocalization.skills.cfg` ตั้ง `[Translations] AutoUpdateOnStartup = false` แล้วเริ่มเกมใหม่
 

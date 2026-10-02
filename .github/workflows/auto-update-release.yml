@@ -36,7 +36,7 @@ jobs:
       contents: write
     env:
       GH_TOKEN: ${{ github.token }}
-      TAG: v0.4.1-language-table-hotfix-alpha.1
+      TAG: v0.4.2-installer-update-alpha.1
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -72,8 +72,8 @@ jobs:
         run: |
           New-Item -ItemType Directory -Path dist/release -Force | Out-Null
           Copy-Item dist/skills-alpha/RO3-Thai-Patch-Installer.exe dist/release/
-          Copy-Item docs/LANGUAGE-TABLE-HOTFIX.md dist/skills-alpha/README.md
-          Compress-Archive -Path dist/skills-alpha/RO3-Thai-Patch-Installer.exe,dist/skills-alpha/README.md -DestinationPath dist/release/RO3-Thai-Patch-Windows-x64-Auto-Update-Alpha.zip
+          Copy-Item docs/INSTALLER-UPDATE-RELEASE.md dist/skills-alpha/README.md
+          Compress-Archive -Path dist/skills-alpha/RO3-Thai-Patch-Installer.exe,dist/skills-alpha/README.md -DestinationPath dist/release/RO3-Thai-Patch-Windows-x64-Installer-Update-Alpha.zip
           New-Item -ItemType Directory -Path dist/plugin-hotfix/BepInEx/plugins -Force | Out-Null
           Copy-Item runtime-build/payload/BepInEx/plugins/RO3.ThaiLocalization.Skills.dll dist/plugin-hotfix/BepInEx/plugins/
           Copy-Item runtime-build/payload/BepInEx/plugins/SkillRuntime.Engine.dll dist/plugin-hotfix/BepInEx/plugins/
@@ -96,11 +96,11 @@ jobs:
         run: |
           gh release view $env:TAG --repo $env:GITHUB_REPOSITORY *> $null
           if ($LASTEXITCODE -ne 0) {
-            gh release create $env:TAG --repo $env:GITHUB_REPOSITORY --target $env:GITHUB_SHA --draft --prerelease --latest=false --title 'RO3 Thai — Language Table Hotfix Alpha (ยังไม่ทดสอบในเกม)' --notes-file docs/LANGUAGE-TABLE-HOTFIX.md
+            gh release create $env:TAG --repo $env:GITHUB_REPOSITORY --target $env:GITHUB_SHA --draft --prerelease --latest=false --title 'RO3 Thai Patch — Installer Update Alpha (ยังไม่ทดสอบในเกม)' --notes-file docs/INSTALLER-UPDATE-RELEASE.md
             if ($LASTEXITCODE -ne 0) { throw 'Create failed' }
           }
           $assets = Get-ChildItem dist/release -File | ForEach-Object { $_.FullName }
           gh release upload $env:TAG $assets --repo $env:GITHUB_REPOSITORY --clobber
           if ($LASTEXITCODE -ne 0) { throw 'Upload failed' }
-          gh release edit $env:TAG --repo $env:GITHUB_REPOSITORY --draft=false --prerelease --latest=false --title 'RO3 Thai — Language Table Hotfix Alpha (ยังไม่ทดสอบในเกม)' --notes-file docs/LANGUAGE-TABLE-HOTFIX.md
+          gh release edit $env:TAG --repo $env:GITHUB_REPOSITORY --draft=false --prerelease --latest=false --title 'RO3 Thai Patch — Installer Update Alpha (ยังไม่ทดสอบในเกม)' --notes-file docs/INSTALLER-UPDATE-RELEASE.md
           if ($LASTEXITCODE -ne 0) { throw 'Publish failed' }

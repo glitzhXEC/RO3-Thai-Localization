@@ -11,6 +11,7 @@ namespace RO3.ThaiLocalization
         private sealed class Rule { public Regex Pattern = null!; public string Replacement = ""; }
         private readonly Dictionary<string, Row> byId = new Dictionary<string, Row>(StringComparer.Ordinal);
         private readonly Dictionary<string, string> exact = new Dictionary<string, string>(StringComparer.Ordinal);
+        private readonly Dictionary<string, string> exactOrigins = new Dictionary<string, string>(StringComparer.Ordinal);
         private readonly List<Rule> rules = new List<Rule>();
         private readonly Dictionary<string, string> cache = new Dictionary<string, string>(StringComparer.Ordinal);
         private readonly object sync = new object();
@@ -69,6 +70,7 @@ namespace RO3.ThaiLocalization
                     row.CnWire = cells[1]; row.TwWire = cells[2]; row.Cn = Decode(cells[1]); row.Tw = Decode(cells[2]);
                 }
                 if (seen.Count != result.Count) throw new InvalidDataException("Incomplete language origin mapping");
+                result.BuildExactOriginFallbacks();
             }
             foreach (string line in Lines(rulesText))
             {
@@ -82,6 +84,29 @@ namespace RO3.ThaiLocalization
             }
             if (result.Count == 0) throw new InvalidDataException("Empty translation table");
             return result;
+        }
+        private void BuildExactOriginFallbacks()
+        {
+            var ambiguous = new HashSet<string>(StringComparer.Ordinal);
+            foreach (var pair in byId)
+            {
+                Row row = pair.Value;
+                if (row.English == row.Thai) continue;
+                AddExactOrigin(row.Cn, row.ThaiDecoded, ambiguous);
+                AddExactOrigin(row.Tw, row.ThaiDecoded, ambiguous);
+            }
+            foreach (string text in ambiguous) exactOrigins.Remove(text);
+        }
+        private void AddExactOrigin(string source, string target, HashSet<string> ambiguous)
+        {
+            if (String.IsNullOrEmpty(source) || source == "None" || source.Length > 6000 || !HasChinese(source)) return;
+            string existing;
+            if (exactOrigins.TryGetValue(source, out existing!))
+            {
+                if (existing != target) ambiguous.Add(source);
+                return;
+            }
+            exactOrigins.Add(source, target);
         }
         private static IEnumerable<string> Lines(string text)
         { using (var reader = new StringReader(text)) { string? line; while ((line = reader.ReadLine()) != null) yield return line; } }
@@ -182,6 +207,10 @@ namespace RO3.ThaiLocalization
             lock (sync)
             {
                 string output;
+                // Some short UI labels are passed straight to text setters without a
+                // localization ID. Translate only complete, known source strings whose
+                // approved IDs all agree on the same Thai value.
+                if (HasChinese(input) && exactOrigins.TryGetValue(input, out output!)) return output;
                 // Global setters must not replace short UI labels/status names by coincidence.
                 // Short descriptions remain available through the exact ID+English hook.
                 if (input.Length >= 45 && exact.TryGetValue(input, out output!)) return output;

@@ -131,6 +131,13 @@ namespace RO3.ThaiLocalization
                 }
             }
         }
+        public static string GetLatestVersion(Func<string, int, byte[]>? fetch = null)
+        {
+            var download = fetch ?? FetchTrusted;
+            TranslationManifest manifest = Parse<TranslationManifest>(download(ManifestPath, 32768), 32768);
+            ValidateManifest(manifest);
+            return manifest.Version;
+        }
         public static SkillDictionary? Refresh(string config, string currentVersion, Action<string> report, Func<string, int, byte[]>? fetch = null)
         {
             try

@@ -6,6 +6,7 @@ namespace RO3.Installer;
 public sealed record PayloadFile(string Path, string Sha256);
 public sealed record PayloadManifest(string Version, bool ReadyForInstallation, PayloadFile[] Files, string? TargetProfile = null);
 public sealed record InstallProgress(int Completed, int Total, string Path);
+public sealed record InstallationRecord(string Version, PayloadFile[] Files, string? BackupDirectory = null, string? TargetProfile = null, Dictionary<string, string>? OriginalFiles = null);
 
 public static class GameSelection
 {
@@ -28,6 +29,86 @@ public static class GameSelection
 
 public static partial class InstallEngine
 {
+    public static InstallationRecord? ReadInstallation(string selected)
+    {
+        string root = GameSelection.ValidateDirectory(selected);
+        string marker = Path.Combine(root, ".ro3-thai-localization.json");
+        if (!File.Exists(marker)) return null;
+        if ((File.GetAttributes(marker) & FileAttributes.ReparsePoint) != 0 || new FileInfo(marker).Length > 2 * 1024 * 1024)
+            throw new InvalidDataException("ข้อมูล ownership ของแพตช์เสียหายหรือไม่ปลอดภัย");
+        var record = JsonSerializer.Deserialize<InstallationRecord>(File.ReadAllText(marker)) ?? throw new InvalidDataException("ข้อมูล ownership ของแพตช์อ่านไม่ได้");
+        ValidateRecord(root, record);
+        return record;
+    }
+
+    public static int CompareVersions(string installed, string available)
+    {
+        static (Version Core, string Suffix) Parse(string value)
+        {
+            var match = System.Text.RegularExpressions.Regex.Match(value, @"\Av?(\d+)\.(\d+)\.(\d+)(?:[-+].*)?\z");
+            if (!match.Success || !Version.TryParse(match.Groups[1].Value + "." + match.Groups[2].Value + "." + match.Groups[3].Value, out var parsed))
+                throw new InvalidDataException("รูปแบบเวอร์ชันแพตช์ไม่ถูกต้อง: " + value);
+            int separator = value.IndexOfAny(new[] { '-', '+' });
+            string suffix = separator < 0 ? "" : value[(separator + 1)..];
+            return (parsed, suffix);
+        }
+        if (String.Equals(installed, available, StringComparison.OrdinalIgnoreCase)) return 0;
+        var a = Parse(installed); var b = Parse(available);
+        int core = a.Core.CompareTo(b.Core); if (core != 0) return core;
+        if (a.Suffix.Length == 0) return b.Suffix.Length == 0 ? 0 : 1;
+        if (b.Suffix.Length == 0) return -1;
+        var ai = System.Text.RegularExpressions.Regex.Match(a.Suffix, @"(?:^|\.)(\d+)\z");
+        var bi = System.Text.RegularExpressions.Regex.Match(b.Suffix, @"(?:^|\.)(\d+)\z");
+        if (ai.Success && bi.Success && a.Suffix[..ai.Index] == b.Suffix[..bi.Index] &&
+            int.TryParse(ai.Groups[1].Value, out int an) && int.TryParse(bi.Groups[1].Value, out int bn)) return an.CompareTo(bn);
+        return StringComparer.OrdinalIgnoreCase.Compare(a.Suffix, b.Suffix);
+    }
+
+    private static void ValidateRecord(string root, InstallationRecord record)
+    {
+        if (string.IsNullOrWhiteSpace(record.Version) || record.Files == null || record.Files.Length == 0 || record.Files.Length > 5000)
+            throw new InvalidDataException("รายการไฟล์ของแพตช์ไม่ถูกต้อง");
+        var names = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+        foreach (var entry in record.Files)
+        {
+            if (entry == null || !names.Add(entry.Path)) throw new InvalidDataException("รายการ ownership ซ้ำหรือไม่ถูกต้อง");
+            ResolveSafe(root, entry.Path);
+        }
+        if (record.OriginalFiles != null)
+        {
+            foreach (var pair in record.OriginalFiles)
+            {
+                if (!names.Contains(pair.Key) || string.IsNullOrWhiteSpace(pair.Value) || pair.Value.IndexOfAny(Path.GetInvalidFileNameChars()) >= 0 ||
+                    pair.Value.Contains('/') || pair.Value.Contains('\\') || pair.Value is "." or "..")
+                    throw new InvalidDataException("รายการไฟล์ต้นฉบับใน ownership ไม่ถูกต้อง");
+            }
+        }
+        if (record.BackupDirectory != null)
+        {
+            string backup = Path.GetFullPath(record.BackupDirectory);
+            if (Path.GetDirectoryName(backup) != root || !Path.GetFileName(backup).StartsWith(".ro3-thai-backup-", StringComparison.Ordinal) ||
+                !Directory.Exists(backup) || (File.GetAttributes(backup) & FileAttributes.ReparsePoint) != 0)
+                throw new InvalidDataException("ข้อมูล backup เดิมไม่ถูกต้อง");
+        }
+    }
+
+    internal static string? OriginalFilePath(InstallationRecord record, string path)
+    {
+        if (record.BackupDirectory == null) return null;
+        string name;
+        if (record.OriginalFiles != null)
+        {
+            if (!record.OriginalFiles.TryGetValue(path, out name!)) return null;
+        }
+        else
+        {
+            int index = Array.FindIndex(record.Files, f => f.Path.Equals(path, StringComparison.OrdinalIgnoreCase));
+            if (index < 0) return null;
+            name = index.ToString(System.Globalization.CultureInfo.InvariantCulture);
+        }
+        string full = Path.Combine(record.BackupDirectory, name);
+        return File.Exists(full) ? full : null;
+    }
     public static string ResolveSafe(string root, string relative)
     {
         if (string.IsNullOrWhiteSpace(relative) || relative.Contains('\\') || relative.Contains(':') ||
@@ -83,37 +164,66 @@ public static partial class InstallEngine
         if (manifest.TargetProfile == "ro3-mono-x64")
         {
             ValidateMonoX64(target);
-            if (File.Exists(System.IO.Path.Combine(target, "winhttp.dll")))
+            if (File.Exists(System.IO.Path.Combine(target, "winhttp.dll")) && ReadInstallation(target)?.Files.All(f => f.Path != "winhttp.dll") != false)
                 throw new InvalidOperationException("พบ winhttp.dll เดิม: ไม่ทับ proxy หรือม็อดเดิมในรุ่น Alpha");
         }
-        if (Directory.Exists(System.IO.Path.Combine(target, "BepInEx")))
-            throw new InvalidOperationException("พบ BepInEx เดิม: รุ่นพัฒนานี้ไม่ทับไฟล์หรือม็อดเดิม กรุณารอระบบอัปเดตที่ผ่านการทดสอบ");
         var paths = manifest.Files.Select(e => (Entry: e, Source: ResolveSafe(payloadRoot, e.Path), Target: ResolveSafe(target, e.Path))).ToArray();
         string marker = System.IO.Path.Combine(target, ".ro3-thai-localization.json");
-        if (File.Exists(marker)) throw new InvalidOperationException("พบข้อมูลการติดตั้งเดิม: ไม่ติดตั้งทับในรุ่นพัฒนานี้");
-        string backup = System.IO.Path.Combine(target, ".ro3-thai-backup-" + Guid.NewGuid().ToString("N"));
-        var written = new List<(string Target, string? Backup)>();
+        InstallationRecord? previous = ReadInstallation(target);
+        var previousByPath = previous?.Files.ToDictionary(f => f.Path, StringComparer.OrdinalIgnoreCase) ?? new Dictionary<string, PayloadFile>(StringComparer.OrdinalIgnoreCase);
+        var newPaths = new HashSet<string>(paths.Select(p => p.Entry.Path), StringComparer.OrdinalIgnoreCase);
+        if (previous == null && Directory.Exists(System.IO.Path.Combine(target, "BepInEx")))
+            throw new InvalidOperationException("พบ BepInEx ที่ไม่ได้ติดตั้งโดยแพตช์นี้ โปรแกรมจะไม่เขียนทับม็อดหรือไฟล์ของโปรแกรมอื่น");
+        foreach (var p in paths)
+        {
+            if (Directory.Exists(p.Target)) throw new IOException("ปลายทางเป็นโฟลเดอร์: " + p.Entry.Path);
+            if (File.Exists(p.Target) && !previousByPath.ContainsKey(p.Entry.Path))
+                throw new IOException("พบไฟล์ที่แพตช์นี้ไม่ได้เป็นเจ้าของ จึงไม่เขียนทับ: " + p.Entry.Path);
+        }
+        var obsolete = previousByPath.Values.Where(f => !newPaths.Contains(f.Path)).ToArray();
+        foreach (var old in obsolete)
+        {
+            string full = ResolveSafe(target, old.Path);
+            if (File.Exists(full) && !MutableOwnedFile(old.Path) && !Sha(full).Equals(old.Sha256, StringComparison.OrdinalIgnoreCase))
+                throw new IOException("ไฟล์แพตช์เก่าถูกแก้ไข จะไม่ลบอัตโนมัติ: " + old.Path);
+        }
+        // Temporary rollback copies live outside Client and are deleted on success.
+        string rollback = System.IO.Path.Combine(Path.GetTempPath(), "ro3-thai-update-" + Guid.NewGuid().ToString("N"));
+        var affected = new HashSet<string>(paths.Select(p => p.Target), StringComparer.OrdinalIgnoreCase);
+        foreach (var old in obsolete) affected.Add(ResolveSafe(target, old.Path));
+        var priorMarker = File.Exists(marker) ? File.ReadAllBytes(marker) : null;
+        var existed = new Dictionary<string, string?>(StringComparer.OrdinalIgnoreCase);
         var madeDirectories = new List<string>();
+        string? retainedBackup = null;
+        var obsoleteOriginals = new List<string>();
         try
         {
-            Directory.CreateDirectory(backup);
+            Directory.CreateDirectory(rollback);
+            int snapshotIndex = 0;
+            foreach (string path in affected)
+            {
+                if (File.Exists(path))
+                {
+                    string snapshot = Path.Combine(rollback, (snapshotIndex++).ToString(System.Globalization.CultureInfo.InvariantCulture));
+                    File.Copy(path, snapshot, false); existed[path] = snapshot;
+                }
+                else existed[path] = null;
+            }
             int completed = 0;
             foreach (var p in paths)
             {
                 // Recheck immediately before writing, including reparse-point checks.
                 ResolveSafe(target, p.Entry.Path);
                 if (Directory.Exists(p.Target)) throw new IOException("Destination is a directory: " + p.Entry.Path);
-                string? saved = null;
-                if (File.Exists(p.Target))
-                {
-                    saved = System.IO.Path.Combine(backup, completed.ToString());
-                    File.Copy(p.Target, saved, false);
-                }
                 var absent = new Stack<string>();
                 string? parent = System.IO.Path.GetDirectoryName(p.Target);
                 while (parent != null && !Directory.Exists(parent)) { absent.Push(parent); parent = System.IO.Path.GetDirectoryName(parent); }
                 foreach (string dir in absent) { Directory.CreateDirectory(dir); madeDirectories.Add(dir); }
-                written.Add((p.Target, saved));
+                if (previousByPath.ContainsKey(p.Entry.Path) && MutableOwnedFile(p.Entry.Path) && File.Exists(p.Target))
+                {
+                    progress?.Report(new InstallProgress(++completed, paths.Length + obsolete.Length, p.Entry.Path));
+                    continue; // Keep the user's settings and downloaded translation cache.
+                }
                 using (var source = File.OpenRead(p.Source))
                 using (var dest = new FileStream(p.Target, FileMode.Create, FileAccess.Write, FileShare.None))
                 {
@@ -121,28 +231,63 @@ public static partial class InstallEngine
                     dest.Flush(true);
                 }
                 if (!Sha(p.Target).Equals(p.Entry.Sha256, StringComparison.OrdinalIgnoreCase)) throw new IOException("Post-copy hash failed");
-                progress?.Report(new InstallProgress(++completed, paths.Length, p.Entry.Path));
+                progress?.Report(new InstallProgress(++completed, paths.Length + obsolete.Length, p.Entry.Path));
             }
-            File.WriteAllText(marker, JsonSerializer.Serialize(new { manifest.Version, manifest.Files, BackupDirectory = backup, manifest.TargetProfile }));
+            foreach (var old in obsolete)
+            {
+                string full = ResolveSafe(target, old.Path);
+                if (!File.Exists(full)) continue;
+                string? original = previous == null ? null : OriginalFilePath(previous, old.Path);
+                if (original != null) File.Copy(original, full, true); else File.Delete(full);
+                progress?.Report(new InstallProgress(++completed, paths.Length + obsolete.Length, old.Path));
+            }
+            var originalFiles = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
+            if (previous?.BackupDirectory != null)
+            {
+                foreach (var old in previous.Files)
+                {
+                    if (!newPaths.Contains(old.Path)) continue;
+                    string? original = OriginalFilePath(previous, old.Path);
+                    if (original != null) originalFiles[old.Path] = Path.GetFileName(original);
+                }
+            }
+            retainedBackup = originalFiles.Count > 0 ? previous?.BackupDirectory : null;
+            File.WriteAllText(marker, JsonSerializer.Serialize(new InstallationRecord(manifest.Version, manifest.Files, retainedBackup, manifest.TargetProfile, originalFiles.Count > 0 ? originalFiles : null)));
+            if (previous?.BackupDirectory != null)
+            {
+                foreach (var old in obsolete)
+                {
+                    string? original = OriginalFilePath(previous, old.Path);
+                    if (original != null) obsoleteOriginals.Add(original);
+                }
+            }
         }
         catch (Exception installError)
         {
             var rollbackErrors = new List<Exception>();
-            foreach (var p in written.AsEnumerable().Reverse())
+            foreach (var pair in existed.Reverse())
             {
-                try { if (p.Backup != null) File.Copy(p.Backup, p.Target, true); else File.Delete(p.Target); }
+                try
+                {
+                    if (pair.Value != null) File.Copy(pair.Value, pair.Key, true);
+                    else if (File.Exists(pair.Key)) File.Delete(pair.Key);
+                }
                 catch (Exception error) { rollbackErrors.Add(error); }
             }
             foreach (var dir in madeDirectories.AsEnumerable().Reverse())
             {
                 try { Directory.Delete(dir, false); } catch (Exception error) { rollbackErrors.Add(error); }
             }
-            try { File.Delete(marker); } catch (Exception error) { rollbackErrors.Add(error); }
-            // Retain backups and report their path when rollback is incomplete.
+            try { if (priorMarker == null) File.Delete(marker); else File.WriteAllBytes(marker, priorMarker); } catch (Exception error) { rollbackErrors.Add(error); }
             if (rollbackErrors.Count != 0)
-                throw new AggregateException("ติดตั้งล้มเหลวและ rollback ไม่ครบ เก็บ backup ไว้ที่ " + backup, new[] { installError }.Concat(rollbackErrors));
-            if (Directory.Exists(backup)) Directory.Delete(backup, true);
+                throw new AggregateException("ติดตั้งหรืออัปเดตล้มเหลวและย้อนรายการที่แก้ไขได้ไม่ครบ", new[] { installError }.Concat(rollbackErrors));
             throw;
+        }
+        finally { try { if (Directory.Exists(rollback)) Directory.Delete(rollback, true); } catch { } }
+        if (previous?.BackupDirectory != null)
+        {
+            if (retainedBackup == null) Directory.Delete(previous.BackupDirectory, true);
+            else foreach (string original in obsoleteOriginals) if (File.Exists(original)) File.Delete(original);
         }
     }
 }
