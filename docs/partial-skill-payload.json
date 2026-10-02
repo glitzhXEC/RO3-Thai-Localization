@@ -5,7 +5,15 @@
   "runtime_english_ids": 23068,
   "scope": "english-base-all-ids",
   "unique_English_descriptions": 8095,
-  "numeric_runtime_rules": 2260,
+  "numeric_runtime_rules": 2254,
+  "id_only_ambiguous_numeric_ids": [
+    "21172",
+    "23714",
+    "90045",
+    "37823",
+    "42002",
+    "63545"
+  ],
   "excluded_semantic_review_ids": [
     "10110300015",
     "10110300017",
