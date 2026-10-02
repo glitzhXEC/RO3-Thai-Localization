@@ -1,0 +1,3217 @@
+{
+  "scope": "System/account/service errors, stat explanations, game requirements, tutorials, mail notices/subjects, quest/inventory/market/filter headings, scoring/activity scripts and 103200 gameplay/dialogue messages; batches100–103",
+  "new_batch_counts": {
+    "batch-100.th.json": 1179,
+    "batch-101.th.json": 775,
+    "batch-102.th.json": 933,
+    "batch-103.th.json": 967
+  },
+  "new_authored_ids": 3854,
+  "assigned_ids": 4134,
+  "translated_by": {
+    "agent_a": 1179,
+    "agent_b": 775,
+    "agent_c": 933,
+    "parent": 967
+  },
+  "deferred_assigned_ids": [
+    {
+      "id": "10630000024",
+      "english": "？？？.",
+      "reason": "Format-only placeholder made of fullwidth question marks and a period; no readable English meaning to translate.",
+      "queue": "a"
+    },
+    {
+      "id": "11190000062",
+      "english": "Rift Stone",
+      "reason": "Pure proper item name: Rift Stone. No surrounding localizable prose.",
+      "queue": "b"
+    },
+    {
+      "id": "11190000115",
+      "english": "Not enough high-multiplier Description consumed",
+      "reason": "Genuinely ambiguous/malformed noun phrase: Not enough high-multiplier Description consumed. Description does not identify the consumed resource/item/time; no guessed replacement authored.",
+      "queue": "b"
+    },
+    {
+      "id": "10140100024",
+      "english": "${1}",
+      "reason": "Format-only placeholder ${1}; no readable prose to translate.",
+      "queue": "b"
+    },
+    {
+      "id": "10140100145",
+      "english": "Dear Adventurer,\\nThe System detected an irregular Trade on the Trade Marketplace at ${8}【Item Traded:${1},Trade Amount:${5},Order Number:${7}. We have decided to freeze the Zeny from this Trade. Frozen Zeny:${5}. Please check the in-game exclamation mark notification for the unfreeze time. If further Trade violations are detected during this period, more severe penalties will be imposed.\\nUnfreezing Rules:\\nPurchase Sacred Relic Crystal: Immediately unfreezes a portion of the security deposit equal to (Sacred Relic Crystal purchased*:${13}).\\nIf you have any questions about this penalty, or any concerns, dissatisfaction, suggestions, or other requests regarding the game services, please contact Customer Support in-game to submit your feedback.${7}",
+      "reason": "Malformed source: opening 【 before Item Traded has no closing 】. The intended protected label boundary cannot be determined without inventing a source repair; whole record deferred.",
+      "queue": "b"
+    },
+    {
+      "id": "10100000008",
+      "english": "Divine Totem",
+      "reason": "Pure proper class/item/currency/system name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000009",
+      "english": "Soul Echo",
+      "reason": "Pure proper class/item/currency/system name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000016",
+      "english": "N/A",
+      "reason": "Pure technical abbreviation, protected bracket label, or name/placeholder-only format; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000017",
+      "english": "M",
+      "reason": "Pure technical abbreviation, protected bracket label, or name/placeholder-only format; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000018",
+      "english": "F",
+      "reason": "Pure technical abbreviation, protected bracket label, or name/placeholder-only format; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000064",
+      "english": "EXP",
+      "reason": "Pure technical abbreviation, tier/rank code or placeholder format; retain English.",
+      "canonical_label": "EXP",
+      "queue": "c"
+    },
+    {
+      "id": "10100000069",
+      "english": "Trial Coins",
+      "reason": "Pure proper class/item/currency/system name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000071",
+      "english": "Spacetime Emblem",
+      "reason": "Pure proper class/item/currency/system name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000072",
+      "english": "Vigor",
+      "reason": "Pure resource/stat label Vigor in the currency/resource filter; retain English rather than infer HP or stamina.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000077",
+      "english": "Guild Contribution",
+      "reason": "Pure proper class/item/currency/system name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000082",
+      "english": "Yggdrasil Leaf",
+      "reason": "Pure proper class/item/currency/system name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000092",
+      "english": "Vivify Potion",
+      "reason": "Pure proper class/item/currency/system name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000114",
+      "english": "Star Core",
+      "reason": "Pure proper class/item/currency/system name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000125",
+      "english": "Cart Merchant",
+      "reason": "Cart Merchant is a standalone class/item/category label; the supplied English does not establish whether it names a Merchant cart or a cart merchant. Retained without inventing the relation.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000126",
+      "english": "Falcon",
+      "reason": "Pure Falcon companion/class-specific name; retain English consistently with Class-Specific Item - Falcon.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000127",
+      "english": "Demonic Wolf",
+      "reason": "Pure proper class/item/currency/system name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000132",
+      "english": "Arcane Crystal",
+      "reason": "Pure proper class/item/currency/system name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000169",
+      "english": "Guild Contribution",
+      "reason": "Pure proper class/item/currency/system name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000174",
+      "english": "Guild Contribution",
+      "reason": "Pure proper class/item/currency/system name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000203",
+      "english": "T@{1}",
+      "reason": "Pure technical abbreviation, tier/rank code or placeholder format; retain English.",
+      "canonical_label": "T@{1}",
+      "queue": "c"
+    },
+    {
+      "id": "10100000204",
+      "english": "Novice",
+      "reason": "Pure proper class/item/currency/system name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000205",
+      "english": "Swordsman",
+      "reason": "Pure proper class/item/currency/system name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000206",
+      "english": "Mage",
+      "reason": "Pure proper class/item/currency/system name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000207",
+      "english": "Acolyte",
+      "reason": "Pure proper class/item/currency/system name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000208",
+      "english": "Archer",
+      "reason": "Pure proper class/item/currency/system name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000209",
+      "english": "Thief",
+      "reason": "Pure proper class/item/currency/system name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000210",
+      "english": "Merchant",
+      "reason": "Pure proper class/item/currency/system name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000240",
+      "english": "B",
+      "reason": "Pure technical abbreviation, tier/rank code or placeholder format; retain English.",
+      "canonical_label": "B",
+      "queue": "c"
+    },
+    {
+      "id": "10100000241",
+      "english": "A",
+      "reason": "Pure technical abbreviation, tier/rank code or placeholder format; retain English.",
+      "canonical_label": "A",
+      "queue": "c"
+    },
+    {
+      "id": "10100000242",
+      "english": "S",
+      "reason": "Pure technical abbreviation, tier/rank code or placeholder format; retain English.",
+      "canonical_label": "S",
+      "queue": "c"
+    },
+    {
+      "id": "10100000243",
+      "english": "Path of Destiny",
+      "reason": "Pure proper class/item/currency/system name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000253",
+      "english": "Lv.@{1}-@{2}",
+      "reason": "Pure technical abbreviation, tier/rank code or placeholder format; retain English.",
+      "canonical_label": "Lv.@{1}-@{2}",
+      "queue": "c"
+    },
+    {
+      "id": "10100000256",
+      "english": "STR",
+      "reason": "Pure technical abbreviation, tier/rank code or placeholder format; retain English.",
+      "canonical_label": "STR",
+      "queue": "c"
+    },
+    {
+      "id": "10100000257",
+      "english": "AGI",
+      "reason": "Pure technical abbreviation, tier/rank code or placeholder format; retain English.",
+      "canonical_label": "AGI",
+      "queue": "c"
+    },
+    {
+      "id": "10100000258",
+      "english": "VIT",
+      "reason": "Pure technical abbreviation, tier/rank code or placeholder format; retain English.",
+      "canonical_label": "VIT",
+      "queue": "c"
+    },
+    {
+      "id": "10100000259",
+      "english": "INT",
+      "reason": "Pure technical abbreviation, tier/rank code or placeholder format; retain English.",
+      "canonical_label": "INT",
+      "queue": "c"
+    },
+    {
+      "id": "10100000260",
+      "english": "DEX",
+      "reason": "Pure technical abbreviation, tier/rank code or placeholder format; retain English.",
+      "canonical_label": "DEX",
+      "queue": "c"
+    },
+    {
+      "id": "10100000261",
+      "english": "LUK",
+      "reason": "Pure technical abbreviation, tier/rank code or placeholder format; retain English.",
+      "canonical_label": "LUK",
+      "queue": "c"
+    },
+    {
+      "id": "10100000268",
+      "english": "HIT",
+      "reason": "Pure technical abbreviation, tier/rank code or placeholder format; retain English.",
+      "canonical_label": "HIT",
+      "queue": "c"
+    },
+    {
+      "id": "10100000269",
+      "english": "FLEE",
+      "reason": "Pure technical abbreviation, tier/rank code or placeholder format; retain English.",
+      "canonical_label": "FLEE",
+      "queue": "c"
+    },
+    {
+      "id": "10100000270",
+      "english": "CRIT",
+      "reason": "Pure technical abbreviation, tier/rank code or placeholder format; retain English.",
+      "canonical_label": "CRIT",
+      "queue": "c"
+    },
+    {
+      "id": "10100000271",
+      "english": "ASPD",
+      "reason": "Pure technical abbreviation, tier/rank code or placeholder format; retain English.",
+      "canonical_label": "ASPD",
+      "queue": "c"
+    },
+    {
+      "id": "10100000272",
+      "english": "MSPD",
+      "reason": "Pure technical abbreviation, tier/rank code or placeholder format; retain English.",
+      "canonical_label": "MSPD",
+      "queue": "c"
+    },
+    {
+      "id": "10100000299",
+      "english": "Merchants",
+      "reason": "Standalone Merchants may be the named Merchant class (plural) rather than a general trader category; retain English, consistent with the class-specific leaderboard label.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000310",
+      "english": "@{1}",
+      "reason": "Pure technical abbreviation, protected bracket label, or name/placeholder-only format; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000326",
+      "english": "NPC",
+      "reason": "Pure technical abbreviation, protected bracket label, or name/placeholder-only format; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000365",
+      "english": "Fine",
+      "reason": "Pure proper item/NPC/place/event/platform or rarity-rank name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000367",
+      "english": "Legend",
+      "reason": "Pure proper item/NPC/place/event/platform or rarity-rank name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000368",
+      "english": "Myth",
+      "reason": "Pure proper item/NPC/place/event/platform or rarity-rank name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000375",
+      "english": "Kafra's Tribute@{1}",
+      "reason": "Pure technical abbreviation, protected bracket label, or name/placeholder-only format; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000377",
+      "english": "【Burst】",
+      "reason": "Pure technical abbreviation, protected bracket label, or name/placeholder-only format; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000378",
+      "english": "【Control】",
+      "reason": "Pure technical abbreviation, protected bracket label, or name/placeholder-only format; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000379",
+      "english": "【Healing】",
+      "reason": "Pure technical abbreviation, protected bracket label, or name/placeholder-only format; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000380",
+      "english": "【Support】",
+      "reason": "Pure technical abbreviation, protected bracket label, or name/placeholder-only format; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000381",
+      "english": "【Stealth】",
+      "reason": "Pure technical abbreviation, protected bracket label, or name/placeholder-only format; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000382",
+      "english": "【Utility】",
+      "reason": "Pure technical abbreviation, protected bracket label, or name/placeholder-only format; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000416",
+      "english": "2H",
+      "reason": "Pure technical abbreviation, protected bracket label, or name/placeholder-only format; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000417",
+      "english": "1H",
+      "reason": "Pure technical abbreviation, protected bracket label, or name/placeholder-only format; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10100000419",
+      "english": "@{1}",
+      "reason": "Pure technical abbreviation, protected bracket label, or name/placeholder-only format; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10160000015",
+      "english": "MVP",
+      "reason": "Pure technical abbreviation, protected bracket label, or name/placeholder-only format; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10160000026",
+      "english": "Soul Echo",
+      "reason": "Pure proper item/NPC/place/event/platform or rarity-rank name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10160000027",
+      "english": "Divine Totem",
+      "reason": "Pure proper item/NPC/place/event/platform or rarity-rank name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10160000036",
+      "english": "Discord",
+      "reason": "Pure proper item/NPC/place/event/platform or rarity-rank name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10160000057",
+      "english": "Realm of the Gods",
+      "reason": "Pure proper item/NPC/place/event/platform or rarity-rank name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10160000058",
+      "english": "Phantom Realm",
+      "reason": "Pure proper item/NPC/place/event/platform or rarity-rank name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10160000061",
+      "english": "Kafra: Survivor Battle",
+      "reason": "Pure proper item/NPC/place/event/platform or rarity-rank name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10160000063",
+      "english": "War of Emperium",
+      "reason": "Pure proper item/NPC/place/event/platform or rarity-rank name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10160000087",
+      "english": "Butterfly Wing",
+      "reason": "Pure proper item/NPC/place/event/platform or rarity-rank name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10160000088",
+      "english": "Fly Wing",
+      "reason": "Pure proper item/NPC/place/event/platform or rarity-rank name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10160000089",
+      "english": "Commendation Vault",
+      "reason": "Pure proper item/NPC/place/event/platform or rarity-rank name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10160000090",
+      "english": "Valhalla Trials",
+      "reason": "Pure proper item/NPC/place/event/platform or rarity-rank name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10160000109",
+      "english": "Bonfire Party",
+      "reason": "Pure proper item/NPC/place/event/platform or rarity-rank name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10160000112",
+      "english": "Ilmata, God of Nature",
+      "reason": "Pure proper item/NPC/place/event/platform or rarity-rank name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10160000116",
+      "english": "Dracula's Bride",
+      "reason": "Pure proper item/NPC/place/event/platform or rarity-rank name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10160000227",
+      "english": "Spirit Tower",
+      "reason": "Pure proper location/shop/item/event name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10160000276",
+      "english": "Kafra Shop",
+      "reason": "Pure proper location/shop/item/event name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10960100002",
+      "english": "Throne Token",
+      "reason": "Pure proper location/shop/item/event name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10960100091",
+      "english": "Kafra: Battle of the Survivors",
+      "reason": "Pure proper location/shop/item/event name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10960100106",
+      "english": "Ilmatar Turret",
+      "reason": "Pure proper location/shop/item/event name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10960100137",
+      "english": "Military Supplies",
+      "reason": "Pure proper location/shop/item/event name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10960100157",
+      "english": "Valhalla Trials",
+      "reason": "Pure proper location/shop/item/event name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10960100183",
+      "english": "Divine Vessel",
+      "reason": "Pure proper vessel/item name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10960100260",
+      "english": "Dragonblood Crystal",
+      "reason": "Pure proper vessel/item name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10960100261",
+      "english": "Demonic Dragon Soul",
+      "reason": "Pure proper vessel/item name; retain English.",
+      "queue": "c"
+    },
+    {
+      "id": "10790100014",
+      "english": "Magic Fashion",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100019",
+      "english": "Phantom Realm",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100020",
+      "english": "Realm of the Gods",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100021",
+      "english": "Spirit Tower",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100023",
+      "english": "Kafra - Battle of the Survivors",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100025",
+      "english": "MVP",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100026",
+      "english": "Guild Caravan",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100030",
+      "english": "Bonfire Party",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100031",
+      "english": "Commendation Vault",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100032",
+      "english": "Dracula's Bride",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100037",
+      "english": "Lost Treasure",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100050",
+      "english": "Genesis Movement",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100056",
+      "english": "Poring",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100057",
+      "english": "Lunatic",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100058",
+      "english": "Fabre",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100059",
+      "english": "Picky",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100060",
+      "english": "Chonchon",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100061",
+      "english": "Super Picky",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100062",
+      "english": "Willow",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100063",
+      "english": "Condor",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100064",
+      "english": "Savage Babe",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100065",
+      "english": "Rocker",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100066",
+      "english": "Roda Frog",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100067",
+      "english": "Worm Tail",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100068",
+      "english": "Ambernite",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100069",
+      "english": "Spore",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100070",
+      "english": "Thief Bug",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100071",
+      "english": "Creamy",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100073",
+      "english": "Tarou",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100075",
+      "english": "Baby Desert Wolf",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100076",
+      "english": "Yoyo",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100077",
+      "english": "Scorpion",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100078",
+      "english": "Poporing",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100079",
+      "english": "Thief Bug Female",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100080",
+      "english": "Mandragora",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100081",
+      "english": "Thief Bug Male",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100082",
+      "english": "Smokie",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100083",
+      "english": "Boa",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100084",
+      "english": "Poison Spore",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100085",
+      "english": "Horn",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100086",
+      "english": "Bigfoot",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100087",
+      "english": "Coco",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100088",
+      "english": "Peco Peco Egg",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100089",
+      "english": "Thief Bug Egg",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100090",
+      "english": "Pupa",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100091",
+      "english": "Hydra",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100092",
+      "english": "Rotar Zairo",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100093",
+      "english": "Wraith",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100094",
+      "english": "Dustiness",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100095",
+      "english": "Eggyra",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100096",
+      "english": "Muka",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100097",
+      "english": "Hornet",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100098",
+      "english": "Soldier Skeleton",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100099",
+      "english": "Mummy",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100100",
+      "english": "Zombie",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100101",
+      "english": "Deniro",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100102",
+      "english": "Piere",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100103",
+      "english": "Andre",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100104",
+      "english": "Vitata",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100105",
+      "english": "Martin",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100106",
+      "english": "Giearth",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100107",
+      "english": "Skeleton Worker",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100108",
+      "english": "Drainliar",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100109",
+      "english": "Pirate Skeleton",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100110",
+      "english": "Choco",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100111",
+      "english": "Archer Skeleton",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100112",
+      "english": "Verit",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100113",
+      "english": "Obeaune",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100114",
+      "english": "Magnolia",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100115",
+      "english": "Greatest General",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100116",
+      "english": "Mimic",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100117",
+      "english": "Frilldora",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100118",
+      "english": "Baphomet Jr.",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100119",
+      "english": "Matyr",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100120",
+      "english": "Minorous",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100121",
+      "english": "Flora",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100122",
+      "english": "Savage",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100123",
+      "english": "Isis",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100124",
+      "english": "Bongun",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100125",
+      "english": "Sasquatch",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100126",
+      "english": "Ladybug",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100127",
+      "english": "Hedgehog Bug",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100128",
+      "english": "Peco Peco",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100129",
+      "english": "Skeleton",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100130",
+      "english": "Ant Egg",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100131",
+      "english": "Furious Poporing",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100132",
+      "english": "Elder Willow",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100133",
+      "english": "Marin",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100134",
+      "english": "Plankton",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100135",
+      "english": "Marina",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100136",
+      "english": "Kukre",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100137",
+      "english": "Goblin (Axe)",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100138",
+      "english": "Goblin (Flail)",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100139",
+      "english": "Vadon",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100140",
+      "english": "Wolf",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100141",
+      "english": "Thara Frog",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100142",
+      "english": "Orc Baby",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100143",
+      "english": "Orc Warrior",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100144",
+      "english": "Orc Lady",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100146",
+      "english": "Megalodon",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100147",
+      "english": "Marse",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100148",
+      "english": "Argos",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100149",
+      "english": "Steel Chonchon",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100150",
+      "english": "Goblin (Dagger)",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100151",
+      "english": "Myst",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100152",
+      "english": "Marine Sphere",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100153",
+      "english": "Phen",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100154",
+      "english": "Zenorc",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100155",
+      "english": "Beetle King",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100156",
+      "english": "Goblin Archer",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100157",
+      "english": "Metaller",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100158",
+      "english": "Marc",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100159",
+      "english": "Goblin (Mace)",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100160",
+      "english": "Sword Fish",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100161",
+      "english": "Orc Skeleton",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100162",
+      "english": "Goblin (Hammer)",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100163",
+      "english": "Orc Zombie",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100164",
+      "english": "Munak",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100165",
+      "english": "Merman",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100166",
+      "english": "Deviace",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100167",
+      "english": "Ghoul",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100168",
+      "english": "Sandman",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100169",
+      "english": "Golem",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100170",
+      "english": "Hunter Fly",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100171",
+      "english": "Hode",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100172",
+      "english": "Sohee",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100173",
+      "english": "Mantis",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100174",
+      "english": "Driller",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100175",
+      "english": "Goblin Steamrider",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100176",
+      "english": "Horong",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100177",
+      "english": "Dokebi",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100179",
+      "english": "Side Winder",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100180",
+      "english": "Zerom",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100181",
+      "english": "Requiem",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100182",
+      "english": "Nine Tails",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100183",
+      "english": "Argiope",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100184",
+      "english": "Orc Archer",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100185",
+      "english": "Penomena",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100186",
+      "english": "Crab",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100187",
+      "english": "Cornutus",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100188",
+      "english": "Raggler",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100189",
+      "english": "Shellfish",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100190",
+      "english": "Starfish",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100191",
+      "english": "Grove",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100192",
+      "english": "Alligator",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100193",
+      "english": "Strouf",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100194",
+      "english": "Jakk",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100195",
+      "english": "Wild Rose",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100196",
+      "english": "Marduk",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100197",
+      "english": "Sky Petite",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100198",
+      "english": "Pasana",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100199",
+      "english": "Wind Ghost",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100200",
+      "english": "Cramp",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100201",
+      "english": "Stem Worm",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100202",
+      "english": "Petite",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100203",
+      "english": "Marionette",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100204",
+      "english": "Deviruchi",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100205",
+      "english": "Mace Kobold",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100206",
+      "english": "Hammer Kobold",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100207",
+      "english": "Desert Wolf",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100208",
+      "english": "Anubis",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100209",
+      "english": "Axe Kobold",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100210",
+      "english": "Kobold Archer",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100211",
+      "english": "Squidgitte",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100212",
+      "english": "Sropho",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100213",
+      "english": "Ancient Mummy",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100214",
+      "english": "Pot Dofle",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100215",
+      "english": "King Dramoh",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100216",
+      "english": "Creamy Fear",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100217",
+      "english": "Leib Olmai",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100218",
+      "english": "Killer Mantis",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100219",
+      "english": "Novice - Andre",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100220",
+      "english": "Random Card Album",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100221",
+      "english": "Trading Card Album",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100222",
+      "english": "Random Purple Card Pack",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100223",
+      "english": "Blue Cards Selection Chest",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100224",
+      "english": "Purple Card Selection Chest",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100225",
+      "english": "Old Card Album",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100226",
+      "english": "Card Album",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10790100227",
+      "english": "Random Card Gift Box",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10140000085",
+      "english": "Ilmata, God of Nature",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "12050000016",
+      "english": "Peerless Five",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "12050000017",
+      "english": "Eight-Kill War God",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "12050000055",
+      "english": "Rampage",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "12050000112",
+      "english": "Dragonblood Crystal",
+      "reason": "Pure named monster/map/item/activity/rank label retained in English",
+      "queue": "parent"
+    },
+    {
+      "id": "10570000015",
+      "english": "Insufficient buff Floors^{1}${1}^{2}",
+      "reason": "buff Floors does not clarify floor/level/layer meaning; no conversion to guessed stacks",
+      "queue": "parent"
+    },
+    {
+      "id": "10320000037",
+      "english": "【Gather】",
+      "reason": "Protected bracket label only; bracket content remains English in current runtime",
+      "queue": "parent"
+    },
+    {
+      "id": "10320000239",
+      "english": "^{1}^{2}${1}:^{3}${2}",
+      "reason": "Format/token-only or punctuation-only string; retained byte-faithful English",
+      "queue": "parent"
+    },
+    {
+      "id": "10320000245",
+      "english": "^{1}^{2}${1}^{3}${2}",
+      "reason": "Format/token-only or punctuation-only string; retained byte-faithful English",
+      "queue": "parent"
+    },
+    {
+      "id": "10320000421",
+      "english": "[g@{1}]",
+      "reason": "Format/token-only or punctuation-only string; retained byte-faithful English",
+      "queue": "parent"
+    },
+    {
+      "id": "10320000840",
+      "english": "！！！！！.",
+      "reason": "Format/token-only or punctuation-only string; retained byte-faithful English",
+      "queue": "parent"
+    }
+  ],
+  "authored_total": 19509,
+  "runtime_thai_difference_ids": 19497,
+  "runtime_english_ids": 14016,
+  "runtime_ids": 33513,
+  "runtime_rules": 3175,
+  "source_english_only": true,
+  "legacy_thai_used": false,
+  "complete_game_translation": false,
+  "game_tested": false,
+  "exact_english_consistency_adjustments": 26,
+  "rendered_English_Thai_collision_groups": 0,
+  "qa": {
+    "authoring_errors": 0,
+    "draft_errors": 0,
+    "runtime_checks": 198677,
+    "mocked_language_bridge_checks_included": 90,
+    "compiled_hook_checks": 27,
+    "updater_checks": 57,
+    "public_https_new_ids_expected": 3854
+  },
+  "source_concerns": {
+    "a": [
+      {
+        "ids": [
+          "10630000095"
+        ],
+        "note": "Backpack sorting SD active: preserved literal SD; did not silently repair it to CD."
+      },
+      {
+        "ids": [
+          "10630000157"
+        ],
+        "note": "Instance teleport skill is full: literal full status retained; no inferred queue/capacity meaning."
+      },
+      {
+        "ids": [
+          "10630000163",
+          "10630000803",
+          "10630000818"
+        ],
+        "note": "Insufficient consumption: translated generic required consumption/resources without inventing currency or item type."
+      },
+      {
+        "ids": [
+          "10630000425",
+          "10630000804",
+          "10630001111"
+        ],
+        "note": "Source Floors in buff checks retained literally as layers; did not assume stacks or alter requirements."
+      },
+      {
+        "ids": [
+          "10630001047"
+        ],
+        "note": "Insufficient trigger cooldown: preserved insufficiency polarity instead of repairing the source into a cooldown-active condition."
+      },
+      {
+        "ids": [
+          "10630001076",
+          "10630001077",
+          "10630001090"
+        ],
+        "note": "Vivify and Vigor retained as distinct English resource/stat names; no guessed equivalence."
+      },
+      {
+        "ids": [
+          "10630001101",
+          "10630001109"
+        ],
+        "note": "Hidden Vault and Hidden Treasure preserved independently as source dungeon names."
+      },
+      {
+        "ids": [
+          "10630001200",
+          "10630001293"
+        ],
+        "note": "Wait/time placeholders have no supplied unit. No seconds, minutes or hours were added."
+      },
+      {
+        "ids": [
+          "10630001190",
+          "10630001193",
+          "10630001194"
+        ],
+        "note": "Anti-addiction thresholds and per-purchase/monthly limits retained separately; yuan unit preserved exactly and no age unit added."
+      },
+      {
+        "ids": [
+          "10630001241",
+          "10630001242"
+        ],
+        "note": "Merge-guild member-count restriction translated literally; did not infer server capacity or add a missing comparison."
+      },
+      {
+        "ids": [
+          "10630001312"
+        ],
+        "note": "Technical plane status translated as a plane/layer, not as an airplane."
+      },
+      {
+        "ids": [
+          "10630001314",
+          "10630001315"
+        ],
+        "note": "Adventurer Guild Card preserved as named card; Adventurer Guild not silently unified with Adventurer Group."
+      },
+      {
+        "ids": [
+          "10630000186"
+        ],
+        "note": "Approved exact translation adjusted to canonical character Revive = คืนชีพ."
+      },
+      {
+        "ids": [
+          "10630000360",
+          "10630000555"
+        ],
+        "note": "After-draft semantic review corrected missing-reference clauses to one card/pet being absent, rather than implying the entire preset is empty."
+      }
+    ],
+    "b": [
+      {
+        "ids": [
+          "11190000062",
+          "11190000115",
+          "10140100024",
+          "10140100145"
+        ],
+        "concern": "See per-ID deferrals above; no source repair or guessed consumed item."
+      },
+      {
+        "ids": [
+          "10010500074",
+          "10010500075",
+          "10010500076",
+          "10010500077",
+          "10010500078"
+        ],
+        "concern": "Source says magic recovery rather than MP recovery. Kept literal Thai magic-recovery wording; did not infer the resource."
+      },
+      {
+        "ids": [
+          "10010500038"
+        ],
+        "concern": "Skill placeholder ${1} retained in its source role; no skill name/count invented."
+      },
+      {
+        "ids": [
+          "10010500194",
+          "10010500213"
+        ],
+        "concern": "Source distance has no stated unit. No distance unit added."
+      },
+      {
+        "ids": [
+          "10010500234"
+        ],
+        "concern": "${1} is the actor dealing damage, not the increase amount; translated accordingly."
+      },
+      {
+        "ids": [
+          "11190000020",
+          "11190000128",
+          "11190000133"
+        ],
+        "concern": "Unusual buff Floors, Movement completion, and Weak value terminology retained literally or as the English stat Weak. No assumed stacks, dance rating, or boss mechanic added."
+      },
+      {
+        "ids": [
+          "10140100034"
+        ],
+        "concern": "Source at ${4} does not specify time/price/place. Rendered neutral ณ ${4}, without inserting a type or unit."
+      },
+      {
+        "ids": [
+          "10140100057"
+        ],
+        "concern": "English repeats ${1} for class and Speed Rankings. Both occurrences preserved; no placeholder correction."
+      },
+      {
+        "ids": [
+          "10140100000",
+          "10140100082"
+        ],
+        "concern": "Rich-text/debug notice and account warning translated as literal game data, not instructions to execute."
+      },
+      {
+        "ids": [
+          "10140100068",
+          "10140100069",
+          "10140100074",
+          "10140100075",
+          "10140100076",
+          "10140100078",
+          "10140100080"
+        ],
+        "concern": "Protected English trade/order bracket fields retained exactly internally and normalized to [ ... ]; not translated inside runtime-protected labels."
+      }
+    ],
+    "c": [
+      {
+        "ids": [
+          "10100000143",
+          "10100000264",
+          "10100000265",
+          "10100000266",
+          "10100000267"
+        ],
+        "reason": "Pure technical labels deferred. Canonical labels are recorded per ID: ST → Single Target, PATK → P.ATK, MATK → M.ATK, PDEF → P.DEF, MDEF → M.DEF. No Thai filler was invented just to make these pure tokens pass the checker."
+      },
+      {
+        "ids": [
+          "10100000016",
+          "10100000017",
+          "10100000018",
+          "10100000203",
+          "10100000240",
+          "10100000241",
+          "10100000242",
+          "10100000253",
+          "10100000310",
+          "10100000416",
+          "10100000417",
+          "10100000419"
+        ],
+        "reason": "Pure abbreviations/rank/hand/tier/placeholder formats preserved through deferral; M/F were not expanded by assuming a gender filter."
+      },
+      {
+        "ids": [
+          "10100000377",
+          "10100000378",
+          "10100000379",
+          "10100000380",
+          "10100000381",
+          "10100000382"
+        ],
+        "reason": "Protected bracket-only labels deferred, rather than translating inside brackets or adding unrelated Thai text."
+      },
+      {
+        "ids": [
+          "10100000185"
+        ],
+        "reason": "Guild GVE Difficulty Duration is unusual compound English. Rendered literally without assuming a clear-time formula or other metric."
+      },
+      {
+        "ids": [
+          "10960100165",
+          "10960100166",
+          "10100000341",
+          "10100000346",
+          "10160000055"
+        ],
+        "reason": "Test/developer/UI instructions translated as literal data, never executed. Preserved 10, @{1}, xxx and all present protected tokens."
+      },
+      {
+        "ids": [
+          "10160000175",
+          "10960100159",
+          "10960100160",
+          "10100000303",
+          "10160000033"
+        ],
+        "reason": "Reviewed exact fresh matches against the current canonical instructions; Dismantle uses ย่อย, Revive uses คืนชีพ, and Skill terminology uses สกิล."
+      },
+      {
+        "ids": [
+          "10160000111",
+          "10160000251",
+          "10960100275"
+        ],
+        "reason": "Dragoncoffin Island versus Dragon Coffin Island source spellings remain distinct; only surrounding descriptive heading prose localized."
+      },
+      {
+        "ids": [
+          "10960100065",
+          "10960100227",
+          "10960100264"
+        ],
+        "reason": "Decay, Luxury Dragon Quest and Stationary Skill Follow-Up lack detailed mechanics in these headings. Preserved unspecified decay object and uncertain named phrase; no reward formula, specific dragon identity or follow-up attack behavior was invented."
+      },
+      {
+        "ids": [
+          "10100000072",
+          "10100000125",
+          "10100000126",
+          "10100000299"
+        ],
+        "reason": "Vigor, Cart Merchant, Falcon and standalone Merchants retained/deferred where a true resource/class/name interpretation cannot safely be replaced with a guessed ordinary label."
+      }
+    ],
+    "parent": [
+      "Developer/test event strings translated as literal data, not actions to perform.",
+      "Unlabeled spawn range/count placeholders receive no invented unit; source milliseconds and s notation preserved.",
+      "Per-ID NPC names Eddga/Wule/Wuller/Ryan/Louis/Louie/Rhine/Sprazzi are retained as written, not silently unified.",
+      "Bonfire/Campfire, Guild/Adventure Party names and item/monster/rank labels remain English where names; descriptive words translated.",
+      "Not a full game translation; pure format/name rows and buff Floors ambiguity retained English; no game/Windows UI test."
+    ]
+  },
+  "family_inventory": {
+    "106300": {
+      "source_ids": 1407,
+      "authored_ids": 1406,
+      "retained_English_entries": [
+        {
+          "id": "10630000024",
+          "english": "？？？."
+        }
+      ]
+    },
+    "100105": {
+      "source_ids": 240,
+      "authored_ids": 240,
+      "retained_English_entries": []
+    },
+    "111900": {
+      "source_ids": 187,
+      "authored_ids": 185,
+      "retained_English_entries": [
+        {
+          "id": "11190000062",
+          "english": "Rift Stone"
+        },
+        {
+          "id": "11190000115",
+          "english": "Not enough high-multiplier Description consumed"
+        }
+      ]
+    },
+    "105400": {
+      "source_ids": 268,
+      "authored_ids": 268,
+      "retained_English_entries": []
+    },
+    "101401": {
+      "source_ids": 166,
+      "authored_ids": 164,
+      "retained_English_entries": [
+        {
+          "id": "10140100024",
+          "english": "${1}"
+        },
+        {
+          "id": "10140100145",
+          "english": "Dear Adventurer,\\nThe System detected an irregular Trade on the Trade Marketplace at ${8}【Item Traded:${1},Trade Amount:${5},Order Number:${7}. We have decided to freeze the Zeny from this Trade. Frozen Zeny:${5}. Please check the in-game exclamation mark notification for the unfreeze time. If further Trade violations are detected during this period, more severe penalties will be imposed.\\nUnfreezing Rules:\\nPurchase Sacred Relic Crystal: Immediately unfreezes a portion of the security deposit equal to (Sacred Relic Crystal purchased*:${13}).\\nIf you have any questions about this penalty, or any concerns, dissatisfaction, suggestions, or other requests regarding the game services, please contact Customer Support in-game to submit your feedback.${7}"
+        }
+      ]
+    },
+    "101000": {
+      "source_ids": 424,
+      "authored_ids": 365,
+      "retained_English_entries": [
+        {
+          "id": "10100000008",
+          "english": "Divine Totem"
+        },
+        {
+          "id": "10100000009",
+          "english": "Soul Echo"
+        },
+        {
+          "id": "10100000016",
+          "english": "N/A"
+        },
+        {
+          "id": "10100000017",
+          "english": "M"
+        },
+        {
+          "id": "10100000018",
+          "english": "F"
+        },
+        {
+          "id": "10100000064",
+          "english": "EXP"
+        },
+        {
+          "id": "10100000069",
+          "english": "Trial Coins"
+        },
+        {
+          "id": "10100000071",
+          "english": "Spacetime Emblem"
+        },
+        {
+          "id": "10100000072",
+          "english": "Vigor"
+        },
+        {
+          "id": "10100000077",
+          "english": "Guild Contribution"
+        },
+        {
+          "id": "10100000082",
+          "english": "Yggdrasil Leaf"
+        },
+        {
+          "id": "10100000092",
+          "english": "Vivify Potion"
+        },
+        {
+          "id": "10100000114",
+          "english": "Star Core"
+        },
+        {
+          "id": "10100000125",
+          "english": "Cart Merchant"
+        },
+        {
+          "id": "10100000126",
+          "english": "Falcon"
+        },
+        {
+          "id": "10100000127",
+          "english": "Demonic Wolf"
+        },
+        {
+          "id": "10100000132",
+          "english": "Arcane Crystal"
+        },
+        {
+          "id": "10100000169",
+          "english": "Guild Contribution"
+        },
+        {
+          "id": "10100000174",
+          "english": "Guild Contribution"
+        },
+        {
+          "id": "10100000203",
+          "english": "T@{1}"
+        },
+        {
+          "id": "10100000204",
+          "english": "Novice"
+        },
+        {
+          "id": "10100000205",
+          "english": "Swordsman"
+        },
+        {
+          "id": "10100000206",
+          "english": "Mage"
+        },
+        {
+          "id": "10100000207",
+          "english": "Acolyte"
+        },
+        {
+          "id": "10100000208",
+          "english": "Archer"
+        },
+        {
+          "id": "10100000209",
+          "english": "Thief"
+        },
+        {
+          "id": "10100000210",
+          "english": "Merchant"
+        },
+        {
+          "id": "10100000240",
+          "english": "B"
+        },
+        {
+          "id": "10100000241",
+          "english": "A"
+        },
+        {
+          "id": "10100000242",
+          "english": "S"
+        },
+        {
+          "id": "10100000243",
+          "english": "Path of Destiny"
+        },
+        {
+          "id": "10100000253",
+          "english": "Lv.@{1}-@{2}"
+        },
+        {
+          "id": "10100000256",
+          "english": "STR"
+        },
+        {
+          "id": "10100000257",
+          "english": "AGI"
+        },
+        {
+          "id": "10100000258",
+          "english": "VIT"
+        },
+        {
+          "id": "10100000259",
+          "english": "INT"
+        },
+        {
+          "id": "10100000260",
+          "english": "DEX"
+        },
+        {
+          "id": "10100000261",
+          "english": "LUK"
+        },
+        {
+          "id": "10100000268",
+          "english": "HIT"
+        },
+        {
+          "id": "10100000269",
+          "english": "FLEE"
+        },
+        {
+          "id": "10100000270",
+          "english": "CRIT"
+        },
+        {
+          "id": "10100000271",
+          "english": "ASPD"
+        },
+        {
+          "id": "10100000272",
+          "english": "MSPD"
+        },
+        {
+          "id": "10100000299",
+          "english": "Merchants"
+        },
+        {
+          "id": "10100000310",
+          "english": "@{1}"
+        },
+        {
+          "id": "10100000326",
+          "english": "NPC"
+        },
+        {
+          "id": "10100000365",
+          "english": "Fine"
+        },
+        {
+          "id": "10100000367",
+          "english": "Legend"
+        },
+        {
+          "id": "10100000368",
+          "english": "Myth"
+        },
+        {
+          "id": "10100000375",
+          "english": "Kafra's Tribute@{1}"
+        },
+        {
+          "id": "10100000377",
+          "english": "【Burst】"
+        },
+        {
+          "id": "10100000378",
+          "english": "【Control】"
+        },
+        {
+          "id": "10100000379",
+          "english": "【Healing】"
+        },
+        {
+          "id": "10100000380",
+          "english": "【Support】"
+        },
+        {
+          "id": "10100000381",
+          "english": "【Stealth】"
+        },
+        {
+          "id": "10100000382",
+          "english": "【Utility】"
+        },
+        {
+          "id": "10100000416",
+          "english": "2H"
+        },
+        {
+          "id": "10100000417",
+          "english": "1H"
+        },
+        {
+          "id": "10100000419",
+          "english": "@{1}"
+        }
+      ]
+    },
+    "101600": {
+      "source_ids": 312,
+      "authored_ids": 295,
+      "retained_English_entries": [
+        {
+          "id": "10160000015",
+          "english": "MVP"
+        },
+        {
+          "id": "10160000026",
+          "english": "Soul Echo"
+        },
+        {
+          "id": "10160000027",
+          "english": "Divine Totem"
+        },
+        {
+          "id": "10160000036",
+          "english": "Discord"
+        },
+        {
+          "id": "10160000057",
+          "english": "Realm of the Gods"
+        },
+        {
+          "id": "10160000058",
+          "english": "Phantom Realm"
+        },
+        {
+          "id": "10160000061",
+          "english": "Kafra: Survivor Battle"
+        },
+        {
+          "id": "10160000063",
+          "english": "War of Emperium"
+        },
+        {
+          "id": "10160000087",
+          "english": "Butterfly Wing"
+        },
+        {
+          "id": "10160000088",
+          "english": "Fly Wing"
+        },
+        {
+          "id": "10160000089",
+          "english": "Commendation Vault"
+        },
+        {
+          "id": "10160000090",
+          "english": "Valhalla Trials"
+        },
+        {
+          "id": "10160000109",
+          "english": "Bonfire Party"
+        },
+        {
+          "id": "10160000112",
+          "english": "Ilmata, God of Nature"
+        },
+        {
+          "id": "10160000116",
+          "english": "Dracula's Bride"
+        },
+        {
+          "id": "10160000227",
+          "english": "Spirit Tower"
+        },
+        {
+          "id": "10160000276",
+          "english": "Kafra Shop"
+        }
+      ]
+    },
+    "109601": {
+      "source_ids": 281,
+      "authored_ids": 273,
+      "retained_English_entries": [
+        {
+          "id": "10960100002",
+          "english": "Throne Token"
+        },
+        {
+          "id": "10960100091",
+          "english": "Kafra: Battle of the Survivors"
+        },
+        {
+          "id": "10960100106",
+          "english": "Ilmatar Turret"
+        },
+        {
+          "id": "10960100261",
+          "english": "Demonic Dragon Soul"
+        },
+        {
+          "id": "10960100260",
+          "english": "Dragonblood Crystal"
+        },
+        {
+          "id": "10960100183",
+          "english": "Divine Vessel"
+        },
+        {
+          "id": "10960100157",
+          "english": "Valhalla Trials"
+        },
+        {
+          "id": "10960100137",
+          "english": "Military Supplies"
+        }
+      ]
+    },
+    "107901": {
+      "source_ids": 229,
+      "authored_ids": 49,
+      "retained_English_entries": [
+        {
+          "id": "10790100014",
+          "english": "Magic Fashion"
+        },
+        {
+          "id": "10790100019",
+          "english": "Phantom Realm"
+        },
+        {
+          "id": "10790100020",
+          "english": "Realm of the Gods"
+        },
+        {
+          "id": "10790100021",
+          "english": "Spirit Tower"
+        },
+        {
+          "id": "10790100023",
+          "english": "Kafra - Battle of the Survivors"
+        },
+        {
+          "id": "10790100025",
+          "english": "MVP"
+        },
+        {
+          "id": "10790100026",
+          "english": "Guild Caravan"
+        },
+        {
+          "id": "10790100030",
+          "english": "Bonfire Party"
+        },
+        {
+          "id": "10790100031",
+          "english": "Commendation Vault"
+        },
+        {
+          "id": "10790100032",
+          "english": "Dracula's Bride"
+        },
+        {
+          "id": "10790100037",
+          "english": "Lost Treasure"
+        },
+        {
+          "id": "10790100050",
+          "english": "Genesis Movement"
+        },
+        {
+          "id": "10790100056",
+          "english": "Poring"
+        },
+        {
+          "id": "10790100057",
+          "english": "Lunatic"
+        },
+        {
+          "id": "10790100058",
+          "english": "Fabre"
+        },
+        {
+          "id": "10790100059",
+          "english": "Picky"
+        },
+        {
+          "id": "10790100060",
+          "english": "Chonchon"
+        },
+        {
+          "id": "10790100061",
+          "english": "Super Picky"
+        },
+        {
+          "id": "10790100062",
+          "english": "Willow"
+        },
+        {
+          "id": "10790100063",
+          "english": "Condor"
+        },
+        {
+          "id": "10790100064",
+          "english": "Savage Babe"
+        },
+        {
+          "id": "10790100065",
+          "english": "Rocker"
+        },
+        {
+          "id": "10790100066",
+          "english": "Roda Frog"
+        },
+        {
+          "id": "10790100067",
+          "english": "Worm Tail"
+        },
+        {
+          "id": "10790100068",
+          "english": "Ambernite"
+        },
+        {
+          "id": "10790100069",
+          "english": "Spore"
+        },
+        {
+          "id": "10790100070",
+          "english": "Thief Bug"
+        },
+        {
+          "id": "10790100071",
+          "english": "Creamy"
+        },
+        {
+          "id": "10790100073",
+          "english": "Tarou"
+        },
+        {
+          "id": "10790100075",
+          "english": "Baby Desert Wolf"
+        },
+        {
+          "id": "10790100076",
+          "english": "Yoyo"
+        },
+        {
+          "id": "10790100077",
+          "english": "Scorpion"
+        },
+        {
+          "id": "10790100078",
+          "english": "Poporing"
+        },
+        {
+          "id": "10790100079",
+          "english": "Thief Bug Female"
+        },
+        {
+          "id": "10790100080",
+          "english": "Mandragora"
+        },
+        {
+          "id": "10790100081",
+          "english": "Thief Bug Male"
+        },
+        {
+          "id": "10790100082",
+          "english": "Smokie"
+        },
+        {
+          "id": "10790100083",
+          "english": "Boa"
+        },
+        {
+          "id": "10790100084",
+          "english": "Poison Spore"
+        },
+        {
+          "id": "10790100085",
+          "english": "Horn"
+        },
+        {
+          "id": "10790100086",
+          "english": "Bigfoot"
+        },
+        {
+          "id": "10790100087",
+          "english": "Coco"
+        },
+        {
+          "id": "10790100088",
+          "english": "Peco Peco Egg"
+        },
+        {
+          "id": "10790100089",
+          "english": "Thief Bug Egg"
+        },
+        {
+          "id": "10790100090",
+          "english": "Pupa"
+        },
+        {
+          "id": "10790100091",
+          "english": "Hydra"
+        },
+        {
+          "id": "10790100092",
+          "english": "Rotar Zairo"
+        },
+        {
+          "id": "10790100093",
+          "english": "Wraith"
+        },
+        {
+          "id": "10790100094",
+          "english": "Dustiness"
+        },
+        {
+          "id": "10790100095",
+          "english": "Eggyra"
+        },
+        {
+          "id": "10790100096",
+          "english": "Muka"
+        },
+        {
+          "id": "10790100097",
+          "english": "Hornet"
+        },
+        {
+          "id": "10790100098",
+          "english": "Soldier Skeleton"
+        },
+        {
+          "id": "10790100099",
+          "english": "Mummy"
+        },
+        {
+          "id": "10790100100",
+          "english": "Zombie"
+        },
+        {
+          "id": "10790100101",
+          "english": "Deniro"
+        },
+        {
+          "id": "10790100102",
+          "english": "Piere"
+        },
+        {
+          "id": "10790100103",
+          "english": "Andre"
+        },
+        {
+          "id": "10790100104",
+          "english": "Vitata"
+        },
+        {
+          "id": "10790100105",
+          "english": "Martin"
+        },
+        {
+          "id": "10790100106",
+          "english": "Giearth"
+        },
+        {
+          "id": "10790100107",
+          "english": "Skeleton Worker"
+        },
+        {
+          "id": "10790100108",
+          "english": "Drainliar"
+        },
+        {
+          "id": "10790100109",
+          "english": "Pirate Skeleton"
+        },
+        {
+          "id": "10790100110",
+          "english": "Choco"
+        },
+        {
+          "id": "10790100111",
+          "english": "Archer Skeleton"
+        },
+        {
+          "id": "10790100112",
+          "english": "Verit"
+        },
+        {
+          "id": "10790100113",
+          "english": "Obeaune"
+        },
+        {
+          "id": "10790100114",
+          "english": "Magnolia"
+        },
+        {
+          "id": "10790100115",
+          "english": "Greatest General"
+        },
+        {
+          "id": "10790100116",
+          "english": "Mimic"
+        },
+        {
+          "id": "10790100117",
+          "english": "Frilldora"
+        },
+        {
+          "id": "10790100118",
+          "english": "Baphomet Jr."
+        },
+        {
+          "id": "10790100119",
+          "english": "Matyr"
+        },
+        {
+          "id": "10790100120",
+          "english": "Minorous"
+        },
+        {
+          "id": "10790100121",
+          "english": "Flora"
+        },
+        {
+          "id": "10790100122",
+          "english": "Savage"
+        },
+        {
+          "id": "10790100123",
+          "english": "Isis"
+        },
+        {
+          "id": "10790100124",
+          "english": "Bongun"
+        },
+        {
+          "id": "10790100125",
+          "english": "Sasquatch"
+        },
+        {
+          "id": "10790100126",
+          "english": "Ladybug"
+        },
+        {
+          "id": "10790100127",
+          "english": "Hedgehog Bug"
+        },
+        {
+          "id": "10790100128",
+          "english": "Peco Peco"
+        },
+        {
+          "id": "10790100129",
+          "english": "Skeleton"
+        },
+        {
+          "id": "10790100130",
+          "english": "Ant Egg"
+        },
+        {
+          "id": "10790100131",
+          "english": "Furious Poporing"
+        },
+        {
+          "id": "10790100132",
+          "english": "Elder Willow"
+        },
+        {
+          "id": "10790100133",
+          "english": "Marin"
+        },
+        {
+          "id": "10790100134",
+          "english": "Plankton"
+        },
+        {
+          "id": "10790100135",
+          "english": "Marina"
+        },
+        {
+          "id": "10790100136",
+          "english": "Kukre"
+        },
+        {
+          "id": "10790100137",
+          "english": "Goblin (Axe)"
+        },
+        {
+          "id": "10790100138",
+          "english": "Goblin (Flail)"
+        },
+        {
+          "id": "10790100139",
+          "english": "Vadon"
+        },
+        {
+          "id": "10790100140",
+          "english": "Wolf"
+        },
+        {
+          "id": "10790100141",
+          "english": "Thara Frog"
+        },
+        {
+          "id": "10790100142",
+          "english": "Orc Baby"
+        },
+        {
+          "id": "10790100143",
+          "english": "Orc Warrior"
+        },
+        {
+          "id": "10790100144",
+          "english": "Orc Lady"
+        },
+        {
+          "id": "10790100146",
+          "english": "Megalodon"
+        },
+        {
+          "id": "10790100147",
+          "english": "Marse"
+        },
+        {
+          "id": "10790100148",
+          "english": "Argos"
+        },
+        {
+          "id": "10790100149",
+          "english": "Steel Chonchon"
+        },
+        {
+          "id": "10790100150",
+          "english": "Goblin (Dagger)"
+        },
+        {
+          "id": "10790100151",
+          "english": "Myst"
+        },
+        {
+          "id": "10790100152",
+          "english": "Marine Sphere"
+        },
+        {
+          "id": "10790100153",
+          "english": "Phen"
+        },
+        {
+          "id": "10790100154",
+          "english": "Zenorc"
+        },
+        {
+          "id": "10790100155",
+          "english": "Beetle King"
+        },
+        {
+          "id": "10790100156",
+          "english": "Goblin Archer"
+        },
+        {
+          "id": "10790100157",
+          "english": "Metaller"
+        },
+        {
+          "id": "10790100158",
+          "english": "Marc"
+        },
+        {
+          "id": "10790100159",
+          "english": "Goblin (Mace)"
+        },
+        {
+          "id": "10790100160",
+          "english": "Sword Fish"
+        },
+        {
+          "id": "10790100161",
+          "english": "Orc Skeleton"
+        },
+        {
+          "id": "10790100162",
+          "english": "Goblin (Hammer)"
+        },
+        {
+          "id": "10790100163",
+          "english": "Orc Zombie"
+        },
+        {
+          "id": "10790100164",
+          "english": "Munak"
+        },
+        {
+          "id": "10790100165",
+          "english": "Merman"
+        },
+        {
+          "id": "10790100166",
+          "english": "Deviace"
+        },
+        {
+          "id": "10790100167",
+          "english": "Ghoul"
+        },
+        {
+          "id": "10790100168",
+          "english": "Sandman"
+        },
+        {
+          "id": "10790100169",
+          "english": "Golem"
+        },
+        {
+          "id": "10790100170",
+          "english": "Hunter Fly"
+        },
+        {
+          "id": "10790100171",
+          "english": "Hode"
+        },
+        {
+          "id": "10790100172",
+          "english": "Sohee"
+        },
+        {
+          "id": "10790100173",
+          "english": "Mantis"
+        },
+        {
+          "id": "10790100174",
+          "english": "Driller"
+        },
+        {
+          "id": "10790100175",
+          "english": "Goblin Steamrider"
+        },
+        {
+          "id": "10790100176",
+          "english": "Horong"
+        },
+        {
+          "id": "10790100177",
+          "english": "Dokebi"
+        },
+        {
+          "id": "10790100179",
+          "english": "Side Winder"
+        },
+        {
+          "id": "10790100180",
+          "english": "Zerom"
+        },
+        {
+          "id": "10790100181",
+          "english": "Requiem"
+        },
+        {
+          "id": "10790100182",
+          "english": "Nine Tails"
+        },
+        {
+          "id": "10790100183",
+          "english": "Argiope"
+        },
+        {
+          "id": "10790100184",
+          "english": "Orc Archer"
+        },
+        {
+          "id": "10790100185",
+          "english": "Penomena"
+        },
+        {
+          "id": "10790100186",
+          "english": "Crab"
+        },
+        {
+          "id": "10790100187",
+          "english": "Cornutus"
+        },
+        {
+          "id": "10790100188",
+          "english": "Raggler"
+        },
+        {
+          "id": "10790100189",
+          "english": "Shellfish"
+        },
+        {
+          "id": "10790100190",
+          "english": "Starfish"
+        },
+        {
+          "id": "10790100191",
+          "english": "Grove"
+        },
+        {
+          "id": "10790100192",
+          "english": "Alligator"
+        },
+        {
+          "id": "10790100193",
+          "english": "Strouf"
+        },
+        {
+          "id": "10790100194",
+          "english": "Jakk"
+        },
+        {
+          "id": "10790100195",
+          "english": "Wild Rose"
+        },
+        {
+          "id": "10790100196",
+          "english": "Marduk"
+        },
+        {
+          "id": "10790100197",
+          "english": "Sky Petite"
+        },
+        {
+          "id": "10790100198",
+          "english": "Pasana"
+        },
+        {
+          "id": "10790100199",
+          "english": "Wind Ghost"
+        },
+        {
+          "id": "10790100200",
+          "english": "Cramp"
+        },
+        {
+          "id": "10790100201",
+          "english": "Stem Worm"
+        },
+        {
+          "id": "10790100202",
+          "english": "Petite"
+        },
+        {
+          "id": "10790100203",
+          "english": "Marionette"
+        },
+        {
+          "id": "10790100204",
+          "english": "Deviruchi"
+        },
+        {
+          "id": "10790100205",
+          "english": "Mace Kobold"
+        },
+        {
+          "id": "10790100206",
+          "english": "Hammer Kobold"
+        },
+        {
+          "id": "10790100207",
+          "english": "Desert Wolf"
+        },
+        {
+          "id": "10790100208",
+          "english": "Anubis"
+        },
+        {
+          "id": "10790100209",
+          "english": "Axe Kobold"
+        },
+        {
+          "id": "10790100210",
+          "english": "Kobold Archer"
+        },
+        {
+          "id": "10790100211",
+          "english": "Squidgitte"
+        },
+        {
+          "id": "10790100212",
+          "english": "Sropho"
+        },
+        {
+          "id": "10790100213",
+          "english": "Ancient Mummy"
+        },
+        {
+          "id": "10790100214",
+          "english": "Pot Dofle"
+        },
+        {
+          "id": "10790100215",
+          "english": "King Dramoh"
+        },
+        {
+          "id": "10790100216",
+          "english": "Creamy Fear"
+        },
+        {
+          "id": "10790100217",
+          "english": "Leib Olmai"
+        },
+        {
+          "id": "10790100218",
+          "english": "Killer Mantis"
+        },
+        {
+          "id": "10790100219",
+          "english": "Novice - Andre"
+        },
+        {
+          "id": "10790100220",
+          "english": "Random Card Album"
+        },
+        {
+          "id": "10790100221",
+          "english": "Trading Card Album"
+        },
+        {
+          "id": "10790100222",
+          "english": "Random Purple Card Pack"
+        },
+        {
+          "id": "10790100223",
+          "english": "Blue Cards Selection Chest"
+        },
+        {
+          "id": "10790100224",
+          "english": "Purple Card Selection Chest"
+        },
+        {
+          "id": "10790100225",
+          "english": "Old Card Album"
+        },
+        {
+          "id": "10790100226",
+          "english": "Card Album"
+        },
+        {
+          "id": "10790100227",
+          "english": "Random Card Gift Box"
+        }
+      ]
+    },
+    "101400": {
+      "source_ids": 149,
+      "authored_ids": 148,
+      "retained_English_entries": [
+        {
+          "id": "10140000085",
+          "english": "Ilmata, God of Nature"
+        }
+      ]
+    },
+    "120500": {
+      "source_ids": 124,
+      "authored_ids": 120,
+      "retained_English_entries": [
+        {
+          "id": "12050000112",
+          "english": "Dragonblood Crystal"
+        },
+        {
+          "id": "12050000055",
+          "english": "Rampage"
+        },
+        {
+          "id": "12050000017",
+          "english": "Eight-Kill War God"
+        },
+        {
+          "id": "12050000016",
+          "english": "Peerless Five"
+        }
+      ]
+    },
+    "123400": {
+      "source_ids": 103,
+      "authored_ids": 103,
+      "retained_English_entries": []
+    },
+    "105700": {
+      "source_ids": 85,
+      "authored_ids": 84,
+      "retained_English_entries": [
+        {
+          "id": "10570000015",
+          "english": "Insufficient buff Floors^{1}${1}^{2}"
+        }
+      ]
+    },
+    "103200": {
+      "source_ids": 898,
+      "authored_ids": 893,
+      "retained_English_entries": [
+        {
+          "id": "10320000037",
+          "english": "【Gather】"
+        },
+        {
+          "id": "10320000239",
+          "english": "^{1}^{2}${1}:^{3}${2}"
+        },
+        {
+          "id": "10320000245",
+          "english": "^{1}^{2}${1}^{3}${2}"
+        },
+        {
+          "id": "10320000421",
+          "english": "[g@{1}]"
+        },
+        {
+          "id": "10320000840",
+          "english": "！！！！！."
+        }
+      ]
+    }
+  }
+}

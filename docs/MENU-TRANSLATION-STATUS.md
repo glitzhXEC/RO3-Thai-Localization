@@ -36,7 +36,7 @@ English from the actual game export is the source of truth. Native Thai from the
 | 073 | 24 | Remaining menu headings/help placeholders, guild messages and format labels |
 
 - 953 new IDs in the latest update; 6,716 authored menu IDs across batches 046–073.
-- 15,655 authored translation IDs across all batches. Runtime retains English for five held semantic-review IDs and seven authored rows whose target equals English: 13,054 runtime IDs differ from English.
+- 19,509 authored translation IDs across all batches. Runtime retains English for five held semantic-review IDs and seven authored rows whose target equals English: 13,054 runtime IDs differ from English.
 - **This is not a completed translation of every menu or every game text.** Newer gameplay systems and other groups still need review; some card/title/event labels also remain English as protected formats, technical names or ambiguous text. Some pet/appearance/preset rows remain held as described below. The exact unreviewed UI-candidate inventory is in `menu-translation-coverage.json`; these candidates also contain proper names, technical labels and format-only rows, so their count is not the count of menus requiring Thai.
 
 ## Reference corrections and held context
@@ -77,3 +77,5 @@ Batches 088–091 add 750 high-ID item/skill descriptions, tutorial/trivia text,
 Batches 092–095 add 1,482 quest descriptions/objectives, NPC dialogues and activity/reward conditions. These are high-ID records and leave the below-100000 review inventory unchanged. See `QUEST-TRANSLATION-STATUS.md`.
 
 Batches 096–099 add 2,589 further high-ID quest trackers, all remaining readable assigned NPC dialogue and descriptive quest titles. The below-100000 review inventory remains unchanged; actual game UI has not been tested.
+
+Batches 100–103 add 3,854 higher-ID system errors, stat requirements/tutorials, market/filter/guide headings, mail and gameplay announcements/dialogue. The below-100000 review inventory is unchanged. See SYSTEM-TRANSLATION-STATUS.md. This does not claim all game UI has been translated or tested.
