@@ -1,11 +1,11 @@
 {
   "scope": "Un-authored source IDs below 100000; not the complete game backlog. Classifications are conservative and unresolved context is not guessed.",
-  "remaining_ids": 344,
+  "remaining_ids": 289,
   "counts_by_reason": {
-    "technical_stat_or_format_string": 177,
-    "bracket_content_protected_by_current_runtime": 21,
-    "requires_context_or_terminology_review": 51,
-    "retained_source_name_or_named_game_term": 95
+    "technical_stat_or_format_string": 168,
+    "bracket_content_protected_by_current_runtime": 17,
+    "requires_context_or_terminology_review": 18,
+    "retained_source_name_or_named_game_term": 86
   },
   "complete_game_translation": false,
   "game_tested": false,
@@ -93,16 +93,6 @@
     {
       "id": "1072",
       "english": "-",
-      "reason": "technical_stat_or_format_string"
-    },
-    {
-      "id": "2070",
-      "english": "BASE",
-      "reason": "technical_stat_or_format_string"
-    },
-    {
-      "id": "2071",
-      "english": "JOB",
       "reason": "technical_stat_or_format_string"
     },
     {
@@ -201,16 +191,6 @@
       "reason": "technical_stat_or_format_string"
     },
     {
-      "id": "2097",
-      "english": "BASE:${1}%",
-      "reason": "technical_stat_or_format_string"
-    },
-    {
-      "id": "2098",
-      "english": "${1}%:JOB",
-      "reason": "requires_context_or_terminology_review"
-    },
-    {
       "id": "3001",
       "english": "Lv.${1}",
       "reason": "technical_stat_or_format_string"
@@ -244,16 +224,6 @@
       "id": "3029",
       "english": "Crusader",
       "reason": "retained_source_name_or_named_game_term"
-    },
-    {
-      "id": "3033",
-      "english": "BASE <color=#FFEF95>${1}</color>",
-      "reason": "technical_stat_or_format_string"
-    },
-    {
-      "id": "3034",
-      "english": "JOB <color=#FFEF95>${1}</color>",
-      "reason": "technical_stat_or_format_string"
     },
     {
       "id": "11037",
@@ -296,21 +266,6 @@
       "reason": "technical_stat_or_format_string"
     },
     {
-      "id": "16025",
-      "english": "BASE",
-      "reason": "technical_stat_or_format_string"
-    },
-    {
-      "id": "16026",
-      "english": "JOB",
-      "reason": "technical_stat_or_format_string"
-    },
-    {
-      "id": "16030",
-      "english": "Quasi-Stats",
-      "reason": "requires_context_or_terminology_review"
-    },
-    {
       "id": "16085",
       "english": "PATRON",
       "reason": "technical_stat_or_format_string"
@@ -324,11 +279,6 @@
       "id": "16112",
       "english": "EXP",
       "reason": "technical_stat_or_format_string"
-    },
-    {
-      "id": "20016",
-      "english": "Connect",
-      "reason": "requires_context_or_terminology_review"
     },
     {
       "id": "20034",
@@ -366,11 +316,6 @@
       "reason": "bracket_content_protected_by_current_runtime"
     },
     {
-      "id": "23000",
-      "english": "Base Lv.: ${1}",
-      "reason": "technical_stat_or_format_string"
-    },
-    {
       "id": "23016",
       "english": "Cart Merchant",
       "reason": "retained_source_name_or_named_game_term"
@@ -394,11 +339,6 @@
       "id": "23404",
       "english": "Lv.${1}",
       "reason": "technical_stat_or_format_string"
-    },
-    {
-      "id": "23409",
-      "english": "Locate",
-      "reason": "requires_context_or_terminology_review"
     },
     {
       "id": "23471",
@@ -426,34 +366,14 @@
       "reason": "technical_stat_or_format_string"
     },
     {
-      "id": "23727",
-      "english": "(No Translation Required)",
-      "reason": "retained_source_name_or_named_game_term"
-    },
-    {
-      "id": "23728",
-      "english": "(No Translation Required)",
-      "reason": "retained_source_name_or_named_game_term"
-    },
-    {
       "id": "24021",
       "english": "Call Mio!!",
-      "reason": "requires_context_or_terminology_review"
-    },
-    {
-      "id": "24036",
-      "english": "Are you sure you want to Call Mio!! this party member?",
       "reason": "requires_context_or_terminology_review"
     },
     {
       "id": "24063",
       "english": "AFK",
       "reason": "technical_stat_or_format_string"
-    },
-    {
-      "id": "24110",
-      "english": "Placement confirmation",
-      "reason": "requires_context_or_terminology_review"
     },
     {
       "id": "24117",
@@ -496,36 +416,6 @@
       "reason": "technical_stat_or_format_string"
     },
     {
-      "id": "24204",
-      "english": "Start a raid Placement confirmation?",
-      "reason": "requires_context_or_terminology_review"
-    },
-    {
-      "id": "24205",
-      "english": "Start Raid Placement confirmation",
-      "reason": "requires_context_or_terminology_review"
-    },
-    {
-      "id": "24231",
-      "english": "Parties cannot Request to Join during Misc.",
-      "reason": "requires_context_or_terminology_review"
-    },
-    {
-      "id": "24232",
-      "english": "The Party Leader role cannot be transferred during Misc.",
-      "reason": "requires_context_or_terminology_review"
-    },
-    {
-      "id": "24233",
-      "english": "Cannot invite players to Join the party in Misc",
-      "reason": "requires_context_or_terminology_review"
-    },
-    {
-      "id": "24234",
-      "english": "Players cannot be removed from the party in Misc",
-      "reason": "requires_context_or_terminology_review"
-    },
-    {
       "id": "25135",
       "english": "ID",
       "reason": "requires_context_or_terminology_review"
@@ -541,16 +431,6 @@
       "reason": "technical_stat_or_format_string"
     },
     {
-      "id": "25445",
-      "english": "Royal Caravan",
-      "reason": "retained_source_name_or_named_game_term"
-    },
-    {
-      "id": "25446",
-      "english": "Wandering Caravan",
-      "reason": "retained_source_name_or_named_game_term"
-    },
-    {
       "id": "25512",
       "english": "<color=${1}><sprite name=\"${2}\">${3}</color>",
       "reason": "technical_stat_or_format_string"
@@ -563,21 +443,6 @@
     {
       "id": "27003",
       "english": "Log",
-      "reason": "requires_context_or_terminology_review"
-    },
-    {
-      "id": "27070",
-      "english": "Nearby Targets with Both High Priorities",
-      "reason": "requires_context_or_terminology_review"
-    },
-    {
-      "id": "27097",
-      "english": "Farthest Edge of Nearby Unit",
-      "reason": "requires_context_or_terminology_review"
-    },
-    {
-      "id": "27143",
-      "english": "Stationary Skill Follow-Up",
       "reason": "requires_context_or_terminology_review"
     },
     {
@@ -598,11 +463,6 @@
     {
       "id": "27201",
       "english": "80fps",
-      "reason": "requires_context_or_terminology_review"
-    },
-    {
-      "id": "28074",
-      "english": "Scenario:",
       "reason": "requires_context_or_terminology_review"
     },
     {
@@ -821,28 +681,8 @@
       "reason": "technical_stat_or_format_string"
     },
     {
-      "id": "33235",
-      "english": "Please select your Locate.",
-      "reason": "requires_context_or_terminology_review"
-    },
-    {
-      "id": "33236",
-      "english": "This serves as your party Locate indicator only when participating in party or matchmaking content.",
-      "reason": "requires_context_or_terminology_review"
-    },
-    {
-      "id": "33239",
-      "english": "Change Locate",
-      "reason": "requires_context_or_terminology_review"
-    },
-    {
       "id": "34022",
       "english": "Golden Orchid",
-      "reason": "retained_source_name_or_named_game_term"
-    },
-    {
-      "id": "34043",
-      "english": "Tree Hollow",
       "reason": "retained_source_name_or_named_game_term"
     },
     {
@@ -859,11 +699,6 @@
       "id": "34095",
       "english": "<color=${1}><u><link=\"${2}\">${3}</link></u></color>",
       "reason": "technical_stat_or_format_string"
-    },
-    {
-      "id": "35027",
-      "english": "TBD",
-      "reason": "requires_context_or_terminology_review"
     },
     {
       "id": "36000",
@@ -889,16 +724,6 @@
       "id": "37045",
       "english": "${1}/${2}",
       "reason": "technical_stat_or_format_string"
-    },
-    {
-      "id": "37132",
-      "english": "BASE EXP",
-      "reason": "requires_context_or_terminology_review"
-    },
-    {
-      "id": "37133",
-      "english": "Job EXP",
-      "reason": "requires_context_or_terminology_review"
     },
     {
       "id": "37861",
@@ -959,11 +784,6 @@
       "id": "40205",
       "english": "Active",
       "reason": "requires_context_or_terminology_review"
-    },
-    {
-      "id": "40992",
-      "english": "Mining Star Treasure Hunt",
-      "reason": "retained_source_name_or_named_game_term"
     },
     {
       "id": "44018",
@@ -1071,11 +891,6 @@
       "reason": "technical_stat_or_format_string"
     },
     {
-      "id": "49023",
-      "english": "Mount",
-      "reason": "requires_context_or_terminology_review"
-    },
-    {
       "id": "50001",
       "english": "Ragnarok Online",
       "reason": "retained_source_name_or_named_game_term"
@@ -1131,18 +946,8 @@
       "reason": "technical_stat_or_format_string"
     },
     {
-      "id": "50137",
-      "english": "Water",
-      "reason": "retained_source_name_or_named_game_term"
-    },
-    {
       "id": "50138",
       "english": "Mountain",
-      "reason": "retained_source_name_or_named_game_term"
-    },
-    {
-      "id": "50139",
-      "english": "Fire",
       "reason": "retained_source_name_or_named_game_term"
     },
     {
@@ -1174,11 +979,6 @@
       "id": "54108",
       "english": "Novice",
       "reason": "retained_source_name_or_named_game_term"
-    },
-    {
-      "id": "56164",
-      "english": "${1} has not completed placement confirmation",
-      "reason": "requires_context_or_terminology_review"
     },
     {
       "id": "56196",
@@ -1214,11 +1014,6 @@
       "id": "56229",
       "english": "×${1}",
       "reason": "technical_stat_or_format_string"
-    },
-    {
-      "id": "56236",
-      "english": "Locate",
-      "reason": "requires_context_or_terminology_review"
     },
     {
       "id": "56272",
@@ -1266,11 +1061,6 @@
       "reason": "technical_stat_or_format_string"
     },
     {
-      "id": "57027",
-      "english": "Scholar Lv.",
-      "reason": "requires_context_or_terminology_review"
-    },
-    {
       "id": "57035",
       "english": "${1}/${2}",
       "reason": "technical_stat_or_format_string"
@@ -1286,16 +1076,6 @@
       "reason": "technical_stat_or_format_string"
     },
     {
-      "id": "58067",
-      "english": "Buff",
-      "reason": "requires_context_or_terminology_review"
-    },
-    {
-      "id": "58069",
-      "english": "Debuff",
-      "reason": "requires_context_or_terminology_review"
-    },
-    {
       "id": "58147",
       "english": "Divine Totem",
       "reason": "retained_source_name_or_named_game_term"
@@ -1306,24 +1086,9 @@
       "reason": "retained_source_name_or_named_game_term"
     },
     {
-      "id": "59000",
-      "english": "Tavern",
-      "reason": "retained_source_name_or_named_game_term"
-    },
-    {
       "id": "60000",
       "english": "LV.${1}",
       "reason": "technical_stat_or_format_string"
-    },
-    {
-      "id": "61000",
-      "english": "${1}'s ${2}",
-      "reason": "technical_stat_or_format_string"
-    },
-    {
-      "id": "61046",
-      "english": "Mount",
-      "reason": "requires_context_or_terminology_review"
     },
     {
       "id": "61050",
@@ -1411,24 +1176,9 @@
       "reason": "technical_stat_or_format_string"
     },
     {
-      "id": "62056",
-      "english": "Peak Season",
-      "reason": "requires_context_or_terminology_review"
-    },
-    {
       "id": "62059",
       "english": "UID：${1}",
       "reason": "technical_stat_or_format_string"
-    },
-    {
-      "id": "62060",
-      "english": "Base",
-      "reason": "requires_context_or_terminology_review"
-    },
-    {
-      "id": "62061",
-      "english": "Job",
-      "reason": "requires_context_or_terminology_review"
     },
     {
       "id": "62074",
@@ -1576,16 +1326,6 @@
       "reason": "retained_source_name_or_named_game_term"
     },
     {
-      "id": "68016",
-      "english": "[Rift Crisis] Special Commendation",
-      "reason": "bracket_content_protected_by_current_runtime"
-    },
-    {
-      "id": "68017",
-      "english": "[Rift Crisis] Commendation Gift Box",
-      "reason": "bracket_content_protected_by_current_runtime"
-    },
-    {
       "id": "68028",
       "english": "Rift Stone",
       "reason": "retained_source_name_or_named_game_term"
@@ -1616,11 +1356,6 @@
       "reason": "retained_source_name_or_named_game_term"
     },
     {
-      "id": "70016",
-      "english": "Feel free to participate in the following Misc activities. Your top 【three Misc activities】 during the Dragon Boat Festival will automatically be selected for rewards.",
-      "reason": "bracket_content_protected_by_current_runtime"
-    },
-    {
       "id": "70112",
       "english": "Conqueror",
       "reason": "retained_source_name_or_named_game_term"
@@ -1644,11 +1379,6 @@
       "id": "71012",
       "english": "Lv.${1}",
       "reason": "technical_stat_or_format_string"
-    },
-    {
-      "id": "74009",
-      "english": "Base ${1}",
-      "reason": "requires_context_or_terminology_review"
     },
     {
       "id": "80020",
@@ -1684,11 +1414,6 @@
       "id": "90163",
       "english": "Western Desert",
       "reason": "retained_source_name_or_named_game_term"
-    },
-    {
-      "id": "90166",
-      "english": "In the orange and black zones of the 【Realm Map】, the longer you stay and the more players you Kill, the more 【Fatigue】 Floors you accumulate.\nFatigue 【reduces damage dealt】 and 【increases damage taken】. These effects become stronger at higher Floors.\nUpon reaching the Fatigue limit (20 Floors), you will be 【forcibly warped back to Prontera】 and lose 1 Floor of Fatigue.\nAfter leaving an orange or black zone, Fatigue will 【gradually decrease】 over time, even while offline.",
-      "reason": "bracket_content_protected_by_current_runtime"
     },
     {
       "id": "90244",

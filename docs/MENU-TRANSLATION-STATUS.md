@@ -36,7 +36,7 @@ English from the actual game export is the source of truth. Native Thai from the
 | 073 | 24 | Remaining menu headings/help placeholders, guild messages and format labels |
 
 - 953 new IDs in the latest update; 6,716 authored menu IDs across batches 046–073.
-- 19,509 authored translation IDs across all batches. Runtime retains English for five held semantic-review IDs and seven authored rows whose target equals English: 13,054 runtime IDs differ from English.
+- 21,676 authored translation IDs across all batches. Runtime retains English for five held semantic-review IDs and seven authored rows whose target equals English: 13,054 runtime IDs differ from English.
 - **This is not a completed translation of every menu or every game text.** Newer gameplay systems and other groups still need review; some card/title/event labels also remain English as protected formats, technical names or ambiguous text. Some pet/appearance/preset rows remain held as described below. The exact unreviewed UI-candidate inventory is in `menu-translation-coverage.json`; these candidates also contain proper names, technical labels and format-only rows, so their count is not the count of menus requiring Thai.
 
 ## Reference corrections and held context
@@ -64,7 +64,7 @@ Validation checks placeholder/tag order, numbers, math symbols, bracket names, e
 
 ## Remaining review inventory
 
-`menu-untranslated-review.json` lists the 344 source IDs below 100000 not present in authored batches. This is a scoped UI-review inventory, not an exhaustive game-text backlog. It separates technical/format strings, explicitly retained names, bracket-protected text and unresolved context. The current DLL treats bracket content as protected names even in some highlighted UI prose; changing those clauses would require a compatible runtime feature, not simply a TSV edit. They retain the English base for now.
+`menu-untranslated-review.json` lists the 289 source IDs below 100000 not present in authored batches. This is a scoped UI-review inventory, not an exhaustive game-text backlog. It separates technical/format strings, explicitly retained names, bracket-protected text and unresolved context. The current DLL treats bracket content as protected names even in some highlighted UI prose; changing those clauses would require a compatible runtime feature, not simply a TSV edit. They retain the English base for now.
 
 ## Gameplay descriptions beyond the menu inventory
 
@@ -79,3 +79,7 @@ Batches 092–095 add 1,482 quest descriptions/objectives, NPC dialogues and act
 Batches 096–099 add 2,589 further high-ID quest trackers, all remaining readable assigned NPC dialogue and descriptive quest titles. The below-100000 review inventory remains unchanged; actual game UI has not been tested.
 
 Batches 100–103 add 3,854 higher-ID system errors, stat requirements/tutorials, market/filter/guide headings, mail and gameplay announcements/dialogue. The below-100000 review inventory is unchanged. See SYSTEM-TRANSLATION-STATUS.md. This does not claim all game UI has been translated or tested.
+
+## Update — batches 104–107
+
+55 further below100000 UI IDs are authored, now 6,771 authored and 289 retained candidates. Other new class/quest/profession/stat/menu descriptions are high-ID records and counted separately. Pure technical formats/names and real source ambiguity remain English. See CLASS-UI-TRANSLATION-STATUS.md. No actual game/Windows UI testing has been performed.

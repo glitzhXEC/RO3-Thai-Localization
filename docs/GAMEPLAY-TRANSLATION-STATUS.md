@@ -1,4 +1,4 @@
-# Gameplay translation progress — batches 074–103
+# Gameplay translation progress — batches 074–107
 
 The verified current English game export is the only source. Existing fresh terminology is reused where the English text and meaning match; old Thai translation files are not imported.
 
@@ -10,7 +10,7 @@ The verified current English game export is the only source. Existing fresh term
 | 077 | 166 | Boss/dragon mechanics, siege and territory warnings, map-object status, killstreaks and combat instructions |
 | 078 | 54 | Airship encounters, grappling/cannon instructions, boss ground-warning order, Dracula/bride rescue and spawn alerts |
 
-9,413 new authored IDs across batches 074–103, including 3,854 in the latest 100–103 update; 19,509 authored IDs overall. Of the complete 33,513-ID runtime table, 19,497 IDs differ from English and 14,016 retain English. Overall values exclude no source IDs; five semantic-review IDs and seven unchanged authored targets retain English.
+11,580 new authored IDs across batches 074–107, including 2,167 in the latest 104–107 update; 21,676 authored IDs overall. Of the complete 33,513-ID runtime table, 21,663 IDs differ from English and 11,850 retain English. Overall values exclude no source IDs; semantic-review holds and explicitly retained unchanged targets remain English.
 
 ## Source fidelity and unresolved text
 
@@ -27,7 +27,7 @@ This is a text/data-only update using runtime schema 2. No DLL, EXE, game script
 
 The numeric-rule test renderer now uses the existing single-pass wire decoder for CR, LF, tabs and escaped backslashes; a regression check rejects double-decoding literal backslash-n. No production/runtime code was changed for this test correction.
 
-Authoring QA and decoded-control number QA, corruption rejection, complete English-base audit, runtime rules, language-hook harness and updater tests must pass before publication. Public feed verification checks all three file hashes and all 3,854 latest ID/target pairs through the actual HTTPS updater. The generated runtime English/Thai fields are also checked against the canonical merged table for all 33,513 IDs. These are automated data/mock-runtime checks, not Windows/game UI tests.
+Authoring QA and decoded-control number QA, corruption rejection, complete English-base audit, runtime rules, language-hook harness and updater tests must pass before publication. Public feed verification checks all three file hashes and all 2,167 latest ID/target pairs through the actual HTTPS updater. The generated runtime English/Thai fields are also checked against the canonical merged table for all 33,513 IDs. These are automated data/mock-runtime checks, not Windows/game UI tests.
 
 **This is not a completed translation of every game text.** Other guide, event and quest/dialogue families remain; proper names and technical formats are intentionally retained. In-game wording, layout and clipping have not been verified.
 
@@ -113,3 +113,12 @@ The text/data-only update does not change DLLs, EXEs, game scripts, installation
 | 103 | 967 | 107901 sources/shop headings, 101400 mail subjects, 120500 score/actions, 123400 event phases, 105700 requirements, all remaining readable 103200 gameplay/dialogue messages |
 
 3,854 new higher-ID system/requirements/stat/tutorial/mail/UI/gameplay strings; 280 assigned names/formats/ambiguities retain English. See SYSTEM-TRANSLATION-STATUS.md and system-translation-coverage.json. English-only authoring and all local/runtime/hook/updater checks passed. No executable or Release change; actual game UI review remains outstanding.
+
+## Update — batches 104–107
+
+| 104 | 433 | Class/build/talent descriptions, buff/profession/crafting effects, cart/headwear lore and combat labels |
+| 105 | 570 | Settings/social/guild/shop/auction/pass/service menus, emotive actions and scene labels |
+| 106 | 640 | Quest/achievement requirements, activity/season/story/defense messages and book/lore text |
+| 107 | 524 | Combat/stat labels and remaining readable below100000 UI candidates, with explicit canonical stat abbreviations |
+
+2,167 new class/quest/profession/lore/UI/stat IDs, including 21 canonical English stat labels and 55 below100000 UI records. 1,004 assigned names/formats/ambiguities retained English. See CLASS-UI-TRANSLATION-STATUS.md. No executable/Release update. Real-game UI review remains outstanding.
