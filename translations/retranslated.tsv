@@ -21675,3 +21675,2349 @@ ID	English	Thai_Translation
 70016	Feel free to participate in the following Misc activities. Your top 【three Misc activities】 during the Dragon Boat Festival will automatically be selected for rewards.	เข้าร่วมกิจกรรม Misc ต่อไปนี้ได้ตามสบาย ระบบจะเลือก [ three Misc activities ] อันดับสูงสุดของคุณระหว่าง Dragon Boat Festival เพื่อมอบรางวัลโดยอัตโนมัติ
 74009	Base ${1}	พื้นฐาน ${1}
 90166	In the orange and black zones of the 【Realm Map】, the longer you stay and the more players you Kill, the more 【Fatigue】 Floors you accumulate.\nFatigue 【reduces damage dealt】 and 【increases damage taken】. These effects become stronger at higher Floors.\nUpon reaching the Fatigue limit (20 Floors), you will be 【forcibly warped back to Prontera】 and lose 1 Floor of Fatigue.\nAfter leaving an orange or black zone, Fatigue will 【gradually decrease】 over time, even while offline.	ในโซนสีส้มและสีดำของ [ Realm Map ] ยิ่งอยู่นานและสังหารผู้เล่นมาก ยิ่งสะสมชั้น [ Fatigue ] มาก\nFatigue จะ [ reduces damage dealt ] และ [ increases damage taken ] ผลเหล่านี้แรงขึ้นเมื่อชั้นสูงขึ้น\nเมื่อถึงขีดจำกัด Fatigue (20 ชั้น) คุณจะ [ forcibly warped back to Prontera ] และเสีย Fatigue 1 ชั้น\nหลังออกจากโซนสีส้มหรือสีดำ Fatigue จะ [ gradually decrease ] ตามเวลา แม้ขณะออฟไลน์
+10060300000	A Novice Adventurer Sets Out	นักผจญภัย Novice ออกเดินทาง
+10220200143	Axe Tornado Listener - Remove Movement Speed Boost and Crowd Control Immunity When Skill Ends	ตัวรับเหตุการณ์ Axe Tornado - นำโบนัส MSPD และภูมิคุ้มกันต่อการควบคุมฝูงชนออกเมื่อสกิลจบ
+10220200570	Immune to damage while using Lope	มีภูมิคุ้มกันต่อความเสียหายขณะใช้ Lope
+10220201180	A Green Bubble Is Tracking You	ฟองสีเขียวกำลังติดตามคุณ
+10220300020	Physical/Physical DEF +${1}%.	กายภาพ/P.DEF +${1}%.
+10270000003	One-Handed Spear	หอกมือเดียว
+10270000008	Wand	ไม้กายสิทธิ์
+10270000009	Staff	คทา
+10270000012	Knuckles	สนับมือ
+10270000019	Shoes	รองเท้า
+10270000023	Blue	สีน้ำเงิน
+10270000024	Purple	สีม่วง
+10340100028	Order Restored to All Cities	คืนความสงบแก่ทุกเมือง
+10380100001	Purchase character progression and decorative items in the Guild Store. More items Can be unlocked for purchase at higher Guild Store levels.	ซื้อไอเท็มพัฒนาตัวละครและของตกแต่งในร้านค้ากิลด์ เมื่อเลเวลร้านค้ากิลด์สูงขึ้น จะปลดล็อกไอเท็มให้ซื้อได้มากขึ้น
+10380100003	Reach higher Guild Store levels to unlock access to more advanced guild gift packs.	เพิ่มเลเวลร้านค้ากิลด์เพื่อปลดล็อกแพ็กของขวัญกิลด์ขั้นสูงขึ้น
+10460000000	Welcome to RO Ragnarok Online @{1}!	ยินดีต้อนรับสู่ RO Ragnarok Online @{1}!
+10470100001	Head Above the Sea of Clouds	มุ่งหน้าไป Above the Sea of Clouds
+10480000002	Illusion's Radiance	ประกายแห่ง Illusion
+10480000003	Crimson Legend	ตำนานสีชาด
+10480000006	Legendary Red Gear	อุปกรณ์สีแดงระดับตำนาน
+10480000007	Crafting Basics	พื้นฐานการสร้าง
+10480000009	Craft Grandmaster	ปรมาจารย์การสร้าง
+10480000017	Refine: Advanced	ตีบวก: Advanced
+10480000020	Refine: Legend	ตีบวก: Legend
+10480000023	50-Card Collection	สะสมการ์ด 50 ใบ
+10480000028	First MVP	MVP แรก
+10480000029	Try a Card	ลองใช้การ์ด
+10480000030	Card Chorus	เสียงประสานการ์ด
+10480000033	Another Star Upgrade	อัปเกรดดาวอีกครั้ง
+10480000039	Echoes Assembled	รวมเหล่า Echoes
+10480000041	Two Spirits in Harmony	สองวิญญาณประสานกัน
+10480000042	First Companion	คู่หูคนแรก
+10480000043	5 Pets at Your Side	สัตว์เลี้ยง 5 ตัวเคียงข้างคุณ
+10480000044	A Home for 10 Pets	บ้านสำหรับสัตว์เลี้ยง 10 ตัว
+10480000049	Nine S-Rank Pets	สัตว์เลี้ยง S-Rank เก้าตัว
+10480000054	First MVP Defeat	ปราบ MVP ครั้งแรก
+10480000061	Spirit Tower Champion	แชมป์ Spirit Tower
+10480000066	Clear the Dark Land	ผ่าน Dark Land
+10480000067	Clear the Savage Hinterlands	ผ่าน Savage Hinterlands
+10480000070	Defeat Isti	กำจัด Isti
+10480000071	Defeat Nasha	กำจัด Nasha
+10480000074	Defeat Isti · Hard	ปราบ Isti · Hard
+10480000078	United We Stand	รวมกันเราอยู่
+10480000081	A Few Close Friends	เพื่อนสนิทไม่กี่คน
+10480000082	League of Ten Friends	กลุ่มเพื่อนสิบคน
+10480000084	Friends Far and Wide	เพื่อนทั่วทุกสารทิศ
+10480000086	Laughing Together	หัวเราะด้วยกัน
+10480000088	Inseparable	แยกจากกันไม่ได้
+10480000091	A Nose for Wine	จมูกไวต่อไวน์
+10480000092	Savor the Wine	ลิ้มรสไวน์
+10480000097	Fashion Beginner	ผู้เริ่มต้นแฟชั่น
+10480000101	Fashion Leader	ผู้นำแฟชั่น
+10480000104	Unlock · Nine-Tone Mantra	ปลดล็อก · Nine-Tone Mantra
+10480000108	Unlock · Solar Chariot	ปลดล็อก · Solar Chariot
+10480000109	First Costume	คอสตูมแรก
+10480000114	Five Mounts	พาหนะห้าตัว
+10480000117	Growing Accessory Collection	คอลเลกชันเครื่องประดับที่เพิ่มขึ้น
+10480000121	1st Job Advance	เปลี่ยนอาชีพครั้งที่ 1
+10480000124	Third Class Advancement	เลื่อนเป็นอาชีพขั้นสาม
+10480000126	Seven-Day Promise	สัญญาเจ็ดวัน
+10480000127	Two Weeks Together	สองสัปดาห์ร่วมกัน
+10480000129	Two Months Together	สองเดือนร่วมกัน
+10480000132	Six Months Together	หกเดือนร่วมกัน
+10480100008	Appraise Rare Items equipment for the first time	ประเมินอุปกรณ์ Rare Items เป็นครั้งแรก
+10500100004	Basic @{1}	พื้นฐาน @{1}
+10520000006	Mining Star Treasure Hunt	ล่าสมบัติ Mining Star
+10530000040	Savage Babe - Placeholder	Savage Babe - ตัวแทนชั่วคราว
+10600200000	10-Player Dungeon	ดันเจี้ยนผู้เล่น 10 คน
+10840000000	Beginner's Handbook	คู่มือมือใหม่
+10890000006	5-Player Challenge - Land of Nature	การท้าทายผู้เล่น 5 คน - Land of Nature
+10890000007	5-Player Challenge - Dark Land	การท้าทายผู้เล่น 5 คน - Dark Land
+10890000008	5-Player Challenge - Savage Hinterlands	การท้าทายผู้เล่น 5 คน - Savage Hinterlands
+10930100001	Life +@{1}%, ATK +@{2}%	พลังชีวิต +@{1}%, ATK +@{2}%
+110004	Second Class	อาชีพขั้นสอง
+110007	Coming Soon	เร็วๆ นี้
+110009	Go Learn	ไปเรียนรู้
+110011	Use the following item to unlock this class?	ใช้ไอเท็มต่อไปนี้เพื่อปลดล็อกอาชีพนี้หรือไม่?
+110012	Learn	เรียน
+110015	Next Recovery	การฟื้นฟูครั้งถัดไป
+110017	Title Skill Bonus	โบนัสสกิลฉายา
+110021	Required Materials	วัสดุที่ต้องใช้
+110026	Output	ผลผลิต
+110028	Use the following item to unlock this product?	ใช้ไอเท็มต่อไปนี้เพื่อปลดล็อกผลิตภัณฑ์นี้หรือไม่?
+110038	Tap to Congratulate	แตะเพื่อแสดงความยินดี
+110041	You've reached today's limit for sending request messages. Please try again tomorrow.	คุณถึงขีดจำกัดส่งข้อความคำขอของวันนี้แล้ว โปรดลองอีกครั้งพรุ่งนี้
+110046	Distance to the Treasure: <color=#FF993F>${1}</color> meters	ระยะถึงสมบัติ: <color=#FF993F>${1}</color> เมตร
+110049	You dug up nothing but air. Keep at it!	คุณขุดได้เพียงอากาศ พยายามต่อไป!
+110050	Job Level too low. Unable to advance!	Job Level ต่ำเกินไป ไม่สามารถเลื่อนขั้นได้!
+110053	Not enough required items. Unable to craft!	ไอเท็มที่ต้องใช้ไม่เพียงพอ ไม่สามารถสร้างได้!
+110055	Abandon this crafting attempt?	ยกเลิกการสร้างครั้งนี้หรือไม่?
+110066	Type	ประเภท
+110068	Daily Uses:	จำนวนครั้งใช้รายวัน:
+110070	Monthly Uses:	จำนวนครั้งใช้รายเดือน:
+110073	Recipe ${1} unlocked	ปลดล็อกสูตร ${1} แล้ว
+110074	Product ${1} unlocked	ปลดล็อกผลิตภัณฑ์ ${1} แล้ว
+110076	Not enough items. Unable to refresh!	ไอเท็มไม่เพียงพอ ไม่สามารถรีเฟรชได้!
+110079	Bonfire	กองไฟ
+110087	Add	เพิ่ม
+110088	Cancel	ยกเลิก
+110089	Congratulate the winners	แสดงความยินดีกับผู้ชนะ
+110092	Sort by Quality	เรียงตามคุณภาพ
+110093	Sort by Type	เรียงตามประเภท
+110101	Orange	สีส้ม
+110103	None	ไม่มี
+110106	Refresh	รีเฟรช
+110108	Recipe Unlock	ปลดล็อกสูตร
+110116	Vivify is full. Unable to use!	Vivify เต็มแล้ว ไม่สามารถใช้ได้!
+110117	Filter	ตัวกรอง
+110119	Activate	เปิดใช้งาน
+110123	Unfortunately, there are no players with that transformation type on the field, so there is no winner	น่าเสียดายที่ไม่มีผู้เล่นที่มีประเภทการแปลงร่างนั้นในสนาม จึงไม่มีผู้ชนะ
+110128	Relax and enjoy the rest of the party	ผ่อนคลายและสนุกกับช่วงที่เหลือของงานเลี้ยง
+110130	Party About to start	งานเลี้ยงกำลังจะเริ่ม
+110135	Game Start	เริ่มเกม
+110141	Third-Prize Winners	ผู้ชนะรางวัลที่สาม
+110144	One-Tap Congratulations (${1}s)	แสดงความยินดีด้วยแตะเดียว (${1}s)
+110145	Size Level: ${1}	ระดับขนาด: ${1}
+110148	Tap the button rapidly to fill the gauge. The more energy you have when time runs out, the higher your score!	แตะปุ่มรัว ๆ เพื่อเติมเกจ เมื่อหมดเวลา ยิ่งมีพลังงานมาก คะแนนของคุณยิ่งสูง!
+110152	Time's up	หมดเวลา
+110153	The party is over	งานเลี้ยงจบแล้ว
+110154	Bonfire ${1}	กองไฟ ${1}
+110162	Cooking Rewards	รางวัลทำอาหาร
+110168	Learn Life Skill	เรียนรู้สกิลชีวิต
+110171	The Bonfire's blessing has faded. Please exit in an orderly fashion	พรจากกองไฟจางหายแล้ว โปรดออกอย่างเป็นระเบียบ
+110172	Successfully transformed into ${1} Lv. ${2} and earned eligibility for the prize draw	แปลงร่างเป็น ${1} Lv. ${2} สำเร็จ และได้รับสิทธิ์สุ่มรางวัล
+110173	Reach <color=#ff993f>${1}</color> to unlock	ถึง <color=#ff993f>${1}</color> เพื่อปลดล็อก
+110180	Reward Count: ${1}/${2}	จำนวนรางวัล: ${1}/${2}
+110181	<color=#9ae35a>Reward Count limit reached</color>	<color=#9ae35a>ถึงขีดจำกัดจำนวนรางวัลแล้ว</color>
+110183	Add	เพิ่ม
+110185	Follow me~	ตามฉันมา~
+110186	Core Rewards	รางวัลหลัก
+11080700004	View Duo Player Count	ดูจำนวนผู้เล่นคู่
+11081000007	Faction @{1} Players	ผู้เล่นฝ่าย @{1}
+1110001	Participate in Guild activities and make a Donation of supplies to repel the invasion.	ร่วมกิจกรรมกิลด์และบริจาคเสบียงเพื่อต้านการรุกราน
+1110003	Goddess Invasion in Progress:	การรุกรานของเทพธิดาที่กำลังดำเนินอยู่:
+1110024	Your Guild's forces are currently garrisoned in 【${1}】. Redeploy them to 【${2}】?	กองกำลังกิลด์ของคุณประจำการอยู่ที่ [ ${1} ] ย้ายไปประจำการที่ [ ${2} ] หรือไม่?
+1110025	Donation	บริจาค
+11110000006	Preview Shop	ร้านพรีวิว
+11110000007	Recommended	แนะนำ
+11110000010	Kafra Shop	ร้าน Kafra
+11110000011	Season Exploration Shop	ร้านสำรวจฤดูกาล
+11110000021	Card Shop	ร้านการ์ด
+11110000023	Spirit Tower Shop	ร้าน Spirit Tower
+11110000024	Competition Shop	ร้านการแข่งขัน
+11110000025	Monster Hunt	ล่ามอนสเตอร์
+1111002	Purchase <color=#fe993f>30</color> days at once to receive:	ซื้อ <color=#fe993f>30</color> วันพร้อมกันเพื่อรับ:
+1111003	Total Rewards over 30 Days	รางวัลรวมตลอด 30 วัน
+1111005	Rebate	เงินคืน
+11190100006	Reserve	สำรอง
+11190100124	Score	คะแนน
+11200100003	Phase Four Plan	แผนระยะที่สี่
+11210200001	Purchase from the Appearance Shop	ซื้อจากร้านรูปลักษณ์
+11250000030	Low-Tier Magic Penetration	M.PEN ระดับต่ำ
+11250000035	Minor Earth Resistance	ต้านทาน Earth เล็กน้อย
+11250000039	Minor Holy Resistance	ต้านทาน Holy เล็กน้อย
+11250000040	Minor Shadow Resistance	ต้านทาน Shadow เล็กน้อย
+11250000041	Minor Ghost Property Resistance	ต้านทานธาตุ Ghost เล็กน้อย
+11250000051	Magic Amplification	เพิ่มประสิทธิภาพเวท
+11250000053	Ranged Amplification	เพิ่มประสิทธิภาพระยะไกล
+11270000004	Good	ดี
+11280000001	Chapter One	บทที่หนึ่ง
+11280000002	Chapter 2	บทที่ 2
+11280100000	An Interesting Book	หนังสือน่าสนใจ
+11280100002	Covered the content of Chapter 2	ครอบคลุมเนื้อหาบทที่ 2
+11280200001	Chapter 1 covers the essentials of working out.	บทที่ 1 ครอบคลุมพื้นฐานการออกกำลังกาย
+11410000000	A Book	หนังสือหนึ่งเล่ม
+11410000003	Chapter 2	บทที่ 2
+11410000004	Clash of the Seven Royals	การปะทะของเจ็ดราชวงศ์
+11410100002	Covers the content of Chapter 2	ครอบคลุมเนื้อหาบทที่ 2
+11410300000	CHAPTER I	บทที่ I
+11410300002	CHAPTER III	บทที่ III
+11410300003	CHAPTER IV	บทที่ IV
+11420000001	Beginner Scholar-@{1}	นักวิชาการเริ่มต้น-@{1}
+11420000003	Dedicated Scholar-@{1}	นักวิชาการผู้มุ่งมั่น-@{1}
+11440000000	Test	ทดสอบ
+11450000000	Portrait Frame Test	ทดสอบกรอบภาพ
+11460000001	Bouquet	ช่อดอกไม้
+11460000002	Meow	เหมียว
+11460000003	Set Sail	ออกเรือ
+11460100003	Set Sail	ออกเรือ
+11460100004	This is a Default Background.	นี่คือพื้นหลังเริ่มต้น
+11490000000	Number of stalls increased by ^{1}${1}^{2}	จำนวนร้านแผงลอยเพิ่มขึ้น ^{1}${1}^{2}
+11520400001	^{1}^{2}^{3}Physical^{4}^{5}^{6}\n^{7}^{8}^{9}Buff^{10}^{11}^{12}	^{1}^{2}^{3}กายภาพ^{4}^{5}^{6}\n^{7}^{8}^{9}บัฟ^{10}^{11}^{12}
+11520400002	^{1}^{2}^{3}Physical^{4}^{5}^{6}\n^{7}^{8}^{9}Ranged^{10}^{11}^{12}\n^{13}^{14}^{15}Buff^{16}^{17}^{18}	^{1}^{2}^{3}กายภาพ^{4}^{5}^{6}\n^{7}^{8}^{9}ระยะไกล^{10}^{11}^{12}\n^{13}^{14}^{15}บัฟ^{16}^{17}^{18}
+11520400003	^{1}^{2}^{3}Physical^{4}^{5}^{6}\n^{7}^{8}^{9}Melee^{10}^{11}^{12}\n^{13}^{14}^{15}Control^{16}^{17}^{18}	^{1}^{2}^{3}กายภาพ^{4}^{5}^{6}\n^{7}^{8}^{9}ประชิด^{10}^{11}^{12}\n^{13}^{14}^{15}ควบคุม^{16}^{17}^{18}
+11520400004	^{1}^{2}^{3}Physical^{4}^{5}^{6}\n^{7}^{8}^{9}ST^{10}^{11}^{12}	^{1}^{2}^{3}กายภาพ^{4}^{5}^{6}\n^{7}^{8}^{9}Single Target^{10}^{11}^{12}
+11530000008	Guild League - Finals	Guild League - รอบชิงชนะเลิศ
+11530000015	Faction Quest	เควสต์ฝ่าย
+11530000021	Guild League - Placement	Guild League - รอบจัดอันดับ
+11530000039	Regional Capital War (Auction Check)	Regional Capital War (ตรวจสอบการประมูล)
+11530000040	Royal City War (Auction Check)	Royal City War (ตรวจสอบการประมูล)
+11530000047	Festival Invitation	คำเชิญเทศกาล
+11530100033	Festival Invitation	คำเชิญเทศกาล
+11530300000	Fair Competition for @{1} Players	แข่งขันอย่างยุติธรรมสำหรับผู้เล่น @{1} คน
+11530300001	Head to the Guild Territory and join the Bonfire Party to earn tons of EXP!	ไป Guild Territory แล้วร่วม Bonfire Party เพื่อรับ EXP มากมาย!
+11720000000	Meditate	ทำสมาธิ
+11720000006	Hands on Hips	เท้าสะเอว
+11720000009	Right Heart	หัวใจด้านขวา
+11720100004	Placeholder	ตัวแทนชั่วคราว
+11720100005	Sit	นั่ง
+11720100006	Hands on Hips	เท้าสะเอว
+11720200000	Unlocked from the Start	ปลดล็อกตั้งแต่เริ่มต้น
+11770000035	Detecting	กำลังตรวจจับ
+11770100056	In-Match Build Item Description Test Text	ข้อความทดสอบคำอธิบายไอเท็มบิลด์ในแมตช์
+11930000001	Growth Support	สนับสนุนการเติบโต
+11930000003	Gift of Time	ของขวัญแห่งเวลา
+11930000012	Beginner's Handbook	คู่มือมือใหม่
+11930000017	Dummy Challenge	การท้าทายหุ่นฝึก
+11930000026	S@{1} Small Card Pool @{2}	กองสุ่มการ์ดขนาดเล็ก S@{1} @{2}
+11930000029	Test Limited-Time Pool @{1} - Open for @{2} Days from Launch	กองสุ่มจำกัดเวลาทดสอบ @{1} - เปิด @{2} วันนับจากเปิดตัว
+11930000030	Test Limited-Time Pool @{1} - Days @{2}–@{3} After Launch	กองสุ่มจำกัดเวลาทดสอบ @{1} - วันที่ @{2}–@{3} หลังเปิดตัว
+11930000032	S@{1} Small Card Pool @{2} - New Version	กองสุ่มการ์ดขนาดเล็ก S@{1} @{2} - เวอร์ชันใหม่
+11930100002	Ilma Tower: Extreme Speedrun	Ilma Tower: สปีดรันสุดขีด
+11950000002	Tier 2 Cart	รถเข็นระดับ 2
+11950000005	Tier 5 Pushcart	รถเข็นระดับ 5
+12000000001	Prefecture @{1}	เขต @{1}
+120005	Notice	ประกาศ
+120008	Continue Enchanting	เอนชานต์ต่อ
+120013	Enchant Materials	วัสดุเอนชานต์
+120018	Season Exclusive	เฉพาะฤดูกาล
+120019	Base Stats	ค่าสถานะพื้นฐาน
+120022	Extra	เพิ่มเติม
+120025	No equipment is currently available to Enchant	ขณะนี้ไม่มีอุปกรณ์ที่เอนชานต์ได้
+120026	No Enchant items are currently available	ขณะนี้ไม่มีไอเท็มเอนชานต์ที่พร้อมใช้งาน
+120034	Request ${1} from your friends?	ขอ ${1} จากเพื่อนของคุณหรือไม่?
+120035	Requested ${1} from your friends	ขอ ${1} จากเพื่อนของคุณแล้ว
+120038	Check the BOSS's location and head there for the Kill! Other players can compete for it too, so hurry.	ตรวจดูตำแหน่ง BOSS แล้วไปสังหาร! ผู้เล่นอื่นก็แย่งชิงได้ รีบหน่อย
+120047	Gift sent	ส่งของขวัญแล้ว
+120051	Go Treasure Hunting	ไปล่าสมบัติ
+120052	Treasure Hunt Reward Preview	ดูตัวอย่างรางวัลล่าสมบัติ
+120053	You've reached today's request limit. Please try again tomorrow.	คุณถึงขีดจำกัดคำขอของวันนี้แล้ว โปรดลองอีกครั้งพรุ่งนี้
+120055	Please join a guild first	โปรดเข้าร่วมกิลด์ก่อน
+120060	Gift sent successfully.	ส่งของขวัญสำเร็จ
+12010000005	Western Prontera Prefecture - Stronghold @{1}	Western Prontera Prefecture - ฐานที่มั่น @{1}
+12010000012	Western Geffen Prefecture - Stronghold @{1}	Western Geffen Prefecture - ฐานที่มั่น @{1}
+12010000013	Southern Geffen Prefecture - Stronghold @{1}	Southern Geffen Prefecture - ฐานที่มั่น @{1}
+12010000018	Eastern Payon Prefecture - Stronghold @{1}	Eastern Payon Prefecture - ฐานที่มั่น @{1}
+12010000026	Western Morroc Prefecture - Stronghold @{1}	Western Morroc Prefecture - ฐานที่มั่น @{1}
+12010000040	Alberta Western Capital - Base @{1}	Alberta Western Capital - ฐาน @{1}
+121000	Not enough Required Materials to Enchant.	วัสดุที่ต้องใช้สำหรับเอนชานต์ไม่เพียงพอ
+121004	Select the equipment slot to Enchant.	เลือกช่องอุปกรณ์ที่จะเอนชานต์
+121010	Select an Enchant formula.	เลือกสูตรเอนชานต์
+121012	Unlock New Slot	ปลดล็อกช่องใหม่
+121013	Replace (${1})	แทนที่ (${1})
+12110000045	Unknown Skill	สกิลไม่ทราบชื่อ
+12110000051	Dance together	เต้นรำด้วยกัน
+12110000056	Call Up	เรียกมา
+12110000057	Memory Game	เกมความจำ
+12110000058	Compose Movement	แต่งท่อนเพลง
+12150000000	Increases ^{1}Damage Increase by @{1}%^{2} and ^{3}DMG Reduction by @{2}%^{4}	เพิ่ม ^{1}การเพิ่มความเสียหายขึ้น @{1}%^{2} และ ^{3}การลด DMG ขึ้น @{2}%^{4}
+12170100000	When two Guild Members from the same guild are in a party, both gain an Extra bonus: Damage to Bosses +^{1}@{1}%^{2}; damage taken from Bosses -^{3}@{2}%^{4}	เมื่อสมาชิกกิลด์สองคนจากกิลด์เดียวกันอยู่ในปาร์ตี้ ทั้งคู่ได้รับโบนัสเพิ่ม: ความเสียหายต่อบอส +^{1}@{1}%^{2}; ความเสียหายที่ได้รับจากบอส -^{3}@{2}%^{4}
+12180000010	Complete^{1}all of Ilmo's objectives^{2}	ทำ^{1}เป้าหมายทั้งหมดของ Ilmo ให้สำเร็จ^{2}
+12300000000	Second Job Change	เปลี่ยนอาชีพครั้งที่สอง
+12350000001	Defense Boost	เพิ่มการป้องกัน
+12360000005	Weaver (Deprecated	Weaver (เลิกใช้แล้ว
+12390100011	Season Settlement Placeholder	ตัวแทนชั่วคราวสำหรับสรุปผลฤดูกาล
+12390200001	Complete Season Trophy A	ทำ Season Trophy A ให้สำเร็จ
+12390200004	Complete Season Trophy D	ทำ Season Trophy D ให้สำเร็จ
+12400100003	Opening: First-Prize Drawing	เปิดงาน: สุ่มรางวัลที่หนึ่ง
+12400100004	Finale: Party's End	ปิดงาน: งานเลี้ยงจบ
+12420000001	Healing	การรักษา
+12420000002	Damage	ความเสียหาย
+12420100000	Serve as the party's frontline\nPlayers who select this role have exceptional damage-taking capabilities and must stand ahead of their teammates to hold off enemy attacks.	ทำหน้าที่แนวหน้าของปาร์ตี้\nผู้เล่นที่เลือกบทบาทนี้มีความสามารถรับความเสียหายยอดเยี่ยม และต้องยืนหน้าเพื่อนร่วมทีมเพื่อต้านการโจมตีของศัตรู
+12420100002	Serve as the party's damage dealer\nPlayers who select this role have exceptional damage-dealing capabilities and must focus on damaging enemies.	ทำหน้าที่สร้างความเสียหายของปาร์ตี้\nผู้เล่นที่เลือกบทบาทนี้มีความสามารถสร้างความเสียหายยอดเยี่ยม และต้องเน้นสร้างความเสียหายแก่ศัตรู
+12430100000	Confirm	ยืนยัน
+12430100002	Retry	ลองอีกครั้ง
+12430100003	Exit	ออก
+12430100004	Ignore	ละเว้น
+12430100014	Downloading files {@{1}:@{2}0}/{@{3}:@{4}0} MB	กำลังดาวน์โหลดไฟล์ {@{1}:@{2}0}/{@{3}:@{4}0} MB
+12430100016	Download speed: {@{1}:@{2}0}{1}. Estimated time: {2} min {3} sec	ความเร็วดาวน์โหลด: {@{1}:@{2}0}{1} เวลาที่คาด: {2} min {3} sec
+12430100018	You are not connected to Wi-Fi. The game has a {@{1}:@{2}0}MB update. Downloading it may incur Data charges. Continue?	คุณไม่ได้เชื่อมต่อ Wi-Fi เกมมีอัปเดตขนาด {@{1}:@{2}0}MB การดาวน์โหลดอาจมีค่าใช้จ่ายข้อมูล ดำเนินการต่อหรือไม่?
+12430100022	Loading remote configuration file...	กำลังโหลดไฟล์กำหนดค่าระยะไกล...
+12430100025	An error occurred while updating the client. Select Ignore to temporarily Start Game, but you may encounter issues.	เกิดข้อผิดพลาดขณะอัปเดตไคลเอนต์ เลือกละเว้นเพื่อเริ่มเกมชั่วคราว แต่อาจพบปัญหา
+12430100030	Network Error	เครือข่ายผิดพลาด
+12430100037	Failed to retrieve the remote configuration file. Network connection failed.	ดึงไฟล์กำหนดค่าระยะไกลไม่สำเร็จ เชื่อมต่อเครือข่ายไม่สำเร็จ
+12500000000	Cow	วัว
+12500000004	Cow Cow Cow Cow Cow	วัว วัว วัว วัว วัว
+12500000006	The late Emperor had yet to complete half of his great undertaking when he passed away. Now the realm is divided into three, and Yizhou is exhausted and weakened. This is truly a critical moment upon which our survival depends. Yet the officials of the imperial guard remain diligent at court, while loyal and devoted officers abroad risk their lives, all because they remember the late Emperor's exceptional kindness and wish to repay it to Your Majesty. You should open your ears to wise counsel, thereby honoring the late Emperor's legacy and inspiring those of lofty ideals. You should not belittle yourself or make improper comparisons that would block the path of loyal remonstrance.\n\n　　The imperial palace and the government offices are one body; rewards and punishments, praise and censure, should be administered by the same standards. If anyone commits treachery or violates the law, or performs loyal and virtuous deeds, the proper authorities should determine their punishment or reward, thereby demonstrating Your Majesty's just and impartial rule. You should show no favoritism or allow different laws to apply within and outside the palace.\n\n　　Palace Attendants and Vice Directors Guo Youzhi, Fei Yi, Dong Yun, and the others are all honest and capable men, loyal and pure in purpose and judgment. For this reason, the late Emperor selected and promoted them to serve Your Majesty. In my humble opinion, all palace affairs, great or small, should be discussed with them before being carried out. They will surely remedy omissions and shortcomings and bring broad benefit.\n\n　　General Xiang Chong is virtuous and fair in character and conduct, and thoroughly versed in military affairs. When his abilities were tested in the past, the late Emperor praised him as capable. The officers therefore unanimously recommended Chong as commander. In my humble opinion, all military affairs should be discussed with him. He will surely bring harmony to the ranks and assign every soldier according to his ability.\n\n　　Drawing close to worthy ministers and keeping petty men Away was how the Former Han flourished; drawing close to petty men and keeping worthy ministers Away was how the Later Han declined. Whenever the late Emperor discussed this matter with me, he never failed to lament the reigns of Emperors Huan and Ling with bitter regret. The Palace Attendants, Directors of the Secretariat, Chief Clerks, and Army Advisers are all faithful and upright ministers willing to die for their principles. I pray that Your Majesty will remain close to them and place your trust in them. Then the restoration of the House of Han may soon be expected.\n\n　　I was once a commoner, personally tilling the fields in Nanyang. I sought only to preserve my life in troubled times and had no desire for fame or distinction among the feudal lords. The late Emperor did not disdain me for my humble station or lowly origins, but graciously humbled himself to visit me three times at my thatched cottage and consult me about the affairs of the age. Moved by his kindness, I pledged myself to his service. Later, when disaster struck, I accepted responsibility amid defeat and received my orders in a time of peril. Twenty-one years have passed since then.\n\n　　The late Emperor knew that I was cautious, and so, as death approached, he entrusted me with this great responsibility. Since receiving his command, I have worried and sighed day and night, fearing that I might fail in my charge and thereby tarnish the late Emperor's wisdom. Thus, in the fifth month, I crossed the Lu River and ventured deep into barren lands. Now the south has been pacified and our arms and provisions are sufficient. We should rally the three armies, march north to secure the Central Plains, and devote what little ability I possess to eliminating the traitors and villains, restoring the House of Han, and returning to the old capital. This is my duty in repaying the late Emperor and serving Your Majesty with loyalty. As for weighing advantages and disadvantages and offering faithful counsel, that is the responsibility of Youzhi, Yi, and Yun.\n\n　　I pray that Your Majesty will charge me with defeating the rebels and restoring the dynasty. If I fail, punish me for my crimes and inform the spirit of the late Emperor. If no counsel is offered to promote virtue, then rebuke Youzhi, Yi, Yun, and the others for their negligence and make their faults known. Your Majesty should also deliberate for yourself, seek advice on the right course, examine and accept sound counsel, and faithfully uphold the late Emperor's final edict. I am overwhelmed with gratitude for the favor I have received. Now that I must go Away, tears fall as I submit this memorial, and I scarcely know what I have written.	จักรพรรดิผู้ล่วงลับยังทรงดำเนินพระราชภารกิจอันยิ่งใหญ่ไม่ถึงครึ่งเมื่อสิ้นพระชนม์ บัดนี้แผ่นดินแบ่งเป็นสามส่วน และ Yizhou อ่อนล้าและอ่อนแอ นี่คือช่วงวิกฤตที่ความอยู่รอดของเราขึ้นอยู่กับมันอย่างแท้จริง แต่เจ้าหน้าที่ราชองครักษ์ยังขยันขันแข็งในราชสำนัก ขณะที่ข้าราชการผู้ภักดีในต่างแดนยอมเสี่ยงชีวิต ทั้งหมดนี้เพราะระลึกถึงพระเมตตาอันพิเศษของจักรพรรดิผู้ล่วงลับและปรารถนาจะตอบแทนต่อฝ่าบาท ฝ่าบาทควรเปิดพระกรรณรับคำปรึกษาอันชาญฉลาด เพื่อเชิดชูพระราชมรดกของจักรพรรดิผู้ล่วงลับและให้กำลังใจผู้มีอุดมการณ์สูงส่ง ไม่ควรดูแคลนพระองค์เองหรือเปรียบเทียบอย่างไม่เหมาะสมจนปิดกั้นหนทางแห่งการทัดทานโดยภักดี\n\n　　พระราชวังและหน่วยงานราชการเป็นอันหนึ่งอันเดียวกัน การให้รางวัลและลงโทษ การยกย่องและตำหนิ ควรใช้มาตรฐานเดียวกัน หากใครทรยศหรือฝ่าฝืนกฎหมาย หรือกระทำความดีอย่างภักดี ผู้มีอำนาจที่เหมาะสมควรพิจารณาโทษหรือรางวัล เพื่อแสดงถึงการปกครองอันเที่ยงธรรมและไม่ลำเอียงของฝ่าบาท ไม่ควรทรงเลือกที่รักมักที่ชังหรือยอมให้ใช้กฎหมายต่างกันระหว่างในและนอกพระราชวัง\n\n　　ข้าราชบริพารและรองผู้อำนวยการ Guo Youzhi, Fei Yi, Dong Yun และคนอื่น ๆ ล้วนซื่อสัตย์และมีความสามารถ ภักดีและบริสุทธิ์ทั้งเจตนาและการตัดสิน ด้วยเหตุนี้ จักรพรรดิผู้ล่วงลับจึงทรงคัดเลือกและเลื่อนตำแหน่งให้รับใช้ฝ่าบาท ในความเห็นอันต่ำต้อยของข้าพระองค์ กิจการพระราชวังทั้งใหญ่และเล็กควรปรึกษาพวกเขาก่อนดำเนินการ พวกเขาจะช่วยแก้สิ่งตกหล่นและข้อบกพร่อง และนำประโยชน์อย่างกว้างขวางมาให้อย่างแน่นอน\n\n　　General Xiang Chong มีคุณธรรมและเที่ยงธรรมทั้งอุปนิสัยและความประพฤติ และรอบรู้กิจการทหารอย่างถ่องแท้ เมื่อทดสอบความสามารถในอดีต จักรพรรดิผู้ล่วงลับทรงชมว่าเขามีความสามารถ เหล่าข้าราชการจึงเสนอชื่อ Chong เป็นผู้บัญชาการอย่างเป็นเอกฉันท์ ในความเห็นอันต่ำต้อยของข้าพระองค์ กิจการทหารทั้งหมดควรปรึกษาเขา เขาจะสร้างความสามัคคีในกองทัพและจัดหน้าที่ให้ทหารแต่ละนายตามความสามารถอย่างแน่นอน\n\n　　การใกล้ชิดขุนนางที่ควรค่าและกันคนต่ำต้อยทางคุณธรรมออกไปทำให้ Former Han รุ่งเรือง ส่วนการใกล้ชิดคนต่ำต้อยทางคุณธรรมและกันขุนนางที่ควรค่าออกไปทำให้ Later Han ตกต่ำ ทุกครั้งที่จักรพรรดิผู้ล่วงลับทรงหารือเรื่องนี้กับข้าพระองค์ พระองค์ทรงคร่ำครวญถึงรัชสมัยของ Emperors Huan และ Ling ด้วยความเสียพระทัยอย่างขมขื่นเสมอ ข้าราชบริพาร ผู้อำนวยการสำนักราชเลขาธิการ หัวหน้าเสมียน และที่ปรึกษากองทัพ ล้วนเป็นขุนนางผู้ภักดีและเที่ยงตรงที่ยอมตายเพื่อหลักการ ข้าพระองค์ขอให้ฝ่าบาททรงใกล้ชิดและไว้วางพระทัยพวกเขา แล้วการฟื้นฟู House of Han อาจเป็นสิ่งที่หวังได้ในไม่ช้า\n\n　　ครั้งหนึ่งข้าพระองค์เป็นสามัญชน ลงมือทำไร่ใน Nanyang ด้วยตนเอง มุ่งเพียงรักษาชีวิตในยุคสับสนวุ่นวาย และไม่ปรารถนาชื่อเสียงหรือความโดดเด่นในหมู่เจ้าแคว้น จักรพรรดิผู้ล่วงลับไม่ทรงรังเกียจฐานะอันต่ำต้อยหรือชาติกำเนิดอันต่ำต้อยของข้าพระองค์ แต่ทรงลดพระองค์อย่างมีพระเมตตาเพื่อเสด็จเยือนกระท่อมมุงฟางของข้าพระองค์สามครั้ง และปรึกษาเรื่องของยุคสมัย ด้วยความซาบซึ้งในพระเมตตา ข้าพระองค์จึงปฏิญาณรับใช้พระองค์ ต่อมาเมื่อภัยพิบัติเกิดขึ้น ข้าพระองค์รับความรับผิดชอบท่ามกลางความพ่ายแพ้ และรับคำสั่งในยามอันตราย นับแต่นั้นผ่านมายี่สิบเอ็ดปีแล้ว\n\n　　จักรพรรดิผู้ล่วงลับทรงทราบว่าข้าพระองค์ระมัดระวัง ดังนั้นเมื่อใกล้สิ้นพระชนม์ จึงทรงมอบความรับผิดชอบอันยิ่งใหญ่นี้แก่ข้าพระองค์ นับแต่รับพระบัญชา ข้าพระองค์กังวลและทอดถอนใจทั้งวันคืน กลัวจะล้มเหลวในหน้าที่และทำให้พระปรีชาของจักรพรรดิผู้ล่วงลับมัวหมอง ดังนั้นในเดือนที่ห้า ข้าพระองค์จึงข้าม Lu River และเดินทางลึกเข้าไปในดินแดนแห้งแล้ง บัดนี้ภาคใต้สงบแล้ว และอาวุธกับเสบียงของเราก็เพียงพอ เราควรรวมพลสามกองทัพ เดินทัพขึ้นเหนือเพื่อยึด Central Plains ให้มั่นคง และทุ่มความสามารถอันน้อยนิดของข้าพระองค์กำจัดคนทรยศและผู้ร้าย ฟื้นฟู House of Han และกลับนครหลวงเดิม นี่คือหน้าที่ของข้าพระองค์ในการตอบแทนจักรพรรดิผู้ล่วงลับและรับใช้ฝ่าบาทอย่างภักดี ส่วนการชั่งข้อดีข้อเสียและเสนอคำปรึกษาโดยภักดี เป็นหน้าที่ของ Youzhi, Yi และ Yun\n\n　　ข้าพระองค์ขอให้ฝ่าบาททรงมอบหมายให้ข้าพระองค์ปราบกบฏและฟื้นฟูราชวงศ์ หากล้มเหลว โปรดลงโทษความผิดของข้าพระองค์และแจ้งต่อดวงพระวิญญาณของจักรพรรดิผู้ล่วงลับ หากไม่มีคำปรึกษาที่ส่งเสริมคุณธรรม โปรดตำหนิ Youzhi, Yi, Yun และคนอื่น ๆ ที่ละเลยหน้าที่ และเปิดเผยความผิดของพวกเขา ฝ่าบาทควรทรงใคร่ครวญด้วยพระองค์เอง ขอคำแนะนำในทางที่ถูก ตรวจสอบและรับคำปรึกษาที่ดี และยึดถือพระราชโองการสุดท้ายของจักรพรรดิผู้ล่วงลับอย่างภักดี ข้าพระองค์ซาบซึ้งอย่างยิ่งในพระกรุณาที่ได้รับ บัดนี้เมื่อต้องจากไป น้ำตาร่วงหล่นขณะถวายฎีกานี้ และแทบไม่รู้ว่าตนเขียนสิ่งใดลงไป
+12500000015	"The professor comes over to greet you. Moments later, a Soldier reports that a glowing ""Relic"" appeared near Goblin Forest after the tremor, and someone needs to investigate."	"ศาสตราจารย์เข้ามาทักทายคุณ ไม่นานทหารรายงานว่า ""Relic"" เรืองแสงปรากฏใกล้ Goblin Forest หลังแรงสั่นสะเทือน และต้องมีคนไปตรวจสอบ"
+12500000017	Ki shows you an animation of the massive gate to the Garden of Time coming together piece by piece.	Ki แสดงภาพเคลื่อนไหวของประตูมหึมาสู่ Garden of Time ที่ประกอบเข้าด้วยกันทีละชิ้นให้คุณดู
+12500000019	The Chrono Compass absorbs the Thoughtform, space trembles, time is set to Pause, and the player enters the Abyss.	Chrono Compass ดูดซับ Thoughtform มิติสั่นสะเทือน เวลาหยุดชั่วคราว และผู้เล่นเข้าสู่ Abyss
+12500000021	Under the Guild Members' conflicted gazes, you turned and left the suffocating place behind. Even the sunlight seemed unusually bright.	ท่ามกลางสายตาขัดแย้งของสมาชิกกิลด์ คุณหันหลังจากไป ทิ้งสถานที่อึดอัดไว้เบื้องหลัง แม้แต่แสงแดดยังดูสว่างผิดปกติ
+12500000029	Until fate reveals itself once more, you must never stop moving Forward.	จนกว่าโชคชะตาจะเผยตัวอีกครั้ง คุณต้องไม่หยุดก้าวไปข้างหน้า
+12660000002	May fortune smile on you—now hand over the red envelope!	ขอให้โชคเข้าข้างคุณ—ทีนี้ส่งอั่งเปามา!
+12660000003	Amazing! You're in a league of your own!	สุดยอด! คุณเหนือชั้นไม่เหมือนใคร!
+12660000004	Thanks for being here. I'll give it my all, too!	ขอบคุณที่อยู่ตรงนี้ ฉันก็จะทุ่มสุดตัวเช่นกัน!
+12660000005	No way! Is today my lucky day?!	เป็นไปไม่ได้! วันนี้เป็นวันโชคดีของฉันหรือ?!
+12660000006	Seriously? I can't stop smiling!	จริงเหรอ? ฉันยิ้มไม่หยุดเลย!
+12660000007	We're rich! We're rich!	เรารวยแล้ว! เรารวยแล้ว!
+12930100000	Description of the Karazhan Harp	คำอธิบาย Karazhan Harp
+12930100002	Description of the Dwarven Bone Flute	คำอธิบาย Dwarven Bone Flute
+12930100005	Description of the World's Greatest Lute	คำอธิบาย World's Greatest Lute
+12980000001	Drop Test-Chest-Entire Server Limit-Limit Deduction	ทดสอบดรอป-หีบ-ขีดจำกัดทั้งเซิร์ฟเวอร์-หักขีดจำกัด
+12980000002	Drop Test @{1}-Personal Limit-Limit Replacement	ทดสอบดรอป @{1}-ขีดจำกัดส่วนตัว-แทนที่ขีดจำกัด
+12980000007	Hidden Treasure-Additional rewards-Basic Chest Limit	Hidden Treasure-รางวัลเพิ่มเติม-ขีดจำกัดหีบพื้นฐาน
+12980000010	Monster Hunt-Area @{1}-Medal Limit	Monster Hunt-พื้นที่ @{1}-ขีดจำกัดเหรียญตรา
+12980000011	Novice Poring Drop-@{1}-Time Reward	ดรอป Novice Poring-@{1}-รางวัลเวลา
+12980000017	Rare Reward-Deviling-MVP Limit	รางวัล Rare-Deviling-ขีดจำกัด MVP
+12980000020	Rare Reward-Orc Hero-Illusion Limit	รางวัล Rare-Orc Hero-ขีดจำกัด Illusion
+12980000023	Rare Reward-Maya-MVP Limit	รางวัล Rare-Maya-ขีดจำกัด MVP
+12980000025	Rare Reward-Orc Lord-MVP Limit	รางวัล Rare-Orc Lord-ขีดจำกัด MVP
+12980000029	Rare Reward-Goblin Leader-MVP Limit	รางวัล Rare-Goblin Leader-ขีดจำกัด MVP
+12980000030	Rare Reward-Goblin Leader-Illusion Limit	รางวัล Rare-Goblin Leader-ขีดจำกัด Illusion
+12980000032	Rare Reward-Eddga-Illusion Limit	รางวัล Rare-Eddga-ขีดจำกัด Illusion
+12980000042	Rare Reward-Doppelganger-Illusion Limit	รางวัล Rare-Doppelganger-ขีดจำกัด Illusion
+12980000046	Rare Reward-Baphomet-Illusion Limit	รางวัล Rare-Baphomet-ขีดจำกัด Illusion
+12980000054	Territory War-Weekly Trap Hunter Attempts	Territory War-จำนวนครั้ง Trap Hunter รายสัปดาห์
+12990100000	Test Gift Pack	แพ็กของขวัญทดสอบ
+12990100001	Standard Monthly Pass	บัตรรายเดือนมาตรฐาน
+12990100003	Standard Monthly Pass + Premium Monthly Pass	พาสรายเดือนมาตรฐาน + พาสรายเดือนพรีเมียม
+130003	Ranking rewards will be issued during Settlement after the event ends.	จะส่งรางวัลอันดับระหว่างสรุปผลหลังจบกิจกรรม
+130006	Settlement in ${1}	สรุปผลใน ${1}
+130007	Total Treasure Hunts	จำนวนล่าสมบัติทั้งหมด
+130008	Settlement in ${1}d ${2}h	สรุปผลใน ${1}d ${2}h
+130017	Not Challenged	ยังไม่ได้ท้าทาย
+130019	Realm of the Gods · Flawless Speedrun	Realm of the Gods · สปีดรันไร้ที่ติ
+130020	Guild GvE · Desperate Speedrun	GvE กิลด์ · สปีดรันสุดกำลัง
+130024	Challenge · Irmo	ท้าทาย · Irmo
+130028	Chest Level-up Rewards	รางวัลเพิ่มเลเวลหีบ
+130030	Collect all the Crystals to craft a treasure chest.	รวบรวม Crystals ทั้งหมดเพื่อสร้างหีบสมบัติ
+130032	Settlement in ${1}h	สรุปผลใน ${1}h
+130034	Crystal Request	คำขอ Crystal
+130036	Challenge Not Yet Unlocked	ยังไม่ปลดล็อกการท้าทาย
+130039	View Rankings	ดูอันดับ
+130042	Pending	รอดำเนินการ
+130046	<size=75>${1}</size> days	<size=75>${1}</size> วัน
+130047	You do not meet the requirements to claim this reward.	คุณไม่ตรงตามเงื่อนไขรับรางวัลนี้
+130049	Complete <color=#c27b47>Echo Growth Quests</color> during the event to earn bountiful rewards!	ทำ <color=#c27b47>Echo Growth Quests</color> ระหว่างกิจกรรมให้สำเร็จเพื่อรับรางวัลมากมาย!
+130050	Go	ไป
+130051	Complete	เสร็จสิ้น
+130057	Participate Now	เข้าร่วมตอนนี้
+130059	Rank ${1}	อันดับ ${1}
+130060	Contribution: ${1}	การมีส่วนร่วม: ${1}
+13060000005	Exit Vehicle	ออกจากยานพาหนะ
+13060000006	Activate	เปิดใช้งาน
+13060000010	Pick up	เก็บ
+13060000011	Dispel	ขจัดสถานะ
+13060000016	Hang	แขวน
+13060000024	Touch	สัมผัส
+13060000026	Pick up	เก็บ
+13060000027	Take Out	นำออก
+13060000030	Spray	ฉีด
+13060000035	Transfigure	แปลงร่าง
+13100000007	Movement Disabled	ปิดใช้งานการเคลื่อนที่
+13100000011	Idle	ว่าง
+13100000022	Debuff Immunity	ป้องกันดีบัฟ
+13100000024	Untargetable	ไม่สามารถถูกเลือกเป็นเป้าหมายได้
+13100000025	Untargetable by Allies	พันธมิตรไม่สามารถเลือกเป็นเป้าหมายได้
+13100000026	Interaction	โต้ตอบ
+13100000027	Vehicle State	สถานะยานพาหนะ
+13100000029	Meditate	ทำสมาธิ
+13100000032	Masked	ถูกปิดบัง
+13100000033	On Cannon	อยู่บนปืนใหญ่
+13100000035	Forced Knockback	ถูกบังคับผลักถอยหลัง
+13100000037	Forced Petrify	ถูกบังคับติด Petrify
+13100000042	Recreational Mount Riding	ขี่พาหนะเพื่อพักผ่อน
+13100000045	Settlement	สรุปผล
+13100000046	Type:	ประเภท:
+13100000048	Invincible and Untargetable by Enemies or Allies	เป็น Invincible และศัตรูหรือพันธมิตรไม่สามารถเลือกเป็นเป้าหมายได้
+13100000051	Transform into Flame Tornado	แปลงร่างเป็น Flame Tornado
+13100000055	Transform into a Wave	แปลงร่างเป็นคลื่น
+13100000057	Main Battlefield Revive Point Area Effect	เอฟเฟกต์พื้นที่จุดคืนชีพสนามรบหลัก
+13100000066	Silence Test	ทดสอบ Silence
+13100000075	Collect	เก็บ
+13110000021	Magnification	การขยายขนาด
+13110000023	Hide HP Bar	ซ่อนแถบ HP
+13110000025	HP Lock for @{1} Seconds	ล็อก HP เป็นเวลา @{1} วินาที
+13110000029	Fully Restore HP	ฟื้นฟู HP เต็มจำนวน
+13140000000	Cargo Pickup Point	จุดรับสินค้า
+13150100294	Major Courage	ความกล้าหาญยิ่งใหญ่
+13150400001	Chapter One	บทที่หนึ่ง
+13150400002	Chapter 2	บทที่ 2
+13150400005	Chapter 5	บทที่ 5
+13150400008	Chapter 8	บทที่ 8
+13150500002	Weapon	อาวุธ
+13150500003	Clothes	เสื้อผ้า
+13150500009	Accessory	เครื่องประดับ
+13150500011	Equip	สวมใส่
+13150500015	Pet	สัตว์เลี้ยง
+13230100000	"""The faithful of Eden cheered for the dawn, their songs becoming strings and their faith the harp's pillar. When God played the harp, even He nearly believed—that hope truly existed."""	"""ผู้ศรัทธาแห่ง Eden โห่ร้องยินดีกับรุ่งอรุณ บทเพลงกลายเป็นสายพิณและศรัทธากลายเป็นเสาหลักของพิณ เมื่อพระเจ้าบรรเลงพิณ แม้แต่พระองค์ก็เกือบเชื่อ—ว่าความหวังมีอยู่จริง"""
+13250100000	Based on an analysis of the strange fluctuations in the Ant Hell	อ้างอิงจากการวิเคราะห์ความผันผวนแปลกประหลาดใน Ant Hell
+13260000000	Rational Analysis	การวิเคราะห์อย่างมีเหตุผล
+13330000001	Season Story	เรื่องราวฤดูกาล
+13330000003	10-Player Raid · Normal	เรดผู้เล่น 10 คน · Normal
+13330000004	Mass Territory War: Royal City Siege	Territory War ขนาดใหญ่: ล้อม Royal City
+13330000005	10-Player Dungeon · Hard	ดันเจี้ยนผู้เล่น 10 คน · Hard
+13330200002	Progression	การพัฒนา
+13330200004	Event	อีเวนต์
+13330300000	Enjoy the exciting Season story	สนุกกับเรื่องราวฤดูกาลอันน่าตื่นเต้น
+13330300001	Stay tuned for the new Season	รอติดตามฤดูกาลใหม่
+13340000001	Test AGI@{1}	ทดสอบ AGI@{1}
+13340100000	Applies to all Territory War modes	ใช้กับ Territory War ทุกโหมด
+13540000000	Level Increased	เพิ่มระดับแล้ว
+13540000001	Daily Login	ล็อกอินรายวัน
+13540000002	Card Objective - Insert Card	เป้าหมายการ์ด - ใส่การ์ด
+13540100001	Socket @{1} cards of Purple Quality or higher	ใส่การ์ดคุณภาพสีม่วงขึ้นไป @{1} ใบ
+13550000000	Day @{1}	วันที่ @{1}
+13560000003	Enjoy Life: Second Activity	สนุกกับชีวิต: กิจกรรมที่สอง
+13560000005	Option A	ตัวเลือก A
+13560000009	Event Text Event Text Event Text Event Text Event Text Event Text Event Text Two	ข้อความกิจกรรม ข้อความกิจกรรม ข้อความกิจกรรม ข้อความกิจกรรม ข้อความกิจกรรม ข้อความกิจกรรม ข้อความกิจกรรม สอง
+13560000010	Event Text Event Text Event Text Event Text Event Text Event Text Event Text Three	ข้อความกิจกรรม ข้อความกิจกรรม ข้อความกิจกรรม ข้อความกิจกรรม ข้อความกิจกรรม ข้อความกิจกรรม ข้อความกิจกรรม สาม
+13590000012	Rune Fashion	แฟชั่นรูน
+13590100001	Enjoy Life	สนุกกับชีวิต
+13590100002	Run a Business	ทำธุรกิจ
+13640100000	First Movement · Majestic Hymn	บทเพลงที่หนึ่ง · บทสรรเสริญอันยิ่งใหญ่
+13640100001	Second Movement · Voice of the Mountains	บทเพลงที่สอง · เสียงแห่งขุนเขา
+13640100003	Fourth Movement · Desert Rhythm	บทเพลงที่สี่ · จังหวะแห่งทะเลทราย
+13660000000	Prologue	บทนำ
+13660000002	Chapter 2	บทที่ 2
+13680100000	Money isn't everything, but without it...	เงินไม่ใช่ทุกสิ่ง แต่ถ้าไม่มีมัน...
+13690000000	A Rest Beneath the Statue	พักผ่อนใต้รูปปั้น
+13690000002	A Traveler's Rest	ที่พักของนักเดินทาง
+13690000010	The Bustle by the Bar	ความคึกคักข้างบาร์
+13690000017	Faint Light Beyond the Window	แสงจางนอกหน้าต่าง
+13690000018	Glory Before the Tower	ความรุ่งโรจน์หน้าหอคอย
+13690000022	Beneath the Majestic Stone Statue	ใต้รูปปั้นหินสง่างาม
+13690000025	The Terrace of Fluttering Curtains	ระเบียงม่านพลิ้ว
+13690000026	Thunderous Hammering	เสียงค้อนกระหน่ำกึกก้อง
+13710000004	Morroc Map Description	คำอธิบายแผนที่ Morroc
+13730000001	Member Joined Adventurer Guild	สมาชิกเข้าร่วมสมาคมนักผจญภัย
+13730000002	Member Left Adventurer Guild	สมาชิกออกจากสมาคมนักผจญภัย
+13750000001	Juvenile Stage	วัยเยาว์
+13800000000	Escort Mission Preparation	เตรียมภารกิจคุ้มกัน
+13800000002	Escort Mission End Waiting Period	ช่วงรอจบภารกิจคุ้มกัน
+13800000010	Regional Capital War Auction - Final	การประมูล Regional Capital War - ช่วงสุดท้าย
+13800000013	Royal City War Auction - Ready	การประมูล Royal City War - เตรียมพร้อม
+13800000014	Royal City War Auction - Open	การประมูล Royal City War - เปิด
+13820000000	Cancel Interaction	ยกเลิกการโต้ตอบ
+150002	Producer Subjugation Battle	การต่อสู้ปราบผู้ผลิต
+150003	Compete against other Adventurers. The team that ultimately defeats YU will receive the following rewards.	แข่งขันกับนักผจญภัยอื่น ทีมที่ปราบ YU ได้ในท้ายที่สุดจะได้รับรางวัลต่อไปนี้
+150004	Tap the map to start auto-navigation.	แตะแผนที่เพื่อเริ่มนำทางอัตโนมัติ
+150006	Next Refresh Time	เวลารีเฟรชถัดไป
+150010	Lower-Right Revive Point	จุดคืนชีพด้านล่างขวา
+150011	${1} Refresh	รีเฟรช ${1}
+150012	Switching can be initiated after ${1} seconds without attacking another player (Deprecated)	เริ่มเปลี่ยนได้หลังไม่โจมตีผู้เล่นอื่นเป็นเวลา ${1} วินาที (เลิกใช้แล้ว)
+160005	Unranked	ไม่มีอันดับ
+160008	At Season Settlement, if you remain at rank ${1}, you will receive the following rewards.	เมื่อสรุปผลฤดูกาล หากคุณยังอยู่ในอันดับ ${1} จะได้รับรางวัลต่อไปนี้
+161001	Confirm Exit	ยืนยันการออก
+161006	Obtained ${1}	ได้รับ ${1}
+161007	This area is too dangerous to dismount from your Deniro.	พื้นที่นี้อันตรายเกินกว่าจะลงจาก Deniro ของคุณ
+161010	Find the missing Caravan Party Leader.	ตามหาหัวหน้าปาร์ตี้คาราวานที่หายไป
+16320004	Ranks 11-20	อันดับ 11-20
+16320005	Hunting Challenge - Preparation Phase	Hunting Challenge - ช่วงเตรียมตัว
+16320007	Rewards	รางวัล
+16320008	Group Rewards	รางวัลกลุ่ม
+16320011	Deals DMG:	สร้าง DMG:
+16320012	Battlefield Skill	สกิลสนามรบ
+16320017	Speedrun Report	รายงานสปีดรัน
+16320018	Group Report	รายงานกลุ่ม
+16320026	Force Field Pull	ดึงด้วยสนามพลัง
+16320029	Screen Obscuration	บดบังหน้าจอ
+170010	Response	ตอบรับ
+170019	Points Used:	คะแนนที่ใช้:
+170021	Refresh (${1}/${2})	รีเฟรช (${1}/${2})
+170022	Tactic Details	รายละเอียดยุทธวิธี
+170025	The guild announcement contains prohibited words. Please enter a new one.	ประกาศกิลด์มีคำต้องห้าม โปรดกรอกใหม่
+170027	Guild Announcement Changed	เปลี่ยนประกาศกิลด์แล้ว
+170028	Guild Information	ข้อมูลกิลด์
+170032	Go Support	ไปสนับสนุน
+170034	The Guild Hall Level is the same as the Guild Level.	เลเวลหอประชุมกิลด์เท่ากับเลเวลกิลด์
+170036	Maximum Guild Members: 80	จำนวนสมาชิกกิลด์สูงสุด: 80
+170038	Maximum Guild Shop Level: 3	เลเวลร้านค้ากิลด์สูงสุด: 3
+170044	Member Info	ข้อมูลสมาชิก
+170046	Member Recruitment	รับสมัครสมาชิก
+170047	Request List	รายการคำขอ
+170049	Permission Management	จัดการสิทธิ์
+170053	Start a Guild Rally?	เริ่มรวมพลกิลด์หรือไม่?
+170054	"Cost: <sprite name=""${1}""><color=${2}>${3}</color>/${4}"	"ค่าใช้จ่าย: <sprite name=""${1}""><color=${2}>${3}</color>/${4}"
+170055	Total Guild Activity Last Week:	กิจกรรมกิลด์รวมสัปดาห์ที่แล้ว:
+170056	Personal Daily Activity Last Week:	กิจกรรมส่วนตัวรายวันสัปดาห์ที่แล้ว:
+170060	【Guild Rally】\nAccept the Guild Rally Order?	[ Guild Rally ]\nยอมรับคำสั่งรวมพลกิลด์หรือไม่?
+170065	Escort Station	สถานีคุ้มกัน
+170073	Guild Declaration	คำประกาศกิลด์
+170081	Elite Members: ${1}/${2}	สมาชิก Elite: ${1}/${2}
+170087	Claimed	รับแล้ว
+170092	In Progress...	กำลังดำเนินการ...
+170096	Group Mail is on cooldown. Please try again later.	จดหมายกลุ่มอยู่ระหว่าง Cooldown โปรดลองอีกครั้งภายหลัง
+170104	All applications declined	ปฏิเสธคำขอทั้งหมดแล้ว
+170106	All players invited	เชิญผู้เล่นทั้งหมดแล้ว
+170108	This Week's Activity	กิจกรรมสัปดาห์นี้
+170111	Create Guild	สร้างกิลด์
+170114	Transfer guild leadership to <color=#C26B47>${1}</color>?\n(After the transfer is successful, your position will immediately change to Guild Member.)	โอนหัวหน้ากิลด์ให้ <color=#C26B47>${1}</color> หรือไม่?\n(หลังโอนสำเร็จ ตำแหน่งของคุณจะเปลี่ยนเป็นสมาชิกกิลด์ทันที)
+170117	The guild name cannot consist entirely of numbers. Please enter another name.	ชื่อกิลด์ไม่สามารถเป็นตัวเลขทั้งหมดได้ โปรดกรอกชื่ออื่น
+170119	Cancel your guild response?	ยกเลิกการตอบรับกิลด์ของคุณหรือไม่?
+170121	Activity Dividend	ส่วนแบ่งกิจกรรม
+170124	Auction Dividend is mailed at auction end	ส่งส่วนแบ่งประมูลทางจดหมายเมื่อจบประมูล
+170125	The Guild Funds Donation rankings are currently empty	อันดับบริจาคเงินทุนกิลด์ยังว่างเปล่า
+170129	Please enter the player's name.	โปรดใส่ชื่อผู้เล่น
+170131	Level	ระดับ
+170134	Invite all Elite Members to the party?	เชิญสมาชิก Elite ทั้งหมดเข้าปาร์ตี้หรือไม่?
+170137	Do not accept invitations from this player for 30 minutes	ไม่รับคำเชิญจากผู้เล่นนี้เป็นเวลา 30 นาที
+170142	Show Online players only	แสดงเฉพาะผู้เล่นออนไลน์
+170145	War Technology	เทคโนโลยีสงคราม
+170146	Limited-Time Tactics	กลยุทธ์จำกัดเวลา
+170149	Max Tactical Warehouse Level: Lv.1	เลเวลคลังยุทธวิธีสูงสุด: Lv.1
+170150	Quick Cancel	ยกเลิกด่วน
+170154	Deselect	ยกเลิกการเลือก
+170155	Confirm	ยืนยัน
+170156	Drag Member info to edit the team	ลากข้อมูลสมาชิกเพื่อแก้ไขทีม
+170158	Only show guilds you can join	แสดงเฉพาะกิลด์ที่คุณเข้าร่วมได้
+170160	Approval Method	วิธีอนุมัติ
+170164	Level Requirement:	ระดับที่ต้องการ:
+170167	Management	จัดการ
+170169	Please select a guild	โปรดเลือกกิลด์
+170174	Guild Investor Rankings	อันดับผู้ลงทุนกิลด์
+170176	Introduction	แนะนำ
+170178	Everyone is welcome to join! Enjoy plenty of Guild Benefits!!	ยินดีต้อนรับทุกคน! รับสิทธิประโยชน์กิลด์มากมาย!!
+170179	Emblem Design	ลวดลายตรา
+170185	Recruitment	รับสมัคร
+170193	Guild Declaration	คำประกาศกิลด์
+170196	Guild Member	สมาชิกกิลด์
+170197	Join Method	วิธีเข้าร่วม
+170200	Guild Supplies	เสบียงกิลด์
+170201	Guild Auction in progress...	กำลังประมูลกิลด์...
+170205	Rank	อันดับ
+170208	Donation Amount	จำนวนบริจาค
+170209	Guild Activity Last Week:	กิจกรรมกิลด์สัปดาห์ที่แล้ว:
+170223	Position	ตำแหน่ง
+170224	Job	อาชีพ
+170227	Total Contribution	การมีส่วนร่วมทั้งหมด
+170228	Online Status	สถานะออนไลน์
+170230	Group Mail	จดหมายกลุ่ม
+170231	Guild Recruitment	รับสมัครกิลด์
+170232	Guild Management	จัดการกิลด์
+170233	Only show my events	แสดงเฉพาะกิจกรรมของฉัน
+170234	Player name	ชื่อผู้เล่น
+170240	Invite	เชิญ
+170243	Job	อาชีพ
+170244	Level	ระดับ
+170245	Weekly Activity	ความเคลื่อนไหวรายสัปดาห์
+170255	Guild Leader:	หัวหน้ากิลด์:
+170256	Introduction	แนะนำ
+170263	Recruitment Settings	การตั้งค่ารับสมัคร
+170266	Enter text	กรอกข้อความ
+170267	Automatically approve applications	อนุมัติคำขออัตโนมัติ
+170268	Recruitment	รับสมัคร
+170271	Impeach	ถอดถอน
+170272	Recommended Activities	กิจกรรมแนะนำ
+170279	Limited-Time Event	อีเวนต์จำกัดเวลา
+170284	Send an Invite	ส่งคำเชิญ
+170294	Invite Not Sent	ยังไม่ได้ส่งคำเชิญ
+170295	Receive an invite	รับคำเชิญ
+170302	Guild Merger Declaration	คำประกาศรวมกิลด์
+170306	Send an Invite	ส่งคำเชิญ
+170313	Guild Name	ชื่อกิลด์
+170314	Guild Level	เลเวลกิลด์
+170315	Guild Members	สมาชิกกิลด์
+170317	Guild Master	หัวหน้ากิลด์
+170319	Details	รายละเอียด
+170320	Member Adjustment	ปรับสมาชิก
+170330	Current Strategy	กลยุทธ์ปัจจุบัน
+170331	Please purchase the limited-time Strategy.	โปรดซื้อกลยุทธ์จำกัดเวลา
+170334	Position Appointment	แต่งตั้งตำแหน่ง
+170340	Type	ประเภท
+170342	All Events	กิจกรรมทั้งหมด
+170343	Enter a Guild Member name	กรอกชื่อสมาชิกกิลด์
+170353	Responses	การตอบรับ
+170355	Approval Method	วิธีอนุมัติ
+170361	<color=#9F433A>Unequip Strategy</color>	<color=#9F433A>ถอดกลยุทธ์</color>
+170362	Mode Restrictions  <color=#c27b47>${1}</color>	ข้อจำกัดโหมด  <color=#c27b47>${1}</color>
+170500	Guild Members: <color=#F4F2E9>80</color>	สมาชิกกิลด์: <color=#F4F2E9>80</color>
+170503	Guild Members: <color=#F4F2E9>80</color>	สมาชิกกิลด์: <color=#F4F2E9>80</color>
+170509	Guild Store Level: <color=#F4F2E9>Lv. 1</color>	เลเวลร้านค้ากิลด์: <color=#F4F2E9>Lv. 1</color>
+170544	No items available for Purchase Item	ไม่มีไอเท็มสำหรับซื้อ
+170547	Guild Rally Initiated	เริ่มรวมพลกิลด์แล้ว
+170548	This player has responded to another guild's Guild Rally	ผู้เล่นนี้ตอบรับการรวมพลของกิลด์อื่นแล้ว
+181001	Welcome to RO3	ยินดีต้อนรับสู่ RO3
+181004	Welcome to RO3	ยินดีต้อนรับสู่ RO3
+181007	Welcome to RO3	ยินดีต้อนรับสู่ RO3
+190005	Remaining Bonus Time: <color=#63A22B>${1}</color>	เวลาโบนัสที่เหลือ: <color=#63A22B>${1}</color>
+190007	This Week's Points: ${1}/${2}	คะแนนสัปดาห์นี้: ${1}/${2}
+190011	Stage Boss: <color=#CC762A>${1}</color>	บอสด่าน: <color=#CC762A>${1}</color>
+230001	Current Stage:	ด่านปัจจุบัน:
+230002	Unlock Level:	เลเวลปลดล็อก:
+230003	Base ${1}	พื้นฐาน ${1}
+230021	Cannot start a challenge while matchmaking!	ไม่สามารถเริ่มท้าทายขณะจับคู่ได้!
+240004	Complete all quests to choose 1 of 4 S-Rank Pets!	ทำเควสต์ทั้งหมดให้สำเร็จเพื่อเลือกสัตว์เลี้ยง S-Rank 1 จาก 4 ตัว!
+240006	Locked	ยังไม่ปลดล็อก
+240012	Unlocks on Day ${1} of the event	ปลดล็อกในวันที่ ${1} ของกิจกรรม
+250001	Level-up is only available after all prerequisite talent nodes reach Max level.	เพิ่มเลเวลได้ต่อเมื่อโหนดพรสวรรค์ที่จำเป็นก่อนหน้าทั้งหมดถึงเลเวลสูงสุด
+250005	Talent attributes will reset when the Season changes.	ค่าสถานะพรสวรรค์จะรีเซ็ตเมื่อเปลี่ยนฤดูกาล
+250014	Max level	เลเวลสูงสุด
+250016	Complete Music Energy objectives during the event. Fill the progress bar to make a Wish to the Goddess and earn tons of rewards.	ทำเป้าหมาย Music Energy ระหว่างกิจกรรม เติมแถบความคืบหน้าเพื่ออธิษฐานต่อเทพธิดาและรับรางวัลมากมาย
+250019	Claim	รับ
+250021	Wish Preview	ดูตัวอย่างคำอธิษฐาน
+250022	<color=#fffefc><size=32>Entire Server's Total Music Energy:</size></color>	<color=#fffefc><size=32>Music Energy รวมทั้งเซิร์ฟเวอร์:</size></color>
+250030	Wish	อธิษฐาน
+250031	Wish change limit before the event ends: N/A	ขีดจำกัดการเปลี่ยนคำอธิษฐานก่อนจบกิจกรรม: N/A
+250034	The time has not yet come for your wish to be granted.	ยังไม่ถึงเวลาที่คำอธิษฐานของคุณจะเป็นจริง
+250035	Please choose a wish	โปรดเลือกคำอธิษฐาน
+250039	Goddess's Hint	คำใบ้จากเทพธิดา
+250040	Play Music	บรรเลงเพลง
+250048	${1} completes Overture I, increasing music energy for the Entire Server	${1} ทำ Overture I สำเร็จ เพิ่มพลังดนตรีให้ทั้งเซิร์ฟเวอร์
+250049	A beautiful melody rings out as ${1} successfully performs Overture II	ท่วงทำนองอันไพเราะดังขึ้นเมื่อ ${1} บรรเลง Overture II สำเร็จ
+250050	Thanks to ${1}, Overture II rings out once more	ด้วยความช่วยเหลือของ ${1} Overture II จึงดังขึ้นอีกครั้ง
+250051	${1} performs Overture III, increasing music energy	${1} บรรเลง Overture III เพิ่มพลังดนตรี
+250053	${1} completes Overture IV, performing an incomparable movement	${1} ทำ Overture IV สำเร็จ บรรเลงบทเพลงอันไร้เทียมทาน
+250054	Music energy increases as ${1} completes Overture IV	พลังดนตรีเพิ่มขึ้นเมื่อ ${1} ทำ Overture IV สำเร็จ
+250056	Distance until S1 Season officially begins: <color=#ede79d><size=72>${1}</size></color> hours	เวลาจนฤดูกาล S1 เริ่มอย่างเป็นทางการ: <color=#ede79d><size=72>${1}</size></color> ชั่วโมง
+250062	Unlocks in <color=#76c233>${1}</color>	ปลดล็อกใน <color=#76c233>${1}</color>
+250063	This movement has not started yet	บทเพลงนี้ยังไม่เริ่ม
+250064	Select all notes before you begin playing	เลือกโน้ตทั้งหมดก่อนเริ่มบรรเลง
+250065	(Collected)	(เก็บแล้ว)
+250075	Unlocks when total Talent Lv. reaches ${1}	ปลดล็อกเมื่อ Talent Lv. รวมถึง ${1}
+250083	Available Branches	เส้นทางย่อยที่เลือกได้
+250087	Please select a Job Talent	โปรดเลือกพรสวรรค์อาชีพ
+250088	Confirm	ยืนยัน
+260003	Enter an Adventure Guild name	กรอกชื่อสมาคมนักผจญภัย
+260006	No Approval Required	ไม่ต้องอนุมัติ
+260011	View Declaration	ดูคำประกาศ
+260016	Max support applications: <color=${3}>${1}</color>/${2}	คำขอสนับสนุนสูงสุด: <color=${3}>${1}</color>/${2}
+260018	Remind to Create	เตือนให้สร้าง
+260019	Cancel Support Application	ยกเลิกคำขอสนับสนุน
+260020	Cancel Recruitment	ยกเลิกรับสมัคร
+260021	Establish Adventure Guild	ก่อตั้งสมาคมนักผจญภัย
+260027	Complete Creation	สร้างให้เสร็จ
+260030	If the Adventure Guild creation process is not started within the support period, the support group will automatically disband	หากไม่เริ่มกระบวนการสร้างสมาคมนักผจญภัยภายในช่วงสนับสนุน กลุ่มสนับสนุนจะยุบอัตโนมัติ
+260031	Automatically Approve Support Requests	อนุมัติคำขอสนับสนุนอัตโนมัติ
+260033	Request List	รายการคำขอ
+260034	Disband Adventure Group	ยุบกลุ่มผจญภัย
+260035	Profile	โปรไฟล์
+260036	Invite to Party	เชิญเข้าปาร์ตี้
+260039	Recruitment Time Remaining:	เวลารับสมัครที่เหลือ:
+260043	Save edits	บันทึกการแก้ไข
+260044	Create Adventure Guild	สร้างสมาคมนักผจญภัย
+260053	(Voice recordings can be up to 15 seconds long)	(บันทึกเสียงได้ยาวสูงสุด 15 วินาที)
+260054	(Tap the left side again to stop recording)	(แตะด้านซ้ายอีกครั้งเพื่อหยุดบันทึก)
+260055	Tap the right side to enter your oath	แตะด้านขวาเพื่อกรอกคำสาบานของคุณ
+260059	Hang	แขวน
+260060	Watering	รดน้ำ
+260064	Sapling Status	สถานะต้นกล้า
+260068	Hide	ซ่อน
+260071	Adventure Group Sapling	ต้นกล้ากลุ่มผจญภัย
+260075	Rally	รวมพล
+260077	Adventure Group Level Rewards	รางวัลเลเวลกลุ่มผจญภัย
+260081	Locked	ยังไม่ปลดล็อก
+260085	Claim	รับ
+260091	Add Friend	เพิ่มเพื่อน
+260092	Invite to Party	เชิญเข้าปาร์ตี้
+260095	Transfer Leadership	โอนตำแหน่งหัวหน้า
+260099	Created on ${2}/${3}/${1}	สร้างเมื่อ ${2}/${3}/${1}
+260105	Otherwise, you will automatically leave the Adventure Group when time runs out.	มิฉะนั้น คุณจะออกจากกลุ่มผจญภัยอัตโนมัติเมื่อหมดเวลา
+260111	No Member Applications	ไม่มีคำขอสมาชิก
+260113	Stranger	คนแปลกหน้า
+260117	Adventure Group response recruitment posted successfully	โพสต์รับสมัครตอบรับกลุ่มผจญภัยสำเร็จ
+260122	Notice	ประกาศ
+260126	${1} has issued an Adventure Group call. Respond?	${1} เรียกรวมพลกลุ่มผจญภัย ตอบรับหรือไม่?
+260127	Are you sure you want to cancel recruitment?	แน่ใจหรือไม่ว่าจะยกเลิกรับสมัคร?
+260128	Modify recruitment information?	แก้ไขข้อมูลรับสมัครหรือไม่?
+260130	Are you sure you want to Apply to Support this Adventure Guild?	แน่ใจหรือไม่ว่าจะสมัครสนับสนุนสมาคมนักผจญภัยนี้?
+260132	Start recruitment?	เริ่มรับสมัครหรือไม่?
+260133	Join the Adventurer Group?	เข้าร่วมกลุ่มนักผจญภัยหรือไม่?
+260140	Only the Party Leader can perform this action.	เฉพาะหัวหน้าปาร์ตี้เท่านั้นที่ดำเนินการนี้ได้
+260144	Only the prospective Adventurer Group's creator can create it.	เฉพาะผู้ริเริ่มกลุ่มนักผจญภัยที่กำลังจะตั้งเท่านั้นที่สร้างกลุ่มได้
+260147	Care List	รายชื่อที่ใส่ใจ
+260149	Select up to ${1} tags.	เลือกแท็กได้สูงสุด ${1} แท็ก
+260152	Recruitment posted successfully.	โพสต์รับสมัครสำเร็จ
+260153	Recruitment withdrawn successfully.	ถอนประกาศรับสมัครสำเร็จ
+290000	Ally	พันธมิตร
+290004	Total Matches	จำนวนการแข่งขันรวม
+290010	Aid	ช่วยเหลือ
+290011	Healing	การรักษา
+290014	Killstreak	สังหารต่อเนื่อง
+290016	Failed	ล้มเหลว
+290017	Title	ฉายา
+290018	Wins/Losses	ชนะ/แพ้
+290023	Assist	ช่วยเหลือ
+290024	Time	เวลา
+290026	DMG Taken	ความเสียหายที่ได้รับ
+290037	Faction Ranking	อันดับฝ่าย
+290040	Battle of Dragon Coffin Island	ศึก Dragon Coffin Island
+290043	All Players: ${1}/${2}	ผู้เล่นทั้งหมด: ${1}/${2}
+290049	You have Entered the Battlefield. Exiting before the match ends will result in a penalty and point deduction.	คุณเข้าสู่สนามรบแล้ว หากออกก่อนจบแมตช์ จะถูกลงโทษและหักคะแนน
+290050	Confirm	ยืนยัน
+290054	Ends in ${1}	สิ้นสุดในอีก ${1}
+290056	Excellent Player	ผู้เล่นยอดเยี่ยม
+10100000169	Guild Contribution	ผลงานสนับสนุนกิลด์
+10110201314	Heavy Shield Defense - Broken While Raising Shield	Heavy Shield Defense - แตกขณะยกโล่
+10220200207	Skills @{1}–@{2} have already been used. Don't use them again.	ใช้สกิล @{1}–@{2} ไปแล้ว ห้ามใช้ซ้ำ
+10220200903	Movement Speed Increase When Out of Combat	MSPD เพิ่มขึ้นขณะอยู่นอกการต่อสู้
+10220201096	Cast AOE When Shield Ends	ร่าย AOE เมื่อโล่สิ้นสุด
+10220201178	A Yellow Bubble Is Tracking You	ฟองสีเหลืองกำลังไล่ตามคุณ
+10270000002	Two-Handed Sword	ดาบสองมือ
+10270000006	Two-Handed Axe	ขวานสองมือ
+10270000007	Mace	กระบอง
+10270000015	Whip	แส้
+10270000016	Shield	โล่
+10270000017	Clothes	เสื้อผ้า
+10270000018	Cloak	ผ้าคลุม
+10270000020	Accessory	เครื่องประดับ
+10270000022	Green	สีเขียว
+10270000026	Red	สีแดง
+10270000028	Tier Two	ระดับสอง
+10380100000	The main guild building determines the Guild Member capacity. Level-up the main building to increase the Guild Member capacity.	สิ่งปลูกสร้างหลักของกิลด์กำหนดจำนวนสมาชิกกิลด์สูงสุด เพิ่มเลเวลสิ่งปลูกสร้างหลักเพื่อเพิ่มจำนวนสมาชิกกิลด์สูงสุด
+10380100005	Guild Management can Trade Military Supplies here, using Guild Funds as the Currency	ผู้บริหารกิลด์สามารถซื้อขายเสบียงทหารที่นี่โดยใช้เงินทุนกิลด์เป็นสกุลเงิน
+10420100000	Very Active	คึกคักมาก
+10420100001	Moderately Active	คึกคักปานกลาง
+10470100003	Dialogue Test	ทดสอบบทสนทนา
+10480000000	Blue Gear Collection	สะสมอุปกรณ์สีฟ้า
+10480000001	Purple Radiance	แสงสีม่วง
+10480000011	Eye of Wisdom: Skills	ดวงตาแห่งปัญญา: สกิล
+10480000012	Appraisal Basics	พื้นฐานการประเมิน
+10480000016	Refine: Apprentice	ตีบวก: Apprentice
+10480000018	Refine: Expert	ตีบวก: Expert
+10480000021	First Card	การ์ดใบแรก
+10480000022	A Small Haul: 10 Cards	เก็บเล็กน้อย: การ์ด 10 ใบ
+10480000024	100-Card Collection	สะสมการ์ด 100 ใบ
+10480000026	First Purple Card	การ์ดสีม่วงใบแรก
+10480000027	Illusion Arrives	ภาพลวงตามาถึง
+10480000034	Max Stars Achieved	ถึงดาวสูงสุดแล้ว
+10480000036	Talent Training	ฝึกพรสวรรค์
+10480000040	One-Spirit Resonance	เรโซแนนซ์หนึ่งวิญญาณ
+10480000045	A Pack of 20	กลุ่มจำนวน 20
+10480000048	Four S-Rank Pets	สัตว์เลี้ยงระดับ S สี่ตัว
+10480000051	50 Eggs Hatched	ฟักไข่ 50 ฟอง
+10480000053	Hatch Egg Maniac	นักฟักไข่ตัวยง
+10480000055	MVP Hunter	นักล่า MVP
+10480000057	MVP Nemesis	คู่ปรับ MVP
+10480000058	MVP Terminator	ผู้พิชิต MVP
+10480000060	Spirit Tower Adept	ผู้ชำนาญ Spirit Tower
+10480000064	Clear the Wildlands	ผ่าน Wildlands
+10480000069	Clear the Dark Domain	ผ่าน Dark Domain
+10480000077	Defeat Mirko · Hard	เอาชนะ Mirko · ยาก
+10480000079	First Major Responsibility	ความรับผิดชอบใหญ่ครั้งแรก
+10480000080	Old Friends	เพื่อนเก่า
+10480000083	A Gathering of Friends	การรวมตัวของเพื่อน
+10480000089	Kindred Spirits	ใจตรงกัน
+10480000090	A Friendship Set in Stone	มิตรภาพที่มั่นคงดุจหิน
+10480000093	Wine Connoisseur	ผู้เชี่ยวชาญไวน์
+10480000096	Tavern Legend	ตำนานโรงเตี๊ยม
+10480000098	Fashion Rookie	มือใหม่แฟชั่น
+10480000105	Unlock · Silverwing Covenant	ปลดล็อก · Silverwing Covenant
+10480000106	Unlock · Lord of the Starry Firmament	ปลดล็อก · Lord of the Starry Firmament
+10480000107	Unlock · Orchid Waterside Pavilion	ปลดล็อก · Orchid Waterside Pavilion
+10480000110	Three Costumes	ชุดแต่งกายสามชุด
+10480000112	First Mount	สัตว์ขี่ตัวแรก
+10480000113	Three Mounts	สัตว์ขี่สามตัว
+10480000116	Accessory Adept	ผู้ชำนาญเครื่องประดับ
+10480000120	Dressed to Impress	แต่งกายให้ประทับใจ
+10480000122	Second Job Change	เปลี่ยนอาชีพครั้งที่สอง
+10480000128	One-Month Milestone	หมุดหมายหนึ่งเดือน
+10480000131	Four-Month Flourish	รุ่งเรืองสี่เดือน
+10480000133	One-Year Promise	คำสัญญาหนึ่งปี
+10490000000	Fresh-Faced Adventurer	นักผจญภัยหน้าใหม่
+10500100003	Appearance @{1}	รูปลักษณ์ @{1}
+10500100005	Server@{1}	เซิร์ฟเวอร์@{1}
+10570000015	Insufficient buff Floors^{1}${1}^{2}	จำนวนชั้นของบัฟไม่เพียงพอ^{1}${1}^{2}
+10600000005	AFK in the Field	AFK ในภาคสนาม
+10600200001	5-Player Dungeon	ดันเจี้ยน 5 คน
+10620100001	Z, awaiting your arrival in shadows beyond the moonlight's reach	Z รอคุณอยู่ในเงามืดที่แสงจันทร์ส่องไม่ถึง
+10790100014	Magic Fashion	แฟชั่นเวทมนตร์
+10800000243	^{1}Fixed CT^{2}	^{1}เวลาร่ายคงที่^{2}
+10830000000	Personal Rewards	รางวัลส่วนตัว
+10890000009	5-Player Challenge - Forbidden Nature Zone	การท้าทาย 5 คน - Forbidden Nature Zone
+10890000010	5-Player Challenge - Dark Realm	การท้าทาย 5 คน - Dark Realm
+10930000000	Complete Stranger	ไม่รู้จักกันเลย
+10930000003	Acquaintance	คนรู้จัก
+10930000005	Acquainted	คุ้นเคย
+10930000008	Matching Hearts	ใจตรงกัน
+10930000009	A Noble Friendship	มิตรภาพอันสูงส่ง
+10930000012	Kindred Spirits	ใจตรงกัน
+10930000016	Eternal Vows	คำสาบานนิรันดร์
+10930000017	Together to the Ends of the Earth	เคียงกันถึงสุดขอบโลก
+10960100137	Military Supplies	เสบียงทหาร
+110002	Life Skill Overview	ภาพรวมสกิลชีวิต
+110003	Primary Profession	อาชีพหลัก
+110005	Max	สูงสุด
+110008	Not Learned	ยังไม่ได้เรียนรู้
+110010	Change Job	เปลี่ยนอาชีพ
+110013	Replace	เปลี่ยน
+110014	Vigor	พลังงาน
+110018	Recipe Type and Description	ประเภทสูตรและคำอธิบาย
+110020	Unlock	ปลดล็อก
+110025	Title Level ≥	ระดับฉายา ≥
+110027	Map Tracking	ติดตามแผนที่
+110029	Gathering Area	พื้นที่รวบรวม
+110031	Mining	ขุดแร่
+110032	Gardening	การทำสวน
+110033	Unlocked	ปลดล็อกแล้ว
+110036	During the event, complete Activity Quests to earn Treasure Maps. Digging for treasure may unlock a Treasure Stage or summon monsters. Defeat them to earn generous rewards. Collect Treasure Map Fragments to craft a High-Grade Treasure Map and receive a guaranteed rare reward!	ระหว่างกิจกรรม ทำเควสต์กิจกรรมเพื่อรับ Treasure Maps การขุดสมบัติอาจปลดล็อกด่านสมบัติหรืออัญเชิญมอนสเตอร์ เอาชนะพวกมันเพื่อรับรางวัลมากมาย! สะสม Treasure Map Fragments เพื่อสร้าง High-Grade Treasure Map และรับรางวัลหายากที่รับประกัน!
+110039	Participate in MVP battles, Caravans, and Daily Activity for a chance to obtain Crystals, which can be used to craft reward chests. Craft enough, and the “Chest of the Future” can be unlocked and carried over to the Season!	เข้าร่วมการต่อสู้ MVP คาราวาน และกิจกรรมรายวันเพื่อมีโอกาสได้รับ Crystals ซึ่งใช้สร้างหีบรางวัลได้ สร้างให้มากพอแล้วจะปลดล็อก “Chest of the Future” และนำต่อไปยังซีซันได้!
+110043	<color=#FF993F>Treasure Discovered! Dig here to see what you find.</color>	<color=#FF993F>พบสมบัติแล้ว! ขุดตรงนี้เพื่อดูว่าจะพบอะไร</color>
+110044	The treasure chest is nearby. Search the area!	หีบสมบัติอยู่ใกล้ ๆ ค้นหาบริเวณนี้!
+110047	Daily quests refresh at ${1} o'clock.	เควสต์รายวันรีเฟรชเวลา ${1} นาฬิกา
+110048	Bonfire Affix	คุณสมบัติแคมป์ไฟ
+110054	Not enough Vivify. Unable to gather!	Vivify ไม่เพียงพอ รวบรวมไม่ได้!
+110056	Abandon	ละทิ้ง
+110057	Continue Crafting	สร้างต่อ
+110059	Interrupt	ขัดจังหวะ
+110060	Not enough items in your Backpack. Unable to use!	ไอเท็มในกระเป๋าไม่เพียงพอ ใช้ไม่ได้!
+110063	Output	ผลผลิต
+110064	Unlocked	ปลดล็อกแล้ว
+110065	Trade	การค้า
+110067	Not enough items. Unable to unlock!	ไอเท็มไม่เพียงพอ ปลดล็อกไม่ได้!
+110078	Use the following items to unlock the recipe?	ใช้ไอเท็มต่อไปนี้เพื่อปลดล็อกสูตรไหม?
+110090	Bonfire Blessing	พรแคมป์ไฟ
+110098	Green	สีเขียว
+110099	Blue	สีน้ำเงิน
+110100	Purple	สีม่วง
+110104	No related content	ไม่มีเนื้อหาที่เกี่ยวข้อง
+110110	Job Advance successful.	เปลี่ยนอาชีพสำเร็จ
+110111	Job Advance from ${1} Lv${2} to ${3} Lv${4}?	เปลี่ยนอาชีพจาก ${1} Lv${2} เป็น ${3} Lv${4} ไหม?
+110112	Life Skill titles and their corresponding skill data will be reset when the Season changes	ฉายาสกิลชีวิตและข้อมูลสกิลที่เกี่ยวข้องจะรีเซ็ตเมื่อเปลี่ยนซีซัน
+110115	Vigor is about to overflow. Unable to use!	พลังงานกำลังจะล้น ใช้ไม่ได้!
+110118	Keep	เก็บไว้
+110120	${1} Level Reached	ถึงเลเวล ${1} แล้ว
+110125	Bonfire Ability	ความสามารถแคมป์ไฟ
+110126	Successfully transformed into ${1} Lv. ${2}! The winner's reward has increased	แปลงร่างเป็น ${1} Lv. ${2} สำเร็จ! รางวัลผู้ชนะเพิ่มขึ้น
+110131	Continuously gain large amounts of EXP during Blessing Time	ได้รับ EXP จำนวนมากอย่างต่อเนื่องในช่วงเวลาได้รับพร
+110134	Failed	ล้มเหลว
+110138	Round ${1}	รอบ ${1}
+110139	Success	สำเร็จ
+110142	Second-Prize Winners	ผู้ชนะรางวัลที่สอง
+110143	First Prize Winners	ผู้ชนะรางวัลที่หนึ่ง
+110146	Rewards grant <color=#63a22b>${1}%</color> Extra	รางวัลให้เพิ่มอีก <color=#63a22b>${1}%</color>
+110149	Draw First Prize	จับรางวัลที่หนึ่ง
+110157	After switching Life Skills, you will Keep the level and EXP of your previous Life Skill	หลังเปลี่ยนสกิลชีวิต คุณจะเก็บเลเวลและ EXP ของสกิลชีวิตเดิมไว้
+110160	Tap to close	แตะเพื่อปิด
+110164	Eat <color=#C27B47>Special Dishes</color> to increase base stats. These bonuses are cleared when the Season changes	กิน <color=#C27B47>อาหารพิเศษ</color> เพื่อเพิ่มค่าสถานะพื้นฐาน โบนัสเหล่านี้จะถูกล้างเมื่อเปลี่ยนซีซัน
+110169	Job Advance	เปลี่ยนอาชีพ
+110174	The party has officially begun	งานเลี้ยงเริ่มอย่างเป็นทางการแล้ว
+110182	<color=#FDAB5B>Vigor</color> -${1} (${2}/${3})	<color=#FDAB5B>พลังงาน</color> -${1} (${2}/${3})
+110184	Earn plenty of EXP continuously in the guild territory.	รับ EXP มากมายอย่างต่อเนื่องในอาณาเขตกิลด์
+11081100000	Faction @{1} Players	ผู้เล่นฝ่าย @{1}
+1110006	Invasion Intensity:	ความรุนแรงการรุกราน:
+1110008	MAX	สูงสุด
+1110026	Guild Readiness has increased to Lv. 【${1}】.	ความพร้อมกิลด์เพิ่มเป็น Lv. [ ${1} ] แล้ว
+11110000000	Novice Shop	ร้าน Novice
+11110000002	RO Shop	ร้าน RO
+11110000012	Gold Shop	ร้าน Gold
+11110000018	Magic Fashion	แฟชั่นเวทมนตร์
+11110000019	Supply Shop	ร้านเสบียง
+11110000022	Totem Shop	ร้าน Totem
+11200100001	Phase 2 Strategy	กลยุทธ์ช่วงที่ 2
+11200100002	Phase Three Strategy	กลยุทธ์ช่วงที่สาม
+11240000000	Field Auto-Battle Challenge @{1}-@{2}	การท้าทายต่อสู้อัตโนมัติในพื้นที่ทั่วไป @{1}-@{2}
+11250000023	Low-Tier Continuous Shield	โล่ต่อเนื่องระดับต่ำ
+11250000026	Low-Tier Magic Defense	M.DEF ระดับต่ำ
+11250000029	Low-Tier Physical Penetration	P.PEN ระดับต่ำ
+11250000031	Low-Tier HIT	Hit ระดับต่ำ
+11250000032	Low-Tier FLEE	Flee ระดับต่ำ
+11250000033	Low-Tier Neutral Resistance	ต้านทาน Neutral ระดับต่ำ
+11250000034	Low Wind Resistance	ต้านทาน Wind ระดับต่ำ
+11250000036	Minor Fire Resistance	ต้านทาน Fire เล็กน้อย
+11250000038	Minor Poison Resistance	ต้านทาน Poison เล็กน้อย
+11250000045	Basic Hunting Technique	เทคนิคล่าขั้นพื้นฐาน
+11250000046	Low-Level Hunting Protection	การคุ้มครองการล่าระดับต่ำ
+11250000063	Multi Strike	โจมตีหลายครั้ง
+11250000066	Continuous Healing	รักษาต่อเนื่อง
+11270000001	Low	ต่ำ
+11270000002	Fair	พอใช้
+11270000003	Average	ปานกลาง
+11270000005	Excellent	ยอดเยี่ยม
+11270000006	Outstanding	โดดเด่น
+11280200000	Not much useful information.	ข้อมูลที่เป็นประโยชน์มีไม่มาก
+11290000000	Card	การ์ด
+11290000002	Coming Soon	เร็วๆ นี้
+11400000000	Default	ค่าเริ่มต้น
+11400000001	Advanced	ขั้นสูง
+11410000005	Handsome Prince	เจ้าชายรูปงาม
+11410000007	The Princess Ascends the Throne	เจ้าหญิงขึ้นครองราชย์
+11410100000	A Good Book	หนังสือดีเล่มหนึ่ง
+11410300001	CHAPTER II	บทที่ II
+11460000000	Default Theme	ธีมเริ่มต้น
+11460000004	Default Background	พื้นหลังเริ่มต้น
+11460100000	This is a Default Theme.	นี่คือธีมเริ่มต้น
+11460200000	Purchase from the Magic Fashion Shop.	ซื้อจากร้าน Magic Fashion
+11460200001	Growth Support Lv. @{1} Rewards	รางวัลสนับสนุนการเติบโต Lv. @{1}
+11470100000	Unlocked by Default	ปลดล็อกเป็นค่าเริ่มต้น
+11490000002	${1} acquisition efficiency increased by ^{1}${2}%^{2}	ประสิทธิภาพการได้รับ ${1} เพิ่มขึ้น ^{1}${2}%^{2}
+11520400005	^{1}^{2}^{3}Physical^{4}^{5}^{6}\n^{7}^{8}^{9}AoE^{10}^{11}^{12}	^{1}^{2}^{3}กายภาพ^{4}^{5}^{6}\n^{7}^{8}^{9}AoE^{10}^{11}^{12}
+11530000006	Guild League - Preliminaries	Guild League - รอบคัดเลือก
+11530000007	Guild League - Semifinals	Guild League - รอบรองชนะเลิศ
+11530000016	Caravan Escort	คุ้มกันคาราวาน
+11530000024	Hidden Treasure PVP Placeholder	ข้อความชั่วคราว PVP สำหรับ Hidden Treasure
+11530000034	Guild League - Preliminaries (Auction Check)	Guild League - รอบคัดเลือก (ตรวจประมูล)
+11530000036	Guild League - Finals (Auction Check)	Guild League - รอบชิงชนะเลิศ (ตรวจประมูล)
+11530000037	Caravan Escort (Auction Check)	คุ้มกันคาราวาน (ตรวจประมูล)
+11530300002	Coming Soon	เร็วๆ นี้
+11530300003	@{1} VS @{2} Competition Match	แมตช์การแข่งขัน @{1} VS @{2}
+11680000000	Inactive	ไม่ใช้งาน
+11720000004	Placeholder	ตัวแทนชั่วคราว
+11720000005	Sit	นั่ง
+11720100008	Left Heart	หัวใจด้านซ้าย
+11720200002	Unlocked by Default	ปลดล็อกเป็นค่าเริ่มต้น
+11740000000	Party Mode (Official)	โหมดปาร์ตี้ (ทางการ)
+11770100057	Teammate's ID Tag	ID Tag ของเพื่อนร่วมทีม
+11930000002	Feature Preview	ตัวอย่างฟีเจอร์
+11930000006	Elf Tower: Race to the Top	Elf Tower: แข่งสู่ยอด
+11930000007	Ilma Tower: Extreme Speedrun	Ilma Tower: สปีดรันสุดขีด
+11930000014	Top 10 Guilds	กิลด์ 10 อันดับแรก
+11930000024	S@{1} Large Card Pool	S@{1} พูลการ์ดขนาดใหญ่
+11930000027	Test Always Display Pool @{1} - Open for @{2} Days from Launch	พูลทดสอบที่แสดงเสมอ @{1} - เปิด @{2} วันนับจากเปิดตัว
+11950000004	Tier 4 Cart	รถเข็นระดับ 4
+12000000000	Main City	เมืองหลัก
+120006	Don't show again during this login	ไม่แสดงอีกระหว่างการเข้าสู่ระบบครั้งนี้
+120007	Cancel	ยกเลิก
+120009	The current scroll's star rating is too low to unlock a new Enchant slot	ระดับดาวของคัมภีร์ปัจจุบันต่ำเกินกว่าจะปลดล็อกช่องเสริมมนตร์ใหม่
+120010	Current Equipment has a high-quality Enchant. Enchanting may replace it and result in a loss.	อุปกรณ์ปัจจุบันมีการเสริมมนตร์คุณภาพสูง การเสริมมนตร์อาจแทนที่และทำให้สูญเสีย
+120012	Change Equipment	เปลี่ยนอุปกรณ์
+120016	Select Scroll	เลือกคัมภีร์
+120017	Equipment Enchantment	การเสริมมนตร์อุปกรณ์
+120021	Refinement Affix	คุณสมบัติตีบวก
+120023	Slot Not Unlocked	ยังไม่ปลดล็อกช่อง
+120029	The Chest of the Future contains valuable upgrade resources for the next Season. Claim it now to Keep its contents for next Season!	Chest of the Future มีทรัพยากรอัปเกรดล้ำค่าสำหรับซีซันหน้า รับตอนนี้เพื่อเก็บของข้างในไว้สำหรับซีซันหน้า!
+120030	Cannot Dig while in <color=#ec543a>Battle Status</color>.	ขุดไม่ได้ขณะอยู่ใน <color=#ec543a>สถานะต่อสู้</color>
+120031	Do not remind again	ไม่ต้องแจ้งเตือนอีก
+120036	${1} times	${1} ครั้ง
+120037	${1} sent you ${2}	${1} ส่ง ${2} ให้คุณ
+120042	You've alerted an ultra-powerful boss!	คุณทำให้บอสที่ทรงพลังอย่างยิ่งรู้ตัวแล้ว!
+120043	You've awakened a sleeping elite monster!	คุณปลุกมอนสเตอร์ชั้นยอดที่หลับอยู่แล้ว!
+120045	The Box of the Future can be opened next Season.	Box of the Future เปิดได้ในซีซันหน้า
+120046	I'm still a little short on ${1}. Please help!	ฉันยังขาด ${1} อยู่นิดหน่อย ช่วยด้วย!
+120048	Gift one ${2} to ${1}?	มอบ ${2} หนึ่งชิ้นให้ ${1} ไหม?
+120049	You have left the treasure-digging area.	คุณออกจากพื้นที่ขุดสมบัติแล้ว
+120057	No Enchants are available for this equipment level.	ไม่มีการเสริมมนตร์สำหรับอุปกรณ์เลเวลนี้
+120059	Enchant	เสริมมนตร์
+120063	You're sending requests too frequently. Please try again later.	คุณส่งคำร้องถี่เกินไป โปรดลองใหม่ภายหลัง
+120065	Not enough Treasure Maps. Obtain more from quests first!	Treasure Maps ไม่เพียงพอ รับเพิ่มจากเควสต์ก่อน!
+12010000011	Eastern Geffen Prefecture - Stronghold @{1}	Eastern Geffen Prefecture - ฐานที่มั่น @{1}
+12010000025	Eastern Morroc Prefecture - Stronghold @{1}	Eastern Morroc Prefecture - ฐานที่มั่น @{1}
+12010000033	Western Izlude Prefecture - Stronghold @{1}	Western Izlude Prefecture - ฐานที่มั่น @{1}
+12010000039	Alberta Eastern Capital - Base @{1}	Alberta Eastern Capital - ฐาน @{1}
+12010000041	Alberta Southern Capital - Base @{1}	Alberta Southern Capital - ฐาน @{1}
+12030000000	Attack No. @{1}	โจมตีหมายเลข @{1}
+12030000003	Attack Star Core @{1}	โจมตี Star Core @{1}
+121002	Continue Enchanting	เอนชานต์ต่อ
+121006	Chance to unlock a new slot or replace an existing Enchant.	มีโอกาสปลดล็อกช่องใหม่หรือแทนที่การเสริมมนตร์เดิม
+121007	Randomly replaces an existing Enchant.	สุ่มแทนที่การเสริมมนตร์เดิม
+121009	No equipment available.	ไม่มีอุปกรณ์ให้ใช้
+12180000006	Have at least^{1}@{1}^{2}Revive attempts remaining	มีจำนวนครั้งคืนชีพเหลืออย่างน้อย^{1}@{1}^{2}ครั้ง
+12180000008	Complete^{1}all of Isti's objectives^{2}	ทำ^{1}เป้าหมายทั้งหมดของ Isti^{2}ให้สำเร็จ
+12180000009	Complete^{1}all of Naisha's objectives^{2}	ทำ^{1}เป้าหมายทั้งหมดของ Naisha^{2}ให้สำเร็จ
+12180000011	Complete^{1}all of Mirko's objectives^{2}	ทำ^{1}เป้าหมายทั้งหมดของ Mirko^{2}ให้สำเร็จ
+12300000001	Trans. 2nd	Trans. ขั้น 2
+12300000002	Third Class Advancement	เลื่อนเป็นอาชีพขั้นสาม
+12300200000	Unlocks at Lv. @{1}	ปลดล็อกที่ Lv. @{1}
+12300200002	Unlocks on Day @{1} after launch	ปลดล็อกในวันที่ @{1} หลังเปิดตัว
+12350000002	Defense Fortification	การเสริมป้อมป้องกัน
+12360000002	Lumberjack (Deprecated	คนตัดไม้ (เลิกใช้
+12390100793	Test Name Card@{1}-Permanent	ทดสอบการ์ดชื่อ@{1}-ถาวร
+12390100816	No Translation Required	ไม่ต้องแปล
+12390200003	Complete Season Trophy C	ทำ Season Trophy C ให้สำเร็จ
+12400100000	Prologue: Party Preparations	บทนำ: เตรียมงานเลี้ยง
+12420100001	Serve as the party's healer\nPlayers who select this role have powerful Life recovery abilities and must keep their teammates healthy and provide Revive when needed.	ทำหน้าที่เป็นผู้รักษาของปาร์ตี้\nผู้เล่นที่เลือกบทบาทนี้มีความสามารถฟื้นฟูพลังชีวิตสูง ต้องรักษาสุขภาพของเพื่อนร่วมทีมและคืนชีพเมื่อจำเป็น
+12430100005	Restart	เริ่มใหม่
+12430100008	Client update complete. Please restart the game.	อัปเดตไคลเอนต์เสร็จแล้ว โปรดเปิดเกมใหม่
+12430100010	Client Repair complete. The game will close. Please restart the game.	ซ่อมไคลเอนต์เสร็จแล้ว เกมจะปิด โปรดเปิดเกมใหม่
+12430100012	Clear the client's local Data? The client will restart automatically.	ล้างข้อมูลในเครื่องของไคลเอนต์ไหม? ไคลเอนต์จะเริ่มใหม่อัตโนมัติ
+12430100013	Clear the client's local Data? After the game closes, please restart it manually.	ล้างข้อมูลในเครื่องของไคลเอนต์ไหม? หลังเกมปิด โปรดเปิดใหม่ด้วยตนเอง
+12430100015	Download speed: {@{1}:@{2}0}{1}	ความเร็วดาวน์โหลด: {@{1}:@{2}0}{1}
+12430100017	Download speed: {@{1}:@{2}0}{1}. Estimated time: {2} sec	ความเร็วดาวน์โหลด: {@{1}:@{2}0}{1} เวลาประมาณ: {2} วินาที
+12430100019	Loading...	กำลังโหลด...
+12430100021	Your client version is too old to ensure a stable gameplay experience. Please Download the latest version.	เวอร์ชันไคลเอนต์เก่าเกินกว่าจะรับประกันการเล่นที่เสถียร โปรดดาวน์โหลดเวอร์ชันล่าสุด
+12430100023	Mute	ปิดเสียง
+12430100024	Error verifying version differences.	เกิดข้อผิดพลาดในการตรวจสอบความแตกต่างเวอร์ชัน
+12430100026	Failed to read the remote configuration file. This may be a Network issue. Check your connection and Retry....	อ่านไฟล์การตั้งค่าระยะไกลไม่สำเร็จ อาจเป็นปัญหาเครือข่าย ตรวจการเชื่อมต่อแล้วลองใหม่....
+12430100027	Failed to Download the resource package. This may be a Network issue. Check your connection and Retry....	ดาวน์โหลดแพ็กทรัพยากรไม่สำเร็จ อาจเป็นปัญหาเครือข่าย ตรวจการเชื่อมต่อแล้วลองใหม่....
+12430100029	Failed to save the file. There may not be enough storage space. Free up some space and Retry....	บันทึกไฟล์ไม่สำเร็จ อาจมีพื้นที่จัดเก็บไม่พอ เพิ่มพื้นที่ว่างแล้วลองใหม่....
+12430100031	Incomplete client cache files were detected. Clear the cache and Download them again?	ตรวจพบไฟล์แคชไคลเอนต์ไม่ครบ ล้างแคชแล้วดาวน์โหลดใหม่ไหม?
+12430100034	Failed to refresh the update files. Some cache files may be in use, or there may be a Permissions issue.	รีเฟรชไฟล์อัปเดตไม่สำเร็จ ไฟล์แคชบางส่วนอาจถูกใช้งานอยู่ หรืออาจมีปัญหาสิทธิ์
+12430100035	Analyzing file differences...	กำลังวิเคราะห์ความแตกต่างไฟล์...
+12430100036	File difference analysis complete.	วิเคราะห์ความแตกต่างไฟล์เสร็จแล้ว
+12430100039	Please launch the game through the launcher.	โปรดเปิดเกมผ่านตัวเปิดเกม
+12480000000	Collection	คอลเลกชัน
+12500000003	Cow Cow Cow Cow	วัว วัว วัว วัว
+12500000007	"In the spring of the fourth year of the Qingli era@{1}, Teng Zijing was demoted and appointed governor of Baling Prefecture@{2}. By the following year@{3}, the government was efficient, the people were united@{4}, and all neglected endeavors had been revived@{5}. The Yueyang Tower was then renovated@{6} and expanded beyond its former dimensions@{7}, while poems and rhapsodies by eminent Tang poets and contemporary writers were inscribed upon it@{8}. I was asked to write this account in commemoration@{9}.\nIn my view, the magnificent scenery of Baling@{10} is embodied by Lake Dongting alone. It embraces the distant mountains@{11} and swallows the mighty Yangtze River@{12}, its vast waters surging endlessly@{13} and stretching beyond the horizon@{14}. From morning sunlight to evening shadow, its appearance changes in countless ways@{15}. Such is the grand vista from Yueyang Tower@{16}, which earlier writers have described in full@{17}. Yet with Wu Gorge accessible to the north@{18} and the Xiao and Xiang Rivers extending far to the south@{19}, banished officials and wandering poets@{20} often gather here@{21}. Could their feelings upon viewing this scenery possibly be the same@{22}?\nWhen ceaseless rain falls in dreary sheets@{23} and the sky remains overcast for months on end@{24}, bitter winds howl furiously@{25} and turbid waves surge toward the heavens@{26}. The sun and stars conceal their light@{27}, and the mountains vanish from sight@{28}. Merchants and travelers can go no farther@{29}, while masts topple and oars splinter@{30}. As twilight falls, all is engulfed in darkness@{31}, amid the roars of tigers and cries of apes. Those who ascend the tower then may lament their exile and yearn for home@{32}, fear slander and dread reproach@{33}, and find only desolation wherever they look@{34}, until sorrow overwhelms them@{35}.\nBut when the spring breeze is gentle and the sunlight bright@{36}, the water lies calm and untroubled@{37}. The radiance of sky and lake meets as one@{38} across a boundless expanse of blue-green. Gulls wheel above the sandbars and come to rest, while shimmering fish swim below@{39}. Angelica grows along the banks and orchids upon the islets@{40}, lush and verdant@{41}. At times, the lingering mist clears completely@{42}, revealing the brilliant moon over a thousand miles@{43}. Its glimmer dances like gold upon the rippling water@{44}, while its still reflection sinks like a jade disc into the depths@{45}. Fishermen's songs echo back and forth@{46}—how could such joy ever end@{47}? Those who ascend the tower then may feel their hearts open and their spirits soar@{48}, forgetting both favor and disgrace@{49}, and raise a cup of wine to the breeze@{50}, filled with boundless delight@{51}.\nAlas@{52}! I have often sought to understand the hearts of the benevolent sages of antiquity@{53}, whose sentiments perhaps differed from both of these@{54}. Why was that? They rejoiced not in material things, nor grieved over their own misfortunes@{55}. When serving in the imperial court, they worried for the people@{56}; when living in distant seclusion, they worried for their sovereign@{57}. Thus, whether advancing in office or withdrawing from it, they always had cause for concern. When, then, could they find joy? Surely they would say, ""Be the first to worry about the world's troubles and the last to enjoy its pleasures""@{58}. Ah! Without such people, whom could I follow@{59}?\nWritten on the fifteenth day of the ninth month in the sixth year of the era. [@{60}]"	"ในฤดูใบไม้ผลิของปีที่สี่แห่งรัชศก Qingli@{1} Teng Zijing ถูกลดตำแหน่งและแต่งตั้งให้เป็นผู้ปกครอง Baling Prefecture@{2} พอถึงปีถัดมา@{3} การปกครองมีประสิทธิภาพ ผู้คนเป็นน้ำหนึ่งใจเดียวกัน@{4} และกิจการที่ถูกละเลยทั้งปวงกลับมารุ่งเรือง@{5} จึงบูรณะ Yueyang Tower@{6} และขยายให้ใหญ่กว่าเดิม@{7} พร้อมจารึกบทกวีและร้อยกรองของกวีชื่อดังแห่ง Tang และนักเขียนร่วมสมัยไว้บนนั้น@{8} ข้าพเจ้าได้รับคำขอให้เขียนบันทึกนี้เพื่อเป็นที่ระลึก@{9}\nในความเห็นของข้าพเจ้า ทิวทัศน์งดงามแห่ง Baling@{10} รวมอยู่ใน Lake Dongting เพียงแห่งเดียว มันโอบภูเขาไกลโพ้น@{11} และกลืนสายน้ำ Yangtze River อันยิ่งใหญ่@{12} น้ำกว้างใหญ่ซัดสาดไม่สิ้นสุด@{13} ทอดไกลพ้นขอบฟ้า@{14} ตั้งแต่แสงเช้าจนถึงเงายามเย็น รูปลักษณ์เปลี่ยนไปนับไม่ถ้วน@{15} นี่คือทัศนียภาพยิ่งใหญ่จาก Yueyang Tower@{16} ซึ่งนักเขียนรุ่นก่อนได้บรรยายไว้อย่างครบถ้วน@{17} แต่เมื่อ Wu Gorge เข้าถึงได้ทางเหนือ@{18} และ Xiao และ Xiang Rivers ทอดไกลไปทางใต้@{19} ขุนนางถูกเนรเทศและกวีพเนจร@{20} จึงมักมารวมตัวที่นี่@{21} ความรู้สึกของพวกเขาเมื่อมองทิวทัศน์นี้จะเหมือนกันได้หรือ@{22}?\nเมื่อฝนตกไม่หยุดเป็นม่านหม่นเศร้า@{23} และฟ้าครึ้มต่อเนื่องหลายเดือน@{24} ลมหนาวคำรามรุนแรง@{25} คลื่นขุ่นโถมสูงสู่สวรรค์@{26} อาทิตย์และดวงดาวซ่อนแสง@{27} ภูเขาหายไปจากสายตา@{28} พ่อค้าและนักเดินทางไปต่อไม่ได้@{29} เสากระโดงล้มและพายแตกเป็นเสี่ยง@{30} ยามสนธยา ทุกสิ่งจมในความมืด@{31} ท่ามกลางเสียงเสือคำรามและลิงร้อง ผู้ขึ้นหอคอยอาจคร่ำครวญถึงการเนรเทศและโหยหาบ้าน@{32} กลัวคำใส่ร้ายและหวั่นคำตำหนิ@{33} มองไปที่ใดก็พบแต่ความอ้างว้าง@{34} จนความเศร้าท่วมท้นใจ@{35}\nแต่เมื่อสายลมใบไม้ผลิอ่อนโยนและแดดส่องสดใส@{36} ผืนน้ำสงบนิ่งไร้ความปั่นป่วน@{37} แสงฟ้าและทะเลสาบประสานเป็นหนึ่ง@{38} บนผืนสีฟ้าเขียวไร้ขอบเขต นกนางนวลบินวนเหนือสันทรายแล้วหยุดพัก ส่วนปลาประกายว่ายอยู่เบื้องล่าง@{39} Angelicaขึ้นริมฝั่งและกล้วยไม้บนเกาะน้อย@{40} เขียวชอุ่มอุดมสมบูรณ์@{41} บางครั้งหมอกค้างจางหายไปสิ้น@{42} เผยจันทร์สว่างเหนือพันไมล์@{43} ประกายจันทร์เต้นดุจทองบนผิวน้ำระลอก@{44} ขณะที่เงาสะท้อนนิ่งจมลงดุจแผ่นหยกสู่ห้วงลึก@{45} เพลงชาวประมงก้องตอบกันไปมา@{46} ความยินดีเช่นนี้จะสิ้นสุดได้อย่างไร@{47}? ผู้ขึ้นหอคอยอาจรู้สึกใจเปิดกว้างและจิตทะยาน@{48} ลืมทั้งความโปรดปรานและความอัปยศ@{49} ยกถ้วยไวน์ให้สายลม@{50} เปี่ยมสุขไร้ขอบเขต@{51}\nอนิจจา@{52}! ข้าพเจ้ามักแสวงหาความเข้าใจจิตใจปราชญ์ผู้เมตตาแห่งอดีต@{53} ซึ่งความรู้สึกอาจต่างจากทั้งสองแบบนี้@{54} เพราะอะไร? พวกเขาไม่ยินดีเพราะวัตถุ และไม่เศร้าเพราะเคราะห์ของตน@{55} เมื่อรับราชการในราชสำนักก็ห่วงผู้คน@{56} เมื่ออยู่สันโดษห่างไกลก็ห่วงเจ้าเหนือหัว@{57} ดังนั้นไม่ว่าจะก้าวหน้าในหน้าที่หรือถอนตัว ก็มีเหตุให้ห่วงเสมอ แล้วจะพบความสุขเมื่อใด? พวกเขาคงกล่าวว่า ""เป็นคนแรกที่ห่วงทุกข์ของโลก และเป็นคนสุดท้ายที่เสวยสุขของโลก""@{58} อา! หากปราศจากคนเช่นนี้ ข้าพเจ้าจะติดตามใคร@{59}?\nเขียนในวันที่สิบห้าของเดือนเก้า ปีที่หกแห่งรัชศก [ @{60} ]"
+12500000008	A cloaked woman plays her instrument, then smiles at you and says:\n“Adventurer, there's something special about you... May I take a look?”	หญิงสาวสวมเสื้อคลุมเล่นเครื่องดนตรี แล้วยิ้มให้คุณและพูดว่า:\n“นักผจญภัย มีบางอย่างพิเศษในตัวคุณ... ขอฉันดูหน่อยได้ไหม?”
+12500000009	The Chrono Compass emits a dazzling light, then projects a strange vision: you see yourself entering a mysterious abyss, where a massive structure stands, seemingly a door.	Chrono Compass เปล่งแสงเจิดจ้าแล้วฉายภาพประหลาด คุณเห็นตัวเองเข้าสู่ห้วงลึกลับ ซึ่งมีโครงสร้างมหึมาตั้งอยู่ ดูเหมือนประตู
+12500000010	The airship takes off. As you look outside, the people of Izlude wave goodbye.	เรือเหาะบินขึ้น เมื่อมองออกไปข้างนอก ผู้คนใน Izlude โบกมือลา
+12500000016	The Relic begins to glow, and Pharaoh leaps out, catching everyone off guard. The knights are too busy to help, so they ask you to fight the monster.	โบราณวัตถุเริ่มเรืองแสง และ Pharaoh กระโดดออกมา ทำให้ทุกคนไม่ทันตั้งตัว อัศวินยุ่งเกินกว่าจะช่วย จึงขอให้คุณต่อสู้กับมอนสเตอร์
+12500000018	After being released, the Pathfinder Ant crawled off in one direction, leaving a trail of Footprints.	หลังถูกปล่อย Pathfinder Ant คลานไปทิศทางหนึ่ง ทิ้งรอยเท้าไว้
+12500000020	Without looking back, Jack ran into the woods. In the distance, a scream rang out as a branch tore his clothes...	Jack วิ่งเข้าป่าโดยไม่หันกลับ ไกลออกไปมีเสียงกรีดร้องเมื่อกิ่งไม้ฉีกเสื้อผ้าของเขา...
+12500000023	Pet the adorable kitten, and it affectionately nuzzles your hand... Suddenly, the ground gives way beneath your feet. It seems a Trap Hunter was set here. Helpless, you fall in and slam hard into the ground...	ลูบลูกแมวน่ารัก มันถูไถกับมือคุณอย่างอ่อนโยน... ทันใดนั้น พื้นใต้เท้าก็ยุบ ดูเหมือนวาง Trap Hunter ไว้ตรงนี้ คุณตกลงไปอย่างไร้ทางช่วยตนเองและกระแทกพื้นอย่างแรง...
+12500000024	The vision in your dream was a beacon from the future.	ภาพนิมิตในฝันของคุณเป็นสัญญาณนำทางจากอนาคต
+12500000028	The savior foretold in prophecy, the morning star that still shines amid despair.	ผู้กอบกู้ที่คำพยากรณ์กล่าวไว้ ดาวยามเช้าที่ยังส่องสว่างท่ามกลางความสิ้นหวัง
+12500000031	Go forth and explore, seeking every source of power across these ancient lands.	ออกเดินทางสำรวจ เพื่อแสวงหาแหล่งพลังทุกแห่งทั่วดินแดนโบราณเหล่านี้
+12500000033	can become the light that pierces the endless night.	สามารถกลายเป็นแสงที่ทะลุราตรีไร้สิ้นสุด
+12520100003	Mysterious Arrival	การมาถึงอันลึกลับ
+12530000002	Warrior@{1} Rank	Warrior@{1} ยศ
+12530000003	Elite@{1} Tier	Elite@{1} ระดับ
+12530100000	Tier @{1}	ระดับ @{1}
+12610000020	Life Percentage - Purple	เปอร์เซ็นต์พลังชีวิต - สีม่วง
+12610000027	Life Percentage - Orange	เปอร์เซ็นต์พลังชีวิต - สีส้ม
+12660000000	Congratulations! Hope some of that luck rubs off on me!	ยินดีด้วย! หวังว่าโชคดีของคุณจะแผ่มาถึงฉันบ้าง!
+12790000000	Charge	พุ่ง
+12790000001	Open Your Eyes	ลืมตา
+12790000002	Turn the Ship's Wheel	หมุนพวงมาลัยเรือ
+12880000000	^{1}Journey's Beginning^{2}	^{1}จุดเริ่มต้นการเดินทาง^{2}
+12880000004	^{1}Champion at the Summit^{2}	^{1}แชมป์บนยอดสูงสุด^{2}
+12920000000	Easy	ง่าย
+12930100001	Description of the Sylvanas Statue	คำอธิบาย Sylvanas Statue
+12930100003	Description of the Undead Rapid-Fire Cannon	คำอธิบาย Undead Rapid-Fire Cannon
+12930100004	Description of the Alliance Ballista	คำอธิบาย Alliance Ballista
+12980000000	Drop Test-Chest-Entire Server Limit-Limit Replacement	ทดสอบดรอป-หีบ-ขีดจำกัดทั้งเซิร์ฟเวอร์-เปลี่ยนขีดจำกัด
+12980000003	Drop Test @{1}-Personal Limit-Limit Deduction	ทดสอบดรอป @{1}-ขีดจำกัดส่วนบุคคล-หักขีดจำกัด
+12980000005	Drop Test @{1}-Entire Server Limit-Limit Deduction	ทดสอบดรอป @{1}-ขีดจำกัดทั้งเซิร์ฟเวอร์-หักขีดจำกัด
+12980000008	Hidden Treasure-Additional rewards-Gift Chest Limit	Hidden Treasure-รางวัลเพิ่มเติม-ขีดจำกัด Gift Chest
+12980000009	Hidden Treasure-Additional rewards-Supreme Chest Limit	Hidden Treasure-รางวัลเพิ่มเติม-ขีดจำกัด Supreme Chest
+12980000012	Beginner Tutorial-Card: Poring-@{1}-Time Reward	บทสอนมือใหม่-การ์ด: Poring-@{1}-รางวัลเวลา
+12980000014	Rare Reward-Angeling-Illusion Limit	รางวัลหายาก-Angeling-ขีดจำกัด Illusion
+12980000015	Rare Reward-Golden Thief Bug-MVP Limit	รางวัลหายาก-Golden Thief Bug-ขีดจำกัด MVP
+12980000016	Rare Reward-Golden Thief Bug-Illusion Limit	รางวัลหายาก-Golden Thief Bug-ขีดจำกัด Illusion
+12980000019	Rare Reward-Orc Hero-MVP Limit	รางวัลหายาก-Orc Hero-ขีดจำกัด MVP
+12980000022	Rare Reward-Phreeoni-Illusion Limit	รางวัลหายาก-Phreeoni-ขีดจำกัด Illusion
+12980000027	Rare Reward-Drake-MVP Limit	รางวัลหายาก-Drake-ขีดจำกัด MVP
+12980000033	Rare Reward-Mistress-MVP Limit	รางวัลหายาก-Mistress-ขีดจำกัด MVP
+12980000034	Rare Reward-Mistress-Illusion Limit	รางวัลหายาก-Mistress-ขีดจำกัด Illusion
+12980000035	Rare Reward-Osiris-MVP Limit	รางวัลหายาก-Osiris-ขีดจำกัด MVP
+12980000036	Rare Reward-Osiris-Illusion Limit	รางวัลหายาก-Osiris-ขีดจำกัด Illusion
+12980000040	Rare Reward-Dracula Baron-Illusion Limit	รางวัลหายาก-Dracula Baron-ขีดจำกัด Illusion
+12980000041	Rare Reward-Doppelganger-MVP Limit	รางวัลหายาก-Doppelganger-ขีดจำกัด MVP
+12980000043	Rare Reward-Pharaoh-MVP Limit	รางวัลหายาก-Pharaoh-ขีดจำกัด MVP
+12980000049	Novice Tutorial-Eddga-@{1}-Time Reward	บทสอนมือใหม่-Eddga-@{1}-รางวัลเวลา
+12980000051	Vigor	พลังงาน
+12980000053	Territory War-Weekly Blackhole Attempts	Territory War-จำนวนครั้ง Blackhole รายสัปดาห์
+12980100000	Consumed when gathering and crafting with a Life Skill. Obtain it from Recommend-Activity Chests. You can accumulate up to ^{1}@{1}^{2} points.	ใช้เมื่อรวบรวมและสร้างด้วยสกิลชีวิต รับได้จากหีบกิจกรรมแนะนำ สะสมได้สูงสุด ^{1}@{1}^{2} คะแนน
+12990000001	Standard Monthly Pass	บัตรรายเดือนมาตรฐาน
+12990000002	Premium Monthly Pass	บัตรรายเดือนพรีเมียม
+12990000003	Purchase Standard + Premium Together	ซื้อบัตรมาตรฐาน + พรีเมียมพร้อมกัน
+12990100004	Pass	พาส
+130001	Fight for the glory that awaits!	ต่อสู้เพื่อเกียรติยศที่รออยู่!
+130004	Empty	ว่าง
+130005	Unranked	ไม่มีอันดับ
+130010	Not yet achieved	ยังไม่บรรลุ
+130015	Go challenge	ไปท้าทาย
+130021	Pet Tower · Peak Showdown	Pet Tower · การประลองสูงสุด
+130023	Challenge · Nessa	ท้าทาย · Nessa
+130027	Normal Chest Rewards	รางวัลหีบธรรมดา
+130033	The event ends in less than one hour.	กิจกรรมจะสิ้นสุดในเวลาไม่ถึงหนึ่งชั่วโมง
+130041	Cumulative Rewards	รางวัลสะสม
+130044	Donate Crystals	บริจาคคริสตัล
+130048	Please obtain the shard first.	โปรดรับชิ้นส่วนก่อน
+130058	My guild	กิลด์ของฉัน
+130061	View Rankings	ดูอันดับ
+130062	Reach <color=#97e553>${1}/${2}</color> Personal Contribution to receive the following ranking rewards.	มีผลงานสนับสนุนส่วนบุคคลถึง <color=#97e553>${1}/${2}</color> เพื่อรับรางวัลอันดับต่อไปนี้
+130063	Actively participate in <color=#ff993f>guild events</color>. Guilds with the highest total Member Contribution will receive rewards, including <color=#ff993f>Military Supplies that provide an advantage in Territory War.</color>	เข้าร่วม <color=#ff993f>กิจกรรมกิลด์</color> อย่างแข็งขัน กิลด์ที่มีผลงานสนับสนุนรวมของสมาชิกสูงสุดจะได้รับรางวัล รวมถึง <color=#ff993f>เสบียงทหารที่มอบความได้เปรียบใน Territory War</color>
+130066	My guild Rank: ${1}	อันดับกิลด์ของฉัน: ${1}
+130068	The Boss was defeated, and the treasure was taken by other players.	บอสถูกเอาชนะแล้ว และผู้เล่นอื่นนำสมบัติไป
+13060000000	Open Shop	เปิดร้านค้า
+13060000001	Open Ambulance	เปิดรถพยาบาล
+13060000002	Dumby Commission	งานว่าจ้าง Dumby
+13060000007	Search	ค้นหา
+13060000013	Clue	เบาะแส
+13060000014	Watering	รดน้ำ
+13060000018	Pick up	เก็บ
+13060000020	Search	ค้นหา
+13060000025	Relax	ผ่อนคลาย
+13060000028	Contact	ติดต่อ
+13060000031	Touch	สัมผัส
+13060000037	Continue	ดำเนินการต่อ
+13100000004	Skill Movement	เคลื่อนที่ด้วยสกิล
+13100000005	War Machine	เครื่องจักรสงคราม
+13100000008	Skill Use Disabled	ปิดใช้สกิล
+13100000012	Emote/Action	อีโมต/ท่าทาง
+13100000014	Battle Status	สถานะต่อสู้
+13100000021	Immunity	ภูมิคุ้มกัน
+13100000028	Spectating	กำลังชม
+13100000031	Facing	ทิศที่หัน
+13100000036	Forced Freeze	Freeze แบบบังคับ
+13100000041	Immobilize and Disable Skills	Immobilize และปิดใช้สกิล
+13100000044	Item Healing Disabled	ปิดใช้การรักษาจากไอเท็ม
+13100000052	Starting Invincible Effect	ผลอมตะตอนเริ่ม
+13100000053	Revive Protection Effect	ผลคุ้มครองการคืนชีพ
+13100000054	Battlefield Skill	สกิลสนามรบ
+13100000056	Revive Point Protection Effect	ผลคุ้มครองจุดคืนชีพ
+13100000059	Cannot Be Attacked	ไม่สามารถถูกโจมตีได้
+13100000061	Evil Boss Chain Effect	ผลโซ่ของบอสชั่วร้าย
+13100000062	Evil Boss Barrels Rolling Attack Buff	บัฟโจมตีถังกลิ้งของบอสชั่วร้าย
+13100000071	Calm	สงบ
+13100000073	Revive Disabled	ปิดใช้การคืนชีพ
+13100000076	Campfire Interaction	โต้ตอบกับแคมป์ไฟ
+13100000077	New Meditation	การทำสมาธิใหม่
+13110000003	Attack Orbit	วงโคจรโจมตี
+13110000005	Attribute Orbit	วงโคจรคุณสมบัติ
+13110000006	Life Steal Orbit	วงโคจรดูดพลังชีวิต
+13110000022	Reset Skill Cooldowns	รีเซ็ต Cooldown สกิล
+13110000028	Lose HP to increase DMG by @{1}%	เสีย HP เพื่อเพิ่ม DMG ขึ้น @{1}%
+13110100018	Undead	อันเดด
+13110200021	Focus Orbit	วงโคจรจดจ่อ
+13140000001	Cargo Delivery Point	จุดส่งสินค้า
+13140000003	Outpost	ด่านหน้า
+13140000006	Normal Caravan	คาราวานธรรมดา
+13150100283	Wine Like Blood	ไวน์ดุจโลหิต
+13150400003	Chapter 3	บทที่ 3
+13150400006	Chapter 6	บทที่ 6
+13150400009	Chapter 9	บทที่ 9
+13150500001	Potion	โพชัน
+13150500005	Mount	พาหนะ
+13150500007	Tree Bark	เปลือกไม้
+13150500008	Egg	ไข่
+13150500016	Hatch	ฟัก
+13150500017	Refine	ตีบวก
+13200000008	Purple @{1}	สีม่วง @{1}
+13230100002	"""When the Fishmen chanted, every storm fell silent. God forged that silence into a blade and carved through the will of seven thousand worlds to resist."""	"""เมื่อ Fishmen ขับบทสวด พายุทุกลูกก็สงบ เทพเจ้าตีความเงียบนั้นเป็นคมดาบ แล้วฟันผ่านเจตจำนงต่อต้านของโลกเจ็ดพันแห่ง"""
+13250000000	Research on Thought Particles	งานวิจัยอนุภาคความคิด
+13260000001	Field Investigation	การสำรวจภาคสนาม
+13260000002	Purpose of the Experiment	จุดประสงค์การทดลอง
+13290000035	Default Portrait Frame	กรอบรูปโปรไฟล์เริ่มต้น
+13290000038	Default Chat Bubble	กรอบแชตเริ่มต้น
+13290000045	Default Profile Card	การ์ดโปรไฟล์เริ่มต้น
+13330000000	Serverwide Territory War	Territory War ทั้งเซิร์ฟเวอร์
+13330000006	Mid-Season Settlement	สรุปผลกลางซีซัน
+13330000007	New Season Preparation	เตรียมซีซันใหม่
+13330200001	Story	เนื้อเรื่อง
+13330200003	Challenge	ท้าทาย
+13530000001	Payon Region	ภูมิภาค Payon
+13540000003	Card Objective - Rank Up	เป้าหมายการ์ด - เลื่อนขั้น
+13560000002	Enjoy Life: First Activity	เพลิดเพลินชีวิต: กิจกรรมแรก
+13560000008	Option B Event Text Event Text Event Text Event Text Event Text Event Text Event Text	ตัวเลือก B ข้อความกิจกรรม ข้อความกิจกรรม ข้อความกิจกรรม ข้อความกิจกรรม ข้อความกิจกรรม ข้อความกิจกรรม ข้อความกิจกรรม
+13590100000	Growth Training	ฝึกการเติบโต
+13600000002	Stronghold @{1}	ฐานที่มั่น @{1}
+13660000004	Final Chapter	บทสุดท้าย
+13680000000	Vast Wealth	ความมั่งคั่งมหาศาล
+13680100001	One decisive blow prevents a hundred more	การโจมตีชี้ขาดหนึ่งครั้งป้องกันได้อีกร้อยครั้ง
+13690000001	Hymn Before the Church	บทสวดหน้าโบสถ์
+13690000005	Floral Scent by the West Gate	กลิ่นดอกไม้ข้างประตูตะวันตก
+13690000006	Flowing Water at the North Entrance	สายน้ำไหลที่ทางเข้าทิศเหนือ
+13690000007	Sentinel of Spikes	ผู้เฝ้ายามแห่งหนาม
+13690000011	The Scent of Fruit in the Tent	กลิ่นผลไม้ในเต็นท์
+13690000013	Cracking Beneath the Stone Pillar	เสียงแตกใต้เสาหิน
+13690000014	The View Behind the Tower	ทิวทัศน์หลังหอคอย
+13690000015	A Rest in the Shade	พักผ่อนในร่มเงา
+13690000020	The Crossing Below the Steps	ทางข้ามใต้ขั้นบันได
+13690000024	Gazing Up at the Twin Axes	แหงนมองขวานคู่
+13690000027	A Corner of the General Store	มุมหนึ่งของร้านขายของทั่วไป
+13710000000	Izlude Map Description	คำอธิบายแผนที่ Izlude
+13710000001	Payon Map Description	คำอธิบายแผนที่ Payon
+13720000001	Basic - Green Nameplate	พื้นฐาน - ป้ายชื่อสีเขียว
+13720100000	"Unlocked after using the item ""Netherworld - Shattered Tower"""	"ปลดล็อกหลังใช้ไอเท็ม ""Netherworld - Shattered Tower"""
+13730000000	Adventurer Guild Created	สร้าง Adventurer Guild แล้ว
+13730000003	Adventurer Guild Level-up	Adventure Guild เพิ่มเลเวล
+13730000006	Adventurer Guild Nameplate Unlocked	ปลดล็อกป้ายชื่อ Adventure Guild
+13750000002	Growth Stage	ช่วงเติบโต
+13800000003	Stronghold War Auction - Ready	ประมูล Stronghold War - พร้อม
+13800000006	Stronghold War Preparation	เตรียม Stronghold War
+13800000009	Regional Capital War Auction - Open	ประมูล Regional Capital War - เปิด
+13800000011	Regional Capital War Preparation	เตรียม Regional Capital War
+13800000015	Royal City War Auction - Final	ประมูล Royal City War - สุดท้าย
+13800000016	Royal Capital War Preparation	เตรียม Royal Capital War
+13880000014	Secondary Damage	ความเสียหายรอง
+13880000083	Sword Attack Speed Increase	เพิ่ม ASPD ของดาบ
+150005	Remaining Quantity	จำนวนที่เหลือ
+150007	Upper-Left Revive Point	จุดคืนชีพซ้ายบน
+160001	Earn ${1} Extra Battle Merit Points to advance to the next rank	รับคะแนนความดีความชอบในการรบเพิ่มอีก ${1} คะแนนเพื่อเลื่อนยศถัดไป
+160002	Claim all rewards to advance to the final rank.	รับรางวัลทั้งหมดเพื่อเลื่อนสู่ยศสุดท้าย
+160004	Current Rank: <color=#63A22B>${1}</color>	ยศปัจจุบัน: <color=#63A22B>${1}</color>
+160006	At Season Settlement, if you remain ranked ${1}-${2}, you will receive the following rewards.	เมื่อสรุปผลซีซัน หากยังอยู่ในอันดับ ${1}-${2} คุณจะได้รับรางวัลต่อไปนี้
+160009	Battle Merit	ผลงานรบ
+161003	Proof of Novice Trial Completion	หลักฐานการผ่าน Novice Trial
+161004	I have completed the trial.	ฉันผ่านการทดสอบแล้ว
+161009	Defeat 15 Mukas and recover the lost cargo.	เอาชนะ Mukas 15 ตัวและนำสินค้าที่สูญหายกลับมา
+161011	Help the caravan with Cargo Placement.	ช่วยคาราวานจัดวางสินค้า
+161012	Tap the compass.	แตะเข็มทิศ
+161013	Tap to read.	แตะเพื่ออ่าน
+161016	Continue	ดำเนินการต่อ
+16320001	Hunting Challenge	การท้าทายล่า
+16320002	Skills refresh in ${1} seconds	สกิลรีเฟรชใน ${1} วินาที
+16320010	Speed Rankings	อันดับความเร็ว
+16320013	Drag to select a target	ลากเพื่อเลือกเป้าหมาย
+16320014	Boss Appeared	บอสปรากฏแล้ว
+16320015	Event Over	กิจกรรมจบแล้ว
+16320019	Entire Server Report	รายงานทั้งเซิร์ฟเวอร์
+16320020	Last Battle Report	รายงานการต่อสู้ล่าสุด
+16320021	Rank	อันดับ
+16320028	Partywide Silence	Silence ทั้งปาร์ตี้
+16320030	Baphomet PDEF Enhance	เพิ่ม P.DEF ของ Baphomet
+170000	Guild emblem design not unlocked. Please choose another.	ยังไม่ปลดล็อกลายตรากิลด์ โปรดเลือกลายอื่น
+170002	No former name	ไม่มีชื่อเดิม
+170005	No Approval Required	ไม่ต้องอนุมัติ
+170006	Withdraw your application to this guild?	ถอนคำขอเข้ากิลด์นี้ไหม?
+170007	Failed to send guild application.	ส่งคำขอเข้ากิลด์ไม่สำเร็จ
+170011	I've created a new guild, 【${1}】! Adventurers, come show your support!!	ฉันสร้างกิลด์ใหม่ [ ${1} ] แล้ว! นักผจญภัย มาสนับสนุนกัน!!
+170013	【Guild Rally】<color=#FCAA5B>${1}</color> (Responses: <color=#FCAA5B>${2}</color>/${3})	[ Guild Rally ]<color=#FCAA5B>${1}</color> (การตอบรับ: <color=#FCAA5B>${2}</color>/${3})
+170015	Building	สิ่งปลูกสร้าง
+170017	${1} Level:	${1} เลเวล:
+170023	Tactic Library	คลังกลยุทธ์
+170029	Position Management	จัดการตำแหน่ง
+170030	Elite Preset	พรีเซ็ตชั้นยอด
+170039	The Guild Institute determines the unlock progress of Guild Technology.	สถาบันกิลด์กำหนดความคืบหน้าการปลดล็อกเทคโนโลยีกิลด์
+170040	Maximum Guild Institute Level: 3	เลเวลสูงสุดของสถาบันกิลด์: 3
+170042	Maximum Guild Store Level: 3	เลเวลสูงสุดของร้านกิลด์: 3
+170043	Stores Siege War machinery.	เก็บเครื่องจักร Siege War
+170051	Guild Rally	รวมพลกิลด์
+170052	Go to the Guild Base?	ไปยังฐานกิลด์ไหม?
+170057	Personal Guild Activity Last Week:	ค่ากิจกรรมกิลด์ส่วนบุคคลสัปดาห์ก่อน:
+170059	Claimed This Week	รับแล้วสัปดาห์นี้
+170061	Automatically refreshes in ${1}	รีเฟรชอัตโนมัติใน ${1}
+170063	Activate the ${1} Tactic?	เปิดใช้กลยุทธ์ ${1} ไหม?
+170069	Automatically Approve Support	อนุมัติการสนับสนุนอัตโนมัติ
+170071	Frame	กรอบ
+170076	Unlimited	ไม่จำกัด
+170077	Elite Privileges	สิทธิ์สมาชิกชั้นยอด
+170078	Artillery Privileges	สิทธิ์ปืนใหญ่
+170079	Vehicle Privileges	สิทธิ์ยานพาหนะ
+170085	Elite Member limit reached	จำนวนสมาชิกชั้นยอดถึงขีดจำกัดแล้ว
+170086	Claim Dividend	รับเงินปันผล
+170089	Weekly	รายสัปดาห์
+170090	Yet to start	ยังไม่เริ่ม
+170093	Opens in ${1}	เปิดในอีก ${1}
+170095	You've used all Group Mail attempts for today. Please try again Tomorrow.	คุณใช้จำนวนครั้งส่งจดหมายกลุ่มของวันนี้หมดแล้ว โปรดลองอีกครั้งพรุ่งนี้
+170097	Player invited	เชิญผู้เล่นแล้ว
+170099	Guild Recruitment posted successfully	ลงประกาศรับสมัครกิลด์สำเร็จ
+170100	All response applications have been declined	ปฏิเสธคำขอตอบรับทั้งหมดแล้ว
+170103	Enter mail content (up to ${1} characters)	กรอกเนื้อหาจดหมาย (สูงสุด ${1} อักขระ)
+170105	All applications approved	อนุมัติคำขอทั้งหมดแล้ว
+170107	Guild Management Members cannot be removed with Banish from Guild	สมาชิกฝ่ายบริหารกิลด์ไม่สามารถถูกนำออกด้วยการขับออกจากกิลด์ได้
+170109	Last Week's Activity	ค่ากิจกรรมสัปดาห์ก่อน
+170112	Appoint	แต่งตั้ง
+170115	Guild leadership transferred successfully	โอนตำแหน่งหัวหน้ากิลด์สำเร็จ
+170116	The guild name contains prohibited words. Please enter another name.	ชื่อกิลด์มีคำต้องห้าม โปรดกรอกชื่ออื่น
+170122	Auction Dividend	เงินปันผลประมูล
+170127	Join a guild: Successful	เข้ากิลด์: สำเร็จ
+170128	Enter a Member name	กรอกชื่อสมาชิก
+170130	Job	อาชีพ
+170139	Quick Remove	นำออกด่วน
+170141	Form Party	จัดปาร์ตี้
+170143	Artillery Privileges: ${1}/${2}	สิทธิ์ปืนใหญ่: ${1}/${2}
+170148	No Members available	ไม่มีสมาชิกที่พร้อม
+170153	Mode: <color=#594e3d>Guild League</color>	โหมด: <color=#594e3d>Guild League</color>
+170157	Guild	กิลด์
+170162	Ranking	อันดับ
+170163	Guild Prestige:	ชื่อเสียงกิลด์:
+170165	Join Method:	วิธีเข้าร่วม:
+170168	No matching guilds found	ไม่พบกิลด์ที่ตรงกัน
+170170	No Guild	ไม่มีกิลด์
+170171	Cancel Application	ยกเลิกคำขอ
+170175	Guild Name	ชื่อกิลด์
+170180	Emblem Background	พื้นหลังตรา
+170181	Create Guild	สร้างกิลด์
+170186	Recruitment	รับสมัคร
+170194	Guild Activity	กิจกรรมกิลด์
+170198	Guild Funds	เงินทุนกิลด์
+170202	Go	ไป
+170204	Fund Rankings	อันดับเงินทุน
+170211	Personal Event Activity Last Week:	ค่ากิจกรรมส่วนบุคคลสัปดาห์ก่อน:
+170212	Total Activity Dividends:	เงินปันผลค่ากิจกรรมรวม:
+170215	Guild Declaration	คำประกาศกิลด์
+170216	Confirm Change	ยืนยันการเปลี่ยน
+170217	Enter the guild declaration	กรอกคำประกาศกิลด์
+170218	Guild Contribution Cost	ค่าผลงานสนับสนุนกิลด์ที่ใช้
+170222	Guild Member	สมาชิกกิลด์
+170225	Level	ระดับ
+170226	Weekly Activity	ความเคลื่อนไหวรายสัปดาห์
+170235	Job	อาชีพ
+170241	Tap to Invite	แตะเพื่อเชิญ
+170242	Player name	ชื่อผู้เล่น
+170248	Reject All	ปฏิเสธทั้งหมด
+170249	Agree	ตกลง
+170250	Guild Activity:	ค่ากิจกรรมกิลด์:
+170253	Join Requirements:	เงื่อนไขเข้าร่วม:
+170259	Enter your message...	กรอกข้อความของคุณ...
+170260	Confirm Entry	ยืนยันเข้า
+170261	Invite	เชิญ
+170262	Enter player name	ใส่ชื่อผู้เล่น
+170264	Minimum Join Level:	เลเวลขั้นต่ำที่เข้าร่วมได้:
+170270	Guild Master	หัวหน้ากิลด์
+170273	Event Quest	เควสต์กิจกรรม
+170276	Team	ทีม
+170281	Updates every Monday at 5:00	อัปเดตทุกวันจันทร์เวลา 5:00
+170282	Are you sure you want to decline guild invitations?\n(Once selected, other players will be unable to invite you to Join a guild)	แน่ใจหรือว่าต้องการปฏิเสธคำเชิญกิลด์?\n(เมื่อเลือกแล้ว ผู้เล่นอื่นจะเชิญคุณเข้ากิลด์ไม่ได้)
+170285	Guild Name	ชื่อกิลด์
+170288	Once both guilds approve the merger request, the guild designated to Merge into the other should adjust its eligible Members as soon as possible to meet the member count requirement	เมื่อทั้งสองกิลด์อนุมัติคำขอรวมแล้ว กิลด์ที่กำหนดให้รวมเข้ากับอีกกิลด์ควรปรับสมาชิกที่มีสิทธิ์โดยเร็วที่สุดให้ตรงตามเงื่อนไขจำนวนสมาชิก
+170289	Once the Merge Guild process begins, the guilds will be merged at 5:00 the following morning	เมื่อเริ่มกระบวนการรวมกิลด์ กิลด์จะรวมกันเวลา 5:00 เช้าวันถัดไป
+170291	Recommended List	รายการแนะนำ
+170292	Details	รายละเอียด
+170293	No Invitations	ไม่มีคำเชิญ
+170297	Guild Information	ข้อมูลกิลด์
+170300	After the merge	หลังรวม
+170301	Maximum Players Who Can Merge into	จำนวนผู้เล่นสูงสุดที่รวมเข้าได้
+170307	Maximum Members the Invited Guild Can Merge	จำนวนสมาชิกสูงสุดที่กิลด์ที่ได้รับเชิญรวมเข้าได้
+170308	Send an Invite	ส่งคำเชิญ
+170309	After ${1}, the Merge Guild process will be complete.	หลัง ${1} กระบวนการรวมกิลด์จะเสร็จสิ้น
+170316	Activity	ความเคลื่อนไหว
+170321	Guild Member	สมาชิกกิลด์
+170324	This Week's Contribution	ผลงานสนับสนุนสัปดาห์นี้
+170325	Contribution History	ประวัติผลงานสนับสนุน
+170326	Merge into?	รวมเข้าไหม?
+170328	Save edits	บันทึกการแก้ไข
+170335	Revoke Appointment	เพิกถอนการแต่งตั้ง
+170336	Appoint	แต่งตั้ง
+170338	(After initiating a Guild Rally, all Guild Members will receive the rally notification and teleport to your location.)	(หลังเริ่มรวมพลกิลด์ สมาชิกกิลด์ทุกคนจะได้รับแจ้งรวมพลและวาร์ปมายังตำแหน่งของคุณ)
+170344	Enter player name	ใส่ชื่อผู้เล่น
+170346	Guild Members	สมาชิกกิลด์
+170352	Guild Name	ชื่อกิลด์
+170354	Time Left	เวลาที่เหลือ
+170359	I created the guild <color=#FCAA5B>${1}</color> and invite you to respond (<color=#FCAA5B>${2}</color>/${3})	ฉันสร้างกิลด์ <color=#FCAA5B>${1}</color> และเชิญคุณตอบรับ (<color=#FCAA5B>${2}</color>/${3})
+170360	No effect yet	ยังไม่มีเอฟเฟกต์
+170363	No Applications	ไม่มีคำขอ
+170501	Guild Members: <color=#F4F2E9>80</color>	สมาชิกกิลด์: <color=#F4F2E9>80</color>
+170504	Guild Members: <color=#F4F2E9>80</color>	สมาชิกกิลด์: <color=#F4F2E9>80</color>
+170505	Guild Shop Level: <color=#F4F2E9>Lv. 1</color>	เลเวลร้านกิลด์: <color=#F4F2E9>Lv. 1</color>
+170507	Guild Institute Level: <color=#F4F2E9>Lv. 1</color>	เลเวลสถาบันกิลด์: <color=#F4F2E9>Lv. 1</color>
+170510	Guild Store Level: <color=#F4F2E9>Lv. 2</color>	เลเวลร้านกิลด์: <color=#F4F2E9>Lv. 2</color>
+170541	Sent	ส่งแล้ว
+181002	Welcome to RO3	ยินดีต้อนรับสู่ RO3
+181005	Welcome to RO3	ยินดีต้อนรับสู่ RO3
+190002	Daily Sweep Rewards: <color=#CC762A>${1}/${2}</color>	รางวัลกวาดล้างรายวัน: <color=#CC762A>${1}/${2}</color>
+190003	Active MVPs: <color=#63A22B>${1}</color>	MVP ที่ Active: <color=#63A22B>${1}</color>
+190006	<color=#CC762A>60 minutes</color> of Bonus Time is restored daily at midnight	ฟื้นฟูเวลาโบนัส <color=#CC762A>60 นาที</color> ทุกวันตอนเที่ยงคืน
+220001	Attack	โจมตี
+220003	Defense	ป้องกัน
+220004	Global Defense	การป้องกันโดยรวม
+230006	Complete	เสร็จสิ้น
+230011	Current Einherjar Level: ${1}	เลเวล Einherjar ปัจจุบัน: ${1}
+230012	Return to Screen (${1}s)	กลับสู่หน้าจอ (${1} วินาที)
+230014	Try Again	ลองอีกครั้ง
+230015	Complete the prerequisite challenge to unlock	ผ่านการท้าทายที่เป็นเงื่อนไขก่อนหน้าเพื่อปลดล็อก
+230018	Not enough Wishing Coins. Challenge Heroic Spirits to earn more.	Wishing Coins ไม่เพียงพอ ท้าทาย Heroic Spirits เพื่อรับเพิ่ม
+23473	MAX	สูงสุด
+240001	Cannot claim outside the Event Period.	รับนอกช่วงกิจกรรมไม่ได้
+240005	Complete	เสร็จสิ้น
+24021	Call Mio!!	เรียก Mio!!
+250002	Reach Lv. ${1} to Level-up	ถึง Lv. ${1} เพื่อเพิ่มเลเวล
+250017	Performed	แสดงแล้ว
+250032	Current Wish	คำอธิษฐานปัจจุบัน
+250033	Confirm	ยืนยัน
+250043	View	ดู
+250044	Awaiting Performance	รอการแสดง
+250057	Distance until S1 Season officially begins: <color=#ede79d><size=72>${1}</size></color> minutes	เวลาจนซีซัน S1 เริ่มอย่างเป็นทางการ: <color=#ede79d><size=72>${1}</size></color> นาที
+250060	You can only faintly make out note ${1}	แยกแยะโน้ต ${1} ได้เพียงเลือนราง
+250079	The Clue is nearby. Search carefully!	เบาะแสอยู่ใกล้ ๆ ค้นหาให้ดี!
+250080	Stats	ค่าสถานะ
+250081	Job Talents	พรสวรรค์อาชีพ
+250082	Tap to activate when all prerequisite Talents reach Max level	แตะเพื่อเปิดใช้เมื่อพรสวรรค์ที่เป็นเงื่อนไขก่อนหน้าทั้งหมดถึงเลเวลสูงสุด
+250084	Select	เลือก
+260001	Support Adventure Guild	สนับสนุน Adventure Guild
+260004	Member Limit: ${1}	จำนวนสมาชิกสูงสุด: ${1}
+260005	Current Preference: ${1}	ความชอบปัจจุบัน: ${1}
+260014	Apply to Support	สมัครสนับสนุน
+260023	Profile Card Style	รูปแบบการ์ดโปรไฟล์
+260024	Enter an Adventure Guild name	กรอกชื่อสมาคมนักผจญภัย
+260025	Enter the Adventure Guild recruitment declaration	กรอกคำประกาศรับสมัคร Adventure Guild
+260026	Select Adventure Guild tags (up to six)	เลือกแท็ก Adventure Guild (สูงสุดหกแท็ก)
+260040	Disband Adventure Group	ยุบกลุ่มผจญภัย
+260041	Establish Adventure Guild	ก่อตั้งสมาคมนักผจญภัย
+260042	Cancel Changes	ยกเลิกการเปลี่ยนแปลง
+260046	Enter Text	กรอกข้อความ
+260047	Create Adventure Guild	สร้างสมาคมนักผจญภัย
+260048	Cancel Creation	ยกเลิกการสร้าง
+260050	Adventure Group Oath	คำปฏิญาณ Adventure Group
+260051	Please choose an oath method	โปรดเลือกวิธีปฏิญาณ
+260056	Confirm Oath	ยืนยันคำปฏิญาณ
+260058	Adventure Group Established	ก่อตั้ง Adventure Group แล้ว
+260061	View	ดู
+260065	Achieved	สำเร็จแล้ว
+260070	Obtained This Week: ${1}  ${2}/${3}	ได้รับสัปดาห์นี้: ${1}  ${2}/${3}
+260072	Waterings Today: ${1}/${2}	จำนวนครั้งรดน้ำวันนี้: ${1}/${2}
+260078	Adventure Group reaches Lv. ${1}/${2}	Adventure Group ถึง Lv. ${1}/${2}
+260079	Claim	รับ
+260080	Claimed	รับแล้ว
+260082	Quests	เควสต์
+260086	Go	ไป
+260088	Leave Adventure Group	ออกจาก Adventure Group
+260096	Are you sure you want to transfer leadership of the Adventure Group to ${1}?	แน่ใจหรือว่าต้องการโอนตำแหน่งหัวหน้า Adventure Group ให้ ${1}?
+260098	Request List	รายการคำขอ
+260100	View Declaration	ดูคำประกาศ
+260101	Share Recruitment	แชร์ประกาศรับสมัคร
+260106	Close	ปิด
+260107	Transfer Server	ย้ายเซิร์ฟเวอร์
+260114	Leader	หัวหน้า
+260115	No Saplings Being Cared For	ไม่มีต้นกล้าที่กำลังได้รับการดูแล
+260116	Group Chat ${1} created	สร้างแชตกลุ่ม ${1} แล้ว
+260118	Request sent	ส่งคำขอแล้ว
+260121	You have been removed from the Adventure Group.	คุณถูกนำออกจาก Adventure Group แล้ว
+260123	Invite all responding Members to a party and begin creating the Adventure Group?	เชิญสมาชิกที่ตอบรับทั้งหมดเข้าปาร์ตี้และเริ่มสร้าง Adventure Group ไหม?
+260124	Call Issued	ออกคำเรียกแล้ว
+260131	Cancel application?	ยกเลิกคำขอไหม?
+260134	Cancel your application?	ยกเลิกคำขอของคุณไหม?
+260136	Invite this player to the Adventurer Group?	เชิญผู้เล่นนี้เข้า Adventurer Group ไหม?
+260137	Go to the Adventurer Group Tree?	ไปยังต้นไม้ Adventurer Group ไหม?
+260138	Create an Adventurer Group named ${1}?	สร้าง Adventurer Group ชื่อ ${1} ไหม?
+260139	A party Member has already joined another Adventurer Group.	สมาชิกปาร์ตี้คนหนึ่งเข้าร่วม Adventurer Group อื่นแล้ว
+290001	Enemy Team	ทีมศัตรู
+290002	Season Data	ข้อมูลฤดูกาล
+290005	Victories	จำนวนชัยชนะ
+290009	Kill	สังหาร
+290012	Assist	ช่วยเหลือ
+290015	Victory	ชัยชนะ
+290019	Points	แต้ม
+290022	Near Death	ใกล้ตาย
+290028	Match Stats	สถิติการแข่งขัน
+290030	Tap to continue	แตะเพื่อดำเนินการต่อ
+290031	Overview	ภาพรวม
+290032	Data	ข้อมูล
+290034	Me Result	ผลของฉัน
+290038	Class Ranking	อันดับอาชีพ
+290041	Start Matching: Battle of Dragon Coffin Island	เริ่มจับคู่: Battle of Dragon Coffin Island
+290042	Victory Points ${1}	แต้มชัยชนะ ${1}
+290044	Join the Battle of Dragon Coffin Island Solo	เข้าร่วม Battle of Dragon Coffin Island คนเดียว
+290048	Notice	ประกาศ
+290052	Available Time:	เวลาที่พร้อมใช้งาน:
+290055	No match Data available	ไม่มีข้อมูลแมตช์
+40147	Get ${1} Off Summons	รับส่วนลดการอัญเชิญ ${1}
+50138	Mountain	ภูเขา
+54069	MAX	สูงสุด
+56202	Light of Bonds:	แสงแห่งสายสัมพันธ์:
+10060300001	The One with the Sword	คนถือดาบ
+10060300002	The One Riding a Peco Peco	คนขี่ Peco Peco
+10060300003	The One Using Spiral Pierce	คนใช้ Spiral Pierce
+10060300004	The One Riding a Dragon	คนขี่มังกร
+10220201098	BUFF While Protected by Shield	BUFF ขณะมีโล่ปกป้อง
+10220201177	A Red Bubble Is Tracking You	ฟองสีแดงกำลังติดตามคุณ
+10220201179	A Blue Bubble Is Tracking You	ฟองสีน้ำเงินกำลังติดตามคุณ
+10270000000	Dagger	มีด
+10270000001	One-Handed Sword	ดาบมือเดียว
+10270000004	Two-Handed Spear	หอกสองมือ
+10270000005	One-Handed Axe	ขวานมือเดียว
+10270000010	Bow	ธนู
+10270000013	Book	หนังสือ
+10270000014	Musical Instrument	เครื่องดนตรี
+10270000021	White	สีขาว
+10270000025	Orange	สีส้ม
+10270000027	Tier One	ขั้นที่หนึ่ง
+10380100002	The Institute level determines which Guild Technologies are currently unlocked. As the Institute reaches higher levels, more Guild Technology effects Can be unlocked for Level-up.	เลเวลสถาบันกำหนดเทคโนโลยีกิลด์ที่ปลดล็อกอยู่ เมื่อสถาบันมีเลเวลสูงขึ้น จะปลดล็อกเอฟเฟกต์เทคโนโลยีกิลด์เพิ่มเติมเพื่อเพิ่มเลเวลได้
+10380100004	Siege equipment reserves can be viewed even when the Siege War is not open.	ดูอุปกรณ์ล้อมเมืองสำรองได้แม้ Siege War ยังไม่เปิด
+10420100003	Very Inactive	เงียบมาก
+10460000001	Goodbye, imitators! Only the real RO can fight!	ลาก่อน พวกเลียนแบบ! มีเพียง RO ตัวจริงที่สู้ได้!
+10470100002	Head to the Chaos Ruins	ไป Chaos Ruins
+10480000004	First Touch of Purple	สัมผัสสีม่วงครั้งแรก
+10480000005	First Illusion	Illusion ครั้งแรก
+10480000008	Practice Makes Perfect	ฝึกฝนจนชำนาญ
+10480000010	First Rare Items	ไอเทมหายากครั้งแรก
+10480000013	A Keen Eye	สายตาเฉียบคม
+10480000014	Eye of Discernment	สายตาแยกแยะ
+10480000015	Refine: First Steps	ตีบวก: ก้าวแรก
+10480000019	Refine: Pinnacle	ตีบวก: จุดสูงสุด
+10480000025	1,000-Card Legend	ตำนานการ์ด 1,000 ใบ
+10480000031	Card Synergy	การเสริมพลังร่วมกันของการ์ด
+10480000032	First Star Upgrade	เพิ่มดาวครั้งแรก
+10480000035	Talent Awakened	ปลุกพรสวรรค์
+10480000037	Talent Mastery	เชี่ยวชาญพรสวรรค์
+10480000038	First Talent Loadout	ชุดพรสวรรค์ชุดแรก
+10480000046	Pet Expert	ผู้เชี่ยวชาญสัตว์เลี้ยง
+10480000047	First S-Rank Pet	สัตว์เลี้ยงระดับ S ตัวแรก
+10480000050	First Hatch Egg	ฟักไข่ครั้งแรก
+10480000052	100 Eggs Hatched	ฟักไข่ 100 ฟอง
+10480000056	MVP Regular	ขาประจำ MVP
+10480000059	Spirit Tower Debut	เปิดตัวใน Spirit Tower
+10480000062	Spirit Tower Legend	ตำนาน Spirit Tower
+10480000063	Spirit Tower Pinnacle	จุดสูงสุด Spirit Tower
+10480000065	Clear the Natural Land	ผ่าน Natural Land
+10480000068	Clear the Forbidden Wilds	ผ่าน Forbidden Wilds
+10480000072	Defeat Ilmo	กำจัด Ilmo
+10480000073	Defeat Mirko	กำจัด Mirko
+10480000075	Defeat Nasha · Hard	เอาชนะ Nasha · ยาก
+10480000076	Defeat Ilmo · Hard	เอาชนะ Ilmo · ยาก
+10480000085	A New Friendship	มิตรภาพใหม่
+10480000087	Kindred Spirits	ใจตรงกัน
+10480000094	A Drink for a Story	เครื่องดื่มแลกเรื่องเล่า
+10480000095	Wine and Tales	ไวน์กับเรื่องเล่า
+10480000099	Fashionista	ผู้หลงใหลแฟชั่น
+10480000100	Fashion Vanguard	แนวหน้าแฟชั่น
+10480000102	Fashion Legend	ตำนานแฟชั่น
+10480000103	Unlock · Worldscorch Feather	ปลดล็อก · Worldscorch Feather
+10480000111	Five Costumes	ชุดแต่งกายห้าชุด
+10480000115	First Accessory	เครื่องประดับชิ้นแรก
+10480000118	Accessory Mastery	เชี่ยวชาญเครื่องประดับ
+10480000119	Dazzling Accessory Collection	คอลเลกชันเครื่องประดับเจิดจรัส
+10480000125	New Arrival	ผู้มาใหม่
+10480000130	One Season Together	หนึ่งฤดูกาลด้วยกัน
+10500100000	Growth@{1}	การเติบโต@{1}
+10500100001	Gameplay@{1}	รูปแบบการเล่น@{1}
+10500100002	Connect@{1}	เชื่อมต่อ@{1}
+10620100002	Sincerely, Ryan	ด้วยความจริงใจ Ryan
+10720000000	Drive Back the Troublemakers	ขับไล่ผู้ก่อกวน
+10760100001	Regular	ปกติ
+10760100004	Elite	ชั้นยอด
+10830000001	Auction Rewards	รางวัลประมูล
+10860000000	Day @{1}	วันที่ @{1}
+10890000005	Five-Player Challenge - Savage Land	การท้าทายห้าผู้เล่น - Savage Land
+10890000011	5-Player Challenge - Hidden Land	การท้าทาย 5 ผู้เล่น - Hidden Land
+10890000012	Realm of the Gods - Normal	Realm of the Gods - ปกติ
+10890000013	Divine Realm - Hard	Divine Realm - ยาก
+10890000014	Realm of the Gods - Final Trial	Realm of the Gods - การทดสอบสุดท้าย
+10890300001	All Day	ตลอดวัน
+10930100000	No buff effect	ไม่มีเอฟเฟกต์บัฟ
+10960000202	mode. \n@{2}.There is a Chance that an Adventurer's true identity will be revealed.\n@{3}.Tree Hollow Chat maintains strict moderation. Adventurers must not post inappropriate content.	โหมด \n@{2}.มีโอกาสที่ตัวตนจริงของนักผจญภัยจะถูกเปิดเผย\n@{3}.Tree Hollow Chat มีการกำกับดูแลเข้มงวด นักผจญภัยต้องไม่โพสต์เนื้อหาไม่เหมาะสม
+110016	Use	ใช้
+110019	Unlock Requirement	เงื่อนไขปลดล็อก
+110022	Amount	จำนวน
+110023	Total Cost	ค่าใช้จ่ายทั้งหมด
+110024	Job Level ≥	เลเวลอาชีพ ≥
+110030	Collect	เก็บ
+110034	Unlocked	ปลดล็อกแล้ว
+110035	Locked	ยังไม่ปลดล็อก
+110037	Gain powerful effects after the Bonfire Level-up!	รับเอฟเฟกต์ทรงพลังหลังเพิ่มเลเวลกองไฟ!
+110040	You've reached today's limit for receiving gifted Crystals.	วันนี้คุณรับ Crystals ที่มอบให้ครบขีดจำกัดแล้ว
+110042	Scanning…	กำลังสแกน…
+110045	Treasure Hunting	ค้นหาสมบัติ
+110051	Not enough required items. Unable to advance!	ไอเทมที่จำเป็นไม่เพียงพอ ไม่สามารถเลื่อนขั้นได้!
+110052	Not enough Vivify. Unable to craft!	Vivify ไม่เพียงพอ ไม่สามารถสร้างได้!
+110058	Crafting	กำลังสร้าง
+110061	Weekly Uses: limit reached (${1}/${2})!	จำนวนครั้งใช้รายสัปดาห์: ถึงขีดจำกัดแล้ว (${1}/${2})!
+110062	Craft	คราฟต์
+110069	Weekly Uses:	จำนวนครั้งใช้รายสัปดาห์:
+110071	Vivify Cost	ค่าใช้จ่าย Vivify
+110072	Material Type	ประเภทวัตถุดิบ
+110075	${1}'s level has increased to Lv. ${2}	เลเวลของ ${1} เพิ่มเป็น Lv. ${2}
+110077	No skill selected!	ยังไม่ได้เลือกสกิล!
+110081	Bonfire Lv. ${1} Unlock Effect	เอฟเฟกต์ที่ปลดล็อกเมื่อกองไฟ Lv. ${1}
+110085	Change Bonfire Effect	เปลี่ยนเอฟเฟกต์กองไฟ
+110086	Advanced accelerants grant advanced effects	สารเร่งระดับสูงมอบเอฟเฟกต์ระดับสูง
+110091	Sort	เรียงลำดับ
+110094	Main Reward:	รางวัลหลัก:
+110095	Chance Rewards:	รางวัลที่มีโอกาสได้รับ:
+110096	Rarity	ความหายาก
+110097	White	สีขาว
+110102	Red	สีแดง
+110105	Current	ปัจจุบัน
+110107	Title Advance	เลื่อนขั้นฉายา
+110109	Learned successfully	เรียนรู้สำเร็จ
+110121	Minigame triggered!	มินิเกมเริ่มแล้ว!
+110124	A game is still in progress. Exit the game?	ยังมีเกมดำเนินอยู่ ออกจากเกมหรือไม่?
+110127	The enemies have been successfully knocked back, and all the party performances are now complete	ผลักศัตรูถอยกลับสำเร็จ และการแสดงทั้งหมดในงานเลี้ยงเสร็จสิ้นแล้ว
+110129	Unlock  ${1}	ปลดล็อก ${1}
+110132	Ultra	สูงสุด
+110133	Qualified	ผ่านเกณฑ์
+110136	Better Luck Next Time	ขอให้โชคดีครั้งหน้า
+110137	Countdown: ${1} seconds	นับถอยหลัง: ${1} วินาที
+110140	Failed	ล้มเหลว
+110147	Time it right! Click as the pointer crosses the green area. The closer to the center, the higher your Rating!	จับจังหวะให้ดี! คลิกเมื่อเข็มผ่านพื้นที่สีเขียว ยิ่งใกล้ตรงกลาง คะแนนประเมินยิ่งสูง!
+110150	Draw Second Prize	จับรางวัลที่สอง
+110151	Draw Third Prize	จับรางวัลที่สาม
+110155	Select the class you want to replace	เลือกอาชีพที่ต้องการแทนที่
+110156	Stat bonuses will <color=#C26B47>reset when the Season changes</color>	โบนัสค่าสถานะจะ <color=#C26B47>รีเซ็ตเมื่อเปลี่ยนฤดูกาล</color>
+110158	Level Increased	เพิ่มระดับแล้ว
+110159	Success Rate: <color=#C26B47>${1}%</color>	อัตราสำเร็จ: <color=#C26B47>${1}%</color>
+110161	Cooking...	กำลังทำอาหาร...
+110163	Total Dishes Cooked: <color=#FF993F>${1}</color>	จำนวนอาหารที่ทำทั้งหมด: <color=#FF993F>${1}</color>
+110165	Time Until Season Change: <color=#C27B47>${1}</color>	เวลาก่อนเปลี่ยนฤดูกาล: <color=#C27B47>${1}</color>
+110166	Consume to gain <color=#63a22b>${1}</color> points of <color=#C27B47>${2}</color>	ใช้เพื่อรับ <color=#63a22b>${1}</color> แต้มของ <color=#C27B47>${2}</color>
+110167	Uses Remaining: ${1}/${2}	จำนวนครั้งใช้ที่เหลือ: ${1}/${2}
+110187	<color=#FA983A>${1} Class</color> Not Learned	<color=#FA983A>อาชีพ ${1}</color> ยังไม่ได้เรียนรู้
+11040000003	Stunt	การแสดงผาดโผน
+11080000000	Seal Durability Remaining	ความทนทานผนึกที่เหลือ
+11080000001	Waiting for the Next Event	รอกิจกรรมถัดไป
+11080100000	Next Event Auto-Start Countdown	นับถอยหลังเริ่มกิจกรรมถัดไปอัตโนมัติ
+11090000003	Curse	คำสาป
+11090000006	Fear	หวาดกลัว
+11090000010	Paralyze	อัมพาต
+11090000014	Damage Sharing	แบ่งรับดาเมจ
+1110002	Time Until Next Invasion:	เวลาก่อนการรุกรานครั้งถัดไป:
+1110009	Unable to make a Donation.	ไม่สามารถบริจาคได้
+1110020	Garrisoned Guild: ${1}	กิลด์ประจำการ: ${1}
+1110021	No Guild garrisoned.	ไม่มีกิลด์ประจำการ
+1110022	No Guild ranked.	ไม่มีกิลด์ติดอันดับ
+1110023	Unranked	ไม่มีอันดับ
+11110000001	Fantasy Shop	ร้านแฟนตาซี
+11110000003	Otherworld Arrival Shop	ร้าน Otherworld Arrival
+11110000004	Trial Shop	ร้านบททดสอบ
+11110000005	Season Shop	ร้านฤดูกาล
+11110000009	Costume	ชุดแต่งกาย
+11110000015	Special Offers	ข้อเสนอพิเศษ
+11110000016	Zeny Shop	ร้าน Zeny
+11110000017	Crystal Shop	ร้าน Crystal
+11110000020	Pet Shop	ร้านสัตว์เลี้ยง
+11110000026	Guild Shop	ร้านค้ากิลด์
+1111001	Novice Monthly Pass	บัตรรายเดือน Novice
+1111004	Immediately Obtain	รับทันที
+1111008	Quick Buy	ซื้อด่วน
+1111009	<color=#fe993f>${1}</color> days remaining	เหลือ <color=#fe993f>${1}</color> วัน
+11200000000	General Tactics	กลยุทธ์ทั่วไป
+11200100000	Phase 1 Strategy	กลยุทธ์ช่วง 1
+11210000122	Hairstyle@{1}	ทรงผม@{1}
+11210200000	Appearance Gift	ของขวัญรูปลักษณ์
+11210200017	Obtain from 7-Day Check-In	ได้รับจากการเช็กอิน 7 วัน
+11250000013	Low-Tier Magic Echo	Magic Echo ระดับต่ำ
+11250000015	Low-Tier Vengeful Might	Vengeful Might ระดับต่ำ
+11250000018	Low-Tier First Aid	First Aid ระดับต่ำ
+11250000021	Low-Tier Fortitude Defense	Fortitude Defense ระดับต่ำ
+11250000022	Low-Tier Last Stand Defense	Last Stand Defense ระดับต่ำ
+11250000024	Low-Tier Magic Attack	M.ATK ระดับต่ำ
+11250000025	Low-Tier Physical Attack	P.ATK ระดับต่ำ
+11250000027	Low-Tier Physical Defense	P.DEF ระดับต่ำ
+11250000028	Low-Tier Life	ชีวิตระดับต่ำ
+11250000037	Minor Water Resistance	ต้านทาน Water เล็กน้อย
+11250000042	Low-Tier Undead Resistance	ต้านทาน Undead ระดับต่ำ
+11250000043	Low-Tier DMG vs All Job	DMG ต่อทุกอาชีพระดับต่ำ
+11250000044	Low-Tier DMG Reduction vs All Job	ลด DMG จากทุกอาชีพระดับต่ำ
+11250000052	Melee Amplification	เพิ่มประสิทธิภาพระยะประชิด
+11250000054	DEF Boost	เพิ่ม DEF
+11250000055	Healing Amplification	เพิ่มประสิทธิภาพการฟื้นฟู
+11270000000	Low	ต่ำ
+11280000000	A Book	หนังสือหนึ่งเล่ม
+11280100001	Covers the content of Chapter 1	ครอบคลุมเนื้อหาบทที่ 1
+11280200002	Chapter 2 covers the fundamentals of running.	บทที่ 2 อธิบายพื้นฐานการวิ่ง
+11290000001	Monster	มอนสเตอร์
+11410000001	Secret History of Prontera@{1}	ประวัติศาสตร์ลับของ Prontera@{1}
+11410000002	Chapter 1	บทที่ 1
+11410000006	Death of the Prince	การสิ้นพระชนม์ของเจ้าชาย
+11410100001	Covers the content of Chapter 1	ครอบคลุมเนื้อหาบทที่ 1
+11410100003	Untold Stories of Prontera	เรื่องที่ไม่เคยเล่าของ Prontera
+11460000007	Mood @{1}	อารมณ์ @{1}
+11460100002	Meow	เหมียว
+11460100007	Unlock this Mood instantly.	ปลดล็อกอารมณ์นี้ทันที
+11470000001	walk	เดิน
+11490000001	Trade Exchange Collect limit increased by ^{1}${1}^{2}	ขีดจำกัดการเก็บจากตลาดซื้อขายเพิ่มขึ้น ^{1}${1}^{2}
+11520100001	Holy	ศักดิ์สิทธิ์
+11520400000	^{1}^{2}^{3}Magic^{4}^{5}^{6}\n^{7}^{8}^{9}AoE^{10}^{11}^{12}	^{1}^{2}^{3}เวท^{4}^{5}^{6}\n^{7}^{8}^{9}AoE^{10}^{11}^{12}
+11520400006	^{1}^{2}^{3}Magic^{4}^{5}^{6}\n^{7}^{8}^{9}ST^{10}^{11}^{12}	^{1}^{2}^{3}เวท^{4}^{5}^{6}\n^{7}^{8}^{9}Single Target^{10}^{11}^{12}
+11530000004	Life Skills	สกิลดำรงชีวิต
+11530000027	Daily Tavern Quests	เควสต์ Tavern รายวัน
+11530000035	Guild League - Semifinals (Auction Check)	Guild League - รอบรองชนะเลิศ (ตรวจสอบการประมูล)
+11530000038	Stronghold War (Auction Check)	Stronghold War (ตรวจสอบการประมูล)
+11530000041	Irmata, God of Nature (Auction Check)	Irmata, God of Nature (ตรวจสอบการประมูล)
+11530000042	【Adventure Party】Watering Quest	[ Adventure Party ] เควสต์รดน้ำ
+11530000048	Dumby's Request	คำร้องของ Dumby
+11720000007	Look Back	หันกลับมอง
+11720000008	Left Heart	หัวใจด้านซ้าย
+11720100000	Meditate on the spot to recover.	นั่งสมาธิอยู่กับที่เพื่อฟื้นฟู
+11720100001	Don celestial robes and dance in the Moonlight.\nExclusive performance action for the Nine-Tone Mantra set	สวมอาภรณ์สวรรค์แล้วเต้นรำใต้แสงจันทร์\nท่าแสดงเฉพาะชุด Nine-Tone Mantra
+11720100002	Chase the bright moon and behold Dunhuang.\nExclusive Duo Action for the Nine-Tone Mantra set	ไล่ตามดวงจันทร์สว่างและชม Dunhuang\nท่าคู่เฉพาะชุด Nine-Tone Mantra
+11720100003	Listen to the Nine-Tone Mantra and await the moonlight.\nExclusive Idle Action for the Nine-Tone Mantra set	ฟัง Nine-Tone Mantra และรอแสงจันทร์\nท่ายืนพักเฉพาะชุด Nine-Tone Mantra
+11720100007	Look Back	หันกลับมอง
+11720100009	Right Heart	หัวใจด้านขวา
+11720200001	Unlocked by obtaining Appearance: Nine-Tone Mantra	ปลดล็อกเมื่อได้รับรูปลักษณ์: Nine-Tone Mantra
+11930000005	Realm Campaign · Midterm Settlement	Realm Campaign · สรุปผลกลางช่วง
+11930000008	Realm of the Gods · No-Revive Speedrun	Realm of the Gods · แข่งผ่านเร็วโดยไม่คืนชีพ
+11930000011	Novice Seven-Day Gifts	ของขวัญเจ็ดวันสำหรับมือใหม่
+11930000018	Novice Monthly Pass	บัตรรายเดือน Novice
+11930000019	Pass I	พาส I
+11930000021	Feedback	ความคิดเห็น
+11930000025	S@{1} Large Card Pool @{2}	กลุ่มการ์ดขนาดใหญ่ S@{1} @{2}
+11930000028	Test Standard Pool @{1} - Days @{2}–@{3} After Launch	กลุ่มมาตรฐานทดสอบ @{1} - วันที่ @{2}–@{3} หลังเปิด
+11930000031	S@{1} Large Card Pool - New Version	กลุ่มการ์ดขนาดใหญ่ S@{1} - เวอร์ชันใหม่
+11930000033	S@{1} Large Card Pool @{2} - New Version	กลุ่มการ์ดขนาดใหญ่ S@{1} @{2} - เวอร์ชันใหม่
+11930100000	Midterm Settlement	สรุปผลกลางช่วง
+11930100003	Divine Realm Speedrun	Divine Realm แข่งผ่านเร็ว
+11950000003	Tier 3 Cart	รถเข็นขั้น 3
+11950000009	Novice Guide	คู่มือ Novice
+11970000000	Lv. @{1} Ore Vein	สายแร่ Lv. @{1}
+11970000001	Lv. @{1} Plant	พืช Lv. @{1}
+120000	${1}-Star or higher Enchant Scrolls have a Chance to unlock this	Enchant Scrolls ระดับ ${1} ดาวขึ้นไปมีโอกาสปลดล็อกสิ่งนี้
+120011	Chance to unlock a new Enchant slot	มีโอกาสปลดล็อกช่อง Enchant ใหม่
+120014	Please add Enchant Materials	โปรดใส่วัตถุดิบ Enchant
+120015	Get More Scrolls	รับคัมภีร์เพิ่มเติม
+120020	Enchant Affix	คุณสมบัติ Enchant
+120027	Discover the Forgotten Treasure Room	ค้นพบ Forgotten Treasure Room
+120028	You still have unclaimed treasure chests. If you leave, you will not be able to claim them later. Are you sure you want to exit?	ยังมีหีบสมบัติที่ไม่ได้รับ หากออกไปจะไม่สามารถกลับมารับได้ ต้องการออกแน่หรือไม่?
+120032	Request ${1} from your guild?	ขอ ${1} จากกิลด์ของคุณหรือไม่?
+120033	Requested ${1} from your guild	ขอ ${1} จากกิลด์ของคุณแล้ว
+120039	Requested ${2}	ขอ ${2} แล้ว
+120040	You cannot gift Crystals to yourself.	คุณไม่สามารถมอบ Crystals ให้ตัวเองได้
+120041	Current Equipment has a Unique Enchant. This will replace the existing Unique Enchant.	อุปกรณ์ปัจจุบันมี Unique Enchant การดำเนินการนี้จะแทนที่ Unique Enchant เดิม
+120044	${1} times	${1} ครั้ง
+120050	Obtain Treasure Map	รับ Treasure Map
+120054	Crystal Donation	บริจาค Crystal
+120056	Request sent to the guild.	ส่งคำขอไปยังกิลด์แล้ว
+120058	Not enough fragments to craft the treasure chest.	ชิ้นส่วนไม่พอสร้างหีบสมบัติ
+120061	Can Enchant equipment of Lv. ${1} or lower.	ใช้ Enchant กับอุปกรณ์ Lv. ${1} หรือต่ำกว่าได้
+120062	This item will be removed when the current Season ends.	ไอเทมนี้จะถูกนำออกเมื่อฤดูกาลปัจจุบันสิ้นสุด
+120064	This Crystal has already been donated.	บริจาค Crystal นี้แล้ว
+120066	Total Treasure Hunts:	จำนวนครั้งล่าสมบัติทั้งหมด:
+12010000004	Stronghold @{1}	ฐานที่มั่น @{1}
+12010000006	Southern Prontera Prefecture - Stronghold @{1}	Southern Prontera Prefecture - ฐานที่มั่น @{1}
+12010000019	Western Payon Prefecture - Stronghold @{1}	Western Payon Prefecture - ฐานที่มั่น @{1}
+12010000020	Southern Payon Prefecture - Stronghold @{1}	Southern Payon Prefecture - ฐานที่มั่น @{1}
+12010000027	South Morroc Prefecture - Stronghold @{1}	South Morroc Prefecture - ฐานที่มั่น @{1}
+12010000032	Eastern Izlude Prefecture - Stronghold @{1}	Eastern Izlude Prefecture - ฐานที่มั่น @{1}
+12010000034	Southern Izlude Prefecture - Stronghold @{1}	Southern Izlude Prefecture - ฐานที่มั่น @{1}
+12030000001	Defense No. @{1}	การป้องกันหมายเลข @{1}
+12030000002	Life No. @{1}	ชีวิตหมายเลข @{1}
+12030000004	Defense Star Core @{1}	Star Core การป้องกัน @{1}
+12030000005	Star Core No. @{1}	Star Core หมายเลข @{1}
+121001	Current Equipment already has an Enchant with the same name. Replace it?	อุปกรณ์ปัจจุบันมี Enchant ชื่อเดียวกันอยู่แล้ว แทนที่หรือไม่?
+121003	Cancel	ยกเลิก
+121008	All equipment Enchant attributes will be removed when the Season ends.	ค่าสถานะ Enchant ของอุปกรณ์ทั้งหมดจะถูกนำออกเมื่อฤดูกาลสิ้นสุด
+121011	Enchant Cost	ค่าใช้จ่าย Enchant
+12150000001	Increases ^{1}Damage Increase by @{1}%^{2} and ^{3}DMG Reduction by @{2}%^{4}, and increases the team's Revive count in the Dungeon by ^{5}@{3}^{6}	เพิ่ม ^{1}การเพิ่มดาเมจ @{1}%^{2} และ ^{3}การลด DMG @{2}%^{4} และเพิ่มจำนวนครั้งคืนชีพของทีมในดันเจี้ยน ^{5}@{3}^{6}
+12150100000	(Special Blessing) Activate to view its effects	(พรพิเศษ) เปิดใช้งานเพื่อดูเอฟเฟกต์
+12170100001	When the party includes @{1} Members of different classes, each Member gains an Extra bonus: Damage to Bosses +^{1}@{2}%^{2}; damage taken from Bosses -^{3}@{3}%^{4}	เมื่อปาร์ตี้มีสมาชิก @{1} คนที่มีอาชีพต่างกัน สมาชิกแต่ละคนได้รับโบนัสเพิ่ม: ดาเมจต่อบอส +^{1}@{2}%^{2}; ดาเมจที่ได้รับจากบอส -^{3}@{3}%^{4}
+12180000007	Have more than^{1}@{1}^{2}minutes remaining until enrage	เหลือเวลามากกว่า^{1}@{1}^{2}นาทีก่อนคลุ้มคลั่ง
+12300200001	Available on the first day after launch	ใช้ได้ในวันแรกหลังเปิด
+12350000000	Defense Build	บิลด์ป้องกัน
+12360000003	Woodcarver (Deprecated	Woodcarver (เลิกใช้แล้ว
+12380200000	(Progress ${1}/@{1})	(ความคืบหน้า ${1}/@{1})
+12390200002	Complete Season Trophy B	ทำ Season Trophy B ให้สำเร็จ
+12390200005	Complete Season Trophy E	ทำ Season Trophy E ให้สำเร็จ
+12400100001	Opening: Third-Prize Drawing	เปิด: จับรางวัลที่สาม
+12400100002	Opening: Second-Prize Drawing	เปิด: จับรางวัลที่สอง
+12410000001	RO's world is primarily based on Norse Myth.	โลก RO อิงตำนานนอร์สเป็นหลัก
+12410000049	"""Megingjard"" grants STR +@{1}."	"""Megingjard"" มอบ STR +@{1}"
+12420000000	DMG Taken	ความเสียหายที่ได้รับ
+12430100001	Cancel	ยกเลิก
+12430100007	Client update complete. The game will restart.	อัปเดตไคลเอนต์เสร็จแล้ว เกมจะเริ่มใหม่
+12430100009	Repair Client	ซ่อมแซมไคลเอนต์
+12430100011	Client Repair complete. The game will restart.	ซ่อมแซมไคลเอนต์เสร็จแล้ว เกมจะเริ่มใหม่
+12430100020	Your client version is too old to ensure a stable gameplay experience. Please Download the latest version. Select Confirm to open the corresponding store's Download page, or select Cancel to close the game.	เวอร์ชันไคลเอนต์เก่าเกินกว่าจะรับประกันการเล่นที่เสถียร โปรดดาวน์โหลดเวอร์ชันล่าสุด เลือกยืนยันเพื่อเปิดหน้าดาวน์โหลดของร้านค้าที่เกี่ยวข้อง หรือเลือกยกเลิกเพื่อปิดเกม
+12430100028	Sorry, the update cannot be downloaded because your device does not have enough storage space. Free up some space and Try Again.	ขออภัย ดาวน์โหลดอัปเดตไม่ได้เพราะพื้นที่เก็บข้อมูลอุปกรณ์ไม่พอ โปรดเพิ่มพื้นที่ว่างแล้วลองอีกครั้ง
+12430100032	Incomplete client cache files were detected. Please Download them again.	ตรวจพบไฟล์แคชไคลเอนต์ไม่ครบ โปรดดาวน์โหลดใหม่
+12430100033	A client configuration update was detected. You must Restart Now.	ตรวจพบอัปเดตการตั้งค่าไคลเอนต์ ต้องเริ่มใหม่ทันที
+12430100038	Downloading:	กำลังดาวน์โหลด:
+12500000005	Ultraman arrived at the Pacific Ring of Fire.	Ultraman มาถึง Pacific Ring of Fire
+12500000011	The naked young woman suddenly transforms into a giant ant—she was the Ant Queen all along!\nShe unleashes an attack skill and summons several Pieres to surround the Professor.\nA cocoon gradually envelops the Professor, and the ants drag them toward a mysterious opening. The Ant Queen follows them inside and disappears.	หญิงสาวเปลือยกายกลายเป็นมดยักษ์ทันที เธอคือ Ant Queen มาตลอด!\nเธอใช้สกิลโจมตีและเรียก Pieres หลายตัวล้อมศาสตราจารย์\nรังไหมค่อย ๆ หุ้มศาสตราจารย์ แล้วมดลากไปยังช่องเปิดลึกลับ Ant Queen ตามเข้าไปและหายตัว
+12500000012	Pushed from the Garden of Time by Ji, you fall into the abyss.	Ji ผลักคุณจาก Garden of Time ทำให้ตกสู่ห้วงเหว
+12500000013	After using Interaction on the Chrono Compass, you see a brief vision of all the Nails of World Order lighting up.	หลังใช้การโต้ตอบกับ Chrono Compass คุณเห็นภาพสั้น ๆ ของ Nails of World Order ทั้งหมดส่องสว่าง
+12500000014	The stone pillars drain your power, leaving you floating helplessly in midair. The pillars in Prontera and other cities shatter, revealing enormous nail-shaped sculptures within. The nails then plunge a short Distance into the ground, causing the entire continent to quake. The shock wave sends you flying, but Ji suddenly appears and catches you.	เสาหินดูดพลังคุณ ทำให้ลอยกลางอากาศอย่างไร้ทางช่วยตนเอง เสาใน Prontera และเมืองอื่นแตก เผยรูปสลักยักษ์ทรงตะปูภายใน ตะปูปักลงพื้นไปเล็กน้อย ทำให้ทั้งทวีปสั่นสะเทือน คลื่นกระแทกซัดคุณปลิว แต่ Ji ปรากฏทันทีและรับไว้
+12500000022	You arrive at your destination, but no one is there. There's only an adorable little kitten meowing.	คุณมาถึงจุดหมาย แต่ไม่มีใคร มีเพียงลูกแมวน้อยน่ารักร้องเมี้ยว
+12500000025	It revealed no illusion, but the calamity that the continent of Midgard will one day face—	สิ่งที่เผยไม่ใช่ภาพลวงตา แต่เป็นหายนะที่ทวีป Midgard จะต้องเผชิญในวันหนึ่ง—
+12500000026	A storm powerful enough to consume heaven and earth is gathering beyond the horizon.	พายุทรงพลังพอจะกลืนฟ้าและดินกำลังก่อตัวเลยขอบฟ้า
+12500000027	And you are the one chosen by the light.	และคุณคือผู้ถูกแสงเลือก
+12500000030	Go forth and train, sharpening your edge with every Battle;	จงออกไปฝึกฝน ลับคมตนในทุกการต่อสู้;
+12500000032	When darkness truly descends, only the best-prepared hero	เมื่อความมืดมาเยือนจริง มีเพียงวีรบุรุษที่เตรียมพร้อมที่สุด
+12520100000	Party Assembly	รวมพลปาร์ตี้
+12520100001	Party Preparations	เตรียมปาร์ตี้
+12660000001	So lucky! I'll be next!	โชคดีจัง! คนต่อไปเป็นฉัน!
+12660000008	I'm so happy I could spin in circles!	มีความสุขจนอยากหมุนตัวเป็นวงเลย!
+12880000001	^{1}Making a Name^{2}	^{1}สร้างชื่อ^{2}
+12880000003	^{1}Local Hero^{2}	^{1}วีรบุรุษท้องถิ่น^{2}
+12920000001	Hard	ยาก
+12920000002	Nightmare	ฝันร้าย
+12980000004	Drop Test @{1}-Entire Server Limit-Limit Replacement	ทดสอบดรอป @{1}-ขีดจำกัดทั้งเซิร์ฟเวอร์-แทนที่ขีดจำกัด
+12980000006	Ultra-Luxury Mount-Daily Limit: @{1}-Maximum: @{2}	พาหนะหรูหราขั้นสูง-ขีดจำกัดรายวัน: @{1}-สูงสุด: @{2}
+12980000013	Rare Reward-Angeling-MVP Limit	รางวัลหายาก-Angeling-ขีดจำกัด MVP
+12980000018	Rare Reward-Deviling-Illusion Limit	รางวัลหายาก-Deviling-ขีดจำกัด Illusion
+12980000021	Rare Reward-Phreeoni-MVP Limit	รางวัลหายาก-Phreeoni-ขีดจำกัด MVP
+12980000024	Rare Reward-Maya-Illusion Limit	รางวัลหายาก-Maya-ขีดจำกัด Illusion
+12980000026	Rare Reward-Orc Lord-Illusion Limit	รางวัลหายาก-Orc Lord-ขีดจำกัด Illusion
+12980000028	Rare Reward-Drake-Illusion Limit	รางวัลหายาก-Drake-ขีดจำกัด Illusion
+12980000031	Rare Reward-Eddga-MVP Limit	รางวัลหายาก-Eddga-ขีดจำกัด MVP
+12980000037	Rare Reward-Moonlight Flower-MVP Limit	รางวัลหายาก-Moonlight Flower-ขีดจำกัด MVP
+12980000038	Rare Reward-Moonlight Flower-Illusion Limit	รางวัลหายาก-Moonlight Flower-ขีดจำกัด Illusion
+12980000039	Rare Reward-Dracula Baron-MVP Limit	รางวัลหายาก-Dracula Baron-ขีดจำกัด MVP
+12980000044	Rare Reward-Pharaoh-Illusion Limit	รางวัลหายาก-Pharaoh-ขีดจำกัด Illusion
+12980000045	Rare Reward-Baphomet-MVP Limit	รางวัลหายาก-Baphomet-ขีดจำกัด MVP
+12980000047	Rare Reward-Kraken-MVP Limit	รางวัลหายาก-Kraken-ขีดจำกัด MVP
+12980000048	Rare Reward-Kraken-Illusion Limit	รางวัลหายาก-Kraken-ขีดจำกัด Illusion
+12980000050	Novice Tutorial-Precious Chest-@{1}-Time Reward	บทสอน Novice-Precious Chest-รางวัล @{1} ครั้ง
+12990000000	Test Gift Pack	แพ็กของขวัญทดสอบ
+12990000004	Pass	พาส
+12990000005	Pass Gift	ของขวัญพาส
+12990100002	Premium Monthly Pass	บัตรรายเดือนพรีเมียม
+12990100005	Pass Gift	ของขวัญพาส
+130002	You have not joined a guild.	คุณยังไม่ได้เข้าร่วมกิลด์
+130009	Settlement in ${1}h	สรุปผลใน ${1}h
+130011	The event ends in less than one hour.	กิจกรรมจะสิ้นสุดในเวลาไม่ถึงหนึ่งชั่วโมง
+130012	Participate in the Tower of Spirits during the event. Rewards will be issued based on rankings during Settlement.	เข้าร่วม Tower of Spirits ระหว่างกิจกรรม จะมอบรางวัลตามอันดับเมื่อสรุปผล
+130013	Challenge Irmata, God of Nature during the event. Rankings are based on the shortest Clear Time for a single full run.	ท้าทาย Irmata, God of Nature ระหว่างกิจกรรม จัดอันดับตามเวลาผ่านที่สั้นที่สุดของการผ่านครบหนึ่งรอบ
+130014	Clear Realm of the Gods on Normal difficulty without using the Praiser Priest Revive skill. Rewards will be issued based on the shortest Clear Time during event Settlement.	ผ่าน Realm of the Gods ระดับปกติโดยไม่ใช้สกิลคืนชีพของ Praiser Priest จะมอบรางวัลตามเวลาผ่านที่สั้นที่สุดเมื่อสรุปผลกิจกรรม
+130016	View Rankings	ดูอันดับ
+130018	Unranked	ไม่มีอันดับ
+130022	Challenge · Isti	ท้าทาย · Isti
+130025	Challenge · Mirko	ท้าทาย · Mirko
+130026	Rewards	รางวัล
+130029	Event Quest	เควสต์กิจกรรม
+130031	Settlement in ${1}d ${2}h	สรุปผลใน ${1}d ${2}h
+130035	Clearing Rewards-${1}	รางวัลผ่าน-${1}
+130037	Rank ${1}	อันดับ ${1}
+130038	Me	ฉัน
+130040	Go challenge	ไปท้าทาย
+130043	There are currently no active Season events.	ขณะนี้ไม่มีกิจกรรมฤดูกาลที่กำลังดำเนินอยู่
+130045	Log in for a total of 7 days during the event to unlock all check-in rewards!	เข้าสู่ระบบรวม 7 วันระหว่างกิจกรรมเพื่อปลดล็อกรางวัลเช็กอินทั้งหมด!
+130052	Claim	รับ
+130053	Please obtain a Soul Echo first.	โปรดรับ Soul Echo ก่อน
+130054	Ranks ${1}-${2}	อันดับ ${1}-${2}
+130055	Settlement in ${1}	สรุปผลใน ${1}
+130056	The event ends in less than one hour.	กิจกรรมจะสิ้นสุดในเวลาไม่ถึงหนึ่งชั่วโมง
+130064	Reach <color=#ec543a>${1}/${2}</color> Personal Contribution to receive the following ranking rewards.	มีแต้มสมทบส่วนบุคคลถึง <color=#ec543a>${1}/${2}</color> เพื่อรับรางวัลอันดับต่อไปนี้
+130065	Unranked	ไม่มีอันดับ
+130067	Your guild is not yet ranked, so there are no rewards available!	กิลด์ของคุณยังไม่ติดอันดับ จึงไม่มีรางวัลให้รับ!
+13060000003	Collect Coins	เก็บเหรียญ
+13060000004	Activate Trap Hunter	เปิดใช้งาน Trap Hunter
+13060000008	Unlock	ปลดล็อก
+13060000009	Collect	เก็บ
+13060000012	Resonance	ประสานพลัง
+13060000015	View	ดู
+13060000017	Dig	ขุด
+13060000019	Approach	เข้าใกล้
+13060000021	Release	ปล่อย
+13060000022	Enter	เข้า
+13060000023	Take her hand.	จับมือเธอ
+13060000032	Caress	ลูบไล้
+13060000033	Give Water	ให้น้ำ
+13060000034	Look Around	มองดูรอบ ๆ
+13060000038	Collect Supplies	เก็บเสบียง
+13100000000	Stagger	เสียหลัก
+13100000002	Knock-Up	กระแทกลอย
+13100000006	Knockback Immunity	ป้องกันการกระเด็น
+13100000013	Skill Casting	ร่ายสกิล
+13100000015	Prepare Emote/Action	เตรียมอีโมต/ท่าทาง
+13100000016	Stun	สถานะ Stun
+13100000018	Silence	สถานะ Silence
+13100000023	Invincible	ไร้พ่าย
+13100000030	Cast Interruption Immunity	ภูมิคุ้มกันการขัดจังหวะร่าย
+13100000034	Forced Launch	บังคับลอยขึ้น
+13100000038	Forced Stun	บังคับสตัน
+13100000039	Flying	บิน
+13100000043	Item Use Disabled	ห้ามใช้ไอเทม
+13100000049	Invincible and Untargetable by Enemies	ไร้เทียมทานและศัตรูไม่สามารถเลือกเป็นเป้าหมายได้
+13100000050	Invincible Out of Combat	ไร้เทียมทานนอกการต่อสู้
+13100000058	Sub-Battlefield Revive Point Area Effect	เอฟเฟกต์พื้นที่จุดคืนชีพสนามรบย่อย
+13100000060	Maya Vine Link Effect	เอฟเฟกต์เชื่อมโยงเถาวัลย์ของ Maya
+13100000067	Movement and Turning Disabled	ห้ามเคลื่อนที่และหัน
+13100000069	Safe Zone	พื้นที่ปลอดภัย
+13100000070	Forced Instant Interrupt	บังคับขัดจังหวะทันที
+13100000072	Turning Disabled	ห้ามหัน
+13100000074	Bind	พันธนาการ
+13110000004	Reflect Damage	สะท้อนดาเมจ
+13110000024	Block One Attack	ป้องกันการโจมตีหนึ่งครั้ง
+13110000026	Records Damage Dealt	บันทึกความเสียหายที่สร้าง
+13110000027	Increase Movement Speed and HP recover out of combat	เพิ่ม MSPD และการฟื้นฟู HP นอกการต่อสู้
+13110100019	Slow	สถานะ Slow
+13140000002	Repair Station	สถานีซ่อมแซม
+13140000004	Teleport Station	สถานีเทเลพอร์ต
+13150400004	Chapter 4	บทที่ 4
+13150400007	Chapter 7	บทที่ 7
+13150500000	Accessory	เครื่องประดับ
+13150500004	Set	เซ็ต
+13150500012	Craft	คราฟต์
+13150500014	Talent	พรสวรรค์
+13200000000	Initial	เริ่มต้น
+13200000007	Orange @{1}	ส้ม @{1}
+13230100001	"""When the Klein Cube was swallowed by the Eternal Land, the first gears engaged—the void split into golden patterns, only to collapse into darkness in an instant. Yet the music played on, performing the eternal struggle between order and chaos."""	"""เมื่อ Klein Cube ถูก Eternal Land กลืน เฟืองชุดแรกขบกัน ห้วงว่างแยกเป็นลวดลายสีทอง ก่อนพังทลายสู่ความมืดในชั่วพริบตา แต่ดนตรียังคงบรรเลง ถ่ายทอดการต่อสู้นิรันดร์ระหว่างระเบียบกับความโกลาหล"""
+13290000040	Titleless	ไม่มีฉายา
+13290000041	No Title	ไม่มีฉายา
+13330000008	GVE Speedrun	GVE แข่งผ่านเร็ว
+13330000009	New Season Preview	พรีวิวฤดูกาลใหม่
+13330200000	Guild	กิลด์
+13340000000	Test STR@{1}	ทดสอบ STR@{1}
+13340100001	Active in Stronghold Battles	มีส่วนร่วมในการรบชิงฐานที่มั่น
+13340100002	Active in Escort Battles	มีส่วนร่วมในการรบคุ้มกัน
+13340100003	Active in Siege Battles	มีส่วนร่วมในการรบล้อมเมือง
+13350100000	Active in Guild Stronghold Battles, Escort Battles, and Siege Battles	มีส่วนร่วมในการรบชิงฐานที่มั่นกิลด์ การรบคุ้มกัน และการรบล้อมเมือง
+13540100000	Insert @{1} Blue Quality or higher cards	ใส่การ์ดคุณภาพสีฟ้าขึ้นไป @{1} ใบ
+13540100002	Socket @{2} Tier @{1} or higher cards	ใส่การ์ด @{2} ใบที่มีระดับ @{1} ขึ้นไป
+13560000000	Growth Training: First Training	การฝึกพัฒนา: การฝึกครั้งแรก
+13560000001	Growth Training: Second Training	การฝึกพัฒนา: การฝึกครั้งที่สอง
+13560000004	Event Text Event Text Event Text Event Text Event Text Event Text Event Text One	ข้อความกิจกรรม ข้อความกิจกรรม ข้อความกิจกรรม ข้อความกิจกรรม ข้อความกิจกรรม ข้อความกิจกรรม ข้อความกิจกรรม หนึ่ง
+13560000006	Option B	ตัวเลือก B
+13560000007	Option A Event Text Event Text Event Text Event Text Event Text Event Text Event Text	ตัวเลือก A ข้อความกิจกรรม ข้อความกิจกรรม ข้อความกิจกรรม ข้อความกิจกรรม ข้อความกิจกรรม ข้อความกิจกรรม ข้อความกิจกรรม
+13600000003	Field	ภาคสนาม
+13610100000	Blackhole Mode	โหมด Blackhole
+13610100001	Trap Hunter Mode	โหมด Trap Hunter
+13660000001	Chapter One	บทที่หนึ่ง
+13660000003	Chapter 3	บทที่ 3
+13680000002	Exalted Status	สถานะสูงส่ง
+13680100002	Always remember: never keep a low profile	จำไว้เสมอ: อย่าทำตัวเงียบ ๆ ไร้คนสังเกต
+13690000003	The Rustle of Turning Pages	เสียงพลิกหน้ากระดาษ
+13690000004	The Lone Pine at the South Gate	ต้นสนเดียวดายที่ประตูใต้
+13690000008	The Wind Gazing Toward the High Branches	สายลมที่มองสู่กิ่งสูง
+13690000009	Listening to the Oasis Waters	ฟังสายน้ำโอเอซิส
+13690000012	The Concealed Arrowhead	หัวลูกศรที่ซ่อนอยู่
+13690000016	Cries Beside the Stall	เสียงร้องข้างแผงขายของ
+13690000019	A Stall by the Wall	แผงขายของริมกำแพง
+13690000021	Laughter Around the Wooden Tables	เสียงหัวเราะรอบโต๊ะไม้
+13690000023	The Sound of an Arrow Piercing a Wooden Target	เสียงลูกศรทะลุเป้าไม้
+13710000002	Alberta Map Description	คำอธิบายแผนที่ Alberta
+13710000003	Geffen Map Description	คำอธิบายแผนที่ Geffen
+13710000005	Prontera Map Description	คำอธิบายแผนที่ Prontera
+13720000000	Basic - Yellow Nameplate	พื้นฐาน - ป้ายชื่อเหลือง
+13720000002	Basic - Blue Nameplate	พื้นฐาน - ป้ายชื่อฟ้า
+13730000004	Adventurer Guild Watering	รดน้ำกิลด์นักผจญภัย
+13730000005	Adventurer Guild Renamed	เปลี่ยนชื่อกิลด์นักผจญภัยแล้ว
+13730000007	Member Removed from Adventurer Guild	นำสมาชิกออกจากกิลด์นักผจญภัยแล้ว
+13750000000	Sprouting Stage	ระยะแตกหน่อ
+13750000003	Mature Stage	ระยะโตเต็มที่
+13800000004	Stronghold War Auction - Open	การประมูล Stronghold War - เปิด
+13800000005	Stronghold War Auction - Final	การประมูล Stronghold War - รอบสุดท้าย
+13800000008	Regional Capital War Auction - Ready	การประมูล Regional Capital War - เตรียมพร้อม
+150008	Lower-Left Revive Point	จุดคืนชีพซ้ายล่าง
+150009	Upper-Right Revive Point	จุดคืนชีพขวาบน
+160003	Requires ${1} points	ต้องใช้ ${1} แต้ม
+160007	Current Rank: <color=#B05142>${1}</color>	อันดับปัจจุบัน: <color=#B05142>${1}</color>
+161002	After leaving, you can Enter Dungeon again through the quest, but you will not Keep your current progress. Are you sure you want to leave?	หลังออกไป คุณเข้าดันเจี้ยนผ่านเควสต์ได้อีก แต่จะไม่เก็บความคืบหน้าปัจจุบันไว้ ต้องการออกแน่หรือไม่?
+161005	This certifies that Novice ${1} has completed the Novice Combat Trial administered under the supervision of the Eden Group. The courage, skill, and determination demonstrated during the trial meet the kingdom's basic requirements for an officially recognized Job Advance.\nThe bearer of this certificate is hereby authorized to proceed to Criatura Academy for Job Advance.\nIssued by: Prontera Eden Group\nExaminer: Rhein	ขอรับรองว่า Novice ${1} ผ่าน Novice Combat Trial ซึ่งจัดภายใต้การดูแลของ Eden Group ความกล้าหาญ ฝีมือ และความมุ่งมั่นที่แสดงระหว่างการทดสอบเป็นไปตามข้อกำหนดพื้นฐานของอาณาจักรสำหรับการเปลี่ยนอาชีพที่รับรองอย่างเป็นทางการ\nผู้ถือใบรับรองนี้ได้รับอนุญาตให้ไป Criatura Academy เพื่อเปลี่ยนอาชีพ\nออกโดย: Prontera Eden Group\nผู้ทดสอบ: Rhein
+161008	To-Do List	รายการสิ่งที่ต้องทำ
+161014	Read	อ่าน
+161015	Letter Received	ได้รับจดหมาย
+16320003	Ranks 4-10	อันดับ 4-10
+16320006	Closes automatically in ${1} seconds	ปิดอัตโนมัติใน ${1} วินาที
+16320016	Event rewards have been sent to your mailbox.	ส่งรางวัลกิจกรรมไปยังกล่องจดหมายของคุณแล้ว
+16320022	Guild	กิลด์
+16320023	Deals DMG	สร้าง DMG
+16320024	Command Skill Kill	สังหารด้วยสกิลบัญชาการ
+16320025	Commander Rating	คะแนนประเมินผู้บัญชาการ
+16320027	Partywide Immobilize	ตรึงทั้งปาร์ตี้
+16320031	Baphomet Attack Enhance	เพิ่มการโจมตีของ Baphomet
+16320032	Partywide Slow	ลดความเร็วทั้งปาร์ตี้
+16320033	Multiple Knockbacks	ผลักถอยหลายครั้ง
+16320034	Partywide Endure	Endure ทั้งปาร์ตี้
+170001	Guild Emblem Frame not unlocked. Please select another.	ยังไม่ปลดล็อกกรอบตรากิลด์ โปรดเลือกกรอบอื่น
+170003	Opens on ${1}/${2} at ${3}	เปิดวันที่ ${1}/${2} เวลา ${3}
+170004	Approval Required	ต้องได้รับอนุมัติ
+170008	Guild application sent successfully.	ส่งคำขอเข้ากิลด์สำเร็จ
+170009	Initiate	เริ่ม
+170012	Post the following message to the ${1} channel	โพสต์ข้อความต่อไปนี้ในช่อง ${1}
+170014	Home	บ้าน
+170016	Currency Cost:	ค่าใช้จ่ายสกุลเงิน:
+170018	Draw Chance: ${1}%	โอกาสจับรางวัล: ${1}%
+170020	Effective Duration:	ระยะเวลามีผล:
+170024	Adventurers, welcome to our big family~~	นักผจญภัย ยินดีต้อนรับสู่ครอบครัวใหญ่ของเรา~~
+170026	The guild announcement cannot contain only numbers. Please enter a new one.	ประกาศกิลด์ต้องไม่เป็นตัวเลขเพียงอย่างเดียว โปรดกรอกใหม่
+170031	Merge Guild	รวมกิลด์
+170033	Automatically Approve Support Requests	อนุมัติคำขอสนับสนุนอัตโนมัติ
+170035	Maximum Guild Hall Level: 6	เลเวลหอกิลด์สูงสุด: 6
+170037	The Guild Shop is a personal shop.	ร้านกิลด์เป็นร้านส่วนบุคคล
+170041	The Guild Store determines the level of Benefits that can be purchased for all Guild Members.	ร้านค้ากิลด์กำหนดระดับสวัสดิการที่ซื้อให้สมาชิกกิลด์ทั้งหมดได้
+170045	Guild Events	อีเวนต์กิลด์
+170048	Position Appointment	แต่งตั้งตำแหน่ง
+170050	Appoint Position: <color=#594E3D>${1} (<color=#C26B47>${2}</color>/${3})</color>	แต่งตั้งตำแหน่ง: <color=#594E3D>${1} (<color=#C26B47>${2}</color>/${3})</color>
+170058	Total Auction Dividend:	เงินปันผลประมูลทั้งหมด:
+170062	The ${1} Tactic is already active. Replace its effect?	กลยุทธ์ ${1} ใช้งานอยู่แล้ว แทนที่เอฟเฟกต์หรือไม่?
+170067	Guild Support Creation Successful	สร้างการสนับสนุนกิลด์สำเร็จ
+170068	Save Guild Emblem	บันทึกตรากิลด์
+170070	Minimum Application Level	เลเวลขั้นต่ำในการสมัคร
+170072	Design	ออกแบบ
+170075	<color=#FDAB5B>${1}</color> has invited you to Join a guild: <color=#FDAB5B>${2}</color>	<color=#FDAB5B>${1}</color> เชิญคุณเข้ากิลด์: <color=#FDAB5B>${2}</color>
+170080	Welcome to the guild, everyone!	ยินดีต้อนรับทุกคนเข้ากิลด์!
+170082	Select Elite Members	เลือกสมาชิกชั้นยอด
+170083	Remove Offline players only	นำออกเฉพาะผู้เล่นออฟไลน์
+170084	Remove all players?	นำผู้เล่นทั้งหมดออกหรือไม่?
+170088	Daily	รายวัน
+170091	About to start	ใกล้เริ่ม
+170094	Ends in ${1}	สิ้นสุดในอีก ${1}
+170098	Tap to view	แตะเพื่อดู
+170101	All response applications have been approved	อนุมัติคำขอตอบรับทั้งหมดแล้ว
+170102	Level Requirement: Lv.${1}	เลเวลที่ต้องการ: Lv.${1}
+170110	Core Management	ฝ่ายบริหารหลัก
+170113	Transfer Guild Leader	โอนตำแหน่งหัวหน้ากิลด์
+170118	Response Application	คำขอตอบรับ
+170120	Guild Dividend	เงินปันผลกิลด์
+170123	Unclaimed Activity Dividend clears Monday	เงินปันผลกิจกรรมที่ยังไม่ได้รับจะถูกล้างวันจันทร์
+170126	Enter...	กรอก...
+170132	Weekly Contribution	แต้มสมทบรายสัปดาห์
+170133	Total Contribution	การมีส่วนร่วมทั้งหมด
+170135	Join a guild: Successful	เข้ากิลด์: สำเร็จ
+170136	"Spend <link=""${3}""><sprite name=""${1}""><color=${2}>X${4}</color></link> to purchase <link=""${7}""><sprite name=""${5}""><color=${6}>X${8}</color></link> and Create Guild?\n\n(After creating the guild, receive responses from <color=#C26B47>3 players</color> within <color=#C26B47>24 hours</color> for Creation Successful. If creation fails, the items spent to Create Guild will Return via mail.)"	"ใช้ <link=""${3}""><sprite name=""${1}""><color=${2}>X${4}</color></link> เพื่อซื้อ <link=""${7}""><sprite name=""${5}""><color=${6}>X${8}</color></link> และสร้างกิลด์หรือไม่?\n\n(หลังสร้างกิลด์ ต้องได้รับการตอบรับจาก <color=#C26B47>ผู้เล่น 3 คน</color> ภายใน <color=#C26B47>24 ชั่วโมง</color> จึงสร้างสำเร็จ หากล้มเหลว ไอเทมที่ใช้สร้างกิลด์จะคืนทางจดหมาย)"
+170138	Elite Members can tap to join the party	สมาชิกชั้นยอดแตะเพื่อเข้าปาร์ตี้ได้
+170140	Quick Deploy	นำออกใช้งานด่วน
+170144	Vehicle Privileges: ${1}/${2}	สิทธิพิเศษยานพาหนะ: ${1}/${2}
+170147	No more Members available to visit	ไม่มีสมาชิกให้เยี่ยมเพิ่มเติม
+170151	Select All	เลือกทั้งหมด
+170152	Confirm	ยืนยัน
+170159	Level	ระดับ
+170161	Decline Guild Invitations	ปฏิเสธคำเชิญกิลด์
+170166	Guild Master	หัวหน้ากิลด์
+170172	Application requirements not met	ไม่ตรงเงื่อนไขสมัคร
+170173	Guild Details	รายละเอียดกิลด์
+170177	Please enter a guild name...	โปรดป้อนชื่อกิลด์...
+170182	Locked	ยังไม่ปลดล็อก
+170183	Initiator	ผู้เริ่ม
+170184	Cancel Creation	ยกเลิกการสร้าง
+170187	Guild Home	หน้าหลักกิลด์
+170188	Guild Member	สมาชิกกิลด์
+170189	Guild Activities	กิจกรรมกิลด์
+170190	Merge Guild	รวมกิลด์
+170191	Facility Level-up	เพิ่มระดับสิ่งปลูกสร้าง
+170195	Guild Prestige	ชื่อเสียงกิลด์
+170203	Activity Points Info	ข้อมูลแต้มกิจกรรม
+170206	Player name	ชื่อผู้เล่น
+170207	Position	ตำแหน่ง
+170210	Personal Guild Quests Activity Last Week:	กิจกรรมเควสต์กิลด์ส่วนบุคคลสัปดาห์ที่แล้ว:
+170214	Confirm Rally	ยืนยันรวมพล
+170219	Facility Level-up	เพิ่มระดับสิ่งปลูกสร้าง
+170220	Guild Members: ${1}/${2}	สมาชิกกิลด์: ${1}/${2}
+170221	Online Members: <color=#C26B47>${1}</color>/${2}	สมาชิกออนไลน์: <color=#C26B47>${1}</color>/${2}
+170229	<color=#B75949>Leave Guild</color>	<color=#B75949>ออกจากกิลด์</color>
+170236	Level	ระดับ
+170237	Weekly Activity	ความเคลื่อนไหวรายสัปดาห์
+170239	Refresh	รีเฟรช
+170247	Auto-Accept	ยอมรับอัตโนมัติ
+170251	Guild Prestige:	ชื่อเสียงกิลด์:
+170252	Guild Member:	สมาชิกกิลด์:
+170254	Join Method:	วิธีเข้าร่วม:
+170257	Group Mail	จดหมายกลุ่ม
+170258	The following message will be sent to all Guild Members:	ข้อความต่อไปนี้จะส่งถึงสมาชิกกิลด์ทั้งหมด:
+170265	Recruitment Announcement:	ประกาศรับสมัคร:
+170269	Save Settings	บันทึกการตั้งค่า
+170274	Go	ไป
+170275	Not eligible to participate	ไม่มีสิทธิ์เข้าร่วม
+170277	Solo	เดี่ยว
+170278	Regular Activities	กิจกรรมปกติ
+170280	Guild Activity	กิจกรรมกิลด์
+170283	Receive an invite	รับคำเชิญ
+170286	Guild Level	เลเวลกิลด์
+170290	After the merge succeeds, the guild set to Merge into the other guild will be disbanded immediately, and each new Member's position must be reassigned.	หลังรวมสำเร็จ กิลด์ที่เลือกไปรวมกับอีกกิลด์จะยุบทันที และต้องแต่งตั้งตำแหน่งของสมาชิกใหม่แต่ละคนอีกครั้ง
+170296	Merge into	รวมเข้า
+170298	Invitee	ผู้ได้รับเชิญ
+170299	Inviting Party	ฝ่ายเชิญ
+170303	The invitation will automatically expire if no action is taken within <color=#C27B47>24 hours</color>.	คำเชิญจะหมดอายุอัตโนมัติหากไม่ดำเนินการภายใน <color=#C27B47>24 ชั่วโมง</color>
+170304	Reject	ปฏิเสธ
+170305	Agree	ตกลง
+170310	Member Adjustment	ปรับสมาชิก
+170311	Cancel Merge	ยกเลิกการรวม
+170312	Recommended List	รายการแนะนำ
+170322	Position	ตำแหน่ง
+170323	Weekly Activity	ความเคลื่อนไหวรายสัปดาห์
+170327	Selected: <color=#C27B47>${1}</color>/${2}	เลือกแล้ว: <color=#C27B47>${1}</color>/${2}
+170329	Participate in Guild Battlefield events to earn Guild Prestige.	เข้าร่วมกิจกรรมสนามรบกิลด์เพื่อรับชื่อเสียงกิลด์
+170332	Position Appointment	แต่งตั้งตำแหน่ง
+170333	Permission Management	จัดการสิทธิ์
+170337	Cancel All	ยกเลิกทั้งหมด
+170339	Unlocks at Lv. ${1}	ปลดล็อกที่ Lv. ${1}
+170341	Details	รายละเอียด
+170345	Guild Level	เลเวลกิลด์
+170347	Active rating	ระดับความกระตือรือร้น
+170348	Save changes to this Member?	บันทึกการเปลี่ยนแปลงสมาชิกคนนี้หรือไม่?
+170349	Do you accept ${1} guild's Merge Guild invitation? (If accepted, the Merge Guild process will be completed at five o'clock tomorrow morning. Once complete, the guild that chose to Merge into the other guild will be disbanded.)	ยอมรับคำเชิญรวมกิลด์จากกิลด์ ${1} หรือไม่? (หากยอมรับ จะรวมกิลด์เสร็จตอนห้าโมงเช้าวันพรุ่งนี้ เมื่อเสร็จแล้ว กิลด์ที่เลือกไปรวมกับอีกกิลด์จะยุบ)
+170350	Enter player name	ใส่ชื่อผู้เล่น
+170351	No dividends available to claim	ไม่มีเงินปันผลให้รับ
+170357	Accept the Guild Summon from ${1}?	ยอมรับการเรียกตัวกิลด์จาก ${1} หรือไม่?
+170364	"Spend <link=""${3}""><sprite name=""${1}""><color=${2}>X${4}</color></link> to Create Guild?\n\n(After creating the guild, receive responses from <color=#C26B47>3 players</color> within <color=#C26B47>24 hours</color> for Creation Successful. If creation fails, the items spent to Create Guild will Return via mail.)"	"ใช้ <link=""${3}""><sprite name=""${1}""><color=${2}>X${4}</color></link> เพื่อสร้างกิลด์หรือไม่?\n\n(หลังสร้างกิลด์ ต้องได้รับการตอบรับจาก <color=#C26B47>ผู้เล่น 3 คน</color> ภายใน <color=#C26B47>24 ชั่วโมง</color> จึงสร้างสำเร็จ หากล้มเหลว ไอเทมที่ใช้สร้างกิลด์จะคืนทางจดหมาย)"
+170502	Guild Members: <color=#F4F2E9>80</color>	สมาชิกกิลด์: <color=#F4F2E9>80</color>
+170506	Guild Shop Level: <color=#F4F2E9>Lv. 2</color>	เลเวลร้านกิลด์: <color=#F4F2E9>Lv. 2</color>
+170508	Guild Institute Level: <color=#F4F2E9>2</color>	เลเวลสถาบันกิลด์: <color=#F4F2E9>2</color>
+170542	Withdrawn	ถอนแล้ว
+170543	You must Join a guild to participate.	ต้องเข้ากิลด์จึงเข้าร่วมได้
+170545	Guild Auction	ประมูลกิลด์
+170546	Apply to Guild	สมัครเข้ากิลด์
+180000	System Stall Name	ชื่อแผงขายของระบบ
+181000	Welcome to RO3	ยินดีต้อนรับสู่ RO3
+181003	Welcome to RO3	ยินดีต้อนรับสู่ RO3
+181006	Welcome to RO3	ยินดีต้อนรับสู่ RO3
+190001	Current Floors: <color=#CC762A>${1}</color>	ชั้นปัจจุบัน: <color=#CC762A>${1}</color>
+190004	Ranking Reward Count: <color=#CC762A>${1}/${2}</color>\nParticipation Rewards Reward Count: <color=#CC762A>${3}/${4}</color>	จำนวนรางวัลอันดับ: <color=#CC762A>${1}/${2}</color>\nจำนวนรางวัลเข้าร่วม: <color=#CC762A>${3}/${4}</color>
+190008	Open Tuesdays, Thursdays, and Sundays from 17:00–18:30	เปิดวันอังคาร พฤหัสบดี และอาทิตย์ เวลา 17:00–18:30
+190010	Current Stage: <color=#CC762A>Floor ${1}</color>	ด่านปัจจุบัน: <color=#CC762A>ชั้น ${1}</color>
+220002	Global Attack	โจมตีทั่วพื้นที่
+230004	Clearing Rewards	รางวัลผ่านด่าน
+230005	Unlock	ปลดล็อก
+230007	Current Effect: <color=#97e553>${1}</color><color=#00FFFF> (Next Level: ${2})</color>	เอฟเฟกต์ปัจจุบัน: <color=#97e553>${1}</color><color=#00FFFF> (เลเวลถัดไป: ${2})</color>
+230008	Blessing	พร
+230009	"Owned: <sprite name=""valhalla_img_item_01""> x<color=#cc762a>${1}</color>"	"มี: <sprite name=""valhalla_img_item_01""> x<color=#cc762a>${1}</color>"
+230010	Spending 1 Valhalla Coin grants ${1} Valhalla EXP.	ใช้ Valhalla Coin 1 เพื่อรับ Valhalla EXP ${1}
+230013	Exit (${1}s)	ออก (${1} วินาที)
+230016	Boss skill	สกิลบอส
+230017	Reach Base Lv. ${1}	ถึง Base Lv. ${1}
+230019	EXP Sources	แหล่ง EXP
+230020	Current Effect: <color=#97e553>${1}</color>	เอฟเฟกต์ปัจจุบัน: <color=#97e553>${1}</color>
+230022	You can't travel there during the current activity. Please leave and try again.	เดินทางไปที่นั่นไม่ได้ระหว่างกิจกรรมปัจจุบัน โปรดออกจากกิจกรรมแล้วลองอีกครั้ง
+240002	Total Quests Completed: <color=#FF993F>${1}</color>	เควสต์ที่ทำสำเร็จทั้งหมด: <color=#FF993F>${1}</color>
+240003	Beginner's Handbook	คู่มือมือใหม่
+250003	Stat Overview	ภาพรวมค่าสถานะ
+250006	Level-up	เพิ่มระดับ
+250007	Cost	ค่าใช้จ่าย
+250018	Go Perform	ไปแสดง
+250020	Accumulated Rewards	รางวัลสะสม
+250023	Entire Server Total Energy	พลังงานรวมทั้งเซิร์ฟเวอร์
+250024	Once the energy is full, you can make a Wish to the Goddess.	เมื่อพลังงานเต็ม คุณขอพรจากเทพธิดาได้
+250025	Energy is full! Tap the note to make a Wish!	พลังงานเต็มแล้ว! แตะตัวโน้ตเพื่อขอพร!
+250036	Save Selection	บันทึกสิ่งที่เลือก
+250037	Obtained through a Clue event	ได้รับจากกิจกรรมเบาะแส
+250038	Tap a note button to change its note. Play the correct melody to increase collection progress.	แตะปุ่มตัวโน้ตเพื่อเปลี่ยนโน้ต เล่นทำนองถูกต้องเพื่อเพิ่มความคืบหน้าการสะสม
+250041	Tap to continue	แตะเพื่อดำเนินการต่อ
+250042	Performance Successful	แสดงสำเร็จ
+250046	Cannot claim before check-in time	รับก่อนเวลาเช็กอินไม่ได้
+250047	Overture I rings out as ${1} successfully contributes music energy	Overture I ดังขึ้นเมื่อ ${1} สมทบพลังงานดนตรีสำเร็จ
+250052	${1} successfully performs the beautiful movement of Overture III	${1} เล่นท่อนอันไพเราะของ Overture III สำเร็จ
+250055	Distance until S1 Season officially begins: <color=#ede79d><size=72>${1}</size></color> days	เวลาก่อนฤดูกาล S1 เริ่มอย่างเป็นทางการ: <color=#ede79d><size=72>${1}</size></color> วัน
+250061	Unlocks <color=#76c233>Tomorrow</color>	ปลดล็อก <color=#76c233>พรุ่งนี้</color>
+250085	Replace	เปลี่ยน
+250086	In Effect	มีผลอยู่
+250089	Current Max level reached	ถึงเลเวลสูงสุดปัจจุบันแล้ว
+250091	Suggested Build: ${1}	บิลด์แนะนำ: ${1}
+260000	Join Adventure Guild	เข้ากิลด์ผจญภัย
+260002	Create Adventure Guild	สร้างสมาคมนักผจญภัย
+260007	Approval Required	ต้องได้รับอนุมัติ
+260008	Request to Join	ขอเข้าร่วม
+260009	Max Adventure Guild applications: <color=${3}>${1}</color>/${2}	คำขอกิลด์ผจญภัยสูงสุด: <color=${3}>${1}</color>/${2}
+260012	Cancel Application	ยกเลิกคำขอ
+260013	Support Time Remaining:	เวลาสนับสนุนที่เหลือ:
+260015	Cancel Support Application	ยกเลิกคำขอสนับสนุน
+260017	Withdraw Support	ถอนการสนับสนุน
+260022	Preview	ตัวอย่าง
+260028	After requesting support, you need at least 3 supporting Members before you can create an Adventure Guild	หลังขอการสนับสนุน ต้องมีสมาชิกสนับสนุนอย่างน้อย 3 คนจึงสร้างกิลด์ผจญภัยได้
+260029	All team Members present when the Adventure Guild is created will become official Members. Anyone outside the team cannot join during creation.	สมาชิกทั้งหมดในทีมตอนสร้างกิลด์ผจญภัยจะเป็นสมาชิกอย่างเป็นทางการ ผู้ที่อยู่นอกทีมเข้าร่วมระหว่างสร้างไม่ได้
+260032	Responding Members (${1}/${2})	สมาชิกที่ตอบรับ (${1}/${2})
+260037	Remove from Adventure Group	นำออกจากกลุ่มผจญภัย
+260038	Transfer Leadership	โอนตำแหน่งหัวหน้า
+260045	Enter an Adventure Guild name	กรอกชื่อสมาคมนักผจญภัย
+260049	Confirm Travel	ยืนยันเดินทาง
+260052	Tap the left side to record your oath	แตะด้านซ้ายเพื่อบันทึกคำสาบาน
+260057	Tap to close	แตะเพื่อปิด
+260062	Adventure Group Evergreen	กลุ่มผจญภัยยืนยง
+260063	Care List	รายชื่อที่ใส่ใจ
+260066	Achieved at ${1} Growth	บรรลุเมื่อมีการเติบโต ${1}
+260067	Show	แสดง
+260069	This Week's Limit: ${1}/${2}	ขีดจำกัดสัปดาห์นี้: ${1}/${2}
+260073	Waterings: ${1}	จำนวนครั้งรดน้ำ: ${1}
+260074	Group Chat	แชตกลุ่ม
+260083	Member	สมาชิก
+260084	Notes	หมายเหตุ
+260087	Complete	เสร็จสิ้น
+260089	Are you sure you want to leave the Adventure Group?	ต้องการออกจากกลุ่มผจญภัยแน่หรือไม่?
+260090	Profile	โปรไฟล์
+260093	Remove from Adventure Group	นำออกจากกลุ่มผจญภัย
+260094	Are you sure you want to remove ${1} from the Adventure Group?	ต้องการนำ ${1} ออกจากกลุ่มผจญภัยแน่หรือไม่?
+260097	Adventure Group Members (${1}/${2})	สมาชิกกลุ่มผจญภัย (${1}/${2})
+260102	Edit message	แก้ไขข้อความ
+260103	Your current server, [${1}], differs from the Adventure Group's server, [${2}].	เซิร์ฟเวอร์ปัจจุบันของคุณ [ ${1} ] ต่างจากเซิร์ฟเวอร์กลุ่มผจญภัย [ ${2} ]
+260104	Please decide whether to transfer to the Adventure Group's server before ${1}.	โปรดตัดสินใจว่าจะย้ายไปเซิร์ฟเวอร์กลุ่มผจญภัยก่อน ${1} หรือไม่
+260108	This Member is not on the Adventure Group's server. If they do not transfer to the Adventure Group's server before <color=#EB543A>${1}</color>, <color=#EB543A>they will automatically leave the Adventure Group</color>.	สมาชิกคนนี้ไม่ได้อยู่เซิร์ฟเวอร์กลุ่มผจญภัย หากไม่ย้ายไปเซิร์ฟเวอร์กลุ่มผจญภัยก่อน <color=#EB543A>${1}</color> <color=#EB543A>จะออกจากกลุ่มผจญภัยอัตโนมัติ</color>
+260109	Auto-Accept Adventure Group Applications	ยอมรับคำขอกลุ่มผจญภัยอัตโนมัติ
+260110	Welcome to the Adventure Group!	ยินดีต้อนรับสู่กลุ่มผจญภัย!
+260112	No Adventure Groups	ไม่มีกลุ่มผจญภัย
+260119	Canceled	ยกเลิกแล้ว
+260120	Left	ออกแล้ว
+260125	Adventure Group Call	เรียกกลุ่มผจญภัย
+260129	Are you sure you want to create the Adventure Group?	ต้องการสร้างกลุ่มผจญภัยแน่หรือไม่?
+260135	Call the Adventurer Group Members?	เรียกสมาชิกกลุ่มนักผจญภัยหรือไม่?
+260141	You need at least three party Members to create an Adventurer Group.	ต้องมีสมาชิกปาร์ตี้อย่างน้อยสามคนเพื่อสร้างกลุ่มนักผจญภัย
+260142	A party Member is not nearby.	สมาชิกปาร์ตี้ไม่ได้อยู่ใกล้ ๆ
+260143	You need at least three nearby party Members to create an Adventurer Group.	ต้องมีสมาชิกปาร์ตี้ที่อยู่ใกล้อย่างน้อยสามคนเพื่อสร้างกลุ่มนักผจญภัย
+260145	Member	สมาชิก
+260146	Unlocks when Growth reaches ${1}.	ปลดล็อกเมื่อการเติบโตถึง ${1}
+260148	Sapling Status	สถานะต้นกล้า
+260151	Refreshed successfully.	รีเฟรชสำเร็จ
+260154	Adventure Guild names must be 2-7 characters long	ชื่อกิลด์ผจญภัยต้องยาว 2-7 อักขระ
+290003	Match Data	ข้อมูลการแข่งขัน
+290006	MVP Count	จำนวน MVP
+290007	Total Kills	จำนวนสังหารรวม
+290008	Likes Received	ถูกใจที่ได้รับ
+290013	Damage	ความเสียหาย
+290020	Rank	อันดับ
+290025	Offline	ออฟไลน์
+290027	Highest Killstreak	สังหารต่อเนื่องสูงสุด
+290029	Continue (${1}s)	ดำเนินต่อ (${1}s)
+290033	Like All	กดถูกใจทั้งหมด
+290035	Battle Score	คะแนนการต่อสู้
+290036	Overall Ranking	อันดับรวม
+290039	Return to Screen (${1}s)	กลับสู่หน้าจอ (${1} วินาที)
+290045	Battle Begins	เริ่มการต่อสู้
+290046	This Week's Limit Reached	ถึงขีดจำกัดสัปดาห์นี้แล้ว
+290047	Total limit reached	ถึงขีดจำกัดรวมแล้ว
+290051	Cancel	ยกเลิก
+290053	Open Mondays, Wednesdays, and Saturdays from 17:00–18:30	เปิดวันจันทร์ พุธ และเสาร์ เวลา 17:00–18:30
+10220200478	Prayer of the Holy Spirit is disabled in instances	Prayer of the Holy Spirit ใช้ไม่ได้ในอินสแตนซ์
+10220200592	An indicator circle appears under the clone monster's feet	วงบ่งชี้ปรากฏใต้เท้าของมอนสเตอร์ร่างโคลน
+140001	You were removed from the event area for being AFK too long.	คุณถูกนำออกจากพื้นที่กิจกรรมเนื่องจาก AFK นานเกินไป
+140002	Disbanding the party will immediately destroy the escort cart. Are you sure you want to disband the party?	การยุบปาร์ตี้จะทำลายรถคุ้มกันทันที ยืนยันที่จะยุบปาร์ตี้หรือไม่?
+140003	Leaving the party will abandon the escort cart. Are you sure you want to leave the party?	การออกจากปาร์ตี้จะทำให้ทิ้งรถคุ้มกัน ยืนยันที่จะออกจากปาร์ตี้หรือไม่?
+140004	Leaving the map will abandon the escort cart. Are you sure you want to leave the map?	การออกจากแผนที่จะทำให้ทิ้งรถคุ้มกัน ยืนยันที่จะออกจากแผนที่หรือไม่?
+140005	You have been flagged as AFK. If the timer expires, you will be forced to return to town!	คุณถูกระบุว่า AFK หากหมดเวลานับถอยหลัง คุณจะถูกบังคับให้กลับเมือง!
+140006	Return to Town	กลับเมือง
+140007	Cancel AFK	ยกเลิก AFK
+140008	Queue Notice	แจ้งเตือนคิว
+140009	This event area is full. You must queue to enter.	พื้นที่กิจกรรมนี้เต็มแล้ว คุณต้องเข้าคิวเพื่อเข้า
+140010	Leave Queue	ออกจากคิว
+140011	Estimated Wait Time: <color=#63A22B>${1}</color>	เวลารอโดยประมาณ: <color=#63A22B>${1}</color>
+140012	Go to the Ally <color=#FDAB5B><u> Quartermaster</u></color> to Claim a Supply Transport cart and deliver Military Supplies.	ไปหา <color=#FDAB5B><u> Quartermaster</u></color> ฝ่ายพันธมิตรเพื่อรับรถขนส่งเสบียงและส่ง Military Supplies
+140013	Countdown	นับถอยหลัง
+140014	<color=#2fd3bb>[Supply Transport]</color> Escort Supplies	<color=#2fd3bb>[ Supply Transport ]</color> คุ้มกันเสบียง
+140015	Yet to start	ยังไม่เริ่ม
+140016	Escorting	กำลังคุ้มกัน
+140017	Escort Ended	การคุ้มกันสิ้นสุดแล้ว
+140018	Escort begins in <color=#fdab5b>${1}</color>	การคุ้มกันจะเริ่มใน <color=#fdab5b>${1}</color>
+140019	Supply Transport Phase	ช่วงขนส่งเสบียง
+140020	Supply Transport Phase	ช่วงขนส่งเสบียง
+140021	Supply Transport Phase	ช่วงขนส่งเสบียง
+140022	Masked Figure	บุคคลสวมหน้ากาก
+140023	This player is masked. You cannot view their personal information.	ผู้เล่นนี้สวมหน้ากาก คุณไม่สามารถดูข้อมูลส่วนตัวของเขาได้
+140024	"Tap to go to the <color=#FDAB5B><u> Supply Depot</u></color> and deliver the escort cart\nBasic Supply Cart <sprite name=""territorywars_icon_01""><color=#FDAB5B>${1}</color>\nElite Supply Cart <sprite name=""territorywars_icon_02""><color=#FDAB5B>${2}</color>"	"แตะเพื่อไปยัง <color=#FDAB5B><u> Supply Depot</u></color> และส่งรถคุ้มกัน\nรถเสบียงพื้นฐาน <sprite name=""territorywars_icon_01""><color=#FDAB5B>${1}</color>\nรถเสบียงชั้นสูง <sprite name=""territorywars_icon_02""><color=#FDAB5B>${2}</color>"
+140025	Your party has obtained a supply transport cart.	ปาร์ตี้ของคุณได้รับรถขนส่งเสบียงแล้ว
+140026	Your party successfully delivered the supply transport cart.	ปาร์ตี้ของคุณส่งรถขนส่งเสบียงสำเร็จแล้ว
+140027	You are now leading the supply transport cart.	ขณะนี้คุณเป็นผู้นำรถขนส่งเสบียง
+140028	Territory War Supply Transport has begun.	การขนส่งเสบียงใน Territory War เริ่มแล้ว
+140029	Everyone, head to the map to join the event.	ทุกคน ไปยังแผนที่เพื่อเข้าร่วมกิจกรรม
+140030	Personal Points: ${1}/${2}	คะแนนส่วนตัว: ${1}/${2}
+140031	Reach ${1}/${2} Supply Transport Points	ได้คะแนนขนส่งเสบียง ${1}/${2}
+140032	Destroyed ${1}	ทำลายแล้ว ${1}
+140034	Your party has begun escorting supplies. ${1} is the current leader.	ปาร์ตี้ของคุณเริ่มคุ้มกันเสบียงแล้ว ${1} เป็นผู้นำในขณะนี้
+140035	Supply Transport has begun. All members must head to the Territory War map immediately and begin escorting supplies. [Tap to Go]	การขนส่งเสบียงเริ่มแล้ว สมาชิกทุกคนต้องไปยังแผนที่ Territory War ทันทีและเริ่มคุ้มกันเสบียง [ Tap to Go ]
+140036	Attack supply transport carts to seize Military Supplies for your guild.	โจมตีรถขนส่งเสบียงเพื่อชิง Military Supplies ให้กิลด์ของคุณ
+140037	Escort the supply transport cart to the <color=#FDAB5B><u> Supply Depot</u></color> and repel raiders from other guilds.	คุ้มกันรถขนส่งเสบียงไปยัง <color=#FDAB5B><u> Supply Depot</u></color> และขับไล่ผู้ปล้นจากกิลด์อื่น
+140038	There are no supply transport carts to deliver!	ไม่มีรถขนส่งเสบียงให้ส่ง!
+140039	Leaving the battlefield will cause you to lose all undelivered Military Supplies. Do you still want to leave?	การออกจากสนามรบจะทำให้คุณสูญเสีย Military Supplies ที่ยังไม่ได้ส่งทั้งหมด ยืนยันที่จะออกหรือไม่?
+140040	"Remaining Supplies: <sprite name=""${1}"">${2}"	"เสบียงที่เหลือ: <sprite name=""${1}"">${2}"
+140041	Earn points through Kill/Assist/Destroying Escort Carts/Escorting Carts and other actions.	รับคะแนนจากการสังหาร/ช่วยสังหาร/ทำลายรถคุ้มกัน/คุ้มกันรถ และการกระทำอื่นๆ
+140042	Personal Points: ${1}	คะแนนส่วนตัว: ${1}
+140043	Supply Transport	ขนส่งเสบียง
+140044	Supplies Delivered	เสบียงที่ส่งแล้ว
+140045	Plunder Supplies	ปล้นเสบียง
+140046	Supplies Lost	เสบียงที่สูญเสีย
+140047	Remaining Supplies	เสบียงที่เหลือ
+140048	Normal Caravan	คาราวานธรรมดา
+140049	Elite Treasure Cart	รถสมบัติชั้นสูง
+140050	Go	ไป
+140051	Supplies Remaining:	เสบียงที่เหลือ:
+140052	Players:	ผู้เล่น:
+140053	Vehicles on the Field:	ยานพาหนะในสนาม:
+140054	Go to the guild transport starting point	ไปยังจุดเริ่มขนส่งของกิลด์
+140055	Locked	ยังไม่ปลดล็อก
+140056	Escorting	กำลังคุ้มกัน
+140057	Ended	สิ้นสุดแล้ว
+140058	Me	ฉัน
+140059	Can escort ${1} more	คุ้มกันได้อีก ${1}
+140060	Its location will not be shown on the map.	ตำแหน่งจะไม่แสดงบนแผนที่
+140061	The location will be shown on the map.	ตำแหน่งจะแสดงบนแผนที่
+140062	Go to the Quartermaster to collect the Supply Cart	ไปหา Quartermaster เพื่อรับรถเสบียง
+140063	Escort the supply cart to its destination	คุ้มกันรถเสบียงไปยังจุดหมาย
+140064	Find a supply cart on the battlefield and attack it to seize its supplies!	หารถเสบียงในสนามรบและโจมตีเพื่อชิงเสบียง!
+140066	No guild is currently escorting.	ยังไม่มีกิลด์กำลังคุ้มกัน
+140067	${1} (${2}s)	${1} (${2} วินาที)
+140068	Follow the Caravan Escort	ติดตามการคุ้มกันคาราวาน
+140069	Head to the Escort Wagon	ไปยังรถคุ้มกัน
+140070	The outpost has detected the supply cart your party is escorting. Quick, take cover!	ด่านหน้าตรวจพบรถเสบียงที่ปาร์ตี้ของคุณกำลังคุ้มกัน รีบเข้าที่กำบัง!
+140071	Please join a guild first	โปรดเข้าร่วมกิลด์ก่อน
+140072	There are no outposts on the current map.	ไม่มีด่านหน้าในแผนที่ปัจจุบัน
+140073	There are no teleport stations on the current map.	ไม่มีสถานีวาร์ปในแผนที่ปัจจุบัน
+140074	You are not on a Territory War map.	คุณไม่ได้อยู่ในแผนที่ Territory War
+140075	You are currently participating in a Caravan Escort. Leaving the guild will destroy your caravan. Confirm Exit from the guild?	คุณกำลังเข้าร่วมการคุ้มกันคาราวาน การออกจากกิลด์จะทำลายคาราวานของคุณ ยืนยันที่จะออกจากกิลด์หรือไม่?
+140076	This member has a caravan in transit. Removing them from the guild will destroy it. Are you sure you want to remove them?	สมาชิกนี้มีคาราวานกำลังเดินทาง การนำเขาออกจากกิลด์จะทำลายคาราวาน ยืนยันที่จะนำเขาออกหรือไม่?
+140077	Caravan Escort Route: ${1}	เส้นทางคุ้มกันคาราวาน: ${1}
+140078	Normal Caravan	คาราวานธรรมดา
+140079	Load Limit: 12000\nMSPD: 6 meters/second\nEscort Permissions: All Guild Members\nCaravan Trait: Its Location is not always shown on the Mini Map\nSuggested Escort Party: 1-3 players	ความจุบรรทุก: 12000\nMSPD: 6 เมตร/วินาที\nสิทธิ์คุ้มกัน: สมาชิกกิลด์ทุกคน\nคุณสมบัติคาราวาน: ตำแหน่งไม่ได้แสดงบนมินิแมปตลอดเวลา\nปาร์ตี้คุ้มกันที่แนะนำ: ผู้เล่น 1-3 คน
+140080	Elite Treasure Cart	รถสมบัติชั้นสูง
+140081	Load Limit: 45000\nMSPD: 6 meters/second\nEscort Permissions: Guild officers only\nCaravan Trait: Its Location is always shown on the Mini Map\nSuggested Escort Party: 3-5 players	ความจุบรรทุก: 45000\nMSPD: 6 เมตร/วินาที\nสิทธิ์คุ้มกัน: เจ้าหน้าที่กิลด์เท่านั้น\nคุณสมบัติคาราวาน: ตำแหน่งแสดงบนมินิแมปตลอดเวลา\nปาร์ตี้คุ้มกันที่แนะนำ: ผู้เล่น 3-5 คน
+140082	Not enough Military Supplies	Military Supplies ไม่เพียงพอ
+140083	Your Guild Position does not meet the requirements.	ตำแหน่งกิลด์ของคุณไม่ตรงตามข้อกำหนด
+140084	Currently Following a player.	กำลังติดตามผู้เล่น
+140085	Tap the caravan icon to Move to its Location.	แตะไอคอนคาราวานเพื่อไปยังตำแหน่งของมัน
+140086	Tap to Follow a party member participating in the Caravan Escort.	แตะเพื่อติดตามสมาชิกปาร์ตี้ที่กำลังคุ้มกันคาราวาน
+140087	Tap to Move to the caravan's Location.	แตะเพื่อไปยังตำแหน่งของคาราวาน
+141001	Your Account has been 【banned】. If you are Confused, please contact Customer Support.\nBan End Time: 【${1}】	บัญชีของคุณถูก [ banned ] หากมีข้อสงสัย กรุณาติดต่อฝ่ายบริการลูกค้า\nเวลาสิ้นสุดการแบน: [ ${1} ]
+141002	Your Character has been 【banned】. If you are Confused, please contact Customer Support.\nBan End Time: 【${1}】	ตัวละครของคุณถูก [ banned ] หากมีข้อสงสัย กรุณาติดต่อฝ่ายบริการลูกค้า\nเวลาสิ้นสุดการแบน: [ ${1} ]
+141003	Dear Adventurer,\nYour character has been forcibly logged out. Please log back in.\nThank You for your cooperation and understanding.	เรียนนักผจญภัย\nตัวละครของคุณถูกบังคับให้ออกจากระบบ กรุณาเข้าสู่ระบบอีกครั้ง\nขอบคุณสำหรับความร่วมมือและความเข้าใจ
+141004	Your Character has been 【muted】. If you are Confused, please contact Customer Support.\nMute End Time: 【${1}】	ตัวละครของคุณถูก [ muted ] หากมีข้อสงสัย กรุณาติดต่อฝ่ายบริการลูกค้า\nเวลาสิ้นสุดการปิดเสียง: [ ${1} ]
+141005	System Notification	การแจ้งเตือนระบบ
+141101	Redemption Code	รหัสแลกรางวัล
+141102	Enter gift code	ป้อนรหัสของขวัญ
+141103	Redemption failed. This code has expired.	แลกรางวัลไม่สำเร็จ รหัสนี้หมดอายุแล้ว
+141104	Bind Invitation Code	ผูกรหัสเชิญ
+141105	Redeemed. Check your mailbox for the rewards.	แลกรางวัลแล้ว ตรวจสอบกล่องจดหมายเพื่อรับรางวัล
+141150	Session ID: ${1}	ID เซสชัน: ${1}
+141152	The current gameplay experience does not represent final quality.	ประสบการณ์การเล่นปัจจุบันไม่ได้แสดงถึงคุณภาพขั้นสุดท้าย
+141200	Survey	แบบสำรวจ
+141201	Survey Deadline	กำหนดสิ้นสุดแบบสำรวจ
+141202	Complete the survey to receive rewards.	ตอบแบบสอบถามให้เสร็จเพื่อรับรางวัล
+141203	Participate Now	เข้าร่วมตอนนี้
+141204	Feedback	ความคิดเห็น
+141205	Thank You for participating in this test. We're getting the next adventure Ready, and we'd love to hear your honest thoughts—what got your blood pumping, and what left you wanting more?	ขอบคุณที่เข้าร่วมการทดสอบครั้งนี้ เรากำลังเตรียมการผจญภัยครั้งต่อไป และอยากฟังความคิดเห็นอย่างตรงไปตรงมาของคุณ—อะไรทำให้คุณตื่นเต้น และอะไรที่คุณอยากให้มีเพิ่ม?
+141206	Go Give Feedback	ไปส่งความคิดเห็น
+141207	"Survey Ends:<sprite name=""icon_questionnaire_time_03""><color=#63a22b>${1}</color>"	"แบบสอบถามสิ้นสุด:<sprite name=""icon_questionnaire_time_03""><color=#63a22b>${1}</color>"
+200001	Starshard Dragon Unseal	ปลดผนึก Starshard Dragon
+200002	Ritual	พิธีกรรม
+200003	${1}% Complete	สำเร็จ ${1}%
+200004	Ritual Acceleration	เร่งพิธีกรรม
+200005	Ritual Time Remaining: ${1}	เวลาพิธีกรรมที่เหลือ: ${1}
+200006	Ritual Acceleration	เร่งพิธีกรรม
+200007	Current Unseal Progress: ${1}%	ความคืบหน้าปลดผนึกปัจจุบัน: ${1}%
+200008	Spend ${1} to complete the Unseal?	ใช้ ${1} เพื่อปลดผนึกให้เสร็จหรือไม่?
+200009	Ritual Time Remaining: ${1}	เวลาพิธีกรรมที่เหลือ: ${1}
+200010	Dragon's Descent	การลงมาของมังกร
+200011	Head to the Scene	ไปยังพื้นที่
+200012	Click an empty area to cheer.	คลิกบริเวณว่างเพื่อส่งเสียงเชียร์
+200013	Unseal for Free	ปลดผนึกฟรี
+200014	Normal Unseal	ปลดผนึกทั่วไป
+200015	Advanced Unseal	ปลดผนึกขั้นสูง
+200016	Ultimate Unseal	ปลดผนึกขั้นสูงสุด
+200017	Ritual Funding	สนับสนุนทุนพิธีกรรม
+200018	Assist	ช่วยเหลือ
+200019	Send	ส่ง
+200020	Go	ไป
+200021	I'm summoning a giant dragon! Come help me!${1}	ฉันกำลังอัญเชิญมังกรยักษ์! มาช่วยฉันด้วย!${1}
+200022	I helped with the boss's Dragon Summon Quests!	ฉันช่วยเควสอัญเชิญมังกรของบอสแล้ว!
+200023	You've got this, Boss!	บอส คุณทำได้!
+200024	Longlong, hurry over here!	Longlong รีบมาที่นี่!
+200025	I can't wait to see what a 1,000,000 dragon looks like!	ฉันแทบรอไม่ไหวที่จะเห็นว่ามังกร 1,000,000 หน้าตาเป็นอย่างไร!
+200026	Thanks, Boss!	ขอบคุณ บอส!
+200027	Too many actions. Please try again later.	ทำรายการถี่เกินไป กรุณาลองอีกครั้งภายหลัง
+200028	${1} has begun the Starshatter Dragon summoning ritual. Adventurers, go lend a hand!${2}	${1} เริ่มพิธีอัญเชิญ Starshatter Dragon แล้ว นักผจญภัย ไปช่วยกัน!${2}
+200029	${1} has completed the Summon Ritual! The Starshatter Dragon will descend upon the main city in 30 seconds. Adventurers, come witness its arrival!${2}	${1} ทำพิธีอัญเชิญสำเร็จแล้ว! Starshatter Dragon จะลงมายังเมืองหลักใน 30 วินาที นักผจญภัย มาร่วมชมการมาถึงของมัน!${2}
+200030	The Assist Quest has ended.	เควสช่วยเหลือสิ้นสุดแล้ว
+200031	Begin Unsealing	เริ่มปลดผนึก
+200032	The ritual has ended, and the link is no longer active.	พิธีกรรมสิ้นสุดแล้ว และลิงก์ใช้ไม่ได้อีกต่อไป
+200033	Fund the Unsealing Ritual	สนับสนุนทุนพิธีปลดผนึก
+200034	The ritual can take up to 5 hours. Invite fellow Adventurers to participate and speed up the summoning process.	พิธีกรรมอาจใช้เวลาถึง 5 ชั่วโมง เชิญเพื่อนนักผจญภัยมาร่วมเพื่อเร่งการอัญเชิญ
+200035	Confirm Ritual	ยืนยันพิธีกรรม
+200036	Ritual Affiliation	สังกัดพิธีกรรม
+200037	Help Present the Gift	ช่วยมอบของขวัญ
+200038	Press and Hold to Charge Support	กดค้างเพื่อชาร์จการสนับสนุน
+200039	Ritual Acceleration	เร่งพิธีกรรม
+200040	Cheer	เชียร์
+200041	Head to the Scene	ไปยังพื้นที่
+200042	Celebrate the arrival of the Starshatter Dragon!	เฉลิมฉลองการมาถึงของ Starshatter Dragon!
+200043	Leaving the area or dismounting will immediately end ${1}. Are you sure you want to end the skill?	การออกจากพื้นที่หรือลงจากสัตว์ขี่จะสิ้นสุด ${1} ทันที ยืนยันที่จะสิ้นสุดสกิลหรือไม่?
+200045	${1} is about to forge a covenant with the Lord of the Starry Sky! Hurry and watch the performance!	${1} กำลังจะทำพันธสัญญากับ Lord of the Starry Sky! รีบไปชมการแสดง!
+200046	Watch	ชม
+200047	Close	ปิด
+200048	Exit	ออก
+200049	"Get <sprite name=""${3}"">${4} with help from other players"	"รับ <sprite name=""${3}"">${4} ด้วยความช่วยเหลือจากผู้เล่นอื่น"
+200050	Assistance request sent to the <color=#F4F2E9>${1}</color> Channel	ส่งคำขอความช่วยเหลือไปยังช่อง <color=#F4F2E9>${1}</color> แล้ว
+210001	The creation hymn of Ilmatar, Goddess of Nature, lies scattered across the world in the form of 【Melody Conches】.\nPluck the strings and resonate with her melody. Gather the lost notes and compose nature's song.	บทเพลงแห่งการสร้างสรรค์ของ Ilmatar เทพธิดาแห่งธรรมชาติ กระจัดกระจายไปทั่วโลกในรูปของ [ Melody Conches ]\nดีดสายและบรรเลงประสานท่วงทำนองของเธอ รวบรวมโน้ตที่สูญหายและประพันธ์บทเพลงแห่งธรรมชาติ
+210002	Today's Drops: ${1}/${2}	ของดรอปวันนี้: ${1}/${2}
+210003	Note Drops	โน้ตที่ดรอป
+210004	Exploration Map	แผนที่สำรวจ
+210005	Unlocks in ${1}d ${2}h	ปลดล็อกใน ${1} วัน ${2} ชั่วโมง
+210006	Drag the notes to the matching positions to compose the melody.	ลากโน้ตไปยังตำแหน่งที่ตรงกันเพื่อประพันธ์ท่วงทำนอง
+210007	Performance Instructions	คำแนะนำการบรรเลง
+210008	Tap the buttons at the bottom to play the corresponding notes. Play the required song in the correct order to complete the stage.	แตะปุ่มด้านล่างเพื่อเล่นโน้ตที่ตรงกัน เล่นเพลงที่กำหนดตามลำดับที่ถูกต้องเพื่อผ่านด่าน
+210009	Explore the region associated with each movement to obtain <color=#ff6161>Melody Conches</color> and <color=#ff6161>Lost Notes</color>.\nDrag <color=#ff6161>Lost Notes</color> into the measure, and the corresponding story quest Can be unlocked.\nExchange <color=#ff6161>Melody Conches</color> for <color=#ff6161>Lost Notes</color> in the Exploration Shop.	สำรวจพื้นที่ที่เกี่ยวข้องกับแต่ละท่อนเพื่อรับ <color=#ff6161>Melody Conches</color> และ <color=#ff6161>Lost Notes</color>\nลาก <color=#ff6161>Lost Notes</color> ลงในห้องเพลงเพื่อปลดล็อกเควสเนื้อเรื่องที่ตรงกัน\nแลก <color=#ff6161>Melody Conches</color> เป็น <color=#ff6161>Lost Notes</color> ได้ที่ร้านค้าสำรวจ
+210010	Not enough Notes. Go collect more.	Notes ไม่เพียงพอ ไปเก็บเพิ่ม
+210011	Incorrect selection! Please insert the correct notes.	เลือกไม่ถูกต้อง! โปรดใส่โน้ตที่ถูกต้อง
+210013	This note is already lit. No need to try again.	โน้ตนี้สว่างแล้ว ไม่ต้องลองอีกครั้ง
+210014	Movement ${1} ${2}%	ท่อนที่ ${1} ${2}%
+210015	Exploration Shop	ร้านสำรวจ
+210017	This movement is not yet available.	ท่อนนี้ยังไม่เปิดให้เล่น
+210019	Chapter Reward	รางวัลบท
+210020	Chapter Objective	เป้าหมายบท
+210021	Rewards	รางวัล
+270000	Your friends list is full.	รายชื่อเพื่อนของคุณเต็มแล้ว
+270001	You are already on this player's friend request list.	คุณอยู่ในรายการคำขอเป็นเพื่อนของผู้เล่นนี้แล้ว
+270002	You are already friends.	คุณเป็นเพื่อนกันอยู่แล้ว
+270003	This player's friend request list is full.	รายการคำขอเป็นเพื่อนของผู้เล่นนี้เต็มแล้ว
+270004	Your friends list is full.	รายชื่อเพื่อนของคุณเต็มแล้ว
+270005	This player's friends list is full.	รายชื่อเพื่อนของผู้เล่นนี้เต็มแล้ว
+270006	This player is no longer on your friend request list.	ผู้เล่นนี้ไม่อยู่ในรายการคำขอเป็นเพื่อนของคุณแล้ว
+270007	No information available.	ไม่มีข้อมูล
+270008	Group Name:	ชื่อกลุ่ม:
+270009	Friend Recommendations	แนะนำเพื่อน
+270010	Waiting for the recipient to Claim the gift	รอผู้รับรับของขวัญ
+280000	Mock Battle	การต่อสู้จำลอง
+280001	Opens in ${1}	เปิดในอีก ${1}
+280002	Finding a match...	กำลังค้นหาการแข่งขัน...
+280005	Battle Points	คะแนนการรบ
+280006	Career Total Points	คะแนนรวมตลอดการเล่น
+280007	Career Total Kills	การสังหารรวมตลอดการเล่น
+280008	Career Total Assists	การช่วยสังหารรวมตลอดการเล่น
+280009	Career Total DMG	DMG รวมตลอดการเล่น
+280010	Career Total DMG Taken	DMG ที่ได้รับรวมตลอดการเล่น
+280011	Career Total Healing	การฟื้นฟูรวมตลอดการเล่น
+280012	Season Data	ข้อมูลฤดูกาล
+280013	Match History	ประวัติการแข่งขัน
+280014	You already have a Battlefield Skill and cannot Pick up another.	คุณมีสกิลสนามรบแล้ว ไม่สามารถเก็บอีกสกิลได้
+280015	The Battle has already started. If you Exit, you cannot Join again.\nAre you sure you want to Exit?	การรบเริ่มแล้ว หากออก คุณจะไม่สามารถเข้าร่วมอีกได้\nยืนยันที่จะออกหรือไม่?
+280016	Reward Count refreshes every Monday at 5:00	จำนวนรับรางวัลรีเฟรชทุกวันจันทร์เวลา 5:00
+280017	Battles Start at 16:00, 16:20, and 16:40 every Sunday	การรบเริ่มเวลา 16:00, 16:20 และ 16:40 ทุกวันอาทิตย์
+280018	Registration for ${1} is now open.	เปิดรับสมัคร ${1} แล้ว
+280019	Weekly Rewards Claim Count: ${1}/${2}	จำนวนรับรางวัลรายสัปดาห์: ${1}/${2}
+280020	Cannot Enter as a team	ไม่สามารถเข้าเป็นทีมได้
+280021	Mock Battle	การต่อสู้จำลอง
+280022	Mock Battle	การต่อสู้จำลอง
+280023	Participation Rewards	รางวัลเข้าร่วม
+280024	Show Party	แสดงปาร์ตี้
+280025	Start Matching	เริ่มจับคู่
+280026	Result	ผลลัพธ์
+280027	Points	แต้ม
+280028	Kill	สังหาร
+280029	Assist	ช่วยเหลือ
+280030	Time	เวลา
+280031	Best Squad	ทีมยอดเยี่ยม
+280032	Points Are King	คะแนนคือราชา
+280033	Rank	อันดับ
+280034	Name	ชื่อ
+280035	Name	ชื่อ
+280036	Battleground Info	ข้อมูลสนามรบ
