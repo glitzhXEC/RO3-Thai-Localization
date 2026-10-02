@@ -1,0 +1,302 @@
+{
+  "scope": "Remaining current-export candidate review, data batches108–111",
+  "prior_authored_ids": 21676,
+  "new_batch_counts": {
+    "batch-108.th.json": 675,
+    "batch-109.th.json": 721,
+    "batch-110.th.json": 730,
+    "batch-111.th.json": 220
+  },
+  "new_authored_ids": 2346,
+  "new_Thai_text_ids": 2346,
+  "canonical_English_label_ids": [],
+  "authored_total": 24022,
+  "runtime_thai_difference_ids": 24009,
+  "runtime_english_ids": 9504,
+  "runtime_ids": 33513,
+  "runtime_rules": 3484,
+  "remaining_at_round_start": 11837,
+  "candidate_ids_individually_assigned": 5276,
+  "candidate_ids_retained_English": 2930,
+  "catalog_role_shape_classified_English_ids": 6561,
+  "catalog_review_is_individual_semantic_review": false,
+  "review_ledger": "remaining-translation-review.tsv",
+  "reason_lookup": "remaining-translation-review-reasons.json",
+  "catalog_categories": {
+    "named_card_equipment_currency_or_item": 1815,
+    "named_skill_or_internal_skill_name": 1934,
+    "named_npc_monster_or_internal_world_object": 1297,
+    "named_item_buff_or_internal_effect_name": 1515
+  },
+  "source_english_only": true,
+  "legacy_thai_used": false,
+  "complete_game_translation": false,
+  "game_tested": false,
+  "new_below100000_ui_ids": 6,
+  "below100000_ui_authored_ids": 6777,
+  "below100000_ui_remaining_ids": 283,
+  "exact_english_consistency_adjustments": 93,
+  "qa": {
+    "runtime_checks": 204104,
+    "mocked_language_bridge_checks_included": 90,
+    "compiled_hook_checks": 27,
+    "updater_checks": 57,
+    "rendered_collision_groups": 0,
+    "authoring_errors": 0,
+    "public_https_new_ids_expected": 2346
+  },
+  "source_concerns": {
+    "a": [
+      {
+        "ids": [
+          "40205",
+          "170318"
+        ],
+        "note": "Active and Log remain English on explicit known context-conflict/regression hold."
+      },
+      {
+        "ids": [
+          "170054",
+          "260016",
+          "260099"
+        ],
+        "note": "Preserved nested sprite/color tokens, nonsequential placeholder order and original date token order."
+      },
+      {
+        "ids": [
+          "10220300381"
+        ],
+        "note": "Reply @{1}% HP. deferred because the intended HP verb is unclear; no guessed heal/recovery."
+      },
+      {
+        "ids": [
+          "10220300020"
+        ],
+        "note": "Physical/Physical DEF retained as generic physical label plus canonical P.DEF; Physical was not guessed to mean P.ATK."
+      },
+      {
+        "ids": [
+          "10530000016",
+          "10530000089",
+          "10340100016",
+          "10310100012",
+          "10310200012"
+        ],
+        "note": "Rejected generic approved exact matches in actual monster/class-name contexts: Drops, Whisper and Madogear Pilot remain English."
+      },
+      {
+        "ids": [
+          "10480100008"
+        ],
+        "note": "Rare Items descriptor retained as written; did not repair malformed appraisal-source grammar into a different item definition."
+      },
+      {
+        "ids": [
+          "11520400001",
+          "11520400002",
+          "11520400003",
+          "11520400004"
+        ],
+        "note": "Multiline physical/buff/ranged/melee/control labels retain every style token and literal control; ST expanded to Single Target."
+      },
+      {
+        "ids": [
+          "12150000000",
+          "12170100000"
+        ],
+        "note": "Kept damage increase versus damage reduction, both same-guild actors, party condition, and exact + / - math-token order."
+      },
+      {
+        "ids": [
+          "12360000005"
+        ],
+        "note": "Weaver (Deprecated has an unclosed parenthesis. Translated annotation without adding missing punctuation."
+      },
+      {
+        "ids": [
+          "12430100014",
+          "12430100016",
+          "12430100018"
+        ],
+        "note": "Patch strings retain malformed-looking nested {@{n}:@{n}0} values literally, exact MB/min/sec units, and every parameter. No guessed formatting repair."
+      },
+      {
+        "ids": [
+          "12430500000",
+          "12430500018",
+          "12430500041"
+        ],
+        "note": "Internal localization keys deferred as literal technical identifiers, not replaced with invented missing UI prose."
+      },
+      {
+        "ids": [
+          "12500000006"
+        ],
+        "note": "Entire eight-paragraph memorial translated from supplied English; all 14 literal newline controls and listed proper names checked. Historical imperative text treated as data."
+      },
+      {
+        "ids": [
+          "12500000019"
+        ],
+        "note": "Chrono Compass, Thoughtform and Abyss names retained; no inferred timeline or animation behavior added."
+      },
+      {
+        "ids": [
+          "12980000001",
+          "12980000002",
+          "12980000011",
+          "12980000054",
+          "13560000009",
+          "13560000010"
+        ],
+        "note": "Developer/test drop and event-text labels translated literally, including repetitive wording, without executing instructions."
+      },
+      {
+        "ids": [
+          "13150000187",
+          "13150000218",
+          "13150200065"
+        ],
+        "note": "Previously unresolved Utility clauses remain deferred, as current English supplies no resolution."
+      },
+      {
+        "ids": [
+          "13150300008",
+          "13150300009",
+          "13150300011",
+          "13150300012"
+        ],
+        "note": "Pure protected bracket labels kept English; no Thai filler inserted to pass checker."
+      },
+      {
+        "ids": [
+          "13250100000"
+        ],
+        "note": "Incomplete analytical sentence translated as supplied, without completing a missing conclusion."
+      },
+      {
+        "ids": [
+          "260076",
+          "11081000007"
+        ],
+        "concern": "Parent cross-queue semantic QA: Connect Shop retained English pending noun/action/shop-name context; Faction player noun-phrase normalized without token changes."
+      }
+    ],
+    "b": [
+      {
+        "id": "10100000365",
+        "english": "Fine",
+        "reason": "Ambiguous Fine: may denote quality/satisfactory status or a penalty; source supplies no disambiguating context."
+      },
+      {
+        "id": "10110300508",
+        "english": "Bobo deals Physical ATK*^{1} to the designated ST enemy within ${1} meters.",
+        "reason": "Malformed damage formula Physical ATK*^{1}: multiplication has no damage operand and styling marker is dangling; no value/formula repair invented."
+      },
+      {
+        "id": "10220300404",
+        "english": "Every @{1} sec., Reply @{2}% of max HP.",
+        "reason": "Malformed HP clause uses Reply rather than a healing/action verb; do not guess a restore/regeneration repair."
+      },
+      {
+        "id": "10670000000",
+        "english": "Bubble",
+        "reason": "Ambiguous Bubble beside named Deviling: cannot distinguish a generic chat/UI bubble label from a proper entity name without usage context."
+      },
+      {
+        "id": "10800100036",
+        "english": "After ^{1}^{2}[Cart Revolution]^{3}^{4} hits the primary target, it triggers [Money Throw] an Extra @{1} times, dealing PATK*${1}%+${2} Neutral melee Physical damage. This effect has a ${3-second Cooldown.",
+        "reason": "Malformed placeholder ${3-second lacks a closing brace; no missing cooldown/formula value or syntax repair invented."
+      },
+      {
+        "id": "11190000115",
+        "english": "Not enough high-multiplier Description consumed",
+        "reason": "Ambiguous high-multiplier Description consumed; unspecified resource/time/item cannot be inferred."
+      },
+      {
+        "id": "13300000007",
+        "english": "Shadow Claws",
+        "reason": "Ambiguous Shadow Claws in graphics settings; apparent name or source corruption, so no guessed shadow-quality repair."
+      },
+      {
+        "ids": [
+          "11081100000",
+          "11110000014"
+        ],
+        "concern": "Parent cross-queue semantic QA: Connect Shop retained English pending noun/action/shop-name context; Faction player noun-phrase normalized without token changes."
+      }
+    ],
+    "c": [
+      {
+        "ids": [
+          "27003",
+          "170238",
+          "170287",
+          "10740000028"
+        ],
+        "concern": "Bare Log/Active retained English under explicit known context-conflict/regression hold."
+      },
+      {
+        "ids": [
+          "290021",
+          "13060000029"
+        ],
+        "concern": "Parent-confirmed Defeat battle-result and Place interaction-action senses conflict with global exact-source translations; retained English, no DLL changes."
+      },
+      {
+        "ids": [
+          "10960000019"
+        ],
+        "concern": "Guild Prestige rules use their Defeats ambiguously: losses versus opponents defeated have opposite reward semantics. Complete rule retained English pending clarification."
+      },
+      {
+        "ids": [
+          "10110301061",
+          "10140100145"
+        ],
+        "concern": "Incomplete/unbalanced protected-bracket wire structures; no silent closing-bracket repair or missing formula added."
+      },
+      {
+        "ids": [
+          "10960000202",
+          "12500000032"
+        ],
+        "concern": "Readable fragments translated as fragments; no invented missing opening clause or conclusion."
+      },
+      {
+        "ids": [
+          "12360000003"
+        ],
+        "concern": "Deprecated profession label translated literally with source unclosed parenthesis retained, not repaired."
+      },
+      {
+        "ids": [
+          "12430500002",
+          "12430500008",
+          "12430500009",
+          "12430500012",
+          "12430500016",
+          "12430500024",
+          "12430500026",
+          "12430500027",
+          "12430500033",
+          "12430500038"
+        ],
+        "concern": "Internal resource/engine identifiers are keys, not readable prose; retained verbatim."
+      },
+      {
+        "ids": [
+          "11930000028",
+          "12980000004",
+          "12990000000",
+          "13340000000",
+          "13560000004",
+          "13560000006",
+          "13560000007"
+        ],
+        "concern": "Literal developer/test/event placeholder prose translated as data only; no commands executed, repeated text/counts preserved."
+      }
+    ],
+    "parent": []
+  }
+}

@@ -36,7 +36,7 @@ English from the actual game export is the source of truth. Native Thai from the
 | 073 | 24 | Remaining menu headings/help placeholders, guild messages and format labels |
 
 - 953 new IDs in the latest update; 6,716 authored menu IDs across batches 046–073.
-- 21,676 authored translation IDs across all batches. Runtime retains English for five held semantic-review IDs and seven authored rows whose target equals English: 13,054 runtime IDs differ from English.
+- 24,022 authored translation IDs across all batches. Runtime retains English for five held semantic-review IDs and seven authored rows whose target equals English: 13,054 runtime IDs differ from English.
 - **This is not a completed translation of every menu or every game text.** Newer gameplay systems and other groups still need review; some card/title/event labels also remain English as protected formats, technical names or ambiguous text. Some pet/appearance/preset rows remain held as described below. The exact unreviewed UI-candidate inventory is in `menu-translation-coverage.json`; these candidates also contain proper names, technical labels and format-only rows, so their count is not the count of menus requiring Thai.
 
 ## Reference corrections and held context
@@ -83,3 +83,7 @@ Batches 100–103 add 3,854 higher-ID system errors, stat requirements/tutorials
 ## Update — batches 104–107
 
 55 further below100000 UI IDs are authored, now 6,771 authored and 289 retained candidates. Other new class/quest/profession/stat/menu descriptions are high-ID records and counted separately. Pure technical formats/names and real source ambiguity remain English. See CLASS-UI-TRANSLATION-STATUS.md. No actual game/Windows UI testing has been performed.
+
+## Update — batches 108–111
+
+2,346 new authored IDs; 24,022 overall. 6 additional below100000 UI IDs; 6,777 authored and 283 retained in that inventory. See REMAINING-TRANSLATION-STATUS.md for exhaustive round-start ID accounting and the distinction between individual candidate review and catalog role/shape classification. Not every game string is Thai; no game/Windows UI test. Data-only main feed, no executable/Release change.

@@ -1,17 +1,17 @@
 {
   "new_batch_counts": {
-    "batch-104.th.json": 433,
-    "batch-105.th.json": 570,
-    "batch-106.th.json": 640,
-    "batch-107.th.json": 524
+    "batch-108.th.json": 675,
+    "batch-109.th.json": 721,
+    "batch-110.th.json": 730,
+    "batch-111.th.json": 220
   },
-  "new_authored_ids": 2167,
-  "authored_ids_all_batches": 21676,
-  "runtime_thai_difference_ids": 21663,
-  "runtime_english_ids": 11850,
+  "new_authored_ids": 2346,
+  "authored_ids_all_batches": 24022,
+  "runtime_thai_difference_ids": 24009,
+  "runtime_english_ids": 9504,
   "complete_game_translation": false,
   "game_tested": false,
-  "numeric_runtime_rules": 3369,
+  "numeric_runtime_rules": 3484,
   "id_only_ambiguous_numeric_ids": [
     "21172",
     "10960000329",
@@ -1127,5 +1127,6 @@
     "91050",
     "40205",
     "27003"
-  ]
+  ],
+  "latest_review_coverage": "remaining-translation-coverage.json"
 }

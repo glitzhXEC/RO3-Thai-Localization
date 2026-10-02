@@ -1,11 +1,11 @@
 {
   "scope": "Un-authored source IDs below 100000; not the complete game backlog. Classifications are conservative and unresolved context is not guessed.",
-  "remaining_ids": 289,
+  "remaining_ids": 283,
   "counts_by_reason": {
-    "technical_stat_or_format_string": 168,
+    "technical_stat_or_format_string": 166,
     "bracket_content_protected_by_current_runtime": 17,
-    "requires_context_or_terminology_review": 18,
-    "retained_source_name_or_named_game_term": 86
+    "requires_context_or_terminology_review": 16,
+    "retained_source_name_or_named_game_term": 84
   },
   "complete_game_translation": false,
   "game_tested": false,
@@ -346,11 +346,6 @@
       "reason": "technical_stat_or_format_string"
     },
     {
-      "id": "23473",
-      "english": "MAX",
-      "reason": "technical_stat_or_format_string"
-    },
-    {
       "id": "23518",
       "english": "Lv. ${1}",
       "reason": "technical_stat_or_format_string"
@@ -364,11 +359,6 @@
       "id": "23709",
       "english": "-/-",
       "reason": "technical_stat_or_format_string"
-    },
-    {
-      "id": "24021",
-      "english": "Call Mio!!",
-      "reason": "requires_context_or_terminology_review"
     },
     {
       "id": "24063",
@@ -766,11 +756,6 @@
       "reason": "technical_stat_or_format_string"
     },
     {
-      "id": "40147",
-      "english": "Get ${1} Off Summons",
-      "reason": "requires_context_or_terminology_review"
-    },
-    {
       "id": "40159",
       "english": "Lv. ${1}",
       "reason": "technical_stat_or_format_string"
@@ -946,11 +931,6 @@
       "reason": "technical_stat_or_format_string"
     },
     {
-      "id": "50138",
-      "english": "Mountain",
-      "reason": "retained_source_name_or_named_game_term"
-    },
-    {
       "id": "52007",
       "english": "${1}:${2}:${3}",
       "reason": "technical_stat_or_format_string"
@@ -971,11 +951,6 @@
       "reason": "retained_source_name_or_named_game_term"
     },
     {
-      "id": "54069",
-      "english": "MAX",
-      "reason": "technical_stat_or_format_string"
-    },
-    {
       "id": "54108",
       "english": "Novice",
       "reason": "retained_source_name_or_named_game_term"
@@ -988,11 +963,6 @@
     {
       "id": "56201",
       "english": "Divine Blessing:",
-      "reason": "retained_source_name_or_named_game_term"
-    },
-    {
-      "id": "56202",
-      "english": "Light of Bonds:",
       "reason": "retained_source_name_or_named_game_term"
     },
     {
