@@ -1,4 +1,4 @@
-# RO3 Thai Patch Minimal Runtime Alpha — v0.4.3
+# RO3 Thai Patch Skill Text Hotfix Alpha — v0.4.4
 
 รุ่นนี้แสดงสองเวอร์ชันแยกกัน: รุ่น runtime/ตัวติดตั้ง และรุ่นข้อมูลคำแปลจาก GitHub อัปเดต runtime เมื่อมี Installer รุ่นใหม่กว่า; อัปเดตข้อมูลคำแปลได้โดยไม่ดาวน์โหลด Installer/Client ใหม่ และถอนเฉพาะไฟล์ของแพตช์ได้
 
@@ -15,7 +15,7 @@
 
 payload มีเฉพาะ BepInEx/Harmony runtime ที่ปลั๊กอินใช้, ปลั๊กอินแปลไทยของโครงการ, dictionaries และตัวอัปเดต translations feed ไม่ติดตั้ง XUnity AutoTranslator, XUnity ResourceRedirector, config ของ XUnity หรือ TMP font bundle เพราะ source/runtime ของเราไม่ได้เรียกใช้ส่วนเหล่านั้น การแปลข้อความไม่ได้พึ่งบริการ machine translation
 
-hook ข้อความ UI ทั่วไปแปลเฉพาะข้อความต้นฉบับที่ตรงกับรายการอนุมัติทั้งประโยค ไม่ไล่ regex หลายพันกฎกับข้อความแชตหรือข้อความที่ผู้เล่นพิมพ์; คำอธิบายที่มีตัวแปรยังแปลผ่าน localization ID ของเกม
+hook ข้อความ UI ทั่วไปแปลข้อความต้นฉบับที่อนุมัติแบบตรงตัวก่อน สำหรับคำอธิบายสกิลที่มีตัวเลขหรือตัวแปร จะค้นเฉพาะ regex กฎที่มี prefix ตรงกัน แทนการไล่ตรวจทุกกฎกับข้อความแชต จึงคืนการแปลข้อความสกิลแบบไดนามิกโดยจำกัดงานที่ทำกับข้อความอื่น
 
 เมื่ออัปเดตจากรุ่นก่อน Installer จะนำไฟล์เก่าของ XUnity ออกเฉพาะรายการที่ ownership marker รุ่นก่อนระบุว่า Installer เป็นผู้ติดตั้ง ถ้ามีไฟล์ดั้งเดิมที่ถูกแทนไว้จะคืนไฟล์นั้นตาม ownership record ส่วน XUnity/ม็อดที่ผู้ใช้ติดตั้งเองและไม่มี ownership ใน marker จะไม่แตะต้อง
 
@@ -31,11 +31,11 @@ hook ข้อความ UI ทั่วไปแปลเฉพาะข้�
 
 การอัปเดตแคชคำแปลและการตั้งค่าที่ผู้ใช้แก้จะไม่ถูกทับระหว่างอัปเดต แต่ไฟล์เหล่านี้จะถูกถอนตามรายการ ownership เมื่อถอนแพตช์
 
-runtime รุ่นนี้เพิ่ม exact-origin fallback สำหรับป้าย UI จีนสั้น `取下` → `ถอด` ซึ่งบางหน้าจอส่งเข้า text setter โดยไม่มี localization ID ดู [สาเหตุและวิธีแก้แบบเต็ม](TRANSLATION-UI-SHORT-STRING-FIX.md)
+รุ่นนี้สืบทอด exact-origin fallback สำหรับป้าย UI จีนสั้น `取下` → `ถอด` ซึ่งบางหน้าจอส่งเข้า text setter โดยไม่มี localization ID และเพิ่ม prefix-indexed matching สำหรับข้อความสกิลแบบไดนามิก
 
 ## สถานะและข้อจำกัด
 
-- รุ่นเป้าหมาย `v0.4.3-minimal-runtime-alpha.1` เป็น prerelease/Alpha
+- รุ่นเป้าหมาย `v0.4.4-minimal-runtime-alpha.1` เป็น prerelease/Alpha
 - รองรับ Windows x64 และ RO3 Unity Mono x64 ตามการตรวจใน Client ที่เลือก; runtime ใช้ BepInEx/Harmony ไม่มี XUnity
 - ไม่ทดสอบ GUI ใน Windows หรือแสดงผลในเกมโดยอัตโนมัติ; ให้ตรวจหน้าจอจริงหลังติดตั้ง
 - `SHA256SUMS.txt` ใช้ตรวจความสมบูรณ์ของไฟล์ดาวน์โหลด

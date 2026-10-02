@@ -36,7 +36,7 @@ jobs:
       contents: write
     env:
       GH_TOKEN: ${{ github.token }}
-      TAG: v0.4.3-minimal-runtime-alpha.1
+      TAG: v0.4.4-minimal-runtime-alpha.1
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -96,11 +96,11 @@ jobs:
         run: |
           gh release view $env:TAG --repo $env:GITHUB_REPOSITORY *> $null
           if ($LASTEXITCODE -ne 0) {
-            gh release create $env:TAG --repo $env:GITHUB_REPOSITORY --target $env:GITHUB_SHA --draft --prerelease --latest=false --title 'RO3 Thai Patch — Minimal Runtime Alpha (ยังไม่ทดสอบในเกม)' --notes-file docs/INSTALLER-UPDATE-RELEASE.md
+            gh release create $env:TAG --repo $env:GITHUB_REPOSITORY --target $env:GITHUB_SHA --draft --prerelease --latest=false --title 'RO3 Thai Patch — Skill Text Hotfix Alpha (ยังไม่ทดสอบในเกม)' --notes-file docs/INSTALLER-UPDATE-RELEASE.md
             if ($LASTEXITCODE -ne 0) { throw 'Create failed' }
           }
           $assets = Get-ChildItem dist/release -File | ForEach-Object { $_.FullName }
           gh release upload $env:TAG $assets --repo $env:GITHUB_REPOSITORY --clobber
           if ($LASTEXITCODE -ne 0) { throw 'Upload failed' }
-          gh release edit $env:TAG --repo $env:GITHUB_REPOSITORY --draft=false --prerelease --latest=false --title 'RO3 Thai Patch — Minimal Runtime Alpha (ยังไม่ทดสอบในเกม)' --notes-file docs/INSTALLER-UPDATE-RELEASE.md
+          gh release edit $env:TAG --repo $env:GITHUB_REPOSITORY --draft=false --prerelease --latest=false --title 'RO3 Thai Patch — Skill Text Hotfix Alpha (ยังไม่ทดสอบในเกม)' --notes-file docs/INSTALLER-UPDATE-RELEASE.md
           if ($LASTEXITCODE -ne 0) { throw 'Publish failed' }

@@ -8,11 +8,13 @@ namespace RO3.ThaiLocalization
     public sealed class SkillDictionary
     {
         private sealed class Row { public string English = "", Thai = "", EnglishDecoded = "", ThaiDecoded = "", Cn = "", Tw = "", CnWire = "", TwWire = ""; }
-        private sealed class Rule { public Regex Pattern = null!; public string Replacement = ""; }
+        private sealed class Rule { public Regex Pattern = null!; public string Replacement = ""; public string Prefix = ""; public bool StartsWithNumber; }
         private readonly Dictionary<string, Row> byId = new Dictionary<string, Row>(StringComparer.Ordinal);
         private readonly Dictionary<string, string> exact = new Dictionary<string, string>(StringComparer.Ordinal);
         private readonly Dictionary<string, string> exactOrigins = new Dictionary<string, string>(StringComparer.Ordinal);
         private readonly List<Rule> rules = new List<Rule>();
+        private readonly Dictionary<string, List<Rule>> rulesByPrefix = new Dictionary<string, List<Rule>>(StringComparer.Ordinal);
+        private readonly List<Rule> unindexedRules = new List<Rule>();
         private readonly Dictionary<string, string> cache = new Dictionary<string, string>(StringComparer.Ordinal);
         private readonly object sync = new object();
         public int Count { get { return byId.Count; } }
@@ -80,7 +82,18 @@ namespace RO3.ThaiLocalization
                 if (englishOnly.Contains(result.byId[cells[0]].English)) throw new InvalidDataException("Rule would affect English-only IDs with the same text");
                 if (cells[1].Length > 20000 || cells[2].Length > 10000 || result.rules.Count >= 50000) throw new InvalidDataException("Rule limit exceeded");
                 if (!cells[1].StartsWith(@"\A", StringComparison.Ordinal) || !cells[1].EndsWith(@"\z", StringComparison.Ordinal)) throw new InvalidDataException("Unanchored skill rule");
-                result.rules.Add(new Rule { Pattern = new Regex(cells[1], RegexOptions.CultureInvariant, TimeSpan.FromMilliseconds(50)), Replacement = Decode(cells[2]) });
+                var rule = new Rule { Pattern = new Regex(cells[1], RegexOptions.CultureInvariant, TimeSpan.FromMilliseconds(50)), Replacement = Decode(cells[2]) };
+                rule.Prefix = ExtractRulePrefix(cells[1]);
+                rule.StartsWithNumber = cells[1].StartsWith(@"\A(?<p0>", StringComparison.Ordinal);
+                result.rules.Add(rule);
+                if (rule.Prefix.Length >= 3)
+                {
+                    string key = rule.Prefix.Substring(0, 3);
+                    List<Rule> bucket;
+                    if (!result.rulesByPrefix.TryGetValue(key, out bucket!)) result.rulesByPrefix[key] = bucket = new List<Rule>();
+                    bucket.Add(rule);
+                }
+                else result.unindexedRules.Add(rule);
             }
             if (result.Count == 0) throw new InvalidDataException("Empty translation table");
             return result;
@@ -246,6 +259,117 @@ namespace RO3.ThaiLocalization
                 if (input.Length >= 45 && exact.TryGetValue(input, out output!)) return output;
                 return input;
             }
+        }
+
+        // Generic Unity setters also receive player chat. Keep their common path to
+        // exact dictionary lookups, then try only regex rules with a matching literal
+        // prefix. This preserves formatted/dynamic skill text without scanning the
+        // whole translation rule set for every chat line.
+        public string TranslateUiText(string input)
+        {
+            if (String.IsNullOrEmpty(input) || input.Length > 6000) return input;
+            lock (sync)
+            {
+                string output;
+                if (HasChinese(input) && exactOrigins.TryGetValue(input, out output!)) return output;
+                if (input.Length >= 45 && exact.TryGetValue(input, out output!)) return output;
+                if (cache.TryGetValue(input, out output!)) return output;
+                if (input.Length < 8 || Regex.IsMatch(input, @"[\u0E00-\u0E7F]")) return input;
+
+                int start = SkipLeadingRichText(input);
+                List<Rule> candidates;
+                if (input.Length - start >= 3 && rulesByPrefix.TryGetValue(input.Substring(start, 3), out candidates!))
+                {
+                    output = MatchRules(input, candidates, start);
+                    if (output != input) return CacheTranslation(input, output);
+                }
+
+                // The remaining rules begin with a numeric capture, optional rich text,
+                // or a small alternation (such as 【Skill】 / [Skill]). These markers are
+                // uncommon in chat and gate the fallback rules.
+                if (unindexedRules.Count != 0 && HasRuleMarker(input))
+                {
+                    output = MatchRules(input, unindexedRules, start);
+                    if (output != input) return CacheTranslation(input, output);
+                }
+                return input;
+            }
+        }
+
+        private static string MatchRules(string input, IEnumerable<Rule> candidates, int prefixStart)
+        {
+            foreach (var rule in candidates)
+            {
+                if (rule.Prefix.Length >= 3 && !StartsAt(input, prefixStart, rule.Prefix)) continue;
+                if (rule.StartsWithNumber && (prefixStart >= input.Length || !(Char.IsDigit(input[prefixStart]) || input[prefixStart] == '+' || input[prefixStart] == '-'))) continue;
+                try
+                {
+                    Match match = rule.Pattern.Match(input);
+                    if (match.Success) return match.Result(rule.Replacement);
+                }
+                catch (RegexMatchTimeoutException) { /* Keep the original instead of stalling the game. */ }
+            }
+            return input;
+        }
+
+        private string CacheTranslation(string input, string output)
+        {
+            if (cache.Count >= 2048) cache.Clear();
+            cache[input] = output;
+            return output;
+        }
+
+        private static bool HasRuleMarker(string input)
+        {
+            foreach (char c in input)
+                if ((c >= '0' && c <= '9') || c == '<' || c == '[' || c == '【' || c == '\n' || c == '\r' || c == '●') return true;
+            return false;
+        }
+
+        private static int SkipLeadingRichText(string input)
+        {
+            int index = 0;
+            for (int count = 0; count < 6 && index < input.Length && input[index] == '<'; count++)
+            {
+                int close = input.IndexOf('>', index + 1);
+                if (close < 0 || close - index > 121 || input.IndexOf('\n', index, close - index + 1) >= 0 || input.IndexOf('\r', index, close - index + 1) >= 0) break;
+                index = close + 1;
+            }
+            return index;
+        }
+
+        private static bool StartsAt(string input, int start, string value)
+        {
+            return start + value.Length <= input.Length && String.CompareOrdinal(input, start, value, 0, value.Length) == 0;
+        }
+
+        private static string ExtractRulePrefix(string pattern)
+        {
+            if (!pattern.StartsWith(@"\A", StringComparison.Ordinal)) return "";
+            int index = 2;
+            const string richGroupTail = ">(?:<[^<>\\r\\n]{1,120}>){0,6})";
+            while (index < pattern.Length && pattern.IndexOf("(?<s", index, StringComparison.Ordinal) == index)
+            {
+                int digits = index + 4;
+                int endName = digits;
+                while (endName < pattern.Length && Char.IsDigit(pattern[endName])) endName++;
+                if (endName == digits || pattern.IndexOf(richGroupTail, endName, StringComparison.Ordinal) != endName) break;
+                index = endName + richGroupTail.Length;
+            }
+
+            var prefix = new System.Text.StringBuilder();
+            while (index < pattern.Length && pattern.IndexOf("(?<", index, StringComparison.Ordinal) != index && pattern.IndexOf(@"\z", index, StringComparison.Ordinal) != index)
+            {
+                char c = pattern[index++];
+                if (c == '\\' && index < pattern.Length)
+                {
+                    char escaped = pattern[index++];
+                    prefix.Append(escaped == 'n' ? '\n' : escaped == 'r' ? '\r' : escaped == 't' ? '\t' : escaped);
+                }
+                else if (".*+?{}[]()|^$".IndexOf(c) >= 0) break;
+                else prefix.Append(c);
+            }
+            return prefix.Length >= 3 ? prefix.ToString() : "";
         }
     }
 }

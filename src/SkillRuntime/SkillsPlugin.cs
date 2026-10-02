@@ -10,7 +10,7 @@ using System.Threading;
 
 namespace RO3.ThaiLocalization
 {
-    [BepInPlugin("com.ro3.thailocalization.skills", "RO3 Thai Localization + Translation Updates", "0.4.3")]
+    [BepInPlugin("com.ro3.thailocalization.skills", "RO3 Thai Localization + Translation Updates", "0.4.4")]
     public sealed class SkillsPlugin : BaseUnityPlugin
     {
         private static SkillDictionary? dictionary;
@@ -254,7 +254,7 @@ namespace RO3.ThaiLocalization
             if (translating || dictionary == null || __0 == null) return;
             // Generic text setters also carry player chat. Only allow O(1) whole-string
             // matches here; ID hooks handle templates, so chat never scans every regex rule.
-            try { translating = true; __0 = dictionary.TranslateKnownText(__0); } catch { } finally { translating = false; }
+            try { translating = true; __0 = dictionary.TranslateUiText(__0); } catch { } finally { translating = false; }
         }
         private static void RefreshPrefix(object __instance)
         {
@@ -266,7 +266,7 @@ namespace RO3.ThaiLocalization
                 if (property == null || property.PropertyType != typeof(string) || !property.CanRead || !property.CanWrite) return;
                 string? old = property.GetValue(__instance, null) as string;
                 if (old == null) return;
-                string next = dictionary.TranslateKnownText(old);
+                string next = dictionary.TranslateUiText(old);
                 if (next != old) property.SetValue(__instance, next, null);
             }
             catch { } finally { translating = false; }
