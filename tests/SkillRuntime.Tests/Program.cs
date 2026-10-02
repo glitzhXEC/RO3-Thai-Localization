@@ -28,7 +28,20 @@ foreach(var pair in originals)
   if(string.IsNullOrEmpty(chinese)||chinese=="None")continue;
   Check(dict.TryId(pair.Key,chinese,out var restored)&&restored==(Unwire(chinese)==chinese?Unwire(rows[pair.Key][2]):rows[pair.Key][2]),"Verified Chinese by ID "+pair.Key);
  }
-foreach(var line in File.ReadAllLines(Path.Combine(config,"RO3.SkillRules.tsv")))
+var ruleLines=File.ReadAllLines(Path.Combine(config,"RO3.SkillRules.tsv"));
+var ruleIds=ruleLines.Select(s=>s.Split('\t',3)[0]).ToHashSet();
+Check(!ruleIds.Contains("10960000329"),"Adjacent decimal-capable placeholders retain ID translation only");
+foreach(var line in ruleLines)
+{
+ var key=line.Split('\t',3)[0];var english=Unwire(rows[key][1]);
+ var values=Regex.Matches(english,@"[$@]\{\d+\}").Cast<Match>().ToArray();
+ for(int i=0;i+1<values.Length;i++)
+ {
+  string boundary=Regex.Replace(english.Substring(values[i].Index+values[i].Length,values[i+1].Index-values[i].Index-values[i].Length),@"\^\{\d+\}","");
+  Check(boundary!=""&&boundary!="."&&boundary!=",","Numeric capture boundary unambiguous "+key);
+ }
+}
+foreach(var line in ruleLines)
 {
  var rule=line.Split('\t',3);var row=rows[rule[0]];
  foreach(bool styled in new[]{false,true})
