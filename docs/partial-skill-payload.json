@@ -1,11 +1,11 @@
 {
   "fresh_skill_ids": 2431,
   "translation_ids": 33513,
-  "runtime_thai_ids": 15643,
-  "runtime_english_ids": 17870,
+  "runtime_thai_ids": 19497,
+  "runtime_english_ids": 14016,
   "scope": "english-base-all-ids",
-  "unique_English_descriptions": 12542,
-  "numeric_runtime_rules": 2943,
+  "unique_English_descriptions": 15960,
+  "numeric_runtime_rules": 3175,
   "id_only_ambiguous_numeric_ids": [
     "21172",
     "10960000329",
@@ -13,6 +13,9 @@
     "90045",
     "37823",
     "42002",
+    "10140100047",
+    "10140100050",
+    "10140100126",
     "63545"
   ],
   "excluded_semantic_review_ids": [
