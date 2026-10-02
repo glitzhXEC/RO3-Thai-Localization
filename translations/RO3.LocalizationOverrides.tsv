@@ -11582,3 +11582,1485 @@
 10630000943	This Get Help code does not exist or has expired.	รหัสขอความช่วยเหลือนี้ไม่มีอยู่หรือหมดอายุแล้ว
 10630000944	The System build linked to this personal build is invalid.	ชุดระบบที่เชื่อมกับชุดส่วนตัวนี้ไม่ถูกต้อง
 10630000946	You are switching Skill Builds too frequently. Please try again later.	คุณสลับบิลด์สกิลถี่เกินไป โปรดลองอีกครั้งในภายหลัง
+13150200000	Sprakki is welcoming Novices.	Sprakki กำลังต้อนรับ Novices
+13150200001	Find the Trial Instructor.	ตามหา Trial Instructor
+13150200002	The Novice Instructor wants to test the new Adventurer.	Novice Instructor ต้องการทดสอบนักผจญภัยคนใหม่
+13150200003	Defeat nearby Porings and collect Sticky Mucus.	ปราบ Porings ที่อยู่ใกล้ ๆ และรวบรวม Sticky Mucus
+13150200004	Keep leveling up and become a great Adventurer!	เพิ่มเลเวลต่อไปแล้วเป็นนักผจญภัยผู้ยิ่งใหญ่ให้ได้!
+13150200005	Try out your new weapon.	ลองใช้อาวุธใหม่ของคุณ
+13150200006	Collect @{1} Sticky Mucus from Porings and deliver it to the Medicine Workshop as a basic ingredient.	รวบรวม Sticky Mucus จำนวน @{1} จาก Porings แล้วนำไปส่งที่ Medicine Workshop เพื่อใช้เป็นวัตถุดิบพื้นฐาน
+13150200007	Obtain Sticky Mucus and report to Rhina.	รับ Sticky Mucus แล้วรายงานให้ Rhina ทราบ
+13150200008	Defeat the nearby Fabre and collect Fluff.	ปราบ Fabre ที่อยู่ใกล้ ๆ และรวบรวม Fluff
+13150200009	Obtain Soft Fur and report back to Rhine.	รับ Soft Fur แล้วกลับไปรายงาน Rhine
+13150200010	You got some new gear. Try it on!	คุณได้รับอุปกรณ์ใหม่ ลองสวมดูสิ!
+13150200011	Keep defeating Fabres to collect equipment.	ปราบ Fabres ต่อไปเพื่อรวบรวมอุปกรณ์
+13150200012	Complete the Novice Trial and obtain proof of completion.	ผ่าน Novice Trial และรับหลักฐานการผ่านทดสอบ
+13150200013	Activate the Growth Badge	เปิดใช้งาน Growth Badge
+13150200014	Head toward Prontera.	มุ่งหน้าไปยัง Prontera
+13150200015	Find the Academy's Head Job Advance Mentor.	ตามหา Head Job Advance Mentor ของ Academy
+13150200016	You meet Sprakki again and discover that she's the Academy receptionist.	คุณพบ Sprakki อีกครั้งและรู้ว่าเธอเป็นพนักงานต้อนรับของ Academy
+13150200017	Follow Sprakki's directions to the Grand Lecture Hall.	ไปยัง Grand Lecture Hall ตามคำแนะนำของ Sprakki
+13150200018	You hear a boy calling out. Go take a look.	คุณได้ยินเด็กชายร้องเรียก ไปดูหน่อย
+13150200019	The boy offers to predict your future job. Give it a try.	เด็กชายเสนอจะทำนายอาชีพในอนาคตของคุณ ลองดูสิ
+13150200020	Listen to the boy's prediction.	ฟังคำทำนายของเด็กชาย
+13150200021	Find the Head Job Advance Mentor and begin your Job Advance.	ตามหา Head Job Advance Mentor และเริ่มเปลี่ยนอาชีพ
+13150200022	Follow the Head Job Advance Mentor's guidance and touch the Book of Job Advancement.	ทำตามคำแนะนำของ Head Job Advance Mentor แล้วสัมผัส Book of Job Advancement
+13150200023	Choose your desired job and complete your first Job Advance.	เลือกอาชีพที่ต้องการและเปลี่ยนอาชีพครั้งแรกให้สำเร็จ
+13150200024	Congratulations on completing your Job Advance! Here's a quick overview of the changes: you've gained new skills and can now allocate Stat Points and Skill Points.	ยินดีด้วยที่เปลี่ยนอาชีพสำเร็จ! นี่คือสรุปสั้น ๆ ของสิ่งที่เปลี่ยนไป: คุณได้รับสกิลใหม่ และตอนนี้สามารถจัดสรรแต้มค่าสถานะและแต้มสกิลได้แล้ว
+13150200025	Choose a path to begin your journey!	เลือกเส้นทางเพื่อเริ่มการเดินทางของคุณ!
+13150200026	Complete a Title Promotion once.	เลื่อนขั้นฉายาให้สำเร็จหนึ่งครั้ง
+13150200027	Learn about the Eden Group from the Head Job Advance Mentor.	เรียนรู้เกี่ยวกับ Eden Group จาก Head Job Advance Mentor
+13150200028	Ask the Teleporter to take you to the Eden Group.	ขอให้ Teleporter พาคุณไปยัง Eden Group
+13150200029	Rescue the Novice Swordsman surrounded by Rockers.	ช่วย Novice Swordsman ที่ถูก Rockers ล้อมไว้
+13150200030	The Novice Swordsman invites you to travel to the Eden Group together.	Novice Swordsman ชวนคุณเดินทางไปยัง Eden Group ด้วยกัน
+13150200031	Register as an Adventurer with the Eden Group.	ลงทะเบียนเป็นนักผจญภัยกับ Eden Group
+13150200032	Accept your first official request from the Eden Group.	รับงานว่าจ้างอย่างเป็นทางการงานแรกจาก Eden Group
+13150200033	Travel to Payon and ask the client about the situation.	เดินทางไป Payon และสอบถามผู้ว่าจ้างเกี่ยวกับสถานการณ์
+13150200034	Wild beasts have recently been prowling around the village. Help the Elder Lady find her missing livestock.	ช่วงนี้มีสัตว์ป่าออกเพ่นพ่านรอบหมู่บ้าน ช่วย Elder Lady ตามหาสัตว์เลี้ยงในฟาร์มที่หายไป
+13150200035	Automatically ride the Balloon Mount	ขี่ Balloon Mount โดยอัตโนมัติ
+13150200036	The Hunter Who Retrieves Mounts	Hunter ผู้รับคืนพาหนะ
+13150200037	Obtain a Hard Shell from a beetle's molted exoskeleton.	รับ Hard Shell จากเปลือกที่ด้วงลอกทิ้งไว้
+13150200038	Obtain high-quality Sticky Mucus from the trees.	รับ Sticky Mucus คุณภาพสูงจากต้นไม้
+13150200039	A nearby Hunter greets you. Hear what she has to say.	Hunter ที่อยู่ใกล้ ๆ ทักทายคุณ ฟังสิ่งที่เธอจะพูด
+13150200040	Teleport! Whoosh! Whoosh!	เทเลพอร์ต! ฟิ้ว! ฟิ้ว!
+13150200041	Whoosh! Whoosh! Whoosh!	ฟิ้ว! ฟิ้ว! ฟิ้ว!
+13150200042	You hear a strange noise. Move closer to investigate.	คุณได้ยินเสียงแปลก ๆ เข้าไปใกล้เพื่อตรวจสอบ
+13150200043	Successfully Complete the Commission, then report your findings.	ทำงานว่าจ้างให้สำเร็จ แล้วรายงานสิ่งที่พบ
+13150200044	Return to the Eden Group Chief to board the airship.	กลับไปหา Eden Group Chief เพื่อขึ้นเรือเหาะ
+13150200045	Go to the tavern	ไปที่โรงเหล้า
+13150200046	Ask the tavern owner about the Black Market Merchant.	ถามเจ้าของโรงเหล้าเกี่ยวกับ Black Market Merchant
+13150200047	Ask the Adventurer about the Black Market Merchant.	ถามนักผจญภัยเกี่ยวกับ Black Market Merchant
+13150200048	The woman says some baffling things and gives you a necklace.	หญิงสาวพูดสิ่งที่ชวนสับสนและมอบสร้อยคอให้คุณ
+13150200049	A nearby Eden Group Member greets you.	Eden Group Member ที่อยู่ใกล้ ๆ ทักทายคุณ
+13150200050	Head to Izlude and meet up with the Eden Group Chief.	มุ่งหน้าไป Izlude แล้วพบกับ Eden Group Chief
+13150200051	The Eden Group Chief entrusts you with an important mission.	Eden Group Chief มอบหมายภารกิจสำคัญให้คุณ
+13150200052	Prepare to board the airship and search for the professor.	เตรียมขึ้นเรือเหาะและออกตามหาศาสตราจารย์
+13150200053	The airship starts up.	เรือเหาะเริ่มออกเดินทาง
+13150200054	You crash-land in the desert. Ask around for information.	คุณตกลงกลางทะเลทราย สอบถามผู้คนเพื่อหาข้อมูล
+13150200055	Equipment Forging	การตีอุปกรณ์
+13150200056	There's an Adventurer camp nearby. Go there to gather information.	มีค่ายนักผจญภัยอยู่ใกล้ ๆ ไปที่นั่นเพื่อรวบรวมข้อมูล
+13150200057	You encounter some Chonchons along the way. Drive them off.	คุณพบ Chonchons ระหว่างทาง ไล่พวกมันไป
+13150200058	Ask around the Adventurer Camp for the Professor's whereabouts.	สอบถามผู้คนใน Adventurer Camp เพื่อหาที่อยู่ของศาสตราจารย์
+13150200059	Go to Ant Hell and bring back the Professor, who is engrossed in his investigation.	ไปยัง Ant Hell และพาศาสตราจารย์ที่กำลังหมกมุ่นกับการสำรวจกลับมา
+13150200060	Discover a Research Notebook that appears to belong to the Professor.	พบ Research Notebook ที่ดูเหมือนจะเป็นของศาสตราจารย์
+13150200061	Continue onward and search for the Professor.	เดินหน้าต่อและตามหาศาสตราจารย์
+13150200062	The man turns out to be the Professor. Ask him what happened.	ชายคนนั้นคือศาสตราจารย์ ถามเขาว่าเกิดอะไรขึ้น
+13150200063	The Professor mentions a strange young girl nearby. Go take a look.	ศาสตราจารย์กล่าวถึงเด็กหญิงแปลก ๆ ที่อยู่ใกล้ ๆ ไปดูหน่อย
+13150200064	Defeat the Maya that looks like a Familiar.	ปราบ Maya ที่ดูเหมือน Familiar
+13150200066	Take the Pathfinder Ant and return to Ant Hell.	นำ Pathfinder Ant ไปด้วยแล้วกลับไปยัง Ant Hell
+13150200067	Follow the Pathfinder Ant to search for traces of the Professor.	ติดตาม Pathfinder Ant เพื่อค้นหาร่องรอยของศาสตราจารย์
+13150200068	Follow the Pathfinder Ant to a mysterious cave entrance.	ติดตาม Pathfinder Ant ไปยังทางเข้าถ้ำลึกลับ
+13150200069	Enter Maya's Nest and rescue the Professor.	เข้า Maya's Nest และช่วยศาสตราจารย์
+13150200070	After successfully rescuing the Professor, you earn the Captain's praise.	หลังช่วยศาสตราจารย์สำเร็จ คุณได้รับคำชมจากกัปตัน
+13150200071	After many twists and turns, you've finally found the Professor. Return to camp and rest.	หลังผ่านอุปสรรคมากมาย ในที่สุดคุณก็พบศาสตราจารย์แล้ว กลับค่ายเพื่อพักผ่อน
+13150200072	Talk to the Professor and learn that he is researching memory entity technology.	พูดคุยกับศาสตราจารย์และรู้ว่าเขากำลังวิจัยเทคโนโลยีเอนทิตีความทรงจำ
+13150200073	Touch the memory entity prototype and fall into another dimension.	สัมผัสต้นแบบเอนทิตีความทรงจำแล้วตกเข้าสู่อีกมิติหนึ่ง
+13150200074	You encounter the mysterious woman again, and she asks you to look around.	คุณพบหญิงสาวลึกลับอีกครั้ง และเธอขอให้คุณสำรวจรอบ ๆ
+13150200075	Ki explains how the Garden of Chronology works.	Ki อธิบายการทำงานของ Garden of Chronology
+13150200076	You awaken from the darkness and find yourself back in the real world.	คุณตื่นขึ้นจากความมืดและพบว่าตนเองกลับมาอยู่ในโลกจริง
+13150200077	With matters in Sograt Desert settled for now, go to the Eden Group and see what new requests are available.	เมื่อเรื่องใน Sograt Desert คลี่คลายลงชั่วคราวแล้ว ไปยัง Eden Group เพื่อดูว่ามีงานว่าจ้างใหม่อะไรบ้าง
+13150200078	The Eden Group has received a request from the Professor.	Eden Group ได้รับงานว่าจ้างจากศาสตราจารย์
+13150200079	The Professor is your client this time. Ask him what happened.	ครั้งนี้ศาสตราจารย์เป็นผู้ว่าจ้างคุณ ถามเขาว่าเกิดอะไรขึ้น
+13150200080	The professor's supplies were seized at the North Gate. Head there and recover them.	เสบียงของศาสตราจารย์ถูกยึดที่ North Gate ไปที่นั่นเพื่อนำกลับคืนมา
+13150200081	Search nearby for traces of the cargo.	ค้นหาร่องรอยของสินค้าในบริเวณใกล้เคียง
+13150200082	Encounter the caravan searching for the cargo.	พบกับกองคาราวานที่กำลังค้นหาสินค้า
+13150200083	Continue to Search for the cargo.	ค้นหาสินค้าต่อไป
+13150200084	Kill Baphomet	สังหาร Baphomet
+13150200085	Discover the Professor's supplies in Baphomet's lair.	พบเสบียงของศาสตราจารย์ในรังของ Baphomet
+13150200086	Say goodbye to the caravan Members.	บอกลาสมาชิกกองคาราวาน
+13150200087	Take the cargo to the Professor and report back.	นำสินค้าไปให้ศาสตราจารย์และรายงานผล
+13150200088	Place the magic component into the device.	ใส่ชิ้นส่วนเวทมนตร์ลงในอุปกรณ์
+13150200089	Take Out the magic component.	นำชิ้นส่วนเวทมนตร์ออกมา
+13150200090	The Holy Knights guarding the stone pillar block your path.	Holy Knights ที่เฝ้าเสาหินขวางทางคุณ
+13150200091	Touch the stone pillar while carrying the device.	สัมผัสเสาหินขณะถืออุปกรณ์
+13150200092	The stone pillar activates, and Ki appears once again.	เสาหินเปิดทำงาน และ Ki ปรากฏตัวอีกครั้ง
+13150200093	Ki explains the background of the Nail of Discipline.	Ki อธิบายที่มาของ Nail of Discipline
+13150200094	After the tremor, a glowing Relic appeared in Goblin Forest. Go investigate.	หลังแรงสั่นสะเทือน มี Relic เรืองแสงปรากฏใน Goblin Forest ไปตรวจสอบ
+13150200095	After the Relic appeared, the monsters in the area began growing restless.	หลัง Relic ปรากฏ มอนสเตอร์ในบริเวณนั้นเริ่มกระวนกระวาย
+13150200096	Find the Source of the Disturbance	ค้นหาต้นตอของความวุ่นวาย
+13150200097	Kill the restless monsters along the way.	สังหารมอนสเตอร์ที่กระวนกระวายระหว่างทาง
+13150200098	Help the Soldiers escape.	ช่วยเหล่าทหารหลบหนี
+13150200099	Ask the Soldiers about the Relic's whereabouts.	ถามเหล่าทหารถึงตำแหน่งของ Relic
+13150200100	Search for the Relic using the information provided by the Soldiers.	ค้นหา Relic โดยใช้ข้อมูลจากเหล่าทหาร
+13150200101	The Professor has already reached the Relic.	ศาสตราจารย์ไปถึง Relic แล้ว
+13150200102	A Pharaoh suddenly leaps out of the Relic. Find a way to defeat him.	Pharaoh กระโจนออกมาจาก Relic อย่างกะทันหัน หาวิธีปราบเขา
+13150200103	At the moment of danger, the necklace around your neck suddenly begins to glow, drawing you into that mysterious space once again.	ในช่วงอันตราย สร้อยคอที่คอคุณเริ่มเรืองแสงอย่างกะทันหัน ดึงคุณเข้าสู่พื้นที่ลึกลับนั้นอีกครั้ง
+13150200104	Ki introduces himself as the Guide of Time and Space and tells you of the mission you bear.	Ki แนะนำตัวว่าเป็น Guide of Time and Space และบอกคุณถึงภารกิจที่คุณแบกรับ
+13150200105	Head to the Space-Time Gate ahead.	มุ่งหน้าไปยัง Space-Time Gate ข้างหน้า
+13150200106	Ji explains that multiple parallel timelines exist in this world.	Ji อธิบายว่าโลกนี้มีเส้นเวลาคู่ขนานอยู่หลายเส้น
+13150200107	Return to the real world from the Garden of Chronology.	กลับสู่โลกจริงจาก Garden of Chronology
+13150200108	Return to Prontera with the Professor's group.	กลับไป Prontera พร้อมกลุ่มของศาสตราจารย์
+13150200109	The innkeeper invites you inside to rest.	เจ้าของโรงแรมเชิญคุณเข้าไปพักผ่อน
+13150200110	Fall asleep at the inn.	หลับที่โรงแรม
+13150200111	Kill @{1} Roda Frogs	สังหาร Roda Frogs จำนวน @{1}
+13150200112	Kill @{1} Rockers	สังหาร Rockers จำนวน @{1}
+13150200113	Head to Payon and search for signs of Mushroom monsters.	มุ่งหน้าไป Payon และค้นหาร่องรอยมอนสเตอร์ Mushroom
+13150200114	The Elder Lady gives you a Flying mount so you won't get lost	Elder Lady มอบพาหนะบินให้คุณเพื่อไม่ให้หลงทาง
+13150200115	Kill @{1} Mushrooms	สังหาร Mushrooms จำนวน @{1}
+13150200116	Kill @{1} Boas	สังหาร Boas จำนวน @{1}
+13150200117	Kill @{1} Thief Bugs	สังหาร Thief Bugs จำนวน @{1}
+13150200118	Kill Muka	สังหาร Muka
+13150200119	Kill Peco Peco	สังหาร Peco Peco
+13150200120	Kill Bigfoot	สังหาร Bigfoot
+13150200121	Kill @{1} Soldier Skeletons	สังหาร Soldier Skeletons จำนวน @{1}
+13150200122	Kill @{1} Skeletons	สังหาร Skeletons จำนวน @{1}
+13150200123	Kill Deniro and Piere: @{1}	สังหาร Deniro และ Piere: @{1}
+13150200124	Kill Andre and Vitata: @{1}	สังหาร Andre และ Vitata: @{1}
+13150200125	Kill Orc Warrior@{1}	สังหาร Orc Warrior@{1}
+13150200126	Kill @{1} Orc Ladies	สังหาร Orc Ladies จำนวน @{1}
+13150200127	Kill @{1} Orc Skeletons	สังหาร Orc Skeletons จำนวน @{1}
+13150200128	Kill @{1} Orc Zombies	สังหาร Orc Zombies จำนวน @{1}
+13150200129	Kill Goblin (Dagger) and Goblin (Hammer)	สังหาร Goblin (Dagger) และ Goblin (Hammer)
+13150200130	Kill Goblin (Flail) and Goblin Archer	สังหาร Goblin (Flail) และ Goblin Archer
+13150200131	Kill @{1} monsters in the Munak Cave	สังหารมอนสเตอร์จำนวน @{1} ใน Munak Cave
+13150200132	Claim @{1} map rewards	รับรางวัลแผนที่จำนวน @{1}
+13150200133	Claim @{1} area rewards	รับรางวัลพื้นที่จำนวน @{1}
+13150200134	Claim the South Gate map reward	รับรางวัลแผนที่ South Gate
+13150200135	You spot a dejected young man. Ask him what happened.	คุณเห็นชายหนุ่มที่ดูหดหู่ ถามเขาว่าเกิดอะไรขึ้น
+13150200136	Head to Izlude and ask Luna about Baya.	มุ่งหน้าไป Izlude และถาม Luna เกี่ยวกับ Baya
+13150200137	Head to the ball and meet up with Luna.	ไปที่งานเต้นรำและพบกับ Luna
+13150200138	Perform the opening dance with Luna.	เต้นรำเปิดงานกับ Luna
+13150200139	Head to the Novice Academy and ask Mentor Alphonse about Baya.	มุ่งหน้าไป Novice Academy และถาม Mentor Alphonse เกี่ยวกับ Baya
+13150200140	Share the information about Baya with Allen.	บอกข้อมูลเกี่ยวกับ Baya ให้ Allen ทราบ
+13150200141	After overhearing some passersby, Allen gets an idea for a gift.	หลังได้ยินคนเดินผ่านคุยกัน Allen ก็คิดออกว่าจะให้อะไรเป็นของขวัญ
+13150200142	Purchase a Bunny Hair Band from the Headgear Merchant.	ซื้อ Bunny Hair Band จาก Headgear Merchant
+13150200143	The Headgear Merchant sets the terms for the exchange. Hear what Allen thinks.	Headgear Merchant กำหนดเงื่อนไขการแลกเปลี่ยน ฟังว่า Allen คิดอย่างไร
+13150200144	Collect the materials needed for the Bunny Hair Band.	รวบรวมวัสดุที่ต้องใช้สำหรับ Bunny Hair Band
+13150200145	Allen has gathered the materials too. Meet him at the Headgear Merchant.	Allen รวบรวมวัสดุได้แล้วเช่นกัน ไปพบเขาที่ Headgear Merchant
+13150200146	Exchange them for a Bunny Hair Band with the Headgear Merchant.	แลกวัสดุเป็น Bunny Hair Band กับ Headgear Merchant
+13150200147	Deliver the Bunny Hair Band to Baya with Allen.	นำ Bunny Hair Band ไปส่งให้ Baya พร้อมกับ Allen
+13150200148	Stumbled upon an argument in Payon Forest.	บังเอิญพบการโต้เถียงใน Payon Forest
+13150200149	Ask passersby what happened.	ถามคนที่เดินผ่านว่าเกิดอะไรขึ้น
+13150200150	Decide to take down the scalpers from within, starting with Granny Gwen.	ตัดสินใจจัดการพวกค้ากำไรเกินควรจากภายใน โดยเริ่มจาก Granny Gwen
+13150200151	Collect Whispering Flowers favored by Rockers.	รวบรวม Whispering Flowers ที่ Rockers ชื่นชอบ
+13150200152	Report your collection progress to Granny Gwen.	รายงานความคืบหน้าการรวบรวมให้ Granny Gwen ทราบ
+13150200153	Go to Granny Gwen's house together.	ไปบ้านของ Granny Gwen ด้วยกัน
+13150200154	Place Whispering Flowers along the way.	วาง Whispering Flowers ตามทาง
+13150200155	Wait for the Rocker to appear in Southern Payon.	รอให้ Rocker ปรากฏตัวใน Southern Payon
+13150200156	The Rocker took the bait, much to Grandma Gwen's delight.	Rocker ติดกับเหยื่อ ทำให้ Grandma Gwen ดีใจมาก
+13150200157	Continue the divide-and-conquer plan by targeting Grandpa Bob.	ดำเนินแผนแบ่งแยกแล้วพิชิตต่อไป โดยเล็งเป้าไปที่ Grandpa Bob
+13150200158	Head to Grandpa Bob's yard together.	ไปที่ลานบ้านของ Grandpa Bob ด้วยกัน
+13150200159	Carry out the rat-catching operation.	ลงมือปฏิบัติการจับหนู
+13150200160	With the rat problem solved, Grandpa Bob decided to join your side.	เมื่อปัญหาหนูได้รับการแก้ไข Grandpa Bob ก็ตัดสินใจเข้าร่วมฝ่ายคุณ
+13150200161	Return to Payon Forest with the good news.	กลับไป Payon Forest พร้อมข่าวดี
+13150200162	Defeat Jack the Scalper.	ปราบ Jack the Scalper
+13150200163	Defeated, Jack fled as fast as his legs could carry him.	เมื่อพ่ายแพ้ Jack ก็วิ่งหนีสุดฝีเท้า
+13150200164	Stroll through Prontera and listen to the nearby vendors calling out.	เดินเล่นใน Prontera และฟังเสียงเรียกลูกค้าของพ่อค้าแม่ค้าใกล้ ๆ
+13150200165	Check out the Weapon dealer's stall.	ไปดูแผงของ Weapon dealer
+13150200166	One stall stands out in particular. Go check it out.	มีแผงหนึ่งโดดเด่นเป็นพิเศษ ไปดูหน่อย
+13150200167	Follow Jax to the banquet.	ตาม Jax ไปยังงานเลี้ยง
+13150200168	The attackers on the road were the Guild Members' family members. Hear what they have to say.	ผู้โจมตีบนถนนคือคนในครอบครัวของสมาชิกกิลด์ ฟังสิ่งที่พวกเขาจะพูด
+13150200169	Enter the banquet hall and listen to Jax's speech.	เข้าไปในโถงงานเลี้ยงและฟังสุนทรพจน์ของ Jax
+13150200170	Talk with the Guild Members at the banquet.	พูดคุยกับสมาชิกกิลด์ที่งานเลี้ยง
+13150200171	It's time to make the final choice.	ถึงเวลาตัดสินใจครั้งสุดท้ายแล้ว
+13150200172	Receive an urgent letter from Professor Ryan.	รับจดหมายด่วนจาก Professor Ryan
+13150200173	Buy a sandwich for the professor.	ซื้อแซนด์วิชให้ศาสตราจารย์
+13150200174	Head to the professor's research site.	มุ่งหน้าไปยังสถานที่วิจัยของศาสตราจารย์
+13150200175	Ask the professor about the results of the research.	ถามศาสตราจารย์เกี่ยวกับผลการวิจัย
+13150200176	Use the pheromones on yourself.	ใช้ฟีโรโมนกับตนเอง
+13150200177	Let the giant ant catch your scent.	ให้มดยักษ์รับกลิ่นของคุณ
+13150200178	Talk to the professor.	พูดคุยกับศาสตราจารย์
+13150200179	Prepare for the race.	เตรียมตัวเข้าแข่งขัน
+13150200180	Finish the race.	แข่งให้จบ
+13150200181	Tell the professor the race results.	บอกผลการแข่งขันให้ศาสตราจารย์ทราบ
+13150200182	Receive a letter from Wule.	รับจดหมายจาก Wule
+13150200183	Tell the professor what the letter says.	บอกศาสตราจารย์ถึงเนื้อหาในจดหมาย
+13150200184	Go to the bulletin board in Prontera.	ไปที่กระดานประกาศใน Prontera
+13150200185	Check the wanted poster.	ตรวจประกาศจับ
+13150200186	Ask the guard for details about the theft.	ถามยามถึงรายละเอียดเกี่ยวกับการขโมย
+13150200187	Ask Hollgrehenn what he remembers about the theft.	ถาม Hollgrehenn ว่าเขาจำอะไรเกี่ยวกับการขโมยได้บ้าง
+13150200188	Ask Nita what she remembers about the theft.	ถาม Nita ว่าเธอจำอะไรเกี่ยวกับการขโมยได้บ้าง
+13150200189	Ask Cliffer what he remembers about the theft.	ถาม Cliffer ว่าเขาจำอะไรเกี่ยวกับการขโมยได้บ้าง
+13150200190	A letter suddenly arrives.	จู่ ๆ ก็มีจดหมายมาถึง
+13150200191	Follow the letter's instructions and head to Eastern Payon.	ทำตามคำแนะนำในจดหมายและมุ่งหน้าไป Eastern Payon
+13150200192	Z is taking a while. Pet the kitten while you wait.	Z ยังไม่มา ลูบลูกแมวเล่นระหว่างรอ
+13150200193	Play hide-and-seek.	เล่นซ่อนหา
+13150200194	Find out why the stray cat is meowing.	หาสาเหตุที่แมวจรจัดร้อง
+13150200195	Check the note around the cat's neck.	ตรวจดูกระดาษโน้ตที่คอแมว
+13150200196	Follow the letter's instructions and head to South Morroc.	ทำตามคำแนะนำในจดหมายและมุ่งหน้าไป South Morroc
+13150200197	Find out what's going on.	หาว่าเกิดอะไรขึ้น
+13150200198	Help the poor man.	ช่วยชายผู้น่าสงสาร
+13150200199	Play the shell game.	เล่นเกมทายของใต้ถ้วย
+13150200200	Return the sword to Blacksmith Hollgrehenn.	คืนดาบให้ Blacksmith Hollgrehenn
+13150200201	Return the Ring to Girl Nita.	คืน Ring ให้ Girl Nita
+13150200202	Return the spellbook to Mage Cliffer.	คืนตำราเวทให้ Mage Cliffer
+13150200203	Continue exploring Munak Cave	สำรวจ Munak Cave ต่อไป
+13150200204	Continue exploring Ant Hell	สำรวจ Ant Hell ต่อไป
+13150200205	Continue exploring Orc Village	สำรวจ Orc Village ต่อไป
+13150200206	Continue exploring Orc Cave	สำรวจ Orc Cave ต่อไป
+13150200207	Continue exploring Goblin Forest	สำรวจ Goblin Forest ต่อไป
+13150200208	Complete Season quest @{1}	ทำเควสต์ฤดูกาล @{1} ให้สำเร็จ
+13150200209	Open your Backpack and use a Red Potion	เปิดกระเป๋าและใช้ Red Potion
+13150200210	Tap the quest to learn about automatic potion resupply.	แตะเควสต์เพื่อเรียนรู้เกี่ยวกับการเติมยาอัตโนมัติ
+13150200211	Allocate Skill Points.	จัดสรรแต้มสกิล
+13150200212	Allocate Stat Points.	จัดสรรแต้มค่าสถานะ
+13150200214	Level-up Talents @{1} time(s)	เพิ่มเลเวลพรสวรรค์ @{1} ครั้ง
+13150200215	Mount Riding	ขี่พาหนะ
+13150200216	Equip @{1} cards	ติดตั้งการ์ดจำนวน @{1}
+13150200217	Enter the airship and defeat the evil forces.	เข้าไปในเรือเหาะและปราบกองกำลังชั่วร้าย
+13150200218	Enter Maya's Nest and defeat Maya.	เข้าไปใน Maya's Nest และปราบ Maya
+13150200219	Learn about the Monster Conquest System	เรียนรู้เกี่ยวกับระบบ Monster Conquest
+13150200220	Select the quest to learn about Auto-Battle	เลือกเควสต์เพื่อเรียนรู้เกี่ยวกับการต่อสู้อัตโนมัติ
+13150200221	Obtain @{1} pets	รับสัตว์เลี้ยงจำนวน @{1}
+13150200222	Deploy @{1} Pets	ส่งสัตว์เลี้ยงออกต่อสู้จำนวน @{1}
+13150200223	Complete Pet Tower once	ผ่าน Pet Tower หนึ่งครั้ง
+13150200224	Tap the quest to learn about Auto-Battle	แตะเควสต์เพื่อเรียนรู้เกี่ยวกับการต่อสู้อัตโนมัติ
+13150200225	Select the quest to learn about the Phantom Realm dungeon	เลือกเควสต์เพื่อเรียนรู้เกี่ยวกับดันเจี้ยน Phantom Realm
+13150200226	Equipment Refining	ตีบวกอุปกรณ์
+13150200227	Select the quest to learn about Battle Royale	เลือกเควสต์เพื่อเรียนรู้เกี่ยวกับ Battle Royale
+13150200228	Fly Wing Tutorial	บทสอนการใช้ Fly Wing
+13150200229	Expedition Activity Mission	ภารกิจกิจกรรม Expedition
+13150200230	@{1}-Player Dungeon Activity Quest	เควสต์กิจกรรมดันเจี้ยนสำหรับผู้เล่น @{1} คน
+13150200231	Life Skill Activity Quest	เควสต์กิจกรรมสกิลชีวิต
+13150200232	Guild Caravan Activity Quest	เควสต์กิจกรรม Guild Caravan
+13150200233	Guild Bonfire Activity Quest	เควสต์กิจกรรม Guild Bonfire
+13150200234	Guild GvE Activity Quest	เควสต์กิจกรรม Guild GvE
+13150200235	Treasure Hunt Activity Quest	เควสต์กิจกรรม Treasure Hunt
+13150200236	Blackhole Activity Quest	เควสต์กิจกรรม Blackhole
+13150200237	AFK Activity Quest	เควสต์กิจกรรม AFK
+13150200238	Temporary AFK Activity Quest	เควสต์กิจกรรม AFK ชั่วคราว
+13150200239	Battle Royale Activity Quest	เควสต์กิจกรรม Battle Royale
+13150200240	Temporary Battle Royale Activity Quest	เควสต์กิจกรรม Battle Royale ชั่วคราว
+13150200241	Daily Activity Quest	เควสต์กิจกรรมประจำวัน
+13150200242	Daily Activity Task	ภารกิจกิจกรรมประจำวัน
+13150200243	Escort Activity Quest	เควสต์กิจกรรมคุ้มกัน
+13150200244	Temporary Caravan Escort Activity Quest	เควสต์กิจกรรมคุ้มกันคาราวานชั่วคราว
+13150200245	Stronghold War Activity Quest	เควสต์กิจกรรม Stronghold War
+13150200246	Stronghold War Temporary Activity Quest	เควสต์กิจกรรม Stronghold War ชั่วคราว
+13150200247	State Capital War Activity Mission	ภารกิจกิจกรรม State Capital War
+13150200248	Temporary State Capital Battle Activity Quest	เควสต์กิจกรรม State Capital Battle ชั่วคราว
+13150200249	War of Emperium Activity Quest	เควสต์กิจกรรม War of Emperium
+13150200250	Royal City War Temporary Activity Quest	เควสต์กิจกรรม Royal City War ชั่วคราว
+13150200251	Like Activity Quest	เควสต์กิจกรรมกดไลก์
+13150200252	Like Temporary Activity Quests	เควสต์กิจกรรมกดไลก์ชั่วคราว
+13150200253	Plaza Dancing Activity Quest	เควสต์กิจกรรมเต้นรำที่ลาน
+13150200254	Temporary Plaza Dance Activity Task	ภารกิจกิจกรรมเต้นรำที่ลานชั่วคราว
+13150200255	Secret Trove Activity Quest	เควสต์กิจกรรม Secret Trove
+13150200256	Daily Commission Activity Quest	เควสต์กิจกรรมงานว่าจ้างประจำวัน
+13150200257	(No translation required)	(ไม่ต้องแปล)
+13150200258	Equip the Divine Totem.	สวมใส่ Divine Totem
+13150200259	Equip the Soul Echo.	สวมใส่ Soul Echo
+13150200260	Obtain a wealth of resources and provide Guild Coins to the guild	รับทรัพยากรมากมายและมอบ Guild Coins ให้กิลด์
+13150200261	This quest embodies the tireless efforts of countless predecessors and grants unlimited EXP.	เควสต์นี้รวบรวมความพยายามอย่างไม่ย่อท้อของผู้มาก่อนนับไม่ถ้วน และมอบ EXP แบบไม่จำกัด
+13150200262	Choose your Job Advance path and gain incredible power.	เลือกเส้นทางเปลี่ยนอาชีพของคุณและรับพลังอันน่าทึ่ง
+13150200263	You receive a letter from the Job Advance Mentor.	คุณได้รับจดหมายจาก Job Advance Mentor
+13150200264	In the letter, the Job Advance Mentor asks you to meet in Prontera.	ในจดหมาย Job Advance Mentor ขอให้คุณไปพบที่ Prontera
+13150200265	The instructor explains the second Job Advance.	ผู้สอนอธิบายการเปลี่ยนอาชีพครั้งที่สอง
+13150200266	With your Job Advance path decided, go touch the Book of Job Advancement.	เมื่อเลือกเส้นทางเปลี่ยนอาชีพแล้ว ไปสัมผัส Book of Job Advancement
+13150200267	Take your first step into exploring the continent of Midgard.	ก้าวแรกสู่การสำรวจทวีป Midgard
+13150200268	A crowd has gathered up ahead. Go take a look.	มีฝูงชนรวมตัวอยู่ข้างหน้า ไปดูหน่อย
+13150200269	Listen to what these people are saying	ฟังว่าผู้คนเหล่านี้กำลังพูดอะไร
+13150200270	Find the person in charge of the trial	ตามหาผู้รับผิดชอบการทดสอบ
+13150200271	Learn about the Novice Trial from Rhine	เรียนรู้เกี่ยวกับ Novice Trial จาก Rhine
+13150200272	Defeat @{1} Porings to prove your combat prowess	ปราบ Porings จำนวน @{1} เพื่อพิสูจน์ความสามารถในการต่อสู้
+13150200273	Tell Rhine how your trial went	บอก Rhine ว่าการทดสอบของคุณเป็นอย่างไร
+13150200274	Talk to the Guide again	พูดคุยกับ Guide อีกครั้ง
+13150200275	Prepare for the next trial	เตรียมตัวสำหรับการทดสอบถัดไป
+13150200276	Defeat @{1} Fabres to prove your strength	ปราบ Fabres จำนวน @{1} เพื่อพิสูจน์ความแข็งแกร่ง
+13150200277	Tell the Trial Officer you have completed the trial	บอก Trial Officer ว่าคุณผ่านการทดสอบแล้ว
+13150200278	To Prontera	ไปยัง Prontera
+13150200279	Talk to the Mentor about Job Advance	พูดคุยกับ Mentor เกี่ยวกับการเปลี่ยนอาชีพ
+13150200280	Go to the Grand Lecture Hall and find the Head Job Advance Mentor	ไปยัง Grand Lecture Hall และตามหา Head Job Advance Mentor
+13150200281	Touch the Book of Job Advancement.	สัมผัส Book of Job Advancement
+13150200282	Job Advance successful. Talk to the Mentor.	เปลี่ยนอาชีพสำเร็จ พูดคุยกับ Mentor
+13150200283	Use a certain number of Skill Points	ใช้แต้มสกิลตามจำนวนที่กำหนด
+13150200284	The Mentor has something to teach you about attributes.	Mentor มีเรื่องค่าสถานะที่จะสอนคุณ
+13150200285	You've grown much stronger. Now go take on some Eden Group commissions.	คุณแข็งแกร่งขึ้นมากแล้ว ตอนนี้ไปลองรับงานว่าจ้างจาก Eden Group
+13150200286	Talk to Eden Group Secretary Lime to accept a request	พูดคุยกับ Eden Group Secretary Lime เพื่อรับงานว่าจ้าง
+13150200287	Defeat any @{1} monsters outside the South Gate	ปราบมอนสเตอร์ใดก็ได้จำนวน @{1} นอก South Gate
+13150200288	Ask Rhine how to use the equipment you just obtained	ถาม Rhine ถึงวิธีใช้อุปกรณ์ที่คุณเพิ่งได้รับ
+13150200289	Turn in the request to Rhine and receive your reward	ส่งงานว่าจ้างให้ Rhine และรับรางวัล
+13150200290	Talk to Rhine about mounts	พูดคุยกับ Rhine เกี่ยวกับพาหนะ
+13150200291	Talk to Rhine. She seems to have a new request for you.	พูดคุยกับ Rhine ดูเหมือนเธอมีงานว่าจ้างใหม่ให้คุณ
+13150200292	Find Poya and accept his commission.	ตามหา Poya และรับงานว่าจ้างของเขา
+13150200293	Head to Southern Payon and meet up with Baoya	มุ่งหน้าไป Southern Payon และพบกับ Baoya
+13150200294	Kill @{1} Boa to obtain Snake Galls	สังหาร Boa จำนวน @{1} เพื่อรับ Snake Galls
+13150200295	Give the collected Snake Gallbladders to Baoya	มอบ Snake Gallbladders ที่รวบรวมมาให้ Baoya
+13150200296	Defeat @{1} Willows and collect their bark	ปราบ Willows จำนวน @{1} และรวบรวมเปลือกไม้ของพวกมัน
+13150200297	Give the collected bark to Boya	มอบเปลือกไม้ที่รวบรวมมาให้ Boya
+13150200298	Search for the snake egg at the location Boya described	ค้นหาไข่งูที่ตำแหน่งซึ่ง Boya บอกไว้
+13150200299	Pick up the snake egg quickly without being discovered	รีบเก็บไข่งูโดยไม่ให้ถูกพบเห็น
+13150200300	Fend off the endless waves of monsters	ต้านมอนสเตอร์ที่บุกมาเป็นระลอกอย่างไม่สิ้นสุด
+13150200301	Give the egg to Boya and Complete the Commission	มอบไข่ให้ Boya และทำงานว่าจ้างให้สำเร็จ
+13150200302	Talk to Boya about what to do next	พูดคุยกับ Boya เกี่ยวกับสิ่งที่ต้องทำต่อไป
+13150200303	Go to Payon Forest and meet up with Boya	ไปยัง Payon Forest และพบกับ Boya
+13150200304	Talk to Boya to learn the mission objective	พูดคุยกับ Boya เพื่อเรียนรู้เป้าหมายภารกิจ
+13150200305	Use a Fly Wing to search for signs of Eddga	ใช้ Fly Wing เพื่อค้นหาร่องรอยของ Eddga
+13150200306	Clear out the Stainers nearby	กำจัด Stainers ที่อยู่ใกล้ ๆ
+13150200307	A Hunter calls out to you	Hunter ร้องเรียกคุณ
+13150200308	Search for traces of Eddga along the road	ค้นหาร่องรอยของ Eddga ตามถนน
+13150200309	Something feels wrong. Look around	รู้สึกว่ามีบางอย่างผิดปกติ มองดูรอบ ๆ
+13150200310	Eddga is incredibly powerful and has defeated Boya and Wule	Eddga ทรงพลังอย่างยิ่งและได้ปราบ Boya กับ Wule แล้ว
+13150200311	Defeat Eddga	ปราบ Eddga
+13150200312	Collect fur from the defeated Eddga	เก็บขนจาก Eddga ที่ถูกปราบ
+13150200313	Talk to Boya and Wule	พูดคุยกับ Boya และ Wule
+13150200314	Return to Payon and deliver all the spoils to the client	กลับไป Payon และนำของที่ได้มาทั้งหมดไปส่งให้ผู้ว่าจ้าง
+13150200315	Use a Butterfly Wing to return directly to Prontera	ใช้ Butterfly Wing เพื่อกลับไป Prontera โดยตรง
+13150200316	Report everything that happened to the Party Leader	รายงานทุกสิ่งที่เกิดขึ้นให้หัวหน้าปาร์ตี้ทราบ
+13150200317	Learn Equipment Forging from Hollgrehenn	เรียนรู้การตีขึ้นรูปอุปกรณ์จาก Hollgrehenn
+13150200318	Show Hollgrehenn what you learned	แสดงสิ่งที่คุณเรียนรู้ให้ Hollgrehenn ดู
+13150200319	Tell the Party Leader what you learned from Hollgrehenn	บอกหัวหน้าปาร์ตี้ถึงสิ่งที่คุณเรียนรู้จาก Hollgrehenn
+13150200320	The Party Leader has recognized your strength and will invite you to join a top-secret new Commission	หัวหน้าปาร์ตี้ยอมรับความแข็งแกร่งของคุณแล้ว และจะเชิญคุณเข้าร่วมงานว่าจ้างใหม่ที่เป็นความลับสุดยอด
+13150200321	Go to Izlude	ไปยัง Izlude
+13150200322	Meet up with Party Leader Eikuni	พบกับ Party Leader Eikuni
+13150200323	Ask a Caravan Member what happened	ถาม Caravan Member ว่าเกิดอะไรขึ้น
+13150200324	Retrieve @{1} crates of cargo from the Mukas	นำสินค้าจำนวน @{1} ลังกลับคืนจาก Mukas
+13150200325	Search for the Caravan Party Leader	ตามหาหัวหน้าปาร์ตี้คาราวาน
+13150200326	A Peco Peco captured the Party Leader! Is it planning to feed them to its chicks?	Peco Peco จับหัวหน้าปาร์ตี้ไป! มันคิดจะเอาไปให้ลูก ๆ กินหรือ?
+13150200327	Defeat the Peco Peco	ปราบ Peco Peco
+13150200328	Rescue the Party Leader and the mysterious woman	ช่วยหัวหน้าปาร์ตี้และหญิงสาวลึกลับ
+13150200329	Talk to the Party Leader	พูดคุยกับหัวหน้าปาร์ตี้
+13150200330	Gather up the caravan's cargo	รวบรวมสินค้าของกองคาราวาน
+13150200331	It's finally time to leave. Talk to the Party Leader	ในที่สุดก็ถึงเวลาออกเดินทาง พูดคุยกับหัวหน้าปาร์ตี้
+13150200332	Board the Airship and prepare to depart	ขึ้นเรือเหาะและเตรียมออกเดินทาง
+13150200333	The compass you're carrying suddenly starts glowing. Very strange	จู่ ๆ เข็มทิศที่คุณพกอยู่ก็เริ่มเรืองแสง แปลกมาก
+13150200334	Bobo seems to have something to say	ดูเหมือน Bobo มีบางอย่างจะพูด
+13150200335	Talk to the attendant to officially board	พูดคุยกับพนักงานเพื่อขึ้นเรืออย่างเป็นทางการ
+13150200336	Board the Ship with the Captain and the Others	ขึ้นเรือพร้อมกัปตันและคนอื่น ๆ
+13150200337	Talk to your companions	พูดคุยกับเพื่อนร่วมทาง
+13150200338	Go to the Adventurer camp at the edge of the desert	ไปยังค่ายนักผจญภัยที่ชายขอบทะเลทราย
+13150200339	Ask Hawk, the camp manager, about the professor's whereabouts	ถาม Hawk ผู้ดูแลค่าย ถึงที่อยู่ของศาสตราจารย์
+13150200340	Search west of the camp for signs of the professor	ค้นหาร่องรอยของศาสตราจารย์ทางตะวันตกของค่าย
+13150200341	Help the Adventurers exterminate the Chonchons	ช่วยนักผจญภัยกำจัด Chonchons
+13150200342	Ask passersby if they have seen the professor	ถามคนที่เดินผ่านว่าเห็นศาสตราจารย์หรือไม่
+13150200343	Search for the professor near Ant Hell	ตามหาศาสตราจารย์ใกล้ Ant Hell
+13150200344	Clear out the ants nearby	กำจัดมดที่อยู่ใกล้ ๆ
+13150200345	Report your findings to Hawk	รายงานสิ่งที่พบให้ Hawk ทราบ
+13150200346	Advance a Growth Emblem once	เลื่อนขั้น Growth Emblem หนึ่งครั้ง
+13150200347	Receive a Letter from the Job Advance Mentor	รับจดหมายจาก Job Advance Mentor
+13150200348	Complete the Job Advance to unlock further Skill Learning	เปลี่ยนอาชีพให้สำเร็จเพื่อปลดล็อกการเรียนรู้สกิลเพิ่มเติม
+13150200349	Use @{1} Skill Points for the Second Job Change	ใช้แต้มสกิล @{1} แต้มสำหรับการเปลี่ยนอาชีพครั้งที่สอง
+13150200350	Start Learning new talents	เริ่มเรียนรู้พรสวรรค์ใหม่
+13150200351	Ask Hawk about his new Clue and continue searching for the professor	ถาม Hawk เกี่ยวกับเบาะแสใหม่ของเขา และตามหาศาสตราจารย์ต่อไป
+13150200352	Go to Ant Hell to find the professor	ไปยัง Ant Hell เพื่อตามหาศาสตราจารย์
+13150200353	Clear out the excess monsters in Ant Hell	กำจัดมอนสเตอร์ส่วนเกินใน Ant Hell
+13150200354	Bobo discovered an important Clue	Bobo พบเบาะแสสำคัญ
+13150200355	Read the notes for a Clue to the professor's whereabouts	อ่านบันทึกเพื่อหาเบาะแสที่อยู่ของศาสตราจารย์
+13150200356	The professor is probably at the location marked in the notes	ศาสตราจารย์น่าจะอยู่ที่ตำแหน่งซึ่งระบุในบันทึก
+13150200357	Venture deeper into Ant Hell to find the professor	เข้าไปลึกขึ้นใน Ant Hell เพื่อตามหาศาสตราจารย์
+13150200358	The bespectacled middle-aged man ahead may be the professor	ชายวัยกลางคนสวมแว่นข้างหน้าอาจเป็นศาสตราจารย์
+13150200359	Cover the naked girl with some clothes	นำเสื้อผ้ามาคลุมร่างเด็กหญิงที่เปลือยอยู่
+13150200360	Something unexpected suddenly happens	จู่ ๆ ก็เกิดเหตุการณ์ไม่คาดคิด
+13150200361	Maya suddenly abducts the Professor, leaving you all frozen in shock	Maya ลักพาตัวศาสตราจารย์อย่างกะทันหัน ทำให้ทุกคนตะลึงจนขยับไม่ออก
+13150200362	It's the man from earlier. Ask if he knows how to find the professor	นี่คือชายคนเมื่อครู่ ถามว่าเขารู้วิธีตามหาศาสตราจารย์หรือไม่
+13150200363	Defeat any type of ant to obtain Alchemy Materials*	ปราบมดประเภทใดก็ได้เพื่อรับ Alchemy Materials*
+13150200364	Give the materials to the Adventurer so he can create a tracker ant	มอบวัสดุให้นักผจญภัยเพื่อให้เขาสร้างมดติดตาม
+13150200365	Go to the intersection and Release the pathfinder ant.	ไปที่ทางแยกและปล่อย pathfinder ant
+13150200366	Follow the pathfinder ant to the entrance of the queen ant's nest	ติดตาม pathfinder ant ไปยังทางเข้ารังราชินีมด
+13150200367	Crawl into the hole	คลานเข้าไปในรู
+13150200368	The commander seems worried about you. Talk to her	ดูเหมือนผู้บัญชาการเป็นห่วงคุณ พูดคุยกับเธอ
+13150200369	Bobo has something to tell you	Bobo มีบางอย่างจะบอกคุณ
+13150200370	The professor is overflowing with gratitude. Hear what he has to say	ศาสตราจารย์รู้สึกขอบคุณอย่างยิ่ง ฟังสิ่งที่เขาจะพูด
+13150200371	Ask the Pet Merchant how to use the Egg Incubator	ถาม Pet Merchant ถึงวิธีใช้ Egg Incubator
+13150200372	Ask the Pet Merchant what to do next	ถาม Pet Merchant ว่าต้องทำอะไรต่อไป
+13150200373	Ask the professor why he went to the desert	ถามศาสตราจารย์ว่าทำไมเขาถึงไปทะเลทราย
+13150200374	Something completely unexpected happened...	เกิดเรื่องที่ไม่คาดคิดเลย...
+13150200375	Talk to the woman nearby	พูดคุยกับหญิงสาวที่อยู่ใกล้ ๆ
+13150200376	Talk to the woman	พูดคุยกับหญิงสาว
+13150200377	Talk to the puzzled professor and commander nearby	พูดคุยกับศาสตราจารย์และผู้บัญชาการที่กำลังสับสนอยู่ใกล้ ๆ
+13150200378	Open ^{1}Daily Must-Dos^{2} and complete ^{3}Daily Misc activities (Dumby's Request, AFK in the Field, etc.)^{4} to earn lots of EXP	เปิด ^{1}Daily Must-Dos^{2} และทำ ^{3}กิจกรรม Daily Misc (Dumby's Request, AFK in the Field ฯลฯ)^{4} ให้สำเร็จเพื่อรับ EXP จำนวนมาก
+13150200379	You've grown much stronger. You're ready for your second job change.	คุณแข็งแกร่งขึ้นมากแล้ว พร้อมเปลี่ยนอาชีพครั้งที่สอง
+13150200380	Complete your second job change	เปลี่ยนอาชีพครั้งที่สองให้สำเร็จ
+13150200381	The Job Advance Mentor gave you materials for forging equipment	Job Advance Mentor มอบวัสดุสำหรับตีขึ้นรูปอุปกรณ์ให้คุณ
+13150200382	Complete Equipment Forging with Hollgrehenn	ตีขึ้นรูปอุปกรณ์กับ Hollgrehenn ให้สำเร็จ
+13150200383	Professor Ryan sent you a letter	Professor Ryan ส่งจดหมายถึงคุณ
+13150200384	The professor's important instrument is missing, and they need your help	เครื่องมือสำคัญของศาสตราจารย์หายไป และศาสตราจารย์ต้องการความช่วยเหลือจากคุณ
+13150200385	Search the suspected location	ค้นหาตำแหน่งที่น่าสงสัย
+13150200386	Meet up with the Chivalry investigator	พบกับผู้สืบสวนของ Chivalry
+13150200387	Ji'ang looks confident. Follow him	Ji'ang ดูมั่นใจ ตามเขาไป
+13150200388	Ji'ang found a suspicious object	Ji'ang พบวัตถุต้องสงสัย
+13150200389	Ji'ang is trying to express something. Bobo seems able to communicate with him at an Easy level	Ji'ang กำลังพยายามสื่อบางอย่าง ดูเหมือน Bobo จะสื่อสารกับเขาได้อย่างง่าย ๆ
+13150200390	Ji'ang refuses to go any farther. Defeat the terrifying monsters for him	Ji'ang ไม่ยอมไปต่อ ปราบมอนสเตอร์น่ากลัวให้เขา
+13150200391	The Clue points to Culvert Floor @{1}. Keep moving	เบาะแสชี้ไปที่ Culvert ชั้น @{1} เดินหน้าต่อไป
+13150200392	Ji'ang stopped someone. There seems to be more to this	Ji'ang หยุดใครบางคนไว้ ดูเหมือนเรื่องนี้มีอะไรมากกว่านั้น
+13150200393	You've found enough Clues. Summarize your findings	คุณพบเบาะแสเพียงพอแล้ว สรุปสิ่งที่พบ
+13150200394	There must be more than one Thief. Chase after them	ต้องมีโจรมากกว่าหนึ่งคน ไล่ตามพวกเขาไป
+13150200395	Enter the depths of the Culvert	เข้าสู่ส่วนลึกของ Culvert
+13150200396	Capture the Thief	จับตัวโจร
+13150200397	Return to Prontera and report to the professor	กลับไป Prontera และรายงานศาสตราจารย์
+13150200398	The professor asks for your help again	ศาสตราจารย์ขอความช่วยเหลือจากคุณอีกครั้ง
+13150200399	The professor's cargo went missing at the North Gate. Go investigate	สินค้าของศาสตราจารย์หายไปที่ North Gate ไปตรวจสอบ
+13150200400	The compass is reacting strangely	เข็มทิศมีปฏิกิริยาแปลก ๆ
+13150200401	Search for the missing cargo	ค้นหาสินค้าที่หายไป
+13150200402	Inspect the scattered cargo	ตรวจดูสินค้าที่กระจัดกระจาย
+13150200403	Question the caravan Member nearby	ซักถามสมาชิกกองคาราวานที่อยู่ใกล้ ๆ
+13150200404	Defeat Morroc	ปราบ Morroc
+13150200405	Inspect the cargo	ตรวจดูสินค้า
+13150200406	Say goodbye to the caravan Members	บอกลาสมาชิกกองคาราวาน
+13150200407	Go to the location the professor mentioned	ไปยังตำแหน่งที่ศาสตราจารย์กล่าวถึง
+13150200408	Pick up the strange instrument	หยิบเครื่องมือแปลก ๆ
+13150200409	Chivalry Members block your way	สมาชิก Chivalry ขวางทางคุณ
+13150200410	Connect the instrument to the stone pillar	เชื่อมต่อเครื่องมือเข้ากับเสาหิน
+13150200411	The Stone Pillar has been activated, and Ji has appeared again	เสาหินเปิดทำงานแล้ว และ Ji ปรากฏตัวอีกครั้ง
+13150200412	Encounter the mysterious woman again	พบหญิงสาวลึกลับอีกครั้ง
+13150200413	Ask the mysterious woman about the situation	ถามหญิงสาวลึกลับเกี่ยวกับสถานการณ์
+13150200414	Listen to the Soldier's Report	ฟังรายงานของทหาร
+13150200415	Go to the Pyramid and investigate	ไปยัง Pyramid และตรวจสอบ
+13150200416	Ask around about the situation nearby	สอบถามผู้คนเกี่ยวกับสถานการณ์ในบริเวณใกล้เคียง
+13150200417	Venture deep into the Pyramid	เข้าไปลึกใน Pyramid
+13150200418	Help the Soldier Deal with the Monsters	ช่วยทหารจัดการมอนสเตอร์
+13150200419	Ask the Soldier about the situation	ถามทหารเกี่ยวกับสถานการณ์
+13150200420	Find the Relic and the Professor's group	ตามหา Relic และกลุ่มของศาสตราจารย์
+13150200421	See what's happening up ahead	ดูว่าเกิดอะไรขึ้นข้างหน้า
+13150200422	Clear the Pharaoh Dungeon	ผ่าน Pharaoh Dungeon
+13150200423	Talk to the Knight Leader	พูดคุยกับ Knight Leader
+13150200424	Ask the Professor	ถามศาสตราจารย์
+13150200425	Touch the Realm Diorama	สัมผัส Realm Diorama
+13150200426	Respond to a Crisis	รับมือกับวิกฤต
+13150200427	Awaken in the Court of Time	ตื่นขึ้นใน Court of Time
+13150200428	Say hello to Bragis	ทักทาย Bragis
+13150200429	Observe what happens	สังเกตสิ่งที่เกิดขึ้น
+13150200430	Ask Bragis about the situation	ถาม Bragis เกี่ยวกับสถานการณ์
+13150200431	You Discover yourself lying on the ground...	คุณพบว่าตนเองนอนอยู่บนพื้น...
+13150200432	Listen to the professor explain everything	ฟังศาสตราจารย์อธิบายทุกอย่าง
+13150200433	Head to the Inn and Rest	ไปที่โรงแรมและพักผ่อน
+13150200435	Witness the Prophecy in the Dream	เป็นพยานเห็นคำทำนายในฝัน
+13150200436	You've reached the end of the current main Quests. Check out the events and enjoy your adventures in this world!	คุณมาถึงจุดสิ้นสุดของเควสต์หลักที่มีอยู่ในขณะนี้แล้ว ลองดูกิจกรรมและสนุกกับการผจญภัยในโลกนี้!
+13150000000	The Party Leader selects a sapling and hangs the declaration	หัวหน้าปาร์ตี้เลือกต้นกล้าและแขวนคำประกาศ
+13150000001	All Members of the party water the sapling	สมาชิกทุกคนในปาร์ตี้รดน้ำต้นกล้า
+13150000002	Talk to the younger sister and enter the Adventure Group declaration	คุยกับน้องสาวและกรอกคำประกาศของกลุ่มผจญภัย
+13150000003	Waiting for the battle to start	รอการต่อสู้เริ่ม
+13150000004	Get @{1} assists on the battlefield	ช่วยสังหารในสนามรบ @{1} ครั้ง
+13150000005	Earn @{1} points on the battlefield	รับ @{1} คะแนนในสนามรบ
+13150000006	Earn a C rating on the battlefield	ได้รับการประเมินระดับ C ในสนามรบ
+13150000007	Earn a B rating on the battlefield	ได้รับการประเมินระดับ B ในสนามรบ
+13150000008	Earn an A rating on the battlefield	ได้รับการประเมินระดับ A ในสนามรบ
+13150000009	^{1}Defeat Ilmata, God of Nature^{2}	^{1}เอาชนะ Ilmata, God of Nature^{2}
+13150000010	^{1}Attack Almakia with the Heavy Cannon until it becomes Weak^{2}	^{1}โจมตี Almakia ด้วย Heavy Cannon จนกว่าจะอ่อนแอ^{2}
+13150000011	^{1}Defeat Ilmata, Primordial Chaos^{2}	^{1}เอาชนะ Ilmata, Primordial Chaos^{2}
+13150000012	^{1}Use the Grappling Hook to Restrain Almakia!^{2}	^{1}ใช้ Grappling Hook เพื่อยึดตรึง Almakia!^{2}
+13150000013	^{1}Now's your chance! Reach Almakia's back and explore it^{2}	^{1}ได้โอกาสแล้ว! ไปถึงหลังของ Almakia และสำรวจมัน^{2}
+13150000014	^{1}Escape to the finish line as quickly as possible^{2}	^{1}หนีไปยังเส้นชัยให้เร็วที่สุด^{2}
+13150000015	^{1}Use Lope to dodge attacks and slide all the way to the end!^{2}	^{1}ใช้ Lope เพื่อหลบการโจมตีและไถลไปจนถึงจุดสิ้นสุด!^{2}
+13150000016	^{1}Defeat Ilmata, the Parasitized Divine Vessel^{2}	^{1}เอาชนะ Ilmata, the Parasitized Divine Vessel^{2}
+13150000017	Move Forward and catch up with Dracula	เดินหน้าและตาม Dracula ให้ทัน
+13150000018	Defeat the Marionette	เอาชนะ Marionette
+13150000019	Continue pursuing Dracula. Watch out for Dynamite on the ground.	ไล่ตาม Dracula ต่อ ระวังไดนาไมต์บนพื้น
+13150000020	Defeat Wraith.	เอาชนะ Wraith
+13150000021	Continue chasing Dracula, and watch out for falling rocks	ไล่ตาม Dracula ต่อ และระวังหินที่ตกลงมา
+13150000022	Defeat Doppelganger	เอาชนะ Doppelganger
+13150000023	Continue chasing Dracula	ไล่ตาม Dracula ต่อ
+13150000024	Defeat Wind Ghost	เอาชนะ Wind Ghost
+13150000025	Defeat Dracula	เอาชนะ Dracula
+13150000026	Find the key in the bushes and rescue your companions	หากุญแจในพุ่มไม้และช่วยเหลือเพื่อนร่วมทาง
+13150000027	Reach @{1} Total Points	มีคะแนนรวมถึง @{1}
+13150000028	Click Me to Start Now	คลิกที่ฉันเพื่อเริ่มทันที
+13150000029	Allocate @{1} Free Stat Points	จัดสรรคะแนนค่าสถานะที่ยังไม่ได้ใช้ @{1} คะแนน
+13150000030	Job Talents Points Assigned: @{1}	คะแนนพรสวรรค์อาชีพที่จัดสรรแล้ว: @{1}
+13150000031	Equip @{2} pieces of Lv. @{1} or higher gear	สวมอุปกรณ์ @{2} ชิ้นที่มี Lv. @{1} ขึ้นไป
+13150000032	Equip @{1} pieces of Purple Quality gear or higher	สวมอุปกรณ์คุณภาพสีม่วงขึ้นไป @{1} ชิ้น
+13150000033	Equip @{1} pieces of Orange Quality or higher gear	สวมอุปกรณ์คุณภาพสีส้มขึ้นไป @{1} ชิ้น
+13150000034	Reach a total Refinement Lv. of @{1} across all equipment	มี Lv. การตีบวกรวมของอุปกรณ์ทั้งหมดถึง @{1}
+13150000035	Reach Refinement Resonance Lv. @{1}	มี Lv. เรโซแนนซ์การตีบวกถึง @{1}
+13150000036	Activate @{1} Season Refinement slots	เปิดใช้งานช่องตีบวกประจำฤดูกาล @{1} ช่อง
+13150000037	Complete @{1} Equipment Enchantments	เสริมมนตร์อุปกรณ์ @{1} ครั้ง
+13150000038	Equipped Blue Quality gear has @{1} Enchants	อุปกรณ์คุณภาพสีฟ้าที่สวมใส่มีการเสริมมนตร์ @{1} รายการ
+13150000039	Have @{1} Enchants on equipped Purple Quality gear	มีการเสริมมนตร์ @{1} รายการบนอุปกรณ์คุณภาพสีม่วงที่สวมใส่
+13150000040	Insert @{1} Blue Quality or higher cards	ใส่การ์ดคุณภาพสีฟ้าขึ้นไป @{1} ใบ
+13150000041	Socket @{1} cards of Purple Quality or higher	ใส่การ์ดคุณภาพสีม่วงขึ้นไป @{1} ใบ
+13150000042	Socket @{2} Tier @{1} or higher cards	ใส่การ์ด @{2} ใบที่มีระดับ @{1} ขึ้นไป
+13150000043	Collect Purple Quality Cards @{1} times	สะสมการ์ดคุณภาพสีม่วง @{1} ครั้ง
+13150000044	Collect Orange Quality cards @{1} times	สะสมการ์ดคุณภาพสีส้ม @{1} ครั้ง
+13150000045	Activate @{1} Faction effects with deployed pets	เปิดใช้งานเอฟเฟกต์ฝ่าย @{1} เอฟเฟกต์ด้วยสัตว์เลี้ยงที่ส่งลงสนาม
+13150000046	Deploy @{1} support pets	ส่งสัตว์เลี้ยงสนับสนุนลงสนาม @{1} ตัว
+13150000047	Deploy @{1} pets of Purple Quality or higher	ส่งสัตว์เลี้ยงคุณภาพสีม่วงขึ้นไปลงสนาม @{1} ตัว
+13150000048	Deploy @{1} pets of Orange Quality or higher	ส่งสัตว์เลี้ยงคุณภาพสีส้มขึ้นไปลงสนาม @{1} ตัว
+13150000049	Deploy @{1} pets at Lv. @{2} or higher	ส่งสัตว์เลี้ยง @{1} ตัวที่มี Lv. @{2} ขึ้นไปลงสนาม
+13150000050	Deploy @{1} pets at @{2} stars or higher	ส่งสัตว์เลี้ยง @{1} ตัวที่มี @{2} ดาวขึ้นไปลงสนาม
+13150000051	Obtain @{1} activated attribute skills	ได้รับสกิลคุณสมบัติที่เปิดใช้งานแล้ว @{1} สกิล
+13150000052	Deploy @{1} Echoes of Purple Quality or higher	ส่ง Echoes คุณภาพสีม่วงขึ้นไปลงสนาม @{1} ชิ้น
+13150000053	Deploy @{1} Echoes of Orange Quality or higher	ส่ง Echoes คุณภาพสีส้มขึ้นไปลงสนาม @{1} ชิ้น
+13150000054	Deploy @{1} Echoes at Lv. @{2} or higher	ส่ง Echoes @{1} ชิ้นที่มี Lv. @{2} ขึ้นไปลงสนาม
+13150000055	Activate @{1} Soul Resonances at Lv. @{2} or higher	เปิดใช้งาน Soul Resonances @{1} รายการที่มี Lv. @{2} ขึ้นไป
+13150000056	Deploy @{1} Totems of Blue Quality or higher	ส่ง Totems คุณภาพสีฟ้าขึ้นไปลงสนาม @{1} ชิ้น
+13150000057	Deploy @{1} Totems of Purple Quality or higher	ส่ง Totems คุณภาพสีม่วงขึ้นไปลงสนาม @{1} ชิ้น
+13150000058	Deploy @{1} Totem Skills of Blue Quality or higher	ติดตั้งสกิล Totem คุณภาพสีฟ้าขึ้นไป @{1} สกิล
+13150000059	Deploy @{1} Totem Skills of Purple Quality or higher	ติดตั้งสกิล Totem คุณภาพสีม่วงขึ้นไป @{1} สกิล
+13150000060	Deploy a Totem with @{1} maxed attributes	ส่ง Totem ที่มีคุณสมบัติสูงสุด @{1} รายการลงสนาม
+13150000061	Combine @{1} Purple Totems	รวม Totems สีม่วง @{1} ชิ้น
+13150000062	Combine @{1} Orange Totems	รวม Totems สีส้ม @{1} ชิ้น
+13150000063	Finish Downloading While Playing	ดาวน์โหลดขณะเล่นให้เสร็จ
+13150000064	This Quest is obtained when the player first enters the game. Its completion requirements are the same as @{1}	ได้รับเควสต์นี้เมื่อผู้เล่นเข้าเกมครั้งแรก ข้อกำหนดการสำเร็จเควสต์เหมือนกับ @{1}
+13150000065	Complete @{1} to accept this Quest. This Quest cannot currently be completed	ทำ @{1} ให้สำเร็จเพื่อรับเควสต์นี้ ขณะนี้ยังไม่สามารถทำเควสต์นี้ให้สำเร็จได้
+13150000066	Spend @{1} minutes in any Tavern room	ใช้เวลา @{1} นาทีในห้องโรงเตี๊ยมใดก็ได้
+13150000067	Place in the top @{1} a total of @{2} times This Week	ติดอันดับสูงสุด @{1} อันดับรวม @{2} ครั้งในสัปดาห์นี้
+13150000068	Use Medicine (HP recovery Medicine) @{1} times in a match	ใช้ยา (ยาฟื้นฟู HP) @{1} ครั้งในการแข่งขันหนึ่งแมตช์
+13150000069	Kill @{1} Monsters (any Monster) in matches	สังหารมอนสเตอร์ @{1} ตัว (มอนสเตอร์ชนิดใดก็ได้) ในการแข่งขัน
+13150000070	Open a total of @{1} treasure chests	เปิดหีบสมบัติรวม @{1} หีบ
+13150000071	Have the team obtain Orange Quality equipment @{1} times	ให้ทีมได้รับอุปกรณ์คุณภาพสีส้ม @{1} ครั้ง
+13150000072	Have the team use Camouflage @{1} times in matches	ให้ทีมใช้ Camouflage @{1} ครั้งในการแข่งขัน
+13150000073	Have the team Kill a total of @{1} participants	ให้ทีมสังหารผู้เข้าร่วมรวม @{1} คน
+13150000074	Battle of Survivors Activity Task	ภารกิจกิจกรรม Battle of Survivors
+13150000075	Say hello to the Soldier in Prontera for Dumby.	ทักทาย Soldier ใน Prontera แทน Dumby
+13150000076	Defeat the monsters hidden throughout the world.	เอาชนะมอนสเตอร์ที่ซ่อนอยู่ทั่วโลก
+13150000077	Say hello to Antonio for Dumby.	ทักทาย Antonio แทน Dumby
+13150000078	Say hello to Shansi for Dumby.	ทักทาย Shansi แทน Dumby
+13150000079	Say hello to Gutey for Dumby.	ทักทาย Gutey แทน Dumby
+13150000080	Say hello to Sebu Yalian for Dumby.	ทักทาย Sebu Yalian แทน Dumby
+13150000081	Say hello to the Adventure Guild Mentor for Dumby.	ทักทาย Adventure Guild Mentor แทน Dumby
+13150000082	Say hello to the Life Skill Mentor for Dumby.	ทักทาย Life Skill Mentor แทน Dumby
+13150000083	Say hello to the Item Merchant for Dumby.	ทักทาย Item Merchant แทน Dumby
+13150000084	Say hello to Miss Smile for Dumby.	ทักทาย Miss Smile แทน Dumby
+13150000085	Say hello to the Foreign Merchant for Dumby.	ทักทาย Foreign Merchant แทน Dumby
+13150000086	Say hello to Baisulist for Dumby.	ทักทาย Baisulist แทน Dumby
+13150000087	Say hello to Aorufeng for Dumby.	ทักทาย Aorufeng แทน Dumby
+13150000088	Say hello to the Gift Merchant for Dumby.	ทักทาย Gift Merchant แทน Dumby
+13150000089	Say hello to Leiya Bulian for Dumby.	ทักทาย Leiya Bulian แทน Dumby
+13150000090	Say hello to the Pet Merchant for Dumby.	ทักทาย Pet Merchant แทน Dumby
+13150000091	Say hello to the Butcher for Dumby.	ทักทาย Butcher แทน Dumby
+13150000092	Say hello to the Monsterologist for Dumby.	ทักทาย Monsterologist แทน Dumby
+13150000093	Say hello to the Young Man for Dumby.	ทักทาย Young Man แทน Dumby
+13150000094	Login ROO	เข้าสู่ระบบ ROO
+13150000095	Reach Base Lv. @{1}	มี Base Lv. ถึง @{1}
+13150000096	Complete the Main Quest: Fight Porings Every Day	ทำเควสต์หลัก Fight Porings Every Day ให้สำเร็จ
+13150000097	Reach the title Wind's Voyage I	ได้รับฉายา Wind's Voyage I
+13150000098	Complete @{1} Trades at the Exchange	ซื้อขายที่ตลาดแลกเปลี่ยน @{1} ครั้ง
+13150000099	[Reserved] Participate in Guild Auction @{1} times	[ Reserved ] เข้าร่วมการประมูลกิลด์ @{1} ครั้ง
+13150000100	Enhance the weapon slot to Lv. @{1}	เสริมพลังช่องอาวุธให้ถึง Lv. @{1}
+13150000101	Refine @{1} times	ตีบวก @{1} ครั้ง
+13150000102	Craft @{1} pieces of equipment of Purple Quality or higher	สร้างอุปกรณ์คุณภาพสีม่วงขึ้นไป @{1} ชิ้น
+13150000103	Equip @{1} cards of Purple Quality or higher	ติดตั้งการ์ดคุณภาพสีม่วงขึ้นไป @{1} ใบ
+13150000104	Own @{1} pets of Grade A or higher	มีสัตว์เลี้ยงเกรด A ขึ้นไป @{1} ตัว
+13150000105	Own @{1} pets at Lv. @{2} or higher	มีสัตว์เลี้ยง @{1} ตัวที่มี Lv. @{2} ขึ้นไป
+13150000106	Participate in @{1} MVP events	เข้าร่วมกิจกรรม MVP @{1} ครั้ง
+13150000107	[Reserved] Participate in @{1} MINI events	[ Reserved ] เข้าร่วมกิจกรรม MINI @{1} ครั้ง
+13150000108	[Reserved] Participate in the Guild Bonfire event @{1} times	[ Reserved ] เข้าร่วมกิจกรรม Guild Bonfire @{1} ครั้ง
+13150000109	[Reserved] Participate in @{1} GVE events	[ Reserved ] เข้าร่วมกิจกรรม GVE @{1} ครั้ง
+13150000110	[Reserved] Participate in Guild League @{1} times	[ Reserved ] เข้าร่วม Guild League @{1} ครั้ง
+13150000111	[Reserved] Spend a total of @{1} minutes in field combat	[ Reserved ] ใช้เวลารวม @{1} นาทีในการต่อสู้ในพื้นที่ทั่วไป
+13150000112	[Reserved] Claim offline idle rewards @{1} times	[ Reserved ] รับรางวัลฟาร์มออฟไลน์ @{1} ครั้ง
+13150000113	[Reserved] Participate in Guild Blessing @{1} times	[ Reserved ] เข้าร่วม Guild Blessing @{1} ครั้ง
+13150000114	Have @{1} friends	มีเพื่อน @{1} คน
+13150000115	Send @{1} messages in the Guild Channel	ส่งข้อความในช่องแชตกิลด์ @{1} ข้อความ
+13150000116	Participate in the Cat Hand Caravan @{1} times	เข้าร่วม Cat Hand Caravan @{1} ครั้ง
+13150000117	Clear Floor @{1} of the Pet Tower	ผ่านชั้น @{1} ของ Pet Tower
+13150000118	Join a guild	เข้าร่วมกิลด์
+13150000119	Reach @{1} Daily Activity	มีกิจกรรมรายวันถึง @{1}
+13150000120	Raise the weapon slot's Refine Level to Lv. @{1}	เพิ่มระดับตีบวกของช่องอาวุธให้ถึง Lv. @{1}
+13150000121	Sprakki is welcoming Novices.	Sprakki กำลังต้อนรับ Novices
+13150000122	Find the Trial Instructor.	ตามหา Trial Instructor
+13150000123	The Novice Instructor wants to test the new Adventurer.	Novice Instructor ต้องการทดสอบนักผจญภัยคนใหม่
+13150000124	Defeat nearby Porings and collect Sticky Mucus.	ปราบ Porings ที่อยู่ใกล้ ๆ และรวบรวม Sticky Mucus
+13150000125	Having completed the initial trial, report to Rein.	เมื่อผ่านการทดสอบเบื้องต้นแล้ว ให้รายงานต่อ Rein
+13150000126	Try out your new weapon.	ลองใช้อาวุธใหม่ของคุณ
+13150000127	Collect @{1} Sticky Mucus from Porings and deliver it to the Medicine Workshop as a basic ingredient.	รวบรวม Sticky Mucus จำนวน @{1} จาก Porings แล้วนำไปส่งที่ Medicine Workshop เพื่อใช้เป็นวัตถุดิบพื้นฐาน
+13150000128	Obtain Sticky Mucus and report to Rhina.	รับ Sticky Mucus แล้วรายงานให้ Rhina ทราบ
+13150000129	Defeat the nearby Fabre and collect Fluff.	ปราบ Fabre ที่อยู่ใกล้ ๆ และรวบรวม Fluff
+13150000130	Obtain Soft Fur and report back to Rhine.	รับ Soft Fur แล้วกลับไปรายงาน Rhine
+13150000131	You got some new gear. Try it on!	คุณได้รับอุปกรณ์ใหม่ ลองสวมดูสิ!
+13150000132	Keep defeating Fabres to collect equipment.	ปราบ Fabres ต่อไปเพื่อรวบรวมอุปกรณ์
+13150000133	Complete the Novice Trial and obtain proof of completion.	ผ่าน Novice Trial และรับหลักฐานการผ่านทดสอบ
+13150000134	Activate the Growth Badge	เปิดใช้งาน Growth Badge
+13150000135	Head toward Prontera.	มุ่งหน้าไปยัง Prontera
+13150000136	Find the Academy's Head Job Advance Mentor.	ตามหา Head Job Advance Mentor ของ Academy
+13150000137	You meet Sprakki again and discover that she's the Academy receptionist.	คุณพบ Sprakki อีกครั้งและรู้ว่าเธอเป็นพนักงานต้อนรับของ Academy
+13150000138	Follow Sprakki's directions to the Grand Lecture Hall.	ไปยัง Grand Lecture Hall ตามคำแนะนำของ Sprakki
+13150000139	You hear a boy calling out. Go take a look.	คุณได้ยินเด็กชายร้องเรียก ไปดูหน่อย
+13150000140	The boy offers to predict your future job. Give it a try.	เด็กชายเสนอจะทำนายอาชีพในอนาคตของคุณ ลองดูสิ
+13150000141	Listen to the boy's prediction.	ฟังคำทำนายของเด็กชาย
+13150000142	Find the Head Job Advance Mentor and begin your Job Advance.	ตามหา Head Job Advance Mentor และเริ่มเปลี่ยนอาชีพ
+13150000143	Follow the Head Job Advance Mentor's guidance and touch the Book of Job Advancement.	ทำตามคำแนะนำของ Head Job Advance Mentor แล้วสัมผัส Book of Job Advancement
+13150000144	Choose your desired job and complete your first Job Advance.	เลือกอาชีพที่ต้องการและเปลี่ยนอาชีพครั้งแรกให้สำเร็จ
+13150000145	Congratulations on completing your Job Advance! Here's a quick overview of the changes: you've gained new skills and can now allocate Stat Points and Skill Points.	ยินดีด้วยที่เปลี่ยนอาชีพสำเร็จ! นี่คือสรุปสั้น ๆ ของสิ่งที่เปลี่ยนไป: คุณได้รับสกิลใหม่ และตอนนี้สามารถจัดสรรแต้มค่าสถานะและแต้มสกิลได้แล้ว
+13150000146	Keep leveling up and become a great Adventurer!	เพิ่มเลเวลต่อไปแล้วเป็นนักผจญภัยผู้ยิ่งใหญ่ให้ได้!
+13150000147	Choose a path to begin your journey!	เลือกเส้นทางเพื่อเริ่มการเดินทางของคุณ!
+13150000148	Complete a Title Promotion once.	เลื่อนขั้นฉายาให้สำเร็จหนึ่งครั้ง
+13150000149	Learn about the Eden Group from the Head Job Advance Mentor.	เรียนรู้เกี่ยวกับ Eden Group จาก Head Job Advance Mentor
+13150000150	Ask the Teleporter to take you to the Eden Group.	ขอให้ Teleporter พาคุณไปยัง Eden Group
+13150000151	Rescue the Novice Swordsman surrounded by Rockers.	ช่วย Novice Swordsman ที่ถูก Rockers ล้อมไว้
+13150000152	The Novice Swordsman invites you to travel to the Eden Group together.	Novice Swordsman ชวนคุณเดินทางไปยัง Eden Group ด้วยกัน
+13150000153	Register as an Adventurer with the Eden Group.	ลงทะเบียนเป็นนักผจญภัยกับ Eden Group
+13150000154	Accept your first official request from the Eden Group.	รับงานว่าจ้างอย่างเป็นทางการงานแรกจาก Eden Group
+13150000155	Travel to Payon and ask the client about the situation.	เดินทางไป Payon และสอบถามผู้ว่าจ้างเกี่ยวกับสถานการณ์
+13150000156	[Flying Mount Reward—Use It from Your Backpack] Wild beasts have recently been prowling around the village. The Elder Lady wants you to help find the missing livestock.	[ Flying Mount Reward—Use It from Your Backpack ] ช่วงนี้มีสัตว์ป่าวนเวียนอยู่รอบหมู่บ้าน Elder Lady ต้องการให้คุณช่วยหาปศุสัตว์ที่หายไป
+13150000157	Automatically ride the Balloon Mount	ขี่ Balloon Mount โดยอัตโนมัติ
+13150000159	Obtain a Hard Shell from a beetle's molted exoskeleton.	รับ Hard Shell จากเปลือกที่ด้วงลอกทิ้งไว้
+13150000160	Obtain high-quality Sticky Mucus from the trees.	รับ Sticky Mucus คุณภาพสูงจากต้นไม้
+13150000161	A nearby Hunter greets you. Hear what she has to say.	Hunter ที่อยู่ใกล้ ๆ ทักทายคุณ ฟังสิ่งที่เธอจะพูด
+13150000162	Teleport! Whoosh! Whoosh!	เทเลพอร์ต! ฟิ้ว! ฟิ้ว!
+13150000163	Whoosh! Whoosh! Whoosh!	ฟิ้ว! ฟิ้ว! ฟิ้ว!
+13150000164	You hear a strange noise. Move closer to investigate.	คุณได้ยินเสียงแปลก ๆ เข้าไปใกล้เพื่อตรวจสอบ
+13150000165	【Before completing this, make sure you're using the free Flying Mount, or an error will occur.】Complete the Commission and report your findings.	[ Before completing this, make sure you're using the free Flying Mount, or an error will occur. ] ทำงานว่าจ้างให้สำเร็จและรายงานสิ่งที่พบ
+13150000166	Return to the Eden Group Chief to board the airship.	กลับไปหา Eden Group Chief เพื่อขึ้นเรือเหาะ
+13150000167	Go to the tavern	ไปที่โรงเหล้า
+13150000168	Ask the tavern owner about the Black Market Merchant.	ถามเจ้าของโรงเหล้าเกี่ยวกับ Black Market Merchant
+13150000169	Ask the Adventurer about the Black Market Merchant.	ถามนักผจญภัยเกี่ยวกับ Black Market Merchant
+13150000170	The woman says some baffling things and gives you a necklace.	หญิงสาวพูดสิ่งที่ชวนสับสนและมอบสร้อยคอให้คุณ
+13150000171	A nearby Eden Group Member greets you.	Eden Group Member ที่อยู่ใกล้ ๆ ทักทายคุณ
+13150000172	Head to Izlude and meet up with the Eden Group Chief.	มุ่งหน้าไป Izlude แล้วพบกับ Eden Group Chief
+13150000173	The Eden Group Chief entrusts you with an important mission.	Eden Group Chief มอบหมายภารกิจสำคัญให้คุณ
+13150000174	Prepare to board the airship and search for the professor.	เตรียมขึ้นเรือเหาะและออกตามหาศาสตราจารย์
+13150000175	The airship starts up.	เรือเหาะเริ่มออกเดินทาง
+13150000176	You crash-land in the desert. Ask around for information.	คุณตกลงกลางทะเลทราย สอบถามผู้คนเพื่อหาข้อมูล
+13150000177	Equipment Forging	การตีอุปกรณ์
+13150000178	There's an Adventurer camp nearby. Go there to gather information.	มีค่ายนักผจญภัยอยู่ใกล้ ๆ ไปที่นั่นเพื่อรวบรวมข้อมูล
+13150000179	You encounter some Chonchons along the way. Drive them off.	คุณพบ Chonchons ระหว่างทาง ไล่พวกมันไป
+13150000180	Ask around the Adventurer Camp for the Professor's whereabouts.	สอบถามผู้คนใน Adventurer Camp เพื่อหาที่อยู่ของศาสตราจารย์
+13150000181	Go to Ant Hell and bring back the Professor, who is engrossed in his investigation.	ไปยัง Ant Hell และพาศาสตราจารย์ที่กำลังหมกมุ่นกับการสำรวจกลับมา
+13150000182	Discover a Research Notebook that appears to belong to the Professor.	พบ Research Notebook ที่ดูเหมือนจะเป็นของศาสตราจารย์
+13150000183	Continue onward and search for the Professor.	เดินหน้าต่อและตามหาศาสตราจารย์
+13150000184	The man turns out to be the Professor. Ask him what happened.	ชายคนนั้นคือศาสตราจารย์ ถามเขาว่าเกิดอะไรขึ้น
+13150000185	The Professor mentions a strange young girl nearby. Go take a look.	ศาสตราจารย์กล่าวถึงเด็กหญิงแปลก ๆ ที่อยู่ใกล้ ๆ ไปดูหน่อย
+13150000186	Defeat the Maya that looks like a Familiar.	ปราบ Maya ที่ดูเหมือน Familiar
+13150000188	Take the Pathfinder Ant and return to Ant Hell.	นำ Pathfinder Ant ไปด้วยแล้วกลับไปยัง Ant Hell
+13150000189	Follow the Pathfinder Ant to search for traces of the Professor.	ติดตาม Pathfinder Ant เพื่อค้นหาร่องรอยของศาสตราจารย์
+13150000190	Follow the Pathfinder Ant to a mysterious cave entrance.	ติดตาม Pathfinder Ant ไปยังทางเข้าถ้ำลึกลับ
+13150000191	Enter Maya's Nest and rescue the Professor.	เข้า Maya's Nest และช่วยศาสตราจารย์
+13150000192	After successfully rescuing the Professor, you earn the Captain's praise.	หลังช่วยศาสตราจารย์สำเร็จ คุณได้รับคำชมจากกัปตัน
+13150000193	After many twists and turns, you've finally found the Professor. Return to camp and rest.	หลังผ่านอุปสรรคมากมาย ในที่สุดคุณก็พบศาสตราจารย์แล้ว กลับค่ายเพื่อพักผ่อน
+13150000194	Talk to the Professor and learn that he is researching memory entity technology.	พูดคุยกับศาสตราจารย์และรู้ว่าเขากำลังวิจัยเทคโนโลยีเอนทิตีความทรงจำ
+13150000195	Touch the memory entity prototype and fall into another dimension.	สัมผัสต้นแบบเอนทิตีความทรงจำแล้วตกเข้าสู่อีกมิติหนึ่ง
+13150000196	You encounter the mysterious woman again, and she asks you to look around.	คุณพบหญิงสาวลึกลับอีกครั้ง และเธอขอให้คุณสำรวจรอบ ๆ
+13150000197	Ki explains how the Garden of Chronology works.	Ki อธิบายการทำงานของ Garden of Chronology
+13150000198	You awaken from the darkness and find yourself back in the real world.	คุณตื่นขึ้นจากความมืดและพบว่าตนเองกลับมาอยู่ในโลกจริง
+13150000199	With matters in Sograt Desert settled for now, go to the Eden Group and see what new requests are available.	เมื่อเรื่องใน Sograt Desert คลี่คลายลงชั่วคราวแล้ว ไปยัง Eden Group เพื่อดูว่ามีงานว่าจ้างใหม่อะไรบ้าง
+13150000200	The Eden Group has received a request from the Professor.	Eden Group ได้รับงานว่าจ้างจากศาสตราจารย์
+13150000201	The Professor is your client this time. Ask him what happened.	ครั้งนี้ศาสตราจารย์เป็นผู้ว่าจ้างคุณ ถามเขาว่าเกิดอะไรขึ้น
+13150000202	The Professor's supplies were seized at Prontera's North Gate. Go there and recover the cargo.	เสบียงของ Professor ถูกยึดที่ North Gate ของ Prontera ไปที่นั่นและนำสินค้ากลับมา
+13150000203	Search nearby for traces of the cargo.	ค้นหาร่องรอยของสินค้าในบริเวณใกล้เคียง
+13150000204	Encounter the caravan searching for the cargo.	พบกับกองคาราวานที่กำลังค้นหาสินค้า
+13150000205	Continue to Search for the cargo.	ค้นหาสินค้าต่อไป
+13150000206	Kill Baphomet	สังหาร Baphomet
+13150000207	Discover the Professor's supplies in Baphomet's lair.	พบเสบียงของศาสตราจารย์ในรังของ Baphomet
+13150000208	Say goodbye to the caravan Members.	บอกลาสมาชิกกองคาราวาน
+13150000209	Take the cargo to the Professor and report back.	นำสินค้าไปให้ศาสตราจารย์และรายงานผล
+13150000210	Place the magic component into the device.	ใส่ชิ้นส่วนเวทมนตร์ลงในอุปกรณ์
+13150000211	Take Out the magic component.	นำชิ้นส่วนเวทมนตร์ออกมา
+13150000212	The Holy Knights guarding the stone pillar block your path.	Holy Knights ที่เฝ้าเสาหินขวางทางคุณ
+13150000213	Touch the stone pillar while carrying the device.	สัมผัสเสาหินขณะถืออุปกรณ์
+13150000214	The stone pillar activates, and Ki appears once again.	เสาหินเปิดทำงาน และ Ki ปรากฏตัวอีกครั้ง
+13150000215	Ki explains the background of the Nail of Discipline.	Ki อธิบายที่มาของ Nail of Discipline
+13150000216	After the tremor, a glowing Relic appeared in Goblin Forest. Go investigate.	หลังแรงสั่นสะเทือน มี Relic เรืองแสงปรากฏใน Goblin Forest ไปตรวจสอบ
+13150000217	After the Relic appeared, the monsters in the area began growing restless.	หลัง Relic ปรากฏ มอนสเตอร์ในบริเวณนั้นเริ่มกระวนกระวาย
+13150000219	Kill the restless monsters along the way.	สังหารมอนสเตอร์ที่กระวนกระวายระหว่างทาง
+13150000220	Help the Soldiers escape.	ช่วยเหล่าทหารหลบหนี
+13150000221	Ask the Soldiers about the Relic's whereabouts.	ถามเหล่าทหารถึงตำแหน่งของ Relic
+13150000222	Search for the Relic using the information provided by the Soldiers.	ค้นหา Relic โดยใช้ข้อมูลจากเหล่าทหาร
+13150000223	The Professor has already reached the Relic.	ศาสตราจารย์ไปถึง Relic แล้ว
+13150000224	A Pharaoh suddenly leaps out of the Relic. Find a way to defeat him.	Pharaoh กระโจนออกมาจาก Relic อย่างกะทันหัน หาวิธีปราบเขา
+13150000225	At the moment of danger, the necklace around your neck suddenly begins to glow, drawing you into that mysterious space once again.	ในช่วงอันตราย สร้อยคอที่คอคุณเริ่มเรืองแสงอย่างกะทันหัน ดึงคุณเข้าสู่พื้นที่ลึกลับนั้นอีกครั้ง
+13150000226	Ki introduces himself as the Guide of Time and Space and tells you of the mission you bear.	Ki แนะนำตัวว่าเป็น Guide of Time and Space และบอกคุณถึงภารกิจที่คุณแบกรับ
+13150000227	Head to the Space-Time Gate ahead.	มุ่งหน้าไปยัง Space-Time Gate ข้างหน้า
+13150000228	Ki explains that multiple parallel space-times exist within this universe.	Ki อธิบายว่าในจักรวาลนี้มีกาลอวกาศคู่ขนานหลายแห่ง
+13150000229	Return to the real world from the Garden of Chronology.	กลับสู่โลกจริงจาก Garden of Chronology
+13150000230	Return to Prontera with the Professor's group.	กลับไป Prontera พร้อมกลุ่มของศาสตราจารย์
+13150000231	The innkeeper invites you inside to rest.	เจ้าของโรงแรมเชิญคุณเข้าไปพักผ่อน
+13150000232	Fall asleep at the inn.	หลับที่โรงแรม
+13150000233	Successfully defeat MVPs a total of @{1} times	เอาชนะ MVP สำเร็จรวม @{1} ครั้ง
+13150000234	Have at least @{1} friends	มีเพื่อนอย่างน้อย @{1} คน
+13150000235	Win Pet Tower a total of @{1} times	ชนะ Pet Tower รวม @{1} ครั้ง
+13150000236	Log in to the game	เข้าสู่ระบบเกม
+13150000237	Complete @{1} treasure hunts	ล่าสมบัติ @{1} ครั้ง
+13150000238	Reach @{1} Battle Merit	มีความดีความชอบในการรบถึง @{1}
+13150000239	Reach @{1} points in Guild Territory War	มีคะแนนใน Guild Territory War ถึง @{1}
+13150000240	Participate in the War of Emperium @{1} times	เข้าร่วม War of Emperium @{1} ครั้ง
+13150000241	Participate in and win the War of Emperium @{1} times	เข้าร่วมและชนะ War of Emperium @{1} ครั้ง
+13150000242	Activate @{1} Lv. @{2} Echo Resonances	เปิดใช้งาน Echo Resonances @{1} รายการที่มี Lv. @{2}
+13150000243	Raise all equipped Echoes to Lv. @{1}	เพิ่ม Echoes ที่ติดตั้งทั้งหมดให้ถึง Lv. @{1}
+13150000244	Equip @{1} blue Echoes.	ติดตั้ง Echoes สีฟ้า @{1} ชิ้น
+13150000245	Equip @{1} purple Echoes	ติดตั้ง Echoes สีม่วง @{1} ชิ้น
+13150000246	Equip @{1} orange Echoes	ติดตั้ง Echoes สีส้ม @{1} ชิ้น
+13150000247	Enhance Echoes by a total of @{1} levels	เสริมพลัง Echoes รวม @{1} เลเวล
+13150000248	Kill @{1} Roda Frogs	สังหาร Roda Frogs จำนวน @{1}
+13150000249	Kill @{1} Rockers	สังหาร Rockers จำนวน @{1}
+13150000250	Head to Payon and search for signs of Mushroom monsters.	มุ่งหน้าไป Payon และค้นหาร่องรอยมอนสเตอร์ Mushroom
+13150000251	The Elder Lady gives you a Flying mount so you won't get lost	Elder Lady มอบพาหนะบินให้คุณเพื่อไม่ให้หลงทาง
+13150000252	Kill @{1} Mushrooms	สังหาร Mushrooms จำนวน @{1}
+13150000253	Kill @{1} Boas	สังหาร Boas จำนวน @{1}
+13150000254	Kill @{1} Thief Bugs	สังหาร Thief Bugs จำนวน @{1}
+13150000255	Kill Muka	สังหาร Muka
+13150000256	Kill Peco Peco	สังหาร Peco Peco
+13150000257	Kill Bigfoot	สังหาร Bigfoot
+13150000258	Kill @{1} Soldier Skeletons	สังหาร Soldier Skeletons จำนวน @{1}
+13150000259	Kill @{1} Skeletons	สังหาร Skeletons จำนวน @{1}
+13150000260	Kill Deniro and Piere: @{1}	สังหาร Deniro และ Piere: @{1}
+13150000261	Kill Andre and Vitata: @{1}	สังหาร Andre และ Vitata: @{1}
+13150000262	Kill @{1} Orc Warriors	สังหาร Orc Warriors @{1} ตัว
+13150000263	Kill @{1} Orc Ladies	สังหาร Orc Ladies จำนวน @{1}
+13150000264	Kill @{1} Orc Skeletons	สังหาร Orc Skeletons จำนวน @{1}
+13150000265	Kill @{1} Orc Zombies	สังหาร Orc Zombies จำนวน @{1}
+13150000266	Kill Goblin (Dagger) and Goblin (Hammer)	สังหาร Goblin (Dagger) และ Goblin (Hammer)
+13150000267	Kill Goblin (Flail) and Goblin Archer	สังหาร Goblin (Flail) และ Goblin Archer
+13150000268	Kill @{1} monsters in the Munak Cave	สังหารมอนสเตอร์จำนวน @{1} ใน Munak Cave
+13150000269	Claim @{1} map rewards	รับรางวัลแผนที่จำนวน @{1}
+13150000270	Claim @{1} area rewards	รับรางวัลพื้นที่จำนวน @{1}
+13150000271	Claim the South Gate map reward	รับรางวัลแผนที่ South Gate
+13150000272	You spot a dejected young man. Ask him what happened.	คุณเห็นชายหนุ่มที่ดูหดหู่ ถามเขาว่าเกิดอะไรขึ้น
+13150000273	Head to Izlude and ask Luna about Baya.	มุ่งหน้าไป Izlude และถาม Luna เกี่ยวกับ Baya
+13150000274	Head to the ball and meet up with Luna.	ไปที่งานเต้นรำและพบกับ Luna
+13150000275	Perform the opening dance with Luna.	เต้นรำเปิดงานกับ Luna
+13150000276	Head to the Novice Academy and ask Mentor Alphonse about Baya.	มุ่งหน้าไป Novice Academy และถาม Mentor Alphonse เกี่ยวกับ Baya
+13150000277	Share the information about Baya with Allen.	บอกข้อมูลเกี่ยวกับ Baya ให้ Allen ทราบ
+13150000278	After overhearing some passersby, Allen gets an idea for a gift.	หลังได้ยินคนเดินผ่านคุยกัน Allen ก็คิดออกว่าจะให้อะไรเป็นของขวัญ
+13150000279	Purchase a Bunny Hair Band from the Headgear Merchant.	ซื้อ Bunny Hair Band จาก Headgear Merchant
+13150000280	The Headgear Merchant sets the terms for the exchange. Hear what Allen thinks.	Headgear Merchant กำหนดเงื่อนไขการแลกเปลี่ยน ฟังว่า Allen คิดอย่างไร
+13150000281	Collect the materials needed for the Bunny Hair Band.	รวบรวมวัสดุที่ต้องใช้สำหรับ Bunny Hair Band
+13150000282	Allen has gathered the materials too. Meet him at the Headgear Merchant.	Allen รวบรวมวัสดุได้แล้วเช่นกัน ไปพบเขาที่ Headgear Merchant
+13150000283	Exchange them for a Bunny Hair Band with the Headgear Merchant.	แลกวัสดุเป็น Bunny Hair Band กับ Headgear Merchant
+13150000284	Deliver the Bunny Hair Band to Baya with Allen.	นำ Bunny Hair Band ไปส่งให้ Baya พร้อมกับ Allen
+13150000285	Stumbled upon an argument in Payon Forest.	บังเอิญพบการโต้เถียงใน Payon Forest
+13150000286	Ask passersby what happened.	ถามคนที่เดินผ่านว่าเกิดอะไรขึ้น
+13150000287	Decide to take down the scalpers from within, starting with Granny Gwen.	ตัดสินใจจัดการพวกค้ากำไรเกินควรจากภายใน โดยเริ่มจาก Granny Gwen
+13150000288	Collect Whispering Flowers favored by Rockers.	รวบรวม Whispering Flowers ที่ Rockers ชื่นชอบ
+13150000289	Report your collection progress to Granny Gwen.	รายงานความคืบหน้าการรวบรวมให้ Granny Gwen ทราบ
+13150000290	Go to Granny Gwen's house together.	ไปบ้านของ Granny Gwen ด้วยกัน
+13150000291	Place Whispering Flowers along the way.	วาง Whispering Flowers ตามทาง
+13150000292	Wait for the Rocker to appear in Southern Payon.	รอให้ Rocker ปรากฏตัวใน Southern Payon
+13150000293	The Rocker took the bait, much to Grandma Gwen's delight.	Rocker ติดกับเหยื่อ ทำให้ Grandma Gwen ดีใจมาก
+13150000294	Continue the divide-and-conquer plan by targeting Grandpa Bob.	ดำเนินแผนแบ่งแยกแล้วพิชิตต่อไป โดยเล็งเป้าไปที่ Grandpa Bob
+13150000295	Head to Grandpa Bob's yard together.	ไปที่ลานบ้านของ Grandpa Bob ด้วยกัน
+13150000296	Carry out the rat-catching operation.	ลงมือปฏิบัติการจับหนู
+13150000297	With the rat problem solved, Grandpa Bob decided to join your side.	เมื่อปัญหาหนูได้รับการแก้ไข Grandpa Bob ก็ตัดสินใจเข้าร่วมฝ่ายคุณ
+13150000298	Return to Payon Forest with the good news.	กลับไป Payon Forest พร้อมข่าวดี
+13150000299	Defeat Jack the Scalper.	ปราบ Jack the Scalper
+13150000300	Defeated, Jack fled as fast as his legs could carry him.	เมื่อพ่ายแพ้ Jack ก็วิ่งหนีสุดฝีเท้า
+13150000301	Stroll through Prontera and listen to the nearby vendors calling out.	เดินเล่นใน Prontera และฟังเสียงเรียกลูกค้าของพ่อค้าแม่ค้าใกล้ ๆ
+13150000302	Check out the Weapon dealer's stall.	ไปดูแผงของ Weapon dealer
+13150000303	One stall stands out in particular. Go check it out.	มีแผงหนึ่งโดดเด่นเป็นพิเศษ ไปดูหน่อย
+13150000304	Follow Jax to the banquet.	ตาม Jax ไปยังงานเลี้ยง
+13150000305	The attackers on the road were the Guild Members' family members. Hear what they have to say.	ผู้โจมตีบนถนนคือคนในครอบครัวของสมาชิกกิลด์ ฟังสิ่งที่พวกเขาจะพูด
+13150000306	Enter the banquet hall and listen to Jax's speech.	เข้าไปในโถงงานเลี้ยงและฟังสุนทรพจน์ของ Jax
+13150000307	Talk with the Guild Members at the banquet.	พูดคุยกับสมาชิกกิลด์ที่งานเลี้ยง
+13150000308	It's time to make the final choice.	ถึงเวลาตัดสินใจครั้งสุดท้ายแล้ว
+13150000309	Receive an urgent letter from Professor Ryan.	รับจดหมายด่วนจาก Professor Ryan
+13150000310	Buy a sandwich for the professor.	ซื้อแซนด์วิชให้ศาสตราจารย์
+13150000311	Head to the professor's research site.	มุ่งหน้าไปยังสถานที่วิจัยของศาสตราจารย์
+13150000312	Ask the professor about the results of the research.	ถามศาสตราจารย์เกี่ยวกับผลการวิจัย
+13150000313	Use the pheromones on yourself.	ใช้ฟีโรโมนกับตนเอง
+13150000314	Let the giant ant catch your scent.	ให้มดยักษ์รับกลิ่นของคุณ
+13150000315	Talk to the professor.	พูดคุยกับศาสตราจารย์
+13150000316	Prepare for the race.	เตรียมตัวเข้าแข่งขัน
+13150000317	Finish the race.	แข่งให้จบ
+13150000318	Tell the professor the race results.	บอกผลการแข่งขันให้ศาสตราจารย์ทราบ
+13150000319	Receive a letter from Wule.	รับจดหมายจาก Wule
+13150000320	Tell the professor what the letter says.	บอกศาสตราจารย์ถึงเนื้อหาในจดหมาย
+13150000321	Go to the bulletin board in Prontera.	ไปที่กระดานประกาศใน Prontera
+13150000322	Check the wanted poster.	ตรวจประกาศจับ
+13150000323	Ask the guard for details about the theft.	ถามยามถึงรายละเอียดเกี่ยวกับการขโมย
+13150000324	Ask Hollgrehenn what he remembers about the theft.	ถาม Hollgrehenn ว่าเขาจำอะไรเกี่ยวกับการขโมยได้บ้าง
+13150000325	Ask Nita what she remembers about the theft.	ถาม Nita ว่าเธอจำอะไรเกี่ยวกับการขโมยได้บ้าง
+13150000326	Ask Cliffer what he remembers about the theft.	ถาม Cliffer ว่าเขาจำอะไรเกี่ยวกับการขโมยได้บ้าง
+13150000327	A letter suddenly arrives.	จู่ ๆ ก็มีจดหมายมาถึง
+13150000328	Follow the letter's instructions and head to Eastern Payon.	ทำตามคำแนะนำในจดหมายและมุ่งหน้าไป Eastern Payon
+13150000329	Z is taking a while. Pet the kitten while you wait.	Z ยังไม่มา ลูบลูกแมวเล่นระหว่างรอ
+13150000330	Play hide-and-seek.	เล่นซ่อนหา
+13150000331	Find out why the stray cat is meowing.	หาสาเหตุที่แมวจรจัดร้อง
+13150000332	Check the note around the cat's neck.	ตรวจดูกระดาษโน้ตที่คอแมว
+13150000333	Follow the letter's instructions and head to South Morroc.	ทำตามคำแนะนำในจดหมายและมุ่งหน้าไป South Morroc
+13150000334	Find out what's going on.	หาว่าเกิดอะไรขึ้น
+13150000335	Help the poor man.	ช่วยชายผู้น่าสงสาร
+13150000336	Play the shell game.	เล่นเกมทายของใต้ถ้วย
+13150000337	Return the sword to Blacksmith Hollgrehenn.	คืนดาบให้ Blacksmith Hollgrehenn
+13150000338	Return the Ring to Girl Nita.	คืน Ring ให้ Girl Nita
+13150000339	Return the spellbook to Mage Cliffer.	คืนตำราเวทให้ Mage Cliffer
+13150000340	Continue exploring Munak Cave	สำรวจ Munak Cave ต่อไป
+13150000341	Continue exploring Ant Hell	สำรวจ Ant Hell ต่อไป
+13150000342	Continue exploring Orc Village	สำรวจ Orc Village ต่อไป
+13150000343	Continue exploring Orc Cave	สำรวจ Orc Cave ต่อไป
+13150000344	Continue exploring Goblin Forest	สำรวจ Goblin Forest ต่อไป
+13150000345	Complete Season quest @{1}	ทำเควสต์ฤดูกาล @{1} ให้สำเร็จ
+13150000346	Use the Red Potion obtained from the Novice Chest.	ใช้ Red Potion ที่ได้รับจาก Novice Chest
+13150000347	Tap the quest to learn about automatic potion resupply.	แตะเควสต์เพื่อเรียนรู้เกี่ยวกับการเติมยาอัตโนมัติ
+13150000348	Allocate Skill Points.	จัดสรรแต้มสกิล
+13150000349	Allocate Stat Points.	จัดสรรแต้มค่าสถานะ
+13150000351	Level-up Talents @{1} time(s)	เพิ่มเลเวลพรสวรรค์ @{1} ครั้ง
+13150000352	Obtain the Lion Mount	รับสัตว์ขี่ Lion
+13150000353	Ride the Lion mount	ขี่สัตว์ขี่ Lion
+13150000354	Obtain the Hyena mount	รับสัตว์ขี่ Hyena
+13150000355	Ride the Hyena mount	ขี่สัตว์ขี่ Hyena
+13150000356	Obtain the Wild Boar mount	รับสัตว์ขี่ Wild Boar
+13150000357	Ride the Wild Boar mount	ขี่สัตว์ขี่ Wild Boar
+13150000358	Obtain the Alpaca mount	รับสัตว์ขี่ Alpaca
+13150000359	Ride the Alpaca mount	ขี่สัตว์ขี่ Alpaca
+13150000360	Obtain the Ostrich mount	รับสัตว์ขี่ Ostrich
+13150000361	Ride the Ostrich mount	ขี่สัตว์ขี่ Ostrich
+13150000362	Obtain the Fox mount	รับสัตว์ขี่ Fox
+13150000363	Ride the Fox mount	ขี่สัตว์ขี่ Fox
+13150000364	Equip @{1} cards	ติดตั้งการ์ดจำนวน @{1}
+13150000365	Enter the airship and defeat the evil forces.	เข้าไปในเรือเหาะและปราบกองกำลังชั่วร้าย
+13150000366	Enter Maya's Nest and defeat Maya.	เข้าไปใน Maya's Nest และปราบ Maya
+13150000367	Learn about the Monster Conquest System	เรียนรู้เกี่ยวกับระบบ Monster Conquest
+13150000368	Select the quest to learn about Auto-Battle	เลือกเควสต์เพื่อเรียนรู้เกี่ยวกับการต่อสู้อัตโนมัติ
+13150000369	Obtain @{1} pets	รับสัตว์เลี้ยงจำนวน @{1}
+13150000370	Deploy @{1} Pets	ส่งสัตว์เลี้ยงออกต่อสู้จำนวน @{1}
+13150000371	Complete Pet Tower once	ผ่าน Pet Tower หนึ่งครั้ง
+13150000372	Use @{1} minutes of boosted auto-battle time	ใช้เวลาต่อสู้อัตโนมัติแบบเพิ่มโบนัส @{1} นาที
+13150000373	Select the quest to learn about the Phantom Realm dungeon	เลือกเควสต์เพื่อเรียนรู้เกี่ยวกับดันเจี้ยน Phantom Realm
+13150000374	Equipment Refining	ตีบวกอุปกรณ์
+13150000375	Select the quest to learn about Battle Royale	เลือกเควสต์เพื่อเรียนรู้เกี่ยวกับ Battle Royale
+13150000376	Fly Wing Tutorial	บทสอนการใช้ Fly Wing
+13150000377	MVP Activity Quest	เควสต์กิจกรรม MVP
+13150000378	Tower Activity Quest	เควสต์กิจกรรมหอคอย
+13150000379	10-Player Dungeon Activity Quest	เควสต์กิจกรรมดันเจี้ยน 10 คน
+13150000380	Guild League Preliminary Quest	เควสต์ Guild League รอบคัดเลือก
+13150000381	Guild League Semifinals Mission	ภารกิจ Guild League รอบรองชนะเลิศ
+13150000382	Guild League Finals Mission	ภารกิจ Guild League รอบชิงชนะเลิศ
+13150000383	Expedition Activity Mission	ภารกิจกิจกรรม Expedition
+13150000384	@{1}-Player Dungeon Activity Quest	เควสต์กิจกรรมดันเจี้ยนสำหรับผู้เล่น @{1} คน
+13150000385	Life Skill Activity Quest	เควสต์กิจกรรมสกิลชีวิต
+13150000386	Guild Caravan Activity Quest	เควสต์กิจกรรม Guild Caravan
+13150000387	Guild Bonfire Activity Quest	เควสต์กิจกรรม Guild Bonfire
+13150000388	Guild GvE Activity Quest	เควสต์กิจกรรม Guild GvE
+13150000389	Treasure Hunt Activity Quest	เควสต์กิจกรรม Treasure Hunt
+13150000390	Blackhole Activity Quest	เควสต์กิจกรรม Blackhole
+13150000391	AFK Activity Quest	เควสต์กิจกรรม AFK
+13150000392	Temporary AFK Activity Quest	เควสต์กิจกรรม AFK ชั่วคราว
+13150000393	Battle Royale Activity Quest	เควสต์กิจกรรม Battle Royale
+13150000394	Temporary Battle Royale Activity Quest	เควสต์กิจกรรม Battle Royale ชั่วคราว
+13150000395	Daily Activity Quest	เควสต์กิจกรรมประจำวัน
+13150000396	Daily Activity Task	ภารกิจกิจกรรมประจำวัน
+13150000397	Escort Activity Quest	เควสต์กิจกรรมคุ้มกัน
+13150000398	Temporary Caravan Escort Activity Quest	เควสต์กิจกรรมคุ้มกันคาราวานชั่วคราว
+13150000399	Stronghold War Activity Quest	เควสต์กิจกรรม Stronghold War
+13150000400	Stronghold War Temporary Activity Quest	เควสต์กิจกรรม Stronghold War ชั่วคราว
+13150000401	State Capital War Activity Mission	ภารกิจกิจกรรม State Capital War
+13150000402	Temporary State Capital Battle Activity Quest	เควสต์กิจกรรม State Capital Battle ชั่วคราว
+13150000403	War of Emperium Activity Quest	เควสต์กิจกรรม War of Emperium
+13150000404	Royal City War Temporary Activity Quest	เควสต์กิจกรรม Royal City War ชั่วคราว
+13150000405	Like Activity Quest	เควสต์กิจกรรมกดไลก์
+13150000406	Like Temporary Activity Quests	เควสต์กิจกรรมกดไลก์ชั่วคราว
+13150000407	Plaza Dancing Activity Quest	เควสต์กิจกรรมเต้นรำที่ลาน
+13150000408	Temporary Plaza Dance Activity Task	ภารกิจกิจกรรมเต้นรำที่ลานชั่วคราว
+13150000409	Secret Trove Activity Quest	เควสต์กิจกรรม Secret Trove
+13150000410	Daily Commission Activity Quest	เควสต์กิจกรรมงานว่าจ้างประจำวัน
+13150000411	Craft @{1} Tier @{2} Purple Quality Weapons	สร้างอาวุธ @{1} ชิ้นระดับ @{2} คุณภาพสีม่วง
+13150000412	Reach Talent Lv. @{1} in total.	มี Lv. พรสวรรค์รวมถึง @{1}
+13150000413	Allocate @{1} Stat Points	จัดสรรคะแนนค่าสถานะ @{1} คะแนน
+13150000414	Craft @{1} Tier @{2} Purple Quality tops	สร้างเสื้อ @{1} ชิ้นระดับ @{2} คุณภาพสีม่วง
+13150000415	Craft @{1} Tier @{2} Purple Quality Accessories	สร้างเครื่องประดับ @{1} ชิ้นระดับ @{2} คุณภาพสีม่วง
+13150000416	Reach Base Lv. @{1}	มี Base Lv. ถึง @{1}
+13150000417	Clear Floor @{1} of the Spirit Tower	ผ่านชั้น @{1} ของ Spirit Tower
+13150000418	Clear Wildlands dungeons @{1} times	ผ่านดันเจี้ยน Wildlands @{1} ครั้ง
+13150000419	Reach @{1} progress toward the Prontera Monster Hunt full collection reward	มีความคืบหน้าถึง @{1} สำหรับรางวัลสะสมครบของ Prontera Monster Hunt
+13150000420	Help defeat @{1} MVPs	ช่วยเอาชนะ MVP @{1} ตัว
+13150000421	Craft @{1} pieces of Tier @{2} equipment	สร้างอุปกรณ์ @{1} ชิ้นระดับ @{2}
+13150000422	Complete Trans. 2nd Class Advancement	เปลี่ยนอาชีพ Trans. ขั้น 2 ให้สำเร็จ
+13150000423	Clear Natural Land dungeons @{1} times	ผ่านดันเจี้ยน Natural Land @{1} ครั้ง
+13150000424	Reach @{1} progress for collecting all Monster Hunt rewards in the Payon Region	มีความคืบหน้าถึง @{1} ในการรวบรวมรางวัล Monster Hunt ทั้งหมดในภูมิภาค Payon
+13150000425	Reach Refine Level @{1} for all equipment slots	มีระดับตีบวกถึง @{1} ในช่องอุปกรณ์ทุกช่อง
+13150000426	Raise any @{1} pets to Lv. @{2}	เพิ่มสัตว์เลี้ยงใดก็ได้ @{1} ตัวให้ถึง Lv. @{2}
+13150000427	Use a Treasure Map @{1} times (use a Standard Treasure Map from the Backpack)	ใช้ Treasure Map @{1} ครั้ง (ใช้ Standard Treasure Map จากกระเป๋า)
+13150000428	Reach @{1} progress toward collecting all Monster Hunt rewards in the Geffen region	มีความคืบหน้าถึง @{1} ในการรวบรวมรางวัล Monster Hunt ทั้งหมดในภูมิภาค Geffen
+13150000429	Reach a total of @{1} Stunts on equipped gear	มี Stunts รวมถึง @{1} บนอุปกรณ์ที่สวมใส่
+13150000430	Participate in the Battle of Dragon Coffin Island or Kafra: Survivor Battle @{1} times	เข้าร่วม Battle of Dragon Coffin Island หรือ Kafra: Survivor Battle @{1} ครั้ง
+13150000431	Complete the Third Job Advancement	เปลี่ยนอาชีพขั้นสามให้สำเร็จ
+13150000432	Equip @{1} Soul Echoes	ติดตั้ง Soul Echoes @{1} ชิ้น
+13150000433	Reach @{1} progress toward collecting all Morroc Monster Hunt rewards	มีความคืบหน้าถึง @{1} ในการรวบรวมรางวัล Morroc Monster Hunt ทั้งหมด
+13150000434	Participate in @{1} Guild League matches	เข้าร่วมการแข่งขัน Guild League @{1} แมตช์
+13150000435	Clear Dark Land dungeons @{1} times	ผ่านดันเจี้ยน Dark Land @{1} ครั้ง
+13150000436	Participate in the Guild Event: Ilmatar, God of Nature @{1} times	เข้าร่วมกิจกรรมกิลด์ Ilmatar, God of Nature @{1} ครั้ง
+13150000437	Reach Pet Hatching Room Lv. @{1}	มี Lv. ห้องฟักสัตว์เลี้ยงถึง @{1}
+13150000438	(No translation required)	(ไม่ต้องแปล)
+13150000439	Equip the Divine Totem.	สวมใส่ Divine Totem
+13150000440	Equip the Soul Echo.	สวมใส่ Soul Echo
+13150000441	Complete the following objectives to earn points	ทำเป้าหมายต่อไปนี้ให้สำเร็จเพื่อรับคะแนน
+13150000442	Return to the NPC to claim your reward	กลับไปหา NPC เพื่อรับรางวัล
+13150000443	Collect Magic Crystals +@{1} Points	เก็บ Magic Crystals +@{1} คะแนน
+13150000444	Kill Monster A +@{1} Points	สังหาร Monster A +@{1} คะแนน
+13150000445	Defeat players from other guilds: +@{1} points	เอาชนะผู้เล่นจากกิลด์อื่น: +@{1} คะแนน
+13150000446	Remaining on the current channel	อยู่ในแชนเนลปัจจุบันต่อ
+13150000447	Secret Trove Chest Claims	การรับหีบ Secret Trove
+13150000448	This quest embodies the tireless efforts of countless predecessors and grants unlimited EXP.	เควสต์นี้รวบรวมความพยายามอย่างไม่ย่อท้อของผู้มาก่อนนับไม่ถ้วน และมอบ EXP แบบไม่จำกัด
+13150000449	Choose your Job Advance path and gain incredible power.	เลือกเส้นทางเปลี่ยนอาชีพของคุณและรับพลังอันน่าทึ่ง
+10370000007	Option A^{1}(Insufficient Self-Discipline)^{2}	ตัวเลือก A^{1}(ความมีวินัยในตนเองไม่เพียงพอ)^{2}
+10370000009	Option C^{1}(Insufficient Self-Discipline)^{2}	ตัวเลือก C^{1}(ความมีวินัยในตนเองไม่เพียงพอ)^{2}
+10370000010	Option D^{1}(Insufficient Self-Discipline)^{2}	ตัวเลือก D^{1}(ความมีวินัยในตนเองไม่เพียงพอ)^{2}
+10370000015	I'm just a little kitty. Why do I have to work, meow?	ฉันก็แค่แมวน้อยตัวหนึ่ง ทำไมต้องทำงานด้วยล่ะ เหมียว?
+10370000018	Meowcici Mining Company at your service~ Oh, you're still a new adventurer! Come play with me once you reach Lv. @{1}~	Meowcici Mining Company ยินดีให้บริการ~ อ้อ เธอยังเป็นนักผจญภัยมือใหม่อยู่เลย! พอถึง Lv. @{1} แล้วมาเล่นกับฉันนะ~
+10370000020	Don't go pining after me. I'm out of your league, meow.	อย่ามัวแต่หลงใหลฉันเลย เธอเอื้อมไม่ถึงฉันหรอก เหมียว
+10370000021	The weather's lovely today, meow~ What can I do for you?	วันนี้อากาศดีจัง เหมียว~ ให้ฉันช่วยอะไรดี?
+10370000022	This little kitty has been working for so long. Can I go out and play for a while, meow?	แมวน้อยตัวนี้ทำงานมาตั้งนานแล้ว ขอออกไปเล่นสักพักได้ไหม เหมียว?
+10370000023	Once I make some money, I'm gonna freaking eat, eat, eat, meow~	พอหาเงินได้ ฉันจะกินให้สะใจ กิน กิน กินเลย เหมียว~
+10370000024	Why is it raining? Because thinking of you has me sweating buckets, meow!	ทำไมฝนถึงตกน่ะเหรอ? ก็เพราะคิดถึงเธอจนเหงื่อไหลเป็นน้ำเลยไง เหมียว!
+10370000025	Where the stars converge, the Starshatter Dragon shall descend once more.	ณ ที่ซึ่งดวงดาวมาบรรจบ Starshatter Dragon จะลงมาอีกครั้ง
+10370000031	This is also in speech-bubble format@{1}	ข้อความนี้ก็เป็นรูปแบบกรอบคำพูดเช่นกัน@{1}
+10370000034	Hmph... Why did you stop us? What are you after?	ฮึ่ม... ทำไมถึงขวางพวกเรา? เธอต้องการอะไรกันแน่?
+10370000035	Oh, please don't be so nervous. I'm Spratzi, and I welcome Novices arriving at the South Gate.	โอ้ อย่าเครียดขนาดนั้นเลย ฉันชื่อ Spratzi คอยต้อนรับ Novices ที่มาถึง South Gate
+10370000036	In that case, could you show us your staff ID?	ถ้าอย่างนั้น ช่วยแสดงบัตรพนักงานให้พวกเราดูหน่อยได้ไหม?
+10370000037	Well, uh... We haven't been issued staff IDs yet.	เอ่อ คือ... เรายังไม่ได้รับบัตรพนักงานเลย
+10370000039	I'm also a freshman receptionist at Criatura Academy. Rest assured, I'm not anyone suspicious.	ฉันเป็นเจ้าหน้าที่ต้อนรับน้องใหม่ที่ Criatura Academy ด้วยนะ สบายใจได้ ฉันไม่ใช่คนน่าสงสัยหรอก
+10370000040	Before entering Prontera, you'll need to pass the Novice Trial at the South Gate.	ก่อนเข้า Prontera เธอต้องผ่าน Novice Trial ที่ South Gate ก่อน
+10370000041	Once you pass the trial, you can head To Prontera for your Job Advance...	เมื่อผ่านการทดสอบแล้ว ก็ไป Prontera เพื่อเปลี่ยนอาชีพได้...
+10370000042	Sorry for the lengthy explanation. The Eden Group staff should be waiting for you, so please hurry along.	ขอโทษที่อธิบายเสียยืดยาว เจ้าหน้าที่ Eden Group น่าจะรอเธออยู่ รีบไปเถอะ
+10370000043	Hello, I'm Rhine. I'm responsible for recording and evaluating the Novice Trial.	สวัสดี ฉันชื่อ Rhine มีหน้าที่บันทึกและประเมินผล Novice Trial
+10370000044	The Novice Trial is easy. Complete two basic quests to prove you have the potential to take on a regular job. Then you'll receive proof that allows you to go to Prontera for your Job Advance.	Novice Trial ไม่ยากหรอก ทำเควสต์พื้นฐานสองอย่างให้สำเร็จเพื่อพิสูจน์ว่าเธอมีศักยภาพพอจะประกอบอาชีพทั่วไป แล้วจะได้รับหลักฐานที่ใช้ไปเปลี่ยนอาชีพที่ Prontera ได้
+10370000045	For your first task, collect @{1} pieces of ^{3}【Sticky Mucus】^{4} from the nearby ^{1}Porings^{2}. Porings don't hit very hard, but as a beginner, you should still be careful.	งานแรกของเธอคือเก็บ @{1} ชิ้นของ ^{3}[ Sticky Mucus ]^{4} จาก ^{1}Porings^{2} ที่อยู่ใกล้ ๆ Porings โจมตีไม่แรงนัก แต่เธอเป็นมือใหม่ก็ยังควรระวังตัว
+10370000046	Good work. Your combat record shows that you handled yourself consistently well.	ทำได้ดี บันทึกการต่อสู้แสดงให้เห็นว่าเธอรับมือได้ดีอย่างสม่ำเสมอ
+10370000047	Now for the next step. The Medicine workshop needs 【Sticky Mucus】 dropped by Porings as a stabilizer for basic medicinal ingredients.	มาถึงขั้นต่อไป โรงปรุงยาต้องการ [ Sticky Mucus ] ที่ตกจาก Porings เพื่อใช้เป็นสารคงสภาพสำหรับวัตถุดิบยาพื้นฐาน
+10370000048	Collect ^{1}@{1} pieces of 【Sticky Mucus】^{2} from the Porings you defeat. Make sure the texture is uniform, as impurities will affect the Medicine's effectiveness.	เก็บ ^{1}@{1} ชิ้นของ [ Sticky Mucus ]^{2} จาก Porings ที่เธอเอาชนะ ต้องให้เนื้อสม่ำเสมอกันนะ เพราะสิ่งเจือปนจะส่งผลต่อประสิทธิภาพของยา
+10370000049	Oh, that's right. This is adventuring gear issued to beginners by the Eden Group. It should help with your task.	อ้อ จริงด้วย นี่คืออุปกรณ์ผจญภัยที่ Eden Group แจกให้มือใหม่ น่าจะช่วยเธอทำงานได้
+10370000053	For your next task, defeat ^{1}Fabres^{2} and collect ^{3}@{1} pieces of 【Fluff】^{4} from them.	งานต่อไปของเธอคือเอาชนะ ^{1}Fabres^{2} และเก็บ ^{3}@{1} ชิ้นของ [ Fluff ]^{4} จากพวกมัน
+10370000054	Fabres are usually found near Prontera South Gate. Their soft yet durable fur can be used to craft all kinds of equipment. Stay safe.	มักพบ Fabres ใกล้ Prontera South Gate ขนที่นุ่มแต่ทนทานของพวกมันใช้สร้างอุปกรณ์ได้สารพัด ระวังตัวด้วยนะ
+10370000055	Well done. You've completed the Novice Trial.	ทำได้ดี เธอผ่าน Novice Trial แล้ว
+10370000056	Keeping your equipment up to date will be a great help in future battles.	การคอยปรับปรุงอุปกรณ์ให้ทันสมัยจะช่วยเธอได้มากในการต่อสู้ครั้งต่อ ๆ ไป
+10370000057	Here, this certificate proves that you passed the Novice Trial. Take it to the Chief Job Advance Mentor in the city, and he'll conduct your Job Advance ceremony.	นี่ ใบรับรองนี้เป็นหลักฐานว่าเธอผ่าน Novice Trial แล้ว นำไปให้หัวหน้าผู้แนะนำการเปลี่ยนอาชีพในเมือง แล้วเขาจะจัดพิธีเปลี่ยนอาชีพให้เธอ
+10370000059	Hey, I'm really curious. Do you give these same tasks to every Novice?	นี่ ฉันสงสัยจริง ๆ เธอให้งานแบบนี้กับ Novice ทุกคนเลยเหรอ?
+10370000060	Doesn't that mean you have to Repeat the same lines hundreds of times? Don't you ever get tired of it?	งั้นก็ต้องพูดประโยคเดิมซ้ำเป็นร้อยครั้งเลยสิ? ไม่เคยเบื่อบ้างเหรอ?
+10370000062	I've got it! You're actually a robot! Or a magical doll!	รู้แล้ว! ที่จริงเธอเป็นหุ่นยนต์! หรือไม่ก็ตุ๊กตาเวทมนตร์!
+10370000063	Hehe... Of course not. Since you're in no hurry, how about letting me study you? Samples of highly intelligent Demon Porings are quite Rare.	ฮิฮิ... ไม่ใช่แน่นอน ไหน ๆ เธอก็ไม่รีบ ให้ฉันศึกษาดูหน่อยดีไหม? ตัวอย่าง Demon Porings ที่ฉลาดขนาดนี้หายากทีเดียว
+10370000064	^{1}PlayerName^{2}! Your Job Advance is imminent. We must act at once.	^{1}PlayerName^{2}! เธอใกล้จะได้เปลี่ยนอาชีพแล้ว เราต้องลงมือทันที
+10370000065	Hello, Adventurer. If you wish to undergo your Job Advance, you must first submit your trial certificate.	สวัสดี นักผจญภัย หากเธอต้องการเปลี่ยนอาชีพ ต้องส่งใบรับรองการทดสอบก่อน
+10370000067	Hmm, everything is in order. It seems you've built a solid foundation. I'm Alphonse, the Chief Job Advance Mentor. I guide qualified Novices to ^{1}Criatura Academy^{2} for their Job Advance. Are you ready?	อืม ทุกอย่างเรียบร้อยดี ดูเหมือนเธอจะมีพื้นฐานที่มั่นคงแล้ว ฉันชื่อ Alphonse เป็นหัวหน้าผู้แนะนำการเปลี่ยนอาชีพ ฉันพา Novices ที่ผ่านเกณฑ์ไป ^{1}Criatura Academy^{2} เพื่อเปลี่ยนอาชีพ เธอพร้อมหรือยัง?
+10370000069	Excellent. Clear goals and decisive action are the first qualities of a powerful Adventurer. The teleportation spell is ready. Don't resist its power—it will deliver you safely to your destination.	เยี่ยมมาก เป้าหมายที่ชัดเจนและการลงมืออย่างเด็ดขาดคือคุณสมบัติแรก ๆ ของนักผจญภัยผู้แข็งแกร่ง คาถาเคลื่อนย้ายพร้อมแล้ว อย่าต่อต้านพลังของมัน มันจะพาเธอไปยังจุดหมายอย่างปลอดภัย
+10370000070	Head to the main lecture hall. The Mentor is already waiting for you there.	ไปที่ห้องบรรยายหลัก ผู้แนะนำรอเธออยู่ที่นั่นแล้ว
+10370000071	(Lowers voice) Ahem! O lost lamb, meeting this great prophet is the blessing of eight lifetimes!	(ลดเสียงลง) อะแฮ่ม! โอ้ ลูกแกะหลงทาง การได้พบผู้พยากรณ์ผู้ยิ่งใหญ่ผู้นี้คือบุญที่สั่งสมมาแปดชาติ!
+10370000072	Come, extend your hand and let this great prophet guide you to your true path!	มา ยื่นมือมา แล้วให้ผู้พยากรณ์ผู้ยิ่งใหญ่ผู้นี้นำทางเจ้าไปสู่เส้นทางที่แท้จริง!
+10370000073	(Shakes head with feigned solemnity) The worst thing a Novice can do is have no idea what their goal is.	(ส่ายหน้าพลางแสร้งทำเคร่งขรึม) สิ่งเลวร้ายที่สุดที่ Novice ทำได้คือไม่รู้เลยว่าเป้าหมายของตนคืออะไร
+10370000074	Tell you what—give me @{1} Crystal, and I'll reveal which job suits you!	เอาอย่างนี้ ส่ง Crystal @{1} มาให้ข้า แล้วข้าจะเผยว่าอาชีพไหนเหมาะกับเจ้า!
+10370000076	(Looks down in thought) Hmm, fascinating. I've never heard of a crystal ball shining so brilliantly before.	(ก้มหน้าครุ่นคิด) อืม น่าสนใจ ข้าไม่เคยได้ยินว่าลูกแก้วพยากรณ์จะส่องสว่างเจิดจ้าขนาดนี้มาก่อน
+10370000077	Just keep moving forward. Alphonse will help you complete your Job Advance.	จงก้าวต่อไป Alphonse จะช่วยให้เจ้าเปลี่ยนอาชีพสำเร็จ
+10370000079	Thousands of years ago, the continent of Midgard suffered an unprecedented catastrophe.	เมื่อหลายพันปีก่อน ทวีป Midgard ประสบมหันตภัยที่ไม่เคยเกิดขึ้นมาก่อน
+10370000080	The Demon King Morroc invaded these lands, while Jormungand, the colossal World Serpent, sought to devour the world.	ราชาปีศาจ Morroc รุกรานดินแดนนี้ ขณะที่ Jormungand อสรพิษโลกขนาดมหึมาพยายามกลืนกินโลก
+10370000081	In that dark hour, the ancestors of the Rune Kingdom's seven royal families rose to the challenge.	ในยามมืดมนเช่นนั้น บรรพบุรุษของเจ็ดราชวงศ์แห่ง Rune Kingdom ลุกขึ้นรับมือ
+10370000082	They were joined by six exceptional heroes, each representing a different job. Together, they defeated the demons and protected the continent.	มีวีรบุรุษผู้ยอดเยี่ยมหกคนเข้าร่วมด้วย แต่ละคนเป็นตัวแทนของอาชีพที่ต่างกัน พวกเขาร่วมกันเอาชนะเหล่าปีศาจและปกป้องทวีป
+10370000083	I hope you will follow their example and press onward along the path to mastering your job.	ฉันหวังว่าเธอจะทำตามแบบอย่างของพวกเขา และก้าวต่อไปบนเส้นทางสู่ความชำนาญในอาชีพของตน
+10370000084	The Book of Job Advance ahead records the traits and potential of every job. Young sprout of Midgard, go forth and choose the path that suits you.	Book of Job Advance ที่อยู่ข้างหน้าบันทึกลักษณะและศักยภาพของทุกอาชีพไว้ ต้นกล้าอ่อนแห่ง Midgard จงไปเลือกเส้นทางที่เหมาะกับเธอ
+10370000085	Such dazzling light... (Strokes beard) It seems we're about to witness the birth of a new legend. Congratulations on completing your Job Advance, new Adventurer.	แสงเจิดจ้าเหลือเกิน... (ลูบเครา) ดูเหมือนเรากำลังจะได้เห็นตำนานบทใหม่ถือกำเนิด ขอแสดงความยินดีที่เปลี่ยนอาชีพสำเร็จ นักผจญภัยคนใหม่
+10370000086	After your Job Advance, try ^{1}allocating stat and skill points^{2} to unlock your newfound power.	หลังเปลี่ยนอาชีพแล้ว ลอง ^{1}จัดสรรแต้มค่าสถานะและแต้มสกิล^{2} เพื่อปลดปล่อยพลังใหม่ของเธอ
+10370000087	Perhaps you could test how much you've grown in the ^{1}Tower of Trials^{2}.	เธออาจลองทดสอบว่าเติบโตขึ้นแค่ไหนใน ^{1}Tower of Trials^{2}
+10370000088	For a new Adventurer, the ^{1}【Eden Group】^{2} is an excellent place to go.	สำหรับนักผจญภัยมือใหม่ ^{1}[ Eden Group ]^{2} เป็นสถานที่ที่น่าไปอย่างยิ่ง
+10370000089	You can grow quickly by taking on requests from the Eden Group.	เธอเติบโตได้อย่างรวดเร็วด้วยการรับคำร้องจาก Eden Group
+10370000090	Go take a look. The receptionist will send you there.	ไปดูสิ เจ้าหน้าที่ต้อนรับจะส่งเธอไปที่นั่น
+10370000091	Please wait. Casting teleportation magic.	โปรดรอสักครู่ กำลังร่ายเวทเคลื่อนย้าย
+10370000092	Oh, you must be the newcomer Rhine mentioned. You've certainly got courage, but otherwise you look pretty average...	อ้อ เธอคงเป็นเด็กใหม่ที่ Rhine พูดถึงสินะ ใจกล้าใช้ได้ แต่ส่วนอื่นก็ดูธรรมดา ๆ...
+10370000093	Tell you what—I'll give you a request with a generous reward. Go to ^{1}【Payon】^{2} and help the Elder Lady solve the case of the missing livestock.	เอาอย่างนี้ ฉันจะให้คำร้องที่มีรางวัลงาม ๆ ไปที่ ^{1}[ Payon ]^{2} แล้วช่วย Elder Lady ไขคดีปศุสัตว์หาย
+10370000094	Hey, newbie! I'm Tilpy, the best Adventurer advisor around. Every rookie I've coached has become a hero~ Answer three questions with your gut, and I'll reveal your destined job!	เฮ้ เด็กใหม่! ฉันชื่อ Tilpy เป็นที่ปรึกษานักผจญภัยที่เก่งที่สุดแถวนี้ มือใหม่ทุกคนที่ฉันฝึกให้กลายเป็นวีรบุรุษหมดเลย~ ตอบสามคำถามตามสัญชาตญาณ แล้วฉันจะเผยอาชีพที่โชคชะตากำหนดให้เธอ!
+10370000095	Question one. Imagine you're leaving your village to seek adventure. Dawn has just broken, and your pack is on your back. The village is still asleep, except for a few early-rising little Porings chirping away. You stand at the village entrance, where the road leads out into the wider world. What do you do?	คำถามแรก ลองนึกว่าเธอกำลังออกจากหมู่บ้านไปผจญภัย ฟ้าเพิ่งสาง และเธอสะพายเป้อยู่ หมู่บ้านยังหลับใหล มีเพียง Porings ตัวน้อยที่ตื่นเช้าส่งเสียงเจื้อยแจ้ว เธอยืนตรงทางเข้าหมู่บ้าน ถนนเบื้องหน้าพาออกสู่โลกกว้าง เธอจะทำอย่างไร?
+10370000099	Hmm, whether it's the tranquil morning light, joyous laughter, or a heartfelt embrace, each is a beautiful way to say goodbye before setting out.	อืม ไม่ว่าจะเป็นแสงเช้าอันสงบ เสียงหัวเราะเปี่ยมสุข หรืออ้อมกอดจากใจ ล้วนเป็นวิธีบอกลาที่งดงามก่อนออกเดินทาง
+10370000100	Question two. After a long journey, you finally reach a forest, where the fog is as thick as Milk. You're completely lost! Then you come upon three paths, each of which looks... well, interesting. Which one will you follow?	คำถามที่สอง หลังเดินทางไกล ในที่สุดเธอก็มาถึงป่าที่หมอกข้นราวกับน้ำนม เธอหลงทางไปหมดแล้ว! แล้วก็พบทางสามสาย แต่ละสายดู... อืม น่าสนใจ เธอจะเลือกเดินทางไหน?
+10370000104	Whether your future takes you through forest paths echoing with Orc roars, along desolate trails, or into the depths of an ancient castle, never forget the burning courage within your heart.	ไม่ว่าอนาคตจะพาเธอผ่านทางป่าที่ก้องด้วยเสียงคำรามของ Orc ตามเส้นทางเปลี่ยวร้าง หรือเข้าสู่ส่วนลึกของปราสาทโบราณ อย่าลืมความกล้าหาญที่ลุกโชนในใจ
+10370000105	Question three. After facing countless dangers and battling terrifying monsters, you finally emerge victorious! Now a dust-covered treasure chest lies before you, with light shining through its keyhole! You rub your hands together, your heart pounding. What treasure do you hope to find inside?	คำถามที่สาม หลังเผชิญอันตรายสารพัดและต่อสู้กับมอนสเตอร์น่าสะพรึงกลัว ในที่สุดเธอก็ชนะ! หีบสมบัติเคลือบฝุ่นตั้งอยู่ตรงหน้า มีแสงลอดออกจากรูกุญแจ! เธอถูมือไปมา หัวใจเต้นแรง เธอหวังจะพบสมบัติอะไรข้างใน?
+10370000109	At the end of every story, heroes grasp the blades of divine weapons, open the covers of spellbooks, and scoop up the shimmering waters of sacred springs. But never forget what first set you on your journey.	เมื่อเรื่องราวทุกเรื่องจบลง เหล่าวีรบุรุษจับดาบแห่งศาสตราเทพ เปิดตำราเวท และตักน้ำพร่างพรายจากน้ำพุศักดิ์สิทธิ์ แต่จงอย่าลืมสิ่งที่ทำให้เธอเริ่มออกเดินทาง
+10370000110	All right, you've completed every test. Please wait while I determine your results...	เอาล่ะ เธอผ่านการทดสอบทุกอย่างแล้ว โปรดรอระหว่างที่ฉันประเมินผล...
+10370000112	Ta-da! The Crystal of Fate has revealed your result! Let's see... Oh? Not bad!	แท่นแท้น! Crystal of Fate เผยผลของเธอแล้ว! ไหนดูสิ... โอ้? ไม่เลวเลย!
+10370000113	The soul of a Swordsman burns within you! A Lion lives in your heart, courage is your blade, and protection is your shield. Go forth—the Prontera Chivalry awaits!	จิตวิญญาณของ Swordsman ลุกโชนอยู่ในตัวเธอ! สิงโตอาศัยอยู่ในหัวใจ ความกล้าคือดาบ และการปกป้องคือโล่ จงก้าวไป Prontera Chivalry รอเธออยู่!
+10370000114	So, how accurate was Erpi's reading? Don't dawdle—go complete your Job Advance! The legend of Midgard is yours to write.	แล้วคำทำนายของ Erpi แม่นแค่ไหนล่ะ? อย่ามัวชักช้า ไปเปลี่ยนอาชีพให้สำเร็จ! ตำนานแห่ง Midgard รอให้เธอเขียนอยู่
+10370000115	What a warm light... It's the calling of an Acolyte! Your heart is as soft as a Poring, yet your strength surpasses that of an angel. Remember, your hands, which can heal anything, are more precious than any weapon.	แสงอบอุ่นเหลือเกิน... นี่คือเสียงเรียกแห่ง Acolyte! หัวใจเธออ่อนโยนดุจ Poring แต่พลังเหนือกว่าเทวทูต จงจำไว้ว่ามือที่เยียวยาได้ทุกสิ่งของเธอมีค่ากว่าอาวุธใด ๆ
+10370000116	Wow! What a mysterious magical glow... Your head must be filled with stars and arcane runes. Those old scholars in Geffen Tower will be fighting over you!	ว้าว! ประกายเวทมนตร์ลึกลับอะไรเช่นนี้... ในหัวเธอคงเต็มไปด้วยดวงดาวและอักษรรูนเร้นลับ เหล่านักวิชาการแก่ ๆ ใน Geffen Tower จะต้องแย่งตัวเธอกันแน่!
+10370000117	Shh! The shadow of the Thief has chosen you. Your footsteps are lighter than the wind, and your eyes are sharper than a hawk's. The black market of Morroc... Ahem, I mean the whole wide world awaits your talents!	ชู่ว์! เงาแห่ง Thief เลือกเธอแล้ว ฝีเท้าเธอเบากว่าสายลม สายตาคมกว่าเหยี่ยว ตลาดมืดแห่ง Morroc... อะแฮ่ม หมายถึงโลกกว้างทั้งใบรอพรสวรรค์ของเธออยู่!
+10370000118	I hear the sound of Zeny... You have the makings of a Merchant! There's an abacus clacking away in your head, isn't there? Remember to give me a discount when you open your shop!	ฉันได้ยินเสียง Zeny... เธอมีแววเป็น Merchant! ในหัวมีลูกคิดดังแกร๊ก ๆ อยู่ใช่ไหมล่ะ? เปิดร้านเมื่อไร อย่าลืมลดราคาให้ฉันด้วย!
+10370000119	Whoosh! Right on target—the eagle eye of an Archer! You like to keep your Distance, wait for the perfect moment, then strike true. Hey, you might just become the greatest Archer in Payon!	ฟิ้ว! เข้าเป้าพอดี สายตาเฉียบคมของ Archer! เธอชอบรักษาระยะ รอจังหวะที่เหมาะ แล้วโจมตีอย่างแม่นยำ นี่ เธออาจกลายเป็น Archer ที่เก่งที่สุดใน Payon เลยนะ!
+10370000120	Mm-hmm, just leave it there... Wait, aren't you here to deliver food?	อืม ๆ วางไว้ตรงนั้นเลย... เดี๋ยวนะ เธอไม่ได้มาส่งอาหารเหรอ?
+10370000122	Oh! You're the new recruit from the Eden Group! My eyesight's just like my Lain's—I can't tell people from animals at five meters, and at ten meters, the whole world's one big happy blur. Hahaha!	อ้อ! เธอคือสมาชิกใหม่จาก Eden Group! สายตาฉันเหมือน Lain ของฉันเลย ห่างห้าเมตรก็แยกคนกับสัตว์ไม่ออก พอสิบเมตร โลกทั้งใบก็พร่ามัวอย่างมีความสุข ฮ่า ๆ ๆ!
+10370000123	The gyroscope... Let me think. Its core needs sturdy spacers, and Stag Beetle shells have just the right density. Bring me some ^{1}【Hard Shells】^{2} from Stag Beetles.	ไจโรสโคป... ขอคิดหน่อย แกนของมันต้องใช้แผ่นรองที่แข็งแรง เปลือก Stag Beetle มีความหนาแน่นพอดี นำ ^{1}[ Hard Shells ]^{2} จาก Stag Beetles มาให้ฉันหน่อย
+10370000124	I'll also need a barrel of ^{1}【High-Quality Sticky Mucus】^{2} from Willows to use as damping fluid. The last time I went looking for some, I mistook a regular tree for a Willow and spent half an hour talking to it...	ฉันยังต้องการ ^{1}[ High-Quality Sticky Mucus ]^{2} จาก Willows อีกหนึ่งถังเพื่อใช้เป็นของเหลวลดแรงสั่น ครั้งก่อนที่ไปหา ฉันเข้าใจผิดคิดว่าต้นไม้ธรรมดาเป็น Willow แล้วคุยกับมันตั้งครึ่งชั่วโมง...
+10370000125	Finally, I'll need ^{1}【Eddga's Mane】^{2} for the balancing bristles. That big cat has been prowling around the bamboo forest lately, terrifying the villagers... and making so much noise I can't focus on my experiments! Go bring me some of its mane—and quiet it down while you're at it.	สุดท้าย ฉันต้องการ ^{1}[ Eddga's Mane ]^{2} เพื่อใช้เป็นขนสำหรับรักษาสมดุล ช่วงนี้แมวใหญ่ตัวนั้นวนเวียนอยู่แถวป่าไผ่ ทำชาวบ้านหวาดกลัว... แถมส่งเสียงดังจนฉันไม่มีสมาธิทดลอง! ไปเอาขนแผงคอของมันมาให้หน่อย แล้วช่วยทำให้มันเงียบลงด้วย
+10370000126	That big cat isn't easy to find. Ask the old Hunter in the forest if he knows its exact location.	แมวใหญ่ตัวนั้นหาไม่ง่าย ลองถาม Hunter ชราในป่าดูว่าเขารู้ตำแหน่งที่แน่นอนไหม
+10370000129	You're a new face. This forest's been dangerous lately, so don't wander around without good reason.	ไม่เคยเห็นหน้าเธอมาก่อน ช่วงนี้ป่าอันตราย อย่าเดินเพ่นพ่านโดยไม่มีเหตุจำเป็น
+10370000132	Oh? That old lady with the poor eyesight? This is about the airship, isn't it? Eddga's mane... Yes, that certainly sounds like something she'd need.	โอ้? หญิงชราสายตาไม่ดีคนนั้นน่ะเหรอ? เรื่องเรือเหาะสินะ? แผงคอของ Eddga... ใช่ ฟังดูเป็นของที่เธอต้องใช้จริง ๆ
+10370000133	That beast is clever and always on the move. It won't just sit in one place waiting for you to find it.	สัตว์ร้ายตัวนั้นฉลาดและเคลื่อนที่อยู่ตลอด มันไม่อยู่รอให้เธอหาเจอในที่เดียวหรอก
+10370000134	Here, take this. It's called a ^{1}【Fly Wing】^{2}. Crush one, and it'll teleport you a random Distance through this bamboo forest.	นี่ เอาไปสิ มันเรียกว่า ^{1}[ Fly Wing ]^{2} บดหนึ่งชิ้น แล้วมันจะเคลื่อนย้ายเธอไปในระยะสุ่มภายในป่าไผ่นี้
+10370000135	It's a common trick among Adventurers. You rely on luck to cross paths with it. Whether you find it is up to chance.	เป็นกลเม็ดที่นักผจญภัยใช้กันบ่อย เธอต้องอาศัยโชคให้ได้เจอมัน จะหาเจอหรือไม่ก็ขึ้นอยู่กับดวง
+10370000138	It beats wandering aimlessly through the forest like a headless fly. Back in our day, this was how we tracked down elusive monsters like that.	ยังดีกว่าเดินไร้จุดหมายในป่าเหมือนแมลงวันหัวขาด สมัยพวกเราใช้วิธีนี้ตามหามอนสเตอร์ที่หาตัวยากแบบนั้น
+10370000139	Good luck. Remember, if you encounter Eddga, approach it carefully. That beast is ferocious.	ขอให้โชคดี จำไว้นะ ถ้าเจอ Eddga ให้เข้าไปอย่างระมัดระวัง สัตว์ร้ายตัวนั้นดุร้ายมาก
+10370000142	Oh? That was fast. Hmm... The materials all meet my standards. Excellent! You're far more capable than that silly boy of mine who does nothing but read.	โอ้? เร็วดีนี่ อืม... วัตถุดิบทุกอย่างตรงตามมาตรฐานของฉัน เยี่ยมมาก! เธอเก่งกว่าเจ้าลูกชายทึ่ม ๆ ของฉันที่เอาแต่อ่านหนังสือมากเลย
+10370000143	Speaking of Lain... That boy's a hopeless bookworm. He can't think about anything but his research. If the royal family hadn't personally commissioned the Eden Group to find him, I'd be afraid he'd get himself lost in the desert...	พูดถึง Lain... เด็กคนนั้นเป็นหนอนหนังสือจนแก้ไม่หาย คิดถึงแต่เรื่องวิจัย ถ้าราชวงศ์ไม่ได้ว่าจ้าง Eden Group ให้ตามหาเขาโดยตรง ฉันคงกลัวว่าเขาจะหลงอยู่ในทะเลทราย...
+10370000144	Haha, don't worry! Our leader is handling this personally, and with such a capable new recruit helping us, we'll bring Professor Lain back safe and sound. He's essential to the research on the 【Nail of World Law】. We'll protect him with our lives!	ฮ่า ๆ ไม่ต้องห่วง! หัวหน้าของเราจัดการเรื่องนี้ด้วยตัวเอง แถมมีสมาชิกใหม่ที่เก่งขนาดนี้ช่วย เราจะพาศาสตราจารย์ Lain กลับมาอย่างปลอดภัย เขาสำคัญต่อการวิจัย [ Nail of World Law ] มาก เราจะปกป้องเขาด้วยชีวิต!
+10370000145	All right, rookie. Excellent work on the mission. The airship is ready, so it's time to meet up with the others. Your true adventure is about to begin!	เอาล่ะ เด็กใหม่ ทำภารกิจได้ยอดเยี่ยม เรือเหาะพร้อมแล้ว ถึงเวลาไปสมทบกับคนอื่น การผจญภัยที่แท้จริงของเธอกำลังจะเริ่ม!
+10370000146	Boya, wait here for a moment. I'll give you the repaired gyroscope. ^{1}PlayerName^{2}, this Card is for you. It should be very helpful on your adventures ahead.	Boya รออยู่ตรงนี้สักครู่ ฉันจะให้ไจโรสโคปที่ซ่อมแล้วกับเธอ ^{1}PlayerName^{2} การ์ดใบนี้สำหรับเธอ น่าจะช่วยได้มากในการผจญภัยข้างหน้า
+10370000147	^{1}PlayerName^{2}, go learn all about Cards first. They're essential for every Adventurer. I'll meet you at the village entrance later.	^{1}PlayerName^{2} ไปเรียนรู้เรื่องการ์ดให้ครบก่อนนะ เป็นสิ่งจำเป็นสำหรับนักผจญภัยทุกคน แล้วฉันจะไปพบเธอที่ทางเข้าหมู่บ้าน
+10370000148	Go find the black market merchant at the tavern.	ไปหาพ่อค้าตลาดมืดที่โรงเตี๊ยม
+10370000150	I'm the proprietor NPC. I don't know where the black market merchant is, either.	ฉันเป็น NPC เจ้าของร้าน ฉันก็ไม่รู้เหมือนกันว่าพ่อค้าตลาดมืดอยู่ที่ไหน
+10370000152	I'm the veteran Adventurer NPC. I don't know where the black market merchant is, either.	ฉันเป็น NPC นักผจญภัยมากประสบการณ์ ฉันก็ไม่รู้เหมือนกันว่าพ่อค้าตลาดมืดอยู่ที่ไหน
+10370000154	The threads of your fate... are entwined with some very intriguing possibilities. There is a certain... “special” energy emanating from you.	สายใยแห่งโชคชะตาของเธอ... พัวพันกับความเป็นไปได้ที่น่าสนใจมาก มีพลังงานบางอย่าง... ที่ “พิเศษ” แผ่ออกมาจากตัวเธอ
+10370000158	Time... is a one-way road for your kind. But every so often, ripples appear.	เวลา... คือถนนเดินทางเดียวสำหรับเผ่าพันธุ์ของเธอ แต่บางครั้งก็เกิดระลอกคลื่นขึ้น
+10370000159	This old compass is yours. It will warn you before disaster strikes.	เข็มทิศเก่าอันนี้เป็นของเธอ มันจะเตือนก่อนภัยพิบัติจะมาถึง
+10370000160	When a great crisis approaches, it will guide you. Use it wisely...	เมื่อวิกฤตครั้งใหญ่ใกล้เข้ามา มันจะนำทางเธอ จงใช้มันอย่างชาญฉลาด...
+10370000161	Who were you just talking to? There's no one here.	เมื่อกี้เธอคุยกับใคร? ที่นี่ไม่มีใครเลยนะ
+10370000162	Could you be under some kind of illusion? Maybe there's a fox spirit or something lurking near Payon...	เธออาจถูกภาพลวงตาบางอย่างครอบงำหรือเปล่า? อาจมีวิญญาณจิ้งจอกหรืออะไรสักอย่างซ่อนอยู่ใกล้ Payon...
+10370000163	Whoa! Could it be a ghost?! So scary, so scary~	หวา! หรือว่าจะเป็นผี?! น่ากลัว น่ากลัวจัง~
+10370000164	Master~ Have you been secretly dating an invisible girl?	นายท่าน~ แอบคบกับสาวล่องหนอยู่หรือเปล่า?
+10370000166	Anyway, we need to get moving. The Eden Group Captain is still waiting at the ^{1}Airship Port in Izlude^{2}. If we take any longer, she's going to be furious.	ยังไงเราก็ต้องออกเดินทางแล้ว หัวหน้าทีม Eden Group ยังรออยู่ที่ ^{1}Airship Port ใน Izlude^{2} ถ้าช้ากว่านี้เธอต้องโมโหมากแน่
+10370000167	Black Market Merchant, I'll come by later to buy a ticket.	Black Market Merchant เดี๋ยวฉันจะมาซื้อตั๋วนะ
+10370000171	You already have a ticket? Then I'll teleport you there.	มีตั๋วแล้วเหรอ? งั้นฉันจะเคลื่อนย้ายเธอไปที่นั่น
+10370000173	Captain! We got the gyroscope, and ^{1}PlayerName^{2} did a great job!	หัวหน้า! เราได้ไจโรสโคปมาแล้ว และ ^{1}PlayerName^{2} ก็ทำได้ดีมาก!
+10370000174	Excellent work. Rookie, welcome to the operation. This is Instructor Wulf. Relax—from now on, we'll Fight Alongside each other.	ทำได้ยอดเยี่ยม เด็กใหม่ ยินดีต้อนรับสู่ปฏิบัติการ นี่คือครูฝึก Wulf ไม่ต้องเกร็ง จากนี้ไปเราจะต่อสู้เคียงข้างกัน
+10370000175	Hello, rookie. The supplies have been inventoried. We can board whenever you're ready.	สวัสดี เด็กใหม่ เราตรวจนับเสบียงแล้ว ขึ้นเรือได้ทันทีเมื่อเธอพร้อม
+10370000176	Time is short, so I'll be brief. Our mission is to travel to the ^{1}Sograt Desert^{2} and find the missing Professor Ryan.	เวลามีน้อย ฉันจะพูดสั้น ๆ ภารกิจของเราคือเดินทางไป ^{1}Sograt Desert^{2} เพื่อตามหาศาสตราจารย์ Ryan ที่หายตัวไป
+10370000177	This is a covert mission. The professor's research is crucial to the kingdom's future, so the fewer people who know about it, the better.	นี่เป็นภารกิจลับ งานวิจัยของศาสตราจารย์สำคัญต่ออนาคตของอาณาจักร ยิ่งมีคนรู้น้อยก็ยิ่งดี
+10370000178	Rhyne and Boya have both reported on your previous performance. You've proven that you're capable and dependable. Welcome to the team.	ทั้ง Rhyne และ Boya รายงานผลงานที่ผ่านมาของเธอแล้ว เธอพิสูจน์ว่าเก่งและไว้ใจได้ ยินดีต้อนรับเข้าทีม
+10370000179	We'll take the 【White Dove】 cargo airship to Morroc, at the entrance to the desert. If there's anything else you'd like to know, ask me now.	เราจะโดยสารเรือเหาะขนสินค้า [ White Dove ] ไป Morroc ที่ปากทางเข้าทะเลทราย ถ้ามีอะไรอยากรู้อีก ถามฉันตอนนี้ได้เลย
+10370000184	Good eye! The 【White Dove】 belongs to Valkyrie Air, and it symbolizes the cooperation between the Papal State and the Republic. It's officially a cargo ship, but it still has a passenger cabin, making it perfect for a team that needs to keep a low profile.	ตาดีนี่! [ White Dove ] เป็นของ Valkyrie Air และเป็นสัญลักษณ์ความร่วมมือระหว่าง Papal State กับ Republic แม้จะเป็นเรือขนสินค้าอย่างเป็นทางการ แต่ก็มีห้องโดยสาร เหมาะกับทีมที่ต้องเก็บตัวไม่ให้เป็นที่สังเกต
+10370000185	Its structure has been Enhanced, giving it greater speed and stealth than an ordinary passenger ship. It's also equipped with basic defensive cannons.	โครงสร้างได้รับการเสริมให้แข็งแรง ทำให้เร็วและพรางตัวได้ดีกว่าเรือโดยสารทั่วไป อีกทั้งติดตั้งปืนใหญ่ป้องกันพื้นฐานด้วย
+10370000186	Wulf knows this ship inside and out. Don't worry—he's a dependable old friend.	Wulf รู้จักเรือลำนี้ทุกซอกทุกมุม ไม่ต้องห่วง เขาเป็นเพื่อนเก่าที่ไว้ใจได้
+10370000188	He's one of the kingdom's foremost scholars and studied abroad in Juno. He specializes in ancient magic technology and is... a somewhat absentminded genius. He's the key to unraveling the mystery of the 【Nail of World Law】.	เขาเป็นนักวิชาการชั้นแนวหน้าคนหนึ่งของอาณาจักร เคยไปศึกษาที่ Juno เชี่ยวชาญเทคโนโลยีเวทมนตร์โบราณ และเป็น... อัจฉริยะที่ค่อนข้างเหม่อลอย เขาคือกุญแจไขปริศนา [ Nail of World Law ]
+10370000190	Exactly. That's why we have to find him.	ถูกต้อง เพราะอย่างนั้นเราจึงต้องตามหาเขา
+10370000191	This commission comes directly from the royal family. That means it's a high-level mission, and it also means... the potential danger may be beyond anything we can imagine.	การว่าจ้างนี้มาจากราชวงศ์โดยตรง นั่นหมายถึงภารกิจระดับสูง และยังหมายความว่า... อันตรายที่อาจเกิดขึ้นอาจเกินกว่าที่เราจะจินตนาการได้
+10370000192	So don't worry. Just follow my lead. I'll bring every one of you back safely. I always Keep my word.	ดังนั้นอย่ากังวล แค่ทำตามฉัน ฉันจะพาทุกคนกลับมาอย่างปลอดภัย ฉันรักษาคำพูดเสมอ
+10370000193	All right, no more questions, then. Keep your ticket handy, rookie. Prepare to board—next stop, Morroc!	เอาล่ะ ไม่มีคำถามแล้วสินะ เด็กใหม่ เก็บตั๋วให้หยิบใช้สะดวก เตรียมขึ้นเรือ สถานีต่อไป Morroc!
+10370000194	Good afternoon. Please present your boarding pass and confirm that your carry-on luggage is not overweight.	สวัสดีตอนบ่าย โปรดแสดงบัตรขึ้นเรือและยืนยันว่าสัมภาระติดตัวไม่หนักเกินกำหนด
+10370000195	Pass confirmed. The White Dove has been cleared for departure, and its engines are warmed up. We expect to depart in three minutes.	ตรวจสอบบัตรแล้ว White Dove ได้รับอนุญาตให้ออกเดินทางและอุ่นเครื่องพร้อมแล้ว คาดว่าจะออกเดินทางในอีกสามนาที
+10370000199	Have a pleasant journey. May the winds grant you clear passage.	ขอให้เดินทางราบรื่น ขอให้สายลมเปิดทางให้ท่าน
+10370000200	We're off, we're off! Up into the clouds!	ออกแล้ว ออกแล้ว! ขึ้นไปบนเมฆเลย!
+10370000201	All right. Please board before the departure horn sounds. We will not wait for late passengers.	เอาล่ะ โปรดขึ้นเรือก่อนเสียงแตรออกเดินทางดังขึ้น เราจะไม่รอผู้โดยสารที่มาสาย
+10370000202	Huh? Is something still not ready? Bobo can't wait any longer, bo!	หืม? ยังมีอะไรไม่พร้อมอีกเหรอ? Bobo รอไม่ไหวแล้ว โบ!
+10370000203	Well, rookie? This is your first time seeing the view from an airship, isn't it?	เป็นไง เด็กใหม่? นี่เป็นครั้งแรกที่เห็นวิวจากเรือเหาะใช่ไหม?
+10370000204	Ready to go? Just don't throw up on the ship.	พร้อมไปหรือยัง? แต่อย่าอาเจียนบนเรือล่ะ
+10370000207	You have another @{1} minutes. Don't dawdle.	เธอยังมีเวลาอีก @{1} นาที อย่ามัวชักช้า
+10370000208	Then... let's be off. White Dove, launch!	งั้น... ไปกันเถอะ White Dove ออกตัว!
+10370000209	Finally awake, huh? You were really out cold.	ตื่นเสียทีสินะ? เธอสลบไปสนิทเลย
+10370000210	Hahaha! Welcome back to the land of the living! After that crash, I thought you'd be getting up close and personal with the sand for three days and three nights!	ฮ่า ๆ ๆ! ยินดีต้อนรับกลับสู่โลกของคนเป็น! หลังตกครั้งนั้น ฉันนึกว่าเธอจะต้องนอนแนบชิดกับทรายไปสามวันสามคืนเสียแล้ว!
+10370000211	Wah... Stupid Master! You scared Bobo half to death! Bobo thought the crash had broken your head!	ฮือ... นายท่านบ้า! ทำ Bobo กลัวแทบตาย! Bobo นึกว่าตอนตกหัวนายท่านพังไปแล้ว!
+10370000212	All right, everyone's here. Looks like the White Dove is a total loss, and there's no point going to Morroc now.	เอาล่ะ ทุกคนอยู่ครบ ดูเหมือน White Dove จะพังยับเยิน ไม่มีประโยชน์จะไป Morroc แล้ว
+10370000213	According to Wulf, our landing site is actually closer to our destination, the ^{1}【Adventurer Camp】^{2}. Let's rest briefly, then move out.	Wulf บอกว่าจุดที่เราตกอยู่ใกล้จุดหมายคือ ^{1}[ Adventurer Camp ]^{2} มากกว่าเสียอีก พักสักครู่แล้วออกเดินทางกัน
+10370000214	To help you survive the battles ahead, I have some spare materials you can use to repair your weapon.	เพื่อช่วยให้เธอรอดในการต่อสู้ข้างหน้า ฉันมีวัสดุเหลือให้ใช้ซ่อมอาวุธ
+10370000215	Go ahead, Master! Bobo thinks it'll become super—powerful, bo~	ทำเลย นายท่าน! Bobo ว่ามันต้องทรงพลังสุด ๆ แน่ โบ~
+10370000216	Oh? Eikuni, long time no see! Are you here in the desert to Complete the Commission?	โอ้? Eikuni ไม่เจอกันนาน! มาทะเลทรายเพื่อทำงานที่รับจ้างมาเหรอ?
+10370000217	Hahaha, of course I'm here for work. It's been a while, Hawke. How have you been?	ฮ่า ๆ แน่นอน ฉันมาทำงาน ไม่เจอกันนานนะ Hawke เป็นยังไงบ้าง?
+10370000218	Same as always. Ant breeding season is almost here, and there have been frequent Adventurer disappearances lately. It's a real headache... But enough about that. You must have something more important to discuss, right?	เหมือนเดิม ฤดูผสมพันธุ์ของมดใกล้มาแล้ว ช่วงนี้นักผจญภัยหายตัวไปบ่อย ปวดหัวจริง ๆ... แต่พอเถอะ เธอต้องมีเรื่องสำคัญกว่านั้นจะคุยใช่ไหม?
+10370000219	Yes. I'm looking for someone. Have you seen a scholar named Levin recently? He wears glasses, has very poor eyesight, and is quite refined.	ใช่ ฉันกำลังตามหาคน ช่วงนี้เธอเคยเห็นนักวิชาการชื่อ Levin ไหม? เขาสวมแว่น สายตาแย่มาก และดูสุภาพเรียบร้อย
+10370000220	Levin, glasses, poor eyesight... Is he from Payon? And didn't he study in Juno?	Levin แว่น สายตาไม่ดี... เขามาจาก Payon ใช่ไหม? แล้วเคยเรียนที่ Juno ด้วยไม่ใช่เหรอ?
+10370000221	Yes, that's him! Do you know where he went?	ใช่ คนนั้นแหละ! เธอรู้ไหมว่าเขาไปไหน?
+10370000222	He's been staying at the camp for the past week, leaving early and returning late every day. Oh! I even said hello to him before he left this morning. He took his equipment to ^{1}【Ant Hell】^{2} again at the crack of dawn, saying he was going to collect some kind of 【Memory Particles】. He's incredibly stubborn. I tried to convince him to take someone with him, but he wouldn't listen.	เขาพักที่ค่ายมาตลอดสัปดาห์ที่ผ่านมา ออกแต่เช้ากลับดึกทุกวัน อ้อ! ฉันยังทักเขาก่อนออกไปเมื่อเช้านี้เลย เขาหอบอุปกรณ์ไป ^{1}[ Ant Hell ]^{2} อีกตั้งแต่ฟ้าสาง บอกว่าจะไปเก็บ [ Memory Particles ] อะไรสักอย่าง เขาดื้อจริง ๆ ฉันพยายามบอกให้พาคนไปด้วย แต่เขาไม่ยอมฟัง
+10370000223	That's a relief. At least he's safe. But Ant Hell is dangerous. We need to find him and make sure nothing happens.	ค่อยโล่งใจ อย่างน้อยเขาก็ปลอดภัย แต่ Ant Hell อันตราย เราต้องตามหาเขาและดูให้แน่ใจว่าไม่เกิดอะไรขึ้น
+10370000224	I'll leave finding the professor to you for now. I need to report the White Dove disaster to headquarters first. As soon as that's taken care of, I'll meet up with you.	ตอนนี้ฝากเรื่องตามหาศาสตราจารย์ไว้กับเธอก่อน ฉันต้องรายงานเหตุภัยพิบัติของ White Dove ให้สำนักงานใหญ่ พอจัดการเสร็จจะไปสมทบ
+10370000225	Master, looks like it's up to the two of us this time!	นายท่าน ดูเหมือนคราวนี้จะขึ้นอยู่กับเราสองคนแล้ว!
+10370000229	Huh? Where did this... giant talking Chonchon come from? Or is it a living ball of soot?	หืม? เจ้า Chonchon ยักษ์พูดได้ตัวนี้... มาจากไหน? หรือเป็นก้อนเขม่ามีชีวิต?
+10370000230	You're the Chonchon! Your whole family's made of soot! Bobo is a noble Demon Poring! Get a good look, bo!	เธอนั่นแหละ Chonchon! ทั้งครอบครัวเธอเป็นเขม่าต่างหาก! Bobo เป็น Demon Poring ผู้สูงศักดิ์! ดูให้ดี โบ!
+10370000231	Uh... Adventurer? Thank You for helping me, but may I ask who you are...?	เอ่อ... นักผจญภัยเหรอ? ขอบคุณที่ช่วย แต่ขอถามได้ไหมว่าเธอเป็นใคร...?
+10370000233	Go back? But my research is at a critical stage, and the energy readings here are unprecedented! If I stop now, all my work could be for nothing.	กลับเหรอ? แต่งานวิจัยของฉันกำลังถึงช่วงสำคัญ และค่าพลังงานที่นี่สูงอย่างไม่เคยมีมาก่อน! ถ้าหยุดตอนนี้ ความพยายามทั้งหมดอาจสูญเปล่า
+10370000235	...Fine, fine. Since you insist, I'll go back with you. But give me a little more time to finish one last sample.	...ได้ ๆ ในเมื่อเธอยืนยัน ฉันจะกลับไปด้วย แต่ขอเวลาอีกหน่อยเพื่อเก็บตัวอย่างสุดท้ายให้เสร็จ
+10370000236	Actually, before that, could you do me a favor? Look over there, in the corner...	ที่จริง ก่อนหน้านั้น ช่วยอะไรฉันหน่อยได้ไหม? ดูตรงโน้น ตรงมุม...
+10370000237	That ^{1}【poor girl】^{2} hasn't moved at all. Could she be injured? Oh, it's chilly in this cave. Do you have any spare clothes? Please help her.	^{1}[ poor girl ]^{2} คนนั้นไม่ขยับเลย เธอบาดเจ็บหรือเปล่า? อ้อ ในถ้ำนี้หนาว เธอมีเสื้อผ้าเหลือไหม? ช่วยเธอด้วยนะ
+10370000238	Master, that lady looks a little strange... But maybe the professor got it right this time? There really is someone over there!	นายท่าน ผู้หญิงคนนั้นดูแปลก ๆ นะ... แต่บางทีครั้งนี้ศาสตราจารย์อาจมองถูกก็ได้? ตรงนั้นมีคนจริง ๆ ด้วย!
+10370000240	Why is it just the two of you? Where are the captain and the others? ...You didn't find Professor Levin?	ทำไมมีแค่พวกเธอสองคน? หัวหน้าทีมกับคนอื่นอยู่ไหน? ...หาศาสตราจารย์ Levin ไม่เจอเหรอ?
+10370000242	I knew it! The Adventurers who've disappeared in the desert over the past few months weren't lost or taken by bandits... They've probably all become the queen ant's emergency food supply!	ว่าแล้ว! นักผจญภัยที่หายในทะเลทรายช่วงไม่กี่เดือนที่ผ่านมาไม่ได้หลงทางหรือถูกโจรจับ... พวกเขาคงกลายเป็นเสบียงอาหารฉุกเฉินของราชินีมดไปหมดแล้ว!
+10370000243	There may be one enormous ant colony beneath this entire desert. What we discovered before was only the tip of the iceberg.	อาจมีรังมดขนาดมหึมาอยู่ใต้ทะเลทรายทั้งหมดนี้ สิ่งที่เราค้นพบก่อนหน้านี้เป็นแค่ยอดภูเขาน้ำแข็ง
+10370000244	Wh-Whoa... M-M-Master! Doesn't that mean we're standing on the lid of one giant cooking pot?!	หวะ-หวา... นะ-นะ-นายท่าน! นั่นหมายความว่าเรากำลังยืนบนฝาหม้อทำอาหารยักษ์ใช่ไหม?!
+10370000245	Aquinnie and the others haven't returned yet, and there's no one at the camp to spare for a rescue mission.	Aquinnie กับคนอื่นยังไม่กลับมา และที่ค่ายไม่มีคนเหลือพอจะส่งไปช่วยเหลือ
+10370000246	This ^{1}【Pathfinder Ant】^{2} is a Piere we captured. It's instinctively drawn to the queen ant's pheromones. Release it inside Ant Hell, and it'll lead you to the entrance of the queen's nest.	^{1}[ Pathfinder Ant ]^{2} ตัวนี้คือ Piere ที่เราจับมา สัญชาตญาณจะดึงมันเข้าหาฟีโรโมนของราชินีมด ปล่อยมันใน Ant Hell แล้วมันจะนำทางไปยังทางเข้ารังราชินี
+10370000247	But I recommend waiting for the captain to return before taking action. The situation down there is far worse than we imagined. Going in alone would be suicide.	แต่ฉันแนะนำให้รอหัวหน้าทีมกลับมาก่อนลงมือ สถานการณ์ข้างล่างเลวร้ายกว่าที่เราคิดมาก เข้าไปคนเดียวก็เท่ากับฆ่าตัวตาย
+10370000248	Professor Meat Is Sour, So Ants Won't Eat It	เนื้อศาสตราจารย์เปรี้ยว มดจึงไม่กินหรอก
+10370000250	It's Extremely Risky, but There's No Other Choice	เสี่ยงสุด ๆ แต่ไม่มีทางเลือกอื่น
+10370000251	Silly Master... Are ants vegetarians? And how do you know the professor tastes too sour to eat?! What kind of reason is that?!	นายท่านซื่อบื้อ... มดกินแต่พืชเหรอ? แล้วรู้ได้ยังไงว่าศาสตราจารย์เปรี้ยวจนกินไม่ได้?! เหตุผลอะไรกันเนี่ย?!
+10370000252	This rescue mission will be exceptionally difficult. If you're determined to go, consider bringing a pet into battle. It could be a great help.	ภารกิจช่วยเหลือครั้งนี้จะยากเป็นพิเศษ ถ้าเธอตั้งใจจะไป ลองนำสัตว์เลี้ยงเข้าสู้ด้วย มันอาจช่วยได้มาก
+10370000253	Master, do you have another little pet when I'm not around? Boo-hoo... Bobo's being abandoned...	นายท่าน ตอน Bobo ไม่อยู่ มีสัตว์เลี้ยงตัวน้อยอีกตัวเหรอ? ฮือ ๆ... Bobo ถูกทอดทิ้งแล้ว...
+10370000254	Ahem. Bobo, was it? There's a big difference between combat pets and companion pets. Don't worry. A companion pet with as much personality as you could never be replaced.	อะแฮ่ม ชื่อ Bobo ใช่ไหม? สัตว์เลี้ยงต่อสู้กับสัตว์เลี้ยงเป็นเพื่อนต่างกันมากนะ ไม่ต้องห่วง สัตว์เลี้ยงเป็นเพื่อนที่มีเอกลักษณ์ขนาดเธอไม่มีใครแทนได้หรอก
+10370000257	Hmph! By the time reinforcements arrive, the professor will already have become... become you-know-what! You're not usually this scared, Master.	ฮึ! กว่ากำลังเสริมจะมาถึง ศาสตราจารย์ก็กลายเป็น... กลายเป็นอะไรนายท่านก็รู้! ปกตินายท่านไม่ได้ขี้กลัวขนาดนี้นี่
+10370000258	Don't worry! When the time comes, you can hide behind Bobo, Master!	ไม่ต้องห่วง! ถึงเวลาแล้วนายท่านซ่อนหลัง Bobo ได้เลย!
+10370000259	Sniff... You're right, Master. The professor can't wait that long! Bobo... Bobo will protect you, bo!	ฮึก... นายท่านพูดถูก ศาสตราจารย์รอนานขนาดนั้นไม่ได้! Bobo... Bobo จะปกป้องนายท่านเอง โบ!
+10370000264	Oh, you know. We only nearly got eaten by the queen ant.	อ้อ ก็ไม่มีอะไรมาก เราแค่เกือบโดนราชินีมดกินน่ะ
+10370000265	Next time something like this happens, don't go off on your own. You must wait for us to return. Come on, let's head back to camp.	ครั้งหน้าถ้าเกิดเรื่องแบบนี้ อย่าไปตามลำพัง ต้องรอพวกเรากลับมาก่อน มาเถอะ กลับค่ายกัน
+10370000266	Oh, you're here... Thank You for rescuing me. You were a tremendous help.	อ้อ เธอมาแล้ว... ขอบคุณที่ช่วยฉันไว้ เธอช่วยได้มากจริง ๆ
+10370000267	I actually came here to extract this—^{1}【Memory Form】^{2} . You can think of it as energy formed from intense human emotions and memories.	ที่จริงฉันมาที่นี่เพื่อสกัดสิ่งนี้—^{1}[ Memory Form ]^{2} เธออาจมองว่ามันคือพลังงานที่ก่อตัวจากอารมณ์และความทรงจำอันรุนแรงของมนุษย์
+10370000268	I've spent several months investigating the area around the desert. I managed to Discover that the queen ant's mimicry actually came from a girl she devoured, so I came here to search for a Clue...	ฉันใช้เวลาหลายเดือนสำรวจบริเวณรอบทะเลทราย จนพบว่าการเลียนแบบของราชินีมดมาจากเด็กสาวที่มันกินไป ฉันจึงมาหาเบาะแสที่นี่...
+10370000269	I finally managed to find some samples, but then... uh, I nearly got eaten.	ในที่สุดก็หาตัวอย่างได้ แต่แล้ว... เอ่อ ฉันก็เกือบถูกกิน
+10370000270	But I got it in the end! Look—(Raises bottle)	แต่สุดท้ายฉันก็ได้มันมา! ดูสิ—(ยกขวดขึ้น)
+10370000272	You're awake. It brought you back here after all... somewhat sooner than I expected.	เธอตื่นแล้ว สุดท้ายมันก็พาเธอกลับมาที่นี่... เร็วกว่าที่ฉันคาดไว้เล็กน้อย
+10370000273	Welcome to the ^{1}【Garden of Time】^{2}—the crossroads of countless possibilities and the final resting place of every unfinished story.	ยินดีต้อนรับสู่ ^{1}[ Garden of Time ]^{2}—ทางแยกแห่งความเป็นไปได้นับไม่ถ้วน และที่พักพิงสุดท้ายของเรื่องราวทุกเรื่องที่ยังไม่จบ
+10370000274	The compass in your hand can do far more than foresee danger.	เข็มทิศในมือเธอทำได้มากกว่าคาดการณ์อันตรายล่วงหน้ามากนัก
+10370000275	And what you just experienced was but one insignificant note in a grand symphony.	และสิ่งที่เธอเพิ่งประสบก็เป็นเพียงโน้ตเล็ก ๆ ที่ไม่สำคัญในบทซิมโฟนีอันยิ่งใหญ่
+10370000276	Curious about this place? Feel free to look around. I'll be waiting up ahead.	สงสัยเกี่ยวกับที่นี่เหรอ? เดินดูได้ตามสบาย ฉันจะรออยู่ข้างหน้า
+10370000277	You've arrived. Are you... satisfied with the view?	เธอมาแล้ว เธอ... พอใจกับทิวทัศน์ไหม?
+10370000278	Those drifting visions are worlds that once truly existed—some have already withered away, while others continue to Struggle.	ภาพนิมิตที่ล่องลอยเหล่านั้นคือโลกที่เคยมีอยู่จริง บางโลกเหี่ยวเฉาไปแล้ว ขณะที่บางโลกยังดิ้นรนต่อไป
+10370000279	And you will be among those who decide their fate.	และเธอจะเป็นหนึ่งในผู้ตัดสินชะตาของโลกเหล่านั้น
+10370000280	Wow! It's so beautiful here! Much comfier than Master's Backpack~	ว้าว! ที่นี่สวยจัง! สบายกว่าเป้ของนายท่านเยอะเลย~
+10370000281	But... why does this place feel kind of familiar?	แต่... ทำไมที่นี่ถึงรู้สึกคุ้น ๆ นะ?
+10370000283	What happened just now? You suddenly froze up and even broke the thoughtform storage vial!	เมื่อกี้เกิดอะไรขึ้น? จู่ ๆ เธอก็ยืนนิ่ง แถมทำขวดเก็บรูปความคิดแตกด้วย!
+10370000284	Did the desert heat give you heatstroke? You look awful.	ความร้อนในทะเลทรายทำเธอเป็นลมแดดหรือเปล่า? เธอดูแย่มาก
+10370000285	It's okay! Master just got scared by some ants earlier, that's all~ Right?	ไม่เป็นไร! ก่อนหน้านี้นายท่านแค่ตกใจมดเท่านั้นเอง~ ใช่ไหม?
+10370000286	Never mind. Good thing I have a backup. Let's head back to Prontera for now.	ช่างเถอะ ดีที่ฉันมีของสำรอง ตอนนี้กลับ Prontera กันก่อน
+10370000287	Let's go. The airship wreckage recovery team should have arrived by now.	ไปกันเถอะ ทีมกู้ซากเรือเหาะน่าจะมาถึงแล้ว
+10370000288	Not bad, youngster. Thanks to you, the mission to protect the Professor went perfectly.	ไม่เลวเลย เด็กน้อย เพราะเธอ ภารกิจปกป้องศาสตราจารย์จึงสำเร็จอย่างสมบูรณ์
+10370000289	The Professor really trusts you now. The latest request specifically names you for the job!	ตอนนี้ศาสตราจารย์ไว้ใจเธอมากแล้ว คำร้องล่าสุดระบุชื่อเธอให้ทำงานนี้โดยเฉพาะเลย!
+10370000292	You're here! A caravan was attacked by ^{1}【Baphomet】^{2} the day before yesterday! That beast is now holed up in the nearby forest.	เธอมาแล้ว! เมื่อวานซืนกองคาราวานถูก ^{1}[ Baphomet ]^{2} โจมตี! ตอนนี้สัตว์ร้ายตัวนั้นหลบอยู่ในป่าใกล้ ๆ
+10370000293	The worst part is, that cargo contained parts I ordered from Juno... Without them, I can't even start this device.	ที่แย่ที่สุดคือในสินค้านั้นมีชิ้นส่วนที่ฉันสั่งจาก Juno... ถ้าไม่มีมัน ฉันเปิดเครื่องนี้ไม่ได้ด้วยซ้ำ
+10370000294	Damn it! The Church won't let us near the stone pillar, but they'll let monsters steal our cargo?	บ้าจริง! ศาสนจักรไม่ยอมให้เราเข้าใกล้เสาหิน แต่กลับปล่อยให้มอนสเตอร์ขโมยสินค้าของเราเหรอ?
+10370000295	You're my only hope, my adventuring buddy~ Don't worry! The pay is great.	เธอคือความหวังเดียวของฉัน สหายนักผจญภัย~ ไม่ต้องห่วง! ค่าตอบแทนงามแน่นอน
+10370000296	You're here on the Professor's behalf, right?	เธอมาในนามศาสตราจารย์ใช่ไหม?
+10370000297	I'm so sorry. The Professor paid us so much, and we still let the cargo get stolen...	ขอโทษจริง ๆ ศาสตราจารย์จ่ายเงินให้พวกเราตั้งมาก แต่เราก็ยังปล่อยให้สินค้าถูกขโมย...
+10370000298	Damn you, Baphomet! You'll pay for this!	เจ้าบ้า Baphomet! แกต้องชดใช้!
+10370000301	Great! We've recovered most of our cargo too, though quite a few pieces of valuable porcelain were broken...	เยี่ยมเลย! พวกเราก็ได้สินค้าคืนมาเกือบหมด แม้เครื่องเคลือบมีค่าจะเสียหายไปหลายชิ้น...
+10370000302	(Strokes chin) Looks like I'll have to sell Baphomet skewers to recoup my losses.	(ลูบคาง) ดูเหมือนฉันต้องขาย Baphomet เสียบไม้เพื่อชดเชยส่วนที่ขาดทุนแล้ว
+10370000304	Oh? You actually collected everything. I'm impressed. Let me process the materials first.	โอ้? เธอเก็บทุกอย่างมาได้จริง ๆ น่าทึ่ง ฉันขอแปรรูปวัตถุดิบก่อน
+10370000305	You didn't expect that? So you really didn't consider our safety at all!	เธอไม่คิดว่าจะเป็นอย่างนั้นเหรอ? งั้นก็ไม่ได้คำนึงถึงความปลอดภัยของพวกเราเลยจริง ๆ!
+10370000307	All right, it's done. Just place this into ^{1}【the device next to me】^{2}.	เอาล่ะ เสร็จแล้ว แค่ใส่สิ่งนี้ลงใน ^{1}[ the device next to me ]^{2}
+10370000308	Be careful not to touch it with your fingers. It doesn't look very clean.	ระวังอย่าใช้นิ้วแตะนะ มันดูไม่ค่อยสะอาด
+10370000309	Oh, come on! I purified them. They're nothing like they were before.	โธ่ ไม่เอาน่า! ฉันทำให้บริสุทธิ์แล้ว ไม่เหมือนก่อนหน้านี้เลย
+10370000310	Once that's done, take the device to the stone pillar and attach the wire to ^{1}【the stone pillar】^{2}.	พอเสร็จแล้ว นำเครื่องไปที่เสาหินและต่อสายเข้ากับ ^{1}[ the stone pillar ]^{2}
+10370000313	Can I help you? Unauthorized personnel are not allowed near this area.	มีอะไรให้ช่วยไหม? ผู้ที่ไม่ได้รับอนุญาตห้ามเข้าใกล้บริเวณนี้
+10370000316	So it's him. I can't believe the Queen is letting someone from Juno handle this.	ที่แท้ก็เขา ไม่อยากเชื่อเลยว่าราชินีจะให้คนจาก Juno มาจัดการเรื่องนี้
+10370000318	He studied in Juno for over a decade. He might as well be a foreigner...	เขาเรียนที่ Juno มากกว่าสิบปี ก็แทบจะเป็นคนต่างชาติไปแล้ว...
+10370000321	We meet again, Adventurer from afar. It seems the 【Nail of Cosmic Law】 has taken quite a liking to you.	พบกันอีกแล้ว นักผจญภัยจากแดนไกล ดูเหมือน [ Nail of Cosmic Law ] จะถูกใจเธอมากทีเดียว
+10370000322	They should have remained asleep, yet your touch awakened them... What a fascinating twist of fate.	พวกมันควรหลับใหลต่อไป แต่สัมผัสของเธอกลับปลุกพวกมัน... ช่างเป็นพลิกผันแห่งโชคชะตาที่น่าสนใจ
+10370000323	I have traveled through many worlds, but this is the first time I've met someone like you who can awaken a 【Nail】.	ฉันเดินทางผ่านหลายโลก แต่นี่เป็นครั้งแรกที่ได้พบคนอย่างเธอที่ปลุก [ Nail ] ได้
+10370000324	Rest assured, I am here to help you. I have been searching for you in this world for a very, very long time.	สบายใจได้ ฉันมาที่นี่เพื่อช่วยเธอ ฉันตามหาเธอในโลกนี้มานานแสนนานแล้ว
+10370000325	Come see me again... tomorrow. Perhaps it's time you learned more.	มาพบฉันอีกครั้ง... พรุ่งนี้ บางทีอาจถึงเวลาที่เธอควรได้รู้มากขึ้นแล้ว
+10370000327	What I must tell you is that this space-time is on the brink of catastrophe. You are the chosen one, and only you can resolve this crisis.	สิ่งที่ฉันต้องบอกคือกาลอวกาศนี้กำลังอยู่ปากเหวแห่งหายนะ เธอคือผู้ถูกเลือก และมีเพียงเธอเท่านั้นที่คลี่คลายวิกฤตนี้ได้
+10370000328	My explanation may sound clichéd, but the Nail of Cosmic Law reacted to you just now. That is proof.	คำอธิบายของฉันอาจฟังซ้ำซาก แต่ Nail of Cosmic Law ตอบสนองต่อเธอเมื่อกี้ นั่นคือหลักฐาน
+10370000329	Please take this necklace. Think of it as a protective charm. It will keep you safe on the journey ahead.	โปรดรับสร้อยคอนี้ไว้ ถือว่าเป็นเครื่องรางคุ้มครอง มันจะทำให้เธอปลอดภัยในการเดินทางข้างหน้า
+10370000331	Hello. This area is very dangerous right now, so civilians aren't allowed inside.	สวัสดี ตอนนี้บริเวณนี้อันตรายมาก จึงไม่อนุญาตให้พลเรือนเข้าไป
+10370000333	The Relic lies deep within the forest. Ever since it suddenly appeared, the monsters nearby have been restless. Are you sure you can handle it?	โบราณวัตถุอยู่ลึกเข้าไปในป่า ตั้งแต่มันปรากฏขึ้นอย่างกะทันหัน มอนสเตอร์แถวนั้นก็กระสับกระส่าย เธอแน่ใจหรือว่ารับมือได้?
+10370000334	We're here to investigate the Relic! Don't worry about our safety.	เรามาเพื่อตรวจสอบโบราณวัตถุ! ไม่ต้องห่วงความปลอดภัยของเรา
+10370000335	All right. You seem like a rather capable Adventurer. Could I ask you a favor?	เอาล่ะ เธอดูเป็นนักผจญภัยที่เก่งทีเดียว ขอให้ช่วยอะไรหน่อยได้ไหม?
+10370000336	My colleagues are probably locked in a fierce battle with the monsters in the forest... If you encounter them, could you please help them?	เพื่อนร่วมงานของฉันคงกำลังต่อสู้กับมอนสเตอร์ในป่าอย่างดุเดือด... ถ้าเธอเจอพวกเขา ช่วยพวกเขาหน่อยได้ไหม?
+10370000339	Ugh, hah, ha! I'm... fine. I can still... keep... going!	อึก แฮ่ก แฮ่ก! ฉัน... ไม่เป็นไร ยัง... ไป... ต่อได้!
+10370000341	Go on ahead... to the glowing... place... and help out...	ล่วงหน้าไป... ที่ที่... ส่องแสง... แล้วช่วยด้วย...
+10370000342	He doesn't look fine at all... Oh well, let's go see what's up ahead.	เขาดูไม่ไหวเลยนะ... เอาเถอะ ไปดูข้างหน้ากัน
+10370000344	Those people from the Holy See are such a pain. They insist this thing is Odin's Relic and won't let me anywhere near it.	คนจาก Holy See พวกนั้นน่ารำคาญจริง ๆ ยืนยันว่าของสิ่งนี้คือ Odin's Relic แล้วไม่ยอมให้ฉันเข้าใกล้เลย
+10370000345	Religion really can turn people into stubborn fools. But now that you're here, how about you distract them while I sneak over and investigate?	ศาสนาทำให้คนกลายเป็นคนโง่หัวดื้อได้จริง ๆ แต่ไหน ๆ เธอก็มาถึงแล้ว ช่วยเบนความสนใจพวกเขาระหว่างที่ฉันแอบเข้าไปตรวจสอบได้ไหม?
+10370000346	We meet again. Ah, I just couldn't resist stepping in.	พบกันอีกแล้ว อา ฉันอดเข้ามาช่วยไม่ได้จริง ๆ
+10370000347	Next, I'll show you the truth... Whether you can accept it is up to you.	ต่อไป ฉันจะให้เธอเห็นความจริง... จะยอมรับมันได้หรือไม่ก็ขึ้นอยู่กับเธอ
+10370000348	I'll be waiting up ahead. Follow me when you're ready.	ฉันจะรออยู่ข้างหน้า พร้อมแล้วก็ตามฉันมา
+10370000349	The world you see is but one of countless leaves on the World Tree.	โลกที่เธอเห็นเป็นเพียงใบไม้ใบหนึ่งจากนับไม่ถ้วนบน World Tree
+10370000350	After Ragnarök, its branches gradually began to decay... and countless timelines are withering away.	หลัง Ragnarök กิ่งก้านของมันค่อย ๆ เริ่มผุพัง... และเส้นเวลานับไม่ถ้วนก็กำลังเหี่ยวเฉา
+10370000351	Then we found the three 【Keys】 left behind by the gods—the Realm Sandbox, the Nail of Cosmic Law, and your compass.	จากนั้นเราพบ [ Keys ] ทั้งสามที่เหล่าทวยเทพทิ้งไว้ นั่นคือ Realm Sandbox, Nail of Cosmic Law และเข็มทิศของเธอ
+10370000352	The Realm Sandbox selects heroes, while the Nail of Cosmic Law stabilizes spacetime... And your compass can gather echoes of souls to restore life to the World Tree.	Realm Sandbox เลือกวีรบุรุษ ส่วน Nail of Cosmic Law ทำให้กาลอวกาศคงสภาพ... และเข็มทิศของเธอรวบรวมเสียงสะท้อนของวิญญาณเพื่อคืนชีวิตให้ World Tree ได้
+10370000353	But you are the most extraordinary of all—an 【Adventurer】 from a higher dimension.	แต่เธอพิเศษที่สุดในบรรดาทั้งหมด เป็น [ Adventurer ] จากมิติที่สูงกว่า
+10370000354	Only your touch can awaken these dormant 【Keys】.	มีเพียงสัมผัสของเธอเท่านั้นที่ปลุก [ Keys ] ที่หลับใหลเหล่านี้ได้
+10370000356	When the true crisis arrives... we will meet again.	เมื่อวิกฤตที่แท้จริงมาถึง... เราจะพบกันอีกครั้ง
+10370000357	You're finally awake! That was far too close. If you hadn't stepped in when you did, many more people could have been hurt.	ในที่สุดเธอก็ตื่น! หวุดหวิดเกินไปแล้ว ถ้าเธอไม่เข้ามาช่วยทันเวลา คงมีคนบาดเจ็บมากกว่านี้อีกมาก
+10370000358	While you were unconscious, the Holy See took the Relic away. It's being kept at the Prontera Library for now. If you're interested, you can go see it later.	ระหว่างที่เธอหมดสติ Holy See นำโบราณวัตถุไปแล้ว ตอนนี้เก็บไว้ที่ Prontera Library ถ้าสนใจ เธอไปดูทีหลังได้
+10370000359	After everything you've been through, you need a good rest. I'm a member of the ^{1}【Oak Inn】^{2} in the capital. Give them my name, and they'll arrange their finest room for you.	หลังผ่านเรื่องมามากมาย เธอต้องพักให้เต็มที่ ฉันเป็นสมาชิกของ ^{1}[ Oak Inn ]^{2} ในเมืองหลวง บอกชื่อฉัน แล้วพวกเขาจะจัดห้องที่ดีที่สุดให้เธอ
+10370000361	Welcome to the Oak Inn! Do you have a reservation?	ยินดีต้อนรับสู่ Oak Inn! จองไว้หรือเปล่า?
+10370000363	Ah! You must be Professor Levin's honored guest! He asked us to prepare a quiet room by the window on the second floor. The professor said you needed a good rest.	อา! เธอต้องเป็นแขกผู้มีเกียรติของศาสตราจารย์ Levin แน่! เขาขอให้เราเตรียมห้องเงียบ ๆ ริมหน้าต่างบนชั้นสองไว้ ศาสตราจารย์บอกว่าเธอต้องพักผ่อนให้เต็มที่
+10370000364	Here is your key. Dinner will be delivered to your room in one hour. If you'd like hot Milk or herbal tea, just ring the bell.	นี่กุญแจของเธอ อาหารเย็นจะส่งไปที่ห้องในอีกหนึ่งชั่วโมง ถ้าอยากได้นมร้อนหรือชาสมุนไพร แค่สั่นกระดิ่งก็พอ
+10370000366	Kiddo, what brings you all alone to a remote place like Payon Village?	เด็กน้อย อะไรพาเธอมาคนเดียวถึงที่ห่างไกลอย่าง Payon Village?
+10370000367	All right, it's easy to get lost in the forest. Take this Flying mount—it'll help you cross the forest in no time!	เอาล่ะ ในป่าหลงทางง่าย เอาสัตว์ขี่บินได้นี้ไป มันจะช่วยให้เธอข้ามป่าได้ในพริบตา!
+10370000370	I'm Allen. I'm new here... I heard you often go on quests with the Eden Group. You know Instructor Boya pretty well, right?	ฉันชื่อ Allen เป็นสมาชิกใหม่ที่นี่... ได้ยินว่าเธอไปทำเควสต์กับ Eden Group บ่อย เธอรู้จักครูฝึก Boya ดีใช่ไหม?
+10370000371	I-I'd like to learn more about her. Like what she likes and what she doesn't...	ฉะ-ฉันอยากรู้จักเธอมากขึ้น เช่นเธอชอบอะไร ไม่ชอบอะไร...
+10370000372	Actually... when she helped me fight ants last time, I thought she was incredible. She unleashed this huge Magnum Break in a flash!	ที่จริง... ตอนเธอช่วยฉันสู้กับมดครั้งก่อน ฉันคิดว่าเธอน่าทึ่งมาก เธอปล่อย Magnum Break ขนาดใหญ่ออกมาในพริบตา!
+10370000373	(Suddenly blushes) E-Even though it singed off a lock of my hair...	(จู่ ๆ ก็หน้าแดง) ถะ-ถึงมันจะเผาปอยผมฉันไปด้วยก็เถอะ...
+10370000374	I joined the Eden Group afterward because I hoped I'd get to see her more often...	หลังจากนั้นฉันก็เข้าร่วม Eden Group เพราะหวังว่าจะได้เจอเธอบ่อยขึ้น...
+10370000375	I want to give Instructor Boya a gift to thank her for helping me train. But she's often away on assignments, so I hardly ever see her, much less get to know her...	ฉันอยากให้ของขวัญครูฝึก Boya เพื่อขอบคุณที่ช่วยฝึกฉัน แต่เธอมักออกไปทำงานที่รับมอบหมาย ฉันเลยแทบไม่ได้เจอเธอ อย่าว่าแต่ทำความรู้จักเลย...
+10370000378	If you want the girl, court her yourself.	ถ้าอยากได้ใจสาว ก็ไปจีบเองสิ
+10370000379	Um... I want to give her something she'll like. Do you know what would make a good gift?	เอ่อ... ฉันอยากให้ของที่เธอชอบ เธอรู้ไหมว่าอะไรเหมาะเป็นของขวัญ?
+10370000381	I heard Luna from the Knight Order is a good friend of Instructor Boya's, and Mentor Alphonse knows her well too. Could you ask them for me?	ได้ยินว่า Luna จาก Knight Order เป็นเพื่อนสนิทของครูฝึก Boya และผู้แนะนำ Alphonse ก็รู้จักเธอดี ช่วยไปถามพวกเขาแทนฉันได้ไหม?
+10370000383	I-I tried... But whenever I think about how close they are to the instructor and how they might mention me to her, I just can't bring myself to ask...	ฉะ-ฉันลองแล้ว... แต่พอคิดว่าพวกเขาสนิทกับครูฝึกแค่ไหน และอาจเอ่ยถึงฉันให้เธอฟัง ฉันก็ไม่กล้าถามเลย...
+10370000385	I-It's only a thank-you gift! I'm definitely not trying to confess my feelings! Do you know what she likes best?	มะ-มันเป็นแค่ของขวัญขอบคุณ! ฉันไม่ได้พยายามสารภาพรักแน่นอน! เธอรู้ไหมว่าเธอชอบอะไรมากที่สุด?
+10370000387	Oh~ You want to know about Boya? (Leans in for a closer look) Are you asking for yourself, or for someone else?	โอ้~ อยากรู้เรื่อง Boya เหรอ? (ชะโงกเข้ามาดูใกล้ ๆ) ถามให้ตัวเองหรือให้คนอื่นล่ะ?
+10370000388	I'll tell you, but on one condition—you'll be my partner for the opening dance at the royal banquet later.	ฉันจะบอก แต่มีเงื่อนไขข้อหนึ่ง เธอต้องเป็นคู่เต้นรำเปิดงานกับฉันในงานเลี้ยงราชสำนักทีหลัง
+10370000389	If you dance poorly and step on my feet... (Wags a finger) then I won't say a word about what Marika likes or dislikes.	ถ้าเต้นไม่ดีแล้วเหยียบเท้าฉัน... (กระดิกนิ้ว) ฉันก็จะไม่บอกเลยว่า Marika ชอบหรือไม่ชอบอะไร
+10370000390	Perfect timing! The music just started. (Extends a hand invitingly) Come on. You promised me the opening dance.	มาพอดีเลย! ดนตรีเพิ่งเริ่ม (ยื่นมือเชื้อเชิญ) มาเถอะ เธอสัญญาว่าจะเต้นเปิดงานกับฉันแล้ว
+10370000392	Oh, it's you. Would you like to review the second-job class paths?	อ้อ เธอนี่เอง อยากทบทวนสายอาชีพขั้นสองไหม?
+10370000393	Boya? (Strokes beard) Haha! It seems that young lady is quite popular.	Boya เหรอ? (ลูบเครา) ฮ่า ๆ! ดูเหมือนสาวน้อยคนนั้นจะเป็นที่นิยมทีเดียว
+10370000394	When she passed her knight exam, I gave her a set of refined-steel gauntlets. She complained that they slowed down her sword arm, then had Hollgrehenn Reforge one into a thumb ring.	ตอนเธอผ่านการสอบอัศวิน ฉันให้ถุงมือเกราะเหล็กกล้าที่ผ่านการกลั่นชุดหนึ่ง เธอบ่นว่ามันทำให้แขนที่ใช้ดาบเคลื่อนไหวช้าลง แล้วให้ Hollgrehenn หลอมถุงมือข้างหนึ่งใหม่เป็นแหวนสวมนิ้วโป้ง
+10370000395	I heard a young mage gave her a glowing quill last year. She casually traded it to a merchant with a Stall for a quiver.	ได้ยินว่าปีก่อน mage หนุ่มให้ปากกาขนนกเรืองแสงกับเธอ เธอเอาไปแลกกระบอกใส่ลูกธนูกับพ่อค้าแผงลอยอย่างไม่คิดอะไรเลย
+10370000396	(Shakes his head with a laugh) That young lady has always been blunt. If she doesn't like your gift, she won't spare your feelings.	(ส่ายหน้าพลางหัวเราะ) สาวน้อยคนนั้นพูดตรงมาตลอด ถ้าเธอไม่ชอบของขวัญ ก็จะไม่ถนอมน้ำใจเลย
+10370000398	Haha! She disliked every gift I gave her, and you still dare ask my opinion?	ฮ่า ๆ! เธอไม่ชอบของขวัญทุกชิ้นที่ฉันให้ แล้วเธอยังกล้ามาถามความเห็นฉันอีกเหรอ?
+10370000399	(Strokes chin) When she came to the academy to turn in a commission a few days ago, she mentioned that a monster had damaged her Helmet. A new Helmet should be a safe choice.	(ลูบคาง) ตอนเธอมาที่สถาบันเพื่อส่งงานที่รับจ้างมาเมื่อไม่กี่วันก่อน เธอพูดว่ามอนสเตอร์ทำหมวกเกราะเสียหาย หมวกเกราะใหม่คงเป็นตัวเลือกที่ไม่พลาด
+10370000400	You're back! So... did you find anything out?	กลับมาแล้ว! แล้ว... ได้รู้อะไรมาบ้างไหม?
+10370000402	(Blushes to the tips of his ears) L-L-Long ears?! Instructor Boya likes little bunnies? That's so adorable... If I dressed as a bunny for patrol, would she notice me?	(หน้าแดงไปถึงปลายหู) หะ-หะ-หูยาว?! ครูฝึก Boya ชอบกระต่ายน้อยเหรอ? น่ารักจัง... ถ้าฉันแต่งตัวเป็นกระต่ายไปลาดตระเวน เธอจะสังเกตเห็นไหม?
+10370000405	You're right. Let's decide what gift to give her first.	เธอพูดถูก เลือกก่อนดีกว่าว่าจะให้ของขวัญอะไร
+10370000406	(Looks down and wrings his hands) That would still be a little embarrassing. Let's decide what gift to give her first.	(ก้มหน้าบิดมือไปมา) แบบนั้นก็ยังน่าอายอยู่หน่อย ๆ เลือกก่อนดีกว่าว่าจะให้ของขวัญอะไร
+10370000407	B-Bunny ears? A hair band you wear on your head?! (Frantically tugs on the player's sleeve) Did you hear that? It must be a revelation from Odin!	หะ-หูกระต่าย? ที่คาดผมที่สวมบนหัวน่ะเหรอ?! (ดึงแขนเสื้อผู้เล่นอย่างร้อนรน) ได้ยินไหม? ต้องเป็นคำชี้แนะจาก Odin แน่!
+10370000408	Let's go find the headgear merchant too!	ไปหาพ่อค้าเครื่องสวมศีรษะกันด้วยเถอะ!
+10370000409	Welcome~ Oh, a new face! Looking for a gift for your girlfriend?	ยินดีต้อนรับ~ อ้อ ไม่เคยเห็นหน้าเลย! กำลังหาของขวัญให้แฟนสาวเหรอ?
+10370000410	The merchant brings out a Bunny Hair Band, a School Hat, and Antlers.	พ่อค้านำ Bunny Hair Band, School Hat และ Antlers ออกมา
+10370000411	Which one do you like? (Picks up the Bunny Hair Band) This one's really popular lately, especially with girls~	ชอบชิ้นไหนล่ะ? (หยิบ Bunny Hair Band ขึ้น) ช่วงนี้ชิ้นนี้นิยมมาก โดยเฉพาะในหมู่สาว ๆ~
+10370000412	(Quietly) She's not my girlfriend... I'll take the Bunny Hair Band. How much is it?	(พูดเบา ๆ) เธอไม่ใช่แฟนฉัน... ฉันเอา Bunny Hair Band ราคาเท่าไร?
+10370000413	(Raises a finger) It's not for sale~ Just gather these materials for me: @{1} Fluffs, @{2} four-leaf Lucky Clovers, @{3} Pearls, and... (Lowers voice) the Cat Ear Hair Band my rival sells!	(ชูนิ้วขึ้นหนึ่งนิ้ว) ไม่ได้ขายหรอก~ แค่รวบรวมวัตถุดิบเหล่านี้ให้ฉัน: @{1} Fluffs, @{2} Lucky Clovers สี่แฉก, @{3} Pearls และ... (ลดเสียงลง) Cat Ear Hair Band ที่คู่แข่งฉันขาย!
+10370000415	(Puts hands on hips) Young man! True love must be put to the test!	(เท้าสะเอว) พ่อหนุ่ม! รักแท้ต้องผ่านการทดสอบ!
+10370000416	Gathering Fluffs seems easiest. No talking, no Connect, just keep my head down and swing my sword... (Counts on fingers) Defeating about @{1} Fabres should be enough.	เก็บ Fluffs น่าจะง่ายที่สุด ไม่ต้องพูด ไม่ต้องติดต่อ แค่ก้มหน้าก้มตาแกว่งดาบ... (นับนิ้ว) เอาชนะ Fabres ประมาณ @{1} ตัวน่าจะพอ
+10370000417	(Eyes sparkling) Could you gather the other materials? (Presses a coin pouch into the player's hands) These are all my savings. You can keep whatever's left!	(ดวงตาเป็นประกาย) ช่วยรวบรวมวัตถุดิบอื่นได้ไหม? (ยัดถุงเหรียญใส่มือผู้เล่น) นี่คือเงินเก็บทั้งหมดของฉัน ถ้าเหลือก็เก็บไว้ได้เลย!
+10370000419	Let's split up and meet back here once we've gathered everything!	แยกย้ายกันเถอะ รวบรวมครบแล้วกลับมาเจอกันที่นี่!
+10370000420	Are you done gathering your materials too? Let's go trade them to the merchant.	เธอรวบรวมวัตถุดิบเสร็จแล้วเหมือนกันเหรอ? ไปแลกกับพ่อค้ากัน
+10370000421	You're done already? You must've worked hard. Here, the Bunny Hair Band is all wrapped up. Good luck confessing your feelings!	เสร็จแล้วเหรอ? คงพยายามกันมากเลย นี่ Bunny Hair Band ห่อเรียบร้อยแล้ว ขอให้สารภาพรักสำเร็จนะ!
+10370000423	(Holds the Bunny Hair Band overhead with both hands and bows deeply) Instructor Boya! Thank You for helping me fight those ants in Ant Hell... Please accept this Bunny Hair Band!	(ถือ Bunny Hair Band เหนือศีรษะด้วยสองมือแล้วโค้งคำนับลึก) ครูฝึก Boya! ขอบคุณที่ช่วยฉันสู้กับมดพวกนั้นใน Ant Hell... โปรดรับ Bunny Hair Band นี้ด้วย!
+10370000424	Ant Hell? (Suddenly slaps thigh and bursts out laughing) Oh, that time! I was testing whether my new fire oil could roast a whole rabbit head in one go. Think I singed someone's hair too. Was that you?	Ant Hell เหรอ? (จู่ ๆ ก็ตบต้นขาแล้วหัวเราะลั่น) อ้อ ครั้งนั้น! ฉันกำลังทดสอบว่าน้ำมันจุดไฟชนิดใหม่จะย่างหัวกระต่ายทั้งหัวได้ในครั้งเดียวไหม คิดว่าเผาผมใครไปด้วย นั่นเธอเหรอ?
+10370000426	Yeah, spicy rabbit head. It's pretty good. Once you've learned Magnum Break, I'll teach you how to roast one. (Hooks the hair band with the sword's scabbard and inspects it) This thing... (Suddenly shoves it into your hands) You take it!	ใช่ หัวกระต่ายรสเผ็ด อร่อยทีเดียว พอเธอเรียน Magnum Break แล้ว ฉันจะสอนวิธีย่างให้ (ใช้ฝักดาบเกี่ยวที่คาดผมมาดู) ของนี่... (จู่ ๆ ก็ยัดใส่มือเธอ) เธอเอาไป!
+10370000427	(Ruffles Allen's hair) Enough with this nonsense. Get back to training!	(ขยี้ผม Allen) พอได้แล้วเรื่องไร้สาระ กลับไปฝึก!
+10370000428	(Grins foolishly) Instructor touched my head... and is going to teach me how to roast rabbit heads. Hehe...	(ยิ้มซื่อ ๆ) ครูฝึกแตะหัวฉัน... แถมจะสอนย่างหัวกระต่ายด้วย ฮิฮิ...
+10370000431	Please, keep it. I-I'm already so happy! Thank You for helping me with so much. If you don't mind, consider it your reward!	ขอร้อง เก็บไว้เถอะ ฉะ-ฉันมีความสุขมากแล้ว! ขอบคุณที่ช่วยตั้งมาก ถ้าไม่รังเกียจ ถือว่าเป็นรางวัลของเธอเลย!
+10370000433	Hey, friend! Settle this for us! These old folks were obviously hired to hold these spots!	นี่ เพื่อน! ช่วยตัดสินให้พวกเราหน่อย! คนแก่พวกนี้ถูกจ้างมาจองที่ชัด ๆ!
+10370000434	They've been sitting at the most efficient monster-farming spots since early this morning, and they only move aside for certain people. There must be some kind of Trade going on behind the scenes.	พวกเขานั่งตรงจุดฟาร์มมอนสเตอร์ที่มีประสิทธิภาพที่สุดตั้งแต่เช้าตรู่ ยอมหลีกให้เฉพาะบางคนเท่านั้น ต้องมีการซื้อขายลับหลังอะไรแน่ ๆ
+10370000435	We reported them to the guards, but they said this is a public area and they can't stop people from waiting in line.	พวกเรารายงานยามแล้ว แต่พวกเขาบอกว่าที่นี่เป็นพื้นที่สาธารณะ จึงห้ามคนต่อแถวรอไม่ได้
+10370000439	That's way too unfair. No, we have to think of something. We can't let them keep pushing everyone around.	ไม่ยุติธรรมเกินไปแล้ว ไม่ได้ เราต้องคิดหาทาง จะปล่อยให้พวกเขารังแกทุกคนต่อไปไม่ได้
+10370000440	No, we can't do that! If they get hurt, we'll never be able to afford their medical bills.	ไม่ เราทำแบบนั้นไม่ได้! ถ้าพวกเขาบาดเจ็บ เราไม่มีทางจ่ายค่ารักษาไหว
+10370000441	Breaking them up from within is a good idea! Let's ask why these old folks are willing to work for those scalpers, then get them on our side.	แยกพวกเขาจากภายในเป็นความคิดที่ดี! ลองถามว่าทำไมคนแก่พวกนี้ยอมทำงานให้พวกนายหน้าโก่งราคา แล้วดึงมาเป็นพวกเรา
+10370000442	Let's split up. ^{1}PlayerName^{2} and I will deal with the hardest one to persuade, while Kiki talks to the others.	แยกย้ายกันเถอะ ^{1}PlayerName^{2} กับฉันจะรับมือคนที่โน้มน้าวยากที่สุด ส่วน Kiki ไปคุยกับคนอื่น
+10370000443	Let's break them up from within instead! We'll ask why these old folks are willing to work for those scalpers, then get them on our side.	แยกพวกเขาจากภายในแทนเถอะ! เราจะถามว่าทำไมคนแก่พวกนี้ยอมทำงานให้พวกนายหน้าโก่งราคา แล้วดึงมาเป็นพวกเรา
+10370000444	That could work. Let's split up. ^{1}PlayerName^{2} and I will deal with the hardest one to persuade, while Kiki talks to the others.	น่าจะได้ผล แยกย้ายกันเถอะ ^{1}PlayerName^{2} กับฉันจะรับมือคนที่โน้มน้าวยากที่สุด ส่วน Kiki ไปคุยกับคนอื่น
+10370000445	(Steps forward and forces a smile) Grandma Gwen, we're back. We'd like to talk things over with you again...	(ก้าวมาข้างหน้าแล้วฝืนยิ้ม) คุณย่า Gwen พวกเรากลับมาแล้ว อยากคุยกับคุณย่าอีกครั้ง...
+10370000446	(Scowls) There's nothing to discuss! There's plenty of room here. This old woman just likes sitting in the sun and knitting. That's not against the law, is it?	(ทำหน้าบึ้ง) ไม่มีอะไรต้องคุย! ที่นี่มีที่ว่างตั้งเยอะ หญิงชราคนนี้แค่ชอบนั่งอาบแดดถักไหมพรม ไม่ผิดกฎหมายใช่ไหมล่ะ?
+10370000448	(Her expression softens slightly, and she instinctively strokes the sweater) ...Hmph. At least you've got a good eye. My grandson will wear this to school, so of course it has to look nice.	(สีหน้าอ่อนลงเล็กน้อยและลูบเสื้อไหมพรมโดยไม่รู้ตัว) ...ฮึ อย่างน้อยก็ตาถึง หลานชายฉันจะใส่ไปโรงเรียน แน่นอนว่าต้องดูดี
+10370000449	We don't mean anything by it. You just look like you haven't been sleeping well. You have dark circles under your eyes, and your hands are shaking while you knit. Is something wrong? Maybe we can help.	พวกเราไม่ได้มีเจตนาอะไร แค่คุณย่าดูเหมือนนอนไม่พอ มีรอยคล้ำใต้ตา และมือสั่นตอนถักไหมพรม มีอะไรผิดปกติไหม? บางทีพวกเราอาจช่วยได้
+10370000450	Help? What could you possibly do? A gang of bandits moved into my attic, and they haven't let me sleep for days.	ช่วยเหรอ? พวกเธอจะทำอะไรได้? กลุ่มโจรย้ายมาอยู่ในห้องใต้หลังคาของฉัน ไม่ปล่อยให้ฉันนอนมาหลายวันแล้ว
+10370000452	(Irritably) Don't bother! It's a bunch of Vocals! For some crazy reason, they've been holding concerts in my attic at midnight. All that clanging and banging is about to bring down the roof!	(พูดอย่างหงุดหงิด) ไม่ต้องยุ่ง! มันเป็นกลุ่ม Vocals! ไม่รู้บ้าอะไร จัดคอนเสิร์ตในห้องใต้หลังคาฉันตอนเที่ยงคืน เสียงเคาะเสียงกระแทกโครมครามจะทำหลังคาถล่มอยู่แล้ว!
+10370000453	That's easy enough. We'll take care of it!	เรื่องนั้นง่ายนิดเดียว พวกเราจะจัดการให้!
+10370000454	Jack says he knows a pest-control expert who can drive away the Rockers. What can you do?	Jack บอกว่ารู้จักผู้เชี่ยวชาญกำจัดสัตว์รบกวนที่ไล่ Rockers ได้ แล้วพวกเธอทำอะไรได้?
+10370000455	Jack's the one who hired you, isn't he? Don't worry, I already have a plan! Rockers love Whispering Flowers. We can use them to lure the Rockers out into the wild!	Jack เป็นคนจ้างเธอใช่ไหม? ไม่ต้องห่วง ฉันมีแผนแล้ว! Rockers ชอบ Whispering Flowers เราใช้มันล่อ Rockers ออกไปในป่าได้!
+10370000456	You're a quick thinker, young man. All right, I'll trust you this once.	หัวไวดีนี่ พ่อหนุ่ม เอาล่ะ ฉันจะเชื่อเธอสักครั้ง
+10370000457	Don't worry, we've got this! We'll go pick the flowers right now!	ไม่ต้องห่วง พวกเราจัดการได้! จะไปเก็บดอกไม้เดี๋ยวนี้!
+10370000458	Finished already? Young folks sure are quick on their feet. Come on, I'll take you to my house.	เสร็จแล้วเหรอ? คนหนุ่มสาวคล่องแคล่วจริง ๆ มาเถอะ ฉันจะพาไปบ้าน
+10370000459	This is my house. See if you can lure them into the woods to the south.	นี่บ้านของฉัน ลองดูว่าล่อพวกมันไปในป่าทางใต้ได้ไหม
+10370000460	^{1}PlayerName^{2}, You place the Whispering Flower. I'll build them a little stage at the destination. Once we lure them out, they'll need somewhere to settle down.	^{1}PlayerName^{2} เธอวาง Whispering Flower นะ ฉันจะสร้างเวทีเล็ก ๆ ให้พวกมันที่จุดหมาย พอล่อออกมาแล้วก็ต้องมีที่ให้ลงหลักปักฐาน
+10370000461	Everything's just about ready. Now let's see if the Rockers take the bait.	ทุกอย่างเกือบพร้อมแล้ว ทีนี้ดูว่า Rockers จะติดกับไหม
+10370000462	Well, I'll be... Those little rascals really came! Look how happily they're bouncing around!	โอ้โฮ... เจ้าตัวแสบพวกนั้นมาจริง ๆ ด้วย! ดูสิ กระโดดโลดเต้นกันมีความสุขขนาดไหน!
+10370000463	Now these old bones can finally get a good night's sleep! You're good kids. You're a hundred times more capable than that braggart Jack!	ในที่สุดคนแก่คนนี้ก็ได้นอนหลับเต็มอิ่มสักคืน! พวกเธอเป็นเด็กดี เก่งกว่า Jack จอมโม้ตั้งร้อยเท่า!
+10370000464	I'll talk to my old friends too and tell them to stop helping Jack bully decent folks!	ฉันจะคุยกับเพื่อนเก่าด้วย บอกให้เลิกช่วย Jack รังแกคนดี!
+10370000465	As soon as you and Lemon approach, old Bob straightens his back and pretends to be diligently holding the spot.	ทันทีที่เธอกับ Lemon เข้าไปใกล้ เฒ่า Bob ก็ยืดหลังตรงแล้วแกล้งทำเป็นจองที่อย่างขยันขันแข็ง
+10370000466	(Helplessly) Grandpa, why put yourself through this?	(อย่างจนปัญญา) คุณปู่ ทำไมต้องลำบากตัวเองแบบนี้ด้วย?
+10370000467	(Stares at the ground, guilty but defiant) Enough! This old man... I just like standing here and breathing the fresh air! What, do you own this place?	(มองพื้นอย่างรู้สึกผิดแต่ยังดื้อรั้น) พอได้แล้ว! ชายแก่คนนี้... แค่ชอบยืนสูดอากาศบริสุทธิ์ตรงนี้! อะไร เธอเป็นเจ้าของที่นี่หรือไง?
+10370000468	(Suddenly notices something) Grandpa, why are your pant legs all torn up? It looks like something's been biting them.	(จู่ ๆ ก็สังเกตเห็นบางอย่าง) คุณปู่ ทำไมขากางเกงขาดไปหมดเลย? เหมือนมีอะไรกัดมา
+10370000469	You bet! It's a pack of those blasted white rats! Snow-white fur, bright red eyes—they look downright fancy, but act like a bunch of bandits!	ใช่เลย! ฝูงหนูขาวบ้าพวกนั้น! ขนขาวดั่งหิมะ ตาแดงสด ดูหรูหราแต่ทำตัวเหมือนโจร!
+10370000470	I don't know why, but they've made themselves at home in my yard and wreak havoc every day. Forget the pants—they've even gnawed a hole through the base of the wall!	ไม่รู้ทำไมพวกมันถึงมาตั้งรกรากในลานบ้านฉัน แล้วก่อความวุ่นวายทุกวัน อย่าว่าแต่กางเกงเลย พวกมันยังแทะฐานกำแพงจนเป็นรู!
+10370000471	That kid—oh, Jack—said he could get the best mousetraps in town... as long as I keep sitting here for him for a few more days...	เด็กคนนั้น อ้อ Jack บอกว่าหากับดักหนูที่ดีที่สุดในเมืองมาได้... ขอแค่ฉันนั่งอยู่ตรงนี้ให้เขาอีกไม่กี่วัน...
+10370000472	Mousetraps? Those are so old-fashioned! Take us to the fields, and we'll take care of it right away!	กับดักหนูเหรอ? ล้าสมัยไปแล้ว! พาเราไปที่ไร่ แล้วเราจะจัดการให้ทันที!
+10370000473	If you... if you really have a plan, old Bob here will get up and go right now! Sitting in this dump is killing my back!	ถ้าพวกเธอ... ถ้ามีแผนจริง ๆ เฒ่า Bob คนนี้จะลุกไปเดี๋ยวนี้! นั่งในที่ห่วย ๆ นี่จนปวดหลังจะตายแล้ว!
+10370000475	This is the place. Look, they're still poking their heads out! They've got some nerve!	ตรงนี้แหละ ดูสิ ยังโผล่หัวออกมาอีก! กล้าดีนัก!
+10370000477	(Tears streaming down his face) Incredible! Simply incredible! That Jack is all talk—he's been pulling the wool over my eyes! You two are the ones who actually get things done!	(น้ำตาไหลอาบหน้า) สุดยอด! สุดยอดจริง ๆ! Jack นั่นมีแต่คำพูด หลอกฉันมาตลอด! พวกเธอสองคนต่างหากที่ลงมือทำจริง!
+10370000478	Don't worry. I won't let Jack rope me into any more of his nonsense. I'll tell my old friends not to go, either.	ไม่ต้องห่วง ฉันจะไม่ยอมให้ Jack ดึงไปทำเรื่องไร้สาระอีก จะบอกเพื่อนเก่าว่าอย่าไปด้วย
+10370000479	Hahaha! I may be getting on in years, but I'm an elder here. My word still carries some weight.	ฮ่า ๆ ๆ! ถึงฉันจะอายุมาก แต่ก็เป็นผู้อาวุโสที่นี่ คำพูดฉันยังมีน้ำหนักอยู่บ้าง
+10370000480	Great! ^{1}PlayerName^{2}, it looks like our plan to Win them over one by one is Active. Let's go tell everyone the good news!	เยี่ยมเลย! ^{1}PlayerName^{2} ดูเหมือนแผนดึงพวกเขามาเป็นฝ่ายเราทีละคนจะได้ผล ไปบอกข่าวดีทุกคนกัน!
+10370000481	J-Just you wait! You have no idea who you're messing with! I've got powerful friends!	คะ-คอยดูเถอะ! พวกแกไม่รู้หรอกว่ากำลังยุ่งกับใคร! ฉันมีพวกพ้องมีอิทธิพลนะ!
+10370000482	Oh? You mean Elder Bob? We've already "bought him off"!	โอ้? หมายถึงผู้อาวุโส Bob เหรอ? พวกเรา "ซื้อใจเขา" ไปแล้ว!
+10370000483	What?! You got me! But this isn't over! You can have this turf—I'll find somewhere else!	อะไรนะ?! พวกแกชนะฉัน! แต่เรื่องนี้ยังไม่จบ! เอาที่นี่ไปเลย ฉันจะหาที่อื่น!
+10370000484	(Shouting) Everyone heard that, right? Step up patrols for the time being. Don't give this guy a chance to cause trouble!	(ตะโกน) ทุกคนได้ยินแล้วใช่ไหม? ช่วงนี้เพิ่มการลาดตระเวน อย่าให้หมอนี่มีโอกาสก่อเรื่อง!
+10370000485	Understood. I'll send out patrols to drive off any troublemakers who threaten the village's peace.	รับทราบ ฉันจะส่งหน่วยลาดตระเวนไปขับไล่พวกก่อกวนที่คุกคามความสงบของหมู่บ้าน
+10370000486	Your timing is perfect. Jack just got a sound thrashing from ^{1}PlayerName^{2}!	มาได้จังหวะพอดี Jack เพิ่งโดน ^{1}PlayerName^{2} อัดเสียยับ!
+10370000487	(His face turns purple) Y-you... Remember this!	(หน้าเปลี่ยนเป็นสีม่วง) พะ-พวกแก... จำไว้เลย!
+10370000488	You came at just the right time! I've got a fresh batch of treasures, still hot off the forge!	มาได้จังหวะพอดีเลย! ฉันมีสมบัติชุดใหม่ เพิ่งออกจากเตายังร้อน ๆ อยู่เลย!
+10370000489	Take a gander at this 【Iron-Slicing Sword】! Look at that grain! Hear that ring!	ลองดู [ Iron-Slicing Sword ] เล่มนี้สิ! ดูลายเนื้อเหล็กนั่น! ฟังเสียงกังวานสิ!
+11081000000	Clear out the nearby Chonchons.	กำจัด Chonchon ใกล้เคียง
+11081000001	Eliminate the source of the strange odor in the Culvert: Golden Thief Bug.	กำจัดต้นตอกลิ่นแปลกใน Culvert: Golden Thief Bug
+11081000002	Eliminate the monsters emerging from the portal.	กำจัดมอนสเตอร์ที่ออกมาจากประตูมิติ
+11081000003	Eliminate the elite Savage.	กำจัด Savage ระดับ Elite
+11081000004	Eliminate the elite Scorpion.	กำจัด Scorpion ระดับ Elite
+11081000005	Eliminate the elite Squirrel.	กำจัด Squirrel ระดับ Elite
+11081000006	Eliminate the elite Mandragora.	กำจัด Mandragora ระดับ Elite
+11081000008	Defeat the monster.	กำจัดมอนสเตอร์
+11081000009	^{1}Waiting for the next event to begin^{2}	^{1}รอกิจกรรมถัดไปเริ่ม^{2}
+11081000010	Monster Wave	ระลอกมอนสเตอร์
+11081000011	Use the warp portal to reach the fortress.	ใช้ประตูวาร์ปเพื่อไปยังป้อมปราการ
+11081000012	Some players must enter the Inner Area and prepare for battle.	ผู้เล่นบางส่วนต้องเข้าสู่พื้นที่ด้านในและเตรียมรบ
+11081000013	Battle Fafnir.	ต่อสู้กับ Fafnir
+11081000014	Defeat Fafnir before he unleashes Wrath of Greed.	กำจัด Fafnir ก่อนปล่อย Wrath of Greed
+11081000015	Leave the Epic Battle.	ออกจาก Epic Battle
+11081000016	^{1}Defeat Orc Hero^{2}	^{1}กำจัด Orc Hero^{2}
+11081000017	^{1}Defeat Drake^{2}	^{1}กำจัด Drake^{2}
+11081000018	^{1}Defeat Mistress^{2}	^{1}กำจัด Mistress^{2}
+11081000019	^{1}Defeat Golden Thief Bug^{2}	^{1}กำจัด Golden Thief Bug^{2}
+11081000020	^{1}Defeat Maya^{2}	^{1}กำจัด Maya^{2}
+11081000021	^{1}Defeat Osiris^{2}	^{1}กำจัด Osiris^{2}
+11081000022	^{1}Defeat Pharaoh^{2}	^{1}กำจัด Pharaoh^{2}
+11081000023	^{1}Defeat Moonlight Flower^{2}	^{1}กำจัด Moonlight Flower^{2}
+11081000024	^{1}Defeat Baphomet^{2}	^{1}กำจัด Baphomet^{2}
+11081000025	Proceed to the marked location.	ไปยังตำแหน่งที่ทำเครื่องหมาย
+11081000026	Waiting for the battle to start	รอการต่อสู้เริ่ม
+11081000027	Breach the gate within the time limit.	เจาะประตูภายในเวลาที่กำหนด
+11081000028	Kill the Protector to gain more attack time.	สังหาร Protector เพื่อเพิ่มเวลาโจมตี
+11081000029	Outnumber the enemy inside the circle to capture the control point.	มีผู้เล่นในวงมากกว่าศัตรูเพื่อยึดจุดควบคุม
+11081000030	Destroy the Glorious Metal to claim final victory.	ทำลาย Glorious Metal เพื่อคว้าชัยชนะสุดท้าย
+11081000031	Defend the gate until time runs out.	ป้องกันประตูจนหมดเวลา
+11081000032	Protect all Protectors within the time limit	คุ้มกัน Protector ทุกตัวภายในเวลาที่กำหนด
+11081000033	Stop opposing Members from entering the contested point	ป้องกันไม่ให้สมาชิกฝ่ายตรงข้ามเข้าจุดแย่งชิง
+11081000034	Protect the Glorious Metal until time runs out	คุ้มกัน Glorious Metal จนหมดเวลา
+11081000035	During this phase, players from opposing Factions cannot attack each other. Guild Members who do Not owned a stronghold may move through non-stronghold areas, while Guild Members who own a stronghold may move through any area. During this phase, you can gather intelligence before the battle, and battle commanders can use the command Function to deploy combat strategies.	ในช่วงนี้ ผู้เล่นฝ่ายตรงข้ามโจมตีกันไม่ได้ สมาชิกกิลด์ที่ไม่ได้ครองที่มั่นเดินได้ในพื้นที่นอกที่มั่น ส่วนสมาชิกกิลด์ที่ครองที่มั่นเดินได้ทั่วพื้นที่ ในช่วงนี้ คุณรวบรวมข่าวกรองก่อนรบได้ และผู้บัญชาการใช้ฟังก์ชันสั่งการเพื่อวางกลยุทธ์รบได้
+11081000036	Each stronghold has a banner that attackers can damage. The guild of the player who deals the final blow temporarily takes control of the stronghold. If no other guild captures it within a certain period, the stronghold will be locked, giving that guild final control for the current battle.	แต่ละที่มั่นมีธงที่ฝ่ายโจมตีทำความเสียหายได้ กิลด์ของผู้เล่นที่โจมตีครั้งสุดท้ายจะครองที่มั่นชั่วคราว หากไม่มีกิลด์อื่นยึดภายในเวลาที่กำหนด ที่มั่นจะถูกล็อก ทำให้กิลด์นั้นครองที่มั่นจนจบการต่อสู้ปัจจุบัน
+11081000037	Cover Boya and Wule	คุ้มกัน Boya และ Wule
+11081000038	Join the Adventurers and defeat Eddga	ร่วมกับนักผจญภัยกำจัด Eddga
+11081000039	Defeat Golden Thief Bug	กำจัด Golden Thief Bug
+11081000040	Head to the fork in the road	ไปยังทางแยก
+11081000041	Defeat Baphomet	กำจัด Baphomet
+11081000042	Defeat Pharaoh	กำจัด Pharaoh
+11081000043	Head deeper into Maya's lair	เข้าไปลึกขึ้นในรังของ Maya
+11081000044	Jump into the vortex	กระโดดลงกระแสน้ำวน
+11081000045	Avoid the ant eggs and reach the end of the passage	หลบไข่มดและไปให้ถึงปลายทางเดิน
+11081000046	Help Bobo up	ช่วยพยุง Bobo ขึ้น
+11081000047	Ride the Deniro	ขี่ Deniro
+11081000048	Collect the fluorescent substance	เก็บสารเรืองแสง
+11081000049	Feed the Deniro	ให้อาหาร Deniro
+11081000050	Ride the Deniro to the depths of the Ant Hell	ขี่ Deniro ไปยังส่วนลึกของ Ant Hell
+11081000051	Defeat Maya	กำจัด Maya
+11081000052	Venture deeper into the cave to find the Professor	เข้าไปลึกขึ้นในถ้ำเพื่อหา Professor
+11081000053	Rescue the Professor from the ant egg	ช่วย Professor ออกจากไข่มด
+11081000054	Help the Weak Professor walk	ช่วย Professor ที่อ่อนแรงเดิน
+11081000055	Open the treasured chest	เปิดหีบสมบัติล้ำค่า
+11081000056	Have a Chitchat with them.	พูดคุยกับพวกเขา
+11081000057	Use the ship's cannons to attack the enemy vessels.	ใช้ปืนใหญ่ของเรือโจมตีเรือศัตรู
+11081000058	Eliminate all enemies.	กำจัดศัตรูทั้งหมด
+11081000059	Defeat the Evil Boss	กำจัดบอสชั่วร้าย
+11081000060	Take a look around	มองรอบ ๆ
+11081000061	Talk to the captain	คุยกับกัปตัน
+11081000062	Hide in the darkness. Don't let them Discover you.	ซ่อนในความมืด อย่าให้พวกเขาพบคุณ
+11081000063	Find Kitty-Katie	หา Kitty-Katie
+11081000064	Complete the opening dance with Luna.	เต้นเปิดงานกับ Luna ให้สำเร็จ
+11081000065	Talk to Luna to leave the ball.	คุยกับ Luna เพื่อออกจากงานเต้นรำ
+11081000066	Talk to Luna to perform the opening dance again.	คุยกับ Luna เพื่อเต้นเปิดงานอีกครั้ง
+11081000067	Defeat the Peco Peco and rescue Bragis.	กำจัด Peco Peco และช่วย Bragis
+11081000068	Defeat three waves of attacking monsters.	กำจัดมอนสเตอร์ที่บุกมาสามระลอก
+11081000069	Retrieve the Professor's instrument.	นำเครื่องมือของ Professor กลับมา
+11081000070	Listen to the question at the quiz station, decide whether it is true or false, and stand in the corresponding circle	ฟังคำถามที่จุดตอบคำถาม ตัดสินว่าจริงหรือเท็จ แล้วเข้าไปยืนในวงที่ตรงกับคำตอบ
+11081000071	Defeat Isti	กำจัด Isti
+11081000072	Defeat Nasha	กำจัด Nasha
+11081000073	Defeat Ilmo	กำจัด Ilmo
+11081000074	Defeat Mirko	กำจัด Mirko
+11081000075	^{1}Defeat Gryphon^{2}	^{1}กำจัด Gryphon^{2}
+11081000076	^{1}Defeat Dark Priest^{2}	^{1}กำจัด Dark Priest^{2}
+11081000077	^{1}Defeat Vocal^{2}	^{1}กำจัด Vocal^{2}
+11081000078	^{1}Defeat Eddga^{2}	^{1}กำจัด Eddga^{2}
+11081000079	^{1}Defeat Angeling^{2}	^{1}กำจัด Angeling^{2}
+11081000080	^{1}Defeat Dracula^{2}	^{1}กำจัด Dracula^{2}
+11081000081	^{1}Defeat Doppelganger^{2}	^{1}กำจัด Doppelganger^{2}
+11081000082	Head to the center of the arena and Kill Boss to earn lots of points	ไปกลางสนามและสังหารบอสเพื่อรับคะแนนมากมาย
+11081000083	Head to the edge of the arena and Kill minor Monsters to earn lots of points. Pick up battlefield supplies to gain powerful skills	ไปขอบสนามและสังหารมอนสเตอร์ตัวเล็กเพื่อรับคะแนนมากมาย เก็บเสบียงสนามรบเพื่อรับสกิลทรงพลัง
+11081000084	Head to the center of the arena and Kill minor Monsters to earn lots of points. Pick up battlefield supplies to gain powerful skills	ไปกลางสนามและสังหารมอนสเตอร์ตัวเล็กเพื่อรับคะแนนมากมาย เก็บเสบียงสนามรบเพื่อรับสกิลทรงพลัง
+11081000085	Head to the center of the arena and crush them!	ไปกลางสนามแล้วบดขยี้พวกมัน!
+11081000086	Final showdown! Double points and Accelerate Revive!	การตัดสินครั้งสุดท้าย! คะแนนสองเท่าและคืนชีพเร็วขึ้น!
+11081000087	Head to the center of the arena and Pick up Dragonblood Crystals	ไปกลางสนามและเก็บ Dragonblood Crystal
+11081000088	Defeat the great dragon Fafnir at the center of the arena	กำจัดมังกรยักษ์ Fafnir กลางสนาม
+11190100000	Base Level reaches ${1}	Base Lv. ถึง ${1}
+11190100001	Participate in the Tower Climb ${1} times	เข้าร่วม Tower Climb ${1} ครั้ง
+11190100002	Reach ${1} Activity	ค่ากิจกรรมถึง ${1}
+11190100003	Win ${1} times in the Tower Climb	ชนะ Tower Climb ${1} ครั้ง
+11190100004	Log in for a total of ${1} days	เข้าสู่ระบบสะสม ${1} วัน
+11190100005	Clear Floor ${1} of the Pet Tower	ผ่าน Pet Tower ชั้น ${1}
+11190100007	Complete Instance ${1}	ผ่านพื้นที่เฉพาะ ${1}
+11190100008	${1} class tier; text corresponds to enum table @{1}	ขั้นคลาส ${1}; ข้อความตรงกับตาราง enum @{1}
+11190100009	Faction Mission points are ${1} short	คะแนนภารกิจฝ่ายขาดอีก ${1}
+11190100010	Defeat ${1} Guild Members from other guilds	กำจัดสมาชิกต่างกิลด์ ${1} คน
+11190100011	Complete ${1} quests	ทำเควสต์สำเร็จ ${1} ภารกิจ
+11190100012	Gender does not meet the requirements	เพศไม่ตรงตามเงื่อนไข
+11190100013	Reach Title ${1}	บรรลุฉายา ${1}
+11190100014	Trade on the Exchange ${1} times	ซื้อขายใน Exchange ${1} ครั้ง
+11190100015	Participate in the Guild Auction ${1} times	เข้าร่วม Guild Auction ${1} ครั้ง
+11190100016	Reach slot Reinforcement level ${1}	ระดับเสริมความแข็งแกร่งช่องถึง ${1}
+11190100017	Refine ${1} times	ตีบวก ${1} ครั้ง
+11190100018	Craft ${1} pieces of equipment of the specified quality	ผลิตอุปกรณ์คุณภาพที่กำหนด ${1} ชิ้น
+11190100019	Equip ${1} cards of the specified quality	ติดตั้งการ์ดคุณภาพที่กำหนด ${1} ใบ
+11190100020	Have ${1} Pets of the specified Rarity	มีสัตว์เลี้ยงความหายากที่กำหนด ${1} ตัว
+11190100021	Have ${1} Pets of the specified level	มีสัตว์เลี้ยงเลเวลที่กำหนด ${1} ตัว
+11190100022	Participate in MVP events ${1} times	เข้าร่วมกิจกรรม MVP ${1} ครั้ง
+11190100023	Participate in MINI events ${1} times	เข้าร่วมกิจกรรม MINI ${1} ครั้ง
+11190100024	Participate in the Guild Bonfire ${1} times	เข้าร่วม Guild Bonfire ${1} ครั้ง
+11190100025	Participate in GVE events ${1} times	เข้าร่วมกิจกรรม GVE ${1} ครั้ง
+11190100026	Participate in the Guild League ${1} times	เข้าร่วม Guild League ${1} ครั้ง
+11190100027	Spend a total of ${1} time in field combat	ใช้เวลาในการต่อสู้ภายนอกสะสม ${1}
+11190100028	Claim Offline Battle rewards ${1} times	รับรางวัลต่อสู้ออฟไลน์ ${1} ครั้ง
+11190100029	Participate in Guild Blessing ${1} times	เข้าร่วม Guild Blessing ${1} ครั้ง
+11190100030	Have ${1} friends	มีเพื่อน ${1} คน
+11190100031	Send ${1} chat messages in the specified channel	ส่งข้อความแชตในแชนเนลที่กำหนด ${1} ข้อความ
+11190100032	Refine ${1} to ${2}	ตีบวก ${1} ให้ถึง ${2}
+11190100033	Reach Refinement Resonance Level ${1}	ระดับ Refinement Resonance ถึง ${1}
+11190100034	Craft {1} pieces of the specified equipment	ผลิตอุปกรณ์ที่กำหนด {1} ชิ้น
+11190100035	Equip {1} pieces of the specified equipment	สวมอุปกรณ์ที่กำหนด {1} ชิ้น
+11190100036	Reach a total Refinement Level of ${1}	ระดับตีบวกรวมถึง ${1}
+11190100037	Deploy ${1} pets	ส่งสัตว์เลี้ยงลงสนาม ${1} ตัว
+11190100038	Deploy ${1} Divine Art Totems of quality ${2} or higher	ส่ง Divine Art Totem ลงสนาม ${1} ชิ้นที่มีคุณภาพ ${2} ขึ้นไป
+11190100039	Deploy ${1} Soul Echoes of quality ${2} or higher	ส่ง Soul Echo ลงสนาม ${1} ชิ้นที่มีคุณภาพ ${2} ขึ้นไป
+11190100040	Unlock ${1} monsters in the Collection	ปลดล็อกมอนสเตอร์ในคอลเลกชัน ${1} ตัว
+11190100041	Reach ${1} Monster Collection progress	ความคืบหน้าคอลเลกชันมอนสเตอร์ถึง ${1}
+11190100042	Clear Stage ${1} of Offline Battle	ผ่านการต่อสู้ออฟไลน์ด่าน ${1}
+11190100043	Clear the XXX Instance on Easy ${1} times	ผ่านดันเจี้ยน XXX ระดับ Easy ${1} ครั้ง
+11190100044	Reach Title Level ${1}	ระดับฉายาถึง ${1}
+11190100045	Use ${1} ${2} times	ใช้ ${1} จำนวน ${2} ครั้ง
+11190100046	Kill ${2} monsters in ${1}	สังหารมอนสเตอร์ ${2} ตัวใน ${1}
+11190100047	Equip ${2} ${1}-star cards	ติดตั้งการ์ด ${2} ใบที่มี ${1} ดาว
+11190100048	Complete the specified Interaction ${1} times	ทำปฏิสัมพันธ์ที่กำหนด ${1} ครั้ง
+11190100049	Remaining on the current map	ยังอยู่บนแผนที่ปัจจุบัน
+11190100051	Amount Obtained This Week	จำนวนที่ได้รับสัปดาห์นี้
+11190100052	Obtain ${1} ${2}	ได้รับ ${1} ${2}
+11190100053	Deliver ${1} ${2}	ส่งมอบ ${1} ${2}
+11190100054	Complete ${1} Cargo Placements	จัดวางสินค้าให้สำเร็จ ${1} ครั้ง
+11190100055	Talk to ${1}	คุยกับ ${1}
+11190100056	Kill ${1} ${2}	สังหาร ${1} ${2}
+11190100057	Go to the designated area in ${1}	ไปยังพื้นที่ที่กำหนดใน ${1}
+11190100058	Complete Quest ${1}	ทำเควสต์ ${1} สำเร็จ
+11190100059	Complete Your First Job Change	เปลี่ยนอาชีพครั้งแรกให้สำเร็จ
+11190100060	Enhance all equipment to Lv. ${1}	เสริมพลังอุปกรณ์ทั้งหมดถึง Lv. ${1}
+11190100061	Join a guild.	เข้าร่วมกิลด์
+11190100062	Clear Floor ${1} of the Tower Challenge	ผ่าน Tower Challenge ชั้น ${1}
+11190100063	Obtain MVP Individual Rewards ${1} times	รับรางวัลส่วนตัว MVP ${1} ครั้ง
+11190100064	Reach ${1} Power	พลังถึง ${1}
+11190100065	Complete Cat Hand Caravan ${1} times	ทำ Cat Hand Caravan สำเร็จ ${1} ครั้ง
+11190100066	Allocate Job Talents	จัดสรรคะแนน Job Talent
+11190100067	Allocate Basic Stat Points	จัดสรรคะแนนค่าสถานะพื้นฐาน
+11190100068	Enhance a total of ${1} times	เสริมพลังสะสม ${1} ครั้ง
+11190100069	Equip ${1} pieces of gear of quality ${2} or higher	สวมอุปกรณ์ ${1} ชิ้นที่มีคุณภาพ ${2} ขึ้นไป
+11190100070	Complete Tutorial ${1}	ทำบทสอน ${1} สำเร็จ
+11190100071	Not enough pet search attempts${1}	จำนวนครั้งค้นหาสัตว์เลี้ยงไม่พอ${1}
+11190100072	Not enough corresponding-tier equipment crafted${1}	ผลิตอุปกรณ์ขั้นที่เกี่ยวข้องไม่ครบ${1}
+11190100073	Kill ${1} monsters of the corresponding level	สังหารมอนสเตอร์เลเวลที่เกี่ยวข้อง ${1} ตัว
+11190100074	Complete fewer than ${1} Tavern Daily Tasks	ทำภารกิจรายวัน Tavern สำเร็จน้อยกว่า ${1} ภารกิจ
+11190100075	Star Power earned in the Tavern is below ${1}	Star Power ที่ได้รับใน Tavern ต่ำกว่า ${1}
+11190100076	Fewer than ${1} active days in the Tavern	มีกิจกรรมใน Tavern น้อยกว่า ${1} วัน
+11190100077	Today's active time in the Tavern is less than ${1} seconds.	เวลาทำกิจกรรมใน Tavern วันนี้น้อยกว่า ${1} วินาที
+11190100078	Friendship must reach ${1}	มิตรภาพต้องถึง ${1}
+11190100079	Required MVP not defeated together	ยังไม่ได้ร่วมกันกำจัด MVP ที่กำหนด
+11190100080	Not enough joint Battle Royale participation	เข้าร่วม Battle Royale ร่วมกันไม่ครบตามกำหนด
+11190100081	Have not idled together for ${1} minutes	ยังไม่ได้ปล่อยตัวละครร่วมกัน ${1} นาที
+11190100082	Friendship must reach Lv. ${1}	มิตรภาพต้องถึง Lv. ${1}
+11190100083	Not enough friends with Affection Lv. ${1}	มีเพื่อนที่มี Affection Lv. ${1} ไม่ครบตามกำหนด
+11190100084	Participate in the Guild Bonfire at least ${1} times	เข้าร่วม Guild Bonfire อย่างน้อย ${1} ครั้ง
+11190100085	Earn more than ${1} points in the Guild League ${2} times	ได้คะแนนมากกว่า ${1} ใน Guild League จำนวน ${2} ครั้ง
+11190100086	Place in the top ${1} in Kafra Survival Battle ${2} times	ติด ${1} อันดับแรกใน Kafra Survival Battle จำนวน ${2} ครั้ง
+11190100087	Use ${1}-type items ${2} times in Kafra Survival Battle	ใช้ไอเทมประเภท ${1} จำนวน ${2} ครั้งใน Kafra Survival Battle
+11190100088	Defeat ${1} monsters in Kafra Survival Battle	กำจัดมอนสเตอร์ ${1} ตัวใน Kafra Survival Battle
+11190100089	Open ${1} treasure chests in Kafra Survival Battle	เปิดหีบสมบัติ ${1} ใบใน Kafra Survival Battle
+11190100090	You or a party member must obtain ${1}-quality equipment ${2} times in Kafra Survival Battle	คุณหรือสมาชิกปาร์ตี้ต้องได้รับอุปกรณ์คุณภาพ ${1} จำนวน ${2} ครั้งใน Kafra Survival Battle
+11190100091	You or a teammate must use disguise items ${1} times in Kafra Survival.	คุณหรือเพื่อนร่วมทีมต้องใช้ไอเทมปลอมตัว ${1} ครั้งใน Kafra Survival
+11190100092	You or a teammate must defeat a total of ${1} other players in Kafra Survival.	คุณหรือเพื่อนร่วมทีมต้องกำจัดผู้เล่นอื่นสะสม ${1} คนใน Kafra Survival
+11190100093	Rank requirement not met	ไม่ตรงตามเงื่อนไขอันดับ
+11190100094	Complete War of Survivors ${1} time(s)	เล่น War of Survivors ให้จบ ${1} ครั้ง
+11190100095	Challenge a five-player dungeon ${1} times	ท้าทายดันเจี้ยนห้าคน ${1} ครั้ง
+11190100096	Challenge and win a five-player dungeon ${1} times	ท้าทายและชนะดันเจี้ยนห้าคน ${1} ครั้ง
+11190100097	Participate in the Guild League ${1} times	เข้าร่วม Guild League ${1} ครั้ง
+11190100098	Win ${1} Guild League matches	ชนะ Guild League ${1} แมตช์
+11190100099	Participate in ${1} War of Emperium matches	เข้าร่วม War of Emperium ${1} แมตช์
+11190100100	Win ${1} Siege Battles	ชนะ Siege Battle ${1} ครั้ง
+11190100101	At Season Settlement, have ${1} Season tiers reach Lv. ${2}	เมื่อสรุปฤดูกาล มีอันดับฤดูกาล ${1} อันดับถึง Lv. ${2}
+11190100102	At Season Settlement, place in the top ${2} in ${1}	เมื่อสรุปฤดูกาล ติด ${2} อันดับแรกใน ${1}
+11190100103	Earn a total of ${1} Guild Points in the Territory War	รับคะแนนกิลด์สะสม ${1} ใน Territory War
+11190100104	Earn a total of ${1} Personal Points in the Territory War	รับคะแนนส่วนตัวสะสม ${1} ใน Territory War
+11190100105	Reach ${1} personal points in Siege War ${2} times	มีคะแนนส่วนตัวถึง ${1} ใน Siege War จำนวน ${2} ครั้ง
+11190100106	Use Play While Downloading ${1} times	ใช้ Play While Downloading ${1} ครั้ง
+11190100107	Log in ${1} times	เข้าสู่ระบบ ${1} ครั้ง
+11190100108	Participate in Treasure Hunting ${1} times	เข้าร่วม Treasure Hunting ${1} ครั้ง
+11190100109	Use ${1} sec. of boosted AFK time	ใช้เวลา AFK แบบเร่ง ${1} วินาที
+11190100110	Like personal profiles ${1} times	กดถูกใจโปรไฟล์ส่วนตัว ${1} ครั้ง
+11190100111	Go to the designated area in ${1} and use the ${2} Emote/Action	ไปยังพื้นที่ที่กำหนดใน ${1} แล้วใช้ Emote/ท่าทาง ${2}
+11190100112	Participate in ${1} Expedition Challenges	เข้าร่วม Expedition Challenge ${1} ครั้ง
+11190100113	Spend ${1} ${2} times	ใช้ ${1} จำนวน ${2} ครั้ง
+11190100114	Participate in the Commendation Vault ${1} times	เข้าร่วม Commendation Vault ${1} ครั้ง
+11190100115	Requirements not met	ไม่ตรงตามเงื่อนไข
+11190100116	Unlocks after opening ${1} chests	ปลดล็อกหลังเปิดหีบ ${1} ใบ
+11190100117	Instance not successfully cleared	ยังไม่ผ่านพื้นที่เฉพาะสำเร็จ
+11190100118	At least ${1} Guild Members from the same guild must be in the party	ปาร์ตี้ต้องมีสมาชิกกิลด์เดียวกันอย่างน้อย ${1} คน
+11190100119	Your party must include at least ${1} Members from the same Adventure Guild	ปาร์ตี้ของคุณต้องมีสมาชิก Adventure Guild เดียวกันอย่างน้อย ${1} คน
+11190100120	Reach ${2}% completion for ${1}	บรรลุความสำเร็จ ${2}% สำหรับ ${1}
+11190100121	Gather ${1} ${2} times	เก็บรวบรวม ${1} จำนวน ${2} ครั้ง
+11190100122	Reach Dungeon Stage ${1}	ไปถึงดันเจี้ยนด่าน ${1}
+11190100123	Rating: ${1}	คะแนนประเมิน: ${1}
+11190100125	Armacia Weak Value	ค่าความอ่อนแอของ Armacia
+11190100126	Kill ${1} Players	สังหารผู้เล่น ${1} คน
+11190100127	Revive ${1} Players	คืนชีพผู้เล่น ${1} คน
+11190100128	${1} Assists	ช่วยสังหาร ${1} ครั้ง
+11190100129	Defeat ${1}	กำจัด ${1}
+11190100130	Attempt requirement Not Reached	ยังไม่ถึงเกณฑ์จำนวนครั้ง
+11190100131	Participate in Battle of Dragon Coffin Island ${1} times	เข้าร่วม Battle of Dragon Coffin Island ${1} ครั้ง
+11190100132	Participate in Wedding Crashers ${1} times	เข้าร่วม Wedding Crashers ${1} ครั้ง
+11190100133	Participate in Hunting Challenge ${1} times	เข้าร่วม Hunting Challenge ${1} ครั้ง
+11190100134	Participate in Battle of Dragon Coffin Island or Survivor Battle ${1} times	เข้าร่วม Battle of Dragon Coffin Island หรือ Survivor Battle ${1} ครั้ง
+11190100135	Activate ${1} refinement slots	เปิดช่องตีบวก ${1} ช่อง
+11190100136	Have ${1} Enchant slots on equipped gear	มีช่อง Enchant ${1} ช่องบนอุปกรณ์ที่สวม
+11190100137	Equip ${1} items with an Enchant	สวมไอเทมที่มี Enchant ${1} ชิ้น
+11190100138	Equip ${1} pieces of gear with Stunts	สวมอุปกรณ์ที่มี Stunt ${1} ชิ้น
+11190100139	Deploy ${1} pets of ${2} quality or higher	ส่งสัตว์เลี้ยงลงสนาม ${1} ตัวที่มีคุณภาพ ${2} ขึ้นไป
+11190100140	Activate the pet Faction ${1} effect	เปิดผลฝ่ายสัตว์เลี้ยง ${1}
+11190100141	Deploy ${1} Support Pets	ส่งสัตว์เลี้ยงสนับสนุนลงสนาม ${1} ตัว
+11190100142	Reach Alchemy Lab Lv. ${1}	Alchemy Lab ถึง Lv. ${1}
+11190100143	Please wait ${1}s for the quest to complete automatically	โปรดรอ ${1} วินาทีเพื่อให้เควสต์สำเร็จโดยอัตโนมัติ
+11190100144	Please complete the designated story performance	โปรดทำการแสดงเนื้อเรื่องที่กำหนดให้สำเร็จ
+11190100145	Rent Job-exclusive ${1}	เช่า ${1} เฉพาะอาชีพ
+11190100146	Kill ${1} Monsters in ${2}	สังหารมอนสเตอร์ ${1} ตัวใน ${2}
+11190100147	Spend ${2} skill points on Job ${1}	ใช้คะแนนสกิล ${2} แต้มกับอาชีพ ${1}
+11190100148	Collect a ${1}-quality card ${1} time(s)	สะสมการ์ดคุณภาพ ${1} จำนวน ${1} ครั้ง
+11190100149	Equip ${1} skills of ${1} quality or higher to Totems	ติดตั้งสกิล ${1} สกิลที่มีคุณภาพ ${1} ขึ้นไปบน Totem
+11190100150	Equip ${1} totems with full attribute bars	ติดตั้ง Totem ที่มีแถบค่าสถานะเต็ม ${1} ชิ้น
+11190100151	Combine ${1} Totems of ${1} quality or higher	รวม Totem ${1} ชิ้นที่มีคุณภาพ ${1} ขึ้นไป
+11190100152	Deploy ${2} Totems with ${1} skills	ส่ง Totem ลงสนาม ${2} ชิ้นที่มี ${1} สกิล
+11190100153	Deploy ${1} Lv. ${1} Soul Echoes	ส่ง Soul Echo ลงสนาม ${1} ชิ้นที่มี Lv. ${1}
+11190100154	Activate ${1} Lv. ${1} Echo Resonances	เปิด Echo Resonance ${1} อันที่มี Lv. ${1}
+11190100155	Reach Resonance Lv. ${1} for all slots	ทุกช่องมี Resonance Lv. ${1}
+11190100156	Enhance Echoes ${1} times	เสริมพลัง Echo ${1} ครั้ง
+11190100157	Claim ${1} Map Rewards	รับรางวัลแผนที่ ${1} ครั้ง
+11190100158	Claim ${1} Area Rewards	รับรางวัลพื้นที่ ${1} ครั้ง
+11190100159	Claim ${1}'s Map Reward	รับรางวัลแผนที่ของ ${1}
+11190100160	Reach ${1} areas for ${2} rewards	ไปถึง ${1} พื้นที่เพื่อรับ ${2} รางวัล
+11190100161	Adventure Party Leader has not selected a sapling	หัวหน้า Adventure Party ยังไม่ได้เลือกต้นกล้า
+11190100162	Some Members have not set a declaration	สมาชิกบางคนยังไม่ได้กำหนดคำประกาศ
+11190100163	Some Members have not watered the sapling	สมาชิกบางคนยังไม่ได้รดน้ำต้นกล้า
+11190100164	Reach ${1} activated Talent Points	จำนวนคะแนน Talent ที่เปิดใช้ถึง ${1}
+11190100165	Activate ${1} talents	เปิด Talent ${1} อัน
+11190100166	Clear Valhalla ${1}	ผ่าน Valhalla ${1}
