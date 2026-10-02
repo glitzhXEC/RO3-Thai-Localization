@@ -1921,7 +1921,7 @@
           "10100000266",
           "10100000267"
         ],
-        "reason": "Pure technical labels deferred. Canonical labels are recorded per ID: ST → Single Target, PATK → P.ATK, MATK → M.ATK, PDEF → P.DEF, MDEF → M.DEF. No Thai filler was invented just to make these pure tokens pass the checker."
+        "reason": "Agent initially deferred five pure technical labels; parent applied canonical labels ST → Single Target, PATK → P.ATK, MATK → M.ATK, PDEF → P.DEF, MDEF → M.DEF. No Thai filler was invented. These five IDs are authored in the published batch, not deferred."
       },
       {
         "ids": [
@@ -3213,5 +3213,15 @@
         }
       ]
     }
+  },
+  "parent_review_adjustments": {
+    "canonical_English_stat_ids": [
+      "10100000143",
+      "10100000264",
+      "10100000265",
+      "10100000266",
+      "10100000267"
+    ],
+    "generic_Tavern_label": "10160000173 localized as โรงเตี๊ยม; ordinary location noun rather than an NPC/item/map proper name"
   }
 }
