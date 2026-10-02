@@ -1,0 +1,46 @@
+{
+  "deferred_English_ids_verified": 8539,
+  "manifest": {
+    "Schema": 1,
+    "RuntimeSchema": 2,
+    "Version": "9cf8fdfd749debb83310d7eb4d78e09efa578862e2f43cfaa5370c810cd5b65b",
+    "SourceSha256": "2cd07a3d0442400acb6aa94ba3338c8dfa3ac1b97467e8d91cd4829d38fe2252",
+    "TranslationIds": 33513,
+    "RuntimeRules": 3491,
+    "Files": [
+      {
+        "Name": "RO3.LocalizationOverrides.tsv",
+        "Sha256": "2cd07a3d0442400acb6aa94ba3338c8dfa3ac1b97467e8d91cd4829d38fe2252",
+        "Bytes": 5069240
+      },
+      {
+        "Name": "RO3.LocalizationRules.tsv",
+        "Sha256": "e84d94c8bae8e824246b401500f087402ddc0f9e2604ef802ce69662737040c9",
+        "Bytes": 2447210
+      },
+      {
+        "Name": "RO3.LanguageOrigins.tsv",
+        "Sha256": "156c6bde9d5133be357716ed474ab66faa36ea80c41ae4700a6681718d9662b6",
+        "Bytes": 3015982
+      }
+    ]
+  },
+  "new_id_pairs_checked": 952,
+  "existing_label_corrections_checked": 10,
+  "authored_ids": 24974,
+  "runtime_byte_faithful_to_all_33513_merged_ids": true,
+  "completed_boss_mechanic_family": 133,
+  "id_only_numeric_safeguard_verified": true,
+  "game_tested": false,
+  "authoring_commit": "fc522d0a21e8602ad42b697cd9f465f183cf5251",
+  "generated_feed_commit": "d1b0d9487d29261937d13f782137b3e3f1330d5c",
+  "local_runtime_checks": 205070,
+  "compiled_hook_checks": 27,
+  "updater_fake_network_checks": 57,
+  "actual_configured_main_https_updater_passed": true,
+  "actual_https_updater_cache_and_unchanged_version_passed": true,
+  "windows_ui_tested": false,
+  "release_changed": false,
+  "dll_or_exe_changed": false,
+  "coverage_report": "buff-effect-translation-coverage.json"
+}
