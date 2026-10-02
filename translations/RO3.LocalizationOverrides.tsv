@@ -24020,3 +24020,955 @@
 280034	Name	ชื่อ
 280035	Name	ชื่อ
 280036	Battleground Info	ข้อมูลสนามรบ
+10220200058	Stigma Count	จำนวนนับ Stigma
+10220200062	Descent of the Holy Spirit Prayer Trigger	ทริกเกอร์ Descent of the Holy Spirit Prayer
+10220200064	City Fallen	เมืองแตก
+10220200065	Guild Battle Preparations	เตรียมสงครามกิลด์
+10220200067	Mammonite Replacement	แทนที่ Mammonite
+10220200082	Maximum Over Thrust - Enhanced Power Thrust	Maximum Over Thrust - เสริมพลัง Power Thrust
+10220200086	Gunpowder Smash	ทุบด้วยดินปืน
+10220200087	Anaerobic Training	ฝึกแบบไม่ใช้ออกซิเจน
+10220200089	Body Tempering	ขัดเกลาร่างกาย
+10220200090	Earth's Power	พลังแห่ง Earth
+10220200094	Mind and Body Renewal	ฟื้นฟูจิตใจและร่างกาย
+10220200101	Unlimited Acceleration	เร่งความเร็วไม่จำกัด
+10220200105	Limit Break	ทะลุขีดจำกัด
+10220200106	Weapon Polishing	ขัดเงาอาวุธ
+10220200107	Weapon Enhance	เสริมพลังอาวุธ
+10220200108	Charging Momentum	รวบรวมแรงส่ง
+10220200109	Accelerating Impact	แรงกระแทกเร่งความเร็ว
+10220200118	Emergency Treatment Healing	การฟื้นฟูจาก Emergency Treatment
+10220200119	Blade Mark	ตราคมดาบ
+10220200127	Season Vulcan Cannon CRIT Boost Buff	บัฟเพิ่ม CRIT ของ Vulcan Cannon ฤดูกาล
+10220200129	Play Season Standard Cannon Hit Effect	เล่นเอฟเฟกต์โดนโจมตีของปืนใหญ่มาตรฐานฤดูกาล
+10220200134	High-Energy Impact Mode Switch	เปลี่ยนโหมด High-Energy Impact
+10220200135	Vulcan Cannon Floors Listener @{1}	ตัวรับเหตุการณ์จำนวนชั้น Vulcan Cannon @{1}
+10220200137	Battle Axe Assembly Test	ทดสอบประกอบขวานรบ
+10220200138	Battle Axe High-Energy Shield	โล่พลังงานสูงของขวานรบ
+10220200144	Heavy Axe Strike - Set Mode @{1}	Heavy Axe Strike - ตั้งโหมด @{1}
+10220200152	Energy Depletion	พลังงานหมด
+10220200154	Monitor Arm Cannon Mode Removal of Season Vulcan Arm Explosion Boost	ตรวจติดตามการนำโบนัส Vulcan Arm Explosion ฤดูกาลออกในโหมด Arm Cannon
+10220200155	Energy Release Shield	โล่ปลดปล่อยพลังงาน
+10220200157	Season Vulcan Cannon Switch BD @{1}	Vulcan Cannon ฤดูกาล เปลี่ยน BD @{1}
+10220200158	S@{1} High-Energy Impact Replaces Axe Tornado Mode	S@{1} High-Energy Impact แทนที่โหมด Axe Tornado
+10220200162	S@{1} Vulcan Cannon Counter Stack	S@{1} ตัวนับ stacks ของ Vulcan Cannon
+10220200164	S@{1} Vulcan Cannon Triggers Cannon Follow-Up	S@{1} Vulcan Cannon กระตุ้นการยิงเสริมของปืนใหญ่
+10220200187	Trigger Self-Destruct	กระตุ้นการระเบิดตนเอง
+10220200188	Spawn Stealth	ลอบเร้นเมื่อเกิด
+10220200190	Enlargement Item	ไอเท็มขยายขนาด
+10220200192	Shrinking Item	ไอเท็มย่อขนาด
+10220200195	Connected by Red Thread	เชื่อมด้วยด้ายแดง
+10220200196	Switch Transform@{1}	สลับการแปลงร่าง@{1}
+10220200239	Stun	สถานะ Stun
+10220200242	Recoil Animation	แอนิเมชัน Recoil
+10220200248	Battle Chant Orbit - Allies	วงโคจร Battle Chant - พันธมิตร
+10220200254	Grand Cross Triggers AoE	Grand Cross กระตุ้น AoE
+10220200257	Divine Suppression Triggers ST	Divine Suppression กระตุ้น Single Target
+10220200258	Holy Cross Weapon Damage (Deprecated; Uses Stunt)	ความเสียหายอาวุธของ Holy Cross (เลิกใช้แล้ว; ใช้ Stunt)
+10220200282	Rapid Smiting Triggers ST	Rapid Smiting กระตุ้น Single Target
+10220200286	Shield Boomerang Has No CD	Shield Boomerang ไม่มี CD
+10220200294	King's Grace Orbit	วงโคจร King's Grace
+10220200304	Union Passive	สกิลติดตัว Union
+10220200305	Enhance Shield Bash Passive	เสริมพลังสกิลติดตัว Shield Bash
+10220200311	Activate Holy Light Suppression	เปิดใช้งาน Holy Light Suppression
+10220200312	Casting Shield Trigger Check	ตรวจทริกเกอร์โล่ขณะร่าย
+10220200323	Fixed CT	เวลาร่ายคงที่
+10220200325	Cast Animation Time	เวลาแอนิเมชันร่าย
+10220200327	Skill Mode	โหมดสกิล
+10220200330	Logic Parameters	พารามิเตอร์ตรรกะ
+10220200331	Fake Damage Count	จำนวนนับความเสียหายจำลอง
+10220200335	Buff Applied to Allies	บัฟที่มอบให้พันธมิตร
+10220200336	Buff Applied to Enemies	บัฟที่มอบให้ศัตรู
+10220200337	SP Consumption	การใช้ SP
+10220200340	Skill Area of Effect	พื้นที่ส่งผลของสกิล
+10220200359	Chaotic Space (Deprecated)	Chaotic Space (เลิกใช้แล้ว)
+10220200367	Blind	สถานะ Blind
+10220200369	Magnification	การขยายขนาด
+10220200375	Gravitation Field Sound Effect	เอฟเฟกต์เสียง Gravitation Field
+10220200377	Focus Orbit	วงโคจรจดจ่อ
+10220200381	Attribute Orbit	วงโคจรคุณสมบัติ
+10220200385	Frozen Orbit	วงโคจรแช่แข็ง
+10220200389	Alternate	สลับ
+10220200392	HP Lock	ล็อก HP
+10220200394	Cast Skill	ร่ายสกิล
+10220200410	Lightning Release	ปลดปล่อยสายฟ้า
+10220200413	Blessing of Odin, King of the Gods	พรแห่ง Odin ราชาแห่งทวยเทพ
+10220200416	Blessing of Tyr, God of War	พรแห่ง Tyr เทพแห่งสงคราม
+10220200417	Battle Royale Victory Buff	บัฟชัยชนะ Battle Royale
+10220200423	Transform: Drops	แปลงร่างเป็น Drops
+10220200424	Transform: Poporing	แปลงร่างเป็น Poporing
+10220200427	Transform: Deviling	แปลงร่างเป็น Deviling
+10220200434	Masked	ถูกปิดบัง
+10220200437	Escort Cart Heavily Damaged	รถเข็นคุ้มกันเสียหายหนัก
+10220200438	Escort Cart Destroyed	รถเข็นคุ้มกันถูกทำลาย
+10220200440	Swift Movement	เคลื่อนที่รวดเร็ว
+10220200451	Attack Orbit Effect	เอฟเฟกต์วงโคจรโจมตี
+10220200456	Escort Cart Catch-Up Speed Boost	เพิ่มความเร็วรถเข็นคุ้มกันเพื่อตามให้ทัน
+10220200458	Protection Orbit	วงโคจรป้องกัน
+10220200463	Invincible Escort Cart	รถเข็นคุ้มกันอยู่ในสถานะ Invincible
+10220200474	Revive Disabled in Instances	ปิดใช้งานคืนชีพในอินสแตนซ์
+10220200476	Stagger	เสียหลัก
+10220200480	Change Armor to Water Property	เปลี่ยนธาตุของชุดเกราะเป็น Water
+10220200482	Convert Armor to Poison	เปลี่ยนธาตุของชุดเกราะเป็น Poison
+10220200485	Convert Armor to Holy Property	เปลี่ยนธาตุของชุดเกราะเป็น Holy
+10220200493	Unstoppable	ไม่มีใครหยุดได้
+10220200495	Item Healing Disabled	ปิดใช้การรักษาจากไอเท็ม
+10220200498	Guild Resonance	การสั่นพ้องกิลด์
+10220200500	Fixed-Direction Buff	บัฟทิศทางคงที่
+10220200503	Respawn Protection	การป้องกัน Respawn
+10220200506	Unstoppable	ไม่มีใครหยุดได้
+10220200519	Fafnir's Fury	ความพิโรธของ Fafnir
+10220200526	Freeze	แช่แข็ง
+10220200544	Lope Obstacle-Dodge Marker	เครื่องหมายหลบสิ่งกีดขวางของ Lope
+10220200546	Blood Pool Pull	แรงดึงจากแอ่งเลือด
+10220200547	Spawn Effect @{1}	เอฟเฟกต์เกิด @{1}
+10220200562	Gain DEF Boost	ได้รับการเพิ่ม DEF
+10220200563	Gain Cooldown Reduction	ได้รับการลด Cooldown
+10220200569	Transform into a Red Note	แปลงร่างเป็น Red Note
+10220200574	Transform into a Blue Note underfoot	แปลงร่างเป็น Blue Note ใต้เท้า
+10220200576	BOSS Visual Effects	เอฟเฟกต์ภาพ BOSS
+10220200579	Little Note Clockwise Skill 1	สกิลหมุนตามเข็มนาฬิกาของ Little Note 1
+10220200583	Phase 1 Goddess Large Musical Note@{1}	เฟส 1 โน้ตดนตรีขนาดใหญ่ของเทพธิดา@{1}
+10220200584	Slide Player Performance	การแสดงไถลของผู้เล่น
+10220200586	Tiamat Frontal Damage	ความเสียหายด้านหน้าของ Tiamat
+10220200587	Status Check Buff	บัฟตรวจสอบสถานะ
+10220200593	Player behavior after the opening movement ends	พฤติกรรมผู้เล่นหลังจบบทเพลงเปิด
+10220200610	HP Buff	บัฟ HP
+10220200618	Continual Burn	เผาไหม้ต่อเนื่อง
+10220200624	Ability Enhance	เสริมพลังความสามารถ
+10220200625	Battle Start Protection	การป้องกันเมื่อเริ่มต่อสู้
+10220200626	Morale Boost	เสริมขวัญกำลังใจ
+10220200628	Targeted	ถูกเล็งเป้า
+10220200629	Magnificent Damage Reduction	ลดความเสียหายอย่างยอดเยี่ยม
+10220200640	Solo Madogear Pilot Shield	โล่ Madogear Pilot สำหรับลุยเดี่ยว
+10220200641	Solo Madogear Pilot Shield Recovery State	สถานะฟื้นฟูโล่ Madogear Pilot สำหรับลุยเดี่ยว
+10220200644	Repair	ซ่อม
+10220200651	Goddess's Protection	การคุ้มครองของเทพธิดา
+10220200654	Sandman Slow	ลดความเร็วจาก Sandman
+10220200676	Trap Hunter Skill【Buff Effect】	สกิล Trap Hunter[ Buff Effect ]
+10220200683	Detection Skill【Buff Effect】	สกิล Detection[ Buff Effect ]
+10220200700	Strength Resonance	การสั่นพ้องความแข็งแกร่ง
+10220200705	Luck Resonance	การสั่นพ้องโชค
+10220200737	Generic Stun	มึนงงทั่วไป
+10220200744	Wind Element Damage Boost Buff	บัฟเพิ่มความเสียหายธาตุ Wind
+10220200761	Ionization	การแตกตัวเป็นไอออน
+10220200763	Spellbook Reset	รีเซ็ตตำราเวท
+10220200773	White Imprison SFX	เอฟเฟกต์เสียง White Imprison
+10220200781	Ganbantein SFX	เอฟเฟกต์เสียง Ganbantein
+10220200783	Continuous Page Gain	ได้รับหน้าตำราอย่างต่อเนื่อง
+10220200786	Telekinetic Orb - Count @{1}	Telekinetic Orb - จำนวนนับ @{1}
+10220200795	Elemental Arrow Amplification	เพิ่มประสิทธิภาพลูกศรธาตุ
+10220200796	Fixed Casting	การร่ายแบบคงที่
+10220200805	Ice and Thunder Mastery	ความเชี่ยวชาญ Ice และ Thunder
+10220200821	Arcane Study	ศึกษาเวทอาร์เคน
+10220200823	Gravity Enhance	เสริมพลังแรงโน้มถ่วง
+10220200828	Magic Infusion	เติมพลังเวท
+10220200884	Tower Boss Stat Adjustment @{1}	ปรับค่าสถานะบอสหอคอย @{1}
+10220200886	Tower Area Indicator Mark	เครื่องหมายแสดงพื้นที่หอคอย
+10220200887	Endure (Deprecated)	Endure (เลิกใช้แล้ว)
+10220200893	Stone Coating	เคลือบหิน
+10220200898	Slime Ground	พื้นเมือก
+10220200899	Invincible and Untargetable Deprecated	Invincible และไม่สามารถถูกเลือกเป็นเป้าหมายได้ เลิกใช้แล้ว
+10220200900	Summoned Unit Self-Destruct	ยูนิตอัญเชิญระเบิดตนเอง
+10220200901	MVP Skill Reset After Leaving Combat	รีเซ็ตสกิล MVP หลังออกจากการต่อสู้
+10220200902	Mandragora Attack	การโจมตีของ Mandragora
+10220200904	Lock Life to Fixed Value @{1} (Deprecated)	ล็อก Life เป็นค่าคงที่ @{1} (เลิกใช้แล้ว)
+10220200915	Orc Lord's Totem	โทเทมของ Orc Lord
+10220200916	Moonlight Flower Marker Buff	บัฟเครื่องหมาย Moonlight Flower
+10220200921	Directional Effect Test	ทดสอบเอฟเฟกต์ตามทิศทาง
+10220200925	Blackhole Boss Shield	โล่บอส Blackhole
+10220200964	Armor Break	ทำลายเกราะ
+10220200972	Bongun Passive Check	ตรวจสอบสกิลติดตัว Bongun
+10220200982	Detain	กักตัว
+10220200986	Corrupted Wander Man Passive	สกิลติดตัว Corrupted Wander Man
+10220200987	ATK Reduction	ลด ATK
+10220200990	Power of the Wander Man	พลังของ Wander Man
+10220200994	Elena Bokba Passive	สกิลติดตัว Elena Bokba
+10220201000	Fire Element Vulnerability	จุดอ่อนธาตุ Fire
+10220201011	Warrior Lola Passive	สกิลติดตัว Warrior Lola
+10220201016	Defensive Vigilance	ระวังป้องกัน
+10220201019	Detect Stealth	ตรวจจับลอบเร้น
+10220201021	Fruit Tree Turtle Passive	สกิลติดตัว Fruit Tree Turtle
+10220201041	Continuous Area Shield	โล่พื้นที่ต่อเนื่อง
+10220201043	Celestial Dance	ระบำสวรรค์
+10220201045	Fairy Blessing - HP Lock	พร Fairy - ล็อก HP
+10220201046	Fairy - Shield	Fairy - โล่
+10220201050	Piamette Passive	สกิลติดตัว Piamette
+10220201053	Execution	ประหาร
+10220201054	Executioner	เพชฌฆาต
+10220201079	Universal - Grand Gift Magic Circle	ทั่วไป - วงเวทของขวัญใหญ่
+10220201083	Block Shield	โล่ป้องกัน
+10220201086	Move back Afterimage Status	สถานะภาพติดตาเมื่อถอยหลัง
+10220201088	Dungeon Matchmaking Penalty I	บทลงโทษจับคู่ดันเจี้ยน I
+10220201090	Dungeon Matchmaking Penalty III	บทลงโทษจับคู่ดันเจี้ยน III
+10220201094	Blade Mountain-Greatsword Effect	Blade Mountain-เอฟเฟกต์ดาบใหญ่
+10220201097	Stone Blade	คมดาบหิน
+10220201106	Continuously displays a red tether	แสดงสายเชื่อมสีแดงต่อเนื่อง
+10220201110	Waterspout Buff	บัฟพวยน้ำ
+10220201113	Ghost Ship Second Wave Buff	บัฟระลอกที่สองของ Ghost Ship
+10220201115	Detection Distance	ระยะตรวจจับ
+10220201121	White Line Link	เชื่อมด้วยเส้นสีขาว
+10220201124	Boss-Player Link	เชื่อมบอส-ผู้เล่น
+10220201125	Player-to-Player Link	เชื่อมผู้เล่น-ผู้เล่น
+10220201126	Player Accelerate/Slow	เร่งความเร็ว/ลดความเร็วผู้เล่น
+10220201128	Summon Marker	เครื่องหมายอัญเชิญ
+10220201131	Shroud Crowd Control Removal	นำการควบคุมฝูงชนของ Shroud ออก
+10220201133	Shroud Link	เชื่อม Shroud
+10220201135	Damage Reduction	ลดความเสียหาย
+10220201136	Damage Reduction Filter	ตัวกรองการลดความเสียหาย
+10220201139	On Removal	เมื่อนำออก
+10220201142	Laser Marker	เครื่องหมายเลเซอร์
+10220201146	Enrage Effect	เอฟเฟกต์คลั่ง
+10220201149	Curse of the Pyramid	คำสาปแห่งพีระมิด
+10220201150	AOE Effect	เอฟเฟกต์ AOE
+10220201154	Continuously Apply Stealth Buff	มอบบัฟลอบเร้นอย่างต่อเนื่อง
+10220201158	Post-Death Lighting Effect	เอฟเฟกต์แสงหลังเสียชีวิต
+10220201160	Same-Color Collision Bubble NPC Down	NPC ฟองที่ชนกันด้วยสีเดียวกันล้มลง
+10220201170	Player	ผู้เล่น
+10220201172	Stationary Yellow Bubble	ฟองสีเหลืองอยู่กับที่
+10220201185	Blue Tracking Line Effect	เอฟเฟกต์เส้นติดตามสีน้ำเงิน
+10220201187	Boss @{1} Persistent Water Orb Effect	เอฟเฟกต์ลูกแก้วน้ำที่คงอยู่ของบอส @{1}
+10220201195	Duo Dance	เต้นรำคู่
+10220201198	Summoned NPC Spawn Buff	บัฟเกิดของ NPC ที่อัญเชิญ
+10220201201	Dance Move Check	ตรวจสอบท่าเต้น
+10220201204	Remove Skill Check	ตรวจการนำสกิลออก
+10220201206	Dancing NPC Check	ตรวจ NPC ที่กำลังเต้นรำ
+10220201207	Rhythm Button	ปุ่มจังหวะ
+10220201208	Launch Cross Compression Field	ปล่อยสนามบีบอัดไขว้
+10220201209	Note Replacement on Cooldown	การแทนที่โน้ตอยู่ระหว่าง Cooldown
+10220201212	Yellow Note Magic Circle Expanding Outer Ring	วงนอกขยายของวงเวท Yellow Note
+10220201213	Green Note Magic Circle Expanding Outer Ring	วงนอกขยายของวงเวท Green Note
+10220201218	Green Marker	เครื่องหมายสีเขียว
+10220201226	Spiritual Melody Purification Self Buff	บัฟชำระล้างตนเองของ Spiritual Melody
+10220201232	Organon Self Buff	บัฟตนเอง Organon
+10220201236	Sacred Music True Form	ร่างแท้ของดนตรีศักดิ์สิทธิ์
+10220201246	Initial Shield	โล่เริ่มต้น
+10220201247	Persistent Shield	โล่คงอยู่ต่อเนื่อง
+10220201249	Blade Mark - ATK Up	Blade Mark - เพิ่ม ATK
+10220201250	Blade Mark-Accelerate	Blade Mark-เร่งความเร็ว
+10220201252	Season Axe Tornado Switch BD@{1}	Axe Tornado ฤดูกาล เปลี่ยน BD@{1}
+10220201255	King's Grace Unstoppable	King's Grace หยุดยั้งไม่ได้
+10220201257	Switch (Enhance) Blood Cross	สลับ (เสริมพลัง) Blood Cross
+10220201262	Modify Shield Press	ปรับ Shield Press
+10220201268	Switch Earth Drive	สลับ Earth Drive
+10220201270	Shooting: BD@{1}	การยิง: BD@{1}
+10220201278	Monitor Slashing Strike	ตรวจติดตาม Slashing Strike
+10220201279	Slashing Strike Floors	จำนวนชั้น Slashing Strike
+10220201280	Reset Rift Impact CD	รีเซ็ต CD ของ Rift Impact
+10220201281	Lance Knight: Wind Mark@{1}	Lance Knight: เครื่องหมาย Wind@{1}
+10220201284	Note Mark@{1}	เครื่องหมายโน้ต@{1}
+10220201300	Multi-Rhyme	หลายสัมผัสคล้องจอง
+10220201301	Move back Afterimage State Season	สถานะภาพติดตาเมื่อถอยหลัง ฤดูกาล
+10220201302	Syllable	พยางค์
+10220201304	Switch Vortex	สลับ Vortex
+10220201310	Switch Soul Burst	สลับ Soul Burst
+10220201314	Switch Gravity Impact	สลับ Gravity Impact
+10220201320	Buff	บัฟ
+10220201330	Chain	สายเชื่อม
+10220201332	Replace Fearless Charge	แทนที่ Fearless Charge
+10220201337	Replace Block	แทนที่ Block
+10220201341	Reset Sonic Blow CD	รีเซ็ต CD ของ Sonic Blow
+10220201358	ElementBD@{1}	ธาตุBD@{1}
+10220201360	Replace Intense Telekinesis	แทนที่ Intense Telekinesis
+10220201362	Enhanced Psychic Astrolabe Listener	ตัวรับเหตุการณ์ Psychic Astrolabe ที่เสริมพลัง
+10220201391	Joint Beat Damage Taken Increase	Joint Beat เพิ่มความเสียหายที่ได้รับ
+10220201393	Aura Blade Max Stack Sound Effect	เอฟเฟกต์เสียงเมื่อ Aura Blade มี stacks สูงสุด
+10220201394	Dragon Wing	ปีกมังกร
+10220201397	Frenzy Visual Effect	เอฟเฟกต์ภาพ Frenzy
+10220201405	Pinpoint Attack Stacks	stacks ของ Pinpoint Attack
+10220201407	Pinpoint Attack Listener	ตัวรับเหตุการณ์ Pinpoint Attack
+10220201409	Advanced Hundred Spear Count	จำนวนนับ Advanced Hundred Spear
+10220201410	Wind Blade Slash	ฟันคมดาบ Wind
+10220201411	Sturdy Strike	การโจมตีมั่นคง
+10220201417	Major Speed Boost	เพิ่มความเร็วอย่างมาก
+10220201424	Trap Hunter Charge	ชาร์จ Trap Hunter
+10220201426	Shield Charge	ชาร์จโล่
+10220201427	Self-Destruct Charge	ชาร์จระเบิดตนเอง
+10220201434	Flame Trap Hunter Effect	เอฟเฟกต์ Flame Trap Hunter
+10220201435	Cheval-de-Frise Area Effect	เอฟเฟกต์พื้นที่ Cheval-de-Frise
+10220201436	Chest Effect	เอฟเฟกต์หีบ
+10220201437	System Buff@{1}	Buff ระบบ@{1}
+10220201441	Increase Dodge (Test)	เพิ่ม Flee (ทดสอบ)
+10220201443	Increase ATK@{1}	เพิ่ม ATK@{1}
+10220201445	Reduce Healing	ลดการฟื้นฟู
+10220201453	Cloaking Passive	สกิลติดตัว Cloaking
+10220201467	Venom Creation	สร้างพิษ
+10220201470	Cross Impact Effect	เอฟเฟกต์ Cross Impact
+10220201477	Black Phantom Slow	Black Phantom ลดความเร็ว
+10220201479	Rolling Cutter Cooldown Reset Buff	บัฟรีเซ็ต Cooldown ของ Rolling Cutter
+10220201487	Magic Blade	คมดาบเวท
+10220201488	Resolve	ความแน่วแน่
+10220201489	Magic Mark	ตราเวท
+10220201492	Ice Guardian	ผู้พิทักษ์น้ำแข็ง
+10220201498	Holy Fortress	ป้อมศักดิ์สิทธิ์
+10220201499	Healing Amplification	เพิ่มประสิทธิภาพการฟื้นฟู
+10220201501	Melee Amplification	เพิ่มประสิทธิภาพระยะประชิด
+10220201503	Terminate	ยุติ
+10220201507	Abundant Magic	พลังเวทล้นเหลือ
+10220201508	Strength Convergence	การรวมพลัง
+10220201510	Cure	รักษา
+10220201513	Defense Convergence	การรวมการป้องกัน
+10220201514	Abundant Healing	การฟื้นฟูเหลือเฟือ
+10220201517	Vengeful Strength	พลังแก้แค้น
+10220201520	Multi Strike	โจมตีหลายครั้ง
+10220201522	Desperate Defense	ป้องกันยามคับขัน
+10220201526	CRIT DMG Reduction	การลด CRIT DMG
+10220200032	Revive [Buff Effect]	คืนชีพ [ Buff Effect ]
+10220200049	Fragrance	กลิ่นหอม
+10220200054	Tree Spirit's Blessing Trigger	การทริกเกอร์ Tree Spirit's Blessing
+10220200060	Tree Spirit's Blessing Invincible	Tree Spirit's Blessing อมตะ
+10220200061	Stigma Charge Buff	บัฟ Stigma Charge
+10220200068	Crazy Uproar - Mind and Body Renewal	Crazy Uproar - การฟื้นฟูร่างกายและจิตใจ
+10220200075	Maximize Power - Weapon Enhance	Maximize Power - เสริมพลังอาวุธ
+10220200076	Cart Accessory	อุปกรณ์เสริมรถเข็น
+10220200093	Rousing Support	การสนับสนุนปลุกใจ
+10220200110	Sustained Acceleration	การเร่งต่อเนื่อง
+10220200111	AoE Power Thrust	AoE ของ Power Thrust
+10220200112	Enhanced Power Thrust	Power Thrust ที่เสริมพลัง
+10220200115	Slow	สถานะ Slow
+10220200117	Emergency Treatment Shield	โล่ Emergency Treatment
+10220200122	Firepower Ready	พร้อมใช้พลังยิง
+10220200123	Cannon Refresh	รีเฟรชปืนใหญ่
+10220200125	Melody Bubble	ฟองทำนอง
+10220200131	High-Energy Eruption	การปะทุพลังงานสูง
+10220200132	Blade Mark	ตราคมดาบ
+10220200133	High-Energy Impact Listener	ตัวรับเหตุการณ์ High-Energy Impact
+10220200136	Vulcan Cannon Floors Listener @{1} Explosion Boost	ตัวรับเหตุการณ์ชั้น Vulcan Cannon @{1} เสริมพลังการระเบิด
+10220200139	High-Energy Pulse - Listener	High-Energy Pulse - ตัวรับเหตุการณ์
+10220200141	High-Energy Pulse - Replace Mode with Axe Tornado	High-Energy Pulse - เปลี่ยนโหมดเป็น Axe Tornado
+10220200142	Enhanced Axe Tornado Listener	ตัวรับเหตุการณ์ Axe Tornado ที่เสริมพลัง
+10220200150	High-Energy Shield	โล่พลังงานสูง
+10220200151	Crescent Blade Wheel Mark	เครื่องหมาย Crescent Blade Wheel
+10220200153	Jet Acceleration	การเร่งความเร็วด้วยไอพ่น
+10220200160	S@{1} Axe Tornado Casts Demonic Roar Listener	S@{1} ตัวรับเหตุการณ์ Axe Tornado ร่าย Demonic Roar
+10220200161	S@{1} Vulcan Cannon Mode Replacement	S@{1} การเปลี่ยนโหมด Vulcan Cannon
+10220200165	S@{1} High-Energy Impact Listener	S@{1} ตัวรับเหตุการณ์ High-Energy Impact
+10220200174	Intermediate Live Coal - Live Coal	Live Coal ขั้นกลาง - Live Coal
+10220200175	Advanced Live Coal - Live Coal	Live Coal ขั้นสูง - Live Coal
+10220200178	Transform into Lunatic	แปลงร่างเป็น Lunatic
+10220200180	Transform into Baby Desert Wolf	แปลงร่างเป็น Baby Desert Wolf
+10220200197	Red Thread Heart Effect Overhead	เอฟเฟกต์ Red Thread Heart เหนือศีรษะ
+10220200229	Osiris (Red)	Osiris (สีแดง)
+10220200231	Card Magnum Break	Magnum Break จากการ์ด
+10220200250	Devotion Self-Link	Devotion เชื่อมโยงตนเอง
+10220200253	Grand Cross Triggers ST	Grand Cross ทริกเกอร์ Single Target
+10220200255	Shield Boomerang Triggers ST	Shield Boomerang ทริกเกอร์ Single Target
+10220200277	Resilient Spirit	จิตวิญญาณอันแข็งแกร่ง
+10220200285	Martyr's Reckoning - Enhances Holy Cross	Martyr's Reckoning - เสริมพลัง Holy Cross
+10220200290	Shield	โล่
+10220200296	Shield Defense Orbit	วงโคจร Shield Defense
+10220200298	King's Grace Enemy Orbit	วงโคจรศัตรูของ King's Grace
+10220200299	King's Grace Slows Enemies	King's Grace ทำให้ศัตรูเชื่องช้า
+10220200306	Shield Stance	ท่าตั้งโล่
+10220200310	Reduce Shield Defense Cooldown	ลด Cooldown ของ Shield Defense
+10220200313	King's Grace Counter Display	การแสดงตัวนับ King's Grace
+10220200319	Fixed Skill Damage	ดาเมจสกิลคงที่
+10220200320	Extra Skill HIT	HIT สกิลเพิ่มเติม
+10220200321	Skill Critical Parameters	พารามิเตอร์คริติคอลของสกิล
+10220200328	Minimum Cast Distance	ระยะร่ายขั้นต่ำ
+10220200342	Add Attributes	เพิ่มค่าสถานะ
+10220200358	Stasis Space (Deprecated)	Stasis Space (เลิกใช้)
+10220200360	Grant All Players Full Mini Map Vision	มอบการมองเห็นแผนที่ย่อทั้งหมดให้ผู้เล่นทุกคน
+10220200365	Enhance Camouflage Stealth	เสริมการพรางตัวของ Camouflage
+10220200366	Enhance Camouflage Speed	เสริมความเร็วของ Camouflage
+10220200370	Burn	สถานะ Burn
+10220200372	Sleep	หลับ
+10220200376	Instantly Restore @{1}%	ฟื้นฟูทันที @{1}%
+10220200382	Life Steal Orbit	วงโคจรดูดพลังชีวิต
+10220200388	Reset Skill Cooldowns	รีเซ็ต Cooldown สกิล
+10220200390	Hide HP Bar	ซ่อนแถบ HP
+10220200395	Leave Combat	ออกจากการต่อสู้
+10220200400	Death Prevention Visual Listener (Deprecated)	ตัวรับเหตุการณ์ภาพการป้องกันการตาย (เลิกใช้)
+10220200402	Detecting	กำลังตรวจจับ
+10220200408	Equipment Drop Test	ทดสอบอุปกรณ์ดรอป
+10220200409	Fire Release	ปลดปล่อยไฟ
+10220200414	Valkyrie's Blessing (Deprecated!)	Valkyrie's Blessing (เลิกใช้!)
+10220200420	Restores @{1}% of Max Life per second	ฟื้นฟู @{1}% ของ Life สูงสุดต่อวินาที
+10220200422	Battle Royale HP Drain Buff	บัฟลด HP ของ Battle Royale
+10220200425	Transform: Bombring	แปลงร่างเป็น Bombring
+10220200428	Transform into Lava Poring	แปลงร่างเป็น Lava Poring
+10220200441	Slow Down!	ช้าลง!
+10220200443	Escort Cart Damage Reduction	ลดดาเมจของรถเข็นคุ้มกัน
+10220200448	Movement Disabled	ปิดใช้งานการเคลื่อนที่
+10220200449	Healing Orbit	วงโคจรการรักษา
+10220200453	Damage Reduction Orbit Effect	เอฟเฟกต์วงโคจรลดดาเมจ
+10220200455	Invincible Zone	พื้นที่อมตะ
+10220200461	Protection Orbit Effect (Not Full)	เอฟเฟกต์วงโคจรการป้องกัน (ไม่เต็ม)
+10220200462	Protection Orbit Effect (Full)	เอฟเฟกต์วงโคจรการป้องกัน (เต็ม)
+10220200466	Frozen	สถานะ Frozen
+10220200467	Petrify	กลายเป็นหิน
+10220200471	Sluggish	เฉื่อยชา
+10220200477	Severe Wound	บาดแผลรุนแรง
+10220200483	Convert Armor to Fire Property	เปลี่ยนธาตุของชุดเกราะเป็น Fire
+10220200488	Flame Blast	ระเบิดเปลวไฟ
+10220200499	Divine Blessing	พรศักดิ์สิทธิ์
+10220200501	Close Friend (Lv. @{1})	เพื่อนสนิท (Lv. @{1})
+10220200502	Fortify	เสริมความแข็งแกร่ง
+10220200504	High Morale	ขวัญกำลังใจสูง
+10220200510	Weaken	อ่อนแอลง
+10220200517	Dragonblood Protection	การคุ้มครอง Dragonblood
+10220200518	Carry Scale	ถือ Scale
+10220200523	Arcane Acceleration	การเร่งด้วยเวทมนตร์
+10220200524	Ring of Frost	วงแหวนน้ำแข็ง
+10220200527	Rapidness	ความรวดเร็ว
+10220200538	Boss	บอส
+10220200539	Unstoppable Dragonkin	Dragonkin ที่หยุดยั้งไม่ได้
+10220200541	Flame Scorch	แผดเผาด้วยเปลวไฟ
+10220200550	Cooldown Reduction	ลด Cooldown
+10220200552	Movement Speed Boost	เพิ่มความเร็วเคลื่อนที่
+10220200564	Gain CRIT Boost	ได้รับการเพิ่ม CRIT
+10220200571	Transform into a Blue Note	แปลงร่างเป็น Blue Note
+10220200572	Double Jump Buff During Lope	บัฟกระโดดสองครั้งระหว่าง Lope
+10220200578	Little Note Counterclockwise Skill 2	Little Note ทวนเข็มนาฬิกา สกิล 2
+10220200581	Small Notes Clockwise Skill 4	Small Notes ตามเข็มนาฬิกา สกิล 4
+10220200582	Phase 1 Goddess Energy Orb Charge + Burst + Idle Infinite Loop	ช่วง 1 Goddess Energy Orb ชาร์จ + ระเบิดพลัง + อยู่เฉย วนซ้ำไม่สิ้นสุด
+10220200585	Tiamat Effect	เอฟเฟกต์ Tiamat
+10220200589	Small Note Clockwise Skill@{1}	Small Note ตามเข็มนาฬิกา สกิล@{1}
+10220200591	Battle Royale Transition Player Effect	เอฟเฟกต์ผู้เล่นช่วงเปลี่ยนผ่านของ Battle Royale
+10220200596	Player Aggro Control	การควบคุม Aggro ของผู้เล่น
+10220200600	Sonic Barrier Field	สนามกำแพงเสียง
+10220200601	Blackhole Pull	การดึงของ Blackhole
+10220200608	ATK Buff	บัฟ ATK
+10220200609	Shield Buff	บัฟโล่
+10220200614	Demonic Dragon Soul Vulnerability	Demonic Dragon Soul เปราะบาง
+10220200619	Respawn Buff	บัฟเกิดใหม่
+10220200622	Repairable Mark	เครื่องหมายซ่อมแซมได้
+10220200634	Solo Madogear Pilot Monitoring	การติดตาม Madogear Pilot เดี่ยว
+10220200637	Set Single-Hit Damage Cap	กำหนดเพดานดาเมจต่อการโจมตีหนึ่งครั้ง
+10220200646	Fatigue	เหนื่อยล้า
+10220200647	Safe Zone	พื้นที่ปลอดภัย
+10220200649	Full Steam Ahead	เดินหน้าเต็มกำลัง
+10220200650	Morale Surge	ขวัญกำลังใจพุ่งสูง
+10220200657	Hunter Spawn Buff	บัฟ Hunter Spawn
+10220200663	Basic Attack【Stat Boost】	โจมตีปกติ [ Stat Boost ]
+10220200690	Mount Buff	บัฟพาหนะ
+10220200696	Warg Accessory	อุปกรณ์เสริม Warg
+10220200702	Intelligence Resonance	การประสาน INT
+10220200703	Dexterity Resonance	การประสาน DEX
+10220200736	Generic Freeze	เยือกแข็งทั่วไป
+10220200738	Generic Immobilize	ตรึงทั่วไป
+10220200740	Generic Blind	ตาบอดทั่วไป
+10220200743	Fire Element Damage Boost Buff	บัฟเพิ่มดาเมจธาตุ Fire
+10220200760	Penetration	เจาะทะลุ
+10220200764	Trigger Spellbook Reset	ทริกเกอร์การรีเซ็ตสมุดเวท
+10220200765	Spellbook - Comet	สมุดเวท - Comet
+10220200767	Spellbook - Crimson Rock	สมุดเวท - Crimson Rock
+10220200772	Soul Combo SFX	SFX ของ Soul Combo
+10220200774	Tetra Vortex SFX	SFX ของ Tetra Vortex
+10220200776	Quagmire SFX	SFX ของ Quagmire
+10220200777	Heaven's Drive SFX	SFX ของ Heaven's Drive
+10220200778	Lord of Vermilion SFX	SFX ของ Lord of Vermilion
+10220200779	Frost Spell SFX	SFX ของ Frost Spell
+10220200790	Telekinetic Orb HIT AoE	Telekinetic Orb: HIT แบบ AoE
+10220200791	Wall of Darkness SFX	SFX ของ Wall of Darkness
+10220200794	Continuous Slow While Channeling	เชื่องช้าต่อเนื่องขณะร่ายต่อเนื่อง
+10220200801	Spell Lock	ล็อกเวท
+10220200802	Flame Enhance	เสริมพลังเปลวไฟ
+10220200808	Inflict Freeze on Frozen Target HIT	ทำให้เยือกแข็งเมื่อ HIT เป้าหมายที่เยือกแข็ง
+10220200810	Flame Burst	เปลวไฟปะทุ
+10220200814	Thunder Shockwave	คลื่นกระแทกสายฟ้า
+10220200818	Magic Cannon Energy Removal	ลบพลังงาน Magic Cannon
+10220200825	Gravity Trap	กับดักแรงโน้มถ่วง
+10220200882	Training Dummy Auto-Recovery	หุ่นฝึกฟื้นฟูอัตโนมัติ
+10220200885	Automatic Tower Difficulty Reduction Buff	บัฟลดความยากของหอคอยโดยอัตโนมัติ
+10220200890	Delusion	หลงผิด
+10220200894	Petrify Screen Effect	เอฟเฟกต์หน้าจอกลายเป็นหิน
+10220200908	Phreeoni Continuous Drain	Phreeoni ดูดอย่างต่อเนื่อง
+10220200913	Frequent Pull	ดึงบ่อยครั้ง
+10220200922	Osiris Disengagement Check	ตรวจสอบการออกจากการต่อสู้ของ Osiris
+10220200924	Goblin Helicopter Jet Effect	เอฟเฟกต์ไอพ่นของ Goblin Helicopter
+10220200926	Trap Hunter Boss Target	เป้าหมายบอสของ Trap Hunter
+10220200954	Orc Lord Passive	สกิลติดตัวของ Orc Lord
+10220200978	Bloodthirsty Impulse	แรงกระตุ้นกระหายเลือด
+10220200991	Nightmare Passive	สกิลติดตัวของ Nightmare
+10220200995	Gunshot Wound	บาดแผลจากกระสุน
+10220200998	Sarah Irene Passive	สกิลติดตัวของ Sarah Irene
+10220201001	Marionette Passive	สกิลติดตัวของ Marionette
+10220201006	Scorched Armor	เกราะไหม้เกรียม
+10220201009	Pain of the Wind Blade	ความเจ็บปวดจาก Wind Blade
+10220201013	Alicel - Damage Passive Monitor	Alicel - ตัวติดตามดาเมจสกิลติดตัว
+10220201023	Low Growl	เสียงคำรามต่ำ
+10220201028	Silver Moon's Arrival Trigger	การทริกเกอร์ Silver Moon's Arrival
+10220201035	Vanguard Shield	โล่แนวหน้า
+10220201047	Fairy Blessing - Max Life	พรภูต - Life สูงสุด
+10220201048	Fairy Shield	โล่ภูต
+10220201051	DEF and MDEF Reduction	ลด DEF และ M.DEF
+10220201052	Butterfly Dance	ระบำผีเสื้อ
+10220201055	Stat Reduction	ลดค่าสถานะ
+10220201080	Transform into Little Poring	แปลงร่างเป็น Little Poring
+10220201084	Sandstorm Slow	Sandstorm ทำให้เชื่องช้า
+10220201085	Phreeoni Slow	Phreeoni ทำให้เชื่องช้า
+10220201095	Shield	โล่
+10220201099	Transform: Poring Cannot Be Attacked	แปลงร่าง: Poring ไม่สามารถถูกโจมตีได้
+10220201100	Sword, Derived Interaction	ดาบ, ปฏิสัมพันธ์ที่สืบเนื่อง
+10220201101	Shield, Derived Interaction	โล่, ปฏิสัมพันธ์ที่สืบเนื่อง
+10220201103	Arrow Effect	เอฟเฟกต์ลูกศร
+10220201105	Use a Revive to cancel Transform	ใช้ Revive เพื่อยกเลิกการแปลงร่าง
+10220201108	Drake Buff	บัฟ Drake
+10220201109	Minion Buff	บัฟลูกสมุน
+10220201111	Ghost Ship Buff	บัฟ Ghost Ship
+10220201117	NPC Only Receives Damage Effect	เอฟเฟกต์ NPC รับดาเมจเท่านั้น
+10220201123	Count	จำนวน
+10220201138	Party-Wide Stealth	พรางตัวทั้งปาร์ตี้
+10220201141	Ultimate Marker	เครื่องหมายท่าไม้ตาย
+10220201143	AOE Marker	เครื่องหมาย AoE
+10220201144	Enrage Marker	เครื่องหมายคลุ้มคลั่ง
+10220201148	Warning Link	การเชื่อมโยงเตือนภัย
+10220201155	Bell Untargetable Buff	บัฟ Bell ไม่สามารถตกเป็นเป้าหมายได้
+10220201157	Bullet Mark Buff	บัฟเครื่องหมายกระสุน
+10220201163	Continuous Bubble Deployment	สร้างฟองต่อเนื่อง
+10220201171	Stationary Red Bubble	ฟองสีแดงอยู่นิ่ง
+10220201174	Stationary Green Bubble	ฟองสีเขียวอยู่นิ่ง
+10220201181	Red Tracking Link Effect	เอฟเฟกต์เชื่อมโยงติดตามสีแดง
+10220201183	Continuously Launch Water Jet	ใช้ Launch Water Jet อย่างต่อเนื่อง
+10220201184	Yellow Tracking Line Effect	เอฟเฟกต์เส้นติดตามสีเหลือง
+10220201186	Green Tracking Line Effect	เอฟเฟกต์เส้นติดตามสีเขียว
+10220201191	Yellow Bubble Screen Tracking Effect	เอฟเฟกต์ติดตามบนหน้าจอของฟองสีเหลือง
+10220201192	Blue Bubble Screen Tracking Effect	เอฟเฟกต์ติดตามบนหน้าจอของฟองสีน้ำเงิน
+10220201193	Green Bubble Screen Tracking Effect	เอฟเฟกต์ติดตามบนหน้าจอของฟองสีเขียว
+10220201194	Bubble Attraction Control	การควบคุมแรงดึงดูดของฟอง
+10220201199	Link	เชื่อมโยง
+10220201200	Linked Debuff	ดีบัฟเชื่อมโยง
+10220201210	Red Note Magic Circle Expanding Outer Ring	Red Note วงแหวนรอบนอกของวงเวทขยายออก
+10220201211	Blue Note Magic Circle Expanding Outer Ring	Blue Note วงแหวนรอบนอกของวงเวทขยายออก
+10220201214	White Note Magic Circle Expanding Outer Ring	White Note วงแหวนรอบนอกของวงเวทขยายออก
+10220201215	Green Energy Barrier Activation	เปิดใช้งานกำแพงพลังงานสีเขียว
+10220201217	Lock Life at @{1}%	ล็อก Life ไว้ที่ @{1}%
+10220201219	Player Link Node	โหนด Player Link
+10220201227	Battle Chant Harmony: Rhythm	Battle Chant การประสานเสียง: จังหวะ
+10220201234	Admonitory Song of Suffering: Low Drone	Admonitory Song of Suffering: เสียงต่ำต่อเนื่อง
+10220201235	Sacrament Baptism Self Buff	บัฟตนเองของ Sacrament Baptism
+10220201240	Rhythm Performance Buff	บัฟการบรรเลงจังหวะ
+10220201241	Shield Cooldown Buff	บัฟ Cooldown โล่
+10220201248	Season Axe Tornado Speed and ATK Boost Listener	ตัวรับเหตุการณ์ฤดูกาล: Axe Tornado เพิ่มความเร็วและ ATK
+10220201253	Reflect Damage Slow	Reflect Damage ทำให้เชื่องช้า
+10220201254	Switch Thorn	สลับ Thorn
+10220201256	Switch Twilight Light	สลับ Twilight Light
+10220201261	Shield Casting Passive	สกิลติดตัวการร่ายโล่
+10220201263	Switch Shield Press	สลับ Shield Press
+10220201274	Dragon Knight: Fire Mark@{1}	Dragon Knight: เครื่องหมายไฟ@{1}
+10220201283	Reset Phantom Thrust CD	รีเซ็ต CD ของ Phantom Thrust
+10220201285	Lance Knight: Fire Mark@{1}	Lance Knight: เครื่องหมายไฟ@{1}
+10220201288	Hundred Spear Mode@{1}	โหมด Hundred Spear@{1}
+10220201303	Switch Comet	สลับ Comet
+10220201305	Elemental Attunement-Comet	การปรับธาตุ-Comet
+10220201307	Normal Attack Counter	ตัวนับการโจมตีปกติ
+10220201313	Switch Psychic Orb	สลับ Psychic Orb
+10220201315	Psychic Orb-Counter	Psychic Orb-ตัวนับ
+10220201331	Reduce Twilight Ray CD	ลด CD ของ Twilight Ray
+10220201340	Phantom Thrust Stacks	stacks ของ Phantom Thrust
+10220201344	Haste	เร่งความเร็ว
+10220201345	Slow	สถานะ Slow
+10220201356	Healing Reduction	การลดการฮีล
+10220201357	Void Rift	รอยแยกแห่งความว่างเปล่า
+10220201359	Test@{1}	ทดสอบ@{1}
+10220201366	Gravity Impact Continuous Ghost Attack	Gravity Impact โจมตี Ghost ต่อเนื่อง
+10220201369	Skill Slow Listener	ตัวรับเหตุการณ์สกิลทำให้เชื่องช้า
+10220201378	Enhance Auto Counter	เสริมพลัง Auto Counter
+10220201388	Joint Beat Movement Speed Reduction	Joint Beat ลดความเร็วเคลื่อนที่
+10220201389	Joint Beat Attack Speed Reduction	Joint Beat ลดความเร็วโจมตี
+10220201401	Mounted State	สถานะขี่พาหนะ
+10220201403	Mounted State-Dragon	สถานะขี่พาหนะ-Dragon
+10220201404	Phantom Thrust Target	เป้าหมายของ Phantom Thrust
+10220201414	Shoot an arrow	ยิงลูกศร
+10220201418	Guide Line Effect	เอฟเฟกต์เส้นนำทาง
+10220201419	Minor Speed Boost Effect	เอฟเฟกต์เพิ่มความเร็วเล็กน้อย
+10220201421	Transform Wheel Replacement	การแทนที่วงล้อแปลงร่าง
+10220201430	Self-Destruct Speed Boost	Self-Destruct เพิ่มความเร็ว
+10220201432	Control Immunity	ภูมิคุ้มกันการควบคุม
+10220201439	Damage/Attack Speed (Weak Point Attack)	ดาเมจ/ความเร็วโจมตี (โจมตีจุดอ่อน)
+10220201442	Effect (Test)	เอฟเฟกต์ (ทดสอบ)
+10220201444	Increase Healing	เพิ่มการรักษา
+10220201446	Ten Kills in One Step	สังหารสิบครั้งในหนึ่งก้าว
+10220201447	Silence Test	ทดสอบ Silence
+10220201449	Orbit Test Buff	บัฟทดสอบวงโคจร
+10220201452	Dual-Dagger Logic Script@{1}	สคริปต์ตรรกะมีดคู่@{1}
+10220201454	Sand Puff Slow	Sand Puff ทำให้เชื่องช้า
+10220201459	Move back Increase Dodge	ถอยหลัง เพิ่มการหลบหลีก
+10220201473	Assassin Talent Placeholder@{1}-@{2}	ตัวแทนชั่วคราวของพรสวรรค์ Assassin@{1}-@{2}
+10220201476	Black Phantom Damage Increase	Black Phantom เพิ่มดาเมจ
+10220201478	Rolling Cutter Passive	สกิลติดตัวของ Rolling Cutter
+10220201480	Venom Dance Increase Dodge	Venom Dance เพิ่มการหลบหลีก
+10220201481	Black Phantom Floors	ชั้นของ Black Phantom
+10220201482	Black Phantom Timer	ตัวจับเวลา Black Phantom
+10220201485	Shadow Loop Status	สถานะ Shadow Loop
+10220201490	Holy Guard	การคุ้มครองศักดิ์สิทธิ์
+10220201491	Divine Message	สารศักดิ์สิทธิ์
+10220201493	Nature's Blessing	พรแห่งธรรมชาติ
+10220201495	Momentum Breaker	ทำลายแรงส่ง
+10220201500	Healing Cap	เพดานการฟื้นฟู
+10220201506	Physical Damage Cap	เพดาน P.DMG
+10220201515	Decapitation	ตัดศีรษะ
+10220201519	Abundant Strength	พละกำลังเหลือเฟือ
+10220201521	Fortitude Defense	การป้องกันอย่างแข็งแกร่ง
+10220201524	CRIT DMG	ความเสียหาย CRIT
+10220200036	Basic Attack Damage	ดาเมจโจมตีพื้นฐาน
+10220200037	Blunt Weapon Normal Attack [Triggered Effect]	โจมตีปกติด้วยอาวุธทื่อ [ Triggered Effect ]
+10220200046	Status Effect	เอฟเฟกต์สถานะ
+10220200047	Movement Restriction	จำกัดการเคลื่อนที่
+10220200069	Crazy Uproar - Self-Motivation	Crazy Uproar - กระตุ้นตัวเอง
+10220200074	Maximize Power - Weapon Polishing	Maximize Power - ขัดเงาอาวุธ
+10220200078	High Speed Cart Ram Replacement Mode	โหมดแทนที่ High Speed Cart Ram
+10220200081	Terminate Stun	สตันจาก Terminate
+10220200084	Cart Reinforcement	เสริมความแข็งแรงรถเข็น
+10220200088	Booming Business	กิจการเฟื่องฟู
+10220200102	Finishing Blow	โจมตีปิดฉาก
+10220200104	Terminate Blast	ระเบิดจาก Terminate
+10220200120	Cart Tornado - Enhance	Cart Tornado - เสริมพลัง
+10220200121	Cart Tornado - Enhance Count	Cart Tornado - จำนวนเสริมพลัง
+10220200124	Firepower Loaded	บรรจุพลังยิงแล้ว
+10220200126	Season Vulcan Cannon Damage Boost Buff	บัฟเพิ่มดาเมจ Vulcan Cannon ฤดูกาล
+10220200128	Play Season Melody Bubble Effect	เอฟเฟกต์ฟองของทำนองฤดูกาลที่เล่น
+10220200130	Play Season Enhanced Cannon Hit Effect	เอฟเฟกต์โจมตีโดนของปืนใหญ่เสริมพลังฤดูกาลที่เล่น
+10220200145	Heavy Axe Strike Listener - Remove Mode Replacement	ตัวตรวจจับ Heavy Axe Strike - นำการแทนที่โหมดออก
+10220200146	Crescent Blade Wheel Listener	ตัวตรวจจับ Crescent Blade Wheel
+10220200147	Reset Crescent Blade Wheel Cooldown	รีเซ็ตคูลดาวน์ Crescent Blade Wheel
+10220200149	Self-Destruct HP Lock	ล็อก HP ของ Self-Destruct
+10220200156	Season Cannon Switch BD @{1}	สลับปืนใหญ่ฤดูกาล BD @{1}
+10220200159	S@{1} Axe Tornado Casts Demonic Roar to Add Floors	S@{1} Axe Tornado ใช้ Demonic Roar เพื่อเพิ่มชั้น
+10220200163	S@{1} Firepower Loading	S@{1} บรรจุพลังยิง
+10220200166	S@{1} High-Energy Impact Mode Switch	S@{1} สลับโหมด High-Energy Impact
+10220200167	S@{1} Vulcan Cannon Floors Listener	S@{1} ตัวตรวจจับชั้น Vulcan Cannon
+10220200168	HP Lock Buff	บัฟล็อก HP
+10220200172	Lv. @{1} Bonfire	กองไฟ Lv. @{1}
+10220200176	New Lv. @{1} Bonfire	กองไฟใหม่ Lv. @{1}
+10220200177	Transform: Poring	แปลงร่างเป็น Poring
+10220200179	Transform into Savage Babe	แปลงร่างเป็น Savage Babe
+10220200181	Transform into Baphomet Jr.	แปลงร่างเป็น Baphomet Jr.
+10220200182	HP Listener	ตัวตรวจจับ HP
+10220200183	Trigger Split	กระตุ้น Split
+10220200186	Cancel Transformation	ยกเลิกการแปลงร่าง
+10220200189	Size @{1}	ขนาด @{1}
+10220200194	Red Thread Item	ไอเทม Red Thread
+10220200249	Grand Cross Grants Endure	Grand Cross มอบ Endure
+10220200252	Holy Cross Triggers AoE Damage	Holy Cross กระตุ้นดาเมจ AoE
+10220200256	Divine Suppression Triggers AoE	Divine Suppression กระตุ้น AoE
+10220200259	Holy Cross Attack Frequency	ความถี่โจมตี Holy Cross
+10220200270	Shield Bash - Chance to Become AoE	Shield Bash - โอกาสเปลี่ยนเป็น AoE
+10220200283	Rapid Smiting Resets Shield Boomerang CD	Rapid Smiting รีเซ็ต CD ของ Shield Boomerang
+10220200284	Shield Boomerang Becomes AoE	Shield Boomerang เปลี่ยนเป็น AoE
+10220200288	Charge Up Passive	สกิลติดตัวชาร์จพลัง
+10220200289	Charge Up	ชาร์จพลัง
+10220200292	Shield Triggers Damage	โล่ทำให้เกิดดาเมจ
+10220200293	Earth Drive Debuff	ดีบัฟ Earth Drive
+10220200297	DMG Reduction	ลดความเสียหาย
+10220200302	King's Grace Grants a Buff Every @{1} Seconds	King's Grace มอบบัฟทุก @{1} วินาที
+10220200307	Enhance Shield Bash	เสริมพลัง Shield Bash
+10220200308	Reduce Enhance Shield Bash Floors	ลดชั้นการเสริมพลัง Shield Bash
+10220200309	Charge Countdown	นับถอยหลังชาร์จ
+10220200314	Gryphon State	สถานะ Gryphon
+10220200318	Skill Damage Multiplier	ตัวคูณดาเมจสกิล
+10220200322	Extra Skill Critical	คริติคอลสกิลเพิ่มเติม
+10220200324	Variable CT	เวลาร่ายแปรผัน
+10220200326	Skill Cooldown	คูลดาวน์สกิล
+10220200329	Maximum Cast Distance	ระยะร่ายสูงสุด
+10220200332	Maximum Number of Targets	จำนวนเป้าหมายสูงสุด
+10220200333	Skill Casting Movement State	สถานะเคลื่อนที่ระหว่างร่ายสกิล
+10220200334	Usable	ใช้ได้
+10220200338	Custom Damage Parameters	พารามิเตอร์ดาเมจกำหนดเอง
+10220200339	Special Casting/Chanting State	สถานะร่าย/ร่ายคาถาพิเศษ
+10220200363	Shadow Step Trail	รอยทาง Shadow Step
+10220200371	Poisoned	ติดพิษ
+10220200373	Fear	หวาดกลัว
+10220200374	HP Recovery	การฟื้นฟู HP
+10220200378	Endurance Orbit	วงโคจรทนทาน
+10220200379	Evil Orbit	วงโคจรชั่วร้าย
+10220200380	Attack Orbit	วงโคจรโจมตี
+10220200383	Radiance Orbit	วงโคจรแสงเจิดจ้า
+10220200384	Desolation Orbit	วงโคจรความรกร้าง
+10220200386	Instantly restores @{1} HP	ฟื้นฟู HP @{1} ทันที
+10220200393	Record	บันทึก
+10220200397	Instantly restores all HP	ฟื้นฟู HP ทั้งหมดทันที
+10220200398	(Deprecated)	(เลิกใช้แล้ว)
+10220200399	Blessing (Deprecated)	Blessing (เลิกใช้แล้ว)
+10220200405	Storm Gust (Deprecated)	Storm Gust (เลิกใช้แล้ว)
+10220200411	Valkyrie's Blessing	พรของ Valkyrie
+10220200412	Blessing of Thor, God of Thunder	พรของ Thor เทพสายฟ้า
+10220200415	Blessing of Baldr, God of Light	พรของ Baldr เทพแห่งแสง
+10220200426	Transform: Angeling	แปลงร่างเป็น Angeling
+10220200433	Ball Catch Buff	บัฟรับลูกบอล
+10220200436	Escort Cart Lightly Damaged	รถคุ้มกันเสียหายเล็กน้อย
+10220200439	Escort Cart Endure	Endure ของรถคุ้มกัน
+10220200442	Invincible	ไร้พ่าย
+10220200445	Explosion Effect	เอฟเฟกต์ระเบิด
+10220200447	First Blood Monster	มอนสเตอร์ First Blood
+10220200450	Healing Orbit Effect	เอฟเฟกต์วงโคจรรักษา
+10220200452	Damage Reduction Orbit	วงโคจรลดดาเมจ
+10220200457	Escort Cart Movement Penalty	ผลเสียการเคลื่อนที่รถคุ้มกัน
+10220200459	Protection Orbit Mark	เครื่องหมายวงโคจรป้องกัน
+10220200460	Protection Orbit DEF Boost	เพิ่ม DEF ของวงโคจรป้องกัน
+10220200464	Knockback	กระเด็น
+10220200468	Silence	สถานะ Silence
+10220200470	Frozen	สถานะ Frozen
+10220200472	Bleeding	เลือดออก
+10220200479	Change Armor to Earth Property	เปลี่ยนธาตุของชุดเกราะเป็น Earth
+10220200481	Change Armor to Wind Property	เปลี่ยนธาตุของชุดเกราะเป็น Wind
+10220200484	Change Armor to Ghost Property	เปลี่ยนธาตุของชุดเกราะเป็น Ghost
+10220200486	Curse	คำสาป
+10220200494	Item Use Disabled	ห้ามใช้ไอเทม
+10220200497	Class Resonance	การสั่นพ้องอาชีพ
+10220200505	High Morale	ขวัญกำลังใจสูง
+10220200512	Iron Slash	ฟันเหล็ก
+10220200513	Revive Point Protection	การป้องกันจุดคืนชีพ
+10220200516	Flight	บิน
+10220200528	Guardian's Will	เจตจำนงผู้พิทักษ์
+10220200536	Manhunt	ล่าคน
+10220200543	Lope Start Marker	เครื่องหมายเริ่ม Lope
+10220200545	Bride Character Marker	เครื่องหมายตัวละครเจ้าสาว
+10220200548	ATK Boost	เพิ่ม ATK
+10220200553	HP Recovery	การฟื้นฟู HP
+10220200561	Gain an ATK Boost	ได้รับการเพิ่ม ATK
+10220200566	Recover HP	ฟื้นฟู HP
+10220200567	Skill Acquisition Effect	เอฟเฟกต์ได้รับสกิล
+10220200568	Adds a Lope button	เพิ่มปุ่ม Lope
+10220200573	Transform into Red Musical Notes Underfoot	แปลงเป็นตัวโน้ตดนตรีสีแดงใต้เท้า
+10220200575	HP Lock@{1}%	ล็อก HP@{1}%
+10220200577	Small note idle (stationary)	ตัวโน้ตเล็กพัก (อยู่กับที่)
+10220200580	Little Note Counterclockwise Skill 3	สกิล 3 ของตัวโน้ตเล็กทวนเข็มนาฬิกา
+10220200588	Little Note Counterclockwise Skill@{1}	สกิล@{1} ของตัวโน้ตเล็กทวนเข็มนาฬิกา
+10220200590	Battle Royale Transition Pull	ดึงช่วงเปลี่ยนผ่าน Battle Royale
+10220200594	White Circle Underfoot	วงกลมขาวใต้เท้า
+10220200595	Force-display targeted players	บังคับแสดงผู้เล่นเป้าหมาย
+10220200597	Cloud Connection	เชื่อมต่อเมฆ
+10220200598	Count	จำนวน
+10220200599	Suffocation	ขาดอากาศหายใจ
+10220200602	Power of Tide	พลังแห่งกระแสน้ำ
+10220200611	Accelerate Buff	บัฟเร่งความเร็ว
+10220200612	Death Immunity Buff	บัฟภูมิคุ้มกันการตาย
+10220200615	Madogear Pilot Protection	การป้องกัน Madogear Pilot
+10220200617	Electrified	ถูกไฟฟ้าช็อต
+10220200627	Rising Resolve	ความมุ่งมั่นเพิ่มขึ้น
+10220200630	Magnificent Burst	ระเบิดยิ่งใหญ่
+10220200631	Invincible Tank	Tank ไร้พ่าย
+10220200632	Acceleration	เร่งความเร็ว
+10220200636	HP Lock	ล็อก HP
+10220200638	Set Periodic Damage Cap	กำหนดเพดานดาเมจเป็นช่วง
+10220200639	Idle Speed	ความเร็วขณะพัก
+10220200648	Fatigue Immunity	ภูมิคุ้มกันความเหนื่อยล้า
+10220200652	AoE Buff	บัฟ AoE
+10220200653	Gryphon Skill Shield	โล่ Gryphon Skill
+10220200655	Guard Domain Orbit	วงโคจรเขตป้องกัน
+10220200656	Guard Domain	เขตป้องกัน
+10220200664	Basic Attack【Trigger Effect】	โจมตีพื้นฐาน [ Trigger Effect ]
+10220200675	General Effect【Invalid Shell】	เอฟเฟกต์ทั่วไป [ Invalid Shell ]
+10220200681	General Effect【Buff Effect】	เอฟเฟกต์ทั่วไป [ Buff Effect ]
+10220200692	Warg Strike Trigger	กระตุ้น Warg Strike
+10220200701	Agility Resonance	การสั่นพ้องความคล่องตัว
+10220200704	Vitality Resonance	การสั่นพ้องความอึด
+10220200706	Potion Healing	การรักษาจากยา
+10220200709	Honing Iron	ลับเหล็ก
+10220200712	Spirit Glyph	อักขระวิญญาณ
+10220200739	Generic Slow	ลดความเร็วทั่วไป
+10220200742	Drowning	จมน้ำ
+10220200758	Prison	คุก
+10220200766	Spellbook - Thunderclap	หนังสือเวท - Thunderclap
+10220200768	Spellbook - Earth Strain	หนังสือเวท - Earth Strain
+10220200771	Elemental Attunement	ปรับจูนธาตุ
+10220200775	Fire Wall SFX	SFX ของ Fire Wall
+10220200780	Storm Gust SFX	SFX ของ Storm Gust
+10220200782	Page	หน้า
+10220200784	Spellbook - Soul Burst	หนังสือเวท - Soul Burst
+10220200789	Spellbook - Gravity Impact	หนังสือเวท - Gravity Impact
+10220200793	Remove @{1} Pages	นำออก @{1} หน้า
+10220200799	Basic Magic Rune	รูนเวทพื้นฐาน
+10220200800	Basic Spell Calibration	ปรับเทียบเวทพื้นฐาน
+10220200809	Earthfire Mark	เครื่องหมายไฟดิน
+10220200812	Ice and Thunder Mark	เครื่องหมายน้ำแข็งและสายฟ้า
+10220200815	Arcane Training	ฝึกฝนเวท
+10220200819	Elemental Preparation	เตรียมธาตุ
+10220200827	Magic Calibration	ปรับเทียบเวท
+10220200831	Meteor Storm Triggers Embers	Meteor Storm กระตุ้น Embers
+10220200897	Acid Corrosion	กรดกัดกร่อน
+10220200905	Golden Thief Bug Summons Thief Bugs with Paralyze	Golden Thief Bug เรียก Thief Bugs พร้อมสถานะอัมพาต
+10220200906	Paralyze	อัมพาต
+10220200907	Healing Dummy Exclusive Buff	บัฟเฉพาะหุ่นฝึกรักษา
+10220200909	Goblin Leader ST Target Lock Marker	เครื่องหมายล็อกเป้าหมาย Single Target ของ Goblin Leader
+10220200912	Totem ZS (Deprecated)	Totem ZS (เลิกใช้แล้ว)
+10220200914	Check Whether Killed	ตรวจสอบว่าถูกสังหารหรือไม่
+10220200918	Bell Activation Effect	เอฟเฟกต์เปิดใช้งานระฆัง
+10220200927	Death Scythe Life Recovery	ฟื้นฟู Life ของ Death Scythe
+10220200947	Adaptive Attack	การโจมตีปรับตัว
+10220200955	Lightning Strike HIT Marker	เครื่องหมาย HIT ของ Lightning Strike
+10220200973	Bongun Life Recovery Trigger	กระตุ้นการฟื้นฟู Life ของ Bongun
+10220200977	Formless Passive	สกิลติดตัว Formless
+10220200979	Ancient Mummy Passive	สกิลติดตัว Ancient Mummy
+10220200981	Protection of the Sands	การปกป้องแห่งผืนทราย
+10220200984	Spirit Shield	โล่วิญญาณ
+10220200988	Corrupted Wander Man Exclusive Passive	สกิลติดตัวเฉพาะ Corrupted Wander Man
+10220200997	Hard Prismatic Nightmare Passive	สกิลติดตัว Prismatic Nightmare ระดับยาก
+10220201002	Marionette's Curse	คำสาปของ Marionette
+10220201003	Ancient Tree Passive	สกิลติดตัว Ancient Tree
+10220201004	Ancient Tree's Protection	การป้องกันของ Ancient Tree
+10220201005	Lava Lizard Passive	สกิลติดตัว Lava Lizard
+10220201007	Wild Rose Passive	สกิลติดตัว Wild Rose
+10220201014	Alicel - Blade	Alicel - ใบมีด
+10220201017	Basilisk Passive	สกิลติดตัว Basilisk
+10220201024	Clock Passive	สกิลติดตัว Clock
+10220201025	Stealth	ลอบเร้น
+10220201027	ATK and MATK Reduction	ลด ATK และ M.ATK
+10220201029	Silver Moon Trigger Buff	บัฟกระตุ้น Silver Moon
+10220201030	Moonlight	แสงจันทร์
+10220201036	Wildcat Passive	สกิลติดตัว Wildcat
+10220201038	Demon Flame	เปลวเพลิงปีศาจ
+10220201044	Fairy Blessing	พรภูต
+10220201077	Transform into Golden Thief Bug	แปลงร่างเป็น Golden Thief Bug
+10220201078	Universal - Gift Magic Circle	ทั่วไป - วงเวทของขวัญ
+10220201082	Golden Thief Bug Stealth	ลอบเร้นของ Golden Thief Bug
+10220201087	Mist Formation Stealth	ลอบเร้นของ Mist Formation
+10220201089	Dungeon Matchmaking Penalty II	บทลงโทษจับคู่ดันเจี้ยน II
+10220201092	Full-screen AOE	AOE เต็มหน้าจอ
+10220201093	Blade Mountain-Greatsword	Blade Mountain-ดาบใหญ่
+10220201102	Weapon Deflection Mechanic Callout	ข้อความแจ้งกลไกปัดอาวุธ
+10220201104	Check Whether It's on a Line	ตรวจสอบว่าอยู่บนเส้นหรือไม่
+10220201107	Invincible and Untargetable	ไร้พ่ายและไม่สามารถเลือกเป็นเป้าหมายได้
+10220201112	Ghost Ship Single-Hit Buff	บัฟโจมตีครั้งเดียวของ Ghost Ship
+10220201114	Player Link	เชื่อมโยงผู้เล่น
+10220201116	Petrify Screen Effect	เอฟเฟกต์หน้าจอกลายเป็นหิน
+10220201118	Player Link @{1}	เชื่อมโยงผู้เล่น @{1}
+10220201119	New Player Link	การเชื่อมโยงผู้เล่นใหม่
+10220201120	Red Line Link	เชื่อมโยงเส้นแดง
+10220201122	New Player Link Node	โหนดการเชื่อมโยงผู้เล่นใหม่
+10220201127	Focus Zoom	ซูมโฟกัส
+10220201129	Coffin Skill	สกิลโลงศพ
+10220201134	Coffin Skill@{1}	สกิลโลงศพ@{1}
+10220201140	HP Bar Display	แสดงแถบ HP
+10220201145	Pyramid Laser	เลเซอร์ Pyramid
+10220201147	Laser Link	เชื่อมโยงเลเซอร์
+10220201151	Charged Bell	ระฆังชาร์จพลัง
+10220201152	Party-Wide Stealth	พรางตัวทั้งปาร์ตี้
+10220201153	Cumulative Time Under the Light	เวลาสะสมใต้แสง
+10220201156	Anti-Flicker Buff	บัฟป้องกันกะพริบ
+10220201159	Same-Color Collision Bubble NPC Left	NPC ฟองชนสีเดียวกันด้านซ้าย
+10220201161	Red Note	โน้ตแดง
+10220201162	Bubble Movement	การเคลื่อนที่ฟอง
+10220201167	Invincible and Untargetable (Deprecated)	ไร้พ่ายและไม่สามารถเลือกเป็นเป้าหมายได้ (เลิกใช้แล้ว)
+10220201168	Different-Color Collision Bubble NPC Right	NPC ฟองชนสีต่างกันด้านขวา
+10220201173	Stationary Blue Bubble	ฟองน้ำเงินอยู่กับที่
+10220201176	Wave Slow	ลดความเร็วจากคลื่น
+10220201182	p@{1} Speed Buff	บัฟความเร็ว p@{1}
+10220201188	Highest-Aggro Target Effect	เอฟเฟกต์เป้าหมายที่มีค่าความเกลียดชังสูงสุด
+10220201189	Boss Movement Detection Buff	บัฟตรวจจับการเคลื่อนที่บอส
+10220201190	Red Bubble Screen Tracking Effect	เอฟเฟกต์ติดตามบนหน้าจอของฟองแดง
+10220201196	Dance Machine Transform	แปลงร่าง Dance Machine
+10220201197	Dance Machine Skill Swap	สลับสกิล Dance Machine
+10220201203	Skill @{1} Cast Check	ตรวจสอบการใช้สกิล @{1}
+10220201205	Perfect State	สถานะสมบูรณ์แบบ
+10220201224	Harmony Self Buff	บัฟ Harmony ของตัวเอง
+10220201225	Battle Chant Harmony: Harmony	การประสานเสียง Battle Chant: Harmony
+10220201228	Psalm Self Buff	บัฟ Psalm ของตัวเอง
+10220201230	Original Melody Chorus Self Buff	บัฟ Original Melody Chorus ของตัวเอง
+10220201231	Battle Chant Harmony: Original Melody Chorus	การประสานเสียง Battle Chant: Original Melody Chorus
+10220201233	Low Drone Self Buff	บัฟ Low Drone ของตัวเอง
+10220201237	Divinity True Form Self Buff	บัฟ Divinity True Form ของตัวเอง
+10220201238	Voice Part	แนวเสียง
+10220201242	Voice Part Performance Buff	บัฟแสดงแนวเสียง
+10220201245	Soul Burst Skill Detection Buff	บัฟตรวจจับสกิล Soul Burst
+10220201251	Season High-Energy Impact Switch bd@{1}	สลับ High-Energy Impact ฤดูกาล bd@{1}
+10220201258	Switch Enhance Blood Cross	สลับ Blood Cross เสริมพลัง
+10220201259	Switch King's Grace	สลับ King's Grace
+10220201260	Shield Damage Reduction	การลดดาเมจของโล่
+10220201264	Switch Blood Cross	สลับ Blood Cross
+10220201265	Switch Moon Slasher	สลับ Moon Slasher
+10220201266	Earth Drive Slow	ลดความเร็ว Earth Drive
+10220201267	Switch Earth Drive@{1}	สลับ Earth Drive@{1}
+10220201269	Delay	หน่วงเวลา
+10220201273	Frenzy BD VFX	VFX ของ Frenzy BD
+10220201276	Dragon Knight: Wind Mark@{1}	Dragon Knight: เครื่องหมายลม@{1}
+10220201277	Dragon Transformation	แปลงร่างมังกร
+10220201282	Target Mark	เครื่องหมายเป้าหมาย
+10220201287	Advanced Hundred Spear Counter S@{1}	ตัวนับ Hundred Spear ขั้นสูง S@{1}
+10220201295	Overpower Passive	สกิลติดตัว Overpower
+10220201306	Elemental Attunement Comet	ปรับจูนธาตุ Comet
+10220201308	Switch White Imprison	สลับ White Imprison
+10220201311	Switch Enhance Soul Burst	สลับ Soul Burst เสริมพลัง
+10220201312	Spellbook-Little Meteor	หนังสือเวท-Little Meteor
+10220201317	Performance Buff	บัฟการแสดง
+10220201334	Replace Earth Drive	แทนที่ Earth Drive
+10220201336	Enhance Guard	เสริมพลัง Guard
+10220201339	Slash Mode@{1}	โหมดฟัน@{1}
+10220201354	Flowing Shadow Floors	จำนวนชั้นของ Flowing Shadow
+10220201355	Magic Release	ปลดปล่อยเวท
+10220201361	Prison Slow	ลดความเร็ว Prison
+10220201363	Enhanced Gravity Impact Listener	ตัวตรวจจับ Gravity Impact เสริมพลัง
+10220201364	Soul Burst/White Imprison/Gravity Impact Slow	ลดความเร็ว Soul Burst/White Imprison/Gravity Impact
+10220201390	Joint Beat Physical DEF Reduction	ลด P.DEF ของ Joint Beat
+10220201392	Joint Beat Add Immunity Buff	Joint Beat เพิ่มบัฟภูมิคุ้มกัน
+10220201395	Shield Visual Effect	เอฟเฟกต์ภาพโล่
+10220201406	Hundred Spear Charge	ชาร์จ Hundred Spear
+10220201416	Minor Speed Boost	เพิ่มความเร็วเล็กน้อย
+10220201420	Major Speed Boost Effect	เอฟเฟกต์เพิ่มความเร็วมาก
+10220201422	Speed Boost Charge	ชาร์จเพิ่มความเร็ว
+10220201423	Missile Charge	ชาร์จมิสไซล์
+10220201425	Dark Charge	ชาร์จมืด
+10220201428	Extreme Speed Boost	เพิ่มความเร็วขั้นสุด
+10220201429	Extreme Slow	ลดความเร็วขั้นสุด
+10220201431	Reduced Field of View	ขอบเขตการมองเห็นลดลง
+10220201433	Freezing Trap Hunter Effect	เอฟเฟกต์ Freezing Trap Hunter
+10220201438	Damage Increase (Magnum Break)	เพิ่มดาเมจ (Magnum Break)
+10220201440	Dark Wall (Test)	Dark Wall (ทดสอบ)
+10220201448	Meditation State	สถานะสมาธิ
+10220201469	Damage Increase Effect	เอฟเฟกต์เพิ่มดาเมจ
+10220201474	Premeditation	เตรียมแผนล่วงหน้า
+10220201475	Assassin Talent@{1}-@{2} Support Buff	บัฟสนับสนุนพรสวรรค์ Assassin@{1}-@{2}
+10220201483	Black Phantom Passive	สกิลติดตัว Black Phantom
+10220201484	Thousand Shadows Status	สถานะ Thousand Shadows
+10220201494	Magic Amplification	เพิ่มประสิทธิภาพเวท
+10220201496	Magic Damage Cap	เพดาน M.DMG
+10220201497	Magic Convergence	ผสานพลังเวท
+10220201502	Holy Light Convergence	ผสานพลัง Holy Light
+10220201504	Ranged Amplification	เพิ่มประสิทธิภาพระยะไกล
+10220201505	Vengeful Magic	เวทอาฆาต
+10220201512	Defense Cap	เพดานการป้องกัน
+10220201516	Continuous Healing	รักษาต่อเนื่อง
+10220201518	Battle Ready	เตรียมพร้อมต่อสู้
+10220201523	Continuous Shield	โล่ต่อเนื่อง
+10220200185	Immunity	ภูมิคุ้มกัน
+10220200191	Size Increased	ขนาดเพิ่มขึ้น
+10220200193	Size Reduced	ขนาดลดลง
+10220200233	Increased Spear ASPD	เพิ่ม ASPD ของหอก
+10220200244	Battle Chant - Reduced Physical and Magic ATK	Battle Chant - ลด P.ATK และ M.ATK
+10220200245	Battle Chant - Increased Physical and Magic DEF	Battle Chant - เพิ่ม P.DEF และ M.DEF
+10220200260	Increased Grand Cross Damage	เพิ่มความเสียหายของ Grand Cross
+10220200261	Increased Grand Cross and Other Damage	เพิ่มความเสียหายของ Grand Cross และความเสียหายอื่น
+10220200262	Spear Mastery Increased Physical ATK	Spear Mastery เพิ่ม P.ATK
+10220200263	Spear Mastery - Increased Physical ATK	Spear Mastery - เพิ่ม P.ATK
+10220200264	Spear Mastery Increased ASPD	Spear Mastery เพิ่ม ASPD
+10220200265	Spear Mastery - Increased ASPD	Spear Mastery - เพิ่ม ASPD
+10220200266	Spear Mastery Increased ATK	Spear Mastery เพิ่ม ATK
+10220200267	Spear Mastery - Increased ATK	Spear Mastery - เพิ่ม ATK
+10220200268	Spear Mastery Increased Holy Damage	Spear Mastery เพิ่มความเสียหาย Holy
+10220200269	Spear Mastery - Increased Holy Damage	Spear Mastery - เพิ่มความเสียหาย Holy
+10220200271	Shield Bash - Increased Damage After @{1} Uses	Shield Bash - เพิ่มความเสียหายหลังใช้ @{1} ครั้ง
+10220200272	Reduced Martyr's Reckoning Cost	ลดค่าใช้ของ Martyr's Reckoning
+10220200273	Increased Martyr's Reckoning Normal Attack Damage	เพิ่มความเสียหายการโจมตีปกติของ Martyr's Reckoning
+10220200275	Auto Guard Increases Shield Bash and Other Damage	Auto Guard เพิ่มความเสียหายของ Shield Bash และความเสียหายอื่น
+10220200276	Auto Guard Reduces Damage Taken	Auto Guard ลดความเสียหายที่ได้รับ
+10220200278	Increased Base Battle Chant Effects	เพิ่มผลพื้นฐานของ Battle Chant
+10220200279	Increased Max Life During Battle Chant	เพิ่ม Max Life ระหว่าง Battle Chant
+10220200280	Increased Shield Boomerang Damage During Battle Chant	เพิ่มความเสียหายของ Shield Boomerang ระหว่าง Battle Chant
+10220200281	Increased Rapid Smiting Damage	เพิ่มความเสียหายของ Rapid Smiting
+10220200391	Attack Immunity	ภูมิคุ้มกันการโจมตี
+10220200396	Increases Movement Speed and HP recover	เพิ่ม MSPD และการฟื้นฟู HP
+10220200473	Debuff Immunity	ป้องกันดีบัฟ
+10220200475	Boss CC Immunity	ภูมิคุ้มกัน CC ของบอส
+10220200496	Element Counter Immunity	ภูมิคุ้มกัน Element Counter
+10220200531	Physical Immune	ภูมิคุ้มกันกายภาพ
+10220200532	Magic Immune	ภูมิคุ้มกันเวท
+10220200565	Gain increased Movement Speed	ได้รับความเร็วเคลื่อนที่เพิ่มขึ้น
+10220200822	Killer Book MATK Increase	Killer Book เพิ่ม M.ATK
+10220200829	Cast Time Increase @{1}	เพิ่มเวลาร่าย @{1}
+10220200830	MATK Increase @{1}	เพิ่ม M.ATK @{1}
+10220200883	Knockback Immunity for Immobile Monsters	ภูมิคุ้มกันการกระเด็นสำหรับมอนสเตอร์ที่เคลื่อนที่ไม่ได้
+10220200923	Max Life Increase Buff Test	ทดสอบบัฟเพิ่ม Max Life
+10220200957	Continuous Lightning Strike Damage Increase Check	ตรวจการเพิ่มความเสียหายของ Lightning Strike ต่อเนื่อง
+10220200958	Lightning Strike Damage Increase Stack	stacks การเพิ่มความเสียหายของ Lightning Strike
+10220201032	Damage Taken Increase	เพิ่มความเสียหายที่ได้รับ
+10220201033	Ranged Damage Increase	เพิ่มความเสียหายระยะไกล
+10220201042	MATK Increase	เพิ่ม M.ATK
+10220201049	DEF and MDEF Increase	เพิ่ม DEF และ M.DEF
+10220201137	Increase Aggro	เพิ่มค่าความเกลียดชัง
+10220201175	Knockback Immunity	ป้องกันการกระเด็น
+10220201333	Increase Earth Drive Damage	เพิ่มความเสียหายของ Earth Drive
+10220201335	Record Damage Dealt	บันทึกความเสียหายที่สร้าง
+10220201371	DEF increased	DEF เพิ่มขึ้น
+10220201381	Sword Attack Speed Increase	เพิ่ม ASPD ของดาบ

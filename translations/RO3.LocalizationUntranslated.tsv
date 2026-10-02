@@ -7071,12 +7071,9 @@
 10220200029	Cross Exorciser [Buff Effect]	Cross Exorciser [Buff Effect]
 10220200030	Cross Exorciser [Triggered Effect]	Cross Exorciser [Triggered Effect]
 10220200031	Divine Light/Sanctuary [Buff Effect]	Divine Light/Sanctuary [Buff Effect]
-10220200032	Revive [Buff Effect]	Revive [Buff Effect]
 10220200033	Sanctuary [Triggered Skill]	Sanctuary [Triggered Skill]
 10220200034	Cross Exorciser [Triggered Buff]	Cross Exorciser [Triggered Buff]
 10220200035	Cross Exorciser [Triggered Skill]	Cross Exorciser [Triggered Skill]
-10220200036	Basic Attack Damage	Basic Attack Damage
-10220200037	Blunt Weapon Normal Attack [Triggered Effect]	Blunt Weapon Normal Attack [Triggered Effect]
 10220200038	Cross Exorciser [Skill Mode]	Cross Exorciser [Skill Mode]
 10220200039	Sanctuary	Sanctuary
 10220200040	Sanctuary [Buff Check]	Sanctuary [Buff Check]
@@ -7085,157 +7082,45 @@
 10220200043	Basilica [Triggered Effect]	Basilica [Triggered Effect]
 10220200044	Divine Light [Triggered Skill]	Divine Light [Triggered Skill]
 10220200045	Hymn of the Lamb	Hymn of the Lamb
-10220200046	Status Effect	Status Effect
-10220200047	Movement Restriction	Movement Restriction
 10220200048	Radiant Holy Light	Radiant Holy Light
-10220200049	Fragrance	Fragrance
 10220200050	Prayer of the Holy Spirit	Prayer of the Holy Spirit
 10220200051	Respawn	Respawn
 10220200052	Prayer of Gratitude	Prayer of Gratitude
 10220200053	Wood Spirit's Blessing	Wood Spirit's Blessing
-10220200054	Tree Spirit's Blessing Trigger	Tree Spirit's Blessing Trigger
 10220200055	Double Holy Light	Double Holy Light
 10220200056	Holy Spirit Surge	Holy Spirit Surge
 10220200057	Divine Retribution	Divine Retribution
-10220200058	Stigma Count	Stigma Count
 10220200059	Hymn of Devotion	Hymn of Devotion
-10220200060	Tree Spirit's Blessing Invincible	Tree Spirit's Blessing Invincible
-10220200061	Stigma Charge Buff	Stigma Charge Buff
-10220200062	Descent of the Holy Spirit Prayer Trigger	Descent of the Holy Spirit Prayer Trigger
 10220200063	Decay	Decay
-10220200064	City Fallen	City Fallen
-10220200065	Guild Battle Preparations	Guild Battle Preparations
 10220200066	Crazy Uproar	Crazy Uproar
-10220200067	Mammonite Replacement	Mammonite Replacement
-10220200068	Crazy Uproar - Mind and Body Renewal	Crazy Uproar - Mind and Body Renewal
-10220200069	Crazy Uproar - Self-Motivation	Crazy Uproar - Self-Motivation
 10220200070	Hilt Binding	Hilt Binding
 10220200071	Adrenaline Rush	Adrenaline Rush
 10220200072	Power Thrust	Power Thrust
 10220200073	Maximize Power	Maximize Power
-10220200074	Maximize Power - Weapon Polishing	Maximize Power - Weapon Polishing
-10220200075	Maximize Power - Weapon Enhance	Maximize Power - Weapon Enhance
-10220200076	Cart Accessory	Cart Accessory
 10220200077	Cart Boost	Cart Boost
-10220200078	High Speed Cart Ram Replacement Mode	High Speed Cart Ram Replacement Mode
 10220200079	Melt Down	Melt Down
 10220200080	Maximum Over Thrust	Maximum Over Thrust
-10220200081	Terminate Stun	Terminate Stun
-10220200082	Maximum Over Thrust - Enhanced Power Thrust	Maximum Over Thrust - Enhanced Power Thrust
 10220200083	Maximum Over Thrust - Critical Strike	Maximum Over Thrust - Critical Strike
-10220200084	Cart Reinforcement	Cart Reinforcement
 10220200085	Mammonite	Mammonite
-10220200086	Gunpowder Smash	Gunpowder Smash
-10220200087	Anaerobic Training	Anaerobic Training
-10220200088	Booming Business	Booming Business
-10220200089	Body Tempering	Body Tempering
-10220200090	Earth's Power	Earth's Power
 10220200091	Earth Spike	Earth Spike
 10220200092	Earthshatter	Earthshatter
-10220200093	Rousing Support	Rousing Support
-10220200094	Mind and Body Renewal	Mind and Body Renewal
 10220200095	Self-Motivation	Self-Motivation
 10220200096	Cart Remodeling	Cart Remodeling
 10220200097	Weapon Mastery	Weapon Mastery
 10220200098	Cart Smash	Cart Smash
 10220200099	Speed Is Weight	Speed Is Weight
 10220200100	Second Wind	Second Wind
-10220200101	Unlimited Acceleration	Unlimited Acceleration
-10220200102	Finishing Blow	Finishing Blow
 10220200103	Cart Clash	Cart Clash
-10220200104	Terminate Blast	Terminate Blast
-10220200105	Limit Break	Limit Break
-10220200106	Weapon Polishing	Weapon Polishing
-10220200107	Weapon Enhance	Weapon Enhance
-10220200108	Charging Momentum	Charging Momentum
-10220200109	Accelerating Impact	Accelerating Impact
-10220200110	Sustained Acceleration	Sustained Acceleration
-10220200111	AoE Power Thrust	AoE Power Thrust
-10220200112	Enhanced Power Thrust	Enhanced Power Thrust
 10220200113	Critical Strike	Critical Strike
 10220200114	Axe Mastery	Axe Mastery
-10220200115	Slow	Slow
 10220200116	Emergency Treatment	Emergency Treatment
-10220200117	Emergency Treatment Shield	Emergency Treatment Shield
-10220200118	Emergency Treatment Healing	Emergency Treatment Healing
-10220200119	Blade Mark	Blade Mark
-10220200120	Cart Tornado - Enhance	Cart Tornado - Enhance
-10220200121	Cart Tornado - Enhance Count	Cart Tornado - Enhance Count
-10220200122	Firepower Ready	Firepower Ready
-10220200123	Cannon Refresh	Cannon Refresh
-10220200124	Firepower Loaded	Firepower Loaded
-10220200125	Melody Bubble	Melody Bubble
-10220200126	Season Vulcan Cannon Damage Boost Buff	Season Vulcan Cannon Damage Boost Buff
-10220200127	Season Vulcan Cannon CRIT Boost Buff	Season Vulcan Cannon CRIT Boost Buff
-10220200128	Play Season Melody Bubble Effect	Play Season Melody Bubble Effect
-10220200129	Play Season Standard Cannon Hit Effect	Play Season Standard Cannon Hit Effect
-10220200130	Play Season Enhanced Cannon Hit Effect	Play Season Enhanced Cannon Hit Effect
-10220200131	High-Energy Eruption	High-Energy Eruption
-10220200132	Blade Mark	Blade Mark
-10220200133	High-Energy Impact Listener	High-Energy Impact Listener
-10220200134	High-Energy Impact Mode Switch	High-Energy Impact Mode Switch
-10220200135	Vulcan Cannon Floors Listener @{1}	Vulcan Cannon Floors Listener @{1}
-10220200136	Vulcan Cannon Floors Listener @{1} Explosion Boost	Vulcan Cannon Floors Listener @{1} Explosion Boost
-10220200137	Battle Axe Assembly Test	Battle Axe Assembly Test
-10220200138	Battle Axe High-Energy Shield	Battle Axe High-Energy Shield
-10220200139	High-Energy Pulse - Listener	High-Energy Pulse - Listener
 10220200140	High-Energy Pulse	High-Energy Pulse
-10220200141	High-Energy Pulse - Replace Mode with Axe Tornado	High-Energy Pulse - Replace Mode with Axe Tornado
-10220200142	Enhanced Axe Tornado Listener	Enhanced Axe Tornado Listener
-10220200144	Heavy Axe Strike - Set Mode @{1}	Heavy Axe Strike - Set Mode @{1}
-10220200145	Heavy Axe Strike Listener - Remove Mode Replacement	Heavy Axe Strike Listener - Remove Mode Replacement
-10220200146	Crescent Blade Wheel Listener	Crescent Blade Wheel Listener
-10220200147	Reset Crescent Blade Wheel Cooldown	Reset Crescent Blade Wheel Cooldown
 10220200148	Energy Release	Energy Release
-10220200149	Self-Destruct HP Lock	Self-Destruct HP Lock
-10220200150	High-Energy Shield	High-Energy Shield
-10220200151	Crescent Blade Wheel Mark	Crescent Blade Wheel Mark
-10220200152	Energy Depletion	Energy Depletion
-10220200153	Jet Acceleration	Jet Acceleration
-10220200154	Monitor Arm Cannon Mode Removal of Season Vulcan Arm Explosion Boost	Monitor Arm Cannon Mode Removal of Season Vulcan Arm Explosion Boost
-10220200155	Energy Release Shield	Energy Release Shield
-10220200156	Season Cannon Switch BD @{1}	Season Cannon Switch BD @{1}
-10220200157	Season Vulcan Cannon Switch BD @{1}	Season Vulcan Cannon Switch BD @{1}
-10220200158	S@{1} High-Energy Impact Replaces Axe Tornado Mode	S@{1} High-Energy Impact Replaces Axe Tornado Mode
-10220200159	S@{1} Axe Tornado Casts Demonic Roar to Add Floors	S@{1} Axe Tornado Casts Demonic Roar to Add Floors
-10220200160	S@{1} Axe Tornado Casts Demonic Roar Listener	S@{1} Axe Tornado Casts Demonic Roar Listener
-10220200161	S@{1} Vulcan Cannon Mode Replacement	S@{1} Vulcan Cannon Mode Replacement
-10220200162	S@{1} Vulcan Cannon Counter Stack	S@{1} Vulcan Cannon Counter Stack
-10220200163	S@{1} Firepower Loading	S@{1} Firepower Loading
-10220200164	S@{1} Vulcan Cannon Triggers Cannon Follow-Up	S@{1} Vulcan Cannon Triggers Cannon Follow-Up
-10220200165	S@{1} High-Energy Impact Listener	S@{1} High-Energy Impact Listener
-10220200166	S@{1} High-Energy Impact Mode Switch	S@{1} High-Energy Impact Mode Switch
-10220200167	S@{1} Vulcan Cannon Floors Listener	S@{1} Vulcan Cannon Floors Listener
-10220200168	HP Lock Buff	HP Lock Buff
 10220200169	Live Coal	Live Coal
 10220200170	Intermediate Live Coal	Intermediate Live Coal
 10220200171	Advanced Live Coal	Advanced Live Coal
-10220200172	Lv. @{1} Bonfire	Lv. @{1} Bonfire
 10220200173	Normal Live Coal - Live Coal	Normal Live Coal - Live Coal
-10220200174	Intermediate Live Coal - Live Coal	Intermediate Live Coal - Live Coal
-10220200175	Advanced Live Coal - Live Coal	Advanced Live Coal - Live Coal
-10220200176	New Lv. @{1} Bonfire	New Lv. @{1} Bonfire
-10220200177	Transform: Poring	Transform: Poring
-10220200178	Transform into Lunatic	Transform into Lunatic
-10220200179	Transform into Savage Babe	Transform into Savage Babe
-10220200180	Transform into Baby Desert Wolf	Transform into Baby Desert Wolf
-10220200181	Transform into Baphomet Jr.	Transform into Baphomet Jr.
-10220200182	HP Listener	HP Listener
-10220200183	Trigger Split	Trigger Split
 10220200184	Transformation Manual	Transformation Manual
-10220200185	Immunity	Immunity
-10220200186	Cancel Transformation	Cancel Transformation
-10220200187	Trigger Self-Destruct	Trigger Self-Destruct
-10220200188	Spawn Stealth	Spawn Stealth
-10220200189	Size @{1}	Size @{1}
-10220200190	Enlargement Item	Enlargement Item
-10220200191	Size Increased	Size Increased
-10220200192	Shrinking Item	Shrinking Item
-10220200193	Size Reduced	Size Reduced
-10220200194	Red Thread Item	Red Thread Item
-10220200195	Connected by Red Thread	Connected by Red Thread
-10220200196	Switch Transform@{1}	Switch Transform@{1}
-10220200197	Red Thread Heart Effect Overhead	Red Thread Heart Effect Overhead
 10220200198	Sandman	Sandman
 10220200199	Sword Fish	Sword Fish
 10220200200	Dokebi	Dokebi
@@ -7266,120 +7151,30 @@
 10220200226	Steel Fur Grizzly	Steel Fur Grizzly
 10220200227	Beetle King	Beetle King
 10220200228	Driller	Driller
-10220200229	Osiris (Red)	Osiris (Red)
 10220200230	Osiris (Orange)	Osiris (Orange)
-10220200231	Card Magnum Break	Card Magnum Break
 10220200232	Endure	Endure
-10220200233	Increased Spear ASPD	Increased Spear ASPD
 10220200234	Auto Guard	Auto Guard
 10220200235	Shield Reflect	Shield Reflect
 10220200236	Providence	Providence
 10220200237	Defending Aura	Defending Aura
 10220200238	Recoil	Recoil
-10220200239	Stun	Stun
 10220200240	Faith	Faith
 10220200241	Monster Resistance	Monster Resistance
-10220200242	Recoil Animation	Recoil Animation
 10220200243	Sacrifice	Sacrifice
-10220200244	Battle Chant - Reduced Physical and Magic ATK	Battle Chant - Reduced Physical and Magic ATK
-10220200245	Battle Chant - Increased Physical and Magic DEF	Battle Chant - Increased Physical and Magic DEF
 10220200246	Devotion	Devotion
 10220200247	Battle Chant	Battle Chant
-10220200248	Battle Chant Orbit - Allies	Battle Chant Orbit - Allies
-10220200249	Grand Cross Grants Endure	Grand Cross Grants Endure
-10220200250	Devotion Self-Link	Devotion Self-Link
 10220200251	Advanced Monster Resistance	Advanced Monster Resistance
-10220200252	Holy Cross Triggers AoE Damage	Holy Cross Triggers AoE Damage
-10220200253	Grand Cross Triggers ST	Grand Cross Triggers ST
-10220200254	Grand Cross Triggers AoE	Grand Cross Triggers AoE
-10220200255	Shield Boomerang Triggers ST	Shield Boomerang Triggers ST
-10220200256	Divine Suppression Triggers AoE	Divine Suppression Triggers AoE
-10220200257	Divine Suppression Triggers ST	Divine Suppression Triggers ST
-10220200258	Holy Cross Weapon Damage (Deprecated; Uses Stunt)	Holy Cross Weapon Damage (Deprecated; Uses Stunt)
-10220200259	Holy Cross Attack Frequency	Holy Cross Attack Frequency
-10220200260	Increased Grand Cross Damage	Increased Grand Cross Damage
-10220200261	Increased Grand Cross and Other Damage	Increased Grand Cross and Other Damage
-10220200262	Spear Mastery Increased Physical ATK	Spear Mastery Increased Physical ATK
-10220200263	Spear Mastery - Increased Physical ATK	Spear Mastery - Increased Physical ATK
-10220200264	Spear Mastery Increased ASPD	Spear Mastery Increased ASPD
-10220200265	Spear Mastery - Increased ASPD	Spear Mastery - Increased ASPD
-10220200266	Spear Mastery Increased ATK	Spear Mastery Increased ATK
-10220200267	Spear Mastery - Increased ATK	Spear Mastery - Increased ATK
-10220200268	Spear Mastery Increased Holy Damage	Spear Mastery Increased Holy Damage
-10220200269	Spear Mastery - Increased Holy Damage	Spear Mastery - Increased Holy Damage
-10220200270	Shield Bash - Chance to Become AoE	Shield Bash - Chance to Become AoE
-10220200271	Shield Bash - Increased Damage After @{1} Uses	Shield Bash - Increased Damage After @{1} Uses
-10220200272	Reduced Martyr's Reckoning Cost	Reduced Martyr's Reckoning Cost
-10220200273	Increased Martyr's Reckoning Normal Attack Damage	Increased Martyr's Reckoning Normal Attack Damage
 10220200274	Auto Guard Increases Attack Life	Auto Guard Increases Attack Life
-10220200275	Auto Guard Increases Shield Bash and Other Damage	Auto Guard Increases Shield Bash and Other Damage
-10220200276	Auto Guard Reduces Damage Taken	Auto Guard Reduces Damage Taken
-10220200277	Resilient Spirit	Resilient Spirit
-10220200278	Increased Base Battle Chant Effects	Increased Base Battle Chant Effects
-10220200279	Increased Max Life During Battle Chant	Increased Max Life During Battle Chant
-10220200280	Increased Shield Boomerang Damage During Battle Chant	Increased Shield Boomerang Damage During Battle Chant
-10220200281	Increased Rapid Smiting Damage	Increased Rapid Smiting Damage
-10220200282	Rapid Smiting Triggers ST	Rapid Smiting Triggers ST
-10220200283	Rapid Smiting Resets Shield Boomerang CD	Rapid Smiting Resets Shield Boomerang CD
-10220200284	Shield Boomerang Becomes AoE	Shield Boomerang Becomes AoE
-10220200285	Martyr's Reckoning - Enhances Holy Cross	Martyr's Reckoning - Enhances Holy Cross
-10220200286	Shield Boomerang Has No CD	Shield Boomerang Has No CD
 10220200287	Over Brand	Over Brand
-10220200288	Charge Up Passive	Charge Up Passive
-10220200289	Charge Up	Charge Up
-10220200290	Shield	Shield
 10220200291	Reflect Damage	Reflect Damage
-10220200292	Shield Triggers Damage	Shield Triggers Damage
-10220200293	Earth Drive Debuff	Earth Drive Debuff
-10220200294	King's Grace Orbit	King's Grace Orbit
 10220200295	King's Grace	King's Grace
-10220200296	Shield Defense Orbit	Shield Defense Orbit
-10220200297	DMG Reduction	DMG Reduction
-10220200298	King's Grace Enemy Orbit	King's Grace Enemy Orbit
-10220200299	King's Grace Slows Enemies	King's Grace Slows Enemies
 10220200300	Piety	Piety
 10220200301	Divine Insight	Divine Insight
-10220200302	King's Grace Grants a Buff Every @{1} Seconds	King's Grace Grants a Buff Every @{1} Seconds
 10220200303	Union	Union
-10220200304	Union Passive	Union Passive
-10220200305	Enhance Shield Bash Passive	Enhance Shield Bash Passive
-10220200306	Shield Stance	Shield Stance
-10220200307	Enhance Shield Bash	Enhance Shield Bash
-10220200308	Reduce Enhance Shield Bash Floors	Reduce Enhance Shield Bash Floors
-10220200309	Charge Countdown	Charge Countdown
-10220200310	Reduce Shield Defense Cooldown	Reduce Shield Defense Cooldown
-10220200311	Activate Holy Light Suppression	Activate Holy Light Suppression
-10220200312	Casting Shield Trigger Check	Casting Shield Trigger Check
-10220200313	King's Grace Counter Display	King's Grace Counter Display
-10220200314	Gryphon State	Gryphon State
 10220200315	Advanced Monster Resistance	Advanced Monster Resistance
 10220200316	Parry	Parry
 10220200317	Auto Counter	Auto Counter
-10220200318	Skill Damage Multiplier	Skill Damage Multiplier
-10220200319	Fixed Skill Damage	Fixed Skill Damage
-10220200320	Extra Skill HIT	Extra Skill HIT
-10220200321	Skill Critical Parameters	Skill Critical Parameters
-10220200322	Extra Skill Critical	Extra Skill Critical
-10220200323	Fixed CT	Fixed CT
-10220200324	Variable CT	Variable CT
-10220200325	Cast Animation Time	Cast Animation Time
-10220200326	Skill Cooldown	Skill Cooldown
-10220200327	Skill Mode	Skill Mode
-10220200328	Minimum Cast Distance	Minimum Cast Distance
-10220200329	Maximum Cast Distance	Maximum Cast Distance
-10220200330	Logic Parameters	Logic Parameters
-10220200331	Fake Damage Count	Fake Damage Count
-10220200332	Maximum Number of Targets	Maximum Number of Targets
-10220200333	Skill Casting Movement State	Skill Casting Movement State
-10220200334	Usable	Usable
-10220200335	Buff Applied to Allies	Buff Applied to Allies
-10220200336	Buff Applied to Enemies	Buff Applied to Enemies
-10220200337	SP Consumption	SP Consumption
-10220200338	Custom Damage Parameters	Custom Damage Parameters
-10220200339	Special Casting/Chanting State	Special Casting/Chanting State
-10220200340	Skill Area of Effect	Skill Area of Effect
 10220200341	Accelerate	Accelerate
-10220200342	Add Attributes	Add Attributes
 10220200343	BDTarget_MaxStack_BigType	BDTarget_MaxStack_BigType
 10220200344	BDTarget_MaxStack_Tag	BDTarget_MaxStack_Tag
 10220200345	BDTarget_ChangeAttri_BigType	BDTarget_ChangeAttri_BigType
@@ -7395,201 +7190,54 @@
 10220200355	BDDictionary_enum@{1}_BigType_PerTenThousand	BDDictionary_enum@{1}_BigType_PerTenThousand
 10220200356	BDDictionary_enum@{1}_Tag_PerTenThousand	BDDictionary_enum@{1}_Tag_PerTenThousand
 10220200357	Spatial Dimension	Spatial Dimension
-10220200358	Stasis Space (Deprecated)	Stasis Space (Deprecated)
-10220200359	Chaotic Space (Deprecated)	Chaotic Space (Deprecated)
-10220200360	Grant All Players Full Mini Map Vision	Grant All Players Full Mini Map Vision
 10220200361	Disguise	Disguise
 10220200362	Hiding	Hiding
-10220200363	Shadow Step Trail	Shadow Step Trail
 10220200364	Shadow Step	Shadow Step
-10220200365	Enhance Camouflage Stealth	Enhance Camouflage Stealth
-10220200366	Enhance Camouflage Speed	Enhance Camouflage Speed
-10220200367	Blind	Blind
 10220200368	Rift Impact	Rift Impact
-10220200369	Magnification	Magnification
-10220200370	Burn	Burn
-10220200371	Poisoned	Poisoned
-10220200372	Sleep	Sleep
-10220200373	Fear	Fear
-10220200374	HP Recovery	HP Recovery
-10220200375	Gravitation Field Sound Effect	Gravitation Field Sound Effect
-10220200376	Instantly Restore @{1}%	Instantly Restore @{1}%
-10220200377	Focus Orbit	Focus Orbit
-10220200378	Endurance Orbit	Endurance Orbit
-10220200379	Evil Orbit	Evil Orbit
-10220200380	Attack Orbit	Attack Orbit
-10220200381	Attribute Orbit	Attribute Orbit
-10220200382	Life Steal Orbit	Life Steal Orbit
-10220200383	Radiance Orbit	Radiance Orbit
-10220200384	Desolation Orbit	Desolation Orbit
-10220200385	Frozen Orbit	Frozen Orbit
-10220200386	Instantly restores @{1} HP	Instantly restores @{1} HP
 10220200387	Pirate	Pirate
-10220200388	Reset Skill Cooldowns	Reset Skill Cooldowns
-10220200389	Alternate	Alternate
-10220200390	Hide HP Bar	Hide HP Bar
-10220200391	Attack Immunity	Attack Immunity
-10220200392	HP Lock	HP Lock
-10220200393	Record	Record
-10220200394	Cast Skill	Cast Skill
-10220200395	Leave Combat	Leave Combat
-10220200396	Increases Movement Speed and HP recover	Increases Movement Speed and HP recover
-10220200397	Instantly restores all HP	Instantly restores all HP
-10220200398	(Deprecated)	(Deprecated)
-10220200399	Blessing (Deprecated)	Blessing (Deprecated)
-10220200400	Death Prevention Visual Listener (Deprecated)	Death Prevention Visual Listener (Deprecated)
 10220200401	Arrow Storm	Arrow Storm
-10220200402	Detecting	Detecting
 10220200403	Myriad Stars Chase the Moon	Myriad Stars Chase the Moon
 10220200404	Tension Relax	Tension Relax
-10220200405	Storm Gust (Deprecated)	Storm Gust (Deprecated)
 10220200406	Wind Walker	Wind Walker
 10220200407	Falcon's Eye	Falcon's Eye
-10220200408	Equipment Drop Test	Equipment Drop Test
-10220200409	Fire Release	Fire Release
-10220200410	Lightning Release	Lightning Release
-10220200411	Valkyrie's Blessing	Valkyrie's Blessing
-10220200412	Blessing of Thor, God of Thunder	Blessing of Thor, God of Thunder
-10220200413	Blessing of Odin, King of the Gods	Blessing of Odin, King of the Gods
-10220200414	Valkyrie's Blessing (Deprecated!)	Valkyrie's Blessing (Deprecated!)
-10220200415	Blessing of Baldr, God of Light	Blessing of Baldr, God of Light
-10220200416	Blessing of Tyr, God of War	Blessing of Tyr, God of War
-10220200417	Battle Royale Victory Buff	Battle Royale Victory Buff
 10220200418	Cooldown Potion	Cooldown Potion
 10220200419	Status Potion	Status Potion
-10220200420	Restores @{1}% of Max Life per second	Restores @{1}% of Max Life per second
 10220200421	Speed Potion	Speed Potion
-10220200422	Battle Royale HP Drain Buff	Battle Royale HP Drain Buff
-10220200423	Transform: Drops	Transform: Drops
-10220200424	Transform: Poporing	Transform: Poporing
-10220200425	Transform: Bombring	Transform: Bombring
-10220200426	Transform: Angeling	Transform: Angeling
-10220200427	Transform: Deviling	Transform: Deviling
-10220200428	Transform into Lava Poring	Transform into Lava Poring
 10220200429	Flying Magic	Flying Magic
 10220200430	Teleportation Magic	Teleportation Magic
 10220200431	Ping-Pong Poring	Ping-Pong Poring
 10220200432	Poring Counterattack	Poring Counterattack
-10220200433	Ball Catch Buff	Ball Catch Buff
-10220200434	Masked	Masked
 10220200435	Tension Relax	Tension Relax
-10220200436	Escort Cart Lightly Damaged	Escort Cart Lightly Damaged
-10220200437	Escort Cart Heavily Damaged	Escort Cart Heavily Damaged
-10220200438	Escort Cart Destroyed	Escort Cart Destroyed
-10220200439	Escort Cart Endure	Escort Cart Endure
-10220200440	Swift Movement	Swift Movement
-10220200441	Slow Down!	Slow Down!
-10220200442	Invincible	Invincible
-10220200443	Escort Cart Damage Reduction	Escort Cart Damage Reduction
 10220200444	Vehicle Stealth	Vehicle Stealth
-10220200445	Explosion Effect	Explosion Effect
 10220200446	Vehicle Shield	Vehicle Shield
-10220200447	First Blood Monster	First Blood Monster
-10220200448	Movement Disabled	Movement Disabled
-10220200449	Healing Orbit	Healing Orbit
-10220200450	Healing Orbit Effect	Healing Orbit Effect
-10220200451	Attack Orbit Effect	Attack Orbit Effect
-10220200452	Damage Reduction Orbit	Damage Reduction Orbit
-10220200453	Damage Reduction Orbit Effect	Damage Reduction Orbit Effect
 10220200454	Escort Cart Explosion	Escort Cart Explosion
-10220200455	Invincible Zone	Invincible Zone
-10220200456	Escort Cart Catch-Up Speed Boost	Escort Cart Catch-Up Speed Boost
-10220200457	Escort Cart Movement Penalty	Escort Cart Movement Penalty
-10220200458	Protection Orbit	Protection Orbit
-10220200459	Protection Orbit Mark	Protection Orbit Mark
-10220200460	Protection Orbit DEF Boost	Protection Orbit DEF Boost
-10220200461	Protection Orbit Effect (Not Full)	Protection Orbit Effect (Not Full)
-10220200462	Protection Orbit Effect (Full)	Protection Orbit Effect (Full)
-10220200463	Invincible Escort Cart	Invincible Escort Cart
-10220200464	Knockback	Knockback
 10220200465	Knock-Up	Knock-Up
-10220200466	Frozen	Frozen
-10220200467	Petrify	Petrify
-10220200468	Silence	Silence
 10220200469	Immobilize	Immobilize
-10220200470	Frozen	Frozen
-10220200471	Sluggish	Sluggish
-10220200472	Bleeding	Bleeding
-10220200473	Debuff Immunity	Debuff Immunity
-10220200474	Revive Disabled in Instances	Revive Disabled in Instances
-10220200475	Boss CC Immunity	Boss CC Immunity
-10220200476	Stagger	Stagger
-10220200477	Severe Wound	Severe Wound
-10220200479	Change Armor to Earth Property	Change Armor to Earth Property
-10220200480	Change Armor to Water Property	Change Armor to Water Property
-10220200481	Change Armor to Wind Property	Change Armor to Wind Property
-10220200482	Convert Armor to Poison	Convert Armor to Poison
-10220200483	Convert Armor to Fire Property	Convert Armor to Fire Property
-10220200484	Change Armor to Ghost Property	Change Armor to Ghost Property
-10220200485	Convert Armor to Holy Property	Convert Armor to Holy Property
-10220200486	Curse	Curse
 10220200487	Meditate	Meditate
-10220200488	Flame Blast	Flame Blast
 10220200489	Ice Blast	Ice Blast
 10220200490	Thunder Blast	Thunder Blast
 10220200491	Earth Blast	Earth Blast
 10220200492	Dispel	Dispel
-10220200493	Unstoppable	Unstoppable
-10220200494	Item Use Disabled	Item Use Disabled
-10220200495	Item Healing Disabled	Item Healing Disabled
-10220200496	Element Counter Immunity	Element Counter Immunity
-10220200497	Class Resonance	Class Resonance
-10220200498	Guild Resonance	Guild Resonance
-10220200499	Divine Blessing	Divine Blessing
-10220200500	Fixed-Direction Buff	Fixed-Direction Buff
-10220200501	Close Friend (Lv. @{1})	Close Friend (Lv. @{1})
-10220200502	Fortify	Fortify
-10220200503	Respawn Protection	Respawn Protection
-10220200504	High Morale	High Morale
-10220200505	High Morale	High Morale
-10220200506	Unstoppable	Unstoppable
 10220200507	Blessed Wind	Blessed Wind
 10220200508	Blessing of Light	Blessing of Light
 10220200509	Dark Curse	Dark Curse
-10220200510	Weaken	Weaken
 10220200511	Crystal Prison	Crystal Prison
-10220200512	Iron Slash	Iron Slash
-10220200513	Revive Point Protection	Revive Point Protection
 10220200514	Blessing of Water	Blessing of Water
 10220200515	Carry Cannonball	Carry Cannonball
-10220200516	Flight	Flight
-10220200517	Dragonblood Protection	Dragonblood Protection
-10220200518	Carry Scale	Carry Scale
-10220200519	Fafnir's Fury	Fafnir's Fury
 10220200520	Weak	Weak
 10220200521	Poring Poring!	Poring Poring!
 10220200522	Madogear Pilot	Madogear Pilot
-10220200523	Arcane Acceleration	Arcane Acceleration
-10220200524	Ring of Frost	Ring of Frost
 10220200525	Lightning Domain	Lightning Domain
-10220200526	Freeze	Freeze
-10220200527	Rapidness	Rapidness
-10220200528	Guardian's Will	Guardian's Will
 10220200529	Lightning Strike	Lightning Strike
 10220200530	Dynamite	Dynamite
-10220200531	Physical Immune	Physical Immune
-10220200532	Magic Immune	Magic Immune
 10220200533	Charge	Charge
 10220200534	Split	Split
 10220200535	Divine Light	Divine Light
-10220200536	Manhunt	Manhunt
 10220200537	Self-Destruct	Self-Destruct
-10220200538	Boss	Boss
-10220200539	Unstoppable Dragonkin	Unstoppable Dragonkin
 10220200540	·	·
-10220200541	Flame Scorch	Flame Scorch
 10220200542	Berserk	Berserk
-10220200543	Lope Start Marker	Lope Start Marker
-10220200544	Lope Obstacle-Dodge Marker	Lope Obstacle-Dodge Marker
-10220200545	Bride Character Marker	Bride Character Marker
-10220200546	Blood Pool Pull	Blood Pool Pull
-10220200547	Spawn Effect @{1}	Spawn Effect @{1}
-10220200548	ATK Boost	ATK Boost
 10220200549	DEF Boost	DEF Boost
-10220200550	Cooldown Reduction	Cooldown Reduction
 10220200551	CRIT Boost	CRIT Boost
-10220200552	Movement Speed Boost	Movement Speed Boost
-10220200553	HP Recovery	HP Recovery
 10220200554	Chain Bind	Chain Bind
 10220200555	Nightmare Mystery Box	Nightmare Mystery Box
 10220200556	Concentrated Squid Ink	Concentrated Squid Ink
@@ -7597,36 +7245,6 @@
 10220200558	Berserk Injection	Berserk Injection
 10220200559	Viscous Machine Oil	Viscous Machine Oil
 10220200560	Brass Talisman	Brass Talisman
-10220200561	Gain an ATK Boost	Gain an ATK Boost
-10220200562	Gain DEF Boost	Gain DEF Boost
-10220200563	Gain Cooldown Reduction	Gain Cooldown Reduction
-10220200564	Gain CRIT Boost	Gain CRIT Boost
-10220200565	Gain increased Movement Speed	Gain increased Movement Speed
-10220200566	Recover HP	Recover HP
-10220200567	Skill Acquisition Effect	Skill Acquisition Effect
-10220200568	Adds a Lope button	Adds a Lope button
-10220200569	Transform into a Red Note	Transform into a Red Note
-10220200571	Transform into a Blue Note	Transform into a Blue Note
-10220200572	Double Jump Buff During Lope	Double Jump Buff During Lope
-10220200573	Transform into Red Musical Notes Underfoot	Transform into Red Musical Notes Underfoot
-10220200574	Transform into a Blue Note underfoot	Transform into a Blue Note underfoot
-10220200575	HP Lock@{1}%	HP Lock@{1}%
-10220200576	BOSS Visual Effects	BOSS Visual Effects
-10220200577	Small note idle (stationary)	Small note idle (stationary)
-10220200578	Little Note Counterclockwise Skill 2	Little Note Counterclockwise Skill 2
-10220200579	Little Note Clockwise Skill 1	Little Note Clockwise Skill 1
-10220200580	Little Note Counterclockwise Skill 3	Little Note Counterclockwise Skill 3
-10220200581	Small Notes Clockwise Skill 4	Small Notes Clockwise Skill 4
-10220200582	Phase 1 Goddess Energy Orb Charge + Burst + Idle Infinite Loop	Phase 1 Goddess Energy Orb Charge + Burst + Idle Infinite Loop
-10220200583	Phase 1 Goddess Large Musical Note@{1}	Phase 1 Goddess Large Musical Note@{1}
-10220200584	Slide Player Performance	Slide Player Performance
-10220200585	Tiamat Effect	Tiamat Effect
-10220200586	Tiamat Frontal Damage	Tiamat Frontal Damage
-10220200587	Status Check Buff	Status Check Buff
-10220200588	Little Note Counterclockwise Skill@{1}	Little Note Counterclockwise Skill@{1}
-10220200589	Small Note Clockwise Skill@{1}	Small Note Clockwise Skill@{1}
-10220200590	Battle Royale Transition Pull	Battle Royale Transition Pull
-10220200591	Battle Royale Transition Player Effect	Battle Royale Transition Player Effect
 58147	Divine Totem	Divine Totem
 58148	Soul Echo	Soul Echo
 10220200748	Safety Wall	Safety Wall
@@ -7639,80 +7257,27 @@
 10220200755	Mystical Amplification	Mystical Amplification
 10220200756	Soul Drain	Soul Drain
 10220200757	Gravitation Field	Gravitation Field
-10220200758	Prison	Prison
 10220200759	Intense Telekinesis	Intense Telekinesis
-10220200760	Penetration	Penetration
-10220200761	Ionization	Ionization
 10220200762	Reading Spellbook	Reading Spellbook
-10220200763	Spellbook Reset	Spellbook Reset
-10220200764	Trigger Spellbook Reset	Trigger Spellbook Reset
-10220200765	Spellbook - Comet	Spellbook - Comet
-10220200766	Spellbook - Thunderclap	Spellbook - Thunderclap
-10220200767	Spellbook - Crimson Rock	Spellbook - Crimson Rock
-10220200768	Spellbook - Earth Strain	Spellbook - Earth Strain
 10220200769	Spellbook - Frost Blast	Spellbook - Frost Blast
 10220200770	Spellbook - Tetra Vortex	Spellbook - Tetra Vortex
-10220200771	Elemental Attunement	Elemental Attunement
-10220200772	Soul Combo SFX	Soul Combo SFX
-10220200773	White Imprison SFX	White Imprison SFX
-10220200774	Tetra Vortex SFX	Tetra Vortex SFX
-10220200775	Fire Wall SFX	Fire Wall SFX
-10220200776	Quagmire SFX	Quagmire SFX
-10220200777	Heaven's Drive SFX	Heaven's Drive SFX
-10220200778	Lord of Vermilion SFX	Lord of Vermilion SFX
-10220200779	Frost Spell SFX	Frost Spell SFX
-10220200780	Storm Gust SFX	Storm Gust SFX
-10220200781	Ganbantein SFX	Ganbantein SFX
-10220200782	Page	Page
-10220200783	Continuous Page Gain	Continuous Page Gain
-10220200784	Spellbook - Soul Burst	Spellbook - Soul Burst
 10220200785	Element Control	Element Control
-10220200786	Telekinetic Orb - Count @{1}	Telekinetic Orb - Count @{1}
 10220200787	Psychokinetic Astral Body	Psychokinetic Astral Body
 10220200788	Intense Telekinesis · Lv@{1}	Intense Telekinesis · Lv@{1}
-10220200789	Spellbook - Gravity Impact	Spellbook - Gravity Impact
-10220200790	Telekinetic Orb HIT AoE	Telekinetic Orb HIT AoE
-10220200791	Wall of Darkness SFX	Wall of Darkness SFX
 10220200792	Psychic Mastery	Psychic Mastery
-10220200793	Remove @{1} Pages	Remove @{1} Pages
-10220200794	Continuous Slow While Channeling	Continuous Slow While Channeling
-10220200795	Elemental Arrow Amplification	Elemental Arrow Amplification
-10220200796	Fixed Casting	Fixed Casting
 10220200797	Elemental Pursuit	Elemental Pursuit
 10220200798	Elemental Shock	Elemental Shock
-10220200799	Basic Magic Rune	Basic Magic Rune
-10220200800	Basic Spell Calibration	Basic Spell Calibration
-10220200801	Spell Lock	Spell Lock
-10220200802	Flame Enhance	Flame Enhance
 10220200803	Flame Chain	Flame Chain
 10220200804	Fireball Burst	Fireball Burst
-10220200805	Ice and Thunder Mastery	Ice and Thunder Mastery
 10220200806	Ice Spike	Ice Spike
 10220200807	Thunderbolt	Thunderbolt
-10220200808	Inflict Freeze on Frozen Target HIT	Inflict Freeze on Frozen Target HIT
-10220200809	Earthfire Mark	Earthfire Mark
-10220200810	Flame Burst	Flame Burst
 10220200811	Ember Zone	Ember Zone
-10220200812	Ice and Thunder Mark	Ice and Thunder Mark
 10220200813	Frost Burst	Frost Burst
-10220200814	Thunder Shockwave	Thunder Shockwave
-10220200815	Arcane Training	Arcane Training
 10220200816	Magic Cannon	Magic Cannon
 10220200817	Greater Psychic Shockwave	Greater Psychic Shockwave
-10220200818	Magic Cannon Energy Removal	Magic Cannon Energy Removal
-10220200819	Elemental Preparation	Elemental Preparation
 10220200820	Soul Reaper	Soul Reaper
-10220200821	Arcane Study	Arcane Study
-10220200822	Killer Book MATK Increase	Killer Book MATK Increase
-10220200823	Gravity Enhance	Gravity Enhance
 10220200824	Spatial Distortion	Spatial Distortion
-10220200825	Gravity Trap	Gravity Trap
 10220200826	Intermediate Magic Rune	Intermediate Magic Rune
-10220200827	Magic Calibration	Magic Calibration
-10220200828	Magic Infusion	Magic Infusion
-10220200829	Cast Time Increase @{1}	Cast Time Increase @{1}
-10220200830	MATK Increase @{1}	MATK Increase @{1}
-10220200831	Meteor Storm Triggers Embers	Meteor Storm Triggers Embers
 10220200832	Bobo Bubble	Bobo Bubble
 10220200833	Refreshing Breath Medicine	Refreshing Breath Medicine
 10220200834	Gentle Breath Medicine	Gentle Breath Medicine
@@ -7763,51 +7328,17 @@
 10220200879	Lemon Herbal Tea	Lemon Herbal Tea
 10220200880	Woody Grape Drink	Woody Grape Drink
 10220200881	Citruswood Fruit Tea	Citruswood Fruit Tea
-10220200882	Training Dummy Auto-Recovery	Training Dummy Auto-Recovery
-10220200883	Knockback Immunity for Immobile Monsters	Knockback Immunity for Immobile Monsters
-10220200884	Tower Boss Stat Adjustment @{1}	Tower Boss Stat Adjustment @{1}
-10220200885	Automatic Tower Difficulty Reduction Buff	Automatic Tower Difficulty Reduction Buff
-10220200886	Tower Area Indicator Mark	Tower Area Indicator Mark
-10220200887	Endure (Deprecated)	Endure (Deprecated)
 10220200888	Realm of Light	Realm of Light
 10220200889	Pyroblast	Pyroblast
-10220200890	Delusion	Delusion
 10220200891	Terrifying Roar	Terrifying Roar
 10220200892	Blade Whirlwind	Blade Whirlwind
-10220200893	Stone Coating	Stone Coating
-10220200894	Petrify Screen Effect	Petrify Screen Effect
 10220200895	Dark Curse	Dark Curse
 10220200896	Realm of Darkness	Realm of Darkness
-10220200897	Acid Corrosion	Acid Corrosion
-10220200898	Slime Ground	Slime Ground
-10220200899	Invincible and Untargetable Deprecated	Invincible and Untargetable Deprecated
-10220200900	Summoned Unit Self-Destruct	Summoned Unit Self-Destruct
-10220200901	MVP Skill Reset After Leaving Combat	MVP Skill Reset After Leaving Combat
-10220200902	Mandragora Attack	Mandragora Attack
-10220200904	Lock Life to Fixed Value @{1} (Deprecated)	Lock Life to Fixed Value @{1} (Deprecated)
-10220200905	Golden Thief Bug Summons Thief Bugs with Paralyze	Golden Thief Bug Summons Thief Bugs with Paralyze
-10220200906	Paralyze	Paralyze
-10220200907	Healing Dummy Exclusive Buff	Healing Dummy Exclusive Buff
-10220200908	Phreeoni Continuous Drain	Phreeoni Continuous Drain
-10220200909	Goblin Leader ST Target Lock Marker	Goblin Leader ST Target Lock Marker
 10220200910	Pyramid Laser Damage	Pyramid Laser Damage
 10220200911	Brutal Sweep Attack	Brutal Sweep Attack
-10220200912	Totem ZS (Deprecated)	Totem ZS (Deprecated)
-10220200913	Frequent Pull	Frequent Pull
-10220200914	Check Whether Killed	Check Whether Killed
-10220200915	Orc Lord's Totem	Orc Lord's Totem
-10220200916	Moonlight Flower Marker Buff	Moonlight Flower Marker Buff
 10220200917	Dark Corrosion	Dark Corrosion
-10220200918	Bell Activation Effect	Bell Activation Effect
 10220200919	Undead Phantom	Undead Phantom
 10220200920	Burn	Burn
-10220200921	Directional Effect Test	Directional Effect Test
-10220200922	Osiris Disengagement Check	Osiris Disengagement Check
-10220200923	Max Life Increase Buff Test	Max Life Increase Buff Test
-10220200924	Goblin Helicopter Jet Effect	Goblin Helicopter Jet Effect
-10220200925	Blackhole Boss Shield	Blackhole Boss Shield
-10220200926	Trap Hunter Boss Target	Trap Hunter Boss Target
-10220200927	Death Scythe Life Recovery	Death Scythe Life Recovery
 10220200928	Dark Sorcery	Dark Sorcery
 10220200929	Scythe Channeling	Scythe Channeling
 10220200930	Trauma Drain	Trauma Drain
@@ -7827,24 +7358,18 @@
 10220200944	Raging Gale	Raging Gale
 10220200945	Taunting Tease	Taunting Tease
 10220200946	Harvesting Scythe	Harvesting Scythe
-10220200947	Adaptive Attack	Adaptive Attack
 10220200948	Adaptive Damage	Adaptive Damage
 10220200949	Forest's Blessing	Forest's Blessing
 10220200950	Tree Spirit Curse	Tree Spirit Curse
 10220200951	Bobo's Protection	Bobo's Protection
 10220200952	Moonlit Curse	Moonlit Curse
 10220200953	Bell Miracle	Bell Miracle
-10220200954	Orc Lord Passive	Orc Lord Passive
-10220200955	Lightning Strike HIT Marker	Lightning Strike HIT Marker
 10220200956	Summon Lightning	Summon Lightning
-10220200957	Continuous Lightning Strike Damage Increase Check	Continuous Lightning Strike Damage Increase Check
-10220200958	Lightning Strike Damage Increase Stack	Lightning Strike Damage Increase Stack
 10220200959	Esen's Execution	Esen's Execution
 10220200960	Esen's Slaughter	Esen's Slaughter
 10220200961	Orc Roar	Orc Roar
 10220200962	Armor-Shattering War Cry	Armor-Shattering War Cry
 10220200963	Orc Stomp	Orc Stomp
-10220200964	Armor Break	Armor Break
 10220200965	Raging Gale	Raging Gale
 10220200966	Enraged Tiger Roar	Enraged Tiger Roar
 10220200967	Savage Shield	Savage Shield
@@ -7852,90 +7377,30 @@
 10220200969	Goat's Protection	Goat's Protection
 10220200970	Stunning Tremor	Stunning Tremor
 10220200971	Demonic Curse	Demonic Curse
-10220200972	Bongun Passive Check	Bongun Passive Check
-10220200973	Bongun Life Recovery Trigger	Bongun Life Recovery Trigger
 10220200974	Choco Antics	Choco Antics
 10220200975	Agility Song	Agility Song
 10220200976	Swift Trick	Swift Trick
-10220200977	Formless Passive	Formless Passive
-10220200978	Bloodthirsty Impulse	Bloodthirsty Impulse
-10220200979	Ancient Mummy Passive	Ancient Mummy Passive
 10220200980	Malicious Curse	Malicious Curse
-10220200981	Protection of the Sands	Protection of the Sands
-10220200982	Detain	Detain
 10220200983	Spectral Protection	Spectral Protection
-10220200984	Spirit Shield	Spirit Shield
 10220200985	Soul's Protection	Soul's Protection
-10220200986	Corrupted Wander Man Passive	Corrupted Wander Man Passive
-10220200987	ATK Reduction	ATK Reduction
-10220200988	Corrupted Wander Man Exclusive Passive	Corrupted Wander Man Exclusive Passive
 10220200989	Corrupted Soul Impact	Corrupted Soul Impact
-10220200990	Power of the Wander Man	Power of the Wander Man
-10220200991	Nightmare Passive	Nightmare Passive
 10220200992	Shadow Hoofprint	Shadow Hoofprint
 10220200993	Sinister Cry	Sinister Cry
-10220200994	Elena Bokba Passive	Elena Bokba Passive
-10220200995	Gunshot Wound	Gunshot Wound
 10220200996	Gun-Smoke Severe Wound	Gun-Smoke Severe Wound
-10220200997	Hard Prismatic Nightmare Passive	Hard Prismatic Nightmare Passive
-10220200998	Sarah Irene Passive	Sarah Irene Passive
 10220200999	Flame Fist	Flame Fist
-10220201000	Fire Element Vulnerability	Fire Element Vulnerability
-10220201001	Marionette Passive	Marionette Passive
-10220201002	Marionette's Curse	Marionette's Curse
-10220201003	Ancient Tree Passive	Ancient Tree Passive
-10220201004	Ancient Tree's Protection	Ancient Tree's Protection
-10220201005	Lava Lizard Passive	Lava Lizard Passive
-10220201006	Scorched Armor	Scorched Armor
-10220201007	Wild Rose Passive	Wild Rose Passive
 10220201008	Lingering Breath	Lingering Breath
-10220201009	Pain of the Wind Blade	Pain of the Wind Blade
 10220201010	Iron Ball Rampage	Iron Ball Rampage
-10220201011	Warrior Lola Passive	Warrior Lola Passive
 10220201012	Concussion	Concussion
-10220201013	Alicel - Damage Passive Monitor	Alicel - Damage Passive Monitor
-10220201014	Alicel - Blade	Alicel - Blade
 10220201015	Alert Reconnaissance	Alert Reconnaissance
-10220201016	Defensive Vigilance	Defensive Vigilance
-10220201017	Basilisk Passive	Basilisk Passive
 10220201018	Farsight Revelation	Farsight Revelation
-10220201019	Detect Stealth	Detect Stealth
 10220201020	Vine Strike	Vine Strike
-10220201021	Fruit Tree Turtle Passive	Fruit Tree Turtle Passive
 10220201022	Fruit Blossom Healing	Fruit Blossom Healing
-10220201023	Low Growl	Low Growl
-10220201024	Clock Passive	Clock Passive
-10220201025	Stealth	Stealth
 10220201026	Ninja Art: Smoke Screen	Ninja Art: Smoke Screen
-10220201027	ATK and MATK Reduction	ATK and MATK Reduction
-10220201028	Silver Moon's Arrival Trigger	Silver Moon's Arrival Trigger
-10220201029	Silver Moon Trigger Buff	Silver Moon Trigger Buff
-10220201030	Moonlight	Moonlight
 10220201031	Silver Moon	Silver Moon
-10220201032	Damage Taken Increase	Damage Taken Increase
-10220201033	Ranged Damage Increase	Ranged Damage Increase
 10220201034	Demon's Whisper	Demon's Whisper
-10220201035	Vanguard Shield	Vanguard Shield
-10220201036	Wildcat Passive	Wildcat Passive
 10220201037	Demonic Aura	Demonic Aura
-10220201038	Demon Flame	Demon Flame
 10220201039	Realm of Light	Realm of Light
 10220201040	DMG Reduction	DMG Reduction
-10220201041	Continuous Area Shield	Continuous Area Shield
-10220201042	MATK Increase	MATK Increase
-10220201043	Celestial Dance	Celestial Dance
-10220201044	Fairy Blessing	Fairy Blessing
-10220201045	Fairy Blessing - HP Lock	Fairy Blessing - HP Lock
-10220201046	Fairy - Shield	Fairy - Shield
-10220201047	Fairy Blessing - Max Life	Fairy Blessing - Max Life
-10220201048	Fairy Shield	Fairy Shield
-10220201049	DEF and MDEF Increase	DEF and MDEF Increase
-10220201050	Piamette Passive	Piamette Passive
-10220201051	DEF and MDEF Reduction	DEF and MDEF Reduction
-10220201052	Butterfly Dance	Butterfly Dance
-10220201053	Execution	Execution
-10220201054	Executioner	Executioner
-10220201055	Stat Reduction	Stat Reduction
 10220201056	Rocker Rocker	Rocker Rocker
 10220201057	Petrification Gaze	Petrification Gaze
 10220201058	Serpent Sorcery	Serpent Sorcery
@@ -7957,244 +7422,42 @@
 10220201074	Cleaning Time	Cleaning Time
 10220201075	Alice's Protection	Alice's Protection
 10220201076	A Maid's Etiquette	A Maid's Etiquette
-10220201077	Transform into Golden Thief Bug	Transform into Golden Thief Bug
-10220201078	Universal - Gift Magic Circle	Universal - Gift Magic Circle
-10220201079	Universal - Grand Gift Magic Circle	Universal - Grand Gift Magic Circle
-10220201080	Transform into Little Poring	Transform into Little Poring
 10220201081	Fatal Blow	Fatal Blow
-10220201082	Golden Thief Bug Stealth	Golden Thief Bug Stealth
-10220201083	Block Shield	Block Shield
-10220201084	Sandstorm Slow	Sandstorm Slow
-10220201085	Phreeoni Slow	Phreeoni Slow
-10220201086	Move back Afterimage Status	Move back Afterimage Status
-10220201087	Mist Formation Stealth	Mist Formation Stealth
-10220201088	Dungeon Matchmaking Penalty I	Dungeon Matchmaking Penalty I
-10220201089	Dungeon Matchmaking Penalty II	Dungeon Matchmaking Penalty II
-10220201090	Dungeon Matchmaking Penalty III	Dungeon Matchmaking Penalty III
 10220201091	Blade Deflection	Blade Deflection
-10220201092	Full-screen AOE	Full-screen AOE
-10220201093	Blade Mountain-Greatsword	Blade Mountain-Greatsword
-10220201094	Blade Mountain-Greatsword Effect	Blade Mountain-Greatsword Effect
-10220201095	Shield	Shield
-10220201097	Stone Blade	Stone Blade
-10220201099	Transform: Poring Cannot Be Attacked	Transform: Poring Cannot Be Attacked
-10220201100	Sword, Derived Interaction	Sword, Derived Interaction
-10220201101	Shield, Derived Interaction	Shield, Derived Interaction
-10220201102	Weapon Deflection Mechanic Callout	Weapon Deflection Mechanic Callout
-10220201103	Arrow Effect	Arrow Effect
-10220201104	Check Whether It's on a Line	Check Whether It's on a Line
-10220201105	Use a Revive to cancel Transform	Use a Revive to cancel Transform
-10220201106	Continuously displays a red tether	Continuously displays a red tether
-10220201107	Invincible and Untargetable	Invincible and Untargetable
-10220201108	Drake Buff	Drake Buff
-10220201109	Minion Buff	Minion Buff
-10220201110	Waterspout Buff	Waterspout Buff
-10220201111	Ghost Ship Buff	Ghost Ship Buff
-10220201112	Ghost Ship Single-Hit Buff	Ghost Ship Single-Hit Buff
-10220201113	Ghost Ship Second Wave Buff	Ghost Ship Second Wave Buff
-10220201114	Player Link	Player Link
-10220201115	Detection Distance	Detection Distance
-10220201116	Petrify Screen Effect	Petrify Screen Effect
-10220201117	NPC Only Receives Damage Effect	NPC Only Receives Damage Effect
-10220201118	Player Link @{1}	Player Link @{1}
-10220201119	New Player Link	New Player Link
-10220201120	Red Line Link	Red Line Link
-10220201121	White Line Link	White Line Link
-10220201122	New Player Link Node	New Player Link Node
-10220201123	Count	Count
-10220201124	Boss-Player Link	Boss-Player Link
-10220201125	Player-to-Player Link	Player-to-Player Link
-10220201126	Player Accelerate/Slow	Player Accelerate/Slow
-10220201127	Focus Zoom	Focus Zoom
-10220201128	Summon Marker	Summon Marker
-10220201129	Coffin Skill	Coffin Skill
 10220201130	Shroud	Shroud
-10220201131	Shroud Crowd Control Removal	Shroud Crowd Control Removal
 10220201132	Shroud Detection	Shroud Detection
-10220201133	Shroud Link	Shroud Link
-10220201134	Coffin Skill@{1}	Coffin Skill@{1}
-10220201135	Damage Reduction	Damage Reduction
-10220201136	Damage Reduction Filter	Damage Reduction Filter
-10220201137	Increase Aggro	Increase Aggro
-10220201138	Party-Wide Stealth	Party-Wide Stealth
-10220201139	On Removal	On Removal
-10220201140	HP Bar Display	HP Bar Display
-10220201141	Ultimate Marker	Ultimate Marker
-10220201142	Laser Marker	Laser Marker
-10220201143	AOE Marker	AOE Marker
-10220201144	Enrage Marker	Enrage Marker
-10220201145	Pyramid Laser	Pyramid Laser
-10220201146	Enrage Effect	Enrage Effect
-10220201147	Laser Link	Laser Link
-10220201148	Warning Link	Warning Link
-10220201149	Curse of the Pyramid	Curse of the Pyramid
-10220201150	AOE Effect	AOE Effect
-10220201151	Charged Bell	Charged Bell
-10220201152	Party-Wide Stealth	Party-Wide Stealth
-10220201153	Cumulative Time Under the Light	Cumulative Time Under the Light
-10220201154	Continuously Apply Stealth Buff	Continuously Apply Stealth Buff
-10220201155	Bell Untargetable Buff	Bell Untargetable Buff
-10220201156	Anti-Flicker Buff	Anti-Flicker Buff
-10220201157	Bullet Mark Buff	Bullet Mark Buff
-10220201158	Post-Death Lighting Effect	Post-Death Lighting Effect
-10220201159	Same-Color Collision Bubble NPC Left	Same-Color Collision Bubble NPC Left
-10220201160	Same-Color Collision Bubble NPC Down	Same-Color Collision Bubble NPC Down
-10220201161	Red Note	Red Note
-10220201162	Bubble Movement	Bubble Movement
-10220201163	Continuous Bubble Deployment	Continuous Bubble Deployment
 10220201164	Yellow Note	Yellow Note
 10220201165	Blue Note	Blue Note
 10220201166	Green Note	Green Note
-10220201167	Invincible and Untargetable (Deprecated)	Invincible and Untargetable (Deprecated)
-10220201168	Different-Color Collision Bubble NPC Right	Different-Color Collision Bubble NPC Right
 10220201169	Different-Color Collision Bubble NPC Up	Different-Color Collision Bubble NPC Up
-10220201170	Player	Player
-10220201171	Stationary Red Bubble	Stationary Red Bubble
-10220201172	Stationary Yellow Bubble	Stationary Yellow Bubble
-10220201173	Stationary Blue Bubble	Stationary Blue Bubble
-10220201174	Stationary Green Bubble	Stationary Green Bubble
-10220201175	Knockback Immunity	Knockback Immunity
-10220201176	Wave Slow	Wave Slow
-10220201181	Red Tracking Link Effect	Red Tracking Link Effect
-10220201182	p@{1} Speed Buff	p@{1} Speed Buff
-10220201183	Continuously Launch Water Jet	Continuously Launch Water Jet
-10220201184	Yellow Tracking Line Effect	Yellow Tracking Line Effect
-10220201185	Blue Tracking Line Effect	Blue Tracking Line Effect
-10220201186	Green Tracking Line Effect	Green Tracking Line Effect
-10220201187	Boss @{1} Persistent Water Orb Effect	Boss @{1} Persistent Water Orb Effect
-10220201188	Highest-Aggro Target Effect	Highest-Aggro Target Effect
-10220201189	Boss Movement Detection Buff	Boss Movement Detection Buff
-10220201190	Red Bubble Screen Tracking Effect	Red Bubble Screen Tracking Effect
-10220201191	Yellow Bubble Screen Tracking Effect	Yellow Bubble Screen Tracking Effect
-10220201192	Blue Bubble Screen Tracking Effect	Blue Bubble Screen Tracking Effect
-10220201193	Green Bubble Screen Tracking Effect	Green Bubble Screen Tracking Effect
-10220201194	Bubble Attraction Control	Bubble Attraction Control
-10220201195	Duo Dance	Duo Dance
-10220201196	Dance Machine Transform	Dance Machine Transform
-10220201197	Dance Machine Skill Swap	Dance Machine Skill Swap
-10220201198	Summoned NPC Spawn Buff	Summoned NPC Spawn Buff
-10220201199	Link	Link
-10220201200	Linked Debuff	Linked Debuff
-10220201201	Dance Move Check	Dance Move Check
 10220201202	Dance Machine_Remove Transform Buff Remove Transform Buff	Dance Machine_Remove Transform Buff Remove Transform Buff
-10220201203	Skill @{1} Cast Check	Skill @{1} Cast Check
-10220201204	Remove Skill Check	Remove Skill Check
-10220201205	Perfect State	Perfect State
-10220201206	Dancing NPC Check	Dancing NPC Check
-10220201207	Rhythm Button	Rhythm Button
-10220201208	Launch Cross Compression Field	Launch Cross Compression Field
-10220201209	Note Replacement on Cooldown	Note Replacement on Cooldown
-10220201210	Red Note Magic Circle Expanding Outer Ring	Red Note Magic Circle Expanding Outer Ring
-10220201211	Blue Note Magic Circle Expanding Outer Ring	Blue Note Magic Circle Expanding Outer Ring
-10220201212	Yellow Note Magic Circle Expanding Outer Ring	Yellow Note Magic Circle Expanding Outer Ring
-10220201213	Green Note Magic Circle Expanding Outer Ring	Green Note Magic Circle Expanding Outer Ring
-10220201214	White Note Magic Circle Expanding Outer Ring	White Note Magic Circle Expanding Outer Ring
-10220201215	Green Energy Barrier Activation	Green Energy Barrier Activation
 10220201216	Immune Monolith	Immune Monolith
-10220201217	Lock Life at @{1}%	Lock Life at @{1}%
-10220201218	Green Marker	Green Marker
-10220201219	Player Link Node	Player Link Node
 10220201220	Knight Note@{1}	Knight Note@{1}
 10220201221	Crusader Note@{1}	Crusader Note@{1}
 10220201222	Mage Note@{1}	Mage Note@{1}
 10220201223	Hunter Note@{1}	Hunter Note@{1}
-10220201224	Harmony Self Buff	Harmony Self Buff
-10220201225	Battle Chant Harmony: Harmony	Battle Chant Harmony: Harmony
-10220201226	Spiritual Melody Purification Self Buff	Spiritual Melody Purification Self Buff
-10220201227	Battle Chant Harmony: Rhythm	Battle Chant Harmony: Rhythm
-10220201228	Psalm Self Buff	Psalm Self Buff
 10220201229	Battle Chant Harmony: Psalm	Battle Chant Harmony: Psalm
-10220201230	Original Melody Chorus Self Buff	Original Melody Chorus Self Buff
-10220201231	Battle Chant Harmony: Original Melody Chorus	Battle Chant Harmony: Original Melody Chorus
-10220201232	Organon Self Buff	Organon Self Buff
-10220201233	Low Drone Self Buff	Low Drone Self Buff
-10220201234	Admonitory Song of Suffering: Low Drone	Admonitory Song of Suffering: Low Drone
-10220201235	Sacrament Baptism Self Buff	Sacrament Baptism Self Buff
-10220201236	Sacred Music True Form	Sacred Music True Form
-10220201237	Divinity True Form Self Buff	Divinity True Form Self Buff
-10220201238	Voice Part	Voice Part
 10220201239	Priest Note@{1}	Priest Note@{1}
-10220201240	Rhythm Performance Buff	Rhythm Performance Buff
-10220201241	Shield Cooldown Buff	Shield Cooldown Buff
-10220201242	Voice Part Performance Buff	Voice Part Performance Buff
 10220201243	Assassin Note@{1}	Assassin Note@{1}
 10220201244	Merchant Note@{1}	Merchant Note@{1}
-10220201245	Soul Burst Skill Detection Buff	Soul Burst Skill Detection Buff
-10220201246	Initial Shield	Initial Shield
-10220201247	Persistent Shield	Persistent Shield
-10220201248	Season Axe Tornado Speed and ATK Boost Listener	Season Axe Tornado Speed and ATK Boost Listener
-10220201249	Blade Mark - ATK Up	Blade Mark - ATK Up
-10220201250	Blade Mark-Accelerate	Blade Mark-Accelerate
-10220201251	Season High-Energy Impact Switch bd@{1}	Season High-Energy Impact Switch bd@{1}
-10220201252	Season Axe Tornado Switch BD@{1}	Season Axe Tornado Switch BD@{1}
-10220201253	Reflect Damage Slow	Reflect Damage Slow
-10220201254	Switch Thorn	Switch Thorn
-10220201255	King's Grace Unstoppable	King's Grace Unstoppable
-10220201256	Switch Twilight Light	Switch Twilight Light
-10220201257	Switch (Enhance) Blood Cross	Switch (Enhance) Blood Cross
-10220201258	Switch Enhance Blood Cross	Switch Enhance Blood Cross
-10220201259	Switch King's Grace	Switch King's Grace
-10220201260	Shield Damage Reduction	Shield Damage Reduction
-10220201261	Shield Casting Passive	Shield Casting Passive
-10220201262	Modify Shield Press	Modify Shield Press
-10220201263	Switch Shield Press	Switch Shield Press
-10220201264	Switch Blood Cross	Switch Blood Cross
-10220201265	Switch Moon Slasher	Switch Moon Slasher
-10220201266	Earth Drive Slow	Earth Drive Slow
-10220201267	Switch Earth Drive@{1}	Switch Earth Drive@{1}
-10220201268	Switch Earth Drive	Switch Earth Drive
-10220201269	Delay	Delay
-10220201270	Shooting: BD@{1}	Shooting: BD@{1}
 10220201271	Focused Arrow Strike	Focused Arrow Strike
 10220201272	Wolf Hunt: BD@{1}	Wolf Hunt: BD@{1}
-10220201273	Frenzy BD VFX	Frenzy BD VFX
-10220201274	Dragon Knight: Fire Mark@{1}	Dragon Knight: Fire Mark@{1}
 10220201275	Wind-Pressure Blade	Wind-Pressure Blade
-10220201276	Dragon Knight: Wind Mark@{1}	Dragon Knight: Wind Mark@{1}
-10220201277	Dragon Transformation	Dragon Transformation
-10220201278	Monitor Slashing Strike	Monitor Slashing Strike
-10220201279	Slashing Strike Floors	Slashing Strike Floors
-10220201280	Reset Rift Impact CD	Reset Rift Impact CD
-10220201281	Lance Knight: Wind Mark@{1}	Lance Knight: Wind Mark@{1}
-10220201282	Target Mark	Target Mark
-10220201283	Reset Phantom Thrust CD	Reset Phantom Thrust CD
-10220201284	Note Mark@{1}	Note Mark@{1}
-10220201285	Lance Knight: Fire Mark@{1}	Lance Knight: Fire Mark@{1}
 10220201286	Frenzy S@{1}	Frenzy S@{1}
-10220201287	Advanced Hundred Spear Counter S@{1}	Advanced Hundred Spear Counter S@{1}
-10220201288	Hundred Spear Mode@{1}	Hundred Spear Mode@{1}
 10220201289	Enhance Cloaking	Enhance Cloaking
 10220201290	Dark Illusion_S@{1}_BD	Dark Illusion_S@{1}_BD
 10220201291	Dark Illusion	Dark Illusion
 10220201292	Cross Ripper Slasher_S@{1}_BD	Cross Ripper Slasher_S@{1}_BD
 10220201293	Rolling Cutter BD_S@{1}_BD	Rolling Cutter BD_S@{1}_BD
 10220201294	Cloaking Enhance BD_S@{1}_BD	Cloaking Enhance BD_S@{1}_BD
-10220201295	Overpower Passive	Overpower Passive
 10220201296	Freestyle Rap	Freestyle Rap
 10220201297	Triple Rhyme	Triple Rhyme
 10220201298	Hip-Hop Impersonation	Hip-Hop Impersonation
 10220201299	Encore	Encore
-10220201300	Multi-Rhyme	Multi-Rhyme
-10220201301	Move back Afterimage State Season	Move back Afterimage State Season
-10220201302	Syllable	Syllable
-10220201303	Switch Comet	Switch Comet
-10220201304	Switch Vortex	Switch Vortex
-10220201305	Elemental Attunement-Comet	Elemental Attunement-Comet
-10220201306	Elemental Attunement Comet	Elemental Attunement Comet
-10220201307	Normal Attack Counter	Normal Attack Counter
-10220201308	Switch White Imprison	Switch White Imprison
 10220201309	Remix Resonance	Remix Resonance
-10220201310	Switch Soul Burst	Switch Soul Burst
-10220201311	Switch Enhance Soul Burst	Switch Enhance Soul Burst
-10220201312	Spellbook-Little Meteor	Spellbook-Little Meteor
-10220201313	Switch Psychic Orb	Switch Psychic Orb
-10220201314	Switch Gravity Impact	Switch Gravity Impact
-10220201315	Psychic Orb-Counter	Psychic Orb-Counter
 10220201316	Manifestation	Manifestation
-10220201317	Performance Buff	Performance Buff
 10220201318	Divine Remnant	Divine Remnant
 10220201319	Free	Free
-10220201320	Buff	Buff
 10220201321	Evil Spirit Possession	Evil Spirit Possession
 10220201322	Praiser Priest Hymn: Equal Grace	Praiser Priest Hymn: Equal Grace
 10220201323	Praiser Priest Hymn: Manifestation	Praiser Priest Hymn: Manifestation
@@ -8204,22 +7467,9 @@
 10220201327	Exorciser Spell: Free Will	Exorciser Spell: Free Will
 10220201328	Exorciser Spell: Corruption	Exorciser Spell: Corruption
 10220201329	Exorciser Spell: Evil Spirit Possession	Exorciser Spell: Evil Spirit Possession
-10220201330	Chain	Chain
-10220201331	Reduce Twilight Ray CD	Reduce Twilight Ray CD
-10220201332	Replace Fearless Charge	Replace Fearless Charge
-10220201333	Increase Earth Drive Damage	Increase Earth Drive Damage
-10220201334	Replace Earth Drive	Replace Earth Drive
-10220201335	Record Damage Dealt	Record Damage Dealt
-10220201336	Enhance Guard	Enhance Guard
-10220201337	Replace Block	Replace Block
 10220201338	Focused Shot: Dark Night	Focused Shot: Dark Night
-10220201339	Slash Mode@{1}	Slash Mode@{1}
-10220201340	Phantom Thrust Stacks	Phantom Thrust Stacks
-10220201341	Reset Sonic Blow CD	Reset Sonic Blow CD
 10220201342	Blood Spear	Blood Spear
 10220201343	Black Phantom	Black Phantom
-10220201344	Haste	Haste
-10220201345	Slow	Slow
 10220201346	Dark Illusion_S@{1}_BD	Dark Illusion_S@{1}_BD
 10220201347	Cross Ripper Slasher_S@{1}_BD	Cross Ripper Slasher_S@{1}_BD
 10220201348	Rolling CutterBD_S@{1}_BD	Rolling CutterBD_S@{1}_BD
@@ -8228,112 +7478,39 @@
 10220201351	Flowing Shadow_S@{1}_BD	Flowing Shadow_S@{1}_BD
 10220201352	Shadow GuardBD_S@{1}_BD	Shadow GuardBD_S@{1}_BD
 10220201353	Shadow PierceBD_S@{1}_BD	Shadow PierceBD_S@{1}_BD
-10220201354	Flowing Shadow Floors	Flowing Shadow Floors
-10220201355	Magic Release	Magic Release
-10220201356	Healing Reduction	Healing Reduction
-10220201357	Void Rift	Void Rift
-10220201358	ElementBD@{1}	ElementBD@{1}
-10220201359	Test@{1}	Test@{1}
-10220201360	Replace Intense Telekinesis	Replace Intense Telekinesis
-10220201361	Prison Slow	Prison Slow
-10220201362	Enhanced Psychic Astrolabe Listener	Enhanced Psychic Astrolabe Listener
-10220201363	Enhanced Gravity Impact Listener	Enhanced Gravity Impact Listener
-10220201364	Soul Burst/White Imprison/Gravity Impact Slow	Soul Burst/White Imprison/Gravity Impact Slow
 10220201365	Intense Telekinesis@{1}	Intense Telekinesis@{1}
-10220201366	Gravity Impact Continuous Ghost Attack	Gravity Impact Continuous Ghost Attack
 10220201367	Psychic Astrolabe@{1}	Psychic Astrolabe@{1}
 10220201368	Spellbook-Gravity ImpactS@{1}	Spellbook-Gravity ImpactS@{1}
-10220201369	Skill Slow Listener	Skill Slow Listener
 10220201370	Magnum Break	Magnum Break
-10220201371	DEF increased	DEF increased
 10220201372	Sword Mastery	Sword Mastery
 10220201373	Provoke	Provoke
 10220201374	Sword Mastery	Sword Mastery
 10220201375	Spear Mastery	Spear Mastery
 10220201376	Spear Expert	Spear Expert
 10220201377	Sword Quicken	Sword Quicken
-10220201378	Enhance Auto Counter	Enhance Auto Counter
 10220201379	Riding	Riding
 10220201380	Charge	Charge
-10220201381	Sword Attack Speed Increase	Sword Attack Speed Increase
 10220201382	Aura Blade	Aura Blade
 10220201383	Head Crush	Head Crush
 10220201384	Concentration	Concentration
 10220201385	Parry	Parry
 10220201386	Berserk	Berserk
 10220201387	Joint Beat	Joint Beat
-10220201388	Joint Beat Movement Speed Reduction	Joint Beat Movement Speed Reduction
-10220201389	Joint Beat Attack Speed Reduction	Joint Beat Attack Speed Reduction
-10220201390	Joint Beat Physical DEF Reduction	Joint Beat Physical DEF Reduction
-10220201391	Joint Beat Damage Taken Increase	Joint Beat Damage Taken Increase
-10220201392	Joint Beat Add Immunity Buff	Joint Beat Add Immunity Buff
-10220201393	Aura Blade Max Stack Sound Effect	Aura Blade Max Stack Sound Effect
-10220201394	Dragon Wing	Dragon Wing
-10220201395	Shield Visual Effect	Shield Visual Effect
 10220201396	Dragon Howling	Dragon Howling
-10220201397	Frenzy Visual Effect	Frenzy Visual Effect
 10220201398	Death Bound	Death Bound
 10220201399	Enchant Blade	Enchant Blade
 10220201400	Rune Mastery	Rune Mastery
-10220201401	Mounted State	Mounted State
 10220201402	Dragon Training	Dragon Training
-10220201403	Mounted State-Dragon	Mounted State-Dragon
-10220201404	Phantom Thrust Target	Phantom Thrust Target
-10220201405	Pinpoint Attack Stacks	Pinpoint Attack Stacks
-10220201406	Hundred Spear Charge	Hundred Spear Charge
-10220201407	Pinpoint Attack Listener	Pinpoint Attack Listener
 10220201408	Furious Storm	Furious Storm
-10220201409	Advanced Hundred Spear Count	Advanced Hundred Spear Count
-10220201410	Wind Blade Slash	Wind Blade Slash
-10220201411	Sturdy Strike	Sturdy Strike
 10220201412	Cleave	Cleave
 10220201413	Napalm Vulcan	Napalm Vulcan
-10220201414	Shoot an arrow	Shoot an arrow
 10220201415	Phantom Arrow	Phantom Arrow
-10220201416	Minor Speed Boost	Minor Speed Boost
-10220201417	Major Speed Boost	Major Speed Boost
-10220201418	Guide Line Effect	Guide Line Effect
-10220201419	Minor Speed Boost Effect	Minor Speed Boost Effect
-10220201420	Major Speed Boost Effect	Major Speed Boost Effect
-10220201421	Transform Wheel Replacement	Transform Wheel Replacement
-10220201422	Speed Boost Charge	Speed Boost Charge
-10220201423	Missile Charge	Missile Charge
-10220201424	Trap Hunter Charge	Trap Hunter Charge
-10220201425	Dark Charge	Dark Charge
-10220201426	Shield Charge	Shield Charge
-10220201427	Self-Destruct Charge	Self-Destruct Charge
-10220201428	Extreme Speed Boost	Extreme Speed Boost
-10220201429	Extreme Slow	Extreme Slow
-10220201430	Self-Destruct Speed Boost	Self-Destruct Speed Boost
-10220201431	Reduced Field of View	Reduced Field of View
-10220201432	Control Immunity	Control Immunity
-10220201433	Freezing Trap Hunter Effect	Freezing Trap Hunter Effect
-10220201434	Flame Trap Hunter Effect	Flame Trap Hunter Effect
-10220201435	Cheval-de-Frise Area Effect	Cheval-de-Frise Area Effect
-10220201436	Chest Effect	Chest Effect
-10220201437	System Buff@{1}	System Buff@{1}
-10220201438	Damage Increase (Magnum Break)	Damage Increase (Magnum Break)
-10220201439	Damage/Attack Speed (Weak Point Attack)	Damage/Attack Speed (Weak Point Attack)
-10220201440	Dark Wall (Test)	Dark Wall (Test)
-10220201441	Increase Dodge (Test)	Increase Dodge (Test)
-10220201442	Effect (Test)	Effect (Test)
-10220201443	Increase ATK@{1}	Increase ATK@{1}
-10220201444	Increase Healing	Increase Healing
-10220201445	Reduce Healing	Reduce Healing
-10220201446	Ten Kills in One Step	Ten Kills in One Step
-10220201447	Silence Test	Silence Test
-10220201448	Meditation State	Meditation State
-10220201449	Orbit Test Buff	Orbit Test Buff
 10220201450	Double Attack	Double Attack
 10220201451	Double Attack@{1}	Double Attack@{1}
-10220201452	Dual-Dagger Logic Script@{1}	Dual-Dagger Logic Script@{1}
-10220201453	Cloaking Passive	Cloaking Passive
-10220201454	Sand Puff Slow	Sand Puff Slow
 10220201455	Detoxify	Detoxify
 10220201456	Katar Mastery	Katar Mastery
 10220201457	Katar Mastery@{1}	Katar Mastery@{1}
 10220201458	Sonic Acceleration	Sonic Acceleration
-10220201459	Move back Increase Dodge	Move back Increase Dodge
 10220201460	Dual-Wield Mastery	Dual-Wield Mastery
 10220201461	Dual-Wield Mastery@{1}	Dual-Wield Mastery@{1}
 10220201462	Grimtooth	Grimtooth
@@ -8341,60 +7518,12 @@
 10220201464	Envenom	Envenom
 10220201465	Double Attack Increase Dodge	Double Attack Increase Dodge
 10220201466	Deadly Poison	Deadly Poison
-10220201467	Venom Creation	Venom Creation
 10220201468	Advanced Soul Destroyer	Advanced Soul Destroyer
-10220201469	Damage Increase Effect	Damage Increase Effect
-10220201470	Cross Impact Effect	Cross Impact Effect
 10220201471	Advanced Katar Mastery	Advanced Katar Mastery
 10220201472	CRIT	CRIT
-10220201473	Assassin Talent Placeholder@{1}-@{2}	Assassin Talent Placeholder@{1}-@{2}
-10220201474	Premeditation	Premeditation
-10220201475	Assassin Talent@{1}-@{2} Support Buff	Assassin Talent@{1}-@{2} Support Buff
-10220201476	Black Phantom Damage Increase	Black Phantom Damage Increase
-10220201477	Black Phantom Slow	Black Phantom Slow
-10220201478	Rolling Cutter Passive	Rolling Cutter Passive
-10220201479	Rolling Cutter Cooldown Reset Buff	Rolling Cutter Cooldown Reset Buff
-10220201480	Venom Dance Increase Dodge	Venom Dance Increase Dodge
-10220201481	Black Phantom Floors	Black Phantom Floors
-10220201482	Black Phantom Timer	Black Phantom Timer
-10220201483	Black Phantom Passive	Black Phantom Passive
-10220201484	Thousand Shadows Status	Thousand Shadows Status
-10220201485	Shadow Loop Status	Shadow Loop Status
 10220201486	Savage Blade	Savage Blade
-10220201487	Magic Blade	Magic Blade
-10220201488	Resolve	Resolve
-10220201489	Magic Mark	Magic Mark
-10220201490	Holy Guard	Holy Guard
-10220201491	Divine Message	Divine Message
-10220201492	Ice Guardian	Ice Guardian
-10220201493	Nature's Blessing	Nature's Blessing
-10220201494	Magic Amplification	Magic Amplification
-10220201495	Momentum Breaker	Momentum Breaker
-10220201496	Magic Damage Cap	Magic Damage Cap
-10220201497	Magic Convergence	Magic Convergence
-10220201498	Holy Fortress	Holy Fortress
-10220201499	Healing Amplification	Healing Amplification
-10220201500	Healing Cap	Healing Cap
-10220201501	Melee Amplification	Melee Amplification
-10220201502	Holy Light Convergence	Holy Light Convergence
-10220201503	Terminate	Terminate
-10220201504	Ranged Amplification	Ranged Amplification
-10220201505	Vengeful Magic	Vengeful Magic
-10220201506	Physical Damage Cap	Physical Damage Cap
-10220201507	Abundant Magic	Abundant Magic
-10220201508	Strength Convergence	Strength Convergence
 10220201509	Magic Reverberation	Magic Reverberation
-10220201510	Cure	Cure
 10220201511	Holy Light's Protection	Holy Light's Protection
-10220201512	Defense Cap	Defense Cap
-10220201513	Defense Convergence	Defense Convergence
-10220201514	Abundant Healing	Abundant Healing
-10220201515	Decapitation	Decapitation
-10220201516	Continuous Healing	Continuous Healing
-10220201517	Vengeful Strength	Vengeful Strength
-10220201518	Battle Ready	Battle Ready
-10220201519	Abundant Strength	Abundant Strength
-10220201520	Multi Strike	Multi Strike
 190009	${1}'s ${2}	${1}'s ${2}
 11250000020	Low-Tier Continuous Healing	Low-Tier Continuous Healing
 11250000019	Low-Tier Abundant Healing	Low-Tier Abundant Healing
@@ -8843,24 +7972,11 @@
 64025	Novice	Novice
 64130	${1}/<color=#e5dcc1>${2}</color>	${1}/<color=#e5dcc1>${2}</color>
 64138	DPS	DPS
-10220201526	CRIT DMG Reduction	CRIT DMG Reduction
 10220201525	CRIT RES	CRIT RES
-10220201524	CRIT DMG	CRIT DMG
-10220201523	Continuous Shield	Continuous Shield
-10220201522	Desperate Defense	Desperate Defense
-10220201521	Fortitude Defense	Fortitude Defense
 10220200747	Energy Coat	Energy Coat
 10220200746	Sight Sprout	Sight Sprout
 10220200745	Sight	Sight
-10220200744	Wind Element Damage Boost Buff	Wind Element Damage Boost Buff
-10220200743	Fire Element Damage Boost Buff	Fire Element Damage Boost Buff
-10220200742	Drowning	Drowning
 10220200741	Heart Rend	Heart Rend
-10220200740	Generic Blind	Generic Blind
-10220200739	Generic Slow	Generic Slow
-10220200738	Generic Immobilize	Generic Immobilize
-10220200737	Generic Stun	Generic Stun
-10220200736	Generic Freeze	Generic Freeze
 10220200735	Butterfly	Butterfly
 10220200734	Chonchon	Chonchon
 10220200733	Sacred Timber	Sacred Timber
@@ -8876,29 +7992,17 @@
 10220200715	Armor Plate	Armor Plate
 10220200714	Blessed Sacred Glyph	Blessed Sacred Glyph
 10220200713	Sacred Glyph	Sacred Glyph
-10220200712	Spirit Glyph	Spirit Glyph
 10220200711	Glyph	Glyph
 10220200710	Energized Honing Iron	Energized Honing Iron
-10220200709	Honing Iron	Honing Iron
 10220200708	Sharpened Honing Stone	Sharpened Honing Stone
 10220200707	Honing Stone	Honing Stone
-10220200706	Potion Healing	Potion Healing
-10220200705	Luck Resonance	Luck Resonance
-10220200704	Vitality Resonance	Vitality Resonance
-10220200703	Dexterity Resonance	Dexterity Resonance
-10220200702	Intelligence Resonance	Intelligence Resonance
-10220200701	Agility Resonance	Agility Resonance
-10220200700	Strength Resonance	Strength Resonance
 10220200699	Swift Warg	Swift Warg
 10220200698	King of the Wargs	King of the Wargs
 10220200697	Wolf's Fang	Wolf's Fang
-10220200696	Warg Accessory	Warg Accessory
 10220200695	Warg Strike	Warg Strike
 10220200694	Warg Howl	Warg Howl
 10220200693	Warg Strike	Warg Strike
-10220200692	Warg Strike Trigger	Warg Strike Trigger
 10220200691	Warg Bite	Warg Bite
-10220200690	Mount Buff	Mount Buff
 10220200689	Keen Senses	Keen Senses
 10220200688	Unlimited Shooting	Unlimited Shooting
 10220200687	Fear Breeze	Fear Breeze
@@ -8906,15 +8010,11 @@
 10220200685	Sniper's Aim【Invalid Shell】	Sniper's Aim【Invalid Shell】
 10220200684	Sniper's Aim【Stat Boost】	Sniper's Aim【Stat Boost】
 130069	South Gate Reunion Invitation	South Gate Reunion Invitation
-10220200683	Detection Skill【Buff Effect】	Detection Skill【Buff Effect】
 10220200682	Wind Walk【Buff Effect】	Wind Walk【Buff Effect】
-10220200681	General Effect【Buff Effect】	General Effect【Buff Effect】
 10220200680	Falcon Assault【Trigger Effect】	Falcon Assault【Trigger Effect】
 10220200679	Falcon Assault【Stat Boost】	Falcon Assault【Stat Boost】
 10220200678	Sharp Shooting【Buff Effect】	Sharp Shooting【Buff Effect】
 10220200677	Sharp Shooting【Stat Boost】	Sharp Shooting【Stat Boost】
-10220200676	Trap Hunter Skill【Buff Effect】	Trap Hunter Skill【Buff Effect】
-10220200675	General Effect【Invalid Shell】	General Effect【Invalid Shell】
 10220200674	Blitz Beat【Buff Effect】	Blitz Beat【Buff Effect】
 10220200673	Blitz Beat【Invalid Shell】	Blitz Beat【Invalid Shell】
 10220200672	Arrow Shower【Mode/Trigger】	Arrow Shower【Mode/Trigger】
@@ -8925,78 +8025,26 @@
 10220200667	Blitz Beat【Stat Boost】	Blitz Beat【Stat Boost】
 10220200666	Double Strafe【Trigger Effect】	Double Strafe【Trigger Effect】
 10220200665	Double Strafe【Stat Boost】	Double Strafe【Stat Boost】
-10220200664	Basic Attack【Trigger Effect】	Basic Attack【Trigger Effect】
-10220200663	Basic Attack【Stat Boost】	Basic Attack【Stat Boost】
 10220200662	True Sight	True Sight
 10220200661	Steel Crow	Steel Crow
 10220200660	Blitz Beat	Blitz Beat
 10220200659	Falconry	Falconry
 10220200658	Steady Focus	Steady Focus
-10220200657	Hunter Spawn Buff	Hunter Spawn Buff
-10220200656	Guard Domain	Guard Domain
-10220200655	Guard Domain Orbit	Guard Domain Orbit
-10220200654	Sandman Slow	Sandman Slow
-10220200653	Gryphon Skill Shield	Gryphon Skill Shield
-10220200652	AoE Buff	AoE Buff
-10220200651	Goddess's Protection	Goddess's Protection
-10220200650	Morale Surge	Morale Surge
-10220200649	Full Steam Ahead	Full Steam Ahead
-10220200648	Fatigue Immunity	Fatigue Immunity
-10220200647	Safe Zone	Safe Zone
-10220200646	Fatigue	Fatigue
 10220200645	Locked	Locked
-10220200644	Repair	Repair
 10220200643	Emergency Call	Emergency Call
 10220200642	Battle Command	Battle Command
-10220200641	Solo Madogear Pilot Shield Recovery State	Solo Madogear Pilot Shield Recovery State
-10220200640	Solo Madogear Pilot Shield	Solo Madogear Pilot Shield
-10220200639	Idle Speed	Idle Speed
-10220200638	Set Periodic Damage Cap	Set Periodic Damage Cap
-10220200637	Set Single-Hit Damage Cap	Set Single-Hit Damage Cap
-10220200636	HP Lock	HP Lock
 10220200635	Trigger Self-Destruct	Trigger Self-Destruct
-10220200634	Solo Madogear Pilot Monitoring	Solo Madogear Pilot Monitoring
 10220200633	Rapidness Shot	Rapidness Shot
-10220200632	Acceleration	Acceleration
-10220200631	Invincible Tank	Invincible Tank
-10220200630	Magnificent Burst	Magnificent Burst
-10220200629	Magnificent Damage Reduction	Magnificent Damage Reduction
-10220200628	Targeted	Targeted
-10220200627	Rising Resolve	Rising Resolve
-10220200626	Morale Boost	Morale Boost
-10220200625	Battle Start Protection	Battle Start Protection
-10220200624	Ability Enhance	Ability Enhance
 10220200623	DMG Reduction	DMG Reduction
-10220200622	Repairable Mark	Repairable Mark
 10220200621	Madogear Pilot Repair	Madogear Pilot Repair
 10220200620	AoE Acceleration	AoE Acceleration
-10220200619	Respawn Buff	Respawn Buff
-10220200618	Continual Burn	Continual Burn
-10220200617	Electrified	Electrified
 10220200616	HP Recovery	HP Recovery
-10220200615	Madogear Pilot Protection	Madogear Pilot Protection
-10220200614	Demonic Dragon Soul Vulnerability	Demonic Dragon Soul Vulnerability
 10220200613	Demonic Dragon Soul	Demonic Dragon Soul
-10220200612	Death Immunity Buff	Death Immunity Buff
-10220200611	Accelerate Buff	Accelerate Buff
-10220200610	HP Buff	HP Buff
-10220200609	Shield Buff	Shield Buff
-10220200608	ATK Buff	ATK Buff
 10220200607	Focused Blade	Focused Blade
 10220200606	Protective Shield	Protective Shield
 10220200605	Soul Recall Ring	Soul Recall Ring
 10220200604	Blazing Formation	Blazing Formation
 10220200603	Tornado Incarnation	Tornado Incarnation
-10220200602	Power of Tide	Power of Tide
-10220200601	Blackhole Pull	Blackhole Pull
-10220200600	Sonic Barrier Field	Sonic Barrier Field
-10220200599	Suffocation	Suffocation
-10220200598	Count	Count
-10220200597	Cloud Connection	Cloud Connection
-10220200596	Player Aggro Control	Player Aggro Control
-10220200595	Force-display targeted players	Force-display targeted players
-10220200594	White Circle Underfoot	White Circle Underfoot
-10220200593	Player behavior after the opening movement ends	Player behavior after the opening movement ends
 10110300809	[No Translation Required]	[No Translation Required]
 10110201310	Stone Blades - Outer Ring	Stone Blades - Outer Ring
 10110201309	Blade Mountain - False Fall	Blade Mountain - False Fall
