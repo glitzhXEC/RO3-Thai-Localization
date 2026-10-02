@@ -1,17 +1,17 @@
 {
   "new_batch_counts": {
-    "batch-088.th.json": 210,
-    "batch-089.th.json": 210,
-    "batch-090.th.json": 210,
-    "batch-091.th.json": 120
+    "batch-092.th.json": 434,
+    "batch-093.th.json": 446,
+    "batch-094.th.json": 350,
+    "batch-095.th.json": 252
   },
-  "new_authored_ids": 750,
-  "authored_ids_all_batches": 11584,
-  "runtime_thai_difference_ids": 11572,
-  "runtime_english_ids": 21941,
+  "new_authored_ids": 1482,
+  "authored_ids_all_batches": 13066,
+  "runtime_thai_difference_ids": 13054,
+  "runtime_english_ids": 20459,
   "complete_game_translation": false,
   "game_tested": false,
-  "numeric_runtime_rules": 2745,
+  "numeric_runtime_rules": 2856,
   "id_only_ambiguous_numeric_ids": [
     "21172",
     "10960000329",
@@ -28,9 +28,19 @@
   },
   "translation_team": {
     "additional_agents": 3,
-    "agent_a": 210,
-    "agent_b": 210,
-    "agent_c": 210,
-    "parent": 120
-  }
+    "agent_a": 434,
+    "agent_b": 446,
+    "agent_c": 350,
+    "parent": 252
+  },
+  "quest_update_deferred_ids": [
+    "13150200065",
+    "13150200213",
+    "13150000158",
+    "13150000187",
+    "13150000218",
+    "13150000350",
+    "11081000007",
+    "11190100050"
+  ]
 }

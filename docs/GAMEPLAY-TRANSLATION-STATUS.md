@@ -1,4 +1,4 @@
-# Gameplay translation progress — batches 074–091
+# Gameplay translation progress — batches 074–095
 
 The verified current English game export is the only source. Existing fresh terminology is reused where the English text and meaning match; old Thai translation files are not imported.
 
@@ -10,7 +10,7 @@ The verified current English game export is the only source. Existing fresh term
 | 077 | 166 | Boss/dragon mechanics, siege and territory warnings, map-object status, killstreaks and combat instructions |
 | 078 | 54 | Airship encounters, grappling/cannon instructions, boss ground-warning order, Dracula/bride rescue and spawn alerts |
 
-1,488 new authored IDs across batches 074–091, including 750 in the latest 088–091 update; 11,584 authored IDs overall. Of the complete 33,513-ID runtime table, 11,572 IDs differ from English and 21,941 retain English. Overall values exclude no source IDs; five semantic-review IDs and seven unchanged authored targets retain English.
+2,970 new authored IDs across batches 074–095, including 1,482 in the latest 092–095 update; 13,066 authored IDs overall. Of the complete 33,513-ID runtime table, 13,054 IDs differ from English and 20,459 retain English. Overall values exclude no source IDs; five semantic-review IDs and seven unchanged authored targets retain English.
 
 ## Source fidelity and unresolved text
 
@@ -27,7 +27,7 @@ This is a text/data-only update using runtime schema 2. No DLL, EXE, game script
 
 The numeric-rule test renderer now uses the existing single-pass wire decoder for CR, LF, tabs and escaped backslashes; a regression check rejects double-decoding literal backslash-n. No production/runtime code was changed for this test correction.
 
-Authoring QA and decoded-control number QA, corruption rejection, complete English-base audit, runtime rules, language-hook harness and updater tests must pass before publication. Public feed verification checks all three file hashes and all 750 latest ID/target pairs through the actual HTTPS updater. The generated runtime English/Thai fields are also checked against the canonical merged table for all 33,513 IDs. These are automated data/mock-runtime checks, not Windows/game UI tests.
+Authoring QA and decoded-control number QA, corruption rejection, complete English-base audit, runtime rules, language-hook harness and updater tests must pass before publication. Public feed verification checks all three file hashes and all 1,482 latest ID/target pairs through the actual HTTPS updater. The generated runtime English/Thai fields are also checked against the canonical merged table for all 33,513 IDs. These are automated data/mock-runtime checks, not Windows/game UI tests.
 
 **This is not a completed translation of every game text.** Other guide, event and quest/dialogue families remain; proper names and technical formats are intentionally retained. In-game wording, layout and clipping have not been verified.
 
@@ -35,7 +35,7 @@ Authoring QA and decoded-control number QA, corruption rejection, complete Engli
 
 The actual HTTPS smoke test exposed a generator parsing error for 10320000172: ordinary CSV quoting removed its enclosing literal quotation marks, so the source English no longer matched the actual game string. The generator now reads raw runtime TSV with `csv.QUOTE_NONE`, preserving literal quotes rather than treating them as CSV field delimiters. This repairs 26 runtime rows (including English-base-only rows) without changing translation IDs, source text, DLLs or executables. A regression compares every generated English/Thai field byte-for-byte with the canonical merged TSV before publication. Source snapshot TSV parts retain their existing proper CSV reader; only the raw generated TSV reader was corrected.
 
-## Latest update — batches 079–087
+## Update — batches 079–087
 
 | Batch | Added IDs | Scope |
 |---|---:|---|
@@ -59,7 +59,7 @@ The rendered-value test found that 10960000329 could split `123.5.123.5` at the 
 
 Validation includes every generated runtime field against the canonical 33,513-ID merged table; all styled/unstyled numeric rules; unambiguous capture boundaries; source numbers, token order, bracket labels and controls; language-hook checks; updater integrity/caching; and actual public HTTPS feed verification of all 377 latest translations. The feed has 2,506 global numeric rules. No game or Windows UI test has been performed.
 
-## Latest update — batches 088–091, three-agent translation team
+## Update — batches 088–091, three-agent translation team
 
 The user requested three additional agents. Each received an immutable 210-ID English queue, disjoint from the others, with read-only access to the shared repository. The parent translated a separate 120-ID queue. Only the parent imported and published the approved batches.
 
@@ -87,3 +87,11 @@ The agents completed all 630 assigned entries; none were deferred. All four loca
 750 new authored IDs, bringing the total to 11,584. Source fidelity is checked across all 33,513 runtime rows. The complete feed contains 11,572 targets differing from English, 21,941 English targets and 2,745 numeric rules. Local tests passed: 189,695 runtime checks (including 90 mocked language-bridge checks), 27 compiled-plugin hook checks, 57 updater checks and authoring/corruption/decoded-number checks. Public verification additionally compares all 750 new targets, every manifest hash, the runtime TSV bytes against the canonical merged table, and the actual HTTPS updater/cache behavior.
 
 No DLL/EXE, game script, installer behavior or Release changed. Runtime v0.4.1 receives the new data through the existing main feed on startup. This is not a completed translation of every game text, and no real-game or Windows UI testing has been performed.
+
+## Latest update — batches 092–095: quest localization
+
+Three translation agents completed disjoint quest queues and the parent added activity/reward objectives. Added 1,482 IDs: 434 quest descriptions (131502), 446 quest objectives/progression steps (131500), 350 NPC/dialogue/response records (103700), and 252 encounter/activity/reward conditions (110810/111901). All are translated from the verified current English, not legacy Thai. Eight assigned IDs retain English because of ambiguous Utility/faction wording or pure names.
+
+Overall authored total is 13,066; the full 33,513-ID feed contains 13,054 targets differing from English and 20,459 English targets, with 2,856 numeric rules. All source fields, protected names/tokens, numbers, controls and styled/unstyled runtime rules are verified. Exact-English duplicates use the approved fresh target; a preflight also rejects conflicting rendered Thai when English becomes identical after numeric/style substitution. Local checks passed: 191,417 runtime checks, 27 compiled-plugin hook checks and 57 updater checks. Actual public HTTPS verification checks all 1,482 new ID/target pairs and manifest hashes/cache behavior.
+
+The text/data-only update does not change DLLs, EXEs, game scripts, installation or Releases. Restart online with runtime v0.4.1 to receive the current main feed. Other quest/title/dialogue IDs and other families remain; this is not all-game translation completion. No real-game/Windows UI tests have been run. See `QUEST-TRANSLATION-STATUS.md` and `quest-translation-coverage.json` for source concerns and deferred IDs.
