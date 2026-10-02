@@ -28,3 +28,7 @@ Authoring and decoded-number/control validation passed. Zero conflicting rendere
 Publication is confirmed only after public main manifest/all three file hashes, all 2,346 new ID/target pairs, retained English rows, byte-faithful 33,513-ID merged table and the actual configured HTTPS updater/cache/unchanged-version checks pass. These tests are data/runtime harness tests; no real game or Windows UI was executed. Wording in context, clipping and layout still require game verification.
 
 Runtime v0.4.1 users restart online to receive the existing main feed. No new installer or Release is required; offline/invalid responses keep verified cache or bundled fallback.
+
+## Later update — batches 112–115
+
+952 descriptive buff/effect labels from this inventory are now authored after individual semantic review. The totals above are the historical 108–111 snapshot, not current cumulative coverage. See BUFF-EFFECT-TRANSLATION-STATUS.md and the current cumulative ledger.

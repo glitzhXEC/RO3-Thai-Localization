@@ -1,0 +1,4092 @@
+{
+  "scope": "Individual semantic re-review of remaining 102202 buff/effect catalog; batches112–115",
+  "prior_authored_ids": 24022,
+  "new_batch_counts": {
+    "batch-112.th.json": 293,
+    "batch-113.th.json": 289,
+    "batch-114.th.json": 320,
+    "batch-115.th.json": 50
+  },
+  "new_authored_ids": 952,
+  "new_Thai_text_ids": 952,
+  "canonical_English_label_ids": [],
+  "authored_total": 24974,
+  "runtime_thai_difference_ids": 24961,
+  "runtime_english_ids": 8552,
+  "runtime_ids": 33513,
+  "runtime_rules": 3491,
+  "assigned_individual_re_review_ids": 1515,
+  "retained_English_assigned_ids": [
+    {
+      "id": "10220200005",
+      "english": "Slow",
+      "reason": "Label also appears in the skill-name catalog, but catalog membership alone does not establish named-skill versus generic effect meaning. Kept English pending UI/context rather than borrowing a same-English state translation from another ID.",
+      "skill_reference_ids": [
+        "10110200010",
+        "10110201284"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200007",
+      "english": "Mace Mastery",
+      "reason": "Actual plain named skill Mace Mastery (verified against skill reference where present); no descriptive surrounding modifier.",
+      "skill_reference_ids": [
+        "10110200013"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200009",
+      "english": "Recovery",
+      "reason": "Actual plain named skill Recovery (verified against skill reference where present); no descriptive surrounding modifier.",
+      "skill_reference_ids": [
+        "10110200016"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200010",
+      "english": "Magnificat",
+      "reason": "Actual plain named skill Magnificat (verified against skill reference where present); no descriptive surrounding modifier.",
+      "skill_reference_ids": [
+        "10110200017"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200011",
+      "english": "Gloria",
+      "reason": "Actual plain named skill Gloria (verified against skill reference where present); no descriptive surrounding modifier.",
+      "skill_reference_ids": [
+        "10110200018"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200014",
+      "english": "Kyrie Eleison",
+      "reason": "Actual plain named skill Kyrie Eleison (verified against skill reference where present); no descriptive surrounding modifier.",
+      "skill_reference_ids": [
+        "10110200023"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200015",
+      "english": "Impositio Manus",
+      "reason": "Actual plain named skill Impositio Manus (verified against skill reference where present); no descriptive surrounding modifier.",
+      "skill_reference_ids": [
+        "10110200025"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200024",
+      "english": "Turn Undead [Triggered Skill]",
+      "reason": "Actual skill name followed only by protected bracket metadata; bracket content must remain English, and no unprotected modifier is supplied.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200028",
+      "english": "Basic Attack [Triggered Skill]",
+      "reason": "Actual skill name followed only by protected bracket metadata; bracket content must remain English, and no unprotected modifier is supplied.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200034",
+      "english": "Cross Exorciser [Triggered Buff]",
+      "reason": "Actual skill name followed only by protected bracket metadata; bracket content must remain English, and no unprotected modifier is supplied.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200039",
+      "english": "Sanctuary",
+      "reason": "Actual plain named skill Sanctuary (verified against skill reference where present); no descriptive surrounding modifier.",
+      "skill_reference_ids": [
+        "10110200022"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200042",
+      "english": "Basilica [Cast Completion Detection]",
+      "reason": "Actual skill name followed only by protected bracket metadata; bracket content must remain English, and no unprotected modifier is supplied.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200044",
+      "english": "Divine Light [Triggered Skill]",
+      "reason": "Actual skill name followed only by protected bracket metadata; bracket content must remain English, and no unprotected modifier is supplied.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200045",
+      "english": "Hymn of the Lamb",
+      "reason": "Actual plain named skill Hymn of the Lamb (verified against skill reference where present); no descriptive surrounding modifier.",
+      "skill_reference_ids": [
+        "10110200044"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200051",
+      "english": "Respawn",
+      "reason": "Respawn is an actual skill in the skill reference; this cleric catalog does not describe pet reset/refund. Do not reuse the private pet-menu homonym.",
+      "skill_reference_ids": [
+        "10110200050"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200052",
+      "english": "Prayer of Gratitude",
+      "reason": "Actual plain named skill Prayer of Gratitude (verified against skill reference where present); no descriptive surrounding modifier.",
+      "skill_reference_ids": [
+        "10110200048"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200055",
+      "english": "Double Holy Light",
+      "reason": "Actual plain named skill Double Holy Light (verified against skill reference where present); no descriptive surrounding modifier.",
+      "skill_reference_ids": [
+        "10110200053"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200057",
+      "english": "Divine Retribution",
+      "reason": "Actual plain named skill Divine Retribution (verified against skill reference where present); no descriptive surrounding modifier.",
+      "skill_reference_ids": [
+        "10110200055"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200072",
+      "english": "Power Thrust",
+      "reason": "Actual plain named skill Power Thrust (verified against skill reference where present); no descriptive surrounding modifier.",
+      "skill_reference_ids": [
+        "10110200076"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200073",
+      "english": "Maximize Power",
+      "reason": "Actual plain named skill Maximize Power (verified against skill reference where present); no descriptive surrounding modifier.",
+      "skill_reference_ids": [
+        "10110200077"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200077",
+      "english": "Cart Boost",
+      "reason": "Actual plain named skill Cart Boost (verified against skill reference where present); no descriptive surrounding modifier.",
+      "skill_reference_ids": [
+        "10110200079"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200083",
+      "english": "Maximum Over Thrust - Critical Strike",
+      "reason": "Maximum Over Thrust and Critical Strike are named skill/talent identities joined by a dash; no descriptive modifier to translate.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200085",
+      "english": "Mammonite",
+      "reason": "Actual plain named skill Mammonite (verified against skill reference where present); no descriptive surrounding modifier.",
+      "skill_reference_ids": [
+        "10110200067"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200096",
+      "english": "Cart Remodeling",
+      "reason": "Actual plain named skill Cart Remodeling (verified against skill reference where present); no descriptive surrounding modifier.",
+      "skill_reference_ids": [
+        "10110200064"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200113",
+      "english": "Critical Strike",
+      "reason": "Critical Strike is a named combat talent, not an explanatory modifier; preserve its name.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200170",
+      "english": "Intermediate Live Coal",
+      "reason": "Actual Live Coal material-grade name Intermediate Live Coal; preserve material identity.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200173",
+      "english": "Normal Live Coal - Live Coal",
+      "reason": "Actual Live Coal material-grade name Normal Live Coal - Live Coal; preserve material identity.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200203",
+      "english": "Ghostring",
+      "reason": "Actual monster/card identity Ghostring; not descriptive effect wording.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200205",
+      "english": "Cornutus",
+      "reason": "Actual monster/card identity Cornutus; not descriptive effect wording.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200206",
+      "english": "Maya Purple",
+      "reason": "Actual monster/card identity Maya Purple; not descriptive effect wording.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200208",
+      "english": "Drake",
+      "reason": "Actual monster/card identity Drake; not descriptive effect wording.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200210",
+      "english": "Dracula",
+      "reason": "Actual monster/card identity Dracula; not descriptive effect wording.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200211",
+      "english": "Doppelganger",
+      "reason": "Actual monster/card identity Doppelganger; not descriptive effect wording.",
+      "skill_reference_ids": [
+        "10110201040"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200215",
+      "english": "Angeling",
+      "reason": "Actual monster/card identity Angeling; not descriptive effect wording.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200218",
+      "english": "Osiris",
+      "reason": "Actual monster/card identity Osiris; not descriptive effect wording.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200221",
+      "english": "Orc Hero",
+      "reason": "Actual monster/card identity Orc Hero; not descriptive effect wording.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200226",
+      "english": "Steel Fur Grizzly",
+      "reason": "Actual monster/card identity Steel Fur Grizzly; not descriptive effect wording.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200230",
+      "english": "Osiris (Orange)",
+      "reason": "Actual monster/card identity Osiris (Orange); not descriptive effect wording.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200234",
+      "english": "Auto Guard",
+      "reason": "Actual plain named skill Auto Guard (verified against skill reference where present); no descriptive surrounding modifier.",
+      "skill_reference_ids": [
+        "10110200149"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200238",
+      "english": "Recoil",
+      "reason": "Actual plain named skill Recoil (verified against skill reference where present); no descriptive surrounding modifier.",
+      "skill_reference_ids": [
+        "10110200157"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200241",
+      "english": "Monster Resistance",
+      "reason": "Actual plain named skill Monster Resistance (verified against skill reference where present); no descriptive surrounding modifier.",
+      "skill_reference_ids": [
+        "10110200162"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200291",
+      "english": "Reflect Damage",
+      "reason": "Actual plain named skill Reflect Damage (verified against skill reference where present); no descriptive surrounding modifier.",
+      "skill_reference_ids": [
+        "10110200185"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200295",
+      "english": "King's Grace",
+      "reason": "Actual plain named skill King's Grace (verified against skill reference where present); no descriptive surrounding modifier.",
+      "skill_reference_ids": [
+        "10110200189"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200300",
+      "english": "Piety",
+      "reason": "Actual plain named skill Piety (verified against skill reference where present); no descriptive surrounding modifier.",
+      "skill_reference_ids": [
+        "10110200192"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200343",
+      "english": "BDTarget_MaxStack_BigType",
+      "reason": "Internal underscore resource identifier BDTarget_MaxStack_BigType; technical key, not prose.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200344",
+      "english": "BDTarget_MaxStack_Tag",
+      "reason": "Internal underscore resource identifier BDTarget_MaxStack_Tag; technical key, not prose.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200345",
+      "english": "BDTarget_ChangeAttri_BigType",
+      "reason": "Internal underscore resource identifier BDTarget_ChangeAttri_BigType; technical key, not prose.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200346",
+      "english": "BDTarget_ChangeAttri_Tag",
+      "reason": "Internal underscore resource identifier BDTarget_ChangeAttri_Tag; technical key, not prose.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200347",
+      "english": "BDTarget_AttriTransformRule_BigType",
+      "reason": "Internal underscore resource identifier BDTarget_AttriTransformRule_BigType; technical key, not prose.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200352",
+      "english": "BDDictionary_enum@{1}_BigType_Set",
+      "reason": "Internal underscore resource identifier BDDictionary_enum@{1}_BigType_Set; technical key, not prose.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200354",
+      "english": "BDDictionary_enum@{1}_Tag_Set",
+      "reason": "Internal underscore resource identifier BDDictionary_enum@{1}_Tag_Set; technical key, not prose.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200356",
+      "english": "BDDictionary_enum@{1}_Tag_PerTenThousand",
+      "reason": "Internal underscore resource identifier BDDictionary_enum@{1}_Tag_PerTenThousand; technical key, not prose.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200362",
+      "english": "Hiding",
+      "reason": "Actual plain named skill Hiding (verified against skill reference where present); no descriptive surrounding modifier.",
+      "skill_reference_ids": [
+        "10110200984",
+        "10110201855"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200364",
+      "english": "Shadow Step",
+      "reason": "Actual plain named skill Shadow Step (verified against skill reference where present); no descriptive surrounding modifier.",
+      "skill_reference_ids": [
+        "10110200229"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200406",
+      "english": "Wind Walker",
+      "reason": "Plain actual skill name Wind Walker confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110200272"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200407",
+      "english": "Falcon's Eye",
+      "reason": "Plain actual skill name Falcon's Eye confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110200273"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200429",
+      "english": "Flying Magic",
+      "reason": "Plain actual skill name Flying Magic confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110200290"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200435",
+      "english": "Tension Relax",
+      "reason": "Plain actual skill name Tension Relax confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110200268"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200444",
+      "english": "Vehicle Stealth",
+      "reason": "Plain actual skill name Vehicle Stealth confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110200298"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200465",
+      "english": "Knock-Up",
+      "reason": "Plain actual skill name Knock-Up confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110201287"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200469",
+      "english": "Immobilize",
+      "reason": "Plain actual skill name Immobilize confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110201289"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200487",
+      "english": "Meditate",
+      "reason": "Plain actual skill name Meditate confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110201067"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200489",
+      "english": "Ice Blast",
+      "reason": "Plain actual skill name Ice Blast confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110201933"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200492",
+      "english": "Dispel",
+      "reason": "Plain actual skill name Dispel confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110201851"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200508",
+      "english": "Blessing of Light",
+      "reason": "Plain actual skill name Blessing of Light confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110200317"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200520",
+      "english": "Weak",
+      "reason": "Plain actual skill name Weak confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110200453",
+        "10110201627"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200521",
+      "english": "Poring Poring!",
+      "reason": "Only repeats the Poring monster name with punctuation; retain monster identity.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200529",
+      "english": "Lightning Strike",
+      "reason": "Plain actual skill name Lightning Strike confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110200391"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200534",
+      "english": "Split",
+      "reason": "Plain actual skill name Split confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110200361"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200535",
+      "english": "Divine Light",
+      "reason": "Plain actual skill name Divine Light confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110200819"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200542",
+      "english": "Berserk",
+      "reason": "Plain actual skill name Berserk confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110200412",
+        "10110201828"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200549",
+      "english": "DEF Boost",
+      "reason": "Plain actual skill name DEF Boost confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110200439"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200551",
+      "english": "CRIT Boost",
+      "reason": "Plain actual skill name CRIT Boost confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110200441"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200556",
+      "english": "Concentrated Squid Ink",
+      "reason": "Plain actual skill name Concentrated Squid Ink confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110200447"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200557",
+      "english": "DEF Injection",
+      "reason": "Plain actual skill name DEF Injection confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110200448"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200603",
+      "english": "Tornado Incarnation",
+      "reason": "Plain actual skill name Tornado Incarnation confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110200646"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200606",
+      "english": "Protective Shield",
+      "reason": "Plain actual skill name Protective Shield confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110200648"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200616",
+      "english": "HP Recovery",
+      "reason": "Label also appears in the skill-name catalog, but catalog membership alone does not establish named-skill versus generic effect meaning. Kept English pending UI/context rather than borrowing a same-English state translation from another ID.",
+      "skill_reference_ids": [
+        "10110200443",
+        "10110200362"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200620",
+      "english": "AoE Acceleration",
+      "reason": "Plain actual skill name AoE Acceleration confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110200643"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200621",
+      "english": "Madogear Pilot Repair",
+      "reason": "Plain actual skill name Madogear Pilot Repair confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110200655"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200623",
+      "english": "DMG Reduction",
+      "reason": "Label also appears in the skill-name catalog, but catalog membership alone does not establish named-skill versus generic effect meaning. Kept English pending UI/context rather than borrowing a same-English state translation from another ID.",
+      "skill_reference_ids": [
+        "10110200638"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200642",
+      "english": "Battle Command",
+      "reason": "Plain actual skill name Battle Command confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110200667"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200661",
+      "english": "Steel Crow",
+      "reason": "Plain actual skill name Steel Crow confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110200688"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200665",
+      "english": "Double Strafe【Stat Boost】",
+      "reason": "Actual skill name followed only by protected bracket content; retain skill spelling and English bracket label, with no invented Thai prefix.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200666",
+      "english": "Double Strafe【Trigger Effect】",
+      "reason": "Actual skill name followed only by protected bracket content; retain skill spelling and English bracket label, with no invented Thai prefix.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200669",
+      "english": "Blitz Beat【Skill Mode】",
+      "reason": "Actual skill name followed only by protected bracket content; retain skill spelling and English bracket label, with no invented Thai prefix.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200670",
+      "english": "Arrow Shower【Stat Boost】",
+      "reason": "Actual skill name followed only by protected bracket content; retain skill spelling and English bracket label, with no invented Thai prefix.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200677",
+      "english": "Sharp Shooting【Stat Boost】",
+      "reason": "Actual skill name followed only by protected bracket content; retain skill spelling and English bracket label, with no invented Thai prefix.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200678",
+      "english": "Sharp Shooting【Buff Effect】",
+      "reason": "Actual skill name followed only by protected bracket content; retain skill spelling and English bracket label, with no invented Thai prefix.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200686",
+      "english": "Arrow Shower【Timer】",
+      "reason": "Actual skill name followed only by protected bracket content; retain skill spelling and English bracket label, with no invented Thai prefix.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200689",
+      "english": "Keen Senses",
+      "reason": "Plain actual skill name Keen Senses confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110200705"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200691",
+      "english": "Warg Bite",
+      "reason": "Plain actual skill name Warg Bite confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110200714"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200697",
+      "english": "Wolf's Fang",
+      "reason": "Plain actual skill name Wolf's Fang confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110200710"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200698",
+      "english": "King of the Wargs",
+      "reason": "Plain actual skill name King of the Wargs confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110200711"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200699",
+      "english": "Swift Warg",
+      "reason": "Plain actual skill name Swift Warg confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110200715"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200707",
+      "english": "Honing Stone",
+      "reason": "Actual crafting material/resource name Honing Stone; no effect modifier to translate.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200708",
+      "english": "Sharpened Honing Stone",
+      "reason": "Actual crafting material/resource name Sharpened Honing Stone; no effect modifier to translate.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200720",
+      "english": "Coal",
+      "reason": "Actual crafting material/resource name Coal; no effect modifier to translate.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200724",
+      "english": "Wild Hemp Vine",
+      "reason": "Actual crafting material/resource name Wild Hemp Vine; no effect modifier to translate.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200726",
+      "english": "Mossgrass",
+      "reason": "Actual crafting material/resource name Mossgrass; no effect modifier to translate.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200727",
+      "english": "Spirit Silk Flower",
+      "reason": "Actual crafting material/resource name Spirit Silk Flower; no effect modifier to translate.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200729",
+      "english": "Common Timber",
+      "reason": "Actual crafting material/resource name Common Timber; no effect modifier to translate.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200734",
+      "english": "Chonchon",
+      "reason": "Chonchon is a true monster/skill identity, not a descriptive label.",
+      "skill_reference_ids": [
+        "10110200769"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200745",
+      "english": "Sight",
+      "reason": "Plain actual skill name Sight confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110200140"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200747",
+      "english": "Energy Coat",
+      "reason": "Plain actual skill name Energy Coat confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110201898"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200748",
+      "english": "Safety Wall",
+      "reason": "Plain actual skill name Safety Wall confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110200027"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200750",
+      "english": "Frost Nova",
+      "reason": "Plain actual skill name Frost Nova confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110201908"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200752",
+      "english": "Meteor Storm",
+      "reason": "Plain actual skill name Meteor Storm confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110201911"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200762",
+      "english": "Reading Spellbook",
+      "reason": "Plain actual skill name Reading Spellbook confirmed by the skill reference; no generic modifier surrounds the name.",
+      "skill_reference_ids": [
+        "10110201929"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200769",
+      "english": "Spellbook - Frost Blast",
+      "reason": "Spellbook item name qualified by a named spell (Spellbook - Frost Blast); no descriptive action.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200770",
+      "english": "Spellbook - Tetra Vortex",
+      "reason": "Spellbook item name qualified by a named spell (Spellbook - Tetra Vortex); no descriptive action.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200792",
+      "english": "Psychic Mastery",
+      "reason": "Plain genuine named skill Psychic Mastery confirmed by the skill reference; no surrounding effect condition.",
+      "skill_reference_ids": [
+        "10110200311"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200797",
+      "english": "Elemental Pursuit",
+      "reason": "Plain genuine named skill Elemental Pursuit confirmed by the skill reference; no surrounding effect condition.",
+      "skill_reference_ids": [
+        "10110201918"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200807",
+      "english": "Thunderbolt",
+      "reason": "Plain genuine named skill Thunderbolt confirmed by the skill reference; no surrounding effect condition.",
+      "skill_reference_ids": [
+        "10110201922"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200820",
+      "english": "Soul Reaper",
+      "reason": "Plain genuine named skill Soul Reaper confirmed by the skill reference; no surrounding effect condition.",
+      "skill_reference_ids": [
+        "10110200437",
+        "10110201007"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200833",
+      "english": "Refreshing Breath Medicine",
+      "reason": "Actual medicine/potion/food/drink item name Refreshing Breath Medicine; preserve item identity, not a healing-effect description.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200834",
+      "english": "Gentle Breath Medicine",
+      "reason": "Actual medicine/potion/food/drink item name Gentle Breath Medicine; preserve item identity, not a healing-effect description.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200837",
+      "english": "First Aid Breath Medicine",
+      "reason": "Actual medicine/potion/food/drink item name First Aid Breath Medicine; preserve item identity, not a healing-effect description.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200838",
+      "english": "Concentrated Breath Medicine",
+      "reason": "Actual medicine/potion/food/drink item name Concentrated Breath Medicine; preserve item identity, not a healing-effect description.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200841",
+      "english": "Red Potion",
+      "reason": "Actual medicine/potion/food/drink item name Red Potion; preserve item identity, not a healing-effect description.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200843",
+      "english": "Orange Potion",
+      "reason": "Actual medicine/potion/food/drink item name Orange Potion; preserve item identity, not a healing-effect description.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200845",
+      "english": "Holy Spirit Potion",
+      "reason": "Actual medicine/potion/food/drink item name Holy Spirit Potion; preserve item identity, not a healing-effect description.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200846",
+      "english": "Fountain of Life",
+      "reason": "Plain genuine named skill Fountain of Life confirmed by the skill reference; no surrounding effect condition.",
+      "skill_reference_ids": [
+        "10110200174"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200847",
+      "english": "Superior Green Potion",
+      "reason": "Actual medicine/potion/food/drink item name Superior Green Potion; preserve item identity, not a healing-effect description.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200850",
+      "english": "Superior Orange Potion",
+      "reason": "Actual medicine/potion/food/drink item name Superior Orange Potion; preserve item identity, not a healing-effect description.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200856",
+      "english": "Mushroom Tomato Soup",
+      "reason": "Actual medicine/potion/food/drink item name Mushroom Tomato Soup; preserve item identity, not a healing-effect description.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200857",
+      "english": "Grilled Mushroom Skewers",
+      "reason": "Actual medicine/potion/food/drink item name Grilled Mushroom Skewers; preserve item identity, not a healing-effect description.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200858",
+      "english": "Chili Beast Steak",
+      "reason": "Actual medicine/potion/food/drink item name Chili Beast Steak; preserve item identity, not a healing-effect description.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200860",
+      "english": "Meat Bun",
+      "reason": "Actual medicine/potion/food/drink item name Meat Bun; preserve item identity, not a healing-effect description.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200871",
+      "english": "Berry Herbal Tea",
+      "reason": "Actual medicine/potion/food/drink item name Berry Herbal Tea; preserve item identity, not a healing-effect description.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200876",
+      "english": "Grape Sparkling Water",
+      "reason": "Actual medicine/potion/food/drink item name Grape Sparkling Water; preserve item identity, not a healing-effect description.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200877",
+      "english": "Mixed Fruit Juice",
+      "reason": "Actual medicine/potion/food/drink item name Mixed Fruit Juice; preserve item identity, not a healing-effect description.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200881",
+      "english": "Citruswood Fruit Tea",
+      "reason": "Actual medicine/potion/food/drink item name Citruswood Fruit Tea; preserve item identity, not a healing-effect description.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200891",
+      "english": "Terrifying Roar",
+      "reason": "Plain genuine named skill Terrifying Roar confirmed by the skill reference; no surrounding effect condition.",
+      "skill_reference_ids": [
+        "10110200958",
+        "10110200397",
+        "10110201300"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200917",
+      "english": "Dark Corrosion",
+      "reason": "Plain genuine named skill Dark Corrosion confirmed by the skill reference; no surrounding effect condition.",
+      "skill_reference_ids": [
+        "10110201028"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200920",
+      "english": "Burn",
+      "reason": "Label also appears in the skill-name catalog, but catalog membership alone does not establish named-skill versus generic effect meaning. Kept English pending UI/context rather than borrowing a same-English state translation from another ID.",
+      "skill_reference_ids": [
+        "10110201841"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200937",
+      "english": "Sinister Scythe",
+      "reason": "Plain genuine named skill Sinister Scythe confirmed by the skill reference; no surrounding effect condition.",
+      "skill_reference_ids": [
+        "10110201077"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200939",
+      "english": "Scythe Slash",
+      "reason": "Plain genuine named skill Scythe Slash confirmed by the skill reference; no surrounding effect condition.",
+      "skill_reference_ids": [
+        "10110201079"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200941",
+      "english": "Holy Spirit Divine Light",
+      "reason": "Plain genuine named skill Holy Spirit Divine Light confirmed by the skill reference; no surrounding effect condition.",
+      "skill_reference_ids": [
+        "10110201081"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200943",
+      "english": "Fox Fury",
+      "reason": "Plain genuine named skill Fox Fury confirmed by the skill reference; no surrounding effect condition.",
+      "skill_reference_ids": [
+        "10110201084"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200945",
+      "english": "Taunting Tease",
+      "reason": "Plain genuine named skill Taunting Tease confirmed by the skill reference; no surrounding effect condition.",
+      "skill_reference_ids": [
+        "10110201086"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200946",
+      "english": "Harvesting Scythe",
+      "reason": "Plain genuine named skill Harvesting Scythe confirmed by the skill reference; no surrounding effect condition.",
+      "skill_reference_ids": [
+        "10110201087"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200948",
+      "english": "Adaptive Damage",
+      "reason": "Adaptive Damage is a technical named damage category with no modifier; retain English rather than adding filler or guessing physical/magic type.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200951",
+      "english": "Bobo's Protection",
+      "reason": "Plain genuine named skill Bobo's Protection confirmed by the skill reference; no surrounding effect condition.",
+      "skill_reference_ids": [
+        "10110201089"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200959",
+      "english": "Esen's Execution",
+      "reason": "Plain genuine named skill Esen's Execution confirmed by the skill reference; no surrounding effect condition.",
+      "skill_reference_ids": [
+        "10110201096"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200963",
+      "english": "Orc Stomp",
+      "reason": "Plain genuine named skill Orc Stomp confirmed by the skill reference; no surrounding effect condition.",
+      "skill_reference_ids": [
+        "10110201100"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200966",
+      "english": "Enraged Tiger Roar",
+      "reason": "Plain genuine named skill Enraged Tiger Roar confirmed by the skill reference; no surrounding effect condition.",
+      "skill_reference_ids": [
+        "10110201103"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200967",
+      "english": "Savage Shield",
+      "reason": "Plain genuine named skill Savage Shield confirmed by the skill reference; no surrounding effect condition.",
+      "skill_reference_ids": [
+        "10110201104"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200974",
+      "english": "Choco Antics",
+      "reason": "Plain genuine named skill Choco Antics confirmed by the skill reference; no surrounding effect condition.",
+      "skill_reference_ids": [
+        "10110201113"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200985",
+      "english": "Soul's Protection",
+      "reason": "Plain genuine named skill Soul's Protection confirmed by the skill reference; no surrounding effect condition.",
+      "skill_reference_ids": [
+        "10110201125"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200989",
+      "english": "Corrupted Soul Impact",
+      "reason": "Plain genuine named skill Corrupted Soul Impact confirmed by the skill reference; no surrounding effect condition.",
+      "skill_reference_ids": [
+        "10110201129"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200992",
+      "english": "Shadow Hoofprint",
+      "reason": "Plain genuine named skill Shadow Hoofprint confirmed by the skill reference; no surrounding effect condition.",
+      "skill_reference_ids": [
+        "10110201134"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200996",
+      "english": "Gun-Smoke Severe Wound",
+      "reason": "Plain genuine named skill Gun-Smoke Severe Wound confirmed by the skill reference; no surrounding effect condition.",
+      "skill_reference_ids": [
+        "10110201138"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220200999",
+      "english": "Flame Fist",
+      "reason": "Plain genuine named skill Flame Fist confirmed by the skill reference; no surrounding effect condition.",
+      "skill_reference_ids": [
+        "10110201146"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220201010",
+      "english": "Iron Ball Rampage",
+      "reason": "Plain genuine named skill Iron Ball Rampage confirmed by the skill reference; no surrounding effect condition.",
+      "skill_reference_ids": [
+        "10110201161"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220201020",
+      "english": "Vine Strike",
+      "reason": "Plain genuine named skill Vine Strike confirmed by the skill reference; no surrounding effect condition.",
+      "skill_reference_ids": [
+        "10110201170"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220201034",
+      "english": "Demon's Whisper",
+      "reason": "Plain genuine named skill Demon's Whisper confirmed by the skill reference; no surrounding effect condition.",
+      "skill_reference_ids": [
+        "10110201187"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220201037",
+      "english": "Demonic Aura",
+      "reason": "Plain genuine named skill Demonic Aura confirmed by the skill reference; no surrounding effect condition.",
+      "skill_reference_ids": [
+        "10110201192"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220201040",
+      "english": "DMG Reduction",
+      "reason": "Label also appears in the skill-name catalog, but catalog membership alone does not establish named-skill versus generic effect meaning. Kept English pending UI/context rather than borrowing a same-English state translation from another ID.",
+      "skill_reference_ids": [
+        "10110200638"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220201057",
+      "english": "Petrification Gaze",
+      "reason": "Plain genuine named skill Petrification Gaze confirmed by the skill reference; no surrounding effect condition.",
+      "skill_reference_ids": [
+        "10110201213"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220201062",
+      "english": "Formless Entanglement",
+      "reason": "Plain genuine named skill Formless Entanglement confirmed by the skill reference; no surrounding effect condition.",
+      "skill_reference_ids": [
+        "10110201219"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220201066",
+      "english": "Eye of Scrutiny",
+      "reason": "Plain genuine named skill Eye of Scrutiny confirmed by the skill reference; no surrounding effect condition.",
+      "skill_reference_ids": [
+        "10110201224"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220201069",
+      "english": "Same Old Trick",
+      "reason": "Plain genuine named skill Same Old Trick confirmed by the skill reference; no surrounding effect condition.",
+      "skill_reference_ids": [
+        "10110201229"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220201074",
+      "english": "Cleaning Time",
+      "reason": "Plain genuine named skill Cleaning Time confirmed by the skill reference; no surrounding effect condition.",
+      "skill_reference_ids": [
+        "10110201234"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220201081",
+      "english": "Fatal Blow",
+      "reason": "Plain genuine named skill Fatal Blow confirmed by the skill reference; no surrounding effect condition.",
+      "skill_reference_ids": [
+        "10110201803"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220201220",
+      "english": "Knight Note@{1}",
+      "reason": "Actual skill name plus literal @{1} format; retain skill identity and parameter rather than adding a filler word.",
+      "skill_reference_ids": [
+        "10110201632"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220201229",
+      "english": "Battle Chant Harmony: Psalm",
+      "reason": "Battle Chant Harmony: Psalm is the plain named skill alias of reference Battle Chant Harmony - Psalm. Preserve supplied punctuation/spelling.",
+      "queue": "a"
+    },
+    {
+      "id": "10220201239",
+      "english": "Priest Note@{1}",
+      "reason": "Actual skill name plus literal @{1} format; retain skill identity and parameter rather than adding a filler word.",
+      "skill_reference_ids": [
+        "10110201647"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220201275",
+      "english": "Wind-Pressure Blade",
+      "reason": "Actual plain named skill Wind-Pressure Blade verified against the skill reference; no descriptive modifier.",
+      "skill_reference_ids": [
+        "10110201685"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220201292",
+      "english": "Cross Ripper Slasher_S@{1}_BD",
+      "reason": "Internal BD/season resource identifier Cross Ripper Slasher_S@{1}_BD; contains code-like key syntax, not descriptive modifier prose.",
+      "queue": "a"
+    },
+    {
+      "id": "10220201293",
+      "english": "Rolling Cutter BD_S@{1}_BD",
+      "reason": "Internal BD/season resource identifier Rolling Cutter BD_S@{1}_BD; contains code-like key syntax, not descriptive modifier prose.",
+      "queue": "a"
+    },
+    {
+      "id": "10220201294",
+      "english": "Cloaking Enhance BD_S@{1}_BD",
+      "reason": "Internal BD/season resource identifier Cloaking Enhance BD_S@{1}_BD; contains code-like key syntax, not descriptive modifier prose.",
+      "queue": "a"
+    },
+    {
+      "id": "10220201297",
+      "english": "Triple Rhyme",
+      "reason": "Actual plain named skill Triple Rhyme verified against the skill reference; no descriptive modifier.",
+      "skill_reference_ids": [
+        "10110201709"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220201298",
+      "english": "Hip-Hop Impersonation",
+      "reason": "Actual plain named skill Hip-Hop Impersonation verified against the skill reference; no descriptive modifier.",
+      "skill_reference_ids": [
+        "10110201710"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220201321",
+      "english": "Evil Spirit Possession",
+      "reason": "Actual plain named skill Evil Spirit Possession verified against the skill reference; no descriptive modifier.",
+      "skill_reference_ids": [
+        "10110201736"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220201325",
+      "english": "Praiser Priest Hymn: Angel Incarnate",
+      "reason": "Actual plain named skill Praiser Priest Hymn: Angel Incarnate verified against the skill reference; no descriptive modifier.",
+      "skill_reference_ids": [
+        "10110201750"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220201327",
+      "english": "Exorciser Spell: Free Will",
+      "reason": "Actual plain named skill Exorciser Spell: Free Will verified against the skill reference; no descriptive modifier.",
+      "skill_reference_ids": [
+        "10110201752"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220201329",
+      "english": "Exorciser Spell: Evil Spirit Possession",
+      "reason": "Actual plain named skill Exorciser Spell: Evil Spirit Possession verified against the skill reference; no descriptive modifier.",
+      "skill_reference_ids": [
+        "10110201754"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220201348",
+      "english": "Rolling CutterBD_S@{1}_BD",
+      "reason": "Internal BD/season resource identifier Rolling CutterBD_S@{1}_BD; contains code-like key syntax, not descriptive modifier prose.",
+      "queue": "a"
+    },
+    {
+      "id": "10220201365",
+      "english": "Intense Telekinesis@{1}",
+      "reason": "Actual skill name plus literal @{1} format; retain skill identity and parameter rather than adding a filler word.",
+      "queue": "a"
+    },
+    {
+      "id": "10220201367",
+      "english": "Psychic Astrolabe@{1}",
+      "reason": "Psychic Astrolabe@{1} is a standalone named skill/orb identity with a parameter, not an explanatory modifier; retain source label.",
+      "queue": "a"
+    },
+    {
+      "id": "10220201368",
+      "english": "Spellbook-Gravity ImpactS@{1}",
+      "reason": "Spellbook-Gravity ImpactS@{1} is a named spellbook/spell-season identity; no readable action or effect outside its name.",
+      "queue": "a"
+    },
+    {
+      "id": "10220201373",
+      "english": "Provoke",
+      "reason": "Actual plain named skill Provoke verified against the skill reference; no descriptive modifier.",
+      "skill_reference_ids": [
+        "10110200738"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220201375",
+      "english": "Spear Mastery",
+      "reason": "Actual plain named skill Spear Mastery verified against the skill reference; no descriptive modifier.",
+      "skill_reference_ids": [
+        "10110200146"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220201376",
+      "english": "Spear Expert",
+      "reason": "Actual plain named skill Spear Expert verified against the skill reference; no descriptive modifier.",
+      "skill_reference_ids": [
+        "10110201807"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220201380",
+      "english": "Charge",
+      "reason": "Actual plain named skill Charge verified against the skill reference; no descriptive modifier.",
+      "skill_reference_ids": [
+        "10110200303",
+        "10110201286"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220201382",
+      "english": "Aura Blade",
+      "reason": "Actual plain named skill Aura Blade verified against the skill reference; no descriptive modifier.",
+      "skill_reference_ids": [
+        "10110201823"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220201396",
+      "english": "Dragon Howling",
+      "reason": "Actual plain named skill Dragon Howling verified against the skill reference; no descriptive modifier.",
+      "skill_reference_ids": [
+        "10110201832"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220201399",
+      "english": "Enchant Blade",
+      "reason": "Actual plain named skill Enchant Blade verified against the skill reference; no descriptive modifier.",
+      "skill_reference_ids": [
+        "10110201837"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220201456",
+      "english": "Katar Mastery",
+      "reason": "Actual plain named skill Katar Mastery verified against the skill reference; no descriptive modifier.",
+      "skill_reference_ids": [
+        "10110201860"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220201457",
+      "english": "Katar Mastery@{1}",
+      "reason": "Actual skill name plus literal @{1} format; retain skill identity and parameter rather than adding a filler word.",
+      "queue": "a"
+    },
+    {
+      "id": "10220201471",
+      "english": "Advanced Katar Mastery",
+      "reason": "Actual plain named skill Advanced Katar Mastery verified against the skill reference; no descriptive modifier.",
+      "skill_reference_ids": [
+        "10110201874"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220201511",
+      "english": "Holy Light's Protection",
+      "reason": "Actual plain named skill Holy Light's Protection verified against the skill reference; no descriptive modifier.",
+      "skill_reference_ids": [
+        "10110201893"
+      ],
+      "queue": "a"
+    },
+    {
+      "id": "10220201525",
+      "english": "CRIT RES",
+      "reason": "Pure canonical stat label CRIT RES; retain exact technical label without Thai filler.",
+      "queue": "a"
+    },
+    {
+      "id": "10220200002",
+      "english": "Ruwach",
+      "reason": "Ruwach is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200012",
+      "english": "Resurrection",
+      "reason": "Resurrection is an exact referenced skill name, not a generic revive action here.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200013",
+      "english": "Aspersio",
+      "reason": "Aspersio is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200016",
+      "english": "Suffragium",
+      "reason": "Suffragium is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200017",
+      "english": "Assumptio",
+      "reason": "Assumptio is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200019",
+      "english": "Mana Recharge",
+      "reason": "Mana Recharge is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200021",
+      "english": "Arcane Mastery",
+      "reason": "Arcane Mastery is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200023",
+      "english": "Turn Undead [Buff Effect]",
+      "reason": "Turn Undead is a referenced skill; all remaining words are in a protected bracket.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200027",
+      "english": "Divine Light [Life Detection]",
+      "reason": "Divine Light is a referenced skill; Life Detection is protected bracket content.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200031",
+      "english": "Divine Light/Sanctuary [Buff Effect]",
+      "reason": "Divine Light and Sanctuary are referenced skills; Buff Effect is protected bracket content.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200033",
+      "english": "Sanctuary [Triggered Skill]",
+      "reason": "Sanctuary is a referenced skill; Triggered Skill is protected bracket content.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200035",
+      "english": "Cross Exorciser [Triggered Skill]",
+      "reason": "Cross Exorciser is a skill identity; remaining Triggered Skill is protected bracket content.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200038",
+      "english": "Cross Exorciser [Skill Mode]",
+      "reason": "Cross Exorciser is a skill identity; remaining Skill Mode is protected bracket content.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200040",
+      "english": "Sanctuary [Buff Check]",
+      "reason": "Sanctuary is a referenced skill; Buff Check is protected bracket content.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200056",
+      "english": "Holy Spirit Surge",
+      "reason": "Holy Spirit Surge is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200059",
+      "english": "Hymn of Devotion",
+      "reason": "Hymn of Devotion is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200063",
+      "english": "Decay",
+      "reason": "Contextual-polysemy hold requested by parent: Decay could mean degradation/decay or a decrease; prior exact-English canonical Thai is ลดลง. Buff-label context does not establish the intended sense, so neither competing Thai is imported.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200066",
+      "english": "Crazy Uproar",
+      "reason": "Crazy Uproar is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200071",
+      "english": "Adrenaline Rush",
+      "reason": "Adrenaline Rush is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200091",
+      "english": "Earth Spike",
+      "reason": "Earth Spike is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200092",
+      "english": "Earthshatter",
+      "reason": "Earthshatter is a named combat skill in the merchant/attack effect sequence.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200097",
+      "english": "Weapon Mastery",
+      "reason": "Weapon Mastery is a named combat passive; do not rename the ability.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200098",
+      "english": "Cart Smash",
+      "reason": "Cart Smash is a named cart combat skill.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200099",
+      "english": "Speed Is Weight",
+      "reason": "Speed Is Weight is a named cart combat talent rather than an instruction.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200114",
+      "english": "Axe Mastery",
+      "reason": "Axe Mastery is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200116",
+      "english": "Emergency Treatment",
+      "reason": "Emergency Treatment is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200140",
+      "english": "High-Energy Pulse",
+      "reason": "High-Energy Pulse is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200169",
+      "english": "Live Coal",
+      "reason": "Live Coal is a named material/effect identity; no modifier outside its name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200184",
+      "english": "Transformation Manual",
+      "reason": "Transformation Manual is an item name, not an instruction to transform.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200198",
+      "english": "Sandman",
+      "reason": "Sandman is a monster identity.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200200",
+      "english": "Dokebi",
+      "reason": "Dokebi is a monster identity.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200209",
+      "english": "Phreeoni",
+      "reason": "Phreeoni is a monster identity.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200213",
+      "english": "Golden Thief Bug",
+      "reason": "Golden Thief Bug is a monster identity.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200216",
+      "english": "Orc Lord",
+      "reason": "Orc Lord is a monster identity.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200219",
+      "english": "Eddga",
+      "reason": "Eddga is a monster identity.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200222",
+      "english": "Mistress",
+      "reason": "Mistress is a monster identity.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200223",
+      "english": "Pharaoh",
+      "reason": "Pharaoh is a monster identity.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200224",
+      "english": "Goblin Leader",
+      "reason": "Goblin Leader is a monster identity.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200225",
+      "english": "Kraken",
+      "reason": "Kraken is a monster identity.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200227",
+      "english": "Beetle King",
+      "reason": "Beetle King is a monster identity.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200235",
+      "english": "Shield Reflect",
+      "reason": "Shield Reflect is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200236",
+      "english": "Providence",
+      "reason": "Providence is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200243",
+      "english": "Sacrifice",
+      "reason": "Sacrifice is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200251",
+      "english": "Advanced Monster Resistance",
+      "reason": "Advanced Monster Resistance is an exact referenced skill name, not generic resistance prose.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200301",
+      "english": "Divine Insight",
+      "reason": "Divine Insight is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200303",
+      "english": "Union",
+      "reason": "Union is an exact referenced skill name in the same paladin sequence.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200315",
+      "english": "Advanced Monster Resistance",
+      "reason": "Advanced Monster Resistance is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200317",
+      "english": "Auto Counter",
+      "reason": "Auto Counter is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200341",
+      "english": "Accelerate",
+      "reason": "Contextual-polysemy hold requested by parent: Accelerate could describe movement speed or time acceleration; prior exact-English canonical Thai is เร่งเวลา. Do not silently import a speed sense or borrow an unrelated numeric-suffix description.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200348",
+      "english": "BDTarget_AttriTransformRule_Tag",
+      "reason": "BDTarget_AttriTransformRule_Tag is an internal underscore-delimited technical key.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200350",
+      "english": "BDTarget_LogicData_Tag",
+      "reason": "BDTarget_LogicData_Tag is an internal underscore-delimited technical key.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200355",
+      "english": "BDDictionary_enum@{1}_BigType_PerTenThousand",
+      "reason": "BDDictionary_enum@{1}_BigType_PerTenThousand is an internal technical key with a placeholder.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200357",
+      "english": "Spatial Dimension",
+      "reason": "Spatial Dimension is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200361",
+      "english": "Disguise",
+      "reason": "Disguise is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200368",
+      "english": "Rift Impact",
+      "reason": "Rift Impact is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200387",
+      "english": "Pirate",
+      "reason": "Pirate is a named monster/entity label in this effect sequence; no generic action modifier.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200404",
+      "english": "Tension Relax",
+      "reason": "Tension Relax is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200418",
+      "english": "Cooldown Potion",
+      "reason": "Cooldown Potion is a consumable item name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200430",
+      "english": "Teleportation Magic",
+      "reason": "Teleportation Magic is an exact referenced skill name; unrelated UI homonym translation is not reused.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200431",
+      "english": "Ping-Pong Poring",
+      "reason": "Ping-Pong Poring is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200432",
+      "english": "Poring Counterattack",
+      "reason": "Poring Counterattack is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200446",
+      "english": "Vehicle Shield",
+      "reason": "Vehicle Shield is an exact referenced vehicle ability name in the escort sequence.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200454",
+      "english": "Escort Cart Explosion",
+      "reason": "Escort Cart Explosion is an exact referenced vehicle ability name in the escort sequence.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200509",
+      "english": "Dark Curse",
+      "reason": "Dark Curse is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200514",
+      "english": "Blessing of Water",
+      "reason": "Blessing of Water is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200515",
+      "english": "Carry Cannonball",
+      "reason": "Carry Cannonball is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200522",
+      "english": "Madogear Pilot",
+      "reason": "Madogear Pilot is an exact referenced mechanic skill; do not borrow the UI operator label translation.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200530",
+      "english": "Dynamite",
+      "reason": "Dynamite is a named explosive item/material, not descriptive explosion prose.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200533",
+      "english": "Charge",
+      "reason": "Charge is an exact referenced vehicle/pet combat skill name in this sequence.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200540",
+      "english": "·",
+      "reason": "The source is a single middle-dot separator, with no readable prose.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200554",
+      "english": "Chain Bind",
+      "reason": "Chain Bind is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200558",
+      "english": "Berserk Injection",
+      "reason": "Berserk Injection is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200604",
+      "english": "Blazing Formation",
+      "reason": "Blazing Formation is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200605",
+      "english": "Soul Recall Ring",
+      "reason": "Soul Recall Ring is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200607",
+      "english": "Focused Blade",
+      "reason": "Focused Blade is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200613",
+      "english": "Demonic Dragon Soul",
+      "reason": "Demonic Dragon Soul is a named dragon ability/effect identity; no external modifier.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200633",
+      "english": "Rapidness Shot",
+      "reason": "Rapidness Shot is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200658",
+      "english": "Steady Focus",
+      "reason": "Steady Focus is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200659",
+      "english": "Falconry",
+      "reason": "Falconry is the named hunter passive skill, not ordinary bird-keeping prose.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200660",
+      "english": "Blitz Beat",
+      "reason": "Blitz Beat is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200667",
+      "english": "Blitz Beat【Stat Boost】",
+      "reason": "Blitz Beat is a referenced skill and all other words are protected bracket contents.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200671",
+      "english": "Arrow Shower【Trigger Effect】",
+      "reason": "Arrow Shower is a referenced skill and Trigger Effect is protected bracket contents.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200672",
+      "english": "Arrow Shower【Mode/Trigger】",
+      "reason": "Arrow Shower is a referenced skill and Mode/Trigger is protected bracket contents.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200674",
+      "english": "Blitz Beat【Buff Effect】",
+      "reason": "Blitz Beat is a referenced skill and Buff Effect is protected bracket contents.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200685",
+      "english": "Sniper's Aim【Invalid Shell】",
+      "reason": "Sniper's Aim is a hunter ability identity and Invalid Shell is protected bracket contents.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200687",
+      "english": "Fear Breeze",
+      "reason": "Fear Breeze is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200688",
+      "english": "Unlimited Shooting",
+      "reason": "Unlimited Shooting is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200695",
+      "english": "Warg Strike",
+      "reason": "Warg Strike is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200710",
+      "english": "Energized Honing Iron",
+      "reason": "Energized Honing Iron is a named crafting material/item.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200711",
+      "english": "Glyph",
+      "reason": "Glyph is a crafting material/item identity in this material sequence.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200713",
+      "english": "Sacred Glyph",
+      "reason": "Sacred Glyph is a named crafting material/item.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200714",
+      "english": "Blessed Sacred Glyph",
+      "reason": "Blessed Sacred Glyph is a named crafting material/item.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200715",
+      "english": "Armor Plate",
+      "reason": "Armor Plate is a crafting material/item identity in this material sequence.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200716",
+      "english": "Reinforced Armor Plate",
+      "reason": "Reinforced Armor Plate is a named crafting material/item.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200717",
+      "english": "Sacred Armor Plate",
+      "reason": "Sacred Armor Plate is a named crafting material/item.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200723",
+      "english": "Meteorite Ore",
+      "reason": "Meteorite Ore is a named crafting material/item.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200725",
+      "english": "Cotton",
+      "reason": "Cotton is a crafting material/item identity, not descriptive textile prose.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200735",
+      "english": "Butterfly",
+      "reason": "Butterfly is a named creature/pet label in the catalog; no modifier.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200746",
+      "english": "Sight Sprout",
+      "reason": "Sight Sprout is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200753",
+      "english": "Lord of Vermilion",
+      "reason": "Lord of Vermilion is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200754",
+      "english": "Storm Gust",
+      "reason": "Storm Gust is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200755",
+      "english": "Mystical Amplification",
+      "reason": "Mystical Amplification is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200759",
+      "english": "Intense Telekinesis",
+      "reason": "Intense Telekinesis is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200787",
+      "english": "Psychokinetic Astral Body",
+      "reason": "Psychokinetic Astral Body is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200788",
+      "english": "Intense Telekinesis · Lv@{1}",
+      "reason": "Intense Telekinesis is a referenced skill followed only by a Lv@{1} display format; no descriptive modifier to localize.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200798",
+      "english": "Elemental Shock",
+      "reason": "Elemental Shock is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200804",
+      "english": "Fireball Burst",
+      "reason": "Fireball Burst is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200806",
+      "english": "Ice Spike",
+      "reason": "Ice Spike is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200826",
+      "english": "Intermediate Magic Rune",
+      "reason": "Intermediate Magic Rune is a named rune material/item; no external modifier.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200832",
+      "english": "Bobo Bubble",
+      "reason": "Bobo Bubble is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200836",
+      "english": "Potent Breath Medicine",
+      "reason": "Potent Breath Medicine is a consumable item name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200839",
+      "english": "Superior Breath Medicine",
+      "reason": "Superior Breath Medicine is a consumable item name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200844",
+      "english": "Vitality Potion",
+      "reason": "Vitality Potion is a consumable item name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200852",
+      "english": "Superior Spirit Potion",
+      "reason": "Superior Spirit Potion is a consumable item name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200853",
+      "english": "Superior Fountain of Life",
+      "reason": "Superior Fountain of Life is a named consumable/item variant.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200854",
+      "english": "Panacea",
+      "reason": "Panacea is a consumable item name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200855",
+      "english": "Creamy Tomato Soup",
+      "reason": "Creamy Tomato Soup is a food item name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200859",
+      "english": "Spicy Meat Patty",
+      "reason": "Spicy Meat Patty is a food item name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200861",
+      "english": "Herb Porridge",
+      "reason": "Herb Porridge is a food item name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200864",
+      "english": "Strawberry Hard Candy",
+      "reason": "Strawberry Hard Candy is a food item name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200865",
+      "english": "Strawberry Cocoa Truffle",
+      "reason": "Strawberry Cocoa Truffle is a food item name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200866",
+      "english": "Vanilla Hot Cocoa",
+      "reason": "Vanilla Hot Cocoa is a food item name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200867",
+      "english": "Strawberry Milkshake",
+      "reason": "Strawberry Milkshake is a food item name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200873",
+      "english": "Grape Wine",
+      "reason": "Grape Wine is a consumable item name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200878",
+      "english": "Pure Lemon Water",
+      "reason": "Pure Lemon Water is a consumable item name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200880",
+      "english": "Woody Grape Drink",
+      "reason": "Woody Grape Drink is a consumable item name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200888",
+      "english": "Realm of Light",
+      "reason": "Realm of Light is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200892",
+      "english": "Blade Whirlwind",
+      "reason": "Blade Whirlwind is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200910",
+      "english": "Pyramid Laser Damage",
+      "reason": "Pyramid Laser Damage is an exact referenced boss/scene ability name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200911",
+      "english": "Brutal Sweep Attack",
+      "reason": "Brutal Sweep Attack is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200919",
+      "english": "Undead Phantom",
+      "reason": "Undead Phantom is a monster identity in the boss effect sequence.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200928",
+      "english": "Dark Sorcery",
+      "reason": "Dark Sorcery is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200929",
+      "english": "Scythe Channeling",
+      "reason": "Scythe Channeling is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200934",
+      "english": "Serpent Spirit's Protection",
+      "reason": "Serpent Spirit's Protection is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200938",
+      "english": "Sinister Chains",
+      "reason": "Sinister Chains is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200940",
+      "english": "Holy Light Descending",
+      "reason": "Holy Light Descending is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200942",
+      "english": "Clear Breeze",
+      "reason": "Clear Breeze is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200949",
+      "english": "Forest's Blessing",
+      "reason": "Forest's Blessing is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200960",
+      "english": "Esen's Slaughter",
+      "reason": "Esen's Slaughter is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200961",
+      "english": "Orc Roar",
+      "reason": "Orc Roar is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200962",
+      "english": "Armor-Shattering War Cry",
+      "reason": "Armor-Shattering War Cry is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200965",
+      "english": "Raging Gale",
+      "reason": "Raging Gale is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200968",
+      "english": "Tribal Protection",
+      "reason": "Tribal Protection is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200970",
+      "english": "Stunning Tremor",
+      "reason": "Stunning Tremor is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200971",
+      "english": "Demonic Curse",
+      "reason": "Demonic Curse is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200975",
+      "english": "Agility Song",
+      "reason": "Agility Song is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201008",
+      "english": "Lingering Breath",
+      "reason": "Lingering Breath is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201012",
+      "english": "Concussion",
+      "reason": "Concussion is an exact referenced combat ability name amid named monster abilities in this sequence. Its concussion-state homonym does not justify renaming the skill; preserve the English ability identity rather than importing a generic injury interpretation.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201015",
+      "english": "Alert Reconnaissance",
+      "reason": "Alert Reconnaissance is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201018",
+      "english": "Farsight Revelation",
+      "reason": "Farsight Revelation is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201022",
+      "english": "Fruit Blossom Healing",
+      "reason": "Fruit Blossom Healing is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201026",
+      "english": "Ninja Art: Smoke Screen",
+      "reason": "Ninja Art: Smoke Screen is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201031",
+      "english": "Silver Moon",
+      "reason": "Silver Moon is the named moon ability/effect identity associated with Silver Moon's Arrival, not a generic modifier.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201039",
+      "english": "Realm of Light",
+      "reason": "Realm of Light is an exact referenced skill name, identical to 10220200888.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201056",
+      "english": "Rocker Rocker",
+      "reason": "Rocker Rocker consists of the monster name Rocker repeated; preserve the source repetition without renaming or repairing it.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201061",
+      "english": "Divine Hope",
+      "reason": "Divine Hope is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201065",
+      "english": "Light of Scrutiny",
+      "reason": "Light of Scrutiny is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201067",
+      "english": "Deliberate Laceration",
+      "reason": "Deliberate Laceration is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201071",
+      "english": "Spreading Frost",
+      "reason": "Spreading Frost is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201073",
+      "english": "Dance of the Sea Monster",
+      "reason": "Dance of the Sea Monster is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201075",
+      "english": "Alice's Protection",
+      "reason": "Alice's Protection is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201091",
+      "english": "Blade Deflection",
+      "reason": "Blade Deflection is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201132",
+      "english": "Shroud Detection",
+      "reason": "Shroud Detection is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201164",
+      "english": "Yellow Note",
+      "reason": "Yellow Note is a named colored-note entity in the boss encounter; related effect modifiers are translated separately.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201165",
+      "english": "Blue Note",
+      "reason": "Blue Note is the named encounter entity used in Transform into a Blue Note and its magic-circle effects.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201166",
+      "english": "Green Note",
+      "reason": "Green Note is a named colored-note entity in the boss encounter; no external modifier.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201169",
+      "english": "Different-Color Collision Bubble NPC Up",
+      "reason": "Different-Color Collision Bubble NPC Up is genuinely ambiguous developer shorthand: Up could mean spawn, raise, enable or a position; no action/actor repair is inferred.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201221",
+      "english": "Crusader Note@{1}",
+      "reason": "Crusader Note@{1} is an exact referenced skill name with a parameter; no surrounding prose.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201222",
+      "english": "Mage Note@{1}",
+      "reason": "Mage Note@{1} is an exact referenced skill name with a parameter; no surrounding prose.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201223",
+      "english": "Hunter Note@{1}",
+      "reason": "Hunter Note@{1} is an exact referenced skill name with a parameter; no surrounding prose.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201243",
+      "english": "Assassin Note@{1}",
+      "reason": "Assassin Note@{1} is an exact referenced skill name with a parameter; no surrounding prose.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201272",
+      "english": "Wolf Hunt: BD@{1}",
+      "reason": "Wolf Hunt is a named combat ability followed only by technical BD@{1}; no external descriptive modifier.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201289",
+      "english": "Enhance Cloaking",
+      "reason": "Enhance Cloaking is an exact referenced skill name, not a generic instruction to improve stealth.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201291",
+      "english": "Dark Illusion",
+      "reason": "Dark Illusion is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201299",
+      "english": "Encore",
+      "reason": "Encore is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201309",
+      "english": "Remix Resonance",
+      "reason": "Remix Resonance is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201316",
+      "english": "Manifestation",
+      "reason": "Manifestation is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201318",
+      "english": "Divine Remnant",
+      "reason": "Divine Remnant is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201322",
+      "english": "Praiser Priest Hymn: Equal Grace",
+      "reason": "Praiser Priest Hymn: Equal Grace is an exact referenced skill name in its entirety.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201326",
+      "english": "Exorciser Spell: Enlightenment",
+      "reason": "Exorciser Spell: Enlightenment is an exact referenced skill name in its entirety.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201338",
+      "english": "Focused Shot: Dark Night",
+      "reason": "Focused Shot: Dark Night is a named combat ability/variant, rather than a generic focus command.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201342",
+      "english": "Blood Spear",
+      "reason": "Blood Spear is a named spear combat ability, not a descriptive modifier.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201343",
+      "english": "Black Phantom",
+      "reason": "Black Phantom is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201347",
+      "english": "Cross Ripper Slasher_S@{1}_BD",
+      "reason": "Cross Ripper Slasher_S@{1}_BD is an underscore-delimited internal skill resource key; preserve the entire key.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201349",
+      "english": "Enhanced CloakingBD_S@{1}_BD",
+      "reason": "Enhanced CloakingBD_S@{1}_BD is an underscore-delimited internal skill resource key; preserve the entire key.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201351",
+      "english": "Flowing Shadow_S@{1}_BD",
+      "reason": "Flowing Shadow_S@{1}_BD is an underscore-delimited internal skill resource key; preserve the entire key.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201372",
+      "english": "Sword Mastery",
+      "reason": "Sword Mastery is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201377",
+      "english": "Sword Quicken",
+      "reason": "Sword Quicken is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201383",
+      "english": "Head Crush",
+      "reason": "Head Crush is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201386",
+      "english": "Berserk",
+      "reason": "Berserk is an exact referenced skill name in the knight skill sequence; do not borrow a generic rage-state UI translation.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201398",
+      "english": "Death Bound",
+      "reason": "Death Bound is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201400",
+      "english": "Rune Mastery",
+      "reason": "Rune Mastery is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201412",
+      "english": "Cleave",
+      "reason": "Cleave is a named knight combat ability in this skill sequence, rather than a command to split an object.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201413",
+      "english": "Napalm Vulcan",
+      "reason": "Napalm Vulcan is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201458",
+      "english": "Sonic Acceleration",
+      "reason": "Sonic Acceleration is the named assassin combat passive, not generic sound-based movement prose.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201461",
+      "english": "Dual-Wield Mastery@{1}",
+      "reason": "Dual-Wield Mastery is an exact referenced skill followed only by @{1}; retain the named skill and parameter.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201466",
+      "english": "Deadly Poison",
+      "reason": "Deadly Poison is an exact referenced skill name.",
+      "queue": "b"
+    },
+    {
+      "id": "10220201468",
+      "english": "Advanced Soul Destroyer",
+      "reason": "Advanced Soul Destroyer is an exact referenced skill name in its entirety.",
+      "queue": "b"
+    },
+    {
+      "id": "10220200000",
+      "english": "Blessing",
+      "reason": "Pure named skill/talent Blessing; retain exact English without borrowing a generic UI homonym.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200001",
+      "english": "Signum Crucis",
+      "reason": "Pure named skill/talent Signum Crucis; retain exact English without borrowing a generic UI homonym.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200004",
+      "english": "Angelus",
+      "reason": "Pure named skill/talent Angelus; retain exact English without borrowing a generic UI homonym.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200006",
+      "english": "Pneuma",
+      "reason": "Pure named skill/talent Pneuma; retain exact English without borrowing a generic UI homonym.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200008",
+      "english": "Lex Aeterna",
+      "reason": "Pure named skill/talent Lex Aeterna; retain exact English without borrowing a generic UI homonym.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200018",
+      "english": "Meditatio",
+      "reason": "Pure named skill/talent Meditatio; retain exact English without borrowing a generic UI homonym.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200020",
+      "english": "Basilica",
+      "reason": "Pure named skill/talent Basilica; retain exact English without borrowing a generic UI homonym.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200026",
+      "english": "Swift Blessing",
+      "reason": "Pure named skill/talent Swift Blessing; retain exact English without borrowing a generic UI homonym.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200029",
+      "english": "Cross Exorciser [Buff Effect]",
+      "reason": "Named Cross Exorciser skill/class plus protected-only bracket effect tag. Preserve English name and bracket content; do not add Thai filler.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200030",
+      "english": "Cross Exorciser [Triggered Effect]",
+      "reason": "Named Cross Exorciser skill/class plus protected-only bracket effect tag. Preserve English name and bracket content; do not add Thai filler.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200041",
+      "english": "Sanctuary [Buff Effect]",
+      "reason": "Named Sanctuary skill/class plus protected-only bracket effect tag. Preserve English name and bracket content; do not add Thai filler.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200043",
+      "english": "Basilica [Triggered Effect]",
+      "reason": "Named Basilica skill/class plus protected-only bracket effect tag. Preserve English name and bracket content; do not add Thai filler.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200048",
+      "english": "Radiant Holy Light",
+      "reason": "Pure named skill/talent Radiant Holy Light; retain exact English without borrowing a generic UI homonym.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200050",
+      "english": "Prayer of the Holy Spirit",
+      "reason": "Pure named skill/talent Prayer of the Holy Spirit; retain exact English without borrowing a generic UI homonym.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200053",
+      "english": "Wood Spirit's Blessing",
+      "reason": "Pure named skill/talent Wood Spirit's Blessing; retain exact English without borrowing a generic UI homonym.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200070",
+      "english": "Hilt Binding",
+      "reason": "Pure named skill/talent Hilt Binding; retain exact English without borrowing a generic UI homonym.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200079",
+      "english": "Melt Down",
+      "reason": "Pure named skill/talent Melt Down; retain exact English without borrowing a generic UI homonym.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200080",
+      "english": "Maximum Over Thrust",
+      "reason": "Pure named skill/talent Maximum Over Thrust; retain exact English without borrowing a generic UI homonym.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200095",
+      "english": "Self-Motivation",
+      "reason": "Pure named skill/talent Self-Motivation; retain exact English without borrowing a generic UI homonym.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200100",
+      "english": "Second Wind",
+      "reason": "Pure named skill/talent Second Wind; retain exact English without borrowing a generic UI homonym.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200103",
+      "english": "Cart Clash",
+      "reason": "Pure named skill/talent Cart Clash; retain exact English without borrowing a generic UI homonym.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200148",
+      "english": "Energy Release",
+      "reason": "Pure named skill/talent Energy Release; retain exact English without borrowing a generic UI homonym.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200171",
+      "english": "Advanced Live Coal",
+      "reason": "Pure named consumable/material item Advanced Live Coal; no ordinary modifier prose beyond the item designation.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200199",
+      "english": "Sword Fish",
+      "reason": "Pure monster name Sword Fish; retain exact English.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200201",
+      "english": "Argiope",
+      "reason": "Pure monster name Argiope; retain exact English.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200202",
+      "english": "Pasana",
+      "reason": "Pure monster name Pasana; retain exact English.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200204",
+      "english": "Golem",
+      "reason": "Pure monster name Golem; retain exact English.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200212",
+      "english": "Baphomet",
+      "reason": "Pure monster name Baphomet; retain exact English.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200214",
+      "english": "Maya",
+      "reason": "Pure monster name Maya; retain exact English.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200217",
+      "english": "Deviling",
+      "reason": "Pure monster name Deviling; retain exact English.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200220",
+      "english": "Moonlight Flower",
+      "reason": "Pure monster name Moonlight Flower; retain exact English.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200228",
+      "english": "Driller",
+      "reason": "Pure monster name Driller; retain exact English.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200232",
+      "english": "Endure",
+      "reason": "Pure named skill/talent Endure; retain exact English without borrowing a generic UI homonym.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200237",
+      "english": "Defending Aura",
+      "reason": "Pure named skill/talent Defending Aura; retain exact English without borrowing a generic UI homonym.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200240",
+      "english": "Faith",
+      "reason": "Pure named skill/talent Faith; retain exact English without borrowing a generic UI homonym.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200246",
+      "english": "Devotion",
+      "reason": "Pure named skill/talent Devotion; retain exact English without borrowing a generic UI homonym.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200247",
+      "english": "Battle Chant",
+      "reason": "Pure named skill/talent Battle Chant; retain exact English without borrowing a generic UI homonym.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200287",
+      "english": "Over Brand",
+      "reason": "Pure named skill/talent Over Brand; retain exact English without borrowing a generic UI homonym.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200316",
+      "english": "Parry",
+      "reason": "Pure named skill/talent Parry; retain exact English without borrowing a generic UI homonym.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200349",
+      "english": "BDTarget_LogicData_BigType",
+      "reason": "Internal underscore resource/logic key; preserve identifier and placeholders verbatim, not readable effect prose.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200351",
+      "english": "BDDictionary_enum@{1}_BigType_AddSubtract",
+      "reason": "Internal underscore resource/logic key; preserve identifier and placeholders verbatim, not readable effect prose.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200353",
+      "english": "BDDictionary_enum@{1}_Tag_AddSubtract",
+      "reason": "Internal underscore resource/logic key; preserve identifier and placeholders verbatim, not readable effect prose.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200401",
+      "english": "Arrow Storm",
+      "reason": "Pure named skill/talent Arrow Storm; retain exact English without borrowing a generic UI homonym.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200403",
+      "english": "Myriad Stars Chase the Moon",
+      "reason": "Pure named skill/talent Myriad Stars Chase the Moon; retain exact English without borrowing a generic UI homonym.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200419",
+      "english": "Status Potion",
+      "reason": "Pure named consumable/material item Status Potion; no ordinary modifier prose beyond the item designation.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200421",
+      "english": "Speed Potion",
+      "reason": "Pure named consumable/material item Speed Potion; no ordinary modifier prose beyond the item designation.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200490",
+      "english": "Thunder Blast",
+      "reason": "Pure named skill Thunder Blast verified as an exact skill-name-reference entry.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200491",
+      "english": "Earth Blast",
+      "reason": "Pure named skill Earth Blast verified as an exact skill-name-reference entry.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200507",
+      "english": "Blessed Wind",
+      "reason": "Pure named skill Blessed Wind verified as an exact skill-name-reference entry.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200511",
+      "english": "Crystal Prison",
+      "reason": "Pure named skill Crystal Prison verified as an exact skill-name-reference entry.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200525",
+      "english": "Lightning Domain",
+      "reason": "Pure named skill Lightning Domain; retain actual ability spelling rather than translate its title.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200537",
+      "english": "Self-Destruct",
+      "reason": "Pure named skill Self-Destruct verified as an exact skill-name-reference entry.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200555",
+      "english": "Nightmare Mystery Box",
+      "reason": "Pure named item/material Nightmare Mystery Box; preserve exact English designation, not a generic effect description.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200559",
+      "english": "Viscous Machine Oil",
+      "reason": "Pure named item/material Viscous Machine Oil; preserve exact English designation, not a generic effect description.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200560",
+      "english": "Brass Talisman",
+      "reason": "Pure named item/material Brass Talisman; preserve exact English designation, not a generic effect description.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200643",
+      "english": "Emergency Call",
+      "reason": "Pure named skill Emergency Call verified as an exact skill-name-reference entry.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200645",
+      "english": "Locked",
+      "reason": "Isolated Locked in a buff/effect sequence: may describe target/action locking rather than an un-unlocked UI option. Fresh UI ยังไม่ปลดล็อก is not established in this context. Retain English pending clarification instead of borrowing the wrong sense.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200662",
+      "english": "True Sight",
+      "reason": "Pure named skill True Sight verified as an exact skill-name-reference entry.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200668",
+      "english": "Blitz Beat【Trigger Effect】",
+      "reason": "Pure named Blitz Beat skill plus protected bracket effect label; both must remain English, no Thai filler.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200673",
+      "english": "Blitz Beat【Invalid Shell】",
+      "reason": "Pure named Blitz Beat skill plus protected bracket effect label; both must remain English, no Thai filler.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200679",
+      "english": "Falcon Assault【Stat Boost】",
+      "reason": "Pure named Falcon Assault skill plus protected bracket effect label; both must remain English, no Thai filler.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200680",
+      "english": "Falcon Assault【Trigger Effect】",
+      "reason": "Pure named Falcon Assault skill plus protected bracket effect label; both must remain English, no Thai filler.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200682",
+      "english": "Wind Walk【Buff Effect】",
+      "reason": "Pure named Wind Walk skill plus protected bracket effect label; both must remain English, no Thai filler.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200684",
+      "english": "Sniper's Aim【Stat Boost】",
+      "reason": "Pure named Sniper's Aim skill plus protected bracket effect label; both must remain English, no Thai filler.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200693",
+      "english": "Warg Strike",
+      "reason": "Pure named skill Warg Strike verified as an exact skill-name-reference entry.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200694",
+      "english": "Warg Howl",
+      "reason": "Pure named skill Warg Howl verified as an exact skill-name-reference entry.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200718",
+      "english": "High-Tenacity Sacred Armor Plate",
+      "reason": "Pure named item/material High-Tenacity Sacred Armor Plate; preserve exact English designation, not a generic effect description.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200719",
+      "english": "Iron Ore",
+      "reason": "Pure named item/material Iron Ore; preserve exact English designation, not a generic effect description.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200721",
+      "english": "Mithril Ore",
+      "reason": "Pure named item/material Mithril Ore; preserve exact English designation, not a generic effect description.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200722",
+      "english": "Radiant Gold Ore",
+      "reason": "Pure named item/material Radiant Gold Ore; preserve exact English designation, not a generic effect description.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200728",
+      "english": "Divine Silk Vine",
+      "reason": "Pure named item/material Divine Silk Vine; preserve exact English designation, not a generic effect description.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200730",
+      "english": "Lightweight Timber",
+      "reason": "Pure named item/material Lightweight Timber; preserve exact English designation, not a generic effect description.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200731",
+      "english": "Sturdy Timber",
+      "reason": "Pure named item/material Sturdy Timber; preserve exact English designation, not a generic effect description.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200732",
+      "english": "Hard Ironwood",
+      "reason": "Pure named item/material Hard Ironwood; preserve exact English designation, not a generic effect description.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200733",
+      "english": "Sacred Timber",
+      "reason": "Pure named item/material Sacred Timber; preserve exact English designation, not a generic effect description.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200741",
+      "english": "Heart Rend",
+      "reason": "Pure named skill Heart Rend; retain actual ability spelling rather than translate its title.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200749",
+      "english": "Jupitel Thunder",
+      "reason": "Pure named skill Jupitel Thunder verified as an exact skill-name-reference entry.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200751",
+      "english": "Quagmire",
+      "reason": "Pure named skill Quagmire verified as an exact skill-name-reference entry.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200756",
+      "english": "Soul Drain",
+      "reason": "Pure named skill Soul Drain verified as an exact skill-name-reference entry.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200757",
+      "english": "Gravitation Field",
+      "reason": "Pure named skill Gravitation Field verified as an exact skill-name-reference entry.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200785",
+      "english": "Element Control",
+      "reason": "Pure named skill Element Control verified as an exact skill-name-reference entry.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200803",
+      "english": "Flame Chain",
+      "reason": "Pure named skill Flame Chain; retain actual ability spelling rather than translate its title.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200811",
+      "english": "Ember Zone",
+      "reason": "Pure named skill Ember Zone verified as an exact skill-name-reference entry.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200813",
+      "english": "Frost Burst",
+      "reason": "Pure named skill Frost Burst; retain actual ability spelling rather than translate its title.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200816",
+      "english": "Magic Cannon",
+      "reason": "Pure named skill Magic Cannon verified as an exact skill-name-reference entry.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200817",
+      "english": "Greater Psychic Shockwave",
+      "reason": "Pure named skill Greater Psychic Shockwave; retain actual ability spelling rather than translate its title.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200824",
+      "english": "Spatial Distortion",
+      "reason": "Pure named skill Spatial Distortion verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200835",
+      "english": "Premium Breath Medicine",
+      "reason": "Pure named potion/food/consumable item Premium Breath Medicine; retain English item name, not descriptive effect prose.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200840",
+      "english": "Green Potion",
+      "reason": "Pure named potion/food/consumable item Green Potion; retain English item name, not descriptive effect prose.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200842",
+      "english": "Yellow Potion",
+      "reason": "Pure named potion/food/consumable item Yellow Potion; retain English item name, not descriptive effect prose.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200848",
+      "english": "Superior Red Potion",
+      "reason": "Pure named potion/food/consumable item Superior Red Potion; retain English item name, not descriptive effect prose.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200849",
+      "english": "Superior Yellow Potion",
+      "reason": "Pure named potion/food/consumable item Superior Yellow Potion; retain English item name, not descriptive effect prose.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200851",
+      "english": "Superior Vitality Potion",
+      "reason": "Pure named potion/food/consumable item Superior Vitality Potion; retain English item name, not descriptive effect prose.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200862",
+      "english": "Spicy Herb Wrap",
+      "reason": "Pure named potion/food/consumable item Spicy Herb Wrap; retain English item name, not descriptive effect prose.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200863",
+      "english": "Spicy Fried Rice",
+      "reason": "Pure named potion/food/consumable item Spicy Fried Rice; retain English item name, not descriptive effect prose.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200868",
+      "english": "Hot Strawberry Cocoa Milk",
+      "reason": "Pure named potion/food/consumable item Hot Strawberry Cocoa Milk; retain English item name, not descriptive effect prose.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200869",
+      "english": "Cocoa Pudding",
+      "reason": "Pure named potion/food/consumable item Cocoa Pudding; retain English item name, not descriptive effect prose.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200870",
+      "english": "Colorful Lollipop",
+      "reason": "Pure named potion/food/consumable item Colorful Lollipop; retain English item name, not descriptive effect prose.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200872",
+      "english": "Strawberry Cocoa Crunch Bar",
+      "reason": "Pure named potion/food/consumable item Strawberry Cocoa Crunch Bar; retain English item name, not descriptive effect prose.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200874",
+      "english": "Green Lemon Cocktail",
+      "reason": "Pure named potion/food/consumable item Green Lemon Cocktail; retain English item name, not descriptive effect prose.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200875",
+      "english": "Refreshing Lemon Brew",
+      "reason": "Pure named potion/food/consumable item Refreshing Lemon Brew; retain English item name, not descriptive effect prose.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200879",
+      "english": "Lemon Herbal Tea",
+      "reason": "Pure named potion/food/consumable item Lemon Herbal Tea; retain English item name, not descriptive effect prose.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200889",
+      "english": "Pyroblast",
+      "reason": "Pure named skill Pyroblast verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200895",
+      "english": "Dark Curse",
+      "reason": "Pure named skill Dark Curse verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200896",
+      "english": "Realm of Darkness",
+      "reason": "Pure named skill Realm of Darkness verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200930",
+      "english": "Trauma Drain",
+      "reason": "Pure named skill Trauma Drain verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200931",
+      "english": "Voice of the Dead",
+      "reason": "Pure named skill Voice of the Dead; ability title with no ordinary state/modifier prose to translate.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200932",
+      "english": "Undead Convergence",
+      "reason": "Pure named skill Undead Convergence verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200933",
+      "english": "Nether Phantom",
+      "reason": "Pure named skill Nether Phantom verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200935",
+      "english": "Serpent Spirit's Embrace",
+      "reason": "Pure named skill Serpent Spirit's Embrace verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200936",
+      "english": "Phantom Barrier",
+      "reason": "Pure named skill Phantom Barrier verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200944",
+      "english": "Raging Gale",
+      "reason": "Pure named skill Raging Gale verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200950",
+      "english": "Tree Spirit Curse",
+      "reason": "Pure named skill Tree Spirit Curse verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200952",
+      "english": "Moonlit Curse",
+      "reason": "Pure named skill Moonlit Curse verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200953",
+      "english": "Bell Miracle",
+      "reason": "Pure named skill Bell Miracle verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200956",
+      "english": "Summon Lightning",
+      "reason": "Pure named skill Summon Lightning verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200969",
+      "english": "Goat's Protection",
+      "reason": "Pure named skill Goat's Protection verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200976",
+      "english": "Swift Trick",
+      "reason": "Pure named skill Swift Trick verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200980",
+      "english": "Malicious Curse",
+      "reason": "Pure named skill Malicious Curse verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200983",
+      "english": "Spectral Protection",
+      "reason": "Pure named skill Spectral Protection verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200993",
+      "english": "Sinister Cry",
+      "reason": "Pure named skill Sinister Cry verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201058",
+      "english": "Serpent Sorcery",
+      "reason": "Pure named skill Serpent Sorcery verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201059",
+      "english": "Arcane Silver Serpent",
+      "reason": "Pure named skill Arcane Silver Serpent verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201060",
+      "english": "Flame of Hope",
+      "reason": "Pure named skill Flame of Hope verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201063",
+      "english": "Soul Siphon",
+      "reason": "Pure named skill Soul Siphon verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201064",
+      "english": "Collective Surveillance",
+      "reason": "Pure named skill Collective Surveillance verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201068",
+      "english": "Samurai Charge",
+      "reason": "Pure named skill Samurai Charge verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201070",
+      "english": "Flame Breath",
+      "reason": "Pure named skill Flame Breath verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201072",
+      "english": "Tidal Hymn",
+      "reason": "Pure named skill Tidal Hymn verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201076",
+      "english": "A Maid's Etiquette",
+      "reason": "Pure named skill A Maid's Etiquette verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201130",
+      "english": "Shroud",
+      "reason": "Pure named skill Shroud verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201244",
+      "english": "Merchant Note@{1}",
+      "reason": "Pure named skill Merchant Note@{1} verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201271",
+      "english": "Focused Arrow Strike",
+      "reason": "Pure named skill Focused Arrow Strike verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201286",
+      "english": "Frenzy S@{1}",
+      "reason": "Pure named Frenzy skill with S@{1} suffix. No literal Season word or ordinary effect modifier is present; do not expand S into an invented Season label or add Thai filler.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201290",
+      "english": "Dark Illusion_S@{1}_BD",
+      "reason": "Internal underscore BD/season identifier containing named skill and placeholders; retain full English key and exact casing.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201296",
+      "english": "Freestyle Rap",
+      "reason": "Pure named skill Freestyle Rap verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201319",
+      "english": "Free",
+      "reason": "Isolated Free in effect catalog: could mean unrestricted state, available action, or no cost. Fresh UI homonym cannot establish effect meaning; retain English pending context.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201323",
+      "english": "Praiser Priest Hymn: Manifestation",
+      "reason": "Pure named skill Praiser Priest Hymn: Manifestation verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201324",
+      "english": "Praiser Priest Hymn: Divine Remnant",
+      "reason": "Pure named skill Praiser Priest Hymn: Divine Remnant verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201328",
+      "english": "Exorciser Spell: Corruption",
+      "reason": "Pure named skill Exorciser Spell: Corruption verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201346",
+      "english": "Dark Illusion_S@{1}_BD",
+      "reason": "Internal underscore BD/season identifier containing named skill and placeholders; retain full English key and exact casing.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201350",
+      "english": "Move back Afterimage_S@{1}_BD",
+      "reason": "Internal underscore BD/season identifier containing named skill and placeholders; retain full English key and exact casing.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201352",
+      "english": "Shadow GuardBD_S@{1}_BD",
+      "reason": "Internal underscore BD/season identifier containing named skill and placeholders; retain full English key and exact casing.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201353",
+      "english": "Shadow PierceBD_S@{1}_BD",
+      "reason": "Internal underscore BD/season identifier containing named skill and placeholders; retain full English key and exact casing.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201370",
+      "english": "Magnum Break",
+      "reason": "Pure named skill Magnum Break verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201374",
+      "english": "Sword Mastery",
+      "reason": "Pure named skill Sword Mastery verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201379",
+      "english": "Riding",
+      "reason": "Pure named skill Riding verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201384",
+      "english": "Concentration",
+      "reason": "Pure named skill Concentration verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201385",
+      "english": "Parry",
+      "reason": "Pure named skill Parry verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201387",
+      "english": "Joint Beat",
+      "reason": "Pure named skill Joint Beat verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201402",
+      "english": "Dragon Training",
+      "reason": "Pure named skill Dragon Training verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201408",
+      "english": "Furious Storm",
+      "reason": "Pure named skill Furious Storm; preserve actual ability/talent title and any level placeholder without filler.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201415",
+      "english": "Phantom Arrow",
+      "reason": "Pure named skill Phantom Arrow; preserve actual ability/talent title and any level placeholder without filler.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201450",
+      "english": "Double Attack",
+      "reason": "Pure named skill Double Attack verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201451",
+      "english": "Double Attack@{1}",
+      "reason": "Pure named skill Double Attack@{1}; preserve actual ability/talent title and any level placeholder without filler.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201455",
+      "english": "Detoxify",
+      "reason": "Pure named skill Detoxify verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201460",
+      "english": "Dual-Wield Mastery",
+      "reason": "Pure named skill Dual-Wield Mastery verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201462",
+      "english": "Grimtooth",
+      "reason": "Pure named skill Grimtooth verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201463",
+      "english": "Venom Splasher",
+      "reason": "Pure named skill Venom Splasher verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201464",
+      "english": "Envenom",
+      "reason": "Pure named skill Envenom verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201465",
+      "english": "Double Attack Increase Dodge",
+      "reason": "Concatenated actual skill names Double Attack and Increase Dodge, both verified in skill-name-reference; no connector establishes whether the latter is a skill or generic dodge modifier. Preserve English rather than reinterpret mechanic.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201472",
+      "english": "CRIT",
+      "reason": "Pure CRIT technical stat abbreviation; retain English, do not add Thai filler.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201486",
+      "english": "Savage Blade",
+      "reason": "Pure named skill Savage Blade; preserve actual ability/talent title and any level placeholder without filler.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201509",
+      "english": "Magic Reverberation",
+      "reason": "Pure named skill Magic Reverberation verified by exact skill-name-reference match.",
+      "queue": "c"
+    },
+    {
+      "id": "10220201202",
+      "english": "Dance Machine_Remove Transform Buff Remove Transform Buff",
+      "reason": "Underscore-bearing internal Dance Machine/resource-style identifier. Even its repeated readable suffix is kept verbatim until confirmed display-only; do not partly localize an internal key.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200635",
+      "english": "Trigger Self-Destruct",
+      "reason": "Self-Destruct is an exact skill-catalog name; preserving it conflicts with an existing same-English generic self-explosion translation. Unchanged DLL cannot accept different exact-source Thai. English retained pending named-skill versus generic-action context, rather than removing the named skill identity.",
+      "queue": "c"
+    },
+    {
+      "id": "10220200003",
+      "english": "Increase AGI",
+      "reason": "Pure proper skill/object name or proper skill-name plus protected English bracket only; no localizable external modifier.",
+      "queue": "parent"
+    },
+    {
+      "id": "10220200022",
+      "english": "Arcane Mastery [Increases Turn Undead's Fixed Value]",
+      "reason": "Pure proper skill/object name or proper skill-name plus protected English bracket only; no localizable external modifier.",
+      "queue": "parent"
+    },
+    {
+      "id": "10220200025",
+      "english": "Increase AGI [Buff Effect]",
+      "reason": "Pure proper skill/object name or proper skill-name plus protected English bracket only; no localizable external modifier.",
+      "queue": "parent"
+    },
+    {
+      "id": "10220200274",
+      "english": "Auto Guard Increases Attack Life",
+      "reason": "Ambiguous Attack Life modifier; no defined meaning for Life or attack-life mechanic, cannot infer HP/lifespan/lifesteal.",
+      "queue": "parent"
+    },
+    {
+      "id": "10220201216",
+      "english": "Immune Monolith",
+      "reason": "Pure proper skill/object name or proper skill-name plus protected English bracket only; no localizable external modifier.",
+      "queue": "parent"
+    }
+  ],
+  "cumulative_round108_start_ledger": {
+    "R": 3493,
+    "A": 3298,
+    "C": 5046
+  },
+  "cumulative_round108_ledger_total": 11837,
+  "source_english_only": true,
+  "legacy_thai_used": false,
+  "complete_game_translation": false,
+  "game_tested": false,
+  "exact_english_consistency_adjustments": 30,
+  "qa": {
+    "authoring_errors": 0,
+    "rendered_numeric_style_collision_groups": 0,
+    "runtime_checks": 205070,
+    "mocked_language_bridge_checks_included": 90,
+    "compiled_hook_checks": 27,
+    "updater_checks": 57,
+    "public_https_new_ids_expected": 952
+  },
+  "source_concerns": {
+    "a": [
+      {
+        "ids": [
+          "10220200005",
+          "10220200009",
+          "10220200051",
+          "10220200291",
+          "10220200616",
+          "10220200623",
+          "10220201040"
+        ],
+        "note": "Plain named skills including Slow, Recovery, Respawn, Reflect Damage, HP Recovery and DMG Reduction kept English using actual skill-reference evidence, not unrelated UI homonym Thai."
+      },
+      {
+        "ids": [
+          "10220200051"
+        ],
+        "note": "Respawn here is a genuine cleric skill, not an explicitly described pet reset/refund. Rejected known-fresh pet-menu translation คืนค่าสัตว์เลี้ยง."
+      },
+      {
+        "ids": [
+          "10220200058",
+          "10220200062"
+        ],
+        "note": "Stigma count and Prayer Trigger modifiers translated; retained original source alias Descent of the Holy Spirit Prayer without repairing it to a differently worded reference name."
+      },
+      {
+        "ids": [
+          "10220200135",
+          "10220201279"
+        ],
+        "note": "Source Floors kept literally as layers; did not assume numeric stack formulas or rename a Floors diagnostic to stacks."
+      },
+      {
+        "ids": [
+          "10220200154",
+          "10220200164"
+        ],
+        "note": "Monitor/remove and trigger follow-up directions reviewed. Cannon Follow-Up rendered as supplementary fire, not pursuit/homing fire; no number of shots invented."
+      },
+      {
+        "ids": [
+          "10220200257",
+          "10220200282"
+        ],
+        "note": "ST expanded to Single Target; generic damage types were not inferred as physical or magic."
+      },
+      {
+        "ids": [
+          "10220200258"
+        ],
+        "note": "Uses Stunt retained literally, not repaired to Stun. Deprecated annotation translated as ordinary catalog prose."
+      },
+      {
+        "ids": [
+          "10220200024",
+          "10220200028",
+          "10220200034",
+          "10220200042",
+          "10220200044",
+          "10220200665",
+          "10220200666",
+          "10220200669",
+          "10220200670",
+          "10220200676",
+          "10220200677",
+          "10220200678",
+          "10220200683",
+          "10220200686"
+        ],
+        "note": "Protected bracket contents remain English. Only explicit unprotected generic words such as Skill were translated; no filler added to proper-skill-plus-bracket-only rows."
+      },
+      {
+        "ids": [
+          "10220200335",
+          "10220200336",
+          "10220200437",
+          "10220200438",
+          "10220200474",
+          "10220200495"
+        ],
+        "note": "Checked ally/enemy direction, damaged vs destroyed states, and disabled Revive/healing negation."
+      },
+      {
+        "ids": [
+          "10220200482"
+        ],
+        "note": "Convert Armor to Poison has no explicit Property word. Preserved Poison without inventing resistance, damage or a missing numerical value."
+      },
+      {
+        "ids": [
+          "10220200574",
+          "10220200583"
+        ],
+        "note": "Underfoot transformation and Phase 1 note marker retained as stated; corrected placement of literal 1 before @{1} without joining them into a fake value."
+      },
+      {
+        "ids": [
+          "10220200623",
+          "10220201135"
+        ],
+        "note": "DMG Reduction is an actual skill reference and was held; descriptive Damage Reduction label translated separately. No automatic borrowing across the skill/effect homonym."
+      },
+      {
+        "ids": [
+          "10220200833",
+          "10220200841",
+          "10220200856"
+        ],
+        "note": "Named medicines, potions and food/drink items remain English rather than being recast as healing effects."
+      },
+      {
+        "ids": [
+          "10220200904"
+        ],
+        "note": "Ambiguous Life retained literally in Lock Life to Fixed Value; no substitution with HP."
+      },
+      {
+        "ids": [
+          "10220201160"
+        ],
+        "note": "NPC Down rendered as a down/fallen state; no invented destruction/damage amount or collision formula."
+      },
+      {
+        "ids": [
+          "10220201187"
+        ],
+        "note": "Persistent Water Orb rendered as water orb, not the unrelated Thai word for mosquito larvae."
+      },
+      {
+        "ids": [
+          "10220201229"
+        ],
+        "note": "Battle Chant Harmony: Psalm is a genuine skill alias; preserved supplied colon rather than silently rewriting it to reference hyphen."
+      },
+      {
+        "ids": [
+          "10220201292",
+          "10220201293",
+          "10220201294",
+          "10220201348"
+        ],
+        "note": "Underscore BD resource identifiers remain English. ElementBD@{1} separately localized as readable Element modifier with BD/token preserved."
+      },
+      {
+        "ids": [
+          "10220201281",
+          "10220201365",
+          "10220201367",
+          "10220201368",
+          "10220201409"
+        ],
+        "note": "Lance Knight, Intense Telekinesis, Psychic Astrolabe, Gravity Impact and Advanced Hundred Spear source spellings retained without inferred class/skill-name corrections."
+      },
+      {
+        "ids": [
+          "10220201391",
+          "10220201393",
+          "10220201405",
+          "10220201441",
+          "10220201443",
+          "10220201445"
+        ],
+        "note": "Reviewed damage-taken increase, maximum stacks sound trigger, stack label, test dodge increase, ATK increase and healing reduction polarity."
+      },
+      {
+        "ids": [
+          "10220201424",
+          "10220201426",
+          "10220201427"
+        ],
+        "note": "Charge labels kept as literal charging wording, without expanding into a guessed dash, energy quantity or charge-count mechanic."
+      },
+      {
+        "ids": [
+          "10220200005",
+          "10220200616",
+          "10220200623",
+          "10220200920",
+          "10220201040"
+        ],
+        "concern": "Parent semantic review clarified that skill-name catalog membership is not proof of an actual proper name. These ambiguous named-skill-versus-effect labels are retained English pending context; no new Thai filler added."
+      }
+    ],
+    "b": [
+      {
+        "id": "10220201169",
+        "english": "Different-Color Collision Bubble NPC Up",
+        "reason": "Different-Color Collision Bubble NPC Up is genuinely ambiguous developer shorthand: Up could mean spawn, raise, enable or a position; no action/actor repair is inferred."
+      }
+    ],
+    "c": [
+      {
+        "ids": [
+          "10220200000",
+          "10220200232",
+          "10220200643"
+        ],
+        "concern": "Plain named Blessing/Endure/Emergency Call kept English despite fresh UI/status homonym translations; no filler prefixes added."
+      },
+      {
+        "ids": [
+          "10220200645",
+          "10220201319"
+        ],
+        "concern": "Locked and Free have unresolved effect-state versus UI/cost senses. Wrong fresh UI homonyms were rejected; both deferred with reasons."
+      },
+      {
+        "ids": [
+          "10220200927",
+          "10220200973"
+        ],
+        "concern": "Ambiguous Life retained literally as Life with surrounding recovery/trigger prose translated. No HP substitution."
+      },
+      {
+        "ids": [
+          "10220200159",
+          "10220200167",
+          "10220200308",
+          "10220201354"
+        ],
+        "concern": "Floors translated literally as ชั้น. No unsupported reinterpretation as stacks, tower floors, or numeric unit/count invented."
+      },
+      {
+        "ids": [
+          "10220200349",
+          "10220200351",
+          "10220200353",
+          "10220201290",
+          "10220201346",
+          "10220201350",
+          "10220201352",
+          "10220201353"
+        ],
+        "concern": "Internal underscore BD/resource identifiers retained verbatim. Readable detector/check/remove/trigger descriptions elsewhere translated as data, never executed."
+      },
+      {
+        "ids": [
+          "10220201119",
+          "10220201122"
+        ],
+        "concern": "New scope remains literal/attachment-ambiguous in Thai label; no rookie-player eligibility or version-specific mechanic added."
+      },
+      {
+        "ids": [
+          "10220201286"
+        ],
+        "concern": "Frenzy S@{1} is only a name/format; deferred rather than silently expand S into Season."
+      },
+      {
+        "ids": [
+          "10220201465"
+        ],
+        "concern": "Double Attack Increase Dodge contains two actual skill names without a connector; retained rather than invent an increase-dodge mechanic."
+      },
+      {
+        "ids": [
+          "10220201202"
+        ],
+        "concern": "Preserved Dance Machine_Remove Transform Buff prefix exactly; translated trailing repeated readable remove-transform-buff prose only."
+      },
+      {
+        "ids": [
+          "10220201202"
+        ],
+        "concern": "Parent conservatively retained the entire underscore-bearing label rather than partially modifying a possible internal identifier."
+      },
+      {
+        "ids": [
+          "10220200635"
+        ],
+        "concern": "Parent held Trigger Self-Destruct to avoid canonicalizing a verified named-skill modifier into a generic operation with lost English skill identity."
+      }
+    ],
+    "parent": [
+      {
+        "ids": [
+          "10220200279",
+          "10220200923"
+        ],
+        "concern": "Life stays literal Max Life, not silently mapped to HP."
+      },
+      {
+        "ids": [
+          "10220200496"
+        ],
+        "concern": "Element Counter is kept literal, no elemental-counterattack versus weakness mechanic guessed."
+      },
+      {
+        "ids": [
+          "10220200957",
+          "10220200958"
+        ],
+        "concern": "Actual skill Lightning Strike retained English; continuous/increase/check/stacks modifiers localized."
+      }
+    ]
+  }
+}

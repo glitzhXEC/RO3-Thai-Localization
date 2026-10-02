@@ -1,4 +1,4 @@
-# Gameplay translation progress — batches 074–111
+# Gameplay translation progress — batches 074–115
 
 The verified current English game export is the only source. Existing fresh terminology is reused where the English text and meaning match; old Thai translation files are not imported.
 
@@ -10,7 +10,7 @@ The verified current English game export is the only source. Existing fresh term
 | 077 | 166 | Boss/dragon mechanics, siege and territory warnings, map-object status, killstreaks and combat instructions |
 | 078 | 54 | Airship encounters, grappling/cannon instructions, boss ground-warning order, Dracula/bride rescue and spawn alerts |
 
-13,926 new authored IDs across batches 074–111, including 2,346 in the latest 108–111 update; 24,022 authored IDs overall. Of the complete 33,513-ID runtime table, 24,009 IDs differ from English and 9,504 retain English. Overall values exclude no source IDs; semantic-review holds and explicitly retained unchanged targets remain English.
+14,878 new authored IDs across batches 074–115, including 952 in the latest 112–115 update; 24,974 authored IDs overall. Of the complete 33,513-ID runtime table, 24,961 IDs differ from English and 8,552 retain English. Overall values exclude no source IDs; semantic-review holds and explicitly retained unchanged targets remain English.
 
 ## Source fidelity and unresolved text
 
@@ -27,7 +27,7 @@ This is a text/data-only update using runtime schema 2. No DLL, EXE, game script
 
 The numeric-rule test renderer now uses the existing single-pass wire decoder for CR, LF, tabs and escaped backslashes; a regression check rejects double-decoding literal backslash-n. No production/runtime code was changed for this test correction.
 
-Authoring QA and decoded-control number QA, corruption rejection, complete English-base audit, runtime rules, language-hook harness and updater tests must pass before publication. Public feed verification checks all three file hashes and all 2,346 latest ID/target pairs through the actual HTTPS updater. The generated runtime English/Thai fields are also checked against the canonical merged table for all 33,513 IDs. These are automated data/mock-runtime checks, not Windows/game UI tests.
+Authoring QA and decoded-control number QA, corruption rejection, complete English-base audit, runtime rules, language-hook harness and updater tests must pass before publication. Public feed verification checks all three file hashes and all 952 latest ID/target pairs through the actual HTTPS updater. The generated runtime English/Thai fields are also checked against the canonical merged table for all 33,513 IDs. These are automated data/mock-runtime checks, not Windows/game UI tests.
 
 **This is not a completed translation of every game text.** The remaining current-export review is recorded in REMAINING-TRANSLATION-STATUS.md; proper names, technical formats and source ambiguities are intentionally retained English. In-game wording, layout and clipping have not been verified.
 
@@ -125,4 +125,8 @@ The text/data-only update does not change DLLs, EXEs, game scripts, installation
 
 ## Update — batches 108–111
 
-2,346 new authored IDs; 24,022 overall. 6 additional below100000 UI IDs; 6,777 authored and 283 retained in that inventory. See REMAINING-TRANSLATION-STATUS.md for exhaustive round-start ID accounting and the distinction between individual candidate review and catalog role/shape classification. Not every game string is Thai; no game/Windows UI test. Data-only main feed, no executable/Release change.
+2,346 new authored IDs; 24,974 overall. 6 additional below100000 UI IDs; 6,777 authored and 283 retained in that inventory. See REMAINING-TRANSLATION-STATUS.md for exhaustive round-start ID accounting and the distinction between individual candidate review and catalog role/shape classification. Not every game string is Thai; no game/Windows UI test. Data-only main feed, no executable/Release change.
+
+## Update — batches 112–115
+
+952 new descriptive buff/effect/state labels, 24,974 authored IDs overall. All 1,515 remaining buff/effect catalog entries individually re-reviewed; 563 true names/formats/ambiguities retained English. See BUFF-EFFECT-TRANSLATION-STATUS.md. No new below100000 UI ID in this scope, no executable/Release change and no game/Windows UI test.
