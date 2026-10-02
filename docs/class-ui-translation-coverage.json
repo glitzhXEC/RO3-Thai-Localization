@@ -6246,7 +6246,7 @@
           "13110200014",
           "13110200016"
         ],
-        "note": "Max Life preserved as written instead of inferring the stat is Max HP."
+        "note": "English says Max Life. The agent draft retained Max Life; final identical-English canonicalization uses the existing approved Max HP wording for these two entries. Amounts, timing, placeholder order and damage-taken increase polarity are unchanged. This records the final convention rather than claiming literal Max Life spelling in the published targets."
       },
       {
         "ids": [
