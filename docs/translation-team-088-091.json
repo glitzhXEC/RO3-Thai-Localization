@@ -1,0 +1,144 @@
+{
+  "additional_translation_agents": 3,
+  "assigned_agent_ids": 630,
+  "parent_additional_ids": 120,
+  "new_batch_counts": {
+    "batch-088.th.json": 210,
+    "batch-089.th.json": 210,
+    "batch-090.th.json": 210,
+    "batch-091.th.json": 120
+  },
+  "new_authored_ids": 750,
+  "source_english_only": true,
+  "legacy_thai_used": false,
+  "deferred_assigned_ids": 0,
+  "exact_english_consistency_adjustments": 22,
+  "authored_total": 11584,
+  "runtime_thai_difference_ids": 11572,
+  "runtime_english_ids": 21941,
+  "runtime_rules": 2745,
+  "qa": {
+    "draft_errors": 0,
+    "runtime_checks": 189695,
+    "mocked_language_bridge_checks_included": 90,
+    "compiled_hook_checks": 27,
+    "updater_checks": 57,
+    "public_https_new_ids_expected": 750
+  },
+  "game_tested": false,
+  "complete_game_translation": false,
+  "reviews": {
+    "a": [
+      {
+        "id": "10630000179",
+        "english": "Skill rank exceeds the maximum number of points.",
+        "note": "Source compares rank to point count. Translated literally without inferring intended rank/level behavior."
+      },
+      {
+        "id": "10630000367",
+        "english": "Not within the public listing purchase period",
+        "note": "Source distinguishes the purchase period from public listing period in 10630000398. Kept distinct without inventing market rules."
+      },
+      {
+        "id": "11210100112",
+        "english": "A tiny kun hidden in the deep sea. Someday, it will slowly grow and soar into the heavens...",
+        "note": "Retained lowercase kun exactly; related entry 11210100119 uses uppercase Kun."
+      },
+      {
+        "id": "10630000127",
+        "english": "The scene is pending deletion while scenemgr is creating it.",
+        "note": "Developer diagnostic translated as literal game text; scenemgr preserved."
+      },
+      {
+        "id": "10630000442",
+        "english": "Cannot Cancel Rental while there are items in the Cart Merchant.",
+        "note": "Cart Merchant retained as named entity; no assumption about exact cart/menu semantics."
+      }
+    ],
+    "b": [
+      {
+        "ids": [
+          "11770100010",
+          "11770100037"
+        ],
+        "concern": "Trailing/adjacent styling tokens look unusual in English (^{5}); retained unchanged."
+      },
+      {
+        "ids": [
+          "11770100014",
+          "11770100015",
+          "11770100029",
+          "11770100033",
+          "11770100034",
+          "11770100043",
+          "11770100046",
+          "11770100047",
+          "11770100048",
+          "11770100050"
+        ],
+        "concern": "English gives percentages without an explicit ATK/maximum-HP calculation basis in the relevant clause. No missing basis was invented."
+      },
+      {
+        "ids": [
+          "11770100037",
+          "11770100038"
+        ],
+        "concern": "English calls the placed trap Trap Hunter. Kept this English name without correcting the source."
+      },
+      {
+        "ids": [
+          "12410000000–12410000073"
+        ],
+        "concern": "Trivia statements were translated literally, including apparently counterintuitive gameplay claims. No external fact-checking or gameplay corrections were applied; these may be intentional true/false prompts."
+      }
+    ],
+    "c": [
+      {
+        "ids": [
+          "10320000394",
+          "10320000395",
+          "10320000396",
+          "10320000397"
+        ],
+        "reason": "Source alternates Ilmata and Irmata for the nature god. Each exact source spelling is retained; no normalization was guessed."
+      },
+      {
+        "ids": [
+          "10320000403",
+          "10320000404",
+          "10320000410",
+          "10320000414",
+          "10320000415",
+          "10320000418",
+          "10320000419"
+        ],
+        "reason": "Source alternates Gala Invitation and Festival Invitation. Exact English event names are retained, not merged."
+      },
+      {
+        "ids": [
+          "10320000298"
+        ],
+        "reason": "Territory War escort Trade is unusual English; translated literally as trading for the escort in Territory War, without inventing a mechanism."
+      },
+      {
+        "ids": [
+          "10320000310"
+        ],
+        "reason": "Gift announcement does not label the types of ${3} and ${4}; kept their sequence after the recipient ${2} without adding item/count units."
+      },
+      {
+        "ids": [
+          "10320000512",
+          "10320000514"
+        ],
+        "reason": "Countdown ${2} has no explicit time unit; no seconds/minutes were added."
+      },
+      {
+        "ids": [
+          "10320000339"
+        ],
+        "reason": "Staff of rhythm rendered as musical stave in the supplied melody/note encounter context."
+      }
+    ]
+  }
+}

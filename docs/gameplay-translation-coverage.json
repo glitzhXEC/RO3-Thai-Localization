@@ -1,22 +1,17 @@
 {
   "new_batch_counts": {
-    "batch-079.th.json": 54,
-    "batch-080.th.json": 28,
-    "batch-081.th.json": 33,
-    "batch-082.th.json": 30,
-    "batch-083.th.json": 47,
-    "batch-084.th.json": 47,
-    "batch-085.th.json": 60,
-    "batch-086.th.json": 73,
-    "batch-087.th.json": 5
+    "batch-088.th.json": 210,
+    "batch-089.th.json": 210,
+    "batch-090.th.json": 210,
+    "batch-091.th.json": 120
   },
-  "new_authored_ids": 377,
-  "authored_ids_all_batches": 10834,
-  "runtime_thai_difference_ids": 10822,
-  "runtime_english_ids": 22691,
+  "new_authored_ids": 750,
+  "authored_ids_all_batches": 11584,
+  "runtime_thai_difference_ids": 11572,
+  "runtime_english_ids": 21941,
   "complete_game_translation": false,
   "game_tested": false,
-  "numeric_runtime_rules": 2506,
+  "numeric_runtime_rules": 2745,
   "id_only_ambiguous_numeric_ids": [
     "21172",
     "10960000329",
@@ -30,5 +25,12 @@
     "prefix": "121101",
     "source_ids": 133,
     "authored_ids": 133
+  },
+  "translation_team": {
+    "additional_agents": 3,
+    "agent_a": 210,
+    "agent_b": 210,
+    "agent_c": 210,
+    "parent": 120
   }
 }

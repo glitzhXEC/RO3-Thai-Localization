@@ -1,4 +1,4 @@
-# Gameplay translation progress — batches 074–087
+# Gameplay translation progress — batches 074–091
 
 The verified current English game export is the only source. Existing fresh terminology is reused where the English text and meaning match; old Thai translation files are not imported.
 
@@ -10,7 +10,7 @@ The verified current English game export is the only source. Existing fresh term
 | 077 | 166 | Boss/dragon mechanics, siege and territory warnings, map-object status, killstreaks and combat instructions |
 | 078 | 54 | Airship encounters, grappling/cannon instructions, boss ground-warning order, Dracula/bride rescue and spawn alerts |
 
-738 new authored IDs across batches 074–087, including 377 in the latest 079–087 update; 10,834 authored IDs overall. Of the complete 33,513-ID runtime table, 10,822 IDs differ from English and 22,691 retain English. Overall values exclude no source IDs; five semantic-review IDs and seven unchanged authored targets retain English.
+1,488 new authored IDs across batches 074–091, including 750 in the latest 088–091 update; 11,584 authored IDs overall. Of the complete 33,513-ID runtime table, 11,572 IDs differ from English and 21,941 retain English. Overall values exclude no source IDs; five semantic-review IDs and seven unchanged authored targets retain English.
 
 ## Source fidelity and unresolved text
 
@@ -27,7 +27,7 @@ This is a text/data-only update using runtime schema 2. No DLL, EXE, game script
 
 The numeric-rule test renderer now uses the existing single-pass wire decoder for CR, LF, tabs and escaped backslashes; a regression check rejects double-decoding literal backslash-n. No production/runtime code was changed for this test correction.
 
-Authoring QA and decoded-control number QA, corruption rejection, complete English-base audit, runtime rules, language-hook harness and updater tests must pass before publication. Public feed verification checks all three file hashes and all 377 latest ID/target pairs through the actual HTTPS updater. The generated runtime English/Thai fields are also checked against the canonical merged table for all 33,513 IDs. These are automated data/mock-runtime checks, not Windows/game UI tests.
+Authoring QA and decoded-control number QA, corruption rejection, complete English-base audit, runtime rules, language-hook harness and updater tests must pass before publication. Public feed verification checks all three file hashes and all 750 latest ID/target pairs through the actual HTTPS updater. The generated runtime English/Thai fields are also checked against the canonical merged table for all 33,513 IDs. These are automated data/mock-runtime checks, not Windows/game UI tests.
 
 **This is not a completed translation of every game text.** Other guide, event and quest/dialogue families remain; proper names and technical formats are intentionally retained. In-game wording, layout and clipping have not been verified.
 
@@ -58,3 +58,32 @@ Proper names, currencies, named skills, rank names and all bracketed labels rema
 The rendered-value test found that 10960000329 could split `123.5.123.5` at the wrong decimal boundary when optional style tags were absent. The generator now omits only global numeric rules whose consecutive numeric placeholders have no reliable separator (empty, period or comma, ignoring optional style tags). Their complete original/Thai mappings remain in the ID table. Seven IDs are ID-only for this safeguard: 21172, 10960000329, 23714, 90045, 37823, 42002 and 63545. This is a generated-data safeguard, not a DLL or EXE change. Distinct Pharaoh descriptions 12110100079/12110100082 also use matching unstyled whitespace so the same rendered English cannot select inconsistent Thai spacing.
 
 Validation includes every generated runtime field against the canonical 33,513-ID merged table; all styled/unstyled numeric rules; unambiguous capture boundaries; source numbers, token order, bracket labels and controls; language-hook checks; updater integrity/caching; and actual public HTTPS feed verification of all 377 latest translations. The feed has 2,506 global numeric rules. No game or Windows UI test has been performed.
+
+## Latest update — batches 088–091, three-agent translation team
+
+The user requested three additional agents. Each received an immutable 210-ID English queue, disjoint from the others, with read-only access to the shared repository. The parent translated a separate 120-ID queue. Only the parent imported and published the approved batches.
+
+| Batch | Contributor | Added IDs | Scope |
+|---|---|---:|---|
+| 088 | Agent A | 210 | 103 item/cosmetic/mount descriptions (112101) and 107 system messages (106300) |
+| 089 | Agent B | 210 | 56 Survivor Battle skill/item descriptions (117701), 72 trivia/help statements (124100), 82 tutorial messages (105400) |
+| 090 | Agent C | 210 | Combat, boss, guild/event, reward/gift and countdown announcements (103200) |
+| 091 | Parent | 120 | Party/dungeon entry, cards/pets, auction/stall restrictions, skill use, Soul Echo, matchmaking and assistance messages (106300) |
+
+The agents completed all 630 assigned entries; none were deferred. All four local draft checks passed, followed by parent review of high-risk item/system conditions, every 117701 skill/item entry, and event/time/reward cases. Parent review clarified old-fashioned as retro styling rather than worn condition (11210100107), retained the Elite membership name (10630000286), and explicitly identified the caster as the ATK owner in 11770100019. Item/CD spellings were aligned, and 22 exact-English duplicates reused the approved fresh target so identical source strings do not conflict.
+
+### Source limitations retained
+
+- Source percentages without an ATK/maximum-HP basis remain percentages; no missing formula basis is invented.
+- Trailing style tokens in 11770100010/11770100037 remain unchanged. Trap Hunter in 11770100037/11770100038 is retained as written.
+- Trivia may include intentional true/false statements. These are translated from English, not rewritten to match assumed game facts.
+- Ilmata/Irmata and Gala Invitation/Festival Invitation spellings are preserved per source ID, not silently merged.
+- Unitless countdowns (10320000512/10320000514) remain unitless; the unlabeled gift fields in 10320000310 do not gain guessed item/count units.
+- Placement confirmation in certain entry/matchmaking messages and Neutral in the appearance restriction retain their unresolved English terms while surrounding prose is translated.
+- Diagnostics, unusual rank-versus-point comparisons and the escort Trade wording are literal game data, not executed instructions or guessed mechanics.
+
+### Validation
+
+750 new authored IDs, bringing the total to 11,584. Source fidelity is checked across all 33,513 runtime rows. The complete feed contains 11,572 targets differing from English, 21,941 English targets and 2,745 numeric rules. Local tests passed: 189,695 runtime checks (including 90 mocked language-bridge checks), 27 compiled-plugin hook checks, 57 updater checks and authoring/corruption/decoded-number checks. Public verification additionally compares all 750 new targets, every manifest hash, the runtime TSV bytes against the canonical merged table, and the actual HTTPS updater/cache behavior.
+
+No DLL/EXE, game script, installer behavior or Release changed. Runtime v0.4.1 receives the new data through the existing main feed on startup. This is not a completed translation of every game text, and no real-game or Windows UI testing has been performed.

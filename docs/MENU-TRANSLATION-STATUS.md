@@ -36,7 +36,7 @@ English from the actual game export is the source of truth. Native Thai from the
 | 073 | 24 | Remaining menu headings/help placeholders, guild messages and format labels |
 
 - 953 new IDs in the latest update; 6,716 authored menu IDs across batches 046–073.
-- 10,834 authored translation IDs across all batches. Runtime retains English for five held semantic-review IDs and seven authored rows whose target equals English: 10,822 runtime IDs differ from English.
+- 11,584 authored translation IDs across all batches. Runtime retains English for five held semantic-review IDs and seven authored rows whose target equals English: 11,572 runtime IDs differ from English.
 - **This is not a completed translation of every menu or every game text.** Newer gameplay systems and other groups still need review; some card/title/event labels also remain English as protected formats, technical names or ambiguous text. Some pet/appearance/preset rows remain held as described below. The exact unreviewed UI-candidate inventory is in `menu-translation-coverage.json`; these candidates also contain proper names, technical labels and format-only rows, so their count is not the count of menus requiring Thai.
 
 ## Reference corrections and held context
@@ -71,3 +71,5 @@ Validation checks placeholder/tag order, numbers, math symbols, bracket names, e
 Batches 074–078 add 361 IDs above 100000, covering equipment/card/AFK/guild guides, remaining readable skill/item descriptions, boss mechanics, siege alerts and airship encounters. These are not added to the below-100000 menu totals. See `GAMEPLAY-TRANSLATION-STATUS.md`. Overall authored totals above include these batches.
 
 Batches 079–087 add a further 377 high-ID guide and boss-mechanic translations. The below-100000 menu review totals remain unchanged.
+
+Batches 088–091 add 750 high-ID item/skill descriptions, tutorial/trivia text, gameplay announcements and system messages. Three additional translation agents supplied 210 disjoint IDs each; the parent translated 120 and performed final integration/QA. These do not change the below-100000 menu review inventory.
