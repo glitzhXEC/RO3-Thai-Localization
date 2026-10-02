@@ -10832,3 +10832,753 @@
 10960000205	(No Translation NeededAdventurers can deploy up to @{1} pets at once. Pet deployment is restricted by type, and no more than @{2} pets of the same type may be deployed.\nAdventurers can assign up to @{3} support pets at once.\nWhen deployed or assigned as support, a pet grants the Adventurer a percentage of its base attributes.\nWhen deployed or assigned as support, the pet's Passive Skill attributes and Skill Upgrade attributes take effect and are granted to the player.\nWhen a pet is deployed in slot @{4}, the Adventurer can automatically cast that pet's Protector Skill in battle.	(ไม่จำเป็นต้องแปลนักผจญภัยส่งสัตว์เลี้ยงลงสนามได้สูงสุด @{1} ตัวพร้อมกัน การลงสนามจำกัดตามประเภท และส่งสัตว์เลี้ยงประเภทเดียวกันได้ไม่เกิน @{2} ตัว\nนักผจญภัยจัดสัตว์เลี้ยงสนับสนุนได้สูงสุด @{3} ตัวพร้อมกัน\nเมื่อลงสนามหรือเป็นตัวสนับสนุน สัตว์เลี้ยงมอบค่าสถานะพื้นฐานเป็นสัดส่วนให้นักผจญภัย\nเมื่อลงสนามหรือเป็นตัวสนับสนุน ค่าสถานะสกิลติดตัวและค่าสถานะการอัปเกรดสกิลของสัตว์เลี้ยงจะมีผลและมอบให้ผู้เล่น\nเมื่อสัตว์เลี้ยงอยู่ในช่องลงสนาม @{4} นักผจญภัยร่าย Protector Skill ของสัตว์เลี้ยงนั้นในการต่อสู้ได้โดยอัตโนมัติ
 10960000206	(No Translation NeededWhen a pet with a Protector Skill is assigned to deployment slot @{1}, its Protector Skill takes effect.	(ไม่จำเป็นต้องแปลเมื่อสัตว์เลี้ยงที่มี Protector Skill อยู่ในช่องลงสนาม @{1} Protector Skill จะมีผล
 10960000207	(No Translation NeededChance of obtaining a complete SP-rank pet: @{1}%\nChance of obtaining a complete S-rank pet: @{2}%\nChance of obtaining a complete A-rank pet: @{3}%\nChance of obtaining a complete B-rank pet: @{4}%	(ไม่จำเป็นต้องแปลโอกาสได้รับสัตว์เลี้ยงระดับ SP แบบสมบูรณ์: @{1}%\nโอกาสได้รับสัตว์เลี้ยงระดับ S แบบสมบูรณ์: @{2}%\nโอกาสได้รับสัตว์เลี้ยงระดับ A แบบสมบูรณ์: @{3}%\nโอกาสได้รับสัตว์เลี้ยงระดับ B แบบสมบูรณ์: @{4}%
+10630000001	This nickname is already in use. Please try another.	ชื่อเล่นนี้มีผู้ใช้แล้ว โปรดลองชื่ออื่น
+10630000020	Character creation limit reached for this account	บัญชีนี้สร้างตัวละครครบจำนวนสูงสุดแล้ว
+10630000028	Nicknames cannot contain special characters. Please try again.	ชื่อเล่นไม่สามารถมีอักขระพิเศษได้ โปรดลองอีกครั้ง
+10630000029	Nickname does not meet the length requirements. Please try again.	ความยาวของชื่อเล่นไม่ตรงตามข้อกำหนด โปรดลองอีกครั้ง
+10630000030	Your entry contains inappropriate language. Please try again.	ข้อความที่คุณกรอกมีถ้อยคำไม่เหมาะสม โปรดลองอีกครั้ง
+10630000034	This item cannot be used until the next Season.	ไม่สามารถใช้ไอเทมนี้ได้จนกว่าจะถึงฤดูกาลถัดไป
+10630000037	Cannot perform this action during Cross-server play	ไม่สามารถดำเนินการนี้ระหว่างเล่นข้ามเซิร์ฟเวอร์ได้
+10630000044	This server has reached its character limit. Please choose another server.	เซิร์ฟเวอร์นี้มีตัวละครครบจำนวนสูงสุดแล้ว โปรดเลือกเซิร์ฟเวอร์อื่น
+10630000046	This GM command is currently disabled and cannot be used	คำสั่ง GM นี้ถูกปิดใช้งานอยู่ในขณะนี้และไม่สามารถใช้ได้
+10630000047	The server is under maintenance. Please check the official announcements.	เซิร์ฟเวอร์อยู่ระหว่างบำรุงรักษา โปรดตรวจประกาศอย่างเป็นทางการ
+10630000053	Configuration for quest [${1}] does not exist	ไม่มีข้อมูลกำหนดค่าสำหรับเควสต์ [ ${1} ]
+10630000072	Backpack is full. Clear some space to receive the item.	กระเป๋าเต็ม โปรดเคลียร์พื้นที่เพื่อรับไอเทม
+10630000078	Capacity has reached the maximum and cannot be increased	ความจุถึงขีดสูงสุดแล้วและไม่สามารถเพิ่มได้อีก
+10630000092	Items cannot be used while the player is dead	ไม่สามารถใช้ไอเทมขณะที่ผู้เล่นเสียชีวิตได้
+10630000094	Item dismantling tab configuration does not exist	ไม่มีข้อมูลกำหนดค่าแท็บย่อยไอเทม
+10630000099	This item is temporarily unavailable on the current server	ไอเทมนี้ยังไม่สามารถใช้งานได้ชั่วคราวบนเซิร์ฟเวอร์ปัจจุบัน
+10630000100	This item is temporarily unavailable to your character. Unseal time: ${1}.	ตัวละครของคุณยังไม่สามารถใช้ไอเทมนี้ได้ชั่วคราว เวลาปลดผนึก: ${1}.
+10630000101	This item is temporarily unavailable to your character.	ตัวละครของคุณยังไม่สามารถใช้ไอเทมนี้ได้ชั่วคราว
+10630000102	This item's healing effect is currently ineffective. Use with caution.	เอฟเฟกต์ฟื้นฟูของไอเทมนี้ไม่มีผลในขณะนี้ โปรดใช้ด้วยความระมัดระวัง
+10630000106	Name contains inappropriate language. Please enter another name.	ชื่อมีถ้อยคำไม่เหมาะสม โปรดกรอกชื่ออื่น
+10630000111	This item type cannot be placed on the hotbar.	ไม่สามารถวางไอเทมประเภทนี้บนแถบลัดได้
+10630000121	Destination area not found during teleportation	ไม่พบพื้นที่ปลายทางระหว่างเทเลพอร์ต
+10630000123	Attackers cannot enter during the preparation phase	ฝ่ายโจมตีไม่สามารถเข้าได้ในช่วงเตรียมตัว
+10630000124	The Crystal is under protection. Entry is prohibited.	คริสตัลอยู่ภายใต้การคุ้มครอง ห้ามเข้า
+10630000127	The scene is pending deletion while scenemgr is creating it.	ฉากกำลังรอการลบขณะที่ scenemgr กำลังสร้างฉากนั้น
+10630000128	Incorrect scene type while scenemgr is creating the scene.	ประเภทฉากไม่ถูกต้องขณะที่ scenemgr กำลังสร้างฉาก
+10630000133	Cannot switch scenes: Player communication entity is null.	ไม่สามารถเปลี่ยนฉากได้: เอนทิตีการสื่อสารของผู้เล่นเป็น null
+10630000136	Cannot switch scenes while the player is following.	ไม่สามารถเปลี่ยนฉากขณะที่ผู้เล่นกำลังติดตามได้
+10630000137	You cannot travel there from the current Dungeon. Leave and try again.	คุณไม่สามารถเดินทางไปที่นั่นจากดันเจี้ยนปัจจุบันได้ โปรดออกแล้วลองอีกครั้ง
+10630000139	The Party Leader must open the party instance.	หัวหน้าปาร์ตี้ต้องเป็นผู้เปิดอินสแตนซ์ปาร์ตี้
+10630000141	No server is available for instance creation.	ไม่มีเซิร์ฟเวอร์ที่พร้อมสำหรับสร้างอินสแตนซ์
+10630000145	You do not have permission to perform this action.	คุณไม่มีสิทธิ์ดำเนินการนี้
+10630000146	The number of custom coordinates exceeds the limit.	จำนวนพิกัดที่กำหนดเองเกินขีดจำกัด
+10630000160	The scene is being destroyed. Entry is prohibited.	ฉากกำลังถูกทำลาย ห้ามเข้า
+10630000179	Skill rank exceeds the maximum number of points.	อันดับสกิลเกินจำนวนแต้มสูงสุด
+10630000187	Cannot lower Stall Skill Level while operating a Stall.	ไม่สามารถลดเลเวลสกิลตั้งร้านขณะเปิดร้านได้
+10630000188	Cannot change your Stall Skill Build while operating a Stall.	ไม่สามารถเปลี่ยนบิลด์สกิลตั้งร้านขณะเปิดร้านได้
+10630000195	This build does not belong to the selected job.	บิลด์นี้ไม่ได้เป็นของอาชีพที่เลือก
+10630000198	Wrong Job: The skill's job does not match the player's job.	อาชีพไม่ถูกต้อง: อาชีพของสกิลไม่ตรงกับอาชีพของผู้เล่น
+10630000199	This skill is not in the skill tree, so skill points cannot be allocated to it manually.	สกิลนี้ไม่อยู่ในผังสกิล จึงไม่สามารถจัดสรรแต้มสกิลให้ด้วยตนเองได้
+10630000200	Unable to retrieve the job progression configuration.	ไม่สามารถดึงข้อมูลกำหนดค่าการพัฒนาอาชีพได้
+10630000204	Mail actions are being performed too frequently.	ดำเนินการเกี่ยวกับจดหมายถี่เกินไป
+10630000226	The other player has already received a friend request.	ผู้เล่นอีกฝ่ายได้รับคำขอเป็นเพื่อนแล้ว
+10630000227	Attempted to remove a player who is not a friend.	พยายามลบผู้เล่นที่ไม่ได้เป็นเพื่อน
+10630000229	Attempted to remove a player who is not in Blocks.	พยายามลบผู้เล่นที่ไม่อยู่ในรายการบล็อก
+10630000253	No grounds for impeachment. The Guild Master cannot be impeached.	ไม่มีเหตุให้ถอดถอน ไม่สามารถถอดถอนหัวหน้ากิลด์ได้
+10630000254	You do not meet the impeachment requirements.	คุณไม่ตรงตามเงื่อนไขการถอดถอน
+10630000258	Cannot perform this action while impeachment is in progress.	ไม่สามารถดำเนินการนี้ขณะที่กำลังดำเนินการถอดถอนได้
+10630000262	The application does not exist or has expired.	ไม่มีคำขอนี้หรือคำขอหมดอายุแล้ว
+10630000263	You can only send once every @{1} hours. Please try again later.	ส่งได้เพียงหนึ่งครั้งทุก @{1} ชั่วโมง โปรดลองอีกครั้งภายหลัง
+10630000265	Another building is currently being upgraded.	มีอาคารอื่นกำลังอัปเกรดอยู่
+10630000268	You can participate in this event the day after you Join a guild.	คุณสามารถเข้าร่วมกิจกรรมนี้ได้ในวันถัดจากวันที่เข้าร่วมกิลด์
+10630000270	The item has expired. Please exit and re-enter.	ไอเทมหมดอายุแล้ว โปรดออกแล้วเข้ามาใหม่
+10630000273	Cargo has already been loaded or is Asking for Aid.	โหลดสินค้าแล้วหรือกำลังขอความช่วยเหลือ
+10630000275	Get Help is unavailable in the current state.	ไม่สามารถรับความช่วยเหลือได้ในสถานะปัจจุบัน
+10630000278	Insufficient cargo loaded. Unable to dispatch the ship.	โหลดสินค้าไม่เพียงพอ ไม่สามารถส่งเรือออกได้
+10630000280	You can only rename @{2} times within @{1} days.	คุณสามารถเปลี่ยนชื่อได้เพียง @{2} ครั้งภายใน @{1} วัน
+10630000282	The item has been refreshed. Refresh the screen and try again.	ไอเทมถูกรีเฟรชแล้ว โปรดรีเฟรชหน้าจอแล้วลองอีกครั้ง
+10630000285	Temporary Members cannot participate in the league.	สมาชิกชั่วคราวเข้าร่วมลีกไม่ได้
+10630000286	Only elite members can enter the Main Battlefield.	เฉพาะสมาชิก Elite เท่านั้นที่เข้าสู่สนามรบหลักได้
+10630000287	The guild name does not meet the requirements.	ชื่อกิลด์ไม่ตรงตามข้อกำหนด
+10630000288	The guild declaration does not meet the requirements.	คำประกาศกิลด์ไม่ตรงตามข้อกำหนด
+10630000289	The guild emblem does not meet the requirements.	ตรากิลด์ไม่ตรงตามข้อกำหนด
+10630000290	The guild notice does not meet the requirements.	ประกาศกิลด์ไม่ตรงตามข้อกำหนด
+10630000292	This action cannot be performed during Guild League.	ไม่สามารถดำเนินการนี้ระหว่าง Guild League ได้
+10630000295	The guild cannot be disbanded during Guild Auction.	ไม่สามารถยุบกิลด์ระหว่าง Guild Auction ได้
+10630000298	You're refreshing too quickly. Please try again later.	คุณรีเฟรชเร็วเกินไป โปรดลองอีกครั้งภายหลัง
+10630000300	Guild Technology does not meet the Requirement to level up:	เทคโนโลยีกิลด์ไม่ตรงตามเงื่อนไขการเพิ่มเลเวล:
+10630000301	The limited-time guild Tactic draw limit has been reached.	ถึงขีดจำกัดการสุ่มยุทธวิธีกิลด์แบบจำกัดเวลาแล้ว
+10630000302	The limited-time guild Tactic is already active.	ยุทธวิธีกิลด์แบบจำกัดเวลาเปิดใช้งานอยู่แล้ว
+10630000303	The limited-time guild Tactic does not exist.	ไม่มียุทธวิธีกิลด์แบบจำกัดเวลานี้
+10630000304	Not enough Skill Points for the limited-time guild Tactic.	แต้มสกิลสำหรับยุทธวิธีกิลด์แบบจำกัดเวลาไม่เพียงพอ
+10630000315	The custom Revive Point limit has been exceeded.	จำนวนจุดคืนชีพที่กำหนดเองเกินขีดจำกัดแล้ว
+10630000320	The target has accepted another Revive invitation.	เป้าหมายตอบรับคำเชิญคืนชีพอื่นแล้ว
+10630000324	Skill-based Revive is not allowed in this area.	ไม่อนุญาตให้คืนชีพด้วยสกิลในพื้นที่นี้
+10630000325	Item-based Revive is not allowed in this area.	ไม่อนุญาตให้คืนชีพด้วยไอเทมในพื้นที่นี้
+10630000326	Not enough personal Revive attempts remaining	จำนวนครั้งคืนชีพส่วนตัวที่เหลือไม่เพียงพอ
+10630000329	Revive requests are on cooldown. Please try again later~	คำขอคืนชีพอยู่ระหว่าง Cooldown โปรดลองอีกครั้งภายหลัง~
+10630000345	Cannot repair equipment at maximum durability	ไม่สามารถซ่อมอุปกรณ์ที่มีความทนทานเต็มได้
+10630000358	Equipment in this Equipment Preset does not exist	ไม่มีอุปกรณ์ในชุดอุปกรณ์ที่บันทึกไว้นี้
+10630000361	You have reached the follow limit and cannot follow any more targets.	คุณติดตามครบจำนวนสูงสุดแล้ว ไม่สามารถติดตามเป้าหมายเพิ่มได้
+10630000362	The target you tried to follow does not exist	ไม่มีเป้าหมายที่คุณพยายามติดตาม
+10630000367	Not within the public listing purchase period	ไม่ได้อยู่ในช่วงซื้อรายการประกาศขายสาธารณะ
+10630000373	Not enough Credit Points to make this purchase	Credit Points ไม่เพียงพอสำหรับการซื้อนี้
+10630000374	This listing exceeds today's maximum listing quantity.	รายการนี้เกินจำนวนลงขายสูงสุดของวันนี้
+10630000378	This card has already had a Level-up or Star Upgrade	การ์ดนี้ได้รับการเพิ่มเลเวลหรืออัปเกรดดาวแล้ว
+10630000379	This Emblem has already had a Level-up or Star Upgrade	ตรานี้ได้รับการเพิ่มเลเวลหรืออัปเกรดดาวแล้ว
+10630000380	This product does not exist. Please refresh and try again.	ไม่มีสินค้านี้ โปรดรีเฟรชแล้วลองอีกครั้ง
+10630000381	Failed to download data. Please try again later.	ดาวน์โหลดข้อมูลไม่สำเร็จ โปรดลองอีกครั้งภายหลัง
+10630000392	Failed to retrieve item information before adding it to the watchlist.	ดึงข้อมูลไอเทมก่อนเพิ่มลงในรายการเฝ้าดูไม่สำเร็จ
+10630000398	This item is in the public listing period and cannot be purchased.	ไอเทมนี้อยู่ในช่วงประกาศขายสาธารณะและไม่สามารถซื้อได้
+10630000400	Failed to purchase the item. Please refresh and try again.	ซื้อไอเทมไม่สำเร็จ โปรดรีเฟรชแล้วลองอีกครั้ง
+10630000401	Trade items cannot currently be purchased on this server.	ขณะนี้ไม่สามารถซื้อไอเทมซื้อขายบนเซิร์ฟเวอร์นี้ได้
+10630000402	Your character is temporarily unable to purchase items. Unseal time: ${1}.	ตัวละครของคุณยังไม่สามารถซื้อไอเทมได้ชั่วคราว เวลาปลดผนึก: ${1}.
+10630000403	Items cannot currently be listed on this server.	ขณะนี้ไม่สามารถลงขายไอเทมบนเซิร์ฟเวอร์นี้ได้
+10630000404	Your character is temporarily unable to list items. Unseal time: ${1}.	ตัวละครของคุณยังไม่สามารถลงขายไอเทมได้ชั่วคราว เวลาปลดผนึก: ${1}.
+10630000411	NPC Interaction is not available on this date.	ไม่สามารถโต้ตอบกับ NPC ได้ในวันที่นี้
+10630000412	Server instability detected. Please try starting the conversation again later.	ตรวจพบความไม่เสถียรของเซิร์ฟเวอร์ โปรดลองเริ่มบทสนทนาอีกครั้งภายหลัง
+10630000420	Maximum number of simultaneous Interactions reached.	ถึงจำนวนการโต้ตอบพร้อมกันสูงสุดแล้ว
+10630000426	Cannot leave the vehicle while casting a skill.	ไม่สามารถลงจากยานพาหนะขณะร่ายสกิลได้
+10630000435	Cannot equip this Job item until the prerequisite quest is completed.	ไม่สามารถสวมใส่ไอเทมอาชีพนี้ได้จนกว่าจะทำเควสต์ที่จำเป็นก่อนให้สำเร็จ
+10630000436	Cannot equip this Job item without Learning Skills.	ไม่สามารถสวมใส่ไอเทมอาชีพนี้ได้หากยังไม่ได้เรียนรู้สกิล
+10630000442	Cannot Cancel Rental while there are items in the Cart Merchant.	ไม่สามารถยกเลิกการเช่าขณะที่ยังมีไอเทมอยู่ใน Cart Merchant ได้
+10630000443	Cannot reset the [Cart Use] skill while there are items in the Cart Merchant.	ไม่สามารถรีเซ็ตสกิล [ Cart Use ] ขณะที่ยังมีไอเทมอยู่ใน Cart Merchant ได้
+10630000448	This is already the same Party type. No conversion is needed.	เป็นปาร์ตี้ประเภทเดียวกันอยู่แล้ว ไม่จำเป็นต้องเปลี่ยน
+10630000454	You're performing actions too frequently. Please try again later	คุณใช้ท่าทางถี่เกินไป โปรดลองภายหลัง
+10630000457	Maximum number of Deputy Raid Leaders reached	ถึงจำนวนรองหัวหน้าเรดสูงสุดแล้ว
+11210100000	A Hat made from half of a sturdy fruit. It provides solid defense, but a hammer would still break it, so it cannot be refined.	หมวกที่ทำจากครึ่งหนึ่งของผลไม้เนื้อแข็ง ให้การป้องกันที่ดี แต่ยังแตกได้เมื่อถูกค้อนทุบ จึงไม่สามารถตีบวกได้
+11210100002	A decorative eggshell worn on the head. It's surprisingly sturdy.	เปลือกไข่ประดับสำหรับสวมบนศีรษะ แข็งแรงอย่างน่าประหลาดใจ
+11210100003	A military Hat worn exclusively by Prontera Soldiers.	หมวกทหารที่สวมได้เฉพาะทหาร Prontera เท่านั้น
+11210100004	A Hat coveted by every talented mage. It looks a little odd, but it's comfortable to wear and gives off a lively air.	หมวกที่นักเวทผู้มีพรสวรรค์ทุกคนใฝ่ฝัน ดูแปลกไปหน่อย แต่สวมสบายและให้ความรู้สึกมีชีวิตชีวา
+11210100007	A stone statue of an ancient sage. Some people wear it on their heads, hoping to gain the sage's wisdom.\nBut it's incredibly heavy.	รูปปั้นหินของปราชญ์โบราณ บางคนนำมาสวมบนศีรษะโดยหวังว่าจะได้รับปัญญาของปราชญ์\nแต่หนักมากเหลือเกิน
+11210100008	Shuka Bain's Black Cat Ears. Exquisitely crafted and adorable.	Black Cat Ears ของ Shuka Bain ประดิษฐ์อย่างประณีตและน่ารัก
+11210100009	A bandage Hat that wraps around the head. It makes your injuries look serious enough to earn a healer's sympathy.	หมวกผ้าพันแผลที่พันรอบศีรษะ ทำให้อาการบาดเจ็บของคุณดูรุนแรงพอที่จะได้รับความเห็นใจจากผู้รักษา
+11210100010	A magnificent headpiece made from the wing feathers of a Grand Peco.	เครื่องประดับศีรษะอันงดงามที่ทำจากขนปีกของ Grand Peco
+11210100012	A rather fashionable Hat adorned above with a valuable feather.	หมวกที่ดูทันสมัยทีเดียว ด้านบนประดับด้วยขนนกล้ำค่า
+11210100014	A headband adorned with a beautiful kitten doll. The lace trim makes it even cuter.	ที่คาดผมประดับตุ๊กตาลูกแมวแสนน่ารัก ขอบลูกไม้ยิ่งเพิ่มความน่าเอ็นดู
+11210100015	A doll made to be carried on your head. If you hear a cat meowing from somewhere or feel something moving on your head, it's just your imagination.	ตุ๊กตาที่ทำขึ้นสำหรับวางบนศีรษะ หากได้ยินเสียงแมวร้องจากที่ไหนสักแห่งหรือรู้สึกว่ามีอะไรขยับอยู่บนศีรษะ นั่นก็แค่คุณคิดไปเอง
+11210100016	A Nurse Cap worn by nurses who care for patients in place of doctors.	Nurse Cap ที่พยาบาลสวมขณะดูแลผู้ป่วยแทนแพทย์
+11210100017	A Hat modeled after a Deviruchi. Its fresh, adorable look brings joy to both the wearer and everyone who sees it.	หมวกที่จำลองรูปลักษณ์ของ Deviruchi ดีไซน์สดใสน่ารักทำให้ทั้งผู้สวมและผู้พบเห็นมีความสุข
+11210100018	Legend has it that this apple was struck by an ancient Sniper from an incredible Distance.	ตำนานเล่าว่าแอปเปิลลูกนี้เคยถูก Sniper โบราณยิงจากระยะไกลอย่างเหลือเชื่อ
+11210100019	A theatrical prop Helmet that frightens others when worn normally.	หมวกเกราะที่ใช้เป็นอุปกรณ์ประกอบการแสดง หากสวมในชีวิตประจำวันจะทำให้คนอื่นหวาดกลัว
+11210100020	Everyone knows that stepping on a banana peel will make you slip. If someone wears one into battle, it means their opponent is already Angry.	ทุกคนรู้ว่าเหยียบเปลือกกล้วยแล้วจะลื่น หากใครสวมมันเข้าสู่สนามรบ แสดงว่าคู่ต่อสู้ของเขาโกรธอยู่แล้ว
+11210100021	Sweetheart Tea Party · Matching Theme Headwear	Sweetheart Tea Party · เครื่องประดับศีรษะเข้าชุดตามธีม
+11210100022	Silverwing Covenant · Matching Theme Facewear	Silverwing Covenant · เครื่องประดับใบหน้าเข้าชุดตามธีม
+11210100023	A headband made from gathered Angel feathers.	ที่คาดผมที่ทำจากขนนก Angel ที่รวบรวมมา
+11210100024	Protective headgear made of gold. Since gold is its primary material, it is remarkably sturdy and provides excellent defense.	เครื่องป้องกันศีรษะที่ทำจากทองคำ เนื่องจากใช้ทองคำเป็นวัสดุหลัก จึงแข็งแรงเป็นพิเศษและให้การป้องกันที่ยอดเยี่ยม
+11210100026	A Helmet for true Orc heroes, proving that its wearer is the bravest and greatest among all Orcs.	หมวกเกราะสำหรับวีรบุรุษ Orc ที่แท้จริง พิสูจน์ว่าผู้สวมกล้าหาญและยิ่งใหญ่ที่สุดในบรรดา Orc ทั้งหมด
+11210100027	A jeweled accessory for women. Legend says it was once worn at the wedding of a queen from a certain kingdom. It sharpens the mind while casting magic.	เครื่องประดับอัญมณีสำหรับสตรี ตำนานเล่าว่าเคยถูกสวมในงานอภิเษกสมรสของราชินีแห่งอาณาจักรหนึ่ง ช่วยให้ความคิดเฉียบคมขณะร่ายเวท
+11210100028	A headband worn by the supreme leader of a clan.	ที่คาดผมที่ผู้นำสูงสุดของกลุ่มตระกูลสวมใส่
+11210100029	A large Hat worn by pirate captains. Since it is reserved for captains, it projects an imposing air of absolute authority.	หมวกใบใหญ่ที่กัปตันโจรสลัดสวมใส่ เนื่องจากสงวนไว้สำหรับกัปตัน จึงแผ่บรรยากาศอันน่าเกรงขามของอำนาจเด็ดขาด
+11210100030	A beautiful Hat with unusual patterns. Wearing it somehow makes you feel smarter.	หมวกสวยงามที่มีลวดลายแปลกตา สวมแล้วรู้สึกฉลาดขึ้นอย่างบอกไม่ถูก
+11210100031	This Crown sharpens the wearer's mind and contains magic that bolsters mental strength.	มงกุฎนี้ช่วยให้ความคิดของผู้สวมเฉียบคม และมีเวทมนตร์ที่เสริมความแข็งแกร่งทางจิตใจ
+11210100032	A Hat found in a distant land, symbolizing the sun's supreme power. It is sturdier than it looks.	หมวกที่พบในดินแดนห่างไกล เป็นสัญลักษณ์แห่งพลังสูงสุดของดวงอาทิตย์ แข็งแรงกว่าที่เห็น
+11210100034	Folded from cloth into a circular shape and set with a gemstone, this headpiece looks truly majestic.	เครื่องประดับศีรษะที่พับผ้าเป็นทรงกลมและฝังอัญมณี ดูสง่างามอย่างแท้จริง
+11210100035	A Helmet topped with goat horns and steeped in religious significance.	หมวกเกราะประดับเขาแพะด้านบน เปี่ยมด้วยความหมายทางศาสนา
+11210100038	Starfish-shaped headwear that brings you closer to nature!	เครื่องประดับศีรษะรูปปลาดาวที่ทำให้คุณใกล้ชิดธรรมชาติยิ่งขึ้น!
+11210100039	A Crown shaped like Thorn branches, adorned with gemstones, tiny osmanthus-like flowers, and dark butterflies. A bow at the back trails long tassels.	มงกุฎรูปกิ่งหนาม ประดับอัญมณี ดอกไม้เล็กคล้ายดอกหอมหมื่นลี้ และผีเสื้อสีเข้ม โบด้านหลังมีพู่ยาวห้อยลงมา
+11210100040	A Golden Coronet engraved with mysterious runes. Legend says it was blessed during the coronation of a former pope.	Golden Coronet ที่สลักอักขระรูนลึกลับ ตำนานเล่าว่าได้รับพรในพิธีราชาภิเษกของพระสันตะปาปาองค์ก่อน
+11210100041	A unique Hat with enormous wings symbolizing the sun. Please don't ask how you're supposed to walk while wearing it.	หมวกไม่เหมือนใครที่มีปีกมหึมาเป็นสัญลักษณ์ของดวงอาทิตย์ อย่าถามเลยว่าจะเดินอย่างไรเมื่อสวมมัน
+11210100042	Calling it animal poop or excrement sounds rather crude, so it is collectively referred to as dung.	การเรียกว่าขี้สัตว์หรืออุจจาระฟังดูหยาบไปหน่อย จึงเรียกรวม ๆ ว่ามูล
+11210100043	A mask modeled after those worn by an assassination squad to conceal their identities. Wearing it somehow makes you feel more agile.	หน้ากากที่จำลองจากหน้ากากของหน่วยลอบสังหารซึ่งใช้ปกปิดตัวตน สวมแล้วรู้สึกคล่องตัวขึ้นอย่างบอกไม่ถูก
+11210100044	He is the sun; He has no need to look up.\nWorldscorch Feather · Theme Headwear	เขาคือดวงอาทิตย์ เขาไม่จำเป็นต้องเงยหน้ามอง\nWorldscorch Feather · เครื่องประดับศีรษะตามธีม
+11210100046	Black glasses that can shield your eyes from the sun or serve as a fashionable accessory.	แว่นตาสีดำที่ช่วยป้องกันดวงตาจากแสงแดด หรือใช้เป็นเครื่องประดับแฟชั่นได้
+11210100047	A strip of cloth worn over the eyes, though it is sometimes used for other purposes.	แถบผ้าสำหรับคาดปิดดวงตา แม้บางครั้งจะถูกนำไปใช้เพื่อจุดประสงค์อื่น
+11210100050	A Blinker worn over an injured eye to protect it.	Blinker ที่สวมปิดตาข้างที่บาดเจ็บเพื่อป้องกันดวงตา
+11210100051	Magical glasses that make constantly spinning patterns appear before your eyes.\nWearing them causes Stun, though to everyone else they look like ordinary glasses.	แว่นตาเวทมนตร์ที่ทำให้เห็นลวดลายหมุนวนไม่หยุดอยู่ตรงหน้า\nสวมแล้วทำให้ติดสถานะ Stun แม้คนอื่นจะเห็นเป็นเพียงแว่นตาธรรมดา
+11210100052	A mask with a hearty laugh. Wearing it prevents others from reading your Emotes or emotions beneath the mask.	หน้ากากที่แสดงสีหน้าหัวเราะอย่างร่าเริง เมื่อสวมแล้ว คนอื่นจะไม่สามารถอ่านท่าทางแสดงอารมณ์หรือความรู้สึกที่อยู่ใต้หน้ากากได้
+11210100053	Small and delicate, this is perfect for looking cute in front of your sweetheart. A must-have for any handsome young man or beautiful young woman...	เล็กและประณีต เหมาะสำหรับอวดความน่ารักต่อหน้าคนรัก เป็นของที่หนุ่มหล่อหรือสาวสวยทุกคนต้องมี...
+11210100054	A pair of small red-accented hair ribbons that make girls look even cuter.	ริบบิ้นติดผมคู่เล็กแต่งสีแดง ช่วยให้สาว ๆ ดูน่ารักยิ่งขึ้น
+11210100055	Pairing it with a Nurse Cap may produce an unexpected effect. A cute Blinker designed for anyone seeking a distinctive look.	ใช้คู่กับ Nurse Cap อาจเกิดผลที่คาดไม่ถึง Blinker แสนน่ารักที่ออกแบบมาสำหรับผู้ที่ต้องการลุคไม่เหมือนใคร
+11210100056	A bizarre-looking mask. Its frightening appearance makes it perfect for playing pranks.	หน้ากากหน้าตาประหลาด รูปลักษณ์น่ากลัวทำให้เหมาะกับการแกล้งคน
+11210100057	A mask imbued with the strong will of a Goblin Leader. But no matter how you dress it up, a Goblin is still a Goblin.	หน้ากากที่เปี่ยมด้วยเจตจำนงอันแข็งแกร่งของ Goblin Leader แต่ไม่ว่าจะแต่งอย่างไร Goblin ก็ยังเป็น Goblin
+11210100058	Earrings made from black wings, exuding the noble aura of a demon. Wearing them seems to grant mysterious power from the wings.	ต่างหูที่ทำจากปีกสีดำ แผ่บรรยากาศสูงศักดิ์ของปีศาจ สวมแล้วดูเหมือนจะได้รับพลังลึกลับจากปีก
+11210100059	Dazzling earrings modeled after beautiful Angel wings. Wearing them seems to grant mysterious power from the wings.	ต่างหูแวววาวที่จำลองจากปีก Angel อันงดงาม สวมแล้วดูเหมือนจะได้รับพลังลึกลับจากปีก
+11210100060	He comes from the slowly rising light.\nWorldscorch Feather · Theme Facewear	เขามาจากแสงสว่างที่ค่อย ๆ ทอขึ้น\nWorldscorch Feather · เครื่องประดับใบหน้าตามธีม
+11210100062	A mustache that gives you a sincere and dependable look when worn.	หนวดที่สวมแล้วทำให้ดูจริงใจและพึ่งพาได้
+11210100063	The long, pointed beak of a bird or other animal, ideal for catching insects or pecking at feed.	จะงอยปากยาวแหลมของนกหรือสัตว์ชนิดอื่น เหมาะสำหรับจับแมลงหรือจิกอาหาร
+11210100066	Sweet, delicious candy prepared for good children.	ลูกกวาดหวานอร่อยที่เตรียมไว้สำหรับเด็กดี
+11210100067	A Romantic Leaf that flutters in the wind when held in your mouth, evoking the feeling of a wandering traveler.	Romantic Leaf ที่พลิ้วไหวตามลมเมื่อคาบไว้ในปาก ให้ความรู้สึกเหมือนนักเดินทางพเนจร
+11210100068	A fragrant Lucky Clover that brings good luck!	Lucky Clover กลิ่นหอมที่นำโชคดีมาให้!
+11210100069	Our best friend on a hectic morning. It brings to mind someone rushing out the door with it held in their mouth.	เพื่อนคู่ใจในเช้าอันวุ่นวาย ชวนให้นึกถึงคนที่รีบออกจากบ้านโดยคาบมันไว้ในปาก
+11210100070	A pacifier placed in a Child's mouth to soothe them. It should look adorable when equipped by a Child character!	จุกนมหลอกที่ใส่ในปากเด็กเพื่อปลอบให้สงบ ตัวละครเด็กสวมแล้วคงน่ารักมาก!
+11210100071	A neckerchief that may once have been worn by rogues.	ผ้าผูกคอที่อาจเคยมีพวกอันธพาลสวมใส่
+11210100072	An item modeled after an Angry Snarl. Use it to become an angry cat, angry rabbit, or create other looks!\n(Secondary drop from Goblin Leader)	ไอเทมที่จำลองจาก Angry Snarl ใช้มันแปลงเป็นแมวโกรธ กระต่ายโกรธ หรือสร้างลุคอื่น ๆ ได้!\n(ไอเทมดรอปรองจาก Goblin Leader)
+11210100073	A Pipe that holds a cigarette. Its built-in filter helps reduce the harm caused by smoking.	Pipe สำหรับเสียบบุหรี่ ตัวกรองในตัวช่วยลดอันตรายจากการสูบบุหรี่
+11210100074	A specially treated fish that can be held in your mouth. It smells slightly fishy, but never spoils.\nDefeated monsters have a low chance to drop a "Tasty Fish."	ปลาที่ผ่านกระบวนการพิเศษจนคาบไว้ในปากได้ มีกลิ่นคาวเล็กน้อยแต่ไม่มีวันเน่าเสีย\nมอนสเตอร์ที่ถูกปราบมีโอกาสเล็กน้อยที่จะดรอป "Tasty Fish"
+11210100075	Once a keeper of Order across this continent, now all that's left to do is enjoy the game.	ครั้งหนึ่งเคยเป็นผู้รักษาความสงบเรียบร้อยทั่วทวีปนี้ บัดนี้เหลือเพียงการสนุกกับเกม
+11210100076	When you become a little kitty, you'll discover Happiness in its purest, most Easy form.	เมื่อคุณกลายเป็นลูกแมวตัวน้อย คุณจะค้นพบความสุขในรูปแบบที่บริสุทธิ์และเรียบง่ายที่สุด
+11210100077	Dark roses bloom across jet-black satin, pale lace coiling around the neck like a spiderweb. A metal cross sways from its chain, and the hoop skirt traces a sharp arc of shadow. Every step echoes the low hum of a medieval pipe organ.	กุหลาบสีเข้มบานทั่วผ้าซาตินดำสนิท ลูกไม้สีอ่อนพันรอบคอราวใยแมงมุม กางเขนโลหะแกว่งไกวจากสายโซ่ ส่วนกระโปรงสุ่มวาดเงาโค้งคม ทุกย่างก้าวสะท้อนเสียงทุ้มต่ำของออร์แกนแบบท่อจากยุคกลาง
+11210100078	A moonlight-silver satin gown cascades downward, with crystal bead strands flowing across the waist like a river of stars. The mermaid hem blooms into delicate pleats, glowing icy blue with every movement, as though the night sky became a dress.	ชุดราตรีซาตินสีเงินดุจแสงจันทร์ทิ้งตัวลง สายลูกปัดคริสตัลพาดผ่านเอวราวสายธารแห่งดวงดาว ชายกระโปรงทรงหางปลาคลี่เป็นจีบละเอียด เรืองแสงสีฟ้าเย็นทุกครั้งที่ขยับ ราวกับท้องฟ้ายามค่ำคืนกลายเป็นชุดราตรี
+11210100079	An oversized linen-cotton shirt drapes over distressed denim and cream knitwear, creating relaxed layers. Rolled-up sleeves reveal a braided bracelet, while canvas shoes add a touch of sunlit warmth.	เสื้อเชิ้ตผ้าลินินผสมฝ้ายทรงหลวมคลุมทับผ้ายีนส์แต่งขาดและเสื้อถักสีครีม สร้างชั้นเสื้อผ้าที่ดูสบาย ๆ แขนเสื้อพับเผยให้เห็นสร้อยข้อมือถัก ส่วนรองเท้าผ้าใบเติมความอบอุ่นดุจแสงแดด
+11210100080	A navy plaid suit creates a crisp silhouette, with a Gold academy crest on the lapel.\nThe pleated skirt swings perfectly with every step, paired with knee-high socks and Oxford shoes for a youthful look.	ชุดสูทลายตารางสีกรมท่าสร้างรูปทรงที่ดูเนี้ยบ มีตราสถาบันสีทองบนปกเสื้อ\nกระโปรงจีบพลิ้วอย่างลงตัวทุกย่างก้าว จับคู่กับถุงเท้าสูงถึงเข่าและรองเท้า Oxford ให้ลุคสดใสอ่อนเยาว์
+11210100081	Sweet pink meets refreshing Blue, while fondant-like pleats build a creamy texture. Chocolate-colored ribbons sparkle with frosting-like sequins, and the skirt spins like a tiered cake, beginning a dreamy parade of sweetness.	สีชมพูหวานพบกับสีฟ้าสดชื่น จีบคล้ายฟองดองสร้างเนื้อสัมผัสนุ่มดุจครีม ริบบิ้นสีช็อกโกแลตระยิบระยับด้วยเลื่อมคล้ายไอซิง กระโปรงหมุนราวเค้กหลายชั้น เปิดขบวนพาเหรดแห่งความหวานในฝัน
+11210100082	A sweet pink, Blue, and yellow puff dress features layers of fondant-like pleats with a creamy texture. Chocolate-colored ribbons sparkle with frosting-like sequins, and as the skirt spins open like a tiered cake, a dreamy parade of sweetness begins.	เดรสพองฟูสีชมพูหวาน สีฟ้า และสีเหลือง มีจีบหลายชั้นคล้ายฟองดองที่ให้เนื้อสัมผัสนุ่มดุจครีม ริบบิ้นสีช็อกโกแลตระยิบระยับด้วยเลื่อมคล้ายไอซิง และเมื่อกระโปรงหมุนคลี่ราวเค้กหลายชั้น ขบวนพาเหรดแห่งความหวานในฝันก็เริ่มต้นขึ้น
+11210100083	Golden threads shimmer through nine-hued robes, inspired by Dunhuang's flying apsaras. Its sleeves dance like swirling ribbons, blending the spirit of the Silk Road with Eastern grace. Every detail radiates classical elegance and ethereal beauty.	ด้ายสีทองระยิบระยับทั่วอาภรณ์เก้าสี ได้แรงบันดาลใจจากนางอัปสรเหินฟ้าแห่ง Dunhuang แขนเสื้อร่ายรำราวริบบิ้นหมุนวน ผสานจิตวิญญาณแห่ง Silk Road เข้ากับความอ่อนช้อยแบบตะวันออก ทุกรายละเอียดเปล่งความสง่างามคลาสสิกและความงามเหนือโลก
+11210100084	Feathers cascade over satin like golden-red flames, while brilliant gold thread traces the radiance of rebirth. With every step comes the low call of a divine bird—regal, magnificent, and blazing with presence.	ขนนกทิ้งตัวบนผ้าซาตินราวเปลวไฟสีทองปนแดง ด้ายทองเจิดจ้าถ่ายทอดประกายแห่งการเกิดใหม่ ทุกย่างก้าวมีเสียงร้องทุ้มต่ำของวิหคเทพ—สูงศักดิ์ งดงาม และเปล่งพลังเจิดจ้า
+11210100085	A fluffy Fox tail. Will wearing it turn you into a real Fox?	หาง Fox ฟู ๆ สวมแล้วจะกลายเป็น Fox จริง ๆ ไหมนะ?
+11210100086	A very old-fashioned television set that can surprisingly still play programs.	โทรทัศน์รุ่นเก่ามากที่น่าประหลาดใจว่ายังเปิดรายการได้
+11210100087	A mechanical ship's wheel with gears at its center. Powered by the central furnace core, it spins continuously.	พวงมาลัยเรือกลไกที่มีเฟืองอยู่ตรงกลาง ขับเคลื่อนด้วยแกนเตาหลอมส่วนกลาง ทำให้หมุนอย่างต่อเนื่อง
+11210100088	A backpack specially made for Adventurers who dare to challenge themselves and never give up. Its vivid red matches the fiery spirit burning within them.	กระเป๋าสะพายหลังที่ทำขึ้นเป็นพิเศษสำหรับนักผจญภัยผู้กล้าท้าทายตนเองและไม่เคยยอมแพ้ สีแดงสดเข้ากับจิตวิญญาณที่ลุกโชนอยู่ภายใน
+11210100089	The rabbit family of Fairy-Tale Town loves curling up inside teacups for afternoon naps whenever the sun is shining.	ครอบครัวกระต่ายแห่ง Fairy-Tale Town ชอบขดตัวในถ้วยชางีบยามบ่ายเมื่อมีแสงแดด
+11210100090	Silverwing Covenant · Matching Theme Backwear	Silverwing Covenant · เครื่องประดับหลังเข้าชุดตามธีม
+11210100091	Wings that look like a cross between a butterfly's and a dragonfly's. Pair them with a dress to look like a tiny flower fairy.	ปีกที่ดูเหมือนผสมระหว่างปีกผีเสื้อกับปีกแมลงปอ สวมคู่กับชุดกระโปรงแล้วจะดูเหมือนภูตดอกไม้ตัวน้อย
+11210100092	A clock-shaped halo with Roman numerals. Its hour and minute hands rotate counterclockwise, as though they could control time itself.	วงแหวนรัศมีรูปนาฬิกาที่มีตัวเลขโรมัน เข็มชั่วโมงและเข็มนาทีหมุนทวนเข็มนาฬิกา ราวกับควบคุมเวลาได้
+11210100093	A Costume modeled after the Grim Reaper's scythe.	คอสตูมที่จำลองจากเคียวของ Grim Reaper
+11210100094	A doll Piamette uses to make attacking and defending easier?\nI could have sworn I saw it move...	ตุ๊กตาที่ Piamette ใช้ช่วยให้โจมตีและป้องกันได้ง่ายขึ้น?\nฉันมั่นใจว่าเห็นมันขยับ...
+11210100095	A Costume balloon featuring Lunatic, Eclipse, and Leaf Lunatic together. It's so huge, it feels like it could carry someone away.	ลูกโป่งคอสตูมที่มี Lunatic, Eclipse และ Leaf Lunatic อยู่ด้วยกัน ใหญ่เสียจนรู้สึกว่าสามารถพาคนลอยไปได้
+11210100097	It looks like a kitten's tail. Will wearing it turn you into a real kitten?	ดูเหมือนหางลูกแมว สวมแล้วจะกลายเป็นลูกแมวจริง ๆ ไหมนะ?
+11210100098	Each spread of its wings brings fire, and every feather burns eternally.\nWorldscorch Feather · Theme Backwear	ทุกครั้งที่กางปีกจะนำพาเปลวไฟมา และขนนกทุกเส้นลุกไหม้ชั่วนิรันดร์\nWorldscorch Feather · เครื่องประดับหลังตามธีม
+11210100099	It's a Poring! A giant Poring carrying a huge backpack!	นี่คือ Poring! Poring ยักษ์ที่แบกกระเป๋าสะพายหลังใบมหึมา!
+11210100106	A fluffy, long-haired rabbit wearing a purple bow. It's incredibly cute when it runs.	กระต่ายขนยาวฟูฟ่องที่ผูกโบสีม่วง ตอนวิ่งน่ารักสุด ๆ
+11210100107	This little airplane looks a bit old-fashioned.	เครื่องบินลำเล็กนี้ดูย้อนยุคนิดหน่อย
+11210100108	A hot-air balloon brimming with Goblin spirit! Unfortunately, flaws in its construction keep it from taking off.	บอลลูนลมร้อนที่เปี่ยมด้วยจิตวิญญาณของ Goblin! น่าเสียดายที่ข้อบกพร่องในการสร้างทำให้บินขึ้นไม่ได้
+11210100109	It once cleaved through raging waves with its massive claws. Now it has laid the storm to rest and become the steadiest of mounts, carrying you sideways across the seas of the world.	ครั้งหนึ่งมันเคยใช้ก้ามมหึมาผ่าคลื่นอันบ้าคลั่ง บัดนี้มันสงบพายุลงและกลายเป็นพาหนะที่มั่นคงที่สุด พาคุณเคลื่อนตัวด้านข้างข้ามทะเลทั่วโลก
+11210100110	A hardworking little kitty pushes its cart... You are the most valuable treasure aboard, yet you'll never be sold.	ลูกแมวขยันขันแข็งเข็นรถของมัน... คุณคือสมบัติล้ำค่าที่สุดบนรถ แต่ไม่มีวันถูกขาย
+11210100111	The latest Goblin masterpiece! After fixing the flaw that kept the previous hot-air balloon grounded, this one can soar through the sky!	ผลงานชิ้นเอกล่าสุดของ Goblin! หลังแก้ข้อบกพร่องที่ทำให้บอลลูนลมร้อนรุ่นก่อนบินไม่ได้ รุ่นนี้ก็ทะยานขึ้นฟ้าได้แล้ว!
+11210100112	A tiny kun hidden in the deep sea. Someday, it will slowly grow and soar into the heavens...	kun ตัวจิ๋วที่ซ่อนอยู่ใต้ทะเลลึก สักวันมันจะค่อย ๆ เติบโตและทะยานขึ้นสู่สวรรค์...
+11210100113	The Toy Factory's latest rocking horse, complete with a mysterious and slightly unsettling smile.	ม้าโยกตัวล่าสุดจาก Toy Factory มาพร้อมรอยยิ้มลึกลับและชวนหวั่นใจเล็กน้อย
+11210100114	The once-frail Super Picky has become incredibly brave, carrying an Adventurer onward.	Super Picky ที่เคยอ่อนแอได้กลายเป็นผู้กล้าหาญอย่างยิ่ง พานักผจญภัยเดินทางต่อไป
+11210100115	A radiant, sacred unicorn that looks enchanting from every angle.	ยูนิคอร์นศักดิ์สิทธิ์เปล่งประกาย ดูงดงามชวนหลงใหลจากทุกมุม
+11210100116	This magic carpet once carried tales from the Arabian Nights beneath the desert moon and stars. The moment you step aboard, it unfurls a miracle that lets you ride the wind.	พรมวิเศษผืนนี้เคยนำพาเรื่องเล่าจาก Arabian Nights ใต้แสงจันทร์และดวงดาวกลางทะเลทราย ทันทีที่คุณก้าวขึ้น มันจะคลี่ปาฏิหาริย์ที่ให้คุณเหินไปกับสายลม
+11210100117	Forged from an ancient, tamed sun, this chariot trails the golden light of dawn and the dying embers of dusk with every charge.	รถศึกที่หลอมจากดวงอาทิตย์โบราณซึ่งถูกสยบแล้ว ทุกครั้งที่พุ่งทะยานจะทิ้งแสงสีทองแห่งรุ่งอรุณและถ่านคุกรุ่นแห่งสนธยาไว้เบื้องหลัง
+11210100118	The song of a deep-sea whale bears an orchid from a secluded valley. Wherever it carries you, flowers seem to bloom in the sky and stars rise from the water.	บทเพลงของวาฬทะเลลึกโอบอุ้มกล้วยไม้จากหุบเขาเร้นลับ ไม่ว่ามันจะพาคุณไปที่ใด ดอกไม้ดูจะเบ่งบานบนฟ้าและดวงดาวผุดขึ้นจากผืนน้ำ
+11210100119	In the Northern Deep dwells a fish named Kun. Kun is so enormous that no one knows how many thousands of miles it spans... How many grills would that take?	ใน Northern Deep มีปลานามว่า Kun อาศัยอยู่ Kun ใหญ่โตเสียจนไม่มีใครรู้ว่าตัวยาวกี่พันไมล์... ต้องใช้เตาย่างกี่เตากันนะ?
+11210100120	This ancient dragon once governed the paths of the stars. Now it restrains its divine might and carries you across the heavens.	มังกรโบราณตัวนี้เคยควบคุมเส้นทางแห่งดวงดาว บัดนี้มันยับยั้งอำนาจศักดิ์สิทธิ์และพาคุณข้ามท้องฟ้า
+11210100123	The flames have burned out, but this color will never fade.\nWorldscorch Feather · Theme Hairstyle	เปลวไฟมอดดับแล้ว แต่สีนี้จะไม่มีวันจาง\nWorldscorch Feather · ทรงผมตามธีม
+11210100126	Silverwing Covenant · Matching Theme Character Effects	Silverwing Covenant · เอฟเฟกต์ตัวละครเข้าชุดตามธีม
+11210100127	Nine-Tone Mantra · Matching Theme Character Effects	Nine-Tone Mantra · เอฟเฟกต์ตัวละครเข้าชุดตามธีม
+11210100128	Flames bloom wherever you tread, each step writing a poem in ash.	เปลวไฟผลิบานทุกที่ที่คุณย่ำไป แต่ละก้าวเขียนบทกวีด้วยเถ้าถ่าน
+10540000000	You can't go wrong with this recommended build.	ใช้แนวทางการเล่นที่แนะนำนี้ ไม่มีพลาดแน่นอน
+10540000001	Heh-heh! You can craft equipment now. Follow me!	ฮิฮิ! ตอนนี้เจ้าสร้างอุปกรณ์ได้แล้ว ตามข้ามา!
+10540000004	Pet Function unlocked! Let's find the perfect pet for you!	ปลดล็อกฟังก์ชันสัตว์เลี้ยงแล้ว! มาหาสัตว์เลี้ยงที่เหมาะกับเจ้ากัน!
+10540000008	Congratulations on getting a pet! Deploy it now!	ยินดีด้วยที่ได้สัตว์เลี้ยง! ส่งมันลงสนามเลย!
+10540000011	Once a pet with an Active Skill is deployed in the Active Slot, you can manually use its skill in battle	เมื่อส่งสัตว์เลี้ยงที่มีสกิลกดใช้ลงในช่องกดใช้ เจ้าจะสามารถใช้สกิลของมันด้วยตนเองในการต่อสู้ได้
+10540000014	Tap the note buttons below in order to play the melody	แตะปุ่มโน้ตด้านล่างตามลำดับเพื่อเล่นทำนอง
+10540000015	Saved! If you accidentally reset it, don't blame me, pop~	บันทึกแล้ว! ถ้าเผลอรีเซ็ตก็อย่าโทษข้าล่ะ ป๊อป~
+10540000017	After allocating skill points, drag a skill icon to the skill bar below to equip it.	หลังจัดสรรคะแนนสกิลแล้ว ลากไอคอนสกิลไปยังแถบสกิลด้านล่างเพื่อติดตั้ง
+10540000018	You can also drag skills onto the Auto-Battle Wheel to equip them. (Tap anywhere to finish.)	เจ้าสามารถลากสกิลไปยังวงล้อต่อสู้อัตโนมัติเพื่อติดตั้งได้เช่นกัน (แตะที่ใดก็ได้เพื่อจบ)
+10540000019	Deploy more pets to increase your combat power!	ส่งสัตว์เลี้ยงลงสนามเพิ่มเพื่อเพิ่มพลังต่อสู้!
+10540000020	Use WASD or click the ground with your Mouse to Move... This Demon is falling asleep.	ใช้ WASD หรือคลิกพื้นด้วยเมาส์เพื่อเคลื่อนที่... ปีศาจตนนี้จะหลับแล้ว
+10540000021	Hey~ Accept quests here. A brand-new adventure awaits!	เฮ้~ รับเควสต์ที่นี่ การผจญภัยครั้งใหม่กำลังรออยู่!
+10540000023	Tap the button to open the auto-battle settings and enjoy hands-free combat~	แตะปุ่มเพื่อเปิดการตั้งค่าต่อสู้อัตโนมัติ แล้วสนุกกับการต่อสู้แบบไม่ต้องลงมือเอง~
+10540000024	During auto-battle, the System casts skills in the order shown by the arrows. Drag skills to change their casting order.	ระหว่างต่อสู้อัตโนมัติ ระบบจะร่ายสกิลตามลำดับที่ลูกศรแสดง ลากสกิลเพื่อเปลี่ยนลำดับการร่าย
+10540000025	Tap here to enable or disable Smart Cast for the corresponding skill. During auto-battle, the System will cast the skill according to this setting.	แตะที่นี่เพื่อเปิดหรือปิดการร่ายอัจฉริยะสำหรับสกิลนั้น ระหว่างต่อสู้อัตโนมัติ ระบบจะร่ายสกิลตามการตั้งค่านี้
+10540000027	Select the type of monster you want to target during auto-battle	เลือกประเภทมอนสเตอร์ที่ต้องการโจมตีระหว่างต่อสู้อัตโนมัติ
+10540000029	There's something good in your Backpack. Open it and take a look, bo!	มีของดีอยู่ในกระเป๋าของเจ้า เปิดดูสิ โบ!
+10540000031	Pick it! Pick it! It's an essential weapon for every Novice!	เลือกเลย! เลือกเลย! นี่คืออาวุธจำเป็นสำหรับ Novice ทุกคน!
+10540000032	It won't take effect unless you equip it, bo.	ถ้าไม่สวมใส่ก็ไม่เกิดผลนะ โบ
+10540000035	Come on! I'll show you how to equip a mount, bo!	มาเร็ว! ข้าจะสอนวิธีติดตั้งสัตว์ขี่ให้ โบ!
+10540000036	Open the Wardrobe to see the mount you just obtained.	เปิดตู้เสื้อผ้าเพื่อดูสัตว์ขี่ที่เพิ่งได้รับ
+10540000040	Tap the Mount button and hop onto your dashing new ride!	แตะปุ่มขี่แล้วขึ้นไปบนสัตว์ขี่ตัวใหม่สุดเท่ของเจ้า!
+10540000041	You need to learn how to set up Auto-Potion. This Demon can't Fortify you. Tapping and holding have different effects!	เจ้าต้องเรียนรู้วิธีตั้งค่าใช้โพชันอัตโนมัติ ปีศาจตนนี้เสริมความแข็งแกร่งให้เจ้าไม่ได้ การแตะกับการกดค้างให้ผลต่างกันนะ!
+10540000044	Set the percentage carefully. This is important.	ตั้งค่าเปอร์เซ็นต์ให้ดี เรื่องนี้สำคัญ
+10540000045	All done! As long as you have enough potions, you won't have to worry about dying, bo.	เรียบร้อย! ตราบใดที่มีโพชันเพียงพอ เจ้าก็ไม่ต้องกังวลว่าจะตาย โบ
+10540000046	Oh! The Pet Tower is unlocked. I'll show you around, bo!	โอ้! ปลดล็อก Pet Tower แล้ว ข้าจะพาเจ้าไปดูรอบ ๆ โบ!
+10540000048	Pick this one. The rewards are better... Believe me or don't.	เลือกอันนี้ รางวัลดีกว่า... จะเชื่อข้าหรือไม่ก็ตามใจ
+10540000049	The challenge begins. Don't come crying to me if you lose.	การท้าทายเริ่มแล้ว ถ้าแพ้ก็อย่ามาร้องไห้กับข้าล่ะ
+10540000053	Confirm deployment. This demon's tactics are never wrong. Bo~	ยืนยันการส่งลงสนาม กลยุทธ์ของปีศาจตนนี้ไม่เคยผิดพลาด โบ~
+10540000055	【Soul Echo】 is unlocked. It's incredibly powerful, so follow me!	ปลดล็อก [ Soul Echo ] แล้ว ทรงพลังสุด ๆ เลย ตามข้ามา!
+10540000057	Pick whichever slot looks good. No need to overthink it, bo~	เลือกช่องไหนที่ดูดีก็ได้ ไม่ต้องคิดมาก โบ~
+10540000058	Confirm deployment. Feel that power surging through you! Hee-hee~	ยืนยันการส่งลงสนาม สัมผัสพลังที่พลุ่งพล่านในตัวเจ้าสิ! ฮิฮิ~
+10540000061	Come on! I'll show you how to equip a card, bo!	มาเร็ว! ข้าจะสอนวิธีติดตั้งการ์ดให้ โบ!
+10540000062	Tap here again. Don't get annoyed with me, bo~	แตะที่นี่อีกครั้ง อย่าเพิ่งรำคาญข้าล่ะ โบ~
+10540000064	Give it a good tap! The card is almost inserted, bo!	แตะให้เต็มที่! ใกล้ใส่การ์ดสำเร็จแล้ว โบ!
+10540000065	Tap here! Just between us, stat points are really important...	แตะที่นี่! บอกกันแค่เรานะ คะแนนค่าสถานะสำคัญมากจริง ๆ...
+10540000066	Tap here again! You'll be able to allocate stat points in just a moment, bo.	แตะที่นี่อีกครั้ง! อีกเดี๋ยวก็จัดสรรคะแนนค่าสถานะได้แล้ว โบ
+10540000067	Hmm, if you're not sure what to do, just choose a build to allocate your points automatically, bo.	อืม ถ้าไม่แน่ใจว่าต้องทำอย่างไร ก็เลือกแนวทางการเล่นเพื่อจัดสรรคะแนนให้อัตโนมัติได้เลย โบ
+10540000070	You can equip new skills from the Skill panel	เจ้าสามารถติดตั้งสกิลใหม่ได้จากหน้าสกิล
+10540000075	Come on! I'll teach you the ultimate way to make your equipment stronger, bo!	มาเร็ว! ข้าจะสอนสุดยอดวิธีทำให้อุปกรณ์แข็งแกร่งขึ้นให้ โบ!
+10540000076	Hmph~ It's the "Equipment Enhancement" button. Don't tap the wrong one.	ฮึ่ม~ ปุ่ม "เสริมพลังอุปกรณ์" นะ อย่าแตะผิดล่ะ
+10540000077	Tap here with all your might! If it fails, don't blame this demon...	แตะที่นี่ให้สุดแรง! ถ้าล้มเหลวก็อย่าโทษปีศาจตนนี้...
+10540000078	Hey~ A new game mode is available. Dare to try it?	เฮ้~ มีโหมดเกมใหม่แล้ว กล้าลองไหม?
+10540000081	Jump into a match and show this demon what you've got!	เข้าร่วมการแข่งขันแล้วแสดงฝีมือให้ปีศาจตนนี้ดูสิ!
+10540000084	Quick, tap here! You can team up with your friends for a challenge. It's tons of fun, bo!	เร็วเข้า แตะที่นี่! เจ้าสามารถร่วมทีมกับเพื่อนเพื่อท้าทายได้ สนุกมากเลย โบ!
+10540000086	Go on, claim it! If you get something good, remember to give me a proper Thank You.	ไปรับเลย! ถ้าได้ของดี อย่าลืมขอบคุณข้าให้ดีด้วยล่ะ
+10540000088	Wow! What an exquisite treasure chest! Hurry and see what goodies are inside!	ว้าว! หีบสมบัติช่างงดงาม! รีบดูสิว่ามีของดีอะไรอยู่ข้างใน!
+10540000090	Tap the Mount button to ride your adorable, charming mount!	แตะปุ่มขี่เพื่อขึ้นสัตว์ขี่แสนน่ารักและมีเสน่ห์ของเจ้า!
+10540000096	Quick, use the cannon to attack the enemy ship!!!	เร็วเข้า ใช้ปืนใหญ่โจมตีเรือศัตรู!!!
+10540000097	Oh no!! Tap Struggle to break free from the Maya's grasp!!!	แย่แล้ว!! แตะดิ้นรนเพื่อหลุดจากการจับของ Maya!!!
+10540000098	Place your hand on the Crystal ball and see what you feel.	วางมือบนลูกแก้วคริสตัลแล้วดูว่ารู้สึกอะไร
+10540000099	Give it a try! This book holds incredible power.	ลองดูสิ! หนังสือเล่มนี้มีพลังมหาศาล
+10540000103	Press the Interaction key to try riding the Deniro.	กดปุ่มโต้ตอบเพื่อลองขี่ Deniro
+10540000104	Press the Interaction key to gather some luminescent material.	กดปุ่มโต้ตอบเพื่อรวบรวมวัตถุเรืองแสง
+10540000105	Try feeding the luminescent material to the Deniro.	ลองป้อนวัตถุเรืองแสงให้ Deniro
+10540000110	Press the directional key corresponding to the direction of Luna's Dance Move.	กดปุ่มทิศทางที่ตรงกับทิศทางท่าเต้นของ Luna
+10540000111	Quick, use my Pet Skill to block this attack!	เร็วเข้า ใช้สกิลสัตว์เลี้ยงของข้าเพื่อป้องกันการโจมตีนี้!
+10540000116	You can allocate points to your favorite skills here, bo!	เจ้าสามารถจัดสรรคะแนนให้สกิลที่ชอบได้ที่นี่ โบ!
+10540000117	Drag skill icons onto the wheel on the right to equip them. (Tap anywhere to continue)	ลากไอคอนสกิลไปยังวงล้าด้านขวาเพื่อติดตั้ง (แตะที่ใดก็ได้เพื่อดำเนินการต่อ)
+10540000118	Tap the skill slot lock to unlock it, then you can rearrange the skills in your slots~	แตะล็อกช่องสกิลเพื่อปลดล็อก จากนั้นเจ้าจะจัดเรียงสกิลในช่องใหม่ได้~
+10540000119	Wow, a golden Legend! Rare gold-quality equipment can undergo one Extra stat appraisal~	ว้าว ระดับ Legend สีทอง! อุปกรณ์หายากคุณภาพสีทองสามารถประเมินค่าสถานะเพิ่มเติมได้หนึ่งครั้ง~
+10540000120	You can use Power Strike now. It's your ultimate move~	ตอนนี้เจ้าใช้ Power Strike ได้แล้ว เป็นท่าไม้ตายของเจ้าเลย~
+10540000121	Baby pets hatch from eggs. Bobo will show you how to hatch one step by step~ Follow me!	ลูกสัตว์เลี้ยงฟักจากไข่ Bobo จะสอนวิธีฟักทีละขั้นตอน~ ตามข้ามา!
+10540000124	The higher your Hatchery's level, the better your chance of hatching a high-quality baby pet~	ยิ่งโรงฟักของเจ้ามีเลเวลสูง โอกาสฟักได้ลูกสัตว์เลี้ยงคุณภาพสูงก็ยิ่งมาก~
+10540000125	Time to start hatching! Choose an egg you like!	ถึงเวลาเริ่มฟักแล้ว! เลือกไข่ที่เจ้าชอบสิ!
+10540000127	Hatching takes time, but I can't wait any longer. Speed it up!	การฟักต้องใช้เวลา แต่ข้ารอต่อไปไม่ไหวแล้ว เร่งเวลาเลย!
+10540000128	It finally hatched! Let's see which adorable baby we got!	ฟักแล้วในที่สุด! มาดูกันว่าเราได้เจ้าตัวน้อยน่ารักตัวไหน!
+10540000129	Bobo can finally make a grand entrance! Be sure to follow my instructions carefully from now on.	ในที่สุด Bobo ก็ได้ปรากฏตัวอย่างยิ่งใหญ่! จากนี้ไปต้องทำตามคำแนะนำของข้าให้ดีนะ
+10540000132	Unlocked! Next, I'll show you how to deploy me. Tap here, bo!	ปลดล็อกแล้ว! ต่อไปข้าจะสอนวิธีส่งข้าลงสนาม แตะที่นี่ โบ!
+10540000133	Tap here to deploy me automatically. I'm really strong!	แตะที่นี่เพื่อส่งข้าลงสนามอัตโนมัติ ข้าแข็งแกร่งมากนะ!
+10540000134	Look here! Deploying a pet in the main slot activates its main skill, which you can use manually in battle. Go try it out!	ดูตรงนี้! การส่งสัตว์เลี้ยงลงช่องหลักจะเปิดใช้งานสกิลหลักของมัน ซึ่งเจ้าสามารถใช้เองในการต่อสู้ได้ ลองเลย!
+10540000135	Let's check out the mysterious Auto-Battle System!	มาดูระบบต่อสู้อัตโนมัติอันลึกลับกัน!
+10540000136	This is the recommended monster for AFK farming. Click it to travel to its location.	นี่คือมอนสเตอร์ที่แนะนำสำหรับฟาร์มแบบ AFK คลิกเพื่อเดินทางไปยังตำแหน่งของมัน
+10540000137	Click to activate the AFK System. You'll earn tons of rewards while AFK!	คลิกเพื่อเปิดใช้งานระบบ AFK เจ้าจะได้รับรางวัลมากมายระหว่าง AFK!
+10540000138	Now open AFK Rewards to see all the rewards you've earned today!	ตอนนี้เปิดรางวัล AFK เพื่อดูรางวัลทั้งหมดที่ได้รับวันนี้!
+10540000139	Here~ This is where you accept quests. A brand-new adventure awaits!	ตรงนี้~ นี่คือจุดรับเควสต์ การผจญภัยครั้งใหม่กำลังรออยู่!
+10540000141	Open your Backpack and check the equipment you just put on. There's something good!	เปิดกระเป๋าแล้วตรวจดูอุปกรณ์ที่เพิ่งสวมใส่ มีของดีด้วย!
+10540000143	Wow, it's a VIT +@{1} affix! Equipment affixes provide additional stats.	ว้าว เป็นคุณสมบัติ VIT +@{1}! คุณสมบัติของอุปกรณ์มอบค่าสถานะเพิ่มเติม
+10540000144	Want to take it easy? Just turn this on during battle~	อยากสบาย ๆ ไหม? แค่เปิดสิ่งนี้ระหว่างต่อสู้~
+10540000145	Tap the @{1} key to send them flying with a Normal Attack!	แตะปุ่ม @{1} เพื่อส่งพวกมันกระเด็นด้วยการโจมตีปกติ!
+10540000146	You need to learn how to configure Auto-Potion. This Demon can't Fortify you.	เจ้าต้องเรียนรู้วิธีตั้งค่าใช้โพชันอัตโนมัติ ปีศาจตนนี้เสริมความแข็งแกร่งให้เจ้าไม่ได้
+10540000147	Next, let's Learn how to equip a Potion to a quick slot. Tap here.	ต่อไปมาเรียนรู้วิธีติดตั้งโพชันในช่องลัดกัน แตะที่นี่
+11770100000	A mysterious Potion that can cure nearly every Status Effect. Cooldown: @{1} seconds	โพชันลึกลับที่รักษาสถานะผิดปกติได้แทบทุกชนิด CD: @{1} วินาที
+11770100001	Restores the character's Life by ^{1}@{1}%^{2} of their maximum HP every second for @{2} seconds. ^{3}Life^{4}. Cooldown: @{3} seconds.	ฟื้นฟูพลังชีวิตของตัวละครเท่ากับ ^{1}@{1}%^{2} ของ HP สูงสุดทุกวินาที เป็นเวลา @{2} วินาที ^{3}พลังชีวิต^{4} CD: @{3} วินาที
+11770100002	Instantly restores the character's Life by ^{1}@{1}%^{2} of their maximum HP. ^{3}Life^{4}. Cooldown: @{2} seconds.	ฟื้นฟูพลังชีวิตของตัวละครทันทีเท่ากับ ^{1}@{1}%^{2} ของ HP สูงสุด ^{3}พลังชีวิต^{4} CD: @{2} วินาที
+11770100003	Grants a @{1}% Movement Speed bonus for @{2} sec.	เพิ่ม MSPD ขึ้น @{1}% เป็นเวลา @{2} วินาที
+11770100004	Reduces skill cooldowns by @{1}% for @{2} sec.	ลด Cooldown ของสกิลลง @{1}% เป็นเวลา @{2} วินาที
+11770100005	Coins minted by Kafra exclusively for the competition. Named after the kaka sound heard during minting. Can be exchanged for items at the shop during the competition.	เหรียญที่ Kafra ผลิตขึ้นเพื่อการแข่งขันโดยเฉพาะ ตั้งชื่อตามเสียง kaka ที่ดังระหว่างผลิต สามารถแลกไอเทมที่ร้านค้าระหว่างการแข่งขันได้
+11770100006	Immediately enters the ^{1}【Camouflage】【Hiding】^{2} state upon use, becoming invisible and untargetable while increasing Movement Speed by ^{3} @{1}%^{4} for @{2} seconds.\nThe ^{5}【Camouflage】【Hiding】^{6} state ends immediately after dealing or taking damage a total of @{3} times.	เข้าสู่สถานะ ^{1}[ Camouflage ][ Hiding ]^{2} ทันทีเมื่อใช้ ทำให้ล่องหนและไม่สามารถถูกเลือกเป็นเป้าหมายได้ พร้อมเพิ่ม MSPD ^{3} @{1}%^{4} เป็นเวลา @{2} วินาที\nสถานะ ^{5}[ Camouflage ][ Hiding ]^{6} สิ้นสุดทันทีหลังสร้างหรือได้รับความเสียหายรวม @{3} ครั้ง
+11770100007	Locks on to an enemy within @{1} m and quickly dashes @{2} m toward the target, dealing ATK * ^{1}@{5}%^{2} damage to up to @{4} enemies within a @{3} m radius of the target and ^{3}slowing them by @{6}%^{4} for @{7} sec.	ล็อกศัตรูในระยะ @{1} เมตร แล้วพุ่งเข้าหาเป้าหมายอย่างรวดเร็ว @{2} เมตร สร้างดาเมจเท่ากับ ATK * ^{1}@{5}%^{2} แก่ศัตรูสูงสุด @{4} ตัว ในรัศมี @{3} เมตรรอบเป้าหมาย และ ^{3}ลดความเร็วลง @{6}%^{4} เป็นเวลา @{7} วินาที
+11770100008	Launch a shockwave that deals ATK * ^{1}@{2}%^{2} damage to a designated ST enemy within @{1} meters.	ปล่อยคลื่นกระแทก สร้างความเสียหาย ATK * ^{1}@{2}%^{2} แก่ศัตรู Single Target ที่กำหนดในระยะ @{1} เมตร
+11770100009	An upgraded Camouflage. After casting, enter the ^{1}【Enhanced Camouflage】^{2} state for @{1} seconds, increasing Movement Speed by ^{3}@{2}%^{4}. The ^{5}【Enhanced Camouflage】^{6} state ends after taking damage @{3} times or dealing damage.	Camouflage ที่พัฒนาขึ้น หลังร่าย เข้าสู่สถานะ ^{1}[ Enhanced Camouflage ]^{2} เป็นเวลา @{1} วินาที เพิ่ม MSPD ^{3}@{2}%^{4} สถานะ ^{5}[ Enhanced Camouflage ]^{6} สิ้นสุดหลังได้รับความเสียหาย @{3} ครั้งหรือสร้างความเสียหาย
+11770100010	After casting, deal ATK * ^{1}@{3}%^{2} damage to up to @{2} enemies within a @{1}-meter radius and inflict ^{3}@{4} seconds^{4} of 【Blind】^{5}.	หลังร่าย สร้างความเสียหาย ATK * ^{1}@{3}%^{2} แก่ศัตรูสูงสุด @{2} ตัวในรัศมี @{1} เมตร และทำให้ติดสถานะเป็นเวลา ^{3}@{4} วินาที^{4} คือ [ Blind ]^{5}
+11770100011	Charge to a point @{2} meters in front of a designated ST enemy within @{1} meters and deal ATK * ^{1}@{3}%^{2} damage.	พุ่งไปยังจุดที่อยู่ห่างไป @{2} เมตรด้านหน้าศัตรู Single Target ที่กำหนดในระยะ @{1} เมตร และสร้างความเสียหาย ATK * ^{1}@{3}%^{2}
+11770100012	Unleash an evil spirit, dealing ATK * ^{1}@{3}%^{2} damage to up to @{2} enemies within a @{1}-meter radius.	ปลดปล่อยวิญญาณชั่วร้าย สร้างความเสียหาย ATK * ^{1}@{3}%^{2} แก่ศัตรูสูงสุด @{2} ตัวในรัศมี @{1} เมตร
+11770100013	Dive toward a designated location within @{1} meters. Upon landing, deal ATK * ^{3}@{6}%^{4} damage to up to @{3} enemies within a @{2}-meter radius and inflict ^{1}@{5}% 【Slow】^{2} for @{4} seconds.	พุ่งลงสู่ตำแหน่งที่กำหนดในระยะ @{1} เมตร เมื่อลงถึงพื้น สร้างความเสียหาย ATK * ^{3}@{6}%^{4} แก่ศัตรูสูงสุด @{3} ตัวในรัศมี @{2} เมตร และทำให้ติด ^{1}@{5}% [ Slow ]^{2} เป็นเวลา @{4} วินาที
+11770100014	Charge up a spiral of energy, then hurl a Spear toward a locked target within @{1} meters, Charge to the Spear's Nearby location, and Deals DMG once to up to @{3} enemies along the @{2}-meter-wide path equal to ^{1}@{4}%^{2}.	สะสมพลังงานเป็นเกลียว แล้วขว้างหอกไปยังเป้าหมายที่ล็อกไว้ในระยะ @{1} เมตร พุ่งไปยังตำแหน่งใกล้หอก และสร้าง DMG หนึ่งครั้งแก่ศัตรูสูงสุด @{3} ตัวตามเส้นทางกว้าง @{2} เมตร เท่ากับ ^{1}@{4}%^{2}
+11770100015	Summon a barrage of thrusting Spears, dealing ^{1}@{4}%^{2} damage to up to @{3} enemies in a @{1}-meter by @{2}-meter area in the designated direction.	อัญเชิญหอกจำนวนมากให้แทงโจมตี สร้างความเสียหาย ^{1}@{4}%^{2} แก่ศัตรูสูงสุด @{3} ตัวในพื้นที่ @{1} เมตร คูณ @{2} เมตรตามทิศทางที่กำหนด
+11770100016	Inflict ^{1}【Knockback】^{2} and deal ATK * ^{3}@{4}%^{4} damage to up to @{3} enemies in a @{1}-meter by @{2}-meter area ahead while moving @{5} meters in that direction. Then inflict ^{5}【Knock-up】^{6} and deal ATK * ^{7}@{6}%^{8} damage to the targets. Gain ^{9}【Control Immunity】^{10} while using the skill.	ทำให้ติด ^{1}[ Knockback ]^{2} และสร้างความเสียหาย ATK * ^{3}@{4}%^{4} แก่ศัตรูสูงสุด @{3} ตัวในพื้นที่ @{1} เมตร คูณ @{2} เมตรด้านหน้า ขณะเคลื่อนที่ @{5} เมตรไปในทิศทางนั้น จากนั้นทำให้เป้าหมายติด ^{5}[ Knock-up ]^{6} และสร้างความเสียหาย ATK * ^{7}@{6}%^{8} ได้รับ ^{9}[ Control Immunity ]^{10} ขณะใช้สกิล
+11770100017	Deals ATK * ^{1}@{4}%^{2} damage @{3} times to up to @{2} enemies within a @{1} m radius and ^{3}pulls them closer^{4}.	สร้างดาเมจเท่ากับ ATK * ^{1}@{4}%^{2} จำนวน @{3} ครั้ง แก่ศัตรูสูงสุด @{2} ตัว ในรัศมี @{1} เมตร และ ^{3}ดึงพวกมันเข้ามาใกล้^{4}
+11770100018	Leaps high into the air and lands in a designated area within @{1} m, dealing a total of ATK * ^{1}@{4}%^{2} damage to up to @{3} enemies within @{2} m of the target area and inflicting ^{3}【Immobilize】^{4} for @{5} sec. Gains ^{5}【Control Immunity】^{6} while using the skill.	กระโดดขึ้นสูงแล้วลงสู่พื้นที่ที่กำหนดในระยะ @{1} เมตร สร้างดาเมจรวมเท่ากับ ATK * ^{1}@{4}%^{2} แก่ศัตรูสูงสุด @{3} ตัว ในระยะ @{2} เมตรรอบพื้นที่เป้าหมาย และทำให้ติดสถานะ ^{3}[ Immobilize ]^{4} เป็นเวลา @{5} วินาที ได้รับ ^{5}[ Control Immunity ]^{6} ระหว่างใช้สกิล
+11770100019	Raise your shield for @{1} seconds to Fortify You, reducing DMG taken by ^{1}@{2}%^{2}. During this time, You suffer ^{3}【Slow】^{4} by @{3}% but gain ^{5}Immunity^{6}. Every @{6} seconds, up to @{5} Enemy Team members within @{4} meters in front of You are pushed @{7} meters in your Facing direction with ^{7}【Knockback】^{8} and take DMG equal to your ATK * ^{9}@{8}%^{10}.	ยกโล่ขึ้นเป็นเวลา @{1} วินาทีเพื่อเสริมความแข็งแกร่งให้ตนเอง ลด DMG ที่ได้รับลง ^{1}@{2}%^{2} ระหว่างนี้ ตนเองติด ^{3}[ Slow ]^{4} @{3}% แต่ได้รับ ^{5}ภูมิคุ้มกัน^{6} ทุก @{6} วินาที สมาชิกทีมศัตรูสูงสุด @{5} คนในระยะ @{4} เมตรด้านหน้าจะถูกผลักไป @{7} เมตรตามทิศทางที่ตนเองหันหน้าอยู่ด้วย ^{7}[ Knockback ]^{8} และได้รับ DMG เท่ากับ ATK ของผู้ใช้สกิล * ^{9}@{8}%^{10}
+11770100020	Deal ATK * ^{1}@{4}%^{2} damage to up to @{3} enemies in a @{1}-meter by @{2}-meter area ahead.	สร้างความเสียหาย ATK * ^{1}@{4}%^{2} แก่ศัตรูสูงสุด @{3} ตัวในพื้นที่ @{1} เมตร คูณ @{2} เมตรด้านหน้า
+11770100021	Deals ATK * ^{1}@{5}%^{2} damage @{4} times to up to @{3} enemies in a target area with a @{2} m radius within @{1} m and inflicts ^{3}【Pull】^{4} once. Each hit has a @{6}% Chance to inflict ^{5}【Freeze】^{6}.	สร้างดาเมจเท่ากับ ATK * ^{1}@{5}%^{2} จำนวน @{4} ครั้ง แก่ศัตรูสูงสุด @{3} ตัว ในพื้นที่เป้าหมายรัศมี @{2} เมตร ซึ่งอยู่ในระยะ @{1} เมตร และทำให้ติด ^{3}[ Pull ]^{4} หนึ่งครั้ง แต่ละครั้งมีโอกาส @{6}% ทำให้ติดสถานะ ^{5}[ Freeze ]^{6}
+11770100022	Summon a massive comet from space, dealing ATK * ^{1}@{4}%^{2} damage to up to @{3} enemies within a targeted @{2}-meter-radius area located within @{1} meters.	อัญเชิญดาวหางขนาดมหึมาจากอวกาศ สร้างความเสียหาย ATK * ^{1}@{4}%^{2} แก่ศัตรูสูงสุด @{3} ตัวในพื้นที่เป้าหมายรัศมี @{2} เมตรที่อยู่ในระยะ @{1} เมตร
+11770100023	Unleash the power of thunder, dealing ATK * ^{1}@{4}%^{2} damage to up to @{3} enemies within a targeted @{2}-meter-radius area located within @{1} meters, with a @{5}% Chance to inflict ^{3}【Stun】^{4} for @{6} seconds. ^{5}【Stun】^{6}: Interrupts movement, casting, and skills. The target Cannot move or cast skills.	ปลดปล่อยพลังสายฟ้า สร้างความเสียหาย ATK * ^{1}@{4}%^{2} แก่ศัตรูสูงสุด @{3} ตัวในพื้นที่เป้าหมายรัศมี @{2} เมตรที่อยู่ในระยะ @{1} เมตร มีโอกาส @{5}% ทำให้ติด ^{3}[ Stun ]^{4} เป็นเวลา @{6} วินาที ^{5}[ Stun ]^{6}: ขัดจังหวะการเคลื่อนที่ การร่าย และสกิล เป้าหมายไม่สามารถเคลื่อนที่หรือร่ายสกิลได้
+11770100024	Summons a meteor, dealing ATK * ^{1}@{4}%^{2} damage to up to @{3} enemies in a target area with a @{2} m radius within @{1} m, with a @{5}% Chance to inflict ^{3}【Burn】^{4}.	เรียกอุกกาบาต สร้างดาเมจเท่ากับ ATK * ^{1}@{4}%^{2} แก่ศัตรูสูงสุด @{3} ตัว ในพื้นที่เป้าหมายรัศมี @{2} เมตร ซึ่งอยู่ในระยะ @{1} เมตร มีโอกาส @{5}% ทำให้ติดสถานะ ^{3}[ Burn ]^{4}
+11770100025	Burst with the power of frost, dealing ATK * ^{1}@{4}%^{2} damage to up to @{3} enemies within a targeted @{2}-meter-radius area located within @{1} meters, with a @{5}% Chance to inflict ^{3}【Freeze】^{4} for @{6} seconds.	ระเบิดพลังน้ำแข็ง สร้างความเสียหาย ATK * ^{1}@{4}%^{2} แก่ศัตรูสูงสุด @{3} ตัวในพื้นที่เป้าหมายรัศมี @{2} เมตรที่อยู่ในระยะ @{1} เมตร มีโอกาส @{5}% ทำให้ติด ^{3}[ Freeze ]^{4} เป็นเวลา @{6} วินาที
+11770100026	Causes the earth to erupt, dealing ATK * ^{1}@{4}%^{2} damage to up to @{3} enemies in a @{1} m * @{2} m area ahead, with a @{5}% Chance to inflict ^{3}【Petrify】^{4} for @{6} sec.	ทำให้พื้นดินปะทุ สร้างดาเมจเท่ากับ ATK * ^{1}@{4}%^{2} แก่ศัตรูสูงสุด @{3} ตัว ในพื้นที่ @{1} เมตร * @{2} เมตรด้านหน้า มีโอกาส @{5}% ทำให้ติดสถานะ ^{3}[ Petrify ]^{4} เป็นเวลา @{6} วินาที
+11770100027	Intensifies gravity in a designated area with a @{2} m radius within @{1} m, dealing ATK * ^{1}@{4}%^{2} damage per wave to up to @{3} enemies. The gravity field lasts @{5} sec. and strikes a total of @{6} waves.	เพิ่มแรงโน้มถ่วงในพื้นที่ที่กำหนดรัศมี @{2} เมตร ซึ่งอยู่ในระยะ @{1} เมตร สร้างดาเมจต่อระลอกเท่ากับ ATK * ^{1}@{4}%^{2} แก่ศัตรูสูงสุด @{3} ตัว สนามแรงโน้มถ่วงคงอยู่ @{5} วินาที และโจมตีรวม @{6} ระลอก
+11770100028	Instantly calls down Divine Light, restoring ^{3}Life^{4} equal to own ATK * ^{1}@{3}%^{2} for self and up to @{2} allies within a @{1} m radius, prioritizing party Members.	เรียก Divine Light ลงมาทันที ฟื้นฟู ^{3}HP^{4} เท่ากับ ATK ของตนเอง * ^{1}@{3}%^{2} ให้ตัวเองและพันธมิตรสูงสุด @{2} คน ในรัศมี @{1} เมตร โดยให้ความสำคัญกับสมาชิกปาร์ตี้ก่อน
+11770100029	Summons a @{2} × @{3} m rectangular magic field within @{1} m, restoring ^{1}@{5}%^{2} Life per sec. to up to @{4} allies within the area for @{6} sec.	เรียกพื้นที่เวทรูปสี่เหลี่ยมขนาด @{2} × @{3} เมตร ในระยะ @{1} เมตร ฟื้นฟู HP ^{1}@{5}%^{2} ทุกวินาทีให้พันธมิตรสูงสุด @{4} คนในพื้นที่ เป็นเวลา @{6} วินาที
+11770100030	Summon Divine Light, restoring ^{3}Life^{4} equal to ATK * ^{1}@{2}%^{2} for yourself and a designated ST ally within @{1} meters.	อัญเชิญ Divine Light ฟื้นฟู ^{3}พลังชีวิต^{4} เท่ากับ ATK * ^{1}@{2}%^{2} ให้ตนเองและพันธมิตร Single Target ที่กำหนดในระยะ @{1} เมตร
+11770100031	Strengthen holy power through a prayer of devotion, granting yourself and party Members within a @{1}-meter radius a ^{1}regeneration^{2} effect that restores ^{5}Life^{6} equal to ATK * ^{3}@{2}%^{4} every second for @{3} seconds.	เสริมพลังศักดิ์สิทธิ์ด้วยคำอธิษฐานอันเปี่ยมศรัทธา ให้ตนเองและสมาชิกปาร์ตี้ในรัศมี @{1} เมตรได้รับผล ^{1}ฟื้นฟูต่อเนื่อง^{2} ซึ่งฟื้นฟู ^{5}พลังชีวิต^{6} เท่ากับ ATK * ^{3}@{2}%^{4} ทุกวินาที เป็นเวลา @{3} วินาที
+11770100032	Chant a powerful purification spell, removing ^{1}【Movement-Restricting Status Effects】^{2} and ^{3}【Control Status Effects】^{4} from yourself and party Members within a @{1}-meter radius. For the next @{2} seconds, they become immune to up to ^{5}@{3}^{6} instances of ^{7}【Movement-Restricting Status Effects】^{8} and ^{9}【Control Status Effects】^{10}.	ร่ายคาถาชำระล้างอันทรงพลัง ลบ ^{1}[ Movement-Restricting Status Effects ]^{2} และ ^{3}[ Control Status Effects ]^{4} ออกจากตนเองและสมาชิกปาร์ตี้ในรัศมี @{1} เมตร ในช่วง @{2} วินาทีถัดไป ผู้ได้รับผลจะมีภูมิคุ้มกันสูงสุด ^{5}@{3}^{6} ครั้งต่อ ^{7}[ Movement-Restricting Status Effects ]^{8} และ ^{9}[ Control Status Effects ]^{10}
+11770100033	Launches Charge Arrow at a designated distant enemy within @{1} m, dealing ^{1}@{2}%^{2} damage and inflicting @{3} m of ^{3}【Knockback】^{4}.	ยิง Charge Arrow ใส่ศัตรูระยะไกลที่กำหนดในระยะ @{1} เมตร สร้างดาเมจ ^{1}@{2}%^{2} และทำให้กระเด็น @{3} เมตรด้วย ^{3}[ Knockback ]^{4}
+11770100034	Launch a rain of arrows within @{1} meters, dealing ^{1}@{4}%^{2} damage to up to @{3} enemies within a @{2}-meter radius and inflicting ^{3}【Knockback】^{4} for @{5} meters.	ยิงฝนลูกธนูในระยะ @{1} เมตร สร้างความเสียหาย ^{1}@{4}%^{2} แก่ศัตรูสูงสุด @{3} ตัวในรัศมี @{2} เมตร และทำให้ติด ^{3}[ Knockback ]^{4} เป็นระยะ @{5} เมตร
+11770100035	Use your Falcon to Locate enemies in ^{1}【Hiding】^{2} within a @{1}-meter radius for @{2} seconds.	ใช้ Falcon ของตนเองค้นหาศัตรูที่อยู่ใน ^{1}[ Hiding ]^{2} ภายในรัศมี @{1} เมตร เป็นเวลา @{2} วินาที
+11770100036	Launch hurricane arrows into a @{1}-meter by @{2}-meter area in the designated direction, continuously dealing ATK * ^{1}@{4}%^{2} damage to up to @{3} enemies along the path. Movement Speed increases by ^{3}@{5}%^{4} for the skill's duration.	ยิงลูกธนูพายุเข้าไปในพื้นที่ @{1} เมตร คูณ @{2} เมตรตามทิศทางที่กำหนด สร้างความเสียหาย ATK * ^{1}@{4}%^{2} อย่างต่อเนื่องแก่ศัตรูสูงสุด @{3} ตัวตามเส้นทาง เพิ่ม MSPD ^{3}@{5}%^{4} ตลอดระยะเวลาของสกิล
+11770100037	Place an Anklesnare at your location. It explodes when an enemy enters its @{1}-meter trigger radius, dealing ATK * ^{1}@{4}%^{2} damage to up to @{3} enemies within a @{2}-meter radius and inflicting ^{3}【Immobilize】^{4} for @{5}^{5} seconds. The Trap Hunter lasts @{6} seconds.	วาง Anklesnare ที่ตำแหน่งของตนเอง จะระเบิดเมื่อศัตรูเข้ามาในรัศมีทำงาน @{1} เมตร สร้างความเสียหาย ATK * ^{1}@{4}%^{2} แก่ศัตรูสูงสุด @{3} ตัวในรัศมี @{2} เมตร และทำให้ติด ^{3}[ Immobilize ]^{4} เป็นเวลา @{5}^{5} วินาที Trap Hunter คงอยู่ @{6} วินาที
+11770100038	Place a Flasher at your location. It explodes when an enemy enters its @{1}-meter trigger radius, dealing ATK * ^{1}@{4}%^{2} damage to up to @{3} enemies within a @{2}-meter radius and inflicting ^{3}【Blind】^{4} for @{5} seconds. The Trap Hunter lasts @{6} seconds.	วาง Flasher ที่ตำแหน่งของตนเอง จะระเบิดเมื่อศัตรูเข้ามาในรัศมีทำงาน @{1} เมตร สร้างความเสียหาย ATK * ^{1}@{4}%^{2} แก่ศัตรูสูงสุด @{3} ตัวในรัศมี @{2} เมตร และทำให้ติด ^{3}[ Blind ]^{4} เป็นเวลา @{5} วินาที Trap Hunter คงอยู่ @{6} วินาที
+11770100039	Launch @{5} cannon rounds at @{2} designated enemies within @{1} meters and up to @{4} additional enemies within @{3} meters of them, dealing total damage equal to ATK * ^{1}@{6}%^{2}.	ยิงกระสุนปืนใหญ่ @{5} นัดใส่ศัตรูที่กำหนด @{2} ตัวในระยะ @{1} เมตร และศัตรูเพิ่มเติมสูงสุด @{4} ตัวในระยะ @{3} เมตรรอบศัตรูเหล่านั้น สร้างความเสียหายรวมเท่ากับ ATK * ^{1}@{6}%^{2}
+11770100040	Launch a shock cone at @{2} designated enemies within @{1} meters and up to @{4} enemies within @{3} meters of them, dealing ATK * ^{1}@{5}%^{2} damage, inflicting ^{3}【Knockback】^{4} for @{6} meters, and inflicting ^{5}【Stun】^{6} for @{7} seconds.	ปล่อยคลื่นกระแทกรูปกรวยใส่ศัตรูที่กำหนด @{2} ตัวในระยะ @{1} เมตร และศัตรูสูงสุด @{4} ตัวในระยะ @{3} เมตรรอบศัตรูเหล่านั้น สร้างความเสียหาย ATK * ^{1}@{5}%^{2} ทำให้ติด ^{3}[ Knockback ]^{4} เป็นระยะ @{6} เมตร และทำให้ติด ^{5}[ Stun ]^{6} เป็นเวลา @{7} วินาที
+11770100041	Use a flamethrower on @{2} designated enemies within @{1} meters, dealing a total of ATK * ^{1}@{7}%^{2} damage over @{6} hits to up to @{5} targets in a @{3}-meter by @{4}-meter rectangular area ahead.	ใช้เครื่องพ่นไฟใส่ศัตรูที่กำหนด @{2} ตัวในระยะ @{1} เมตร สร้างความเสียหายรวม ATK * ^{1}@{7}%^{2} จากการโจมตี @{6} ครั้งแก่เป้าหมายสูงสุด @{5} ตัวในพื้นที่สี่เหลี่ยม @{3} เมตร คูณ @{4} เมตรด้านหน้า
+11770100042	Transform into an environmental object upon use, increasing Movement Speed by @{1}% for @{2} seconds.\nTransform ends immediately after dealing or taking damage a total of @{3} times.	แปลงร่างเป็นวัตถุในสภาพแวดล้อมเมื่อใช้ เพิ่ม MSPD @{1}% เป็นเวลา @{2} วินาที\nการแปลงร่างสิ้นสุดทันทีหลังสร้างหรือได้รับความเสียหายรวม @{3} ครั้ง
+11770100043	Summon a storm, sending it Flying in the designated direction. It deals ^{1}@{2}%^{2} damage to enemies within a @{1}-meter radius along its path and inflicts ^{3}【Knockback】^{4}. After ^{5}【Knockback】^{6}, four equipped items are selected at random, each with a @{3}% Chance to ^{7}【drop】^{8}, with a guaranteed ^{9}【drop】^{10} of ^{11}@{4}^{12} items.	เรียกพายุพุ่งไปตามทิศที่กำหนด สร้างดาเมจ ^{1}@{2}%^{2} แก่ศัตรูในรัศมี @{1} เมตรตลอดเส้นทาง และทำให้ติด ^{3}[ Knockback ]^{4} หลัง ^{5}[ Knockback ]^{6} จะสุ่มเลือกอุปกรณ์ที่สวมใส่สี่ชิ้น แต่ละชิ้นมีโอกาส @{3}% ที่จะ ^{7}[ drop ]^{8} และรับประกันการ ^{9}[ drop ]^{10} ^{11}@{4}^{12} ชิ้น
+11770100044	Burrow through the earth in the designated direction, moving up to @{1} meters.	มุดผ่านพื้นดินตามทิศทางที่กำหนด เคลื่อนที่ได้สูงสุด @{1} เมตร
+11770100045	Enlarge You to @{1} times your normal size. During Magnification, recover ^{1}@{3}% ^{2} of your maximum HP every @{2} seconds for @{4} seconds.	ขยายร่างตนเองเป็น @{1} เท่าของขนาดปกติ ระหว่างขยายร่าง ฟื้นฟู ^{1}@{3}% ^{2} ของ HP สูงสุดทุก @{2} วินาที เป็นเวลา @{4} วินาที
+11770100046	Use Fire Release to deal Damage over Time to enemies in a @{1}° cone with a radius of @{2} m directly in front of you, dealing ^{1}@{3}%^{2} damage each time for @{4} sec.	ใช้ Fire Release สร้างดาเมจต่อเนื่องแก่ศัตรูในพื้นที่รูปกรวยมุม @{1}° รัศมี @{2} เมตรตรงด้านหน้า สร้างดาเมจ ^{1}@{3}%^{2} ต่อครั้ง เป็นเวลา @{4} วินาที
+11770100047	Deals Damage over Time to enemies within a @{1}-meter radius, dealing ^{1}@{2}%^{2} damage per tick for @{3} seconds.	สร้างดาเมจต่อเนื่องแก่ศัตรูในรัศมี @{1} เมตร ดาเมจ ^{1}@{2}%^{2} ต่อครั้ง เป็นเวลา @{3} วินาที
+11770100048	Summon a monsoon, dealing ^{1}@{2}%^{2} damage to enemies within a @{1}-meter radius and inflicting ^{3}【Knockback】^{4}.	เรียกพายุมรสุม สร้างดาเมจ ^{1}@{2}%^{2} แก่ศัตรูในรัศมี @{1} เมตร และทำให้ติด ^{3}[ Knockback ]^{4}
+11770100049	Drastically increase gravity within a targeted @{2}-meter-radius area located within @{1} meters, dealing ATK * ^{1}@{4}%^{2} damage per wave to up to @{3} enemies. The gravity field lasts @{5} seconds and releases @{6} waves.	เพิ่มแรงโน้มถ่วงอย่างมหาศาลในพื้นที่เป้าหมายรัศมี @{2} เมตรที่อยู่ในระยะ @{1} เมตร สร้างความเสียหาย ATK * ^{1}@{4}%^{2} ต่อระลอกแก่ศัตรูสูงสุด @{3} ตัว สนามแรงโน้มถ่วงคงอยู่ @{5} วินาทีและปล่อยออกมา @{6} ระลอก
+11770100050	Summons a storm that goes Flying in the designated direction, dealing ^{1}@{2}%^{2} damage to enemies within a @{1}-meter radius along its path and ^{3}【knocking them airborne】^{4}. After being ^{5}【knocked airborne】^{6}, four equipped items are randomly selected, each with a @{3}% Chance to ^{7}【drop】^{8}.	เรียกพายุพุ่งไปในทิศทางที่กำหนด สร้างดาเมจ ^{1}@{2}%^{2} แก่ศัตรูในรัศมี @{1} เมตรตามเส้นทาง และทำให้ติด ^{3}[ knocking them airborne ]^{4} หลังติด ^{5}[ knocked airborne ]^{6} จะสุ่มอุปกรณ์ที่สวมใส่สี่ชิ้น แต่ละชิ้นมีโอกาส @{3}% ^{7}[ drop ]^{8}
+11770100051	A dagger personally overseen by Kafra and made exclusively for the Battle of Survivors. Its blade is dull, so it won't cause any real harm.	มีดสั้นที่ Kafra ควบคุมการผลิตด้วยตนเองและผลิตเพื่อ Battle of Survivors โดยเฉพาะ คมมีดทื่อ จึงไม่ก่ออันตรายจริง
+11770100052	A hooded Muffler personally overseen by Kafra and made exclusively for the Battle of Survivors. It perfectly meets Lady Kafra's requirement that it be both stylish and practical.	Muffler มีฮู้ดที่ Kafra ควบคุมการผลิตด้วยตนเองและผลิตเพื่อ Battle of Survivors โดยเฉพาะ ตรงตามข้อกำหนดของ Lady Kafra อย่างสมบูรณ์แบบ ทั้งมีสไตล์และใช้งานได้จริง
+11770100053	A coat personally overseen by Kafra and made exclusively for the Battle of Survivors. It should block some damage... probably?	เสื้อคลุมที่ Kafra ควบคุมการผลิตด้วยตนเองและผลิตเพื่อ Battle of Survivors โดยเฉพาะ น่าจะป้องกันความเสียหายได้บ้าง... มั้ง?
+11770100054	Shoes personally overseen by Kafra and made exclusively for the Battle of Survivors. Easy to wear and perfect for long-distance running!	รองเท้าที่ Kafra ควบคุมการผลิตด้วยตนเองและผลิตเพื่อ Battle of Survivors โดยเฉพาะ สวมง่ายและเหมาะกับการวิ่งระยะไกล!
+11770100055	A ring personally overseen by Kafra and made exclusively for the Battle of Survivors. Rumor has it that Kafra personally signed it!	แหวนที่ Kafra ควบคุมการผลิตด้วยตนเองและผลิตเพื่อ Battle of Survivors โดยเฉพาะ มีข่าวลือว่า Kafra เซ็นชื่อด้วยตนเองด้วย!
+12410000000	The base Currency in Ragnarok Online is called Zeny.	สกุลเงินพื้นฐานใน Ragnarok Online เรียกว่า Zeny
+12410000002	After you Kill an MVP, a treasure chest remains at the spot as a marker.	หลังสังหาร MVP จะมีหีบสมบัติเหลืออยู่ ณ จุดนั้นเพื่อเป็นเครื่องหมาย
+12410000003	Poring (PORING) picks up items that players drop on the ground.	Poring (PORING) เก็บไอเทมที่ผู้เล่นทิ้งไว้บนพื้น
+12410000004	Awakening Potions grant characters extremely high movement speed for a short time.	Awakening Potions เพิ่มความเร็วเคลื่อนที่ของตัวละครอย่างมากในช่วงเวลาสั้น ๆ
+12410000005	The Boss Radar displays the locations of Respawned MVPs on the Mini Map.	Boss Radar แสดงตำแหน่งของ MVP ที่เกิดใหม่บนมินิแมป
+12410000006	In RO, the classic look for Archer classes is the "Apple of Archer" because it grants DEX +@{1} and looks great.	ใน RO รูปลักษณ์สุดคลาสสิกของอาชีพสาย Archer คือ "Apple of Archer" เพราะเพิ่ม DEX +@{1} และดูดี
+12410000007	In Ragnarok Online, reaching @{1} DEX allows skills to be cast instantly.	ใน Ragnarok Online เมื่อมี DEX ถึง @{1} จะสามารถร่ายสกิลได้ทันที
+12410000008	"Emergency Call" is an exclusive skill for the Vice Guild Master.	"Emergency Call" เป็นสกิลเฉพาะของรองหัวหน้ากิลด์
+12410000009	RO's original War of Emperium (WoE) spans @{1} cities, with five castles in each city.	War of Emperium (WoE) ดั้งเดิมของ RO ครอบคลุม @{1} เมือง โดยแต่ละเมืองมีปราสาทห้าแห่ง
+12410000010	Spiral Pierce is one of the four main Assassin Cross builds.	Spiral Pierce เป็นหนึ่งในสี่แนวทางการเล่นหลักของ Assassin Cross
+12410000011	To successfully use "Emergency Call," you must complete its full @{1}-second cast.	เพื่อใช้ "Emergency Call" ให้สำเร็จ ต้องร่ายให้ครบ @{1} วินาที
+12410000012	The "Angel Wing Ears," "Evil Wing Ears," and "Pipe" are collectively known as the "Big Spender's Set," occupying the head, face, and mouth slots, respectively.	"Angel Wing Ears", "Evil Wing Ears" และ "Pipe" เรียกรวมกันว่า "Big Spender's Set" ใช้ช่องส่วนหัว ใบหน้า และปากตามลำดับ
+12410000013	In RO, the "boss" of a "Boss Party" is usually a powerful PvE damage-dealing class.	ใน RO "บอส" ของ "Boss Party" มักเป็นอาชีพที่สร้างความเสียหาย PvE ได้สูง
+12410000014	In RO's early days, Strawberries were a major source of SP recovery, so players farmed them in large quantities to sell.	ในยุคแรกของ RO Strawberries เป็นแหล่งฟื้นฟู SP หลัก ผู้เล่นจึงฟาร์มจำนวนมากเพื่อนำไปขาย
+12410000015	In the Renewal version of Ragnarok Online, the maximum ASPD is @{1}.	ใน Ragnarok Online เวอร์ชัน Renewal ค่า ASPD สูงสุดคือ @{1}
+12410000016	The "Ice Wall" (Wall of Ice) skill can be broken by certain skills.	สกิล "Ice Wall" (Wall of Ice) สามารถถูกทำลายด้วยสกิลบางชนิดได้
+12410000017	In Ragnarok Online, equipping a "Katar" sets your critical hit Chance to @{1}.	ใน Ragnarok Online การสวม "Katar" จะตั้งค่าโอกาสโจมตีคริติคอลเป็น @{1}
+12410000018	In RO, "++" means asking an Acolyte to cast both Blessing and Increase Agility.	ใน RO "++" หมายถึงการขอให้ Acolyte ร่ายทั้ง Blessing และ Increase Agility
+12410000019	The "Azoth" has a low Chance to transform monsters it attacks into other monsters.	"Azoth" มีโอกาสเล็กน้อยที่จะเปลี่ยนมอนสเตอร์ที่โจมตีให้เป็นมอนสเตอร์ชนิดอื่น
+12410000020	In Ragnarok Online, "Payon Cave" refers to the dungeon in Payon.	ใน Ragnarok Online "Payon Cave" หมายถึงดันเจี้ยนใน Payon
+12410000021	After the Guild Master successfully uses "Emergency Call," every Online Guild Member is teleported to the Guild Master.	หลังหัวหน้ากิลด์ใช้ "Emergency Call" สำเร็จ สมาชิกกิลด์ทุกคนที่ออนไลน์จะถูกวาร์ปมาหาหัวหน้ากิลด์
+12410000022	A High Priest's "Lex Aeterna" causes the target's next incoming damage to be multiplied by @{1}.	"Lex Aeterna" ของ High Priest ทำให้ความเสียหายครั้งถัดไปที่เป้าหมายได้รับถูกคูณด้วย @{1}
+12410000023	In RO, War of Emperium: Second Edition (the new WoE) is usually held every Saturday.	ใน RO War of Emperium: Second Edition (WoE ใหม่) มักจัดขึ้นทุกวันเสาร์
+12410000024	In RO, the Apple Headgear is the most iconic look for Mage classes.	ใน RO Apple Headgear เป็นรูปลักษณ์ที่โดดเด่นที่สุดของอาชีพสาย Mage
+12410000025	After defeating an MVP, the letters "MVP" will appear above the player's head.	หลังเอาชนะ MVP ตัวอักษร "MVP" จะปรากฏเหนือศีรษะผู้เล่น
+12410000026	"Poporing" (Fat Poring) is best known for being incredibly fast.	"Poporing" (Fat Poring) เป็นที่รู้จักมากที่สุดจากความเร็วอันเหลือเชื่อ
+12410000027	"Metal Poring" strikes fear into players with its extremely high ATK.	"Metal Poring" ทำให้ผู้เล่นหวาดกลัวด้วย ATK ที่สูงมาก
+12410000028	In the early days of the original RO, players relied primarily on Strawberries to restore SP.	ในยุคแรกของ RO ดั้งเดิม ผู้เล่นพึ่งพา Strawberries เป็นหลักในการฟื้นฟู SP
+12410000029	Compared to the White Potion sold in shops, "Tasty Fish" has the advantage of weighing less.	เมื่อเทียบกับ White Potion ที่ขายในร้าน "Tasty Fish" มีข้อดีคือน้ำหนักเบากว่า
+12410000030	Consuming a "Yggdrasil Berry" instantly restores @{1}% HP and SP.	การกิน "Yggdrasil Berry" ฟื้นฟู HP และ SP @{1}% ทันที
+12410000031	The EXP boost buff granted by the "Dumby" NPC lasts for @{1} minutes.	บัฟเพิ่ม EXP ที่ได้รับจาก NPC "Dumby" คงอยู่ @{1} นาที
+12410000032	"Losing Dumby" means dying after receiving Dumby's buff, causing it to disappear.	"Losing Dumby" หมายถึงการตายหลังได้รับบัฟของ Dumby ทำให้บัฟหายไป
+12410000033	RO players use two accounts to level a Priest, mainly because Priests have high attack power and are great for leveling.	ผู้เล่น RO ใช้สองบัญชีเพื่อเก็บเลเวล Priest โดยหลักเพราะ Priest มีพลังโจมตีสูงและเหมาะกับการเก็บเลเวล
+12410000034	In RO, "pulling a train" refers to a leveling technique where players draw the aggro of large groups of Monsters while moving.	ใน RO "pulling a train" หมายถึงเทคนิคเก็บเลเวลที่ผู้เล่นดึงความสนใจของมอนสเตอร์กลุ่มใหญ่ขณะเคลื่อนที่
+12410000035	Among RO players, the "South Gate Field" is the largest Trade hub on the Entire Server.	ในหมู่ผู้เล่น RO "South Gate Field" เป็นศูนย์กลางการซื้อขายที่ใหญ่ที่สุดของทั้งเซิร์ฟเวอร์
+12410000036	In RO, the "Vending" Stall Function is exclusive to Merchants.	ใน RO ฟังก์ชันตั้งร้าน "Vending" มีเฉพาะ Merchant
+12410000037	In RO, players often use "Chat Rooms" to view the Entire Server rankings.	ใน RO ผู้เล่นมักใช้ "Chat Rooms" เพื่อดูอันดับของทั้งเซิร์ฟเวอร์
+12410000038	Among RO players, "flying a plane" means having an Acolyte-class character use Warp Portal to teleport players.	ในหมู่ผู้เล่น RO "flying a plane" หมายถึงการให้ตัวละครอาชีพสาย Acolyte ใช้ Warp Portal วาร์ปผู้เล่น
+12410000039	Two core classes for "Autocast" builds are Mage and Wizard.	สองอาชีพหลักของแนวทางการเล่น "Autocast" คือ Mage และ Wizard
+12410000040	"SP Battery" is a nickname for Sages/Sorcerers, as their Soul Change skill can restore party members' SP.	"SP Battery" เป็นฉายาของ Sage/Sorcerer เพราะสกิล Soul Change ของพวกเขาฟื้นฟู SP ของสมาชิกปาร์ตี้ได้
+12410000041	Monsters in the Guild Dungeon grant exactly the same EXP as monsters in the field.	มอนสเตอร์ใน Guild Dungeon ให้ EXP เท่ากับมอนสเตอร์ในพื้นที่ทั่วไปทุกประการ
+12410000042	Concentration Potion has the least restrictive requirements of RO's Attack Speed potions and can be used by all classes.	Concentration Potion มีข้อกำหนดการใช้งานน้อยที่สุดในบรรดาโพชันเพิ่ม ASPD ของ RO และทุกอาชีพสามารถใช้ได้
+12410000043	"The Red One's Flammable Web" not only Immobilizes the target, but also causes them to take ×@{1} damage from the next Ice-property attack.	"The Red One's Flammable Web" ไม่เพียงตรึงเป้าหมายให้อยู่กับที่ แต่ยังทำให้ได้รับความเสียหาย ×@{1} จากการโจมตีธาตุ Ice ครั้งถัดไป
+12410000044	"Divine Light" (Heal) not only restores HP, but can also be used to damage Undead monsters.	"Divine Light" (Heal) ไม่เพียงฟื้นฟู HP แต่ยังใช้สร้างความเสียหายแก่มอนสเตอร์ Undead ได้ด้วย
+12410000045	"Zombie" and "Bongun" have a master-disciple relationship in the world of RO.	"Zombie" และ "Bongun" มีความสัมพันธ์แบบอาจารย์กับศิษย์ในโลกของ RO
+12410000046	While under full Petrify, equipment DEF is reduced by @{1}%, and the target's property changes to Earth Lv. @{2}.	ขณะติด Petrify เต็มรูปแบบ DEF จากอุปกรณ์จะลดลง @{1}% และธาตุของเป้าหมายเปลี่ยนเป็น Earth Lv. @{2}
+12410000047	A Sage's "Spell Breaker" is most useful in the War of Emperium for removing an Enemy Team Priest's Safety Wall.	"Spell Breaker" ของ Sage มีประโยชน์ที่สุดใน War of Emperium สำหรับลบ Safety Wall ของ Priest ทีมศัตรู
+12410000048	Assassin Cross's "Dark Claw" unconditionally multiplies the next damage the target takes by @{1}.	"Dark Claw" ของ Assassin Cross คูณความเสียหายครั้งถัดไปที่เป้าหมายได้รับด้วย @{1} โดยไม่มีเงื่อนไข
+12410000050	In RO, the more slots a piece of equipment has, the higher its DEF.	ใน RO ยิ่งอุปกรณ์มีช่องมาก ค่า DEF ก็ยิ่งสูง
+12410000051	TE WoE is limited to Trans. 2nd classes and below and is held every Sunday.	TE WoE จำกัดเฉพาะอาชีพ Trans. ขั้น 2 และต่ำกว่า และจัดขึ้นทุกวันอาทิตย์
+12410000052	"Main Gauche" is RO's iconic @{1}-slot weapon, famous for its maximum card capacity.	"Main Gauche" เป็นอาวุธ @{1} ช่องอันเป็นเอกลักษณ์ของ RO มีชื่อเสียงเรื่องความจุการ์ดสูงสุด
+12410000053	In RO, "UB" is short for a Ghostring Suit (Ghostring Card + Formal Suit).	ใน RO "UB" เป็นคำย่อของ Ghostring Suit (Ghostring Card + Formal Suit)
+12410000054	In RO, "@{1}" is shorthand for a certain Sage-line class.	ใน RO "@{1}" เป็นคำย่อของอาชีพบางอาชีพในสาย Sage
+12410000055	"Costume Enchant" only costs a fixed amount of Zeny and grants special effects.	"Costume Enchant" ใช้เพียง Zeny จำนวนคงที่และมอบเอฟเฟกต์พิเศษ
+12410000056	Damaged equipment has reduced effects but can still be equipped and does not need to be repaired.	อุปกรณ์ที่เสียหายมีประสิทธิภาพลดลง แต่ยังสวมใส่ได้และไม่จำเป็นต้องซ่อม
+12410000057	Floors @{1} and @{2} of the Monster Terminate Tower offer the most EXP of any field training area.	ชั้น @{1} และ @{2} ของ Monster Terminate Tower ให้ EXP มากที่สุดในบรรดาพื้นที่ฝึกฝนทั่วไป
+12410000058	"Direct Fire" refers to casting fire skills directly at a target without switching targets.	"Direct Fire" หมายถึงการร่ายสกิลไฟใส่เป้าหมายโดยตรงโดยไม่เปลี่ยนเป้าหมาย
+12410000059	"Shadow Lock" is an advanced movement technique developed using the Fire Wall skill.	"Shadow Lock" เป็นเทคนิคการเคลื่อนที่ขั้นสูงที่พัฒนาขึ้นโดยใช้สกิล Fire Wall
+12410000060	"Shadow Equipment" is a purely cosmetic system and provides no stat bonuses.	"Shadow Equipment" เป็นระบบเพื่อความสวยงามเท่านั้นและไม่เพิ่มค่าสถานะใด ๆ
+12410000061	"Berserk Potion" can be used by all classes and provides the highest Attack Speed boost of any potion.	"Berserk Potion" ใช้ได้ทุกอาชีพและเพิ่ม ASPD สูงที่สุดในบรรดาโพชัน
+12410000062	Payon has two versions, Old Payon and New Payon, each with different terrain.	Payon มีสองเวอร์ชัน คือ Old Payon และ New Payon ซึ่งมีภูมิประเทศต่างกัน
+12410000063	The BGM for "Prontera Church" is the first track that plays when RO starts.	BGM ของ "Prontera Church" เป็นเพลงแรกที่เล่นเมื่อเริ่ม RO
+12410000064	Dual-Dagger Assassins can slot up to @{1} Weapon Cards at once, giving them the highest Burst damage of any second-job class.	Assassin สายมีดคู่สามารถใส่ Weapon Cards ได้สูงสุด @{1} ใบพร้อมกัน ทำให้มีความเสียหายระเบิดสูงที่สุดในบรรดาอาชีพขั้นสอง
+12410000065	In War of Emperium (GvG), "set" refers to a complete equipment setup exclusive to the Knight class.	ใน War of Emperium (GvG) "set" หมายถึงชุดอุปกรณ์ครบชุดที่มีเฉพาะอาชีพ Knight
+12410000066	In the Taiwan, Hong Kong, and Macau version of RO, the "Eden Group" is an exclusive club for high-level players.	ใน RO เวอร์ชันไต้หวัน ฮ่องกง และมาเก๊า "Eden Group" เป็นชมรมเฉพาะสำหรับผู้เล่นเลเวลสูง
+12410000067	In RO, the classic War of Emperium (WoE) is usually held every Wednesday from @{1}:@{2} to @{3}:@{4}.	ใน RO War of Emperium (WoE) แบบคลาสสิกมักจัดขึ้นทุกวันพุธตั้งแต่ @{1}:@{2} ถึง @{3}:@{4}
+12410000068	The "Geneticist" is considered T@{1} for MVP battles because the class has the highest max HP.	"Geneticist" ถูกจัดเป็น T@{1} สำหรับการต่อสู้กับ MVP เพราะเป็นอาชีพที่มี HP สูงสุดมากที่สุด
+12410000069	Unlike the original War of Emperium, War of Emperium: Second Edition takes place on a single large map, and guilds must destroy the Guardian Stones and Barricades to advance.	ต่างจาก War of Emperium ดั้งเดิม War of Emperium: Second Edition จัดขึ้นบนแผนที่ขนาดใหญ่เพียงแห่งเดียว และกิลด์ต้องทำลาย Guardian Stones และ Barricades เพื่อรุกคืบ
+12410000070	"Super Novice" cannot equip any weapons or armor.	"Super Novice" ไม่สามารถสวมอาวุธหรือเกราะใด ๆ ได้
+12410000071	"Salamander" has been a classic RO pet since the very beginning.	"Salamander" เป็นสัตว์เลี้ยงสุดคลาสสิกของ RO มาตั้งแต่แรก
+12410000072	Achieving a "@{1}-second cast" requires special equipment.	การทำให้ร่ายได้ใน "@{1} วินาที" ต้องใช้อุปกรณ์พิเศษ
+12410000073	When Lex Aeterna (×@{1}) and Fatal Claw Marks (×@{2}) are active at the same time, their multipliers are added together for ×@{3} final damage.	เมื่อ Lex Aeterna (×@{1}) และ Fatal Claw Marks (×@{2}) ทำงานพร้อมกัน ตัวคูณจะถูกนำมาบวกกัน ทำให้ความเสียหายสุดท้ายเป็น ×@{3}
+10320000221	${1} Killed ${2} and achieved an @{1} Killstreak.	${1} สังหาร ${2} และทำสถิติสังหารต่อเนื่อง @{1} ครั้ง
+10320000226	The Demonic Dragon will appear in ${1} seconds!	Demonic Dragon จะปรากฏในอีก ${1} วินาที!
+10320000227	The Dragonblood Crystal will appear in ${1} seconds!	Dragonblood Crystal จะปรากฏในอีก ${1} วินาที!
+10320000228	The Demonic Dragon and Dragonblood Crystal will appear in ${1} seconds!	Demonic Dragon และ Dragonblood Crystal จะปรากฏในอีก ${1} วินาที!
+10320000229	The Demonic Dragon Soul is about to appear! Pick it up to gain a powerful Buff. Kill its holder to Score Extra points.	Demonic Dragon Soul กำลังจะปรากฏ! เก็บเพื่อรับบัฟอันทรงพลัง สังหารผู้ถือครองเพื่อรับคะแนนพิเศษ
+10320000232	The Demonic Dragon and Dragonblood Crystal have appeared!	Demonic Dragon และ Dragonblood Crystal ปรากฏแล้ว!
+10320000233	The Dragonblood Crystal has appeared in the center of the arena! Pick it up to Score points and gain a Buff.	Dragonblood Crystal ปรากฏที่กลางลานประลองแล้ว! เก็บเพื่อรับคะแนนและบัฟ
+10320000235	${2} from Guild ${1} activated Experimental Puppet Σ! Adventurers, watch out!	${2} จากกิลด์ ${1} เปิดใช้งาน Experimental Puppet Σ! นักผจญภัย ระวังให้ดี!
+10320000236	${2} from Guild ${1} Defeated Experimental Puppet Σ! Let the cheers ring out!	${2} จากกิลด์ ${1} เอาชนะ Experimental Puppet Σ! ส่งเสียงเชียร์ให้กึกก้อง!
+10320000248	Extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test	ทดสอบข้อความแถบด้านล่างที่ยาวเป็นพิเศษ, ทดสอบข้อความแถบด้านล่างที่ยาวเป็นพิเศษ, ทดสอบข้อความแถบด้านล่างที่ยาวเป็นพิเศษ, ทดสอบข้อความแถบด้านล่างที่ยาวเป็นพิเศษ, ทดสอบข้อความแถบด้านล่างที่ยาวเป็นพิเศษ, ทดสอบข้อความแถบด้านล่างที่ยาวเป็นพิเศษ, ทดสอบข้อความแถบด้านล่างที่ยาวเป็นพิเศษ, ทดสอบข้อความแถบด้านล่างที่ยาวเป็นพิเศษ, ทดสอบข้อความแถบด้านล่างที่ยาวเป็นพิเศษ, ทดสอบข้อความแถบด้านล่างที่ยาวเป็นพิเศษ, ทดสอบข้อความแถบด้านล่างที่ยาวเป็นพิเศษ, ทดสอบข้อความแถบด้านล่างที่ยาวเป็นพิเศษ, ทดสอบข้อความแถบด้านล่างที่ยาวเป็นพิเศษ, ทดสอบข้อความแถบด้านล่างที่ยาวเป็นพิเศษ, ทดสอบข้อความแถบด้านล่างที่ยาวเป็นพิเศษ, ทดสอบข้อความแถบด้านล่างที่ยาวเป็นพิเศษ, ทดสอบข้อความแถบด้านล่างที่ยาวเป็นพิเศษ, ทดสอบข้อความแถบด้านล่างที่ยาวเป็นพิเศษ, ทดสอบข้อความแถบด้านล่างที่ยาวเป็นพิเศษ, ทดสอบข้อความแถบด้านล่างที่ยาวเป็นพิเศษ
+10320000249	Extra-long floating message display test, extra-long floating message display test, extra-long floating message display test, extra-long floating message display test, extra-long floating message display test, extra-long floating message display test, extra-long floating message display test, extra-long floating message display test, extra-long floating message display test, extra-long floating message display test, extra-long floating message display test, extra-long floating message display test, extra-long floating message display test, extra-long floating message display test, extra-long floating message display test, extra-long floating message display test, extra-long floating message display test	ทดสอบการแสดงข้อความลอยที่ยาวเป็นพิเศษ, ทดสอบการแสดงข้อความลอยที่ยาวเป็นพิเศษ, ทดสอบการแสดงข้อความลอยที่ยาวเป็นพิเศษ, ทดสอบการแสดงข้อความลอยที่ยาวเป็นพิเศษ, ทดสอบการแสดงข้อความลอยที่ยาวเป็นพิเศษ, ทดสอบการแสดงข้อความลอยที่ยาวเป็นพิเศษ, ทดสอบการแสดงข้อความลอยที่ยาวเป็นพิเศษ, ทดสอบการแสดงข้อความลอยที่ยาวเป็นพิเศษ, ทดสอบการแสดงข้อความลอยที่ยาวเป็นพิเศษ, ทดสอบการแสดงข้อความลอยที่ยาวเป็นพิเศษ, ทดสอบการแสดงข้อความลอยที่ยาวเป็นพิเศษ, ทดสอบการแสดงข้อความลอยที่ยาวเป็นพิเศษ, ทดสอบการแสดงข้อความลอยที่ยาวเป็นพิเศษ, ทดสอบการแสดงข้อความลอยที่ยาวเป็นพิเศษ, ทดสอบการแสดงข้อความลอยที่ยาวเป็นพิเศษ, ทดสอบการแสดงข้อความลอยที่ยาวเป็นพิเศษ, ทดสอบการแสดงข้อความลอยที่ยาวเป็นพิเศษ
+10320000250	Extra-long mechanic alert above message bar test, extra-long mechanic alert above message bar test, extra-long mechanic alert above message bar test, extra-long mechanic alert above message bar test, extra-long mechanic alert above message bar test, extra-long mechanic alert above message bar test, extra-long mechanic alert above message bar test, extra-long mechanic alert above message bar test, extra-long mechanic alert above message bar test, extra-long mechanic alert above message bar test, extra-long mechanic alert above message bar test, extra-long mechanic alert above message bar test, extra-long mechanic alert above message bar test, extra-long mechanic alert above message bar test, extra-long mechanic alert above message bar test, extra-long mechanic alert above message bar test, extra-long mechanic alert above message bar test	ทดสอบการแจ้งเตือนกลไกเหนือแถบข้อความที่ยาวเป็นพิเศษ, ทดสอบการแจ้งเตือนกลไกเหนือแถบข้อความที่ยาวเป็นพิเศษ, ทดสอบการแจ้งเตือนกลไกเหนือแถบข้อความที่ยาวเป็นพิเศษ, ทดสอบการแจ้งเตือนกลไกเหนือแถบข้อความที่ยาวเป็นพิเศษ, ทดสอบการแจ้งเตือนกลไกเหนือแถบข้อความที่ยาวเป็นพิเศษ, ทดสอบการแจ้งเตือนกลไกเหนือแถบข้อความที่ยาวเป็นพิเศษ, ทดสอบการแจ้งเตือนกลไกเหนือแถบข้อความที่ยาวเป็นพิเศษ, ทดสอบการแจ้งเตือนกลไกเหนือแถบข้อความที่ยาวเป็นพิเศษ, ทดสอบการแจ้งเตือนกลไกเหนือแถบข้อความที่ยาวเป็นพิเศษ, ทดสอบการแจ้งเตือนกลไกเหนือแถบข้อความที่ยาวเป็นพิเศษ, ทดสอบการแจ้งเตือนกลไกเหนือแถบข้อความที่ยาวเป็นพิเศษ, ทดสอบการแจ้งเตือนกลไกเหนือแถบข้อความที่ยาวเป็นพิเศษ, ทดสอบการแจ้งเตือนกลไกเหนือแถบข้อความที่ยาวเป็นพิเศษ, ทดสอบการแจ้งเตือนกลไกเหนือแถบข้อความที่ยาวเป็นพิเศษ, ทดสอบการแจ้งเตือนกลไกเหนือแถบข้อความที่ยาวเป็นพิเศษ, ทดสอบการแจ้งเตือนกลไกเหนือแถบข้อความที่ยาวเป็นพิเศษ, ทดสอบการแจ้งเตือนกลไกเหนือแถบข้อความที่ยาวเป็นพิเศษ
+10320000251	Assistant\nExtra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test	ผู้ช่วย\nทดสอบข้อความผู้ช่วยที่ยาวเป็นพิเศษ, ทดสอบข้อความผู้ช่วยที่ยาวเป็นพิเศษ, ทดสอบข้อความผู้ช่วยที่ยาวเป็นพิเศษ, ทดสอบข้อความผู้ช่วยที่ยาวเป็นพิเศษ, ทดสอบข้อความผู้ช่วยที่ยาวเป็นพิเศษ, ทดสอบข้อความผู้ช่วยที่ยาวเป็นพิเศษ, ทดสอบข้อความผู้ช่วยที่ยาวเป็นพิเศษ, ทดสอบข้อความผู้ช่วยที่ยาวเป็นพิเศษ, ทดสอบข้อความผู้ช่วยที่ยาวเป็นพิเศษ, ทดสอบข้อความผู้ช่วยที่ยาวเป็นพิเศษ, ทดสอบข้อความผู้ช่วยที่ยาวเป็นพิเศษ, ทดสอบข้อความผู้ช่วยที่ยาวเป็นพิเศษ, ทดสอบข้อความผู้ช่วยที่ยาวเป็นพิเศษ, ทดสอบข้อความผู้ช่วยที่ยาวเป็นพิเศษ, ทดสอบข้อความผู้ช่วยที่ยาวเป็นพิเศษ, ทดสอบข้อความผู้ช่วยที่ยาวเป็นพิเศษ, ทดสอบข้อความผู้ช่วยที่ยาวเป็นพิเศษ, ทดสอบข้อความผู้ช่วยที่ยาวเป็นพิเศษ, ทดสอบข้อความผู้ช่วยที่ยาวเป็นพิเศษ, ทดสอบข้อความผู้ช่วยที่ยาวเป็นพิเศษ, ทดสอบข้อความผู้ช่วยที่ยาวเป็นพิเศษ
+10320000252	Extra-long main-screen Notification interface test, extra-long main-screen Notification interface test, extra-long main-screen Notification interface test, extra-long main-screen Notification interface test, extra-long main-screen Notification interface test, extra-long main-screen Notification interface test, extra-long main-screen Notification interface test, extra-long main-screen Notification interface test, extra-long main-screen Notification interface test, extra-long main-screen Notification interface test, extra-long main-screen Notification interface test, extra-long main-screen Notification interface test, extra-long main-screen Notification interface test, extra-long main-screen Notification interface test, extra-long main-screen Notification interface test, extra-long main-screen Notification interface test, extra-long main-screen Notification interface test, extra-long main-screen Notification interface test	ทดสอบหน้าต่างแจ้งเตือนบนหน้าจอหลักที่ยาวเป็นพิเศษ, ทดสอบหน้าต่างแจ้งเตือนบนหน้าจอหลักที่ยาวเป็นพิเศษ, ทดสอบหน้าต่างแจ้งเตือนบนหน้าจอหลักที่ยาวเป็นพิเศษ, ทดสอบหน้าต่างแจ้งเตือนบนหน้าจอหลักที่ยาวเป็นพิเศษ, ทดสอบหน้าต่างแจ้งเตือนบนหน้าจอหลักที่ยาวเป็นพิเศษ, ทดสอบหน้าต่างแจ้งเตือนบนหน้าจอหลักที่ยาวเป็นพิเศษ, ทดสอบหน้าต่างแจ้งเตือนบนหน้าจอหลักที่ยาวเป็นพิเศษ, ทดสอบหน้าต่างแจ้งเตือนบนหน้าจอหลักที่ยาวเป็นพิเศษ, ทดสอบหน้าต่างแจ้งเตือนบนหน้าจอหลักที่ยาวเป็นพิเศษ, ทดสอบหน้าต่างแจ้งเตือนบนหน้าจอหลักที่ยาวเป็นพิเศษ, ทดสอบหน้าต่างแจ้งเตือนบนหน้าจอหลักที่ยาวเป็นพิเศษ, ทดสอบหน้าต่างแจ้งเตือนบนหน้าจอหลักที่ยาวเป็นพิเศษ, ทดสอบหน้าต่างแจ้งเตือนบนหน้าจอหลักที่ยาวเป็นพิเศษ, ทดสอบหน้าต่างแจ้งเตือนบนหน้าจอหลักที่ยาวเป็นพิเศษ, ทดสอบหน้าต่างแจ้งเตือนบนหน้าจอหลักที่ยาวเป็นพิเศษ, ทดสอบหน้าต่างแจ้งเตือนบนหน้าจอหลักที่ยาวเป็นพิเศษ, ทดสอบหน้าต่างแจ้งเตือนบนหน้าจอหลักที่ยาวเป็นพิเศษ, ทดสอบหน้าต่างแจ้งเตือนบนหน้าจอหลักที่ยาวเป็นพิเศษ
+10320000255	The items you listed on the Trade Exchange have expired and been returned.	ไอเทมที่คุณลงขายใน Trade Exchange หมดอายุและถูกส่งคืนแล้ว
+10320000258	Guild League has ended. View the battle report?	Guild League สิ้นสุดแล้ว ต้องการดูรายงานการต่อสู้หรือไม่?
+10320000259	^{1}^{2}${2}^{3} has achieved a ${3}-Kill streak!	^{1}^{2}${2}^{3} สังหารต่อเนื่องได้ ${3} ครั้งแล้ว!
+10320000260	^{1}^{2}${2}^{3} terminated ^{4}${4}^{5}'s ${5}-Killstreak!	^{1}^{2}${2}^{3} ยุติสถิติสังหารต่อเนื่องของ ^{4}${4}^{5} ที่ ${5} ครั้ง!
+10320000266	^{1}${2}^{2}'s ^{3}${3}^{4}\nscored the Kill on the Boss!	ผู้สังกัด ^{1}${2}^{2} อย่าง ^{3}${3}^{4}\nเป็นผู้สังหารบอส!
+10320000276	^{1}The flag-bearing Boss has appeared! Defeat it to claim the flag!	^{1}บอสผู้ถือธงปรากฏแล้ว! เอาชนะเพื่อชิงธง!
+10320000277	^{1}${2}^{2}'s ^{3}${3}^{4} claimed the flag!	ผู้สังกัด ^{1}${2}^{2} อย่าง ^{3}${3}^{4} ชิงธงได้แล้ว!
+10320000278	^{1}${3}^{2}'s ^{3}${2}^{4} delivered the flag!	ผู้สังกัด ^{1}${3}^{2} อย่าง ^{3}${2}^{4} ส่งธงแล้ว!
+10320000283	^{1}${2}^{2} has reached ^{3}${3}^{4} points! Victory is within reach!	^{1}${2}^{2} มีคะแนนถึง ^{3}${3}^{4} แล้ว! ชัยชนะอยู่แค่เอื้อม!
+10320000284	^{1}${2}^{2}'s ^{3}${3}^{4} scored a Kill on the Boss!	ผู้สังกัด ^{1}${2}^{2} อย่าง ^{3}${3}^{4} เป็นผู้สังหารบอส!
+10320000286	I completed my Return Journey[View My Journey]	ฉันทำ Return Journey สำเร็จแล้ว[ View My Journey ]
+10320000287	^{1}^{2}${1}^{3} spared no expense at the Auction House to obtain ${2}. Congratulations!	^{1}^{2}${1}^{3} ทุ่มเงินไม่อั้นที่ Auction House เพื่อรับ ${2} ขอแสดงความยินดี!
+10320000288	Congratulations to ${1}'s team on the First Clear of ${2}!! First Clear Members: ${3}	ขอแสดงความยินดีกับทีมของ ${1} ที่ผ่าน ${2} เป็นทีมแรก!! สมาชิกที่ผ่านครั้งแรก: ${3}
+10320000289	Congratulations to ${1} for being the first to clear Floor ${2} of the Spirit Tower! All Adventurers can claim the Entire Server reward at the Spirit Tower.	ขอแสดงความยินดีกับ ${1} ที่ผ่านชั้น ${2} ของ Spirit Tower เป็นคนแรก! นักผจญภัยทุกคนสามารถรับรางวัลทั้งเซิร์ฟเวอร์ได้ที่ Spirit Tower
+10320000290	The Royal City Battle will begin in @{1} minutes.	Royal City Battle จะเริ่มในอีก @{1} นาที
+10320000291	The Royal City Battle has begun. Participate Now?	Royal City Battle เริ่มแล้ว ต้องการเข้าร่วมตอนนี้หรือไม่?
+10320000292	The Royal City Battle has ended. View the battle report?	Royal City Battle สิ้นสุดแล้ว ต้องการดูรายงานการต่อสู้หรือไม่?
+10320000293	The battle for @{1} State Capital will begin in @{2} minutes.	การต่อสู้ชิงเมืองหลวงของรัฐ @{1} จะเริ่มในอีก @{2} นาที
+10320000294	The battle for @{1} State Capital has begun. Participate Now?	การต่อสู้ชิงเมืองหลวงของรัฐ @{1} เริ่มแล้ว ต้องการเข้าร่วมตอนนี้หรือไม่?
+10320000295	The battle for @{1} State Capital has ended. View the battle report?	การต่อสู้ชิงเมืองหลวงของรัฐ @{1} สิ้นสุดแล้ว ต้องการดูรายงานการต่อสู้หรือไม่?
+10320000296	Magic Crystal donations have reached ${1} Energy.	การบริจาค Magic Crystal สะสมพลังงานถึง ${1} แล้ว
+10320000297	^{1}${1}^{2} disturbed a terrifying BOSS while treasure hunting in ^{3}${2}^{4}! Help Defeat it to receive a ^{5}Support Chest^{6}!	^{1}${1}^{2} ไปรบกวนบอสที่น่าสะพรึงกลัวขณะล่าสมบัติใน ^{3}${2}^{4}! ช่วยเอาชนะเพื่อรับ ^{5}Support Chest^{6}!
+10320000298	Territory War escort Trade has begun. Please proceed to the corresponding Trade screen.	การซื้อขายสำหรับการคุ้มกันใน Territory War เริ่มแล้ว โปรดไปยังหน้าการซื้อขายที่เกี่ยวข้อง
+10320000301	The Battle of the Producers event has begun. Players are welcome to Participate Now.	กิจกรรม Battle of the Producers เริ่มแล้ว ขอเชิญผู้เล่นเข้าร่วมตอนนี้
+10320000302	The Battle of the Producers event has ended. See you next time.	กิจกรรม Battle of the Producers สิ้นสุดแล้ว พบกันครั้งหน้า
+10320000305	Congratulations to player 【${2}】 for defeating 【${1}】 and earning a Rare reward!	ขอแสดงความยินดีกับผู้เล่น [ ${2} ] ที่เอาชนะ [ ${1} ] และได้รับรางวัลหายาก!
+10320000306	${1} has been appointed to the ${2} position in this guild.	${1} ได้รับแต่งตั้งให้ดำรงตำแหน่ง ${2} ในกิลด์นี้
+10320000308	${1} has been removed from the ${2} position in this guild.	${1} ถูกถอดจากตำแหน่ง ${2} ในกิลด์นี้
+10320000310	Player ${1} gave ${2} ${3} ${4} and said: ${5}	ผู้เล่น ${1} มอบให้ ${2}: ${3} ${4} และกล่าวว่า: ${5}
+10320000313	Search the area for the source of the strange odor	ค้นหาแหล่งที่มาของกลิ่นประหลาดในบริเวณนี้
+10320000316	The source of the strange odor is getting closer	แหล่งที่มาของกลิ่นประหลาดกำลังเข้ามาใกล้
+10320000321	The western and eastern portals are becoming unstable	ประตูมิติฝั่งตะวันตกและตะวันออกเริ่มไม่เสถียร
+10320000322	An elite monster has appeared at the northern portal	มอนสเตอร์ชั้นยอดปรากฏที่ประตูมิติทางเหนือ
+10320000323	Orc Hero will unleash its ultimate skill in ${1} seconds. Pick up the Giant Blade and interrupt Orc Hero's charging!	Orc Hero จะใช้สกิลไม้ตายในอีก ${1} วินาที เก็บ Giant Blade เพื่อขัดจังหวะการชาร์จของ Orc Hero!
+10320000326	You have reached the collection limit for this note	คุณเก็บโน้ตนี้ครบจำนวนสูงสุดแล้ว
+10320000328	The notes will disappear in @{1} seconds. Memorize their positions quickly!	โน้ตจะหายไปในอีก @{1} วินาที รีบจดจำตำแหน่งไว้!
+10320000330	Enter the circles in order to compose the melody. ${1} seconds remaining	เข้าวงกลมตามลำดับเพื่อแต่งทำนอง เหลือเวลา ${1} วินาที
+10320000331	Players with the corresponding notes must Kill the matching Musical Instrument	ผู้เล่นที่มีโน้ตตรงกันต้องสังหาร Musical Instrument ที่ตรงกัน
+10320000333	Block the bubbles strategically to prevent bubbles of different colors from colliding	ขวางฟองอย่างมีกลยุทธ์เพื่อป้องกันไม่ให้ฟองต่างสีชนกัน
+10320000334	Reach your performance position within ${1} seconds	ไปยังตำแหน่งแสดงของคุณภายใน ${1} วินาที
+10320000336	Heretical dancers who remain in the darkness will face Judex	นักเต้นนอกรีตที่ยังอยู่ในความมืดจะเผชิญกับ Judex
+10320000338	Wonderful... Finally, someone who can keep up with my steps...	ยอดเยี่ยม... ในที่สุดก็มีคนตามจังหวะก้าวของฉันทัน...
+10320000339	Step onto the staff of rhythm. One wrong move means eternal silence	ก้าวขึ้นบนบรรทัดห้าเส้นแห่งจังหวะ ก้าวพลาดเพียงครั้งเดียวหมายถึงความเงียบชั่วนิรันดร์
+10320000341	Mirko is about to unleash the final movement, destroying everything in ${1} seconds!	Mirko กำลังจะบรรเลงท่อนสุดท้าย ทำลายทุกสิ่งในอีก ${1} วินาที!
+10320000342	Activate three Safe Zones simultaneously. ${1} seconds until the beat explodes	เปิดใช้งานพื้นที่ปลอดภัยสามแห่งพร้อมกัน จังหวะจะระเบิดในอีก ${1} วินาที
+10320000343	Activate four Safe Zones simultaneously. ${1} seconds until the beat explodes	เปิดใช้งานพื้นที่ปลอดภัยสี่แห่งพร้อมกัน จังหวะจะระเบิดในอีก ${1} วินาที
+10320000344	Activate two Safe Zones simultaneously. ${1} seconds until the beat explodes	เปิดใช้งานพื้นที่ปลอดภัยสองแห่งพร้อมกัน จังหวะจะระเบิดในอีก ${1} วินาที
+10320000347	[Drake], carrying a ^{1}[Surprise Chest]^{2}, will appear in the Location in ${1} seconds.	[ Drake ] ที่ถือ ^{1}[ Surprise Chest ]^{2} จะปรากฏในตำแหน่งนั้นในอีก ${1} วินาที
+10320000349	Kafra Battlefield Administrator\n[Evil Eye Messenger] has airdropped a ^{1}[Surprise Chest]^{2} onto the battlefield!	ผู้ดูแลสนามรบ Kafra\n[ Evil Eye Messenger ] ทิ้ง ^{1}[ Surprise Chest ]^{2} จากทางอากาศลงสู่สนามรบแล้ว!
+10320000350	[Evil Eye Messenger] has left the battlefield	[ Evil Eye Messenger ] ออกจากสนามรบแล้ว
+10320000351	Grants full-map vision, allowing you to view every warrior's location on the Mini Map	มอบการมองเห็นทั่วทั้งแผนที่ ทำให้คุณเห็นตำแหน่งของนักรบทุกคนบนแผนที่ย่อ
+10320000352	Deviling\nThe Pirate's Hidden Treasure is now open! Warriors can use the portal to enter the treasure area and fight for it!	Deviling\nPirate's Hidden Treasure เปิดแล้ว! นักรบสามารถใช้ประตูมิติเข้าสู่พื้นที่สมบัติและต่อสู้เพื่อแย่งชิงได้!
+10320000353	Deviling\nThe entrance to the Pirate's Hidden Treasure has closed	Deviling\nทางเข้า Pirate's Hidden Treasure ปิดแล้ว
+10320000354	Kafra Battlefield Manager\nReceive the Blessing of Odin, King of the Gods, reducing skill Cooldown by @{1}% for @{2} minutes.	ผู้จัดการสนามรบ Kafra\nรับพรจาก Odin ราชาแห่งทวยเทพ ลด CD ของสกิลลง @{1}% เป็นเวลา @{2} นาที
+10320000355	Kafra Battlefield Administrator\nYou have received the blessing of Valkyrie. The quality of all players' currently equipped gear has increased	ผู้ดูแลสนามรบ Kafra\nคุณได้รับพรจาก Valkyrie คุณภาพอุปกรณ์ที่ผู้เล่นทุกคนสวมใส่อยู่เพิ่มขึ้น
+10320000356	Kafra Battlefield Manager\nReceive the Blessing of Baldur, God of Light, increasing MSPD by @{1}% for @{2} minutes.	ผู้จัดการสนามรบ Kafra\nรับพรจาก Baldur เทพแห่งแสง เพิ่ม MSPD @{1}% เป็นเวลา @{2} นาที
+10320000357	Kafra Battlefield Manager\nReceive the Blessing of Thor, God of Thunder, granting @{1} Extra exclusive skills for @{2} minutes.	ผู้จัดการสนามรบ Kafra\nรับพรจาก Thor เทพแห่งสายฟ้า มอบสกิลพิเศษเฉพาะตัวเพิ่ม @{1} สกิล เป็นเวลา @{2} นาที
+10320000358	Kafra Battlefield Manager\nReceive the Blessing of Tyr, God of War, increasing Crit Chance by @{1}% for @{2} minutes.	ผู้จัดการสนามรบ Kafra\nรับพรจาก Tyr เทพแห่งสงคราม เพิ่มโอกาสคริติคอล @{1}% เป็นเวลา @{2} นาที
+10320000359	[Pirate King] will Enter Battlefield in ${1} seconds!	[ Pirate King ] จะเข้าสู่สนามรบในอีก ${1} วินาที!
+10320000360	[Pirate King] will spawn a ^{1}[Surprise Chest]^{2} nearby in ${1} seconds	[ Pirate King ] จะสร้าง ^{1}[ Surprise Chest ]^{2} ใกล้ตัวในอีก ${1} วินาที
+10320000361	Deviling\nThe Treasure Island is about to sink! Warriors, escape immediately!!	Deviling\nTreasure Island กำลังจะจม! นักรบ รีบหนีทันที!!
+10320000362	Deviling\n[Pirate King] dropped a ^{1}[Surprise Chest]^{2} on the battlefield!	Deviling\n[ Pirate King ] ทิ้ง ^{1}[ Surprise Chest ]^{2} ลงบนสนามรบแล้ว!
+10320000363	Deviling\nThe fate-changing [Mystery Cube] has appeared on the battlefield	Deviling\n[ Mystery Cube ] ที่เปลี่ยนโชคชะตาได้ปรากฏบนสนามรบแล้ว
+10320000365	[Evil Eye Messenger] will spawn a ^{1}[Surprise Chest]^{2} nearby in ${1} seconds	[ Evil Eye Messenger ] จะสร้าง ^{1}[ Surprise Chest ]^{2} ใกล้ตัวในอีก ${1} วินาที
+10320000366	Deviling\n[Pirate Captain] has entered the battlefield	Deviling\n[ Pirate Captain ] เข้าสู่สนามรบแล้ว
+10320000367	The portal to the Pirate's Hidden Treasure will close in ${1} seconds	ประตูมิติไปยัง Pirate's Hidden Treasure จะปิดในอีก ${1} วินาที
+10320000369	${1} voluntarily left the battlefield. Their ID Tag is now invalid	${1} ออกจากสนามรบโดยสมัครใจ ป้ายระบุตัวตนของผู้เล่นรายนี้ใช้ไม่ได้แล้ว
+10320000372	You successfully rescued ${1} using the ambulance	คุณช่วย ${1} ด้วยรถพยาบาลสำเร็จ
+10320000373	Your teammate ${1} rescued you using the ambulance	เพื่อนร่วมทีม ${1} ช่วยคุณด้วยรถพยาบาล
+10320000374	Kafra Battlefield Administrator\nThe Equipment Merchant has appeared on the battlefield! Today's equipment is discounted, so hurry over before it's gone.	ผู้ดูแลสนามรบ Kafra\nEquipment Merchant ปรากฏบนสนามรบแล้ว! อุปกรณ์วันนี้ลดราคา รีบไปก่อนจะหมด
+10320000375	Kafra Battlefield Manager\nAn Evil Eye Messenger carrying a [Small Surprise Chest] has appeared in the Location. Warriors, go seize it!	ผู้จัดการสนามรบ Kafra\nEvil Eye Messenger ที่ถือ [ Small Surprise Chest ] ปรากฏในตำแหน่งนั้นแล้ว นักรบ ไปแย่งชิงมา!
+10320000376	Kafra Battlefield Administrator\nThe Equipment Merchant has left the battlefield.	ผู้ดูแลสนามรบ Kafra\nEquipment Merchant ออกจากสนามรบแล้ว
+10320000377	Kafra Battlefield Manager\nAn Evil Eye Emissary carrying a [Large Surprise Chest] has appeared in the Location. Warriors, go seize it!	ผู้จัดการสนามรบ Kafra\nEvil Eye Emissary ที่ถือ [ Large Surprise Chest ] ปรากฏในตำแหน่งนั้นแล้ว นักรบ ไปแย่งชิงมา!
+10320000378	Tap above a wormhole to enter it and emerge from another wormhole	แตะเหนือรูหนอนเพื่อเข้าไปและออกมาจากรูหนอนอีกแห่ง
+10320000379	A sandstorm is coming! Use the wormholes to avoid it!	พายุทรายกำลังมา! ใช้รูหนอนเพื่อหลบหลีก!
+10320000380	Guide Golden Thief Bug toward a wormhole! Sandstorms will soon strike randomly from all sides of the map!	ล่อ Golden Thief Bug ไปทางรูหนอน! พายุทรายจะสุ่มโจมตีจากทุกด้านของแผนที่ในไม่ช้า!
+10320000381	Golden Thief Bug will burrow again in ${1} seconds!	Golden Thief Bug จะมุดดินอีกครั้งในอีก ${1} วินาที!
+10320000383	Ghost ships will arrive in ${1} seconds! Destroy them with explosive barrels!	เรือผีจะมาถึงในอีก ${1} วินาที! ทำลายด้วยถังระเบิด!
+10320000384	Dark Pulse will be unleashed in ${1} seconds! Use Dark Pulse to destroy the Horongs!	Dark Pulse จะถูกปล่อยออกมาในอีก ${1} วินาที! ใช้ Dark Pulse ทำลาย Horongs!
+10320000385	Star Shift will strike in ${1} seconds! Keep moving to dodge it!	Star Shift จะโจมตีในอีก ${1} วินาที! เคลื่อนที่ต่อไปเพื่อหลบหลีก!
+10320000386	A teammate is trapped inside a Bell! Hurry and smash the Bell!	เพื่อนร่วมทีมติดอยู่ในระฆัง! รีบทุบระฆังให้แตก!
+10320000387	Moonlight Flower is preparing to select a target. Stay out of the moonlight!	Moonlight Flower กำลังเตรียมเลือกเป้าหมาย อย่าเข้าไปในแสงจันทร์!
+10320000389	Prioritize avoiding the charged Bells! They'll explode sooner	หลบระฆังที่ชาร์จพลังแล้วก่อน! ระฆังเหล่านั้นจะระเบิดเร็วกว่า
+10320000390	Quicksand will strike in ${1} seconds! Hide behind a stone pillar so you don't get pulled in!	ทรายดูดจะโจมตีในอีก ${1} วินาที! หลบหลังเสาหินเพื่อไม่ให้ถูกดูดเข้าไป!
+10320000391	Maya is summoning quicksand again! Hide behind a stone pillar so you don't get pulled in!	Maya กำลังเรียกทรายดูดอีกครั้ง! หลบหลังเสาหินเพื่อไม่ให้ถูกดูดเข้าไป!
+10320000392	Sandstorm meteors will strike in ${1} seconds! Get behind a stone pillar to avoid taking damage!	อุกกาบาตพายุทรายจะโจมตีในอีก ${1} วินาที! หลบหลังเสาหินเพื่อหลีกเลี่ยงความเสียหาย!
+10320000393	Quicksand will appear in ${1} seconds! Hide behind a stone pillar so you don't get pulled in!	ทรายดูดจะปรากฏในอีก ${1} วินาที! หลบหลังเสาหินเพื่อไม่ให้ถูกดูดเข้าไป!
+10320000394	The challenge against Ilmata, God of Nature, is now open. Guilds can enter through the Guild interface.	การท้าทาย Ilmata เทพแห่งธรรมชาติ เปิดแล้ว กิลด์สามารถเข้าผ่านหน้ากิลด์ได้
+10320000395	The challenge against Ilmata, God of Nature, is now open. The Guild Master or Vice Guild Master must initiate the challenge.	การท้าทาย Ilmata เทพแห่งธรรมชาติ เปิดแล้ว หัวหน้ากิลด์หรือรองหัวหน้ากิลด์ต้องเป็นผู้เริ่มการท้าทาย
+10320000396	The Nature God Irmata Challenge has come to an end.	การท้าทาย Irmata เทพแห่งธรรมชาติ สิ้นสุดแล้ว
+10320000397	Our guild successfully cleared ${1} mode of the Nature God Irmata Challenge. After the event ends, please visit the auction to view the Auctioned items.	กิลด์ของเราผ่านโหมด ${1} ของการท้าทาย Irmata เทพแห่งธรรมชาติสำเร็จ หลังจบกิจกรรม โปรดไปที่การประมูลเพื่อดูไอเทมที่นำมาประมูล
+10320000398	You've been outbid on an item. Please check it now.	มีผู้เสนอราคาสูงกว่าคุณสำหรับไอเทมหนึ่งชิ้น โปรดตรวจสอบตอนนี้
+10320000399	The Guild Auction will begin at ${1}. Please be prepared.	การประมูลกิลด์จะเริ่มเวลา ${1} โปรดเตรียมพร้อม
+10320000400	The Guild Auction has officially begun. Visit the Auction House to place your bids.	การประมูลกิลด์เริ่มอย่างเป็นทางการแล้ว ไปที่ Auction House เพื่อเสนอราคา
+10320000402	Epic Battle ${1} difficulty is now available!\nAnswer the summons?	Epic Battle ระดับความยาก ${1} เปิดแล้ว!\nต้องการตอบรับการเรียกตัวหรือไม่?
+10320000403	The Gala Invitation will begin in @{1} minutes. Get ready!	Gala Invitation จะเริ่มในอีก @{1} นาที เตรียมตัวให้พร้อม!
+10320000404	Festival Invitation has begun! In @{1} minutes, the System will select ${1} lucky stars from all Online players across the Entire Server. Get Ready!	Festival Invitation เริ่มแล้ว! ในอีก @{1} นาที ระบบจะเลือกดาวนำโชค ${1} คนจากผู้เล่นออนไลน์ทั้งหมดทั่วเซิร์ฟเวอร์ เตรียมตัวให้พร้อม!
+10320000405	Congratulations! You're a lucky star! Enter before @{1}:@{2}!	ขอแสดงความยินดี! คุณคือดาวนำโชค! เข้าร่วมก่อน @{1}:@{2}!
+10320000406	Great news! Our Guild Member “${1}” is today's Festival Invitation lucky star! Let's go cheer them on! Go Support	ข่าวดี! สมาชิกกิลด์ของเรา “${1}” คือดาวนำโชค Festival Invitation วันนี้! ไปเชียร์กันเถอะ! ไปสนับสนุน
+10320000407	We've got a seriously lucky player in our group! ${1} is the Festival Invitation lucky star! Let's go check it out! Go Support	ในกลุ่มเรามีผู้เล่นที่โชคดีสุด ๆ! ${1} คือดาวนำโชค Festival Invitation! ไปดูกันเถอะ! ไปสนับสนุน
+10320000408	Your friend ${1} has become today's Festival Invitation LUK Star! Go check them out!	เพื่อนของคุณ ${1} เป็นดาว LUK ของ Festival Invitation วันนี้! ไปดูกัน!
+10320000409	Bobo\nThe answer will be revealed in ${1} seconds.	Bobo\nจะเฉลยคำตอบในอีก ${1} วินาที
+10320000410	Bobo\nThe Gala Invitation quiz begins in @{1} seconds!	Bobo\nการตอบคำถาม Gala Invitation จะเริ่มในอีก @{1} วินาที!
+10320000413	Bobo\nI'm about to ask a question, so get ready!	Bobo\nฉันกำลังจะถามคำถาม เตรียมตัวให้พร้อม!
+10320000414	Congratulations to ${1} for winning First Place in the Festival Invitation! What an impressive wealth of knowledge!	ขอแสดงความยินดีกับ ${1} ที่คว้าอันดับหนึ่งใน Festival Invitation! ช่างมีความรู้มากมายจนน่าทึ่ง!
+10320000415	Unfortunately, no one took first place in this Gala Invitation. Better luck next time, everyone~	น่าเสียดายที่ไม่มีใครคว้าอันดับหนึ่งใน Gala Invitation ครั้งนี้ ขอให้ทุกคนโชคดีขึ้นในครั้งหน้า~
+10320000416	I'm amazing! I snagged First Place in the Festival Invitation! To all my darlings who picked me—you've got a great eye!	ฉันเก่งสุด ๆ! ฉันคว้าอันดับหนึ่งใน Festival Invitation ได้แล้ว! ที่รักทุกคนที่เลือกฉัน—พวกคุณตาถึงจริง ๆ!
+10320000417	The lucky-star drawing is complete. All selected lucky stars, please enter as soon as possible!	การสุ่มดาวนำโชคเสร็จสิ้นแล้ว ดาวนำโชคทุกคนที่ได้รับเลือก โปรดเข้าร่วมโดยเร็วที่สุด!
+10320000418	The Gala Invitation has begun! In ${1} minutes, the System will select ${2} lucky stars from among Online players across the Entire Server. Get ready!	Gala Invitation เริ่มแล้ว! ในอีก ${1} นาที ระบบจะเลือกดาวนำโชค ${2} คนจากผู้เล่นออนไลน์ทั่วเซิร์ฟเวอร์ เตรียมตัวให้พร้อม!
+10320000419	The Festival Invitation will select @{2} LUK Stars in @{1} minutes. Everyone, get Ready!	Festival Invitation จะเลือกดาว LUK จำนวน @{2} คนในอีก @{1} นาที ทุกคนเตรียมตัวให้พร้อม!
+10320000422	${1} approved ${2}'s application to Join a guild. Welcome, ${2}!	${1} อนุมัติคำขอเข้ากิลด์ของ ${2} ยินดีต้อนรับ ${2}!
+10320000425	${1} changed ${2}'s position from ${3} to ${4}.	${1} เปลี่ยนตำแหน่งของ ${2} จาก ${3} เป็น ${4}
+10320000427	${1} successfully impeached Guild Leader ${2} and became the new Guild Leader.	${1} ปลดหัวหน้ากิลด์ ${2} สำเร็จและกลายเป็นหัวหน้ากิลด์คนใหม่
+10320000429	${1} spent ${2} Guild Contribution to Level-up the ${3} building to Lv. ${4}.	${1} ใช้Guild Contribution ${2} เพื่อเพิ่มเลเวลสิ่งปลูกสร้าง ${3} เป็น Lv. ${4}
+10320000430	${1} spent ${2} Guild Supplies to Level-up the ${3} effect.	${1} ใช้Guild Supplies ${2} เพื่อเพิ่มเลเวลเอฟเฟกต์ ${3}
+10320000431	${1} spent ${2} Guild Supplies to activate the ${4} strategy for ${3}.	${1} ใช้Guild Supplies ${2} เพื่อเปิดใช้งานกลยุทธ์ ${4} สำหรับ ${3}
+10320000432	${1} spent ${2} Guild Funds to purchase ${3} × ${4}.	${1} ใช้Guild Funds ${2} เพื่อซื้อ ${3} × ${4}
+10320000433	Guild Member ${1} has chosen to Impeach the Guild Leader. Please respond and help keep the guild thriving.	สมาชิกกิลด์ ${1} เลือกยื่นถอดถอนหัวหน้ากิลด์ โปรดตอบรับและช่วยให้กิลด์เจริญรุ่งเรืองต่อไป
+10320000435	${1}, ${2}, and ${3} founded the guild together. This is where the dream begins!	${1}, ${2} และ ${3} ร่วมกันก่อตั้งกิลด์ ความฝันเริ่มต้นที่นี่!
+10320000436	${1} has officially been founded. From now on, we're family!	${1} ก่อตั้งอย่างเป็นทางการแล้ว จากนี้ไปพวกเราคือครอบครัว!
+10320000438	Unfortunately, ${1} has left the Adventure Party.	น่าเสียดายที่ ${1} ออกจากปาร์ตี้นักผจญภัยแล้ว
+10320000442	${1} unlocked the Adventure Party calling card “${2}.”	${1} ปลดล็อกนามบัตรปาร์ตี้นักผจญภัย “${2}”
+10320000444	The leader of ^{1}${1} Adventure Party^{2} has been changed to ${2}.	หัวหน้าของ ^{1}ปาร์ตี้นักผจญภัย ${1}^{2} เปลี่ยนเป็น ${2} แล้ว
+10320000445	${1} has transferred leadership of ^{1}${2} Adventure Party^{2} to you.	${1} โอนตำแหน่งหัวหน้าของ ^{1}ปาร์ตี้นักผจญภัย ${2}^{2} ให้คุณแล้ว
+10320000446	^{1}${1} Adventure Party^{2} has been disbanded.	^{1}ปาร์ตี้นักผจญภัย ${1}^{2} ถูกยุบแล้ว
+10320000449	You have joined ^{1}${1} Adventure Party^{2}.	คุณเข้าร่วม ^{1}ปาร์ตี้นักผจญภัย ${1}^{2} แล้ว
+10320000453	${1} Adamantine Madogear Pilot has respawned.	${1} Adamantine Madogear Pilot เกิดใหม่แล้ว
+10320000463	Collect Live Coals and add them to the Bonfire\nPrepare for the party	เก็บ Live Coals และเติมลงในกองไฟ\nเตรียมพร้อมสำหรับงานเลี้ยง
+10320000464	The Bonfire reached Lv. ${1} and unlocked a new ability.	กองไฟถึง Lv. ${1} และปลดล็อกความสามารถใหม่แล้ว
+10320000465	Thanks to everyone's tireless efforts, the Bonfire has reached the maximum level!	ด้วยความพยายามอย่างไม่ย่อท้อของทุกคน กองไฟจึงถึงเลเวลสูงสุดแล้ว!
+10320000466	^{1}[${1}]^{2} added an accelerant, replacing [${2}] with [${3}].	^{1}[ ${1} ]^{2} เติมสารเร่งไฟ เปลี่ยน [ ${2} ] เป็น [ ${3} ]
+10320000467	^{1}[${1}]^{2} added a high-quality accelerant, replacing [${2}] with [${3}].	^{1}[ ${1} ]^{2} เติมสารเร่งไฟคุณภาพสูง เปลี่ยน [ ${2} ] เป็น [ ${3} ]
+10320000469	Congratulations and best wishes for prosperity! ${1} won the ${2} Prize!	ขอแสดงความยินดีและขอให้เจริญรุ่งเรือง! ${1} ได้รับรางวัล ${2}!
+10320000471	The Bonfire Party has come to a successful close. See you next time!	Bonfire Party จบลงอย่างราบรื่น พบกันครั้งหน้า!
+10320000472	${1} added Fuel, changing the Bonfire's abilities!	${1} เติมเชื้อเพลิง เปลี่ยนความสามารถของกองไฟ!
+10320000474	Everyone successfully repelled the BOSS!\n[${1}] landed the final blow!	ทุกคนขับไล่บอสสำเร็จ!\n[ ${1} ] เป็นผู้โจมตีปิดฉาก!
+10320000475	Now for an exciting moment! Who will be the lucky winner?\nThird Prize Drawing	ถึงช่วงเวลาน่าตื่นเต้นแล้ว! ใครจะเป็นผู้โชคดี?\nจับรางวัลที่สาม
+10320000476	The stage is set for the grand finale. The ultimate showdown is about to begin!	เวทีพร้อมสำหรับการแสดงปิดฉากอันยิ่งใหญ่แล้ว การประลองสุดยอดกำลังจะเริ่ม!
+10320000477	The fun and good fortune keep coming! It's time for the prize drawing!\nSecond Prize Drawing	ความสนุกและโชคดียังมาไม่หยุด! ถึงเวลาจับรางวัลแล้ว!\nจับรางวัลที่สอง
+10320000478	The long-awaited grand prize is about to be revealed! Who will be tonight's luckiest winner?\nFirst Prize Drawing	รางวัลใหญ่ที่รอคอยกำลังจะเผยโฉม! ใครจะเป็นผู้โชคดีที่สุดในคืนนี้?\nจับรางวัลที่หนึ่ง
+10320000479	The party's Third Prize will be drawn in @{1} seconds. Stay tuned!	จะจับรางวัลที่สามของงานเลี้ยงในอีก @{1} วินาที โปรดรอติดตาม!
+10320000480	The party's Second Prize will be drawn in @{1} seconds. Stay tuned!	จะจับรางวัลที่สองของงานเลี้ยงในอีก @{1} วินาที โปรดรอติดตาม!
+10320000481	The party's First Prize will be drawn in @{1} seconds. Stay tuned!	จะจับรางวัลที่หนึ่งของงานเลี้ยงในอีก @{1} วินาที โปรดรอติดตาม!
+10320000482	A huge wave of treasure-laden Porings is being drawn to the Bonfire!	ฝูง Porings จำนวนมหาศาลที่บรรทุกสมบัติกำลังถูกดึงดูดมาที่กองไฟ!
+10320000486	It's time for the grand finale! Get ready for the ultimate showdown—\n【MVP Challenge】	ถึงเวลาปิดฉากครั้งยิ่งใหญ่แล้ว! เตรียมพร้อมสำหรับการประลองสุดยอด—\n[ MVP Challenge ]
+10320000487	Attention, Audience! The show is about to begin, and the fun is about to start!	ผู้ชมทุกท่าน โปรดทราบ! การแสดงกำลังจะเริ่ม ความสนุกกำลังจะมา!
+10320000488	Give a big round of applause for our opening act—\n【${1}】	ขอเสียงปรบมือดัง ๆ ให้การแสดงเปิดงานของเรา—\n[ ${1} ]
+10320000489	Watch out!\nThe mischievous little monsters are getting restless below the stage!	ระวัง!\nมอนสเตอร์ตัวน้อยจอมซนเริ่มอยู่ไม่สุขใต้เวทีแล้ว!
+10320000490	The adorable monsters can't wait any longer! Enjoy this fun-filled game—\n【${1}】	มอนสเตอร์แสนน่ารักรอไม่ไหวแล้ว! สนุกกับเกมที่เต็มไปด้วยความหรรษานี้—\n[ ${1} ]
+10320000491	Attention!\nA group of little monsters carrying treasure is ready!	โปรดทราบ!\nกลุ่มมอนสเตอร์ตัวน้อยที่บรรทุกสมบัติพร้อมแล้ว!
+10320000492	A thrilling and fun challenge is about to begin—\n【${1}】	การท้าทายที่ตื่นเต้นและสนุกสนานกำลังจะเริ่ม—\n[ ${1} ]
+10320000493	Too few players joined the party, so the Troublemaker Poring took the rewards!	มีผู้เล่นเข้าร่วมงานเลี้ยงน้อยเกินไป Troublemaker Poring จึงเอารางวัลไปแล้ว!
+10320000494	Unfortunately, there are no players with the corresponding transformation type here.\nThe drawing has no winner.	น่าเสียดายที่ไม่มีผู้เล่นที่มีประเภทการแปลงร่างตรงกันอยู่ที่นี่\nการจับรางวัลครั้งนี้ไม่มีผู้ชนะ
+10320000495	An exciting moment is approaching!\nPlayers in 【${1}】, get ready!	ช่วงเวลาน่าตื่นเต้นกำลังจะมาถึง!\nผู้เล่นใน [ ${1} ] เตรียมตัวให้พร้อม!
+10320000496	Good fortune is still brewing!\nPlayers in 【${1}】, get ready!	โชคดียังรอจังหวะอยู่!\nผู้เล่นใน [ ${1} ] เตรียมตัวให้พร้อม!
+10320000497	The most exciting grand prize is about to be revealed!\nPlayers in 【${1}】, rejoice!	รางวัลใหญ่ที่น่าตื่นเต้นที่สุดกำลังจะเผยโฉม!\nผู้เล่นใน [ ${1} ] จงยินดี!
+10320000499	Gain the Big Head effect and choose You or an Other player to give a big head.	รับเอฟเฟกต์ Big Head และเลือกตัวคุณเองหรือผู้เล่นอื่นเพื่อทำให้หัวโต
+10320000500	^{1}${1}^{2} used Enlarge on ^{3}${2}^{4}, making them big and mighty!	^{1}${1}^{2} ใช้ Enlarge กับ ^{3}${2}^{4} ทำให้ตัวใหญ่และทรงพลัง!
+10320000501	Gain the Enlarge effect and choose You or an Other player to Enlarge.	รับเอฟเฟกต์ Enlarge และเลือกตัวคุณเองหรือผู้เล่นอื่นเพื่อขยายร่าง
+10320000502	^{1}${1}^{2} made ^{3}${2}^{4} Shrink—so tiny and Cute!	^{1}${1}^{2} ทำให้ ^{3}${2}^{4} หดตัว—เล็กจิ๋วและน่ารักมาก!
+10320000503	Gain the Shrink effect and choose You or an Other player to Shrink.	รับเอฟเฟกต์ Shrink และเลือกตัวคุณเองหรือผู้เล่นอื่นเพื่อย่อร่าง
+10320000504	^{1}${1}^{2} and ^{3}${2}^{4} are bound by the red thread of fate, their hearts beating as one!	^{1}${1}^{2} กับ ^{3}${2}^{4} ผูกพันกันด้วยด้ายแดงแห่งโชคชะตา หัวใจเต้นเป็นหนึ่งเดียว!
+10320000505	Obtain a Red Thread and choose one player to connect with.	รับ Red Thread และเลือกผู้เล่นหนึ่งคนเพื่อเชื่อมโยงด้วย
+10320000506	A new Live Coal has appeared in the territory	Live Coal ใหม่ปรากฏในอาณาเขตแล้ว
+10320000507	A group of troublemakers has arrived at the venue. Repel them!\nRepel the Troublemakers	กลุ่มจอมก่อกวนมาถึงสถานที่จัดงานแล้ว ขับไล่พวกมัน!\nขับไล่จอมก่อกวน
+10320000508	New troublemakers have appeared in the territory	จอมก่อกวนกลุ่มใหม่ปรากฏในอาณาเขตแล้ว
+10320000509	Choose yourself or another player to make them bigger	เลือกตัวคุณเองหรือผู้เล่นอื่นเพื่อขยายร่าง
+10320000510	Choose yourself or another player to make them smaller	เลือกตัวคุณเองหรือผู้เล่นอื่นเพื่อย่อร่าง
+10320000512	${1} Guild will begin transporting supplies in ${2}	กิลด์ ${1} จะเริ่มขนส่งเสบียงในอีก ${2}
+10320000513	Supply Transport Begins\n${1} Guild has begun escorting supplies	การขนส่งเสบียงเริ่มแล้ว\nกิลด์ ${1} เริ่มคุ้มกันเสบียงแล้ว
+10320000514	${1} Guild will finish transporting supplies in ${2}	กิลด์ ${1} จะขนส่งเสบียงเสร็จในอีก ${2}
+10320000515	Supply Transport Ends\n${1} Guild has finished transporting supplies	การขนส่งเสบียงสิ้นสุดแล้ว\nกิลด์ ${1} ขนส่งเสบียงเสร็จแล้ว
+10320000519	@{1} of our ^{1}Elite Treasure Carts^{2} are under attack!^{3}^{4}^{5}Rescue Now^{6}^{7}^{8}	@{1} คันจาก ^{1}Elite Treasure Carts^{2} ของเรากำลังถูกโจมตี!^{3}^{4}^{5}ช่วยเหลือทันที^{6}^{7}^{8}
+10320000522	Your party successfully escorted the supplies	ปาร์ตี้ของคุณคุ้มกันเสบียงสำเร็จ
+10320000523	${1} successfully escorted a Basic Supply Cart!	${1} คุ้มกัน Basic Supply Cart สำเร็จ!
+10320000524	${1} successfully escorted an Elite Treasure Cart!	${1} คุ้มกัน Elite Treasure Cart สำเร็จ!
+10320000525	${1} successfully raided another Guild's Supply Cart and obtained ${2} supplies!	${1} ปล้น Supply Cart ของกิลด์อื่นสำเร็จและได้รับเสบียง ${2}!
+10320000526	Supply Transport has begun! A fierce battle is about to unfold on the Territory War map.	การขนส่งเสบียงเริ่มแล้ว! การต่อสู้อันดุเดือดกำลังจะเปิดฉากบนแผนที่ Territory War
+10320000527	Supply Transport will begin in @{1} minutes. Every Member, get ready!	การขนส่งเสบียงจะเริ่มในอีก @{1} นาที สมาชิกทุกคนเตรียมตัวให้พร้อม!
+10320000528	${1}'s party successfully escorted @{1} Basic Supply Cart(s), adding ${3} Military Supplies to the Guild.	ปาร์ตี้ของ ${1} คุ้มกัน Basic Supply Cart จำนวน @{1} คันสำเร็จ เพิ่มMilitary Supplies ${3} ให้กิลด์
+10320000529	The Supply Transport event has ended. During this event, all Members transported a total of ^{1}${1}^{2}/${2} Military Supplies.\nThe key Member who transported the supplies was: \n${3}  ${4} points	กิจกรรมขนส่งเสบียงสิ้นสุดแล้ว ในกิจกรรมนี้ สมาชิกทุกคนขนส่งMilitary Suppliesรวม ^{1}${1}^{2}/${2}\nสมาชิกคนสำคัญที่ขนส่งเสบียงคือ: \n${3}  ${4} คะแนน
+10320000530	${1} turned in ${2} Military Supplies, further increasing the Guild's strategic reserves!	${1} ส่งมอบMilitary Supplies ${2} ทำให้กองคลังสำรองทางยุทธศาสตร์ของกิลด์เพิ่มขึ้นอีก!
+10320000531	${1}'s party successfully escorted @{1} Elite Treasure Cart(s), adding ${3} Military Supplies to the Guild.	ปาร์ตี้ของ ${1} คุ้มกัน Elite Treasure Cart จำนวน @{1} คันสำเร็จ เพิ่มMilitary Supplies ${3} ให้กิลด์
+10320000532	The Supply Transport event has ended. During this event, all Members transported a total of ^{1}${1}^{2}/${2} Military Supplies.\nThe Members who transported the supplies were: \n${3}  ${4} points\n${5}  ${6} points	กิจกรรมขนส่งเสบียงสิ้นสุดแล้ว ในกิจกรรมนี้ สมาชิกทุกคนขนส่งMilitary Suppliesรวม ^{1}${1}^{2}/${2}\nสมาชิกที่ขนส่งเสบียงคือ: \n${3}  ${4} คะแนน\n${5}  ${6} คะแนน
+10320000533	The Supply Transport event has ended. During this event, all Members transported a total of ^{1}${1}^{2}/${2} Military Supplies.\nThe top three Members by supplies transported were: \n${3}  ${4} points\n${5}  ${6} points\n${7}  ${8} points	กิจกรรมขนส่งเสบียงสิ้นสุดแล้ว ในกิจกรรมนี้ สมาชิกทุกคนขนส่งMilitary Suppliesรวม ^{1}${1}^{2}/${2}\nสมาชิกสามอันดับแรกตามจำนวนเสบียงที่ขนส่งคือ: \n${3}  ${4} คะแนน\n${5}  ${6} คะแนน\n${7}  ${8} คะแนน
+10320000534	${1}'s party has accepted a Basic Supply Cart.	ปาร์ตี้ของ ${1} รับ Basic Supply Cart แล้ว
+10320000535	${1}'s party has accepted an Elite Treasure Cart.	ปาร์ตี้ของ ${1} รับ Elite Treasure Cart แล้ว
+10320000536	The ${1} Guild's Elite Treasure Cart has been completely destroyed!	Elite Treasure Cart ของกิลด์ ${1} ถูกทำลายจนหมดแล้ว!
+10320000537	The ${1} Guild has completed its supply escort!	กิลด์ ${1} คุ้มกันเสบียงเสร็จแล้ว!
+10320000538	Guild Supply Transport has begun. Tap to go to the corresponding map.	การขนส่งเสบียงกิลด์เริ่มแล้ว แตะเพื่อไปยังแผนที่ที่เกี่ยวข้อง
+10320000540	${1} has started the Dragon Crafting quest and invites all Adventurers to help!	${1} เริ่มเควสต์ Dragon Crafting แล้ว และขอเชิญนักผจญภัยทุกคนมาช่วย!
+10320000541	${1} will begin the Dragon's Descent ritual in Prontera in ${2} seconds and invites all Adventurers to participate!	${1} จะเริ่มพิธี Dragon's Descent ที่ Prontera ในอีก ${2} วินาที และขอเชิญนักผจญภัยทุกคนเข้าร่วม!
+10320000542	${1} has begun the Starshatter Dragon summoning ritual. Adventurers, go lend a hand!${2}	${1} เริ่มพิธีอัญเชิญ Starshatter Dragon แล้ว นักผจญภัย ไปช่วยกัน!${2}
+10320000543	${1} has completed the summoning ritual. The Starshatter Dragon will descend upon the capital in @{1} seconds. Adventurers are invited to come watch!${2}	${1} ทำพิธีอัญเชิญเสร็จแล้ว Starshatter Dragon จะลงมาสู่เมืองหลวงในอีก @{1} วินาที ขอเชิญนักผจญภัยมาชม!${2}
+10320000544	${1} used the Dragon Sanctuary, causing numerous Red Envelopes to appear in ${2}. Adventurers are invited to claim them.	${1} ใช้ Dragon Sanctuary ทำให้ Red Envelopes จำนวนมากปรากฏใน ${2} ขอเชิญนักผจญภัยมารับ
+10320000545	A Rift Stone has appeared on Channel ^{3}${2}^{4} in ^{1}${1}^{2}. Adventurers, hurry over and challenge it~	Rift Stone ปรากฏบนแชนแนล ^{3}${2}^{4} ใน ^{1}${1}^{2} นักผจญภัย รีบไปท้าทายกัน~
+10630000460	No Members have been summoned to the five-player party.	ยังไม่มีสมาชิกถูกเรียกมายังปาร์ตี้ห้าคน
+10630000461	The Party Leader is in an instance and cannot be followed	หัวหน้าปาร์ตี้อยู่ในอินสแตนซ์และไม่สามารถติดตามได้
+10630000471	The party name does not meet the requirements.	ชื่อปาร์ตี้ไม่ตรงตามข้อกำหนด
+10630000472	The party declaration does not meet the requirements.	ประกาศปาร์ตี้ไม่ตรงตามข้อกำหนด
+10630000473	The party recruitment message does not meet the requirements.	ข้อความรับสมัครปาร์ตี้ไม่ตรงตามข้อกำหนด
+10630000475	A Member is in a Dungeon. The party size cannot be changed.	มีสมาชิกอยู่ในดันเจี้ยน เปลี่ยนขนาดปาร์ตี้ไม่ได้
+10630000476	Cannot follow into a Guild Dungeon because you belong to different guilds.	ติดตามเข้าดันเจี้ยนกิลด์ไม่ได้ เนื่องจากอยู่ต่างกิลด์
+10630000479	${1} does not meet the requirements to Enter Dungeon.	${1} ไม่ตรงตามเงื่อนไขเข้าดันเจี้ยน
+10630000480	Cannot Enter another Dungeon during Placement confirmation.	เข้าดันเจี้ยนอื่นระหว่าง Placement confirmation ไม่ได้
+10630000481	You are in a special Location and cannot Initiate a party, submit a Request, or Follow.	คุณอยู่ในพื้นที่พิเศษ จึงเริ่มปาร์ตี้ ส่งคำขอ หรือติดตามไม่ได้
+10630000482	The target is in a special Location and cannot be invited or accepted into the party.	เป้าหมายอยู่ในพื้นที่พิเศษ จึงเชิญหรือรับเข้าปาร์ตี้ไม่ได้
+10630000483	The Party Leader is in a special Location and cannot invite or accept players into the party.	หัวหน้าปาร์ตี้อยู่ในพื้นที่พิเศษ จึงเชิญหรือรับผู้เล่นเข้าปาร์ตี้ไม่ได้
+10630000484	You are in a special Location and cannot Follow.	คุณอยู่ในพื้นที่พิเศษ จึงติดตามไม่ได้
+10630000492	Cannot Replace the Formation during a Spirit Tower Battle.	เปลี่ยนทีมระหว่างการต่อสู้ใน Spirit Tower ไม่ได้
+10630000494	The Luxury Dragon quest is already in progress	เควสต์ Luxury Dragon กำลังดำเนินอยู่แล้ว
+10630000501	Unable to find the Luxury Dragon configuration ID	ไม่พบ ID การตั้งค่า Luxury Dragon
+10630000502	The Unseal quest can only be started once every @{1} hours	เริ่มเควสต์ Unseal ได้เพียงหนึ่งครั้งทุก @{1} ชั่วโมง
+10630000505	The card must be ranked up before it can Level-up	ต้องเพิ่มอันดับการ์ดก่อนจึงจะเพิ่มระดับได้
+10630000509	This card cannot be inserted into this Bond slot	ไม่สามารถใส่การ์ดนี้ในช่องพันธะนี้ได้
+10630000516	Only one card with the same name can be socketed. Already socketed: ${1}	ใส่การ์ดชื่อเดียวกันได้เพียงหนึ่งใบ ใส่อยู่แล้ว: ${1}
+10630000517	Backpack is full. @{1}-star cards cannot be advanced	กระเป๋าเต็ม เลื่อนขั้นการ์ด @{1} ดาวไม่ได้
+10630000518	Only one card that changes armor elemental properties can be socketed. Already socketed: ${1}	ใส่การ์ดที่เปลี่ยนธาตุเกราะได้เพียงหนึ่งใบ ใส่อยู่แล้ว: ${1}
+10630000524	Cards of this quality cannot be added to the Collection	เพิ่มการ์ดคุณภาพนี้ในคอลเลกชันไม่ได้
+10630000525	Cards of this quality yield no Collection rewards	การ์ดคุณภาพนี้ไม่มอบรางวัลคอลเลกชัน
+10630000530	Unable to Level-up under the current conditions	เพิ่มเลเวลภายใต้เงื่อนไขปัจจุบันไม่ได้
+10630000531	Pet Level-up cannot exceed the player's level	เลเวลสัตว์เลี้ยงสูงกว่าเลเวลผู้เล่นไม่ได้
+10630000533	Maximum rank reached for the current star rating	ถึงขั้นสูงสุดของระดับดาวปัจจุบันแล้ว
+10630000540	Maximum number of deployed pets of this type reached	ถึงจำนวนสัตว์เลี้ยงประเภทนี้ที่ลงสนามได้สูงสุดแล้ว
+10630000541	Pet must reach the maximum star rating before it can be dismantled	สัตว์เลี้ยงต้องถึงระดับดาวสูงสุดก่อนจึงจะย่อยได้
+10630000549	Pet is currently deployed or assigned as support	สัตว์เลี้ยงกำลังลงสนามหรือเป็นตัวสนับสนุน
+10630000553	Cannot perform this action while deployed or in Battle Status	ทำรายการนี้ขณะลงสนามหรืออยู่ในสถานะต่อสู้ไม่ได้
+10630000556	Pet must break through before it can continue to Level-up	สัตว์เลี้ยงต้องทะลวงขีดจำกัดก่อนจึงจะเพิ่มเลเวลต่อได้
+10630000596	The current Pet Search has been updated or ended	Pet Search ปัจจุบันอัปเดตหรือสิ้นสุดแล้ว
+10630000604	This server is temporarily unable to purchase items from the World Auction.	เซิร์ฟเวอร์นี้ซื้อไอเทมจาก World Auction ไม่ได้ชั่วคราว
+10630000605	Your character is temporarily unable to purchase items from the World Auction. Unseal time: ${1}.	ตัวละครของคุณซื้อไอเทมจาก World Auction ไม่ได้ชั่วคราว เวลาปลดล็อก: ${1}
+10630000606	This server is temporarily unable to purchase items from the Instance Auction.	เซิร์ฟเวอร์นี้ซื้อไอเทมจาก Instance Auction ไม่ได้ชั่วคราว
+10630000607	Your character is temporarily unable to purchase items from the Instance Auction. Unseal time: ${1}.	ตัวละครของคุณซื้อไอเทมจาก Instance Auction ไม่ได้ชั่วคราว เวลาปลดล็อก: ${1}
+10630000608	This server is temporarily unable to purchase items from the Guild Auction.	เซิร์ฟเวอร์นี้ซื้อไอเทมจาก Guild Auction ไม่ได้ชั่วคราว
+10630000609	Your character is temporarily unable to purchase items from the Guild Auction. Unseal time: ${1}.	ตัวละครของคุณซื้อไอเทมจาก Guild Auction ไม่ได้ชั่วคราว เวลาปลดล็อก: ${1}
+10630000613	The current bid price has changed. Please bid again.	ราคาเสนอปัจจุบันเปลี่ยนแล้ว โปรดเสนอราคาอีกครั้ง
+10630000625	This item is not currently being auctioned. Fixed price purchase failed.	ไอเทมนี้ไม่ได้อยู่ในการประมูล ซื้อราคาคงที่ไม่สำเร็จ
+10630000626	The maximum price has been reached. Cannot Bid.	ถึงราคาสูงสุดแล้ว เสนอราคาไม่ได้
+10630000627	Auto-Bid has already been initiated. Another Pre-purchase at the same price is Not Required.	เริ่มเสนอราคาอัตโนมัติแล้ว ไม่ต้องสั่งซื้อล่วงหน้าอีกในราคาเดียวกัน
+10630000641	A Member is not a friend. Failed to create friend group.	มีสมาชิกที่ไม่ใช่เพื่อน สร้างกลุ่มเพื่อนไม่สำเร็จ
+10630000642	Repeat Member. Failed to create friend group.	มีสมาชิกซ้ำ สร้างกลุ่มเพื่อนไม่สำเร็จ
+10630000651	Member already exists in the friend group. Failed to add Member.	สมาชิกอยู่ในกลุ่มเพื่อนแล้ว เพิ่มสมาชิกไม่สำเร็จ
+10630000652	Member does not exist in the friend group. Failed to remove Member.	สมาชิกไม่ได้อยู่ในกลุ่มเพื่อน ลบสมาชิกไม่สำเร็จ
+10630000656	A Member is not a friend. Failed to create Group Chat.	มีสมาชิกที่ไม่ใช่เพื่อน สร้างแชตกลุ่มไม่สำเร็จ
+10630000662	At least two Members are required for a friend Group Chat	แชตกลุ่มเพื่อนต้องมีสมาชิกอย่างน้อยสองคน
+10630000676	You can only send gifts to friends on the same server	ส่งของขวัญให้เพื่อนได้เฉพาะในเซิร์ฟเวอร์เดียวกัน
+10630000686	This appearance is Neutral and cannot be applied	รูปลักษณ์นี้เป็น Neutral และนำมาใช้ไม่ได้
+10630000688	The other player has already unlocked this appearance	ผู้เล่นอีกฝ่ายปลดล็อกรูปลักษณ์นี้แล้ว
+10630000690	The Stall limit for this area has been reached	ถึงขีดจำกัดแผงค้าของพื้นที่นี้แล้ว
+10630000704	Your post contains restricted words. Please revise it.	โพสต์ของคุณมีคำที่ถูกจำกัด โปรดแก้ไข
+10630000705	The Share Function is on cooldown. Please do not use it too frequently.	ฟังก์ชันแชร์อยู่ระหว่าง CD โปรดอย่าใช้ถี่เกินไป
+10630000706	Items at Stalls are temporarily unavailable for purchase on this server.	เซิร์ฟเวอร์นี้ซื้อไอเทมจากแผงค้าไม่ได้ชั่วคราว
+10630000707	Your character is temporarily unable to purchase items at Stalls. Unseal time: ${1}.	ตัวละครของคุณซื้อไอเทมจากแผงค้าไม่ได้ชั่วคราว เวลาปลดล็อก: ${1}
+10630000708	Stall items cannot be listed on this server at this time.	ขณะนี้ลงขายไอเทมที่แผงค้าบนเซิร์ฟเวอร์นี้ไม่ได้
+10630000709	Your character is temporarily unable to list Stall items. Unseal time: ${1}.	ตัวละครของคุณลงขายไอเทมที่แผงค้าไม่ได้ชั่วคราว เวลาปลดล็อก: ${1}
+10630000710	Stalls are temporarily unavailable on this server.	เซิร์ฟเวอร์นี้ใช้แผงค้าไม่ได้ชั่วคราว
+10630000711	Your character is temporarily unable to open a Stall. Unseal time: ${1}.	ตัวละครของคุณเปิดแผงค้าไม่ได้ชั่วคราว เวลาปลดล็อก: ${1}
+10630000726	You already have an unclaimed gift containing the same appearance	คุณมีของขวัญที่ยังไม่รับซึ่งมีรูปลักษณ์เดียวกันอยู่แล้ว
+10630000736	The recipient is not on the same Season server	ผู้รับไม่ได้อยู่บนเซิร์ฟเวอร์ฤดูกาลเดียวกัน
+10630000738	No Divine Arts Totem is equipped in this slot	ไม่มี Divine Arts Totem ติดตั้งในช่องนี้
+10630000742	This skill is already on the Divine Arts Totem	Divine Arts Totem มีสกิลนี้อยู่แล้ว
+10630000743	Cannot combine items of different class tiers	รวมไอเทมต่างขั้นคลาสกันไม่ได้
+10630000749	A Divine Arts Totem in this loadout does not exist	Divine Arts Totem ในชุดนี้ไม่มีอยู่
+10630000752	You cannot enter because you are on this room's Blocks list	เข้าไม่ได้ เนื่องจากคุณอยู่ในรายการบล็อกของห้องนี้
+10630000753	You do not have permission to perform this action	คุณไม่มีสิทธิ์ดำเนินการนี้
+10630000756	Room ownership cannot be transferred to a player on the Blocks list	โอนเจ้าของห้องให้ผู้เล่นในรายการบล็อกไม่ได้
+10630000757	This player is muted. Unmute them before performing this action.	ผู้เล่นนี้ถูกปิดเสียง โปรดเปิดเสียงก่อนทำรายการนี้
+10630000761	You must be in the mic queue to perform this action	ต้องอยู่ในคิวไมโครโฟนก่อนจึงจะทำรายการนี้ได้
+10630000763	Gifts cannot be sent to players on other servers	ส่งของขวัญให้ผู้เล่นต่างเซิร์ฟเวอร์ไม่ได้
+10630000772	You're clicking too quickly. Please try again later.	คุณคลิกเร็วเกินไป โปรดลองใหม่ภายหลัง
+10630000789	Auto-battle time was too short. No earnings summary is available.	เวลาต่อสู้อัตโนมัติสั้นเกินไป จึงไม่มีสรุปรายรับ
+10630000793	Cannot use skill while using a Yggdrasil Leaf.	ใช้สกิลขณะใช้ Yggdrasil Leaf ไม่ได้
+10630000794	Cannot use skill while under the ${1} status.	ใช้สกิลขณะอยู่ในสถานะ ${1} ไม่ได้
+10630000795	The ${1} skill is currently being chanted or cast.	สกิล ${1} กำลังร่ายหรือปล่อยอยู่
+10630000808	Skill use was interrupted by the ${1} status.	การใช้สกิลถูกขัดจังหวะโดยสถานะ ${1}
+10630000809	Skill chanting was interrupted by the ${1} status.	การร่ายสกิลถูกขัดจังหวะโดยสถานะ ${1}
+10630000810	Skill casting was interrupted by the ${1} status.	การปล่อยสกิลถูกขัดจังหวะโดยสถานะ ${1}
+10630000821	Invalid skill base type. Cannot be used actively.	ประเภทพื้นฐานสกิลไม่ถูกต้อง กดใช้เองไม่ได้
+10630000823	A similar skill effect is already active in this area. Please try again later.	มีผลสกิลคล้ายกันทำงานในพื้นที่นี้แล้ว โปรดลองใหม่ภายหลัง
+10630000829	There is no Soul Echo in the deployment slot.	ไม่มี Soul Echo ในช่องลงสนาม
+10630000832	The selected preset is the same as the Current Preset.	ชุดที่เลือกเหมือนกับชุดปัจจุบัน
+10630000835	The selected preset is invalid because it contains an item that does not exist.	ชุดที่เลือกไม่ถูกต้อง เนื่องจากมีไอเทมที่ไม่มีอยู่
+10630000836	Only Soul Echoes from the current scenario can be deployed.	ลงสนามได้เฉพาะ Soul Echo จากฉากปัจจุบัน
+10630000855	${1} does not meet the requirements to open this dungeon, so it cannot be opened.	${1} ไม่ตรงตามเงื่อนไขเปิดดันเจียนนี้ จึงเปิดไม่ได้
+10630000857	The other player is busy. Interaction is unavailable.	ผู้เล่นอีกฝ่ายไม่ว่าง ใช้ปฏิสัมพันธ์ไม่ได้
+10630000864	The Distance is too great. Interaction unavailable.	ห่างเกินไป ใช้ปฏิสัมพันธ์ไม่ได้
+10630000870	Landing points cannot be selected at this stage.	เลือกจุดลงในช่วงนี้ไม่ได้
+10630000876	Cannot remove a skill while it is being cast.	นำสกิลออกขณะกำลังร่ายไม่ได้
+10630000877	Backpack weight limit reached. Unable to pick up the item.	กระเป๋าถึงขีดจำกัดน้ำหนักแล้ว เก็บไอเทมไม่ได้
+10630000879	The picked-up style matches your current style. Your style will not change.	สไตล์ที่เก็บได้ตรงกับสไตล์ปัจจุบัน สไตล์ของคุณจะไม่เปลี่ยน
+10630000881	${1} has not been unlocked. Unable to begin matchmaking.	ยังไม่ปลดล็อก ${1} เริ่มจับคู่ไม่ได้
+10630000882	Currently Queuing. Unable to enter a Cross-server area.	กำลังอยู่ในคิว เข้าพื้นที่ข้ามเซิร์ฟเวอร์ไม่ได้
+10630000884	The player is not dead and does not need to Revive.	ผู้เล่นยังไม่ตายและไม่ต้องคืนชีพ
+10630000890	All teammates are in good health and do not need to Revive.	เพื่อนร่วมทีมทุกคนสบายดีและไม่ต้องคืนชีพ
+10630000895	Your Backpack has reached its weight limit. Unable to purchase items.	กระเป๋าของคุณถึงขีดจำกัดน้ำหนักแล้ว ซื้อไอเทมไม่ได้
+10630000897	Equipped gear cannot be discarded during combat.	ทิ้งอุปกรณ์ที่สวมอยู่ระหว่างต่อสู้ไม่ได้
+10630000904	A party member is in an instance. Unable to start matchmaking.	มีสมาชิกปาร์ตี้อยู่ในพื้นที่เฉพาะ เริ่มจับคู่ไม่ได้
+10630000906	This party matchmaking mode is not supported.	ไม่รองรับโหมดจับคู่ปาร์ตี้นี้
+10630000908	This player is under a matchmaking penalty and cannot join matchmaking.	ผู้เล่นนี้อยู่ระหว่างโทษจับคู่และเข้าร่วมจับคู่ไม่ได้
+10630000910	A party Member is under a matchmaking penalty.	มีสมาชิกปาร์ตี้อยู่ระหว่างโทษจับคู่
+10630000921	${1} is currently under a matchmaking penalty and cannot join matchmaking.	${1} อยู่ระหว่างโทษจับคู่และเข้าร่วมจับคู่ไม่ได้
+10630000923	Your party includes an Offline player. Unable to start matchmaking.	มีผู้เล่นออฟไลน์ในปาร์ตี้ของคุณ เริ่มจับคู่ไม่ได้
+10630000927	Someone did not confirm. Please start matchmaking again.	มีคนไม่ยืนยัน โปรดเริ่มจับคู่อีกครั้ง
+10630000928	Matchmaking failed because a party member has an invalid status.	จับคู่ล้มเหลว เนื่องจากมีสมาชิกปาร์ตี้อยู่ในสถานะไม่ถูกต้อง
+10630000929	Too many requests. Please wait before starting matchmaking again.	คำขอมากเกินไป โปรดรอก่อนเริ่มจับคู่อีกครั้ง
+10630000930	Someone declined the instance entry request. Please join matchmaking again.	มีคนปฏิเสธคำขอเข้าพื้นที่เฉพาะ โปรดเข้าร่วมจับคู่อีกครั้ง
+10630000933	The match was canceled because not enough players confirmed Placement confirmation.	แมตช์ถูกยกเลิก เนื่องจากผู้เล่นยืนยัน Placement confirmation ไม่ครบตามจำนวนที่ต้องการ
+10630000934	Someone declined the match. You have returned to matchmaking at the front of the Lineup.	มีคนปฏิเสธแมตช์ คุณกลับเข้าจับคู่ที่ต้นคิวแล้ว
+10630000935	Cannot join matchmaking while a party Member is in a Dungeon.	เข้าร่วมจับคู่ขณะมีสมาชิกปาร์ตี้อยู่ในดันเจี้ยนไม่ได้
+10630000936	Matchmaking was canceled because a party Member entered another Dungeon.	ยกเลิกจับคู่แล้ว เนื่องจากสมาชิกปาร์ตี้เข้าดันเจี้ยนอื่น
+10630000937	Cannot manually Cancel during Placement confirmation.	ยกเลิกเองระหว่าง Placement confirmation ไม่ได้
+10630000939	The maximum number of players assisting this player has been reached. Unable to assist.	มีผู้เล่นช่วยคนนี้ครบจำนวนสูงสุดแล้ว ช่วยเหลือไม่ได้
+10630000940	You are responding to too many Get Help requests. Submit a response before responding to another player.	คุณกำลังตอบคำขอความช่วยเหลือมากเกินไป ส่งคำตอบก่อนตอบผู้เล่นอีกคน
+10630000943	This Get Help code does not exist or has expired.	รหัสขอความช่วยเหลือนี้ไม่มีอยู่หรือหมดอายุแล้ว
+10630000944	The System build linked to this personal build is invalid.	ชุดระบบที่เชื่อมกับชุดส่วนตัวนี้ไม่ถูกต้อง
+10630000946	You are switching Skill Builds too frequently. Please try again later.	คุณสลับบิลด์สกิลถี่เกินไป โปรดลองอีกครั้งในภายหลัง
