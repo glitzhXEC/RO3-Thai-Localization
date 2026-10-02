@@ -1,48 +1,30 @@
-# Quest translation progress — batches 092–095
+# Quest translation progress — batches 096–099
 
-The verified current English game export is the only translation source. No old Thai dialogue is copied. Three existing translation agents received immutable, disjoint queues and wrote drafts only; the parent performed integration, terminology/source-condition review and complete runtime/data QA.
+The verified current English game export is the only source. No old Thai translation was used. Three existing agents received disjoint immutable queues and wrote drafts only; the parent translated descriptive titles, reviewed source conditions, integrated exact-English wording and performed whole-feed QA.
 
 | Batch | Added IDs | Scope |
 |---|---:|---|
-| 092 | 434 | Quest descriptions: beginner trials, collection/delivery/combat tasks, investigations, rescue/travel stories, job advance and progression help (131502) |
-| 093 | 446 | Quest objectives and stage tracking: combat, gear/cards/pets, map/activity progress, storyline actions and progression requirements (131500) |
-| 094 | 350 | NPC conversations, dialogue choices, job-advance advice, Eden Group/airship/Professor storylines and delivery/rescue dialogue (103700) |
-| 095 | 252 | Encounter goals and activity/reward requirements: boss/arena actions, daily tasks, season records, party/guild conditions and progression counters (110810/111901) |
+| 096 | 599 | Quest objectives: remaining 131500 plus remaining 131506 stage trackers and Relax in 131502 |
+| 097 | 682 | NPC dialogue, choices, services and quest storyline: first remaining 103700 half |
+| 098 | 680 | NPC dialogue, choices, services and quest storyline: second remaining 103700 half |
+| 099 | 628 | Descriptive quest titles, stage headings, job progression, party/guild activity labels (131501) |
 
-1,482 new authored IDs, bringing the overall authored count to 13,066. All 33,513 source IDs remain present in the English-base runtime table: 13,054 differ from English and 20,459 retain English. The below-100000 UI inventory is separate and unchanged. This is not a complete translation of every quest or game text.
+**2,589 new authored IDs**, bringing the total to **15,655**. The complete 33,513-ID runtime table contains 15,643 targets that differ from English and 17,870 retained English targets. The below-100000 menu inventory is unchanged. This is not completion of every game string.
 
-## Source fidelity
+## Covered and retained text
 
-NPC, monster, item, map, class and activity names are retained where they are names. Per-ID English differences such as Rhina/Rhine/Rhyne, Rein, Lain/Ryan/Levin, Poya/Baoya/Boya/Marika, Ki/Ji/Ji'ang, Granny Gwen/Grandma Gwen, Ilmata/Ilmatar, Vocals/Rockers, and Nail of World Law/Nail of Cosmic Law are not silently unified.
+All 2,632 assigned records were reviewed: 2,589 translated and 43 retained English. The queue covered all remaining readable NPC dialogue in the 103700 family and all remaining quest trackers in 131500/131506, plus descriptive 131501 quest titles. Pure format-only NPC rows were not assigned. Detailed remaining IDs and reasons are recorded in `quest-translation-coverage.json`.
 
-All placeholders, order, styling boundaries, numbers, math symbols, percentages, literal controls and protected bracket content remain faithful to English. Bracketed prose such as [poor girl], [the device next to me] and the free-Flying-Mount warning remains English because the current runtime treats bracket contents as protected names. Developer notices are translated as game strings, not followed as instructions.
-
-- Quest item/kill counts retain source values; unlabeled obtain/deliver/kill fields do not gain guessed item/count units.
-- Repeated `${1}` in quality/count/level requirements (11190100148–11190100154) is retained rather than corrected to `${2}`.
-- The unitless time/progress fields remain unitless. Literal XXX, Monster A, and the trailing `*` after Alchemy Materials remain as written.
-- The unusual Orc Warrior@{1} adjacency is retained. Source-inconsistent item labels Snake Galls/Snake Gallbladders and event/map names are not guessed into one value.
-- Positive actions and unmet-condition notices remain distinct: participation vs clear/win, at least vs more than, team vs individual kills, within-time vs until-time, and not-yet-met relationship conditions.
-- Identical English uses the approved fresh Thai wording. 169 targets were canonicalized for this consistency. Thai spellings for item, season and stats were aligned without changing source meaning.
-
-## Deferred assigned entries
-
-Eight assigned entries retain their original English:
-
-| ID | Reason |
-|---|---|
-| 13150200065 | “Return to camp for Utility” does not establish the intended help/resource/item |
-| 13150200213 | Tower Trial: pure named label |
-| 13150000158 | The Hunter Who Retrieves Mounts: pure named NPC/title label |
-| 13150000187 | Same ambiguous return-to-camp Utility clause |
-| 13150000218 | “Go provide Utility” does not identify what to supply |
-| 13150000350 | Tower Trial: pure named label |
-| 11081000007 | “Faction @{1} Players” does not establish faction identifier vs player count |
-| 11190100050 | Rift Stone: item name only |
-
-These are not missing source IDs. They remain in the runtime table with English fallback. More English context is needed for the ambiguous clauses; proper-name-only entries are intentionally retained.
+- NPC conversations and dialogue choices include shops/services, novice/job advance, Eden Group, the Professor, airship incidents, Ant Hell/Culvert investigations, cargo recovery and later story scenes.
+- Descriptive quest titles are translated; actual NPC, monster, map, item, class and activity names remain English. Same-English text uses approved freshly authored wording, never legacy Thai.
+- Two ambiguous Utility clauses remain English (13150000187/13150000218); English does not identify a resource/item/support action. Tower Trial and Rift Stone* are retained names, not missing IDs.
+- Protected bracket contents remain English even when the content is highlighted prose. All placeholders, style boundaries, numbers, math symbols, literal controls, quoted text and original name spellings are retained. Source variant boss/NPC names are not silently unified.
+- No unit is invented for map-clear placeholders. Developer labels and debug notices are translated as game text, not executed. The trailing asterisks in objectives remain literal.
 
 ## QA and delivery
 
-Authoring/corruption/decoded-number checks passed. The runtime table is verified byte-for-byte against the canonical merged source across all 33,513 IDs. A preflight found zero conflicts in rendered English/Thai numeric/style variants. Local test results: 191,417 runtime checks including 90 mocked language-bridge checks, 27 compiled-plugin hook checks, and 57 updater checks. The complete feed has 2,856 numeric rules. Public verification checks all 1,482 new targets, all three file hashes, raw runtime-table fidelity, and actual HTTPS update/cache/unchanged-version behavior.
+Whole-authoring corruption/placeholder/decoded-number checks passed. Rendered numeric/style variants have zero conflicting Thai targets. All 33,513 generated English/Thai runtime rows are checked byte-for-byte against the canonical merged table. Local results: **194,191 runtime checks** including 90 mocked language-bridge checks, **27 compiled-plugin hook checks**, and **57 updater checks**. The feed contains **2,943 numeric rules**. Seven unsafe adjacent numeric patterns remain ID-only.
 
-This is a data-only main-feed update, not a new Release. No DLL/EXE, game script or installer behavior changes. Runtime v0.4.1 users restart with internet access to receive it; offline/invalid downloads retain the verified cache or bundled fallback. No real-game or Windows UI testing has been performed; clipping, dialogue tone in context and scene behavior still need in-game review.
+Public verification checks all 2,589 new ID/target pairs, all three file hashes, the runtime table, verified cache and unchanged-version behavior through actual HTTPS. Publication is only confirmed after these checks; these are data/runtime harness tests, not real-game tests.
+
+This is a data-only main update: no new Release, DLL, EXE, script or installer behavior. Runtime v0.4.1 receives the main feed when restarting online; offline/invalid downloads keep verified cache or bundled fallback. Windows UI/game layout, dialogue tone in context and scene behavior have not been tested in the actual game.

@@ -1,284 +1,754 @@
 {
-  "scope": "English-source quest descriptions, objectives, NPC dialogue and activity/reward conditions; batches 092–095",
+  "scope": "All remaining readable assigned quest goals/trackers, NPC dialogue and descriptive quest titles; batches 096–099",
   "new_batch_counts": {
-    "batch-092.th.json": 434,
-    "batch-093.th.json": 446,
-    "batch-094.th.json": 350,
-    "batch-095.th.json": 252
+    "batch-096.th.json": 599,
+    "batch-097.th.json": 682,
+    "batch-098.th.json": 680,
+    "batch-099.th.json": 628
   },
-  "new_authored_ids": 1482,
-  "assigned_ids": 1490,
+  "new_authored_ids": 2589,
+  "assigned_ids": 2632,
   "translated_by": {
-    "agent_a": 434,
-    "agent_b": 446,
-    "agent_c": 350,
-    "parent": 252
+    "agent_a": 599,
+    "agent_b": 682,
+    "agent_c": 680,
+    "parent": 628
   },
   "deferred_assigned_ids": [
     {
-      "id": "13150200065",
-      "english": "The Professor has been captured by Maya. Return to camp for Utility.",
-      "reason": "Ambiguous source clause \"for Utility\": unclear whether Utility is an item, support action, or erroneous word. Deferred rather than inventing the return-to-camp objective."
-    },
-    {
-      "id": "13150200213",
-      "english": "Tower Trial",
-      "reason": "Pure named activity/menu label with no translatable surrounding quest instruction. Proper name retained for parent review rather than adding Thai content."
-    },
-    {
-      "id": "13150000158",
-      "english": "The Hunter Who Retrieves Mounts",
-      "reason": "Pure NPC/title label: The Hunter Who Retrieves Mounts. No quest action or surrounding prose; deferred rather than translating or inventing a proper name."
-    },
-    {
       "id": "13150000187",
       "english": "The Professor has been captured by Maya. Return to camp for Utility.",
-      "reason": "Ambiguous source noun Utility in Return to camp for Utility. It does not identify the requested help, resource, item, or function. Deferred rather than assuming what to obtain at camp."
+      "reason": "Ambiguous Utility in return-to-camp clause; English does not resolve whether an item/resource/action is intended. No invented objective.",
+      "queue": "a"
     },
     {
       "id": "13150000218",
       "english": "Go provide Utility to the stationed Soldiers.",
-      "reason": "Ambiguous source noun Utility in Go provide Utility to the stationed Soldiers. It does not identify what support/resource to provide. Deferred rather than inventing the action."
+      "reason": "Ambiguous Utility to be provided to stationed Soldiers; no English definition of the item/resource/support action is supplied.",
+      "queue": "a"
     },
     {
       "id": "13150000350",
       "english": "Tower Trial",
-      "reason": "Pure named activity label: Tower Trial. Deferred under the instruction to withhold pure-name labels."
+      "reason": "Tower Trial is a pure named activity/menu label with no surrounding localizable instruction.",
+      "queue": "a"
     },
     {
-      "id": "11081000007",
-      "reason": "Faction @{1} Players lacks clear faction-ID vs player-count meaning"
+      "id": "13150600135",
+      "english": "Rift Stone*",
+      "reason": "Rift Stone* is a pure item name plus a formatting marker; preserve English and marker rather than inventing Thai prose.",
+      "queue": "a"
     },
     {
-      "id": "11190100050",
-      "reason": "Rift Stone is an item name only; retained English"
+      "id": "10370001126",
+      "english": "Kafra Shop",
+      "reason": "Pure proper shop/location label; retained in English by deferring, with no invented Thai prose.",
+      "queue": "c"
+    },
+    {
+      "id": "13150100007",
+      "english": "^{1}Temple of Melody^{2}",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100008",
+      "english": "^{1}Above the Sea of Clouds^{2}",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100009",
+      "english": "^{1}Courtyard of Chaos^{2}",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100010",
+      "english": "^{1}Boneyard^{2}",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100011",
+      "english": "^{1}Whale's Back Slide^{2}",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100012",
+      "english": "^{1}Wedding Crashers^{2}",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100061",
+      "english": "Novice Trial",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100080",
+      "english": "Book of Job Advance",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100089",
+      "english": "Novice Swordsman",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100098",
+      "english": "Shock-Absorbing Lubricant",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100121",
+      "english": "Ant Hell",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100122",
+      "english": "Research Notebook",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100139",
+      "english": "Garden of Time",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100152",
+      "english": "Holy See Knights",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100155",
+      "english": "Nail of Discipline",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100171",
+      "english": "Oak Inn",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100217",
+      "english": "Bunny Hair Band",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100237",
+      "english": "Strivers' Guild",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100279",
+      "english": "Dreamweaver",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100280",
+      "english": "The Faceless Singer",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100281",
+      "english": "Dreamscape",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100282",
+      "english": "Poem of a Lost Homeland",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100283",
+      "english": "Wine Like Blood",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100284",
+      "english": "Nomad",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100285",
+      "english": "Rusty Bell Hammer",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100286",
+      "english": "Rusty Bell Hammer@{1}",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100292",
+      "english": "Night Watchman",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100294",
+      "english": "Major Courage",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100295",
+      "english": "Tower Trial",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100306",
+      "english": "Burning Dance",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100315",
+      "english": "Phantom Realm",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100370",
+      "english": "Rift Crisis",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100378",
+      "english": "Trans. 2nd",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100467",
+      "english": "Novice's Trial",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100474",
+      "english": "Academy Sanctuary",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100489",
+      "english": "Southern Payon",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100614",
+      "english": "Nail of Order",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
+    },
+    {
+      "id": "13150100642",
+      "english": "Oak Inn",
+      "reason": "Proper name/activity/item or ambiguous title; retained verified English",
+      "queue": "parent"
     }
   ],
-  "authored_total": 13066,
-  "runtime_thai_difference_ids": 13054,
-  "runtime_english_ids": 20459,
+  "authored_total": 15655,
+  "runtime_thai_difference_ids": 15643,
+  "runtime_english_ids": 17870,
   "runtime_ids": 33513,
-  "runtime_rules": 2856,
+  "runtime_rules": 2943,
   "source_english_only": true,
   "legacy_thai_used": false,
-  "exact_english_consistency_adjustments": 169,
+  "complete_game_translation": false,
+  "game_tested": false,
+  "exact_english_consistency_adjustments": 7,
   "rendered_English_Thai_collision_groups": 0,
   "qa": {
     "authoring_errors": 0,
     "draft_errors": 0,
-    "runtime_checks": 191417,
+    "runtime_checks": 194191,
     "mocked_language_bridge_checks_included": 90,
     "compiled_hook_checks": 27,
     "updater_checks": 57,
-    "public_https_new_ids_expected": 1482
+    "public_https_new_ids_expected": 2589
   },
   "source_concerns": {
     "a": [
       {
         "ids": [
-          "13150200007",
-          "13150200009",
-          "13150200271"
+          "13150000509",
+          "13150000517"
         ],
-        "note": "Rhina and Rhine retained as distinct source spellings; not canonicalized."
+        "note": "Nesha and Nessa retained as distinct English spellings."
       },
       {
         "ids": [
-          "13150200292",
-          "13150200293",
-          "13150200297"
+          "13150000555",
+          "13150000559",
+          "13150600164"
         ],
-        "note": "Poya, Baoya and Boya retained exactly as separate source spellings; no inferred equivalence."
+        "note": "Baoya and Boya retained as written; no NPC identity repair."
       },
       {
         "ids": [
-          "13150200075",
-          "13150200106",
-          "13150200387",
-          "13150200411"
+          "13150000600",
+          "13150600216"
         ],
-        "note": "Ki, Ji and Ji'ang retained as written; no inferred identity or name repair."
-      },
-      {
-        "id": "13150200125",
-        "note": "Source Orc Warrior@{1} has no separating space or quantity unit. Preserved adjacency; did not invent missing syntax."
-      },
-      {
-        "id": "13150200363",
-        "note": "Trailing literal * retained after Alchemy Materials; no interpretation added."
-      },
-      {
-        "id": "13150200378",
-        "note": "Daily Must-Dos, Daily Misc, Dumby's Request and AFK in the Field retained as UI/activity targets within original styling boundaries."
+        "note": "Hawk and Hawke retained as different source spellings."
       },
       {
         "ids": [
-          "13150200151",
-          "13150200294",
-          "13150200295"
+          "13150000584",
+          "13150600188",
+          "13150600194"
         ],
-        "note": "Whispering Flowers, Snake Galls and Snake Gallbladders retained exactly; did not unify differing item labels."
+        "note": "Party Leader Eikuni and Captain Aikuni retained exactly; not unified."
       },
       {
-        "id": "13150200257",
-        "note": "Developer notice (No translation required) rendered literally as Thai game text. It was not treated as an instruction to skip work."
+        "ids": [
+          "13150000647",
+          "13150600263"
+        ],
+        "note": "Ji'ang and Jiyang retained as written; no name canonicalization."
+      },
+      {
+        "ids": [
+          "13150600058",
+          "13150600072",
+          "13150600311"
+        ],
+        "note": "Temporal Court, Court of Time and Garden of Time preserved independently."
+      },
+      {
+        "id": "13150600259",
+        "note": "Incomplete phrase The investigator is actually a… translated with incompleteness retained; no identity supplied."
+      },
+      {
+        "id": "13150600136",
+        "note": "Instant Promotion@{1} has unspecified placeholder role; token order and adjacency retained without inventing a unit."
+      },
+      {
+        "id": "13150600093",
+        "note": "Wildcat retained as the named target instead of guessing a Thai NPC/monster name."
+      },
+      {
+        "id": "13150600053",
+        "note": "Approved exact translation revised to preserve pathfinder ant consistently with the named target in other queue entries."
+      },
+      {
+        "id": "13150000454",
+        "note": "Five-player vs ten-player party/raid objectives remain distinct; at least @{1} same-guild Members retained."
       }
     ],
     "b": [
       {
         "ids": [
-          "13150000158",
-          "13150000350"
+          "10370000745"
         ],
-        "concern": "Pure named labels withheld rather than inventing Thai names."
+        "concern": "The English relative clause after Demon Lord has potentially ambiguous attachment. Translation keeps the source phrasing without inventing an extra speaker or game-specific role."
       },
       {
         "ids": [
-          "13150000187",
-          "13150000218"
+          "10370000762",
+          "10370000952",
+          "10370000971"
         ],
-        "concern": "Utility is semantically unclear in both source objectives; withheld for parent decision."
+        "concern": "Incomplete or trailing dialogue fragments remain unfinished; no missing clause/value was invented."
       },
       {
         "ids": [
-          "13150000165"
+          "10370000919",
+          "10370000920"
         ],
-        "concern": "Protected bracket contains a developer-style warning. Preserved its English content exactly as a game string; no action taken based on the warning."
+        "concern": "Lucky Cloverrrrr and Lucky Clover preserved separately, including the source elongated name spelling."
       },
       {
         "ids": [
-          "13150000438"
+          "10370000681",
+          "10370000682",
+          "10370000683",
+          "10370000684",
+          "10370000685",
+          "10370000686",
+          "10370000687",
+          "10370000688"
         ],
-        "concern": "(No translation required) translated literally as a notice, not followed as an instruction."
+        "concern": "Test/debug dialogue translated literally as game text; not interpreted as instructions."
       },
       {
         "ids": [
-          "13150000289",
-          "13150000293"
+          "10370000518",
+          "10370001015"
         ],
-        "concern": "Source alternates Granny Gwen and Grandma Gwen. Both name spellings retained without canonicalizing."
+        "concern": "Kept source numeral 8 with tenths wording and numeral 9,999 exactly; did not convert to a new percentage or change formatting."
       },
       {
         "ids": [
-          "13150000125",
-          "13150000128",
-          "13150000130"
+          "10370000642",
+          "10370000538",
+          "10370000541"
         ],
-        "concern": "Source uses Rein, Rhina, and Rhine. All retained as supplied; no assumed identity merge."
+        "concern": "Protected bracket content retained in English and normalized to [ Name ], including descriptive bracket labels."
       },
       {
         "ids": [
-          "13150000009",
-          "13150000436"
+          "10370000607",
+          "10370000608",
+          "10370000616"
         ],
-        "concern": "Source uses Ilmata and Ilmatar, respectively. Kept both spellings unchanged."
+        "concern": "Descriptive answer labels localized as ordinary choice text rather than treating them as pure proper names."
       },
       {
         "ids": [
-          "13150000419",
-          "13150000424",
-          "13150000428",
-          "13150000433"
+          "10370000829",
+          "10370000935",
+          "10370000942",
+          "10370000956"
         ],
-        "concern": "Progress placeholders have no unit or percent sign in English. No unit or % added."
-      },
-      {
-        "ids": [
-          "13150000429"
-        ],
-        "concern": "Stunts retained as the English game-stat term; no unsupported mechanic definition added."
-      },
-      {
-        "ids": [
-          "13150000444"
-        ],
-        "concern": "Literal Monster A retained; not resolved into a guessed monster name."
+        "concern": "Expressive growl/bark/meow/howl lines translated as dialogue sounds, not deferred as format-only strings."
       }
     ],
     "c": [
       {
         "ids": [
-          "10370000044",
-          "10370000178"
+          "10370001289",
+          "10370001624"
         ],
-        "reason": "Source uses Rhine in earlier dialogue and Rhyne in the team briefing. Each source spelling remains distinct."
+        "reason": "Utility support does not identify a resource or concrete support mechanism. Utility is retained literally in translated prose; no item/resource was invented."
       },
       {
         "ids": [
-          "10370000122",
-          "10370000143",
-          "10370000144",
-          "10370000176",
-          "10370000219",
-          "10370000220",
-          "10370000240",
-          "10370000363"
+          "10370001332",
+          "10370001298",
+          "10370001303",
+          "10370001333"
         ],
-        "reason": "Professor names differ between Lain, Ryan and Levin across entries. Exact per-entry names retained; did not infer or normalize speaker identity."
+        "reason": "Hand-in listing says snake eggs whereas gathering/merchant dialogue says Snake Gallbladders. Kept the exact source meaning and @{1}–@{4} order, without substituting requested materials."
       },
       {
         "ids": [
-          "10370000146",
-          "10370000216",
-          "10370000245",
-          "10370000385",
-          "10370000387",
-          "10370000389"
+          "10370001255",
+          "10370001287",
+          "10370001288"
         ],
-        "reason": "Other name variants include Eikuni/Aquinnie and Boya/Marika. Preserved each name exactly as its English entry states."
+        "reason": "Jormungand, joking Jormun-whatever and Jormungandr differ in source. Kept per-entry spellings and joke; no normalization."
       },
       {
         "ids": [
-          "10370000094",
-          "10370000114"
+          "10370001371",
+          "10370001442",
+          "10370001453",
+          "10370001462",
+          "10370001478"
         ],
-        "reason": "Advisor is called Tilpy in the introduction and Erpi in a later reading. Both preserved without guessing identity."
+        "reason": "Wule/Wuhler and Fiennes/Phines differ in source; each name is preserved independently."
       },
       {
         "ids": [
-          "10370000144",
-          "10370000188",
-          "10370000321",
-          "10370000328",
-          "10370000351",
-          "10370000352"
+          "10370001163",
+          "10370001346",
+          "10370001407",
+          "10370001681"
         ],
-        "reason": "Nail of World Law and Nail of Cosmic Law are different source labels; retained both, including protected bracket labels."
+        "reason": "Source names include Hawk/Hawke, Captain Aikuni, Professor Ryan and Professor Rhein. No identity or speaker corrections were inferred."
       },
       {
         "ids": [
-          "10370000237",
-          "10370000307",
-          "10370000310",
-          "10370000353"
+          "10370001493",
+          "10370001591",
+          "10370001615"
         ],
-        "reason": "Protected English descriptions poor girl, the device next to me, the stone pillar and Adventurer remain English inside normalized [ Name ] brackets as required, while surrounding prose is Thai."
+        "reason": "Nails of World Law, Nail of Discipline and Nail of Natural Law are distinct source labels. Preserved rather than harmonized."
       },
       {
         "ids": [
-          "10370000416"
+          "10370001422"
         ],
-        "reason": "No Connect is unusual capitalized English; rendered as no contacting/connecting in the shy dialogue context, without inventing a gameplay requirement."
+        "reason": "Unusual style-token order ^{2} before ^{1} retained exactly around the west-of-camp/equipment clause."
       },
       {
         "ids": [
-          "10370000452",
-          "10370000454",
-          "10370000455",
-          "10370000461"
+          "10370001599"
         ],
-        "reason": "Source alternates Vocals and Rockers in the attic quest. Both monster names are retained per entry."
+        "reason": "Source calls Baphomet scientific name Minotaur. Retained the line as written; did not correct monster lore."
+      },
+      {
+        "ids": [
+          "10370001692"
+        ],
+        "reason": "Source says 30% LUK and 70% Fortify. Both terms and numeric percentages retained without inferring another stat or probability."
+      },
+      {
+        "ids": [
+          "10370001137"
+        ],
+        "reason": "No Translation Required is readable developer/game prose, not an instruction; translated using its exact approved fresh-English match."
+      },
+      {
+        "ids": [
+          "10370001508",
+          "10370001510",
+          "10370001705",
+          "10370001711"
+        ],
+        "reason": "Tier Two, Trans. 2nd, Second Job Change and third job change follow their own source distinctions; not normalized to an assumed class progression."
       }
     ],
     "parent": [
-      "Repeated ${1} in quality/count/level objectives retained without inventing ${2}.",
-      "No time units added to 11190100027.",
-      "Unlabeled obtain/deliver/kill placeholders retain order without guessing item/count roles.",
-      "Named event/map/NPC spellings retained.",
-      "Stunts/Play While Downloading/Adventure Guild terms retained in context.",
-      "11190100120 uses ${2} before ${1}, exactly like the English source."
+      "Boss/NPC names and source variants are not unified: Osiris/Osiris, Nasha/Nisha, Mirko/Mirkor/Mirk remain as supplied.",
+      "Pure place/item/event labels retained English; descriptive titles and role labels localized.",
+      "Protected bracket contents remain English; no unknown count unit added to Clear map @{1}.",
+      "The Hunter Who Retrieves Mounts follows identical reviewed wording in the objective queue."
     ]
   },
-  "game_tested": false,
-  "complete_game_translation": false
+  "family_inventory": {
+    "103700": {
+      "source_ids": 1717,
+      "authored_ids": 1712,
+      "retained_English_entries": [
+        {
+          "id": "10370000111",
+          "english": "………………"
+        },
+        {
+          "id": "10370000226",
+          "english": "……"
+        },
+        {
+          "id": "10370001001",
+          "english": "@{1}，@{2}，@{3}，@{4}……"
+        },
+        {
+          "id": "10370001126",
+          "english": "Kafra Shop"
+        },
+        {
+          "id": "10370001234",
+          "english": "！！！."
+        }
+      ]
+    },
+    "131500": {
+      "source_ids": 714,
+      "authored_ids": 711,
+      "retained_English_entries": [
+        {
+          "id": "13150000187",
+          "english": "The Professor has been captured by Maya. Return to camp for Utility."
+        },
+        {
+          "id": "13150000218",
+          "english": "Go provide Utility to the stationed Soldiers."
+        },
+        {
+          "id": "13150000350",
+          "english": "Tower Trial"
+        }
+      ]
+    },
+    "131501": {
+      "source_ids": 666,
+      "authored_ids": 628,
+      "retained_English_entries": [
+        {
+          "id": "13150100061",
+          "english": "Novice Trial"
+        },
+        {
+          "id": "13150100080",
+          "english": "Book of Job Advance"
+        },
+        {
+          "id": "13150100089",
+          "english": "Novice Swordsman"
+        },
+        {
+          "id": "13150100098",
+          "english": "Shock-Absorbing Lubricant"
+        },
+        {
+          "id": "13150100121",
+          "english": "Ant Hell"
+        },
+        {
+          "id": "13150100122",
+          "english": "Research Notebook"
+        },
+        {
+          "id": "13150100139",
+          "english": "Garden of Time"
+        },
+        {
+          "id": "13150100152",
+          "english": "Holy See Knights"
+        },
+        {
+          "id": "13150100155",
+          "english": "Nail of Discipline"
+        },
+        {
+          "id": "13150100171",
+          "english": "Oak Inn"
+        },
+        {
+          "id": "13150100217",
+          "english": "Bunny Hair Band"
+        },
+        {
+          "id": "13150100237",
+          "english": "Strivers' Guild"
+        },
+        {
+          "id": "13150100279",
+          "english": "Dreamweaver"
+        },
+        {
+          "id": "13150100280",
+          "english": "The Faceless Singer"
+        },
+        {
+          "id": "13150100281",
+          "english": "Dreamscape"
+        },
+        {
+          "id": "13150100282",
+          "english": "Poem of a Lost Homeland"
+        },
+        {
+          "id": "13150100283",
+          "english": "Wine Like Blood"
+        },
+        {
+          "id": "13150100284",
+          "english": "Nomad"
+        },
+        {
+          "id": "13150100285",
+          "english": "Rusty Bell Hammer"
+        },
+        {
+          "id": "13150100286",
+          "english": "Rusty Bell Hammer@{1}"
+        },
+        {
+          "id": "13150100292",
+          "english": "Night Watchman"
+        },
+        {
+          "id": "13150100294",
+          "english": "Major Courage"
+        },
+        {
+          "id": "13150100295",
+          "english": "Tower Trial"
+        },
+        {
+          "id": "13150100306",
+          "english": "Burning Dance"
+        },
+        {
+          "id": "13150100315",
+          "english": "Phantom Realm"
+        },
+        {
+          "id": "13150100370",
+          "english": "Rift Crisis"
+        },
+        {
+          "id": "13150100378",
+          "english": "Trans. 2nd"
+        },
+        {
+          "id": "13150100467",
+          "english": "Novice's Trial"
+        },
+        {
+          "id": "13150100474",
+          "english": "Academy Sanctuary"
+        },
+        {
+          "id": "13150100489",
+          "english": "Southern Payon"
+        },
+        {
+          "id": "13150100642",
+          "english": "Oak Inn"
+        },
+        {
+          "id": "13150100614",
+          "english": "Nail of Order"
+        },
+        {
+          "id": "13150100012",
+          "english": "^{1}Wedding Crashers^{2}"
+        },
+        {
+          "id": "13150100011",
+          "english": "^{1}Whale's Back Slide^{2}"
+        },
+        {
+          "id": "13150100010",
+          "english": "^{1}Boneyard^{2}"
+        },
+        {
+          "id": "13150100009",
+          "english": "^{1}Courtyard of Chaos^{2}"
+        },
+        {
+          "id": "13150100008",
+          "english": "^{1}Above the Sea of Clouds^{2}"
+        },
+        {
+          "id": "13150100007",
+          "english": "^{1}Temple of Melody^{2}"
+        }
+      ]
+    },
+    "131502": {
+      "source_ids": 437,
+      "authored_ids": 435,
+      "retained_English_entries": [
+        {
+          "id": "13150200065",
+          "english": "The Professor has been captured by Maya. Return to camp for Utility."
+        },
+        {
+          "id": "13150200213",
+          "english": "Tower Trial"
+        }
+      ]
+    },
+    "131506": {
+      "source_ids": 334,
+      "authored_ids": 333,
+      "retained_English_entries": [
+        {
+          "id": "13150600135",
+          "english": "Rift Stone*"
+        }
+      ]
+    }
+  }
 }

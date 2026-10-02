@@ -1,4 +1,4 @@
-# Gameplay translation progress — batches 074–095
+# Gameplay translation progress — batches 074–099
 
 The verified current English game export is the only source. Existing fresh terminology is reused where the English text and meaning match; old Thai translation files are not imported.
 
@@ -10,7 +10,7 @@ The verified current English game export is the only source. Existing fresh term
 | 077 | 166 | Boss/dragon mechanics, siege and territory warnings, map-object status, killstreaks and combat instructions |
 | 078 | 54 | Airship encounters, grappling/cannon instructions, boss ground-warning order, Dracula/bride rescue and spawn alerts |
 
-2,970 new authored IDs across batches 074–095, including 1,482 in the latest 092–095 update; 13,066 authored IDs overall. Of the complete 33,513-ID runtime table, 13,054 IDs differ from English and 20,459 retain English. Overall values exclude no source IDs; five semantic-review IDs and seven unchanged authored targets retain English.
+5,559 new authored IDs across batches 074–099, including 2,589 in the latest 096–099 update; 15,655 authored IDs overall. Of the complete 33,513-ID runtime table, 15,643 IDs differ from English and 17,870 retain English. Overall values exclude no source IDs; five semantic-review IDs and seven unchanged authored targets retain English.
 
 ## Source fidelity and unresolved text
 
@@ -27,7 +27,7 @@ This is a text/data-only update using runtime schema 2. No DLL, EXE, game script
 
 The numeric-rule test renderer now uses the existing single-pass wire decoder for CR, LF, tabs and escaped backslashes; a regression check rejects double-decoding literal backslash-n. No production/runtime code was changed for this test correction.
 
-Authoring QA and decoded-control number QA, corruption rejection, complete English-base audit, runtime rules, language-hook harness and updater tests must pass before publication. Public feed verification checks all three file hashes and all 1,482 latest ID/target pairs through the actual HTTPS updater. The generated runtime English/Thai fields are also checked against the canonical merged table for all 33,513 IDs. These are automated data/mock-runtime checks, not Windows/game UI tests.
+Authoring QA and decoded-control number QA, corruption rejection, complete English-base audit, runtime rules, language-hook harness and updater tests must pass before publication. Public feed verification checks all three file hashes and all 2,589 latest ID/target pairs through the actual HTTPS updater. The generated runtime English/Thai fields are also checked against the canonical merged table for all 33,513 IDs. These are automated data/mock-runtime checks, not Windows/game UI tests.
 
 **This is not a completed translation of every game text.** Other guide, event and quest/dialogue families remain; proper names and technical formats are intentionally retained. In-game wording, layout and clipping have not been verified.
 
@@ -95,3 +95,12 @@ Three translation agents completed disjoint quest queues and the parent added ac
 Overall authored total is 13,066; the full 33,513-ID feed contains 13,054 targets differing from English and 20,459 English targets, with 2,856 numeric rules. All source fields, protected names/tokens, numbers, controls and styled/unstyled runtime rules are verified. Exact-English duplicates use the approved fresh target; a preflight also rejects conflicting rendered Thai when English becomes identical after numeric/style substitution. Local checks passed: 191,417 runtime checks, 27 compiled-plugin hook checks and 57 updater checks. Actual public HTTPS verification checks all 1,482 new ID/target pairs and manifest hashes/cache behavior.
 
 The text/data-only update does not change DLLs, EXEs, game scripts, installation or Releases. Restart online with runtime v0.4.1 to receive the current main feed. Other quest/title/dialogue IDs and other families remain; this is not all-game translation completion. No real-game/Windows UI tests have been run. See `QUEST-TRANSLATION-STATUS.md` and `quest-translation-coverage.json` for source concerns and deferred IDs.
+
+## Update — batches 096–099
+
+| 096 | 599 | Quest objectives: remaining 131500 plus remaining 131506 stage trackers and Relax in 131502 |
+| 097 | 682 | NPC dialogue, choices, services and quest storyline: first remaining 103700 half |
+| 098 | 680 | NPC dialogue, choices, services and quest storyline: second remaining 103700 half |
+| 099 | 628 | Descriptive quest titles, stage headings, job progression, party/guild activity labels (131501) |
+
+2,589 new quest objective/tracker, NPC dialogue and descriptive-title IDs. 43 assigned pure-name/ambiguous rows retain English; see QUEST-TRANSLATION-STATUS.md and quest-translation-coverage.json. No new executable or Release. All local validation and runtime/hook/updater checks passed; public verification covers every new target. Actual game/Windows UI testing remains outstanding.
