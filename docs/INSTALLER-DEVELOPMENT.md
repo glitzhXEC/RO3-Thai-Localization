@@ -1,37 +1,38 @@
-# ตัวติดตั้งรุ่นพัฒนา
+# ตัวติดตั้งและ Runtime
 
-## สิ่งที่ทำแล้ว
+## สถานะปัจจุบัน
 
-- ซอร์ส WinForms (.NET 8) ชื่อ `RO3-Thai-Patch-Installer`
-- ช่องตำแหน่งเกม ปุ่มเลือกโฟลเดอร์ ปุ่มเลือก `ro3.exe` และปุ่มติดตั้ง
-- ตรวจเฉพาะ `ro3.exe` ที่อยู่ตรงโฟลเดอร์ที่เลือก ไม่ค้นหา drive, registry, launcher หรือโฟลเดอร์ลูก
-- ปุ่มติดตั้งเปิดได้ต่อเมื่อโฟลเดอร์ถูกต้องและมี embedded payload ที่พร้อมติดตั้ง
-- แสดง progress การคัดลอกและผลตรวจ hash
-- ตรวจ manifest/hash ป้องกัน traversal, duplicate entries, symlink และการเขียนทับ `ro3.exe`
-- สร้าง ownership marker พร้อม version; เมื่อผู้ใช้เลือก Client จะตรวจว่ารุ่นที่ติดตั้งเก่ากว่าหรือไม่
-- แยก runtime version ใน Installer/ownership marker ออกจาก translation data version ใน feed manifest/cache; เช็ค latest feed ได้โดยดาวน์โหลด manifest อย่างเดียว
-- ปุ่มอัปเดตคำแปลใช้ runtime updater ที่ตรวจ SHA-256, schema, จำนวน IDs/rules และบันทึก cache แบบ atomic; ไม่ดาวน์โหลด client, EXE หรือ DLL
-- plugin ยังตรวจ translation feed ตอนเปิดเกมอัตโนมัติ การเพิ่มคำแปลใน feed จึงไม่ต้องออก Installer Release ใหม่
-- payload runtime ลดเหลือ BepInEx/Harmony กับ plugin/data ที่โปรเจกต์ใช้จริง ไม่รวม XUnity AutoTranslator, ResourceRedirector, XUnity config หรือ font bundle
-- รองรับอัปเดตเฉพาะไฟล์ที่ marker เดิมเป็นเจ้าของ เก็บ config/cache ที่เปลี่ยนได้ และคงไฟล์ที่ไม่ใช่ของแพตช์
-- ถอนเฉพาะไฟล์ที่ marker เป็นเจ้าของและลบ marker โดยไม่เก็บ snapshot หรือ backup ถาวร
-- เมื่อพบ BepInEx ที่ไม่มี marker หรือปลายทางที่ไม่ใช่ของแพตช์ โปรแกรมหยุดโดยไม่เขียนทับ
-- rollback ระหว่างติดตั้งใช้งาน temp ชั่วคราว ไม่ทิ้งสำเนาไว้ใน Client หลังจบ
+- โปรแกรม WinForms .NET 8: `RO3-Thai-Patch-Installer.exe`
+- Runtime รุ่นเป้าหมาย: `v0.4.4-minimal-runtime-alpha.1`
+- รองรับ Windows x64 และ RO3 Unity Mono x64
+- ใช้ BepInEx/Harmony และปลั๊กอินของโครงการ
+- ไม่ใช้ XUnity AutoTranslator, ResourceRedirector, BAT หรือ online machine translation
+- แยกรุ่น runtime ออกจากรุ่นข้อมูลคำแปล
+- อัปเดต translation feed จาก GitHub ได้โดยไม่ดาวน์โหลด Installer ใหม่
 
-## ผลทดสอบในเครื่องพัฒนา Linux
+## ความปลอดภัยของ Installer
 
-`dotnet build src/Installer/Installer.csproj -c Release` สำเร็จ ไม่มี warning/error
+- ตรวจเฉพาะ Client/`ro3.exe` ที่ผู้ใช้เลือก ไม่สแกนทั้งเครื่อง
+- ตรวจ manifest, schema และ SHA-256 ก่อนเขียนไฟล์
+- ป้องกัน traversal, duplicate entry, symlink และการเขียนทับ `ro3.exe`
+- หยุดเมื่อพบ BepInEx ที่ไม่มี ownership marker
+- อัปเดตและถอนเฉพาะไฟล์ที่ marker ระบุว่าแพตช์เป็นเจ้าของ
+- รักษาไฟล์ม็อด/config ที่ไม่ใช่ของแพตช์
+- เขียน cache แบบ atomic และ rollback ด้วยไฟล์ชั่วคราวเมื่อเกิดข้อผิดพลาด
 
-`dotnet run --project tests/Installer.Core.Tests` ผ่าน 18 checks ด้วยไฟล์จำลอง ได้แก่โฟลเดอร์ถูก/ผิด เลือก exe ไม่ค้นหาโฟลเดอร์ลูก hash ไม่ตรง payload ไม่พร้อม traversal rollback การรักษาไฟล์เดิม และป้องกันม็อดเดิม
+## ผลทดสอบล่าสุด
 
-นี่ไม่ใช่การทดสอบ UI บน Windows หรือการทดสอบเกมจริง
+ชุดทดสอบอัตโนมัติผ่านทั้งหมด:
 
-## สิ่งที่ยังต้องทำก่อนแจก EXE
+- build สำเร็จ ไม่มี error
+- validation และ menu checks ผ่าน
+- LanguageHooks compiled-plugin checks: 27/27
+- language bridge/fallback checks: 91/91
+- SkillRuntime checks: 205,134/205,134
+- updater checks: 57/57
 
-1. แปลและตรวจคำอธิบายที่เหลือ รวมรายการ semantic-review
-2. ตรวจ compatibility runtime BepInEx/Harmony แบบ minimal โดยไม่บรรจุ XUnity หรือ online translation fallback
-3. ตรวจ UI/update/uninstall/rollback บน Windows กับไฟล์จำลองและเกมจริง
-4. ตรวจว่าไฟล์ user/mod ที่ไม่ได้อยู่ใน ownership marker ไม่ถูกเขียนทับหรือลบ
-5. สร้าง `payload.zip` พร้อม manifest ของ runtime และคำแปลที่ตรวจแล้ว จากนั้นจึง publish single-file Windows EXE
+## ระบบอัปเดตคำแปล
 
-การ build compile และ core tests ไม่ยืนยันว่าข้อความแสดงผลถูกต้องในเกมจริง
+`translations/live/manifest.json` ใช้ runtime schema 2 และ version แบบ SHA-256 ของข้อมูลที่เผยแพร่ ตัว Installer สามารถอัปเดต cache ล่วงหน้า ส่วน plugin ตรวจ feed เมื่อเปิดเกมขณะออนไลน์
+
+การเพิ่มหรือแก้คำแปลที่ยังอยู่ใน schema เดิมเป็น data-only update จึงไม่ต้องออก Installer/Client Release ใหม่

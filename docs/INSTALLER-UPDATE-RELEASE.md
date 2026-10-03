@@ -1,41 +1,48 @@
-# RO3 Thai Patch Skill Text Hotfix Alpha — v0.4.4
+# RO3 Thai Patch — Installer และ Data-only Update
 
-รุ่นนี้แสดงสองเวอร์ชันแยกกัน: รุ่น runtime/ตัวติดตั้ง และรุ่นข้อมูลคำแปลจาก GitHub อัปเดต runtime เมื่อมี Installer รุ่นใหม่กว่า; อัปเดตข้อมูลคำแปลได้โดยไม่ดาวน์โหลด Installer/Client ใหม่ และถอนเฉพาะไฟล์ของแพตช์ได้
+Runtime ปัจจุบันคือ `v0.4.4-minimal-runtime-alpha.1` และใช้ translation feed แบบ data-only ผู้ใช้จึงอัปเดตคำแปลได้โดยไม่ดาวน์โหลด `RO3-Thai-Patch-Installer.exe` ใหม่
 
 ## วิธีใช้
 
 1. ปิด RO3 และ RO3AsiaLauncher
-2. เปิด `RO3-Thai-Patch-Installer.exe` แล้วเลือกโฟลเดอร์ `Client` ที่มี `ro3.exe` หรือเลือกไฟล์ `ro3.exe` โดยตรง
-3. โปรแกรมแสดงรุ่น runtime ที่ติดตั้งเทียบกับรุ่นใน Installer และแสดงรุ่นข้อมูลคำแปลใน cache เทียบกับรุ่นล่าสุดบน GitHub
-4. ถ้า runtime เก่า ให้กด **อัปเดตตัวแพตช์**; ถ้าข้อมูลคำแปลเก่า ให้กด **อัปเดตคำแปลจาก GitHub** ซึ่งดาวน์โหลดเฉพาะ TSV ที่ตรวจ hash/schema แล้ว
-5. plugin ยังตรวจ feed คำแปลตอนเปิดเกมอัตโนมัติด้วย ปุ่มใน Installer ใช้ให้อัปเดตข้อมูลล่วงหน้าได้ ไม่จำเป็นต้องดาวน์โหลด Client/Installer ใหม่เมื่อเพิ่มคำแปล
-6. ถอนแพตช์ลบเฉพาะไฟล์ที่ ownership marker ระบุและคืนไฟล์เดิมที่ installer รุ่นก่อนเคยแทนที่ ไม่มี snapshot/backup คงเหลือ
+2. เปิด `RO3-Thai-Patch-Installer.exe`
+3. เลือกโฟลเดอร์ `Client` ที่มี `ro3.exe` หรือเลือกไฟล์ `ro3.exe` โดยตรง
+4. หาก runtime เก่า ให้กด **อัปเดตตัวแพตช์**
+5. หากข้อมูลคำแปลเก่า ให้กด **อัปเดตคำแปลจาก GitHub**
+6. plugin จะตรวจ translation feed อัตโนมัติเมื่อเปิดเกมขณะออนไลน์ด้วย
+
+## เวอร์ชันที่แยกจากกัน
+
+- **Runtime version** อยู่ใน Installer และ ownership marker เปลี่ยนเมื่อ DLL/ตัวติดตั้งหรือ schema ที่รองรับเปลี่ยน
+- **Translation data version** อยู่ใน `translations/live/manifest.json` เปลี่ยนเมื่อข้อมูลคำแปลที่ผ่าน validation เปลี่ยน
+
+translation data version ปัจจุบัน:
+
+```text
+1fd8068e67741bf9bd882ea49821bc70d45c640be2bb39feaca517b519d3c5f0
+```
+
+manifest ปัจจุบันมี 33,513 translation IDs และ 3,496 runtime rules บน runtime schema 2
 
 ## Runtime ที่ติดตั้ง
 
-payload มีเฉพาะ BepInEx/Harmony runtime ที่ปลั๊กอินใช้, ปลั๊กอินแปลไทยของโครงการ, dictionaries และตัวอัปเดต translations feed ไม่ติดตั้ง XUnity AutoTranslator, XUnity ResourceRedirector, config ของ XUnity หรือ TMP font bundle เพราะ source/runtime ของเราไม่ได้เรียกใช้ส่วนเหล่านั้น การแปลข้อความไม่ได้พึ่งบริการ machine translation
+payload มีเฉพาะ BepInEx/Harmony, ปลั๊กอินของโครงการ, dictionaries และ updater ไม่ติดตั้ง XUnity AutoTranslator, XUnity ResourceRedirector, XUnity config หรือ font bundle ที่ไม่ใช้
 
-hook ข้อความ UI ทั่วไปแปลข้อความต้นฉบับที่อนุมัติแบบตรงตัวก่อน สำหรับคำอธิบายสกิลที่มีตัวเลขหรือตัวแปร จะค้นเฉพาะ regex กฎที่มี prefix ตรงกัน แทนการไล่ตรวจทุกกฎกับข้อความแชต จึงคืนการแปลข้อความสกิลแบบไดนามิกโดยจำกัดงานที่ทำกับข้อความอื่น
+ข้อความ UI ที่อนุมัติใช้ exact match ส่วนคำอธิบายสกิลที่มีตัวเลข/ตัวแปรใช้ prefix-indexed rules เพื่อลดการสแกนข้อความที่ไม่เกี่ยวข้อง
 
-เมื่ออัปเดตจากรุ่นก่อน Installer จะนำไฟล์เก่าของ XUnity ออกเฉพาะรายการที่ ownership marker รุ่นก่อนระบุว่า Installer เป็นผู้ติดตั้ง ถ้ามีไฟล์ดั้งเดิมที่ถูกแทนไว้จะคืนไฟล์นั้นตาม ownership record ส่วน XUnity/ม็อดที่ผู้ใช้ติดตั้งเองและไม่มี ownership ใน marker จะไม่แตะต้อง
+## Ownership และการถอน
 
-โปรแกรมตรวจรุ่นหลังผู้ใช้เลือก Client โดยอ่าน `.ro3-thai-localization.json` และ `BepInEx/config/RO3.TranslationCache/cache.json` ในตำแหน่งนั้นเท่านั้น ไม่มีการสแกนหาเกมหรือ Client อัตโนมัติ ไฟล์ที่ไม่ได้เป็นของแพตช์และม็อดที่เพิ่มภายหลังจะไม่ถูกลบหรือเขียนทับ หากพบ BepInEx ที่ไม่มี ownership marker โปรแกรมจะหยุดและแจ้งให้ทราบ
+Installer อ่าน `.ro3-thai-localization.json` ใน Client ที่ผู้ใช้เลือกและแตะเฉพาะไฟล์ที่แพตช์เป็นเจ้าของ หากพบ BepInEx ที่ไม่มี ownership marker จะหยุดโดยไม่เขียนทับ การถอนจะลบเฉพาะไฟล์ของแพตช์และคืนไฟล์เดิมตาม ownership record เมื่อจำเป็น
 
-เวอร์ชัน runtime ใน ownership marker ไม่ใช่เวอร์ชัน translations feed `translations/live/manifest.json` มี version แบบ SHA-256 ของไฟล์ data ทั้งสามและเปลี่ยนเมื่อมีการเผยแพร่ข้อมูลคำแปลรุ่นใหม่
+## ผลทดสอบล่าสุด
 
-ตัวติดตั้งไม่แสดงคำสั่งถอน BepInEx ทั้งหมด เพราะการถอนเช่นนั้นอาจลบม็อดและ config ของโปรแกรมอื่น
+ชุดทดสอบอัตโนมัติผ่านทั้งหมด:
 
-## ไม่มี backup อย่างไร
+- validation และ menu checks
+- LanguageHooks compiled-plugin checks: 27/27
+- language bridge/fallback checks: 91/91
+- SkillRuntime checks: 205,134/205,134
+- updater checks: 57/57
+- build ไม่มี error
 
-การติดตั้งใหม่ไม่เขียนทับปลายทางที่มีอยู่ การอัปเดตแตะเฉพาะไฟล์ที่ ownership marker รุ่นก่อนระบุไว้ ส่วน rollback ระหว่างทำงานใช้ไฟล์ชั่วคราวใน temp ของ Windows และลบทิ้งเมื่อจบสำเร็จ หาก marker รุ่นเก่ามี backup ของไฟล์เดิมที่จำเป็นต่อการคืนสภาพ โปรแกรมจะเก็บเฉพาะชุดเดิมนั้นระหว่างอัปเดต และลบทิ้งเมื่อถอนแพตช์
-
-การอัปเดตแคชคำแปลและการตั้งค่าที่ผู้ใช้แก้จะไม่ถูกทับระหว่างอัปเดต แต่ไฟล์เหล่านี้จะถูกถอนตามรายการ ownership เมื่อถอนแพตช์
-
-รุ่นนี้สืบทอด exact-origin fallback สำหรับป้าย UI จีนสั้น `取下` → `ถอด` ซึ่งบางหน้าจอส่งเข้า text setter โดยไม่มี localization ID และเพิ่ม prefix-indexed matching สำหรับข้อความสกิลแบบไดนามิก
-
-## สถานะและข้อจำกัด
-
-- รุ่นเป้าหมาย `v0.4.4-minimal-runtime-alpha.1` เป็น prerelease/Alpha
-- รองรับ Windows x64 และ RO3 Unity Mono x64 ตามการตรวจใน Client ที่เลือก; runtime ใช้ BepInEx/Harmony ไม่มี XUnity
-- ไม่ทดสอบ GUI ใน Windows หรือแสดงผลในเกมโดยอัตโนมัติ; ให้ตรวจหน้าจอจริงหลังติดตั้ง
-- `SHA256SUMS.txt` ใช้ตรวจความสมบูรณ์ของไฟล์ดาวน์โหลด
+`SHA256SUMS.txt` และ hash ใน manifest ใช้ตรวจความสมบูรณ์ของไฟล์ที่ดาวน์โหลด
