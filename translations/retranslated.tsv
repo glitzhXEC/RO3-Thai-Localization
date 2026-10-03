@@ -125,7 +125,7 @@ ID	English	Thai_Translation
 10220300243	Increases healing received by @{1}% for @{2} sec.	เพิ่ม การฟื้นฟูที่ได้รับ ขึ้น @{1}% เป็นเวลา @{2} วินาที
 10220300245	Increases damage by @{1}% for @{2} sec.	เพิ่ม ความเสียหาย ขึ้น @{1}% เป็นเวลา @{2} วินาที
 10220300250	Reduces Movement Speed by @{1}%	ลด MSPD ลง @{1}%
-10220300255	Movement Speed +@{1}%, FLEE +@{2}	MSPD +@{1}%, Flee +@{2}
+10220300255	Movement Speed +@{1}%, FLEE +@{2}	MSPD +@{1}%, FLEE +@{2}
 10220300263	Reduces skill cooldowns by @{1}%.	ลด Cooldown ของสกิลลง @{1}%
 10220300265	Increases Movement Speed by @{1}%.	เพิ่ม MSPD ขึ้น @{1}%
 10220300266	Increases CRIT by @{1}%.	เพิ่ม CRIT ขึ้น @{1}%
@@ -157,7 +157,7 @@ ID	English	Thai_Translation
 10220300405	Increases MSPD by @{1}%.	เพิ่ม MSPD ขึ้น @{1}%
 10220300409	Movement Speed reduced by @{1}%.	ลด MSPD ลง @{1}%
 10220300416	Movement Speed increased by @{1}%.	เพิ่ม MSPD ขึ้น @{1}%
-10220300443	FLEE +@{1}	Flee +@{1}
+10220300443	FLEE +@{1}	FLEE +@{1}
 10220300460	Attack Speed +@{1}%	ASPD +@{1}%
 10220300461	Physical ATK +${1}.	P.ATK +${1}
 10220300465	DEX +${1}.	DEX +${1}
@@ -770,7 +770,7 @@ ID	English	Thai_Translation
 10110300397	Places a Claymore Trap within ${1}m. When an enemy enters the Trap's ${2}m trigger radius, it explodes, dealing Physical ATK*^{1}${5}%+${6}^{2} Fire ranged Physical damage to up to ${4} enemies within a ${3}m radius. The Trap lasts ${7} sec.	วาง Claymore Trap ในระยะ ${1} เมตร เมื่อศัตรูเข้าสู่รัศมีทำงาน ${2} เมตรของกับดัก กับดักจะระเบิด สร้างดาเมจกายภาพระยะไกลธาตุ Fire เท่ากับ P.ATK*^{1}${5}%+${6}^{2} แก่ศัตรูสูงสุด ${4} ตัว ในรัศมี ${3} เมตร กับดักคงอยู่ ${7} วินาที
 10110300398	Places a Freezing Trap within ${1}m. When an enemy enters the Trap's ${2}m trigger radius, it explodes, dealing Physical ATK*^{1}${5}%+${6}^{2} Water ranged Physical damage to up to ${4} enemies within a ${3}m radius and inflicting ^{3}^{4}【Freeze】^{5}^{6} for ${7} sec. The Trap lasts ${8} sec.	วาง Freezing Trap ในระยะ ${1} เมตร เมื่อศัตรูเข้าสู่รัศมีทำงาน ${2} เมตรของกับดัก กับดักจะระเบิด สร้างดาเมจกายภาพระยะไกลธาตุ Water เท่ากับ P.ATK*^{1}${5}%+${6}^{2} แก่ศัตรูสูงสุด ${4} ตัว ในรัศมี ${3} เมตร และทำให้ติดสถานะ ^{3}^{4}[ Freeze ]^{5}^{6} เป็นเวลา ${7} วินาที กับดักคงอยู่ ${8} วินาที
 10110300399	Places a Flasher within ${1}m. When an enemy enters the Trap's ${2}m trigger radius, it explodes, dealing Physical ATK*^{1}${5}%+${6}^{2} Wind ranged Physical damage to up to ${4} enemies within a ${3}m radius and inflicting ^{3}^{4}【Blind】^{5}^{6} for ${7} sec. The Trap lasts ${8} sec.	วาง Flasher ในระยะ ${1} เมตร เมื่อศัตรูเข้าสู่รัศมีทำงาน ${2} เมตรของกับดัก กับดักจะระเบิด สร้างดาเมจกายภาพระยะไกลธาตุ Wind เท่ากับ P.ATK*^{1}${5}%+${6}^{2} แก่ศัตรูสูงสุด ${4} ตัว ในรัศมี ${3} เมตร และทำให้ติดสถานะ ^{3}^{4}[ Blind ]^{5}^{6} เป็นเวลา ${7} วินาที กับดักคงอยู่ ${8} วินาที
-10110300400	Grants yourself and up to ${2} allies within a ${1}m radius ^{1}${3}%^{2} Movement Speed and ^{3}${4}^{4} FLEE for ${5} sec.	เพิ่ม MSPD ให้คุณและพันธมิตรสูงสุด ${2} คน ในรัศมี ${1} เมตรขึ้น ^{1}${3}%^{2} และเพิ่ม Flee ขึ้น ^{3}${4}^{4} เป็นเวลา ${5} วินาที
+10110300400	Grants yourself and up to ${2} allies within a ${1}m radius ^{1}${3}%^{2} Movement Speed and ^{3}${4}^{4} FLEE for ${5} sec.	เพิ่ม MSPD ให้คุณและพันธมิตรสูงสุด ${2} คน ในรัศมี ${1} เมตรขึ้น ^{1}${3}%^{2} และเพิ่ม FLEE ขึ้น ^{3}${4}^{4} เป็นเวลา ${5} วินาที
 10110300401	Can only be cast while the Falcon is in Follow mode. Use the Falcon to perform Concentration, dealing PATK * ^{1}${2}% + ${3}^{2} Neutral Ranged Physical DMG to the designated ST enemy within ${1} meters.	ใช้ได้เฉพาะเมื่อ Falcon อยู่ในโหมดติดตาม ใช้ Falcon ทำ Concentration สร้างดาเมจกายภาพระยะไกลไร้ธาตุเท่ากับ P.ATK * ^{1}${2}% + ${3}^{2} แก่ศัตรูแบบ Single Target ที่กำหนดในระยะ ${1} เมตร
 10110300402	Grants yourself ^{1}${1}^{2} to all base stats, ^{3}${2}^{4} HIT, and ^{5}${3}%^{6} Physical damage for ${4} sec.	เพิ่มค่าสถานะพื้นฐานทั้งหมดของคุณขึ้น ^{1}${1}^{2} เพิ่ม Hit ขึ้น ^{3}${2}^{4} และเพิ่ม P.DMG ขึ้น ^{5}${3}%^{6} เป็นเวลา ${4} วินาที
 10110300403	Bow-exclusive skill. Unleashes a powerful attack against the designated ST enemy within ${1} meters, dealing PATK * ^{1}${3}% + ${4}^{2} Neutral Ranged Physical DMG to the target and up to ${2} enemies in a line within Attack Range.	สกิลเฉพาะธนู โจมตีอย่างรุนแรงใส่ศัตรูแบบ Single Target ที่กำหนดในระยะ ${1} เมตร สร้างดาเมจกายภาพระยะไกลไร้ธาตุเท่ากับ P.ATK * ^{1}${3}% + ${4}^{2} แก่เป้าหมายและศัตรูสูงสุด ${2} ตัวที่อยู่ในแนวเส้นตรงภายในระยะโจมตี
@@ -1058,7 +1058,7 @@ ID	English	Thai_Translation
 10800100126	Six Stats +${1}	ค่าสถานะทั้งหก +${1}
 10800100127	Physical damage dealt to Brute and Insect monsters +${1}%	P.DMG ที่ทำต่อมอนสเตอร์ Brute และ Insect +${1}%
 10800100128	Physical damage dealt to Brute and Insect monsters +${1}%; Movement Speed ${2}%	P.DMG ที่ทำต่อมอนสเตอร์ Brute และ Insect +${1}%; MSPD ${2}%
-10800100129	For every @{1} additional Stunt on all equipped gear, VIT +${1}	ทุก @{1} Stunt เพิ่มเติมบนอุปกรณ์ที่สวมใส่ทั้งหมด VIT +${1}
+10800100129	For every @{1} additional Stunt on all equipped gear, VIT +${1}	ทุก @{1} ออปชั่นพิเศษ เพิ่มเติมบนอุปกรณ์ที่สวมใส่ทั้งหมด VIT +${1}
 10800100130	For every @{1} refine levels on the Current Equipment slot, INT +${1}	ทุก @{1} เลเวลการตีบวกของช่องอุปกรณ์ปัจจุบัน INT +${1}
 10800100132	Deals (@{3}+VIT/@{4})*${1}%+${2} Neutral Physical damage to up to @{2} targets within a @{1}-meter radius and reduces their Movement Speed by @{5}% for @{6} sec. If the target is a monster, it is forced to attack you for @{7} sec. Your Physical DEF +@{8}%	สร้างดาเมจกายภาพไร้ธาตุเท่ากับ (@{3}+VIT/@{4})*${1}%+${2} แก่เป้าหมายสูงสุด @{2} ตัว ในรัศมี @{1} เมตร และลด MSPD ของพวกมันลง @{5}% เป็นเวลา @{6} วินาที หากเป้าหมายเป็นมอนสเตอร์ จะบังคับให้โจมตีคุณเป็นเวลา @{7} วินาที P.DEF ของคุณ +@{8}%
 10800100133	For every ${1} additional skills on this Divine Arts Totem, Life +${2}	ทุก ${1} สกิลเพิ่มเติมบน Divine Arts Totem นี้ HP +${2}
@@ -1149,7 +1149,7 @@ ID	English	Thai_Translation
 10110300243	Grants allies within a @{1} m radius ^{1}【Endure】^{2} and reduces their damage taken by @{2}% for @{3} sec.	พันธมิตรในรัศมี @{1} เมตรได้รับ ^{1}[ Endure ]^{2} และลดดาเมจที่ได้รับลง @{2}% เป็นเวลา @{3} วินาที
 10110300244	Summons lightning within @{1} m, dealing ^{1}@{4}%^{2} damage per hit to up to @{3} enemies within a circular area with a @{2} m radius. Lasts @{5} sec. and attacks @{6} times per sec. Each hit has a @{7}% Chance to inflict ^{3}【Blind】^{4} for @{8} sec.	เรียกสายฟ้าในระยะ @{1} เมตร สร้างดาเมจ ^{1}@{4}%^{2} ต่อครั้ง แก่ศัตรูสูงสุด @{3} ตัว ในพื้นที่วงกลมรัศมี @{2} เมตร คงอยู่ @{5} วินาที และโจมตี @{6} ครั้งต่อวินาที แต่ละครั้งมีโอกาส @{7}% ทำให้ติดสถานะ ^{3}[ Blind ]^{4} เป็นเวลา @{8} วินาที
 10110300245	Summons Storm Gust within @{1} m, dealing ^{1}@{4}%^{2} damage per hit to up to @{3} enemies within a circular area with a @{2} m radius. The magic field lasts @{5} sec. and attacks @{6} times per sec. Each hit has a @{7}% Chance to inflict ^{3}【Freeze】^{4} for @{8} sec.	เรียก Storm Gust ในระยะ @{1} เมตร สร้างดาเมจ ^{1}@{4}%^{2} ต่อครั้ง แก่ศัตรูสูงสุด @{3} ตัว ในพื้นที่วงกลมรัศมี @{2} เมตร พื้นที่เวทคงอยู่ @{5} วินาที และโจมตี @{6} ครั้งต่อวินาที แต่ละครั้งมีโอกาส @{7}% ทำให้ติดสถานะ ^{3}[ Freeze ]^{4} เป็นเวลา @{8} วินาที
-10110300246	Temporarily increases Movement Speed by ^{1}@{3}%^{2} and FLEE by ^{3}@{4}^{4} for self and up to @{2} allies within @{1} m for @{5} sec.	เพิ่ม MSPD ชั่วคราวขึ้น ^{1}@{3}%^{2} และ Flee ขึ้น ^{3}@{4}^{4} ให้ตัวเองและพันธมิตรสูงสุด @{2} คน ในระยะ @{1} เมตร เป็นเวลา @{5} วินาที
+10110300246	Temporarily increases Movement Speed by ^{1}@{3}%^{2} and FLEE by ^{3}@{4}^{4} for self and up to @{2} allies within @{1} m for @{5} sec.	เพิ่ม MSPD ชั่วคราวขึ้น ^{1}@{3}%^{2} และ FLEE ขึ้น ^{3}@{4}^{4} ให้ตัวเองและพันธมิตรสูงสุด @{2} คน ในระยะ @{1} เมตร เป็นเวลา @{5} วินาที
 10110300247	Grants Falcon's Eye to allies within @{1} m. Players with Falcon's Eye can see enemies in the ^{1}【Hiding】^{2} state within a @{2} m radius for @{3} sec.	มอบ Falcon's Eye ให้พันธมิตรในระยะ @{1} เมตร ผู้เล่นที่ได้รับ Falcon's Eye จะมองเห็นศัตรูในสถานะ ^{1}[ Hiding ]^{2} ในรัศมี @{2} เมตร เป็นเวลา @{3} วินาที
 10110300248	Lock onto an allied target within @{1} meters, restoring Life equal to ^{1}@{2}%^{2} of ATK for you and the target	ล็อกเป้าหมายพันธมิตรในระยะ @{1} เมตร ฟื้นฟู HP เท่ากับ ^{1}@{2}%^{2} ของ ATK ให้คุณและเป้าหมาย
 10110300249	Cast in a selected direction to perform Movement @{1} m away from the target and enter the ^{1}【Camouflage】【Hiding】^{2} states for @{2} sec.\nThe ^{3}【Camouflage】【Hiding】^{4} states end immediately after dealing or taking damage a total of @{3} times.	ใช้ในทิศทางที่เลือกเพื่อเคลื่อนที่ห่างจากเป้าหมาย @{1} เมตร และเข้าสู่สถานะ ^{1}[ Camouflage ][ Hiding ]^{2} เป็นเวลา @{2} วินาที\nสถานะ ^{3}[ Camouflage ][ Hiding ]^{4} สิ้นสุดทันทีหลังสร้างหรือได้รับดาเมจรวม @{3} ครั้ง
@@ -1450,7 +1450,7 @@ ID	English	Thai_Translation
 10800100191	Increases Penetration Curse by [your Lv. * ${1}].	เพิ่ม Penetration Curse ขึ้น [ your Lv. * ${1} ]
 10800100192	Increases Magic-Breaking Curse by [your Lv. * ${1}].	เพิ่ม Magic-Breaking Curse ขึ้น [ your Lv. * ${1} ]
 10800100193	Increases HIT by 【Character Lv.*${1}】.	เพิ่ม Hit ขึ้น [ Character Lv.*${1} ]
-10800100194	Increases FLEE by 【Character Lv.*${1}】.	เพิ่ม Flee ขึ้น [ Character Lv.*${1} ]
+10800100194	Increases FLEE by 【Character Lv.*${1}】.	เพิ่ม FLEE ขึ้น [ Character Lv.*${1} ]
 10800100195	Reduces Neutral damage taken by ${1}%.	ลดดาเมจไร้ธาตุที่ได้รับลง ${1}%
 10800100196	Reduces Wind damage taken by ${1}%.	ลดดาเมจธาตุ Wind ที่ได้รับลง ${1}%
 10800100197	Reduces Earth damage taken by ${1}%.	ลดดาเมจธาตุ Earth ที่ได้รับลง ${1}%
@@ -1632,7 +1632,7 @@ ID	English	Thai_Translation
 10220300898	Increases the casting Distance of 【Soul Destroyer】 by ${1} meters. After casting, deals Neutral melee Physical damage equal to Physical ATK × ${4}% to up to ${3} enemies within a ${2}-meter radius of the target.	เพิ่มระยะใช้ [ Soul Destroyer ] อีก ${1} เมตร หลังใช้ สร้างดาเมจกายภาพระยะประชิดไร้ธาตุเท่ากับ P.ATK × ${4}% แก่ศัตรูสูงสุด ${3} ตัว ในรัศมี ${2} เมตรรอบเป้าหมาย
 10220300897	Every third cast of 【Soul Destroyer】 becomes 【Advanced Soul Destroyer】, increasing its damage by ${1}%.	ทุกการใช้ [ Soul Destroyer ] ครั้งที่สาม จะเปลี่ยนเป็น [ Advanced Soul Destroyer ] เพิ่มดาเมจขึ้น ${1}%
 10220300887	When a dagger or katar is equipped, Physical ATK +${1}.	เมื่อสวมมีดหรือกาตาร์ P.ATK +${1}
-10800100270	When equipped with a katar, Crit Modifier increases by ^{1}${4}%^{2}.	เมื่อสวมกาตาร์ Crit Modifier เพิ่มขึ้น ^{1}${4}%^{2}
+10800100270	When equipped with a katar, Crit Modifier increases by ^{1}${4}%^{2}.	เมื่อสวมกาตาร์ CRIT Modifier เพิ่มขึ้น ^{1}${4}%^{2}
 10800100271	When equipped with a dagger, increases Attack Speed by ^{1}${1}^{2} and AGI by ^{3}${2}^{4}.	เมื่อสวมมีด เพิ่ม ASPD ขึ้น ^{1}${1}^{2} และ AGI ขึ้น ^{3}${2}^{4}
 10800100272	【Fire Bolt】, 【Cold Bolt】, 【Lightning Bolt】, and 【Earth Spike】 deal ${1}% more damage.	[ Fire Bolt ], [ Cold Bolt ], [ Lightning Bolt ] และ [ Earth Spike ] สร้างดาเมจเพิ่มขึ้น ${1}%
 10800100273	【Fire Bolt】, 【Cold Bolt】, 【Lightning Bolt】, and 【Earth Spike】 are no longer affected by Cast Speed, and their CT is fixed at ${1} sec.	[ Fire Bolt ], [ Cold Bolt ], [ Lightning Bolt ] และ [ Earth Spike ] ไม่ได้รับผลจาก Cast Speed อีกต่อไป และ CT คงที่ที่ ${1} วินาที
@@ -1685,7 +1685,7 @@ ID	English	Thai_Translation
 10220300868	After casting Soul Destroyer @{1} times, increases your damage dealt by @{2}% for @{3} seconds	หลังใช้ Soul Destroyer @{1} ครั้ง เพิ่มดาเมจที่คุณทำได้ขึ้น @{2}% เป็นเวลา @{3} วินาที
 10220300866	Increases your Physical ATK by @{1}. After attacking, there is a @{2}% Chance to inflict 【Venom】 damage on the target, dealing Poison melee Physical damage equal to Physical ATK × @{3}%.	เพิ่ม P.ATK ของคุณขึ้น @{1} หลังโจมตี มีโอกาส @{2}% ทำให้เกิดดาเมจ [ Venom ] ใส่เป้าหมาย สร้างดาเมจกายภาพระยะประชิดธาตุ Poison เท่ากับ P.ATK × @{3}%
 10220300865	After your Basic Attack deals damage, there is a ${1}% Chance to inflict 【Poisoned】 damage on the target, dealing Poison melee Physical damage equal to ${2}% of Physical ATK.	หลังการโจมตีปกติของคุณสร้างดาเมจ มีโอกาส ${1}% ทำให้เกิดดาเมจ [ Poisoned ] ใส่เป้าหมาย สร้างดาเมจกายภาพระยะประชิดธาตุ Poison เท่ากับ ${2}% ของ P.ATK
-10220300864	When the effect ends, deals Poison melee Physical damage equal to @{3}% of Magic ATK that ignores FLEE to the target and up to @{2} enemies within a @{1}-meter radius, inflicting Poisoned.	เมื่อผลสิ้นสุด สร้างดาเมจกายภาพระยะประชิดธาตุ Poison เท่ากับ @{3}% ของ M.ATK ซึ่ง Ignore Flee แก่เป้าหมายและศัตรูสูงสุด @{2} ตัว ในรัศมี @{1} เมตร พร้อมทำให้ติด Poisoned
+10220300864	When the effect ends, deals Poison melee Physical damage equal to @{3}% of Magic ATK that ignores FLEE to the target and up to @{2} enemies within a @{1}-meter radius, inflicting Poisoned.	เมื่อผลสิ้นสุด สร้างดาเมจกายภาพระยะประชิดธาตุ Poison เท่ากับ @{3}% ของ M.ATK ซึ่ง Ignore FLEE แก่เป้าหมายและศัตรูสูงสุด @{2} ตัว ในรัศมี @{1} เมตร พร้อมทำให้ติด Poisoned
 10220300862	When a dagger is equipped, Attack Speed +@{1}% and AGI +@{2}.	เมื่อสวมมีด ASPD +@{1}% และ AGI +@{2}
 10220300861	When a dagger is equipped, Attack Speed +@{1} and AGI +@{2}.	เมื่อสวมมีด ASPD +@{1} และ AGI +@{2}
 10220300860	Allows 【Sonic Blow】 to trigger its damage increase when the target has less than @{1}% HP, and changes the damage increase to @{2}%.	ทำให้ [ Sonic Blow ] ได้รับผลเพิ่มดาเมจเมื่อเป้าหมายมี HP ต่ำกว่า @{1}% และเปลี่ยนการเพิ่มดาเมจเป็น @{2}%
@@ -9960,7 +9960,7 @@ ID	English	Thai_Translation
 12043	Vivify Cost: <#896B4D>Free</color>	ค่า Vivify: <#896B4D>ฟรี</color>
 12044	Vivify Cost: ${1}/${2}	ค่า Vivify: ${1}/${2}
 12071	Randomly grants <color=#cc762a>${1}</color> Stunts	สุ่มมอบ Stunts <color=#cc762a>${1}</color> ข้อ
-12074	No Stunt	ไม่มี Stunt
+12074	No Stunt	ไม่มี ออปชั่นพิเศษ
 16020	None	ไม่มี
 16042	None	ไม่มี
 17000	The current skill cannot be used without a locked target.	สกิลปัจจุบันใช้ไม่ได้หากไม่มีเป้าหมายที่ล็อกไว้
@@ -9994,7 +9994,7 @@ ID	English	Thai_Translation
 22024	My Watchlist ${1}/${2}	รายการติดตามของฉัน ${1}/${2}
 22025	You can refresh again in ${1} seconds!	รีเฟรชได้อีกใน ${1} วินาที!
 22026	Please select an entry to filter by.	โปรดเลือกรายการเพื่อกรอง
-22027	Please select a Stunt to filter by.	โปรดเลือก Stunt เพื่อกรอง
+22027	Please select a Stunt to filter by.	โปรดเลือก ออปชั่นพิเศษ เพื่อกรอง
 22028	Please select an attribute to filter by.	โปรดเลือกคุณลักษณะเพื่อกรอง
 22029	The maximum value cannot be lower than the minimum value!	ค่าสูงสุดต้องไม่ต่ำกว่าค่าต่ำสุด!
 22030	This exceeds the maximum quantity per purchase. Please select again.	เกินจำนวนสูงสุดต่อการซื้อ โปรดเลือกอีกครั้ง
@@ -13035,7 +13035,7 @@ ID	English	Thai_Translation
 11190100135	Activate ${1} refinement slots	เปิดช่องตีบวก ${1} ช่อง
 11190100136	Have ${1} Enchant slots on equipped gear	มีช่อง Enchant ${1} ช่องบนอุปกรณ์ที่สวม
 11190100137	Equip ${1} items with an Enchant	สวมไอเทมที่มี Enchant ${1} ชิ้น
-11190100138	Equip ${1} pieces of gear with Stunts	สวมอุปกรณ์ที่มี Stunt ${1} ชิ้น
+11190100138	Equip ${1} pieces of gear with Stunts	สวมอุปกรณ์ที่มี ออปชั่นพิเศษ ${1} ชิ้น
 11190100139	Deploy ${1} pets of ${2} quality or higher	ส่งสัตว์เลี้ยงลงสนาม ${1} ตัวที่มีคุณภาพ ${2} ขึ้นไป
 11190100140	Activate the pet Faction ${1} effect	เปิดผลฝ่ายสัตว์เลี้ยง ${1}
 11190100141	Deploy ${1} Support Pets	ส่งสัตว์เลี้ยงสนับสนุนลงสนาม ${1} ตัว
@@ -16832,11 +16832,11 @@ ID	English	Thai_Translation
 10630001405	This item is undergoing Settlement and cannot be Withdrawn.	ไอเท็มนี้กำลังอยู่ระหว่างสรุปผลและไม่สามารถถอนออกได้
 10630001406	This item is currently prohibited from being listed.	ขณะนี้ห้ามลงขายไอเท็มนี้
 10010500000	Every @{1} STR grants @{2} PDEF. Swordsmen, Thieves, Merchants, Mages, and Acolytes gain an Extra @{3} PATK and @{4}% PATK.	ทุก @{1} STR ให้ P.DEF @{2} โดย Swordsmen, Thieves, Merchants, Mages และ Acolytes ได้รับ P.ATK เพิ่มอีก @{3} และ P.ATK @{4}%
-10010500001	Every @{1} AGI grants @{2} FLEE and @{3} ASPD	ทุก @{1} AGI ให้ Flee @{2} และ ASPD @{3}
+10010500001	Every @{1} AGI grants @{2} FLEE and @{3} ASPD	ทุก @{1} AGI ให้ FLEE @{2} และ ASPD @{3}
 10010500002	Every @{1} VIT grants @{2} Life, @{3}% Max Life, and a certain amount of HP recover	ทุก @{1} VIT ให้พลังชีวิต @{2}, พลังชีวิตสูงสุด @{3}% และการฟื้นฟู HP จำนวนหนึ่ง
 10010500003	Every @{1} INT grants @{2} Magic ATK, @{3} Magic DEF, @{4}% Magic ATK, @{5}% Max MP, and a certain amount of MP recovery	ทุก @{1} INT ให้ M.ATK @{2}, M.DEF @{3}, M.ATK @{4}%, MP สูงสุด @{5}% และการฟื้นฟู MP จำนวนหนึ่ง
 10010500004	Every @{1} DEX grants @{2} HIT and @{3} Cast Speed. Archers gain an Extra @{4} PATK and @{5}% PATK.	ทุก @{1} DEX ให้ Hit @{2} และความเร็วร่าย @{3} โดย Archers ได้รับ P.ATK เพิ่มอีก @{4} และ P.ATK @{5}%
-10010500005	Every @{1} LUK grants @{2} CRIT, @{3} FLEE, and @{4} HIT	ทุก @{1} LUK ให้ CRIT @{2}, Flee @{3} และ Hit @{4}
+10010500005	Every @{1} LUK grants @{2} CRIT, @{3} FLEE, and @{4} HIT	ทุก @{1} LUK ให้ CRIT @{2}, FLEE @{3} และ Hit @{4}
 10010500006	Converted to the character's Life	แปลงเป็นพลังชีวิตของตัวละคร
 10010500007	Converted to the character's Physical ATK	แปลงเป็น P.ATK ของตัวละคร
 10010500008	Converted to the character's Magic ATK	แปลงเป็น M.ATK ของตัวละคร
@@ -17021,7 +17021,7 @@ ID	English	Thai_Translation
 10010500187	Life % restored every @{1} sec.	% พลังชีวิตที่ฟื้นฟูทุก @{1} วินาที
 10010500188	MP % restored every @{1} sec.	% MP ที่ฟื้นฟูทุก @{1} วินาที
 10010500189	% HIT Increase	% การเพิ่ม Hit
-10010500190	% FLEE Increase	% การเพิ่ม Flee
+10010500190	% FLEE Increase	% การเพิ่ม FLEE
 10010500191	% CRIT Increase	% การเพิ่ม CRIT
 10010500192	% CRIT Resistance Increase	% การเพิ่ม CRIT RES
 10010500193	% Movement Speed Change	% การเปลี่ยนแปลง MSPD
@@ -17411,8 +17411,8 @@ ID	English	Thai_Translation
 10540000255	Wow, now you can craft even stronger equipment! Come learn how with me!	ว้าว ตอนนี้สร้างอุปกรณ์ที่แข็งแกร่งขึ้นได้แล้ว! มาเรียนวิธีกับฉัน!
 10540000256	Tap here, bo!	แตะที่นี่ โบ!
 10540000257	Let's take a look at the crafting instructions.	มาดูคำแนะนำการสร้าง
-10540000258	Select the Stunt tab, bo!	เลือกแท็บ Stunt โบ!
-10540000259	Look! Crafting Orange or Red Quality equipment may grant a Stunt, bobo! Give it a try!	ดูสิ! การสร้างอุปกรณ์คุณภาพสีส้มหรือสีแดงอาจได้ Stunt โบโบ! ลองดู!
+10540000258	Select the Stunt tab, bo!	เลือกแท็บ ออปชั่นพิเศษ โบ!
+10540000259	Look! Crafting Orange or Red Quality equipment may grant a Stunt, bobo! Give it a try!	ดูสิ! การสร้างอุปกรณ์คุณภาพสีส้มหรือสีแดงอาจได้ ออปชั่นพิเศษ โบโบ! ลองดู!
 10540000260	Now that we're out in the field, let's mount the Flying mount you just got!	ตอนนี้ออกมาพื้นที่ทั่วไปแล้ว ขึ้นสัตว์ขี่บินได้ที่เพิ่งได้รับกัน!
 10540000261	Now we can take off~	ตอนนี้บินขึ้นได้แล้ว~
 10540000262	Hey~ Hurry and Tap to view the quest.	เฮ้~ รีบแตะเพื่อดูเควสต์
@@ -17565,10 +17565,10 @@ ID	English	Thai_Translation
 11190000143	Refinement slot activation requirements not met	ไม่ตรงตามเงื่อนไขเปิดใช้ช่องตีบวก
 11190000144	Activated Enchant slot requirements not met	ช่องเสริมมนตร์ที่เปิดใช้ไม่ตรงตามเงื่อนไข
 11190000145	Current Equipment Enchantment requirements not met	การเสริมมนตร์อุปกรณ์ปัจจุบันไม่ตรงตามเงื่อนไข
-11190000146	Current Equipment Stunt count requirement not met	จำนวน Stunt ของอุปกรณ์ปัจจุบันไม่ตรงตามเงื่อนไข
+11190000146	Current Equipment Stunt count requirement not met	จำนวน ออปชั่นพิเศษ ของอุปกรณ์ปัจจุบันไม่ตรงตามเงื่อนไข
 11190000147	Appraisal attempt requirement Not Reached	ยังไม่ถึงจำนวนครั้งประเมินที่กำหนด
 11190000148	Rare Items remain Unidentified	ยังมีไอเท็มหายากที่ไม่ได้ระบุคุณสมบัติ
-11190000149	Equipment with a Stunt remains Unidentified	ยังมีอุปกรณ์ที่มี Stunt ซึ่งไม่ได้ระบุคุณสมบัติ
+11190000149	Equipment with a Stunt remains Unidentified	ยังมีอุปกรณ์ที่มี ออปชั่นพิเศษ ซึ่งไม่ได้ระบุคุณสมบัติ
 11190000150	Refine level Not Reached	ยังไม่ถึงระดับตีบวกที่กำหนด
 11190000151	Crafted equipment count for the corresponding Rarity is too low	จำนวนอุปกรณ์ที่สร้างซึ่งมีระดับความหายากตรงกันต่ำเกินไป
 11190000152	Required level Not Reached	ยังไม่ถึงเลเวลที่กำหนด
@@ -17806,8 +17806,8 @@ ID	English	Thai_Translation
 10100000224	No Affix	ไม่มีคุณสมบัติเสริม
 10100000225	Single Affix	คุณสมบัติเสริมหนึ่งอย่าง
 10100000226	Two Affixes	คุณสมบัติเสริมสองอย่าง
-10100000227	No Stunt	ไม่มี Stunt
-10100000228	Has Stunt	มี Stunt
+10100000227	No Stunt	ไม่มี ออปชั่นพิเศษ
+10100000228	Has Stunt	มี ออปชั่นพิเศษ
 10100000229	Set	เซ็ต
 10100000230	Costume	ชุดแต่งกาย
 10100000231	Backwear	เครื่องสวมหลัง
@@ -19570,7 +19570,7 @@ ID	English	Thai_Translation
 10800000094	Six Stats +${1}	ค่าสถานะทั้งหก +${1}
 10800000096	Two Buffs	สองบัฟ
 10800000097	^{1}Two Skills^{2}	^{1}สองสกิล^{2}
-10800000098	Stunt-Affected Stats	ค่าสถานะที่ได้รับผลจาก Stunt
+10800000098	Stunt-Affected Stats	ค่าสถานะที่ได้รับผลจาก ออปชั่นพิเศษ
 10800000099	^{1}Refinement-Affected Stats^{2}	^{1}ค่าสถานะที่ได้รับผลจากการตีบวก^{2}
 10800000100	Refinement-Affected Stats	ค่าสถานะที่ได้รับผลจากการตีบวก
 10800000101	Hodgepodge	สิ่งผสมปนเป
@@ -19580,7 +19580,7 @@ ID	English	Thai_Translation
 10800000133	Basic Physical Defense	P.DEF พื้นฐาน
 10800000134	Basic Life	พลังชีวิตพื้นฐาน
 10800000137	Basic HIT	Hit พื้นฐาน
-10800000138	Basic FLEE	Flee พื้นฐาน
+10800000138	Basic FLEE	FLEE พื้นฐาน
 10800000139	Minor Neutral Resistance	ต้านทาน Neutral เล็กน้อย
 10800000140	Minor Wind Resistance	ต้านทาน Wind เล็กน้อย
 10800000141	Minor Earth Resistance	ต้านทาน Earth เล็กน้อย
@@ -19608,7 +19608,7 @@ ID	English	Thai_Translation
 10800000165	Advanced Physical Defense	P.DEF ขั้นสูง
 10800000166	Advanced Life	พลังชีวิตขั้นสูง
 10800000169	Advanced HIT	Hit ขั้นสูง
-10800000170	Advanced FLEE	Flee ขั้นสูง
+10800000170	Advanced FLEE	FLEE ขั้นสูง
 10800000171	Advanced Neutral Resistance	ต้านทาน Neutral ขั้นสูง
 10800000172	Advanced Wind Resistance	ต้านทาน Wind ขั้นสูง
 10800000173	Advanced Earth Resistance	ต้านทาน Earth ขั้นสูง
@@ -20562,7 +20562,7 @@ ID	English	Thai_Translation
 10480100005	Craft Orange Quality equipment for the first time	สร้างอุปกรณ์คุณภาพ Orange ครั้งแรก
 10480100006	Craft Red Quality equipment for the first time	สร้างอุปกรณ์คุณภาพ Red ครั้งแรก
 10480100007	Complete Equipment Forging @{1} times	สร้างอุปกรณ์ @{1} ครั้ง
-10480100009	Appraise equipment with a Stunt for the first time	ตรวจสอบคุณสมบัติอุปกรณ์ที่มี Stunt ครั้งแรก
+10480100009	Appraise equipment with a Stunt for the first time	ตรวจสอบคุณสมบัติอุปกรณ์ที่มี ออปชั่นพิเศษ ครั้งแรก
 10480100010	Complete Equipment Appraisal @{1} times	ตรวจสอบคุณสมบัติอุปกรณ์ @{1} ครั้ง
 10480100011	Refine any equipment to +@{1}	ตีบวกอุปกรณ์ใดก็ได้ถึง +@{1}
 10480100012	Obtain Card for the first time	ได้รับการ์ดครั้งแรก
@@ -22512,7 +22512,7 @@ ID	English	Thai_Translation
 11250000026	Low-Tier Magic Defense	M.DEF ระดับต่ำ
 11250000029	Low-Tier Physical Penetration	P.PEN ระดับต่ำ
 11250000031	Low-Tier HIT	Hit ระดับต่ำ
-11250000032	Low-Tier FLEE	Flee ระดับต่ำ
+11250000032	Low-Tier FLEE	FLEE ระดับต่ำ
 11250000033	Low-Tier Neutral Resistance	ต้านทาน Neutral ระดับต่ำ
 11250000034	Low Wind Resistance	ต้านทาน Wind ระดับต่ำ
 11250000036	Minor Fire Resistance	ต้านทาน Fire เล็กน้อย
@@ -24063,7 +24063,7 @@ ID	English	Thai_Translation
 10220200248	Battle Chant Orbit - Allies	วงโคจร Battle Chant - พันธมิตร
 10220200254	Grand Cross Triggers AoE	Grand Cross กระตุ้น AoE
 10220200257	Divine Suppression Triggers ST	Divine Suppression กระตุ้น Single Target
-10220200258	Holy Cross Weapon Damage (Deprecated; Uses Stunt)	ความเสียหายอาวุธของ Holy Cross (เลิกใช้แล้ว; ใช้ Stunt)
+10220200258	Holy Cross Weapon Damage (Deprecated; Uses Stunt)	ความเสียหายอาวุธของ Holy Cross (เลิกใช้แล้ว; ใช้ ออปชั่นพิเศษ)
 10220200282	Rapid Smiting Triggers ST	Rapid Smiting กระตุ้น Single Target
 10220200286	Shield Boomerang Has No CD	Shield Boomerang ไม่มี CD
 10220200294	King's Grace Orbit	วงโคจร King's Grace
@@ -24287,7 +24287,7 @@ ID	English	Thai_Translation
 10220201435	Cheval-de-Frise Area Effect	เอฟเฟกต์พื้นที่ Cheval-de-Frise
 10220201436	Chest Effect	เอฟเฟกต์หีบ
 10220201437	System Buff@{1}	Buff ระบบ@{1}
-10220201441	Increase Dodge (Test)	เพิ่ม Flee (ทดสอบ)
+10220201441	Increase Dodge (Test)	เพิ่ม FLEE (ทดสอบ)
 10220201443	Increase ATK@{1}	เพิ่ม ATK@{1}
 10220201445	Reduce Healing	ลดการฟื้นฟู
 10220201453	Cloaking Passive	สกิลติดตัว Cloaking
@@ -25011,4 +25011,4 @@ ID	English	Thai_Translation
 10220300381	Reply @{1}% HP.	Reply HP @{1}%
 210012	Misc timed out. Please try again.	Misc หมดเวลา โปรดลองอีกครั้ง
 10220200274	Auto Guard Increases Attack Life	Auto Guard เพิ่ม Attack Life
-10110301061	Plant timed Dynamite on a designated ST enemy within ${1} meters. After ${2} seconds, deal Physical ATK * ^{1}${5}%^{2} Poison ranged Physical damage that ignores FLEE to the designated enemy and up to ${4} other enemies within a ${3}-meter radius, and inflict 【^{3}^{4}【Poisoned】^{5}^{6} damage on the target.	วาง Dynamite แบบตั้งเวลาบนศัตรู Single Target ที่กำหนดภายใน ${1} เมตร หลัง ${2} วินาที สร้างดาเมจกายภาพระยะไกลธาตุ Poison เท่ากับ P.ATK * ^{1}${5}%^{2} ซึ่ง Ignore Flee แก่ศัตรูที่กำหนดและศัตรูอื่นสูงสุด ${4} ตัวภายในรัศมี ${3} เมตร และทำให้เป้าหมายได้รับ 【^{3}^{4}【Poisoned】^{5}^{6} ดาเมจ
+10110301061	Plant timed Dynamite on a designated ST enemy within ${1} meters. After ${2} seconds, deal Physical ATK * ^{1}${5}%^{2} Poison ranged Physical damage that ignores FLEE to the designated enemy and up to ${4} other enemies within a ${3}-meter radius, and inflict 【^{3}^{4}【Poisoned】^{5}^{6} damage on the target.	วาง Dynamite แบบตั้งเวลาบนศัตรู Single Target ที่กำหนดภายใน ${1} เมตร หลัง ${2} วินาที สร้างดาเมจกายภาพระยะไกลธาตุ Poison เท่ากับ P.ATK * ^{1}${5}%^{2} ซึ่ง Ignore FLEE แก่ศัตรูที่กำหนดและศัตรูอื่นสูงสุด ${4} ตัวภายในรัศมี ${3} เมตร และทำให้เป้าหมายได้รับ 【^{3}^{4}【Poisoned】^{5}^{6} ดาเมจ
