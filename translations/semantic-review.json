@@ -1,22 +1,6 @@
 [
   {
-    "ID": "10110300015",
-    "reason": "Max MP Regen is ambiguous; retained as an English stat label pending in-game verification."
-  },
-  {
-    "ID": "10110300017",
-    "reason": "Magic Recovery Speed is ambiguous; retained in English instead of assuming MP recovery."
-  },
-  {
     "ID": "12390100679",
     "reason": "The source says blessed Orbit; retained Orbit and requires semantic review."
-  },
-  {
-    "ID": "10800100011",
-    "reason": "Source says Base without Lv.; kept Base rather than adding an inferred unit."
-  },
-  {
-    "ID": "10110300134",
-    "reason": "English formula contains + * before the fixed term. Preserved literally; exclude from partial payload until verified."
   }
 ]

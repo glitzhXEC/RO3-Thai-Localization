@@ -10,6 +10,7 @@ var rows=File.ReadAllLines(Path.Combine(config,"RO3.SkillTranslations.tsv")).Sel
 Check(dict.Count==rows.Count,"Dictionary count");
 var mergedSource=File.ReadAllLines(Path.Combine(root,"translations/RO3.LocalizationMerged.tsv")).Select(s=>s.Split('\t',3)).ToDictionary(r=>r[0]);
 Check(mergedSource.Count==rows.Count,"Runtime source count matches canonical merged table");
+Check(!rows.Values.Any(r=>(r[0].StartsWith("101103")||r[0].StartsWith("102203")||r[0].StartsWith("108001"))&&r[1]==r[2]&&r[1].Length>=45),"No long core skill descriptions remain English");
 foreach(var row in rows.Values)
  Check(mergedSource.TryGetValue(row[0],out var faithful)&&row[1]==faithful[1]&&row[2]==faithful[2],"Byte-faithful English/Thai from merged source "+row[0]);
 var englishOnly=rows.Values.Where(r=>r[1]==r[2]).Select(r=>r[1]).ToHashSet();

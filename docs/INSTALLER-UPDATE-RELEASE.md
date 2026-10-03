@@ -19,7 +19,7 @@ Runtime ปัจจุบันคือ `v0.4.4-minimal-runtime-alpha.1` แ�
 translation data version ปัจจุบัน:
 
 ```text
-6bb226188cd63e5d7243515496528fd206f1e49b7f06c37e77d0d96af95124ff
+4762f81365c20a1badb73cdbb00e632829833c0c3b59b981b0ad8e524ba8589e
 ```
 
 manifest ปัจจุบันมี 33,513 translation IDs และ 3,496 runtime rules บน runtime schema 2
@@ -41,8 +41,8 @@ Installer อ่าน `.ro3-thai-localization.json` ใน Client ที่ผ�
 - validation และ menu checks
 - LanguageHooks compiled-plugin checks: 27/27
 - language bridge/fallback checks: 91/91
-- SkillRuntime checks: 205,138/205,138
-- updater checks: 57/57
+- SkillRuntime checks: 205,160/205,160
+- updater checks: 58/58
 - Installer core checks: 43/43
 - build ไม่มี error
 
