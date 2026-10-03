@@ -2,13 +2,9 @@
   "source_ids": 33513,
   "translated_source_ids": 25017,
   "untranslated_source_ids": 8496,
-  "runtime_thai_ids": 25003,
-  "runtime_english_ids": 8510,
+  "runtime_thai_ids": 25007,
+  "runtime_english_ids": 8506,
   "english_due_to_semantic_review": [
-    "10110300015",
-    "10110300017",
-    "10110300134",
-    "10800100011",
     "12390100679"
   ],
   "legacy_thai_used": false,
