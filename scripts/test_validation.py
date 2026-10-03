@@ -67,5 +67,17 @@ try:
     assert run().returncode!=0, 'Changed localized quest label not rejected'
 finally:
     target.write_bytes(saved)
+# Canonical stat spellings reject full-form and uppercase legacy variants.
+for key,canonical,legacy in [('10110301083','P.ATK','Physical ATK'),('10110301042','Flee','FLEE')]:
+    matches=[p for p in (root/'translations').glob('batch-*.th.json') if key in json.loads(p.read_text(encoding='utf-8'))]
+    assert len(matches)==1, 'Canonical-stat regression case missing/duplicated'
+    target=matches[0];saved=target.read_bytes()
+    try:
+        data=json.loads(saved)
+        data[key]=data[key].replace(canonical,legacy,1)
+        target.write_text(json.dumps(data,ensure_ascii=False),encoding='utf-8')
+        assert run().returncode!=0, 'Legacy stat spelling not rejected'
+    finally:
+        target.write_bytes(saved)
 assert run().returncode==0, 'Restored baseline failed'
-print('PASS: baseline, corrupt placeholder, missing multiplication, changed bracket name, broken Unicode, draft marker, dropped live CR/tab controls, malformed bracket preservation, localized quest labels, restored baseline')
+print('PASS: baseline, corrupt placeholder, missing multiplication, changed bracket name, broken Unicode, draft marker, dropped live CR/tab controls, malformed bracket preservation, localized quest labels, canonical stats, restored baseline')
