@@ -3,11 +3,11 @@
 ## สถานะล่าสุด
 
 - ฐานข้อความ English: 33,513 IDs
-- คำแปลไทยใน runtime: 25,007 IDs
-- รายการคง English: 8,506 IDs
+- คำแปลไทยใน runtime: 25,021 IDs
+- รายการคง English: 8,492 IDs
 - กฎข้อความแบบไดนามิก: 3,496 rules
 - Runtime schema: 2
-- translation feed version: `4762f81365c20a1badb73cdbb00e632829833c0c3b59b981b0ad8e524ba8589e`
+- translation feed version: `19f0ada39734b794168cbd61b1e42265e6bdcccce4263e2b5ecbd4dc91a4c448`
 
 งานล่าสุดครอบคลุมชื่อและคำอธิบายเควสต์ที่ยังเหลือ ข้อความยาว ต้นฉบับรูปแบบผิดปกติที่ตรวจได้ และการปรับคำศัพท์ค่าสถานะให้เป็นมาตรฐาน
 
@@ -27,7 +27,7 @@
 - validation และ menu checks
 - LanguageHooks compiled-plugin checks: 27/27
 - language bridge/fallback checks: 91/91
-- SkillRuntime checks: 205,160/205,160
+- SkillRuntime checks: 205,174/205,174
 - updater checks: 58/58
 - Installer core checks: 43/43
 - build ไม่มี error

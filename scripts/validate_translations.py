@@ -39,8 +39,8 @@ for path in sorted((root/'translations').glob('batch-*.th.json')):
         if re.search(r'\bST\b',thai):errors.append({'ID':key,'check':'ST_not_expanded'})
         if re.search(r'สแต็ก|สแตค',thai):errors.append({'ID':key,'check':'stacks_transliterated'})
         noncanonical_stat_patterns=(
-            r'\b(PATK|MATK|PDEF|MDEF|MDMG|PDMG)\b',
-            r'\b(Physical ATK|Magic ATK|Physical DEF|Magic DEF|Attack Speed|Movement Speed|Critical Rate|Flee|Dodge|Crit)\b',
+            r'\b(PATK|MATK|PDEF|MDEF|PDMG|MDMG|PPEN|MPEN)\b',
+            r'\b(Physical ATK|Magic ATK|Physical DEF|Magic DEF|Physical Damage|Magic Damage|Physical Penetration|Magic Penetration|Attack Speed|Movement Speed|Critical Rate|Flee|Dodge|Crit)\b',
         )
         stat_text=brackets.sub('',thai)
         if any(re.search(pattern,stat_text) for pattern in noncanonical_stat_patterns):errors.append({'ID':key,'check':'noncanonical_stat'})

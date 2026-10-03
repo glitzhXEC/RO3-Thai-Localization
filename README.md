@@ -15,8 +15,8 @@
 | รายการ | สถานะ |
 | --- | --- |
 | ฐานข้อความ English | 33,513 IDs |
-| คำแปลไทยใน runtime | 25,007 IDs |
-| รายการคง English | 8,506 IDs |
+| คำแปลไทยใน runtime | 25,021 IDs |
+| รายการคง English | 8,492 IDs |
 | กฎข้อความแบบไดนามิก | 3,496 rules |
 | Runtime schema | 2 |
 | Data-only update | พร้อมใช้งาน |
@@ -25,7 +25,7 @@
 รุ่นข้อมูลคำแปลล่าสุด:
 
 ```text
-4762f81365c20a1badb73cdbb00e632829833c0c3b59b981b0ad8e524ba8589e
+19f0ada39734b794168cbd61b1e42265e6bdcccce4263e2b5ecbd4dc91a4c448
 ```
 
 ดูข้อมูลที่เผยแพร่จริงได้ที่ [`translations/live/manifest.json`](translations/live/manifest.json)
@@ -35,7 +35,7 @@
 - แปลชื่อและคำอธิบายเควสต์ที่ยังเหลือ รวมถึงข้อความยาวและต้นฉบับรูปแบบผิดปกติที่ตรวจได้อย่างปลอดภัย
 - นำคำอธิบายสกิลหลักที่เคยพัก semantic review ไว้เข้าสู่ runtime ครบแล้ว
 - คงชื่อแผนที่ ดันเจี้ยน เมือง โซน มอนสเตอร์ บอส NPC และสัตว์เลี้ยงเป็น English เช่น `Southern Payon` และ `Ant Hell`
-- ทำคำศัพท์ค่าสถานะให้เป็นมาตรฐาน: `P.ATK`, `M.ATK`, `P.DEF`, `M.DEF`, `ASPD`, `MSPD`, `CRIT` และ `FLEE`
+- ทำป้ายและคำศัพท์ค่าสถานะให้เป็นมาตรฐานทั้งหมด: `P.ATK`, `M.ATK`, `P.DEF`, `M.DEF`, `P.DMG`, `M.DMG`, `P.PEN`, `M.PEN`, `ASPD`, `MSPD`, `CRIT` และ `FLEE`
 - ใช้ `ออปชั่นพิเศษ` สำหรับ `Stunt`/`Stunts` ทุกจุด รวมป้ายข้อความสั้น
 - รักษาข้อความในวงเล็บที่ runtime schema 2 ใช้เป็น protected name เพื่อให้ใช้ร่วมกับ Installer เดิมได้
 - เผยแพร่ translation feed แบบ data-only หลัง validation สำเร็จ
@@ -81,7 +81,7 @@ Installer ไม่สแกนหาเกมทั้งเครื่อง 
 - validation และ menu checks: ผ่าน
 - LanguageHooks compiled-plugin checks: 27/27
 - language bridge/fallback checks: 91/91
-- SkillRuntime checks: 205,160/205,160
+- SkillRuntime checks: 205,174/205,174
 - updater checks: 58/58
 - Installer core checks: 43/43
 - build: ผ่าน ไม่มี error
