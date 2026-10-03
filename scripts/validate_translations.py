@@ -26,11 +26,16 @@ for path in sorted((root/'translations').glob('batch-*.th.json')):
         if en.count('\n')!=thai.count('\n'):errors.append({'ID':key,'check':'physical_newlines'})
         for escape in ('\\n','\\r','\\t'):
             if en.count(escape)!=thai.count(escape):errors.append({'ID':key,'check':'escaped_control_counts','token':escape})
-        names=[(a or b).strip() for a,b in brackets.findall(en)]
-        thai_names=[(a or b).strip() for a,b in brackets.findall(thai)]
-        if names!=thai_names:errors.append({'ID':key,'check':'bracket_name_order_or_count'})
-        for name in names:
-            if '[ '+name+' ]' not in thai:errors.append({'ID':key,'check':'bracket_name','name':name})
+        malformed_bracket_segments=re.findall(r'【[^】]*【[^】]*】',en)
+        if malformed_bracket_segments:
+            for segment in malformed_bracket_segments:
+                if segment not in thai:errors.append({'ID':key,'check':'malformed_bracket_segment','segment':segment})
+        else:
+            names=[(a or b).strip() for a,b in brackets.findall(en)]
+            thai_names=[(a or b).strip() for a,b in brackets.findall(thai)]
+            if names!=thai_names:errors.append({'ID':key,'check':'bracket_name_order_or_count'})
+            for name in names:
+                if '[ '+name+' ]' not in thai:errors.append({'ID':key,'check':'bracket_name','name':name})
         if re.search(r'\bST\b',thai):errors.append({'ID':key,'check':'ST_not_expanded'})
         if re.search(r'สแต็ก|สแตค',thai):errors.append({'ID':key,'check':'stacks_transliterated'})
         if re.search(r'\b(PATK|MATK|PDEF|MDEF|MDMG|PDMG)\b',thai):errors.append({'ID':key,'check':'noncanonical_stat'})

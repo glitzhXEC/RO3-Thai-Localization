@@ -43,5 +43,17 @@ for key,control in [('44010','\\r'),('53001','\\t')]:
         assert run().returncode!=0, 'Dropped live-source control was not rejected'
     finally:
         target.write_bytes(saved)
+# Malformed nested source brackets are allowed only when the raw segment remains byte-faithful.
+key='10110301061'
+matches=[p for p in (root/'translations').glob('batch-*.th.json') if key in json.loads(p.read_text(encoding='utf-8'))]
+assert len(matches)==1, 'Malformed-bracket regression case missing/duplicated'
+target=matches[0];saved=target.read_bytes()
+try:
+    data=json.loads(saved)
+    data[key]=data[key].replace('Poisoned','Frozen',1)
+    target.write_text(json.dumps(data,ensure_ascii=False),encoding='utf-8')
+    assert run().returncode!=0, 'Changed malformed bracket segment not rejected'
+finally:
+    target.write_bytes(saved)
 assert run().returncode==0, 'Restored baseline failed'
-print('PASS: baseline, corrupt placeholder, missing multiplication, changed bracket name, broken Unicode, draft marker, dropped live CR/tab controls, restored baseline')
+print('PASS: baseline, corrupt placeholder, missing multiplication, changed bracket name, broken Unicode, draft marker, dropped live CR/tab controls, malformed bracket preservation, restored baseline')
