@@ -457,8 +457,6 @@
 11210200018	MVP-Phreeoni	MVP-Phreeoni
 11210200019	MVP-Goblin Leader	MVP-Goblin Leader
 11210200020	MVP-Eddga	MVP-Eddga
-13150000187	The Professor has been captured by Maya. Return to camp for Utility.	The Professor has been captured by Maya. Return to camp for Utility.
-13150000218	Go provide Utility to the stationed Soldiers.	Go provide Utility to the stationed Soldiers.
 12980000052	Hidden Treasure--Earthly Fiend	Hidden Treasure--Earthly Fiend
 71012	Lv.${1}	Lv.${1}
 10760100000	Trainee	Trainee
@@ -475,7 +473,6 @@
 10080100000	Emi Continent Royal Capital	Emi Continent Royal Capital
 10080100001	Satellite City	Satellite City
 10140000085	Ilmata, God of Nature	Ilmata, God of Nature
-13150200065	The Professor has been captured by Maya. Return to camp for Utility.	The Professor has been captured by Maya. Return to camp for Utility.
 140033	[${1}]'s ${2}	[${1}]'s ${2}
 140065	<sprite name="escortcar_img_ourside_advanced"><color=#C27B47> ${1} </color> <sprite name="escortcar_img_ourside_ordinary"> ${2}	<sprite name="escortcar_img_ourside_advanced"><color=#C27B47> ${1} </color> <sprite name="escortcar_img_ourside_ordinary"> ${2}
 13100000063	Wind Blade Slash	Wind Blade Slash
