@@ -505,8 +505,6 @@
 11038	Soul Echo	Soul Echo
 13150400000	@{1}	@{1}
 12007	N/A	N/A
-12017	Stunt	Stunt
-12031	Stunt	Stunt
 12075	[Current <color=#c27b47>+${1}</color>]	[Current <color=#c27b47>+${1}</color>]
 13220000000	Dreamweaver	Dreamweaver
 13220000001	Night Watcher	Night Watcher
@@ -667,7 +665,6 @@
 11470000000	idle	idle
 11240100000	@{1}-@{2}	@{1}-@{2}
 21067	N/A	N/A
-21077	Stunt	Stunt
 21083	≥	≥
 21131	${1}【Identified】	${1}【Identified】
 21133	Divine Totem	Divine Totem
@@ -5287,7 +5284,6 @@
 12390001391	Main Story Completion Pack	Main Story Completion Pack
 12390001390	Enhance Pack	Enhance Pack
 12390001389	Growth Gift @{1}	Growth Gift @{1}
-120024	Stunt	Stunt
 12390001388	Golden Thief Bug's Gift	Golden Thief Bug's Gift
 12390001387	Deluxe Gift Box	Deluxe Gift Box
 12390001386	Crafting Pack	Crafting Pack

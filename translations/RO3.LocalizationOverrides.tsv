@@ -462,7 +462,7 @@
 10220300030	Invincible.	เป็นอมตะ
 10220300033	This unit continuously restores Life.	ยูนิตนี้ฟื้นฟู HP อย่างต่อเนื่อง
 10220300034	Already protected by the Sacred Tree Spirit. Cannot be triggered again.	ได้รับการคุ้มครองจาก Sacred Tree Spirit แล้ว ไม่สามารถทำงานซ้ำได้
-10220300044	Gain Melt Down for ${1} seconds. While active, attacks against enemy players have a ${2}% Chance to cause ^{1}Weapon Damage^{2} (disabling all attributes, affixes, and Stunts on both main-hand and off-hand weapons) for ${3} seconds. Attacks against monsters instead have a ${4}% Chance to reduce their ^{3}${5}%^{4} Physical ATK and DEF for ${6} seconds.	ได้รับ Melt Down เป็นเวลา ${1} วินาที ขณะเอฟเฟกต์ทำงาน การโจมตีผู้เล่นฝ่ายศัตรูมีโอกาส ${2}% ทำให้เกิด ^{1}Weapon Damage^{2} ซึ่งปิดการทำงานของค่าสถานะ Affixes และ Stunts ทั้งหมดของอาวุธมือหลักและมือรอง เป็นเวลา ${3} วินาที หากโจมตีมอนสเตอร์ จะมีโอกาส ${4}% ลด P.ATK และ P.DEF ลง ^{3}${5}%^{4} เป็นเวลา ${6} วินาทีแทน
+10220300044	Gain Melt Down for ${1} seconds. While active, attacks against enemy players have a ${2}% Chance to cause ^{1}Weapon Damage^{2} (disabling all attributes, affixes, and Stunts on both main-hand and off-hand weapons) for ${3} seconds. Attacks against monsters instead have a ${4}% Chance to reduce their ^{3}${5}%^{4} Physical ATK and DEF for ${6} seconds.	ได้รับ Melt Down เป็นเวลา ${1} วินาที ขณะเอฟเฟกต์ทำงาน การโจมตีผู้เล่นฝ่ายศัตรูมีโอกาส ${2}% ทำให้เกิด ^{1}Weapon Damage^{2} ซึ่งปิดการทำงานของค่าสถานะ Affixes และ ออปชั่นพิเศษ ทั้งหมดของอาวุธมือหลักและมือรอง เป็นเวลา ${3} วินาที หากโจมตีมอนสเตอร์ จะมีโอกาส ${4}% ลด P.ATK และ P.DEF ลง ^{3}${5}%^{4} เป็นเวลา ${6} วินาทีแทน
 10220300045	Weapon damaged. All Main/Off-Hand Weapon stats and Affixes are not Active.	อาวุธเสียหาย ค่าสถานะและ Affixes ทั้งหมดของอาวุธมือหลักและมือรองไม่ทำงาน
 10220300046	Reduces Physical ATK and DEF by ${1}%	ลด P.ATK และ P.DEF ลง ${1}%
 10220300049	^{1}^{2}【Cart Revolution】^{3}^{4}: Percentage damage multiplier +${1}%; Fixed Damage Increase +${2}.	^{1}^{2}[ Cart Revolution ]^{3}^{4}: ตัวคูณความเสียหายแบบเปอร์เซ็นต์ +${1}%; ความเสียหายจริงเพิ่ม +${2}
@@ -1069,13 +1069,13 @@
 10800100142	For every +${1} Refine, Physical ATK +${2}	ทุกการตีบวก +${1} P.ATK +${2}
 10800100143	For every +${1} Refine, Magic ATK +${2}	ทุกการตีบวก +${1} M.ATK +${2}
 10800100144	For every +${1} Refine, Max Life +${2}	ทุกการตีบวก +${1} Max HP +${2}
-10800100145	For every ${1} Stunts on equipped gear, Physical ATK +${2} (up to ${3} Stunts)	ทุก ${1} Stunts บนอุปกรณ์ที่สวมใส่ P.ATK +${2} (คำนวณสูงสุด ${3} Stunts)
-10800100146	For every ${1} Stunts on equipped gear, Magic ATK +${2} (up to ${3} Stunts)	ทุก ${1} Stunts บนอุปกรณ์ที่สวมใส่ M.ATK +${2} (คำนวณสูงสุด ${3} Stunts)
-10800100147	For every ${1} Stunts on equipped gear, Max Life +${2} (up to ${3} Stunts)	ทุก ${1} Stunts บนอุปกรณ์ที่สวมใส่ Max HP +${2} (คำนวณสูงสุด ${3} Stunts)
+10800100145	For every ${1} Stunts on equipped gear, Physical ATK +${2} (up to ${3} Stunts)	ทุก ${1} ออปชั่นพิเศษ บนอุปกรณ์ที่สวมใส่ P.ATK +${2} (คำนวณสูงสุด ${3} ออปชั่นพิเศษ)
+10800100146	For every ${1} Stunts on equipped gear, Magic ATK +${2} (up to ${3} Stunts)	ทุก ${1} ออปชั่นพิเศษ บนอุปกรณ์ที่สวมใส่ M.ATK +${2} (คำนวณสูงสุด ${3} ออปชั่นพิเศษ)
+10800100147	For every ${1} Stunts on equipped gear, Max Life +${2} (up to ${3} Stunts)	ทุก ${1} ออปชั่นพิเศษ บนอุปกรณ์ที่สวมใส่ Max HP +${2} (คำนวณสูงสุด ${3} ออปชั่นพิเศษ)
 10800100148	For every +${1} Refine, CRIT +${2}	ทุกการตีบวก +${1} CRIT +${2}
 10800100149	For every +${1} Refine, CRIT DMG +${2}%	ทุกการตีบวก +${1} CRIT DMG +${2}%
-10800100150	For every ${1} Stunts on equipped gear, CRIT +${2} (up to ${3} Stunts)	ทุก ${1} Stunts บนอุปกรณ์ที่สวมใส่ CRIT +${2} (คำนวณสูงสุด ${3} Stunts)
-10800100151	For every ${1} Stunts on equipped gear, CRIT DMG +${2}% (up to ${3} Stunts)	ทุก ${1} Stunts บนอุปกรณ์ที่สวมใส่ CRIT DMG +${2}% (คำนวณสูงสุด ${3} Stunts)
+10800100150	For every ${1} Stunts on equipped gear, CRIT +${2} (up to ${3} Stunts)	ทุก ${1} ออปชั่นพิเศษ บนอุปกรณ์ที่สวมใส่ CRIT +${2} (คำนวณสูงสุด ${3} ออปชั่นพิเศษ)
+10800100151	For every ${1} Stunts on equipped gear, CRIT DMG +${2}% (up to ${3} Stunts)	ทุก ${1} ออปชั่นพิเศษ บนอุปกรณ์ที่สวมใส่ CRIT DMG +${2}% (คำนวณสูงสุด ${3} ออปชั่นพิเศษ)
 10800100152	When using an instant recovery item, there is a ${1}% Chance to increase its effect by ${2}%	เมื่อใช้ไอเท็มฟื้นฟูทันที มีโอกาส ${1}% เพิ่มผลของไอเท็มขึ้น ${2}%
 10800100153	Increases PATK by ${1}% of MATK, up to ${2}.	เพิ่ม P.ATK เท่ากับ ${1}% ของ M.ATK สูงสุด ${2}
 10800100154	Increases MATK by ${1}% of PATK, up to ${2}.	เพิ่ม M.ATK เท่ากับ ${1}% ของ P.ATK สูงสุด ${2}
@@ -9955,10 +9955,10 @@
 3036	Rare Items	ไอเทมหายาก
 3037	Redeem	แลก
 3038	Redemption Rate	อัตราแลก
-12035	Randomly grants <color=#cc762a>${1}-${2}</color> Stunts	สุ่มมอบ Stunts <color=#cc762a>${1}-${2}</color> ข้อ
+12035	Randomly grants <color=#cc762a>${1}-${2}</color> Stunts	สุ่มมอบ ออปชั่นพิเศษ <color=#cc762a>${1}-${2}</color> ข้อ
 12043	Vivify Cost: <#896B4D>Free</color>	ค่า Vivify: <#896B4D>ฟรี</color>
 12044	Vivify Cost: ${1}/${2}	ค่า Vivify: ${1}/${2}
-12071	Randomly grants <color=#cc762a>${1}</color> Stunts	สุ่มมอบ Stunts <color=#cc762a>${1}</color> ข้อ
+12071	Randomly grants <color=#cc762a>${1}</color> Stunts	สุ่มมอบ ออปชั่นพิเศษ <color=#cc762a>${1}</color> ข้อ
 12074	No Stunt	ไม่มี ออปชั่นพิเศษ
 16020	None	ไม่มี
 16042	None	ไม่มี
@@ -10066,7 +10066,7 @@
 55001	Faction 4	ฝ่าย 4
 64038	Expired	หมดอายุแล้ว
 64039	Expired	หมดอายุแล้ว
-64029	Recommended Stunts	Stunts ที่แนะนำ
+64029	Recommended Stunts	ออปชั่นพิเศษ ที่แนะนำ
 65001	Meter	เมตร
 65002	Target: <#ffffff>${1}</color>	เป้าหมาย: <#ffffff>${1}</color>
 23725	Power Rankings Help Text	ข้อความช่วยเหลืออันดับพลัง
@@ -12440,7 +12440,7 @@
 13150000426	Raise any @{1} pets to Lv. @{2}	เพิ่มสัตว์เลี้ยงใดก็ได้ @{1} ตัวให้ถึง Lv. @{2}
 13150000427	Use a Treasure Map @{1} times (use a Standard Treasure Map from the Backpack)	ใช้ Treasure Map @{1} ครั้ง (ใช้ Standard Treasure Map จากกระเป๋า)
 13150000428	Reach @{1} progress toward collecting all Monster Hunt rewards in the Geffen region	มีความคืบหน้าถึง @{1} ในการรวบรวมรางวัล Monster Hunt ทั้งหมดในภูมิภาค Geffen
-13150000429	Reach a total of @{1} Stunts on equipped gear	มี Stunts รวมถึง @{1} บนอุปกรณ์ที่สวมใส่
+13150000429	Reach a total of @{1} Stunts on equipped gear	มี ออปชั่นพิเศษ รวมถึง @{1} บนอุปกรณ์ที่สวมใส่
 13150000430	Participate in the Battle of Dragon Coffin Island or Kafra: Survivor Battle @{1} times	เข้าร่วม Battle of Dragon Coffin Island หรือ Kafra: Survivor Battle @{1} ครั้ง
 13150000431	Complete the Third Job Advancement	เปลี่ยนอาชีพขั้นสามให้สำเร็จ
 13150000432	Equip @{1} Soul Echoes	ติดตั้ง Soul Echoes @{1} ชิ้น
@@ -23205,7 +23205,7 @@
 110166	Consume to gain <color=#63a22b>${1}</color> points of <color=#C27B47>${2}</color>	ใช้เพื่อรับ <color=#63a22b>${1}</color> แต้มของ <color=#C27B47>${2}</color>
 110167	Uses Remaining: ${1}/${2}	จำนวนครั้งใช้ที่เหลือ: ${1}/${2}
 110187	<color=#FA983A>${1} Class</color> Not Learned	<color=#FA983A>อาชีพ ${1}</color> ยังไม่ได้เรียนรู้
-11040000003	Stunt	การแสดงผาดโผน
+11040000003	Stunt	ออปชั่นพิเศษ
 11080000000	Seal Durability Remaining	ความทนทานผนึกที่เหลือ
 11080000001	Waiting for the Next Event	รอกิจกรรมถัดไป
 11080100000	Next Event Auto-Start Countdown	นับถอยหลังเริ่มกิจกรรมถัดไปอัตโนมัติ
@@ -25011,3 +25011,7 @@
 210012	Misc timed out. Please try again.	Misc หมดเวลา โปรดลองอีกครั้ง
 10220200274	Auto Guard Increases Attack Life	Auto Guard เพิ่ม Attack Life
 10110301061	Plant timed Dynamite on a designated ST enemy within ${1} meters. After ${2} seconds, deal Physical ATK * ^{1}${5}%^{2} Poison ranged Physical damage that ignores FLEE to the designated enemy and up to ${4} other enemies within a ${3}-meter radius, and inflict 【^{3}^{4}【Poisoned】^{5}^{6} damage on the target.	วาง Dynamite แบบตั้งเวลาบนศัตรู Single Target ที่กำหนดภายใน ${1} เมตร หลัง ${2} วินาที สร้างดาเมจกายภาพระยะไกลธาตุ Poison เท่ากับ P.ATK * ^{1}${5}%^{2} ซึ่ง Ignore FLEE แก่ศัตรูที่กำหนดและศัตรูอื่นสูงสุด ${4} ตัวภายในรัศมี ${3} เมตร และทำให้เป้าหมายได้รับ 【^{3}^{4}【Poisoned】^{5}^{6} ดาเมจ
+12017	Stunt	ออปชั่นพิเศษ
+12031	Stunt	ออปชั่นพิเศษ
+21077	Stunt	ออปชั่นพิเศษ
+120024	Stunt	ออปชั่นพิเศษ
