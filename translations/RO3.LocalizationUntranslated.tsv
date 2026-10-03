@@ -4016,6 +4016,13 @@
 170538	<color=#97E553>Lv. 3</color>	<color=#97E553>Lv. 3</color>
 170539	<color=#97E553>Lv. 2</color>	<color=#97E553>Lv. 2</color>
 170540	<color=#97E553>Lv. 3</color>	<color=#97E553>Lv. 3</color>
+13150100121	Ant Hell	Ant Hell
+13150100139	Garden of Time	Garden of Time
+13150100171	Oak Inn	Oak Inn
+13150100315	Phantom Realm	Phantom Realm
+13150100474	Academy Sanctuary	Academy Sanctuary
+13150100489	Southern Payon	Southern Payon
+13150100498	Deep Forest	Deep Forest
 40011	SP	SP
 40012	S	S
 40013	A	A
@@ -4651,6 +4658,11 @@
 13150300002	^{1}[Instance]^{2}	^{1}[Instance]^{2}
 13150300001	^{1}[War of Emperium]^{2}	^{1}[War of Emperium]^{2}
 13150300000	^{1}[Adventure Group]^{2}	^{1}[Adventure Group]^{2}
+13150100642	Oak Inn	Oak Inn
+13150100010	^{1}Boneyard^{2}	^{1}Boneyard^{2}
+13150100009	^{1}Courtyard of Chaos^{2}	^{1}Courtyard of Chaos^{2}
+13150100008	^{1}Above the Sea of Clouds^{2}	^{1}Above the Sea of Clouds^{2}
+13150100007	^{1}Temple of Melody^{2}	^{1}Temple of Melody^{2}
 10900000004	Survivor Battle	Survivor Battle
 10900000014	Guild GvE	Guild GvE
 10900000016	Dragon Coffin Island	Dragon Coffin Island
@@ -7930,6 +7942,7 @@
 10310100001	Birchwood Cart	Birchwood Cart
 10310100000	Cart Merchant	Cart Merchant
 10270000011	Katar	Katar
+64024	Training Ground	Training Ground
 64025	Novice	Novice
 64130	${1}/<color=#e5dcc1>${2}</color>	${1}/<color=#e5dcc1>${2}</color>
 64138	DPS	DPS
