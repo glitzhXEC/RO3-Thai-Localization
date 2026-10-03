@@ -47,9 +47,10 @@ for path in sorted((root/'translations').glob('batch-*.th.json')):
         if re.search(r'สแต็ก|สแตค',thai):errors.append({'ID':key,'check':'stacks_transliterated'})
         noncanonical_stat_patterns=(
             r'\b(PATK|MATK|PDEF|MDEF|MDMG|PDMG)\b',
-            r'\b(Physical ATK|Magic ATK|Physical DEF|Magic DEF|Attack Speed|Movement Speed|Critical Rate|FLEE|Dodge|Crit)\b',
+            r'\b(Physical ATK|Magic ATK|Physical DEF|Magic DEF|Attack Speed|Movement Speed|Critical Rate|Flee|Dodge|Crit)\b',
         )
         if any(re.search(pattern,thai) for pattern in noncanonical_stat_patterns):errors.append({'ID':key,'check':'noncanonical_stat'})
+        if re.search(r'\bStunt\b',thai):errors.append({'ID':key,'check':'noncanonical_glossary','term':'Stunt'})
         if not re.search(r'[\u0e00-\u0e7f]',thai):warnings.append({'ID':key,'check':'no_thai'})
 report={'translated_rows':len(translations),'errors':errors,'warnings':warnings,'in_game_tested':False,'semantic_review':'English-only fresh translations; eligible priority drafts reviewed/rewritten. Withheld source rows remain excluded. Independent linguistic and in-game QA pending.'}
 (root/'docs/qa-translations.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

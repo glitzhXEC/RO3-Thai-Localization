@@ -68,7 +68,7 @@ try:
 finally:
     target.write_bytes(saved)
 # Canonical stat spellings reject full-form and uppercase legacy variants.
-for key,canonical,legacy in [('10110301083','P.ATK','Physical ATK'),('10110301042','Flee','FLEE')]:
+for key,canonical,legacy in [('10110301083','P.ATK','Physical ATK'),('10110301042','FLEE','Flee')]:
     matches=[p for p in (root/'translations').glob('batch-*.th.json') if key in json.loads(p.read_text(encoding='utf-8'))]
     assert len(matches)==1, 'Canonical-stat regression case missing/duplicated'
     target=matches[0];saved=target.read_bytes()
@@ -79,5 +79,17 @@ for key,canonical,legacy in [('10110301083','P.ATK','Physical ATK'),('1011030104
         assert run().returncode!=0, 'Legacy stat spelling not rejected'
     finally:
         target.write_bytes(saved)
+# Stunt must use the approved Thai glossary term.
+key='12074'
+matches=[p for p in (root/'translations').glob('batch-*.th.json') if key in json.loads(p.read_text(encoding='utf-8'))]
+assert len(matches)==1, 'Stunt glossary regression case missing/duplicated'
+target=matches[0];saved=target.read_bytes()
+try:
+    data=json.loads(saved)
+    data[key]=data[key].replace('ออปชั่นพิเศษ','Stunt',1)
+    target.write_text(json.dumps(data,ensure_ascii=False),encoding='utf-8')
+    assert run().returncode!=0, 'Legacy Stunt term not rejected'
+finally:
+    target.write_bytes(saved)
 assert run().returncode==0, 'Restored baseline failed'
-print('PASS: baseline, corrupt placeholder, missing multiplication, changed bracket name, broken Unicode, draft marker, dropped live CR/tab controls, malformed bracket preservation, localized quest labels, canonical stats, restored baseline')
+print('PASS: baseline, corrupt placeholder, missing multiplication, changed bracket name, broken Unicode, draft marker, dropped live CR/tab controls, malformed bracket preservation, localized quest labels, canonical stats, Stunt glossary, restored baseline')
