@@ -76,8 +76,13 @@ try:
     data=json.loads(saved)
     data[key]=data[key].replace('ออปชั่นพิเศษ','Stunt',1)
     target.write_text(json.dumps(data,ensure_ascii=False),encoding='utf-8')
-    assert run().returncode!=0, 'Legacy Stunt term not rejected'
+    assert run().returncode!=0, 'Legacy Stunt/Stunts term not rejected'
 finally:
     target.write_bytes(saved)
+# No approved Thai target may retain singular or plural Stunt.
+import re
+for path in (root/'translations').glob('batch-*.th.json'):
+    for item_id,text in json.loads(path.read_text(encoding='utf-8')).items():
+        assert not re.search(r'\bStunts?\b',text), 'Legacy Stunt target remains: '+item_id
 assert run().returncode==0, 'Restored baseline failed'
 print('PASS: baseline, corrupt placeholder, missing multiplication, changed bracket name, broken Unicode, draft marker, dropped live CR/tab controls, malformed bracket preservation, canonical stats, Stunt glossary, restored baseline')

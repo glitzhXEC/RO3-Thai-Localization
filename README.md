@@ -15,8 +15,8 @@
 | รายการ | สถานะ |
 | --- | --- |
 | ฐานข้อความ English | 33,513 IDs |
-| คำแปลไทยใน runtime | 24,999 IDs |
-| รายการคง English | 8,514 IDs |
+| คำแปลไทยใน runtime | 25,003 IDs |
+| รายการคง English | 8,510 IDs |
 | กฎข้อความแบบไดนามิก | 3,496 rules |
 | Runtime schema | 2 |
 | Data-only update | พร้อมใช้งาน |
@@ -25,7 +25,7 @@
 รุ่นข้อมูลคำแปลล่าสุด:
 
 ```text
-1fd8068e67741bf9bd882ea49821bc70d45c640be2bb39feaca517b519d3c5f0
+6bb226188cd63e5d7243515496528fd206f1e49b7f06c37e77d0d96af95124ff
 ```
 
 ดูข้อมูลที่เผยแพร่จริงได้ที่ [`translations/live/manifest.json`](translations/live/manifest.json)
@@ -35,7 +35,7 @@
 - แปลชื่อและคำอธิบายเควสต์ที่ยังเหลือ รวมถึงข้อความยาวและต้นฉบับรูปแบบผิดปกติที่ตรวจได้อย่างปลอดภัย
 - คงชื่อแผนที่ ดันเจี้ยน เมือง โซน มอนสเตอร์ บอส NPC และสัตว์เลี้ยงเป็น English เช่น `Southern Payon` และ `Ant Hell`
 - ทำคำศัพท์ค่าสถานะให้เป็นมาตรฐาน: `P.ATK`, `M.ATK`, `P.DEF`, `M.DEF`, `ASPD`, `MSPD`, `CRIT` และ `FLEE`
-- ใช้ `ออปชั่นพิเศษ` สำหรับ `Stunt`
+- ใช้ `ออปชั่นพิเศษ` สำหรับ `Stunt`/`Stunts` ทุกจุด รวมป้ายข้อความสั้น
 - รักษาข้อความในวงเล็บที่ runtime schema 2 ใช้เป็น protected name เพื่อให้ใช้ร่วมกับ Installer เดิมได้
 - เผยแพร่ translation feed แบบ data-only หลัง validation สำเร็จ
 
@@ -80,8 +80,9 @@ Installer ไม่สแกนหาเกมทั้งเครื่อง 
 - validation และ menu checks: ผ่าน
 - LanguageHooks compiled-plugin checks: 27/27
 - language bridge/fallback checks: 91/91
-- SkillRuntime checks: 205,134/205,134
+- SkillRuntime checks: 205,138/205,138
 - updater checks: 57/57
+- Installer core checks: 43/43
 - build: ผ่าน ไม่มี error
 
 ## สำหรับนักพัฒนา

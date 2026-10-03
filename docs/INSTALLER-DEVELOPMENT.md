@@ -28,8 +28,9 @@
 - validation และ menu checks ผ่าน
 - LanguageHooks compiled-plugin checks: 27/27
 - language bridge/fallback checks: 91/91
-- SkillRuntime checks: 205,134/205,134
+- SkillRuntime checks: 205,138/205,138
 - updater checks: 57/57
+- Installer core checks: 43/43
 
 ## ระบบอัปเดตคำแปล
 
