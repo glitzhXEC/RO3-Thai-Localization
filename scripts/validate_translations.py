@@ -8,6 +8,7 @@ protected=re.compile(r'[$@^]\{\d+\}|(?<![$@^])\{\d+\}|%(?:\d+\$)?[sdif]|<[^>]+>|
 math=re.compile(r'[%*+]')
 numbers=re.compile(r'(?<![A-Za-z])\d+(?:\.\d+)?')
 brackets=re.compile(r'【([^】]+)】|\[([^\]]+)\]')
+localized_bracket_labels={'13150300002': 'ดันเจี้ยน', '13150300003': 'แข่งม้า', '13150300004': 'ภารกิจว่าจ้าง', '13150300005': 'เควสต์หลัก', '13150300006': 'เปลี่ยนอาชีพ', '13150300007': 'พิชิต', '13150300008': 'เควสต์รอง', '13150300009': 'ซ่อนเร้น', '13150300010': 'คู่มือ', '13150300011': 'อีเวนต์', '13150300012': 'ฝ่าย'}
 errors=[];warnings=[];translations={}
 for path in sorted((root/'translations').glob('batch-*.th.json')):
     for key,thai in json.loads(path.read_text(encoding='utf-8')).items():
@@ -33,9 +34,14 @@ for path in sorted((root/'translations').glob('batch-*.th.json')):
         else:
             names=[(a or b).strip() for a,b in brackets.findall(en)]
             thai_names=[(a or b).strip() for a,b in brackets.findall(thai)]
-            if names!=thai_names:errors.append({'ID':key,'check':'bracket_name_order_or_count'})
-            for name in names:
-                if '[ '+name+' ]' not in thai:errors.append({'ID':key,'check':'bracket_name','name':name})
+            if key in localized_bracket_labels:
+                expected=[localized_bracket_labels[key]]
+                if thai_names!=expected:errors.append({'ID':key,'check':'localized_bracket_label','expected':expected,'thai':thai_names})
+                if '[ '+expected[0]+' ]' not in thai:errors.append({'ID':key,'check':'localized_bracket_spacing','label':expected[0]})
+            else:
+                if names!=thai_names:errors.append({'ID':key,'check':'bracket_name_order_or_count'})
+                for name in names:
+                    if '[ '+name+' ]' not in thai:errors.append({'ID':key,'check':'bracket_name','name':name})
         if re.search(r'\bST\b',thai):errors.append({'ID':key,'check':'ST_not_expanded'})
         if re.search(r'สแต็ก|สแตค',thai):errors.append({'ID':key,'check':'stacks_transliterated'})
         if re.search(r'\b(PATK|MATK|PDEF|MDEF|MDMG|PDMG)\b',thai):errors.append({'ID':key,'check':'noncanonical_stat'})
