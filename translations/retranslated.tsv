@@ -1464,11 +1464,11 @@ ID	English	Thai_Translation
 10800100206	Grants ${1} DMG Reduction vs All Job, plus an Extra ${2} DMG Reduction vs All Job for each skill on this Totem.	ได้รับการลดดาเมจจากทุกอาชีพ ${1} และเพิ่มอีก ${2} ต่อแต่ละสกิลบน Totem นี้
 10800100207	Grants ${1} Hunting Skill, plus an Extra ${2} Hunting Skill for each skill on this Totem.	ได้รับ Hunting Skill ${1} และเพิ่มอีก ${2} ต่อแต่ละสกิลบน Totem นี้
 10800100208	Increases Hunting Protection by ${1}. Each skill on this Totem grants an Extra ${2} Hunting Protection.	เพิ่ม Hunting Protection ขึ้น ${1} แต่ละสกิลบน Totem นี้มอบ Hunting Protection เพิ่มอีก ${2}
-10800100209	Magic damage +${1}%. Each Floor of the Magic Damage buff grants an Extra ${2}% Magic damage	M.DMG +${1}% แต่ละชั้นของบัฟ Magic Damage เพิ่ม M.DMG อีก ${2}%
+10800100209	Magic damage +${1}%. Each Floor of the Magic Damage buff grants an Extra ${2}% Magic damage	M.DMG +${1}% แต่ละชั้นของบัฟ M.DMG เพิ่ม M.DMG อีก ${2}%
 10800100210	Increases the maximum Floors of the Magic buff on the current Totem by ${1}.	เพิ่มจำนวนชั้นสูงสุดของบัฟ Magic บน Totem ปัจจุบันอีก ${1}
-10800100211	Melee Physical damage +${1}%. Each Floor of the Physical Damage buff grants an Extra ${2}% melee Physical damage	ดาเมจกายภาพระยะประชิด +${1}% แต่ละชั้นของบัฟ Physical Damage เพิ่มดาเมจกายภาพระยะประชิดอีก ${2}%
-10800100212	Ranged Physical damage +${1}%. Each Floor of the Physical Damage buff grants an Extra ${2}% ranged Physical damage	ดาเมจกายภาพระยะไกล +${1}% แต่ละชั้นของบัฟ Physical Damage เพิ่มดาเมจกายภาพระยะไกลอีก ${2}%
-10800100213	Increases the maximum Floors of the Physical Damage buff on the current Totem by ${1}.	เพิ่มจำนวนชั้นสูงสุดของบัฟ Physical Damage บน Totem ปัจจุบันอีก ${1}
+10800100211	Melee Physical damage +${1}%. Each Floor of the Physical Damage buff grants an Extra ${2}% melee Physical damage	ดาเมจกายภาพระยะประชิด +${1}% แต่ละชั้นของบัฟ P.DMG เพิ่มดาเมจกายภาพระยะประชิดอีก ${2}%
+10800100212	Ranged Physical damage +${1}%. Each Floor of the Physical Damage buff grants an Extra ${2}% ranged Physical damage	ดาเมจกายภาพระยะไกล +${1}% แต่ละชั้นของบัฟ P.DMG เพิ่มดาเมจกายภาพระยะไกลอีก ${2}%
+10800100213	Increases the maximum Floors of the Physical Damage buff on the current Totem by ${1}.	เพิ่มจำนวนชั้นสูงสุดของบัฟ P.DMG บน Totem ปัจจุบันอีก ${1}
 10800100214	Increases DMG Reduction by ${1}%. Each Floor of the Defense buff grants an Extra ${2}% DMG Reduction.	เพิ่มการลดดาเมจขึ้น ${1}% แต่ละชั้นของบัฟ Defense เพิ่มการลดดาเมจอีก ${2}%
 10800100215	Increases the maximum Floors of the Defense buff on this Totem by ${1}.	เพิ่มจำนวนชั้นสูงสุดของบัฟ Defense บน Totem นี้อีก ${1}
 10800100216	Increases healing by ${1}%. Each Floor of the Healing buff grants an Extra ${2}% healing.	เพิ่มการฮีลขึ้น ${1}% แต่ละชั้นของบัฟ Healing เพิ่มการฮีลอีก ${2}%
@@ -21185,10 +21185,10 @@ ID	English	Thai_Translation
 10010300046	Magic Damage Reduction%	ลด M.DMG%
 10010300047	Damage Increase%	เพิ่มความเสียหาย%
 10010300048	Damage Reduction%	ลดความเสียหาย%
-10010300049	Physical Penetration	เจาะเกราะกายภาพ
-10010300050	Physical Penetration%	เจาะเกราะกายภาพ%
-10010300051	Magic Penetration	เจาะเกราะเวท
-10010300052	Magic Penetration%	เจาะเกราะเวท%
+10010300049	Physical Penetration	P.PEN
+10010300050	Physical Penetration%	P.PEN%
+10010300051	Magic Penetration	M.PEN
+10010300052	Magic Penetration%	M.PEN%
 10010300053	Bonus ATK	โบนัส ATK
 10010300054	Bonus MATK	โบนัส M.ATK
 10010300055	Bonus DEF	โบนัส DEF
@@ -21417,8 +21417,8 @@ ID	English	Thai_Translation
 10010400044	Magic Damage Reduction	ลด M.DMG
 10010400045	Damage Increase	เพิ่มความเสียหาย
 10010400046	DMG Reduction	ลดความเสียหาย
-10010400047	Physical Penetration	เจาะเกราะกายภาพ
-10010400048	Magic Penetration	เจาะเกราะเวท
+10010400047	Physical Penetration	P.PEN
+10010400048	Magic Penetration	M.PEN
 10010400049	Bonus ATK	โบนัส ATK
 10010400050	Bonus MATK	โบนัส M.ATK
 10010400051	Bonus DEF	โบนัส DEF
@@ -21599,8 +21599,8 @@ ID	English	Thai_Translation
 11250000072	MDEF	M.DEF
 11250000073	PDEF	P.DEF
 11250000074	Life	ชีวิต
-11250000075	Physical Penetration	เจาะเกราะกายภาพ
-11250000076	Magic Penetration	เจาะเกราะเวท
+11250000075	Physical Penetration	P.PEN
+11250000076	Magic Penetration	M.PEN
 11250000079	Neutral Resistance	ต้านทาน Neutral
 11250000080	Wind Resistance	ต้านทาน Wind
 11250000081	Earth Property Resistance	ต้านทานธาตุ Earth
@@ -25016,3 +25016,17 @@ ID	English	Thai_Translation
 12031	Stunt	ออปชั่นพิเศษ
 21077	Stunt	ออปชั่นพิเศษ
 120024	Stunt	ออปชั่นพิเศษ
+10110201853	Increase Dodge	เพิ่ม FLEE
+10470001238	Pixel Thrust Increase Dodge	Pixel Thrust เพิ่ม FLEE
+10220201465	Double Attack Increase Dodge	Double Attack เพิ่ม FLEE
+12390001658	MATK	M.ATK
+12390001659	PATK	P.ATK
+12390001660	MDEF	M.DEF
+12390001661	PDEF	P.DEF
+12390001663	Physical Penetration	P.PEN
+12390001664	Magic Penetration	M.PEN
+12390001635	Magic Damage Cap	เพดาน M.DMG
+12390001636	Physical Damage Cap	เพดาน P.DMG
+12390001617	Low-Tier Physical Penetration	P.PEN ระดับต่ำ
+12390001618	Low-Tier Magic Penetration	M.PEN ระดับต่ำ
+12390000664	Magic DEF Crystal	M.DEF Crystal

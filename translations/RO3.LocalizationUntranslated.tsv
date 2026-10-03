@@ -2536,7 +2536,6 @@
 10110201850	Active Skill@{1}	Active Skill@{1}
 10110201851	Dispel	Dispel
 10110201852	Control	Control
-10110201853	Increase Dodge	Increase Dodge
 10110201854	Double Attack	Double Attack
 10110201855	Hiding	Hiding
 10110201856	Steal	Steal
@@ -3855,7 +3854,6 @@
 10470001235	Magic Circle_Assumptio BD	Magic Circle_Assumptio BD
 10470001236	Magic Circle_Advanced Cross Exorciser Attack BD	Magic Circle_Advanced Cross Exorciser Attack BD
 10470001237	Holy Light Corridor	Holy Light Corridor
-10470001238	Pixel Thrust Increase Dodge	Pixel Thrust Increase Dodge
 10470001239	Arrow Storm	Arrow Storm
 10470001240	Magic Circle_Assassin Shadow S@{1}	Magic Circle_Assassin Shadow S@{1}
 10470001241	Reno	Reno
@@ -4974,13 +4972,7 @@
 12390001667	Neutral Resistance	Neutral Resistance
 12390001666	FLEE	FLEE
 12390001665	HIT	HIT
-12390001664	Magic Penetration	Magic Penetration
-12390001663	Physical Penetration	Physical Penetration
 12390001662	Life	Life
-12390001661	PDEF	PDEF
-12390001660	MDEF	MDEF
-12390001659	PATK	PATK
-12390001658	MATK	MATK
 12390001657	Continuous Shield	Continuous Shield
 12390001656	Desperate Defense	Desperate Defense
 12390001655	Fortitude Defense	Fortitude Defense
@@ -5002,8 +4994,6 @@
 12390001639	Magic Amplification	Magic Amplification
 12390001638	Healing Cap	Healing Cap
 12390001637	Defense Cap	Defense Cap
-12390001636	Physical Damage Cap	Physical Damage Cap
-12390001635	Magic Damage Cap	Magic Damage Cap
 12390001634	Low-Level Hunting Protection	Low-Level Hunting Protection
 12390001633	Basic Hunting Technique	Basic Hunting Technique
 12390001632	Low-Tier DMG Reduction vs All Job	Low-Tier DMG Reduction vs All Job
@@ -5020,8 +5010,6 @@
 12390001621	Low-Tier Neutral Resistance	Low-Tier Neutral Resistance
 12390001620	Low-Tier FLEE	Low-Tier FLEE
 12390001619	Low-Tier HIT	Low-Tier HIT
-12390001618	Low-Tier Magic Penetration	Low-Tier Magic Penetration
-12390001617	Low-Tier Physical Penetration	Low-Tier Physical Penetration
 12390001616	Low-Tier Life	Low-Tier Life
 12390001615	Low-Tier Physical Defense	Low-Tier Physical Defense
 12390001614	Low-Tier Magic Defense	Low-Tier Magic Defense
@@ -5987,7 +5975,6 @@
 12390000667	Butterfly Wing	Butterfly Wing
 12390000666	Life Crystal@{1}	Life Crystal@{1}
 12390000665	Life Crystal	Life Crystal
-12390000664	Magic DEF Crystal	Magic DEF Crystal
 12390000663	Mana Crystal	Mana Crystal
 12390000662	Shield Crystal	Shield Crystal
 12390000661	Blade Crystal	Blade Crystal
@@ -7474,7 +7461,6 @@
 10220201462	Grimtooth	Grimtooth
 10220201463	Venom Splasher	Venom Splasher
 10220201464	Envenom	Envenom
-10220201465	Double Attack Increase Dodge	Double Attack Increase Dodge
 10220201466	Deadly Poison	Deadly Poison
 10220201468	Advanced Soul Destroyer	Advanced Soul Destroyer
 10220201471	Advanced Katar Mastery	Advanced Katar Mastery
