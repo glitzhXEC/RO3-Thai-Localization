@@ -5,6 +5,6 @@
 - `Flee` / `Dodge` → `FLEE`: **16 IDs**
 - `Stunt` → `ออปชั่นพิเศษ`: **13 IDs**
 
-คงมาตรฐานเดิมสำหรับ `P.ATK`, `M.ATK`, `P.DEF`, `M.DEF`, `ASPD`, `MSPD` และ `CRIT`
+คงมาตรฐาน `P.ATK`, `M.ATK`, `P.DEF`, `M.DEF`, `ASPD`, `MSPD` และ `CRIT` ในข้อความทั่วไป ส่วนข้อความใน protected brackets ต้องคงตรง English เพื่อให้ runtime schema 2 ของ Installer ยอมรับ data-only feed
 
-Validator ปฏิเสธ `Flee`, `Dodge`, `Crit`, รูป ATK/DEF แบบเก่า และคำ `Stunt` ที่หลงเหลือใน target พร้อม regression tests ป้องกันการย้อนกลับ
+Validator ปฏิเสธรูปเก่านอก protected brackets และคำ `Stunt` ที่หลงเหลือใน target พร้อม regression tests ป้องกันการย้อนกลับ

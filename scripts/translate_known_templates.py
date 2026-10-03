@@ -19,7 +19,7 @@ stat={
  'Physical DEF and Magic DEF':'P.DEF และ M.DEF','Physical/Magic DEF':'P.DEF/M.DEF','Physical/Magic ATK':'P.ATK/M.ATK',
  'Movement Speed':'MSPD','Move Speed':'MSPD','MSPD':'MSPD','Attack Speed':'ASPD','ATK Speed':'ASPD','Cast Speed':'Cast Speed','Attack':'ATK','ATK':'ATK','DEF':'DEF',
  'Max Life':'Max HP','Max HP':'Max HP','Life':'HP','HP':'HP','Max MP':'Max MP','MP Recovery Speed':'ความเร็วในการฟื้นฟู MP','MP Regen':'MP Regen',
- 'Crit Chance':'CRIT','Critical Rate':'CRIT','CRIT Rate':'CRIT','Crit':'CRIT','CRIT':'CRIT','Crit DMG':'CRIT DMG','CRIT DMG':'CRIT DMG','FLEE':'Flee','Flee':'Flee','HIT':'Hit',
+ 'Crit Chance':'CRIT','Critical Rate':'CRIT','CRIT Rate':'CRIT','Crit':'CRIT','CRIT':'CRIT','Crit DMG':'CRIT DMG','CRIT DMG':'CRIT DMG','FLEE':'FLEE','Flee':'FLEE','HIT':'Hit',
  'Physical Damage':'P.DMG','Physical damage':'P.DMG','Physical DMG':'P.DMG','Magic DMG':'M.DMG','Magic damage':'M.DMG',
  'Damage':'ความเสียหาย','damage':'ความเสียหาย','damage dealt':'ความเสียหายที่สร้าง','damage taken':'ความเสียหายที่ได้รับ','Damage taken':'ความเสียหายที่ได้รับ','Damage Taken':'ความเสียหายที่ได้รับ',
  'Damage Reduction':'การลดความเสียหาย','damage reduction':'การลดความเสียหาย','Damage Increase':'การเพิ่มความเสียหาย','Healing Received':'การฟื้นฟูที่ได้รับ','healing received':'การฟื้นฟูที่ได้รับ','Healing Volume':'ปริมาณการฟื้นฟู','Healing':'การฟื้นฟู',

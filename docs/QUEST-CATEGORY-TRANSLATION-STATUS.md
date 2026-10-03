@@ -1,19 +1,5 @@
-# Quest category labels — batch 120
+# Quest category labels — runtime compatibility hold
 
-แปลป้ายประเภทเควสต์ที่เป็นคำอธิบายทั่วไปเพิ่ม **11 IDs** โดยรักษา style marker และวงเล็บเดิม
+ป้ายประเภทเควสต์ใน protected brackets เช่น `[Main Quest]` และ `[Side Quest]` ยังคง English เพราะ runtime schema 2 ใน `RO3-Thai-Patch-Installer.exe` ตรวจ bracket content เป็นชื่อที่ต้องตรงต้นฉบับ การแปลป้ายเหล่านี้ทำให้ data-only feed ถูกปฏิเสธด้วย `Status names changed`
 
-- `[Instance]` → `[ ดันเจี้ยน ]`
-- `[Horse Racing]` → `[ แข่งม้า ]`
-- `[Commission]` → `[ ภารกิจว่าจ้าง ]`
-- `[Main Quest]` → `[ เควสต์หลัก ]`
-- `[Job Advance]` → `[ เปลี่ยนอาชีพ ]`
-- `[Conquest]` → `[ พิชิต ]`
-- `[Side Quest]` → `[ เควสต์รอง ]`
-- `[Hidden]` → `[ ซ่อนเร้น ]`
-- `[Guide]` → `[ คู่มือ ]`
-- `[Event]` → `[ อีเวนต์ ]`
-- `[Faction]` → `[ ฝ่าย ]`
-
-คง `[Adventure Group]` และ `[War of Emperium]` เป็น English เพราะเป็นชื่อเฉพาะ ไม่ใช่คำอธิบายหมวดทั่วไป
-
-Validator อนุญาตเฉพาะรายการและคำแปลที่กำหนดไว้ข้างต้น ไม่ได้เปิดให้แปลชื่ออื่นใน protected brackets และมี regression test ป้องกันคำแปลเปลี่ยนโดยไม่ตั้งใจ
+การแปลรอบ batch 120 จึงถูกถอดออกจาก runtime feed จนกว่าจะมี Installer/runtime รุ่นใหม่ที่รองรับ localized bracket labels โดยชัดเจน ชื่อและข้อความนอก protected brackets ยังแปลตามปกติ
