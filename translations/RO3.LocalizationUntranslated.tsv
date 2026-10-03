@@ -7127,7 +7127,6 @@
 10220200246	Devotion	Devotion
 10220200247	Battle Chant	Battle Chant
 10220200251	Advanced Monster Resistance	Advanced Monster Resistance
-10220200274	Auto Guard Increases Attack Life	Auto Guard Increases Attack Life
 10220200287	Over Brand	Over Brand
 10220200291	Reflect Damage	Reflect Damage
 10220200295	King's Grace	King's Grace
@@ -7802,7 +7801,6 @@
 62074	${1}/${2}	${1}/${2}
 62084	<color=#887968>${1}</color>/${2}	<color=#887968>${1}</color>/${2}
 62098	${1}	${1}
-10110301061	Plant timed Dynamite on a designated ST enemy within ${1} meters. After ${2} seconds, deal Physical ATK * ^{1}${5}%^{2} Poison ranged Physical damage that ignores FLEE to the designated enemy and up to ${4} other enemies within a ${3}-meter radius, and inflict 【^{3}^{4}【Poisoned】^{5}^{6} damage on the target.	Plant timed Dynamite on a designated ST enemy within ${1} meters. After ${2} seconds, deal Physical ATK * ^{1}${5}%^{2} Poison ranged Physical damage that ignores FLEE to the designated enemy and up to ${4} other enemies within a ${3}-meter radius, and inflict 【^{3}^{4}【Poisoned】^{5}^{6} damage on the target.
 1111006	¥	¥
 1111007	$	$
 1111016	1200%	1200%
